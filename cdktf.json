@@ -3,9 +3,13 @@
   "app": "dotnet run -p MyTerraformStack.csproj",
   "projectId": "57536c69-27e2-4bcc-b35f-befae5eaf68f",
   "sendCrashReports": "false",
-  "terraformProviders": [],
+  "terraformProviders": [
+    "vancluever/acme@~> 2.47",
+    "hashicorp/aws@~> 6.41",
+    "cloudflare/cloudflare@5.18",
+    "digitalocean/digitalocean@~> 2.84",
+    "hashicorp/random@~> 3.8"
+  ],
   "terraformModules": [],
-  "context": {
-
-  }
+  "context": {}
 }

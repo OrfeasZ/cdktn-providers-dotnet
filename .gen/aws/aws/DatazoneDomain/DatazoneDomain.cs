@@ -1,0 +1,353 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace aws.DatazoneDomain
+{
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_domain aws_datazone_domain}.</summary>
+    [JsiiClass(nativeType: typeof(aws.DatazoneDomain.DatazoneDomain), fullyQualifiedName: "aws.datazoneDomain.DatazoneDomain", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.datazoneDomain.DatazoneDomainConfig\"}}]")]
+    public class DatazoneDomain : Io.Cdktn.TerraformResource
+    {
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_domain aws_datazone_domain} Resource.</summary>
+        /// <param name="scope">The scope in which to define this construct.</param>
+        /// <param name="id">The scoped construct ID.</param>
+        public DatazoneDomain(Constructs.Construct scope, string id, aws.DatazoneDomain.IDatazoneDomainConfig config): base(_MakeDeputyProps(scope, id, config))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, aws.DatazoneDomain.IDatazoneDomainConfig config)
+        {
+            return new DeputyProps(new object?[]{scope, id, config});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DatazoneDomain(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DatazoneDomain(DeputyProps props): base(props)
+        {
+        }
+
+        /// <summary>Generates CDKTN code for importing a DatazoneDomain resource upon running "cdktn plan &lt;stack-name&gt;".</summary>
+        /// <param name="scope">The scope in which to define this construct.</param>
+        /// <param name="importToId">The construct id used in the generated config for the DatazoneDomain to import.</param>
+        /// <param name="importFromId">The id of the existing DatazoneDomain that should be imported.</param>
+        /// <param name="provider">? Optional instance of the provider where the DatazoneDomain to import is found.</param>
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatazoneDomain to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_domain#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatazoneDomain that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatazoneDomain to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
+        {
+            return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DatazoneDomain.DatazoneDomain), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putSingleSignOn", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datazoneDomain.DatazoneDomainSingleSignOn\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutSingleSignOn(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.DatazoneDomain.IDatazoneDomainSingleSignOn[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.DatazoneDomain.IDatazoneDomainSingleSignOn).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.DatazoneDomain.IDatazoneDomainSingleSignOn).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.datazoneDomain.DatazoneDomainTimeouts\"}}]")]
+        public virtual void PutTimeouts(aws.DatazoneDomain.IDatazoneDomainTimeouts @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.DatazoneDomain.IDatazoneDomainTimeouts)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetDescription")]
+        public virtual void ResetDescription()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDomainVersion")]
+        public virtual void ResetDomainVersion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetKmsKeyIdentifier")]
+        public virtual void ResetKmsKeyIdentifier()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRegion")]
+        public virtual void ResetRegion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetServiceRole")]
+        public virtual void ResetServiceRole()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSingleSignOn")]
+        public virtual void ResetSingleSignOn()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSkipDeletionCheck")]
+        public virtual void ResetSkipDeletionCheck()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTags")]
+        public virtual void ResetTags()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTimeouts")]
+        public virtual void ResetTimeouts()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "synthesizeAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
+        protected override System.Collections.Generic.IDictionary<string, object> SynthesizeAttributes()
+        {
+            return InvokeInstanceMethod<System.Collections.Generic.IDictionary<string, object>>(new System.Type[]{}, new object[]{})!;
+        }
+
+        [JsiiMethod(name: "synthesizeHclAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
+        protected override System.Collections.Generic.IDictionary<string, object> SynthesizeHclAttributes()
+        {
+            return InvokeInstanceMethod<System.Collections.Generic.IDictionary<string, object>>(new System.Type[]{}, new object[]{})!;
+        }
+
+        [JsiiProperty(name: "tfResourceType", typeJson: "{\"primitive\":\"string\"}")]
+        public static string TfResourceType
+        {
+            get;
+        }
+        = GetStaticProperty<string>(typeof(aws.DatazoneDomain.DatazoneDomain))!;
+
+        [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Arn
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "portalUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PortalUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "rootDomainUnitId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RootDomainUnitId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "singleSignOn", typeJson: "{\"fqn\":\"aws.datazoneDomain.DatazoneDomainSingleSignOnList\"}")]
+        public virtual aws.DatazoneDomain.DatazoneDomainSingleSignOnList SingleSignOn
+        {
+            get => GetInstanceProperty<aws.DatazoneDomain.DatazoneDomainSingleSignOnList>()!;
+        }
+
+        [JsiiProperty(name: "tagsAll", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap TagsAll
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.datazoneDomain.DatazoneDomainTimeoutsOutputReference\"}")]
+        public virtual aws.DatazoneDomain.DatazoneDomainTimeoutsOutputReference Timeouts
+        {
+            get => GetInstanceProperty<aws.DatazoneDomain.DatazoneDomainTimeoutsOutputReference>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "descriptionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DescriptionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "domainExecutionRoleInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DomainExecutionRoleInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "domainVersionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DomainVersionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "kmsKeyIdentifierInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? KmsKeyIdentifierInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "nameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NameInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "regionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RegionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "serviceRoleInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ServiceRoleInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "singleSignOnInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datazoneDomain.DatazoneDomainSingleSignOn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? SingleSignOnInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "skipDeletionCheckInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? SkipDeletionCheckInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? TagsInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.datazoneDomain.DatazoneDomainTimeouts\"}]}}", isOptional: true)]
+        public virtual object? TimeoutsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Description
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "domainExecutionRole", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DomainExecutionRole
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "domainVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DomainVersion
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "kmsKeyIdentifier", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KmsKeyIdentifier
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Name
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Region
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "serviceRole", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ServiceRole
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "skipDeletionCheck", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object SkipDeletionCheck
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> Tags
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
+            set => SetInstanceProperty(value);
+        }
+    }
+}

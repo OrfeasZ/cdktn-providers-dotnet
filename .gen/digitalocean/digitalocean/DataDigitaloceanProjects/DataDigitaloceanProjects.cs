@@ -1,0 +1,178 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace digitalocean.DataDigitaloceanProjects
+{
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/projects digitalocean_projects}.</summary>
+    [JsiiClass(nativeType: typeof(digitalocean.DataDigitaloceanProjects.DataDigitaloceanProjects), fullyQualifiedName: "digitalocean.dataDigitaloceanProjects.DataDigitaloceanProjects", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"digitalocean.dataDigitaloceanProjects.DataDigitaloceanProjectsConfig\"}}]")]
+    public class DataDigitaloceanProjects : Io.Cdktn.TerraformDataSource
+    {
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/projects digitalocean_projects} Data Source.</summary>
+        /// <param name="scope">The scope in which to define this construct.</param>
+        /// <param name="id">The scoped construct ID.</param>
+        public DataDigitaloceanProjects(Constructs.Construct scope, string id, digitalocean.DataDigitaloceanProjects.IDataDigitaloceanProjectsConfig? config = null): base(_MakeDeputyProps(scope, id, config))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, digitalocean.DataDigitaloceanProjects.IDataDigitaloceanProjectsConfig? config = null)
+        {
+            return new DeputyProps(new object?[]{scope, id, config});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DataDigitaloceanProjects(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DataDigitaloceanProjects(DeputyProps props): base(props)
+        {
+        }
+
+        /// <summary>Generates CDKTN code for importing a DataDigitaloceanProjects resource upon running "cdktn plan &lt;stack-name&gt;".</summary>
+        /// <param name="scope">The scope in which to define this construct.</param>
+        /// <param name="importToId">The construct id used in the generated config for the DataDigitaloceanProjects to import.</param>
+        /// <param name="importFromId">The id of the existing DataDigitaloceanProjects that should be imported.</param>
+        /// <param name="provider">? Optional instance of the provider where the DataDigitaloceanProjects to import is found.</param>
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataDigitaloceanProjects to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/projects#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataDigitaloceanProjects that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataDigitaloceanProjects to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
+        {
+            return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.DataDigitaloceanProjects.DataDigitaloceanProjects), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanProjects.DataDigitaloceanProjectsFilter\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutFilter(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case digitalocean.DataDigitaloceanProjects.IDataDigitaloceanProjectsFilter[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(digitalocean.DataDigitaloceanProjects.IDataDigitaloceanProjectsFilter).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(digitalocean.DataDigitaloceanProjects.IDataDigitaloceanProjectsFilter).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putSort", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanProjects.DataDigitaloceanProjectsSort\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutSort(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case digitalocean.DataDigitaloceanProjects.IDataDigitaloceanProjectsSort[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(digitalocean.DataDigitaloceanProjects.IDataDigitaloceanProjectsSort).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(digitalocean.DataDigitaloceanProjects.IDataDigitaloceanProjectsSort).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetFilter")]
+        public virtual void ResetFilter()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetId")]
+        public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSort")]
+        public virtual void ResetSort()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "synthesizeAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
+        protected override System.Collections.Generic.IDictionary<string, object> SynthesizeAttributes()
+        {
+            return InvokeInstanceMethod<System.Collections.Generic.IDictionary<string, object>>(new System.Type[]{}, new object[]{})!;
+        }
+
+        [JsiiMethod(name: "synthesizeHclAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
+        protected override System.Collections.Generic.IDictionary<string, object> SynthesizeHclAttributes()
+        {
+            return InvokeInstanceMethod<System.Collections.Generic.IDictionary<string, object>>(new System.Type[]{}, new object[]{})!;
+        }
+
+        [JsiiProperty(name: "tfResourceType", typeJson: "{\"primitive\":\"string\"}")]
+        public static string TfResourceType
+        {
+            get;
+        }
+        = GetStaticProperty<string>(typeof(digitalocean.DataDigitaloceanProjects.DataDigitaloceanProjects))!;
+
+        [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanProjects.DataDigitaloceanProjectsFilterList\"}")]
+        public virtual digitalocean.DataDigitaloceanProjects.DataDigitaloceanProjectsFilterList Filter
+        {
+            get => GetInstanceProperty<digitalocean.DataDigitaloceanProjects.DataDigitaloceanProjectsFilterList>()!;
+        }
+
+        [JsiiProperty(name: "projects", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanProjects.DataDigitaloceanProjectsProjectsList\"}")]
+        public virtual digitalocean.DataDigitaloceanProjects.DataDigitaloceanProjectsProjectsList Projects
+        {
+            get => GetInstanceProperty<digitalocean.DataDigitaloceanProjects.DataDigitaloceanProjectsProjectsList>()!;
+        }
+
+        [JsiiProperty(name: "sort", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanProjects.DataDigitaloceanProjectsSortList\"}")]
+        public virtual digitalocean.DataDigitaloceanProjects.DataDigitaloceanProjectsSortList Sort
+        {
+            get => GetInstanceProperty<digitalocean.DataDigitaloceanProjects.DataDigitaloceanProjectsSortList>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanProjects.DataDigitaloceanProjectsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? FilterInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "idInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? IdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "sortInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanProjects.DataDigitaloceanProjectsSort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? SortInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+    }
+}

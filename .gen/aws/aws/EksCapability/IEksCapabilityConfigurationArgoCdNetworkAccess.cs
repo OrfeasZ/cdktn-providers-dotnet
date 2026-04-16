@@ -1,0 +1,37 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace aws.EksCapability
+{
+    [JsiiInterface(nativeType: typeof(IEksCapabilityConfigurationArgoCdNetworkAccess), fullyQualifiedName: "aws.eksCapability.EksCapabilityConfigurationArgoCdNetworkAccess")]
+    public interface IEksCapabilityConfigurationArgoCdNetworkAccess
+    {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_capability#vpce_ids EksCapability#vpce_ids}.</summary>
+        [JsiiProperty(name: "vpceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string[]? VpceIds
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        [JsiiTypeProxy(nativeType: typeof(IEksCapabilityConfigurationArgoCdNetworkAccess), fullyQualifiedName: "aws.eksCapability.EksCapabilityConfigurationArgoCdNetworkAccess")]
+        internal sealed class _Proxy : DeputyBase, aws.EksCapability.IEksCapabilityConfigurationArgoCdNetworkAccess
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_capability#vpce_ids EksCapability#vpce_ids}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "vpceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+            public string[]? VpceIds
+            {
+                get => GetInstanceProperty<string[]?>();
+            }
+        }
+    }
+}

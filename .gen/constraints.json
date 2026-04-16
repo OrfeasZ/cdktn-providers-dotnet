@@ -1,0 +1,10 @@
+{
+  "cdktf": "0.22.1",
+  "providers": {
+    "acme": "~> 2.47",
+    "aws": "~> 6.41",
+    "cloudflare": "5.18",
+    "digitalocean": "~> 2.84",
+    "random": "~> 3.8"
+  }
+}

@@ -1,0 +1,38 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace cloudflare.ZeroTrustAccessGroup
+{
+    [JsiiInterface(nativeType: typeof(IZeroTrustAccessGroupExcludeEmailDomain), fullyQualifiedName: "cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeEmailDomain")]
+    public interface IZeroTrustAccessGroupExcludeEmailDomain
+    {
+        /// <summary>The email domain to match.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#domain ZeroTrustAccessGroup#domain}
+        /// </remarks>
+        [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
+        string Domain
+        {
+            get;
+        }
+
+        [JsiiTypeProxy(nativeType: typeof(IZeroTrustAccessGroupExcludeEmailDomain), fullyQualifiedName: "cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeEmailDomain")]
+        internal sealed class _Proxy : DeputyBase, cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeEmailDomain
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+
+            /// <summary>The email domain to match.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#domain ZeroTrustAccessGroup#domain}
+            /// </remarks>
+            [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
+            public string Domain
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+        }
+    }
+}

@@ -1,0 +1,185 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace aws.Route53TrafficPolicyInstance
+{
+    [JsiiInterface(nativeType: typeof(IRoute53TrafficPolicyInstanceConfig), fullyQualifiedName: "aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig")]
+    public interface IRoute53TrafficPolicyInstanceConfig : Io.Cdktn.ITerraformMetaArguments
+    {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_traffic_policy_instance#hosted_zone_id Route53TrafficPolicyInstance#hosted_zone_id}.</summary>
+        [JsiiProperty(name: "hostedZoneId", typeJson: "{\"primitive\":\"string\"}")]
+        string HostedZoneId
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_traffic_policy_instance#name Route53TrafficPolicyInstance#name}.</summary>
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        string Name
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_traffic_policy_instance#traffic_policy_id Route53TrafficPolicyInstance#traffic_policy_id}.</summary>
+        [JsiiProperty(name: "trafficPolicyId", typeJson: "{\"primitive\":\"string\"}")]
+        string TrafficPolicyId
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_traffic_policy_instance#traffic_policy_version Route53TrafficPolicyInstance#traffic_policy_version}.</summary>
+        [JsiiProperty(name: "trafficPolicyVersion", typeJson: "{\"primitive\":\"number\"}")]
+        double TrafficPolicyVersion
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_traffic_policy_instance#ttl Route53TrafficPolicyInstance#ttl}.</summary>
+        [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}")]
+        double Ttl
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_traffic_policy_instance#id Route53TrafficPolicyInstance#id}.</summary>
+        /// <remarks>
+        /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+        /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+        /// </remarks>
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Id
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        [JsiiTypeProxy(nativeType: typeof(IRoute53TrafficPolicyInstanceConfig), fullyQualifiedName: "aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig")]
+        internal sealed class _Proxy : DeputyBase, aws.Route53TrafficPolicyInstance.IRoute53TrafficPolicyInstanceConfig
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_traffic_policy_instance#hosted_zone_id Route53TrafficPolicyInstance#hosted_zone_id}.</summary>
+            [JsiiProperty(name: "hostedZoneId", typeJson: "{\"primitive\":\"string\"}")]
+            public string HostedZoneId
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_traffic_policy_instance#name Route53TrafficPolicyInstance#name}.</summary>
+            [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+            public string Name
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_traffic_policy_instance#traffic_policy_id Route53TrafficPolicyInstance#traffic_policy_id}.</summary>
+            [JsiiProperty(name: "trafficPolicyId", typeJson: "{\"primitive\":\"string\"}")]
+            public string TrafficPolicyId
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_traffic_policy_instance#traffic_policy_version Route53TrafficPolicyInstance#traffic_policy_version}.</summary>
+            [JsiiProperty(name: "trafficPolicyVersion", typeJson: "{\"primitive\":\"number\"}")]
+            public double TrafficPolicyVersion
+            {
+                get => GetInstanceProperty<double>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_traffic_policy_instance#ttl Route53TrafficPolicyInstance#ttl}.</summary>
+            [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}")]
+            public double Ttl
+            {
+                get => GetInstanceProperty<double>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_traffic_policy_instance#id Route53TrafficPolicyInstance#id}.</summary>
+            /// <remarks>
+            /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+            /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Id
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
+            public object? Connection
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
+            public object? Count
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "dependsOn", typeJson: "{\"collection\":{\"elementtype\":{\"fqn\":\"cdktn.ITerraformDependable\"},\"kind\":\"array\"}}", isOptional: true)]
+            public Io.Cdktn.ITerraformDependable[]? DependsOn
+            {
+                get => GetInstanceProperty<Io.Cdktn.ITerraformDependable[]?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "forEach", typeJson: "{\"fqn\":\"cdktn.ITerraformIterator\"}", isOptional: true)]
+            public Io.Cdktn.ITerraformIterator? ForEach
+            {
+                get => GetInstanceProperty<Io.Cdktn.ITerraformIterator?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "lifecycle", typeJson: "{\"fqn\":\"cdktn.TerraformResourceLifecycle\"}", isOptional: true)]
+            public Io.Cdktn.ITerraformResourceLifecycle? Lifecycle
+            {
+                get => GetInstanceProperty<Io.Cdktn.ITerraformResourceLifecycle?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "provider", typeJson: "{\"fqn\":\"cdktn.TerraformProvider\"}", isOptional: true)]
+            public Io.Cdktn.TerraformProvider? Provider
+            {
+                get => GetInstanceProperty<Io.Cdktn.TerraformProvider?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]
+            public object[]? Provisioners
+            {
+                get => GetInstanceProperty<object[]?>();
+            }
+        }
+    }
+}

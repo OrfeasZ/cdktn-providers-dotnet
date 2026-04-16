@@ -1,0 +1,94 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace cloudflare.ZeroTrustTunnelCloudflared
+{
+    [JsiiClass(nativeType: typeof(cloudflare.ZeroTrustTunnelCloudflared.ZeroTrustTunnelCloudflaredConnectionsOutputReference), fullyQualifiedName: "cloudflare.zeroTrustTunnelCloudflared.ZeroTrustTunnelCloudflaredConnectionsOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"the index of this item in the list.\"},\"name\":\"complexObjectIndex\",\"type\":{\"primitive\":\"number\"}},{\"docs\":{\"summary\":\"whether the list is wrapping a set (will add tolist() to be able to access an item via an index).\"},\"name\":\"complexObjectIsFromSet\",\"type\":{\"primitive\":\"boolean\"}}]")]
+    public class ZeroTrustTunnelCloudflaredConnectionsOutputReference : Io.Cdktn.ComplexObject
+    {
+        /// <param name="terraformResource">The parent resource.</param>
+        /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
+        /// <param name="complexObjectIndex">the index of this item in the list.</param>
+        /// <param name="complexObjectIsFromSet">whether the list is wrapping a set (will add tolist() to be able to access an item via an index).</param>
+        public ZeroTrustTunnelCloudflaredConnectionsOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet): base(_MakeDeputyProps(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet)
+        {
+            return new DeputyProps(new object?[]{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected ZeroTrustTunnelCloudflaredConnectionsOutputReference(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected ZeroTrustTunnelCloudflaredConnectionsOutputReference(DeputyProps props): base(props)
+        {
+        }
+
+        [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ClientId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "clientVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ClientVersion
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "coloName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ColoName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "isPendingReconnect", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsPendingReconnect
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "openedAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OpenedAt
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "originIp", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OriginIp
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "uuid", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Uuid
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.zeroTrustTunnelCloudflared.ZeroTrustTunnelCloudflaredConnections\"}", isOptional: true)]
+        public virtual cloudflare.ZeroTrustTunnelCloudflared.IZeroTrustTunnelCloudflaredConnections? InternalValue
+        {
+            get => GetInstanceProperty<cloudflare.ZeroTrustTunnelCloudflared.IZeroTrustTunnelCloudflaredConnections?>();
+            set => SetInstanceProperty(value);
+        }
+    }
+}
