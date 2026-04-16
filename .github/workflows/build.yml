@@ -1,0 +1,48 @@
+name: Build and Publish NuGet Packages
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write # Required for OIDC trusted publishing
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "9.0.x"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Patch projects
+        run: python patch-projects.py
+
+      - name: Pack all providers
+        run: |
+          for csproj in .gen/*/*.csproj; do
+            dotnet pack "$csproj" -c Release -o "${{ github.workspace }}/artifacts"
+          done
+
+      - name: NuGet login (OIDC trusted publishing)
+        uses: NuGet/login@v1
+        id: login
+        with:
+          user: orfeasz
+
+      - name: Push packages
+        run: |
+          for pkg in artifacts/*.nupkg; do
+            dotnet nuget push "$pkg" \
+              --api-key "${{ steps.login.outputs.NUGET_API_KEY }}" \
+              --source https://api.nuget.org/v3/index.json \
+              --skip-duplicate
+          done
