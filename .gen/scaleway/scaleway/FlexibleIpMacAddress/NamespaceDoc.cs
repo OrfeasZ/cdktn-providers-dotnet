@@ -1,0 +1,14 @@
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace scaleway.FlexibleIpMacAddress
+{
+    /// <remarks>
+    /// <h1><c>scaleway_flexible_ip_mac_address</c></h1>
+    ///
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/flexible_ip_mac_address"><c>scaleway_flexible_ip_mac_address</c></a>.
+    /// </remarks>
+    [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+    public class NamespaceDoc
+    {
+    }
+}

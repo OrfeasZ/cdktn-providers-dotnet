@@ -8,7 +8,11 @@
     "hashicorp/aws@~> 6.41",
     "cloudflare/cloudflare@5.18",
     "digitalocean/digitalocean@~> 2.84",
-    "hashicorp/random@~> 3.8"
+    "hashicorp/random@~> 3.8",
+    "hetznercloud/hcloud@~> 1.60",
+    "kislerdm/neon@~> 0.13",
+    "scaleway/scaleway@~> 2.73",
+    "stripe/stripe@~> 0.2"
   ],
   "terraformModules": [],
   "context": {}

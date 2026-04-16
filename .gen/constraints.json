@@ -5,6 +5,10 @@
     "aws": "~> 6.41",
     "cloudflare": "5.18",
     "digitalocean": "~> 2.84",
-    "random": "~> 3.8"
+    "hcloud": "~> 1.60",
+    "neon": "~> 0.13",
+    "random": "~> 3.8",
+    "scaleway": "~> 2.73",
+    "stripe": "~> 0.2"
   }
 }
