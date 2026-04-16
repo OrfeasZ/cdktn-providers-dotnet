@@ -1,0 +1,58 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace acme.Certificate
+{
+    [JsiiClass(nativeType: typeof(acme.Certificate.CertificateHttpS3ChallengeOutputReference), fullyQualifiedName: "acme.certificate.CertificateHttpS3ChallengeOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}}]")]
+    public class CertificateHttpS3ChallengeOutputReference : Io.Cdktn.ComplexObject
+    {
+        /// <param name="terraformResource">The parent resource.</param>
+        /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
+        public CertificateHttpS3ChallengeOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute): base(_MakeDeputyProps(terraformResource, terraformAttribute))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute)
+        {
+            return new DeputyProps(new object?[]{terraformResource, terraformAttribute});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected CertificateHttpS3ChallengeOutputReference(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected CertificateHttpS3ChallengeOutputReference(DeputyProps props): base(props)
+        {
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "s3BucketInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? S3BucketInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "s3Bucket", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string S3Bucket
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"acme.certificate.CertificateHttpS3Challenge\"}", isOptional: true)]
+        public virtual acme.Certificate.ICertificateHttpS3Challenge? InternalValue
+        {
+            get => GetInstanceProperty<acme.Certificate.ICertificateHttpS3Challenge?>();
+            set => SetInstanceProperty(value);
+        }
+    }
+}

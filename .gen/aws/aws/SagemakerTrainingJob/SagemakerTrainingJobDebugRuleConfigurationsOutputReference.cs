@@ -1,0 +1,194 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace aws.SagemakerTrainingJob
+{
+    [JsiiClass(nativeType: typeof(aws.SagemakerTrainingJob.SagemakerTrainingJobDebugRuleConfigurationsOutputReference), fullyQualifiedName: "aws.sagemakerTrainingJob.SagemakerTrainingJobDebugRuleConfigurationsOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"the index of this item in the list.\"},\"name\":\"complexObjectIndex\",\"type\":{\"primitive\":\"number\"}},{\"docs\":{\"summary\":\"whether the list is wrapping a set (will add tolist() to be able to access an item via an index).\"},\"name\":\"complexObjectIsFromSet\",\"type\":{\"primitive\":\"boolean\"}}]")]
+    public class SagemakerTrainingJobDebugRuleConfigurationsOutputReference : Io.Cdktn.ComplexObject
+    {
+        /// <param name="terraformResource">The parent resource.</param>
+        /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
+        /// <param name="complexObjectIndex">the index of this item in the list.</param>
+        /// <param name="complexObjectIsFromSet">whether the list is wrapping a set (will add tolist() to be able to access an item via an index).</param>
+        public SagemakerTrainingJobDebugRuleConfigurationsOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet): base(_MakeDeputyProps(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet)
+        {
+            return new DeputyProps(new object?[]{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected SagemakerTrainingJobDebugRuleConfigurationsOutputReference(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected SagemakerTrainingJobDebugRuleConfigurationsOutputReference(DeputyProps props): base(props)
+        {
+        }
+
+        [JsiiMethod(name: "resetInstanceType")]
+        public virtual void ResetInstanceType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetLocalPath")]
+        public virtual void ResetLocalPath()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRuleParameters")]
+        public virtual void ResetRuleParameters()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetS3OutputPath")]
+        public virtual void ResetS3OutputPath()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetVolumeSizeInGb")]
+        public virtual void ResetVolumeSizeInGb()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "instanceTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? InstanceTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "localPathInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? LocalPathInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "ruleConfigurationNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RuleConfigurationNameInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "ruleEvaluatorImageInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RuleEvaluatorImageInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "ruleParametersInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? RuleParametersInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "s3OutputPathInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? S3OutputPathInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "volumeSizeInGbInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? VolumeSizeInGbInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string InstanceType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "localPath", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LocalPath
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "ruleConfigurationName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RuleConfigurationName
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "ruleEvaluatorImage", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RuleEvaluatorImage
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "ruleParameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> RuleParameters
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "s3OutputPath", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string S3OutputPath
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "volumeSizeInGb", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double VolumeSizeInGb
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.sagemakerTrainingJob.SagemakerTrainingJobDebugRuleConfigurations\"}]}}", isOptional: true)]
+        public virtual object? InternalValue
+        {
+            get => GetInstanceProperty<object?>();
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case aws.SagemakerTrainingJob.ISagemakerTrainingJobDebugRuleConfigurations cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.SagemakerTrainingJob.ISagemakerTrainingJobDebugRuleConfigurations).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+    }
+}

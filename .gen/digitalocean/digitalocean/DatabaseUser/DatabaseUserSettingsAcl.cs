@@ -1,0 +1,28 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace digitalocean.DatabaseUser
+{
+    #pragma warning disable CS8618
+
+    [JsiiByValue(fqn: "digitalocean.databaseUser.DatabaseUserSettingsAcl")]
+    public class DatabaseUserSettingsAcl : digitalocean.DatabaseUser.IDatabaseUserSettingsAcl
+    {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_user#permission DatabaseUser#permission}.</summary>
+        [JsiiProperty(name: "permission", typeJson: "{\"primitive\":\"string\"}")]
+        public string Permission
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_user#topic DatabaseUser#topic}.</summary>
+        [JsiiProperty(name: "topic", typeJson: "{\"primitive\":\"string\"}")]
+        public string Topic
+        {
+            get;
+            set;
+        }
+    }
+}

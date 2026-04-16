@@ -1,0 +1,146 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace aws.EcsExpressGatewayService
+{
+    [JsiiClass(nativeType: typeof(aws.EcsExpressGatewayService.EcsExpressGatewayServiceScalingTargetOutputReference), fullyQualifiedName: "aws.ecsExpressGatewayService.EcsExpressGatewayServiceScalingTargetOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"the index of this item in the list.\"},\"name\":\"complexObjectIndex\",\"type\":{\"primitive\":\"number\"}},{\"docs\":{\"summary\":\"whether the list is wrapping a set (will add tolist() to be able to access an item via an index).\"},\"name\":\"complexObjectIsFromSet\",\"type\":{\"primitive\":\"boolean\"}}]")]
+    public class EcsExpressGatewayServiceScalingTargetOutputReference : Io.Cdktn.ComplexObject
+    {
+        /// <param name="terraformResource">The parent resource.</param>
+        /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
+        /// <param name="complexObjectIndex">the index of this item in the list.</param>
+        /// <param name="complexObjectIsFromSet">whether the list is wrapping a set (will add tolist() to be able to access an item via an index).</param>
+        public EcsExpressGatewayServiceScalingTargetOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet): base(_MakeDeputyProps(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet)
+        {
+            return new DeputyProps(new object?[]{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected EcsExpressGatewayServiceScalingTargetOutputReference(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected EcsExpressGatewayServiceScalingTargetOutputReference(DeputyProps props): base(props)
+        {
+        }
+
+        [JsiiMethod(name: "resetAutoScalingMetric")]
+        public virtual void ResetAutoScalingMetric()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAutoScalingTargetValue")]
+        public virtual void ResetAutoScalingTargetValue()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMaxTaskCount")]
+        public virtual void ResetMaxTaskCount()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMinTaskCount")]
+        public virtual void ResetMinTaskCount()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "autoScalingMetricInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AutoScalingMetricInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "autoScalingTargetValueInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? AutoScalingTargetValueInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "maxTaskCountInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? MaxTaskCountInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "minTaskCountInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? MinTaskCountInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiProperty(name: "autoScalingMetric", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AutoScalingMetric
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "autoScalingTargetValue", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double AutoScalingTargetValue
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "maxTaskCount", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MaxTaskCount
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "minTaskCount", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MinTaskCount
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ecsExpressGatewayService.EcsExpressGatewayServiceScalingTarget\"}]}}", isOptional: true)]
+        public virtual object? InternalValue
+        {
+            get => GetInstanceProperty<object?>();
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case aws.EcsExpressGatewayService.IEcsExpressGatewayServiceScalingTarget cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.EcsExpressGatewayService.IEcsExpressGatewayServiceScalingTarget).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+    }
+}

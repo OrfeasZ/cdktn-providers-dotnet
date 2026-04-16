@@ -1,0 +1,50 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace digitalocean.KubernetesCluster
+{
+    #pragma warning disable CS8618
+
+    [JsiiByValue(fqn: "digitalocean.kubernetesCluster.KubernetesClusterControlPlaneFirewall")]
+    public class KubernetesClusterControlPlaneFirewall : digitalocean.KubernetesCluster.IKubernetesClusterControlPlaneFirewall
+    {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_cluster#allowed_addresses KubernetesCluster#allowed_addresses}.</summary>
+        [JsiiProperty(name: "allowedAddresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public string[] AllowedAddresses
+        {
+            get;
+            set;
+        }
+
+        private object _enabled;
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}.</summary>
+        [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public object Enabled
+        {
+            get => _enabled;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _enabled = value;
+            }
+        }
+    }
+}

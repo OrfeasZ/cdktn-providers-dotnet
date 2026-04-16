@@ -1,0 +1,43 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace aws.CloudwatchLogTransformer
+{
+    [JsiiInterface(nativeType: typeof(ICloudwatchLogTransformerTransformerConfigRenameKeys), fullyQualifiedName: "aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeys")]
+    public interface ICloudwatchLogTransformerTransformerConfigRenameKeys
+    {
+        /// <summary>entry block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
+        /// </remarks>
+        [JsiiProperty(name: "entry", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeysEntry\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? Entry
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        [JsiiTypeProxy(nativeType: typeof(ICloudwatchLogTransformerTransformerConfigRenameKeys), fullyQualifiedName: "aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeys")]
+        internal sealed class _Proxy : DeputyBase, aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigRenameKeys
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+
+            /// <summary>entry block.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "entry", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeysEntry\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? Entry
+            {
+                get => GetInstanceProperty<object?>();
+            }
+        }
+    }
+}

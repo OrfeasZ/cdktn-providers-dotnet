@@ -1,0 +1,34 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace cloudflare.ZeroTrustAccessApplication
+{
+    [JsiiByValue(fqn: "cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationSaasAppCustomClaimsSource")]
+    public class ZeroTrustAccessApplicationSaasAppCustomClaimsSource : cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationSaasAppCustomClaimsSource
+    {
+        /// <summary>The name of the IdP claim.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#name ZeroTrustAccessApplication#name}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Name
+        {
+            get;
+            set;
+        }
+
+        /// <summary>A mapping from IdP ID to claim name.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#name_by_idp ZeroTrustAccessApplication#name_by_idp}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "nameByIdp", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public System.Collections.Generic.IDictionary<string, string>? NameByIdp
+        {
+            get;
+            set;
+        }
+    }
+}

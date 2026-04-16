@@ -1,0 +1,46 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace aws.NetworkflowmonitorMonitor
+{
+    [JsiiInterface(nativeType: typeof(INetworkflowmonitorMonitorLocalResource), fullyQualifiedName: "aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorLocalResource")]
+    public interface INetworkflowmonitorMonitorLocalResource
+    {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkflowmonitor_monitor#identifier NetworkflowmonitorMonitor#identifier}.</summary>
+        [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
+        string Identifier
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkflowmonitor_monitor#type NetworkflowmonitorMonitor#type}.</summary>
+        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
+        string Type
+        {
+            get;
+        }
+
+        [JsiiTypeProxy(nativeType: typeof(INetworkflowmonitorMonitorLocalResource), fullyQualifiedName: "aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorLocalResource")]
+        internal sealed class _Proxy : DeputyBase, aws.NetworkflowmonitorMonitor.INetworkflowmonitorMonitorLocalResource
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkflowmonitor_monitor#identifier NetworkflowmonitorMonitor#identifier}.</summary>
+            [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
+            public string Identifier
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkflowmonitor_monitor#type NetworkflowmonitorMonitor#type}.</summary>
+            [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
+            public string Type
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+        }
+    }
+}

@@ -1,0 +1,215 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace cloudflare.Provider
+{
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs cloudflare}.</summary>
+    [JsiiClass(nativeType: typeof(cloudflare.Provider.CloudflareProvider), fullyQualifiedName: "cloudflare.provider.CloudflareProvider", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"cloudflare.provider.CloudflareProviderConfig\"}}]")]
+    public class CloudflareProvider : Io.Cdktn.TerraformProvider
+    {
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs cloudflare} Resource.</summary>
+        /// <param name="scope">The scope in which to define this construct.</param>
+        /// <param name="id">The scoped construct ID.</param>
+        public CloudflareProvider(Constructs.Construct scope, string id, cloudflare.Provider.ICloudflareProviderConfig? config = null): base(_MakeDeputyProps(scope, id, config))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, cloudflare.Provider.ICloudflareProviderConfig? config = null)
+        {
+            return new DeputyProps(new object?[]{scope, id, config});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected CloudflareProvider(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected CloudflareProvider(DeputyProps props): base(props)
+        {
+        }
+
+        /// <summary>Generates CDKTN code for importing a CloudflareProvider resource upon running "cdktn plan &lt;stack-name&gt;".</summary>
+        /// <param name="scope">The scope in which to define this construct.</param>
+        /// <param name="importToId">The construct id used in the generated config for the CloudflareProvider to import.</param>
+        /// <param name="importFromId">The id of the existing CloudflareProvider that should be imported.</param>
+        /// <param name="provider">? Optional instance of the provider where the CloudflareProvider to import is found.</param>
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CloudflareProvider to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CloudflareProvider that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CloudflareProvider to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
+        {
+            return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.Provider.CloudflareProvider), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "resetAlias")]
+        public virtual void ResetAlias()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetApiKey")]
+        public virtual void ResetApiKey()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetApiToken")]
+        public virtual void ResetApiToken()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetApiUserServiceKey")]
+        public virtual void ResetApiUserServiceKey()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetBaseUrl")]
+        public virtual void ResetBaseUrl()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetEmail")]
+        public virtual void ResetEmail()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetUserAgentOperatorSuffix")]
+        public virtual void ResetUserAgentOperatorSuffix()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "synthesizeAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
+        protected override System.Collections.Generic.IDictionary<string, object> SynthesizeAttributes()
+        {
+            return InvokeInstanceMethod<System.Collections.Generic.IDictionary<string, object>>(new System.Type[]{}, new object[]{})!;
+        }
+
+        [JsiiMethod(name: "synthesizeHclAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
+        protected override System.Collections.Generic.IDictionary<string, object> SynthesizeHclAttributes()
+        {
+            return InvokeInstanceMethod<System.Collections.Generic.IDictionary<string, object>>(new System.Type[]{}, new object[]{})!;
+        }
+
+        [JsiiProperty(name: "tfResourceType", typeJson: "{\"primitive\":\"string\"}")]
+        public static string TfResourceType
+        {
+            get;
+        }
+        = GetStaticProperty<string>(typeof(cloudflare.Provider.CloudflareProvider))!;
+
+        [JsiiOptional]
+        [JsiiProperty(name: "aliasInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AliasInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "apiKeyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ApiKeyInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "apiTokenInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ApiTokenInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "apiUserServiceKeyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ApiUserServiceKeyInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "baseUrlInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? BaseUrlInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "emailInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? EmailInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "userAgentOperatorSuffixInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? UserAgentOperatorSuffixInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public override string? Alias
+        {
+            get => GetInstanceProperty<string?>();
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ApiKey
+        {
+            get => GetInstanceProperty<string?>();
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "apiToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ApiToken
+        {
+            get => GetInstanceProperty<string?>();
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "apiUserServiceKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ApiUserServiceKey
+        {
+            get => GetInstanceProperty<string?>();
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "baseUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? BaseUrl
+        {
+            get => GetInstanceProperty<string?>();
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? Email
+        {
+            get => GetInstanceProperty<string?>();
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "userAgentOperatorSuffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? UserAgentOperatorSuffix
+        {
+            get => GetInstanceProperty<string?>();
+            set => SetInstanceProperty(value);
+        }
+    }
+}

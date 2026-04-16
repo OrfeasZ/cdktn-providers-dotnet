@@ -1,0 +1,37 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace aws.S3ControlStorageLensConfiguration
+{
+    [JsiiInterface(nativeType: typeof(IS3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetrics), fullyQualifiedName: "aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetrics")]
+    public interface IS3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetrics
+    {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3control_storage_lens_configuration#enabled S3ControlStorageLensConfiguration#enabled}.</summary>
+        [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? Enabled
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        [JsiiTypeProxy(nativeType: typeof(IS3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetrics), fullyQualifiedName: "aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetrics")]
+        internal sealed class _Proxy : DeputyBase, aws.S3ControlStorageLensConfiguration.IS3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetrics
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3control_storage_lens_configuration#enabled S3ControlStorageLensConfiguration#enabled}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+            public object? Enabled
+            {
+                get => GetInstanceProperty<object?>();
+            }
+        }
+    }
+}
