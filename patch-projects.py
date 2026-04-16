@@ -5,6 +5,7 @@ Patches generated .csproj files in .gen/ to:
   2. Remove GeneratePackageOnBuild property
   3. Remove embedded .tgz resource (and its ItemGroup if empty)
   4. Update PackageId to OrfeasZ.Cdktn.<Author>.<Provider>
+  5. Update license to MPL-2.0
 """
 
 import json
@@ -111,6 +112,12 @@ for key, version in versions.items():
     for el in root.iter("PackageId"):
         if el.text != package_id:
             el.text = package_id
+            changed = True
+
+    # 5. Update license to MPL-2.0
+    for el in root.iter("PackageLicenseExpression"):
+        if el.text != "MPL-2.0":
+            el.text = "MPL-2.0"
             changed = True
 
     if changed:
