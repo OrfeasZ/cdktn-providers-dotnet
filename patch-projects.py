@@ -32,8 +32,12 @@ def get_published_versions(package_id: str) -> set[str]:
 
 
 def next_available_version(base_version: str, published: set[str]) -> str:
-    """Return base_version.N where N is the smallest int not yet published."""
-    revision = 0
+    """Return base_version.N where N is the smallest int >= 1 not yet published.
+
+    Always produces a 4-part version. Starts at .1 since NuGet normalizes
+    X.Y.Z.0 to X.Y.Z.
+    """
+    revision = 1
     while True:
         candidate = f"{base_version}.{revision}"
         if candidate not in published:
