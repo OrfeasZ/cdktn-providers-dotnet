@@ -15,7 +15,7 @@ jobs:
       id-token: write # Required for OIDC trusted publishing
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -29,13 +29,13 @@ jobs:
 
       - name: Setup .NET
         if: steps.selection.outputs.should_publish == 'true'
-        uses: actions/setup-dotnet@v4
+        uses: actions/setup-dotnet@v5
         with:
           dotnet-version: "9.0.x"
 
       - name: Setup Python
         if: steps.selection.outputs.should_publish == 'true'
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.x"
 
