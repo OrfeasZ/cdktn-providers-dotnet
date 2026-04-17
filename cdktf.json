@@ -4,15 +4,15 @@
   "projectId": "57536c69-27e2-4bcc-b35f-befae5eaf68f",
   "sendCrashReports": "false",
   "terraformProviders": [
-    "vancluever/acme@~> 2.47",
-    "hashicorp/aws@~> 6.41",
-    "cloudflare/cloudflare@5.18",
-    "digitalocean/digitalocean@~> 2.84",
-    "hashicorp/random@~> 3.8",
-    "hetznercloud/hcloud@~> 1.60",
-    "kislerdm/neon@~> 0.13",
-    "scaleway/scaleway@~> 2.73",
-    "stripe/stripe@~> 0.2"
+    "vancluever/acme@2.47.0",
+    "hashicorp/aws@6.41.0",
+    "cloudflare/cloudflare@5.18.0",
+    "digitalocean/digitalocean@2.84.1",
+    "hashicorp/random@3.8.1",
+    "hetznercloud/hcloud@1.60.1",
+    "kislerdm/neon@0.13.0",
+    "scaleway/scaleway@2.73.0",
+    "stripe/stripe@0.2.2"
   ],
   "terraformModules": [],
   "context": {}
