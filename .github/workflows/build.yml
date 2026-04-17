@@ -1,6 +1,16 @@
 name: Build and Publish NuGet Packages
 
 on:
+  workflow_dispatch:
+    inputs:
+      before_sha:
+        description: Previous commit SHA for selective provider publishing
+        required: false
+        type: string
+      after_sha:
+        description: Current commit SHA for selective provider publishing
+        required: false
+        type: string
   push:
     branches: [master]
     paths:
@@ -21,10 +31,13 @@ jobs:
 
       - name: Select providers to publish
         id: selection
+        env:
+          SELECT_BEFORE: ${{ inputs.before_sha || github.event.before }}
+          SELECT_AFTER: ${{ inputs.after_sha || github.sha }}
         run: >
           python select-providers-to-publish.py
-          --before "${{ github.event.before }}"
-          --after "$GITHUB_SHA"
+          --before "$SELECT_BEFORE"
+          --after "$SELECT_AFTER"
           --output "$GITHUB_OUTPUT"
 
       - name: Setup .NET
