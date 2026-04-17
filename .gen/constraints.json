@@ -1,14 +1,14 @@
 {
   "cdktf": "0.22.1",
   "providers": {
-    "acme": "~> 2.47",
-    "aws": "~> 6.41",
-    "cloudflare": "5.18",
-    "digitalocean": "~> 2.84",
-    "hcloud": "~> 1.60",
-    "neon": "~> 0.13",
-    "random": "~> 3.8",
-    "scaleway": "~> 2.73",
-    "stripe": "~> 0.2"
+    "acme": "2.47.0",
+    "aws": "6.41.0",
+    "cloudflare": "5.18.0",
+    "digitalocean": "2.84.1",
+    "hcloud": "1.60.1",
+    "neon": "0.13.0",
+    "random": "3.8.1",
+    "scaleway": "2.73.0",
+    "stripe": "0.2.2"
   }
 }
