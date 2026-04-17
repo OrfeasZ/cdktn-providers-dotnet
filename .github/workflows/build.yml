@@ -3,6 +3,10 @@ name: Build and Publish NuGet Packages
 on:
   push:
     branches: [master]
+    paths:
+      - ".gen/**"
+      - "patch-projects.py"
+      - ".github/workflows/build.yml"
 
 jobs:
   build-and-publish:
@@ -12,33 +16,66 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Select providers to publish
+        id: selection
+        run: >
+          python select-providers-to-publish.py
+          --before "${{ github.event.before }}"
+          --after "$GITHUB_SHA"
+          --output "$GITHUB_OUTPUT"
 
       - name: Setup .NET
+        if: steps.selection.outputs.should_publish == 'true'
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: "9.0.x"
 
       - name: Setup Python
+        if: steps.selection.outputs.should_publish == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
       - name: Patch projects
+        if: steps.selection.outputs.should_publish == 'true'
         run: python patch-projects.py
 
-      - name: Pack all providers
+      - name: Pack selected providers
+        if: steps.selection.outputs.should_publish == 'true'
+        shell: bash
         run: |
-          for csproj in .gen/*/*.csproj; do
+          mkdir -p "${{ github.workspace }}/artifacts"
+
+          if [ "${{ steps.selection.outputs.build_all }}" = "true" ]; then
+            for csproj in .gen/*/*.csproj; do
+              dotnet pack "$csproj" -c Release -o "${{ github.workspace }}/artifacts"
+            done
+            exit 0
+          fi
+
+          for provider in ${{ steps.selection.outputs.providers }}; do
+            csproj=".gen/$provider/$provider.csproj"
+
+            if [ ! -f "$csproj" ]; then
+              echo "Expected project not found: $csproj"
+              exit 1
+            fi
+
             dotnet pack "$csproj" -c Release -o "${{ github.workspace }}/artifacts"
           done
 
       - name: NuGet login (OIDC trusted publishing)
+        if: steps.selection.outputs.should_publish == 'true'
         uses: NuGet/login@v1
         id: login
         with:
           user: orfeasz
 
       - name: Push packages
+        if: steps.selection.outputs.should_publish == 'true'
         run: |
           for pkg in artifacts/*.nupkg; do
             dotnet nuget push "$pkg" \
