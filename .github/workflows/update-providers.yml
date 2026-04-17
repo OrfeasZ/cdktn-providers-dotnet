@@ -53,7 +53,7 @@ jobs:
 
       - name: Regenerate provider bindings
         if: steps.constraint-changes.outputs.changed == 'true'
-        run: cdktn get
+        run: cdktn get --parallelism 1
 
       - name: Verify generated providers build
         if: steps.constraint-changes.outputs.changed == 'true'
