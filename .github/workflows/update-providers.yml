@@ -26,6 +26,11 @@ jobs:
         with:
           dotnet-version: "9.0.x"
 
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v4
+        with:
+          terraform_wrapper: false
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
