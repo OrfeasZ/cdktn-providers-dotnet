@@ -1,0 +1,73 @@
+name: Update Provider Bindings
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  update-providers:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "9.0.x"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install CDKTN CLI
+        run: npm install --global cdktn-cli@0.22.1
+
+      - name: Update provider constraints
+        run: python update-providers.py
+
+      - name: Detect constraint changes
+        id: constraint-changes
+        run: |
+          if git diff --quiet -- cdktf.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Regenerate provider bindings
+        if: steps.constraint-changes.outputs.changed == 'true'
+        run: cdktn get
+
+      - name: Verify generated providers build
+        if: steps.constraint-changes.outputs.changed == 'true'
+        shell: bash
+        run: |
+          for csproj in .gen/*/*.csproj; do
+            dotnet build "$csproj" -c Release
+          done
+
+      - name: Commit updated providers
+        if: steps.constraint-changes.outputs.changed == 'true'
+        run: |
+          if git diff --quiet; then
+            echo "No generated changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cdktf.json .gen
+          git commit -m "Update generated providers"
+          git push
