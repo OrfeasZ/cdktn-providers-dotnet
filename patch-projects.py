@@ -3,9 +3,8 @@
 Patches generated .csproj files in .gen/ to:
   1. Set PackageVersion from .gen/versions.json (+ unique suffix)
   2. Remove GeneratePackageOnBuild property
-  3. Remove embedded .tgz resource (and its ItemGroup if empty)
-  4. Update PackageId to OrfeasZ.Cdktn.<Author>.<Provider>
-  5. Update license to MPL-2.0
+  3. Update PackageId to OrfeasZ.Cdktn.<Author>.<Provider>
+  4. Update license to MPL-2.0
 """
 
 import json
@@ -94,27 +93,13 @@ for key, version in versions.items():
             prop_group.remove(el)
             changed = True
 
-    # 3. Remove ItemGroup containing embedded .tgz EmbeddedResource
-    # TODO: Make sure this doesn't break anything.
-    for item_group in root.findall("ItemGroup"):
-        tgz_resources = [
-            el for el in item_group.findall("EmbeddedResource")
-            if el.get("Include", "").endswith(".tgz")
-        ]
-        for el in tgz_resources:
-            item_group.remove(el)
-            changed = True
-        # Remove the ItemGroup if it's now empty
-        if len(item_group) == 0:
-            root.remove(item_group)
-
-    # 4. Update PackageId
+    # 3. Update PackageId
     for el in root.iter("PackageId"):
         if el.text != package_id:
             el.text = package_id
             changed = True
 
-    # 5. Update license to MPL-2.0
+    # 4. Update license to MPL-2.0
     for el in root.iter("PackageLicenseExpression"):
         if el.text != "MPL-2.0":
             el.text = "MPL-2.0"
