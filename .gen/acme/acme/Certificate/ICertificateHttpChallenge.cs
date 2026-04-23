@@ -7,7 +7,7 @@ namespace acme.Certificate
     [JsiiInterface(nativeType: typeof(ICertificateHttpChallenge), fullyQualifiedName: "acme.certificate.CertificateHttpChallenge")]
     public interface ICertificateHttpChallenge
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs/resources/certificate#port Certificate#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#port Certificate#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Port
@@ -18,7 +18,7 @@ namespace acme.Certificate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs/resources/certificate#proxy_header Certificate#proxy_header}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#proxy_header Certificate#proxy_header}.</summary>
         [JsiiProperty(name: "proxyHeader", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ProxyHeader
@@ -36,7 +36,7 @@ namespace acme.Certificate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs/resources/certificate#port Certificate#port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#port Certificate#port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Port
@@ -44,7 +44,7 @@ namespace acme.Certificate
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs/resources/certificate#proxy_header Certificate#proxy_header}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#proxy_header Certificate#proxy_header}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "proxyHeader", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ProxyHeader

@@ -7,7 +7,7 @@ namespace acme.Registration
     [JsiiByValue(fqn: "acme.registration.RegistrationConfig")]
     public class RegistrationConfig : acme.Registration.IRegistrationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs/resources/registration#account_key_algorithm Registration#account_key_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/registration#account_key_algorithm Registration#account_key_algorithm}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountKeyAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountKeyAlgorithm
@@ -16,7 +16,7 @@ namespace acme.Registration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs/resources/registration#account_key_ecdsa_curve Registration#account_key_ecdsa_curve}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/registration#account_key_ecdsa_curve Registration#account_key_ecdsa_curve}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountKeyEcdsaCurve", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountKeyEcdsaCurve
@@ -25,7 +25,7 @@ namespace acme.Registration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs/resources/registration#account_key_pem Registration#account_key_pem}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/registration#account_key_pem Registration#account_key_pem}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountKeyPem", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountKeyPem
@@ -34,7 +34,7 @@ namespace acme.Registration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs/resources/registration#account_key_rsa_bits Registration#account_key_rsa_bits}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/registration#account_key_rsa_bits Registration#account_key_rsa_bits}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountKeyRsaBits", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? AccountKeyRsaBits
@@ -43,7 +43,7 @@ namespace acme.Registration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs/resources/registration#email_address Registration#email_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/registration#email_address Registration#email_address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "emailAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EmailAddress
@@ -54,7 +54,7 @@ namespace acme.Registration
 
         /// <summary>external_account_binding block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs/resources/registration#external_account_binding Registration#external_account_binding}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/registration#external_account_binding Registration#external_account_binding}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "externalAccountBinding", typeJson: "{\"fqn\":\"acme.registration.RegistrationExternalAccountBinding\"}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace acme.Registration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs/resources/registration#id Registration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/registration#id Registration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

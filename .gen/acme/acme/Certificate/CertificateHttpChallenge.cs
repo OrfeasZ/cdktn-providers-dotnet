@@ -7,7 +7,7 @@ namespace acme.Certificate
     [JsiiByValue(fqn: "acme.certificate.CertificateHttpChallenge")]
     public class CertificateHttpChallenge : acme.Certificate.ICertificateHttpChallenge
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs/resources/certificate#port Certificate#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#port Certificate#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Port
@@ -16,7 +16,7 @@ namespace acme.Certificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs/resources/certificate#proxy_header Certificate#proxy_header}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#proxy_header Certificate#proxy_header}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "proxyHeader", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProxyHeader

@@ -9,7 +9,7 @@ namespace acme.Registration
     [JsiiByValue(fqn: "acme.registration.RegistrationExternalAccountBinding")]
     public class RegistrationExternalAccountBinding : acme.Registration.IRegistrationExternalAccountBinding
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs/resources/registration#hmac_base64 Registration#hmac_base64}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/registration#hmac_base64 Registration#hmac_base64}.</summary>
         [JsiiProperty(name: "hmacBase64", typeJson: "{\"primitive\":\"string\"}")]
         public string HmacBase64
         {
@@ -17,7 +17,7 @@ namespace acme.Registration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs/resources/registration#key_id Registration#key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/registration#key_id Registration#key_id}.</summary>
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyId
         {
