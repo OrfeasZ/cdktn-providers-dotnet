@@ -7,7 +7,7 @@ namespace aws.DevicefarmDevicePool
     [JsiiByValue(fqn: "aws.devicefarmDevicePool.DevicefarmDevicePoolRule")]
     public class DevicefarmDevicePoolRule : aws.DevicefarmDevicePool.IDevicefarmDevicePoolRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/devicefarm_device_pool#attribute DevicefarmDevicePool#attribute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_device_pool#attribute DevicefarmDevicePool#attribute}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attribute", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Attribute
@@ -16,7 +16,7 @@ namespace aws.DevicefarmDevicePool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/devicefarm_device_pool#operator DevicefarmDevicePool#operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_device_pool#operator DevicefarmDevicePool#operator}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Operator
@@ -25,7 +25,7 @@ namespace aws.DevicefarmDevicePool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/devicefarm_device_pool#value DevicefarmDevicePool#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_device_pool#value DevicefarmDevicePool#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

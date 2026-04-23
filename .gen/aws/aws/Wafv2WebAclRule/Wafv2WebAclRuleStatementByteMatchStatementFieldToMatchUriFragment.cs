@@ -7,7 +7,7 @@ namespace aws.Wafv2WebAclRule
     [JsiiByValue(fqn: "aws.wafv2WebAclRule.Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchUriFragment")]
     public class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchUriFragment : aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementByteMatchStatementFieldToMatchUriFragment
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafv2_web_acl_rule#fallback_behavior Wafv2WebAclRuleA#fallback_behavior}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl_rule#fallback_behavior Wafv2WebAclRuleA#fallback_behavior}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fallbackBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FallbackBehavior

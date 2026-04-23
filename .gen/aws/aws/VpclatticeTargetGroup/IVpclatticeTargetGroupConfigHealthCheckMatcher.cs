@@ -7,7 +7,7 @@ namespace aws.VpclatticeTargetGroup
     [JsiiInterface(nativeType: typeof(IVpclatticeTargetGroupConfigHealthCheckMatcher), fullyQualifiedName: "aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfigHealthCheckMatcher")]
     public interface IVpclatticeTargetGroupConfigHealthCheckMatcher
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpclattice_target_group#value VpclatticeTargetGroup#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpclattice_target_group#value VpclatticeTargetGroup#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Value
@@ -25,7 +25,7 @@ namespace aws.VpclatticeTargetGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpclattice_target_group#value VpclatticeTargetGroup#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpclattice_target_group#value VpclatticeTargetGroup#value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Value

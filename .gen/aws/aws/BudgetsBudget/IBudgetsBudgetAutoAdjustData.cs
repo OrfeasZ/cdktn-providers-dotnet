@@ -7,7 +7,7 @@ namespace aws.BudgetsBudget
     [JsiiInterface(nativeType: typeof(IBudgetsBudgetAutoAdjustData), fullyQualifiedName: "aws.budgetsBudget.BudgetsBudgetAutoAdjustData")]
     public interface IBudgetsBudgetAutoAdjustData
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget#auto_adjust_type BudgetsBudget#auto_adjust_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#auto_adjust_type BudgetsBudget#auto_adjust_type}.</summary>
         [JsiiProperty(name: "autoAdjustType", typeJson: "{\"primitive\":\"string\"}")]
         string AutoAdjustType
         {
@@ -16,7 +16,7 @@ namespace aws.BudgetsBudget
 
         /// <summary>historical_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget#historical_options BudgetsBudget#historical_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#historical_options BudgetsBudget#historical_options}
         /// </remarks>
         [JsiiProperty(name: "historicalOptions", typeJson: "{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetAutoAdjustDataHistoricalOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace aws.BudgetsBudget
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget#auto_adjust_type BudgetsBudget#auto_adjust_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#auto_adjust_type BudgetsBudget#auto_adjust_type}.</summary>
             [JsiiProperty(name: "autoAdjustType", typeJson: "{\"primitive\":\"string\"}")]
             public string AutoAdjustType
             {
@@ -44,7 +44,7 @@ namespace aws.BudgetsBudget
 
             /// <summary>historical_options block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget#historical_options BudgetsBudget#historical_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#historical_options BudgetsBudget#historical_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "historicalOptions", typeJson: "{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetAutoAdjustDataHistoricalOptions\"}", isOptional: true)]

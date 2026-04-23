@@ -7,7 +7,7 @@ namespace aws.DirectoryServiceRadiusSettings
     [JsiiByValue(fqn: "aws.directoryServiceRadiusSettings.DirectoryServiceRadiusSettingsTimeouts")]
     public class DirectoryServiceRadiusSettingsTimeouts : aws.DirectoryServiceRadiusSettings.IDirectoryServiceRadiusSettingsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_radius_settings#create DirectoryServiceRadiusSettings#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_radius_settings#create DirectoryServiceRadiusSettings#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.DirectoryServiceRadiusSettings
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_radius_settings#update DirectoryServiceRadiusSettings#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_radius_settings#update DirectoryServiceRadiusSettings#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

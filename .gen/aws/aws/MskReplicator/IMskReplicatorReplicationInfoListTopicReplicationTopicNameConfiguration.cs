@@ -7,7 +7,7 @@ namespace aws.MskReplicator
     [JsiiInterface(nativeType: typeof(IMskReplicatorReplicationInfoListTopicReplicationTopicNameConfiguration), fullyQualifiedName: "aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplicationTopicNameConfiguration")]
     public interface IMskReplicatorReplicationInfoListTopicReplicationTopicNameConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_replicator#type MskReplicator#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_replicator#type MskReplicator#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
@@ -25,7 +25,7 @@ namespace aws.MskReplicator
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_replicator#type MskReplicator#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_replicator#type MskReplicator#type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type

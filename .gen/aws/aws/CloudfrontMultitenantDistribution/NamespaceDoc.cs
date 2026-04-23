@@ -5,7 +5,7 @@ namespace aws.CloudfrontMultitenantDistribution
     /// <remarks>
     /// <h1><c>aws_cloudfront_multitenant_distribution</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_multitenant_distribution"><c>aws_cloudfront_multitenant_distribution</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_multitenant_distribution"><c>aws_cloudfront_multitenant_distribution</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -7,7 +7,7 @@ namespace aws.KendraIndex
     [JsiiInterface(nativeType: typeof(IKendraIndexUserGroupResolutionConfiguration), fullyQualifiedName: "aws.kendraIndex.KendraIndexUserGroupResolutionConfiguration")]
     public interface IKendraIndexUserGroupResolutionConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kendra_index#user_group_resolution_mode KendraIndex#user_group_resolution_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#user_group_resolution_mode KendraIndex#user_group_resolution_mode}.</summary>
         [JsiiProperty(name: "userGroupResolutionMode", typeJson: "{\"primitive\":\"string\"}")]
         string UserGroupResolutionMode
         {
@@ -21,7 +21,7 @@ namespace aws.KendraIndex
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kendra_index#user_group_resolution_mode KendraIndex#user_group_resolution_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#user_group_resolution_mode KendraIndex#user_group_resolution_mode}.</summary>
             [JsiiProperty(name: "userGroupResolutionMode", typeJson: "{\"primitive\":\"string\"}")]
             public string UserGroupResolutionMode
             {

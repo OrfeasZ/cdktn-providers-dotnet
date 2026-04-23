@@ -7,7 +7,7 @@ namespace aws.Lexv2ModelsBotVersion
     [JsiiInterface(nativeType: typeof(ILexv2ModelsBotVersionLocaleSpecification), fullyQualifiedName: "aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersionLocaleSpecification")]
     public interface ILexv2ModelsBotVersionLocaleSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_bot_version#source_bot_version Lexv2ModelsBotVersion#source_bot_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_bot_version#source_bot_version Lexv2ModelsBotVersion#source_bot_version}.</summary>
         [JsiiProperty(name: "sourceBotVersion", typeJson: "{\"primitive\":\"string\"}")]
         string SourceBotVersion
         {
@@ -21,7 +21,7 @@ namespace aws.Lexv2ModelsBotVersion
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_bot_version#source_bot_version Lexv2ModelsBotVersion#source_bot_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_bot_version#source_bot_version Lexv2ModelsBotVersion#source_bot_version}.</summary>
             [JsiiProperty(name: "sourceBotVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceBotVersion
             {

@@ -7,7 +7,7 @@ namespace aws.BedrockGuardrail
     [JsiiInterface(nativeType: typeof(IBedrockGuardrailCrossRegionConfig), fullyQualifiedName: "aws.bedrockGuardrail.BedrockGuardrailCrossRegionConfig")]
     public interface IBedrockGuardrailCrossRegionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrock_guardrail#guardrail_profile_identifier BedrockGuardrail#guardrail_profile_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrock_guardrail#guardrail_profile_identifier BedrockGuardrail#guardrail_profile_identifier}.</summary>
         [JsiiProperty(name: "guardrailProfileIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         string GuardrailProfileIdentifier
         {
@@ -21,7 +21,7 @@ namespace aws.BedrockGuardrail
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrock_guardrail#guardrail_profile_identifier BedrockGuardrail#guardrail_profile_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrock_guardrail#guardrail_profile_identifier BedrockGuardrail#guardrail_profile_identifier}.</summary>
             [JsiiProperty(name: "guardrailProfileIdentifier", typeJson: "{\"primitive\":\"string\"}")]
             public string GuardrailProfileIdentifier
             {

@@ -9,7 +9,7 @@ namespace aws.ConnectUserHierarchyStructure
     {
         /// <summary>level_five block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_user_hierarchy_structure#level_five ConnectUserHierarchyStructure#level_five}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_user_hierarchy_structure#level_five ConnectUserHierarchyStructure#level_five}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "levelFive", typeJson: "{\"fqn\":\"aws.connectUserHierarchyStructure.ConnectUserHierarchyStructureHierarchyStructureLevelFive\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.ConnectUserHierarchyStructure
 
         /// <summary>level_four block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_user_hierarchy_structure#level_four ConnectUserHierarchyStructure#level_four}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_user_hierarchy_structure#level_four ConnectUserHierarchyStructure#level_four}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "levelFour", typeJson: "{\"fqn\":\"aws.connectUserHierarchyStructure.ConnectUserHierarchyStructureHierarchyStructureLevelFour\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace aws.ConnectUserHierarchyStructure
 
         /// <summary>level_one block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_user_hierarchy_structure#level_one ConnectUserHierarchyStructure#level_one}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_user_hierarchy_structure#level_one ConnectUserHierarchyStructure#level_one}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "levelOne", typeJson: "{\"fqn\":\"aws.connectUserHierarchyStructure.ConnectUserHierarchyStructureHierarchyStructureLevelOne\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace aws.ConnectUserHierarchyStructure
 
         /// <summary>level_three block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_user_hierarchy_structure#level_three ConnectUserHierarchyStructure#level_three}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_user_hierarchy_structure#level_three ConnectUserHierarchyStructure#level_three}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "levelThree", typeJson: "{\"fqn\":\"aws.connectUserHierarchyStructure.ConnectUserHierarchyStructureHierarchyStructureLevelThree\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace aws.ConnectUserHierarchyStructure
 
         /// <summary>level_two block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_user_hierarchy_structure#level_two ConnectUserHierarchyStructure#level_two}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_user_hierarchy_structure#level_two ConnectUserHierarchyStructure#level_two}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "levelTwo", typeJson: "{\"fqn\":\"aws.connectUserHierarchyStructure.ConnectUserHierarchyStructureHierarchyStructureLevelTwo\"}", isOptional: true)]

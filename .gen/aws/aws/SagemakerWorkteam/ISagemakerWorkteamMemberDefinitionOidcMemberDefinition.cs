@@ -7,7 +7,7 @@ namespace aws.SagemakerWorkteam
     [JsiiInterface(nativeType: typeof(ISagemakerWorkteamMemberDefinitionOidcMemberDefinition), fullyQualifiedName: "aws.sagemakerWorkteam.SagemakerWorkteamMemberDefinitionOidcMemberDefinition")]
     public interface ISagemakerWorkteamMemberDefinitionOidcMemberDefinition
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_workteam#groups SagemakerWorkteam#groups}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workteam#groups SagemakerWorkteam#groups}.</summary>
         [JsiiProperty(name: "groups", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Groups
         {
@@ -21,7 +21,7 @@ namespace aws.SagemakerWorkteam
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_workteam#groups SagemakerWorkteam#groups}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workteam#groups SagemakerWorkteam#groups}.</summary>
             [JsiiProperty(name: "groups", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Groups
             {

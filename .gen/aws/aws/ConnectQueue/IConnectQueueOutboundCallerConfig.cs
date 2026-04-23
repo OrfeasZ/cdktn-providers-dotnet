@@ -7,7 +7,7 @@ namespace aws.ConnectQueue
     [JsiiInterface(nativeType: typeof(IConnectQueueOutboundCallerConfig), fullyQualifiedName: "aws.connectQueue.ConnectQueueOutboundCallerConfig")]
     public interface IConnectQueueOutboundCallerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_queue#outbound_caller_id_name ConnectQueue#outbound_caller_id_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#outbound_caller_id_name ConnectQueue#outbound_caller_id_name}.</summary>
         [JsiiProperty(name: "outboundCallerIdName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OutboundCallerIdName
@@ -18,7 +18,7 @@ namespace aws.ConnectQueue
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_queue#outbound_caller_id_number_id ConnectQueue#outbound_caller_id_number_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#outbound_caller_id_number_id ConnectQueue#outbound_caller_id_number_id}.</summary>
         [JsiiProperty(name: "outboundCallerIdNumberId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OutboundCallerIdNumberId
@@ -29,7 +29,7 @@ namespace aws.ConnectQueue
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_queue#outbound_flow_id ConnectQueue#outbound_flow_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#outbound_flow_id ConnectQueue#outbound_flow_id}.</summary>
         [JsiiProperty(name: "outboundFlowId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OutboundFlowId
@@ -47,7 +47,7 @@ namespace aws.ConnectQueue
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_queue#outbound_caller_id_name ConnectQueue#outbound_caller_id_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#outbound_caller_id_name ConnectQueue#outbound_caller_id_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "outboundCallerIdName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OutboundCallerIdName
@@ -55,7 +55,7 @@ namespace aws.ConnectQueue
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_queue#outbound_caller_id_number_id ConnectQueue#outbound_caller_id_number_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#outbound_caller_id_number_id ConnectQueue#outbound_caller_id_number_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "outboundCallerIdNumberId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OutboundCallerIdNumberId
@@ -63,7 +63,7 @@ namespace aws.ConnectQueue
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_queue#outbound_flow_id ConnectQueue#outbound_flow_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#outbound_flow_id ConnectQueue#outbound_flow_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "outboundFlowId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OutboundFlowId

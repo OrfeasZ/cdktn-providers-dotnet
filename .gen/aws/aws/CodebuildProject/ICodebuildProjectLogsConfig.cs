@@ -9,7 +9,7 @@ namespace aws.CodebuildProject
     {
         /// <summary>cloudwatch_logs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#cloudwatch_logs CodebuildProject#cloudwatch_logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#cloudwatch_logs CodebuildProject#cloudwatch_logs}
         /// </remarks>
         [JsiiProperty(name: "cloudwatchLogs", typeJson: "{\"fqn\":\"aws.codebuildProject.CodebuildProjectLogsConfigCloudwatchLogs\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.CodebuildProject
 
         /// <summary>s3_logs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#s3_logs CodebuildProject#s3_logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#s3_logs CodebuildProject#s3_logs}
         /// </remarks>
         [JsiiProperty(name: "s3Logs", typeJson: "{\"fqn\":\"aws.codebuildProject.CodebuildProjectLogsConfigS3Logs\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace aws.CodebuildProject
 
             /// <summary>cloudwatch_logs block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#cloudwatch_logs CodebuildProject#cloudwatch_logs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#cloudwatch_logs CodebuildProject#cloudwatch_logs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudwatchLogs", typeJson: "{\"fqn\":\"aws.codebuildProject.CodebuildProjectLogsConfigCloudwatchLogs\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace aws.CodebuildProject
 
             /// <summary>s3_logs block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#s3_logs CodebuildProject#s3_logs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#s3_logs CodebuildProject#s3_logs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3Logs", typeJson: "{\"fqn\":\"aws.codebuildProject.CodebuildProjectLogsConfigS3Logs\"}", isOptional: true)]

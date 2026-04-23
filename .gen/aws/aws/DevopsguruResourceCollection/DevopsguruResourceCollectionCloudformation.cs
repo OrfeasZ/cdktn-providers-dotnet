@@ -9,7 +9,7 @@ namespace aws.DevopsguruResourceCollection
     [JsiiByValue(fqn: "aws.devopsguruResourceCollection.DevopsguruResourceCollectionCloudformation")]
     public class DevopsguruResourceCollectionCloudformation : aws.DevopsguruResourceCollection.IDevopsguruResourceCollectionCloudformation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/devopsguru_resource_collection#stack_names DevopsguruResourceCollection#stack_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_resource_collection#stack_names DevopsguruResourceCollection#stack_names}.</summary>
         [JsiiProperty(name: "stackNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] StackNames
         {

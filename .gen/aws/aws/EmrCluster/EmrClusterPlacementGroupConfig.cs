@@ -7,7 +7,7 @@ namespace aws.EmrCluster
     [JsiiByValue(fqn: "aws.emrCluster.EmrClusterPlacementGroupConfig")]
     public class EmrClusterPlacementGroupConfig : aws.EmrCluster.IEmrClusterPlacementGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/emr_cluster#instance_role EmrCluster#instance_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#instance_role EmrCluster#instance_role}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "instanceRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InstanceRole
@@ -16,7 +16,7 @@ namespace aws.EmrCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/emr_cluster#placement_strategy EmrCluster#placement_strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#placement_strategy EmrCluster#placement_strategy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "placementStrategy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PlacementStrategy

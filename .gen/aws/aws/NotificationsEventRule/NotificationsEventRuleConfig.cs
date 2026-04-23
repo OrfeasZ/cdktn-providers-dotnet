@@ -9,7 +9,7 @@ namespace aws.NotificationsEventRule
     [JsiiByValue(fqn: "aws.notificationsEventRule.NotificationsEventRuleConfig")]
     public class NotificationsEventRuleConfig : aws.NotificationsEventRule.INotificationsEventRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_event_rule#event_type NotificationsEventRule#event_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_event_rule#event_type NotificationsEventRule#event_type}.</summary>
         [JsiiProperty(name: "eventType", typeJson: "{\"primitive\":\"string\"}")]
         public string EventType
         {
@@ -17,7 +17,7 @@ namespace aws.NotificationsEventRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_event_rule#notification_configuration_arn NotificationsEventRule#notification_configuration_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_event_rule#notification_configuration_arn NotificationsEventRule#notification_configuration_arn}.</summary>
         [JsiiProperty(name: "notificationConfigurationArn", typeJson: "{\"primitive\":\"string\"}")]
         public string NotificationConfigurationArn
         {
@@ -25,7 +25,7 @@ namespace aws.NotificationsEventRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_event_rule#regions NotificationsEventRule#regions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_event_rule#regions NotificationsEventRule#regions}.</summary>
         [JsiiProperty(name: "regions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Regions
         {
@@ -33,7 +33,7 @@ namespace aws.NotificationsEventRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_event_rule#source NotificationsEventRule#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_event_rule#source NotificationsEventRule#source}.</summary>
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
         public string Source
         {
@@ -41,7 +41,7 @@ namespace aws.NotificationsEventRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_event_rule#event_pattern NotificationsEventRule#event_pattern}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_event_rule#event_pattern NotificationsEventRule#event_pattern}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "eventPattern", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EventPattern

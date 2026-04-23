@@ -9,7 +9,7 @@ namespace aws.LexIntent
     [JsiiByValue(fqn: "aws.lexIntent.LexIntentFulfillmentActivity")]
     public class LexIntentFulfillmentActivity : aws.LexIntent.ILexIntentFulfillmentActivity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#type LexIntent#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#type LexIntent#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -19,7 +19,7 @@ namespace aws.LexIntent
 
         /// <summary>code_hook block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#code_hook LexIntent#code_hook}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#code_hook LexIntent#code_hook}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "codeHook", typeJson: "{\"fqn\":\"aws.lexIntent.LexIntentFulfillmentActivityCodeHook\"}", isOptional: true)]

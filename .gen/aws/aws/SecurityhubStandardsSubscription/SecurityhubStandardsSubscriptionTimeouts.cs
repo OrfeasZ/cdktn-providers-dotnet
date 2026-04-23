@@ -7,7 +7,7 @@ namespace aws.SecurityhubStandardsSubscription
     [JsiiByValue(fqn: "aws.securityhubStandardsSubscription.SecurityhubStandardsSubscriptionTimeouts")]
     public class SecurityhubStandardsSubscriptionTimeouts : aws.SecurityhubStandardsSubscription.ISecurityhubStandardsSubscriptionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_standards_subscription#create SecurityhubStandardsSubscription#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_standards_subscription#create SecurityhubStandardsSubscription#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.SecurityhubStandardsSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_standards_subscription#delete SecurityhubStandardsSubscription#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_standards_subscription#delete SecurityhubStandardsSubscription#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

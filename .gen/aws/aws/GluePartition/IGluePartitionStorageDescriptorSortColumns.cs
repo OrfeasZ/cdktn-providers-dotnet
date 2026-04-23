@@ -7,14 +7,14 @@ namespace aws.GluePartition
     [JsiiInterface(nativeType: typeof(IGluePartitionStorageDescriptorSortColumns), fullyQualifiedName: "aws.gluePartition.GluePartitionStorageDescriptorSortColumns")]
     public interface IGluePartitionStorageDescriptorSortColumns
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_partition#column GluePartition#column}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_partition#column GluePartition#column}.</summary>
         [JsiiProperty(name: "column", typeJson: "{\"primitive\":\"string\"}")]
         string Column
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_partition#sort_order GluePartition#sort_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_partition#sort_order GluePartition#sort_order}.</summary>
         [JsiiProperty(name: "sortOrder", typeJson: "{\"primitive\":\"number\"}")]
         double SortOrder
         {
@@ -28,14 +28,14 @@ namespace aws.GluePartition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_partition#column GluePartition#column}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_partition#column GluePartition#column}.</summary>
             [JsiiProperty(name: "column", typeJson: "{\"primitive\":\"string\"}")]
             public string Column
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_partition#sort_order GluePartition#sort_order}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_partition#sort_order GluePartition#sort_order}.</summary>
             [JsiiProperty(name: "sortOrder", typeJson: "{\"primitive\":\"number\"}")]
             public double SortOrder
             {

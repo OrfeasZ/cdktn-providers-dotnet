@@ -11,7 +11,7 @@ namespace aws.AppmeshGatewayRoute
     {
         /// <summary>target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_gateway_route#target AppmeshGatewayRoute#target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_gateway_route#target AppmeshGatewayRoute#target}
         /// </remarks>
         [JsiiProperty(name: "target", typeJson: "{\"fqn\":\"aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecGrpcRouteActionTarget\"}")]
         public aws.AppmeshGatewayRoute.IAppmeshGatewayRouteSpecGrpcRouteActionTarget Target

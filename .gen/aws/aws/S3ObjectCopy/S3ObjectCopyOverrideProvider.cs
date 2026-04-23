@@ -9,7 +9,7 @@ namespace aws.S3ObjectCopy
     {
         /// <summary>default_tags block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_object_copy#default_tags S3ObjectCopy#default_tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_object_copy#default_tags S3ObjectCopy#default_tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultTags", typeJson: "{\"fqn\":\"aws.s3ObjectCopy.S3ObjectCopyOverrideProviderDefaultTags\"}", isOptional: true)]

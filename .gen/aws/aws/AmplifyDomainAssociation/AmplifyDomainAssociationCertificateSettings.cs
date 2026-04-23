@@ -9,7 +9,7 @@ namespace aws.AmplifyDomainAssociation
     [JsiiByValue(fqn: "aws.amplifyDomainAssociation.AmplifyDomainAssociationCertificateSettings")]
     public class AmplifyDomainAssociationCertificateSettings : aws.AmplifyDomainAssociation.IAmplifyDomainAssociationCertificateSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/amplify_domain_association#type AmplifyDomainAssociation#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/amplify_domain_association#type AmplifyDomainAssociation#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.AmplifyDomainAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/amplify_domain_association#custom_certificate_arn AmplifyDomainAssociation#custom_certificate_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/amplify_domain_association#custom_certificate_arn AmplifyDomainAssociation#custom_certificate_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customCertificateArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomCertificateArn

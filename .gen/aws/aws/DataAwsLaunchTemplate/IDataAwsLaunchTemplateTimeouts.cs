@@ -7,7 +7,7 @@ namespace aws.DataAwsLaunchTemplate
     [JsiiInterface(nativeType: typeof(IDataAwsLaunchTemplateTimeouts), fullyQualifiedName: "aws.dataAwsLaunchTemplate.DataAwsLaunchTemplateTimeouts")]
     public interface IDataAwsLaunchTemplateTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/launch_template#read DataAwsLaunchTemplate#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/launch_template#read DataAwsLaunchTemplate#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace aws.DataAwsLaunchTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/launch_template#read DataAwsLaunchTemplate#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/launch_template#read DataAwsLaunchTemplate#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

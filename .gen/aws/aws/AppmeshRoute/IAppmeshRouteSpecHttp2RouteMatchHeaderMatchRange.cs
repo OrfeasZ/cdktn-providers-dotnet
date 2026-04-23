@@ -7,14 +7,14 @@ namespace aws.AppmeshRoute
     [JsiiInterface(nativeType: typeof(IAppmeshRouteSpecHttp2RouteMatchHeaderMatchRange), fullyQualifiedName: "aws.appmeshRoute.AppmeshRouteSpecHttp2RouteMatchHeaderMatchRange")]
     public interface IAppmeshRouteSpecHttp2RouteMatchHeaderMatchRange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#end AppmeshRoute#end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#end AppmeshRoute#end}.</summary>
         [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"number\"}")]
         double End
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#start AppmeshRoute#start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#start AppmeshRoute#start}.</summary>
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"number\"}")]
         double Start
         {
@@ -28,14 +28,14 @@ namespace aws.AppmeshRoute
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#end AppmeshRoute#end}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#end AppmeshRoute#end}.</summary>
             [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"number\"}")]
             public double End
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#start AppmeshRoute#start}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#start AppmeshRoute#start}.</summary>
             [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"number\"}")]
             public double Start
             {

@@ -9,7 +9,7 @@ namespace aws.IamSigningCertificate
     [JsiiByValue(fqn: "aws.iamSigningCertificate.IamSigningCertificateConfig")]
     public class IamSigningCertificateConfig : aws.IamSigningCertificate.IIamSigningCertificateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_signing_certificate#certificate_body IamSigningCertificate#certificate_body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_signing_certificate#certificate_body IamSigningCertificate#certificate_body}.</summary>
         [JsiiProperty(name: "certificateBody", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateBody
         {
@@ -17,7 +17,7 @@ namespace aws.IamSigningCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_signing_certificate#user_name IamSigningCertificate#user_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_signing_certificate#user_name IamSigningCertificate#user_name}.</summary>
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}")]
         public string UserName
         {
@@ -25,7 +25,7 @@ namespace aws.IamSigningCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_signing_certificate#id IamSigningCertificate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_signing_certificate#id IamSigningCertificate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace aws.IamSigningCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_signing_certificate#status IamSigningCertificate#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_signing_certificate#status IamSigningCertificate#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status

@@ -7,7 +7,7 @@ namespace aws.ConfigConfigurationRecorder
     [JsiiByValue(fqn: "aws.configConfigurationRecorder.ConfigConfigurationRecorderRecordingMode")]
     public class ConfigConfigurationRecorderRecordingMode : aws.ConfigConfigurationRecorder.IConfigConfigurationRecorderRecordingMode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/config_configuration_recorder#recording_frequency ConfigConfigurationRecorder#recording_frequency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_configuration_recorder#recording_frequency ConfigConfigurationRecorder#recording_frequency}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "recordingFrequency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RecordingFrequency
@@ -18,7 +18,7 @@ namespace aws.ConfigConfigurationRecorder
 
         /// <summary>recording_mode_override block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/config_configuration_recorder#recording_mode_override ConfigConfigurationRecorder#recording_mode_override}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_configuration_recorder#recording_mode_override ConfigConfigurationRecorder#recording_mode_override}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "recordingModeOverride", typeJson: "{\"fqn\":\"aws.configConfigurationRecorder.ConfigConfigurationRecorderRecordingModeRecordingModeOverride\"}", isOptional: true)]

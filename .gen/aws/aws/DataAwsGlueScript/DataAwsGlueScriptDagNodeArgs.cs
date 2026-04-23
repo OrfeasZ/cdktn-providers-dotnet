@@ -9,7 +9,7 @@ namespace aws.DataAwsGlueScript
     [JsiiByValue(fqn: "aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeArgs")]
     public class DataAwsGlueScriptDagNodeArgs : aws.DataAwsGlueScript.IDataAwsGlueScriptDagNodeArgs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/glue_script#name DataAwsGlueScript#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/glue_script#name DataAwsGlueScript#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsGlueScript
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/glue_script#value DataAwsGlueScript#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/glue_script#value DataAwsGlueScript#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {
@@ -27,7 +27,7 @@ namespace aws.DataAwsGlueScript
 
         private object? _param;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/glue_script#param DataAwsGlueScript#param}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/glue_script#param DataAwsGlueScript#param}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "param", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Param

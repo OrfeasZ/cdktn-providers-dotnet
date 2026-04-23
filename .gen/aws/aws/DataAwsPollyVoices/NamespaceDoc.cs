@@ -5,7 +5,7 @@ namespace aws.DataAwsPollyVoices
     /// <remarks>
     /// <h1><c>data_aws_polly_voices</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/polly_voices"><c>data_aws_polly_voices</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/polly_voices"><c>data_aws_polly_voices</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

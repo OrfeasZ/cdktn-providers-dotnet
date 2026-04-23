@@ -57,6 +57,12 @@ namespace aws.S3ControlStorageLensConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.S3ControlStorageLensConfiguration.IS3ControlStorageLensConfigurationStorageLensConfigurationExclude)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putExpandedPrefixesDataExport", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExport\"}}]")]
+        public virtual void PutExpandedPrefixesDataExport(aws.S3ControlStorageLensConfiguration.IS3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExport @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.S3ControlStorageLensConfiguration.IS3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExport)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putInclude", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationInclude\"}}]")]
         public virtual void PutInclude(aws.S3ControlStorageLensConfiguration.IS3ControlStorageLensConfigurationStorageLensConfigurationInclude @value)
         {
@@ -81,8 +87,20 @@ namespace aws.S3ControlStorageLensConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetExpandedPrefixesDataExport")]
+        public virtual void ResetExpandedPrefixesDataExport()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetInclude")]
         public virtual void ResetInclude()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPrefixDelimiter")]
+        public virtual void ResetPrefixDelimiter()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -109,6 +127,12 @@ namespace aws.S3ControlStorageLensConfiguration
         public virtual aws.S3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationExcludeOutputReference Exclude
         {
             get => GetInstanceProperty<aws.S3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationExcludeOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "expandedPrefixesDataExport", typeJson: "{\"fqn\":\"aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExportOutputReference\"}")]
+        public virtual aws.S3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExportOutputReference ExpandedPrefixesDataExport
+        {
+            get => GetInstanceProperty<aws.S3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExportOutputReference>()!;
         }
 
         [JsiiProperty(name: "include", typeJson: "{\"fqn\":\"aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationIncludeOutputReference\"}")]
@@ -153,10 +177,24 @@ namespace aws.S3ControlStorageLensConfiguration
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "expandedPrefixesDataExportInput", typeJson: "{\"fqn\":\"aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExport\"}", isOptional: true)]
+        public virtual aws.S3ControlStorageLensConfiguration.IS3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExport? ExpandedPrefixesDataExportInput
+        {
+            get => GetInstanceProperty<aws.S3ControlStorageLensConfiguration.IS3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExport?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "includeInput", typeJson: "{\"fqn\":\"aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationInclude\"}", isOptional: true)]
         public virtual aws.S3ControlStorageLensConfiguration.IS3ControlStorageLensConfigurationStorageLensConfigurationInclude? IncludeInput
         {
             get => GetInstanceProperty<aws.S3ControlStorageLensConfiguration.IS3ControlStorageLensConfigurationStorageLensConfigurationInclude?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "prefixDelimiterInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PrefixDelimiterInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -184,6 +222,13 @@ namespace aws.S3ControlStorageLensConfiguration
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "prefixDelimiter", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrefixDelimiter
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiOptional]

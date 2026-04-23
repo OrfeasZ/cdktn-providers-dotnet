@@ -7,7 +7,7 @@ namespace aws.DataAwsServicecatalogProduct
     [JsiiInterface(nativeType: typeof(IDataAwsServicecatalogProductTimeouts), fullyQualifiedName: "aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProductTimeouts")]
     public interface IDataAwsServicecatalogProductTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/servicecatalog_product#read DataAwsServicecatalogProduct#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/servicecatalog_product#read DataAwsServicecatalogProduct#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace aws.DataAwsServicecatalogProduct
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/servicecatalog_product#read DataAwsServicecatalogProduct#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/servicecatalog_product#read DataAwsServicecatalogProduct#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

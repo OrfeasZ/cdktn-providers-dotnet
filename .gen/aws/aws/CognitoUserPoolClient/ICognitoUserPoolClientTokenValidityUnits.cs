@@ -7,7 +7,7 @@ namespace aws.CognitoUserPoolClient
     [JsiiInterface(nativeType: typeof(ICognitoUserPoolClientTokenValidityUnits), fullyQualifiedName: "aws.cognitoUserPoolClient.CognitoUserPoolClientTokenValidityUnits")]
     public interface ICognitoUserPoolClientTokenValidityUnits
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_user_pool_client#access_token CognitoUserPoolClient#access_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool_client#access_token CognitoUserPoolClient#access_token}.</summary>
         [JsiiProperty(name: "accessToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessToken
@@ -18,7 +18,7 @@ namespace aws.CognitoUserPoolClient
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_user_pool_client#id_token CognitoUserPoolClient#id_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool_client#id_token CognitoUserPoolClient#id_token}.</summary>
         [JsiiProperty(name: "idToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IdToken
@@ -29,7 +29,7 @@ namespace aws.CognitoUserPoolClient
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_user_pool_client#refresh_token CognitoUserPoolClient#refresh_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool_client#refresh_token CognitoUserPoolClient#refresh_token}.</summary>
         [JsiiProperty(name: "refreshToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RefreshToken
@@ -47,7 +47,7 @@ namespace aws.CognitoUserPoolClient
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_user_pool_client#access_token CognitoUserPoolClient#access_token}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool_client#access_token CognitoUserPoolClient#access_token}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessToken
@@ -55,7 +55,7 @@ namespace aws.CognitoUserPoolClient
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_user_pool_client#id_token CognitoUserPoolClient#id_token}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool_client#id_token CognitoUserPoolClient#id_token}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "idToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IdToken
@@ -63,7 +63,7 @@ namespace aws.CognitoUserPoolClient
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_user_pool_client#refresh_token CognitoUserPoolClient#refresh_token}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool_client#refresh_token CognitoUserPoolClient#refresh_token}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "refreshToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RefreshToken

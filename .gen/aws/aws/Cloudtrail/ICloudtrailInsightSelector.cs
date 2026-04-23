@@ -7,7 +7,7 @@ namespace aws.Cloudtrail
     [JsiiInterface(nativeType: typeof(ICloudtrailInsightSelector), fullyQualifiedName: "aws.cloudtrail.CloudtrailInsightSelector")]
     public interface ICloudtrailInsightSelector
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudtrail#insight_type Cloudtrail#insight_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudtrail#insight_type Cloudtrail#insight_type}.</summary>
         [JsiiProperty(name: "insightType", typeJson: "{\"primitive\":\"string\"}")]
         string InsightType
         {
@@ -21,7 +21,7 @@ namespace aws.Cloudtrail
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudtrail#insight_type Cloudtrail#insight_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudtrail#insight_type Cloudtrail#insight_type}.</summary>
             [JsiiProperty(name: "insightType", typeJson: "{\"primitive\":\"string\"}")]
             public string InsightType
             {

@@ -9,7 +9,7 @@ namespace aws.CloudfrontDistribution
     [JsiiByValue(fqn: "aws.cloudfrontDistribution.CloudfrontDistributionRestrictionsGeoRestriction")]
     public class CloudfrontDistributionRestrictionsGeoRestriction : aws.CloudfrontDistribution.ICloudfrontDistributionRestrictionsGeoRestriction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_distribution#restriction_type CloudfrontDistribution#restriction_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#restriction_type CloudfrontDistribution#restriction_type}.</summary>
         [JsiiProperty(name: "restrictionType", typeJson: "{\"primitive\":\"string\"}")]
         public string RestrictionType
         {
@@ -17,7 +17,7 @@ namespace aws.CloudfrontDistribution
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_distribution#locations CloudfrontDistribution#locations}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#locations CloudfrontDistribution#locations}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "locations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Locations

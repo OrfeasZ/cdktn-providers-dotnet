@@ -7,7 +7,7 @@ namespace aws.DataAwsBillingViews
     [JsiiInterface(nativeType: typeof(IDataAwsBillingViewsConfig), fullyQualifiedName: "aws.dataAwsBillingViews.DataAwsBillingViewsConfig")]
     public interface IDataAwsBillingViewsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/billing_views#billing_view_types DataAwsBillingViews#billing_view_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/billing_views#billing_view_types DataAwsBillingViews#billing_view_types}.</summary>
         [JsiiProperty(name: "billingViewTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? BillingViewTypes
@@ -25,7 +25,7 @@ namespace aws.DataAwsBillingViews
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/billing_views#billing_view_types DataAwsBillingViews#billing_view_types}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/billing_views#billing_view_types DataAwsBillingViews#billing_view_types}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "billingViewTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? BillingViewTypes

@@ -7,7 +7,7 @@ namespace aws.DataAwsAmiIds
     [JsiiByValue(fqn: "aws.dataAwsAmiIds.DataAwsAmiIdsTimeouts")]
     public class DataAwsAmiIdsTimeouts : aws.DataAwsAmiIds.IDataAwsAmiIdsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ami_ids#read DataAwsAmiIds#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ami_ids#read DataAwsAmiIds#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

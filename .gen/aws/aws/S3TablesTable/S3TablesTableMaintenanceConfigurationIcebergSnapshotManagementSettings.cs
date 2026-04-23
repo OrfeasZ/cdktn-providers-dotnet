@@ -7,7 +7,7 @@ namespace aws.S3TablesTable
     [JsiiByValue(fqn: "aws.s3TablesTable.S3TablesTableMaintenanceConfigurationIcebergSnapshotManagementSettings")]
     public class S3TablesTableMaintenanceConfigurationIcebergSnapshotManagementSettings : aws.S3TablesTable.IS3TablesTableMaintenanceConfigurationIcebergSnapshotManagementSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3tables_table#max_snapshot_age_hours S3TablesTable#max_snapshot_age_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table#max_snapshot_age_hours S3TablesTable#max_snapshot_age_hours}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxSnapshotAgeHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxSnapshotAgeHours
@@ -16,7 +16,7 @@ namespace aws.S3TablesTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3tables_table#min_snapshots_to_keep S3TablesTable#min_snapshots_to_keep}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table#min_snapshots_to_keep S3TablesTable#min_snapshots_to_keep}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minSnapshotsToKeep", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinSnapshotsToKeep

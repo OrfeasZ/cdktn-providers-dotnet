@@ -9,7 +9,7 @@ namespace aws.WafregionalWebAcl
     [JsiiByValue(fqn: "aws.wafregionalWebAcl.WafregionalWebAclRuleAction")]
     public class WafregionalWebAclRuleAction : aws.WafregionalWebAcl.IWafregionalWebAclRuleAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_web_acl#type WafregionalWebAcl#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_web_acl#type WafregionalWebAcl#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

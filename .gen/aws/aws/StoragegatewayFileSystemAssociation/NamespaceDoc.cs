@@ -5,7 +5,7 @@ namespace aws.StoragegatewayFileSystemAssociation
     /// <remarks>
     /// <h1><c>aws_storagegateway_file_system_association</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/storagegateway_file_system_association"><c>aws_storagegateway_file_system_association</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/storagegateway_file_system_association"><c>aws_storagegateway_file_system_association</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -7,7 +7,7 @@ namespace aws.ConfigConfigRule
     [JsiiInterface(nativeType: typeof(IConfigConfigRuleEvaluationMode), fullyQualifiedName: "aws.configConfigRule.ConfigConfigRuleEvaluationMode")]
     public interface IConfigConfigRuleEvaluationMode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/config_config_rule#mode ConfigConfigRule#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#mode ConfigConfigRule#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Mode
@@ -25,7 +25,7 @@ namespace aws.ConfigConfigRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/config_config_rule#mode ConfigConfigRule#mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#mode ConfigConfigRule#mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Mode

@@ -9,7 +9,7 @@ namespace aws.EcsClusterCapacityProviders
     [JsiiByValue(fqn: "aws.ecsClusterCapacityProviders.EcsClusterCapacityProvidersDefaultCapacityProviderStrategy")]
     public class EcsClusterCapacityProvidersDefaultCapacityProviderStrategy : aws.EcsClusterCapacityProviders.IEcsClusterCapacityProvidersDefaultCapacityProviderStrategy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_cluster_capacity_providers#capacity_provider EcsClusterCapacityProviders#capacity_provider}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_cluster_capacity_providers#capacity_provider EcsClusterCapacityProviders#capacity_provider}.</summary>
         [JsiiProperty(name: "capacityProvider", typeJson: "{\"primitive\":\"string\"}")]
         public string CapacityProvider
         {
@@ -17,7 +17,7 @@ namespace aws.EcsClusterCapacityProviders
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_cluster_capacity_providers#base EcsClusterCapacityProviders#base}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_cluster_capacity_providers#base EcsClusterCapacityProviders#base}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "base", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Base
@@ -26,7 +26,7 @@ namespace aws.EcsClusterCapacityProviders
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_cluster_capacity_providers#weight EcsClusterCapacityProviders#weight}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_cluster_capacity_providers#weight EcsClusterCapacityProviders#weight}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Weight

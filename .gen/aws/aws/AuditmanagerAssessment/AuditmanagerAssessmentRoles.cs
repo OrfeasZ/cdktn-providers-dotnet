@@ -9,7 +9,7 @@ namespace aws.AuditmanagerAssessment
     [JsiiByValue(fqn: "aws.auditmanagerAssessment.AuditmanagerAssessmentRoles")]
     public class AuditmanagerAssessmentRoles : aws.AuditmanagerAssessment.IAuditmanagerAssessmentRoles
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/auditmanager_assessment#role_arn AuditmanagerAssessment#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_assessment#role_arn AuditmanagerAssessment#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleArn
         {
@@ -17,7 +17,7 @@ namespace aws.AuditmanagerAssessment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/auditmanager_assessment#role_type AuditmanagerAssessment#role_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_assessment#role_type AuditmanagerAssessment#role_type}.</summary>
         [JsiiProperty(name: "roleType", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleType
         {

@@ -7,14 +7,14 @@ namespace aws.DataAwsPricingProduct
     [JsiiInterface(nativeType: typeof(IDataAwsPricingProductFilters), fullyQualifiedName: "aws.dataAwsPricingProduct.DataAwsPricingProductFilters")]
     public interface IDataAwsPricingProductFilters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/pricing_product#field DataAwsPricingProduct#field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/pricing_product#field DataAwsPricingProduct#field}.</summary>
         [JsiiProperty(name: "field", typeJson: "{\"primitive\":\"string\"}")]
         string Field
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/pricing_product#value DataAwsPricingProduct#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/pricing_product#value DataAwsPricingProduct#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -28,14 +28,14 @@ namespace aws.DataAwsPricingProduct
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/pricing_product#field DataAwsPricingProduct#field}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/pricing_product#field DataAwsPricingProduct#field}.</summary>
             [JsiiProperty(name: "field", typeJson: "{\"primitive\":\"string\"}")]
             public string Field
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/pricing_product#value DataAwsPricingProduct#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/pricing_product#value DataAwsPricingProduct#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

@@ -9,7 +9,7 @@ namespace aws.SagemakerFeatureGroup
     {
         /// <summary>collection_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_feature_group#collection_config SagemakerFeatureGroup#collection_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#collection_config SagemakerFeatureGroup#collection_config}
         /// </remarks>
         [JsiiProperty(name: "collectionConfig", typeJson: "{\"fqn\":\"aws.sagemakerFeatureGroup.SagemakerFeatureGroupFeatureDefinitionCollectionConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace aws.SagemakerFeatureGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_feature_group#collection_type SagemakerFeatureGroup#collection_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#collection_type SagemakerFeatureGroup#collection_type}.</summary>
         [JsiiProperty(name: "collectionType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CollectionType
@@ -32,7 +32,7 @@ namespace aws.SagemakerFeatureGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_feature_group#feature_name SagemakerFeatureGroup#feature_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#feature_name SagemakerFeatureGroup#feature_name}.</summary>
         [JsiiProperty(name: "featureName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FeatureName
@@ -43,7 +43,7 @@ namespace aws.SagemakerFeatureGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_feature_group#feature_type SagemakerFeatureGroup#feature_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#feature_type SagemakerFeatureGroup#feature_type}.</summary>
         [JsiiProperty(name: "featureType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FeatureType
@@ -63,7 +63,7 @@ namespace aws.SagemakerFeatureGroup
 
             /// <summary>collection_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_feature_group#collection_config SagemakerFeatureGroup#collection_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#collection_config SagemakerFeatureGroup#collection_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "collectionConfig", typeJson: "{\"fqn\":\"aws.sagemakerFeatureGroup.SagemakerFeatureGroupFeatureDefinitionCollectionConfig\"}", isOptional: true)]
@@ -72,7 +72,7 @@ namespace aws.SagemakerFeatureGroup
                 get => GetInstanceProperty<aws.SagemakerFeatureGroup.ISagemakerFeatureGroupFeatureDefinitionCollectionConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_feature_group#collection_type SagemakerFeatureGroup#collection_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#collection_type SagemakerFeatureGroup#collection_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "collectionType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CollectionType
@@ -80,7 +80,7 @@ namespace aws.SagemakerFeatureGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_feature_group#feature_name SagemakerFeatureGroup#feature_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#feature_name SagemakerFeatureGroup#feature_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "featureName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FeatureName
@@ -88,7 +88,7 @@ namespace aws.SagemakerFeatureGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_feature_group#feature_type SagemakerFeatureGroup#feature_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#feature_type SagemakerFeatureGroup#feature_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "featureType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FeatureType

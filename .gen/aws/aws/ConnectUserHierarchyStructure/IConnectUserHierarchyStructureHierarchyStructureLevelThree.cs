@@ -7,7 +7,7 @@ namespace aws.ConnectUserHierarchyStructure
     [JsiiInterface(nativeType: typeof(IConnectUserHierarchyStructureHierarchyStructureLevelThree), fullyQualifiedName: "aws.connectUserHierarchyStructure.ConnectUserHierarchyStructureHierarchyStructureLevelThree")]
     public interface IConnectUserHierarchyStructureHierarchyStructureLevelThree
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -21,7 +21,7 @@ namespace aws.ConnectUserHierarchyStructure
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {

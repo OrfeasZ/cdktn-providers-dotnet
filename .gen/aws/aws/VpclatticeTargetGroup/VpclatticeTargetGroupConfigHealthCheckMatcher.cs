@@ -7,7 +7,7 @@ namespace aws.VpclatticeTargetGroup
     [JsiiByValue(fqn: "aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfigHealthCheckMatcher")]
     public class VpclatticeTargetGroupConfigHealthCheckMatcher : aws.VpclatticeTargetGroup.IVpclatticeTargetGroupConfigHealthCheckMatcher
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpclattice_target_group#value VpclatticeTargetGroup#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpclattice_target_group#value VpclatticeTargetGroup#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

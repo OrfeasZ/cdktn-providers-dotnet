@@ -9,7 +9,7 @@ namespace aws.FsxOntapVolume
     {
         /// <summary>default_retention block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_ontap_volume#default_retention FsxOntapVolume#default_retention}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_ontap_volume#default_retention FsxOntapVolume#default_retention}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultRetention", typeJson: "{\"fqn\":\"aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetention\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.FsxOntapVolume
 
         /// <summary>maximum_retention block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_ontap_volume#maximum_retention FsxOntapVolume#maximum_retention}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_ontap_volume#maximum_retention FsxOntapVolume#maximum_retention}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maximumRetention", typeJson: "{\"fqn\":\"aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetention\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace aws.FsxOntapVolume
 
         /// <summary>minimum_retention block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_ontap_volume#minimum_retention FsxOntapVolume#minimum_retention}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_ontap_volume#minimum_retention FsxOntapVolume#minimum_retention}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minimumRetention", typeJson: "{\"fqn\":\"aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodMinimumRetention\"}", isOptional: true)]

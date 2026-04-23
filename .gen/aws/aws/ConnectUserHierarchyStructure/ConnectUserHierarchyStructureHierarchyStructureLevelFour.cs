@@ -9,7 +9,7 @@ namespace aws.ConnectUserHierarchyStructure
     [JsiiByValue(fqn: "aws.connectUserHierarchyStructure.ConnectUserHierarchyStructureHierarchyStructureLevelFour")]
     public class ConnectUserHierarchyStructureHierarchyStructureLevelFour : aws.ConnectUserHierarchyStructure.IConnectUserHierarchyStructureHierarchyStructureLevelFour
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

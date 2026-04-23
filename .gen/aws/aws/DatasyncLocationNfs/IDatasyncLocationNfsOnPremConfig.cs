@@ -7,7 +7,7 @@ namespace aws.DatasyncLocationNfs
     [JsiiInterface(nativeType: typeof(IDatasyncLocationNfsOnPremConfig), fullyQualifiedName: "aws.datasyncLocationNfs.DatasyncLocationNfsOnPremConfig")]
     public interface IDatasyncLocationNfsOnPremConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_nfs#agent_arns DatasyncLocationNfs#agent_arns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_nfs#agent_arns DatasyncLocationNfs#agent_arns}.</summary>
         [JsiiProperty(name: "agentArns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] AgentArns
         {
@@ -21,7 +21,7 @@ namespace aws.DatasyncLocationNfs
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_nfs#agent_arns DatasyncLocationNfs#agent_arns}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_nfs#agent_arns DatasyncLocationNfs#agent_arns}.</summary>
             [JsiiProperty(name: "agentArns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] AgentArns
             {

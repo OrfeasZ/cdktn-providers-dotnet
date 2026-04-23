@@ -7,7 +7,7 @@ namespace aws.CloudfrontOriginRequestPolicy
     [JsiiByValue(fqn: "aws.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyHeadersConfigHeaders")]
     public class CloudfrontOriginRequestPolicyHeadersConfigHeaders : aws.CloudfrontOriginRequestPolicy.ICloudfrontOriginRequestPolicyHeadersConfigHeaders
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_origin_request_policy#items CloudfrontOriginRequestPolicy#items}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_origin_request_policy#items CloudfrontOriginRequestPolicy#items}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "items", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Items

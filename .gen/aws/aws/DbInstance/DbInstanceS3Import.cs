@@ -9,7 +9,7 @@ namespace aws.DbInstance
     [JsiiByValue(fqn: "aws.dbInstance.DbInstanceS3Import")]
     public class DbInstanceS3Import : aws.DbInstance.IDbInstanceS3Import
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/db_instance#bucket_name DbInstance#bucket_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_instance#bucket_name DbInstance#bucket_name}.</summary>
         [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
         public string BucketName
         {
@@ -17,7 +17,7 @@ namespace aws.DbInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/db_instance#ingestion_role DbInstance#ingestion_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_instance#ingestion_role DbInstance#ingestion_role}.</summary>
         [JsiiProperty(name: "ingestionRole", typeJson: "{\"primitive\":\"string\"}")]
         public string IngestionRole
         {
@@ -25,7 +25,7 @@ namespace aws.DbInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/db_instance#source_engine DbInstance#source_engine}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_instance#source_engine DbInstance#source_engine}.</summary>
         [JsiiProperty(name: "sourceEngine", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceEngine
         {
@@ -33,7 +33,7 @@ namespace aws.DbInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/db_instance#source_engine_version DbInstance#source_engine_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_instance#source_engine_version DbInstance#source_engine_version}.</summary>
         [JsiiProperty(name: "sourceEngineVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceEngineVersion
         {
@@ -41,7 +41,7 @@ namespace aws.DbInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/db_instance#bucket_prefix DbInstance#bucket_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_instance#bucket_prefix DbInstance#bucket_prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bucketPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BucketPrefix

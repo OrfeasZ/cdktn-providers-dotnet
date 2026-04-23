@@ -7,7 +7,7 @@ namespace aws.CeCostCategory
     [JsiiInterface(nativeType: typeof(ICeCostCategoryRuleInheritedValue), fullyQualifiedName: "aws.ceCostCategory.CeCostCategoryRuleInheritedValue")]
     public interface ICeCostCategoryRuleInheritedValue
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ce_cost_category#dimension_key CeCostCategory#dimension_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_category#dimension_key CeCostCategory#dimension_key}.</summary>
         [JsiiProperty(name: "dimensionKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DimensionKey
@@ -18,7 +18,7 @@ namespace aws.CeCostCategory
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ce_cost_category#dimension_name CeCostCategory#dimension_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_category#dimension_name CeCostCategory#dimension_name}.</summary>
         [JsiiProperty(name: "dimensionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DimensionName
@@ -36,7 +36,7 @@ namespace aws.CeCostCategory
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ce_cost_category#dimension_key CeCostCategory#dimension_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_category#dimension_key CeCostCategory#dimension_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dimensionKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DimensionKey
@@ -44,7 +44,7 @@ namespace aws.CeCostCategory
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ce_cost_category#dimension_name CeCostCategory#dimension_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_category#dimension_name CeCostCategory#dimension_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dimensionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DimensionName

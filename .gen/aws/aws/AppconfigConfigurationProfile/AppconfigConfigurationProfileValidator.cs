@@ -9,7 +9,7 @@ namespace aws.AppconfigConfigurationProfile
     [JsiiByValue(fqn: "aws.appconfigConfigurationProfile.AppconfigConfigurationProfileValidator")]
     public class AppconfigConfigurationProfileValidator : aws.AppconfigConfigurationProfile.IAppconfigConfigurationProfileValidator
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appconfig_configuration_profile#type AppconfigConfigurationProfile#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_configuration_profile#type AppconfigConfigurationProfile#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.AppconfigConfigurationProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appconfig_configuration_profile#content AppconfigConfigurationProfile#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_configuration_profile#content AppconfigConfigurationProfile#content}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Content

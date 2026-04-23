@@ -7,7 +7,7 @@ namespace aws.AthenaDatabase
     [JsiiInterface(nativeType: typeof(IAthenaDatabaseAclConfiguration), fullyQualifiedName: "aws.athenaDatabase.AthenaDatabaseAclConfiguration")]
     public interface IAthenaDatabaseAclConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/athena_database#s3_acl_option AthenaDatabase#s3_acl_option}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#s3_acl_option AthenaDatabase#s3_acl_option}.</summary>
         [JsiiProperty(name: "s3AclOption", typeJson: "{\"primitive\":\"string\"}")]
         string S3AclOption
         {
@@ -21,7 +21,7 @@ namespace aws.AthenaDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/athena_database#s3_acl_option AthenaDatabase#s3_acl_option}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#s3_acl_option AthenaDatabase#s3_acl_option}.</summary>
             [JsiiProperty(name: "s3AclOption", typeJson: "{\"primitive\":\"string\"}")]
             public string S3AclOption
             {

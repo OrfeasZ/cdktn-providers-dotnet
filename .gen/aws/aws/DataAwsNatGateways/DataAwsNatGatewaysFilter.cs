@@ -9,7 +9,7 @@ namespace aws.DataAwsNatGateways
     [JsiiByValue(fqn: "aws.dataAwsNatGateways.DataAwsNatGatewaysFilter")]
     public class DataAwsNatGatewaysFilter : aws.DataAwsNatGateways.IDataAwsNatGatewaysFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/nat_gateways#name DataAwsNatGateways#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/nat_gateways#name DataAwsNatGateways#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsNatGateways
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/nat_gateways#values DataAwsNatGateways#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/nat_gateways#values DataAwsNatGateways#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

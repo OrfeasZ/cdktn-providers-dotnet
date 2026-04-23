@@ -7,7 +7,7 @@ namespace aws.InternetmonitorMonitor
     [JsiiInterface(nativeType: typeof(IInternetmonitorMonitorHealthEventsConfig), fullyQualifiedName: "aws.internetmonitorMonitor.InternetmonitorMonitorHealthEventsConfig")]
     public interface IInternetmonitorMonitorHealthEventsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/internetmonitor_monitor#availability_score_threshold InternetmonitorMonitor#availability_score_threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/internetmonitor_monitor#availability_score_threshold InternetmonitorMonitor#availability_score_threshold}.</summary>
         [JsiiProperty(name: "availabilityScoreThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? AvailabilityScoreThreshold
@@ -18,7 +18,7 @@ namespace aws.InternetmonitorMonitor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/internetmonitor_monitor#performance_score_threshold InternetmonitorMonitor#performance_score_threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/internetmonitor_monitor#performance_score_threshold InternetmonitorMonitor#performance_score_threshold}.</summary>
         [JsiiProperty(name: "performanceScoreThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? PerformanceScoreThreshold
@@ -36,7 +36,7 @@ namespace aws.InternetmonitorMonitor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/internetmonitor_monitor#availability_score_threshold InternetmonitorMonitor#availability_score_threshold}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/internetmonitor_monitor#availability_score_threshold InternetmonitorMonitor#availability_score_threshold}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "availabilityScoreThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? AvailabilityScoreThreshold
@@ -44,7 +44,7 @@ namespace aws.InternetmonitorMonitor
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/internetmonitor_monitor#performance_score_threshold InternetmonitorMonitor#performance_score_threshold}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/internetmonitor_monitor#performance_score_threshold InternetmonitorMonitor#performance_score_threshold}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "performanceScoreThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? PerformanceScoreThreshold

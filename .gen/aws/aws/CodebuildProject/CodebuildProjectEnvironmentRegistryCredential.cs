@@ -9,7 +9,7 @@ namespace aws.CodebuildProject
     [JsiiByValue(fqn: "aws.codebuildProject.CodebuildProjectEnvironmentRegistryCredential")]
     public class CodebuildProjectEnvironmentRegistryCredential : aws.CodebuildProject.ICodebuildProjectEnvironmentRegistryCredential
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#credential CodebuildProject#credential}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#credential CodebuildProject#credential}.</summary>
         [JsiiProperty(name: "credential", typeJson: "{\"primitive\":\"string\"}")]
         public string Credential
         {
@@ -17,7 +17,7 @@ namespace aws.CodebuildProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#credential_provider CodebuildProject#credential_provider}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#credential_provider CodebuildProject#credential_provider}.</summary>
         [JsiiProperty(name: "credentialProvider", typeJson: "{\"primitive\":\"string\"}")]
         public string CredentialProvider
         {

@@ -9,7 +9,7 @@ namespace aws.SagemakerModelCardExportJob
     [JsiiByValue(fqn: "aws.sagemakerModelCardExportJob.SagemakerModelCardExportJobOutputConfig")]
     public class SagemakerModelCardExportJobOutputConfig : aws.SagemakerModelCardExportJob.ISagemakerModelCardExportJobOutputConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_model_card_export_job#s3_output_path SagemakerModelCardExportJob#s3_output_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model_card_export_job#s3_output_path SagemakerModelCardExportJob#s3_output_path}.</summary>
         [JsiiProperty(name: "s3OutputPath", typeJson: "{\"primitive\":\"string\"}")]
         public string S3OutputPath
         {

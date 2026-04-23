@@ -9,7 +9,7 @@ namespace aws.VpcIpamResourceDiscovery
     [JsiiByValue(fqn: "aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscoveryOperatingRegions")]
     public class VpcIpamResourceDiscoveryOperatingRegions : aws.VpcIpamResourceDiscovery.IVpcIpamResourceDiscoveryOperatingRegions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc_ipam_resource_discovery#region_name VpcIpamResourceDiscovery#region_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_ipam_resource_discovery#region_name VpcIpamResourceDiscovery#region_name}.</summary>
         [JsiiProperty(name: "regionName", typeJson: "{\"primitive\":\"string\"}")]
         public string RegionName
         {

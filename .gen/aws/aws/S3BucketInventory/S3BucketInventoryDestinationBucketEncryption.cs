@@ -9,7 +9,7 @@ namespace aws.S3BucketInventory
     {
         /// <summary>sse_kms block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_inventory#sse_kms S3BucketInventory#sse_kms}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_inventory#sse_kms S3BucketInventory#sse_kms}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sseKms", typeJson: "{\"fqn\":\"aws.s3BucketInventory.S3BucketInventoryDestinationBucketEncryptionSseKms\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.S3BucketInventory
 
         /// <summary>sse_s3 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_inventory#sse_s3 S3BucketInventory#sse_s3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_inventory#sse_s3 S3BucketInventory#sse_s3}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sseS3", typeJson: "{\"fqn\":\"aws.s3BucketInventory.S3BucketInventoryDestinationBucketEncryptionSseS3\"}", isOptional: true)]

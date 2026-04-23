@@ -7,14 +7,14 @@ namespace aws.DataAwsCeTags
     [JsiiInterface(nativeType: typeof(IDataAwsCeTagsTimePeriod), fullyQualifiedName: "aws.dataAwsCeTags.DataAwsCeTagsTimePeriod")]
     public interface IDataAwsCeTagsTimePeriod
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ce_tags#end DataAwsCeTags#end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ce_tags#end DataAwsCeTags#end}.</summary>
         [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"string\"}")]
         string End
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ce_tags#start DataAwsCeTags#start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ce_tags#start DataAwsCeTags#start}.</summary>
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}")]
         string Start
         {
@@ -28,14 +28,14 @@ namespace aws.DataAwsCeTags
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ce_tags#end DataAwsCeTags#end}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ce_tags#end DataAwsCeTags#end}.</summary>
             [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"string\"}")]
             public string End
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ce_tags#start DataAwsCeTags#start}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ce_tags#start DataAwsCeTags#start}.</summary>
             [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}")]
             public string Start
             {

@@ -9,7 +9,7 @@ namespace aws.Wafv2WebAcl
     [JsiiByValue(fqn: "aws.wafv2WebAcl.Wafv2WebAclDataProtectionConfigDataProtectionField")]
     public class Wafv2WebAclDataProtectionConfigDataProtectionField : aws.Wafv2WebAcl.IWafv2WebAclDataProtectionConfigDataProtectionField
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafv2_web_acl#field_type Wafv2WebAcl#field_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#field_type Wafv2WebAcl#field_type}.</summary>
         [JsiiProperty(name: "fieldType", typeJson: "{\"primitive\":\"string\"}")]
         public string FieldType
         {
@@ -17,7 +17,7 @@ namespace aws.Wafv2WebAcl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafv2_web_acl#field_keys Wafv2WebAcl#field_keys}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#field_keys Wafv2WebAcl#field_keys}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fieldKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? FieldKeys

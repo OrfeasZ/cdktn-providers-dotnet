@@ -9,7 +9,7 @@ namespace aws.AppmeshVirtualRouter
     [JsiiByValue(fqn: "aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListenerPortMapping")]
     public class AppmeshVirtualRouterSpecListenerPortMapping : aws.AppmeshVirtualRouter.IAppmeshVirtualRouterSpecListenerPortMapping
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_virtual_router#port AppmeshVirtualRouter#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_router#port AppmeshVirtualRouter#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         public double Port
         {
@@ -17,7 +17,7 @@ namespace aws.AppmeshVirtualRouter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_virtual_router#protocol AppmeshVirtualRouter#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_router#protocol AppmeshVirtualRouter#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         public string Protocol
         {

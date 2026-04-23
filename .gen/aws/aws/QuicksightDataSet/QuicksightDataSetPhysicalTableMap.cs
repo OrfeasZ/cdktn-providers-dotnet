@@ -9,7 +9,7 @@ namespace aws.QuicksightDataSet
     [JsiiByValue(fqn: "aws.quicksightDataSet.QuicksightDataSetPhysicalTableMap")]
     public class QuicksightDataSetPhysicalTableMap : aws.QuicksightDataSet.IQuicksightDataSetPhysicalTableMap
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_set#physical_table_map_id QuicksightDataSet#physical_table_map_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#physical_table_map_id QuicksightDataSet#physical_table_map_id}.</summary>
         [JsiiProperty(name: "physicalTableMapId", typeJson: "{\"primitive\":\"string\"}")]
         public string PhysicalTableMapId
         {
@@ -19,7 +19,7 @@ namespace aws.QuicksightDataSet
 
         /// <summary>custom_sql block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_set#custom_sql QuicksightDataSet#custom_sql}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#custom_sql QuicksightDataSet#custom_sql}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customSql", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSql\"}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.QuicksightDataSet
 
         /// <summary>relational_table block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_set#relational_table QuicksightDataSet#relational_table}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#relational_table QuicksightDataSet#relational_table}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "relationalTable", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapRelationalTable\"}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace aws.QuicksightDataSet
 
         /// <summary>s3_source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_set#s3_source QuicksightDataSet#s3_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#s3_source QuicksightDataSet#s3_source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3Source", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapS3Source\"}", isOptional: true)]

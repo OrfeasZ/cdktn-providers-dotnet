@@ -9,7 +9,7 @@ namespace aws.QuicksightIngestion
     [JsiiByValue(fqn: "aws.quicksightIngestion.QuicksightIngestionConfig")]
     public class QuicksightIngestionConfig : aws.QuicksightIngestion.IQuicksightIngestionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_ingestion#data_set_id QuicksightIngestion#data_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_ingestion#data_set_id QuicksightIngestion#data_set_id}.</summary>
         [JsiiProperty(name: "dataSetId", typeJson: "{\"primitive\":\"string\"}")]
         public string DataSetId
         {
@@ -17,7 +17,7 @@ namespace aws.QuicksightIngestion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_ingestion#ingestion_id QuicksightIngestion#ingestion_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_ingestion#ingestion_id QuicksightIngestion#ingestion_id}.</summary>
         [JsiiProperty(name: "ingestionId", typeJson: "{\"primitive\":\"string\"}")]
         public string IngestionId
         {
@@ -25,7 +25,7 @@ namespace aws.QuicksightIngestion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_ingestion#ingestion_type QuicksightIngestion#ingestion_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_ingestion#ingestion_type QuicksightIngestion#ingestion_type}.</summary>
         [JsiiProperty(name: "ingestionType", typeJson: "{\"primitive\":\"string\"}")]
         public string IngestionType
         {
@@ -33,7 +33,7 @@ namespace aws.QuicksightIngestion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_ingestion#aws_account_id QuicksightIngestion#aws_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_ingestion#aws_account_id QuicksightIngestion#aws_account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "awsAccountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AwsAccountId
@@ -44,7 +44,7 @@ namespace aws.QuicksightIngestion
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_ingestion#region QuicksightIngestion#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_ingestion#region QuicksightIngestion#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

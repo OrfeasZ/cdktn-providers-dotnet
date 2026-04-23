@@ -9,7 +9,7 @@ namespace aws.GlueCatalogTable
     [JsiiByValue(fqn: "aws.glueCatalogTable.GlueCatalogTableOpenTableFormatInputIcebergInput")]
     public class GlueCatalogTableOpenTableFormatInputIcebergInput : aws.GlueCatalogTable.IGlueCatalogTableOpenTableFormatInputIcebergInput
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_table#metadata_operation GlueCatalogTable#metadata_operation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#metadata_operation GlueCatalogTable#metadata_operation}.</summary>
         [JsiiProperty(name: "metadataOperation", typeJson: "{\"primitive\":\"string\"}")]
         public string MetadataOperation
         {
@@ -19,7 +19,7 @@ namespace aws.GlueCatalogTable
 
         /// <summary>iceberg_table_input block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_table#iceberg_table_input GlueCatalogTable#iceberg_table_input}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#iceberg_table_input GlueCatalogTable#iceberg_table_input}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "icebergTableInput", typeJson: "{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInput\"}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace aws.GlueCatalogTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_table#version GlueCatalogTable#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#version GlueCatalogTable#version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Version

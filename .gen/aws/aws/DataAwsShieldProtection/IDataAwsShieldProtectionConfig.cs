@@ -7,7 +7,7 @@ namespace aws.DataAwsShieldProtection
     [JsiiInterface(nativeType: typeof(IDataAwsShieldProtectionConfig), fullyQualifiedName: "aws.dataAwsShieldProtection.DataAwsShieldProtectionConfig")]
     public interface IDataAwsShieldProtectionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/shield_protection#protection_id DataAwsShieldProtection#protection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/shield_protection#protection_id DataAwsShieldProtection#protection_id}.</summary>
         [JsiiProperty(name: "protectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ProtectionId
@@ -18,7 +18,7 @@ namespace aws.DataAwsShieldProtection
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/shield_protection#resource_arn DataAwsShieldProtection#resource_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/shield_protection#resource_arn DataAwsShieldProtection#resource_arn}.</summary>
         [JsiiProperty(name: "resourceArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceArn
@@ -36,7 +36,7 @@ namespace aws.DataAwsShieldProtection
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/shield_protection#protection_id DataAwsShieldProtection#protection_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/shield_protection#protection_id DataAwsShieldProtection#protection_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "protectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ProtectionId
@@ -44,7 +44,7 @@ namespace aws.DataAwsShieldProtection
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/shield_protection#resource_arn DataAwsShieldProtection#resource_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/shield_protection#resource_arn DataAwsShieldProtection#resource_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceArn

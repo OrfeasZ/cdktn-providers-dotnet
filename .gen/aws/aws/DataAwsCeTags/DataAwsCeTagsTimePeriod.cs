@@ -9,7 +9,7 @@ namespace aws.DataAwsCeTags
     [JsiiByValue(fqn: "aws.dataAwsCeTags.DataAwsCeTagsTimePeriod")]
     public class DataAwsCeTagsTimePeriod : aws.DataAwsCeTags.IDataAwsCeTagsTimePeriod
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ce_tags#end DataAwsCeTags#end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ce_tags#end DataAwsCeTags#end}.</summary>
         [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"string\"}")]
         public string End
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsCeTags
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ce_tags#start DataAwsCeTags#start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ce_tags#start DataAwsCeTags#start}.</summary>
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}")]
         public string Start
         {

@@ -7,7 +7,7 @@ namespace aws.VpclatticeListenerRule
     [JsiiInterface(nativeType: typeof(IVpclatticeListenerRuleActionFixedResponse), fullyQualifiedName: "aws.vpclatticeListenerRule.VpclatticeListenerRuleActionFixedResponse")]
     public interface IVpclatticeListenerRuleActionFixedResponse
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpclattice_listener_rule#status_code VpclatticeListenerRule#status_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpclattice_listener_rule#status_code VpclatticeListenerRule#status_code}.</summary>
         [JsiiProperty(name: "statusCode", typeJson: "{\"primitive\":\"number\"}")]
         double StatusCode
         {
@@ -21,7 +21,7 @@ namespace aws.VpclatticeListenerRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpclattice_listener_rule#status_code VpclatticeListenerRule#status_code}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpclattice_listener_rule#status_code VpclatticeListenerRule#status_code}.</summary>
             [JsiiProperty(name: "statusCode", typeJson: "{\"primitive\":\"number\"}")]
             public double StatusCode
             {

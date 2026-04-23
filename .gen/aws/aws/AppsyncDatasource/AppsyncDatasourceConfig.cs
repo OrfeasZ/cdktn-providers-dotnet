@@ -9,7 +9,7 @@ namespace aws.AppsyncDatasource
     [JsiiByValue(fqn: "aws.appsyncDatasource.AppsyncDatasourceConfig")]
     public class AppsyncDatasourceConfig : aws.AppsyncDatasource.IAppsyncDatasourceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#api_id AppsyncDatasource#api_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#api_id AppsyncDatasource#api_id}.</summary>
         [JsiiProperty(name: "apiId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiId
         {
@@ -17,7 +17,7 @@ namespace aws.AppsyncDatasource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#name AppsyncDatasource#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#name AppsyncDatasource#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace aws.AppsyncDatasource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#type AppsyncDatasource#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#type AppsyncDatasource#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -33,7 +33,7 @@ namespace aws.AppsyncDatasource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#description AppsyncDatasource#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#description AppsyncDatasource#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -44,7 +44,7 @@ namespace aws.AppsyncDatasource
 
         /// <summary>dynamodb_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#dynamodb_config AppsyncDatasource#dynamodb_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#dynamodb_config AppsyncDatasource#dynamodb_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dynamodbConfig", typeJson: "{\"fqn\":\"aws.appsyncDatasource.AppsyncDatasourceDynamodbConfig\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace aws.AppsyncDatasource
 
         /// <summary>elasticsearch_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#elasticsearch_config AppsyncDatasource#elasticsearch_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#elasticsearch_config AppsyncDatasource#elasticsearch_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "elasticsearchConfig", typeJson: "{\"fqn\":\"aws.appsyncDatasource.AppsyncDatasourceElasticsearchConfig\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace aws.AppsyncDatasource
 
         /// <summary>event_bridge_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#event_bridge_config AppsyncDatasource#event_bridge_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#event_bridge_config AppsyncDatasource#event_bridge_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eventBridgeConfig", typeJson: "{\"fqn\":\"aws.appsyncDatasource.AppsyncDatasourceEventBridgeConfig\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace aws.AppsyncDatasource
 
         /// <summary>http_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#http_config AppsyncDatasource#http_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#http_config AppsyncDatasource#http_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpConfig", typeJson: "{\"fqn\":\"aws.appsyncDatasource.AppsyncDatasourceHttpConfig\"}", isOptional: true)]
@@ -90,7 +90,7 @@ namespace aws.AppsyncDatasource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#id AppsyncDatasource#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#id AppsyncDatasource#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -105,7 +105,7 @@ namespace aws.AppsyncDatasource
 
         /// <summary>lambda_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#lambda_config AppsyncDatasource#lambda_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#lambda_config AppsyncDatasource#lambda_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lambdaConfig", typeJson: "{\"fqn\":\"aws.appsyncDatasource.AppsyncDatasourceLambdaConfig\"}", isOptional: true)]
@@ -117,7 +117,7 @@ namespace aws.AppsyncDatasource
 
         /// <summary>opensearchservice_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#opensearchservice_config AppsyncDatasource#opensearchservice_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#opensearchservice_config AppsyncDatasource#opensearchservice_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "opensearchserviceConfig", typeJson: "{\"fqn\":\"aws.appsyncDatasource.AppsyncDatasourceOpensearchserviceConfig\"}", isOptional: true)]
@@ -129,7 +129,7 @@ namespace aws.AppsyncDatasource
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#region AppsyncDatasource#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#region AppsyncDatasource#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -141,7 +141,7 @@ namespace aws.AppsyncDatasource
 
         /// <summary>relational_database_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#relational_database_config AppsyncDatasource#relational_database_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#relational_database_config AppsyncDatasource#relational_database_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "relationalDatabaseConfig", typeJson: "{\"fqn\":\"aws.appsyncDatasource.AppsyncDatasourceRelationalDatabaseConfig\"}", isOptional: true)]
@@ -151,7 +151,7 @@ namespace aws.AppsyncDatasource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#service_role_arn AppsyncDatasource#service_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#service_role_arn AppsyncDatasource#service_role_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serviceRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServiceRoleArn

@@ -7,14 +7,14 @@ namespace aws.RbinRule
     [JsiiInterface(nativeType: typeof(IRbinRuleLockConfigurationUnlockDelay), fullyQualifiedName: "aws.rbinRule.RbinRuleLockConfigurationUnlockDelay")]
     public interface IRbinRuleLockConfigurationUnlockDelay
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rbin_rule#unlock_delay_unit RbinRule#unlock_delay_unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rbin_rule#unlock_delay_unit RbinRule#unlock_delay_unit}.</summary>
         [JsiiProperty(name: "unlockDelayUnit", typeJson: "{\"primitive\":\"string\"}")]
         string UnlockDelayUnit
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rbin_rule#unlock_delay_value RbinRule#unlock_delay_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rbin_rule#unlock_delay_value RbinRule#unlock_delay_value}.</summary>
         [JsiiProperty(name: "unlockDelayValue", typeJson: "{\"primitive\":\"number\"}")]
         double UnlockDelayValue
         {
@@ -28,14 +28,14 @@ namespace aws.RbinRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rbin_rule#unlock_delay_unit RbinRule#unlock_delay_unit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rbin_rule#unlock_delay_unit RbinRule#unlock_delay_unit}.</summary>
             [JsiiProperty(name: "unlockDelayUnit", typeJson: "{\"primitive\":\"string\"}")]
             public string UnlockDelayUnit
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rbin_rule#unlock_delay_value RbinRule#unlock_delay_value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rbin_rule#unlock_delay_value RbinRule#unlock_delay_value}.</summary>
             [JsiiProperty(name: "unlockDelayValue", typeJson: "{\"primitive\":\"number\"}")]
             public double UnlockDelayValue
             {

@@ -9,7 +9,7 @@ namespace aws.QuicksightTemplate
     [JsiiByValue(fqn: "aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysisDataSetReferences")]
     public class QuicksightTemplateSourceEntitySourceAnalysisDataSetReferences : aws.QuicksightTemplate.IQuicksightTemplateSourceEntitySourceAnalysisDataSetReferences
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_template#data_set_arn QuicksightTemplate#data_set_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_template#data_set_arn QuicksightTemplate#data_set_arn}.</summary>
         [JsiiProperty(name: "dataSetArn", typeJson: "{\"primitive\":\"string\"}")]
         public string DataSetArn
         {
@@ -17,7 +17,7 @@ namespace aws.QuicksightTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_template#data_set_placeholder QuicksightTemplate#data_set_placeholder}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_template#data_set_placeholder QuicksightTemplate#data_set_placeholder}.</summary>
         [JsiiProperty(name: "dataSetPlaceholder", typeJson: "{\"primitive\":\"string\"}")]
         public string DataSetPlaceholder
         {

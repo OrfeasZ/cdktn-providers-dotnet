@@ -9,7 +9,7 @@ namespace aws.CustomerprofilesDomain
     [JsiiByValue(fqn: "aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingMatchingRules")]
     public class CustomerprofilesDomainRuleBasedMatchingMatchingRules : aws.CustomerprofilesDomain.ICustomerprofilesDomainRuleBasedMatchingMatchingRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/customerprofiles_domain#rule CustomerprofilesDomain#rule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#rule CustomerprofilesDomain#rule}.</summary>
         [JsiiProperty(name: "rule", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Rule
         {

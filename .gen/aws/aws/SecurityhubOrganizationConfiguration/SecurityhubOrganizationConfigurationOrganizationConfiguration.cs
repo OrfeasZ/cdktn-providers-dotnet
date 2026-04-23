@@ -9,7 +9,7 @@ namespace aws.SecurityhubOrganizationConfiguration
     [JsiiByValue(fqn: "aws.securityhubOrganizationConfiguration.SecurityhubOrganizationConfigurationOrganizationConfiguration")]
     public class SecurityhubOrganizationConfigurationOrganizationConfiguration : aws.SecurityhubOrganizationConfiguration.ISecurityhubOrganizationConfigurationOrganizationConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_organization_configuration#configuration_type SecurityhubOrganizationConfiguration#configuration_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_organization_configuration#configuration_type SecurityhubOrganizationConfiguration#configuration_type}.</summary>
         [JsiiProperty(name: "configurationType", typeJson: "{\"primitive\":\"string\"}")]
         public string ConfigurationType
         {

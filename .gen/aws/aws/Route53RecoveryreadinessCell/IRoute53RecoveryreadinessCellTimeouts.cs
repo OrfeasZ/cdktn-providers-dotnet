@@ -7,7 +7,7 @@ namespace aws.Route53RecoveryreadinessCell
     [JsiiInterface(nativeType: typeof(IRoute53RecoveryreadinessCellTimeouts), fullyQualifiedName: "aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCellTimeouts")]
     public interface IRoute53RecoveryreadinessCellTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53recoveryreadiness_cell#delete Route53RecoveryreadinessCell#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53recoveryreadiness_cell#delete Route53RecoveryreadinessCell#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -25,7 +25,7 @@ namespace aws.Route53RecoveryreadinessCell
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53recoveryreadiness_cell#delete Route53RecoveryreadinessCell#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53recoveryreadiness_cell#delete Route53RecoveryreadinessCell#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete

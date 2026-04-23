@@ -7,7 +7,7 @@ namespace aws.DataAwsAccountPrimaryContact
     [JsiiByValue(fqn: "aws.dataAwsAccountPrimaryContact.DataAwsAccountPrimaryContactConfig")]
     public class DataAwsAccountPrimaryContactConfig : aws.DataAwsAccountPrimaryContact.IDataAwsAccountPrimaryContactConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/account_primary_contact#account_id DataAwsAccountPrimaryContact#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/account_primary_contact#account_id DataAwsAccountPrimaryContact#account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountId

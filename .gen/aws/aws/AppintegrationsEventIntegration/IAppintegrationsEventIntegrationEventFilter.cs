@@ -7,7 +7,7 @@ namespace aws.AppintegrationsEventIntegration
     [JsiiInterface(nativeType: typeof(IAppintegrationsEventIntegrationEventFilter), fullyQualifiedName: "aws.appintegrationsEventIntegration.AppintegrationsEventIntegrationEventFilter")]
     public interface IAppintegrationsEventIntegrationEventFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appintegrations_event_integration#source AppintegrationsEventIntegration#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appintegrations_event_integration#source AppintegrationsEventIntegration#source}.</summary>
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
         string Source
         {
@@ -21,7 +21,7 @@ namespace aws.AppintegrationsEventIntegration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appintegrations_event_integration#source AppintegrationsEventIntegration#source}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appintegrations_event_integration#source AppintegrationsEventIntegration#source}.</summary>
             [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
             public string Source
             {

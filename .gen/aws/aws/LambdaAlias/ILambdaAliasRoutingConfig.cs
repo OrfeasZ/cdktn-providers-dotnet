@@ -7,7 +7,7 @@ namespace aws.LambdaAlias
     [JsiiInterface(nativeType: typeof(ILambdaAliasRoutingConfig), fullyQualifiedName: "aws.lambdaAlias.LambdaAliasRoutingConfig")]
     public interface ILambdaAliasRoutingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_alias#additional_version_weights LambdaAlias#additional_version_weights}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_alias#additional_version_weights LambdaAlias#additional_version_weights}.</summary>
         [JsiiProperty(name: "additionalVersionWeights", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, double>? AdditionalVersionWeights
@@ -25,7 +25,7 @@ namespace aws.LambdaAlias
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_alias#additional_version_weights LambdaAlias#additional_version_weights}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_alias#additional_version_weights LambdaAlias#additional_version_weights}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "additionalVersionWeights", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, double>? AdditionalVersionWeights

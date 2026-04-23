@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     {
         /// <summary>hls_input_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#hls_input_settings MedialiveChannel#hls_input_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#hls_input_settings MedialiveChannel#hls_input_settings}
         /// </remarks>
         [JsiiProperty(name: "hlsInputSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsNetworkInputSettingsHlsInputSettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#server_validation MedialiveChannel#server_validation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#server_validation MedialiveChannel#server_validation}.</summary>
         [JsiiProperty(name: "serverValidation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ServerValidation
@@ -41,7 +41,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>hls_input_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#hls_input_settings MedialiveChannel#hls_input_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#hls_input_settings MedialiveChannel#hls_input_settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "hlsInputSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsNetworkInputSettingsHlsInputSettings\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<aws.MedialiveChannel.IMedialiveChannelInputAttachmentsInputSettingsNetworkInputSettingsHlsInputSettings?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#server_validation MedialiveChannel#server_validation}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#server_validation MedialiveChannel#server_validation}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "serverValidation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ServerValidation

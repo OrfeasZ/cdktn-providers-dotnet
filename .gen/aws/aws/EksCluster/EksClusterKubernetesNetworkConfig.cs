@@ -9,7 +9,7 @@ namespace aws.EksCluster
     {
         /// <summary>elastic_load_balancing block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_cluster#elastic_load_balancing EksCluster#elastic_load_balancing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_cluster#elastic_load_balancing EksCluster#elastic_load_balancing}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "elasticLoadBalancing", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterKubernetesNetworkConfigElasticLoadBalancing\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace aws.EksCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_cluster#ip_family EksCluster#ip_family}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_cluster#ip_family EksCluster#ip_family}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipFamily", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpFamily
@@ -28,7 +28,7 @@ namespace aws.EksCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_cluster#service_ipv4_cidr EksCluster#service_ipv4_cidr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_cluster#service_ipv4_cidr EksCluster#service_ipv4_cidr}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serviceIpv4Cidr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServiceIpv4Cidr

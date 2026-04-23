@@ -7,7 +7,7 @@ namespace aws.SchedulerSchedule
     [JsiiInterface(nativeType: typeof(ISchedulerScheduleTargetKinesisParameters), fullyQualifiedName: "aws.schedulerSchedule.SchedulerScheduleTargetKinesisParameters")]
     public interface ISchedulerScheduleTargetKinesisParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/scheduler_schedule#partition_key SchedulerSchedule#partition_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#partition_key SchedulerSchedule#partition_key}.</summary>
         [JsiiProperty(name: "partitionKey", typeJson: "{\"primitive\":\"string\"}")]
         string PartitionKey
         {
@@ -21,7 +21,7 @@ namespace aws.SchedulerSchedule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/scheduler_schedule#partition_key SchedulerSchedule#partition_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#partition_key SchedulerSchedule#partition_key}.</summary>
             [JsiiProperty(name: "partitionKey", typeJson: "{\"primitive\":\"string\"}")]
             public string PartitionKey
             {

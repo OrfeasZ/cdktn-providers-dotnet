@@ -7,7 +7,7 @@ namespace aws.NetworkmanagerAttachmentAccepter
     [JsiiByValue(fqn: "aws.networkmanagerAttachmentAccepter.NetworkmanagerAttachmentAccepterTimeouts")]
     public class NetworkmanagerAttachmentAccepterTimeouts : aws.NetworkmanagerAttachmentAccepter.INetworkmanagerAttachmentAccepterTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_attachment_accepter#create NetworkmanagerAttachmentAccepter#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_attachment_accepter#create NetworkmanagerAttachmentAccepter#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create

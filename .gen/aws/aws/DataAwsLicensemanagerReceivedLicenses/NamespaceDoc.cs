@@ -5,7 +5,7 @@ namespace aws.DataAwsLicensemanagerReceivedLicenses
     /// <remarks>
     /// <h1><c>data_aws_licensemanager_received_licenses</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/licensemanager_received_licenses"><c>data_aws_licensemanager_received_licenses</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/licensemanager_received_licenses"><c>data_aws_licensemanager_received_licenses</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

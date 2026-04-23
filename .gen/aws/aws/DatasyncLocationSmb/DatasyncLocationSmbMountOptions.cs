@@ -7,7 +7,7 @@ namespace aws.DatasyncLocationSmb
     [JsiiByValue(fqn: "aws.datasyncLocationSmb.DatasyncLocationSmbMountOptions")]
     public class DatasyncLocationSmbMountOptions : aws.DatasyncLocationSmb.IDatasyncLocationSmbMountOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_smb#version DatasyncLocationSmb#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_smb#version DatasyncLocationSmb#version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Version

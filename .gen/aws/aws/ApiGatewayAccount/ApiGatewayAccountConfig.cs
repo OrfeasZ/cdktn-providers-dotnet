@@ -7,7 +7,7 @@ namespace aws.ApiGatewayAccount
     [JsiiByValue(fqn: "aws.apiGatewayAccount.ApiGatewayAccountConfig")]
     public class ApiGatewayAccountConfig : aws.ApiGatewayAccount.IApiGatewayAccountConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_account#cloudwatch_role_arn ApiGatewayAccount#cloudwatch_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_account#cloudwatch_role_arn ApiGatewayAccount#cloudwatch_role_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cloudwatchRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CloudwatchRoleArn
@@ -18,7 +18,7 @@ namespace aws.ApiGatewayAccount
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_account#region ApiGatewayAccount#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_account#region ApiGatewayAccount#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

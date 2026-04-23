@@ -9,7 +9,7 @@ namespace aws.Lexv2ModelsBotVersion
     [JsiiByValue(fqn: "aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersionLocaleSpecification")]
     public class Lexv2ModelsBotVersionLocaleSpecification : aws.Lexv2ModelsBotVersion.ILexv2ModelsBotVersionLocaleSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_bot_version#source_bot_version Lexv2ModelsBotVersion#source_bot_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_bot_version#source_bot_version Lexv2ModelsBotVersion#source_bot_version}.</summary>
         [JsiiProperty(name: "sourceBotVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceBotVersion
         {

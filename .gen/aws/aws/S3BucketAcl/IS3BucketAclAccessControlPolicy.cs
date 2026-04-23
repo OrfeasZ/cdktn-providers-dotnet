@@ -9,7 +9,7 @@ namespace aws.S3BucketAcl
     {
         /// <summary>owner block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_acl#owner S3BucketAcl#owner}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_acl#owner S3BucketAcl#owner}
         /// </remarks>
         [JsiiProperty(name: "owner", typeJson: "{\"fqn\":\"aws.s3BucketAcl.S3BucketAclAccessControlPolicyOwner\"}")]
         aws.S3BucketAcl.IS3BucketAclAccessControlPolicyOwner Owner
@@ -19,7 +19,7 @@ namespace aws.S3BucketAcl
 
         /// <summary>grant block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_acl#grant S3BucketAcl#grant}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_acl#grant S3BucketAcl#grant}
         /// </remarks>
         [JsiiProperty(name: "grant", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketAcl.S3BucketAclAccessControlPolicyGrant\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace aws.S3BucketAcl
 
             /// <summary>owner block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_acl#owner S3BucketAcl#owner}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_acl#owner S3BucketAcl#owner}
             /// </remarks>
             [JsiiProperty(name: "owner", typeJson: "{\"fqn\":\"aws.s3BucketAcl.S3BucketAclAccessControlPolicyOwner\"}")]
             public aws.S3BucketAcl.IS3BucketAclAccessControlPolicyOwner Owner
@@ -50,7 +50,7 @@ namespace aws.S3BucketAcl
 
             /// <summary>grant block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_acl#grant S3BucketAcl#grant}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_acl#grant S3BucketAcl#grant}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "grant", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketAcl.S3BucketAclAccessControlPolicyGrant\"},\"kind\":\"array\"}}]}}", isOptional: true)]

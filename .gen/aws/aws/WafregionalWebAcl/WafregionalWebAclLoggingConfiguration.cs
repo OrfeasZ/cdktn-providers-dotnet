@@ -9,7 +9,7 @@ namespace aws.WafregionalWebAcl
     [JsiiByValue(fqn: "aws.wafregionalWebAcl.WafregionalWebAclLoggingConfiguration")]
     public class WafregionalWebAclLoggingConfiguration : aws.WafregionalWebAcl.IWafregionalWebAclLoggingConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_web_acl#log_destination WafregionalWebAcl#log_destination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_web_acl#log_destination WafregionalWebAcl#log_destination}.</summary>
         [JsiiProperty(name: "logDestination", typeJson: "{\"primitive\":\"string\"}")]
         public string LogDestination
         {
@@ -19,7 +19,7 @@ namespace aws.WafregionalWebAcl
 
         /// <summary>redacted_fields block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_web_acl#redacted_fields WafregionalWebAcl#redacted_fields}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_web_acl#redacted_fields WafregionalWebAcl#redacted_fields}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "redactedFields", typeJson: "{\"fqn\":\"aws.wafregionalWebAcl.WafregionalWebAclLoggingConfigurationRedactedFields\"}", isOptional: true)]

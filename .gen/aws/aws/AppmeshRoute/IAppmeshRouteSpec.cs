@@ -9,7 +9,7 @@ namespace aws.AppmeshRoute
     {
         /// <summary>grpc_route block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#grpc_route AppmeshRoute#grpc_route}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#grpc_route AppmeshRoute#grpc_route}
         /// </remarks>
         [JsiiProperty(name: "grpcRoute", typeJson: "{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecGrpcRoute\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.AppmeshRoute
 
         /// <summary>http2_route block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#http2_route AppmeshRoute#http2_route}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#http2_route AppmeshRoute#http2_route}
         /// </remarks>
         [JsiiProperty(name: "http2Route", typeJson: "{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecHttp2Route\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.AppmeshRoute
 
         /// <summary>http_route block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#http_route AppmeshRoute#http_route}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#http_route AppmeshRoute#http_route}
         /// </remarks>
         [JsiiProperty(name: "httpRoute", typeJson: "{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecHttpRoute\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -49,7 +49,7 @@ namespace aws.AppmeshRoute
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#priority AppmeshRoute#priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#priority AppmeshRoute#priority}.</summary>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Priority
@@ -62,7 +62,7 @@ namespace aws.AppmeshRoute
 
         /// <summary>tcp_route block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#tcp_route AppmeshRoute#tcp_route}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#tcp_route AppmeshRoute#tcp_route}
         /// </remarks>
         [JsiiProperty(name: "tcpRoute", typeJson: "{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecTcpRoute\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -83,7 +83,7 @@ namespace aws.AppmeshRoute
 
             /// <summary>grpc_route block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#grpc_route AppmeshRoute#grpc_route}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#grpc_route AppmeshRoute#grpc_route}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "grpcRoute", typeJson: "{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecGrpcRoute\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace aws.AppmeshRoute
 
             /// <summary>http2_route block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#http2_route AppmeshRoute#http2_route}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#http2_route AppmeshRoute#http2_route}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "http2Route", typeJson: "{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecHttp2Route\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace aws.AppmeshRoute
 
             /// <summary>http_route block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#http_route AppmeshRoute#http_route}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#http_route AppmeshRoute#http_route}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "httpRoute", typeJson: "{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecHttpRoute\"}", isOptional: true)]
@@ -114,7 +114,7 @@ namespace aws.AppmeshRoute
                 get => GetInstanceProperty<aws.AppmeshRoute.IAppmeshRouteSpecHttpRoute?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#priority AppmeshRoute#priority}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#priority AppmeshRoute#priority}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Priority
@@ -124,7 +124,7 @@ namespace aws.AppmeshRoute
 
             /// <summary>tcp_route block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#tcp_route AppmeshRoute#tcp_route}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#tcp_route AppmeshRoute#tcp_route}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tcpRoute", typeJson: "{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecTcpRoute\"}", isOptional: true)]

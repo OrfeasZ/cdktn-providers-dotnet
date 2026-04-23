@@ -9,7 +9,7 @@ namespace aws.S3BucketReplicationConfiguration
     [JsiiByValue(fqn: "aws.s3BucketReplicationConfiguration.S3BucketReplicationConfigurationRuleDestinationAccessControlTranslation")]
     public class S3BucketReplicationConfigurationRuleDestinationAccessControlTranslation : aws.S3BucketReplicationConfiguration.IS3BucketReplicationConfigurationRuleDestinationAccessControlTranslation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_replication_configuration#owner S3BucketReplicationConfigurationA#owner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_replication_configuration#owner S3BucketReplicationConfigurationA#owner}.</summary>
         [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}")]
         public string Owner
         {

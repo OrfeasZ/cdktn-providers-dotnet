@@ -9,7 +9,7 @@ namespace aws.DatazoneFormType
     [JsiiByValue(fqn: "aws.datazoneFormType.DatazoneFormTypeModel")]
     public class DatazoneFormTypeModel : aws.DatazoneFormType.IDatazoneFormTypeModel
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_form_type#smithy DatazoneFormType#smithy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_form_type#smithy DatazoneFormType#smithy}.</summary>
         [JsiiProperty(name: "smithy", typeJson: "{\"primitive\":\"string\"}")]
         public string Smithy
         {

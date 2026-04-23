@@ -9,7 +9,7 @@ namespace aws.ElastictranscoderPreset
     [JsiiByValue(fqn: "aws.elastictranscoderPreset.ElastictranscoderPresetConfig")]
     public class ElastictranscoderPresetConfig : aws.ElastictranscoderPreset.IElastictranscoderPresetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elastictranscoder_preset#container ElastictranscoderPreset#container}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#container ElastictranscoderPreset#container}.</summary>
         [JsiiProperty(name: "container", typeJson: "{\"primitive\":\"string\"}")]
         public string Container
         {
@@ -19,7 +19,7 @@ namespace aws.ElastictranscoderPreset
 
         /// <summary>audio block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elastictranscoder_preset#audio ElastictranscoderPreset#audio}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#audio ElastictranscoderPreset#audio}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "audio", typeJson: "{\"fqn\":\"aws.elastictranscoderPreset.ElastictranscoderPresetAudio\"}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.ElastictranscoderPreset
 
         /// <summary>audio_codec_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elastictranscoder_preset#audio_codec_options ElastictranscoderPreset#audio_codec_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#audio_codec_options ElastictranscoderPreset#audio_codec_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "audioCodecOptions", typeJson: "{\"fqn\":\"aws.elastictranscoderPreset.ElastictranscoderPresetAudioCodecOptions\"}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace aws.ElastictranscoderPreset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elastictranscoder_preset#description ElastictranscoderPreset#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#description ElastictranscoderPreset#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -50,7 +50,7 @@ namespace aws.ElastictranscoderPreset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elastictranscoder_preset#id ElastictranscoderPreset#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#id ElastictranscoderPreset#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,7 +63,7 @@ namespace aws.ElastictranscoderPreset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elastictranscoder_preset#name ElastictranscoderPreset#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#name ElastictranscoderPreset#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -74,7 +74,7 @@ namespace aws.ElastictranscoderPreset
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elastictranscoder_preset#region ElastictranscoderPreset#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#region ElastictranscoderPreset#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -86,7 +86,7 @@ namespace aws.ElastictranscoderPreset
 
         /// <summary>thumbnails block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elastictranscoder_preset#thumbnails ElastictranscoderPreset#thumbnails}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#thumbnails ElastictranscoderPreset#thumbnails}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "thumbnails", typeJson: "{\"fqn\":\"aws.elastictranscoderPreset.ElastictranscoderPresetThumbnails\"}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace aws.ElastictranscoderPreset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elastictranscoder_preset#type ElastictranscoderPreset#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#type ElastictranscoderPreset#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type
@@ -107,7 +107,7 @@ namespace aws.ElastictranscoderPreset
 
         /// <summary>video block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elastictranscoder_preset#video ElastictranscoderPreset#video}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#video ElastictranscoderPreset#video}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "video", typeJson: "{\"fqn\":\"aws.elastictranscoderPreset.ElastictranscoderPresetVideo\"}", isOptional: true)]
@@ -117,7 +117,7 @@ namespace aws.ElastictranscoderPreset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elastictranscoder_preset#video_codec_options ElastictranscoderPreset#video_codec_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#video_codec_options ElastictranscoderPreset#video_codec_options}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "videoCodecOptions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? VideoCodecOptions
@@ -130,7 +130,7 @@ namespace aws.ElastictranscoderPreset
 
         /// <summary>video_watermarks block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elastictranscoder_preset#video_watermarks ElastictranscoderPreset#video_watermarks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#video_watermarks ElastictranscoderPreset#video_watermarks}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "videoWatermarks", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elastictranscoderPreset.ElastictranscoderPresetVideoWatermarks\"},\"kind\":\"array\"}}]}}", isOptional: true)]

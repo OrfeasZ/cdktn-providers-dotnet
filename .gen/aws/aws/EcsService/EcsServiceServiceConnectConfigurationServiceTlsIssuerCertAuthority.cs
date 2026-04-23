@@ -9,7 +9,7 @@ namespace aws.EcsService
     [JsiiByValue(fqn: "aws.ecsService.EcsServiceServiceConnectConfigurationServiceTlsIssuerCertAuthority")]
     public class EcsServiceServiceConnectConfigurationServiceTlsIssuerCertAuthority : aws.EcsService.IEcsServiceServiceConnectConfigurationServiceTlsIssuerCertAuthority
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#aws_pca_authority_arn EcsService#aws_pca_authority_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#aws_pca_authority_arn EcsService#aws_pca_authority_arn}.</summary>
         [JsiiProperty(name: "awsPcaAuthorityArn", typeJson: "{\"primitive\":\"string\"}")]
         public string AwsPcaAuthorityArn
         {

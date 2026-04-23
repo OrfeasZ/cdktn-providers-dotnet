@@ -9,7 +9,7 @@ namespace aws.KendraExperience
     [JsiiByValue(fqn: "aws.kendraExperience.KendraExperienceConfigurationUserIdentityConfiguration")]
     public class KendraExperienceConfigurationUserIdentityConfiguration : aws.KendraExperience.IKendraExperienceConfigurationUserIdentityConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kendra_experience#identity_attribute_name KendraExperience#identity_attribute_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_experience#identity_attribute_name KendraExperience#identity_attribute_name}.</summary>
         [JsiiProperty(name: "identityAttributeName", typeJson: "{\"primitive\":\"string\"}")]
         public string IdentityAttributeName
         {

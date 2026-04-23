@@ -9,7 +9,7 @@ namespace aws.NetworkfirewallFirewall
     [JsiiByValue(fqn: "aws.networkfirewallFirewall.NetworkfirewallFirewallAvailabilityZoneMapping")]
     public class NetworkfirewallFirewallAvailabilityZoneMapping : aws.NetworkfirewallFirewall.INetworkfirewallFirewallAvailabilityZoneMapping
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkfirewall_firewall#availability_zone_id NetworkfirewallFirewall#availability_zone_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkfirewall_firewall#availability_zone_id NetworkfirewallFirewall#availability_zone_id}.</summary>
         [JsiiProperty(name: "availabilityZoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string AvailabilityZoneId
         {

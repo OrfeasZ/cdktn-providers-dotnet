@@ -9,7 +9,7 @@ namespace aws.IamUserPoliciesExclusive
     [JsiiByValue(fqn: "aws.iamUserPoliciesExclusive.IamUserPoliciesExclusiveConfig")]
     public class IamUserPoliciesExclusiveConfig : aws.IamUserPoliciesExclusive.IIamUserPoliciesExclusiveConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_user_policies_exclusive#policy_names IamUserPoliciesExclusive#policy_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_user_policies_exclusive#policy_names IamUserPoliciesExclusive#policy_names}.</summary>
         [JsiiProperty(name: "policyNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] PolicyNames
         {
@@ -17,7 +17,7 @@ namespace aws.IamUserPoliciesExclusive
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_user_policies_exclusive#user_name IamUserPoliciesExclusive#user_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_user_policies_exclusive#user_name IamUserPoliciesExclusive#user_name}.</summary>
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}")]
         public string UserName
         {

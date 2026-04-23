@@ -9,7 +9,7 @@ namespace aws.Inspector2Filter
     [JsiiByValue(fqn: "aws.inspector2Filter.Inspector2FilterFilterCriteriaInspectorScore")]
     public class Inspector2FilterFilterCriteriaInspectorScore : aws.Inspector2Filter.IInspector2FilterFilterCriteriaInspectorScore
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/inspector2_filter#lower_inclusive Inspector2Filter#lower_inclusive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#lower_inclusive Inspector2Filter#lower_inclusive}.</summary>
         [JsiiProperty(name: "lowerInclusive", typeJson: "{\"primitive\":\"number\"}")]
         public double LowerInclusive
         {
@@ -17,7 +17,7 @@ namespace aws.Inspector2Filter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/inspector2_filter#upper_inclusive Inspector2Filter#upper_inclusive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#upper_inclusive Inspector2Filter#upper_inclusive}.</summary>
         [JsiiProperty(name: "upperInclusive", typeJson: "{\"primitive\":\"number\"}")]
         public double UpperInclusive
         {

@@ -9,7 +9,7 @@ namespace aws.ApiGatewayStage
     [JsiiByValue(fqn: "aws.apiGatewayStage.ApiGatewayStageCanarySettings")]
     public class ApiGatewayStageCanarySettings : aws.ApiGatewayStage.IApiGatewayStageCanarySettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_stage#deployment_id ApiGatewayStage#deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_stage#deployment_id ApiGatewayStage#deployment_id}.</summary>
         [JsiiProperty(name: "deploymentId", typeJson: "{\"primitive\":\"string\"}")]
         public string DeploymentId
         {
@@ -17,7 +17,7 @@ namespace aws.ApiGatewayStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_stage#percent_traffic ApiGatewayStage#percent_traffic}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_stage#percent_traffic ApiGatewayStage#percent_traffic}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "percentTraffic", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PercentTraffic
@@ -26,7 +26,7 @@ namespace aws.ApiGatewayStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_stage#stage_variable_overrides ApiGatewayStage#stage_variable_overrides}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_stage#stage_variable_overrides ApiGatewayStage#stage_variable_overrides}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "stageVariableOverrides", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? StageVariableOverrides
@@ -37,7 +37,7 @@ namespace aws.ApiGatewayStage
 
         private object? _useStageCache;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_stage#use_stage_cache ApiGatewayStage#use_stage_cache}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_stage#use_stage_cache ApiGatewayStage#use_stage_cache}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "useStageCache", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? UseStageCache

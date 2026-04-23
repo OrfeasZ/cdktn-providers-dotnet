@@ -7,7 +7,7 @@ namespace aws.NetworkmanagerLinkAssociation
     [JsiiByValue(fqn: "aws.networkmanagerLinkAssociation.NetworkmanagerLinkAssociationTimeouts")]
     public class NetworkmanagerLinkAssociationTimeouts : aws.NetworkmanagerLinkAssociation.INetworkmanagerLinkAssociationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_link_association#create NetworkmanagerLinkAssociation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_link_association#create NetworkmanagerLinkAssociation#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.NetworkmanagerLinkAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_link_association#delete NetworkmanagerLinkAssociation#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_link_association#delete NetworkmanagerLinkAssociation#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

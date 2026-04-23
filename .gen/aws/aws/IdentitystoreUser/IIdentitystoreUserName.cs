@@ -7,21 +7,21 @@ namespace aws.IdentitystoreUser
     [JsiiInterface(nativeType: typeof(IIdentitystoreUserName), fullyQualifiedName: "aws.identitystoreUser.IdentitystoreUserName")]
     public interface IIdentitystoreUserName
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/identitystore_user#family_name IdentitystoreUser#family_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#family_name IdentitystoreUser#family_name}.</summary>
         [JsiiProperty(name: "familyName", typeJson: "{\"primitive\":\"string\"}")]
         string FamilyName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/identitystore_user#given_name IdentitystoreUser#given_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#given_name IdentitystoreUser#given_name}.</summary>
         [JsiiProperty(name: "givenName", typeJson: "{\"primitive\":\"string\"}")]
         string GivenName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/identitystore_user#formatted IdentitystoreUser#formatted}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#formatted IdentitystoreUser#formatted}.</summary>
         [JsiiProperty(name: "formatted", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Formatted
@@ -32,7 +32,7 @@ namespace aws.IdentitystoreUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/identitystore_user#honorific_prefix IdentitystoreUser#honorific_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#honorific_prefix IdentitystoreUser#honorific_prefix}.</summary>
         [JsiiProperty(name: "honorificPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HonorificPrefix
@@ -43,7 +43,7 @@ namespace aws.IdentitystoreUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/identitystore_user#honorific_suffix IdentitystoreUser#honorific_suffix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#honorific_suffix IdentitystoreUser#honorific_suffix}.</summary>
         [JsiiProperty(name: "honorificSuffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HonorificSuffix
@@ -54,7 +54,7 @@ namespace aws.IdentitystoreUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/identitystore_user#middle_name IdentitystoreUser#middle_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#middle_name IdentitystoreUser#middle_name}.</summary>
         [JsiiProperty(name: "middleName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MiddleName
@@ -72,21 +72,21 @@ namespace aws.IdentitystoreUser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/identitystore_user#family_name IdentitystoreUser#family_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#family_name IdentitystoreUser#family_name}.</summary>
             [JsiiProperty(name: "familyName", typeJson: "{\"primitive\":\"string\"}")]
             public string FamilyName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/identitystore_user#given_name IdentitystoreUser#given_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#given_name IdentitystoreUser#given_name}.</summary>
             [JsiiProperty(name: "givenName", typeJson: "{\"primitive\":\"string\"}")]
             public string GivenName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/identitystore_user#formatted IdentitystoreUser#formatted}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#formatted IdentitystoreUser#formatted}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "formatted", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Formatted
@@ -94,7 +94,7 @@ namespace aws.IdentitystoreUser
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/identitystore_user#honorific_prefix IdentitystoreUser#honorific_prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#honorific_prefix IdentitystoreUser#honorific_prefix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "honorificPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HonorificPrefix
@@ -102,7 +102,7 @@ namespace aws.IdentitystoreUser
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/identitystore_user#honorific_suffix IdentitystoreUser#honorific_suffix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#honorific_suffix IdentitystoreUser#honorific_suffix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "honorificSuffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HonorificSuffix
@@ -110,7 +110,7 @@ namespace aws.IdentitystoreUser
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/identitystore_user#middle_name IdentitystoreUser#middle_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#middle_name IdentitystoreUser#middle_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "middleName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MiddleName

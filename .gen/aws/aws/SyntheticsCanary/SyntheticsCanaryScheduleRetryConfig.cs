@@ -9,7 +9,7 @@ namespace aws.SyntheticsCanary
     [JsiiByValue(fqn: "aws.syntheticsCanary.SyntheticsCanaryScheduleRetryConfig")]
     public class SyntheticsCanaryScheduleRetryConfig : aws.SyntheticsCanary.ISyntheticsCanaryScheduleRetryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/synthetics_canary#max_retries SyntheticsCanary#max_retries}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/synthetics_canary#max_retries SyntheticsCanary#max_retries}.</summary>
         [JsiiProperty(name: "maxRetries", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxRetries
         {

@@ -7,7 +7,7 @@ namespace aws.VpcEndpoint
     [JsiiByValue(fqn: "aws.vpcEndpoint.VpcEndpointSubnetConfiguration")]
     public class VpcEndpointSubnetConfiguration : aws.VpcEndpoint.IVpcEndpointSubnetConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc_endpoint#ipv4 VpcEndpoint#ipv4}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_endpoint#ipv4 VpcEndpoint#ipv4}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipv4", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ipv4
@@ -16,7 +16,7 @@ namespace aws.VpcEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc_endpoint#ipv6 VpcEndpoint#ipv6}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_endpoint#ipv6 VpcEndpoint#ipv6}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipv6", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ipv6
@@ -25,7 +25,7 @@ namespace aws.VpcEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc_endpoint#subnet_id VpcEndpoint#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_endpoint#subnet_id VpcEndpoint#subnet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubnetId

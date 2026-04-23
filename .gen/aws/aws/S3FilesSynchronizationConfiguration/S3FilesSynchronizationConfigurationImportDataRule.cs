@@ -11,7 +11,7 @@ namespace aws.S3FilesSynchronizationConfiguration
     {
         /// <summary>S3 prefix for import.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3files_synchronization_configuration#prefix S3FilesSynchronizationConfiguration#prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3files_synchronization_configuration#prefix S3FilesSynchronizationConfiguration#prefix}
         /// </remarks>
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
         public string Prefix
@@ -22,7 +22,7 @@ namespace aws.S3FilesSynchronizationConfiguration
 
         /// <summary>Maximum file size to import.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3files_synchronization_configuration#size_less_than S3FilesSynchronizationConfiguration#size_less_than}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3files_synchronization_configuration#size_less_than S3FilesSynchronizationConfiguration#size_less_than}
         /// </remarks>
         [JsiiProperty(name: "sizeLessThan", typeJson: "{\"primitive\":\"number\"}")]
         public double SizeLessThan
@@ -33,7 +33,7 @@ namespace aws.S3FilesSynchronizationConfiguration
 
         /// <summary>Import trigger type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3files_synchronization_configuration#trigger S3FilesSynchronizationConfiguration#trigger}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3files_synchronization_configuration#trigger S3FilesSynchronizationConfiguration#trigger}
         /// </remarks>
         [JsiiProperty(name: "trigger", typeJson: "{\"primitive\":\"string\"}")]
         public string Trigger

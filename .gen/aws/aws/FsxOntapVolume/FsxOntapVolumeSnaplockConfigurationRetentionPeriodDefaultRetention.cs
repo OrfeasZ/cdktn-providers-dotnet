@@ -7,7 +7,7 @@ namespace aws.FsxOntapVolume
     [JsiiByValue(fqn: "aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetention")]
     public class FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetention : aws.FsxOntapVolume.IFsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetention
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_ontap_volume#type FsxOntapVolume#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_ontap_volume#type FsxOntapVolume#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type
@@ -16,7 +16,7 @@ namespace aws.FsxOntapVolume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_ontap_volume#value FsxOntapVolume#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_ontap_volume#value FsxOntapVolume#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Value

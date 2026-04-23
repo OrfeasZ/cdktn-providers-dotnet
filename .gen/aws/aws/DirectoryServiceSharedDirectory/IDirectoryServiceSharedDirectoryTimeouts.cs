@@ -7,7 +7,7 @@ namespace aws.DirectoryServiceSharedDirectory
     [JsiiInterface(nativeType: typeof(IDirectoryServiceSharedDirectoryTimeouts), fullyQualifiedName: "aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectoryTimeouts")]
     public interface IDirectoryServiceSharedDirectoryTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_shared_directory#delete DirectoryServiceSharedDirectory#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_shared_directory#delete DirectoryServiceSharedDirectory#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -25,7 +25,7 @@ namespace aws.DirectoryServiceSharedDirectory
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_shared_directory#delete DirectoryServiceSharedDirectory#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_shared_directory#delete DirectoryServiceSharedDirectory#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete

@@ -9,7 +9,7 @@ namespace aws.DevopsguruEventSourcesConfig
     [JsiiByValue(fqn: "aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfiler")]
     public class DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfiler : aws.DevopsguruEventSourcesConfig.IDevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfiler
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/devopsguru_event_sources_config#status DevopsguruEventSourcesConfig#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_event_sources_config#status DevopsguruEventSourcesConfig#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public string Status
         {

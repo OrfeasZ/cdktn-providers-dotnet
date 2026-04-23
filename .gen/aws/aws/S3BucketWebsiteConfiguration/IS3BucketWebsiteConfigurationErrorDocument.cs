@@ -7,7 +7,7 @@ namespace aws.S3BucketWebsiteConfiguration
     [JsiiInterface(nativeType: typeof(IS3BucketWebsiteConfigurationErrorDocument), fullyQualifiedName: "aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfigurationErrorDocument")]
     public interface IS3BucketWebsiteConfigurationErrorDocument
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_website_configuration#key S3BucketWebsiteConfiguration#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_website_configuration#key S3BucketWebsiteConfiguration#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
         {
@@ -21,7 +21,7 @@ namespace aws.S3BucketWebsiteConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_website_configuration#key S3BucketWebsiteConfiguration#key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_website_configuration#key S3BucketWebsiteConfiguration#key}.</summary>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key
             {

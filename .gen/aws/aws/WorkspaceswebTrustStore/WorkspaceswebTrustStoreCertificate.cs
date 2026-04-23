@@ -9,7 +9,7 @@ namespace aws.WorkspaceswebTrustStore
     [JsiiByValue(fqn: "aws.workspaceswebTrustStore.WorkspaceswebTrustStoreCertificate")]
     public class WorkspaceswebTrustStoreCertificate : aws.WorkspaceswebTrustStore.IWorkspaceswebTrustStoreCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspacesweb_trust_store#body WorkspaceswebTrustStore#body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspacesweb_trust_store#body WorkspaceswebTrustStore#body}.</summary>
         [JsiiProperty(name: "body", typeJson: "{\"primitive\":\"string\"}")]
         public string Body
         {

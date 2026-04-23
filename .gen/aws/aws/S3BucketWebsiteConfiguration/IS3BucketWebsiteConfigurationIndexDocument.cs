@@ -7,7 +7,7 @@ namespace aws.S3BucketWebsiteConfiguration
     [JsiiInterface(nativeType: typeof(IS3BucketWebsiteConfigurationIndexDocument), fullyQualifiedName: "aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfigurationIndexDocument")]
     public interface IS3BucketWebsiteConfigurationIndexDocument
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_website_configuration#suffix S3BucketWebsiteConfiguration#suffix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_website_configuration#suffix S3BucketWebsiteConfiguration#suffix}.</summary>
         [JsiiProperty(name: "suffix", typeJson: "{\"primitive\":\"string\"}")]
         string Suffix
         {
@@ -21,7 +21,7 @@ namespace aws.S3BucketWebsiteConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_website_configuration#suffix S3BucketWebsiteConfiguration#suffix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_website_configuration#suffix S3BucketWebsiteConfiguration#suffix}.</summary>
             [JsiiProperty(name: "suffix", typeJson: "{\"primitive\":\"string\"}")]
             public string Suffix
             {

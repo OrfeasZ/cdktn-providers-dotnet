@@ -9,7 +9,7 @@ namespace aws.AuditmanagerFrameworkShare
     [JsiiByValue(fqn: "aws.auditmanagerFrameworkShare.AuditmanagerFrameworkShareConfig")]
     public class AuditmanagerFrameworkShareConfig : aws.AuditmanagerFrameworkShare.IAuditmanagerFrameworkShareConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/auditmanager_framework_share#destination_account AuditmanagerFrameworkShare#destination_account}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_framework_share#destination_account AuditmanagerFrameworkShare#destination_account}.</summary>
         [JsiiProperty(name: "destinationAccount", typeJson: "{\"primitive\":\"string\"}")]
         public string DestinationAccount
         {
@@ -17,7 +17,7 @@ namespace aws.AuditmanagerFrameworkShare
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/auditmanager_framework_share#destination_region AuditmanagerFrameworkShare#destination_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_framework_share#destination_region AuditmanagerFrameworkShare#destination_region}.</summary>
         [JsiiProperty(name: "destinationRegion", typeJson: "{\"primitive\":\"string\"}")]
         public string DestinationRegion
         {
@@ -25,7 +25,7 @@ namespace aws.AuditmanagerFrameworkShare
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/auditmanager_framework_share#framework_id AuditmanagerFrameworkShare#framework_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_framework_share#framework_id AuditmanagerFrameworkShare#framework_id}.</summary>
         [JsiiProperty(name: "frameworkId", typeJson: "{\"primitive\":\"string\"}")]
         public string FrameworkId
         {
@@ -33,7 +33,7 @@ namespace aws.AuditmanagerFrameworkShare
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/auditmanager_framework_share#comment AuditmanagerFrameworkShare#comment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_framework_share#comment AuditmanagerFrameworkShare#comment}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Comment
@@ -44,7 +44,7 @@ namespace aws.AuditmanagerFrameworkShare
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/auditmanager_framework_share#region AuditmanagerFrameworkShare#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_framework_share#region AuditmanagerFrameworkShare#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

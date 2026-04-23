@@ -9,7 +9,7 @@ namespace aws.EcsTaskDefinition
     [JsiiByValue(fqn: "aws.ecsTaskDefinition.EcsTaskDefinitionEphemeralStorage")]
     public class EcsTaskDefinitionEphemeralStorage : aws.EcsTaskDefinition.IEcsTaskDefinitionEphemeralStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_task_definition#size_in_gib EcsTaskDefinition#size_in_gib}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_definition#size_in_gib EcsTaskDefinition#size_in_gib}.</summary>
         [JsiiProperty(name: "sizeInGib", typeJson: "{\"primitive\":\"number\"}")]
         public double SizeInGib
         {

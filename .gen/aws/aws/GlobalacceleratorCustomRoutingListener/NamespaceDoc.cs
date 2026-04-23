@@ -5,7 +5,7 @@ namespace aws.GlobalacceleratorCustomRoutingListener
     /// <remarks>
     /// <h1><c>aws_globalaccelerator_custom_routing_listener</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/globalaccelerator_custom_routing_listener"><c>aws_globalaccelerator_custom_routing_listener</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/globalaccelerator_custom_routing_listener"><c>aws_globalaccelerator_custom_routing_listener</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -9,7 +9,7 @@ namespace aws.BedrockInferenceProfile
     [JsiiByValue(fqn: "aws.bedrockInferenceProfile.BedrockInferenceProfileModelSource")]
     public class BedrockInferenceProfileModelSource : aws.BedrockInferenceProfile.IBedrockInferenceProfileModelSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrock_inference_profile#copy_from BedrockInferenceProfile#copy_from}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrock_inference_profile#copy_from BedrockInferenceProfile#copy_from}.</summary>
         [JsiiProperty(name: "copyFrom", typeJson: "{\"primitive\":\"string\"}")]
         public string CopyFrom
         {

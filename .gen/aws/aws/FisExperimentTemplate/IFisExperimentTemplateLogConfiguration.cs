@@ -7,7 +7,7 @@ namespace aws.FisExperimentTemplate
     [JsiiInterface(nativeType: typeof(IFisExperimentTemplateLogConfiguration), fullyQualifiedName: "aws.fisExperimentTemplate.FisExperimentTemplateLogConfiguration")]
     public interface IFisExperimentTemplateLogConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fis_experiment_template#log_schema_version FisExperimentTemplate#log_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#log_schema_version FisExperimentTemplate#log_schema_version}.</summary>
         [JsiiProperty(name: "logSchemaVersion", typeJson: "{\"primitive\":\"number\"}")]
         double LogSchemaVersion
         {
@@ -16,7 +16,7 @@ namespace aws.FisExperimentTemplate
 
         /// <summary>cloudwatch_logs_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fis_experiment_template#cloudwatch_logs_configuration FisExperimentTemplate#cloudwatch_logs_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#cloudwatch_logs_configuration FisExperimentTemplate#cloudwatch_logs_configuration}
         /// </remarks>
         [JsiiProperty(name: "cloudwatchLogsConfiguration", typeJson: "{\"fqn\":\"aws.fisExperimentTemplate.FisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.FisExperimentTemplate
 
         /// <summary>s3_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fis_experiment_template#s3_configuration FisExperimentTemplate#s3_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#s3_configuration FisExperimentTemplate#s3_configuration}
         /// </remarks>
         [JsiiProperty(name: "s3Configuration", typeJson: "{\"fqn\":\"aws.fisExperimentTemplate.FisExperimentTemplateLogConfigurationS3Configuration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -49,7 +49,7 @@ namespace aws.FisExperimentTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fis_experiment_template#log_schema_version FisExperimentTemplate#log_schema_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#log_schema_version FisExperimentTemplate#log_schema_version}.</summary>
             [JsiiProperty(name: "logSchemaVersion", typeJson: "{\"primitive\":\"number\"}")]
             public double LogSchemaVersion
             {
@@ -58,7 +58,7 @@ namespace aws.FisExperimentTemplate
 
             /// <summary>cloudwatch_logs_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fis_experiment_template#cloudwatch_logs_configuration FisExperimentTemplate#cloudwatch_logs_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#cloudwatch_logs_configuration FisExperimentTemplate#cloudwatch_logs_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudwatchLogsConfiguration", typeJson: "{\"fqn\":\"aws.fisExperimentTemplate.FisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.FisExperimentTemplate
 
             /// <summary>s3_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fis_experiment_template#s3_configuration FisExperimentTemplate#s3_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#s3_configuration FisExperimentTemplate#s3_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3Configuration", typeJson: "{\"fqn\":\"aws.fisExperimentTemplate.FisExperimentTemplateLogConfigurationS3Configuration\"}", isOptional: true)]

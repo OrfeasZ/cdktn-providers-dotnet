@@ -7,7 +7,7 @@ namespace aws.SagemakerPipeline
     [JsiiInterface(nativeType: typeof(ISagemakerPipelineParallelismConfiguration), fullyQualifiedName: "aws.sagemakerPipeline.SagemakerPipelineParallelismConfiguration")]
     public interface ISagemakerPipelineParallelismConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_pipeline#max_parallel_execution_steps SagemakerPipeline#max_parallel_execution_steps}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_pipeline#max_parallel_execution_steps SagemakerPipeline#max_parallel_execution_steps}.</summary>
         [JsiiProperty(name: "maxParallelExecutionSteps", typeJson: "{\"primitive\":\"number\"}")]
         double MaxParallelExecutionSteps
         {
@@ -21,7 +21,7 @@ namespace aws.SagemakerPipeline
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_pipeline#max_parallel_execution_steps SagemakerPipeline#max_parallel_execution_steps}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_pipeline#max_parallel_execution_steps SagemakerPipeline#max_parallel_execution_steps}.</summary>
             [JsiiProperty(name: "maxParallelExecutionSteps", typeJson: "{\"primitive\":\"number\"}")]
             public double MaxParallelExecutionSteps
             {

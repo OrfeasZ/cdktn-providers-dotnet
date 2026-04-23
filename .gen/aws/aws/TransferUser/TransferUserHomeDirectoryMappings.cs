@@ -9,7 +9,7 @@ namespace aws.TransferUser
     [JsiiByValue(fqn: "aws.transferUser.TransferUserHomeDirectoryMappings")]
     public class TransferUserHomeDirectoryMappings : aws.TransferUser.ITransferUserHomeDirectoryMappings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_user#entry TransferUser#entry}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_user#entry TransferUser#entry}.</summary>
         [JsiiProperty(name: "entry", typeJson: "{\"primitive\":\"string\"}")]
         public string Entry
         {
@@ -17,7 +17,7 @@ namespace aws.TransferUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_user#target TransferUser#target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_user#target TransferUser#target}.</summary>
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}")]
         public string Target
         {

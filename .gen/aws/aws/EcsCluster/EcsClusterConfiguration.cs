@@ -9,7 +9,7 @@ namespace aws.EcsCluster
     {
         /// <summary>execute_command_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_cluster#execute_command_configuration EcsCluster#execute_command_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_cluster#execute_command_configuration EcsCluster#execute_command_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "executeCommandConfiguration", typeJson: "{\"fqn\":\"aws.ecsCluster.EcsClusterConfigurationExecuteCommandConfiguration\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.EcsCluster
 
         /// <summary>managed_storage_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_cluster#managed_storage_configuration EcsCluster#managed_storage_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_cluster#managed_storage_configuration EcsCluster#managed_storage_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "managedStorageConfiguration", typeJson: "{\"fqn\":\"aws.ecsCluster.EcsClusterConfigurationManagedStorageConfiguration\"}", isOptional: true)]

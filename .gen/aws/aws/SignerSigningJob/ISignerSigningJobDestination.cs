@@ -9,7 +9,7 @@ namespace aws.SignerSigningJob
     {
         /// <summary>s3 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/signer_signing_job#s3 SignerSigningJob#s3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/signer_signing_job#s3 SignerSigningJob#s3}
         /// </remarks>
         [JsiiProperty(name: "s3", typeJson: "{\"fqn\":\"aws.signerSigningJob.SignerSigningJobDestinationS3\"}")]
         aws.SignerSigningJob.ISignerSigningJobDestinationS3 S3
@@ -26,7 +26,7 @@ namespace aws.SignerSigningJob
 
             /// <summary>s3 block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/signer_signing_job#s3 SignerSigningJob#s3}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/signer_signing_job#s3 SignerSigningJob#s3}
             /// </remarks>
             [JsiiProperty(name: "s3", typeJson: "{\"fqn\":\"aws.signerSigningJob.SignerSigningJobDestinationS3\"}")]
             public aws.SignerSigningJob.ISignerSigningJobDestinationS3 S3

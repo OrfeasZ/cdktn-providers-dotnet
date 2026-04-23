@@ -7,7 +7,7 @@ namespace aws.KinesisAnalyticsApplication
     [JsiiInterface(nativeType: typeof(IKinesisAnalyticsApplicationOutputsSchema), fullyQualifiedName: "aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationOutputsSchema")]
     public interface IKinesisAnalyticsApplicationOutputsSchema
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kinesis_analytics_application#record_format_type KinesisAnalyticsApplication#record_format_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#record_format_type KinesisAnalyticsApplication#record_format_type}.</summary>
         [JsiiProperty(name: "recordFormatType", typeJson: "{\"primitive\":\"string\"}")]
         string RecordFormatType
         {
@@ -21,7 +21,7 @@ namespace aws.KinesisAnalyticsApplication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kinesis_analytics_application#record_format_type KinesisAnalyticsApplication#record_format_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#record_format_type KinesisAnalyticsApplication#record_format_type}.</summary>
             [JsiiProperty(name: "recordFormatType", typeJson: "{\"primitive\":\"string\"}")]
             public string RecordFormatType
             {

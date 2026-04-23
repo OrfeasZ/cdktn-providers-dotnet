@@ -9,7 +9,7 @@ namespace aws.BedrockagentPrompt
     [JsiiByValue(fqn: "aws.bedrockagentPrompt.BedrockagentPromptVariantGenAiResourceAgent")]
     public class BedrockagentPromptVariantGenAiResourceAgent : aws.BedrockagentPrompt.IBedrockagentPromptVariantGenAiResourceAgent
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagent_prompt#agent_identifier BedrockagentPrompt#agent_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_prompt#agent_identifier BedrockagentPrompt#agent_identifier}.</summary>
         [JsiiProperty(name: "agentIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string AgentIdentifier
         {

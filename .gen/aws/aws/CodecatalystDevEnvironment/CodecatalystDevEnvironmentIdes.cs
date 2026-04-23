@@ -7,7 +7,7 @@ namespace aws.CodecatalystDevEnvironment
     [JsiiByValue(fqn: "aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentIdes")]
     public class CodecatalystDevEnvironmentIdes : aws.CodecatalystDevEnvironment.ICodecatalystDevEnvironmentIdes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codecatalyst_dev_environment#name CodecatalystDevEnvironment#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#name CodecatalystDevEnvironment#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -16,7 +16,7 @@ namespace aws.CodecatalystDevEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codecatalyst_dev_environment#runtime CodecatalystDevEnvironment#runtime}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#runtime CodecatalystDevEnvironment#runtime}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "runtime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Runtime

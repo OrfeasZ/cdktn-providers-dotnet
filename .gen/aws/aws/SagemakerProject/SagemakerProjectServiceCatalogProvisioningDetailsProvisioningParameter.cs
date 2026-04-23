@@ -9,7 +9,7 @@ namespace aws.SagemakerProject
     [JsiiByValue(fqn: "aws.sagemakerProject.SagemakerProjectServiceCatalogProvisioningDetailsProvisioningParameter")]
     public class SagemakerProjectServiceCatalogProvisioningDetailsProvisioningParameter : aws.SagemakerProject.ISagemakerProjectServiceCatalogProvisioningDetailsProvisioningParameter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_project#key SagemakerProject#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_project#key SagemakerProject#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace aws.SagemakerProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_project#value SagemakerProject#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_project#value SagemakerProject#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

@@ -9,7 +9,7 @@ namespace aws.CloudwatchMetricStream
     [JsiiByValue(fqn: "aws.cloudwatchMetricStream.CloudwatchMetricStreamExcludeFilter")]
     public class CloudwatchMetricStreamExcludeFilter : aws.CloudwatchMetricStream.ICloudwatchMetricStreamExcludeFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_metric_stream#namespace CloudwatchMetricStream#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_metric_stream#namespace CloudwatchMetricStream#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -17,7 +17,7 @@ namespace aws.CloudwatchMetricStream
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_metric_stream#metric_names CloudwatchMetricStream#metric_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_metric_stream#metric_names CloudwatchMetricStream#metric_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metricNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? MetricNames

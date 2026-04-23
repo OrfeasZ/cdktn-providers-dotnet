@@ -9,7 +9,7 @@ namespace aws.IotTopicRule
     {
         /// <summary>cloudwatch_alarm block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#cloudwatch_alarm IotTopicRule#cloudwatch_alarm}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#cloudwatch_alarm IotTopicRule#cloudwatch_alarm}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudwatchAlarm", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionCloudwatchAlarm\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.IotTopicRule
 
         /// <summary>cloudwatch_logs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#cloudwatch_logs IotTopicRule#cloudwatch_logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#cloudwatch_logs IotTopicRule#cloudwatch_logs}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudwatchLogs", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionCloudwatchLogs\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace aws.IotTopicRule
 
         /// <summary>cloudwatch_metric block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#cloudwatch_metric IotTopicRule#cloudwatch_metric}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#cloudwatch_metric IotTopicRule#cloudwatch_metric}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudwatchMetric", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionCloudwatchMetric\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace aws.IotTopicRule
 
         /// <summary>dynamodb block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#dynamodb IotTopicRule#dynamodb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#dynamodb IotTopicRule#dynamodb}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dynamodb", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionDynamodb\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace aws.IotTopicRule
 
         /// <summary>dynamodbv2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#dynamodbv2 IotTopicRule#dynamodbv2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#dynamodbv2 IotTopicRule#dynamodbv2}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dynamodbv2", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionDynamodbv2\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.IotTopicRule
 
         /// <summary>elasticsearch block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#elasticsearch IotTopicRule#elasticsearch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#elasticsearch IotTopicRule#elasticsearch}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "elasticsearch", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionElasticsearch\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace aws.IotTopicRule
 
         /// <summary>firehose block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#firehose IotTopicRule#firehose}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#firehose IotTopicRule#firehose}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "firehose", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionFirehose\"}", isOptional: true)]
@@ -93,7 +93,7 @@ namespace aws.IotTopicRule
 
         /// <summary>http block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#http IotTopicRule#http}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#http IotTopicRule#http}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "http", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionHttp\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace aws.IotTopicRule
 
         /// <summary>iot_analytics block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#iot_analytics IotTopicRule#iot_analytics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#iot_analytics IotTopicRule#iot_analytics}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "iotAnalytics", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionIotAnalytics\"}", isOptional: true)]
@@ -117,7 +117,7 @@ namespace aws.IotTopicRule
 
         /// <summary>iot_events block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#iot_events IotTopicRule#iot_events}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#iot_events IotTopicRule#iot_events}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "iotEvents", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionIotEvents\"}", isOptional: true)]
@@ -129,7 +129,7 @@ namespace aws.IotTopicRule
 
         /// <summary>kafka block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#kafka IotTopicRule#kafka}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#kafka IotTopicRule#kafka}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kafka", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionKafka\"}", isOptional: true)]
@@ -141,7 +141,7 @@ namespace aws.IotTopicRule
 
         /// <summary>kinesis block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#kinesis IotTopicRule#kinesis}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#kinesis IotTopicRule#kinesis}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kinesis", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionKinesis\"}", isOptional: true)]
@@ -153,7 +153,7 @@ namespace aws.IotTopicRule
 
         /// <summary>lambda block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#lambda IotTopicRule#lambda}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#lambda IotTopicRule#lambda}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lambda", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionLambda\"}", isOptional: true)]
@@ -165,7 +165,7 @@ namespace aws.IotTopicRule
 
         /// <summary>republish block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#republish IotTopicRule#republish}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#republish IotTopicRule#republish}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "republish", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionRepublish\"}", isOptional: true)]
@@ -177,7 +177,7 @@ namespace aws.IotTopicRule
 
         /// <summary>s3 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#s3 IotTopicRule#s3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#s3 IotTopicRule#s3}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionS3\"}", isOptional: true)]
@@ -189,7 +189,7 @@ namespace aws.IotTopicRule
 
         /// <summary>sns block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#sns IotTopicRule#sns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#sns IotTopicRule#sns}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sns", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionSns\"}", isOptional: true)]
@@ -201,7 +201,7 @@ namespace aws.IotTopicRule
 
         /// <summary>sqs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#sqs IotTopicRule#sqs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#sqs IotTopicRule#sqs}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sqs", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionSqs\"}", isOptional: true)]
@@ -213,7 +213,7 @@ namespace aws.IotTopicRule
 
         /// <summary>step_functions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#step_functions IotTopicRule#step_functions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#step_functions IotTopicRule#step_functions}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepFunctions", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionStepFunctions\"}", isOptional: true)]
@@ -225,7 +225,7 @@ namespace aws.IotTopicRule
 
         /// <summary>timestream block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#timestream IotTopicRule#timestream}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#timestream IotTopicRule#timestream}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timestream", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionTimestream\"}", isOptional: true)]

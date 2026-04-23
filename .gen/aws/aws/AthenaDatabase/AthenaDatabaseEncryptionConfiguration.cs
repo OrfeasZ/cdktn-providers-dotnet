@@ -9,7 +9,7 @@ namespace aws.AthenaDatabase
     [JsiiByValue(fqn: "aws.athenaDatabase.AthenaDatabaseEncryptionConfiguration")]
     public class AthenaDatabaseEncryptionConfiguration : aws.AthenaDatabase.IAthenaDatabaseEncryptionConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/athena_database#encryption_option AthenaDatabase#encryption_option}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#encryption_option AthenaDatabase#encryption_option}.</summary>
         [JsiiProperty(name: "encryptionOption", typeJson: "{\"primitive\":\"string\"}")]
         public string EncryptionOption
         {
@@ -17,7 +17,7 @@ namespace aws.AthenaDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/athena_database#kms_key AthenaDatabase#kms_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#kms_key AthenaDatabase#kms_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKey

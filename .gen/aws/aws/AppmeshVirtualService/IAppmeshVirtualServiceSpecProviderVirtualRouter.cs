@@ -7,7 +7,7 @@ namespace aws.AppmeshVirtualService
     [JsiiInterface(nativeType: typeof(IAppmeshVirtualServiceSpecProviderVirtualRouter), fullyQualifiedName: "aws.appmeshVirtualService.AppmeshVirtualServiceSpecProviderVirtualRouter")]
     public interface IAppmeshVirtualServiceSpecProviderVirtualRouter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_virtual_service#virtual_router_name AppmeshVirtualService#virtual_router_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_service#virtual_router_name AppmeshVirtualService#virtual_router_name}.</summary>
         [JsiiProperty(name: "virtualRouterName", typeJson: "{\"primitive\":\"string\"}")]
         string VirtualRouterName
         {
@@ -21,7 +21,7 @@ namespace aws.AppmeshVirtualService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_virtual_service#virtual_router_name AppmeshVirtualService#virtual_router_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_service#virtual_router_name AppmeshVirtualService#virtual_router_name}.</summary>
             [JsiiProperty(name: "virtualRouterName", typeJson: "{\"primitive\":\"string\"}")]
             public string VirtualRouterName
             {

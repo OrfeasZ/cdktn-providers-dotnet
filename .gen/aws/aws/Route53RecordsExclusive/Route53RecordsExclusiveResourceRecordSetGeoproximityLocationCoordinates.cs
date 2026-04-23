@@ -9,7 +9,7 @@ namespace aws.Route53RecordsExclusive
     [JsiiByValue(fqn: "aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetGeoproximityLocationCoordinates")]
     public class Route53RecordsExclusiveResourceRecordSetGeoproximityLocationCoordinates : aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetGeoproximityLocationCoordinates
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_records_exclusive#latitude Route53RecordsExclusive#latitude}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#latitude Route53RecordsExclusive#latitude}.</summary>
         [JsiiProperty(name: "latitude", typeJson: "{\"primitive\":\"string\"}")]
         public string Latitude
         {
@@ -17,7 +17,7 @@ namespace aws.Route53RecordsExclusive
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_records_exclusive#longitude Route53RecordsExclusive#longitude}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#longitude Route53RecordsExclusive#longitude}.</summary>
         [JsiiProperty(name: "longitude", typeJson: "{\"primitive\":\"string\"}")]
         public string Longitude
         {

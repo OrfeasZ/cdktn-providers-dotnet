@@ -7,7 +7,7 @@ namespace aws.FsxOntapVolume
     [JsiiByValue(fqn: "aws.fsxOntapVolume.FsxOntapVolumeAggregateConfiguration")]
     public class FsxOntapVolumeAggregateConfiguration : aws.FsxOntapVolume.IFsxOntapVolumeAggregateConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_ontap_volume#aggregates FsxOntapVolume#aggregates}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_ontap_volume#aggregates FsxOntapVolume#aggregates}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "aggregates", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Aggregates
@@ -16,7 +16,7 @@ namespace aws.FsxOntapVolume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_ontap_volume#constituents_per_aggregate FsxOntapVolume#constituents_per_aggregate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_ontap_volume#constituents_per_aggregate FsxOntapVolume#constituents_per_aggregate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "constituentsPerAggregate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ConstituentsPerAggregate

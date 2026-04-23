@@ -9,7 +9,7 @@ namespace aws.EcsTaskSet
     [JsiiByValue(fqn: "aws.ecsTaskSet.EcsTaskSetCapacityProviderStrategy")]
     public class EcsTaskSetCapacityProviderStrategy : aws.EcsTaskSet.IEcsTaskSetCapacityProviderStrategy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_task_set#capacity_provider EcsTaskSet#capacity_provider}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_set#capacity_provider EcsTaskSet#capacity_provider}.</summary>
         [JsiiProperty(name: "capacityProvider", typeJson: "{\"primitive\":\"string\"}")]
         public string CapacityProvider
         {
@@ -17,7 +17,7 @@ namespace aws.EcsTaskSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_task_set#weight EcsTaskSet#weight}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_set#weight EcsTaskSet#weight}.</summary>
         [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}")]
         public double Weight
         {
@@ -25,7 +25,7 @@ namespace aws.EcsTaskSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_task_set#base EcsTaskSet#base}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_set#base EcsTaskSet#base}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "base", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Base

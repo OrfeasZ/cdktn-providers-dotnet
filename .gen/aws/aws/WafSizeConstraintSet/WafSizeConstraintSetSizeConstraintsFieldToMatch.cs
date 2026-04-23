@@ -9,7 +9,7 @@ namespace aws.WafSizeConstraintSet
     [JsiiByValue(fqn: "aws.wafSizeConstraintSet.WafSizeConstraintSetSizeConstraintsFieldToMatch")]
     public class WafSizeConstraintSetSizeConstraintsFieldToMatch : aws.WafSizeConstraintSet.IWafSizeConstraintSetSizeConstraintsFieldToMatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/waf_size_constraint_set#type WafSizeConstraintSet#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_size_constraint_set#type WafSizeConstraintSet#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.WafSizeConstraintSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/waf_size_constraint_set#data WafSizeConstraintSet#data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_size_constraint_set#data WafSizeConstraintSet#data}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "data", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Data

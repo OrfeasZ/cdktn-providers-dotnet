@@ -7,7 +7,7 @@ namespace aws.DataAwsNatGateways
     [JsiiByValue(fqn: "aws.dataAwsNatGateways.DataAwsNatGatewaysTimeouts")]
     public class DataAwsNatGatewaysTimeouts : aws.DataAwsNatGateways.IDataAwsNatGatewaysTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/nat_gateways#read DataAwsNatGateways#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/nat_gateways#read DataAwsNatGateways#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

@@ -9,7 +9,7 @@ namespace aws.AppfabricAppAuthorization
     [JsiiByValue(fqn: "aws.appfabricAppAuthorization.AppfabricAppAuthorizationTenant")]
     public class AppfabricAppAuthorizationTenant : aws.AppfabricAppAuthorization.IAppfabricAppAuthorizationTenant
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appfabric_app_authorization#tenant_display_name AppfabricAppAuthorization#tenant_display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appfabric_app_authorization#tenant_display_name AppfabricAppAuthorization#tenant_display_name}.</summary>
         [JsiiProperty(name: "tenantDisplayName", typeJson: "{\"primitive\":\"string\"}")]
         public string TenantDisplayName
         {
@@ -17,7 +17,7 @@ namespace aws.AppfabricAppAuthorization
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appfabric_app_authorization#tenant_identifier AppfabricAppAuthorization#tenant_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appfabric_app_authorization#tenant_identifier AppfabricAppAuthorization#tenant_identifier}.</summary>
         [JsiiProperty(name: "tenantIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string TenantIdentifier
         {

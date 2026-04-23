@@ -11,7 +11,7 @@ namespace aws.AppmeshVirtualRouter
     {
         /// <summary>port_mapping block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_virtual_router#port_mapping AppmeshVirtualRouter#port_mapping}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_router#port_mapping AppmeshVirtualRouter#port_mapping}
         /// </remarks>
         [JsiiProperty(name: "portMapping", typeJson: "{\"fqn\":\"aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListenerPortMapping\"}")]
         public aws.AppmeshVirtualRouter.IAppmeshVirtualRouterSpecListenerPortMapping PortMapping

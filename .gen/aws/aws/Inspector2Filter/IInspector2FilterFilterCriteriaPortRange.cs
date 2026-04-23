@@ -7,14 +7,14 @@ namespace aws.Inspector2Filter
     [JsiiInterface(nativeType: typeof(IInspector2FilterFilterCriteriaPortRange), fullyQualifiedName: "aws.inspector2Filter.Inspector2FilterFilterCriteriaPortRange")]
     public interface IInspector2FilterFilterCriteriaPortRange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/inspector2_filter#begin_inclusive Inspector2Filter#begin_inclusive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#begin_inclusive Inspector2Filter#begin_inclusive}.</summary>
         [JsiiProperty(name: "beginInclusive", typeJson: "{\"primitive\":\"number\"}")]
         double BeginInclusive
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/inspector2_filter#end_inclusive Inspector2Filter#end_inclusive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#end_inclusive Inspector2Filter#end_inclusive}.</summary>
         [JsiiProperty(name: "endInclusive", typeJson: "{\"primitive\":\"number\"}")]
         double EndInclusive
         {
@@ -28,14 +28,14 @@ namespace aws.Inspector2Filter
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/inspector2_filter#begin_inclusive Inspector2Filter#begin_inclusive}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#begin_inclusive Inspector2Filter#begin_inclusive}.</summary>
             [JsiiProperty(name: "beginInclusive", typeJson: "{\"primitive\":\"number\"}")]
             public double BeginInclusive
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/inspector2_filter#end_inclusive Inspector2Filter#end_inclusive}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#end_inclusive Inspector2Filter#end_inclusive}.</summary>
             [JsiiProperty(name: "endInclusive", typeJson: "{\"primitive\":\"number\"}")]
             public double EndInclusive
             {

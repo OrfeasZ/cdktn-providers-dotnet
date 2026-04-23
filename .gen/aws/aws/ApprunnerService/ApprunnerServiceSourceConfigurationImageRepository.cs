@@ -9,7 +9,7 @@ namespace aws.ApprunnerService
     [JsiiByValue(fqn: "aws.apprunnerService.ApprunnerServiceSourceConfigurationImageRepository")]
     public class ApprunnerServiceSourceConfigurationImageRepository : aws.ApprunnerService.IApprunnerServiceSourceConfigurationImageRepository
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apprunner_service#image_identifier ApprunnerService#image_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#image_identifier ApprunnerService#image_identifier}.</summary>
         [JsiiProperty(name: "imageIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string ImageIdentifier
         {
@@ -17,7 +17,7 @@ namespace aws.ApprunnerService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apprunner_service#image_repository_type ApprunnerService#image_repository_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#image_repository_type ApprunnerService#image_repository_type}.</summary>
         [JsiiProperty(name: "imageRepositoryType", typeJson: "{\"primitive\":\"string\"}")]
         public string ImageRepositoryType
         {
@@ -27,7 +27,7 @@ namespace aws.ApprunnerService
 
         /// <summary>image_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apprunner_service#image_configuration ApprunnerService#image_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#image_configuration ApprunnerService#image_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "imageConfiguration", typeJson: "{\"fqn\":\"aws.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfiguration\"}", isOptional: true)]

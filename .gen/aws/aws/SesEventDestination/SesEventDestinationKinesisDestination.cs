@@ -9,7 +9,7 @@ namespace aws.SesEventDestination
     [JsiiByValue(fqn: "aws.sesEventDestination.SesEventDestinationKinesisDestination")]
     public class SesEventDestinationKinesisDestination : aws.SesEventDestination.ISesEventDestinationKinesisDestination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ses_event_destination#role_arn SesEventDestination#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_event_destination#role_arn SesEventDestination#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleArn
         {
@@ -17,7 +17,7 @@ namespace aws.SesEventDestination
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ses_event_destination#stream_arn SesEventDestination#stream_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_event_destination#stream_arn SesEventDestination#stream_arn}.</summary>
         [JsiiProperty(name: "streamArn", typeJson: "{\"primitive\":\"string\"}")]
         public string StreamArn
         {

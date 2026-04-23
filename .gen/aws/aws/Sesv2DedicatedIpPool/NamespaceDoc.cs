@@ -5,7 +5,7 @@ namespace aws.Sesv2DedicatedIpPool
     /// <remarks>
     /// <h1><c>aws_sesv2_dedicated_ip_pool</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sesv2_dedicated_ip_pool"><c>aws_sesv2_dedicated_ip_pool</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_dedicated_ip_pool"><c>aws_sesv2_dedicated_ip_pool</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

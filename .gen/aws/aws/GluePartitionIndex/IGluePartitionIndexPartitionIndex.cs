@@ -7,7 +7,7 @@ namespace aws.GluePartitionIndex
     [JsiiInterface(nativeType: typeof(IGluePartitionIndexPartitionIndex), fullyQualifiedName: "aws.gluePartitionIndex.GluePartitionIndexPartitionIndex")]
     public interface IGluePartitionIndexPartitionIndex
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_partition_index#index_name GluePartitionIndex#index_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_partition_index#index_name GluePartitionIndex#index_name}.</summary>
         [JsiiProperty(name: "indexName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IndexName
@@ -18,7 +18,7 @@ namespace aws.GluePartitionIndex
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_partition_index#keys GluePartitionIndex#keys}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_partition_index#keys GluePartitionIndex#keys}.</summary>
         [JsiiProperty(name: "keys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Keys
@@ -36,7 +36,7 @@ namespace aws.GluePartitionIndex
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_partition_index#index_name GluePartitionIndex#index_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_partition_index#index_name GluePartitionIndex#index_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "indexName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IndexName
@@ -44,7 +44,7 @@ namespace aws.GluePartitionIndex
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_partition_index#keys GluePartitionIndex#keys}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_partition_index#keys GluePartitionIndex#keys}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "keys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Keys

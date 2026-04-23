@@ -9,7 +9,7 @@ namespace aws.EvidentlyProject
     {
         /// <summary>cloudwatch_logs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/evidently_project#cloudwatch_logs EvidentlyProject#cloudwatch_logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_project#cloudwatch_logs EvidentlyProject#cloudwatch_logs}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudwatchLogs", typeJson: "{\"fqn\":\"aws.evidentlyProject.EvidentlyProjectDataDeliveryCloudwatchLogs\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.EvidentlyProject
 
         /// <summary>s3_destination block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/evidently_project#s3_destination EvidentlyProject#s3_destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_project#s3_destination EvidentlyProject#s3_destination}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3Destination", typeJson: "{\"fqn\":\"aws.evidentlyProject.EvidentlyProjectDataDeliveryS3Destination\"}", isOptional: true)]

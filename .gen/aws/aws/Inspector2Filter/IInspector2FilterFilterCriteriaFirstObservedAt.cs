@@ -7,7 +7,7 @@ namespace aws.Inspector2Filter
     [JsiiInterface(nativeType: typeof(IInspector2FilterFilterCriteriaFirstObservedAt), fullyQualifiedName: "aws.inspector2Filter.Inspector2FilterFilterCriteriaFirstObservedAt")]
     public interface IInspector2FilterFilterCriteriaFirstObservedAt
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/inspector2_filter#end_inclusive Inspector2Filter#end_inclusive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#end_inclusive Inspector2Filter#end_inclusive}.</summary>
         [JsiiProperty(name: "endInclusive", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EndInclusive
@@ -18,7 +18,7 @@ namespace aws.Inspector2Filter
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/inspector2_filter#start_inclusive Inspector2Filter#start_inclusive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#start_inclusive Inspector2Filter#start_inclusive}.</summary>
         [JsiiProperty(name: "startInclusive", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? StartInclusive
@@ -36,7 +36,7 @@ namespace aws.Inspector2Filter
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/inspector2_filter#end_inclusive Inspector2Filter#end_inclusive}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#end_inclusive Inspector2Filter#end_inclusive}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "endInclusive", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EndInclusive
@@ -44,7 +44,7 @@ namespace aws.Inspector2Filter
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/inspector2_filter#start_inclusive Inspector2Filter#start_inclusive}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#start_inclusive Inspector2Filter#start_inclusive}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "startInclusive", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? StartInclusive

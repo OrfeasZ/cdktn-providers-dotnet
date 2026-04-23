@@ -9,7 +9,7 @@ namespace aws.SagemakerModel
     [JsiiByValue(fqn: "aws.sagemakerModel.SagemakerModelContainerImageConfig")]
     public class SagemakerModelContainerImageConfig : aws.SagemakerModel.ISagemakerModelContainerImageConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_model#repository_access_mode SagemakerModel#repository_access_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#repository_access_mode SagemakerModel#repository_access_mode}.</summary>
         [JsiiProperty(name: "repositoryAccessMode", typeJson: "{\"primitive\":\"string\"}")]
         public string RepositoryAccessMode
         {
@@ -19,7 +19,7 @@ namespace aws.SagemakerModel
 
         /// <summary>repository_auth_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_model#repository_auth_config SagemakerModel#repository_auth_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#repository_auth_config SagemakerModel#repository_auth_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "repositoryAuthConfig", typeJson: "{\"fqn\":\"aws.sagemakerModel.SagemakerModelContainerImageConfigRepositoryAuthConfig\"}", isOptional: true)]

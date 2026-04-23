@@ -7,7 +7,7 @@ namespace aws.M2Application
     [JsiiInterface(nativeType: typeof(IM2ApplicationDefinition), fullyQualifiedName: "aws.m2Application.M2ApplicationDefinition")]
     public interface IM2ApplicationDefinition
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/m2_application#content M2Application#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/m2_application#content M2Application#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Content
@@ -18,7 +18,7 @@ namespace aws.M2Application
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/m2_application#s3_location M2Application#s3_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/m2_application#s3_location M2Application#s3_location}.</summary>
         [JsiiProperty(name: "s3Location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? S3Location
@@ -36,7 +36,7 @@ namespace aws.M2Application
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/m2_application#content M2Application#content}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/m2_application#content M2Application#content}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Content
@@ -44,7 +44,7 @@ namespace aws.M2Application
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/m2_application#s3_location M2Application#s3_location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/m2_application#s3_location M2Application#s3_location}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "s3Location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? S3Location

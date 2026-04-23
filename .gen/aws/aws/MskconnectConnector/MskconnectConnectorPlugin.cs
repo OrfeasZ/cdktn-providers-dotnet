@@ -11,7 +11,7 @@ namespace aws.MskconnectConnector
     {
         /// <summary>custom_plugin block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/mskconnect_connector#custom_plugin MskconnectConnector#custom_plugin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#custom_plugin MskconnectConnector#custom_plugin}
         /// </remarks>
         [JsiiProperty(name: "customPlugin", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorPluginCustomPlugin\"}")]
         public aws.MskconnectConnector.IMskconnectConnectorPluginCustomPlugin CustomPlugin

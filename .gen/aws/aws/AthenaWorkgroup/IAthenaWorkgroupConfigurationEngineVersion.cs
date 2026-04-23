@@ -7,7 +7,7 @@ namespace aws.AthenaWorkgroup
     [JsiiInterface(nativeType: typeof(IAthenaWorkgroupConfigurationEngineVersion), fullyQualifiedName: "aws.athenaWorkgroup.AthenaWorkgroupConfigurationEngineVersion")]
     public interface IAthenaWorkgroupConfigurationEngineVersion
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/athena_workgroup#selected_engine_version AthenaWorkgroup#selected_engine_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_workgroup#selected_engine_version AthenaWorkgroup#selected_engine_version}.</summary>
         [JsiiProperty(name: "selectedEngineVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SelectedEngineVersion
@@ -25,7 +25,7 @@ namespace aws.AthenaWorkgroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/athena_workgroup#selected_engine_version AthenaWorkgroup#selected_engine_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_workgroup#selected_engine_version AthenaWorkgroup#selected_engine_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "selectedEngineVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SelectedEngineVersion

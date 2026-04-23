@@ -9,7 +9,7 @@ namespace aws.Lexv2ModelsSlotType
     [JsiiByValue(fqn: "aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeCompositeSlotTypeSettingSubSlots")]
     public class Lexv2ModelsSlotTypeCompositeSlotTypeSettingSubSlots : aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeCompositeSlotTypeSettingSubSlots
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_slot_type#name Lexv2ModelsSlotType#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot_type#name Lexv2ModelsSlotType#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.Lexv2ModelsSlotType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_slot_type#slot_type_id Lexv2ModelsSlotType#slot_type_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot_type#slot_type_id Lexv2ModelsSlotType#slot_type_id}.</summary>
         [JsiiProperty(name: "slotTypeId", typeJson: "{\"primitive\":\"string\"}")]
         public string SlotTypeId
         {

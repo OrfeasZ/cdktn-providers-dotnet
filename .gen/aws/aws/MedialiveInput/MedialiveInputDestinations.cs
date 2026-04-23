@@ -9,7 +9,7 @@ namespace aws.MedialiveInput
     [JsiiByValue(fqn: "aws.medialiveInput.MedialiveInputDestinations")]
     public class MedialiveInputDestinations : aws.MedialiveInput.IMedialiveInputDestinations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_input#stream_name MedialiveInput#stream_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_input#stream_name MedialiveInput#stream_name}.</summary>
         [JsiiProperty(name: "streamName", typeJson: "{\"primitive\":\"string\"}")]
         public string StreamName
         {

@@ -9,7 +9,7 @@ namespace aws.Apigatewayv2Stage
     [JsiiByValue(fqn: "aws.apigatewayv2Stage.Apigatewayv2StageAccessLogSettings")]
     public class Apigatewayv2StageAccessLogSettings : aws.Apigatewayv2Stage.IApigatewayv2StageAccessLogSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apigatewayv2_stage#destination_arn Apigatewayv2Stage#destination_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_stage#destination_arn Apigatewayv2Stage#destination_arn}.</summary>
         [JsiiProperty(name: "destinationArn", typeJson: "{\"primitive\":\"string\"}")]
         public string DestinationArn
         {
@@ -17,7 +17,7 @@ namespace aws.Apigatewayv2Stage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apigatewayv2_stage#format Apigatewayv2Stage#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_stage#format Apigatewayv2Stage#format}.</summary>
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}")]
         public string Format
         {

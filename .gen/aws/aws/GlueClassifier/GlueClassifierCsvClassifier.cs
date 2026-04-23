@@ -9,7 +9,7 @@ namespace aws.GlueClassifier
     {
         private object? _allowSingleColumn;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_classifier#allow_single_column GlueClassifier#allow_single_column}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#allow_single_column GlueClassifier#allow_single_column}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "allowSingleColumn", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? AllowSingleColumn
@@ -38,7 +38,7 @@ namespace aws.GlueClassifier
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_classifier#contains_header GlueClassifier#contains_header}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#contains_header GlueClassifier#contains_header}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "containsHeader", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContainsHeader
@@ -49,7 +49,7 @@ namespace aws.GlueClassifier
 
         private object? _customDatatypeConfigured;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_classifier#custom_datatype_configured GlueClassifier#custom_datatype_configured}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#custom_datatype_configured GlueClassifier#custom_datatype_configured}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customDatatypeConfigured", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? CustomDatatypeConfigured
@@ -78,7 +78,7 @@ namespace aws.GlueClassifier
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_classifier#custom_datatypes GlueClassifier#custom_datatypes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#custom_datatypes GlueClassifier#custom_datatypes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customDatatypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? CustomDatatypes
@@ -87,7 +87,7 @@ namespace aws.GlueClassifier
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_classifier#delimiter GlueClassifier#delimiter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#delimiter GlueClassifier#delimiter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delimiter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delimiter
@@ -98,7 +98,7 @@ namespace aws.GlueClassifier
 
         private object? _disableValueTrimming;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_classifier#disable_value_trimming GlueClassifier#disable_value_trimming}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#disable_value_trimming GlueClassifier#disable_value_trimming}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "disableValueTrimming", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? DisableValueTrimming
@@ -127,7 +127,7 @@ namespace aws.GlueClassifier
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_classifier#header GlueClassifier#header}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#header GlueClassifier#header}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "header", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Header
@@ -136,7 +136,7 @@ namespace aws.GlueClassifier
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_classifier#quote_symbol GlueClassifier#quote_symbol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#quote_symbol GlueClassifier#quote_symbol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "quoteSymbol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? QuoteSymbol
@@ -145,7 +145,7 @@ namespace aws.GlueClassifier
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_classifier#serde GlueClassifier#serde}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#serde GlueClassifier#serde}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serde", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Serde

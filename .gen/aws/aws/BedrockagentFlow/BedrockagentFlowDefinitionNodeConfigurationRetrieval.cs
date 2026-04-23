@@ -11,7 +11,7 @@ namespace aws.BedrockagentFlow
 
         /// <summary>service_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagent_flow#service_configuration BedrockagentFlow#service_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_flow#service_configuration BedrockagentFlow#service_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serviceConfiguration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]

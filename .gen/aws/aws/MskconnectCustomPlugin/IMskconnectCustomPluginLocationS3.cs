@@ -7,21 +7,21 @@ namespace aws.MskconnectCustomPlugin
     [JsiiInterface(nativeType: typeof(IMskconnectCustomPluginLocationS3), fullyQualifiedName: "aws.mskconnectCustomPlugin.MskconnectCustomPluginLocationS3")]
     public interface IMskconnectCustomPluginLocationS3
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/mskconnect_custom_plugin#bucket_arn MskconnectCustomPlugin#bucket_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_custom_plugin#bucket_arn MskconnectCustomPlugin#bucket_arn}.</summary>
         [JsiiProperty(name: "bucketArn", typeJson: "{\"primitive\":\"string\"}")]
         string BucketArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/mskconnect_custom_plugin#file_key MskconnectCustomPlugin#file_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_custom_plugin#file_key MskconnectCustomPlugin#file_key}.</summary>
         [JsiiProperty(name: "fileKey", typeJson: "{\"primitive\":\"string\"}")]
         string FileKey
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/mskconnect_custom_plugin#object_version MskconnectCustomPlugin#object_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_custom_plugin#object_version MskconnectCustomPlugin#object_version}.</summary>
         [JsiiProperty(name: "objectVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ObjectVersion
@@ -39,21 +39,21 @@ namespace aws.MskconnectCustomPlugin
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/mskconnect_custom_plugin#bucket_arn MskconnectCustomPlugin#bucket_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_custom_plugin#bucket_arn MskconnectCustomPlugin#bucket_arn}.</summary>
             [JsiiProperty(name: "bucketArn", typeJson: "{\"primitive\":\"string\"}")]
             public string BucketArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/mskconnect_custom_plugin#file_key MskconnectCustomPlugin#file_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_custom_plugin#file_key MskconnectCustomPlugin#file_key}.</summary>
             [JsiiProperty(name: "fileKey", typeJson: "{\"primitive\":\"string\"}")]
             public string FileKey
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/mskconnect_custom_plugin#object_version MskconnectCustomPlugin#object_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_custom_plugin#object_version MskconnectCustomPlugin#object_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "objectVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ObjectVersion

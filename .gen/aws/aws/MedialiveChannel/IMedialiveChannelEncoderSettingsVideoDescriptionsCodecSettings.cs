@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     {
         /// <summary>frame_capture_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#frame_capture_settings MedialiveChannel#frame_capture_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#frame_capture_settings MedialiveChannel#frame_capture_settings}
         /// </remarks>
         [JsiiProperty(name: "frameCaptureSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsFrameCaptureSettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>h264_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#h264_settings MedialiveChannel#h264_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#h264_settings MedialiveChannel#h264_settings}
         /// </remarks>
         [JsiiProperty(name: "h264Settings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Settings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>h265_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#h265_settings MedialiveChannel#h265_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#h265_settings MedialiveChannel#h265_settings}
         /// </remarks>
         [JsiiProperty(name: "h265Settings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Settings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>frame_capture_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#frame_capture_settings MedialiveChannel#frame_capture_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#frame_capture_settings MedialiveChannel#frame_capture_settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "frameCaptureSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsFrameCaptureSettings\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>h264_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#h264_settings MedialiveChannel#h264_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#h264_settings MedialiveChannel#h264_settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "h264Settings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Settings\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>h265_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#h265_settings MedialiveChannel#h265_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#h265_settings MedialiveChannel#h265_settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "h265Settings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Settings\"}", isOptional: true)]

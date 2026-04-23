@@ -7,7 +7,7 @@ namespace aws.GlueCrawler
     [JsiiByValue(fqn: "aws.glueCrawler.GlueCrawlerSchemaChangePolicy")]
     public class GlueCrawlerSchemaChangePolicy : aws.GlueCrawler.IGlueCrawlerSchemaChangePolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_crawler#delete_behavior GlueCrawler#delete_behavior}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#delete_behavior GlueCrawler#delete_behavior}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deleteBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DeleteBehavior
@@ -16,7 +16,7 @@ namespace aws.GlueCrawler
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_crawler#update_behavior GlueCrawler#update_behavior}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#update_behavior GlueCrawler#update_behavior}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "updateBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UpdateBehavior

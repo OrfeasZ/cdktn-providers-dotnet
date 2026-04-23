@@ -7,7 +7,7 @@ namespace aws.LambdaCapacityProvider
     [JsiiInterface(nativeType: typeof(ILambdaCapacityProviderPermissionsConfig), fullyQualifiedName: "aws.lambdaCapacityProvider.LambdaCapacityProviderPermissionsConfig")]
     public interface ILambdaCapacityProviderPermissionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_capacity_provider#capacity_provider_operator_role_arn LambdaCapacityProvider#capacity_provider_operator_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_capacity_provider#capacity_provider_operator_role_arn LambdaCapacityProvider#capacity_provider_operator_role_arn}.</summary>
         [JsiiProperty(name: "capacityProviderOperatorRoleArn", typeJson: "{\"primitive\":\"string\"}")]
         string CapacityProviderOperatorRoleArn
         {
@@ -21,7 +21,7 @@ namespace aws.LambdaCapacityProvider
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_capacity_provider#capacity_provider_operator_role_arn LambdaCapacityProvider#capacity_provider_operator_role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_capacity_provider#capacity_provider_operator_role_arn LambdaCapacityProvider#capacity_provider_operator_role_arn}.</summary>
             [JsiiProperty(name: "capacityProviderOperatorRoleArn", typeJson: "{\"primitive\":\"string\"}")]
             public string CapacityProviderOperatorRoleArn
             {

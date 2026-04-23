@@ -9,7 +9,7 @@ namespace aws.FsxOpenzfsVolume
     [JsiiByValue(fqn: "aws.fsxOpenzfsVolume.FsxOpenzfsVolumeNfsExportsClientConfigurations")]
     public class FsxOpenzfsVolumeNfsExportsClientConfigurations : aws.FsxOpenzfsVolume.IFsxOpenzfsVolumeNfsExportsClientConfigurations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_openzfs_volume#clients FsxOpenzfsVolume#clients}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_volume#clients FsxOpenzfsVolume#clients}.</summary>
         [JsiiProperty(name: "clients", typeJson: "{\"primitive\":\"string\"}")]
         public string Clients
         {
@@ -17,7 +17,7 @@ namespace aws.FsxOpenzfsVolume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_openzfs_volume#options FsxOpenzfsVolume#options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_volume#options FsxOpenzfsVolume#options}.</summary>
         [JsiiProperty(name: "options", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Options
         {

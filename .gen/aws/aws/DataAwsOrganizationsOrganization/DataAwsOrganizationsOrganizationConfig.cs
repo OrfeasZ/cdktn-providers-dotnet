@@ -7,7 +7,7 @@ namespace aws.DataAwsOrganizationsOrganization
     [JsiiByValue(fqn: "aws.dataAwsOrganizationsOrganization.DataAwsOrganizationsOrganizationConfig")]
     public class DataAwsOrganizationsOrganizationConfig : aws.DataAwsOrganizationsOrganization.IDataAwsOrganizationsOrganizationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/organizations_organization#id DataAwsOrganizationsOrganization#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/organizations_organization#id DataAwsOrganizationsOrganization#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace aws.DataAwsOrganizationsOrganization
 
         private object? _returnOrganizationOnly;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/organizations_organization#return_organization_only DataAwsOrganizationsOrganization#return_organization_only}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/organizations_organization#return_organization_only DataAwsOrganizationsOrganization#return_organization_only}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "returnOrganizationOnly", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? ReturnOrganizationOnly

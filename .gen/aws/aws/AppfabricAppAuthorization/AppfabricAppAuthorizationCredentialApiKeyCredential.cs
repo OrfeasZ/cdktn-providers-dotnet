@@ -9,7 +9,7 @@ namespace aws.AppfabricAppAuthorization
     [JsiiByValue(fqn: "aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialApiKeyCredential")]
     public class AppfabricAppAuthorizationCredentialApiKeyCredential : aws.AppfabricAppAuthorization.IAppfabricAppAuthorizationCredentialApiKeyCredential
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appfabric_app_authorization#api_key AppfabricAppAuthorization#api_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appfabric_app_authorization#api_key AppfabricAppAuthorization#api_key}.</summary>
         [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiKey
         {

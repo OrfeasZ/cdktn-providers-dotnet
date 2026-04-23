@@ -9,7 +9,7 @@ namespace aws.AlbTargetGroup
     {
         /// <summary>dns_failover block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/alb_target_group#dns_failover AlbTargetGroup#dns_failover}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#dns_failover AlbTargetGroup#dns_failover}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dnsFailover", typeJson: "{\"fqn\":\"aws.albTargetGroup.AlbTargetGroupTargetGroupHealthDnsFailover\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.AlbTargetGroup
 
         /// <summary>unhealthy_state_routing block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/alb_target_group#unhealthy_state_routing AlbTargetGroup#unhealthy_state_routing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#unhealthy_state_routing AlbTargetGroup#unhealthy_state_routing}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "unhealthyStateRouting", typeJson: "{\"fqn\":\"aws.albTargetGroup.AlbTargetGroupTargetGroupHealthUnhealthyStateRouting\"}", isOptional: true)]

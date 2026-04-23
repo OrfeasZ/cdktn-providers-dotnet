@@ -7,7 +7,7 @@ namespace aws.Instance
     [JsiiByValue(fqn: "aws.instance.InstanceInstanceMarketOptions")]
     public class InstanceInstanceMarketOptions : aws.Instance.IInstanceInstanceMarketOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/instance#market_type Instance#market_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#market_type Instance#market_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "marketType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MarketType
@@ -18,7 +18,7 @@ namespace aws.Instance
 
         /// <summary>spot_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/instance#spot_options Instance#spot_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#spot_options Instance#spot_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "spotOptions", typeJson: "{\"fqn\":\"aws.instance.InstanceInstanceMarketOptionsSpotOptions\"}", isOptional: true)]

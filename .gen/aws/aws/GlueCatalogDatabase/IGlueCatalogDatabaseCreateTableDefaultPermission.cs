@@ -7,7 +7,7 @@ namespace aws.GlueCatalogDatabase
     [JsiiInterface(nativeType: typeof(IGlueCatalogDatabaseCreateTableDefaultPermission), fullyQualifiedName: "aws.glueCatalogDatabase.GlueCatalogDatabaseCreateTableDefaultPermission")]
     public interface IGlueCatalogDatabaseCreateTableDefaultPermission
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_database#permissions GlueCatalogDatabase#permissions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_database#permissions GlueCatalogDatabase#permissions}.</summary>
         [JsiiProperty(name: "permissions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Permissions
@@ -20,7 +20,7 @@ namespace aws.GlueCatalogDatabase
 
         /// <summary>principal block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_database#principal GlueCatalogDatabase#principal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_database#principal GlueCatalogDatabase#principal}
         /// </remarks>
         [JsiiProperty(name: "principal", typeJson: "{\"fqn\":\"aws.glueCatalogDatabase.GlueCatalogDatabaseCreateTableDefaultPermissionPrincipal\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -39,7 +39,7 @@ namespace aws.GlueCatalogDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_database#permissions GlueCatalogDatabase#permissions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_database#permissions GlueCatalogDatabase#permissions}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "permissions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Permissions
@@ -49,7 +49,7 @@ namespace aws.GlueCatalogDatabase
 
             /// <summary>principal block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_database#principal GlueCatalogDatabase#principal}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_database#principal GlueCatalogDatabase#principal}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "principal", typeJson: "{\"fqn\":\"aws.glueCatalogDatabase.GlueCatalogDatabaseCreateTableDefaultPermissionPrincipal\"}", isOptional: true)]

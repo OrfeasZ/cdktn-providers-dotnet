@@ -9,7 +9,7 @@ namespace aws.DataAwsEc2CoipPool
     [JsiiByValue(fqn: "aws.dataAwsEc2CoipPool.DataAwsEc2CoipPoolFilter")]
     public class DataAwsEc2CoipPoolFilter : aws.DataAwsEc2CoipPool.IDataAwsEc2CoipPoolFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ec2_coip_pool#name DataAwsEc2CoipPool#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_coip_pool#name DataAwsEc2CoipPool#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsEc2CoipPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ec2_coip_pool#values DataAwsEc2CoipPool#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_coip_pool#values DataAwsEc2CoipPool#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

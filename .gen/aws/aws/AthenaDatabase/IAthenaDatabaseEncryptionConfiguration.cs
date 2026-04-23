@@ -7,14 +7,14 @@ namespace aws.AthenaDatabase
     [JsiiInterface(nativeType: typeof(IAthenaDatabaseEncryptionConfiguration), fullyQualifiedName: "aws.athenaDatabase.AthenaDatabaseEncryptionConfiguration")]
     public interface IAthenaDatabaseEncryptionConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/athena_database#encryption_option AthenaDatabase#encryption_option}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#encryption_option AthenaDatabase#encryption_option}.</summary>
         [JsiiProperty(name: "encryptionOption", typeJson: "{\"primitive\":\"string\"}")]
         string EncryptionOption
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/athena_database#kms_key AthenaDatabase#kms_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#kms_key AthenaDatabase#kms_key}.</summary>
         [JsiiProperty(name: "kmsKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KmsKey
@@ -32,14 +32,14 @@ namespace aws.AthenaDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/athena_database#encryption_option AthenaDatabase#encryption_option}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#encryption_option AthenaDatabase#encryption_option}.</summary>
             [JsiiProperty(name: "encryptionOption", typeJson: "{\"primitive\":\"string\"}")]
             public string EncryptionOption
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/athena_database#kms_key AthenaDatabase#kms_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#kms_key AthenaDatabase#kms_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "kmsKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KmsKey

@@ -7,7 +7,7 @@ namespace aws.Wafv2WebAcl
     [JsiiByValue(fqn: "aws.wafv2WebAcl.Wafv2WebAclChallengeConfigImmunityTimeProperty")]
     public class Wafv2WebAclChallengeConfigImmunityTimeProperty : aws.Wafv2WebAcl.IWafv2WebAclChallengeConfigImmunityTimeProperty
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafv2_web_acl#immunity_time Wafv2WebAcl#immunity_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#immunity_time Wafv2WebAcl#immunity_time}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "immunityTime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ImmunityTime

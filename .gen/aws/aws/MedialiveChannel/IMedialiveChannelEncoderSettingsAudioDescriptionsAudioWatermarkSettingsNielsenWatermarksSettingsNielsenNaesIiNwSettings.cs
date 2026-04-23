@@ -7,14 +7,14 @@ namespace aws.MedialiveChannel
     [JsiiInterface(nativeType: typeof(IMedialiveChannelEncoderSettingsAudioDescriptionsAudioWatermarkSettingsNielsenWatermarksSettingsNielsenNaesIiNwSettings), fullyQualifiedName: "aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptionsAudioWatermarkSettingsNielsenWatermarksSettingsNielsenNaesIiNwSettings")]
     public interface IMedialiveChannelEncoderSettingsAudioDescriptionsAudioWatermarkSettingsNielsenWatermarksSettingsNielsenNaesIiNwSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#check_digit_string MedialiveChannel#check_digit_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#check_digit_string MedialiveChannel#check_digit_string}.</summary>
         [JsiiProperty(name: "checkDigitString", typeJson: "{\"primitive\":\"string\"}")]
         string CheckDigitString
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#sid MedialiveChannel#sid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#sid MedialiveChannel#sid}.</summary>
         [JsiiProperty(name: "sid", typeJson: "{\"primitive\":\"number\"}")]
         double Sid
         {
@@ -28,14 +28,14 @@ namespace aws.MedialiveChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#check_digit_string MedialiveChannel#check_digit_string}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#check_digit_string MedialiveChannel#check_digit_string}.</summary>
             [JsiiProperty(name: "checkDigitString", typeJson: "{\"primitive\":\"string\"}")]
             public string CheckDigitString
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#sid MedialiveChannel#sid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#sid MedialiveChannel#sid}.</summary>
             [JsiiProperty(name: "sid", typeJson: "{\"primitive\":\"number\"}")]
             public double Sid
             {

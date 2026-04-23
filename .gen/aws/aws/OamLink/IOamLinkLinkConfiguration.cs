@@ -9,7 +9,7 @@ namespace aws.OamLink
     {
         /// <summary>log_group_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/oam_link#log_group_configuration OamLink#log_group_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/oam_link#log_group_configuration OamLink#log_group_configuration}
         /// </remarks>
         [JsiiProperty(name: "logGroupConfiguration", typeJson: "{\"fqn\":\"aws.oamLink.OamLinkLinkConfigurationLogGroupConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.OamLink
 
         /// <summary>metric_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/oam_link#metric_configuration OamLink#metric_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/oam_link#metric_configuration OamLink#metric_configuration}
         /// </remarks>
         [JsiiProperty(name: "metricConfiguration", typeJson: "{\"fqn\":\"aws.oamLink.OamLinkLinkConfigurationMetricConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace aws.OamLink
 
             /// <summary>log_group_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/oam_link#log_group_configuration OamLink#log_group_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/oam_link#log_group_configuration OamLink#log_group_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "logGroupConfiguration", typeJson: "{\"fqn\":\"aws.oamLink.OamLinkLinkConfigurationLogGroupConfiguration\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace aws.OamLink
 
             /// <summary>metric_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/oam_link#metric_configuration OamLink#metric_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/oam_link#metric_configuration OamLink#metric_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metricConfiguration", typeJson: "{\"fqn\":\"aws.oamLink.OamLinkLinkConfigurationMetricConfiguration\"}", isOptional: true)]

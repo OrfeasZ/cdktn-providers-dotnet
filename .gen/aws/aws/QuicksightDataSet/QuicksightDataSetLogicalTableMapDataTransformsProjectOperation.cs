@@ -9,7 +9,7 @@ namespace aws.QuicksightDataSet
     [JsiiByValue(fqn: "aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsProjectOperation")]
     public class QuicksightDataSetLogicalTableMapDataTransformsProjectOperation : aws.QuicksightDataSet.IQuicksightDataSetLogicalTableMapDataTransformsProjectOperation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_set#projected_columns QuicksightDataSet#projected_columns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#projected_columns QuicksightDataSet#projected_columns}.</summary>
         [JsiiProperty(name: "projectedColumns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] ProjectedColumns
         {

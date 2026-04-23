@@ -7,7 +7,7 @@ namespace aws.SagemakerNotebookInstance
     [JsiiInterface(nativeType: typeof(ISagemakerNotebookInstanceInstanceMetadataServiceConfiguration), fullyQualifiedName: "aws.sagemakerNotebookInstance.SagemakerNotebookInstanceInstanceMetadataServiceConfiguration")]
     public interface ISagemakerNotebookInstanceInstanceMetadataServiceConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_notebook_instance#minimum_instance_metadata_service_version SagemakerNotebookInstance#minimum_instance_metadata_service_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_notebook_instance#minimum_instance_metadata_service_version SagemakerNotebookInstance#minimum_instance_metadata_service_version}.</summary>
         [JsiiProperty(name: "minimumInstanceMetadataServiceVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MinimumInstanceMetadataServiceVersion
@@ -25,7 +25,7 @@ namespace aws.SagemakerNotebookInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_notebook_instance#minimum_instance_metadata_service_version SagemakerNotebookInstance#minimum_instance_metadata_service_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_notebook_instance#minimum_instance_metadata_service_version SagemakerNotebookInstance#minimum_instance_metadata_service_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "minimumInstanceMetadataServiceVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MinimumInstanceMetadataServiceVersion

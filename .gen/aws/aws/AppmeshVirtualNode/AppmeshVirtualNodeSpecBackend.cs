@@ -11,7 +11,7 @@ namespace aws.AppmeshVirtualNode
     {
         /// <summary>virtual_service block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_virtual_node#virtual_service AppmeshVirtualNode#virtual_service}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_node#virtual_service AppmeshVirtualNode#virtual_service}
         /// </remarks>
         [JsiiProperty(name: "virtualService", typeJson: "{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecBackendVirtualService\"}")]
         public aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecBackendVirtualService VirtualService

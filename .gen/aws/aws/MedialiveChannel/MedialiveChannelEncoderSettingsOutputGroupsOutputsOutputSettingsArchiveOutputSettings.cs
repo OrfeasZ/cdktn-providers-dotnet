@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     {
         /// <summary>container_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#container_settings MedialiveChannel#container_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#container_settings MedialiveChannel#container_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "containerSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettings\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#extension MedialiveChannel#extension}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#extension MedialiveChannel#extension}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "extension", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Extension
@@ -28,7 +28,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#name_modifier MedialiveChannel#name_modifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#name_modifier MedialiveChannel#name_modifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nameModifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NameModifier

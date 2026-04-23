@@ -9,7 +9,7 @@ namespace aws.EksNodeGroup
     [JsiiByValue(fqn: "aws.eksNodeGroup.EksNodeGroupScalingConfig")]
     public class EksNodeGroupScalingConfig : aws.EksNodeGroup.IEksNodeGroupScalingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_node_group#desired_size EksNodeGroup#desired_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_node_group#desired_size EksNodeGroup#desired_size}.</summary>
         [JsiiProperty(name: "desiredSize", typeJson: "{\"primitive\":\"number\"}")]
         public double DesiredSize
         {
@@ -17,7 +17,7 @@ namespace aws.EksNodeGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_node_group#max_size EksNodeGroup#max_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_node_group#max_size EksNodeGroup#max_size}.</summary>
         [JsiiProperty(name: "maxSize", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxSize
         {
@@ -25,7 +25,7 @@ namespace aws.EksNodeGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_node_group#min_size EksNodeGroup#min_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_node_group#min_size EksNodeGroup#min_size}.</summary>
         [JsiiProperty(name: "minSize", typeJson: "{\"primitive\":\"number\"}")]
         public double MinSize
         {

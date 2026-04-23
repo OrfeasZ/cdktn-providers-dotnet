@@ -13,7 +13,7 @@ namespace aws.QbusinessApplication
         /// <remarks>
         /// Amazon Q doesn't support asymmetric keys.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/qbusiness_application#kms_key_id QbusinessApplication#kms_key_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/qbusiness_application#kms_key_id QbusinessApplication#kms_key_id}
         /// </remarks>
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public string KmsKeyId

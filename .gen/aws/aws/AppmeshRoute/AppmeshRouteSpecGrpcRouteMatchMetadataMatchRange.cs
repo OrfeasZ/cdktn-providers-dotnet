@@ -9,7 +9,7 @@ namespace aws.AppmeshRoute
     [JsiiByValue(fqn: "aws.appmeshRoute.AppmeshRouteSpecGrpcRouteMatchMetadataMatchRange")]
     public class AppmeshRouteSpecGrpcRouteMatchMetadataMatchRange : aws.AppmeshRoute.IAppmeshRouteSpecGrpcRouteMatchMetadataMatchRange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#end AppmeshRoute#end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#end AppmeshRoute#end}.</summary>
         [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"number\"}")]
         public double End
         {
@@ -17,7 +17,7 @@ namespace aws.AppmeshRoute
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#start AppmeshRoute#start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#start AppmeshRoute#start}.</summary>
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"number\"}")]
         public double Start
         {

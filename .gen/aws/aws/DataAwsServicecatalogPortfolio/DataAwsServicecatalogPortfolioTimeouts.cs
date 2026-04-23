@@ -7,7 +7,7 @@ namespace aws.DataAwsServicecatalogPortfolio
     [JsiiByValue(fqn: "aws.dataAwsServicecatalogPortfolio.DataAwsServicecatalogPortfolioTimeouts")]
     public class DataAwsServicecatalogPortfolioTimeouts : aws.DataAwsServicecatalogPortfolio.IDataAwsServicecatalogPortfolioTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/servicecatalog_portfolio#read DataAwsServicecatalogPortfolio#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/servicecatalog_portfolio#read DataAwsServicecatalogPortfolio#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

@@ -9,7 +9,7 @@ namespace aws.LightsailDistribution
     {
         /// <summary>The cache behavior for the specified path.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
         /// </remarks>
         [JsiiProperty(name: "behavior", typeJson: "{\"primitive\":\"string\"}")]
         string Behavior
@@ -21,7 +21,7 @@ namespace aws.LightsailDistribution
         /// <remarks>
         /// Use an asterisk symbol to specify wildcard directories (path/to/assets/<em>), and file types (</em>.html, *jpg, *js). Directories and file paths are case-sensitive.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_distribution#path LightsailDistribution#path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_distribution#path LightsailDistribution#path}
         /// </remarks>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
         string Path
@@ -38,7 +38,7 @@ namespace aws.LightsailDistribution
 
             /// <summary>The cache behavior for the specified path.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
             /// </remarks>
             [JsiiProperty(name: "behavior", typeJson: "{\"primitive\":\"string\"}")]
             public string Behavior
@@ -50,7 +50,7 @@ namespace aws.LightsailDistribution
             /// <remarks>
             /// Use an asterisk symbol to specify wildcard directories (path/to/assets/<em>), and file types (</em>.html, *jpg, *js). Directories and file paths are case-sensitive.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_distribution#path LightsailDistribution#path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_distribution#path LightsailDistribution#path}
             /// </remarks>
             [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
             public string Path

@@ -9,7 +9,7 @@ namespace aws.Codepipeline
     [JsiiByValue(fqn: "aws.codepipeline.CodepipelineTriggerGitConfiguration")]
     public class CodepipelineTriggerGitConfiguration : aws.Codepipeline.ICodepipelineTriggerGitConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline#source_action_name Codepipeline#source_action_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#source_action_name Codepipeline#source_action_name}.</summary>
         [JsiiProperty(name: "sourceActionName", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceActionName
         {
@@ -21,7 +21,7 @@ namespace aws.Codepipeline
 
         /// <summary>pull_request block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline#pull_request Codepipeline#pull_request}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#pull_request Codepipeline#pull_request}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pullRequest", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineTriggerGitConfigurationPullRequest\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace aws.Codepipeline
 
         /// <summary>push block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline#push Codepipeline#push}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#push Codepipeline#push}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "push", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineTriggerGitConfigurationPush\"},\"kind\":\"array\"}}]}}", isOptional: true)]

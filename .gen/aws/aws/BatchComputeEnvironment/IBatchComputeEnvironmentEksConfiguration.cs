@@ -7,14 +7,14 @@ namespace aws.BatchComputeEnvironment
     [JsiiInterface(nativeType: typeof(IBatchComputeEnvironmentEksConfiguration), fullyQualifiedName: "aws.batchComputeEnvironment.BatchComputeEnvironmentEksConfiguration")]
     public interface IBatchComputeEnvironmentEksConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_compute_environment#eks_cluster_arn BatchComputeEnvironment#eks_cluster_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#eks_cluster_arn BatchComputeEnvironment#eks_cluster_arn}.</summary>
         [JsiiProperty(name: "eksClusterArn", typeJson: "{\"primitive\":\"string\"}")]
         string EksClusterArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_compute_environment#kubernetes_namespace BatchComputeEnvironment#kubernetes_namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#kubernetes_namespace BatchComputeEnvironment#kubernetes_namespace}.</summary>
         [JsiiProperty(name: "kubernetesNamespace", typeJson: "{\"primitive\":\"string\"}")]
         string KubernetesNamespace
         {
@@ -28,14 +28,14 @@ namespace aws.BatchComputeEnvironment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_compute_environment#eks_cluster_arn BatchComputeEnvironment#eks_cluster_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#eks_cluster_arn BatchComputeEnvironment#eks_cluster_arn}.</summary>
             [JsiiProperty(name: "eksClusterArn", typeJson: "{\"primitive\":\"string\"}")]
             public string EksClusterArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_compute_environment#kubernetes_namespace BatchComputeEnvironment#kubernetes_namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#kubernetes_namespace BatchComputeEnvironment#kubernetes_namespace}.</summary>
             [JsiiProperty(name: "kubernetesNamespace", typeJson: "{\"primitive\":\"string\"}")]
             public string KubernetesNamespace
             {

@@ -7,7 +7,7 @@ namespace aws.DatasyncLocationNfs
     [JsiiByValue(fqn: "aws.datasyncLocationNfs.DatasyncLocationNfsMountOptions")]
     public class DatasyncLocationNfsMountOptions : aws.DatasyncLocationNfs.IDatasyncLocationNfsMountOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_nfs#version DatasyncLocationNfs#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_nfs#version DatasyncLocationNfs#version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Version

@@ -9,7 +9,7 @@ namespace aws.CodebuildProject
     [JsiiByValue(fqn: "aws.codebuildProject.CodebuildProjectEnvironment")]
     public class CodebuildProjectEnvironment : aws.CodebuildProject.ICodebuildProjectEnvironment
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#compute_type CodebuildProject#compute_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#compute_type CodebuildProject#compute_type}.</summary>
         [JsiiProperty(name: "computeType", typeJson: "{\"primitive\":\"string\"}")]
         public string ComputeType
         {
@@ -17,7 +17,7 @@ namespace aws.CodebuildProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#image CodebuildProject#image}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#image CodebuildProject#image}.</summary>
         [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}")]
         public string Image
         {
@@ -25,7 +25,7 @@ namespace aws.CodebuildProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#type CodebuildProject#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#type CodebuildProject#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -33,7 +33,7 @@ namespace aws.CodebuildProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#certificate CodebuildProject#certificate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#certificate CodebuildProject#certificate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Certificate
@@ -44,7 +44,7 @@ namespace aws.CodebuildProject
 
         /// <summary>docker_server block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#docker_server CodebuildProject#docker_server}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#docker_server CodebuildProject#docker_server}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dockerServer", typeJson: "{\"fqn\":\"aws.codebuildProject.CodebuildProjectEnvironmentDockerServer\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace aws.CodebuildProject
 
         /// <summary>environment_variable block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#environment_variable CodebuildProject#environment_variable}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#environment_variable CodebuildProject#environment_variable}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "environmentVariable", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codebuildProject.CodebuildProjectEnvironmentEnvironmentVariable\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -90,7 +90,7 @@ namespace aws.CodebuildProject
 
         /// <summary>fleet block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#fleet CodebuildProject#fleet}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#fleet CodebuildProject#fleet}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fleet", typeJson: "{\"fqn\":\"aws.codebuildProject.CodebuildProjectEnvironmentFleet\"}", isOptional: true)]
@@ -100,7 +100,7 @@ namespace aws.CodebuildProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#image_pull_credentials_type CodebuildProject#image_pull_credentials_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#image_pull_credentials_type CodebuildProject#image_pull_credentials_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imagePullCredentialsType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImagePullCredentialsType
@@ -111,7 +111,7 @@ namespace aws.CodebuildProject
 
         private object? _privilegedMode;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#privileged_mode CodebuildProject#privileged_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#privileged_mode CodebuildProject#privileged_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privilegedMode", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? PrivilegedMode
@@ -142,7 +142,7 @@ namespace aws.CodebuildProject
 
         /// <summary>registry_credential block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#registry_credential CodebuildProject#registry_credential}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#registry_credential CodebuildProject#registry_credential}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "registryCredential", typeJson: "{\"fqn\":\"aws.codebuildProject.CodebuildProjectEnvironmentRegistryCredential\"}", isOptional: true)]

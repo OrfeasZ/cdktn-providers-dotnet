@@ -9,7 +9,7 @@ namespace aws.WafWebAcl
     [JsiiByValue(fqn: "aws.wafWebAcl.WafWebAclLoggingConfigurationRedactedFieldsFieldToMatch")]
     public class WafWebAclLoggingConfigurationRedactedFieldsFieldToMatch : aws.WafWebAcl.IWafWebAclLoggingConfigurationRedactedFieldsFieldToMatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/waf_web_acl#type WafWebAcl#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_web_acl#type WafWebAcl#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.WafWebAcl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/waf_web_acl#data WafWebAcl#data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_web_acl#data WafWebAcl#data}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "data", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Data

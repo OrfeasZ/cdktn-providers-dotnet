@@ -7,7 +7,7 @@ namespace aws.GlueCatalogTable
     [JsiiInterface(nativeType: typeof(IGlueCatalogTableStorageDescriptorSchemaReferenceSchemaId), fullyQualifiedName: "aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSchemaReferenceSchemaId")]
     public interface IGlueCatalogTableStorageDescriptorSchemaReferenceSchemaId
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_table#registry_name GlueCatalogTable#registry_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#registry_name GlueCatalogTable#registry_name}.</summary>
         [JsiiProperty(name: "registryName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RegistryName
@@ -18,7 +18,7 @@ namespace aws.GlueCatalogTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_table#schema_arn GlueCatalogTable#schema_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#schema_arn GlueCatalogTable#schema_arn}.</summary>
         [JsiiProperty(name: "schemaArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SchemaArn
@@ -29,7 +29,7 @@ namespace aws.GlueCatalogTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_table#schema_name GlueCatalogTable#schema_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#schema_name GlueCatalogTable#schema_name}.</summary>
         [JsiiProperty(name: "schemaName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SchemaName
@@ -47,7 +47,7 @@ namespace aws.GlueCatalogTable
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_table#registry_name GlueCatalogTable#registry_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#registry_name GlueCatalogTable#registry_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "registryName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RegistryName
@@ -55,7 +55,7 @@ namespace aws.GlueCatalogTable
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_table#schema_arn GlueCatalogTable#schema_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#schema_arn GlueCatalogTable#schema_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "schemaArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SchemaArn
@@ -63,7 +63,7 @@ namespace aws.GlueCatalogTable
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_table#schema_name GlueCatalogTable#schema_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#schema_name GlueCatalogTable#schema_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "schemaName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SchemaName

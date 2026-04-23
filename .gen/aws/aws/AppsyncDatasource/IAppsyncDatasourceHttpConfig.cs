@@ -7,7 +7,7 @@ namespace aws.AppsyncDatasource
     [JsiiInterface(nativeType: typeof(IAppsyncDatasourceHttpConfig), fullyQualifiedName: "aws.appsyncDatasource.AppsyncDatasourceHttpConfig")]
     public interface IAppsyncDatasourceHttpConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#endpoint AppsyncDatasource#endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#endpoint AppsyncDatasource#endpoint}.</summary>
         [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}")]
         string Endpoint
         {
@@ -16,7 +16,7 @@ namespace aws.AppsyncDatasource
 
         /// <summary>authorization_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#authorization_config AppsyncDatasource#authorization_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#authorization_config AppsyncDatasource#authorization_config}
         /// </remarks>
         [JsiiProperty(name: "authorizationConfig", typeJson: "{\"fqn\":\"aws.appsyncDatasource.AppsyncDatasourceHttpConfigAuthorizationConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace aws.AppsyncDatasource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#endpoint AppsyncDatasource#endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#endpoint AppsyncDatasource#endpoint}.</summary>
             [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string Endpoint
             {
@@ -44,7 +44,7 @@ namespace aws.AppsyncDatasource
 
             /// <summary>authorization_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#authorization_config AppsyncDatasource#authorization_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#authorization_config AppsyncDatasource#authorization_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "authorizationConfig", typeJson: "{\"fqn\":\"aws.appsyncDatasource.AppsyncDatasourceHttpConfigAuthorizationConfig\"}", isOptional: true)]

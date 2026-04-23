@@ -9,7 +9,7 @@ namespace aws.NotificationsManagedNotificationAccountContactAssociation
     [JsiiByValue(fqn: "aws.notificationsManagedNotificationAccountContactAssociation.NotificationsManagedNotificationAccountContactAssociationConfig")]
     public class NotificationsManagedNotificationAccountContactAssociationConfig : aws.NotificationsManagedNotificationAccountContactAssociation.INotificationsManagedNotificationAccountContactAssociationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_managed_notification_account_contact_association#contact_identifier NotificationsManagedNotificationAccountContactAssociation#contact_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_managed_notification_account_contact_association#contact_identifier NotificationsManagedNotificationAccountContactAssociation#contact_identifier}.</summary>
         [JsiiProperty(name: "contactIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string ContactIdentifier
         {
@@ -17,7 +17,7 @@ namespace aws.NotificationsManagedNotificationAccountContactAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_managed_notification_account_contact_association#managed_notification_configuration_arn NotificationsManagedNotificationAccountContactAssociation#managed_notification_configuration_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_managed_notification_account_contact_association#managed_notification_configuration_arn NotificationsManagedNotificationAccountContactAssociation#managed_notification_configuration_arn}.</summary>
         [JsiiProperty(name: "managedNotificationConfigurationArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedNotificationConfigurationArn
         {

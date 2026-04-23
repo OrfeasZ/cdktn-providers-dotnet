@@ -9,7 +9,7 @@ namespace aws.IotIndexingConfiguration
     [JsiiByValue(fqn: "aws.iotIndexingConfiguration.IotIndexingConfigurationThingIndexingConfiguration")]
     public class IotIndexingConfigurationThingIndexingConfiguration : aws.IotIndexingConfiguration.IIotIndexingConfigurationThingIndexingConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_indexing_configuration#thing_indexing_mode IotIndexingConfiguration#thing_indexing_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_indexing_configuration#thing_indexing_mode IotIndexingConfiguration#thing_indexing_mode}.</summary>
         [JsiiProperty(name: "thingIndexingMode", typeJson: "{\"primitive\":\"string\"}")]
         public string ThingIndexingMode
         {
@@ -21,7 +21,7 @@ namespace aws.IotIndexingConfiguration
 
         /// <summary>custom_field block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_indexing_configuration#custom_field IotIndexingConfiguration#custom_field}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_indexing_configuration#custom_field IotIndexingConfiguration#custom_field}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customField", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotIndexingConfiguration.IotIndexingConfigurationThingIndexingConfigurationCustomField\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace aws.IotIndexingConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_indexing_configuration#device_defender_indexing_mode IotIndexingConfiguration#device_defender_indexing_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_indexing_configuration#device_defender_indexing_mode IotIndexingConfiguration#device_defender_indexing_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deviceDefenderIndexingMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DeviceDefenderIndexingMode
@@ -62,7 +62,7 @@ namespace aws.IotIndexingConfiguration
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_indexing_configuration#filter IotIndexingConfiguration#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_indexing_configuration#filter IotIndexingConfiguration#filter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"aws.iotIndexingConfiguration.IotIndexingConfigurationThingIndexingConfigurationFilter\"}", isOptional: true)]
@@ -76,7 +76,7 @@ namespace aws.IotIndexingConfiguration
 
         /// <summary>managed_field block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_indexing_configuration#managed_field IotIndexingConfiguration#managed_field}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_indexing_configuration#managed_field IotIndexingConfiguration#managed_field}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "managedField", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotIndexingConfiguration.IotIndexingConfigurationThingIndexingConfigurationManagedField\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -106,7 +106,7 @@ namespace aws.IotIndexingConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_indexing_configuration#named_shadow_indexing_mode IotIndexingConfiguration#named_shadow_indexing_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_indexing_configuration#named_shadow_indexing_mode IotIndexingConfiguration#named_shadow_indexing_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "namedShadowIndexingMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NamedShadowIndexingMode
@@ -115,7 +115,7 @@ namespace aws.IotIndexingConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_indexing_configuration#thing_connectivity_indexing_mode IotIndexingConfiguration#thing_connectivity_indexing_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_indexing_configuration#thing_connectivity_indexing_mode IotIndexingConfiguration#thing_connectivity_indexing_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "thingConnectivityIndexingMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ThingConnectivityIndexingMode

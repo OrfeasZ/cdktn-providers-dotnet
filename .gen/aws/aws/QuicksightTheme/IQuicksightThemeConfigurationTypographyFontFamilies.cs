@@ -7,7 +7,7 @@ namespace aws.QuicksightTheme
     [JsiiInterface(nativeType: typeof(IQuicksightThemeConfigurationTypographyFontFamilies), fullyQualifiedName: "aws.quicksightTheme.QuicksightThemeConfigurationTypographyFontFamilies")]
     public interface IQuicksightThemeConfigurationTypographyFontFamilies
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}.</summary>
         [JsiiProperty(name: "fontFamily", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FontFamily
@@ -25,7 +25,7 @@ namespace aws.QuicksightTheme
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fontFamily", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FontFamily

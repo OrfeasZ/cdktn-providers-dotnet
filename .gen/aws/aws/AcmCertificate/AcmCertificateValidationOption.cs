@@ -9,7 +9,7 @@ namespace aws.AcmCertificate
     [JsiiByValue(fqn: "aws.acmCertificate.AcmCertificateValidationOption")]
     public class AcmCertificateValidationOption : aws.AcmCertificate.IAcmCertificateValidationOption
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/acm_certificate#domain_name AcmCertificate#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate#domain_name AcmCertificate#domain_name}.</summary>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainName
         {
@@ -17,7 +17,7 @@ namespace aws.AcmCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/acm_certificate#validation_domain AcmCertificate#validation_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate#validation_domain AcmCertificate#validation_domain}.</summary>
         [JsiiProperty(name: "validationDomain", typeJson: "{\"primitive\":\"string\"}")]
         public string ValidationDomain
         {

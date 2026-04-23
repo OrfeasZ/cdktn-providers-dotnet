@@ -9,7 +9,7 @@ namespace aws.NotificationsManagedNotificationAdditionalChannelAssociation
     [JsiiByValue(fqn: "aws.notificationsManagedNotificationAdditionalChannelAssociation.NotificationsManagedNotificationAdditionalChannelAssociationConfig")]
     public class NotificationsManagedNotificationAdditionalChannelAssociationConfig : aws.NotificationsManagedNotificationAdditionalChannelAssociation.INotificationsManagedNotificationAdditionalChannelAssociationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_managed_notification_additional_channel_association#channel_arn NotificationsManagedNotificationAdditionalChannelAssociation#channel_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_managed_notification_additional_channel_association#channel_arn NotificationsManagedNotificationAdditionalChannelAssociation#channel_arn}.</summary>
         [JsiiProperty(name: "channelArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ChannelArn
         {
@@ -17,7 +17,7 @@ namespace aws.NotificationsManagedNotificationAdditionalChannelAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_managed_notification_additional_channel_association#managed_notification_arn NotificationsManagedNotificationAdditionalChannelAssociation#managed_notification_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_managed_notification_additional_channel_association#managed_notification_arn NotificationsManagedNotificationAdditionalChannelAssociation#managed_notification_arn}.</summary>
         [JsiiProperty(name: "managedNotificationArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedNotificationArn
         {

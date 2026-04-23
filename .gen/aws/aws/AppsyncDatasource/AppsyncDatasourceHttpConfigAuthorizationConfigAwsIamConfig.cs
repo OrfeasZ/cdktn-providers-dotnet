@@ -7,7 +7,7 @@ namespace aws.AppsyncDatasource
     [JsiiByValue(fqn: "aws.appsyncDatasource.AppsyncDatasourceHttpConfigAuthorizationConfigAwsIamConfig")]
     public class AppsyncDatasourceHttpConfigAuthorizationConfigAwsIamConfig : aws.AppsyncDatasource.IAppsyncDatasourceHttpConfigAuthorizationConfigAwsIamConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#signing_region AppsyncDatasource#signing_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#signing_region AppsyncDatasource#signing_region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "signingRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SigningRegion
@@ -16,7 +16,7 @@ namespace aws.AppsyncDatasource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#signing_service_name AppsyncDatasource#signing_service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#signing_service_name AppsyncDatasource#signing_service_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "signingServiceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SigningServiceName

@@ -11,7 +11,7 @@ namespace aws.CloudwatchLogTransformer
 
         /// <summary>entry block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "entry", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigMoveKeysEntry\"},\"kind\":\"array\"}}]}}", isOptional: true)]

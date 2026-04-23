@@ -5,7 +5,7 @@ namespace aws.DataAwsDbParameterGroup
     /// <remarks>
     /// <h1><c>data_aws_db_parameter_group</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/db_parameter_group"><c>data_aws_db_parameter_group</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/db_parameter_group"><c>data_aws_db_parameter_group</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

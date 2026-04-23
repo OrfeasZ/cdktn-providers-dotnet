@@ -9,7 +9,7 @@ namespace aws.EmrserverlessApplication
     [JsiiByValue(fqn: "aws.emrserverlessApplication.EmrserverlessApplicationInitialCapacity")]
     public class EmrserverlessApplicationInitialCapacity : aws.EmrserverlessApplication.IEmrserverlessApplicationInitialCapacity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/emrserverless_application#initial_capacity_type EmrserverlessApplication#initial_capacity_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrserverless_application#initial_capacity_type EmrserverlessApplication#initial_capacity_type}.</summary>
         [JsiiProperty(name: "initialCapacityType", typeJson: "{\"primitive\":\"string\"}")]
         public string InitialCapacityType
         {
@@ -19,7 +19,7 @@ namespace aws.EmrserverlessApplication
 
         /// <summary>initial_capacity_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/emrserverless_application#initial_capacity_config EmrserverlessApplication#initial_capacity_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrserverless_application#initial_capacity_config EmrserverlessApplication#initial_capacity_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "initialCapacityConfig", typeJson: "{\"fqn\":\"aws.emrserverlessApplication.EmrserverlessApplicationInitialCapacityInitialCapacityConfig\"}", isOptional: true)]

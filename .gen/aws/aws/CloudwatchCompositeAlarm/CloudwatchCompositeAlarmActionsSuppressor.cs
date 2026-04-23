@@ -9,7 +9,7 @@ namespace aws.CloudwatchCompositeAlarm
     [JsiiByValue(fqn: "aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarmActionsSuppressor")]
     public class CloudwatchCompositeAlarmActionsSuppressor : aws.CloudwatchCompositeAlarm.ICloudwatchCompositeAlarmActionsSuppressor
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_composite_alarm#alarm CloudwatchCompositeAlarm#alarm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_composite_alarm#alarm CloudwatchCompositeAlarm#alarm}.</summary>
         [JsiiProperty(name: "alarm", typeJson: "{\"primitive\":\"string\"}")]
         public string Alarm
         {
@@ -17,7 +17,7 @@ namespace aws.CloudwatchCompositeAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_composite_alarm#extension_period CloudwatchCompositeAlarm#extension_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_composite_alarm#extension_period CloudwatchCompositeAlarm#extension_period}.</summary>
         [JsiiProperty(name: "extensionPeriod", typeJson: "{\"primitive\":\"number\"}")]
         public double ExtensionPeriod
         {
@@ -25,7 +25,7 @@ namespace aws.CloudwatchCompositeAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_composite_alarm#wait_period CloudwatchCompositeAlarm#wait_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_composite_alarm#wait_period CloudwatchCompositeAlarm#wait_period}.</summary>
         [JsiiProperty(name: "waitPeriod", typeJson: "{\"primitive\":\"number\"}")]
         public double WaitPeriod
         {

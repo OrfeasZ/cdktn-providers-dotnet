@@ -7,14 +7,14 @@ namespace aws.IamAccountAlias
     [JsiiInterface(nativeType: typeof(IIamAccountAliasConfig), fullyQualifiedName: "aws.iamAccountAlias.IamAccountAliasConfig")]
     public interface IIamAccountAliasConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_account_alias#account_alias IamAccountAlias#account_alias}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_account_alias#account_alias IamAccountAlias#account_alias}.</summary>
         [JsiiProperty(name: "accountAlias", typeJson: "{\"primitive\":\"string\"}")]
         string AccountAlias
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_account_alias#id IamAccountAlias#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_account_alias#id IamAccountAlias#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace aws.IamAccountAlias
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_account_alias#account_alias IamAccountAlias#account_alias}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_account_alias#account_alias IamAccountAlias#account_alias}.</summary>
             [JsiiProperty(name: "accountAlias", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountAlias
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_account_alias#id IamAccountAlias#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_account_alias#id IamAccountAlias#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

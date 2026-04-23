@@ -9,7 +9,7 @@ namespace aws.S3Object
     {
         /// <summary>default_tags block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_object#default_tags S3Object#default_tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_object#default_tags S3Object#default_tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultTags", typeJson: "{\"fqn\":\"aws.s3Object.S3ObjectOverrideProviderDefaultTags\"}", isOptional: true)]

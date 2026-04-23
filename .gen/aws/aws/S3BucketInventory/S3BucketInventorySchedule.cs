@@ -9,7 +9,7 @@ namespace aws.S3BucketInventory
     [JsiiByValue(fqn: "aws.s3BucketInventory.S3BucketInventorySchedule")]
     public class S3BucketInventorySchedule : aws.S3BucketInventory.IS3BucketInventorySchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_inventory#frequency S3BucketInventory#frequency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_inventory#frequency S3BucketInventory#frequency}.</summary>
         [JsiiProperty(name: "frequency", typeJson: "{\"primitive\":\"string\"}")]
         public string Frequency
         {

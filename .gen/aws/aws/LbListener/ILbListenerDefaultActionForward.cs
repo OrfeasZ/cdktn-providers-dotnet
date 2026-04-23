@@ -9,7 +9,7 @@ namespace aws.LbListener
     {
         /// <summary>target_group block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener#target_group LbListener#target_group}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#target_group LbListener#target_group}
         /// </remarks>
         [JsiiProperty(name: "targetGroup", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lbListener.LbListenerDefaultActionForwardTargetGroup\"},\"kind\":\"array\"}}]}}")]
         object TargetGroup
@@ -19,7 +19,7 @@ namespace aws.LbListener
 
         /// <summary>stickiness block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener#stickiness LbListener#stickiness}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#stickiness LbListener#stickiness}
         /// </remarks>
         [JsiiProperty(name: "stickiness", typeJson: "{\"fqn\":\"aws.lbListener.LbListenerDefaultActionForwardStickiness\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace aws.LbListener
 
             /// <summary>target_group block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener#target_group LbListener#target_group}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#target_group LbListener#target_group}
             /// </remarks>
             [JsiiProperty(name: "targetGroup", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lbListener.LbListenerDefaultActionForwardTargetGroup\"},\"kind\":\"array\"}}]}}")]
             public object TargetGroup
@@ -50,7 +50,7 @@ namespace aws.LbListener
 
             /// <summary>stickiness block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener#stickiness LbListener#stickiness}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#stickiness LbListener#stickiness}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "stickiness", typeJson: "{\"fqn\":\"aws.lbListener.LbListenerDefaultActionForwardStickiness\"}", isOptional: true)]

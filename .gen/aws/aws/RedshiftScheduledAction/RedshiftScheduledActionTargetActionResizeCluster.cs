@@ -9,7 +9,7 @@ namespace aws.RedshiftScheduledAction
     [JsiiByValue(fqn: "aws.redshiftScheduledAction.RedshiftScheduledActionTargetActionResizeCluster")]
     public class RedshiftScheduledActionTargetActionResizeCluster : aws.RedshiftScheduledAction.IRedshiftScheduledActionTargetActionResizeCluster
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_scheduled_action#cluster_identifier RedshiftScheduledAction#cluster_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshift_scheduled_action#cluster_identifier RedshiftScheduledAction#cluster_identifier}.</summary>
         [JsiiProperty(name: "clusterIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterIdentifier
         {
@@ -19,7 +19,7 @@ namespace aws.RedshiftScheduledAction
 
         private object? _classic;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_scheduled_action#classic RedshiftScheduledAction#classic}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshift_scheduled_action#classic RedshiftScheduledAction#classic}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "classic", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Classic
@@ -48,7 +48,7 @@ namespace aws.RedshiftScheduledAction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_scheduled_action#cluster_type RedshiftScheduledAction#cluster_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshift_scheduled_action#cluster_type RedshiftScheduledAction#cluster_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clusterType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClusterType
@@ -57,7 +57,7 @@ namespace aws.RedshiftScheduledAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_scheduled_action#node_type RedshiftScheduledAction#node_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshift_scheduled_action#node_type RedshiftScheduledAction#node_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NodeType
@@ -66,7 +66,7 @@ namespace aws.RedshiftScheduledAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_scheduled_action#number_of_nodes RedshiftScheduledAction#number_of_nodes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshift_scheduled_action#number_of_nodes RedshiftScheduledAction#number_of_nodes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "numberOfNodes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? NumberOfNodes

@@ -7,7 +7,7 @@ namespace aws.GlueCatalogTable
     [JsiiInterface(nativeType: typeof(IGlueCatalogTableStorageDescriptorSchemaReference), fullyQualifiedName: "aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSchemaReference")]
     public interface IGlueCatalogTableStorageDescriptorSchemaReference
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_table#schema_version_number GlueCatalogTable#schema_version_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#schema_version_number GlueCatalogTable#schema_version_number}.</summary>
         [JsiiProperty(name: "schemaVersionNumber", typeJson: "{\"primitive\":\"number\"}")]
         double SchemaVersionNumber
         {
@@ -16,7 +16,7 @@ namespace aws.GlueCatalogTable
 
         /// <summary>schema_id block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_table#schema_id GlueCatalogTable#schema_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#schema_id GlueCatalogTable#schema_id}
         /// </remarks>
         [JsiiProperty(name: "schemaId", typeJson: "{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSchemaReferenceSchemaId\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,7 +28,7 @@ namespace aws.GlueCatalogTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_table#schema_version_id GlueCatalogTable#schema_version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#schema_version_id GlueCatalogTable#schema_version_id}.</summary>
         [JsiiProperty(name: "schemaVersionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SchemaVersionId
@@ -46,7 +46,7 @@ namespace aws.GlueCatalogTable
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_table#schema_version_number GlueCatalogTable#schema_version_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#schema_version_number GlueCatalogTable#schema_version_number}.</summary>
             [JsiiProperty(name: "schemaVersionNumber", typeJson: "{\"primitive\":\"number\"}")]
             public double SchemaVersionNumber
             {
@@ -55,7 +55,7 @@ namespace aws.GlueCatalogTable
 
             /// <summary>schema_id block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_table#schema_id GlueCatalogTable#schema_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#schema_id GlueCatalogTable#schema_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "schemaId", typeJson: "{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSchemaReferenceSchemaId\"}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace aws.GlueCatalogTable
                 get => GetInstanceProperty<aws.GlueCatalogTable.IGlueCatalogTableStorageDescriptorSchemaReferenceSchemaId?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_table#schema_version_id GlueCatalogTable#schema_version_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#schema_version_id GlueCatalogTable#schema_version_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "schemaVersionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SchemaVersionId

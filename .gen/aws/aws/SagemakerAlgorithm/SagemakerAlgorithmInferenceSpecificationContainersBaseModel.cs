@@ -7,7 +7,7 @@ namespace aws.SagemakerAlgorithm
     [JsiiByValue(fqn: "aws.sagemakerAlgorithm.SagemakerAlgorithmInferenceSpecificationContainersBaseModel")]
     public class SagemakerAlgorithmInferenceSpecificationContainersBaseModel : aws.SagemakerAlgorithm.ISagemakerAlgorithmInferenceSpecificationContainersBaseModel
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_algorithm#hub_content_name SagemakerAlgorithm#hub_content_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#hub_content_name SagemakerAlgorithm#hub_content_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hubContentName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HubContentName
@@ -16,7 +16,7 @@ namespace aws.SagemakerAlgorithm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_algorithm#hub_content_version SagemakerAlgorithm#hub_content_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#hub_content_version SagemakerAlgorithm#hub_content_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hubContentVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HubContentVersion
@@ -25,7 +25,7 @@ namespace aws.SagemakerAlgorithm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_algorithm#recipe_name SagemakerAlgorithm#recipe_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#recipe_name SagemakerAlgorithm#recipe_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "recipeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RecipeName

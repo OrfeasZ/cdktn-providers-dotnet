@@ -9,7 +9,7 @@ namespace aws.InternetmonitorMonitor
     [JsiiByValue(fqn: "aws.internetmonitorMonitor.InternetmonitorMonitorConfig")]
     public class InternetmonitorMonitorConfig : aws.InternetmonitorMonitor.IInternetmonitorMonitorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/internetmonitor_monitor#monitor_name InternetmonitorMonitor#monitor_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/internetmonitor_monitor#monitor_name InternetmonitorMonitor#monitor_name}.</summary>
         [JsiiProperty(name: "monitorName", typeJson: "{\"primitive\":\"string\"}")]
         public string MonitorName
         {
@@ -19,7 +19,7 @@ namespace aws.InternetmonitorMonitor
 
         /// <summary>health_events_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/internetmonitor_monitor#health_events_config InternetmonitorMonitor#health_events_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/internetmonitor_monitor#health_events_config InternetmonitorMonitor#health_events_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "healthEventsConfig", typeJson: "{\"fqn\":\"aws.internetmonitorMonitor.InternetmonitorMonitorHealthEventsConfig\"}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace aws.InternetmonitorMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/internetmonitor_monitor#id InternetmonitorMonitor#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/internetmonitor_monitor#id InternetmonitorMonitor#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace aws.InternetmonitorMonitor
 
         /// <summary>internet_measurements_log_delivery block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/internetmonitor_monitor#internet_measurements_log_delivery InternetmonitorMonitor#internet_measurements_log_delivery}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/internetmonitor_monitor#internet_measurements_log_delivery InternetmonitorMonitor#internet_measurements_log_delivery}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internetMeasurementsLogDelivery", typeJson: "{\"fqn\":\"aws.internetmonitorMonitor.InternetmonitorMonitorInternetMeasurementsLogDelivery\"}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace aws.InternetmonitorMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/internetmonitor_monitor#max_city_networks_to_monitor InternetmonitorMonitor#max_city_networks_to_monitor}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/internetmonitor_monitor#max_city_networks_to_monitor InternetmonitorMonitor#max_city_networks_to_monitor}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxCityNetworksToMonitor", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxCityNetworksToMonitor
@@ -65,7 +65,7 @@ namespace aws.InternetmonitorMonitor
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/internetmonitor_monitor#region InternetmonitorMonitor#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/internetmonitor_monitor#region InternetmonitorMonitor#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace aws.InternetmonitorMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/internetmonitor_monitor#resources InternetmonitorMonitor#resources}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/internetmonitor_monitor#resources InternetmonitorMonitor#resources}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Resources
@@ -84,7 +84,7 @@ namespace aws.InternetmonitorMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/internetmonitor_monitor#status InternetmonitorMonitor#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/internetmonitor_monitor#status InternetmonitorMonitor#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status
@@ -93,7 +93,7 @@ namespace aws.InternetmonitorMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/internetmonitor_monitor#tags InternetmonitorMonitor#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/internetmonitor_monitor#tags InternetmonitorMonitor#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -102,7 +102,7 @@ namespace aws.InternetmonitorMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/internetmonitor_monitor#tags_all InternetmonitorMonitor#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/internetmonitor_monitor#tags_all InternetmonitorMonitor#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -111,7 +111,7 @@ namespace aws.InternetmonitorMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/internetmonitor_monitor#traffic_percentage_to_monitor InternetmonitorMonitor#traffic_percentage_to_monitor}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/internetmonitor_monitor#traffic_percentage_to_monitor InternetmonitorMonitor#traffic_percentage_to_monitor}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "trafficPercentageToMonitor", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TrafficPercentageToMonitor

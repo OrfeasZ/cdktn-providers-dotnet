@@ -7,7 +7,7 @@ namespace aws.Lexv2ModelsSlot
     [JsiiInterface(nativeType: typeof(ILexv2ModelsSlotSubSlotSettingSlotSpecificationValueElicitationSettingSampleUtterance), fullyQualifiedName: "aws.lexv2ModelsSlot.Lexv2ModelsSlotSubSlotSettingSlotSpecificationValueElicitationSettingSampleUtterance")]
     public interface ILexv2ModelsSlotSubSlotSettingSlotSpecificationValueElicitationSettingSampleUtterance
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_slot#utterance Lexv2ModelsSlot#utterance}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#utterance Lexv2ModelsSlot#utterance}.</summary>
         [JsiiProperty(name: "utterance", typeJson: "{\"primitive\":\"string\"}")]
         string Utterance
         {
@@ -21,7 +21,7 @@ namespace aws.Lexv2ModelsSlot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_slot#utterance Lexv2ModelsSlot#utterance}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#utterance Lexv2ModelsSlot#utterance}.</summary>
             [JsiiProperty(name: "utterance", typeJson: "{\"primitive\":\"string\"}")]
             public string Utterance
             {

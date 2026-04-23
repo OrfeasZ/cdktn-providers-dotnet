@@ -7,7 +7,7 @@ namespace aws.DataAwsVpcDhcpOptions
     [JsiiInterface(nativeType: typeof(IDataAwsVpcDhcpOptionsTimeouts), fullyQualifiedName: "aws.dataAwsVpcDhcpOptions.DataAwsVpcDhcpOptionsTimeouts")]
     public interface IDataAwsVpcDhcpOptionsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/vpc_dhcp_options#read DataAwsVpcDhcpOptions#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpc_dhcp_options#read DataAwsVpcDhcpOptions#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace aws.DataAwsVpcDhcpOptions
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/vpc_dhcp_options#read DataAwsVpcDhcpOptions#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpc_dhcp_options#read DataAwsVpcDhcpOptions#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

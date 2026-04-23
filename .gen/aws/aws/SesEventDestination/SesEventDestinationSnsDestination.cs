@@ -9,7 +9,7 @@ namespace aws.SesEventDestination
     [JsiiByValue(fqn: "aws.sesEventDestination.SesEventDestinationSnsDestination")]
     public class SesEventDestinationSnsDestination : aws.SesEventDestination.ISesEventDestinationSnsDestination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ses_event_destination#topic_arn SesEventDestination#topic_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_event_destination#topic_arn SesEventDestination#topic_arn}.</summary>
         [JsiiProperty(name: "topicArn", typeJson: "{\"primitive\":\"string\"}")]
         public string TopicArn
         {

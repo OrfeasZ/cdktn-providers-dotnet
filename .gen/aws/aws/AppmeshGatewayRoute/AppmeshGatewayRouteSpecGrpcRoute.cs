@@ -11,7 +11,7 @@ namespace aws.AppmeshGatewayRoute
     {
         /// <summary>action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_gateway_route#action AppmeshGatewayRoute#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_gateway_route#action AppmeshGatewayRoute#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecGrpcRouteAction\"}")]
         public aws.AppmeshGatewayRoute.IAppmeshGatewayRouteSpecGrpcRouteAction Action
@@ -22,7 +22,7 @@ namespace aws.AppmeshGatewayRoute
 
         /// <summary>match block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_gateway_route#match AppmeshGatewayRoute#match}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_gateway_route#match AppmeshGatewayRoute#match}
         /// </remarks>
         [JsiiProperty(name: "match", typeJson: "{\"fqn\":\"aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecGrpcRouteMatch\"}")]
         public aws.AppmeshGatewayRoute.IAppmeshGatewayRouteSpecGrpcRouteMatch Match

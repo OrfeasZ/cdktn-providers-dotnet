@@ -7,7 +7,7 @@ namespace aws.LambdaFunction
     [JsiiInterface(nativeType: typeof(ILambdaFunctionTenancyConfig), fullyQualifiedName: "aws.lambdaFunction.LambdaFunctionTenancyConfig")]
     public interface ILambdaFunctionTenancyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_function#tenant_isolation_mode LambdaFunction#tenant_isolation_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function#tenant_isolation_mode LambdaFunction#tenant_isolation_mode}.</summary>
         [JsiiProperty(name: "tenantIsolationMode", typeJson: "{\"primitive\":\"string\"}")]
         string TenantIsolationMode
         {
@@ -21,7 +21,7 @@ namespace aws.LambdaFunction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_function#tenant_isolation_mode LambdaFunction#tenant_isolation_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function#tenant_isolation_mode LambdaFunction#tenant_isolation_mode}.</summary>
             [JsiiProperty(name: "tenantIsolationMode", typeJson: "{\"primitive\":\"string\"}")]
             public string TenantIsolationMode
             {

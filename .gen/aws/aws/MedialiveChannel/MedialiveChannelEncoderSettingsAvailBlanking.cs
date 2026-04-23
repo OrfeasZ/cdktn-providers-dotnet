@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     {
         /// <summary>avail_blanking_image block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#avail_blanking_image MedialiveChannel#avail_blanking_image}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#avail_blanking_image MedialiveChannel#avail_blanking_image}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "availBlankingImage", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAvailBlankingAvailBlankingImage\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#state MedialiveChannel#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#state MedialiveChannel#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

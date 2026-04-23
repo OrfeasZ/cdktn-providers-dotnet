@@ -7,14 +7,14 @@ namespace aws.Route53RecordsExclusive
     [JsiiInterface(nativeType: typeof(IRoute53RecordsExclusiveResourceRecordSetCidrRoutingConfig), fullyQualifiedName: "aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetCidrRoutingConfig")]
     public interface IRoute53RecordsExclusiveResourceRecordSetCidrRoutingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_records_exclusive#collection_id Route53RecordsExclusive#collection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#collection_id Route53RecordsExclusive#collection_id}.</summary>
         [JsiiProperty(name: "collectionId", typeJson: "{\"primitive\":\"string\"}")]
         string CollectionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_records_exclusive#location_name Route53RecordsExclusive#location_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#location_name Route53RecordsExclusive#location_name}.</summary>
         [JsiiProperty(name: "locationName", typeJson: "{\"primitive\":\"string\"}")]
         string LocationName
         {
@@ -28,14 +28,14 @@ namespace aws.Route53RecordsExclusive
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_records_exclusive#collection_id Route53RecordsExclusive#collection_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#collection_id Route53RecordsExclusive#collection_id}.</summary>
             [JsiiProperty(name: "collectionId", typeJson: "{\"primitive\":\"string\"}")]
             public string CollectionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_records_exclusive#location_name Route53RecordsExclusive#location_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#location_name Route53RecordsExclusive#location_name}.</summary>
             [JsiiProperty(name: "locationName", typeJson: "{\"primitive\":\"string\"}")]
             public string LocationName
             {

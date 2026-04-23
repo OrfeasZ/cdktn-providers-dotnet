@@ -7,14 +7,14 @@ namespace aws.AppfabricIngestionDestination
     [JsiiInterface(nativeType: typeof(IAppfabricIngestionDestinationProcessingConfigurationAuditLog), fullyQualifiedName: "aws.appfabricIngestionDestination.AppfabricIngestionDestinationProcessingConfigurationAuditLog")]
     public interface IAppfabricIngestionDestinationProcessingConfigurationAuditLog
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appfabric_ingestion_destination#format AppfabricIngestionDestination#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appfabric_ingestion_destination#format AppfabricIngestionDestination#format}.</summary>
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}")]
         string Format
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appfabric_ingestion_destination#schema AppfabricIngestionDestination#schema}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appfabric_ingestion_destination#schema AppfabricIngestionDestination#schema}.</summary>
         [JsiiProperty(name: "schema", typeJson: "{\"primitive\":\"string\"}")]
         string Schema
         {
@@ -28,14 +28,14 @@ namespace aws.AppfabricIngestionDestination
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appfabric_ingestion_destination#format AppfabricIngestionDestination#format}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appfabric_ingestion_destination#format AppfabricIngestionDestination#format}.</summary>
             [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}")]
             public string Format
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appfabric_ingestion_destination#schema AppfabricIngestionDestination#schema}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appfabric_ingestion_destination#schema AppfabricIngestionDestination#schema}.</summary>
             [JsiiProperty(name: "schema", typeJson: "{\"primitive\":\"string\"}")]
             public string Schema
             {

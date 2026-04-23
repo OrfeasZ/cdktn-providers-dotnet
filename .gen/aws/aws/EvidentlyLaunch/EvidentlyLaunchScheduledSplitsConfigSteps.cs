@@ -9,7 +9,7 @@ namespace aws.EvidentlyLaunch
     [JsiiByValue(fqn: "aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigSteps")]
     public class EvidentlyLaunchScheduledSplitsConfigSteps : aws.EvidentlyLaunch.IEvidentlyLaunchScheduledSplitsConfigSteps
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/evidently_launch#group_weights EvidentlyLaunch#group_weights}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_launch#group_weights EvidentlyLaunch#group_weights}.</summary>
         [JsiiProperty(name: "groupWeights", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, double> GroupWeights
         {
@@ -17,7 +17,7 @@ namespace aws.EvidentlyLaunch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/evidently_launch#start_time EvidentlyLaunch#start_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_launch#start_time EvidentlyLaunch#start_time}.</summary>
         [JsiiProperty(name: "startTime", typeJson: "{\"primitive\":\"string\"}")]
         public string StartTime
         {
@@ -29,7 +29,7 @@ namespace aws.EvidentlyLaunch
 
         /// <summary>segment_overrides block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/evidently_launch#segment_overrides EvidentlyLaunch#segment_overrides}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_launch#segment_overrides EvidentlyLaunch#segment_overrides}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "segmentOverrides", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverrides\"},\"kind\":\"array\"}}]}}", isOptional: true)]

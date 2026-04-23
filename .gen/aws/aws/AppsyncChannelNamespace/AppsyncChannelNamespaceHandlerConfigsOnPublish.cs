@@ -9,7 +9,7 @@ namespace aws.AppsyncChannelNamespace
     [JsiiByValue(fqn: "aws.appsyncChannelNamespace.AppsyncChannelNamespaceHandlerConfigsOnPublish")]
     public class AppsyncChannelNamespaceHandlerConfigsOnPublish : aws.AppsyncChannelNamespace.IAppsyncChannelNamespaceHandlerConfigsOnPublish
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_channel_namespace#behavior AppsyncChannelNamespace#behavior}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_channel_namespace#behavior AppsyncChannelNamespace#behavior}.</summary>
         [JsiiProperty(name: "behavior", typeJson: "{\"primitive\":\"string\"}")]
         public string Behavior
         {
@@ -21,7 +21,7 @@ namespace aws.AppsyncChannelNamespace
 
         /// <summary>integration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_channel_namespace#integration AppsyncChannelNamespace#integration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_channel_namespace#integration AppsyncChannelNamespace#integration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "integration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncChannelNamespace.AppsyncChannelNamespaceHandlerConfigsOnPublishIntegration\"},\"kind\":\"array\"}}]}}", isOptional: true)]

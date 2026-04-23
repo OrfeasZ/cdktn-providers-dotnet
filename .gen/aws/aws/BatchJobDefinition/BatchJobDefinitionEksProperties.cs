@@ -11,7 +11,7 @@ namespace aws.BatchJobDefinition
     {
         /// <summary>pod_properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_job_definition#pod_properties BatchJobDefinition#pod_properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#pod_properties BatchJobDefinition#pod_properties}
         /// </remarks>
         [JsiiProperty(name: "podProperties", typeJson: "{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodProperties\"}")]
         public aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodProperties PodProperties

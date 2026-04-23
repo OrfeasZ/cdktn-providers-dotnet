@@ -9,7 +9,7 @@ namespace aws.SecuritylakeSubscriber
     [JsiiByValue(fqn: "aws.securitylakeSubscriber.SecuritylakeSubscriberSubscriberIdentity")]
     public class SecuritylakeSubscriberSubscriberIdentity : aws.SecuritylakeSubscriber.ISecuritylakeSubscriberSubscriberIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securitylake_subscriber#external_id SecuritylakeSubscriber#external_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_subscriber#external_id SecuritylakeSubscriber#external_id}.</summary>
         [JsiiProperty(name: "externalId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalId
         {
@@ -17,7 +17,7 @@ namespace aws.SecuritylakeSubscriber
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securitylake_subscriber#principal SecuritylakeSubscriber#principal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_subscriber#principal SecuritylakeSubscriber#principal}.</summary>
         [JsiiProperty(name: "principal", typeJson: "{\"primitive\":\"string\"}")]
         public string Principal
         {

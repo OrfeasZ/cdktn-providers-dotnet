@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     {
         /// <summary>failover_condition_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#failover_condition_settings MedialiveChannel#failover_condition_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#failover_condition_settings MedialiveChannel#failover_condition_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "failoverConditionSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsAutomaticInputFailoverSettingsFailoverConditionFailoverConditionSettings\"}", isOptional: true)]

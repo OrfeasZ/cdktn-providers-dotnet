@@ -7,7 +7,7 @@ namespace aws.AppstreamFleet
     [JsiiByValue(fqn: "aws.appstreamFleet.AppstreamFleetDomainJoinInfo")]
     public class AppstreamFleetDomainJoinInfo : aws.AppstreamFleet.IAppstreamFleetDomainJoinInfo
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appstream_fleet#directory_name AppstreamFleet#directory_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_fleet#directory_name AppstreamFleet#directory_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "directoryName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DirectoryName
@@ -16,7 +16,7 @@ namespace aws.AppstreamFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appstream_fleet#organizational_unit_distinguished_name AppstreamFleet#organizational_unit_distinguished_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_fleet#organizational_unit_distinguished_name AppstreamFleet#organizational_unit_distinguished_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "organizationalUnitDistinguishedName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OrganizationalUnitDistinguishedName

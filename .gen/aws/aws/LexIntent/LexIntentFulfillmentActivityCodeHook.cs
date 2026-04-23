@@ -9,7 +9,7 @@ namespace aws.LexIntent
     [JsiiByValue(fqn: "aws.lexIntent.LexIntentFulfillmentActivityCodeHook")]
     public class LexIntentFulfillmentActivityCodeHook : aws.LexIntent.ILexIntentFulfillmentActivityCodeHook
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#message_version LexIntent#message_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#message_version LexIntent#message_version}.</summary>
         [JsiiProperty(name: "messageVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string MessageVersion
         {
@@ -17,7 +17,7 @@ namespace aws.LexIntent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#uri LexIntent#uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#uri LexIntent#uri}.</summary>
         [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}")]
         public string Uri
         {

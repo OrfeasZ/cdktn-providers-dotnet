@@ -9,7 +9,7 @@ namespace aws.KendraThesaurus
     [JsiiByValue(fqn: "aws.kendraThesaurus.KendraThesaurusSourceS3Path")]
     public class KendraThesaurusSourceS3Path : aws.KendraThesaurus.IKendraThesaurusSourceS3Path
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kendra_thesaurus#bucket KendraThesaurus#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_thesaurus#bucket KendraThesaurus#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
         {
@@ -17,7 +17,7 @@ namespace aws.KendraThesaurus
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kendra_thesaurus#key KendraThesaurus#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_thesaurus#key KendraThesaurus#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {

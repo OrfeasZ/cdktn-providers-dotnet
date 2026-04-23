@@ -7,7 +7,7 @@ namespace aws.GlueClassifier
     [JsiiInterface(nativeType: typeof(IGlueClassifierJsonClassifier), fullyQualifiedName: "aws.glueClassifier.GlueClassifierJsonClassifier")]
     public interface IGlueClassifierJsonClassifier
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_classifier#json_path GlueClassifier#json_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#json_path GlueClassifier#json_path}.</summary>
         [JsiiProperty(name: "jsonPath", typeJson: "{\"primitive\":\"string\"}")]
         string JsonPath
         {
@@ -21,7 +21,7 @@ namespace aws.GlueClassifier
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_classifier#json_path GlueClassifier#json_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#json_path GlueClassifier#json_path}.</summary>
             [JsiiProperty(name: "jsonPath", typeJson: "{\"primitive\":\"string\"}")]
             public string JsonPath
             {

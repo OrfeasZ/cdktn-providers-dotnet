@@ -9,7 +9,7 @@ namespace aws.AppflowFlow
     {
         /// <summary>custom_connector block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#custom_connector AppflowFlow#custom_connector}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#custom_connector AppflowFlow#custom_connector}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customConnector", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesCustomConnector\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.AppflowFlow
 
         /// <summary>customer_profiles block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#customer_profiles AppflowFlow#customer_profiles}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#customer_profiles AppflowFlow#customer_profiles}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customerProfiles", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesCustomerProfiles\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace aws.AppflowFlow
 
         /// <summary>event_bridge block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#event_bridge AppflowFlow#event_bridge}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#event_bridge AppflowFlow#event_bridge}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eventBridge", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesEventBridge\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace aws.AppflowFlow
 
         /// <summary>honeycode block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#honeycode AppflowFlow#honeycode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#honeycode AppflowFlow#honeycode}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "honeycode", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesHoneycode\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace aws.AppflowFlow
 
         /// <summary>lookout_metrics block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#lookout_metrics AppflowFlow#lookout_metrics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#lookout_metrics AppflowFlow#lookout_metrics}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lookoutMetrics", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesLookoutMetrics\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.AppflowFlow
 
         /// <summary>marketo block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#marketo AppflowFlow#marketo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#marketo AppflowFlow#marketo}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "marketo", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesMarketo\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace aws.AppflowFlow
 
         /// <summary>redshift block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#redshift AppflowFlow#redshift}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#redshift AppflowFlow#redshift}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "redshift", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesRedshift\"}", isOptional: true)]
@@ -93,7 +93,7 @@ namespace aws.AppflowFlow
 
         /// <summary>s3 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#s3 AppflowFlow#s3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#s3 AppflowFlow#s3}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesS3\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace aws.AppflowFlow
 
         /// <summary>salesforce block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#salesforce AppflowFlow#salesforce}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#salesforce AppflowFlow#salesforce}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "salesforce", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSalesforce\"}", isOptional: true)]
@@ -117,7 +117,7 @@ namespace aws.AppflowFlow
 
         /// <summary>sapo_data block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#sapo_data AppflowFlow#sapo_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#sapo_data AppflowFlow#sapo_data}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sapoData", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSapoData\"}", isOptional: true)]
@@ -129,7 +129,7 @@ namespace aws.AppflowFlow
 
         /// <summary>snowflake block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#snowflake AppflowFlow#snowflake}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#snowflake AppflowFlow#snowflake}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "snowflake", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSnowflake\"}", isOptional: true)]
@@ -141,7 +141,7 @@ namespace aws.AppflowFlow
 
         /// <summary>upsolver block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#upsolver AppflowFlow#upsolver}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#upsolver AppflowFlow#upsolver}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "upsolver", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesUpsolver\"}", isOptional: true)]
@@ -153,7 +153,7 @@ namespace aws.AppflowFlow
 
         /// <summary>zendesk block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#zendesk AppflowFlow#zendesk}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#zendesk AppflowFlow#zendesk}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zendesk", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesZendesk\"}", isOptional: true)]

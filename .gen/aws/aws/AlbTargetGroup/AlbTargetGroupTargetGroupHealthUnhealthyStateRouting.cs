@@ -7,7 +7,7 @@ namespace aws.AlbTargetGroup
     [JsiiByValue(fqn: "aws.albTargetGroup.AlbTargetGroupTargetGroupHealthUnhealthyStateRouting")]
     public class AlbTargetGroupTargetGroupHealthUnhealthyStateRouting : aws.AlbTargetGroup.IAlbTargetGroupTargetGroupHealthUnhealthyStateRouting
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/alb_target_group#minimum_healthy_targets_count AlbTargetGroup#minimum_healthy_targets_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#minimum_healthy_targets_count AlbTargetGroup#minimum_healthy_targets_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minimumHealthyTargetsCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinimumHealthyTargetsCount
@@ -16,7 +16,7 @@ namespace aws.AlbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/alb_target_group#minimum_healthy_targets_percentage AlbTargetGroup#minimum_healthy_targets_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#minimum_healthy_targets_percentage AlbTargetGroup#minimum_healthy_targets_percentage}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minimumHealthyTargetsPercentage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MinimumHealthyTargetsPercentage

@@ -9,7 +9,7 @@ namespace aws.CodestarnotificationsNotificationRule
     [JsiiByValue(fqn: "aws.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleTarget")]
     public class CodestarnotificationsNotificationRuleTarget : aws.CodestarnotificationsNotificationRule.ICodestarnotificationsNotificationRuleTarget
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codestarnotifications_notification_rule#address CodestarnotificationsNotificationRule#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codestarnotifications_notification_rule#address CodestarnotificationsNotificationRule#address}.</summary>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
         public string Address
         {
@@ -17,7 +17,7 @@ namespace aws.CodestarnotificationsNotificationRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codestarnotifications_notification_rule#type CodestarnotificationsNotificationRule#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codestarnotifications_notification_rule#type CodestarnotificationsNotificationRule#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

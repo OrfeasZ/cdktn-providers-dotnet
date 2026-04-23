@@ -9,7 +9,7 @@ namespace aws.Lexv2ModelsSlot
     [JsiiByValue(fqn: "aws.lexv2ModelsSlot.Lexv2ModelsSlotObfuscationSetting")]
     public class Lexv2ModelsSlotObfuscationSetting : aws.Lexv2ModelsSlot.ILexv2ModelsSlotObfuscationSetting
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_slot#obfuscation_setting_type Lexv2ModelsSlot#obfuscation_setting_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#obfuscation_setting_type Lexv2ModelsSlot#obfuscation_setting_type}.</summary>
         [JsiiProperty(name: "obfuscationSettingType", typeJson: "{\"primitive\":\"string\"}")]
         public string ObfuscationSettingType
         {

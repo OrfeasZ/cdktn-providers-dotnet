@@ -9,7 +9,7 @@ namespace aws.LbListenerRule
     [JsiiByValue(fqn: "aws.lbListenerRule.LbListenerRuleTransformHostHeaderRewriteConfigRewrite")]
     public class LbListenerRuleTransformHostHeaderRewriteConfigRewrite : aws.LbListenerRule.ILbListenerRuleTransformHostHeaderRewriteConfigRewrite
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener_rule#regex LbListenerRule#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#regex LbListenerRule#regex}.</summary>
         [JsiiProperty(name: "regex", typeJson: "{\"primitive\":\"string\"}")]
         public string Regex
         {
@@ -17,7 +17,7 @@ namespace aws.LbListenerRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener_rule#replace LbListenerRule#replace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#replace LbListenerRule#replace}.</summary>
         [JsiiProperty(name: "replace", typeJson: "{\"primitive\":\"string\"}")]
         public string Replace
         {

@@ -9,7 +9,7 @@ namespace aws.BudgetsBudget
     [JsiiByValue(fqn: "aws.budgetsBudget.BudgetsBudgetPlannedLimit")]
     public class BudgetsBudgetPlannedLimit : aws.BudgetsBudget.IBudgetsBudgetPlannedLimit
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget#amount BudgetsBudget#amount}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#amount BudgetsBudget#amount}.</summary>
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"string\"}")]
         public string Amount
         {
@@ -17,7 +17,7 @@ namespace aws.BudgetsBudget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget#start_time BudgetsBudget#start_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#start_time BudgetsBudget#start_time}.</summary>
         [JsiiProperty(name: "startTime", typeJson: "{\"primitive\":\"string\"}")]
         public string StartTime
         {
@@ -25,7 +25,7 @@ namespace aws.BudgetsBudget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget#unit BudgetsBudget#unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#unit BudgetsBudget#unit}.</summary>
         [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}")]
         public string Unit
         {

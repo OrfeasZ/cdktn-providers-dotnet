@@ -7,7 +7,7 @@ namespace aws.AppmeshRoute
     [JsiiByValue(fqn: "aws.appmeshRoute.AppmeshRouteSpecHttpRouteMatchQueryParameterMatch")]
     public class AppmeshRouteSpecHttpRouteMatchQueryParameterMatch : aws.AppmeshRoute.IAppmeshRouteSpecHttpRouteMatchQueryParameterMatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#exact AppmeshRoute#exact}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#exact AppmeshRoute#exact}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "exact", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Exact

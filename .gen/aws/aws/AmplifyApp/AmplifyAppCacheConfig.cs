@@ -9,7 +9,7 @@ namespace aws.AmplifyApp
     [JsiiByValue(fqn: "aws.amplifyApp.AmplifyAppCacheConfig")]
     public class AmplifyAppCacheConfig : aws.AmplifyApp.IAmplifyAppCacheConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/amplify_app#type AmplifyApp#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/amplify_app#type AmplifyApp#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

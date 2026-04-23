@@ -9,7 +9,7 @@ namespace aws.DataAwsRoute53Records
     [JsiiByValue(fqn: "aws.dataAwsRoute53Records.DataAwsRoute53RecordsConfig")]
     public class DataAwsRoute53RecordsConfig : aws.DataAwsRoute53Records.IDataAwsRoute53RecordsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/route53_records#zone_id DataAwsRoute53Records#zone_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/route53_records#zone_id DataAwsRoute53Records#zone_id}.</summary>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsRoute53Records
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/route53_records#name_regex DataAwsRoute53Records#name_regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/route53_records#name_regex DataAwsRoute53Records#name_regex}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nameRegex", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NameRegex

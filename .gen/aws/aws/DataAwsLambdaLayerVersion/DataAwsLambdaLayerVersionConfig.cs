@@ -7,7 +7,7 @@ namespace aws.DataAwsLambdaLayerVersion
     [JsiiByValue(fqn: "aws.dataAwsLambdaLayerVersion.DataAwsLambdaLayerVersionConfig")]
     public class DataAwsLambdaLayerVersionConfig : aws.DataAwsLambdaLayerVersion.IDataAwsLambdaLayerVersionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/lambda_layer_version#compatible_architecture DataAwsLambdaLayerVersion#compatible_architecture}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lambda_layer_version#compatible_architecture DataAwsLambdaLayerVersion#compatible_architecture}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compatibleArchitecture", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompatibleArchitecture
@@ -16,7 +16,7 @@ namespace aws.DataAwsLambdaLayerVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/lambda_layer_version#compatible_runtime DataAwsLambdaLayerVersion#compatible_runtime}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lambda_layer_version#compatible_runtime DataAwsLambdaLayerVersion#compatible_runtime}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compatibleRuntime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompatibleRuntime
@@ -25,7 +25,7 @@ namespace aws.DataAwsLambdaLayerVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/lambda_layer_version#id DataAwsLambdaLayerVersion#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lambda_layer_version#id DataAwsLambdaLayerVersion#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace aws.DataAwsLambdaLayerVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/lambda_layer_version#layer_name DataAwsLambdaLayerVersion#layer_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lambda_layer_version#layer_name DataAwsLambdaLayerVersion#layer_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "layerName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LayerName
@@ -47,7 +47,7 @@ namespace aws.DataAwsLambdaLayerVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/lambda_layer_version#layer_version_arn DataAwsLambdaLayerVersion#layer_version_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lambda_layer_version#layer_version_arn DataAwsLambdaLayerVersion#layer_version_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "layerVersionArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LayerVersionArn
@@ -58,7 +58,7 @@ namespace aws.DataAwsLambdaLayerVersion
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/lambda_layer_version#region DataAwsLambdaLayerVersion#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lambda_layer_version#region DataAwsLambdaLayerVersion#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace aws.DataAwsLambdaLayerVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/lambda_layer_version#version DataAwsLambdaLayerVersion#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lambda_layer_version#version DataAwsLambdaLayerVersion#version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Version

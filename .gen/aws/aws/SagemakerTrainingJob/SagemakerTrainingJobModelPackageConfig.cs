@@ -9,7 +9,7 @@ namespace aws.SagemakerTrainingJob
     [JsiiByValue(fqn: "aws.sagemakerTrainingJob.SagemakerTrainingJobModelPackageConfig")]
     public class SagemakerTrainingJobModelPackageConfig : aws.SagemakerTrainingJob.ISagemakerTrainingJobModelPackageConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_training_job#model_package_group_arn SagemakerTrainingJob#model_package_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#model_package_group_arn SagemakerTrainingJob#model_package_group_arn}.</summary>
         [JsiiProperty(name: "modelPackageGroupArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelPackageGroupArn
         {
@@ -17,7 +17,7 @@ namespace aws.SagemakerTrainingJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_training_job#source_model_package_arn SagemakerTrainingJob#source_model_package_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#source_model_package_arn SagemakerTrainingJob#source_model_package_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceModelPackageArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceModelPackageArn

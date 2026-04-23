@@ -9,7 +9,7 @@ namespace aws.DynamodbTable
     [JsiiByValue(fqn: "aws.dynamodbTable.DynamodbTableImportTable")]
     public class DynamodbTableImportTable : aws.DynamodbTable.IDynamodbTableImportTable
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dynamodb_table#input_format DynamodbTable#input_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#input_format DynamodbTable#input_format}.</summary>
         [JsiiProperty(name: "inputFormat", typeJson: "{\"primitive\":\"string\"}")]
         public string InputFormat
         {
@@ -19,7 +19,7 @@ namespace aws.DynamodbTable
 
         /// <summary>s3_bucket_source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dynamodb_table#s3_bucket_source DynamodbTable#s3_bucket_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#s3_bucket_source DynamodbTable#s3_bucket_source}
         /// </remarks>
         [JsiiProperty(name: "s3BucketSource", typeJson: "{\"fqn\":\"aws.dynamodbTable.DynamodbTableImportTableS3BucketSource\"}")]
         public aws.DynamodbTable.IDynamodbTableImportTableS3BucketSource S3BucketSource
@@ -28,7 +28,7 @@ namespace aws.DynamodbTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dynamodb_table#input_compression_type DynamodbTable#input_compression_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#input_compression_type DynamodbTable#input_compression_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "inputCompressionType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InputCompressionType
@@ -39,7 +39,7 @@ namespace aws.DynamodbTable
 
         /// <summary>input_format_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dynamodb_table#input_format_options DynamodbTable#input_format_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#input_format_options DynamodbTable#input_format_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inputFormatOptions", typeJson: "{\"fqn\":\"aws.dynamodbTable.DynamodbTableImportTableInputFormatOptions\"}", isOptional: true)]

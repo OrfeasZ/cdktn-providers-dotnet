@@ -7,7 +7,7 @@ namespace aws.SagemakerWorkforce
     [JsiiInterface(nativeType: typeof(ISagemakerWorkforceSourceIpConfig), fullyQualifiedName: "aws.sagemakerWorkforce.SagemakerWorkforceSourceIpConfig")]
     public interface ISagemakerWorkforceSourceIpConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_workforce#cidrs SagemakerWorkforce#cidrs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workforce#cidrs SagemakerWorkforce#cidrs}.</summary>
         [JsiiProperty(name: "cidrs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Cidrs
         {
@@ -21,7 +21,7 @@ namespace aws.SagemakerWorkforce
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_workforce#cidrs SagemakerWorkforce#cidrs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workforce#cidrs SagemakerWorkforce#cidrs}.</summary>
             [JsiiProperty(name: "cidrs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Cidrs
             {

@@ -7,7 +7,7 @@ namespace aws.EfsFileSystem
     [JsiiInterface(nativeType: typeof(IEfsFileSystemProtection), fullyQualifiedName: "aws.efsFileSystem.EfsFileSystemProtection")]
     public interface IEfsFileSystemProtection
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/efs_file_system#replication_overwrite EfsFileSystem#replication_overwrite}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#replication_overwrite EfsFileSystem#replication_overwrite}.</summary>
         [JsiiProperty(name: "replicationOverwrite", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ReplicationOverwrite
@@ -25,7 +25,7 @@ namespace aws.EfsFileSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/efs_file_system#replication_overwrite EfsFileSystem#replication_overwrite}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#replication_overwrite EfsFileSystem#replication_overwrite}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "replicationOverwrite", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ReplicationOverwrite

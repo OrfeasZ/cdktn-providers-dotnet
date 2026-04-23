@@ -9,7 +9,7 @@ namespace aws.CodecatalystDevEnvironment
     [JsiiByValue(fqn: "aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentPersistentStorage")]
     public class CodecatalystDevEnvironmentPersistentStorage : aws.CodecatalystDevEnvironment.ICodecatalystDevEnvironmentPersistentStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codecatalyst_dev_environment#size CodecatalystDevEnvironment#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#size CodecatalystDevEnvironment#size}.</summary>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}")]
         public double Size
         {

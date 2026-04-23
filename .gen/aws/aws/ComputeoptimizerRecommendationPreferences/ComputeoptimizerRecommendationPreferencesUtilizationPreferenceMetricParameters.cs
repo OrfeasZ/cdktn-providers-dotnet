@@ -9,7 +9,7 @@ namespace aws.ComputeoptimizerRecommendationPreferences
     [JsiiByValue(fqn: "aws.computeoptimizerRecommendationPreferences.ComputeoptimizerRecommendationPreferencesUtilizationPreferenceMetricParameters")]
     public class ComputeoptimizerRecommendationPreferencesUtilizationPreferenceMetricParameters : aws.ComputeoptimizerRecommendationPreferences.IComputeoptimizerRecommendationPreferencesUtilizationPreferenceMetricParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/computeoptimizer_recommendation_preferences#headroom ComputeoptimizerRecommendationPreferences#headroom}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/computeoptimizer_recommendation_preferences#headroom ComputeoptimizerRecommendationPreferences#headroom}.</summary>
         [JsiiProperty(name: "headroom", typeJson: "{\"primitive\":\"string\"}")]
         public string Headroom
         {
@@ -17,7 +17,7 @@ namespace aws.ComputeoptimizerRecommendationPreferences
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/computeoptimizer_recommendation_preferences#threshold ComputeoptimizerRecommendationPreferences#threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/computeoptimizer_recommendation_preferences#threshold ComputeoptimizerRecommendationPreferences#threshold}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "threshold", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Threshold

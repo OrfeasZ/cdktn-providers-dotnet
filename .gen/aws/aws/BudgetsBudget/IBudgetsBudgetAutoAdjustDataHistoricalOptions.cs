@@ -7,7 +7,7 @@ namespace aws.BudgetsBudget
     [JsiiInterface(nativeType: typeof(IBudgetsBudgetAutoAdjustDataHistoricalOptions), fullyQualifiedName: "aws.budgetsBudget.BudgetsBudgetAutoAdjustDataHistoricalOptions")]
     public interface IBudgetsBudgetAutoAdjustDataHistoricalOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget#budget_adjustment_period BudgetsBudget#budget_adjustment_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#budget_adjustment_period BudgetsBudget#budget_adjustment_period}.</summary>
         [JsiiProperty(name: "budgetAdjustmentPeriod", typeJson: "{\"primitive\":\"number\"}")]
         double BudgetAdjustmentPeriod
         {
@@ -21,7 +21,7 @@ namespace aws.BudgetsBudget
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget#budget_adjustment_period BudgetsBudget#budget_adjustment_period}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#budget_adjustment_period BudgetsBudget#budget_adjustment_period}.</summary>
             [JsiiProperty(name: "budgetAdjustmentPeriod", typeJson: "{\"primitive\":\"number\"}")]
             public double BudgetAdjustmentPeriod
             {

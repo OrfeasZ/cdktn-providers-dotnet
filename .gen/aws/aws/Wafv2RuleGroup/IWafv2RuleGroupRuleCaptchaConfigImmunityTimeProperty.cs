@@ -7,7 +7,7 @@ namespace aws.Wafv2RuleGroup
     [JsiiInterface(nativeType: typeof(IWafv2RuleGroupRuleCaptchaConfigImmunityTimeProperty), fullyQualifiedName: "aws.wafv2RuleGroup.Wafv2RuleGroupRuleCaptchaConfigImmunityTimeProperty")]
     public interface IWafv2RuleGroupRuleCaptchaConfigImmunityTimeProperty
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafv2_rule_group#immunity_time Wafv2RuleGroup#immunity_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_rule_group#immunity_time Wafv2RuleGroup#immunity_time}.</summary>
         [JsiiProperty(name: "immunityTime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ImmunityTime
@@ -25,7 +25,7 @@ namespace aws.Wafv2RuleGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafv2_rule_group#immunity_time Wafv2RuleGroup#immunity_time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_rule_group#immunity_time Wafv2RuleGroup#immunity_time}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "immunityTime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ImmunityTime

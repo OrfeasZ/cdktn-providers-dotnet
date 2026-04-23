@@ -7,7 +7,7 @@ namespace aws.DataAwsCustomerGateway
     [JsiiInterface(nativeType: typeof(IDataAwsCustomerGatewayTimeouts), fullyQualifiedName: "aws.dataAwsCustomerGateway.DataAwsCustomerGatewayTimeouts")]
     public interface IDataAwsCustomerGatewayTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/customer_gateway#read DataAwsCustomerGateway#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/customer_gateway#read DataAwsCustomerGateway#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace aws.DataAwsCustomerGateway
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/customer_gateway#read DataAwsCustomerGateway#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/customer_gateway#read DataAwsCustomerGateway#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

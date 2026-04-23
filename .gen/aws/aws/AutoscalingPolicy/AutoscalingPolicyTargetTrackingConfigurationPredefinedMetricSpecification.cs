@@ -9,7 +9,7 @@ namespace aws.AutoscalingPolicy
     [JsiiByValue(fqn: "aws.autoscalingPolicy.AutoscalingPolicyTargetTrackingConfigurationPredefinedMetricSpecification")]
     public class AutoscalingPolicyTargetTrackingConfigurationPredefinedMetricSpecification : aws.AutoscalingPolicy.IAutoscalingPolicyTargetTrackingConfigurationPredefinedMetricSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/autoscaling_policy#predefined_metric_type AutoscalingPolicy#predefined_metric_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_policy#predefined_metric_type AutoscalingPolicy#predefined_metric_type}.</summary>
         [JsiiProperty(name: "predefinedMetricType", typeJson: "{\"primitive\":\"string\"}")]
         public string PredefinedMetricType
         {
@@ -17,7 +17,7 @@ namespace aws.AutoscalingPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/autoscaling_policy#resource_label AutoscalingPolicy#resource_label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_policy#resource_label AutoscalingPolicy#resource_label}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceLabel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceLabel

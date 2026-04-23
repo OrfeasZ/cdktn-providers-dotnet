@@ -9,7 +9,7 @@ namespace aws.MskconnectConnector
     {
         /// <summary>worker_log_delivery block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/mskconnect_connector#worker_log_delivery MskconnectConnector#worker_log_delivery}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#worker_log_delivery MskconnectConnector#worker_log_delivery}
         /// </remarks>
         [JsiiProperty(name: "workerLogDelivery", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDelivery\"}")]
         aws.MskconnectConnector.IMskconnectConnectorLogDeliveryWorkerLogDelivery WorkerLogDelivery
@@ -26,7 +26,7 @@ namespace aws.MskconnectConnector
 
             /// <summary>worker_log_delivery block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/mskconnect_connector#worker_log_delivery MskconnectConnector#worker_log_delivery}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#worker_log_delivery MskconnectConnector#worker_log_delivery}
             /// </remarks>
             [JsiiProperty(name: "workerLogDelivery", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDelivery\"}")]
             public aws.MskconnectConnector.IMskconnectConnectorLogDeliveryWorkerLogDelivery WorkerLogDelivery

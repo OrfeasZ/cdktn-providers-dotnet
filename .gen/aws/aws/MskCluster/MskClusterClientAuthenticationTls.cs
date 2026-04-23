@@ -7,7 +7,7 @@ namespace aws.MskCluster
     [JsiiByValue(fqn: "aws.mskCluster.MskClusterClientAuthenticationTls")]
     public class MskClusterClientAuthenticationTls : aws.MskCluster.IMskClusterClientAuthenticationTls
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_cluster#certificate_authority_arns MskCluster#certificate_authority_arns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#certificate_authority_arns MskCluster#certificate_authority_arns}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateAuthorityArns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? CertificateAuthorityArns

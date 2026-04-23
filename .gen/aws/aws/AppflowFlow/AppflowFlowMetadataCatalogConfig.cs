@@ -9,7 +9,7 @@ namespace aws.AppflowFlow
     {
         /// <summary>glue_data_catalog block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#glue_data_catalog AppflowFlow#glue_data_catalog}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#glue_data_catalog AppflowFlow#glue_data_catalog}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "glueDataCatalog", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowMetadataCatalogConfigGlueDataCatalog\"}", isOptional: true)]

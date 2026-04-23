@@ -7,21 +7,21 @@ namespace aws.AppsyncResolver
     [JsiiInterface(nativeType: typeof(IAppsyncResolverConfig), fullyQualifiedName: "aws.appsyncResolver.AppsyncResolverConfig")]
     public interface IAppsyncResolverConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#api_id AppsyncResolver#api_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#api_id AppsyncResolver#api_id}.</summary>
         [JsiiProperty(name: "apiId", typeJson: "{\"primitive\":\"string\"}")]
         string ApiId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#field AppsyncResolver#field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#field AppsyncResolver#field}.</summary>
         [JsiiProperty(name: "field", typeJson: "{\"primitive\":\"string\"}")]
         string Field
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#type AppsyncResolver#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#type AppsyncResolver#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -30,7 +30,7 @@ namespace aws.AppsyncResolver
 
         /// <summary>caching_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#caching_config AppsyncResolver#caching_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#caching_config AppsyncResolver#caching_config}
         /// </remarks>
         [JsiiProperty(name: "cachingConfig", typeJson: "{\"fqn\":\"aws.appsyncResolver.AppsyncResolverCachingConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,7 +42,7 @@ namespace aws.AppsyncResolver
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#code AppsyncResolver#code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#code AppsyncResolver#code}.</summary>
         [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Code
@@ -53,7 +53,7 @@ namespace aws.AppsyncResolver
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#data_source AppsyncResolver#data_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#data_source AppsyncResolver#data_source}.</summary>
         [JsiiProperty(name: "dataSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DataSource
@@ -64,7 +64,7 @@ namespace aws.AppsyncResolver
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#id AppsyncResolver#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#id AppsyncResolver#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -79,7 +79,7 @@ namespace aws.AppsyncResolver
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#kind AppsyncResolver#kind}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#kind AppsyncResolver#kind}.</summary>
         [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Kind
@@ -90,7 +90,7 @@ namespace aws.AppsyncResolver
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#max_batch_size AppsyncResolver#max_batch_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#max_batch_size AppsyncResolver#max_batch_size}.</summary>
         [JsiiProperty(name: "maxBatchSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxBatchSize
@@ -103,7 +103,7 @@ namespace aws.AppsyncResolver
 
         /// <summary>pipeline_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#pipeline_config AppsyncResolver#pipeline_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#pipeline_config AppsyncResolver#pipeline_config}
         /// </remarks>
         [JsiiProperty(name: "pipelineConfig", typeJson: "{\"fqn\":\"aws.appsyncResolver.AppsyncResolverPipelineConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -117,7 +117,7 @@ namespace aws.AppsyncResolver
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#region AppsyncResolver#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#region AppsyncResolver#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -129,7 +129,7 @@ namespace aws.AppsyncResolver
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#request_template AppsyncResolver#request_template}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#request_template AppsyncResolver#request_template}.</summary>
         [JsiiProperty(name: "requestTemplate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RequestTemplate
@@ -140,7 +140,7 @@ namespace aws.AppsyncResolver
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#response_template AppsyncResolver#response_template}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#response_template AppsyncResolver#response_template}.</summary>
         [JsiiProperty(name: "responseTemplate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResponseTemplate
@@ -153,7 +153,7 @@ namespace aws.AppsyncResolver
 
         /// <summary>runtime block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#runtime AppsyncResolver#runtime}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#runtime AppsyncResolver#runtime}
         /// </remarks>
         [JsiiProperty(name: "runtime", typeJson: "{\"fqn\":\"aws.appsyncResolver.AppsyncResolverRuntime\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -167,7 +167,7 @@ namespace aws.AppsyncResolver
 
         /// <summary>sync_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#sync_config AppsyncResolver#sync_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#sync_config AppsyncResolver#sync_config}
         /// </remarks>
         [JsiiProperty(name: "syncConfig", typeJson: "{\"fqn\":\"aws.appsyncResolver.AppsyncResolverSyncConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -186,21 +186,21 @@ namespace aws.AppsyncResolver
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#api_id AppsyncResolver#api_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#api_id AppsyncResolver#api_id}.</summary>
             [JsiiProperty(name: "apiId", typeJson: "{\"primitive\":\"string\"}")]
             public string ApiId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#field AppsyncResolver#field}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#field AppsyncResolver#field}.</summary>
             [JsiiProperty(name: "field", typeJson: "{\"primitive\":\"string\"}")]
             public string Field
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#type AppsyncResolver#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#type AppsyncResolver#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
@@ -209,7 +209,7 @@ namespace aws.AppsyncResolver
 
             /// <summary>caching_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#caching_config AppsyncResolver#caching_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#caching_config AppsyncResolver#caching_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cachingConfig", typeJson: "{\"fqn\":\"aws.appsyncResolver.AppsyncResolverCachingConfig\"}", isOptional: true)]
@@ -218,7 +218,7 @@ namespace aws.AppsyncResolver
                 get => GetInstanceProperty<aws.AppsyncResolver.IAppsyncResolverCachingConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#code AppsyncResolver#code}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#code AppsyncResolver#code}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Code
@@ -226,7 +226,7 @@ namespace aws.AppsyncResolver
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#data_source AppsyncResolver#data_source}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#data_source AppsyncResolver#data_source}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dataSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DataSource
@@ -234,7 +234,7 @@ namespace aws.AppsyncResolver
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#id AppsyncResolver#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#id AppsyncResolver#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -246,7 +246,7 @@ namespace aws.AppsyncResolver
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#kind AppsyncResolver#kind}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#kind AppsyncResolver#kind}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Kind
@@ -254,7 +254,7 @@ namespace aws.AppsyncResolver
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#max_batch_size AppsyncResolver#max_batch_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#max_batch_size AppsyncResolver#max_batch_size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxBatchSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxBatchSize
@@ -264,7 +264,7 @@ namespace aws.AppsyncResolver
 
             /// <summary>pipeline_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#pipeline_config AppsyncResolver#pipeline_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#pipeline_config AppsyncResolver#pipeline_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pipelineConfig", typeJson: "{\"fqn\":\"aws.appsyncResolver.AppsyncResolverPipelineConfig\"}", isOptional: true)]
@@ -275,7 +275,7 @@ namespace aws.AppsyncResolver
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#region AppsyncResolver#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#region AppsyncResolver#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -284,7 +284,7 @@ namespace aws.AppsyncResolver
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#request_template AppsyncResolver#request_template}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#request_template AppsyncResolver#request_template}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "requestTemplate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RequestTemplate
@@ -292,7 +292,7 @@ namespace aws.AppsyncResolver
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#response_template AppsyncResolver#response_template}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#response_template AppsyncResolver#response_template}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "responseTemplate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResponseTemplate
@@ -302,7 +302,7 @@ namespace aws.AppsyncResolver
 
             /// <summary>runtime block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#runtime AppsyncResolver#runtime}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#runtime AppsyncResolver#runtime}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "runtime", typeJson: "{\"fqn\":\"aws.appsyncResolver.AppsyncResolverRuntime\"}", isOptional: true)]
@@ -313,7 +313,7 @@ namespace aws.AppsyncResolver
 
             /// <summary>sync_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#sync_config AppsyncResolver#sync_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#sync_config AppsyncResolver#sync_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "syncConfig", typeJson: "{\"fqn\":\"aws.appsyncResolver.AppsyncResolverSyncConfig\"}", isOptional: true)]

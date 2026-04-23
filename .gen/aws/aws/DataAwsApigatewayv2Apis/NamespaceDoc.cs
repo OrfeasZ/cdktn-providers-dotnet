@@ -5,7 +5,7 @@ namespace aws.DataAwsApigatewayv2Apis
     /// <remarks>
     /// <h1><c>data_aws_apigatewayv2_apis</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/apigatewayv2_apis"><c>data_aws_apigatewayv2_apis</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/apigatewayv2_apis"><c>data_aws_apigatewayv2_apis</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

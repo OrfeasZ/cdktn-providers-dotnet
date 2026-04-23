@@ -7,7 +7,7 @@ namespace aws.AppsyncResolver
     [JsiiInterface(nativeType: typeof(IAppsyncResolverPipelineConfig), fullyQualifiedName: "aws.appsyncResolver.AppsyncResolverPipelineConfig")]
     public interface IAppsyncResolverPipelineConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#functions AppsyncResolver#functions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#functions AppsyncResolver#functions}.</summary>
         [JsiiProperty(name: "functions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Functions
@@ -25,7 +25,7 @@ namespace aws.AppsyncResolver
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_resolver#functions AppsyncResolver#functions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#functions AppsyncResolver#functions}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "functions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Functions

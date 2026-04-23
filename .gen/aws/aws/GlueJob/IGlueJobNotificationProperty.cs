@@ -7,7 +7,7 @@ namespace aws.GlueJob
     [JsiiInterface(nativeType: typeof(IGlueJobNotificationProperty), fullyQualifiedName: "aws.glueJob.GlueJobNotificationProperty")]
     public interface IGlueJobNotificationProperty
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_job#notify_delay_after GlueJob#notify_delay_after}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_job#notify_delay_after GlueJob#notify_delay_after}.</summary>
         [JsiiProperty(name: "notifyDelayAfter", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? NotifyDelayAfter
@@ -25,7 +25,7 @@ namespace aws.GlueJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_job#notify_delay_after GlueJob#notify_delay_after}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_job#notify_delay_after GlueJob#notify_delay_after}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "notifyDelayAfter", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? NotifyDelayAfter

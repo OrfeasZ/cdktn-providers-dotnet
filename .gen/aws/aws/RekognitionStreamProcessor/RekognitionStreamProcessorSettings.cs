@@ -11,7 +11,7 @@ namespace aws.RekognitionStreamProcessor
 
         /// <summary>connected_home block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rekognition_stream_processor#connected_home RekognitionStreamProcessor#connected_home}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#connected_home RekognitionStreamProcessor#connected_home}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connectedHome", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsConnectedHome\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace aws.RekognitionStreamProcessor
 
         /// <summary>face_search block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rekognition_stream_processor#face_search RekognitionStreamProcessor#face_search}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#face_search RekognitionStreamProcessor#face_search}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "faceSearch", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsFaceSearch\"},\"kind\":\"array\"}}]}}", isOptional: true)]

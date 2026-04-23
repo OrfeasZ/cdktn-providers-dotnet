@@ -7,7 +7,7 @@ namespace aws.ServiceDiscoveryService
     [JsiiInterface(nativeType: typeof(IServiceDiscoveryServiceHealthCheckConfig), fullyQualifiedName: "aws.serviceDiscoveryService.ServiceDiscoveryServiceHealthCheckConfig")]
     public interface IServiceDiscoveryServiceHealthCheckConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/service_discovery_service#failure_threshold ServiceDiscoveryService#failure_threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/service_discovery_service#failure_threshold ServiceDiscoveryService#failure_threshold}.</summary>
         [JsiiProperty(name: "failureThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? FailureThreshold
@@ -18,7 +18,7 @@ namespace aws.ServiceDiscoveryService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/service_discovery_service#resource_path ServiceDiscoveryService#resource_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/service_discovery_service#resource_path ServiceDiscoveryService#resource_path}.</summary>
         [JsiiProperty(name: "resourcePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourcePath
@@ -29,7 +29,7 @@ namespace aws.ServiceDiscoveryService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/service_discovery_service#type ServiceDiscoveryService#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/service_discovery_service#type ServiceDiscoveryService#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
@@ -47,7 +47,7 @@ namespace aws.ServiceDiscoveryService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/service_discovery_service#failure_threshold ServiceDiscoveryService#failure_threshold}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/service_discovery_service#failure_threshold ServiceDiscoveryService#failure_threshold}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "failureThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? FailureThreshold
@@ -55,7 +55,7 @@ namespace aws.ServiceDiscoveryService
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/service_discovery_service#resource_path ServiceDiscoveryService#resource_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/service_discovery_service#resource_path ServiceDiscoveryService#resource_path}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourcePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourcePath
@@ -63,7 +63,7 @@ namespace aws.ServiceDiscoveryService
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/service_discovery_service#type ServiceDiscoveryService#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/service_discovery_service#type ServiceDiscoveryService#type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type

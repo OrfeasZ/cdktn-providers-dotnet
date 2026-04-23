@@ -9,7 +9,7 @@ namespace aws.RdsCluster
     [JsiiByValue(fqn: "aws.rdsCluster.RdsClusterServerlessv2ScalingConfiguration")]
     public class RdsClusterServerlessv2ScalingConfiguration : aws.RdsCluster.IRdsClusterServerlessv2ScalingConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_cluster#max_capacity RdsCluster#max_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster#max_capacity RdsCluster#max_capacity}.</summary>
         [JsiiProperty(name: "maxCapacity", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxCapacity
         {
@@ -17,7 +17,7 @@ namespace aws.RdsCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_cluster#min_capacity RdsCluster#min_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster#min_capacity RdsCluster#min_capacity}.</summary>
         [JsiiProperty(name: "minCapacity", typeJson: "{\"primitive\":\"number\"}")]
         public double MinCapacity
         {
@@ -25,7 +25,7 @@ namespace aws.RdsCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_cluster#seconds_until_auto_pause RdsCluster#seconds_until_auto_pause}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster#seconds_until_auto_pause RdsCluster#seconds_until_auto_pause}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secondsUntilAutoPause", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SecondsUntilAutoPause

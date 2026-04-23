@@ -7,7 +7,7 @@ namespace aws.MedialiveInput
     [JsiiInterface(nativeType: typeof(IMedialiveInputDestinations), fullyQualifiedName: "aws.medialiveInput.MedialiveInputDestinations")]
     public interface IMedialiveInputDestinations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_input#stream_name MedialiveInput#stream_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_input#stream_name MedialiveInput#stream_name}.</summary>
         [JsiiProperty(name: "streamName", typeJson: "{\"primitive\":\"string\"}")]
         string StreamName
         {
@@ -21,7 +21,7 @@ namespace aws.MedialiveInput
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_input#stream_name MedialiveInput#stream_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_input#stream_name MedialiveInput#stream_name}.</summary>
             [JsiiProperty(name: "streamName", typeJson: "{\"primitive\":\"string\"}")]
             public string StreamName
             {

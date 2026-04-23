@@ -125,6 +125,12 @@ namespace aws.DataAwsIdentitystoreUsers
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "userStatus", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UserStatus
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "userType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string UserType
         {

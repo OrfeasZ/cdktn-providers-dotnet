@@ -7,7 +7,7 @@ namespace aws.SagemakerHumanTaskUi
     [JsiiByValue(fqn: "aws.sagemakerHumanTaskUi.SagemakerHumanTaskUiUiTemplate")]
     public class SagemakerHumanTaskUiUiTemplate : aws.SagemakerHumanTaskUi.ISagemakerHumanTaskUiUiTemplate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_human_task_ui#content SagemakerHumanTaskUi#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_human_task_ui#content SagemakerHumanTaskUi#content}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Content

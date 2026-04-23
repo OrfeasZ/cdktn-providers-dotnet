@@ -7,7 +7,7 @@ namespace aws.BedrockGuardrail
     [JsiiByValue(fqn: "aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigTierConfig")]
     public class BedrockGuardrailTopicPolicyConfigTierConfig : aws.BedrockGuardrail.IBedrockGuardrailTopicPolicyConfigTierConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrock_guardrail#tier_name BedrockGuardrail#tier_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrock_guardrail#tier_name BedrockGuardrail#tier_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tierName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TierName

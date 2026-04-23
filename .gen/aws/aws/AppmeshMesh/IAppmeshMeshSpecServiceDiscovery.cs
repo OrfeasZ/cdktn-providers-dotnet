@@ -7,7 +7,7 @@ namespace aws.AppmeshMesh
     [JsiiInterface(nativeType: typeof(IAppmeshMeshSpecServiceDiscovery), fullyQualifiedName: "aws.appmeshMesh.AppmeshMeshSpecServiceDiscovery")]
     public interface IAppmeshMeshSpecServiceDiscovery
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_mesh#ip_preference AppmeshMesh#ip_preference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_mesh#ip_preference AppmeshMesh#ip_preference}.</summary>
         [JsiiProperty(name: "ipPreference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IpPreference
@@ -25,7 +25,7 @@ namespace aws.AppmeshMesh
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_mesh#ip_preference AppmeshMesh#ip_preference}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_mesh#ip_preference AppmeshMesh#ip_preference}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipPreference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IpPreference

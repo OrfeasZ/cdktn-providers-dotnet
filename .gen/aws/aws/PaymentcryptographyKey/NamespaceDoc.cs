@@ -5,7 +5,7 @@ namespace aws.PaymentcryptographyKey
     /// <remarks>
     /// <h1><c>aws_paymentcryptography_key</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/paymentcryptography_key"><c>aws_paymentcryptography_key</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/paymentcryptography_key"><c>aws_paymentcryptography_key</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

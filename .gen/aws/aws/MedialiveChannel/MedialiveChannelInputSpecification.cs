@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     [JsiiByValue(fqn: "aws.medialiveChannel.MedialiveChannelInputSpecification")]
     public class MedialiveChannelInputSpecification : aws.MedialiveChannel.IMedialiveChannelInputSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#codec MedialiveChannel#codec}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#codec MedialiveChannel#codec}.</summary>
         [JsiiProperty(name: "codec", typeJson: "{\"primitive\":\"string\"}")]
         public string Codec
         {
@@ -17,7 +17,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#input_resolution MedialiveChannel#input_resolution}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#input_resolution MedialiveChannel#input_resolution}.</summary>
         [JsiiProperty(name: "inputResolution", typeJson: "{\"primitive\":\"string\"}")]
         public string InputResolution
         {
@@ -25,7 +25,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#maximum_bitrate MedialiveChannel#maximum_bitrate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#maximum_bitrate MedialiveChannel#maximum_bitrate}.</summary>
         [JsiiProperty(name: "maximumBitrate", typeJson: "{\"primitive\":\"string\"}")]
         public string MaximumBitrate
         {

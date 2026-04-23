@@ -7,7 +7,7 @@ namespace aws.SyntheticsCanary
     [JsiiInterface(nativeType: typeof(ISyntheticsCanaryArtifactConfigS3Encryption), fullyQualifiedName: "aws.syntheticsCanary.SyntheticsCanaryArtifactConfigS3Encryption")]
     public interface ISyntheticsCanaryArtifactConfigS3Encryption
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/synthetics_canary#encryption_mode SyntheticsCanary#encryption_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/synthetics_canary#encryption_mode SyntheticsCanary#encryption_mode}.</summary>
         [JsiiProperty(name: "encryptionMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EncryptionMode
@@ -18,7 +18,7 @@ namespace aws.SyntheticsCanary
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/synthetics_canary#kms_key_arn SyntheticsCanary#kms_key_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/synthetics_canary#kms_key_arn SyntheticsCanary#kms_key_arn}.</summary>
         [JsiiProperty(name: "kmsKeyArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KmsKeyArn
@@ -36,7 +36,7 @@ namespace aws.SyntheticsCanary
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/synthetics_canary#encryption_mode SyntheticsCanary#encryption_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/synthetics_canary#encryption_mode SyntheticsCanary#encryption_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "encryptionMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EncryptionMode
@@ -44,7 +44,7 @@ namespace aws.SyntheticsCanary
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/synthetics_canary#kms_key_arn SyntheticsCanary#kms_key_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/synthetics_canary#kms_key_arn SyntheticsCanary#kms_key_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "kmsKeyArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KmsKeyArn

@@ -7,7 +7,7 @@ namespace aws.CloudwatchEventEndpoint
     [JsiiInterface(nativeType: typeof(ICloudwatchEventEndpointReplicationConfig), fullyQualifiedName: "aws.cloudwatchEventEndpoint.CloudwatchEventEndpointReplicationConfig")]
     public interface ICloudwatchEventEndpointReplicationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_event_endpoint#state CloudwatchEventEndpoint#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_endpoint#state CloudwatchEventEndpoint#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -25,7 +25,7 @@ namespace aws.CloudwatchEventEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_event_endpoint#state CloudwatchEventEndpoint#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_endpoint#state CloudwatchEventEndpoint#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

@@ -7,14 +7,14 @@ namespace aws.CognitoResourceServer
     [JsiiInterface(nativeType: typeof(ICognitoResourceServerScope), fullyQualifiedName: "aws.cognitoResourceServer.CognitoResourceServerScope")]
     public interface ICognitoResourceServerScope
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_resource_server#scope_description CognitoResourceServer#scope_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_resource_server#scope_description CognitoResourceServer#scope_description}.</summary>
         [JsiiProperty(name: "scopeDescription", typeJson: "{\"primitive\":\"string\"}")]
         string ScopeDescription
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_resource_server#scope_name CognitoResourceServer#scope_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_resource_server#scope_name CognitoResourceServer#scope_name}.</summary>
         [JsiiProperty(name: "scopeName", typeJson: "{\"primitive\":\"string\"}")]
         string ScopeName
         {
@@ -28,14 +28,14 @@ namespace aws.CognitoResourceServer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_resource_server#scope_description CognitoResourceServer#scope_description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_resource_server#scope_description CognitoResourceServer#scope_description}.</summary>
             [JsiiProperty(name: "scopeDescription", typeJson: "{\"primitive\":\"string\"}")]
             public string ScopeDescription
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_resource_server#scope_name CognitoResourceServer#scope_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_resource_server#scope_name CognitoResourceServer#scope_name}.</summary>
             [JsiiProperty(name: "scopeName", typeJson: "{\"primitive\":\"string\"}")]
             public string ScopeName
             {

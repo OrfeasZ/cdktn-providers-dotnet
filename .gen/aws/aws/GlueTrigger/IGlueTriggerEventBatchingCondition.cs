@@ -7,14 +7,14 @@ namespace aws.GlueTrigger
     [JsiiInterface(nativeType: typeof(IGlueTriggerEventBatchingCondition), fullyQualifiedName: "aws.glueTrigger.GlueTriggerEventBatchingCondition")]
     public interface IGlueTriggerEventBatchingCondition
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_trigger#batch_size GlueTrigger#batch_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#batch_size GlueTrigger#batch_size}.</summary>
         [JsiiProperty(name: "batchSize", typeJson: "{\"primitive\":\"number\"}")]
         double BatchSize
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_trigger#batch_window GlueTrigger#batch_window}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#batch_window GlueTrigger#batch_window}.</summary>
         [JsiiProperty(name: "batchWindow", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BatchWindow
@@ -32,14 +32,14 @@ namespace aws.GlueTrigger
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_trigger#batch_size GlueTrigger#batch_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#batch_size GlueTrigger#batch_size}.</summary>
             [JsiiProperty(name: "batchSize", typeJson: "{\"primitive\":\"number\"}")]
             public double BatchSize
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_trigger#batch_window GlueTrigger#batch_window}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#batch_window GlueTrigger#batch_window}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "batchWindow", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BatchWindow

@@ -7,7 +7,7 @@ namespace aws.QuicksightDashboard
     [JsiiInterface(nativeType: typeof(IQuicksightDashboardDashboardPublishOptionsSheetControlsOption), fullyQualifiedName: "aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsSheetControlsOption")]
     public interface IQuicksightDashboardDashboardPublishOptionsSheetControlsOption
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_dashboard#visibility_state QuicksightDashboard#visibility_state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#visibility_state QuicksightDashboard#visibility_state}.</summary>
         [JsiiProperty(name: "visibilityState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VisibilityState
@@ -25,7 +25,7 @@ namespace aws.QuicksightDashboard
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_dashboard#visibility_state QuicksightDashboard#visibility_state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#visibility_state QuicksightDashboard#visibility_state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "visibilityState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VisibilityState

@@ -11,7 +11,7 @@ namespace aws.QuicksightDataSet
     {
         /// <summary>incremental_refresh block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_set#incremental_refresh QuicksightDataSet#incremental_refresh}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#incremental_refresh QuicksightDataSet#incremental_refresh}
         /// </remarks>
         [JsiiProperty(name: "incrementalRefresh", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefresh\"}")]
         public aws.QuicksightDataSet.IQuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefresh IncrementalRefresh

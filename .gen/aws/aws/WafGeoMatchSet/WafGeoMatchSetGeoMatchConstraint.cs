@@ -9,7 +9,7 @@ namespace aws.WafGeoMatchSet
     [JsiiByValue(fqn: "aws.wafGeoMatchSet.WafGeoMatchSetGeoMatchConstraint")]
     public class WafGeoMatchSetGeoMatchConstraint : aws.WafGeoMatchSet.IWafGeoMatchSetGeoMatchConstraint
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/waf_geo_match_set#type WafGeoMatchSet#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_geo_match_set#type WafGeoMatchSet#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.WafGeoMatchSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/waf_geo_match_set#value WafGeoMatchSet#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_geo_match_set#value WafGeoMatchSet#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

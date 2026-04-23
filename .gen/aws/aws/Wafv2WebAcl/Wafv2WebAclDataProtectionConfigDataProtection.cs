@@ -9,7 +9,7 @@ namespace aws.Wafv2WebAcl
     [JsiiByValue(fqn: "aws.wafv2WebAcl.Wafv2WebAclDataProtectionConfigDataProtection")]
     public class Wafv2WebAclDataProtectionConfigDataProtection : aws.Wafv2WebAcl.IWafv2WebAclDataProtectionConfigDataProtection
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafv2_web_acl#action Wafv2WebAcl#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#action Wafv2WebAcl#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         public string Action
         {
@@ -19,7 +19,7 @@ namespace aws.Wafv2WebAcl
 
         /// <summary>field block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafv2_web_acl#field Wafv2WebAcl#field}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#field Wafv2WebAcl#field}
         /// </remarks>
         [JsiiProperty(name: "field", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclDataProtectionConfigDataProtectionField\"}")]
         public aws.Wafv2WebAcl.IWafv2WebAclDataProtectionConfigDataProtectionField Field
@@ -30,7 +30,7 @@ namespace aws.Wafv2WebAcl
 
         private object? _excludeRateBasedDetails;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafv2_web_acl#exclude_rate_based_details Wafv2WebAcl#exclude_rate_based_details}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#exclude_rate_based_details Wafv2WebAcl#exclude_rate_based_details}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "excludeRateBasedDetails", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? ExcludeRateBasedDetails
@@ -61,7 +61,7 @@ namespace aws.Wafv2WebAcl
 
         private object? _excludeRuleMatchDetails;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafv2_web_acl#exclude_rule_match_details Wafv2WebAcl#exclude_rule_match_details}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#exclude_rule_match_details Wafv2WebAcl#exclude_rule_match_details}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "excludeRuleMatchDetails", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? ExcludeRuleMatchDetails

@@ -7,7 +7,7 @@ namespace aws.DynamodbTable
     [JsiiInterface(nativeType: typeof(IDynamodbTableGlobalSecondaryIndexWarmThroughput), fullyQualifiedName: "aws.dynamodbTable.DynamodbTableGlobalSecondaryIndexWarmThroughput")]
     public interface IDynamodbTableGlobalSecondaryIndexWarmThroughput
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}.</summary>
         [JsiiProperty(name: "readUnitsPerSecond", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ReadUnitsPerSecond
@@ -18,7 +18,7 @@ namespace aws.DynamodbTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}.</summary>
         [JsiiProperty(name: "writeUnitsPerSecond", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? WriteUnitsPerSecond
@@ -36,7 +36,7 @@ namespace aws.DynamodbTable
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "readUnitsPerSecond", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ReadUnitsPerSecond
@@ -44,7 +44,7 @@ namespace aws.DynamodbTable
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "writeUnitsPerSecond", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? WriteUnitsPerSecond

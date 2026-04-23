@@ -7,7 +7,7 @@ namespace aws.GuarddutyOrganizationConfiguration
     [JsiiInterface(nativeType: typeof(IGuarddutyOrganizationConfigurationDatasourcesKubernetesAuditLogs), fullyQualifiedName: "aws.guarddutyOrganizationConfiguration.GuarddutyOrganizationConfigurationDatasourcesKubernetesAuditLogs")]
     public interface IGuarddutyOrganizationConfigurationDatasourcesKubernetesAuditLogs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/guardduty_organization_configuration#enable GuarddutyOrganizationConfiguration#enable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_organization_configuration#enable GuarddutyOrganizationConfiguration#enable}.</summary>
         [JsiiProperty(name: "enable", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         object Enable
         {
@@ -21,7 +21,7 @@ namespace aws.GuarddutyOrganizationConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/guardduty_organization_configuration#enable GuarddutyOrganizationConfiguration#enable}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_organization_configuration#enable GuarddutyOrganizationConfiguration#enable}.</summary>
             [JsiiProperty(name: "enable", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
             public object Enable
             {

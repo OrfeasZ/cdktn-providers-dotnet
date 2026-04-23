@@ -7,7 +7,7 @@ namespace aws.RedshiftIdcApplication
     [JsiiInterface(nativeType: typeof(IRedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQuery), fullyQualifiedName: "aws.redshiftIdcApplication.RedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQuery")]
     public interface IRedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQuery
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_idc_application#authorization RedshiftIdcApplication#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshift_idc_application#authorization RedshiftIdcApplication#authorization}.</summary>
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}")]
         string Authorization
         {
@@ -21,7 +21,7 @@ namespace aws.RedshiftIdcApplication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_idc_application#authorization RedshiftIdcApplication#authorization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshift_idc_application#authorization RedshiftIdcApplication#authorization}.</summary>
             [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}")]
             public string Authorization
             {

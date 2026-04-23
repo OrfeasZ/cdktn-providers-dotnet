@@ -9,7 +9,7 @@ namespace aws.CodebuildWebhook
     [JsiiByValue(fqn: "aws.codebuildWebhook.CodebuildWebhookConfig")]
     public class CodebuildWebhookConfig : aws.CodebuildWebhook.ICodebuildWebhookConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_webhook#project_name CodebuildWebhook#project_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_webhook#project_name CodebuildWebhook#project_name}.</summary>
         [JsiiProperty(name: "projectName", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectName
         {
@@ -17,7 +17,7 @@ namespace aws.CodebuildWebhook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_webhook#branch_filter CodebuildWebhook#branch_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_webhook#branch_filter CodebuildWebhook#branch_filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "branchFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BranchFilter
@@ -26,7 +26,7 @@ namespace aws.CodebuildWebhook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_webhook#build_type CodebuildWebhook#build_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_webhook#build_type CodebuildWebhook#build_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "buildType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BuildType
@@ -39,7 +39,7 @@ namespace aws.CodebuildWebhook
 
         /// <summary>filter_group block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_webhook#filter_group CodebuildWebhook#filter_group}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_webhook#filter_group CodebuildWebhook#filter_group}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterGroup", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codebuildWebhook.CodebuildWebhookFilterGroup\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.CodebuildWebhook
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_webhook#id CodebuildWebhook#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_webhook#id CodebuildWebhook#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,7 +84,7 @@ namespace aws.CodebuildWebhook
 
         private object? _manualCreation;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_webhook#manual_creation CodebuildWebhook#manual_creation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_webhook#manual_creation CodebuildWebhook#manual_creation}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "manualCreation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? ManualCreation
@@ -115,7 +115,7 @@ namespace aws.CodebuildWebhook
 
         /// <summary>pull_request_build_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_webhook#pull_request_build_policy CodebuildWebhook#pull_request_build_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_webhook#pull_request_build_policy CodebuildWebhook#pull_request_build_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pullRequestBuildPolicy", typeJson: "{\"fqn\":\"aws.codebuildWebhook.CodebuildWebhookPullRequestBuildPolicy\"}", isOptional: true)]
@@ -127,7 +127,7 @@ namespace aws.CodebuildWebhook
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_webhook#region CodebuildWebhook#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_webhook#region CodebuildWebhook#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -139,7 +139,7 @@ namespace aws.CodebuildWebhook
 
         /// <summary>scope_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_webhook#scope_configuration CodebuildWebhook#scope_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_webhook#scope_configuration CodebuildWebhook#scope_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scopeConfiguration", typeJson: "{\"fqn\":\"aws.codebuildWebhook.CodebuildWebhookScopeConfiguration\"}", isOptional: true)]

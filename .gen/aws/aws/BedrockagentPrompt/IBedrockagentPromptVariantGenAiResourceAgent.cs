@@ -7,7 +7,7 @@ namespace aws.BedrockagentPrompt
     [JsiiInterface(nativeType: typeof(IBedrockagentPromptVariantGenAiResourceAgent), fullyQualifiedName: "aws.bedrockagentPrompt.BedrockagentPromptVariantGenAiResourceAgent")]
     public interface IBedrockagentPromptVariantGenAiResourceAgent
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagent_prompt#agent_identifier BedrockagentPrompt#agent_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_prompt#agent_identifier BedrockagentPrompt#agent_identifier}.</summary>
         [JsiiProperty(name: "agentIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         string AgentIdentifier
         {
@@ -21,7 +21,7 @@ namespace aws.BedrockagentPrompt
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagent_prompt#agent_identifier BedrockagentPrompt#agent_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_prompt#agent_identifier BedrockagentPrompt#agent_identifier}.</summary>
             [JsiiProperty(name: "agentIdentifier", typeJson: "{\"primitive\":\"string\"}")]
             public string AgentIdentifier
             {

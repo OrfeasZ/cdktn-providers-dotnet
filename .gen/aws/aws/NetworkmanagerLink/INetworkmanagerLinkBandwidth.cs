@@ -7,7 +7,7 @@ namespace aws.NetworkmanagerLink
     [JsiiInterface(nativeType: typeof(INetworkmanagerLinkBandwidth), fullyQualifiedName: "aws.networkmanagerLink.NetworkmanagerLinkBandwidth")]
     public interface INetworkmanagerLinkBandwidth
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_link#download_speed NetworkmanagerLink#download_speed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_link#download_speed NetworkmanagerLink#download_speed}.</summary>
         [JsiiProperty(name: "downloadSpeed", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? DownloadSpeed
@@ -18,7 +18,7 @@ namespace aws.NetworkmanagerLink
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_link#upload_speed NetworkmanagerLink#upload_speed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_link#upload_speed NetworkmanagerLink#upload_speed}.</summary>
         [JsiiProperty(name: "uploadSpeed", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? UploadSpeed
@@ -36,7 +36,7 @@ namespace aws.NetworkmanagerLink
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_link#download_speed NetworkmanagerLink#download_speed}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_link#download_speed NetworkmanagerLink#download_speed}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "downloadSpeed", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? DownloadSpeed
@@ -44,7 +44,7 @@ namespace aws.NetworkmanagerLink
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_link#upload_speed NetworkmanagerLink#upload_speed}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_link#upload_speed NetworkmanagerLink#upload_speed}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "uploadSpeed", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? UploadSpeed

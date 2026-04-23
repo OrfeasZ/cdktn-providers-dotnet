@@ -7,14 +7,14 @@ namespace aws.BillingView
     [JsiiInterface(nativeType: typeof(IBillingViewDataFilterExpressionTimeRange), fullyQualifiedName: "aws.billingView.BillingViewDataFilterExpressionTimeRange")]
     public interface IBillingViewDataFilterExpressionTimeRange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/billing_view#begin_date_inclusive BillingView#begin_date_inclusive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/billing_view#begin_date_inclusive BillingView#begin_date_inclusive}.</summary>
         [JsiiProperty(name: "beginDateInclusive", typeJson: "{\"primitive\":\"string\"}")]
         string BeginDateInclusive
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/billing_view#end_date_inclusive BillingView#end_date_inclusive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/billing_view#end_date_inclusive BillingView#end_date_inclusive}.</summary>
         [JsiiProperty(name: "endDateInclusive", typeJson: "{\"primitive\":\"string\"}")]
         string EndDateInclusive
         {
@@ -28,14 +28,14 @@ namespace aws.BillingView
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/billing_view#begin_date_inclusive BillingView#begin_date_inclusive}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/billing_view#begin_date_inclusive BillingView#begin_date_inclusive}.</summary>
             [JsiiProperty(name: "beginDateInclusive", typeJson: "{\"primitive\":\"string\"}")]
             public string BeginDateInclusive
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/billing_view#end_date_inclusive BillingView#end_date_inclusive}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/billing_view#end_date_inclusive BillingView#end_date_inclusive}.</summary>
             [JsiiProperty(name: "endDateInclusive", typeJson: "{\"primitive\":\"string\"}")]
             public string EndDateInclusive
             {

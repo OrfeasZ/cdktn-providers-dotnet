@@ -7,7 +7,7 @@ namespace aws.SsmincidentsResponsePlan
     [JsiiInterface(nativeType: typeof(ISsmincidentsResponsePlanIncidentTemplateNotificationTarget), fullyQualifiedName: "aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateNotificationTarget")]
     public interface ISsmincidentsResponsePlanIncidentTemplateNotificationTarget
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmincidents_response_plan#sns_topic_arn SsmincidentsResponsePlan#sns_topic_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmincidents_response_plan#sns_topic_arn SsmincidentsResponsePlan#sns_topic_arn}.</summary>
         [JsiiProperty(name: "snsTopicArn", typeJson: "{\"primitive\":\"string\"}")]
         string SnsTopicArn
         {
@@ -21,7 +21,7 @@ namespace aws.SsmincidentsResponsePlan
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmincidents_response_plan#sns_topic_arn SsmincidentsResponsePlan#sns_topic_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmincidents_response_plan#sns_topic_arn SsmincidentsResponsePlan#sns_topic_arn}.</summary>
             [JsiiProperty(name: "snsTopicArn", typeJson: "{\"primitive\":\"string\"}")]
             public string SnsTopicArn
             {

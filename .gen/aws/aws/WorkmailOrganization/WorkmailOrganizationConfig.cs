@@ -9,7 +9,7 @@ namespace aws.WorkmailOrganization
     [JsiiByValue(fqn: "aws.workmailOrganization.WorkmailOrganizationConfig")]
     public class WorkmailOrganizationConfig : aws.WorkmailOrganization.IWorkmailOrganizationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workmail_organization#organization_alias WorkmailOrganization#organization_alias}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workmail_organization#organization_alias WorkmailOrganization#organization_alias}.</summary>
         [JsiiProperty(name: "organizationAlias", typeJson: "{\"primitive\":\"string\"}")]
         public string OrganizationAlias
         {
@@ -19,7 +19,7 @@ namespace aws.WorkmailOrganization
 
         private object? _deleteDirectory;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workmail_organization#delete_directory WorkmailOrganization#delete_directory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workmail_organization#delete_directory WorkmailOrganization#delete_directory}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deleteDirectory", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? DeleteDirectory
@@ -50,7 +50,7 @@ namespace aws.WorkmailOrganization
 
         private object? _deleteIdentityCenterApplication;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workmail_organization#delete_identity_center_application WorkmailOrganization#delete_identity_center_application}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workmail_organization#delete_identity_center_application WorkmailOrganization#delete_identity_center_application}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deleteIdentityCenterApplication", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? DeleteIdentityCenterApplication
@@ -79,7 +79,7 @@ namespace aws.WorkmailOrganization
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workmail_organization#directory_id WorkmailOrganization#directory_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workmail_organization#directory_id WorkmailOrganization#directory_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "directoryId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DirectoryId
@@ -90,7 +90,7 @@ namespace aws.WorkmailOrganization
 
         private object? _interoperabilityEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workmail_organization#interoperability_enabled WorkmailOrganization#interoperability_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workmail_organization#interoperability_enabled WorkmailOrganization#interoperability_enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "interoperabilityEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? InteroperabilityEnabled
@@ -119,7 +119,7 @@ namespace aws.WorkmailOrganization
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workmail_organization#kms_key_arn WorkmailOrganization#kms_key_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workmail_organization#kms_key_arn WorkmailOrganization#kms_key_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyArn
@@ -130,7 +130,7 @@ namespace aws.WorkmailOrganization
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workmail_organization#region WorkmailOrganization#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workmail_organization#region WorkmailOrganization#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -140,7 +140,7 @@ namespace aws.WorkmailOrganization
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workmail_organization#tags WorkmailOrganization#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workmail_organization#tags WorkmailOrganization#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -151,7 +151,7 @@ namespace aws.WorkmailOrganization
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workmail_organization#timeouts WorkmailOrganization#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workmail_organization#timeouts WorkmailOrganization#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.workmailOrganization.WorkmailOrganizationTimeouts\"}", isOptional: true)]

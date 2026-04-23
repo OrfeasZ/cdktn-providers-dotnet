@@ -9,7 +9,7 @@ namespace aws.BedrockagentFlow
     [JsiiByValue(fqn: "aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfigurationData")]
     public class BedrockagentFlowDefinitionConnectionConfigurationData : aws.BedrockagentFlow.IBedrockagentFlowDefinitionConnectionConfigurationData
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagent_flow#source_output BedrockagentFlow#source_output}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_flow#source_output BedrockagentFlow#source_output}.</summary>
         [JsiiProperty(name: "sourceOutput", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceOutput
         {
@@ -17,7 +17,7 @@ namespace aws.BedrockagentFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagent_flow#target_input BedrockagentFlow#target_input}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_flow#target_input BedrockagentFlow#target_input}.</summary>
         [JsiiProperty(name: "targetInput", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetInput
         {

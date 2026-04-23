@@ -11,7 +11,7 @@ namespace aws.CloudwatchEventEndpoint
     {
         /// <summary>failover_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_event_endpoint#failover_config CloudwatchEventEndpoint#failover_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_endpoint#failover_config CloudwatchEventEndpoint#failover_config}
         /// </remarks>
         [JsiiProperty(name: "failoverConfig", typeJson: "{\"fqn\":\"aws.cloudwatchEventEndpoint.CloudwatchEventEndpointRoutingConfigFailoverConfig\"}")]
         public aws.CloudwatchEventEndpoint.ICloudwatchEventEndpointRoutingConfigFailoverConfig FailoverConfig

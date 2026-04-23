@@ -7,7 +7,7 @@ namespace aws.ApprunnerService
     [JsiiInterface(nativeType: typeof(IApprunnerServiceNetworkConfigurationEgressConfiguration), fullyQualifiedName: "aws.apprunnerService.ApprunnerServiceNetworkConfigurationEgressConfiguration")]
     public interface IApprunnerServiceNetworkConfigurationEgressConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apprunner_service#egress_type ApprunnerService#egress_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#egress_type ApprunnerService#egress_type}.</summary>
         [JsiiProperty(name: "egressType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EgressType
@@ -18,7 +18,7 @@ namespace aws.ApprunnerService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apprunner_service#vpc_connector_arn ApprunnerService#vpc_connector_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#vpc_connector_arn ApprunnerService#vpc_connector_arn}.</summary>
         [JsiiProperty(name: "vpcConnectorArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VpcConnectorArn
@@ -36,7 +36,7 @@ namespace aws.ApprunnerService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apprunner_service#egress_type ApprunnerService#egress_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#egress_type ApprunnerService#egress_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "egressType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EgressType
@@ -44,7 +44,7 @@ namespace aws.ApprunnerService
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apprunner_service#vpc_connector_arn ApprunnerService#vpc_connector_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#vpc_connector_arn ApprunnerService#vpc_connector_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vpcConnectorArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VpcConnectorArn

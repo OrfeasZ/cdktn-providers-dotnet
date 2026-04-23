@@ -7,7 +7,7 @@ namespace aws.EcsTaskDefinition
     [JsiiInterface(nativeType: typeof(IEcsTaskDefinitionEphemeralStorage), fullyQualifiedName: "aws.ecsTaskDefinition.EcsTaskDefinitionEphemeralStorage")]
     public interface IEcsTaskDefinitionEphemeralStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_task_definition#size_in_gib EcsTaskDefinition#size_in_gib}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_definition#size_in_gib EcsTaskDefinition#size_in_gib}.</summary>
         [JsiiProperty(name: "sizeInGib", typeJson: "{\"primitive\":\"number\"}")]
         double SizeInGib
         {
@@ -21,7 +21,7 @@ namespace aws.EcsTaskDefinition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_task_definition#size_in_gib EcsTaskDefinition#size_in_gib}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_definition#size_in_gib EcsTaskDefinition#size_in_gib}.</summary>
             [JsiiProperty(name: "sizeInGib", typeJson: "{\"primitive\":\"number\"}")]
             public double SizeInGib
             {

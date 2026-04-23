@@ -9,7 +9,7 @@ namespace aws.LambdaFunction
     [JsiiByValue(fqn: "aws.lambdaFunction.LambdaFunctionDurableConfig")]
     public class LambdaFunctionDurableConfig : aws.LambdaFunction.ILambdaFunctionDurableConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_function#execution_timeout LambdaFunction#execution_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function#execution_timeout LambdaFunction#execution_timeout}.</summary>
         [JsiiProperty(name: "executionTimeout", typeJson: "{\"primitive\":\"number\"}")]
         public double ExecutionTimeout
         {
@@ -17,7 +17,7 @@ namespace aws.LambdaFunction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_function#retention_period LambdaFunction#retention_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function#retention_period LambdaFunction#retention_period}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retentionPeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RetentionPeriod

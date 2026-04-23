@@ -9,7 +9,7 @@ namespace aws.IotThingGroup
     {
         /// <summary>attribute_payload block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_thing_group#attribute_payload IotThingGroup#attribute_payload}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_thing_group#attribute_payload IotThingGroup#attribute_payload}
         /// </remarks>
         [JsiiProperty(name: "attributePayload", typeJson: "{\"fqn\":\"aws.iotThingGroup.IotThingGroupPropertiesAttributePayload\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace aws.IotThingGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_thing_group#description IotThingGroup#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_thing_group#description IotThingGroup#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -41,7 +41,7 @@ namespace aws.IotThingGroup
 
             /// <summary>attribute_payload block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_thing_group#attribute_payload IotThingGroup#attribute_payload}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_thing_group#attribute_payload IotThingGroup#attribute_payload}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "attributePayload", typeJson: "{\"fqn\":\"aws.iotThingGroup.IotThingGroupPropertiesAttributePayload\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace aws.IotThingGroup
                 get => GetInstanceProperty<aws.IotThingGroup.IIotThingGroupPropertiesAttributePayload?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_thing_group#description IotThingGroup#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_thing_group#description IotThingGroup#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description

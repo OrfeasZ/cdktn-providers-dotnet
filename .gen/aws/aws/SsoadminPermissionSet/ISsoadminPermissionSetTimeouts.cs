@@ -7,7 +7,7 @@ namespace aws.SsoadminPermissionSet
     [JsiiInterface(nativeType: typeof(ISsoadminPermissionSetTimeouts), fullyQualifiedName: "aws.ssoadminPermissionSet.SsoadminPermissionSetTimeouts")]
     public interface ISsoadminPermissionSetTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssoadmin_permission_set#update SsoadminPermissionSet#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssoadmin_permission_set#update SsoadminPermissionSet#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -25,7 +25,7 @@ namespace aws.SsoadminPermissionSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssoadmin_permission_set#update SsoadminPermissionSet#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssoadmin_permission_set#update SsoadminPermissionSet#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

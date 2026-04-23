@@ -7,21 +7,21 @@ namespace aws.CognitoRiskConfiguration
     [JsiiInterface(nativeType: typeof(ICognitoRiskConfigurationAccountTakeoverRiskConfigurationNotifyConfigurationBlockEmail), fullyQualifiedName: "aws.cognitoRiskConfiguration.CognitoRiskConfigurationAccountTakeoverRiskConfigurationNotifyConfigurationBlockEmail")]
     public interface ICognitoRiskConfigurationAccountTakeoverRiskConfigurationNotifyConfigurationBlockEmail
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_risk_configuration#html_body CognitoRiskConfiguration#html_body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_risk_configuration#html_body CognitoRiskConfiguration#html_body}.</summary>
         [JsiiProperty(name: "htmlBody", typeJson: "{\"primitive\":\"string\"}")]
         string HtmlBody
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_risk_configuration#subject CognitoRiskConfiguration#subject}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_risk_configuration#subject CognitoRiskConfiguration#subject}.</summary>
         [JsiiProperty(name: "subject", typeJson: "{\"primitive\":\"string\"}")]
         string Subject
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_risk_configuration#text_body CognitoRiskConfiguration#text_body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_risk_configuration#text_body CognitoRiskConfiguration#text_body}.</summary>
         [JsiiProperty(name: "textBody", typeJson: "{\"primitive\":\"string\"}")]
         string TextBody
         {
@@ -35,21 +35,21 @@ namespace aws.CognitoRiskConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_risk_configuration#html_body CognitoRiskConfiguration#html_body}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_risk_configuration#html_body CognitoRiskConfiguration#html_body}.</summary>
             [JsiiProperty(name: "htmlBody", typeJson: "{\"primitive\":\"string\"}")]
             public string HtmlBody
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_risk_configuration#subject CognitoRiskConfiguration#subject}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_risk_configuration#subject CognitoRiskConfiguration#subject}.</summary>
             [JsiiProperty(name: "subject", typeJson: "{\"primitive\":\"string\"}")]
             public string Subject
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_risk_configuration#text_body CognitoRiskConfiguration#text_body}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_risk_configuration#text_body CognitoRiskConfiguration#text_body}.</summary>
             [JsiiProperty(name: "textBody", typeJson: "{\"primitive\":\"string\"}")]
             public string TextBody
             {

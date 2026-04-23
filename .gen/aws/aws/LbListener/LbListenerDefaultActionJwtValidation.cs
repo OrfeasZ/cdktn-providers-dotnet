@@ -9,7 +9,7 @@ namespace aws.LbListener
     [JsiiByValue(fqn: "aws.lbListener.LbListenerDefaultActionJwtValidation")]
     public class LbListenerDefaultActionJwtValidation : aws.LbListener.ILbListenerDefaultActionJwtValidation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener#issuer LbListener#issuer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#issuer LbListener#issuer}.</summary>
         [JsiiProperty(name: "issuer", typeJson: "{\"primitive\":\"string\"}")]
         public string Issuer
         {
@@ -17,7 +17,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener#jwks_endpoint LbListener#jwks_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#jwks_endpoint LbListener#jwks_endpoint}.</summary>
         [JsiiProperty(name: "jwksEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string JwksEndpoint
         {
@@ -29,7 +29,7 @@ namespace aws.LbListener
 
         /// <summary>additional_claim block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener#additional_claim LbListener#additional_claim}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#additional_claim LbListener#additional_claim}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "additionalClaim", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lbListener.LbListenerDefaultActionJwtValidationAdditionalClaim\"},\"kind\":\"array\"}}]}}", isOptional: true)]

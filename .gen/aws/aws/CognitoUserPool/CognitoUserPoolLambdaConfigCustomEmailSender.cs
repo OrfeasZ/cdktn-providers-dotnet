@@ -9,7 +9,7 @@ namespace aws.CognitoUserPool
     [JsiiByValue(fqn: "aws.cognitoUserPool.CognitoUserPoolLambdaConfigCustomEmailSender")]
     public class CognitoUserPoolLambdaConfigCustomEmailSender : aws.CognitoUserPool.ICognitoUserPoolLambdaConfigCustomEmailSender
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_user_pool#lambda_arn CognitoUserPool#lambda_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool#lambda_arn CognitoUserPool#lambda_arn}.</summary>
         [JsiiProperty(name: "lambdaArn", typeJson: "{\"primitive\":\"string\"}")]
         public string LambdaArn
         {
@@ -17,7 +17,7 @@ namespace aws.CognitoUserPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_user_pool#lambda_version CognitoUserPool#lambda_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool#lambda_version CognitoUserPool#lambda_version}.</summary>
         [JsiiProperty(name: "lambdaVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string LambdaVersion
         {

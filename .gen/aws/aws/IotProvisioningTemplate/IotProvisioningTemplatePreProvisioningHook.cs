@@ -9,7 +9,7 @@ namespace aws.IotProvisioningTemplate
     [JsiiByValue(fqn: "aws.iotProvisioningTemplate.IotProvisioningTemplatePreProvisioningHook")]
     public class IotProvisioningTemplatePreProvisioningHook : aws.IotProvisioningTemplate.IIotProvisioningTemplatePreProvisioningHook
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_provisioning_template#target_arn IotProvisioningTemplate#target_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_provisioning_template#target_arn IotProvisioningTemplate#target_arn}.</summary>
         [JsiiProperty(name: "targetArn", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetArn
         {
@@ -17,7 +17,7 @@ namespace aws.IotProvisioningTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_provisioning_template#payload_version IotProvisioningTemplate#payload_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_provisioning_template#payload_version IotProvisioningTemplate#payload_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "payloadVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PayloadVersion

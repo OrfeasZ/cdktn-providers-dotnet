@@ -7,7 +7,7 @@ namespace aws.CloudfrontDistribution
     [JsiiInterface(nativeType: typeof(ICloudfrontDistributionOriginS3OriginConfig), fullyQualifiedName: "aws.cloudfrontDistribution.CloudfrontDistributionOriginS3OriginConfig")]
     public interface ICloudfrontDistributionOriginS3OriginConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_distribution#origin_access_identity CloudfrontDistribution#origin_access_identity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#origin_access_identity CloudfrontDistribution#origin_access_identity}.</summary>
         [JsiiProperty(name: "originAccessIdentity", typeJson: "{\"primitive\":\"string\"}")]
         string OriginAccessIdentity
         {
@@ -21,7 +21,7 @@ namespace aws.CloudfrontDistribution
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_distribution#origin_access_identity CloudfrontDistribution#origin_access_identity}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#origin_access_identity CloudfrontDistribution#origin_access_identity}.</summary>
             [JsiiProperty(name: "originAccessIdentity", typeJson: "{\"primitive\":\"string\"}")]
             public string OriginAccessIdentity
             {

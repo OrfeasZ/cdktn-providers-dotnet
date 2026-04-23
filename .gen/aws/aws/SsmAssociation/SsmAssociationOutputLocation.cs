@@ -9,7 +9,7 @@ namespace aws.SsmAssociation
     [JsiiByValue(fqn: "aws.ssmAssociation.SsmAssociationOutputLocation")]
     public class SsmAssociationOutputLocation : aws.SsmAssociation.ISsmAssociationOutputLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssm_association#s3_bucket_name SsmAssociation#s3_bucket_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_association#s3_bucket_name SsmAssociation#s3_bucket_name}.</summary>
         [JsiiProperty(name: "s3BucketName", typeJson: "{\"primitive\":\"string\"}")]
         public string S3BucketName
         {
@@ -17,7 +17,7 @@ namespace aws.SsmAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssm_association#s3_key_prefix SsmAssociation#s3_key_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_association#s3_key_prefix SsmAssociation#s3_key_prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "s3KeyPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? S3KeyPrefix
@@ -26,7 +26,7 @@ namespace aws.SsmAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssm_association#s3_region SsmAssociation#s3_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_association#s3_region SsmAssociation#s3_region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "s3Region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? S3Region

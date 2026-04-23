@@ -7,7 +7,7 @@ namespace aws.QuicksightDataSet
     [JsiiInterface(nativeType: typeof(IQuicksightDataSetLogicalTableMapDataTransformsFilterOperation), fullyQualifiedName: "aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsFilterOperation")]
     public interface IQuicksightDataSetLogicalTableMapDataTransformsFilterOperation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_set#condition_expression QuicksightDataSet#condition_expression}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#condition_expression QuicksightDataSet#condition_expression}.</summary>
         [JsiiProperty(name: "conditionExpression", typeJson: "{\"primitive\":\"string\"}")]
         string ConditionExpression
         {
@@ -21,7 +21,7 @@ namespace aws.QuicksightDataSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_set#condition_expression QuicksightDataSet#condition_expression}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#condition_expression QuicksightDataSet#condition_expression}.</summary>
             [JsiiProperty(name: "conditionExpression", typeJson: "{\"primitive\":\"string\"}")]
             public string ConditionExpression
             {

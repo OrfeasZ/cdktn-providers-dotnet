@@ -7,14 +7,14 @@ namespace aws.ApiGatewayDomainName
     [JsiiInterface(nativeType: typeof(IApiGatewayDomainNameMutualTlsAuthentication), fullyQualifiedName: "aws.apiGatewayDomainName.ApiGatewayDomainNameMutualTlsAuthentication")]
     public interface IApiGatewayDomainNameMutualTlsAuthentication
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_domain_name#truststore_uri ApiGatewayDomainName#truststore_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_domain_name#truststore_uri ApiGatewayDomainName#truststore_uri}.</summary>
         [JsiiProperty(name: "truststoreUri", typeJson: "{\"primitive\":\"string\"}")]
         string TruststoreUri
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_domain_name#truststore_version ApiGatewayDomainName#truststore_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_domain_name#truststore_version ApiGatewayDomainName#truststore_version}.</summary>
         [JsiiProperty(name: "truststoreVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TruststoreVersion
@@ -32,14 +32,14 @@ namespace aws.ApiGatewayDomainName
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_domain_name#truststore_uri ApiGatewayDomainName#truststore_uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_domain_name#truststore_uri ApiGatewayDomainName#truststore_uri}.</summary>
             [JsiiProperty(name: "truststoreUri", typeJson: "{\"primitive\":\"string\"}")]
             public string TruststoreUri
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_domain_name#truststore_version ApiGatewayDomainName#truststore_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_domain_name#truststore_version ApiGatewayDomainName#truststore_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "truststoreVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TruststoreVersion

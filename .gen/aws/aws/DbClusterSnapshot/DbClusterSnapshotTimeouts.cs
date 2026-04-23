@@ -7,7 +7,7 @@ namespace aws.DbClusterSnapshot
     [JsiiByValue(fqn: "aws.dbClusterSnapshot.DbClusterSnapshotTimeouts")]
     public class DbClusterSnapshotTimeouts : aws.DbClusterSnapshot.IDbClusterSnapshotTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/db_cluster_snapshot#create DbClusterSnapshot#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_cluster_snapshot#create DbClusterSnapshot#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
