@@ -9,7 +9,7 @@ namespace acme.Certificate
     [JsiiByValue(fqn: "acme.certificate.CertificateHttpS3Challenge")]
     public class CertificateHttpS3Challenge : acme.Certificate.ICertificateHttpS3Challenge
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs/resources/certificate#s3_bucket Certificate#s3_bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#s3_bucket Certificate#s3_bucket}.</summary>
         [JsiiProperty(name: "s3Bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string S3Bucket
         {

@@ -7,7 +7,7 @@ namespace acme.Provider
     [JsiiInterface(nativeType: typeof(IAcmeProviderConfig), fullyQualifiedName: "acme.provider.AcmeProviderConfig")]
     public interface IAcmeProviderConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs#server_url AcmeProvider#server_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs#server_url AcmeProvider#server_url}.</summary>
         [JsiiProperty(name: "serverUrl", typeJson: "{\"primitive\":\"string\"}")]
         string ServerUrl
         {
@@ -16,7 +16,7 @@ namespace acme.Provider
 
         /// <summary>Alias name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs#alias AcmeProvider#alias}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs#alias AcmeProvider#alias}
         /// </remarks>
         [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace acme.Provider
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs#server_url AcmeProvider#server_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs#server_url AcmeProvider#server_url}.</summary>
             [JsiiProperty(name: "serverUrl", typeJson: "{\"primitive\":\"string\"}")]
             public string ServerUrl
             {
@@ -44,7 +44,7 @@ namespace acme.Provider
 
             /// <summary>Alias name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs#alias AcmeProvider#alias}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs#alias AcmeProvider#alias}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace acme.Certificate
     [JsiiByValue(fqn: "acme.certificate.CertificateHttpWebrootChallenge")]
     public class CertificateHttpWebrootChallenge : acme.Certificate.ICertificateHttpWebrootChallenge
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.47.0/docs/resources/certificate#directory Certificate#directory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#directory Certificate#directory}.</summary>
         [JsiiProperty(name: "directory", typeJson: "{\"primitive\":\"string\"}")]
         public string Directory
         {
