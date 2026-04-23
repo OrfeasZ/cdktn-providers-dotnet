@@ -9,7 +9,7 @@ namespace aws.Lexv2ModelsSlot
     [JsiiByValue(fqn: "aws.lexv2ModelsSlot.Lexv2ModelsSlotSubSlotSettingSlotSpecificationValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecification")]
     public class Lexv2ModelsSlotSubSlotSettingSlotSpecificationValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecification : aws.Lexv2ModelsSlot.ILexv2ModelsSlotSubSlotSettingSlotSpecificationValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_slot#deletion_character Lexv2ModelsSlot#deletion_character}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#deletion_character Lexv2ModelsSlot#deletion_character}.</summary>
         [JsiiProperty(name: "deletionCharacter", typeJson: "{\"primitive\":\"string\"}")]
         public string DeletionCharacter
         {
@@ -17,7 +17,7 @@ namespace aws.Lexv2ModelsSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_slot#end_character Lexv2ModelsSlot#end_character}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#end_character Lexv2ModelsSlot#end_character}.</summary>
         [JsiiProperty(name: "endCharacter", typeJson: "{\"primitive\":\"string\"}")]
         public string EndCharacter
         {
@@ -25,7 +25,7 @@ namespace aws.Lexv2ModelsSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_slot#end_timeout_ms Lexv2ModelsSlot#end_timeout_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#end_timeout_ms Lexv2ModelsSlot#end_timeout_ms}.</summary>
         [JsiiProperty(name: "endTimeoutMs", typeJson: "{\"primitive\":\"number\"}")]
         public double EndTimeoutMs
         {
@@ -33,7 +33,7 @@ namespace aws.Lexv2ModelsSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_slot#max_length Lexv2ModelsSlot#max_length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#max_length Lexv2ModelsSlot#max_length}.</summary>
         [JsiiProperty(name: "maxLength", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxLength
         {

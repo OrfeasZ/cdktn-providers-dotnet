@@ -7,7 +7,7 @@ namespace aws.DsqlCluster
     [JsiiByValue(fqn: "aws.dsqlCluster.DsqlClusterMultiRegionProperties")]
     public class DsqlClusterMultiRegionProperties : aws.DsqlCluster.IDsqlClusterMultiRegionProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dsql_cluster#clusters DsqlCluster#clusters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dsql_cluster#clusters DsqlCluster#clusters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clusters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Clusters
@@ -16,7 +16,7 @@ namespace aws.DsqlCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dsql_cluster#witness_region DsqlCluster#witness_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dsql_cluster#witness_region DsqlCluster#witness_region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "witnessRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WitnessRegion

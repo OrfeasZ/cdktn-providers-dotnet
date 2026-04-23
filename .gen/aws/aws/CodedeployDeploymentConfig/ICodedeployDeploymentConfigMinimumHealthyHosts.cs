@@ -7,7 +7,7 @@ namespace aws.CodedeployDeploymentConfig
     [JsiiInterface(nativeType: typeof(ICodedeployDeploymentConfigMinimumHealthyHosts), fullyQualifiedName: "aws.codedeployDeploymentConfig.CodedeployDeploymentConfigMinimumHealthyHosts")]
     public interface ICodedeployDeploymentConfigMinimumHealthyHosts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codedeploy_deployment_config#type CodedeployDeploymentConfig#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codedeploy_deployment_config#type CodedeployDeploymentConfig#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
@@ -18,7 +18,7 @@ namespace aws.CodedeployDeploymentConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codedeploy_deployment_config#value CodedeployDeploymentConfig#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codedeploy_deployment_config#value CodedeployDeploymentConfig#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Value
@@ -36,7 +36,7 @@ namespace aws.CodedeployDeploymentConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codedeploy_deployment_config#type CodedeployDeploymentConfig#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codedeploy_deployment_config#type CodedeployDeploymentConfig#type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type
@@ -44,7 +44,7 @@ namespace aws.CodedeployDeploymentConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codedeploy_deployment_config#value CodedeployDeploymentConfig#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codedeploy_deployment_config#value CodedeployDeploymentConfig#value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Value

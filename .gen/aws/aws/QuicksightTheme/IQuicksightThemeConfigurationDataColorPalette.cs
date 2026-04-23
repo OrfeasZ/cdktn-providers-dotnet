@@ -7,7 +7,7 @@ namespace aws.QuicksightTheme
     [JsiiInterface(nativeType: typeof(IQuicksightThemeConfigurationDataColorPalette), fullyQualifiedName: "aws.quicksightTheme.QuicksightThemeConfigurationDataColorPalette")]
     public interface IQuicksightThemeConfigurationDataColorPalette
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#colors QuicksightTheme#colors}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#colors QuicksightTheme#colors}.</summary>
         [JsiiProperty(name: "colors", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Colors
@@ -18,7 +18,7 @@ namespace aws.QuicksightTheme
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#empty_fill_color QuicksightTheme#empty_fill_color}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#empty_fill_color QuicksightTheme#empty_fill_color}.</summary>
         [JsiiProperty(name: "emptyFillColor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EmptyFillColor
@@ -29,7 +29,7 @@ namespace aws.QuicksightTheme
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#min_max_gradient QuicksightTheme#min_max_gradient}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#min_max_gradient QuicksightTheme#min_max_gradient}.</summary>
         [JsiiProperty(name: "minMaxGradient", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? MinMaxGradient
@@ -47,7 +47,7 @@ namespace aws.QuicksightTheme
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#colors QuicksightTheme#colors}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#colors QuicksightTheme#colors}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "colors", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Colors
@@ -55,7 +55,7 @@ namespace aws.QuicksightTheme
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#empty_fill_color QuicksightTheme#empty_fill_color}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#empty_fill_color QuicksightTheme#empty_fill_color}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "emptyFillColor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EmptyFillColor
@@ -63,7 +63,7 @@ namespace aws.QuicksightTheme
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#min_max_gradient QuicksightTheme#min_max_gradient}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#min_max_gradient QuicksightTheme#min_max_gradient}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "minMaxGradient", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? MinMaxGradient

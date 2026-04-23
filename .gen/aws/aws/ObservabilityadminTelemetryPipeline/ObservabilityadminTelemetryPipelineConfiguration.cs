@@ -9,7 +9,7 @@ namespace aws.ObservabilityadminTelemetryPipeline
     [JsiiByValue(fqn: "aws.observabilityadminTelemetryPipeline.ObservabilityadminTelemetryPipelineConfiguration")]
     public class ObservabilityadminTelemetryPipelineConfiguration : aws.ObservabilityadminTelemetryPipeline.IObservabilityadminTelemetryPipelineConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/observabilityadmin_telemetry_pipeline#body ObservabilityadminTelemetryPipeline#body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/observabilityadmin_telemetry_pipeline#body ObservabilityadminTelemetryPipeline#body}.</summary>
         [JsiiProperty(name: "body", typeJson: "{\"primitive\":\"string\"}")]
         public string Body
         {

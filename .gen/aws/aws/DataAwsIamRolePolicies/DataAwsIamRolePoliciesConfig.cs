@@ -9,7 +9,7 @@ namespace aws.DataAwsIamRolePolicies
     [JsiiByValue(fqn: "aws.dataAwsIamRolePolicies.DataAwsIamRolePoliciesConfig")]
     public class DataAwsIamRolePoliciesConfig : aws.DataAwsIamRolePolicies.IDataAwsIamRolePoliciesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/iam_role_policies#role_name DataAwsIamRolePolicies#role_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/iam_role_policies#role_name DataAwsIamRolePolicies#role_name}.</summary>
         [JsiiProperty(name: "roleName", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleName
         {

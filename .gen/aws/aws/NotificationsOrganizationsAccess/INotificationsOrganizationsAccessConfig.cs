@@ -7,7 +7,7 @@ namespace aws.NotificationsOrganizationsAccess
     [JsiiInterface(nativeType: typeof(INotificationsOrganizationsAccessConfig), fullyQualifiedName: "aws.notificationsOrganizationsAccess.NotificationsOrganizationsAccessConfig")]
     public interface INotificationsOrganizationsAccessConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_organizations_access#enabled NotificationsOrganizationsAccess#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_organizations_access#enabled NotificationsOrganizationsAccess#enabled}.</summary>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         object Enabled
         {
@@ -16,7 +16,7 @@ namespace aws.NotificationsOrganizationsAccess
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_organizations_access#timeouts NotificationsOrganizationsAccess#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_organizations_access#timeouts NotificationsOrganizationsAccess#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.notificationsOrganizationsAccess.NotificationsOrganizationsAccessTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace aws.NotificationsOrganizationsAccess
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_organizations_access#enabled NotificationsOrganizationsAccess#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_organizations_access#enabled NotificationsOrganizationsAccess#enabled}.</summary>
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
             public object Enabled
             {
@@ -44,7 +44,7 @@ namespace aws.NotificationsOrganizationsAccess
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_organizations_access#timeouts NotificationsOrganizationsAccess#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_organizations_access#timeouts NotificationsOrganizationsAccess#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.notificationsOrganizationsAccess.NotificationsOrganizationsAccessTimeouts\"}", isOptional: true)]

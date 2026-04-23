@@ -9,7 +9,7 @@ namespace aws.AppmeshVirtualService
     [JsiiByValue(fqn: "aws.appmeshVirtualService.AppmeshVirtualServiceSpecProviderVirtualNode")]
     public class AppmeshVirtualServiceSpecProviderVirtualNode : aws.AppmeshVirtualService.IAppmeshVirtualServiceSpecProviderVirtualNode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_virtual_service#virtual_node_name AppmeshVirtualService#virtual_node_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_service#virtual_node_name AppmeshVirtualService#virtual_node_name}.</summary>
         [JsiiProperty(name: "virtualNodeName", typeJson: "{\"primitive\":\"string\"}")]
         public string VirtualNodeName
         {

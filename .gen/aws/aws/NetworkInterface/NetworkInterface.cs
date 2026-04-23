@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.NetworkInterface
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/network_interface aws_network_interface}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/network_interface aws_network_interface}.</summary>
     [JsiiClass(nativeType: typeof(aws.NetworkInterface.NetworkInterface), fullyQualifiedName: "aws.networkInterface.NetworkInterface", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.networkInterface.NetworkInterfaceConfig\"}}]")]
     public class NetworkInterface : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/network_interface aws_network_interface} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/network_interface aws_network_interface} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public NetworkInterface(Constructs.Construct scope, string id, aws.NetworkInterface.INetworkInterfaceConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.NetworkInterface
         /// <param name="importToId">The construct id used in the generated config for the NetworkInterface to import.</param>
         /// <param name="importFromId">The id of the existing NetworkInterface that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the NetworkInterface to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the NetworkInterface to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/network_interface#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing NetworkInterface that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the NetworkInterface to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the NetworkInterface to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/network_interface#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing NetworkInterface that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the NetworkInterface to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.NetworkInterface.NetworkInterface), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -69,6 +69,12 @@ namespace aws.NetworkInterface
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putEnaSrdSpecification", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.networkInterface.NetworkInterfaceEnaSrdSpecification\"}}]")]
+        public virtual void PutEnaSrdSpecification(aws.NetworkInterface.INetworkInterfaceEnaSrdSpecification @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.NetworkInterface.INetworkInterfaceEnaSrdSpecification)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetAttachment")]
         public virtual void ResetAttachment()
         {
@@ -83,6 +89,12 @@ namespace aws.NetworkInterface
 
         [JsiiMethod(name: "resetEnablePrimaryIpv6")]
         public virtual void ResetEnablePrimaryIpv6()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetEnaSrdSpecification")]
+        public virtual void ResetEnaSrdSpecification()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -238,6 +250,12 @@ namespace aws.NetworkInterface
             get => GetInstanceProperty<aws.NetworkInterface.NetworkInterfaceAttachmentList>()!;
         }
 
+        [JsiiProperty(name: "enaSrdSpecification", typeJson: "{\"fqn\":\"aws.networkInterface.NetworkInterfaceEnaSrdSpecificationOutputReference\"}")]
+        public virtual aws.NetworkInterface.NetworkInterfaceEnaSrdSpecificationOutputReference EnaSrdSpecification
+        {
+            get => GetInstanceProperty<aws.NetworkInterface.NetworkInterfaceEnaSrdSpecificationOutputReference>()!;
+        }
+
         [JsiiProperty(name: "macAddress", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string MacAddress
         {
@@ -281,6 +299,13 @@ namespace aws.NetworkInterface
         public virtual object? EnablePrimaryIpv6Input
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "enaSrdSpecificationInput", typeJson: "{\"fqn\":\"aws.networkInterface.NetworkInterfaceEnaSrdSpecification\"}", isOptional: true)]
+        public virtual aws.NetworkInterface.INetworkInterfaceEnaSrdSpecification? EnaSrdSpecificationInput
+        {
+            get => GetInstanceProperty<aws.NetworkInterface.INetworkInterfaceEnaSrdSpecification?>();
         }
 
         [JsiiOptional]

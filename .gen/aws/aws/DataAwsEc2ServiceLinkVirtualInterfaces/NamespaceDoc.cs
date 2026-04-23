@@ -1,0 +1,14 @@
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace aws.DataAwsEc2ServiceLinkVirtualInterfaces
+{
+    /// <remarks>
+    /// <h1><c>data_aws_ec2_service_link_virtual_interfaces</c></h1>
+    ///
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_service_link_virtual_interfaces"><c>data_aws_ec2_service_link_virtual_interfaces</c></a>.
+    /// </remarks>
+    [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+    public class NamespaceDoc
+    {
+    }
+}

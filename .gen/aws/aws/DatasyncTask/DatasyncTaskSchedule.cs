@@ -9,7 +9,7 @@ namespace aws.DatasyncTask
     [JsiiByValue(fqn: "aws.datasyncTask.DatasyncTaskSchedule")]
     public class DatasyncTaskSchedule : aws.DatasyncTask.IDatasyncTaskSchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_task#schedule_expression DatasyncTask#schedule_expression}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#schedule_expression DatasyncTask#schedule_expression}.</summary>
         [JsiiProperty(name: "scheduleExpression", typeJson: "{\"primitive\":\"string\"}")]
         public string ScheduleExpression
         {
@@ -17,7 +17,7 @@ namespace aws.DatasyncTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_task#status DatasyncTask#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#status DatasyncTask#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status

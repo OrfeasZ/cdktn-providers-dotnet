@@ -7,14 +7,14 @@ namespace aws.LambdaEventSourceMapping
     [JsiiInterface(nativeType: typeof(ILambdaEventSourceMappingDocumentDbEventSourceConfig), fullyQualifiedName: "aws.lambdaEventSourceMapping.LambdaEventSourceMappingDocumentDbEventSourceConfig")]
     public interface ILambdaEventSourceMappingDocumentDbEventSourceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_event_source_mapping#database_name LambdaEventSourceMapping#database_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_event_source_mapping#database_name LambdaEventSourceMapping#database_name}.</summary>
         [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_event_source_mapping#collection_name LambdaEventSourceMapping#collection_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_event_source_mapping#collection_name LambdaEventSourceMapping#collection_name}.</summary>
         [JsiiProperty(name: "collectionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CollectionName
@@ -25,7 +25,7 @@ namespace aws.LambdaEventSourceMapping
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_event_source_mapping#full_document LambdaEventSourceMapping#full_document}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_event_source_mapping#full_document LambdaEventSourceMapping#full_document}.</summary>
         [JsiiProperty(name: "fullDocument", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FullDocument
@@ -43,14 +43,14 @@ namespace aws.LambdaEventSourceMapping
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_event_source_mapping#database_name LambdaEventSourceMapping#database_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_event_source_mapping#database_name LambdaEventSourceMapping#database_name}.</summary>
             [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_event_source_mapping#collection_name LambdaEventSourceMapping#collection_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_event_source_mapping#collection_name LambdaEventSourceMapping#collection_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "collectionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CollectionName
@@ -58,7 +58,7 @@ namespace aws.LambdaEventSourceMapping
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_event_source_mapping#full_document LambdaEventSourceMapping#full_document}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_event_source_mapping#full_document LambdaEventSourceMapping#full_document}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fullDocument", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FullDocument

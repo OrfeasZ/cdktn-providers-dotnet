@@ -9,7 +9,7 @@ namespace aws.AppsyncDatasource
     [JsiiByValue(fqn: "aws.appsyncDatasource.AppsyncDatasourceDynamodbConfigDeltaSyncConfig")]
     public class AppsyncDatasourceDynamodbConfigDeltaSyncConfig : aws.AppsyncDatasource.IAppsyncDatasourceDynamodbConfigDeltaSyncConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#delta_sync_table_name AppsyncDatasource#delta_sync_table_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#delta_sync_table_name AppsyncDatasource#delta_sync_table_name}.</summary>
         [JsiiProperty(name: "deltaSyncTableName", typeJson: "{\"primitive\":\"string\"}")]
         public string DeltaSyncTableName
         {
@@ -17,7 +17,7 @@ namespace aws.AppsyncDatasource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#base_table_ttl AppsyncDatasource#base_table_ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#base_table_ttl AppsyncDatasource#base_table_ttl}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "baseTableTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BaseTableTtl
@@ -26,7 +26,7 @@ namespace aws.AppsyncDatasource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#delta_sync_table_ttl AppsyncDatasource#delta_sync_table_ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#delta_sync_table_ttl AppsyncDatasource#delta_sync_table_ttl}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deltaSyncTableTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DeltaSyncTableTtl

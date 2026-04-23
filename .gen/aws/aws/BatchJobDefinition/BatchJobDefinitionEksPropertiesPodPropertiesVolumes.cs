@@ -9,7 +9,7 @@ namespace aws.BatchJobDefinition
     {
         /// <summary>empty_dir block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_job_definition#empty_dir BatchJobDefinition#empty_dir}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#empty_dir BatchJobDefinition#empty_dir}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emptyDir", typeJson: "{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesVolumesEmptyDir\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.BatchJobDefinition
 
         /// <summary>host_path block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_job_definition#host_path BatchJobDefinition#host_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#host_path BatchJobDefinition#host_path}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hostPath", typeJson: "{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPath\"}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.BatchJobDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -42,7 +42,7 @@ namespace aws.BatchJobDefinition
 
         /// <summary>secret block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_job_definition#secret BatchJobDefinition#secret}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#secret BatchJobDefinition#secret}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secret", typeJson: "{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesVolumesSecret\"}", isOptional: true)]

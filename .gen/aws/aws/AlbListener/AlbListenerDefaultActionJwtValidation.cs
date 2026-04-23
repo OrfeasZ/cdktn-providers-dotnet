@@ -9,7 +9,7 @@ namespace aws.AlbListener
     [JsiiByValue(fqn: "aws.albListener.AlbListenerDefaultActionJwtValidation")]
     public class AlbListenerDefaultActionJwtValidation : aws.AlbListener.IAlbListenerDefaultActionJwtValidation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/alb_listener#issuer AlbListener#issuer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener#issuer AlbListener#issuer}.</summary>
         [JsiiProperty(name: "issuer", typeJson: "{\"primitive\":\"string\"}")]
         public string Issuer
         {
@@ -17,7 +17,7 @@ namespace aws.AlbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/alb_listener#jwks_endpoint AlbListener#jwks_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener#jwks_endpoint AlbListener#jwks_endpoint}.</summary>
         [JsiiProperty(name: "jwksEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string JwksEndpoint
         {
@@ -29,7 +29,7 @@ namespace aws.AlbListener
 
         /// <summary>additional_claim block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/alb_listener#additional_claim AlbListener#additional_claim}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener#additional_claim AlbListener#additional_claim}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "additionalClaim", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.albListener.AlbListenerDefaultActionJwtValidationAdditionalClaim\"},\"kind\":\"array\"}}]}}", isOptional: true)]

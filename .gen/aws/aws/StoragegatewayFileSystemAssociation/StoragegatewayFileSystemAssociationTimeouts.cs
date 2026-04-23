@@ -7,7 +7,7 @@ namespace aws.StoragegatewayFileSystemAssociation
     [JsiiByValue(fqn: "aws.storagegatewayFileSystemAssociation.StoragegatewayFileSystemAssociationTimeouts")]
     public class StoragegatewayFileSystemAssociationTimeouts : aws.StoragegatewayFileSystemAssociation.IStoragegatewayFileSystemAssociationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/storagegateway_file_system_association#create StoragegatewayFileSystemAssociation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/storagegateway_file_system_association#create StoragegatewayFileSystemAssociation#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.StoragegatewayFileSystemAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/storagegateway_file_system_association#delete StoragegatewayFileSystemAssociation#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/storagegateway_file_system_association#delete StoragegatewayFileSystemAssociation#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace aws.StoragegatewayFileSystemAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/storagegateway_file_system_association#update StoragegatewayFileSystemAssociation#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/storagegateway_file_system_association#update StoragegatewayFileSystemAssociation#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

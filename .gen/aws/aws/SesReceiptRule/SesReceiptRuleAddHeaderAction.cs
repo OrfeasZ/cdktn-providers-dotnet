@@ -9,7 +9,7 @@ namespace aws.SesReceiptRule
     [JsiiByValue(fqn: "aws.sesReceiptRule.SesReceiptRuleAddHeaderAction")]
     public class SesReceiptRuleAddHeaderAction : aws.SesReceiptRule.ISesReceiptRuleAddHeaderAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ses_receipt_rule#header_name SesReceiptRule#header_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_receipt_rule#header_name SesReceiptRule#header_name}.</summary>
         [JsiiProperty(name: "headerName", typeJson: "{\"primitive\":\"string\"}")]
         public string HeaderName
         {
@@ -17,7 +17,7 @@ namespace aws.SesReceiptRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ses_receipt_rule#header_value SesReceiptRule#header_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_receipt_rule#header_value SesReceiptRule#header_value}.</summary>
         [JsiiProperty(name: "headerValue", typeJson: "{\"primitive\":\"string\"}")]
         public string HeaderValue
         {
@@ -25,7 +25,7 @@ namespace aws.SesReceiptRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ses_receipt_rule#position SesReceiptRule#position}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_receipt_rule#position SesReceiptRule#position}.</summary>
         [JsiiProperty(name: "position", typeJson: "{\"primitive\":\"number\"}")]
         public double Position
         {

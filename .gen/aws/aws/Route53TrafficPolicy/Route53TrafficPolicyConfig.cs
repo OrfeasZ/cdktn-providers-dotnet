@@ -9,7 +9,7 @@ namespace aws.Route53TrafficPolicy
     [JsiiByValue(fqn: "aws.route53TrafficPolicy.Route53TrafficPolicyConfig")]
     public class Route53TrafficPolicyConfig : aws.Route53TrafficPolicy.IRoute53TrafficPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_traffic_policy#document Route53TrafficPolicy#document}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_traffic_policy#document Route53TrafficPolicy#document}.</summary>
         [JsiiProperty(name: "document", typeJson: "{\"primitive\":\"string\"}")]
         public string Document
         {
@@ -17,7 +17,7 @@ namespace aws.Route53TrafficPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_traffic_policy#name Route53TrafficPolicy#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_traffic_policy#name Route53TrafficPolicy#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace aws.Route53TrafficPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_traffic_policy#comment Route53TrafficPolicy#comment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_traffic_policy#comment Route53TrafficPolicy#comment}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Comment
@@ -34,7 +34,7 @@ namespace aws.Route53TrafficPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_traffic_policy#id Route53TrafficPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_traffic_policy#id Route53TrafficPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -9,7 +9,7 @@ namespace aws.VpnConnection
     {
         private object? _bgpLogEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpn_connection#bgp_log_enabled VpnConnection#bgp_log_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpn_connection#bgp_log_enabled VpnConnection#bgp_log_enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bgpLogEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? BgpLogEnabled
@@ -38,7 +38,7 @@ namespace aws.VpnConnection
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpn_connection#bgp_log_group_arn VpnConnection#bgp_log_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpn_connection#bgp_log_group_arn VpnConnection#bgp_log_group_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bgpLogGroupArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BgpLogGroupArn
@@ -47,7 +47,7 @@ namespace aws.VpnConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpn_connection#bgp_log_output_format VpnConnection#bgp_log_output_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpn_connection#bgp_log_output_format VpnConnection#bgp_log_output_format}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bgpLogOutputFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BgpLogOutputFormat
@@ -58,7 +58,7 @@ namespace aws.VpnConnection
 
         private object? _logEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpn_connection#log_enabled VpnConnection#log_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpn_connection#log_enabled VpnConnection#log_enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? LogEnabled
@@ -87,7 +87,7 @@ namespace aws.VpnConnection
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpn_connection#log_group_arn VpnConnection#log_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpn_connection#log_group_arn VpnConnection#log_group_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logGroupArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogGroupArn
@@ -96,7 +96,7 @@ namespace aws.VpnConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpn_connection#log_output_format VpnConnection#log_output_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpn_connection#log_output_format VpnConnection#log_output_format}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logOutputFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogOutputFormat

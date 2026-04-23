@@ -9,7 +9,7 @@ namespace aws.AppmeshRoute
     [JsiiByValue(fqn: "aws.appmeshRoute.AppmeshRouteSpecGrpcRouteMatchMetadata")]
     public class AppmeshRouteSpecGrpcRouteMatchMetadata : aws.AppmeshRoute.IAppmeshRouteSpecGrpcRouteMatchMetadata
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#name AppmeshRoute#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#name AppmeshRoute#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -19,7 +19,7 @@ namespace aws.AppmeshRoute
 
         private object? _invert;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#invert AppmeshRoute#invert}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#invert AppmeshRoute#invert}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "invert", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Invert
@@ -50,7 +50,7 @@ namespace aws.AppmeshRoute
 
         /// <summary>match block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_route#match AppmeshRoute#match}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#match AppmeshRoute#match}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "match", typeJson: "{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecGrpcRouteMatchMetadataMatch\"}", isOptional: true)]

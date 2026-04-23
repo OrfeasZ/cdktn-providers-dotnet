@@ -9,7 +9,7 @@ namespace aws.IvsRecordingConfiguration
     [JsiiByValue(fqn: "aws.ivsRecordingConfiguration.IvsRecordingConfigurationDestinationConfigurationS3")]
     public class IvsRecordingConfigurationDestinationConfigurationS3 : aws.IvsRecordingConfiguration.IIvsRecordingConfigurationDestinationConfigurationS3
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ivs_recording_configuration#bucket_name IvsRecordingConfiguration#bucket_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ivs_recording_configuration#bucket_name IvsRecordingConfiguration#bucket_name}.</summary>
         [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
         public string BucketName
         {

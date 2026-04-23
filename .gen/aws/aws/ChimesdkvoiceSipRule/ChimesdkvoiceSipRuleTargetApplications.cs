@@ -9,7 +9,7 @@ namespace aws.ChimesdkvoiceSipRule
     [JsiiByValue(fqn: "aws.chimesdkvoiceSipRule.ChimesdkvoiceSipRuleTargetApplications")]
     public class ChimesdkvoiceSipRuleTargetApplications : aws.ChimesdkvoiceSipRule.IChimesdkvoiceSipRuleTargetApplications
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/chimesdkvoice_sip_rule#aws_region ChimesdkvoiceSipRule#aws_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/chimesdkvoice_sip_rule#aws_region ChimesdkvoiceSipRule#aws_region}.</summary>
         [JsiiProperty(name: "awsRegion", typeJson: "{\"primitive\":\"string\"}")]
         public string AwsRegion
         {
@@ -17,7 +17,7 @@ namespace aws.ChimesdkvoiceSipRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/chimesdkvoice_sip_rule#priority ChimesdkvoiceSipRule#priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/chimesdkvoice_sip_rule#priority ChimesdkvoiceSipRule#priority}.</summary>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
         public double Priority
         {
@@ -25,7 +25,7 @@ namespace aws.ChimesdkvoiceSipRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/chimesdkvoice_sip_rule#sip_media_application_id ChimesdkvoiceSipRule#sip_media_application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/chimesdkvoice_sip_rule#sip_media_application_id ChimesdkvoiceSipRule#sip_media_application_id}.</summary>
         [JsiiProperty(name: "sipMediaApplicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string SipMediaApplicationId
         {

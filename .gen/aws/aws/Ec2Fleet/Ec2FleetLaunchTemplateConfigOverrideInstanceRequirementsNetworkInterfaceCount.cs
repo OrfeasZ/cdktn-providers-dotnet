@@ -7,7 +7,7 @@ namespace aws.Ec2Fleet
     [JsiiByValue(fqn: "aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsNetworkInterfaceCount")]
     public class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsNetworkInterfaceCount : aws.Ec2Fleet.IEc2FleetLaunchTemplateConfigOverrideInstanceRequirementsNetworkInterfaceCount
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ec2_fleet#max Ec2Fleet#max}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#max Ec2Fleet#max}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Max
@@ -16,7 +16,7 @@ namespace aws.Ec2Fleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ec2_fleet#min Ec2Fleet#min}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#min Ec2Fleet#min}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Min

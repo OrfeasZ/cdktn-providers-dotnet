@@ -7,7 +7,7 @@ namespace aws.GuarddutyDetector
     [JsiiInterface(nativeType: typeof(IGuarddutyDetectorDatasourcesS3Logs), fullyQualifiedName: "aws.guarddutyDetector.GuarddutyDetectorDatasourcesS3Logs")]
     public interface IGuarddutyDetectorDatasourcesS3Logs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/guardduty_detector#enable GuarddutyDetector#enable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_detector#enable GuarddutyDetector#enable}.</summary>
         [JsiiProperty(name: "enable", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         object Enable
         {
@@ -21,7 +21,7 @@ namespace aws.GuarddutyDetector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/guardduty_detector#enable GuarddutyDetector#enable}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_detector#enable GuarddutyDetector#enable}.</summary>
             [JsiiProperty(name: "enable", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
             public object Enable
             {

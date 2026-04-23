@@ -9,7 +9,7 @@ namespace aws.CloudfrontMonitoringSubscription
     [JsiiByValue(fqn: "aws.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscriptionConfig")]
     public class CloudfrontMonitoringSubscriptionConfig : aws.CloudfrontMonitoringSubscription.ICloudfrontMonitoringSubscriptionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_monitoring_subscription#distribution_id CloudfrontMonitoringSubscription#distribution_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_monitoring_subscription#distribution_id CloudfrontMonitoringSubscription#distribution_id}.</summary>
         [JsiiProperty(name: "distributionId", typeJson: "{\"primitive\":\"string\"}")]
         public string DistributionId
         {
@@ -19,7 +19,7 @@ namespace aws.CloudfrontMonitoringSubscription
 
         /// <summary>monitoring_subscription block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_monitoring_subscription#monitoring_subscription CloudfrontMonitoringSubscription#monitoring_subscription}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_monitoring_subscription#monitoring_subscription CloudfrontMonitoringSubscription#monitoring_subscription}
         /// </remarks>
         [JsiiProperty(name: "monitoringSubscription", typeJson: "{\"fqn\":\"aws.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscriptionMonitoringSubscription\"}")]
         public aws.CloudfrontMonitoringSubscription.ICloudfrontMonitoringSubscriptionMonitoringSubscription MonitoringSubscription
@@ -28,7 +28,7 @@ namespace aws.CloudfrontMonitoringSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_monitoring_subscription#id CloudfrontMonitoringSubscription#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_monitoring_subscription#id CloudfrontMonitoringSubscription#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

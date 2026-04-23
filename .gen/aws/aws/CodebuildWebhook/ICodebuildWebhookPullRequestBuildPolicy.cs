@@ -7,14 +7,14 @@ namespace aws.CodebuildWebhook
     [JsiiInterface(nativeType: typeof(ICodebuildWebhookPullRequestBuildPolicy), fullyQualifiedName: "aws.codebuildWebhook.CodebuildWebhookPullRequestBuildPolicy")]
     public interface ICodebuildWebhookPullRequestBuildPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_webhook#requires_comment_approval CodebuildWebhook#requires_comment_approval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_webhook#requires_comment_approval CodebuildWebhook#requires_comment_approval}.</summary>
         [JsiiProperty(name: "requiresCommentApproval", typeJson: "{\"primitive\":\"string\"}")]
         string RequiresCommentApproval
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_webhook#approver_roles CodebuildWebhook#approver_roles}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_webhook#approver_roles CodebuildWebhook#approver_roles}.</summary>
         [JsiiProperty(name: "approverRoles", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ApproverRoles
@@ -32,14 +32,14 @@ namespace aws.CodebuildWebhook
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_webhook#requires_comment_approval CodebuildWebhook#requires_comment_approval}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_webhook#requires_comment_approval CodebuildWebhook#requires_comment_approval}.</summary>
             [JsiiProperty(name: "requiresCommentApproval", typeJson: "{\"primitive\":\"string\"}")]
             public string RequiresCommentApproval
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_webhook#approver_roles CodebuildWebhook#approver_roles}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_webhook#approver_roles CodebuildWebhook#approver_roles}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "approverRoles", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ApproverRoles

@@ -9,7 +9,7 @@ namespace aws.AppmeshVirtualGateway
     {
         /// <summary>grpc block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_virtual_gateway#grpc AppmeshVirtualGateway#grpc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_gateway#grpc AppmeshVirtualGateway#grpc}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "grpc", typeJson: "{\"fqn\":\"aws.appmeshVirtualGateway.AppmeshVirtualGatewaySpecListenerConnectionPoolGrpc\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.AppmeshVirtualGateway
 
         /// <summary>http block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_virtual_gateway#http AppmeshVirtualGateway#http}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_gateway#http AppmeshVirtualGateway#http}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "http", typeJson: "{\"fqn\":\"aws.appmeshVirtualGateway.AppmeshVirtualGatewaySpecListenerConnectionPoolHttp\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace aws.AppmeshVirtualGateway
 
         /// <summary>http2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_virtual_gateway#http2 AppmeshVirtualGateway#http2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_gateway#http2 AppmeshVirtualGateway#http2}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "http2", typeJson: "{\"fqn\":\"aws.appmeshVirtualGateway.AppmeshVirtualGatewaySpecListenerConnectionPoolHttp2\"}", isOptional: true)]

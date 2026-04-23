@@ -9,7 +9,7 @@ namespace aws.CloudfrontDistribution
     {
         /// <summary>geo_restriction block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_distribution#geo_restriction CloudfrontDistribution#geo_restriction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#geo_restriction CloudfrontDistribution#geo_restriction}
         /// </remarks>
         [JsiiProperty(name: "geoRestriction", typeJson: "{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionRestrictionsGeoRestriction\"}")]
         aws.CloudfrontDistribution.ICloudfrontDistributionRestrictionsGeoRestriction GeoRestriction
@@ -26,7 +26,7 @@ namespace aws.CloudfrontDistribution
 
             /// <summary>geo_restriction block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_distribution#geo_restriction CloudfrontDistribution#geo_restriction}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#geo_restriction CloudfrontDistribution#geo_restriction}
             /// </remarks>
             [JsiiProperty(name: "geoRestriction", typeJson: "{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionRestrictionsGeoRestriction\"}")]
             public aws.CloudfrontDistribution.ICloudfrontDistributionRestrictionsGeoRestriction GeoRestriction

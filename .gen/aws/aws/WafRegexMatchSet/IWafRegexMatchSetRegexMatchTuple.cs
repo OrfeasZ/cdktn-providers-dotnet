@@ -9,7 +9,7 @@ namespace aws.WafRegexMatchSet
     {
         /// <summary>field_to_match block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/waf_regex_match_set#field_to_match WafRegexMatchSet#field_to_match}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_regex_match_set#field_to_match WafRegexMatchSet#field_to_match}
         /// </remarks>
         [JsiiProperty(name: "fieldToMatch", typeJson: "{\"fqn\":\"aws.wafRegexMatchSet.WafRegexMatchSetRegexMatchTupleFieldToMatch\"}")]
         aws.WafRegexMatchSet.IWafRegexMatchSetRegexMatchTupleFieldToMatch FieldToMatch
@@ -17,14 +17,14 @@ namespace aws.WafRegexMatchSet
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/waf_regex_match_set#regex_pattern_set_id WafRegexMatchSet#regex_pattern_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_regex_match_set#regex_pattern_set_id WafRegexMatchSet#regex_pattern_set_id}.</summary>
         [JsiiProperty(name: "regexPatternSetId", typeJson: "{\"primitive\":\"string\"}")]
         string RegexPatternSetId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/waf_regex_match_set#text_transformation WafRegexMatchSet#text_transformation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_regex_match_set#text_transformation WafRegexMatchSet#text_transformation}.</summary>
         [JsiiProperty(name: "textTransformation", typeJson: "{\"primitive\":\"string\"}")]
         string TextTransformation
         {
@@ -40,7 +40,7 @@ namespace aws.WafRegexMatchSet
 
             /// <summary>field_to_match block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/waf_regex_match_set#field_to_match WafRegexMatchSet#field_to_match}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_regex_match_set#field_to_match WafRegexMatchSet#field_to_match}
             /// </remarks>
             [JsiiProperty(name: "fieldToMatch", typeJson: "{\"fqn\":\"aws.wafRegexMatchSet.WafRegexMatchSetRegexMatchTupleFieldToMatch\"}")]
             public aws.WafRegexMatchSet.IWafRegexMatchSetRegexMatchTupleFieldToMatch FieldToMatch
@@ -48,14 +48,14 @@ namespace aws.WafRegexMatchSet
                 get => GetInstanceProperty<aws.WafRegexMatchSet.IWafRegexMatchSetRegexMatchTupleFieldToMatch>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/waf_regex_match_set#regex_pattern_set_id WafRegexMatchSet#regex_pattern_set_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_regex_match_set#regex_pattern_set_id WafRegexMatchSet#regex_pattern_set_id}.</summary>
             [JsiiProperty(name: "regexPatternSetId", typeJson: "{\"primitive\":\"string\"}")]
             public string RegexPatternSetId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/waf_regex_match_set#text_transformation WafRegexMatchSet#text_transformation}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_regex_match_set#text_transformation WafRegexMatchSet#text_transformation}.</summary>
             [JsiiProperty(name: "textTransformation", typeJson: "{\"primitive\":\"string\"}")]
             public string TextTransformation
             {

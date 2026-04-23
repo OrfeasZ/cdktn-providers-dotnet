@@ -7,7 +7,7 @@ namespace aws.DataAwsVpcDhcpOptions
     [JsiiByValue(fqn: "aws.dataAwsVpcDhcpOptions.DataAwsVpcDhcpOptionsTimeouts")]
     public class DataAwsVpcDhcpOptionsTimeouts : aws.DataAwsVpcDhcpOptions.IDataAwsVpcDhcpOptionsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/vpc_dhcp_options#read DataAwsVpcDhcpOptions#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpc_dhcp_options#read DataAwsVpcDhcpOptions#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

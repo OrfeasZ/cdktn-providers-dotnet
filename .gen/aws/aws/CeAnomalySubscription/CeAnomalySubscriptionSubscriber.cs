@@ -9,7 +9,7 @@ namespace aws.CeAnomalySubscription
     [JsiiByValue(fqn: "aws.ceAnomalySubscription.CeAnomalySubscriptionSubscriber")]
     public class CeAnomalySubscriptionSubscriber : aws.CeAnomalySubscription.ICeAnomalySubscriptionSubscriber
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ce_anomaly_subscription#address CeAnomalySubscription#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_anomaly_subscription#address CeAnomalySubscription#address}.</summary>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
         public string Address
         {
@@ -17,7 +17,7 @@ namespace aws.CeAnomalySubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ce_anomaly_subscription#type CeAnomalySubscription#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_anomaly_subscription#type CeAnomalySubscription#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

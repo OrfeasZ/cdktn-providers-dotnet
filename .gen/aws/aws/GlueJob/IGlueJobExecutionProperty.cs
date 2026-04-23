@@ -7,7 +7,7 @@ namespace aws.GlueJob
     [JsiiInterface(nativeType: typeof(IGlueJobExecutionProperty), fullyQualifiedName: "aws.glueJob.GlueJobExecutionProperty")]
     public interface IGlueJobExecutionProperty
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_job#max_concurrent_runs GlueJob#max_concurrent_runs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_job#max_concurrent_runs GlueJob#max_concurrent_runs}.</summary>
         [JsiiProperty(name: "maxConcurrentRuns", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxConcurrentRuns
@@ -25,7 +25,7 @@ namespace aws.GlueJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_job#max_concurrent_runs GlueJob#max_concurrent_runs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_job#max_concurrent_runs GlueJob#max_concurrent_runs}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxConcurrentRuns", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxConcurrentRuns

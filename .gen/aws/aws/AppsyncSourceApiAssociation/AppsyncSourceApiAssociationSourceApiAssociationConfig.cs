@@ -7,7 +7,7 @@ namespace aws.AppsyncSourceApiAssociation
     [JsiiByValue(fqn: "aws.appsyncSourceApiAssociation.AppsyncSourceApiAssociationSourceApiAssociationConfig")]
     public class AppsyncSourceApiAssociationSourceApiAssociationConfig : aws.AppsyncSourceApiAssociation.IAppsyncSourceApiAssociationSourceApiAssociationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_source_api_association#merge_type AppsyncSourceApiAssociation#merge_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_source_api_association#merge_type AppsyncSourceApiAssociation#merge_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mergeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MergeType

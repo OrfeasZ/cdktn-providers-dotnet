@@ -7,35 +7,35 @@ namespace aws.DatazoneEnvironment
     [JsiiInterface(nativeType: typeof(IDatazoneEnvironmentConfig), fullyQualifiedName: "aws.datazoneEnvironment.DatazoneEnvironmentConfig")]
     public interface IDatazoneEnvironmentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#domain_identifier DatazoneEnvironment#domain_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#domain_identifier DatazoneEnvironment#domain_identifier}.</summary>
         [JsiiProperty(name: "domainIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         string DomainIdentifier
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#name DatazoneEnvironment#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#name DatazoneEnvironment#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#profile_identifier DatazoneEnvironment#profile_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#profile_identifier DatazoneEnvironment#profile_identifier}.</summary>
         [JsiiProperty(name: "profileIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         string ProfileIdentifier
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#project_identifier DatazoneEnvironment#project_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#project_identifier DatazoneEnvironment#project_identifier}.</summary>
         [JsiiProperty(name: "projectIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectIdentifier
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#account_identifier DatazoneEnvironment#account_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#account_identifier DatazoneEnvironment#account_identifier}.</summary>
         [JsiiProperty(name: "accountIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccountIdentifier
@@ -46,7 +46,7 @@ namespace aws.DatazoneEnvironment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#account_region DatazoneEnvironment#account_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#account_region DatazoneEnvironment#account_region}.</summary>
         [JsiiProperty(name: "accountRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccountRegion
@@ -57,7 +57,7 @@ namespace aws.DatazoneEnvironment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#blueprint_identifier DatazoneEnvironment#blueprint_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#blueprint_identifier DatazoneEnvironment#blueprint_identifier}.</summary>
         [JsiiProperty(name: "blueprintIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BlueprintIdentifier
@@ -68,7 +68,7 @@ namespace aws.DatazoneEnvironment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#description DatazoneEnvironment#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#description DatazoneEnvironment#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -79,7 +79,7 @@ namespace aws.DatazoneEnvironment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#glossary_terms DatazoneEnvironment#glossary_terms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#glossary_terms DatazoneEnvironment#glossary_terms}.</summary>
         [JsiiProperty(name: "glossaryTerms", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? GlossaryTerms
@@ -92,7 +92,7 @@ namespace aws.DatazoneEnvironment
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#region DatazoneEnvironment#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#region DatazoneEnvironment#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -106,7 +106,7 @@ namespace aws.DatazoneEnvironment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#timeouts DatazoneEnvironment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#timeouts DatazoneEnvironment#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.datazoneEnvironment.DatazoneEnvironmentTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -120,7 +120,7 @@ namespace aws.DatazoneEnvironment
 
         /// <summary>user_parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#user_parameters DatazoneEnvironment#user_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#user_parameters DatazoneEnvironment#user_parameters}
         /// </remarks>
         [JsiiProperty(name: "userParameters", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datazoneEnvironment.DatazoneEnvironmentUserParameters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -139,35 +139,35 @@ namespace aws.DatazoneEnvironment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#domain_identifier DatazoneEnvironment#domain_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#domain_identifier DatazoneEnvironment#domain_identifier}.</summary>
             [JsiiProperty(name: "domainIdentifier", typeJson: "{\"primitive\":\"string\"}")]
             public string DomainIdentifier
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#name DatazoneEnvironment#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#name DatazoneEnvironment#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#profile_identifier DatazoneEnvironment#profile_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#profile_identifier DatazoneEnvironment#profile_identifier}.</summary>
             [JsiiProperty(name: "profileIdentifier", typeJson: "{\"primitive\":\"string\"}")]
             public string ProfileIdentifier
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#project_identifier DatazoneEnvironment#project_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#project_identifier DatazoneEnvironment#project_identifier}.</summary>
             [JsiiProperty(name: "projectIdentifier", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectIdentifier
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#account_identifier DatazoneEnvironment#account_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#account_identifier DatazoneEnvironment#account_identifier}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accountIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccountIdentifier
@@ -175,7 +175,7 @@ namespace aws.DatazoneEnvironment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#account_region DatazoneEnvironment#account_region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#account_region DatazoneEnvironment#account_region}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accountRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccountRegion
@@ -183,7 +183,7 @@ namespace aws.DatazoneEnvironment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#blueprint_identifier DatazoneEnvironment#blueprint_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#blueprint_identifier DatazoneEnvironment#blueprint_identifier}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "blueprintIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BlueprintIdentifier
@@ -191,7 +191,7 @@ namespace aws.DatazoneEnvironment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#description DatazoneEnvironment#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#description DatazoneEnvironment#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -199,7 +199,7 @@ namespace aws.DatazoneEnvironment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#glossary_terms DatazoneEnvironment#glossary_terms}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#glossary_terms DatazoneEnvironment#glossary_terms}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "glossaryTerms", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? GlossaryTerms
@@ -209,7 +209,7 @@ namespace aws.DatazoneEnvironment
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#region DatazoneEnvironment#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#region DatazoneEnvironment#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -220,7 +220,7 @@ namespace aws.DatazoneEnvironment
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#timeouts DatazoneEnvironment#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#timeouts DatazoneEnvironment#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.datazoneEnvironment.DatazoneEnvironmentTimeouts\"}", isOptional: true)]
@@ -231,7 +231,7 @@ namespace aws.DatazoneEnvironment
 
             /// <summary>user_parameters block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_environment#user_parameters DatazoneEnvironment#user_parameters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment#user_parameters DatazoneEnvironment#user_parameters}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "userParameters", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datazoneEnvironment.DatazoneEnvironmentUserParameters\"},\"kind\":\"array\"}}]}}", isOptional: true)]

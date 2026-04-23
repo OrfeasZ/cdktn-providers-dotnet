@@ -7,7 +7,7 @@ namespace aws.PipesPipe
     [JsiiByValue(fqn: "aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersArrayProperties")]
     public class PipesPipeTargetParametersBatchJobParametersArrayProperties : aws.PipesPipe.IPipesPipeTargetParametersBatchJobParametersArrayProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pipes_pipe#size PipesPipe#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#size PipesPipe#size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Size

@@ -7,7 +7,7 @@ namespace aws.Route53RecordsExclusive
     [JsiiInterface(nativeType: typeof(IRoute53RecordsExclusiveResourceRecordSetResourceRecords), fullyQualifiedName: "aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetResourceRecords")]
     public interface IRoute53RecordsExclusiveResourceRecordSetResourceRecords
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_records_exclusive#value Route53RecordsExclusive#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#value Route53RecordsExclusive#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -21,7 +21,7 @@ namespace aws.Route53RecordsExclusive
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_records_exclusive#value Route53RecordsExclusive#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#value Route53RecordsExclusive#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

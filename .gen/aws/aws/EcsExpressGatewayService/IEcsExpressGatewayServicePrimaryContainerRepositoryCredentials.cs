@@ -7,7 +7,7 @@ namespace aws.EcsExpressGatewayService
     [JsiiInterface(nativeType: typeof(IEcsExpressGatewayServicePrimaryContainerRepositoryCredentials), fullyQualifiedName: "aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerRepositoryCredentials")]
     public interface IEcsExpressGatewayServicePrimaryContainerRepositoryCredentials
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_express_gateway_service#credentials_parameter EcsExpressGatewayService#credentials_parameter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_express_gateway_service#credentials_parameter EcsExpressGatewayService#credentials_parameter}.</summary>
         [JsiiProperty(name: "credentialsParameter", typeJson: "{\"primitive\":\"string\"}")]
         string CredentialsParameter
         {
@@ -21,7 +21,7 @@ namespace aws.EcsExpressGatewayService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_express_gateway_service#credentials_parameter EcsExpressGatewayService#credentials_parameter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_express_gateway_service#credentials_parameter EcsExpressGatewayService#credentials_parameter}.</summary>
             [JsiiProperty(name: "credentialsParameter", typeJson: "{\"primitive\":\"string\"}")]
             public string CredentialsParameter
             {

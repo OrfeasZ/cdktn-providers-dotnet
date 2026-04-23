@@ -7,7 +7,7 @@ namespace aws.CodeartifactRepository
     [JsiiInterface(nativeType: typeof(ICodeartifactRepositoryUpstream), fullyQualifiedName: "aws.codeartifactRepository.CodeartifactRepositoryUpstream")]
     public interface ICodeartifactRepositoryUpstream
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codeartifact_repository#repository_name CodeartifactRepository#repository_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codeartifact_repository#repository_name CodeartifactRepository#repository_name}.</summary>
         [JsiiProperty(name: "repositoryName", typeJson: "{\"primitive\":\"string\"}")]
         string RepositoryName
         {
@@ -21,7 +21,7 @@ namespace aws.CodeartifactRepository
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codeartifact_repository#repository_name CodeartifactRepository#repository_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codeartifact_repository#repository_name CodeartifactRepository#repository_name}.</summary>
             [JsiiProperty(name: "repositoryName", typeJson: "{\"primitive\":\"string\"}")]
             public string RepositoryName
             {

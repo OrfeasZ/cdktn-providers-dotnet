@@ -9,7 +9,7 @@ namespace aws.DatasyncLocationSmb
     [JsiiByValue(fqn: "aws.datasyncLocationSmb.DatasyncLocationSmbConfig")]
     public class DatasyncLocationSmbConfig : aws.DatasyncLocationSmb.IDatasyncLocationSmbConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_smb#agent_arns DatasyncLocationSmb#agent_arns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_smb#agent_arns DatasyncLocationSmb#agent_arns}.</summary>
         [JsiiProperty(name: "agentArns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] AgentArns
         {
@@ -17,7 +17,7 @@ namespace aws.DatasyncLocationSmb
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_smb#password DatasyncLocationSmb#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_smb#password DatasyncLocationSmb#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         public string Password
         {
@@ -25,7 +25,7 @@ namespace aws.DatasyncLocationSmb
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_smb#server_hostname DatasyncLocationSmb#server_hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_smb#server_hostname DatasyncLocationSmb#server_hostname}.</summary>
         [JsiiProperty(name: "serverHostname", typeJson: "{\"primitive\":\"string\"}")]
         public string ServerHostname
         {
@@ -33,7 +33,7 @@ namespace aws.DatasyncLocationSmb
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_smb#subdirectory DatasyncLocationSmb#subdirectory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_smb#subdirectory DatasyncLocationSmb#subdirectory}.</summary>
         [JsiiProperty(name: "subdirectory", typeJson: "{\"primitive\":\"string\"}")]
         public string Subdirectory
         {
@@ -41,7 +41,7 @@ namespace aws.DatasyncLocationSmb
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_smb#user DatasyncLocationSmb#user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_smb#user DatasyncLocationSmb#user}.</summary>
         [JsiiProperty(name: "user", typeJson: "{\"primitive\":\"string\"}")]
         public string User
         {
@@ -49,7 +49,7 @@ namespace aws.DatasyncLocationSmb
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_smb#domain DatasyncLocationSmb#domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_smb#domain DatasyncLocationSmb#domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Domain
@@ -58,7 +58,7 @@ namespace aws.DatasyncLocationSmb
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_smb#id DatasyncLocationSmb#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_smb#id DatasyncLocationSmb#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace aws.DatasyncLocationSmb
 
         /// <summary>mount_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_smb#mount_options DatasyncLocationSmb#mount_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_smb#mount_options DatasyncLocationSmb#mount_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mountOptions", typeJson: "{\"fqn\":\"aws.datasyncLocationSmb.DatasyncLocationSmbMountOptions\"}", isOptional: true)]
@@ -85,7 +85,7 @@ namespace aws.DatasyncLocationSmb
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_smb#region DatasyncLocationSmb#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_smb#region DatasyncLocationSmb#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace aws.DatasyncLocationSmb
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_smb#tags DatasyncLocationSmb#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_smb#tags DatasyncLocationSmb#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -104,7 +104,7 @@ namespace aws.DatasyncLocationSmb
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_smb#tags_all DatasyncLocationSmb#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_smb#tags_all DatasyncLocationSmb#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll

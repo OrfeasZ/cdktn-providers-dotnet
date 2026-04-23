@@ -7,7 +7,7 @@ namespace aws.CustomerprofilesDomain
     [JsiiInterface(nativeType: typeof(ICustomerprofilesDomainRuleBasedMatchingMatchingRules), fullyQualifiedName: "aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingMatchingRules")]
     public interface ICustomerprofilesDomainRuleBasedMatchingMatchingRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/customerprofiles_domain#rule CustomerprofilesDomain#rule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#rule CustomerprofilesDomain#rule}.</summary>
         [JsiiProperty(name: "rule", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Rule
         {
@@ -21,7 +21,7 @@ namespace aws.CustomerprofilesDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/customerprofiles_domain#rule CustomerprofilesDomain#rule}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#rule CustomerprofilesDomain#rule}.</summary>
             [JsiiProperty(name: "rule", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Rule
             {

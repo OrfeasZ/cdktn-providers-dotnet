@@ -9,7 +9,7 @@ namespace aws.WafregionalWebAcl
     [JsiiByValue(fqn: "aws.wafregionalWebAcl.WafregionalWebAclRule")]
     public class WafregionalWebAclRule : aws.WafregionalWebAcl.IWafregionalWebAclRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_web_acl#priority WafregionalWebAcl#priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_web_acl#priority WafregionalWebAcl#priority}.</summary>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
         public double Priority
         {
@@ -17,7 +17,7 @@ namespace aws.WafregionalWebAcl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_web_acl#rule_id WafregionalWebAcl#rule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_web_acl#rule_id WafregionalWebAcl#rule_id}.</summary>
         [JsiiProperty(name: "ruleId", typeJson: "{\"primitive\":\"string\"}")]
         public string RuleId
         {
@@ -27,7 +27,7 @@ namespace aws.WafregionalWebAcl
 
         /// <summary>action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_web_acl#action WafregionalWebAcl#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_web_acl#action WafregionalWebAcl#action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"aws.wafregionalWebAcl.WafregionalWebAclRuleAction\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace aws.WafregionalWebAcl
 
         /// <summary>override_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_web_acl#override_action WafregionalWebAcl#override_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_web_acl#override_action WafregionalWebAcl#override_action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "overrideAction", typeJson: "{\"fqn\":\"aws.wafregionalWebAcl.WafregionalWebAclRuleOverrideAction\"}", isOptional: true)]
@@ -49,7 +49,7 @@ namespace aws.WafregionalWebAcl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_web_acl#type WafregionalWebAcl#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_web_acl#type WafregionalWebAcl#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

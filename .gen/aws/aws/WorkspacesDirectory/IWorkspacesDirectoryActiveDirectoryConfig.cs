@@ -7,14 +7,14 @@ namespace aws.WorkspacesDirectory
     [JsiiInterface(nativeType: typeof(IWorkspacesDirectoryActiveDirectoryConfig), fullyQualifiedName: "aws.workspacesDirectory.WorkspacesDirectoryActiveDirectoryConfig")]
     public interface IWorkspacesDirectoryActiveDirectoryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspaces_directory#domain_name WorkspacesDirectory#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspaces_directory#domain_name WorkspacesDirectory#domain_name}.</summary>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         string DomainName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspaces_directory#service_account_secret_arn WorkspacesDirectory#service_account_secret_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspaces_directory#service_account_secret_arn WorkspacesDirectory#service_account_secret_arn}.</summary>
         [JsiiProperty(name: "serviceAccountSecretArn", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceAccountSecretArn
         {
@@ -28,14 +28,14 @@ namespace aws.WorkspacesDirectory
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspaces_directory#domain_name WorkspacesDirectory#domain_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspaces_directory#domain_name WorkspacesDirectory#domain_name}.</summary>
             [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
             public string DomainName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspaces_directory#service_account_secret_arn WorkspacesDirectory#service_account_secret_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspaces_directory#service_account_secret_arn WorkspacesDirectory#service_account_secret_arn}.</summary>
             [JsiiProperty(name: "serviceAccountSecretArn", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceAccountSecretArn
             {

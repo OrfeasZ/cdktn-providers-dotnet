@@ -9,7 +9,7 @@ namespace aws.ApprunnerService
     [JsiiByValue(fqn: "aws.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValues")]
     public class ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValues : aws.ApprunnerService.IApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValues
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apprunner_service#runtime ApprunnerService#runtime}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#runtime ApprunnerService#runtime}.</summary>
         [JsiiProperty(name: "runtime", typeJson: "{\"primitive\":\"string\"}")]
         public string Runtime
         {
@@ -17,7 +17,7 @@ namespace aws.ApprunnerService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apprunner_service#build_command ApprunnerService#build_command}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#build_command ApprunnerService#build_command}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "buildCommand", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BuildCommand
@@ -26,7 +26,7 @@ namespace aws.ApprunnerService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apprunner_service#port ApprunnerService#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#port ApprunnerService#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Port
@@ -35,7 +35,7 @@ namespace aws.ApprunnerService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apprunner_service#runtime_environment_secrets ApprunnerService#runtime_environment_secrets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#runtime_environment_secrets ApprunnerService#runtime_environment_secrets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "runtimeEnvironmentSecrets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? RuntimeEnvironmentSecrets
@@ -44,7 +44,7 @@ namespace aws.ApprunnerService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apprunner_service#runtime_environment_variables ApprunnerService#runtime_environment_variables}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#runtime_environment_variables ApprunnerService#runtime_environment_variables}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "runtimeEnvironmentVariables", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? RuntimeEnvironmentVariables
@@ -53,7 +53,7 @@ namespace aws.ApprunnerService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apprunner_service#start_command ApprunnerService#start_command}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#start_command ApprunnerService#start_command}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "startCommand", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StartCommand

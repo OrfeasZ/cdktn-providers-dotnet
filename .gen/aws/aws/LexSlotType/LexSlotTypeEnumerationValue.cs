@@ -9,7 +9,7 @@ namespace aws.LexSlotType
     [JsiiByValue(fqn: "aws.lexSlotType.LexSlotTypeEnumerationValue")]
     public class LexSlotTypeEnumerationValue : aws.LexSlotType.ILexSlotTypeEnumerationValue
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_slot_type#value LexSlotType#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_slot_type#value LexSlotType#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {
@@ -17,7 +17,7 @@ namespace aws.LexSlotType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_slot_type#synonyms LexSlotType#synonyms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_slot_type#synonyms LexSlotType#synonyms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "synonyms", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Synonyms

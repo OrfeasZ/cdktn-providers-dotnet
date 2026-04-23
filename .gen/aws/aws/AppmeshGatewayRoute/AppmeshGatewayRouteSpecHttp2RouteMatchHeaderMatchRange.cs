@@ -9,7 +9,7 @@ namespace aws.AppmeshGatewayRoute
     [JsiiByValue(fqn: "aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttp2RouteMatchHeaderMatchRange")]
     public class AppmeshGatewayRouteSpecHttp2RouteMatchHeaderMatchRange : aws.AppmeshGatewayRoute.IAppmeshGatewayRouteSpecHttp2RouteMatchHeaderMatchRange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_gateway_route#end AppmeshGatewayRoute#end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_gateway_route#end AppmeshGatewayRoute#end}.</summary>
         [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"number\"}")]
         public double End
         {
@@ -17,7 +17,7 @@ namespace aws.AppmeshGatewayRoute
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_gateway_route#start AppmeshGatewayRoute#start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_gateway_route#start AppmeshGatewayRoute#start}.</summary>
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"number\"}")]
         public double Start
         {

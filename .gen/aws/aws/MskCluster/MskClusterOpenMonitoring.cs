@@ -11,7 +11,7 @@ namespace aws.MskCluster
     {
         /// <summary>prometheus block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_cluster#prometheus MskCluster#prometheus}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#prometheus MskCluster#prometheus}
         /// </remarks>
         [JsiiProperty(name: "prometheus", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterOpenMonitoringPrometheus\"}")]
         public aws.MskCluster.IMskClusterOpenMonitoringPrometheus Prometheus

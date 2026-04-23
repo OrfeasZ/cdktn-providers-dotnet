@@ -7,7 +7,7 @@ namespace aws.GlobalacceleratorAccelerator
     [JsiiByValue(fqn: "aws.globalacceleratorAccelerator.GlobalacceleratorAcceleratorTimeouts")]
     public class GlobalacceleratorAcceleratorTimeouts : aws.GlobalacceleratorAccelerator.IGlobalacceleratorAcceleratorTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/globalaccelerator_accelerator#create GlobalacceleratorAccelerator#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/globalaccelerator_accelerator#create GlobalacceleratorAccelerator#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.GlobalacceleratorAccelerator
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/globalaccelerator_accelerator#update GlobalacceleratorAccelerator#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/globalaccelerator_accelerator#update GlobalacceleratorAccelerator#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

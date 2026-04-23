@@ -9,7 +9,7 @@ namespace aws.QuicksightRefreshSchedule
     [JsiiByValue(fqn: "aws.quicksightRefreshSchedule.QuicksightRefreshScheduleSchedule")]
     public class QuicksightRefreshScheduleSchedule : aws.QuicksightRefreshSchedule.IQuicksightRefreshScheduleSchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_refresh_schedule#refresh_type QuicksightRefreshSchedule#refresh_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_refresh_schedule#refresh_type QuicksightRefreshSchedule#refresh_type}.</summary>
         [JsiiProperty(name: "refreshType", typeJson: "{\"primitive\":\"string\"}")]
         public string RefreshType
         {
@@ -21,7 +21,7 @@ namespace aws.QuicksightRefreshSchedule
 
         /// <summary>schedule_frequency block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_refresh_schedule#schedule_frequency QuicksightRefreshSchedule#schedule_frequency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_refresh_schedule#schedule_frequency QuicksightRefreshSchedule#schedule_frequency}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scheduleFrequency", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleScheduleFrequency\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace aws.QuicksightRefreshSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_refresh_schedule#start_after_date_time QuicksightRefreshSchedule#start_after_date_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_refresh_schedule#start_after_date_time QuicksightRefreshSchedule#start_after_date_time}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "startAfterDateTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StartAfterDateTime

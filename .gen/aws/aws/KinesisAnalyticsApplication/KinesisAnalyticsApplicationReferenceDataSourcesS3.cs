@@ -9,7 +9,7 @@ namespace aws.KinesisAnalyticsApplication
     [JsiiByValue(fqn: "aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationReferenceDataSourcesS3")]
     public class KinesisAnalyticsApplicationReferenceDataSourcesS3 : aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationReferenceDataSourcesS3
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kinesis_analytics_application#bucket_arn KinesisAnalyticsApplication#bucket_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#bucket_arn KinesisAnalyticsApplication#bucket_arn}.</summary>
         [JsiiProperty(name: "bucketArn", typeJson: "{\"primitive\":\"string\"}")]
         public string BucketArn
         {
@@ -17,7 +17,7 @@ namespace aws.KinesisAnalyticsApplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kinesis_analytics_application#file_key KinesisAnalyticsApplication#file_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#file_key KinesisAnalyticsApplication#file_key}.</summary>
         [JsiiProperty(name: "fileKey", typeJson: "{\"primitive\":\"string\"}")]
         public string FileKey
         {
@@ -25,7 +25,7 @@ namespace aws.KinesisAnalyticsApplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kinesis_analytics_application#role_arn KinesisAnalyticsApplication#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#role_arn KinesisAnalyticsApplication#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleArn
         {

@@ -9,7 +9,7 @@ namespace aws.DataAwsResourceexplorer2Search
     [JsiiByValue(fqn: "aws.dataAwsResourceexplorer2Search.DataAwsResourceexplorer2SearchConfig")]
     public class DataAwsResourceexplorer2SearchConfig : aws.DataAwsResourceexplorer2Search.IDataAwsResourceexplorer2SearchConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/resourceexplorer2_search#query_string DataAwsResourceexplorer2Search#query_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/resourceexplorer2_search#query_string DataAwsResourceexplorer2Search#query_string}.</summary>
         [JsiiProperty(name: "queryString", typeJson: "{\"primitive\":\"string\"}")]
         public string QueryString
         {
@@ -19,7 +19,7 @@ namespace aws.DataAwsResourceexplorer2Search
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/resourceexplorer2_search#region DataAwsResourceexplorer2Search#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/resourceexplorer2_search#region DataAwsResourceexplorer2Search#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace aws.DataAwsResourceexplorer2Search
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/resourceexplorer2_search#view_arn DataAwsResourceexplorer2Search#view_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/resourceexplorer2_search#view_arn DataAwsResourceexplorer2Search#view_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "viewArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ViewArn

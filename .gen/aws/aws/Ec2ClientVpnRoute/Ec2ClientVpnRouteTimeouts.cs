@@ -7,7 +7,7 @@ namespace aws.Ec2ClientVpnRoute
     [JsiiByValue(fqn: "aws.ec2ClientVpnRoute.Ec2ClientVpnRouteTimeouts")]
     public class Ec2ClientVpnRouteTimeouts : aws.Ec2ClientVpnRoute.IEc2ClientVpnRouteTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ec2_client_vpn_route#create Ec2ClientVpnRoute#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_client_vpn_route#create Ec2ClientVpnRoute#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.Ec2ClientVpnRoute
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ec2_client_vpn_route#delete Ec2ClientVpnRoute#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_client_vpn_route#delete Ec2ClientVpnRoute#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

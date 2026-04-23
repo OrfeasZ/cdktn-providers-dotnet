@@ -9,7 +9,7 @@ namespace aws.MwaaEnvironment
     [JsiiByValue(fqn: "aws.mwaaEnvironment.MwaaEnvironmentNetworkConfiguration")]
     public class MwaaEnvironmentNetworkConfiguration : aws.MwaaEnvironment.IMwaaEnvironmentNetworkConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/mwaa_environment#security_group_ids MwaaEnvironment#security_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mwaa_environment#security_group_ids MwaaEnvironment#security_group_ids}.</summary>
         [JsiiProperty(name: "securityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SecurityGroupIds
         {
@@ -17,7 +17,7 @@ namespace aws.MwaaEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/mwaa_environment#subnet_ids MwaaEnvironment#subnet_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mwaa_environment#subnet_ids MwaaEnvironment#subnet_ids}.</summary>
         [JsiiProperty(name: "subnetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SubnetIds
         {

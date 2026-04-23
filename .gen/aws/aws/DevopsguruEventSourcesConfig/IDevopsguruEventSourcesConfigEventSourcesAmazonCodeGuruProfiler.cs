@@ -7,7 +7,7 @@ namespace aws.DevopsguruEventSourcesConfig
     [JsiiInterface(nativeType: typeof(IDevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfiler), fullyQualifiedName: "aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfiler")]
     public interface IDevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfiler
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/devopsguru_event_sources_config#status DevopsguruEventSourcesConfig#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_event_sources_config#status DevopsguruEventSourcesConfig#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         string Status
         {
@@ -21,7 +21,7 @@ namespace aws.DevopsguruEventSourcesConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/devopsguru_event_sources_config#status DevopsguruEventSourcesConfig#status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_event_sources_config#status DevopsguruEventSourcesConfig#status}.</summary>
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
             public string Status
             {

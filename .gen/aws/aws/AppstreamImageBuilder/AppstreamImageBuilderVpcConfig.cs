@@ -7,7 +7,7 @@ namespace aws.AppstreamImageBuilder
     [JsiiByValue(fqn: "aws.appstreamImageBuilder.AppstreamImageBuilderVpcConfig")]
     public class AppstreamImageBuilderVpcConfig : aws.AppstreamImageBuilder.IAppstreamImageBuilderVpcConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appstream_image_builder#security_group_ids AppstreamImageBuilder#security_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_image_builder#security_group_ids AppstreamImageBuilder#security_group_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SecurityGroupIds
@@ -16,7 +16,7 @@ namespace aws.AppstreamImageBuilder
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appstream_image_builder#subnet_ids AppstreamImageBuilder#subnet_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_image_builder#subnet_ids AppstreamImageBuilder#subnet_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subnetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SubnetIds

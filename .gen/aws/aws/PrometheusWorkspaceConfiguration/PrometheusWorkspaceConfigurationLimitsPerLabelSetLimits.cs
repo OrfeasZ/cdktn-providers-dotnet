@@ -9,7 +9,7 @@ namespace aws.PrometheusWorkspaceConfiguration
     [JsiiByValue(fqn: "aws.prometheusWorkspaceConfiguration.PrometheusWorkspaceConfigurationLimitsPerLabelSetLimits")]
     public class PrometheusWorkspaceConfigurationLimitsPerLabelSetLimits : aws.PrometheusWorkspaceConfiguration.IPrometheusWorkspaceConfigurationLimitsPerLabelSetLimits
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/prometheus_workspace_configuration#max_series PrometheusWorkspaceConfiguration#max_series}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/prometheus_workspace_configuration#max_series PrometheusWorkspaceConfiguration#max_series}.</summary>
         [JsiiProperty(name: "maxSeries", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxSeries
         {

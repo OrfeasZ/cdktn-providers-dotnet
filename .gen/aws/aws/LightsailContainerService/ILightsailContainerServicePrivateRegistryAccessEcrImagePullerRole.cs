@@ -7,7 +7,7 @@ namespace aws.LightsailContainerService
     [JsiiInterface(nativeType: typeof(ILightsailContainerServicePrivateRegistryAccessEcrImagePullerRole), fullyQualifiedName: "aws.lightsailContainerService.LightsailContainerServicePrivateRegistryAccessEcrImagePullerRole")]
     public interface ILightsailContainerServicePrivateRegistryAccessEcrImagePullerRole
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_container_service#is_active LightsailContainerService#is_active}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#is_active LightsailContainerService#is_active}.</summary>
         [JsiiProperty(name: "isActive", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? IsActive
@@ -25,7 +25,7 @@ namespace aws.LightsailContainerService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_container_service#is_active LightsailContainerService#is_active}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#is_active LightsailContainerService#is_active}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "isActive", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? IsActive

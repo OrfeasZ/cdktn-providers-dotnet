@@ -9,7 +9,7 @@ namespace aws.Lexv2ModelsSlotType
     [JsiiByValue(fqn: "aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeSlotTypeValuesSampleValue")]
     public class Lexv2ModelsSlotTypeSlotTypeValuesSampleValue : aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeSlotTypeValuesSampleValue
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_slot_type#value Lexv2ModelsSlotType#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot_type#value Lexv2ModelsSlotType#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

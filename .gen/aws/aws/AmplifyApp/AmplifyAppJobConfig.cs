@@ -7,7 +7,7 @@ namespace aws.AmplifyApp
     [JsiiByValue(fqn: "aws.amplifyApp.AmplifyAppJobConfig")]
     public class AmplifyAppJobConfig : aws.AmplifyApp.IAmplifyAppJobConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/amplify_app#build_compute_type AmplifyApp#build_compute_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/amplify_app#build_compute_type AmplifyApp#build_compute_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "buildComputeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BuildComputeType

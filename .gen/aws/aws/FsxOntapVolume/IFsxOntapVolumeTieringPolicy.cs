@@ -7,7 +7,7 @@ namespace aws.FsxOntapVolume
     [JsiiInterface(nativeType: typeof(IFsxOntapVolumeTieringPolicy), fullyQualifiedName: "aws.fsxOntapVolume.FsxOntapVolumeTieringPolicy")]
     public interface IFsxOntapVolumeTieringPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_ontap_volume#cooling_period FsxOntapVolume#cooling_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_ontap_volume#cooling_period FsxOntapVolume#cooling_period}.</summary>
         [JsiiProperty(name: "coolingPeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? CoolingPeriod
@@ -18,7 +18,7 @@ namespace aws.FsxOntapVolume
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_ontap_volume#name FsxOntapVolume#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_ontap_volume#name FsxOntapVolume#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -36,7 +36,7 @@ namespace aws.FsxOntapVolume
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_ontap_volume#cooling_period FsxOntapVolume#cooling_period}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_ontap_volume#cooling_period FsxOntapVolume#cooling_period}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "coolingPeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? CoolingPeriod
@@ -44,7 +44,7 @@ namespace aws.FsxOntapVolume
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_ontap_volume#name FsxOntapVolume#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_ontap_volume#name FsxOntapVolume#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name

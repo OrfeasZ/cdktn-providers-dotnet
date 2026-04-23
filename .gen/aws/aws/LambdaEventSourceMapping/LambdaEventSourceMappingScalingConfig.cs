@@ -7,7 +7,7 @@ namespace aws.LambdaEventSourceMapping
     [JsiiByValue(fqn: "aws.lambdaEventSourceMapping.LambdaEventSourceMappingScalingConfig")]
     public class LambdaEventSourceMappingScalingConfig : aws.LambdaEventSourceMapping.ILambdaEventSourceMappingScalingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_event_source_mapping#maximum_concurrency LambdaEventSourceMapping#maximum_concurrency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_event_source_mapping#maximum_concurrency LambdaEventSourceMapping#maximum_concurrency}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maximumConcurrency", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaximumConcurrency

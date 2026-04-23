@@ -7,7 +7,7 @@ namespace aws.S3Bucket
     [JsiiByValue(fqn: "aws.s3Bucket.S3BucketWebsite")]
     public class S3BucketWebsite : aws.S3Bucket.IS3BucketWebsite
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket#error_document S3Bucket#error_document}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#error_document S3Bucket#error_document}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "errorDocument", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ErrorDocument
@@ -16,7 +16,7 @@ namespace aws.S3Bucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket#index_document S3Bucket#index_document}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#index_document S3Bucket#index_document}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "indexDocument", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IndexDocument
@@ -25,7 +25,7 @@ namespace aws.S3Bucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket#redirect_all_requests_to S3Bucket#redirect_all_requests_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#redirect_all_requests_to S3Bucket#redirect_all_requests_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "redirectAllRequestsTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RedirectAllRequestsTo
@@ -34,7 +34,7 @@ namespace aws.S3Bucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket#routing_rules S3Bucket#routing_rules}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#routing_rules S3Bucket#routing_rules}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingRules", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingRules

@@ -7,7 +7,7 @@ namespace aws.GuarddutyInviteAccepter
     [JsiiByValue(fqn: "aws.guarddutyInviteAccepter.GuarddutyInviteAccepterTimeouts")]
     public class GuarddutyInviteAccepterTimeouts : aws.GuarddutyInviteAccepter.IGuarddutyInviteAccepterTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/guardduty_invite_accepter#create GuarddutyInviteAccepter#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_invite_accepter#create GuarddutyInviteAccepter#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create

@@ -9,7 +9,7 @@ namespace aws.EmrserverlessApplication
     [JsiiByValue(fqn: "aws.emrserverlessApplication.EmrserverlessApplicationRuntimeConfiguration")]
     public class EmrserverlessApplicationRuntimeConfiguration : aws.EmrserverlessApplication.IEmrserverlessApplicationRuntimeConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/emrserverless_application#classification EmrserverlessApplication#classification}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrserverless_application#classification EmrserverlessApplication#classification}.</summary>
         [JsiiProperty(name: "classification", typeJson: "{\"primitive\":\"string\"}")]
         public string Classification
         {
@@ -17,7 +17,7 @@ namespace aws.EmrserverlessApplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/emrserverless_application#properties EmrserverlessApplication#properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrserverless_application#properties EmrserverlessApplication#properties}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "properties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Properties

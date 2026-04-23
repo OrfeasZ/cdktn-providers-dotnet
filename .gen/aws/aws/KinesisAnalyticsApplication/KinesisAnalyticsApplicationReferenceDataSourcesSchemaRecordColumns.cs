@@ -9,7 +9,7 @@ namespace aws.KinesisAnalyticsApplication
     [JsiiByValue(fqn: "aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationReferenceDataSourcesSchemaRecordColumns")]
     public class KinesisAnalyticsApplicationReferenceDataSourcesSchemaRecordColumns : aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationReferenceDataSourcesSchemaRecordColumns
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kinesis_analytics_application#name KinesisAnalyticsApplication#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#name KinesisAnalyticsApplication#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.KinesisAnalyticsApplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kinesis_analytics_application#sql_type KinesisAnalyticsApplication#sql_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#sql_type KinesisAnalyticsApplication#sql_type}.</summary>
         [JsiiProperty(name: "sqlType", typeJson: "{\"primitive\":\"string\"}")]
         public string SqlType
         {
@@ -25,7 +25,7 @@ namespace aws.KinesisAnalyticsApplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kinesis_analytics_application#mapping KinesisAnalyticsApplication#mapping}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#mapping KinesisAnalyticsApplication#mapping}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mapping", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Mapping

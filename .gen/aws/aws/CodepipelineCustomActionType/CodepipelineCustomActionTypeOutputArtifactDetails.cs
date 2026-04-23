@@ -9,7 +9,7 @@ namespace aws.CodepipelineCustomActionType
     [JsiiByValue(fqn: "aws.codepipelineCustomActionType.CodepipelineCustomActionTypeOutputArtifactDetails")]
     public class CodepipelineCustomActionTypeOutputArtifactDetails : aws.CodepipelineCustomActionType.ICodepipelineCustomActionTypeOutputArtifactDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline_custom_action_type#maximum_count CodepipelineCustomActionType#maximum_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline_custom_action_type#maximum_count CodepipelineCustomActionType#maximum_count}.</summary>
         [JsiiProperty(name: "maximumCount", typeJson: "{\"primitive\":\"number\"}")]
         public double MaximumCount
         {
@@ -17,7 +17,7 @@ namespace aws.CodepipelineCustomActionType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline_custom_action_type#minimum_count CodepipelineCustomActionType#minimum_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline_custom_action_type#minimum_count CodepipelineCustomActionType#minimum_count}.</summary>
         [JsiiProperty(name: "minimumCount", typeJson: "{\"primitive\":\"number\"}")]
         public double MinimumCount
         {

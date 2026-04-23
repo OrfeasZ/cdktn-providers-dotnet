@@ -9,7 +9,7 @@ namespace aws.StoragegatewayGateway
     [JsiiByValue(fqn: "aws.storagegatewayGateway.StoragegatewayGatewayMaintenanceStartTime")]
     public class StoragegatewayGatewayMaintenanceStartTime : aws.StoragegatewayGateway.IStoragegatewayGatewayMaintenanceStartTime
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/storagegateway_gateway#hour_of_day StoragegatewayGateway#hour_of_day}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/storagegateway_gateway#hour_of_day StoragegatewayGateway#hour_of_day}.</summary>
         [JsiiProperty(name: "hourOfDay", typeJson: "{\"primitive\":\"number\"}")]
         public double HourOfDay
         {
@@ -17,7 +17,7 @@ namespace aws.StoragegatewayGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/storagegateway_gateway#day_of_month StoragegatewayGateway#day_of_month}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/storagegateway_gateway#day_of_month StoragegatewayGateway#day_of_month}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dayOfMonth", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DayOfMonth
@@ -26,7 +26,7 @@ namespace aws.StoragegatewayGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/storagegateway_gateway#day_of_week StoragegatewayGateway#day_of_week}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/storagegateway_gateway#day_of_week StoragegatewayGateway#day_of_week}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dayOfWeek", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DayOfWeek
@@ -35,7 +35,7 @@ namespace aws.StoragegatewayGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/storagegateway_gateway#minute_of_hour StoragegatewayGateway#minute_of_hour}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/storagegateway_gateway#minute_of_hour StoragegatewayGateway#minute_of_hour}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minuteOfHour", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinuteOfHour

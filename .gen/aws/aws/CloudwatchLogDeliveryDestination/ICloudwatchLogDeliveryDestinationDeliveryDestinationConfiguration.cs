@@ -7,7 +7,7 @@ namespace aws.CloudwatchLogDeliveryDestination
     [JsiiInterface(nativeType: typeof(ICloudwatchLogDeliveryDestinationDeliveryDestinationConfiguration), fullyQualifiedName: "aws.cloudwatchLogDeliveryDestination.CloudwatchLogDeliveryDestinationDeliveryDestinationConfiguration")]
     public interface ICloudwatchLogDeliveryDestinationDeliveryDestinationConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_log_delivery_destination#destination_resource_arn CloudwatchLogDeliveryDestination#destination_resource_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_log_delivery_destination#destination_resource_arn CloudwatchLogDeliveryDestination#destination_resource_arn}.</summary>
         [JsiiProperty(name: "destinationResourceArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DestinationResourceArn
@@ -25,7 +25,7 @@ namespace aws.CloudwatchLogDeliveryDestination
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_log_delivery_destination#destination_resource_arn CloudwatchLogDeliveryDestination#destination_resource_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_log_delivery_destination#destination_resource_arn CloudwatchLogDeliveryDestination#destination_resource_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "destinationResourceArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DestinationResourceArn

@@ -9,7 +9,7 @@ namespace aws.ServiceDiscoveryService
     {
         /// <summary>dns_records block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/service_discovery_service#dns_records ServiceDiscoveryService#dns_records}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/service_discovery_service#dns_records ServiceDiscoveryService#dns_records}
         /// </remarks>
         [JsiiProperty(name: "dnsRecords", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.serviceDiscoveryService.ServiceDiscoveryServiceDnsConfigDnsRecords\"},\"kind\":\"array\"}}]}}")]
         object DnsRecords
@@ -17,14 +17,14 @@ namespace aws.ServiceDiscoveryService
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/service_discovery_service#namespace_id ServiceDiscoveryService#namespace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/service_discovery_service#namespace_id ServiceDiscoveryService#namespace_id}.</summary>
         [JsiiProperty(name: "namespaceId", typeJson: "{\"primitive\":\"string\"}")]
         string NamespaceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/service_discovery_service#routing_policy ServiceDiscoveryService#routing_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/service_discovery_service#routing_policy ServiceDiscoveryService#routing_policy}.</summary>
         [JsiiProperty(name: "routingPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RoutingPolicy
@@ -44,7 +44,7 @@ namespace aws.ServiceDiscoveryService
 
             /// <summary>dns_records block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/service_discovery_service#dns_records ServiceDiscoveryService#dns_records}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/service_discovery_service#dns_records ServiceDiscoveryService#dns_records}
             /// </remarks>
             [JsiiProperty(name: "dnsRecords", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.serviceDiscoveryService.ServiceDiscoveryServiceDnsConfigDnsRecords\"},\"kind\":\"array\"}}]}}")]
             public object DnsRecords
@@ -52,14 +52,14 @@ namespace aws.ServiceDiscoveryService
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/service_discovery_service#namespace_id ServiceDiscoveryService#namespace_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/service_discovery_service#namespace_id ServiceDiscoveryService#namespace_id}.</summary>
             [JsiiProperty(name: "namespaceId", typeJson: "{\"primitive\":\"string\"}")]
             public string NamespaceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/service_discovery_service#routing_policy ServiceDiscoveryService#routing_policy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/service_discovery_service#routing_policy ServiceDiscoveryService#routing_policy}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "routingPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RoutingPolicy

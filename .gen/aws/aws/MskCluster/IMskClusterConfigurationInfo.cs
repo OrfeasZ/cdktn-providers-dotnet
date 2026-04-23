@@ -7,14 +7,14 @@ namespace aws.MskCluster
     [JsiiInterface(nativeType: typeof(IMskClusterConfigurationInfo), fullyQualifiedName: "aws.mskCluster.MskClusterConfigurationInfo")]
     public interface IMskClusterConfigurationInfo
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_cluster#arn MskCluster#arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#arn MskCluster#arn}.</summary>
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
         string Arn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_cluster#revision MskCluster#revision}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#revision MskCluster#revision}.</summary>
         [JsiiProperty(name: "revision", typeJson: "{\"primitive\":\"number\"}")]
         double Revision
         {
@@ -28,14 +28,14 @@ namespace aws.MskCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_cluster#arn MskCluster#arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#arn MskCluster#arn}.</summary>
             [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
             public string Arn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_cluster#revision MskCluster#revision}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#revision MskCluster#revision}.</summary>
             [JsiiProperty(name: "revision", typeJson: "{\"primitive\":\"number\"}")]
             public double Revision
             {

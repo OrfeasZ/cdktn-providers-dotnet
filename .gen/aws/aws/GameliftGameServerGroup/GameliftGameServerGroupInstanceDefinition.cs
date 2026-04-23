@@ -9,7 +9,7 @@ namespace aws.GameliftGameServerGroup
     [JsiiByValue(fqn: "aws.gameliftGameServerGroup.GameliftGameServerGroupInstanceDefinition")]
     public class GameliftGameServerGroupInstanceDefinition : aws.GameliftGameServerGroup.IGameliftGameServerGroupInstanceDefinition
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/gamelift_game_server_group#instance_type GameliftGameServerGroup#instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_game_server_group#instance_type GameliftGameServerGroup#instance_type}.</summary>
         [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceType
         {
@@ -17,7 +17,7 @@ namespace aws.GameliftGameServerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/gamelift_game_server_group#weighted_capacity GameliftGameServerGroup#weighted_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_game_server_group#weighted_capacity GameliftGameServerGroup#weighted_capacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "weightedCapacity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WeightedCapacity

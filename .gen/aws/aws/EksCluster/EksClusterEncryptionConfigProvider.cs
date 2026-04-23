@@ -9,7 +9,7 @@ namespace aws.EksCluster
     [JsiiByValue(fqn: "aws.eksCluster.EksClusterEncryptionConfigProvider")]
     public class EksClusterEncryptionConfigProvider : aws.EksCluster.IEksClusterEncryptionConfigProvider
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_cluster#key_arn EksCluster#key_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_cluster#key_arn EksCluster#key_arn}.</summary>
         [JsiiProperty(name: "keyArn", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyArn
         {

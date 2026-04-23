@@ -7,14 +7,14 @@ namespace aws.LbTargetGroup
     [JsiiInterface(nativeType: typeof(ILbTargetGroupTargetFailover), fullyQualifiedName: "aws.lbTargetGroup.LbTargetGroupTargetFailover")]
     public interface ILbTargetGroupTargetFailover
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_target_group#on_deregistration LbTargetGroup#on_deregistration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#on_deregistration LbTargetGroup#on_deregistration}.</summary>
         [JsiiProperty(name: "onDeregistration", typeJson: "{\"primitive\":\"string\"}")]
         string OnDeregistration
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_target_group#on_unhealthy LbTargetGroup#on_unhealthy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#on_unhealthy LbTargetGroup#on_unhealthy}.</summary>
         [JsiiProperty(name: "onUnhealthy", typeJson: "{\"primitive\":\"string\"}")]
         string OnUnhealthy
         {
@@ -28,14 +28,14 @@ namespace aws.LbTargetGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_target_group#on_deregistration LbTargetGroup#on_deregistration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#on_deregistration LbTargetGroup#on_deregistration}.</summary>
             [JsiiProperty(name: "onDeregistration", typeJson: "{\"primitive\":\"string\"}")]
             public string OnDeregistration
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_target_group#on_unhealthy LbTargetGroup#on_unhealthy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#on_unhealthy LbTargetGroup#on_unhealthy}.</summary>
             [JsiiProperty(name: "onUnhealthy", typeJson: "{\"primitive\":\"string\"}")]
             public string OnUnhealthy
             {

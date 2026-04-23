@@ -7,7 +7,7 @@ namespace aws.PrometheusWorkspaceConfiguration
     [JsiiInterface(nativeType: typeof(IPrometheusWorkspaceConfigurationLimitsPerLabelSetLimits), fullyQualifiedName: "aws.prometheusWorkspaceConfiguration.PrometheusWorkspaceConfigurationLimitsPerLabelSetLimits")]
     public interface IPrometheusWorkspaceConfigurationLimitsPerLabelSetLimits
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/prometheus_workspace_configuration#max_series PrometheusWorkspaceConfiguration#max_series}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/prometheus_workspace_configuration#max_series PrometheusWorkspaceConfiguration#max_series}.</summary>
         [JsiiProperty(name: "maxSeries", typeJson: "{\"primitive\":\"number\"}")]
         double MaxSeries
         {
@@ -21,7 +21,7 @@ namespace aws.PrometheusWorkspaceConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/prometheus_workspace_configuration#max_series PrometheusWorkspaceConfiguration#max_series}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/prometheus_workspace_configuration#max_series PrometheusWorkspaceConfiguration#max_series}.</summary>
             [JsiiProperty(name: "maxSeries", typeJson: "{\"primitive\":\"number\"}")]
             public double MaxSeries
             {

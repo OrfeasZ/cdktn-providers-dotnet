@@ -35,6 +35,12 @@ namespace aws.OdbNetwork
         {
         }
 
+        [JsiiProperty(name: "crossRegionS3RestoreSourcesAccess", typeJson: "{\"fqn\":\"aws.odbNetwork.OdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccessList\"}")]
+        public virtual aws.OdbNetwork.OdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccessList CrossRegionS3RestoreSourcesAccess
+        {
+            get => GetInstanceProperty<aws.OdbNetwork.OdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccessList>()!;
+        }
+
         [JsiiProperty(name: "kmsAccess", typeJson: "{\"fqn\":\"aws.odbNetwork.OdbNetworkManagedServicesKmsAccessList\"}")]
         public virtual aws.OdbNetwork.OdbNetworkManagedServicesKmsAccessList KmsAccess
         {

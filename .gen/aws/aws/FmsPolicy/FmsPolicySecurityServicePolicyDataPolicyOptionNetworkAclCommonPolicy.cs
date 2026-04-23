@@ -9,7 +9,7 @@ namespace aws.FmsPolicy
     {
         /// <summary>network_acl_entry_set block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fms_policy#network_acl_entry_set FmsPolicy#network_acl_entry_set}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_policy#network_acl_entry_set FmsPolicy#network_acl_entry_set}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkAclEntrySet", typeJson: "{\"fqn\":\"aws.fmsPolicy.FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySet\"}", isOptional: true)]

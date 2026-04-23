@@ -7,7 +7,7 @@ namespace aws.CodebuildFleet
     [JsiiInterface(nativeType: typeof(ICodebuildFleetScalingConfigurationTargetTrackingScalingConfigs), fullyQualifiedName: "aws.codebuildFleet.CodebuildFleetScalingConfigurationTargetTrackingScalingConfigs")]
     public interface ICodebuildFleetScalingConfigurationTargetTrackingScalingConfigs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_fleet#metric_type CodebuildFleet#metric_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#metric_type CodebuildFleet#metric_type}.</summary>
         [JsiiProperty(name: "metricType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MetricType
@@ -18,7 +18,7 @@ namespace aws.CodebuildFleet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_fleet#target_value CodebuildFleet#target_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#target_value CodebuildFleet#target_value}.</summary>
         [JsiiProperty(name: "targetValue", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TargetValue
@@ -36,7 +36,7 @@ namespace aws.CodebuildFleet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_fleet#metric_type CodebuildFleet#metric_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#metric_type CodebuildFleet#metric_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "metricType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MetricType
@@ -44,7 +44,7 @@ namespace aws.CodebuildFleet
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_fleet#target_value CodebuildFleet#target_value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#target_value CodebuildFleet#target_value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetValue", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TargetValue

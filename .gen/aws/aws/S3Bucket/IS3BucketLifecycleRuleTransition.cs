@@ -7,14 +7,14 @@ namespace aws.S3Bucket
     [JsiiInterface(nativeType: typeof(IS3BucketLifecycleRuleTransition), fullyQualifiedName: "aws.s3Bucket.S3BucketLifecycleRuleTransition")]
     public interface IS3BucketLifecycleRuleTransition
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}.</summary>
         [JsiiProperty(name: "storageClass", typeJson: "{\"primitive\":\"string\"}")]
         string StorageClass
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket#date S3Bucket#date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#date S3Bucket#date}.</summary>
         [JsiiProperty(name: "date", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Date
@@ -25,7 +25,7 @@ namespace aws.S3Bucket
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket#days S3Bucket#days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#days S3Bucket#days}.</summary>
         [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Days
@@ -43,14 +43,14 @@ namespace aws.S3Bucket
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}.</summary>
             [JsiiProperty(name: "storageClass", typeJson: "{\"primitive\":\"string\"}")]
             public string StorageClass
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket#date S3Bucket#date}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#date S3Bucket#date}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "date", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Date
@@ -58,7 +58,7 @@ namespace aws.S3Bucket
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket#days S3Bucket#days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#days S3Bucket#days}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Days

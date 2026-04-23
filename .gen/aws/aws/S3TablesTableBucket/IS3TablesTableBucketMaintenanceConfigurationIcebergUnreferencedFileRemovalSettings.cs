@@ -7,7 +7,7 @@ namespace aws.S3TablesTableBucket
     [JsiiInterface(nativeType: typeof(IS3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemovalSettings), fullyQualifiedName: "aws.s3TablesTableBucket.S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemovalSettings")]
     public interface IS3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemovalSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3tables_table_bucket#non_current_days S3TablesTableBucket#non_current_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table_bucket#non_current_days S3TablesTableBucket#non_current_days}.</summary>
         [JsiiProperty(name: "nonCurrentDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? NonCurrentDays
@@ -18,7 +18,7 @@ namespace aws.S3TablesTableBucket
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3tables_table_bucket#unreferenced_days S3TablesTableBucket#unreferenced_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table_bucket#unreferenced_days S3TablesTableBucket#unreferenced_days}.</summary>
         [JsiiProperty(name: "unreferencedDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? UnreferencedDays
@@ -36,7 +36,7 @@ namespace aws.S3TablesTableBucket
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3tables_table_bucket#non_current_days S3TablesTableBucket#non_current_days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table_bucket#non_current_days S3TablesTableBucket#non_current_days}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nonCurrentDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? NonCurrentDays
@@ -44,7 +44,7 @@ namespace aws.S3TablesTableBucket
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3tables_table_bucket#unreferenced_days S3TablesTableBucket#unreferenced_days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table_bucket#unreferenced_days S3TablesTableBucket#unreferenced_days}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "unreferencedDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? UnreferencedDays

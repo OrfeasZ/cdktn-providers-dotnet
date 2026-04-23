@@ -7,7 +7,7 @@ namespace aws.AppflowFlow
     [JsiiInterface(nativeType: typeof(IAppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataPaginationConfig), fullyQualifiedName: "aws.appflowFlow.AppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataPaginationConfig")]
     public interface IAppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataPaginationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#max_page_size AppflowFlow#max_page_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#max_page_size AppflowFlow#max_page_size}.</summary>
         [JsiiProperty(name: "maxPageSize", typeJson: "{\"primitive\":\"number\"}")]
         double MaxPageSize
         {
@@ -21,7 +21,7 @@ namespace aws.AppflowFlow
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#max_page_size AppflowFlow#max_page_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#max_page_size AppflowFlow#max_page_size}.</summary>
             [JsiiProperty(name: "maxPageSize", typeJson: "{\"primitive\":\"number\"}")]
             public double MaxPageSize
             {

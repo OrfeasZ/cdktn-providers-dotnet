@@ -7,7 +7,7 @@ namespace aws.SagemakerLabelingJob
     [JsiiInterface(nativeType: typeof(ISagemakerLabelingJobStoppingConditions), fullyQualifiedName: "aws.sagemakerLabelingJob.SagemakerLabelingJobStoppingConditions")]
     public interface ISagemakerLabelingJobStoppingConditions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_labeling_job#max_human_labeled_object_count SagemakerLabelingJob#max_human_labeled_object_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_labeling_job#max_human_labeled_object_count SagemakerLabelingJob#max_human_labeled_object_count}.</summary>
         [JsiiProperty(name: "maxHumanLabeledObjectCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxHumanLabeledObjectCount
@@ -18,7 +18,7 @@ namespace aws.SagemakerLabelingJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_labeling_job#max_percentage_of_input_dataset_labeled SagemakerLabelingJob#max_percentage_of_input_dataset_labeled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_labeling_job#max_percentage_of_input_dataset_labeled SagemakerLabelingJob#max_percentage_of_input_dataset_labeled}.</summary>
         [JsiiProperty(name: "maxPercentageOfInputDatasetLabeled", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxPercentageOfInputDatasetLabeled
@@ -36,7 +36,7 @@ namespace aws.SagemakerLabelingJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_labeling_job#max_human_labeled_object_count SagemakerLabelingJob#max_human_labeled_object_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_labeling_job#max_human_labeled_object_count SagemakerLabelingJob#max_human_labeled_object_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxHumanLabeledObjectCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxHumanLabeledObjectCount
@@ -44,7 +44,7 @@ namespace aws.SagemakerLabelingJob
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_labeling_job#max_percentage_of_input_dataset_labeled SagemakerLabelingJob#max_percentage_of_input_dataset_labeled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_labeling_job#max_percentage_of_input_dataset_labeled SagemakerLabelingJob#max_percentage_of_input_dataset_labeled}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxPercentageOfInputDatasetLabeled", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxPercentageOfInputDatasetLabeled

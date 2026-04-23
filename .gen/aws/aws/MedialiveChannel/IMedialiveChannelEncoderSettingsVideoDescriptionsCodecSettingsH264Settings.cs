@@ -7,7 +7,7 @@ namespace aws.MedialiveChannel
     [JsiiInterface(nativeType: typeof(IMedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Settings), fullyQualifiedName: "aws.medialiveChannel.MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Settings")]
     public interface IMedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Settings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#adaptive_quantization MedialiveChannel#adaptive_quantization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#adaptive_quantization MedialiveChannel#adaptive_quantization}.</summary>
         [JsiiProperty(name: "adaptiveQuantization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AdaptiveQuantization
@@ -18,7 +18,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#afd_signaling MedialiveChannel#afd_signaling}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#afd_signaling MedialiveChannel#afd_signaling}.</summary>
         [JsiiProperty(name: "afdSignaling", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AfdSignaling
@@ -29,7 +29,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#bitrate MedialiveChannel#bitrate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#bitrate MedialiveChannel#bitrate}.</summary>
         [JsiiProperty(name: "bitrate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Bitrate
@@ -40,7 +40,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#buf_fill_pct MedialiveChannel#buf_fill_pct}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#buf_fill_pct MedialiveChannel#buf_fill_pct}.</summary>
         [JsiiProperty(name: "bufFillPct", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BufFillPct
@@ -51,7 +51,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#buf_size MedialiveChannel#buf_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#buf_size MedialiveChannel#buf_size}.</summary>
         [JsiiProperty(name: "bufSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BufSize
@@ -62,7 +62,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#color_metadata MedialiveChannel#color_metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#color_metadata MedialiveChannel#color_metadata}.</summary>
         [JsiiProperty(name: "colorMetadata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ColorMetadata
@@ -73,7 +73,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#entropy_encoding MedialiveChannel#entropy_encoding}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#entropy_encoding MedialiveChannel#entropy_encoding}.</summary>
         [JsiiProperty(name: "entropyEncoding", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EntropyEncoding
@@ -86,7 +86,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>filter_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#filter_settings MedialiveChannel#filter_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#filter_settings MedialiveChannel#filter_settings}
         /// </remarks>
         [JsiiProperty(name: "filterSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -98,7 +98,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#fixed_afd MedialiveChannel#fixed_afd}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#fixed_afd MedialiveChannel#fixed_afd}.</summary>
         [JsiiProperty(name: "fixedAfd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FixedAfd
@@ -109,7 +109,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#flicker_aq MedialiveChannel#flicker_aq}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#flicker_aq MedialiveChannel#flicker_aq}.</summary>
         [JsiiProperty(name: "flickerAq", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FlickerAq
@@ -120,7 +120,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#force_field_pictures MedialiveChannel#force_field_pictures}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#force_field_pictures MedialiveChannel#force_field_pictures}.</summary>
         [JsiiProperty(name: "forceFieldPictures", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ForceFieldPictures
@@ -131,7 +131,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#framerate_control MedialiveChannel#framerate_control}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#framerate_control MedialiveChannel#framerate_control}.</summary>
         [JsiiProperty(name: "framerateControl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FramerateControl
@@ -142,7 +142,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#framerate_denominator MedialiveChannel#framerate_denominator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#framerate_denominator MedialiveChannel#framerate_denominator}.</summary>
         [JsiiProperty(name: "framerateDenominator", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? FramerateDenominator
@@ -153,7 +153,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#framerate_numerator MedialiveChannel#framerate_numerator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#framerate_numerator MedialiveChannel#framerate_numerator}.</summary>
         [JsiiProperty(name: "framerateNumerator", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? FramerateNumerator
@@ -164,7 +164,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#gop_b_reference MedialiveChannel#gop_b_reference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#gop_b_reference MedialiveChannel#gop_b_reference}.</summary>
         [JsiiProperty(name: "gopBReference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GopBReference
@@ -175,7 +175,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#gop_closed_cadence MedialiveChannel#gop_closed_cadence}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#gop_closed_cadence MedialiveChannel#gop_closed_cadence}.</summary>
         [JsiiProperty(name: "gopClosedCadence", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? GopClosedCadence
@@ -186,7 +186,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#gop_num_b_frames MedialiveChannel#gop_num_b_frames}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#gop_num_b_frames MedialiveChannel#gop_num_b_frames}.</summary>
         [JsiiProperty(name: "gopNumBFrames", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? GopNumBFrames
@@ -197,7 +197,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#gop_size MedialiveChannel#gop_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#gop_size MedialiveChannel#gop_size}.</summary>
         [JsiiProperty(name: "gopSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? GopSize
@@ -208,7 +208,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#gop_size_units MedialiveChannel#gop_size_units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#gop_size_units MedialiveChannel#gop_size_units}.</summary>
         [JsiiProperty(name: "gopSizeUnits", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GopSizeUnits
@@ -219,7 +219,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#level MedialiveChannel#level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#level MedialiveChannel#level}.</summary>
         [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Level
@@ -230,7 +230,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#look_ahead_rate_control MedialiveChannel#look_ahead_rate_control}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#look_ahead_rate_control MedialiveChannel#look_ahead_rate_control}.</summary>
         [JsiiProperty(name: "lookAheadRateControl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LookAheadRateControl
@@ -241,7 +241,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#max_bitrate MedialiveChannel#max_bitrate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#max_bitrate MedialiveChannel#max_bitrate}.</summary>
         [JsiiProperty(name: "maxBitrate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxBitrate
@@ -252,7 +252,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#min_i_interval MedialiveChannel#min_i_interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#min_i_interval MedialiveChannel#min_i_interval}.</summary>
         [JsiiProperty(name: "minIInterval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MinIInterval
@@ -263,7 +263,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#num_ref_frames MedialiveChannel#num_ref_frames}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#num_ref_frames MedialiveChannel#num_ref_frames}.</summary>
         [JsiiProperty(name: "numRefFrames", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? NumRefFrames
@@ -274,7 +274,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#par_control MedialiveChannel#par_control}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#par_control MedialiveChannel#par_control}.</summary>
         [JsiiProperty(name: "parControl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ParControl
@@ -285,7 +285,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#par_denominator MedialiveChannel#par_denominator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#par_denominator MedialiveChannel#par_denominator}.</summary>
         [JsiiProperty(name: "parDenominator", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ParDenominator
@@ -296,7 +296,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#par_numerator MedialiveChannel#par_numerator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#par_numerator MedialiveChannel#par_numerator}.</summary>
         [JsiiProperty(name: "parNumerator", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ParNumerator
@@ -307,7 +307,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#profile MedialiveChannel#profile}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#profile MedialiveChannel#profile}.</summary>
         [JsiiProperty(name: "profile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Profile
@@ -318,7 +318,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#quality_level MedialiveChannel#quality_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#quality_level MedialiveChannel#quality_level}.</summary>
         [JsiiProperty(name: "qualityLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? QualityLevel
@@ -329,7 +329,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#qvbr_quality_level MedialiveChannel#qvbr_quality_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#qvbr_quality_level MedialiveChannel#qvbr_quality_level}.</summary>
         [JsiiProperty(name: "qvbrQualityLevel", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? QvbrQualityLevel
@@ -340,7 +340,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#rate_control_mode MedialiveChannel#rate_control_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#rate_control_mode MedialiveChannel#rate_control_mode}.</summary>
         [JsiiProperty(name: "rateControlMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RateControlMode
@@ -351,7 +351,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#scan_type MedialiveChannel#scan_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#scan_type MedialiveChannel#scan_type}.</summary>
         [JsiiProperty(name: "scanType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ScanType
@@ -362,7 +362,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#scene_change_detect MedialiveChannel#scene_change_detect}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#scene_change_detect MedialiveChannel#scene_change_detect}.</summary>
         [JsiiProperty(name: "sceneChangeDetect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SceneChangeDetect
@@ -373,7 +373,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#slices MedialiveChannel#slices}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#slices MedialiveChannel#slices}.</summary>
         [JsiiProperty(name: "slices", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Slices
@@ -384,7 +384,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#softness MedialiveChannel#softness}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#softness MedialiveChannel#softness}.</summary>
         [JsiiProperty(name: "softness", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Softness
@@ -395,7 +395,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#spatial_aq MedialiveChannel#spatial_aq}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#spatial_aq MedialiveChannel#spatial_aq}.</summary>
         [JsiiProperty(name: "spatialAq", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SpatialAq
@@ -406,7 +406,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#subgop_length MedialiveChannel#subgop_length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#subgop_length MedialiveChannel#subgop_length}.</summary>
         [JsiiProperty(name: "subgopLength", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SubgopLength
@@ -417,7 +417,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#syntax MedialiveChannel#syntax}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#syntax MedialiveChannel#syntax}.</summary>
         [JsiiProperty(name: "syntax", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Syntax
@@ -428,7 +428,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#temporal_aq MedialiveChannel#temporal_aq}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#temporal_aq MedialiveChannel#temporal_aq}.</summary>
         [JsiiProperty(name: "temporalAq", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TemporalAq
@@ -439,7 +439,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#timecode_insertion MedialiveChannel#timecode_insertion}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#timecode_insertion MedialiveChannel#timecode_insertion}.</summary>
         [JsiiProperty(name: "timecodeInsertion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimecodeInsertion
@@ -457,7 +457,7 @@ namespace aws.MedialiveChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#adaptive_quantization MedialiveChannel#adaptive_quantization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#adaptive_quantization MedialiveChannel#adaptive_quantization}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "adaptiveQuantization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AdaptiveQuantization
@@ -465,7 +465,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#afd_signaling MedialiveChannel#afd_signaling}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#afd_signaling MedialiveChannel#afd_signaling}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "afdSignaling", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AfdSignaling
@@ -473,7 +473,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#bitrate MedialiveChannel#bitrate}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#bitrate MedialiveChannel#bitrate}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bitrate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Bitrate
@@ -481,7 +481,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#buf_fill_pct MedialiveChannel#buf_fill_pct}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#buf_fill_pct MedialiveChannel#buf_fill_pct}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bufFillPct", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BufFillPct
@@ -489,7 +489,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#buf_size MedialiveChannel#buf_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#buf_size MedialiveChannel#buf_size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bufSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BufSize
@@ -497,7 +497,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#color_metadata MedialiveChannel#color_metadata}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#color_metadata MedialiveChannel#color_metadata}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "colorMetadata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ColorMetadata
@@ -505,7 +505,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#entropy_encoding MedialiveChannel#entropy_encoding}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#entropy_encoding MedialiveChannel#entropy_encoding}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "entropyEncoding", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EntropyEncoding
@@ -515,7 +515,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>filter_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#filter_settings MedialiveChannel#filter_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#filter_settings MedialiveChannel#filter_settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "filterSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettings\"}", isOptional: true)]
@@ -524,7 +524,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<aws.MedialiveChannel.IMedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettings?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#fixed_afd MedialiveChannel#fixed_afd}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#fixed_afd MedialiveChannel#fixed_afd}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fixedAfd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FixedAfd
@@ -532,7 +532,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#flicker_aq MedialiveChannel#flicker_aq}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#flicker_aq MedialiveChannel#flicker_aq}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "flickerAq", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FlickerAq
@@ -540,7 +540,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#force_field_pictures MedialiveChannel#force_field_pictures}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#force_field_pictures MedialiveChannel#force_field_pictures}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "forceFieldPictures", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ForceFieldPictures
@@ -548,7 +548,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#framerate_control MedialiveChannel#framerate_control}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#framerate_control MedialiveChannel#framerate_control}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "framerateControl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FramerateControl
@@ -556,7 +556,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#framerate_denominator MedialiveChannel#framerate_denominator}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#framerate_denominator MedialiveChannel#framerate_denominator}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "framerateDenominator", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? FramerateDenominator
@@ -564,7 +564,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#framerate_numerator MedialiveChannel#framerate_numerator}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#framerate_numerator MedialiveChannel#framerate_numerator}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "framerateNumerator", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? FramerateNumerator
@@ -572,7 +572,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#gop_b_reference MedialiveChannel#gop_b_reference}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#gop_b_reference MedialiveChannel#gop_b_reference}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "gopBReference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GopBReference
@@ -580,7 +580,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#gop_closed_cadence MedialiveChannel#gop_closed_cadence}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#gop_closed_cadence MedialiveChannel#gop_closed_cadence}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "gopClosedCadence", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? GopClosedCadence
@@ -588,7 +588,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#gop_num_b_frames MedialiveChannel#gop_num_b_frames}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#gop_num_b_frames MedialiveChannel#gop_num_b_frames}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "gopNumBFrames", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? GopNumBFrames
@@ -596,7 +596,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#gop_size MedialiveChannel#gop_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#gop_size MedialiveChannel#gop_size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "gopSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? GopSize
@@ -604,7 +604,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#gop_size_units MedialiveChannel#gop_size_units}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#gop_size_units MedialiveChannel#gop_size_units}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "gopSizeUnits", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GopSizeUnits
@@ -612,7 +612,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#level MedialiveChannel#level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#level MedialiveChannel#level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Level
@@ -620,7 +620,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#look_ahead_rate_control MedialiveChannel#look_ahead_rate_control}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#look_ahead_rate_control MedialiveChannel#look_ahead_rate_control}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lookAheadRateControl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LookAheadRateControl
@@ -628,7 +628,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#max_bitrate MedialiveChannel#max_bitrate}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#max_bitrate MedialiveChannel#max_bitrate}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxBitrate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxBitrate
@@ -636,7 +636,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#min_i_interval MedialiveChannel#min_i_interval}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#min_i_interval MedialiveChannel#min_i_interval}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "minIInterval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MinIInterval
@@ -644,7 +644,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#num_ref_frames MedialiveChannel#num_ref_frames}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#num_ref_frames MedialiveChannel#num_ref_frames}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "numRefFrames", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? NumRefFrames
@@ -652,7 +652,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#par_control MedialiveChannel#par_control}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#par_control MedialiveChannel#par_control}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "parControl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ParControl
@@ -660,7 +660,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#par_denominator MedialiveChannel#par_denominator}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#par_denominator MedialiveChannel#par_denominator}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "parDenominator", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ParDenominator
@@ -668,7 +668,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#par_numerator MedialiveChannel#par_numerator}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#par_numerator MedialiveChannel#par_numerator}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "parNumerator", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ParNumerator
@@ -676,7 +676,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#profile MedialiveChannel#profile}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#profile MedialiveChannel#profile}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "profile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Profile
@@ -684,7 +684,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#quality_level MedialiveChannel#quality_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#quality_level MedialiveChannel#quality_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "qualityLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? QualityLevel
@@ -692,7 +692,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#qvbr_quality_level MedialiveChannel#qvbr_quality_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#qvbr_quality_level MedialiveChannel#qvbr_quality_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "qvbrQualityLevel", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? QvbrQualityLevel
@@ -700,7 +700,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#rate_control_mode MedialiveChannel#rate_control_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#rate_control_mode MedialiveChannel#rate_control_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "rateControlMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RateControlMode
@@ -708,7 +708,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#scan_type MedialiveChannel#scan_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#scan_type MedialiveChannel#scan_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scanType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ScanType
@@ -716,7 +716,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#scene_change_detect MedialiveChannel#scene_change_detect}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#scene_change_detect MedialiveChannel#scene_change_detect}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sceneChangeDetect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SceneChangeDetect
@@ -724,7 +724,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#slices MedialiveChannel#slices}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#slices MedialiveChannel#slices}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "slices", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Slices
@@ -732,7 +732,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#softness MedialiveChannel#softness}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#softness MedialiveChannel#softness}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "softness", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Softness
@@ -740,7 +740,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#spatial_aq MedialiveChannel#spatial_aq}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#spatial_aq MedialiveChannel#spatial_aq}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "spatialAq", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SpatialAq
@@ -748,7 +748,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#subgop_length MedialiveChannel#subgop_length}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#subgop_length MedialiveChannel#subgop_length}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subgopLength", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SubgopLength
@@ -756,7 +756,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#syntax MedialiveChannel#syntax}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#syntax MedialiveChannel#syntax}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "syntax", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Syntax
@@ -764,7 +764,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#temporal_aq MedialiveChannel#temporal_aq}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#temporal_aq MedialiveChannel#temporal_aq}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "temporalAq", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TemporalAq
@@ -772,7 +772,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#timecode_insertion MedialiveChannel#timecode_insertion}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#timecode_insertion MedialiveChannel#timecode_insertion}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timecodeInsertion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimecodeInsertion

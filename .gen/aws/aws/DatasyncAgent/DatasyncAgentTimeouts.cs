@@ -7,7 +7,7 @@ namespace aws.DatasyncAgent
     [JsiiByValue(fqn: "aws.datasyncAgent.DatasyncAgentTimeouts")]
     public class DatasyncAgentTimeouts : aws.DatasyncAgent.IDatasyncAgentTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_agent#create DatasyncAgent#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_agent#create DatasyncAgent#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create

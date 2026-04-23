@@ -7,7 +7,7 @@ namespace aws.SagemakerFeatureGroup
     [JsiiInterface(nativeType: typeof(ISagemakerFeatureGroupFeatureDefinitionCollectionConfigVectorConfig), fullyQualifiedName: "aws.sagemakerFeatureGroup.SagemakerFeatureGroupFeatureDefinitionCollectionConfigVectorConfig")]
     public interface ISagemakerFeatureGroupFeatureDefinitionCollectionConfigVectorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_feature_group#dimension SagemakerFeatureGroup#dimension}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#dimension SagemakerFeatureGroup#dimension}.</summary>
         [JsiiProperty(name: "dimension", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Dimension
@@ -25,7 +25,7 @@ namespace aws.SagemakerFeatureGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_feature_group#dimension SagemakerFeatureGroup#dimension}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#dimension SagemakerFeatureGroup#dimension}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dimension", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Dimension

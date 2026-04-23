@@ -9,7 +9,7 @@ namespace aws.EksCluster
     {
         /// <summary>block_storage block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_cluster#block_storage EksCluster#block_storage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_cluster#block_storage EksCluster#block_storage}
         /// </remarks>
         [JsiiProperty(name: "blockStorage", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterStorageConfigBlockStorage\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.EksCluster
 
             /// <summary>block_storage block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_cluster#block_storage EksCluster#block_storage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_cluster#block_storage EksCluster#block_storage}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "blockStorage", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterStorageConfigBlockStorage\"}", isOptional: true)]

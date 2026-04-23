@@ -9,7 +9,7 @@ namespace aws.DirectoryServiceTrust
     [JsiiByValue(fqn: "aws.directoryServiceTrust.DirectoryServiceTrustConfig")]
     public class DirectoryServiceTrustConfig : aws.DirectoryServiceTrust.IDirectoryServiceTrustConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_trust#directory_id DirectoryServiceTrust#directory_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_trust#directory_id DirectoryServiceTrust#directory_id}.</summary>
         [JsiiProperty(name: "directoryId", typeJson: "{\"primitive\":\"string\"}")]
         public string DirectoryId
         {
@@ -17,7 +17,7 @@ namespace aws.DirectoryServiceTrust
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_trust#remote_domain_name DirectoryServiceTrust#remote_domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_trust#remote_domain_name DirectoryServiceTrust#remote_domain_name}.</summary>
         [JsiiProperty(name: "remoteDomainName", typeJson: "{\"primitive\":\"string\"}")]
         public string RemoteDomainName
         {
@@ -25,7 +25,7 @@ namespace aws.DirectoryServiceTrust
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_trust#trust_direction DirectoryServiceTrust#trust_direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_trust#trust_direction DirectoryServiceTrust#trust_direction}.</summary>
         [JsiiProperty(name: "trustDirection", typeJson: "{\"primitive\":\"string\"}")]
         public string TrustDirection
         {
@@ -33,7 +33,7 @@ namespace aws.DirectoryServiceTrust
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_trust#trust_password DirectoryServiceTrust#trust_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_trust#trust_password DirectoryServiceTrust#trust_password}.</summary>
         [JsiiProperty(name: "trustPassword", typeJson: "{\"primitive\":\"string\"}")]
         public string TrustPassword
         {
@@ -41,7 +41,7 @@ namespace aws.DirectoryServiceTrust
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_trust#conditional_forwarder_ip_addrs DirectoryServiceTrust#conditional_forwarder_ip_addrs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_trust#conditional_forwarder_ip_addrs DirectoryServiceTrust#conditional_forwarder_ip_addrs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "conditionalForwarderIpAddrs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ConditionalForwarderIpAddrs
@@ -52,7 +52,7 @@ namespace aws.DirectoryServiceTrust
 
         private object? _deleteAssociatedConditionalForwarder;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_trust#delete_associated_conditional_forwarder DirectoryServiceTrust#delete_associated_conditional_forwarder}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_trust#delete_associated_conditional_forwarder DirectoryServiceTrust#delete_associated_conditional_forwarder}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deleteAssociatedConditionalForwarder", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? DeleteAssociatedConditionalForwarder
@@ -83,7 +83,7 @@ namespace aws.DirectoryServiceTrust
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_trust#region DirectoryServiceTrust#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_trust#region DirectoryServiceTrust#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -93,7 +93,7 @@ namespace aws.DirectoryServiceTrust
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_trust#selective_auth DirectoryServiceTrust#selective_auth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_trust#selective_auth DirectoryServiceTrust#selective_auth}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "selectiveAuth", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SelectiveAuth
@@ -102,7 +102,7 @@ namespace aws.DirectoryServiceTrust
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_trust#trust_type DirectoryServiceTrust#trust_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_trust#trust_type DirectoryServiceTrust#trust_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "trustType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TrustType

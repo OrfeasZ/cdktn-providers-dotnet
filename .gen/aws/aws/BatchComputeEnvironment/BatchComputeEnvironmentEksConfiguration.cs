@@ -9,7 +9,7 @@ namespace aws.BatchComputeEnvironment
     [JsiiByValue(fqn: "aws.batchComputeEnvironment.BatchComputeEnvironmentEksConfiguration")]
     public class BatchComputeEnvironmentEksConfiguration : aws.BatchComputeEnvironment.IBatchComputeEnvironmentEksConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_compute_environment#eks_cluster_arn BatchComputeEnvironment#eks_cluster_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#eks_cluster_arn BatchComputeEnvironment#eks_cluster_arn}.</summary>
         [JsiiProperty(name: "eksClusterArn", typeJson: "{\"primitive\":\"string\"}")]
         public string EksClusterArn
         {
@@ -17,7 +17,7 @@ namespace aws.BatchComputeEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_compute_environment#kubernetes_namespace BatchComputeEnvironment#kubernetes_namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#kubernetes_namespace BatchComputeEnvironment#kubernetes_namespace}.</summary>
         [JsiiProperty(name: "kubernetesNamespace", typeJson: "{\"primitive\":\"string\"}")]
         public string KubernetesNamespace
         {

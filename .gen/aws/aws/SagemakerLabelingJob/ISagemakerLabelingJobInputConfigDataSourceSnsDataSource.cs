@@ -7,7 +7,7 @@ namespace aws.SagemakerLabelingJob
     [JsiiInterface(nativeType: typeof(ISagemakerLabelingJobInputConfigDataSourceSnsDataSource), fullyQualifiedName: "aws.sagemakerLabelingJob.SagemakerLabelingJobInputConfigDataSourceSnsDataSource")]
     public interface ISagemakerLabelingJobInputConfigDataSourceSnsDataSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_labeling_job#sns_topic_arn SagemakerLabelingJob#sns_topic_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_labeling_job#sns_topic_arn SagemakerLabelingJob#sns_topic_arn}.</summary>
         [JsiiProperty(name: "snsTopicArn", typeJson: "{\"primitive\":\"string\"}")]
         string SnsTopicArn
         {
@@ -21,7 +21,7 @@ namespace aws.SagemakerLabelingJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_labeling_job#sns_topic_arn SagemakerLabelingJob#sns_topic_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_labeling_job#sns_topic_arn SagemakerLabelingJob#sns_topic_arn}.</summary>
             [JsiiProperty(name: "snsTopicArn", typeJson: "{\"primitive\":\"string\"}")]
             public string SnsTopicArn
             {

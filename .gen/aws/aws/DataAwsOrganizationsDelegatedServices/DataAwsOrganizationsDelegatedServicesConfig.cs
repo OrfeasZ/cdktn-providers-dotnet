@@ -9,7 +9,7 @@ namespace aws.DataAwsOrganizationsDelegatedServices
     [JsiiByValue(fqn: "aws.dataAwsOrganizationsDelegatedServices.DataAwsOrganizationsDelegatedServicesConfig")]
     public class DataAwsOrganizationsDelegatedServicesConfig : aws.DataAwsOrganizationsDelegatedServices.IDataAwsOrganizationsDelegatedServicesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/organizations_delegated_services#account_id DataAwsOrganizationsDelegatedServices#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/organizations_delegated_services#account_id DataAwsOrganizationsDelegatedServices#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsOrganizationsDelegatedServices
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/organizations_delegated_services#id DataAwsOrganizationsDelegatedServices#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/organizations_delegated_services#id DataAwsOrganizationsDelegatedServices#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

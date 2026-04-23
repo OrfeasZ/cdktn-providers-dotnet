@@ -7,7 +7,7 @@ namespace aws.QuicksightDashboard
     [JsiiByValue(fqn: "aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsAdHocFilteringOption")]
     public class QuicksightDashboardDashboardPublishOptionsAdHocFilteringOption : aws.QuicksightDashboard.IQuicksightDashboardDashboardPublishOptionsAdHocFilteringOption
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AvailabilityStatus

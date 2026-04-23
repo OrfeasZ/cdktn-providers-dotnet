@@ -7,7 +7,7 @@ namespace aws.EmrcontainersJobTemplate
     [JsiiInterface(nativeType: typeof(IEmrcontainersJobTemplateTimeouts), fullyQualifiedName: "aws.emrcontainersJobTemplate.EmrcontainersJobTemplateTimeouts")]
     public interface IEmrcontainersJobTemplateTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/emrcontainers_job_template#delete EmrcontainersJobTemplate#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrcontainers_job_template#delete EmrcontainersJobTemplate#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -25,7 +25,7 @@ namespace aws.EmrcontainersJobTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/emrcontainers_job_template#delete EmrcontainersJobTemplate#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrcontainers_job_template#delete EmrcontainersJobTemplate#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete

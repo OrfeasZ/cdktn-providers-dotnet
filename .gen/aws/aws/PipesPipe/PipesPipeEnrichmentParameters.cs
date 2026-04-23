@@ -9,7 +9,7 @@ namespace aws.PipesPipe
     {
         /// <summary>http_parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pipes_pipe#http_parameters PipesPipe#http_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#http_parameters PipesPipe#http_parameters}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpParameters", typeJson: "{\"fqn\":\"aws.pipesPipe.PipesPipeEnrichmentParametersHttpParameters\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace aws.PipesPipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pipes_pipe#input_template PipesPipe#input_template}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#input_template PipesPipe#input_template}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "inputTemplate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InputTemplate

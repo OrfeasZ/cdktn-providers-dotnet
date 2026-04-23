@@ -7,7 +7,7 @@ namespace aws.WafregionalWebAclAssociation
     [JsiiInterface(nativeType: typeof(IWafregionalWebAclAssociationTimeouts), fullyQualifiedName: "aws.wafregionalWebAclAssociation.WafregionalWebAclAssociationTimeouts")]
     public interface IWafregionalWebAclAssociationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_web_acl_association#create WafregionalWebAclAssociation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_web_acl_association#create WafregionalWebAclAssociation#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -25,7 +25,7 @@ namespace aws.WafregionalWebAclAssociation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_web_acl_association#create WafregionalWebAclAssociation#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_web_acl_association#create WafregionalWebAclAssociation#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create

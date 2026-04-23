@@ -7,14 +7,14 @@ namespace aws.Route53Record
     [JsiiInterface(nativeType: typeof(IRoute53RecordCidrRoutingPolicy), fullyQualifiedName: "aws.route53Record.Route53RecordCidrRoutingPolicy")]
     public interface IRoute53RecordCidrRoutingPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_record#collection_id Route53Record#collection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_record#collection_id Route53Record#collection_id}.</summary>
         [JsiiProperty(name: "collectionId", typeJson: "{\"primitive\":\"string\"}")]
         string CollectionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_record#location_name Route53Record#location_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_record#location_name Route53Record#location_name}.</summary>
         [JsiiProperty(name: "locationName", typeJson: "{\"primitive\":\"string\"}")]
         string LocationName
         {
@@ -28,14 +28,14 @@ namespace aws.Route53Record
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_record#collection_id Route53Record#collection_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_record#collection_id Route53Record#collection_id}.</summary>
             [JsiiProperty(name: "collectionId", typeJson: "{\"primitive\":\"string\"}")]
             public string CollectionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_record#location_name Route53Record#location_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_record#location_name Route53Record#location_name}.</summary>
             [JsiiProperty(name: "locationName", typeJson: "{\"primitive\":\"string\"}")]
             public string LocationName
             {

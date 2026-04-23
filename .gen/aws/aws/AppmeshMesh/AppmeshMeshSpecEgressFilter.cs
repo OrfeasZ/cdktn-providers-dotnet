@@ -7,7 +7,7 @@ namespace aws.AppmeshMesh
     [JsiiByValue(fqn: "aws.appmeshMesh.AppmeshMeshSpecEgressFilter")]
     public class AppmeshMeshSpecEgressFilter : aws.AppmeshMesh.IAppmeshMeshSpecEgressFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appmesh_mesh#type AppmeshMesh#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_mesh#type AppmeshMesh#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

@@ -9,7 +9,7 @@ namespace aws.Route53DomainsDomain
     [JsiiByValue(fqn: "aws.route53DomainsDomain.Route53DomainsDomainRegistrantContactExtraParam")]
     public class Route53DomainsDomainRegistrantContactExtraParam : aws.Route53DomainsDomain.IRoute53DomainsDomainRegistrantContactExtraParam
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53domains_domain#name Route53DomainsDomain#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_domain#name Route53DomainsDomain#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.Route53DomainsDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53domains_domain#value Route53DomainsDomain#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_domain#value Route53DomainsDomain#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

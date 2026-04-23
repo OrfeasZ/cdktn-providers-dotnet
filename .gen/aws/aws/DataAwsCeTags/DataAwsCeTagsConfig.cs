@@ -11,7 +11,7 @@ namespace aws.DataAwsCeTags
     {
         /// <summary>time_period block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ce_tags#time_period DataAwsCeTags#time_period}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ce_tags#time_period DataAwsCeTags#time_period}
         /// </remarks>
         [JsiiProperty(name: "timePeriod", typeJson: "{\"fqn\":\"aws.dataAwsCeTags.DataAwsCeTagsTimePeriod\"}")]
         public aws.DataAwsCeTags.IDataAwsCeTagsTimePeriod TimePeriod
@@ -22,7 +22,7 @@ namespace aws.DataAwsCeTags
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ce_tags#filter DataAwsCeTags#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ce_tags#filter DataAwsCeTags#filter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"aws.dataAwsCeTags.DataAwsCeTagsFilter\"}", isOptional: true)]
@@ -32,7 +32,7 @@ namespace aws.DataAwsCeTags
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ce_tags#id DataAwsCeTags#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ce_tags#id DataAwsCeTags#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,7 +45,7 @@ namespace aws.DataAwsCeTags
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ce_tags#search_string DataAwsCeTags#search_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ce_tags#search_string DataAwsCeTags#search_string}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "searchString", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SearchString
@@ -58,7 +58,7 @@ namespace aws.DataAwsCeTags
 
         /// <summary>sort_by block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ce_tags#sort_by DataAwsCeTags#sort_by}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ce_tags#sort_by DataAwsCeTags#sort_by}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sortBy", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsCeTags.DataAwsCeTagsSortBy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -88,7 +88,7 @@ namespace aws.DataAwsCeTags
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ce_tags#tag_key DataAwsCeTags#tag_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ce_tags#tag_key DataAwsCeTags#tag_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TagKey

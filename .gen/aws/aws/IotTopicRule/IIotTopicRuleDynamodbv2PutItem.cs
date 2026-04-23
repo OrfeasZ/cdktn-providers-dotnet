@@ -7,7 +7,7 @@ namespace aws.IotTopicRule
     [JsiiInterface(nativeType: typeof(IIotTopicRuleDynamodbv2PutItem), fullyQualifiedName: "aws.iotTopicRule.IotTopicRuleDynamodbv2PutItem")]
     public interface IIotTopicRuleDynamodbv2PutItem
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#table_name IotTopicRule#table_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#table_name IotTopicRule#table_name}.</summary>
         [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}")]
         string TableName
         {
@@ -21,7 +21,7 @@ namespace aws.IotTopicRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#table_name IotTopicRule#table_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#table_name IotTopicRule#table_name}.</summary>
             [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}")]
             public string TableName
             {

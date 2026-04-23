@@ -9,7 +9,7 @@ namespace aws.SagemakerWorkteam
     {
         /// <summary>s3_presign block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_workteam#s3_presign SagemakerWorkteam#s3_presign}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workteam#s3_presign SagemakerWorkteam#s3_presign}
         /// </remarks>
         [JsiiProperty(name: "s3Presign", typeJson: "{\"fqn\":\"aws.sagemakerWorkteam.SagemakerWorkteamWorkerAccessConfigurationS3Presign\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.SagemakerWorkteam
 
             /// <summary>s3_presign block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_workteam#s3_presign SagemakerWorkteam#s3_presign}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workteam#s3_presign SagemakerWorkteam#s3_presign}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3Presign", typeJson: "{\"fqn\":\"aws.sagemakerWorkteam.SagemakerWorkteamWorkerAccessConfigurationS3Presign\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.M2Environment
     [JsiiByValue(fqn: "aws.m2Environment.M2EnvironmentHighAvailabilityConfig")]
     public class M2EnvironmentHighAvailabilityConfig : aws.M2Environment.IM2EnvironmentHighAvailabilityConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/m2_environment#desired_capacity M2Environment#desired_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/m2_environment#desired_capacity M2Environment#desired_capacity}.</summary>
         [JsiiProperty(name: "desiredCapacity", typeJson: "{\"primitive\":\"number\"}")]
         public double DesiredCapacity
         {

@@ -9,7 +9,7 @@ namespace aws.DirectoryServiceRegion
     [JsiiByValue(fqn: "aws.directoryServiceRegion.DirectoryServiceRegionConfig")]
     public class DirectoryServiceRegionConfig : aws.DirectoryServiceRegion.IDirectoryServiceRegionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_region#directory_id DirectoryServiceRegion#directory_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_region#directory_id DirectoryServiceRegion#directory_id}.</summary>
         [JsiiProperty(name: "directoryId", typeJson: "{\"primitive\":\"string\"}")]
         public string DirectoryId
         {
@@ -17,7 +17,7 @@ namespace aws.DirectoryServiceRegion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_region#region_name DirectoryServiceRegion#region_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_region#region_name DirectoryServiceRegion#region_name}.</summary>
         [JsiiProperty(name: "regionName", typeJson: "{\"primitive\":\"string\"}")]
         public string RegionName
         {
@@ -27,7 +27,7 @@ namespace aws.DirectoryServiceRegion
 
         /// <summary>vpc_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_region#vpc_settings DirectoryServiceRegion#vpc_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_region#vpc_settings DirectoryServiceRegion#vpc_settings}
         /// </remarks>
         [JsiiProperty(name: "vpcSettings", typeJson: "{\"fqn\":\"aws.directoryServiceRegion.DirectoryServiceRegionVpcSettings\"}")]
         public aws.DirectoryServiceRegion.IDirectoryServiceRegionVpcSettings VpcSettings
@@ -36,7 +36,7 @@ namespace aws.DirectoryServiceRegion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_region#desired_number_of_domain_controllers DirectoryServiceRegion#desired_number_of_domain_controllers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_region#desired_number_of_domain_controllers DirectoryServiceRegion#desired_number_of_domain_controllers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "desiredNumberOfDomainControllers", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DesiredNumberOfDomainControllers
@@ -45,7 +45,7 @@ namespace aws.DirectoryServiceRegion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_region#id DirectoryServiceRegion#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_region#id DirectoryServiceRegion#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,7 +60,7 @@ namespace aws.DirectoryServiceRegion
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_region#region DirectoryServiceRegion#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_region#region DirectoryServiceRegion#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace aws.DirectoryServiceRegion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_region#tags DirectoryServiceRegion#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_region#tags DirectoryServiceRegion#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -79,7 +79,7 @@ namespace aws.DirectoryServiceRegion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_region#tags_all DirectoryServiceRegion#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_region#tags_all DirectoryServiceRegion#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -90,7 +90,7 @@ namespace aws.DirectoryServiceRegion
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_region#timeouts DirectoryServiceRegion#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_region#timeouts DirectoryServiceRegion#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.directoryServiceRegion.DirectoryServiceRegionTimeouts\"}", isOptional: true)]

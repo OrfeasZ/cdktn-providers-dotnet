@@ -7,28 +7,28 @@ namespace aws.LexIntent
     [JsiiInterface(nativeType: typeof(ILexIntentSlot), fullyQualifiedName: "aws.lexIntent.LexIntentSlot")]
     public interface ILexIntentSlot
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#name LexIntent#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#name LexIntent#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#slot_constraint LexIntent#slot_constraint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#slot_constraint LexIntent#slot_constraint}.</summary>
         [JsiiProperty(name: "slotConstraint", typeJson: "{\"primitive\":\"string\"}")]
         string SlotConstraint
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#slot_type LexIntent#slot_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#slot_type LexIntent#slot_type}.</summary>
         [JsiiProperty(name: "slotType", typeJson: "{\"primitive\":\"string\"}")]
         string SlotType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#description LexIntent#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#description LexIntent#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -39,7 +39,7 @@ namespace aws.LexIntent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#priority LexIntent#priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#priority LexIntent#priority}.</summary>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Priority
@@ -50,7 +50,7 @@ namespace aws.LexIntent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#response_card LexIntent#response_card}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#response_card LexIntent#response_card}.</summary>
         [JsiiProperty(name: "responseCard", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResponseCard
@@ -61,7 +61,7 @@ namespace aws.LexIntent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#sample_utterances LexIntent#sample_utterances}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#sample_utterances LexIntent#sample_utterances}.</summary>
         [JsiiProperty(name: "sampleUtterances", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SampleUtterances
@@ -72,7 +72,7 @@ namespace aws.LexIntent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#slot_type_version LexIntent#slot_type_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#slot_type_version LexIntent#slot_type_version}.</summary>
         [JsiiProperty(name: "slotTypeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SlotTypeVersion
@@ -85,7 +85,7 @@ namespace aws.LexIntent
 
         /// <summary>value_elicitation_prompt block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#value_elicitation_prompt LexIntent#value_elicitation_prompt}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#value_elicitation_prompt LexIntent#value_elicitation_prompt}
         /// </remarks>
         [JsiiProperty(name: "valueElicitationPrompt", typeJson: "{\"fqn\":\"aws.lexIntent.LexIntentSlotValueElicitationPrompt\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -104,28 +104,28 @@ namespace aws.LexIntent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#name LexIntent#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#name LexIntent#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#slot_constraint LexIntent#slot_constraint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#slot_constraint LexIntent#slot_constraint}.</summary>
             [JsiiProperty(name: "slotConstraint", typeJson: "{\"primitive\":\"string\"}")]
             public string SlotConstraint
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#slot_type LexIntent#slot_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#slot_type LexIntent#slot_type}.</summary>
             [JsiiProperty(name: "slotType", typeJson: "{\"primitive\":\"string\"}")]
             public string SlotType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#description LexIntent#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#description LexIntent#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -133,7 +133,7 @@ namespace aws.LexIntent
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#priority LexIntent#priority}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#priority LexIntent#priority}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Priority
@@ -141,7 +141,7 @@ namespace aws.LexIntent
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#response_card LexIntent#response_card}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#response_card LexIntent#response_card}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "responseCard", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResponseCard
@@ -149,7 +149,7 @@ namespace aws.LexIntent
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#sample_utterances LexIntent#sample_utterances}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#sample_utterances LexIntent#sample_utterances}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sampleUtterances", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SampleUtterances
@@ -157,7 +157,7 @@ namespace aws.LexIntent
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#slot_type_version LexIntent#slot_type_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#slot_type_version LexIntent#slot_type_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "slotTypeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SlotTypeVersion
@@ -167,7 +167,7 @@ namespace aws.LexIntent
 
             /// <summary>value_elicitation_prompt block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#value_elicitation_prompt LexIntent#value_elicitation_prompt}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#value_elicitation_prompt LexIntent#value_elicitation_prompt}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "valueElicitationPrompt", typeJson: "{\"fqn\":\"aws.lexIntent.LexIntentSlotValueElicitationPrompt\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace aws.LaunchTemplate
     [JsiiByValue(fqn: "aws.launchTemplate.LaunchTemplateCpuOptions")]
     public class LaunchTemplateCpuOptions : aws.LaunchTemplate.ILaunchTemplateCpuOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/launch_template#amd_sev_snp LaunchTemplate#amd_sev_snp}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#amd_sev_snp LaunchTemplate#amd_sev_snp}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "amdSevSnp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AmdSevSnp
@@ -16,7 +16,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/launch_template#core_count LaunchTemplate#core_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#core_count LaunchTemplate#core_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "coreCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? CoreCount
@@ -25,7 +25,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/launch_template#nested_virtualization LaunchTemplate#nested_virtualization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#nested_virtualization LaunchTemplate#nested_virtualization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nestedVirtualization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NestedVirtualization
@@ -34,7 +34,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/launch_template#threads_per_core LaunchTemplate#threads_per_core}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#threads_per_core LaunchTemplate#threads_per_core}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "threadsPerCore", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ThreadsPerCore

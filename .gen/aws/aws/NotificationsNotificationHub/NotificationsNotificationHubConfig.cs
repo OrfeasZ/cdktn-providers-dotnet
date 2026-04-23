@@ -9,7 +9,7 @@ namespace aws.NotificationsNotificationHub
     [JsiiByValue(fqn: "aws.notificationsNotificationHub.NotificationsNotificationHubConfig")]
     public class NotificationsNotificationHubConfig : aws.NotificationsNotificationHub.INotificationsNotificationHubConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_notification_hub#notification_hub_region NotificationsNotificationHub#notification_hub_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_notification_hub#notification_hub_region NotificationsNotificationHub#notification_hub_region}.</summary>
         [JsiiProperty(name: "notificationHubRegion", typeJson: "{\"primitive\":\"string\"}")]
         public string NotificationHubRegion
         {
@@ -19,7 +19,7 @@ namespace aws.NotificationsNotificationHub
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_notification_hub#timeouts NotificationsNotificationHub#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_notification_hub#timeouts NotificationsNotificationHub#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.notificationsNotificationHub.NotificationsNotificationHubTimeouts\"}", isOptional: true)]

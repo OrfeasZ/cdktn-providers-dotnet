@@ -9,7 +9,7 @@ namespace aws.SesReceiptRule
     [JsiiByValue(fqn: "aws.sesReceiptRule.SesReceiptRuleLambdaAction")]
     public class SesReceiptRuleLambdaAction : aws.SesReceiptRule.ISesReceiptRuleLambdaAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ses_receipt_rule#function_arn SesReceiptRule#function_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_receipt_rule#function_arn SesReceiptRule#function_arn}.</summary>
         [JsiiProperty(name: "functionArn", typeJson: "{\"primitive\":\"string\"}")]
         public string FunctionArn
         {
@@ -17,7 +17,7 @@ namespace aws.SesReceiptRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ses_receipt_rule#position SesReceiptRule#position}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_receipt_rule#position SesReceiptRule#position}.</summary>
         [JsiiProperty(name: "position", typeJson: "{\"primitive\":\"number\"}")]
         public double Position
         {
@@ -25,7 +25,7 @@ namespace aws.SesReceiptRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ses_receipt_rule#invocation_type SesReceiptRule#invocation_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_receipt_rule#invocation_type SesReceiptRule#invocation_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "invocationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InvocationType
@@ -34,7 +34,7 @@ namespace aws.SesReceiptRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ses_receipt_rule#topic_arn SesReceiptRule#topic_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_receipt_rule#topic_arn SesReceiptRule#topic_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "topicArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TopicArn

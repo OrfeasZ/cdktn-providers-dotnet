@@ -7,7 +7,7 @@ namespace aws.Lexv2ModelsBot
     [JsiiInterface(nativeType: typeof(ILexv2ModelsBotDataPrivacy), fullyQualifiedName: "aws.lexv2ModelsBot.Lexv2ModelsBotDataPrivacy")]
     public interface ILexv2ModelsBotDataPrivacy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_bot#child_directed Lexv2ModelsBot#child_directed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_bot#child_directed Lexv2ModelsBot#child_directed}.</summary>
         [JsiiProperty(name: "childDirected", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         object ChildDirected
         {
@@ -21,7 +21,7 @@ namespace aws.Lexv2ModelsBot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_bot#child_directed Lexv2ModelsBot#child_directed}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_bot#child_directed Lexv2ModelsBot#child_directed}.</summary>
             [JsiiProperty(name: "childDirected", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
             public object ChildDirected
             {

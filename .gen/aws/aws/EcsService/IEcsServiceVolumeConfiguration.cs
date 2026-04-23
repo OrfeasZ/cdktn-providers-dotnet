@@ -9,7 +9,7 @@ namespace aws.EcsService
     {
         /// <summary>managed_ebs_volume block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#managed_ebs_volume EcsService#managed_ebs_volume}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#managed_ebs_volume EcsService#managed_ebs_volume}
         /// </remarks>
         [JsiiProperty(name: "managedEbsVolume", typeJson: "{\"fqn\":\"aws.ecsService.EcsServiceVolumeConfigurationManagedEbsVolume\"}")]
         aws.EcsService.IEcsServiceVolumeConfigurationManagedEbsVolume ManagedEbsVolume
@@ -17,7 +17,7 @@ namespace aws.EcsService
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#name EcsService#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#name EcsService#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -33,7 +33,7 @@ namespace aws.EcsService
 
             /// <summary>managed_ebs_volume block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#managed_ebs_volume EcsService#managed_ebs_volume}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#managed_ebs_volume EcsService#managed_ebs_volume}
             /// </remarks>
             [JsiiProperty(name: "managedEbsVolume", typeJson: "{\"fqn\":\"aws.ecsService.EcsServiceVolumeConfigurationManagedEbsVolume\"}")]
             public aws.EcsService.IEcsServiceVolumeConfigurationManagedEbsVolume ManagedEbsVolume
@@ -41,7 +41,7 @@ namespace aws.EcsService
                 get => GetInstanceProperty<aws.EcsService.IEcsServiceVolumeConfigurationManagedEbsVolume>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#name EcsService#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#name EcsService#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {

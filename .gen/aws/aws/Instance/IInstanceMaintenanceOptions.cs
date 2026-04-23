@@ -7,7 +7,7 @@ namespace aws.Instance
     [JsiiInterface(nativeType: typeof(IInstanceMaintenanceOptions), fullyQualifiedName: "aws.instance.InstanceMaintenanceOptions")]
     public interface IInstanceMaintenanceOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/instance#auto_recovery Instance#auto_recovery}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#auto_recovery Instance#auto_recovery}.</summary>
         [JsiiProperty(name: "autoRecovery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AutoRecovery
@@ -25,7 +25,7 @@ namespace aws.Instance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/instance#auto_recovery Instance#auto_recovery}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#auto_recovery Instance#auto_recovery}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autoRecovery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AutoRecovery

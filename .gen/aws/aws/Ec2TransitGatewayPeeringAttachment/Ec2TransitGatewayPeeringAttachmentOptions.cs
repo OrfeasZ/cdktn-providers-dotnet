@@ -7,7 +7,7 @@ namespace aws.Ec2TransitGatewayPeeringAttachment
     [JsiiByValue(fqn: "aws.ec2TransitGatewayPeeringAttachment.Ec2TransitGatewayPeeringAttachmentOptions")]
     public class Ec2TransitGatewayPeeringAttachmentOptions : aws.Ec2TransitGatewayPeeringAttachment.IEc2TransitGatewayPeeringAttachmentOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ec2_transit_gateway_peering_attachment#dynamic_routing Ec2TransitGatewayPeeringAttachment#dynamic_routing}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_transit_gateway_peering_attachment#dynamic_routing Ec2TransitGatewayPeeringAttachment#dynamic_routing}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dynamicRouting", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DynamicRouting

@@ -9,7 +9,7 @@ namespace aws.DrsReplicationConfigurationTemplate
     [JsiiByValue(fqn: "aws.drsReplicationConfigurationTemplate.DrsReplicationConfigurationTemplatePitPolicy")]
     public class DrsReplicationConfigurationTemplatePitPolicy : aws.DrsReplicationConfigurationTemplate.IDrsReplicationConfigurationTemplatePitPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/drs_replication_configuration_template#interval DrsReplicationConfigurationTemplate#interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/drs_replication_configuration_template#interval DrsReplicationConfigurationTemplate#interval}.</summary>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"number\"}")]
         public double Interval
         {
@@ -17,7 +17,7 @@ namespace aws.DrsReplicationConfigurationTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/drs_replication_configuration_template#retention_duration DrsReplicationConfigurationTemplate#retention_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/drs_replication_configuration_template#retention_duration DrsReplicationConfigurationTemplate#retention_duration}.</summary>
         [JsiiProperty(name: "retentionDuration", typeJson: "{\"primitive\":\"number\"}")]
         public double RetentionDuration
         {
@@ -25,7 +25,7 @@ namespace aws.DrsReplicationConfigurationTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/drs_replication_configuration_template#units DrsReplicationConfigurationTemplate#units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/drs_replication_configuration_template#units DrsReplicationConfigurationTemplate#units}.</summary>
         [JsiiProperty(name: "units", typeJson: "{\"primitive\":\"string\"}")]
         public string Units
         {
@@ -35,7 +35,7 @@ namespace aws.DrsReplicationConfigurationTemplate
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/drs_replication_configuration_template#enabled DrsReplicationConfigurationTemplate#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/drs_replication_configuration_template#enabled DrsReplicationConfigurationTemplate#enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Enabled
@@ -64,7 +64,7 @@ namespace aws.DrsReplicationConfigurationTemplate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/drs_replication_configuration_template#rule_id DrsReplicationConfigurationTemplate#rule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/drs_replication_configuration_template#rule_id DrsReplicationConfigurationTemplate#rule_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ruleId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RuleId

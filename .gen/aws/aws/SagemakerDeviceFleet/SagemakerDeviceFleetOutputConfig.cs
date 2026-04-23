@@ -9,7 +9,7 @@ namespace aws.SagemakerDeviceFleet
     [JsiiByValue(fqn: "aws.sagemakerDeviceFleet.SagemakerDeviceFleetOutputConfig")]
     public class SagemakerDeviceFleetOutputConfig : aws.SagemakerDeviceFleet.ISagemakerDeviceFleetOutputConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_device_fleet#s3_output_location SagemakerDeviceFleet#s3_output_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_device_fleet#s3_output_location SagemakerDeviceFleet#s3_output_location}.</summary>
         [JsiiProperty(name: "s3OutputLocation", typeJson: "{\"primitive\":\"string\"}")]
         public string S3OutputLocation
         {
@@ -17,7 +17,7 @@ namespace aws.SagemakerDeviceFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_device_fleet#kms_key_id SagemakerDeviceFleet#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_device_fleet#kms_key_id SagemakerDeviceFleet#kms_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyId

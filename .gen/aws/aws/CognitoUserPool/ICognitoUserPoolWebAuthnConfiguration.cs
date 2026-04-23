@@ -7,7 +7,7 @@ namespace aws.CognitoUserPool
     [JsiiInterface(nativeType: typeof(ICognitoUserPoolWebAuthnConfiguration), fullyQualifiedName: "aws.cognitoUserPool.CognitoUserPoolWebAuthnConfiguration")]
     public interface ICognitoUserPoolWebAuthnConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_user_pool#relying_party_id CognitoUserPool#relying_party_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool#relying_party_id CognitoUserPool#relying_party_id}.</summary>
         [JsiiProperty(name: "relyingPartyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RelyingPartyId
@@ -18,7 +18,7 @@ namespace aws.CognitoUserPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_user_pool#user_verification CognitoUserPool#user_verification}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool#user_verification CognitoUserPool#user_verification}.</summary>
         [JsiiProperty(name: "userVerification", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UserVerification
@@ -36,7 +36,7 @@ namespace aws.CognitoUserPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_user_pool#relying_party_id CognitoUserPool#relying_party_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool#relying_party_id CognitoUserPool#relying_party_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "relyingPartyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RelyingPartyId
@@ -44,7 +44,7 @@ namespace aws.CognitoUserPool
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_user_pool#user_verification CognitoUserPool#user_verification}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool#user_verification CognitoUserPool#user_verification}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "userVerification", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UserVerification

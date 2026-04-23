@@ -9,7 +9,7 @@ namespace aws.LocationMap
     [JsiiByValue(fqn: "aws.locationMap.LocationMapConfiguration")]
     public class LocationMapConfiguration : aws.LocationMap.ILocationMapConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/location_map#style LocationMap#style}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/location_map#style LocationMap#style}.</summary>
         [JsiiProperty(name: "style", typeJson: "{\"primitive\":\"string\"}")]
         public string Style
         {

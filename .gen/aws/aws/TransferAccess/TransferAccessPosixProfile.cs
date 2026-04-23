@@ -9,7 +9,7 @@ namespace aws.TransferAccess
     [JsiiByValue(fqn: "aws.transferAccess.TransferAccessPosixProfile")]
     public class TransferAccessPosixProfile : aws.TransferAccess.ITransferAccessPosixProfile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_access#gid TransferAccess#gid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_access#gid TransferAccess#gid}.</summary>
         [JsiiProperty(name: "gid", typeJson: "{\"primitive\":\"number\"}")]
         public double Gid
         {
@@ -17,7 +17,7 @@ namespace aws.TransferAccess
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_access#uid TransferAccess#uid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_access#uid TransferAccess#uid}.</summary>
         [JsiiProperty(name: "uid", typeJson: "{\"primitive\":\"number\"}")]
         public double Uid
         {
@@ -25,7 +25,7 @@ namespace aws.TransferAccess
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_access#secondary_gids TransferAccess#secondary_gids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_access#secondary_gids TransferAccess#secondary_gids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secondaryGids", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
         public double[]? SecondaryGids

@@ -9,7 +9,7 @@ namespace aws.IotTopicRule
     [JsiiByValue(fqn: "aws.iotTopicRule.IotTopicRuleErrorActionHttp")]
     public class IotTopicRuleErrorActionHttp : aws.IotTopicRule.IIotTopicRuleErrorActionHttp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#url IotTopicRule#url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#url IotTopicRule#url}.</summary>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         public string Url
         {
@@ -17,7 +17,7 @@ namespace aws.IotTopicRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#confirmation_url IotTopicRule#confirmation_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#confirmation_url IotTopicRule#confirmation_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "confirmationUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConfirmationUrl
@@ -30,7 +30,7 @@ namespace aws.IotTopicRule
 
         /// <summary>http_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_topic_rule#http_header IotTopicRule#http_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#http_header IotTopicRule#http_header}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpHeader", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionHttpHttpHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]

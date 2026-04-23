@@ -9,7 +9,7 @@ namespace aws.EcsService
     [JsiiByValue(fqn: "aws.ecsService.EcsServiceServiceConnectConfigurationService")]
     public class EcsServiceServiceConnectConfigurationService : aws.EcsService.IEcsServiceServiceConnectConfigurationService
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#port_name EcsService#port_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#port_name EcsService#port_name}.</summary>
         [JsiiProperty(name: "portName", typeJson: "{\"primitive\":\"string\"}")]
         public string PortName
         {
@@ -19,7 +19,7 @@ namespace aws.EcsService
 
         /// <summary>client_alias block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#client_alias EcsService#client_alias}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#client_alias EcsService#client_alias}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientAlias", typeJson: "{\"fqn\":\"aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAlias\"}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace aws.EcsService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#discovery_name EcsService#discovery_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#discovery_name EcsService#discovery_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "discoveryName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DiscoveryName
@@ -38,7 +38,7 @@ namespace aws.EcsService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#ingress_port_override EcsService#ingress_port_override}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#ingress_port_override EcsService#ingress_port_override}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ingressPortOverride", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IngressPortOverride
@@ -49,7 +49,7 @@ namespace aws.EcsService
 
         /// <summary>timeout block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#timeout EcsService#timeout}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#timeout EcsService#timeout}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeout", typeJson: "{\"fqn\":\"aws.ecsService.EcsServiceServiceConnectConfigurationServiceTimeout\"}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace aws.EcsService
 
         /// <summary>tls block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#tls EcsService#tls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#tls EcsService#tls}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tls", typeJson: "{\"fqn\":\"aws.ecsService.EcsServiceServiceConnectConfigurationServiceTls\"}", isOptional: true)]

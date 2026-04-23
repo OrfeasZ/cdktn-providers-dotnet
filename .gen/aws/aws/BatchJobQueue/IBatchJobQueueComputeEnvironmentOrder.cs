@@ -7,14 +7,14 @@ namespace aws.BatchJobQueue
     [JsiiInterface(nativeType: typeof(IBatchJobQueueComputeEnvironmentOrder), fullyQualifiedName: "aws.batchJobQueue.BatchJobQueueComputeEnvironmentOrder")]
     public interface IBatchJobQueueComputeEnvironmentOrder
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_job_queue#compute_environment BatchJobQueue#compute_environment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_queue#compute_environment BatchJobQueue#compute_environment}.</summary>
         [JsiiProperty(name: "computeEnvironment", typeJson: "{\"primitive\":\"string\"}")]
         string ComputeEnvironment
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_job_queue#order BatchJobQueue#order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_queue#order BatchJobQueue#order}.</summary>
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}")]
         double Order
         {
@@ -28,14 +28,14 @@ namespace aws.BatchJobQueue
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_job_queue#compute_environment BatchJobQueue#compute_environment}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_queue#compute_environment BatchJobQueue#compute_environment}.</summary>
             [JsiiProperty(name: "computeEnvironment", typeJson: "{\"primitive\":\"string\"}")]
             public string ComputeEnvironment
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_job_queue#order BatchJobQueue#order}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_queue#order BatchJobQueue#order}.</summary>
             [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}")]
             public double Order
             {

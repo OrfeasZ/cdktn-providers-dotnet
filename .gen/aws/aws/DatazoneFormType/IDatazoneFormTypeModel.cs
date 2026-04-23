@@ -7,7 +7,7 @@ namespace aws.DatazoneFormType
     [JsiiInterface(nativeType: typeof(IDatazoneFormTypeModel), fullyQualifiedName: "aws.datazoneFormType.DatazoneFormTypeModel")]
     public interface IDatazoneFormTypeModel
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_form_type#smithy DatazoneFormType#smithy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_form_type#smithy DatazoneFormType#smithy}.</summary>
         [JsiiProperty(name: "smithy", typeJson: "{\"primitive\":\"string\"}")]
         string Smithy
         {
@@ -21,7 +21,7 @@ namespace aws.DatazoneFormType
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_form_type#smithy DatazoneFormType#smithy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_form_type#smithy DatazoneFormType#smithy}.</summary>
             [JsiiProperty(name: "smithy", typeJson: "{\"primitive\":\"string\"}")]
             public string Smithy
             {

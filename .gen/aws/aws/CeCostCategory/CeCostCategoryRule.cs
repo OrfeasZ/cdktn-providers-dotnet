@@ -9,7 +9,7 @@ namespace aws.CeCostCategory
     {
         /// <summary>inherited_value block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ce_cost_category#inherited_value CeCostCategory#inherited_value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_category#inherited_value CeCostCategory#inherited_value}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inheritedValue", typeJson: "{\"fqn\":\"aws.ceCostCategory.CeCostCategoryRuleInheritedValue\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.CeCostCategory
 
         /// <summary>rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ce_cost_category#rule CeCostCategory#rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_category#rule CeCostCategory#rule}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rule", typeJson: "{\"fqn\":\"aws.ceCostCategory.CeCostCategoryRuleRule\"}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.CeCostCategory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ce_cost_category#type CeCostCategory#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_category#type CeCostCategory#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type
@@ -40,7 +40,7 @@ namespace aws.CeCostCategory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ce_cost_category#value CeCostCategory#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_category#value CeCostCategory#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

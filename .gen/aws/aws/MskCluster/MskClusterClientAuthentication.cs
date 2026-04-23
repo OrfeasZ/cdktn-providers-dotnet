@@ -9,7 +9,7 @@ namespace aws.MskCluster
     {
         /// <summary>sasl block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_cluster#sasl MskCluster#sasl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#sasl MskCluster#sasl}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sasl", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterClientAuthenticationSasl\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.MskCluster
 
         /// <summary>tls block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_cluster#tls MskCluster#tls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#tls MskCluster#tls}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tls", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterClientAuthenticationTls\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace aws.MskCluster
 
         private object? _unauthenticated;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_cluster#unauthenticated MskCluster#unauthenticated}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#unauthenticated MskCluster#unauthenticated}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "unauthenticated", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Unauthenticated

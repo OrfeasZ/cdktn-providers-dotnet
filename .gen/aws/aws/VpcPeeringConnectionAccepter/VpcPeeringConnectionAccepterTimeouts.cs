@@ -7,7 +7,7 @@ namespace aws.VpcPeeringConnectionAccepter
     [JsiiByValue(fqn: "aws.vpcPeeringConnectionAccepter.VpcPeeringConnectionAccepterTimeouts")]
     public class VpcPeeringConnectionAccepterTimeouts : aws.VpcPeeringConnectionAccepter.IVpcPeeringConnectionAccepterTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc_peering_connection_accepter#create VpcPeeringConnectionAccepterA#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_peering_connection_accepter#create VpcPeeringConnectionAccepterA#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.VpcPeeringConnectionAccepter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc_peering_connection_accepter#update VpcPeeringConnectionAccepterA#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_peering_connection_accepter#update VpcPeeringConnectionAccepterA#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

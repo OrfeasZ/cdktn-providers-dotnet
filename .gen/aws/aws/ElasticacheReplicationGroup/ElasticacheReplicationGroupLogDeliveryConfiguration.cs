@@ -9,7 +9,7 @@ namespace aws.ElasticacheReplicationGroup
     [JsiiByValue(fqn: "aws.elasticacheReplicationGroup.ElasticacheReplicationGroupLogDeliveryConfiguration")]
     public class ElasticacheReplicationGroupLogDeliveryConfiguration : aws.ElasticacheReplicationGroup.IElasticacheReplicationGroupLogDeliveryConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticache_replication_group#destination ElasticacheReplicationGroup#destination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_replication_group#destination ElasticacheReplicationGroup#destination}.</summary>
         [JsiiProperty(name: "destination", typeJson: "{\"primitive\":\"string\"}")]
         public string Destination
         {
@@ -17,7 +17,7 @@ namespace aws.ElasticacheReplicationGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticache_replication_group#destination_type ElasticacheReplicationGroup#destination_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_replication_group#destination_type ElasticacheReplicationGroup#destination_type}.</summary>
         [JsiiProperty(name: "destinationType", typeJson: "{\"primitive\":\"string\"}")]
         public string DestinationType
         {
@@ -25,7 +25,7 @@ namespace aws.ElasticacheReplicationGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticache_replication_group#log_format ElasticacheReplicationGroup#log_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_replication_group#log_format ElasticacheReplicationGroup#log_format}.</summary>
         [JsiiProperty(name: "logFormat", typeJson: "{\"primitive\":\"string\"}")]
         public string LogFormat
         {
@@ -33,7 +33,7 @@ namespace aws.ElasticacheReplicationGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticache_replication_group#log_type ElasticacheReplicationGroup#log_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_replication_group#log_type ElasticacheReplicationGroup#log_type}.</summary>
         [JsiiProperty(name: "logType", typeJson: "{\"primitive\":\"string\"}")]
         public string LogType
         {

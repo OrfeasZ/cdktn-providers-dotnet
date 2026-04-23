@@ -5,7 +5,7 @@ namespace aws.LambdaProvisionedConcurrencyConfig
     /// <remarks>
     /// <h1><c>aws_lambda_provisioned_concurrency_config</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_provisioned_concurrency_config"><c>aws_lambda_provisioned_concurrency_config</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_provisioned_concurrency_config"><c>aws_lambda_provisioned_concurrency_config</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

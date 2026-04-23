@@ -7,7 +7,7 @@ namespace aws.BatchComputeEnvironment
     [JsiiInterface(nativeType: typeof(IBatchComputeEnvironmentComputeResourcesEc2Configuration), fullyQualifiedName: "aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesEc2Configuration")]
     public interface IBatchComputeEnvironmentComputeResourcesEc2Configuration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_compute_environment#image_id_override BatchComputeEnvironment#image_id_override}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#image_id_override BatchComputeEnvironment#image_id_override}.</summary>
         [JsiiProperty(name: "imageIdOverride", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ImageIdOverride
@@ -18,7 +18,7 @@ namespace aws.BatchComputeEnvironment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_compute_environment#image_kubernetes_version BatchComputeEnvironment#image_kubernetes_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#image_kubernetes_version BatchComputeEnvironment#image_kubernetes_version}.</summary>
         [JsiiProperty(name: "imageKubernetesVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ImageKubernetesVersion
@@ -29,7 +29,7 @@ namespace aws.BatchComputeEnvironment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_compute_environment#image_type BatchComputeEnvironment#image_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#image_type BatchComputeEnvironment#image_type}.</summary>
         [JsiiProperty(name: "imageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ImageType
@@ -47,7 +47,7 @@ namespace aws.BatchComputeEnvironment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_compute_environment#image_id_override BatchComputeEnvironment#image_id_override}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#image_id_override BatchComputeEnvironment#image_id_override}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "imageIdOverride", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ImageIdOverride
@@ -55,7 +55,7 @@ namespace aws.BatchComputeEnvironment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_compute_environment#image_kubernetes_version BatchComputeEnvironment#image_kubernetes_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#image_kubernetes_version BatchComputeEnvironment#image_kubernetes_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "imageKubernetesVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ImageKubernetesVersion
@@ -63,7 +63,7 @@ namespace aws.BatchComputeEnvironment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_compute_environment#image_type BatchComputeEnvironment#image_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#image_type BatchComputeEnvironment#image_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "imageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ImageType

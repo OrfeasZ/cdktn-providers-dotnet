@@ -7,7 +7,7 @@ namespace aws.EcsService
     [JsiiByValue(fqn: "aws.ecsService.EcsServiceDeploymentConfiguration")]
     public class EcsServiceDeploymentConfiguration : aws.EcsService.IEcsServiceDeploymentConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#bake_time_in_minutes EcsService#bake_time_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#bake_time_in_minutes EcsService#bake_time_in_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bakeTimeInMinutes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BakeTimeInMinutes
@@ -18,7 +18,7 @@ namespace aws.EcsService
 
         /// <summary>canary_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#canary_configuration EcsService#canary_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#canary_configuration EcsService#canary_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "canaryConfiguration", typeJson: "{\"fqn\":\"aws.ecsService.EcsServiceDeploymentConfigurationCanaryConfiguration\"}", isOptional: true)]
@@ -32,7 +32,7 @@ namespace aws.EcsService
 
         /// <summary>lifecycle_hook block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#lifecycle_hook EcsService#lifecycle_hook}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#lifecycle_hook EcsService#lifecycle_hook}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lifecycleHook", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsService.EcsServiceDeploymentConfigurationLifecycleHook\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace aws.EcsService
 
         /// <summary>linear_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#linear_configuration EcsService#linear_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#linear_configuration EcsService#linear_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "linearConfiguration", typeJson: "{\"fqn\":\"aws.ecsService.EcsServiceDeploymentConfigurationLinearConfiguration\"}", isOptional: true)]
@@ -74,7 +74,7 @@ namespace aws.EcsService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#strategy EcsService#strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#strategy EcsService#strategy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "strategy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Strategy

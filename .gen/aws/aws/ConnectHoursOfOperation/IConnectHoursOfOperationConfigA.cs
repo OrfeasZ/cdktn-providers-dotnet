@@ -7,7 +7,7 @@ namespace aws.ConnectHoursOfOperation
     [JsiiInterface(nativeType: typeof(IConnectHoursOfOperationConfigA), fullyQualifiedName: "aws.connectHoursOfOperation.ConnectHoursOfOperationConfigA")]
     public interface IConnectHoursOfOperationConfigA
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_hours_of_operation#day ConnectHoursOfOperation#day}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_hours_of_operation#day ConnectHoursOfOperation#day}.</summary>
         [JsiiProperty(name: "day", typeJson: "{\"primitive\":\"string\"}")]
         string Day
         {
@@ -16,7 +16,7 @@ namespace aws.ConnectHoursOfOperation
 
         /// <summary>end_time block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_hours_of_operation#end_time ConnectHoursOfOperation#end_time}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_hours_of_operation#end_time ConnectHoursOfOperation#end_time}
         /// </remarks>
         [JsiiProperty(name: "endTime", typeJson: "{\"fqn\":\"aws.connectHoursOfOperation.ConnectHoursOfOperationConfigEndTime\"}")]
         aws.ConnectHoursOfOperation.IConnectHoursOfOperationConfigEndTime EndTime
@@ -26,7 +26,7 @@ namespace aws.ConnectHoursOfOperation
 
         /// <summary>start_time block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_hours_of_operation#start_time ConnectHoursOfOperation#start_time}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_hours_of_operation#start_time ConnectHoursOfOperation#start_time}
         /// </remarks>
         [JsiiProperty(name: "startTime", typeJson: "{\"fqn\":\"aws.connectHoursOfOperation.ConnectHoursOfOperationConfigStartTime\"}")]
         aws.ConnectHoursOfOperation.IConnectHoursOfOperationConfigStartTime StartTime
@@ -41,7 +41,7 @@ namespace aws.ConnectHoursOfOperation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_hours_of_operation#day ConnectHoursOfOperation#day}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_hours_of_operation#day ConnectHoursOfOperation#day}.</summary>
             [JsiiProperty(name: "day", typeJson: "{\"primitive\":\"string\"}")]
             public string Day
             {
@@ -50,7 +50,7 @@ namespace aws.ConnectHoursOfOperation
 
             /// <summary>end_time block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_hours_of_operation#end_time ConnectHoursOfOperation#end_time}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_hours_of_operation#end_time ConnectHoursOfOperation#end_time}
             /// </remarks>
             [JsiiProperty(name: "endTime", typeJson: "{\"fqn\":\"aws.connectHoursOfOperation.ConnectHoursOfOperationConfigEndTime\"}")]
             public aws.ConnectHoursOfOperation.IConnectHoursOfOperationConfigEndTime EndTime
@@ -60,7 +60,7 @@ namespace aws.ConnectHoursOfOperation
 
             /// <summary>start_time block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_hours_of_operation#start_time ConnectHoursOfOperation#start_time}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_hours_of_operation#start_time ConnectHoursOfOperation#start_time}
             /// </remarks>
             [JsiiProperty(name: "startTime", typeJson: "{\"fqn\":\"aws.connectHoursOfOperation.ConnectHoursOfOperationConfigStartTime\"}")]
             public aws.ConnectHoursOfOperation.IConnectHoursOfOperationConfigStartTime StartTime

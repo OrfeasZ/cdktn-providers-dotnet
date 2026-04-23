@@ -9,7 +9,7 @@ namespace aws.QuicksightTheme
     {
         /// <summary>tile block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#tile QuicksightTheme#tile}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#tile QuicksightTheme#tile}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tile", typeJson: "{\"fqn\":\"aws.quicksightTheme.QuicksightThemeConfigurationSheetTile\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.QuicksightTheme
 
         /// <summary>tile_layout block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#tile_layout QuicksightTheme#tile_layout}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#tile_layout QuicksightTheme#tile_layout}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tileLayout", typeJson: "{\"fqn\":\"aws.quicksightTheme.QuicksightThemeConfigurationSheetTileLayout\"}", isOptional: true)]

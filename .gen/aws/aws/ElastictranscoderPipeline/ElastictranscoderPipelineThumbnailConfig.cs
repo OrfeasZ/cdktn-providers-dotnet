@@ -7,7 +7,7 @@ namespace aws.ElastictranscoderPipeline
     [JsiiByValue(fqn: "aws.elastictranscoderPipeline.ElastictranscoderPipelineThumbnailConfig")]
     public class ElastictranscoderPipelineThumbnailConfig : aws.ElastictranscoderPipeline.IElastictranscoderPipelineThumbnailConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elastictranscoder_pipeline#bucket ElastictranscoderPipeline#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_pipeline#bucket ElastictranscoderPipeline#bucket}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Bucket
@@ -16,7 +16,7 @@ namespace aws.ElastictranscoderPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elastictranscoder_pipeline#storage_class ElastictranscoderPipeline#storage_class}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_pipeline#storage_class ElastictranscoderPipeline#storage_class}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageClass", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageClass

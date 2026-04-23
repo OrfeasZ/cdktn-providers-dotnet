@@ -7,7 +7,7 @@ namespace aws.SagemakerSpace
     [JsiiInterface(nativeType: typeof(ISagemakerSpaceSpaceSettingsJupyterServerAppSettingsCodeRepository), fullyQualifiedName: "aws.sagemakerSpace.SagemakerSpaceSpaceSettingsJupyterServerAppSettingsCodeRepository")]
     public interface ISagemakerSpaceSpaceSettingsJupyterServerAppSettingsCodeRepository
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_space#repository_url SagemakerSpace#repository_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#repository_url SagemakerSpace#repository_url}.</summary>
         [JsiiProperty(name: "repositoryUrl", typeJson: "{\"primitive\":\"string\"}")]
         string RepositoryUrl
         {
@@ -21,7 +21,7 @@ namespace aws.SagemakerSpace
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_space#repository_url SagemakerSpace#repository_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#repository_url SagemakerSpace#repository_url}.</summary>
             [JsiiProperty(name: "repositoryUrl", typeJson: "{\"primitive\":\"string\"}")]
             public string RepositoryUrl
             {

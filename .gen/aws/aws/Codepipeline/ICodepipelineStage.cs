@@ -9,7 +9,7 @@ namespace aws.Codepipeline
     {
         /// <summary>action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline#action Codepipeline#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#action Codepipeline#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineStageAction\"},\"kind\":\"array\"}}]}}")]
         object Action
@@ -17,7 +17,7 @@ namespace aws.Codepipeline
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline#name Codepipeline#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#name Codepipeline#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -26,7 +26,7 @@ namespace aws.Codepipeline
 
         /// <summary>before_entry block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline#before_entry Codepipeline#before_entry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#before_entry Codepipeline#before_entry}
         /// </remarks>
         [JsiiProperty(name: "beforeEntry", typeJson: "{\"fqn\":\"aws.codepipeline.CodepipelineStageBeforeEntry\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace aws.Codepipeline
 
         /// <summary>on_failure block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline#on_failure Codepipeline#on_failure}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#on_failure Codepipeline#on_failure}
         /// </remarks>
         [JsiiProperty(name: "onFailure", typeJson: "{\"fqn\":\"aws.codepipeline.CodepipelineStageOnFailure\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace aws.Codepipeline
 
         /// <summary>on_success block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline#on_success Codepipeline#on_success}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#on_success Codepipeline#on_success}
         /// </remarks>
         [JsiiProperty(name: "onSuccess", typeJson: "{\"fqn\":\"aws.codepipeline.CodepipelineStageOnSuccess\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,7 +75,7 @@ namespace aws.Codepipeline
 
             /// <summary>action block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline#action Codepipeline#action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#action Codepipeline#action}
             /// </remarks>
             [JsiiProperty(name: "action", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineStageAction\"},\"kind\":\"array\"}}]}}")]
             public object Action
@@ -83,7 +83,7 @@ namespace aws.Codepipeline
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline#name Codepipeline#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#name Codepipeline#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
@@ -92,7 +92,7 @@ namespace aws.Codepipeline
 
             /// <summary>before_entry block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline#before_entry Codepipeline#before_entry}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#before_entry Codepipeline#before_entry}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "beforeEntry", typeJson: "{\"fqn\":\"aws.codepipeline.CodepipelineStageBeforeEntry\"}", isOptional: true)]
@@ -103,7 +103,7 @@ namespace aws.Codepipeline
 
             /// <summary>on_failure block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline#on_failure Codepipeline#on_failure}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#on_failure Codepipeline#on_failure}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "onFailure", typeJson: "{\"fqn\":\"aws.codepipeline.CodepipelineStageOnFailure\"}", isOptional: true)]
@@ -114,7 +114,7 @@ namespace aws.Codepipeline
 
             /// <summary>on_success block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline#on_success Codepipeline#on_success}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#on_success Codepipeline#on_success}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "onSuccess", typeJson: "{\"fqn\":\"aws.codepipeline.CodepipelineStageOnSuccess\"}", isOptional: true)]

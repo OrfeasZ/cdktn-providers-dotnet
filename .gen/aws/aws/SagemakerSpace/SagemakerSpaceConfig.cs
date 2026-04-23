@@ -9,7 +9,7 @@ namespace aws.SagemakerSpace
     [JsiiByValue(fqn: "aws.sagemakerSpace.SagemakerSpaceConfig")]
     public class SagemakerSpaceConfig : aws.SagemakerSpace.ISagemakerSpaceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_space#domain_id SagemakerSpace#domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#domain_id SagemakerSpace#domain_id}.</summary>
         [JsiiProperty(name: "domainId", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainId
         {
@@ -17,7 +17,7 @@ namespace aws.SagemakerSpace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_space#space_name SagemakerSpace#space_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#space_name SagemakerSpace#space_name}.</summary>
         [JsiiProperty(name: "spaceName", typeJson: "{\"primitive\":\"string\"}")]
         public string SpaceName
         {
@@ -25,7 +25,7 @@ namespace aws.SagemakerSpace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_space#id SagemakerSpace#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#id SagemakerSpace#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace aws.SagemakerSpace
 
         /// <summary>ownership_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_space#ownership_settings SagemakerSpace#ownership_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#ownership_settings SagemakerSpace#ownership_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ownershipSettings", typeJson: "{\"fqn\":\"aws.sagemakerSpace.SagemakerSpaceOwnershipSettings\"}", isOptional: true)]
@@ -52,7 +52,7 @@ namespace aws.SagemakerSpace
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_space#region SagemakerSpace#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#region SagemakerSpace#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace aws.SagemakerSpace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_space#space_display_name SagemakerSpace#space_display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#space_display_name SagemakerSpace#space_display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "spaceDisplayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SpaceDisplayName
@@ -73,7 +73,7 @@ namespace aws.SagemakerSpace
 
         /// <summary>space_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_space#space_settings SagemakerSpace#space_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#space_settings SagemakerSpace#space_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "spaceSettings", typeJson: "{\"fqn\":\"aws.sagemakerSpace.SagemakerSpaceSpaceSettings\"}", isOptional: true)]
@@ -85,7 +85,7 @@ namespace aws.SagemakerSpace
 
         /// <summary>space_sharing_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_space#space_sharing_settings SagemakerSpace#space_sharing_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#space_sharing_settings SagemakerSpace#space_sharing_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "spaceSharingSettings", typeJson: "{\"fqn\":\"aws.sagemakerSpace.SagemakerSpaceSpaceSharingSettings\"}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace aws.SagemakerSpace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_space#tags SagemakerSpace#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#tags SagemakerSpace#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -104,7 +104,7 @@ namespace aws.SagemakerSpace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_space#tags_all SagemakerSpace#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#tags_all SagemakerSpace#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll

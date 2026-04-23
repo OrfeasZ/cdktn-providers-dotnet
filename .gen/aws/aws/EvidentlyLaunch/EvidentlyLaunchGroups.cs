@@ -9,7 +9,7 @@ namespace aws.EvidentlyLaunch
     [JsiiByValue(fqn: "aws.evidentlyLaunch.EvidentlyLaunchGroups")]
     public class EvidentlyLaunchGroups : aws.EvidentlyLaunch.IEvidentlyLaunchGroups
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/evidently_launch#feature EvidentlyLaunch#feature}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_launch#feature EvidentlyLaunch#feature}.</summary>
         [JsiiProperty(name: "feature", typeJson: "{\"primitive\":\"string\"}")]
         public string Feature
         {
@@ -17,7 +17,7 @@ namespace aws.EvidentlyLaunch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/evidently_launch#name EvidentlyLaunch#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_launch#name EvidentlyLaunch#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace aws.EvidentlyLaunch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/evidently_launch#variation EvidentlyLaunch#variation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_launch#variation EvidentlyLaunch#variation}.</summary>
         [JsiiProperty(name: "variation", typeJson: "{\"primitive\":\"string\"}")]
         public string Variation
         {
@@ -33,7 +33,7 @@ namespace aws.EvidentlyLaunch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/evidently_launch#description EvidentlyLaunch#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_launch#description EvidentlyLaunch#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description

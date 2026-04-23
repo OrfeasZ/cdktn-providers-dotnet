@@ -9,7 +9,7 @@ namespace aws.QuicksightTheme
     {
         /// <summary>gutter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#gutter QuicksightTheme#gutter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#gutter QuicksightTheme#gutter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "gutter", typeJson: "{\"fqn\":\"aws.quicksightTheme.QuicksightThemeConfigurationSheetTileLayoutGutter\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.QuicksightTheme
 
         /// <summary>margin block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#margin QuicksightTheme#margin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#margin QuicksightTheme#margin}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "margin", typeJson: "{\"fqn\":\"aws.quicksightTheme.QuicksightThemeConfigurationSheetTileLayoutMargin\"}", isOptional: true)]

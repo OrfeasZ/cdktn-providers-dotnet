@@ -9,7 +9,7 @@ namespace aws.AutoscalingGroup
     {
         /// <summary>instance_reuse_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/autoscaling_group#instance_reuse_policy AutoscalingGroup#instance_reuse_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#instance_reuse_policy AutoscalingGroup#instance_reuse_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "instanceReusePolicy", typeJson: "{\"fqn\":\"aws.autoscalingGroup.AutoscalingGroupWarmPoolInstanceReusePolicy\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace aws.AutoscalingGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/autoscaling_group#max_group_prepared_capacity AutoscalingGroup#max_group_prepared_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#max_group_prepared_capacity AutoscalingGroup#max_group_prepared_capacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxGroupPreparedCapacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxGroupPreparedCapacity
@@ -28,7 +28,7 @@ namespace aws.AutoscalingGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/autoscaling_group#min_size AutoscalingGroup#min_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#min_size AutoscalingGroup#min_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinSize
@@ -37,7 +37,7 @@ namespace aws.AutoscalingGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/autoscaling_group#pool_state AutoscalingGroup#pool_state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#pool_state AutoscalingGroup#pool_state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "poolState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PoolState

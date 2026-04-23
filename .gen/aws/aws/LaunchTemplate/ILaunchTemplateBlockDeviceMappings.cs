@@ -7,7 +7,7 @@ namespace aws.LaunchTemplate
     [JsiiInterface(nativeType: typeof(ILaunchTemplateBlockDeviceMappings), fullyQualifiedName: "aws.launchTemplate.LaunchTemplateBlockDeviceMappings")]
     public interface ILaunchTemplateBlockDeviceMappings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/launch_template#device_name LaunchTemplate#device_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#device_name LaunchTemplate#device_name}.</summary>
         [JsiiProperty(name: "deviceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DeviceName
@@ -20,7 +20,7 @@ namespace aws.LaunchTemplate
 
         /// <summary>ebs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/launch_template#ebs LaunchTemplate#ebs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#ebs LaunchTemplate#ebs}
         /// </remarks>
         [JsiiProperty(name: "ebs", typeJson: "{\"fqn\":\"aws.launchTemplate.LaunchTemplateBlockDeviceMappingsEbs\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -32,7 +32,7 @@ namespace aws.LaunchTemplate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/launch_template#no_device LaunchTemplate#no_device}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#no_device LaunchTemplate#no_device}.</summary>
         [JsiiProperty(name: "noDevice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NoDevice
@@ -43,7 +43,7 @@ namespace aws.LaunchTemplate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/launch_template#virtual_name LaunchTemplate#virtual_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#virtual_name LaunchTemplate#virtual_name}.</summary>
         [JsiiProperty(name: "virtualName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VirtualName
@@ -61,7 +61,7 @@ namespace aws.LaunchTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/launch_template#device_name LaunchTemplate#device_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#device_name LaunchTemplate#device_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "deviceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DeviceName
@@ -71,7 +71,7 @@ namespace aws.LaunchTemplate
 
             /// <summary>ebs block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/launch_template#ebs LaunchTemplate#ebs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#ebs LaunchTemplate#ebs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ebs", typeJson: "{\"fqn\":\"aws.launchTemplate.LaunchTemplateBlockDeviceMappingsEbs\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace aws.LaunchTemplate
                 get => GetInstanceProperty<aws.LaunchTemplate.ILaunchTemplateBlockDeviceMappingsEbs?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/launch_template#no_device LaunchTemplate#no_device}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#no_device LaunchTemplate#no_device}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "noDevice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NoDevice
@@ -88,7 +88,7 @@ namespace aws.LaunchTemplate
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/launch_template#virtual_name LaunchTemplate#virtual_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#virtual_name LaunchTemplate#virtual_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "virtualName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VirtualName

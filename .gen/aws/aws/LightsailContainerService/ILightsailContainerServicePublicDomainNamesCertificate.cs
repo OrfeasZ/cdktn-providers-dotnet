@@ -7,14 +7,14 @@ namespace aws.LightsailContainerService
     [JsiiInterface(nativeType: typeof(ILightsailContainerServicePublicDomainNamesCertificate), fullyQualifiedName: "aws.lightsailContainerService.LightsailContainerServicePublicDomainNamesCertificate")]
     public interface ILightsailContainerServicePublicDomainNamesCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_container_service#certificate_name LightsailContainerService#certificate_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#certificate_name LightsailContainerService#certificate_name}.</summary>
         [JsiiProperty(name: "certificateName", typeJson: "{\"primitive\":\"string\"}")]
         string CertificateName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_container_service#domain_names LightsailContainerService#domain_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#domain_names LightsailContainerService#domain_names}.</summary>
         [JsiiProperty(name: "domainNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] DomainNames
         {
@@ -28,14 +28,14 @@ namespace aws.LightsailContainerService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_container_service#certificate_name LightsailContainerService#certificate_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#certificate_name LightsailContainerService#certificate_name}.</summary>
             [JsiiProperty(name: "certificateName", typeJson: "{\"primitive\":\"string\"}")]
             public string CertificateName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_container_service#domain_names LightsailContainerService#domain_names}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#domain_names LightsailContainerService#domain_names}.</summary>
             [JsiiProperty(name: "domainNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] DomainNames
             {

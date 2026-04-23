@@ -7,7 +7,7 @@ namespace aws.AppflowFlow
     [JsiiByValue(fqn: "aws.appflowFlow.AppflowFlowTaskConnectorOperator")]
     public class AppflowFlowTaskConnectorOperator : aws.AppflowFlow.IAppflowFlowTaskConnectorOperator
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#amplitude AppflowFlow#amplitude}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#amplitude AppflowFlow#amplitude}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "amplitude", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Amplitude
@@ -16,7 +16,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#custom_connector AppflowFlow#custom_connector}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#custom_connector AppflowFlow#custom_connector}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customConnector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomConnector
@@ -25,7 +25,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#datadog AppflowFlow#datadog}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#datadog AppflowFlow#datadog}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "datadog", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Datadog
@@ -34,7 +34,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#dynatrace AppflowFlow#dynatrace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#dynatrace AppflowFlow#dynatrace}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dynatrace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Dynatrace
@@ -43,7 +43,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#google_analytics AppflowFlow#google_analytics}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#google_analytics AppflowFlow#google_analytics}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "googleAnalytics", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GoogleAnalytics
@@ -52,7 +52,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#infor_nexus AppflowFlow#infor_nexus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#infor_nexus AppflowFlow#infor_nexus}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "inforNexus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InforNexus
@@ -61,7 +61,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#marketo AppflowFlow#marketo}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#marketo AppflowFlow#marketo}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "marketo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Marketo
@@ -70,7 +70,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#s3 AppflowFlow#s3}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#s3 AppflowFlow#s3}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "s3", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? S3
@@ -79,7 +79,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#salesforce AppflowFlow#salesforce}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#salesforce AppflowFlow#salesforce}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "salesforce", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Salesforce
@@ -88,7 +88,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#sapo_data AppflowFlow#sapo_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#sapo_data AppflowFlow#sapo_data}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sapoData", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SapoData
@@ -97,7 +97,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#service_now AppflowFlow#service_now}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#service_now AppflowFlow#service_now}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serviceNow", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServiceNow
@@ -106,7 +106,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#singular AppflowFlow#singular}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#singular AppflowFlow#singular}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "singular", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Singular
@@ -115,7 +115,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#slack AppflowFlow#slack}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#slack AppflowFlow#slack}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "slack", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Slack
@@ -124,7 +124,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#trendmicro AppflowFlow#trendmicro}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#trendmicro AppflowFlow#trendmicro}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "trendmicro", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Trendmicro
@@ -133,7 +133,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#veeva AppflowFlow#veeva}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#veeva AppflowFlow#veeva}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "veeva", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Veeva
@@ -142,7 +142,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#zendesk AppflowFlow#zendesk}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#zendesk AppflowFlow#zendesk}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "zendesk", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Zendesk

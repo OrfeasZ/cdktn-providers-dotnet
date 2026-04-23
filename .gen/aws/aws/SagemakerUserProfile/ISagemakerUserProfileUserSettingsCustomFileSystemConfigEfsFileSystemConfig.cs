@@ -7,14 +7,14 @@ namespace aws.SagemakerUserProfile
     [JsiiInterface(nativeType: typeof(ISagemakerUserProfileUserSettingsCustomFileSystemConfigEfsFileSystemConfig), fullyQualifiedName: "aws.sagemakerUserProfile.SagemakerUserProfileUserSettingsCustomFileSystemConfigEfsFileSystemConfig")]
     public interface ISagemakerUserProfileUserSettingsCustomFileSystemConfigEfsFileSystemConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_user_profile#file_system_id SagemakerUserProfile#file_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_user_profile#file_system_id SagemakerUserProfile#file_system_id}.</summary>
         [JsiiProperty(name: "fileSystemId", typeJson: "{\"primitive\":\"string\"}")]
         string FileSystemId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_user_profile#file_system_path SagemakerUserProfile#file_system_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_user_profile#file_system_path SagemakerUserProfile#file_system_path}.</summary>
         [JsiiProperty(name: "fileSystemPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FileSystemPath
@@ -32,14 +32,14 @@ namespace aws.SagemakerUserProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_user_profile#file_system_id SagemakerUserProfile#file_system_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_user_profile#file_system_id SagemakerUserProfile#file_system_id}.</summary>
             [JsiiProperty(name: "fileSystemId", typeJson: "{\"primitive\":\"string\"}")]
             public string FileSystemId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_user_profile#file_system_path SagemakerUserProfile#file_system_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_user_profile#file_system_path SagemakerUserProfile#file_system_path}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fileSystemPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FileSystemPath

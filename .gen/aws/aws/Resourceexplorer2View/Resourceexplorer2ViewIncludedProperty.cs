@@ -9,7 +9,7 @@ namespace aws.Resourceexplorer2View
     [JsiiByValue(fqn: "aws.resourceexplorer2View.Resourceexplorer2ViewIncludedProperty")]
     public class Resourceexplorer2ViewIncludedProperty : aws.Resourceexplorer2View.IResourceexplorer2ViewIncludedProperty
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

@@ -9,7 +9,7 @@ namespace aws.BudgetsBudgetAction
     [JsiiByValue(fqn: "aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionSsmActionDefinition")]
     public class BudgetsBudgetActionDefinitionSsmActionDefinition : aws.BudgetsBudgetAction.IBudgetsBudgetActionDefinitionSsmActionDefinition
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget_action#action_sub_type BudgetsBudgetAction#action_sub_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget_action#action_sub_type BudgetsBudgetAction#action_sub_type}.</summary>
         [JsiiProperty(name: "actionSubType", typeJson: "{\"primitive\":\"string\"}")]
         public string ActionSubType
         {
@@ -17,7 +17,7 @@ namespace aws.BudgetsBudgetAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget_action#instance_ids BudgetsBudgetAction#instance_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget_action#instance_ids BudgetsBudgetAction#instance_ids}.</summary>
         [JsiiProperty(name: "instanceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] InstanceIds
         {
@@ -25,7 +25,7 @@ namespace aws.BudgetsBudgetAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget_action#region BudgetsBudgetAction#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget_action#region BudgetsBudgetAction#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public string Region
         {

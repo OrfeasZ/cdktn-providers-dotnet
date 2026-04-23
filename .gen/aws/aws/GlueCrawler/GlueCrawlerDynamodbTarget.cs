@@ -9,7 +9,7 @@ namespace aws.GlueCrawler
     [JsiiByValue(fqn: "aws.glueCrawler.GlueCrawlerDynamodbTarget")]
     public class GlueCrawlerDynamodbTarget : aws.GlueCrawler.IGlueCrawlerDynamodbTarget
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_crawler#path GlueCrawler#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#path GlueCrawler#path}.</summary>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
         public string Path
         {
@@ -19,7 +19,7 @@ namespace aws.GlueCrawler
 
         private object? _scanAll;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_crawler#scan_all GlueCrawler#scan_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#scan_all GlueCrawler#scan_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scanAll", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? ScanAll
@@ -48,7 +48,7 @@ namespace aws.GlueCrawler
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_crawler#scan_rate GlueCrawler#scan_rate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#scan_rate GlueCrawler#scan_rate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scanRate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ScanRate

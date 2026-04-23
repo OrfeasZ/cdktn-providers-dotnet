@@ -7,14 +7,14 @@ namespace aws.FsxOpenzfsFileSystem
     [JsiiInterface(nativeType: typeof(IFsxOpenzfsFileSystemRootVolumeConfigurationNfsExportsClientConfigurations), fullyQualifiedName: "aws.fsxOpenzfsFileSystem.FsxOpenzfsFileSystemRootVolumeConfigurationNfsExportsClientConfigurations")]
     public interface IFsxOpenzfsFileSystemRootVolumeConfigurationNfsExportsClientConfigurations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_openzfs_file_system#clients FsxOpenzfsFileSystem#clients}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_file_system#clients FsxOpenzfsFileSystem#clients}.</summary>
         [JsiiProperty(name: "clients", typeJson: "{\"primitive\":\"string\"}")]
         string Clients
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_openzfs_file_system#options FsxOpenzfsFileSystem#options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_file_system#options FsxOpenzfsFileSystem#options}.</summary>
         [JsiiProperty(name: "options", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Options
         {
@@ -28,14 +28,14 @@ namespace aws.FsxOpenzfsFileSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_openzfs_file_system#clients FsxOpenzfsFileSystem#clients}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_file_system#clients FsxOpenzfsFileSystem#clients}.</summary>
             [JsiiProperty(name: "clients", typeJson: "{\"primitive\":\"string\"}")]
             public string Clients
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_openzfs_file_system#options FsxOpenzfsFileSystem#options}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_file_system#options FsxOpenzfsFileSystem#options}.</summary>
             [JsiiProperty(name: "options", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Options
             {

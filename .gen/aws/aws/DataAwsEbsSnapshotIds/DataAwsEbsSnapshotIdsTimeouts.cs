@@ -7,7 +7,7 @@ namespace aws.DataAwsEbsSnapshotIds
     [JsiiByValue(fqn: "aws.dataAwsEbsSnapshotIds.DataAwsEbsSnapshotIdsTimeouts")]
     public class DataAwsEbsSnapshotIdsTimeouts : aws.DataAwsEbsSnapshotIds.IDataAwsEbsSnapshotIdsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ebs_snapshot_ids#read DataAwsEbsSnapshotIds#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ebs_snapshot_ids#read DataAwsEbsSnapshotIds#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

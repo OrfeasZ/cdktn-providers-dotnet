@@ -7,7 +7,7 @@ namespace aws.OpensearchApplication
     [JsiiInterface(nativeType: typeof(IOpensearchApplicationDataSource), fullyQualifiedName: "aws.opensearchApplication.OpensearchApplicationDataSource")]
     public interface IOpensearchApplicationDataSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/opensearch_application#data_source_arn OpensearchApplication#data_source_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_application#data_source_arn OpensearchApplication#data_source_arn}.</summary>
         [JsiiProperty(name: "dataSourceArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DataSourceArn
@@ -18,7 +18,7 @@ namespace aws.OpensearchApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/opensearch_application#data_source_description OpensearchApplication#data_source_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_application#data_source_description OpensearchApplication#data_source_description}.</summary>
         [JsiiProperty(name: "dataSourceDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DataSourceDescription
@@ -36,7 +36,7 @@ namespace aws.OpensearchApplication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/opensearch_application#data_source_arn OpensearchApplication#data_source_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_application#data_source_arn OpensearchApplication#data_source_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dataSourceArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DataSourceArn
@@ -44,7 +44,7 @@ namespace aws.OpensearchApplication
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/opensearch_application#data_source_description OpensearchApplication#data_source_description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_application#data_source_description OpensearchApplication#data_source_description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dataSourceDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DataSourceDescription

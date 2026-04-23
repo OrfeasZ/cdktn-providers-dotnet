@@ -7,7 +7,7 @@ namespace aws.VpclatticeListener
     [JsiiByValue(fqn: "aws.vpclatticeListener.VpclatticeListenerDefaultActionForwardTargetGroups")]
     public class VpclatticeListenerDefaultActionForwardTargetGroups : aws.VpclatticeListener.IVpclatticeListenerDefaultActionForwardTargetGroups
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpclattice_listener#target_group_identifier VpclatticeListener#target_group_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpclattice_listener#target_group_identifier VpclatticeListener#target_group_identifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetGroupIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetGroupIdentifier
@@ -16,7 +16,7 @@ namespace aws.VpclatticeListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpclattice_listener#weight VpclatticeListener#weight}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpclattice_listener#weight VpclatticeListener#weight}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Weight

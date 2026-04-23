@@ -9,7 +9,7 @@ namespace aws.SchedulerSchedule
     [JsiiByValue(fqn: "aws.schedulerSchedule.SchedulerScheduleTargetEcsParametersPlacementStrategy")]
     public class SchedulerScheduleTargetEcsParametersPlacementStrategy : aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersPlacementStrategy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/scheduler_schedule#type SchedulerSchedule#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#type SchedulerSchedule#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.SchedulerSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/scheduler_schedule#field SchedulerSchedule#field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#field SchedulerSchedule#field}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "field", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Field

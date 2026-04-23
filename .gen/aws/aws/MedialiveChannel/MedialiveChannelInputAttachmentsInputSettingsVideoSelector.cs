@@ -7,7 +7,7 @@ namespace aws.MedialiveChannel
     [JsiiByValue(fqn: "aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsVideoSelector")]
     public class MedialiveChannelInputAttachmentsInputSettingsVideoSelector : aws.MedialiveChannel.IMedialiveChannelInputAttachmentsInputSettingsVideoSelector
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#color_space MedialiveChannel#color_space}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#color_space MedialiveChannel#color_space}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "colorSpace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ColorSpace
@@ -16,7 +16,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#color_space_usage MedialiveChannel#color_space_usage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#color_space_usage MedialiveChannel#color_space_usage}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "colorSpaceUsage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ColorSpaceUsage

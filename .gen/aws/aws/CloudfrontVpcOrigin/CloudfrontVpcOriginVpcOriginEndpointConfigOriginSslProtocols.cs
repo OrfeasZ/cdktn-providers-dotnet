@@ -9,7 +9,7 @@ namespace aws.CloudfrontVpcOrigin
     [JsiiByValue(fqn: "aws.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfigOriginSslProtocols")]
     public class CloudfrontVpcOriginVpcOriginEndpointConfigOriginSslProtocols : aws.CloudfrontVpcOrigin.ICloudfrontVpcOriginVpcOriginEndpointConfigOriginSslProtocols
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_vpc_origin#items CloudfrontVpcOrigin#items}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_vpc_origin#items CloudfrontVpcOrigin#items}.</summary>
         [JsiiProperty(name: "items", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Items
         {
@@ -17,7 +17,7 @@ namespace aws.CloudfrontVpcOrigin
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_vpc_origin#quantity CloudfrontVpcOrigin#quantity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_vpc_origin#quantity CloudfrontVpcOrigin#quantity}.</summary>
         [JsiiProperty(name: "quantity", typeJson: "{\"primitive\":\"number\"}")]
         public double Quantity
         {

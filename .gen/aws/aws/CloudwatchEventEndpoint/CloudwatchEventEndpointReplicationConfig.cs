@@ -7,7 +7,7 @@ namespace aws.CloudwatchEventEndpoint
     [JsiiByValue(fqn: "aws.cloudwatchEventEndpoint.CloudwatchEventEndpointReplicationConfig")]
     public class CloudwatchEventEndpointReplicationConfig : aws.CloudwatchEventEndpoint.ICloudwatchEventEndpointReplicationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_event_endpoint#state CloudwatchEventEndpoint#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_endpoint#state CloudwatchEventEndpoint#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

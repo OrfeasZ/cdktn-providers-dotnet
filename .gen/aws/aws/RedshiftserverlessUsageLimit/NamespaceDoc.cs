@@ -5,7 +5,7 @@ namespace aws.RedshiftserverlessUsageLimit
     /// <remarks>
     /// <h1><c>aws_redshiftserverless_usage_limit</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshiftserverless_usage_limit"><c>aws_redshiftserverless_usage_limit</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshiftserverless_usage_limit"><c>aws_redshiftserverless_usage_limit</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

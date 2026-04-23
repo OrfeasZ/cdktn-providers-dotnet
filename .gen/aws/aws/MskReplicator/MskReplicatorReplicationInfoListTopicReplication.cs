@@ -9,7 +9,7 @@ namespace aws.MskReplicator
     [JsiiByValue(fqn: "aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplication")]
     public class MskReplicatorReplicationInfoListTopicReplication : aws.MskReplicator.IMskReplicatorReplicationInfoListTopicReplication
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_replicator#topics_to_replicate MskReplicator#topics_to_replicate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_replicator#topics_to_replicate MskReplicator#topics_to_replicate}.</summary>
         [JsiiProperty(name: "topicsToReplicate", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] TopicsToReplicate
         {
@@ -19,7 +19,7 @@ namespace aws.MskReplicator
 
         private object? _copyAccessControlListsForTopics;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_replicator#copy_access_control_lists_for_topics MskReplicator#copy_access_control_lists_for_topics}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_replicator#copy_access_control_lists_for_topics MskReplicator#copy_access_control_lists_for_topics}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "copyAccessControlListsForTopics", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? CopyAccessControlListsForTopics
@@ -50,7 +50,7 @@ namespace aws.MskReplicator
 
         private object? _copyTopicConfigurations;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_replicator#copy_topic_configurations MskReplicator#copy_topic_configurations}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_replicator#copy_topic_configurations MskReplicator#copy_topic_configurations}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "copyTopicConfigurations", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? CopyTopicConfigurations
@@ -81,7 +81,7 @@ namespace aws.MskReplicator
 
         private object? _detectAndCopyNewTopics;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_replicator#detect_and_copy_new_topics MskReplicator#detect_and_copy_new_topics}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_replicator#detect_and_copy_new_topics MskReplicator#detect_and_copy_new_topics}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "detectAndCopyNewTopics", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? DetectAndCopyNewTopics
@@ -112,7 +112,7 @@ namespace aws.MskReplicator
 
         /// <summary>starting_position block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_replicator#starting_position MskReplicator#starting_position}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_replicator#starting_position MskReplicator#starting_position}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "startingPosition", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplicationStartingPosition\"}", isOptional: true)]
@@ -124,7 +124,7 @@ namespace aws.MskReplicator
 
         /// <summary>topic_name_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_replicator#topic_name_configuration MskReplicator#topic_name_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_replicator#topic_name_configuration MskReplicator#topic_name_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "topicNameConfiguration", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplicationTopicNameConfiguration\"}", isOptional: true)]
@@ -134,7 +134,7 @@ namespace aws.MskReplicator
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_replicator#topics_to_exclude MskReplicator#topics_to_exclude}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_replicator#topics_to_exclude MskReplicator#topics_to_exclude}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "topicsToExclude", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? TopicsToExclude

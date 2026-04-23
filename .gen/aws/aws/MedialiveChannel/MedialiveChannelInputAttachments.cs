@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     [JsiiByValue(fqn: "aws.medialiveChannel.MedialiveChannelInputAttachments")]
     public class MedialiveChannelInputAttachments : aws.MedialiveChannel.IMedialiveChannelInputAttachments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#input_attachment_name MedialiveChannel#input_attachment_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#input_attachment_name MedialiveChannel#input_attachment_name}.</summary>
         [JsiiProperty(name: "inputAttachmentName", typeJson: "{\"primitive\":\"string\"}")]
         public string InputAttachmentName
         {
@@ -17,7 +17,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#input_id MedialiveChannel#input_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#input_id MedialiveChannel#input_id}.</summary>
         [JsiiProperty(name: "inputId", typeJson: "{\"primitive\":\"string\"}")]
         public string InputId
         {
@@ -27,7 +27,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>automatic_input_failover_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#automatic_input_failover_settings MedialiveChannel#automatic_input_failover_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#automatic_input_failover_settings MedialiveChannel#automatic_input_failover_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "automaticInputFailoverSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsAutomaticInputFailoverSettings\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>input_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#input_settings MedialiveChannel#input_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#input_settings MedialiveChannel#input_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inputSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettings\"}", isOptional: true)]

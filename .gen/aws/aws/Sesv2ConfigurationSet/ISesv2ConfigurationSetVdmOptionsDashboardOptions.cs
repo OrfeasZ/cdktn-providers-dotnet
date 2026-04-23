@@ -7,7 +7,7 @@ namespace aws.Sesv2ConfigurationSet
     [JsiiInterface(nativeType: typeof(ISesv2ConfigurationSetVdmOptionsDashboardOptions), fullyQualifiedName: "aws.sesv2ConfigurationSet.Sesv2ConfigurationSetVdmOptionsDashboardOptions")]
     public interface ISesv2ConfigurationSetVdmOptionsDashboardOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sesv2_configuration_set#engagement_metrics Sesv2ConfigurationSet#engagement_metrics}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_configuration_set#engagement_metrics Sesv2ConfigurationSet#engagement_metrics}.</summary>
         [JsiiProperty(name: "engagementMetrics", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EngagementMetrics
@@ -25,7 +25,7 @@ namespace aws.Sesv2ConfigurationSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sesv2_configuration_set#engagement_metrics Sesv2ConfigurationSet#engagement_metrics}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_configuration_set#engagement_metrics Sesv2ConfigurationSet#engagement_metrics}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "engagementMetrics", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EngagementMetrics

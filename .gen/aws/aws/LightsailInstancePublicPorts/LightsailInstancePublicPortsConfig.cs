@@ -9,7 +9,7 @@ namespace aws.LightsailInstancePublicPorts
     [JsiiByValue(fqn: "aws.lightsailInstancePublicPorts.LightsailInstancePublicPortsConfig")]
     public class LightsailInstancePublicPortsConfig : aws.LightsailInstancePublicPorts.ILightsailInstancePublicPortsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_instance_public_ports#instance_name LightsailInstancePublicPorts#instance_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_instance_public_ports#instance_name LightsailInstancePublicPorts#instance_name}.</summary>
         [JsiiProperty(name: "instanceName", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceName
         {
@@ -21,7 +21,7 @@ namespace aws.LightsailInstancePublicPorts
 
         /// <summary>port_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_instance_public_ports#port_info LightsailInstancePublicPorts#port_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_instance_public_ports#port_info LightsailInstancePublicPorts#port_info}
         /// </remarks>
         [JsiiProperty(name: "portInfo", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lightsailInstancePublicPorts.LightsailInstancePublicPortsPortInfo\"},\"kind\":\"array\"}}]}}")]
         public object PortInfo
@@ -50,7 +50,7 @@ namespace aws.LightsailInstancePublicPorts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_instance_public_ports#id LightsailInstancePublicPorts#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_instance_public_ports#id LightsailInstancePublicPorts#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace aws.LightsailInstancePublicPorts
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_instance_public_ports#region LightsailInstancePublicPorts#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_instance_public_ports#region LightsailInstancePublicPorts#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

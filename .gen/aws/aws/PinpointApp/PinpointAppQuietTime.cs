@@ -7,7 +7,7 @@ namespace aws.PinpointApp
     [JsiiByValue(fqn: "aws.pinpointApp.PinpointAppQuietTime")]
     public class PinpointAppQuietTime : aws.PinpointApp.IPinpointAppQuietTime
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pinpoint_app#end PinpointApp#end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pinpoint_app#end PinpointApp#end}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? End
@@ -16,7 +16,7 @@ namespace aws.PinpointApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pinpoint_app#start PinpointApp#start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pinpoint_app#start PinpointApp#start}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Start

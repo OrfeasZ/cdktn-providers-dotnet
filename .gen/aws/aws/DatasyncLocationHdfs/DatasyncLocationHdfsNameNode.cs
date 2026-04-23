@@ -9,7 +9,7 @@ namespace aws.DatasyncLocationHdfs
     [JsiiByValue(fqn: "aws.datasyncLocationHdfs.DatasyncLocationHdfsNameNode")]
     public class DatasyncLocationHdfsNameNode : aws.DatasyncLocationHdfs.IDatasyncLocationHdfsNameNode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_hdfs#hostname DatasyncLocationHdfs#hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_hdfs#hostname DatasyncLocationHdfs#hostname}.</summary>
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
         public string Hostname
         {
@@ -17,7 +17,7 @@ namespace aws.DatasyncLocationHdfs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_hdfs#port DatasyncLocationHdfs#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_hdfs#port DatasyncLocationHdfs#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         public double Port
         {

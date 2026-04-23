@@ -7,7 +7,7 @@ namespace aws.EcsService
     [JsiiInterface(nativeType: typeof(IEcsServiceServiceConnectConfigurationServiceTimeout), fullyQualifiedName: "aws.ecsService.EcsServiceServiceConnectConfigurationServiceTimeout")]
     public interface IEcsServiceServiceConnectConfigurationServiceTimeout
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#idle_timeout_seconds EcsService#idle_timeout_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#idle_timeout_seconds EcsService#idle_timeout_seconds}.</summary>
         [JsiiProperty(name: "idleTimeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? IdleTimeoutSeconds
@@ -18,7 +18,7 @@ namespace aws.EcsService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#per_request_timeout_seconds EcsService#per_request_timeout_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#per_request_timeout_seconds EcsService#per_request_timeout_seconds}.</summary>
         [JsiiProperty(name: "perRequestTimeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? PerRequestTimeoutSeconds
@@ -36,7 +36,7 @@ namespace aws.EcsService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#idle_timeout_seconds EcsService#idle_timeout_seconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#idle_timeout_seconds EcsService#idle_timeout_seconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "idleTimeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? IdleTimeoutSeconds
@@ -44,7 +44,7 @@ namespace aws.EcsService
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_service#per_request_timeout_seconds EcsService#per_request_timeout_seconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#per_request_timeout_seconds EcsService#per_request_timeout_seconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "perRequestTimeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? PerRequestTimeoutSeconds

@@ -7,7 +7,7 @@ namespace aws.TransferWorkflow
     [JsiiByValue(fqn: "aws.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetails")]
     public class TransferWorkflowOnExceptionStepsTagStepDetails : aws.TransferWorkflow.ITransferWorkflowOnExceptionStepsTagStepDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_workflow#name TransferWorkflow#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_workflow#name TransferWorkflow#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -16,7 +16,7 @@ namespace aws.TransferWorkflow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceFileLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceFileLocation
@@ -29,7 +29,7 @@ namespace aws.TransferWorkflow
 
         /// <summary>tags block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetailsTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]

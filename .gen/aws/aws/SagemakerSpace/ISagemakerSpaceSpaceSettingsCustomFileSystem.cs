@@ -9,7 +9,7 @@ namespace aws.SagemakerSpace
     {
         /// <summary>efs_file_system block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_space#efs_file_system SagemakerSpace#efs_file_system}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#efs_file_system SagemakerSpace#efs_file_system}
         /// </remarks>
         [JsiiProperty(name: "efsFileSystem", typeJson: "{\"fqn\":\"aws.sagemakerSpace.SagemakerSpaceSpaceSettingsCustomFileSystemEfsFileSystem\"}")]
         aws.SagemakerSpace.ISagemakerSpaceSpaceSettingsCustomFileSystemEfsFileSystem EfsFileSystem
@@ -26,7 +26,7 @@ namespace aws.SagemakerSpace
 
             /// <summary>efs_file_system block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_space#efs_file_system SagemakerSpace#efs_file_system}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#efs_file_system SagemakerSpace#efs_file_system}
             /// </remarks>
             [JsiiProperty(name: "efsFileSystem", typeJson: "{\"fqn\":\"aws.sagemakerSpace.SagemakerSpaceSpaceSettingsCustomFileSystemEfsFileSystem\"}")]
             public aws.SagemakerSpace.ISagemakerSpaceSpaceSettingsCustomFileSystemEfsFileSystem EfsFileSystem

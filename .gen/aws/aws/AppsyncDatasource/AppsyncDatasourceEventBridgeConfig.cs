@@ -9,7 +9,7 @@ namespace aws.AppsyncDatasource
     [JsiiByValue(fqn: "aws.appsyncDatasource.AppsyncDatasourceEventBridgeConfig")]
     public class AppsyncDatasourceEventBridgeConfig : aws.AppsyncDatasource.IAppsyncDatasourceEventBridgeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#event_bus_arn AppsyncDatasource#event_bus_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#event_bus_arn AppsyncDatasource#event_bus_arn}.</summary>
         [JsiiProperty(name: "eventBusArn", typeJson: "{\"primitive\":\"string\"}")]
         public string EventBusArn
         {

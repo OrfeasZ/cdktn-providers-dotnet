@@ -7,7 +7,7 @@ namespace aws.SecurityhubAutomationRule
     [JsiiInterface(nativeType: typeof(ISecurityhubAutomationRuleActionsFindingFieldsUpdateSeverity), fullyQualifiedName: "aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverity")]
     public interface ISecurityhubAutomationRuleActionsFindingFieldsUpdateSeverity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_automation_rule#label SecurityhubAutomationRule#label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_automation_rule#label SecurityhubAutomationRule#label}.</summary>
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Label
@@ -18,7 +18,7 @@ namespace aws.SecurityhubAutomationRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_automation_rule#product SecurityhubAutomationRule#product}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_automation_rule#product SecurityhubAutomationRule#product}.</summary>
         [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Product
@@ -36,7 +36,7 @@ namespace aws.SecurityhubAutomationRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_automation_rule#label SecurityhubAutomationRule#label}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_automation_rule#label SecurityhubAutomationRule#label}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Label
@@ -44,7 +44,7 @@ namespace aws.SecurityhubAutomationRule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_automation_rule#product SecurityhubAutomationRule#product}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_automation_rule#product SecurityhubAutomationRule#product}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Product

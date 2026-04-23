@@ -7,7 +7,7 @@ namespace aws.SecuritylakeDataLake
     [JsiiInterface(nativeType: typeof(ISecuritylakeDataLakeConfigurationLifecycleConfigurationTransition), fullyQualifiedName: "aws.securitylakeDataLake.SecuritylakeDataLakeConfigurationLifecycleConfigurationTransition")]
     public interface ISecuritylakeDataLakeConfigurationLifecycleConfigurationTransition
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securitylake_data_lake#days SecuritylakeDataLake#days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_data_lake#days SecuritylakeDataLake#days}.</summary>
         [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Days
@@ -18,7 +18,7 @@ namespace aws.SecuritylakeDataLake
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securitylake_data_lake#storage_class SecuritylakeDataLake#storage_class}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_data_lake#storage_class SecuritylakeDataLake#storage_class}.</summary>
         [JsiiProperty(name: "storageClass", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? StorageClass
@@ -36,7 +36,7 @@ namespace aws.SecuritylakeDataLake
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securitylake_data_lake#days SecuritylakeDataLake#days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_data_lake#days SecuritylakeDataLake#days}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Days
@@ -44,7 +44,7 @@ namespace aws.SecuritylakeDataLake
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securitylake_data_lake#storage_class SecuritylakeDataLake#storage_class}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_data_lake#storage_class SecuritylakeDataLake#storage_class}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "storageClass", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? StorageClass

@@ -7,14 +7,14 @@ namespace aws.TransferServer
     [JsiiInterface(nativeType: typeof(ITransferServerWorkflowDetailsOnPartialUpload), fullyQualifiedName: "aws.transferServer.TransferServerWorkflowDetailsOnPartialUpload")]
     public interface ITransferServerWorkflowDetailsOnPartialUpload
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_server#execution_role TransferServer#execution_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#execution_role TransferServer#execution_role}.</summary>
         [JsiiProperty(name: "executionRole", typeJson: "{\"primitive\":\"string\"}")]
         string ExecutionRole
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_server#workflow_id TransferServer#workflow_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#workflow_id TransferServer#workflow_id}.</summary>
         [JsiiProperty(name: "workflowId", typeJson: "{\"primitive\":\"string\"}")]
         string WorkflowId
         {
@@ -28,14 +28,14 @@ namespace aws.TransferServer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_server#execution_role TransferServer#execution_role}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#execution_role TransferServer#execution_role}.</summary>
             [JsiiProperty(name: "executionRole", typeJson: "{\"primitive\":\"string\"}")]
             public string ExecutionRole
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_server#workflow_id TransferServer#workflow_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#workflow_id TransferServer#workflow_id}.</summary>
             [JsiiProperty(name: "workflowId", typeJson: "{\"primitive\":\"string\"}")]
             public string WorkflowId
             {

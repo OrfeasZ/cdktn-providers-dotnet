@@ -9,7 +9,7 @@ namespace aws.QuicksightDashboard
     {
         /// <summary>source_template block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_dashboard#source_template QuicksightDashboard#source_template}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#source_template QuicksightDashboard#source_template}
         /// </remarks>
         [JsiiProperty(name: "sourceTemplate", typeJson: "{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplate\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.QuicksightDashboard
 
             /// <summary>source_template block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_dashboard#source_template QuicksightDashboard#source_template}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#source_template QuicksightDashboard#source_template}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sourceTemplate", typeJson: "{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplate\"}", isOptional: true)]

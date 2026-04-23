@@ -7,7 +7,7 @@ namespace aws.WorkspacesDirectory
     [JsiiByValue(fqn: "aws.workspacesDirectory.WorkspacesDirectorySamlProperties")]
     public class WorkspacesDirectorySamlProperties : aws.WorkspacesDirectory.IWorkspacesDirectorySamlProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspaces_directory#relay_state_parameter_name WorkspacesDirectory#relay_state_parameter_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspaces_directory#relay_state_parameter_name WorkspacesDirectory#relay_state_parameter_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "relayStateParameterName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RelayStateParameterName
@@ -16,7 +16,7 @@ namespace aws.WorkspacesDirectory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspaces_directory#status WorkspacesDirectory#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspaces_directory#status WorkspacesDirectory#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status
@@ -25,7 +25,7 @@ namespace aws.WorkspacesDirectory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspaces_directory#user_access_url WorkspacesDirectory#user_access_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspaces_directory#user_access_url WorkspacesDirectory#user_access_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "userAccessUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UserAccessUrl

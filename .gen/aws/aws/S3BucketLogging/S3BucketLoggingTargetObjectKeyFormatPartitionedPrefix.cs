@@ -9,7 +9,7 @@ namespace aws.S3BucketLogging
     [JsiiByValue(fqn: "aws.s3BucketLogging.S3BucketLoggingTargetObjectKeyFormatPartitionedPrefix")]
     public class S3BucketLoggingTargetObjectKeyFormatPartitionedPrefix : aws.S3BucketLogging.IS3BucketLoggingTargetObjectKeyFormatPartitionedPrefix
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_logging#partition_date_source S3BucketLoggingA#partition_date_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_logging#partition_date_source S3BucketLoggingA#partition_date_source}.</summary>
         [JsiiProperty(name: "partitionDateSource", typeJson: "{\"primitive\":\"string\"}")]
         public string PartitionDateSource
         {

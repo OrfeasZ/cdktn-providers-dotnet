@@ -7,7 +7,7 @@ namespace aws.AcmCertificateValidation
     [JsiiByValue(fqn: "aws.acmCertificateValidation.AcmCertificateValidationTimeouts")]
     public class AcmCertificateValidationTimeouts : aws.AcmCertificateValidation.IAcmCertificateValidationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/acm_certificate_validation#create AcmCertificateValidation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate_validation#create AcmCertificateValidation#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create

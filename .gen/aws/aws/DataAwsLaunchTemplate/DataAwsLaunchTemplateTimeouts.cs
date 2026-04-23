@@ -7,7 +7,7 @@ namespace aws.DataAwsLaunchTemplate
     [JsiiByValue(fqn: "aws.dataAwsLaunchTemplate.DataAwsLaunchTemplateTimeouts")]
     public class DataAwsLaunchTemplateTimeouts : aws.DataAwsLaunchTemplate.IDataAwsLaunchTemplateTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/launch_template#read DataAwsLaunchTemplate#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/launch_template#read DataAwsLaunchTemplate#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

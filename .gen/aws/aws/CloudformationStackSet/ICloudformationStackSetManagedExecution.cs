@@ -7,7 +7,7 @@ namespace aws.CloudformationStackSet
     [JsiiInterface(nativeType: typeof(ICloudformationStackSetManagedExecution), fullyQualifiedName: "aws.cloudformationStackSet.CloudformationStackSetManagedExecution")]
     public interface ICloudformationStackSetManagedExecution
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudformation_stack_set#active CloudformationStackSet#active}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudformation_stack_set#active CloudformationStackSet#active}.</summary>
         [JsiiProperty(name: "active", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? Active
@@ -25,7 +25,7 @@ namespace aws.CloudformationStackSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudformation_stack_set#active CloudformationStackSet#active}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudformation_stack_set#active CloudformationStackSet#active}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "active", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? Active

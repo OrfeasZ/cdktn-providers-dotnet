@@ -7,7 +7,7 @@ namespace aws.DocdbClusterSnapshot
     [JsiiByValue(fqn: "aws.docdbClusterSnapshot.DocdbClusterSnapshotTimeouts")]
     public class DocdbClusterSnapshotTimeouts : aws.DocdbClusterSnapshot.IDocdbClusterSnapshotTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/docdb_cluster_snapshot#create DocdbClusterSnapshot#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/docdb_cluster_snapshot#create DocdbClusterSnapshot#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create

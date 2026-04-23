@@ -9,7 +9,7 @@ namespace aws.AmplifyDomainAssociation
     [JsiiByValue(fqn: "aws.amplifyDomainAssociation.AmplifyDomainAssociationSubDomain")]
     public class AmplifyDomainAssociationSubDomain : aws.AmplifyDomainAssociation.IAmplifyDomainAssociationSubDomain
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/amplify_domain_association#branch_name AmplifyDomainAssociation#branch_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/amplify_domain_association#branch_name AmplifyDomainAssociation#branch_name}.</summary>
         [JsiiProperty(name: "branchName", typeJson: "{\"primitive\":\"string\"}")]
         public string BranchName
         {
@@ -17,7 +17,7 @@ namespace aws.AmplifyDomainAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/amplify_domain_association#prefix AmplifyDomainAssociation#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/amplify_domain_association#prefix AmplifyDomainAssociation#prefix}.</summary>
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
         public string Prefix
         {

@@ -9,7 +9,7 @@ namespace aws.S3TablesTableBucketReplication
     [JsiiByValue(fqn: "aws.s3TablesTableBucketReplication.S3TablesTableBucketReplicationRuleDestination")]
     public class S3TablesTableBucketReplicationRuleDestination : aws.S3TablesTableBucketReplication.IS3TablesTableBucketReplicationRuleDestination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3tables_table_bucket_replication#destination_table_bucket_arn S3TablesTableBucketReplication#destination_table_bucket_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table_bucket_replication#destination_table_bucket_arn S3TablesTableBucketReplication#destination_table_bucket_arn}.</summary>
         [JsiiProperty(name: "destinationTableBucketArn", typeJson: "{\"primitive\":\"string\"}")]
         public string DestinationTableBucketArn
         {

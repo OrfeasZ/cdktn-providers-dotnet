@@ -7,7 +7,7 @@ namespace aws.ApiGatewayUsagePlan
     [JsiiByValue(fqn: "aws.apiGatewayUsagePlan.ApiGatewayUsagePlanThrottleSettings")]
     public class ApiGatewayUsagePlanThrottleSettings : aws.ApiGatewayUsagePlan.IApiGatewayUsagePlanThrottleSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_usage_plan#burst_limit ApiGatewayUsagePlan#burst_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_usage_plan#burst_limit ApiGatewayUsagePlan#burst_limit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "burstLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BurstLimit
@@ -16,7 +16,7 @@ namespace aws.ApiGatewayUsagePlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_usage_plan#rate_limit ApiGatewayUsagePlan#rate_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_usage_plan#rate_limit ApiGatewayUsagePlan#rate_limit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rateLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RateLimit

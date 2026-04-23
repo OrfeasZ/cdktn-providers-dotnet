@@ -7,14 +7,14 @@ namespace aws.BatchJobDefinition
     [JsiiInterface(nativeType: typeof(IBatchJobDefinitionRetryStrategyEvaluateOnExit), fullyQualifiedName: "aws.batchJobDefinition.BatchJobDefinitionRetryStrategyEvaluateOnExit")]
     public interface IBatchJobDefinitionRetryStrategyEvaluateOnExit
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_job_definition#action BatchJobDefinition#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#action BatchJobDefinition#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         string Action
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_job_definition#on_exit_code BatchJobDefinition#on_exit_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#on_exit_code BatchJobDefinition#on_exit_code}.</summary>
         [JsiiProperty(name: "onExitCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OnExitCode
@@ -25,7 +25,7 @@ namespace aws.BatchJobDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_job_definition#on_reason BatchJobDefinition#on_reason}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#on_reason BatchJobDefinition#on_reason}.</summary>
         [JsiiProperty(name: "onReason", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OnReason
@@ -36,7 +36,7 @@ namespace aws.BatchJobDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_job_definition#on_status_reason BatchJobDefinition#on_status_reason}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#on_status_reason BatchJobDefinition#on_status_reason}.</summary>
         [JsiiProperty(name: "onStatusReason", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OnStatusReason
@@ -54,14 +54,14 @@ namespace aws.BatchJobDefinition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_job_definition#action BatchJobDefinition#action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#action BatchJobDefinition#action}.</summary>
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
             public string Action
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_job_definition#on_exit_code BatchJobDefinition#on_exit_code}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#on_exit_code BatchJobDefinition#on_exit_code}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "onExitCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OnExitCode
@@ -69,7 +69,7 @@ namespace aws.BatchJobDefinition
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_job_definition#on_reason BatchJobDefinition#on_reason}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#on_reason BatchJobDefinition#on_reason}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "onReason", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OnReason
@@ -77,7 +77,7 @@ namespace aws.BatchJobDefinition
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_job_definition#on_status_reason BatchJobDefinition#on_status_reason}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#on_status_reason BatchJobDefinition#on_status_reason}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "onStatusReason", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OnStatusReason

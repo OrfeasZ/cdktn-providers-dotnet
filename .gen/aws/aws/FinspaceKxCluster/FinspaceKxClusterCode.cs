@@ -9,7 +9,7 @@ namespace aws.FinspaceKxCluster
     [JsiiByValue(fqn: "aws.finspaceKxCluster.FinspaceKxClusterCode")]
     public class FinspaceKxClusterCode : aws.FinspaceKxCluster.IFinspaceKxClusterCode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/finspace_kx_cluster#s3_bucket FinspaceKxCluster#s3_bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#s3_bucket FinspaceKxCluster#s3_bucket}.</summary>
         [JsiiProperty(name: "s3Bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string S3Bucket
         {
@@ -17,7 +17,7 @@ namespace aws.FinspaceKxCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/finspace_kx_cluster#s3_key FinspaceKxCluster#s3_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#s3_key FinspaceKxCluster#s3_key}.</summary>
         [JsiiProperty(name: "s3Key", typeJson: "{\"primitive\":\"string\"}")]
         public string S3Key
         {
@@ -25,7 +25,7 @@ namespace aws.FinspaceKxCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/finspace_kx_cluster#s3_object_version FinspaceKxCluster#s3_object_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#s3_object_version FinspaceKxCluster#s3_object_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "s3ObjectVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? S3ObjectVersion

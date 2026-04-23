@@ -7,7 +7,7 @@ namespace aws.SagemakerTrainingJob
     [JsiiByValue(fqn: "aws.sagemakerTrainingJob.SagemakerTrainingJobExperimentConfig")]
     public class SagemakerTrainingJobExperimentConfig : aws.SagemakerTrainingJob.ISagemakerTrainingJobExperimentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_training_job#experiment_name SagemakerTrainingJob#experiment_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#experiment_name SagemakerTrainingJob#experiment_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "experimentName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExperimentName
@@ -16,7 +16,7 @@ namespace aws.SagemakerTrainingJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_training_job#run_name SagemakerTrainingJob#run_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#run_name SagemakerTrainingJob#run_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "runName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RunName
@@ -25,7 +25,7 @@ namespace aws.SagemakerTrainingJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_training_job#trial_component_display_name SagemakerTrainingJob#trial_component_display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#trial_component_display_name SagemakerTrainingJob#trial_component_display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "trialComponentDisplayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TrialComponentDisplayName
@@ -34,7 +34,7 @@ namespace aws.SagemakerTrainingJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_training_job#trial_name SagemakerTrainingJob#trial_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#trial_name SagemakerTrainingJob#trial_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "trialName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TrialName

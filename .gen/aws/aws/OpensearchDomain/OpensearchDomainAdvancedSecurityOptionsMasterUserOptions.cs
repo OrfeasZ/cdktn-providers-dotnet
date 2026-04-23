@@ -7,7 +7,7 @@ namespace aws.OpensearchDomain
     [JsiiByValue(fqn: "aws.opensearchDomain.OpensearchDomainAdvancedSecurityOptionsMasterUserOptions")]
     public class OpensearchDomainAdvancedSecurityOptionsMasterUserOptions : aws.OpensearchDomain.IOpensearchDomainAdvancedSecurityOptionsMasterUserOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/opensearch_domain#master_user_arn OpensearchDomain#master_user_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#master_user_arn OpensearchDomain#master_user_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "masterUserArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MasterUserArn
@@ -16,7 +16,7 @@ namespace aws.OpensearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/opensearch_domain#master_user_name OpensearchDomain#master_user_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#master_user_name OpensearchDomain#master_user_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "masterUserName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MasterUserName
@@ -25,7 +25,7 @@ namespace aws.OpensearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/opensearch_domain#master_user_password OpensearchDomain#master_user_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#master_user_password OpensearchDomain#master_user_password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "masterUserPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MasterUserPassword

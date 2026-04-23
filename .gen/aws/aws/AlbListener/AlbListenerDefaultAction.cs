@@ -9,7 +9,7 @@ namespace aws.AlbListener
     [JsiiByValue(fqn: "aws.albListener.AlbListenerDefaultAction")]
     public class AlbListenerDefaultAction : aws.AlbListener.IAlbListenerDefaultAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/alb_listener#type AlbListener#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener#type AlbListener#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -19,7 +19,7 @@ namespace aws.AlbListener
 
         /// <summary>authenticate_cognito block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/alb_listener#authenticate_cognito AlbListener#authenticate_cognito}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener#authenticate_cognito AlbListener#authenticate_cognito}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authenticateCognito", typeJson: "{\"fqn\":\"aws.albListener.AlbListenerDefaultActionAuthenticateCognito\"}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.AlbListener
 
         /// <summary>authenticate_oidc block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/alb_listener#authenticate_oidc AlbListener#authenticate_oidc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener#authenticate_oidc AlbListener#authenticate_oidc}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authenticateOidc", typeJson: "{\"fqn\":\"aws.albListener.AlbListenerDefaultActionAuthenticateOidc\"}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace aws.AlbListener
 
         /// <summary>fixed_response block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/alb_listener#fixed_response AlbListener#fixed_response}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener#fixed_response AlbListener#fixed_response}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fixedResponse", typeJson: "{\"fqn\":\"aws.albListener.AlbListenerDefaultActionFixedResponse\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace aws.AlbListener
 
         /// <summary>forward block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/alb_listener#forward AlbListener#forward}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener#forward AlbListener#forward}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forward", typeJson: "{\"fqn\":\"aws.albListener.AlbListenerDefaultActionForward\"}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace aws.AlbListener
 
         /// <summary>jwt_validation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/alb_listener#jwt_validation AlbListener#jwt_validation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener#jwt_validation AlbListener#jwt_validation}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jwtValidation", typeJson: "{\"fqn\":\"aws.albListener.AlbListenerDefaultActionJwtValidation\"}", isOptional: true)]
@@ -77,7 +77,7 @@ namespace aws.AlbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/alb_listener#order AlbListener#order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener#order AlbListener#order}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Order
@@ -88,7 +88,7 @@ namespace aws.AlbListener
 
         /// <summary>redirect block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/alb_listener#redirect AlbListener#redirect}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener#redirect AlbListener#redirect}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "redirect", typeJson: "{\"fqn\":\"aws.albListener.AlbListenerDefaultActionRedirect\"}", isOptional: true)]
@@ -98,7 +98,7 @@ namespace aws.AlbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/alb_listener#target_group_arn AlbListener#target_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener#target_group_arn AlbListener#target_group_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetGroupArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetGroupArn

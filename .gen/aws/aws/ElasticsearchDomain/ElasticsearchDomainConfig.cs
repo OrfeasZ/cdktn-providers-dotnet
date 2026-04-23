@@ -9,7 +9,7 @@ namespace aws.ElasticsearchDomain
     [JsiiByValue(fqn: "aws.elasticsearchDomain.ElasticsearchDomainConfig")]
     public class ElasticsearchDomainConfig : aws.ElasticsearchDomain.IElasticsearchDomainConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#domain_name ElasticsearchDomain#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#domain_name ElasticsearchDomain#domain_name}.</summary>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainName
         {
@@ -17,7 +17,7 @@ namespace aws.ElasticsearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#access_policies ElasticsearchDomain#access_policies}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#access_policies ElasticsearchDomain#access_policies}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessPolicies", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessPolicies
@@ -26,7 +26,7 @@ namespace aws.ElasticsearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#advanced_options ElasticsearchDomain#advanced_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#advanced_options ElasticsearchDomain#advanced_options}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "advancedOptions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? AdvancedOptions
@@ -37,7 +37,7 @@ namespace aws.ElasticsearchDomain
 
         /// <summary>advanced_security_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#advanced_security_options ElasticsearchDomain#advanced_security_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#advanced_security_options ElasticsearchDomain#advanced_security_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "advancedSecurityOptions", typeJson: "{\"fqn\":\"aws.elasticsearchDomain.ElasticsearchDomainAdvancedSecurityOptions\"}", isOptional: true)]
@@ -49,7 +49,7 @@ namespace aws.ElasticsearchDomain
 
         /// <summary>auto_tune_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#auto_tune_options ElasticsearchDomain#auto_tune_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#auto_tune_options ElasticsearchDomain#auto_tune_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoTuneOptions", typeJson: "{\"fqn\":\"aws.elasticsearchDomain.ElasticsearchDomainAutoTuneOptions\"}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace aws.ElasticsearchDomain
 
         /// <summary>cluster_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#cluster_config ElasticsearchDomain#cluster_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#cluster_config ElasticsearchDomain#cluster_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clusterConfig", typeJson: "{\"fqn\":\"aws.elasticsearchDomain.ElasticsearchDomainClusterConfig\"}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace aws.ElasticsearchDomain
 
         /// <summary>cognito_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#cognito_options ElasticsearchDomain#cognito_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#cognito_options ElasticsearchDomain#cognito_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cognitoOptions", typeJson: "{\"fqn\":\"aws.elasticsearchDomain.ElasticsearchDomainCognitoOptions\"}", isOptional: true)]
@@ -85,7 +85,7 @@ namespace aws.ElasticsearchDomain
 
         /// <summary>domain_endpoint_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#domain_endpoint_options ElasticsearchDomain#domain_endpoint_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#domain_endpoint_options ElasticsearchDomain#domain_endpoint_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "domainEndpointOptions", typeJson: "{\"fqn\":\"aws.elasticsearchDomain.ElasticsearchDomainDomainEndpointOptions\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace aws.ElasticsearchDomain
 
         /// <summary>ebs_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#ebs_options ElasticsearchDomain#ebs_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#ebs_options ElasticsearchDomain#ebs_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ebsOptions", typeJson: "{\"fqn\":\"aws.elasticsearchDomain.ElasticsearchDomainEbsOptions\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace aws.ElasticsearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#elasticsearch_version ElasticsearchDomain#elasticsearch_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#elasticsearch_version ElasticsearchDomain#elasticsearch_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "elasticsearchVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ElasticsearchVersion
@@ -118,7 +118,7 @@ namespace aws.ElasticsearchDomain
 
         /// <summary>encrypt_at_rest block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#encrypt_at_rest ElasticsearchDomain#encrypt_at_rest}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#encrypt_at_rest ElasticsearchDomain#encrypt_at_rest}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptAtRest", typeJson: "{\"fqn\":\"aws.elasticsearchDomain.ElasticsearchDomainEncryptAtRest\"}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace aws.ElasticsearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#id ElasticsearchDomain#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#id ElasticsearchDomain#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -145,7 +145,7 @@ namespace aws.ElasticsearchDomain
 
         /// <summary>log_publishing_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#log_publishing_options ElasticsearchDomain#log_publishing_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#log_publishing_options ElasticsearchDomain#log_publishing_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logPublishingOptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticsearchDomain.ElasticsearchDomainLogPublishingOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -177,7 +177,7 @@ namespace aws.ElasticsearchDomain
 
         /// <summary>node_to_node_encryption block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#node_to_node_encryption ElasticsearchDomain#node_to_node_encryption}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#node_to_node_encryption ElasticsearchDomain#node_to_node_encryption}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nodeToNodeEncryption", typeJson: "{\"fqn\":\"aws.elasticsearchDomain.ElasticsearchDomainNodeToNodeEncryption\"}", isOptional: true)]
@@ -189,7 +189,7 @@ namespace aws.ElasticsearchDomain
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#region ElasticsearchDomain#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#region ElasticsearchDomain#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -201,7 +201,7 @@ namespace aws.ElasticsearchDomain
 
         /// <summary>snapshot_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#snapshot_options ElasticsearchDomain#snapshot_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#snapshot_options ElasticsearchDomain#snapshot_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "snapshotOptions", typeJson: "{\"fqn\":\"aws.elasticsearchDomain.ElasticsearchDomainSnapshotOptions\"}", isOptional: true)]
@@ -211,7 +211,7 @@ namespace aws.ElasticsearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#tags ElasticsearchDomain#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#tags ElasticsearchDomain#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -220,7 +220,7 @@ namespace aws.ElasticsearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#tags_all ElasticsearchDomain#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#tags_all ElasticsearchDomain#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -231,7 +231,7 @@ namespace aws.ElasticsearchDomain
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#timeouts ElasticsearchDomain#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#timeouts ElasticsearchDomain#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.elasticsearchDomain.ElasticsearchDomainTimeouts\"}", isOptional: true)]
@@ -243,7 +243,7 @@ namespace aws.ElasticsearchDomain
 
         /// <summary>vpc_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain#vpc_options ElasticsearchDomain#vpc_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#vpc_options ElasticsearchDomain#vpc_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpcOptions", typeJson: "{\"fqn\":\"aws.elasticsearchDomain.ElasticsearchDomainVpcOptions\"}", isOptional: true)]

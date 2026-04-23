@@ -9,7 +9,7 @@ namespace aws.Route53RecordsExclusive
     [JsiiByValue(fqn: "aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetCidrRoutingConfig")]
     public class Route53RecordsExclusiveResourceRecordSetCidrRoutingConfig : aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetCidrRoutingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_records_exclusive#collection_id Route53RecordsExclusive#collection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#collection_id Route53RecordsExclusive#collection_id}.</summary>
         [JsiiProperty(name: "collectionId", typeJson: "{\"primitive\":\"string\"}")]
         public string CollectionId
         {
@@ -17,7 +17,7 @@ namespace aws.Route53RecordsExclusive
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_records_exclusive#location_name Route53RecordsExclusive#location_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#location_name Route53RecordsExclusive#location_name}.</summary>
         [JsiiProperty(name: "locationName", typeJson: "{\"primitive\":\"string\"}")]
         public string LocationName
         {

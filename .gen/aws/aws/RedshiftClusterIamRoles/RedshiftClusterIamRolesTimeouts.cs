@@ -7,7 +7,7 @@ namespace aws.RedshiftClusterIamRoles
     [JsiiByValue(fqn: "aws.redshiftClusterIamRoles.RedshiftClusterIamRolesTimeouts")]
     public class RedshiftClusterIamRolesTimeouts : aws.RedshiftClusterIamRoles.IRedshiftClusterIamRolesTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_cluster_iam_roles#create RedshiftClusterIamRoles#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshift_cluster_iam_roles#create RedshiftClusterIamRoles#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.RedshiftClusterIamRoles
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_cluster_iam_roles#delete RedshiftClusterIamRoles#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshift_cluster_iam_roles#delete RedshiftClusterIamRoles#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace aws.RedshiftClusterIamRoles
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_cluster_iam_roles#update RedshiftClusterIamRoles#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshift_cluster_iam_roles#update RedshiftClusterIamRoles#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

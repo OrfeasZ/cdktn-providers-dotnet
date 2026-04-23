@@ -9,7 +9,7 @@ namespace aws.LambdaFunctionUrl
     [JsiiByValue(fqn: "aws.lambdaFunctionUrl.LambdaFunctionUrlConfig")]
     public class LambdaFunctionUrlConfig : aws.LambdaFunctionUrl.ILambdaFunctionUrlConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_function_url#authorization_type LambdaFunctionUrl#authorization_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function_url#authorization_type LambdaFunctionUrl#authorization_type}.</summary>
         [JsiiProperty(name: "authorizationType", typeJson: "{\"primitive\":\"string\"}")]
         public string AuthorizationType
         {
@@ -17,7 +17,7 @@ namespace aws.LambdaFunctionUrl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_function_url#function_name LambdaFunctionUrl#function_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function_url#function_name LambdaFunctionUrl#function_name}.</summary>
         [JsiiProperty(name: "functionName", typeJson: "{\"primitive\":\"string\"}")]
         public string FunctionName
         {
@@ -27,7 +27,7 @@ namespace aws.LambdaFunctionUrl
 
         /// <summary>cors block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_function_url#cors LambdaFunctionUrl#cors}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function_url#cors LambdaFunctionUrl#cors}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cors", typeJson: "{\"fqn\":\"aws.lambdaFunctionUrl.LambdaFunctionUrlCors\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace aws.LambdaFunctionUrl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_function_url#id LambdaFunctionUrl#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function_url#id LambdaFunctionUrl#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,7 +50,7 @@ namespace aws.LambdaFunctionUrl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_function_url#invoke_mode LambdaFunctionUrl#invoke_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function_url#invoke_mode LambdaFunctionUrl#invoke_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "invokeMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InvokeMode
@@ -59,7 +59,7 @@ namespace aws.LambdaFunctionUrl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_function_url#qualifier LambdaFunctionUrl#qualifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function_url#qualifier LambdaFunctionUrl#qualifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "qualifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Qualifier
@@ -70,7 +70,7 @@ namespace aws.LambdaFunctionUrl
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_function_url#region LambdaFunctionUrl#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function_url#region LambdaFunctionUrl#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace aws.LambdaFunctionUrl
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_function_url#timeouts LambdaFunctionUrl#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function_url#timeouts LambdaFunctionUrl#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.lambdaFunctionUrl.LambdaFunctionUrlTimeouts\"}", isOptional: true)]

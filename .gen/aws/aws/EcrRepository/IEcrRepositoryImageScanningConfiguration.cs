@@ -7,7 +7,7 @@ namespace aws.EcrRepository
     [JsiiInterface(nativeType: typeof(IEcrRepositoryImageScanningConfiguration), fullyQualifiedName: "aws.ecrRepository.EcrRepositoryImageScanningConfiguration")]
     public interface IEcrRepositoryImageScanningConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecr_repository#scan_on_push EcrRepository#scan_on_push}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#scan_on_push EcrRepository#scan_on_push}.</summary>
         [JsiiProperty(name: "scanOnPush", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         object ScanOnPush
         {
@@ -21,7 +21,7 @@ namespace aws.EcrRepository
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecr_repository#scan_on_push EcrRepository#scan_on_push}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#scan_on_push EcrRepository#scan_on_push}.</summary>
             [JsiiProperty(name: "scanOnPush", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
             public object ScanOnPush
             {

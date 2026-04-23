@@ -7,7 +7,7 @@ namespace aws.EksCluster
     [JsiiInterface(nativeType: typeof(IEksClusterOutpostConfigControlPlanePlacement), fullyQualifiedName: "aws.eksCluster.EksClusterOutpostConfigControlPlanePlacement")]
     public interface IEksClusterOutpostConfigControlPlanePlacement
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_cluster#group_name EksCluster#group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_cluster#group_name EksCluster#group_name}.</summary>
         [JsiiProperty(name: "groupName", typeJson: "{\"primitive\":\"string\"}")]
         string GroupName
         {
@@ -21,7 +21,7 @@ namespace aws.EksCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_cluster#group_name EksCluster#group_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_cluster#group_name EksCluster#group_name}.</summary>
             [JsiiProperty(name: "groupName", typeJson: "{\"primitive\":\"string\"}")]
             public string GroupName
             {

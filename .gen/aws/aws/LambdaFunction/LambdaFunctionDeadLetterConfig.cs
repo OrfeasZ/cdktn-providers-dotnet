@@ -9,7 +9,7 @@ namespace aws.LambdaFunction
     [JsiiByValue(fqn: "aws.lambdaFunction.LambdaFunctionDeadLetterConfig")]
     public class LambdaFunctionDeadLetterConfig : aws.LambdaFunction.ILambdaFunctionDeadLetterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_function#target_arn LambdaFunction#target_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function#target_arn LambdaFunction#target_arn}.</summary>
         [JsiiProperty(name: "targetArn", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetArn
         {

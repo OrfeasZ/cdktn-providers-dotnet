@@ -7,28 +7,28 @@ namespace aws.ConnectRoutingProfile
     [JsiiInterface(nativeType: typeof(IConnectRoutingProfileQueueConfigs), fullyQualifiedName: "aws.connectRoutingProfile.ConnectRoutingProfileQueueConfigs")]
     public interface IConnectRoutingProfileQueueConfigs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_routing_profile#channel ConnectRoutingProfile#channel}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_routing_profile#channel ConnectRoutingProfile#channel}.</summary>
         [JsiiProperty(name: "channel", typeJson: "{\"primitive\":\"string\"}")]
         string Channel
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_routing_profile#delay ConnectRoutingProfile#delay}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_routing_profile#delay ConnectRoutingProfile#delay}.</summary>
         [JsiiProperty(name: "delay", typeJson: "{\"primitive\":\"number\"}")]
         double Delay
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_routing_profile#priority ConnectRoutingProfile#priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_routing_profile#priority ConnectRoutingProfile#priority}.</summary>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
         double Priority
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_routing_profile#queue_id ConnectRoutingProfile#queue_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_routing_profile#queue_id ConnectRoutingProfile#queue_id}.</summary>
         [JsiiProperty(name: "queueId", typeJson: "{\"primitive\":\"string\"}")]
         string QueueId
         {
@@ -42,28 +42,28 @@ namespace aws.ConnectRoutingProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_routing_profile#channel ConnectRoutingProfile#channel}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_routing_profile#channel ConnectRoutingProfile#channel}.</summary>
             [JsiiProperty(name: "channel", typeJson: "{\"primitive\":\"string\"}")]
             public string Channel
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_routing_profile#delay ConnectRoutingProfile#delay}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_routing_profile#delay ConnectRoutingProfile#delay}.</summary>
             [JsiiProperty(name: "delay", typeJson: "{\"primitive\":\"number\"}")]
             public double Delay
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_routing_profile#priority ConnectRoutingProfile#priority}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_routing_profile#priority ConnectRoutingProfile#priority}.</summary>
             [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
             public double Priority
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_routing_profile#queue_id ConnectRoutingProfile#queue_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_routing_profile#queue_id ConnectRoutingProfile#queue_id}.</summary>
             [JsiiProperty(name: "queueId", typeJson: "{\"primitive\":\"string\"}")]
             public string QueueId
             {

@@ -9,7 +9,7 @@ namespace aws.DataAwsIamRolePolicyAttachments
     [JsiiByValue(fqn: "aws.dataAwsIamRolePolicyAttachments.DataAwsIamRolePolicyAttachmentsConfig")]
     public class DataAwsIamRolePolicyAttachmentsConfig : aws.DataAwsIamRolePolicyAttachments.IDataAwsIamRolePolicyAttachmentsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/iam_role_policy_attachments#role_name DataAwsIamRolePolicyAttachments#role_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/iam_role_policy_attachments#role_name DataAwsIamRolePolicyAttachments#role_name}.</summary>
         [JsiiProperty(name: "roleName", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleName
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsIamRolePolicyAttachments
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/iam_role_policy_attachments#path_prefix DataAwsIamRolePolicyAttachments#path_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/iam_role_policy_attachments#path_prefix DataAwsIamRolePolicyAttachments#path_prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pathPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PathPrefix

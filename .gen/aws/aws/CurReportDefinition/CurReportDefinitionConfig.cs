@@ -9,7 +9,7 @@ namespace aws.CurReportDefinition
     [JsiiByValue(fqn: "aws.curReportDefinition.CurReportDefinitionConfig")]
     public class CurReportDefinitionConfig : aws.CurReportDefinition.ICurReportDefinitionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cur_report_definition#additional_schema_elements CurReportDefinition#additional_schema_elements}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cur_report_definition#additional_schema_elements CurReportDefinition#additional_schema_elements}.</summary>
         [JsiiProperty(name: "additionalSchemaElements", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] AdditionalSchemaElements
         {
@@ -17,7 +17,7 @@ namespace aws.CurReportDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cur_report_definition#compression CurReportDefinition#compression}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cur_report_definition#compression CurReportDefinition#compression}.</summary>
         [JsiiProperty(name: "compression", typeJson: "{\"primitive\":\"string\"}")]
         public string Compression
         {
@@ -25,7 +25,7 @@ namespace aws.CurReportDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cur_report_definition#format CurReportDefinition#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cur_report_definition#format CurReportDefinition#format}.</summary>
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}")]
         public string Format
         {
@@ -33,7 +33,7 @@ namespace aws.CurReportDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cur_report_definition#report_name CurReportDefinition#report_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cur_report_definition#report_name CurReportDefinition#report_name}.</summary>
         [JsiiProperty(name: "reportName", typeJson: "{\"primitive\":\"string\"}")]
         public string ReportName
         {
@@ -41,7 +41,7 @@ namespace aws.CurReportDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cur_report_definition#s3_bucket CurReportDefinition#s3_bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cur_report_definition#s3_bucket CurReportDefinition#s3_bucket}.</summary>
         [JsiiProperty(name: "s3Bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string S3Bucket
         {
@@ -49,7 +49,7 @@ namespace aws.CurReportDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cur_report_definition#s3_prefix CurReportDefinition#s3_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cur_report_definition#s3_prefix CurReportDefinition#s3_prefix}.</summary>
         [JsiiProperty(name: "s3Prefix", typeJson: "{\"primitive\":\"string\"}")]
         public string S3Prefix
         {
@@ -57,7 +57,7 @@ namespace aws.CurReportDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cur_report_definition#s3_region CurReportDefinition#s3_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cur_report_definition#s3_region CurReportDefinition#s3_region}.</summary>
         [JsiiProperty(name: "s3Region", typeJson: "{\"primitive\":\"string\"}")]
         public string S3Region
         {
@@ -65,7 +65,7 @@ namespace aws.CurReportDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cur_report_definition#time_unit CurReportDefinition#time_unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cur_report_definition#time_unit CurReportDefinition#time_unit}.</summary>
         [JsiiProperty(name: "timeUnit", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeUnit
         {
@@ -73,7 +73,7 @@ namespace aws.CurReportDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cur_report_definition#additional_artifacts CurReportDefinition#additional_artifacts}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cur_report_definition#additional_artifacts CurReportDefinition#additional_artifacts}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "additionalArtifacts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AdditionalArtifacts
@@ -82,7 +82,7 @@ namespace aws.CurReportDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cur_report_definition#id CurReportDefinition#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cur_report_definition#id CurReportDefinition#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -97,7 +97,7 @@ namespace aws.CurReportDefinition
 
         private object? _refreshClosedReports;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cur_report_definition#refresh_closed_reports CurReportDefinition#refresh_closed_reports}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cur_report_definition#refresh_closed_reports CurReportDefinition#refresh_closed_reports}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "refreshClosedReports", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? RefreshClosedReports
@@ -126,7 +126,7 @@ namespace aws.CurReportDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cur_report_definition#report_versioning CurReportDefinition#report_versioning}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cur_report_definition#report_versioning CurReportDefinition#report_versioning}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "reportVersioning", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ReportVersioning
@@ -135,7 +135,7 @@ namespace aws.CurReportDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cur_report_definition#tags CurReportDefinition#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cur_report_definition#tags CurReportDefinition#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -144,7 +144,7 @@ namespace aws.CurReportDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cur_report_definition#tags_all CurReportDefinition#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cur_report_definition#tags_all CurReportDefinition#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll

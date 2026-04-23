@@ -7,7 +7,7 @@ namespace aws.Instance
     [JsiiInterface(nativeType: typeof(IInstanceCapacityReservationSpecification), fullyQualifiedName: "aws.instance.InstanceCapacityReservationSpecification")]
     public interface IInstanceCapacityReservationSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/instance#capacity_reservation_preference Instance#capacity_reservation_preference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#capacity_reservation_preference Instance#capacity_reservation_preference}.</summary>
         [JsiiProperty(name: "capacityReservationPreference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CapacityReservationPreference
@@ -20,7 +20,7 @@ namespace aws.Instance
 
         /// <summary>capacity_reservation_target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/instance#capacity_reservation_target Instance#capacity_reservation_target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#capacity_reservation_target Instance#capacity_reservation_target}
         /// </remarks>
         [JsiiProperty(name: "capacityReservationTarget", typeJson: "{\"fqn\":\"aws.instance.InstanceCapacityReservationSpecificationCapacityReservationTarget\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -39,7 +39,7 @@ namespace aws.Instance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/instance#capacity_reservation_preference Instance#capacity_reservation_preference}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#capacity_reservation_preference Instance#capacity_reservation_preference}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "capacityReservationPreference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CapacityReservationPreference
@@ -49,7 +49,7 @@ namespace aws.Instance
 
             /// <summary>capacity_reservation_target block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/instance#capacity_reservation_target Instance#capacity_reservation_target}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#capacity_reservation_target Instance#capacity_reservation_target}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "capacityReservationTarget", typeJson: "{\"fqn\":\"aws.instance.InstanceCapacityReservationSpecificationCapacityReservationTarget\"}", isOptional: true)]

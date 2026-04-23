@@ -9,7 +9,7 @@ namespace aws.ConnectQuickConnect
     [JsiiByValue(fqn: "aws.connectQuickConnect.ConnectQuickConnectQuickConnectConfigQueueConfig")]
     public class ConnectQuickConnectQuickConnectConfigQueueConfig : aws.ConnectQuickConnect.IConnectQuickConnectQuickConnectConfigQueueConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_quick_connect#contact_flow_id ConnectQuickConnect#contact_flow_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_quick_connect#contact_flow_id ConnectQuickConnect#contact_flow_id}.</summary>
         [JsiiProperty(name: "contactFlowId", typeJson: "{\"primitive\":\"string\"}")]
         public string ContactFlowId
         {
@@ -17,7 +17,7 @@ namespace aws.ConnectQuickConnect
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_quick_connect#queue_id ConnectQuickConnect#queue_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_quick_connect#queue_id ConnectQuickConnect#queue_id}.</summary>
         [JsiiProperty(name: "queueId", typeJson: "{\"primitive\":\"string\"}")]
         public string QueueId
         {

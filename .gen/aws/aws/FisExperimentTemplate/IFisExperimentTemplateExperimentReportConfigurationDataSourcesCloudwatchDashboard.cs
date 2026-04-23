@@ -7,7 +7,7 @@ namespace aws.FisExperimentTemplate
     [JsiiInterface(nativeType: typeof(IFisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboard), fullyQualifiedName: "aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboard")]
     public interface IFisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboard
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fis_experiment_template#dashboard_arn FisExperimentTemplate#dashboard_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#dashboard_arn FisExperimentTemplate#dashboard_arn}.</summary>
         [JsiiProperty(name: "dashboardArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DashboardArn
@@ -25,7 +25,7 @@ namespace aws.FisExperimentTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fis_experiment_template#dashboard_arn FisExperimentTemplate#dashboard_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#dashboard_arn FisExperimentTemplate#dashboard_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dashboardArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DashboardArn

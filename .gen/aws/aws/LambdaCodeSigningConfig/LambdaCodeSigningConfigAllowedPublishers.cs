@@ -9,7 +9,7 @@ namespace aws.LambdaCodeSigningConfig
     [JsiiByValue(fqn: "aws.lambdaCodeSigningConfig.LambdaCodeSigningConfigAllowedPublishers")]
     public class LambdaCodeSigningConfigAllowedPublishers : aws.LambdaCodeSigningConfig.ILambdaCodeSigningConfigAllowedPublishers
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_code_signing_config#signing_profile_version_arns LambdaCodeSigningConfig#signing_profile_version_arns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_code_signing_config#signing_profile_version_arns LambdaCodeSigningConfig#signing_profile_version_arns}.</summary>
         [JsiiProperty(name: "signingProfileVersionArns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SigningProfileVersionArns
         {

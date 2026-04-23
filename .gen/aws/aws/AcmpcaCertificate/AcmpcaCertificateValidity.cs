@@ -9,7 +9,7 @@ namespace aws.AcmpcaCertificate
     [JsiiByValue(fqn: "aws.acmpcaCertificate.AcmpcaCertificateValidity")]
     public class AcmpcaCertificateValidity : aws.AcmpcaCertificate.IAcmpcaCertificateValidity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/acmpca_certificate#type AcmpcaCertificate#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate#type AcmpcaCertificate#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.AcmpcaCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

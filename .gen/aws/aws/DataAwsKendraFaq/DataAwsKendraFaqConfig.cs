@@ -9,7 +9,7 @@ namespace aws.DataAwsKendraFaq
     [JsiiByValue(fqn: "aws.dataAwsKendraFaq.DataAwsKendraFaqConfig")]
     public class DataAwsKendraFaqConfig : aws.DataAwsKendraFaq.IDataAwsKendraFaqConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/kendra_faq#faq_id DataAwsKendraFaq#faq_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/kendra_faq#faq_id DataAwsKendraFaq#faq_id}.</summary>
         [JsiiProperty(name: "faqId", typeJson: "{\"primitive\":\"string\"}")]
         public string FaqId
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsKendraFaq
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/kendra_faq#index_id DataAwsKendraFaq#index_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/kendra_faq#index_id DataAwsKendraFaq#index_id}.</summary>
         [JsiiProperty(name: "indexId", typeJson: "{\"primitive\":\"string\"}")]
         public string IndexId
         {
@@ -25,7 +25,7 @@ namespace aws.DataAwsKendraFaq
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/kendra_faq#id DataAwsKendraFaq#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/kendra_faq#id DataAwsKendraFaq#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace aws.DataAwsKendraFaq
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/kendra_faq#region DataAwsKendraFaq#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/kendra_faq#region DataAwsKendraFaq#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace aws.DataAwsKendraFaq
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/kendra_faq#tags DataAwsKendraFaq#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/kendra_faq#tags DataAwsKendraFaq#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags

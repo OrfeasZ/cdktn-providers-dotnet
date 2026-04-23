@@ -11,7 +11,7 @@ namespace aws.LexIntent
     {
         /// <summary>prompt block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#prompt LexIntent#prompt}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#prompt LexIntent#prompt}
         /// </remarks>
         [JsiiProperty(name: "prompt", typeJson: "{\"fqn\":\"aws.lexIntent.LexIntentFollowUpPromptPrompt\"}")]
         public aws.LexIntent.ILexIntentFollowUpPromptPrompt Prompt
@@ -22,7 +22,7 @@ namespace aws.LexIntent
 
         /// <summary>rejection_statement block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lex_intent#rejection_statement LexIntent#rejection_statement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#rejection_statement LexIntent#rejection_statement}
         /// </remarks>
         [JsiiProperty(name: "rejectionStatement", typeJson: "{\"fqn\":\"aws.lexIntent.LexIntentFollowUpPromptRejectionStatement\"}")]
         public aws.LexIntent.ILexIntentFollowUpPromptRejectionStatement RejectionStatement

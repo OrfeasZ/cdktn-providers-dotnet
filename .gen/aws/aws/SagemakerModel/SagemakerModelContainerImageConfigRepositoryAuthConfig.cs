@@ -9,7 +9,7 @@ namespace aws.SagemakerModel
     [JsiiByValue(fqn: "aws.sagemakerModel.SagemakerModelContainerImageConfigRepositoryAuthConfig")]
     public class SagemakerModelContainerImageConfigRepositoryAuthConfig : aws.SagemakerModel.ISagemakerModelContainerImageConfigRepositoryAuthConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_model#repository_credentials_provider_arn SagemakerModel#repository_credentials_provider_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#repository_credentials_provider_arn SagemakerModel#repository_credentials_provider_arn}.</summary>
         [JsiiProperty(name: "repositoryCredentialsProviderArn", typeJson: "{\"primitive\":\"string\"}")]
         public string RepositoryCredentialsProviderArn
         {

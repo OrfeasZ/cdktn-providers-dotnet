@@ -9,7 +9,7 @@ namespace aws.GlueCrawler
     [JsiiByValue(fqn: "aws.glueCrawler.GlueCrawlerIcebergTarget")]
     public class GlueCrawlerIcebergTarget : aws.GlueCrawler.IGlueCrawlerIcebergTarget
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_crawler#maximum_traversal_depth GlueCrawler#maximum_traversal_depth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#maximum_traversal_depth GlueCrawler#maximum_traversal_depth}.</summary>
         [JsiiProperty(name: "maximumTraversalDepth", typeJson: "{\"primitive\":\"number\"}")]
         public double MaximumTraversalDepth
         {
@@ -17,7 +17,7 @@ namespace aws.GlueCrawler
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_crawler#paths GlueCrawler#paths}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#paths GlueCrawler#paths}.</summary>
         [JsiiProperty(name: "paths", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Paths
         {
@@ -25,7 +25,7 @@ namespace aws.GlueCrawler
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "connectionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConnectionName
@@ -34,7 +34,7 @@ namespace aws.GlueCrawler
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "exclusions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Exclusions

@@ -9,7 +9,7 @@ namespace aws.RedshiftserverlessUsageLimit
     [JsiiByValue(fqn: "aws.redshiftserverlessUsageLimit.RedshiftserverlessUsageLimitConfig")]
     public class RedshiftserverlessUsageLimitConfig : aws.RedshiftserverlessUsageLimit.IRedshiftserverlessUsageLimitConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshiftserverless_usage_limit#amount RedshiftserverlessUsageLimit#amount}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshiftserverless_usage_limit#amount RedshiftserverlessUsageLimit#amount}.</summary>
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}")]
         public double Amount
         {
@@ -17,7 +17,7 @@ namespace aws.RedshiftserverlessUsageLimit
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshiftserverless_usage_limit#resource_arn RedshiftserverlessUsageLimit#resource_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshiftserverless_usage_limit#resource_arn RedshiftserverlessUsageLimit#resource_arn}.</summary>
         [JsiiProperty(name: "resourceArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceArn
         {
@@ -25,7 +25,7 @@ namespace aws.RedshiftserverlessUsageLimit
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshiftserverless_usage_limit#usage_type RedshiftserverlessUsageLimit#usage_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshiftserverless_usage_limit#usage_type RedshiftserverlessUsageLimit#usage_type}.</summary>
         [JsiiProperty(name: "usageType", typeJson: "{\"primitive\":\"string\"}")]
         public string UsageType
         {
@@ -33,7 +33,7 @@ namespace aws.RedshiftserverlessUsageLimit
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshiftserverless_usage_limit#breach_action RedshiftserverlessUsageLimit#breach_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshiftserverless_usage_limit#breach_action RedshiftserverlessUsageLimit#breach_action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "breachAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BreachAction
@@ -42,7 +42,7 @@ namespace aws.RedshiftserverlessUsageLimit
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshiftserverless_usage_limit#id RedshiftserverlessUsageLimit#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshiftserverless_usage_limit#id RedshiftserverlessUsageLimit#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace aws.RedshiftserverlessUsageLimit
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshiftserverless_usage_limit#period RedshiftserverlessUsageLimit#period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshiftserverless_usage_limit#period RedshiftserverlessUsageLimit#period}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "period", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Period
@@ -66,7 +66,7 @@ namespace aws.RedshiftserverlessUsageLimit
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshiftserverless_usage_limit#region RedshiftserverlessUsageLimit#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshiftserverless_usage_limit#region RedshiftserverlessUsageLimit#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

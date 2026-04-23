@@ -9,7 +9,7 @@ namespace aws.LaunchTemplate
     [JsiiByValue(fqn: "aws.launchTemplate.LaunchTemplateInstanceRequirementsVcpuCount")]
     public class LaunchTemplateInstanceRequirementsVcpuCount : aws.LaunchTemplate.ILaunchTemplateInstanceRequirementsVcpuCount
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/launch_template#min LaunchTemplate#min}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#min LaunchTemplate#min}.</summary>
         [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}")]
         public double Min
         {
@@ -17,7 +17,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/launch_template#max LaunchTemplate#max}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#max LaunchTemplate#max}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Max

@@ -7,7 +7,7 @@ namespace aws.GameliftFleet
     [JsiiByValue(fqn: "aws.gameliftFleet.GameliftFleetCertificateConfiguration")]
     public class GameliftFleetCertificateConfiguration : aws.GameliftFleet.IGameliftFleetCertificateConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/gamelift_fleet#certificate_type GameliftFleet#certificate_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_fleet#certificate_type GameliftFleet#certificate_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateType

@@ -7,7 +7,7 @@ namespace aws.Lexv2ModelsSlotType
     [JsiiInterface(nativeType: typeof(ILexv2ModelsSlotTypeValueSelectionSettingAdvancedRecognitionSetting), fullyQualifiedName: "aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeValueSelectionSettingAdvancedRecognitionSetting")]
     public interface ILexv2ModelsSlotTypeValueSelectionSettingAdvancedRecognitionSetting
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_slot_type#audio_recognition_strategy Lexv2ModelsSlotType#audio_recognition_strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot_type#audio_recognition_strategy Lexv2ModelsSlotType#audio_recognition_strategy}.</summary>
         [JsiiProperty(name: "audioRecognitionStrategy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AudioRecognitionStrategy
@@ -25,7 +25,7 @@ namespace aws.Lexv2ModelsSlotType
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_slot_type#audio_recognition_strategy Lexv2ModelsSlotType#audio_recognition_strategy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot_type#audio_recognition_strategy Lexv2ModelsSlotType#audio_recognition_strategy}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "audioRecognitionStrategy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AudioRecognitionStrategy

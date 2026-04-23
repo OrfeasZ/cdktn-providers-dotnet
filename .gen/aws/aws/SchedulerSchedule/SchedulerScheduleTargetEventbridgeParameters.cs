@@ -9,7 +9,7 @@ namespace aws.SchedulerSchedule
     [JsiiByValue(fqn: "aws.schedulerSchedule.SchedulerScheduleTargetEventbridgeParameters")]
     public class SchedulerScheduleTargetEventbridgeParameters : aws.SchedulerSchedule.ISchedulerScheduleTargetEventbridgeParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/scheduler_schedule#detail_type SchedulerSchedule#detail_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#detail_type SchedulerSchedule#detail_type}.</summary>
         [JsiiProperty(name: "detailType", typeJson: "{\"primitive\":\"string\"}")]
         public string DetailType
         {
@@ -17,7 +17,7 @@ namespace aws.SchedulerSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/scheduler_schedule#source SchedulerSchedule#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#source SchedulerSchedule#source}.</summary>
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
         public string Source
         {

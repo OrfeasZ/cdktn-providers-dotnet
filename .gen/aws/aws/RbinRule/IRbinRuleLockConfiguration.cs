@@ -9,7 +9,7 @@ namespace aws.RbinRule
     {
         /// <summary>unlock_delay block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rbin_rule#unlock_delay RbinRule#unlock_delay}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rbin_rule#unlock_delay RbinRule#unlock_delay}
         /// </remarks>
         [JsiiProperty(name: "unlockDelay", typeJson: "{\"fqn\":\"aws.rbinRule.RbinRuleLockConfigurationUnlockDelay\"}")]
         aws.RbinRule.IRbinRuleLockConfigurationUnlockDelay UnlockDelay
@@ -26,7 +26,7 @@ namespace aws.RbinRule
 
             /// <summary>unlock_delay block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rbin_rule#unlock_delay RbinRule#unlock_delay}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rbin_rule#unlock_delay RbinRule#unlock_delay}
             /// </remarks>
             [JsiiProperty(name: "unlockDelay", typeJson: "{\"fqn\":\"aws.rbinRule.RbinRuleLockConfigurationUnlockDelay\"}")]
             public aws.RbinRule.IRbinRuleLockConfigurationUnlockDelay UnlockDelay

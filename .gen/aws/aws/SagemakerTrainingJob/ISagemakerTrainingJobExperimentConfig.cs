@@ -7,7 +7,7 @@ namespace aws.SagemakerTrainingJob
     [JsiiInterface(nativeType: typeof(ISagemakerTrainingJobExperimentConfig), fullyQualifiedName: "aws.sagemakerTrainingJob.SagemakerTrainingJobExperimentConfig")]
     public interface ISagemakerTrainingJobExperimentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_training_job#experiment_name SagemakerTrainingJob#experiment_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#experiment_name SagemakerTrainingJob#experiment_name}.</summary>
         [JsiiProperty(name: "experimentName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ExperimentName
@@ -18,7 +18,7 @@ namespace aws.SagemakerTrainingJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_training_job#run_name SagemakerTrainingJob#run_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#run_name SagemakerTrainingJob#run_name}.</summary>
         [JsiiProperty(name: "runName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RunName
@@ -29,7 +29,7 @@ namespace aws.SagemakerTrainingJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_training_job#trial_component_display_name SagemakerTrainingJob#trial_component_display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#trial_component_display_name SagemakerTrainingJob#trial_component_display_name}.</summary>
         [JsiiProperty(name: "trialComponentDisplayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TrialComponentDisplayName
@@ -40,7 +40,7 @@ namespace aws.SagemakerTrainingJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_training_job#trial_name SagemakerTrainingJob#trial_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#trial_name SagemakerTrainingJob#trial_name}.</summary>
         [JsiiProperty(name: "trialName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TrialName
@@ -58,7 +58,7 @@ namespace aws.SagemakerTrainingJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_training_job#experiment_name SagemakerTrainingJob#experiment_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#experiment_name SagemakerTrainingJob#experiment_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "experimentName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ExperimentName
@@ -66,7 +66,7 @@ namespace aws.SagemakerTrainingJob
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_training_job#run_name SagemakerTrainingJob#run_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#run_name SagemakerTrainingJob#run_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "runName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RunName
@@ -74,7 +74,7 @@ namespace aws.SagemakerTrainingJob
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_training_job#trial_component_display_name SagemakerTrainingJob#trial_component_display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#trial_component_display_name SagemakerTrainingJob#trial_component_display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "trialComponentDisplayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TrialComponentDisplayName
@@ -82,7 +82,7 @@ namespace aws.SagemakerTrainingJob
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_training_job#trial_name SagemakerTrainingJob#trial_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#trial_name SagemakerTrainingJob#trial_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "trialName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TrialName

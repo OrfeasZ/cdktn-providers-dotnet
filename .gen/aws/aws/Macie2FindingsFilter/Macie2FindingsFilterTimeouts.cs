@@ -7,7 +7,7 @@ namespace aws.Macie2FindingsFilter
     [JsiiByValue(fqn: "aws.macie2FindingsFilter.Macie2FindingsFilterTimeouts")]
     public class Macie2FindingsFilterTimeouts : aws.Macie2FindingsFilter.IMacie2FindingsFilterTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/macie2_findings_filter#create Macie2FindingsFilter#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/macie2_findings_filter#create Macie2FindingsFilter#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create

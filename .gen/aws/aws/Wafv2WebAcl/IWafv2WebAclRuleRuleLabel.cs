@@ -7,7 +7,7 @@ namespace aws.Wafv2WebAcl
     [JsiiInterface(nativeType: typeof(IWafv2WebAclRuleRuleLabel), fullyQualifiedName: "aws.wafv2WebAcl.Wafv2WebAclRuleRuleLabel")]
     public interface IWafv2WebAclRuleRuleLabel
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafv2_web_acl#name Wafv2WebAcl#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#name Wafv2WebAcl#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -21,7 +21,7 @@ namespace aws.Wafv2WebAcl
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafv2_web_acl#name Wafv2WebAcl#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#name Wafv2WebAcl#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {

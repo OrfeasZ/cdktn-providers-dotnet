@@ -9,7 +9,7 @@ namespace aws.BatchJobQueue
     [JsiiByValue(fqn: "aws.batchJobQueue.BatchJobQueueComputeEnvironmentOrder")]
     public class BatchJobQueueComputeEnvironmentOrder : aws.BatchJobQueue.IBatchJobQueueComputeEnvironmentOrder
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_job_queue#compute_environment BatchJobQueue#compute_environment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_queue#compute_environment BatchJobQueue#compute_environment}.</summary>
         [JsiiProperty(name: "computeEnvironment", typeJson: "{\"primitive\":\"string\"}")]
         public string ComputeEnvironment
         {
@@ -17,7 +17,7 @@ namespace aws.BatchJobQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/batch_job_queue#order BatchJobQueue#order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_queue#order BatchJobQueue#order}.</summary>
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}")]
         public double Order
         {

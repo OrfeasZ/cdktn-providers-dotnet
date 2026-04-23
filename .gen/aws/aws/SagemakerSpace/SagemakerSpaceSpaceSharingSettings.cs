@@ -9,7 +9,7 @@ namespace aws.SagemakerSpace
     [JsiiByValue(fqn: "aws.sagemakerSpace.SagemakerSpaceSpaceSharingSettings")]
     public class SagemakerSpaceSpaceSharingSettings : aws.SagemakerSpace.ISagemakerSpaceSpaceSharingSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_space#sharing_type SagemakerSpace#sharing_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#sharing_type SagemakerSpace#sharing_type}.</summary>
         [JsiiProperty(name: "sharingType", typeJson: "{\"primitive\":\"string\"}")]
         public string SharingType
         {

@@ -9,7 +9,7 @@ namespace aws.SsmcontactsRotation
     [JsiiByValue(fqn: "aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceMonthlySettings")]
     public class SsmcontactsRotationRecurrenceMonthlySettings : aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceMonthlySettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmcontacts_rotation#day_of_month SsmcontactsRotation#day_of_month}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmcontacts_rotation#day_of_month SsmcontactsRotation#day_of_month}.</summary>
         [JsiiProperty(name: "dayOfMonth", typeJson: "{\"primitive\":\"number\"}")]
         public double DayOfMonth
         {
@@ -21,7 +21,7 @@ namespace aws.SsmcontactsRotation
 
         /// <summary>hand_off_time block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmcontacts_rotation#hand_off_time SsmcontactsRotation#hand_off_time}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmcontacts_rotation#hand_off_time SsmcontactsRotation#hand_off_time}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "handOffTime", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceMonthlySettingsHandOffTime\"},\"kind\":\"array\"}}]}}", isOptional: true)]

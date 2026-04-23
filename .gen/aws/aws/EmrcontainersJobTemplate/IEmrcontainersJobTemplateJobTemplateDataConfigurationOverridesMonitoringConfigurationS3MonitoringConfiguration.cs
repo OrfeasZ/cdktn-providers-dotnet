@@ -7,7 +7,7 @@ namespace aws.EmrcontainersJobTemplate
     [JsiiInterface(nativeType: typeof(IEmrcontainersJobTemplateJobTemplateDataConfigurationOverridesMonitoringConfigurationS3MonitoringConfiguration), fullyQualifiedName: "aws.emrcontainersJobTemplate.EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesMonitoringConfigurationS3MonitoringConfiguration")]
     public interface IEmrcontainersJobTemplateJobTemplateDataConfigurationOverridesMonitoringConfigurationS3MonitoringConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/emrcontainers_job_template#log_uri EmrcontainersJobTemplate#log_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrcontainers_job_template#log_uri EmrcontainersJobTemplate#log_uri}.</summary>
         [JsiiProperty(name: "logUri", typeJson: "{\"primitive\":\"string\"}")]
         string LogUri
         {
@@ -21,7 +21,7 @@ namespace aws.EmrcontainersJobTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/emrcontainers_job_template#log_uri EmrcontainersJobTemplate#log_uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrcontainers_job_template#log_uri EmrcontainersJobTemplate#log_uri}.</summary>
             [JsiiProperty(name: "logUri", typeJson: "{\"primitive\":\"string\"}")]
             public string LogUri
             {

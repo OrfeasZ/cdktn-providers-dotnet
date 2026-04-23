@@ -7,7 +7,7 @@ namespace aws.SagemakerModelCard
     [JsiiInterface(nativeType: typeof(ISagemakerModelCardSecurityConfig), fullyQualifiedName: "aws.sagemakerModelCard.SagemakerModelCardSecurityConfig")]
     public interface ISagemakerModelCardSecurityConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_model_card#kms_key_id SagemakerModelCard#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model_card#kms_key_id SagemakerModelCard#kms_key_id}.</summary>
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}")]
         string KmsKeyId
         {
@@ -21,7 +21,7 @@ namespace aws.SagemakerModelCard
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_model_card#kms_key_id SagemakerModelCard#kms_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model_card#kms_key_id SagemakerModelCard#kms_key_id}.</summary>
             [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}")]
             public string KmsKeyId
             {

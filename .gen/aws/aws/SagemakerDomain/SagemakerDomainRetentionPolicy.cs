@@ -7,7 +7,7 @@ namespace aws.SagemakerDomain
     [JsiiByValue(fqn: "aws.sagemakerDomain.SagemakerDomainRetentionPolicy")]
     public class SagemakerDomainRetentionPolicy : aws.SagemakerDomain.ISagemakerDomainRetentionPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_domain#home_efs_file_system SagemakerDomain#home_efs_file_system}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#home_efs_file_system SagemakerDomain#home_efs_file_system}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "homeEfsFileSystem", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HomeEfsFileSystem

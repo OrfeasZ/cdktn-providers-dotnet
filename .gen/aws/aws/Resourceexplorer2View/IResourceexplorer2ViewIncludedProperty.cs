@@ -7,7 +7,7 @@ namespace aws.Resourceexplorer2View
     [JsiiInterface(nativeType: typeof(IResourceexplorer2ViewIncludedProperty), fullyQualifiedName: "aws.resourceexplorer2View.Resourceexplorer2ViewIncludedProperty")]
     public interface IResourceexplorer2ViewIncludedProperty
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -21,7 +21,7 @@ namespace aws.Resourceexplorer2View
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {

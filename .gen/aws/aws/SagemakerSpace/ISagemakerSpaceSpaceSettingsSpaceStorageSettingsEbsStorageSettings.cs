@@ -7,7 +7,7 @@ namespace aws.SagemakerSpace
     [JsiiInterface(nativeType: typeof(ISagemakerSpaceSpaceSettingsSpaceStorageSettingsEbsStorageSettings), fullyQualifiedName: "aws.sagemakerSpace.SagemakerSpaceSpaceSettingsSpaceStorageSettingsEbsStorageSettings")]
     public interface ISagemakerSpaceSpaceSettingsSpaceStorageSettingsEbsStorageSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_space#ebs_volume_size_in_gb SagemakerSpace#ebs_volume_size_in_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#ebs_volume_size_in_gb SagemakerSpace#ebs_volume_size_in_gb}.</summary>
         [JsiiProperty(name: "ebsVolumeSizeInGb", typeJson: "{\"primitive\":\"number\"}")]
         double EbsVolumeSizeInGb
         {
@@ -21,7 +21,7 @@ namespace aws.SagemakerSpace
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_space#ebs_volume_size_in_gb SagemakerSpace#ebs_volume_size_in_gb}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#ebs_volume_size_in_gb SagemakerSpace#ebs_volume_size_in_gb}.</summary>
             [JsiiProperty(name: "ebsVolumeSizeInGb", typeJson: "{\"primitive\":\"number\"}")]
             public double EbsVolumeSizeInGb
             {

@@ -9,7 +9,7 @@ namespace aws.SsmincidentsResponsePlan
     [JsiiByValue(fqn: "aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplate")]
     public class SsmincidentsResponsePlanIncidentTemplate : aws.SsmincidentsResponsePlan.ISsmincidentsResponsePlanIncidentTemplate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmincidents_response_plan#impact SsmincidentsResponsePlan#impact}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmincidents_response_plan#impact SsmincidentsResponsePlan#impact}.</summary>
         [JsiiProperty(name: "impact", typeJson: "{\"primitive\":\"number\"}")]
         public double Impact
         {
@@ -17,7 +17,7 @@ namespace aws.SsmincidentsResponsePlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmincidents_response_plan#title SsmincidentsResponsePlan#title}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmincidents_response_plan#title SsmincidentsResponsePlan#title}.</summary>
         [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}")]
         public string Title
         {
@@ -25,7 +25,7 @@ namespace aws.SsmincidentsResponsePlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmincidents_response_plan#dedupe_string SsmincidentsResponsePlan#dedupe_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmincidents_response_plan#dedupe_string SsmincidentsResponsePlan#dedupe_string}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dedupeString", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DedupeString
@@ -34,7 +34,7 @@ namespace aws.SsmincidentsResponsePlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmincidents_response_plan#incident_tags SsmincidentsResponsePlan#incident_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmincidents_response_plan#incident_tags SsmincidentsResponsePlan#incident_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "incidentTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? IncidentTags
@@ -47,7 +47,7 @@ namespace aws.SsmincidentsResponsePlan
 
         /// <summary>notification_target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmincidents_response_plan#notification_target SsmincidentsResponsePlan#notification_target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmincidents_response_plan#notification_target SsmincidentsResponsePlan#notification_target}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notificationTarget", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateNotificationTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -77,7 +77,7 @@ namespace aws.SsmincidentsResponsePlan
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmincidents_response_plan#summary SsmincidentsResponsePlan#summary}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmincidents_response_plan#summary SsmincidentsResponsePlan#summary}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "summary", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Summary

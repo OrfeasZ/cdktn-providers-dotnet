@@ -9,7 +9,7 @@ namespace aws.CodebuildProject
     [JsiiByValue(fqn: "aws.codebuildProject.CodebuildProjectSecondaryArtifacts")]
     public class CodebuildProjectSecondaryArtifacts : aws.CodebuildProject.ICodebuildProjectSecondaryArtifacts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#artifact_identifier CodebuildProject#artifact_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#artifact_identifier CodebuildProject#artifact_identifier}.</summary>
         [JsiiProperty(name: "artifactIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string ArtifactIdentifier
         {
@@ -17,7 +17,7 @@ namespace aws.CodebuildProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#type CodebuildProject#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#type CodebuildProject#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -25,7 +25,7 @@ namespace aws.CodebuildProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#bucket_owner_access CodebuildProject#bucket_owner_access}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#bucket_owner_access CodebuildProject#bucket_owner_access}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bucketOwnerAccess", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BucketOwnerAccess
@@ -36,7 +36,7 @@ namespace aws.CodebuildProject
 
         private object? _encryptionDisabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#encryption_disabled CodebuildProject#encryption_disabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#encryption_disabled CodebuildProject#encryption_disabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionDisabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? EncryptionDisabled
@@ -65,7 +65,7 @@ namespace aws.CodebuildProject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#location CodebuildProject#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#location CodebuildProject#location}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Location
@@ -74,7 +74,7 @@ namespace aws.CodebuildProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#name CodebuildProject#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#name CodebuildProject#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -83,7 +83,7 @@ namespace aws.CodebuildProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#namespace_type CodebuildProject#namespace_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#namespace_type CodebuildProject#namespace_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "namespaceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NamespaceType
@@ -94,7 +94,7 @@ namespace aws.CodebuildProject
 
         private object? _overrideArtifactName;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#override_artifact_name CodebuildProject#override_artifact_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#override_artifact_name CodebuildProject#override_artifact_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "overrideArtifactName", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? OverrideArtifactName
@@ -123,7 +123,7 @@ namespace aws.CodebuildProject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#packaging CodebuildProject#packaging}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#packaging CodebuildProject#packaging}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "packaging", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Packaging
@@ -132,7 +132,7 @@ namespace aws.CodebuildProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#path CodebuildProject#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#path CodebuildProject#path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Path

@@ -9,7 +9,7 @@ namespace aws.DataexchangeEventAction
     [JsiiByValue(fqn: "aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3RevisionDestination")]
     public class DataexchangeEventActionActionExportRevisionToS3RevisionDestination : aws.DataexchangeEventAction.IDataexchangeEventActionActionExportRevisionToS3RevisionDestination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dataexchange_event_action#bucket DataexchangeEventAction#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dataexchange_event_action#bucket DataexchangeEventAction#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
         {
@@ -17,7 +17,7 @@ namespace aws.DataexchangeEventAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dataexchange_event_action#key_pattern DataexchangeEventAction#key_pattern}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dataexchange_event_action#key_pattern DataexchangeEventAction#key_pattern}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyPattern", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyPattern

@@ -7,14 +7,14 @@ namespace aws.Route53Record
     [JsiiInterface(nativeType: typeof(IRoute53RecordGeoproximityRoutingPolicyCoordinates), fullyQualifiedName: "aws.route53Record.Route53RecordGeoproximityRoutingPolicyCoordinates")]
     public interface IRoute53RecordGeoproximityRoutingPolicyCoordinates
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_record#latitude Route53Record#latitude}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_record#latitude Route53Record#latitude}.</summary>
         [JsiiProperty(name: "latitude", typeJson: "{\"primitive\":\"string\"}")]
         string Latitude
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_record#longitude Route53Record#longitude}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_record#longitude Route53Record#longitude}.</summary>
         [JsiiProperty(name: "longitude", typeJson: "{\"primitive\":\"string\"}")]
         string Longitude
         {
@@ -28,14 +28,14 @@ namespace aws.Route53Record
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_record#latitude Route53Record#latitude}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_record#latitude Route53Record#latitude}.</summary>
             [JsiiProperty(name: "latitude", typeJson: "{\"primitive\":\"string\"}")]
             public string Latitude
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_record#longitude Route53Record#longitude}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_record#longitude Route53Record#longitude}.</summary>
             [JsiiProperty(name: "longitude", typeJson: "{\"primitive\":\"string\"}")]
             public string Longitude
             {

@@ -9,7 +9,7 @@ namespace aws.AutoscalingGroup
     [JsiiByValue(fqn: "aws.autoscalingGroup.AutoscalingGroupTrafficSource")]
     public class AutoscalingGroupTrafficSource : aws.AutoscalingGroup.IAutoscalingGroupTrafficSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/autoscaling_group#identifier AutoscalingGroup#identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#identifier AutoscalingGroup#identifier}.</summary>
         [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
         public string Identifier
         {
@@ -17,7 +17,7 @@ namespace aws.AutoscalingGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/autoscaling_group#type AutoscalingGroup#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#type AutoscalingGroup#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

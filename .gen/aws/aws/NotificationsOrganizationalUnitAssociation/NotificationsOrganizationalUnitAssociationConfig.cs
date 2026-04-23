@@ -9,7 +9,7 @@ namespace aws.NotificationsOrganizationalUnitAssociation
     [JsiiByValue(fqn: "aws.notificationsOrganizationalUnitAssociation.NotificationsOrganizationalUnitAssociationConfig")]
     public class NotificationsOrganizationalUnitAssociationConfig : aws.NotificationsOrganizationalUnitAssociation.INotificationsOrganizationalUnitAssociationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_organizational_unit_association#notification_configuration_arn NotificationsOrganizationalUnitAssociation#notification_configuration_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_organizational_unit_association#notification_configuration_arn NotificationsOrganizationalUnitAssociation#notification_configuration_arn}.</summary>
         [JsiiProperty(name: "notificationConfigurationArn", typeJson: "{\"primitive\":\"string\"}")]
         public string NotificationConfigurationArn
         {
@@ -17,7 +17,7 @@ namespace aws.NotificationsOrganizationalUnitAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_organizational_unit_association#organizational_unit_id NotificationsOrganizationalUnitAssociation#organizational_unit_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_organizational_unit_association#organizational_unit_id NotificationsOrganizationalUnitAssociation#organizational_unit_id}.</summary>
         [JsiiProperty(name: "organizationalUnitId", typeJson: "{\"primitive\":\"string\"}")]
         public string OrganizationalUnitId
         {

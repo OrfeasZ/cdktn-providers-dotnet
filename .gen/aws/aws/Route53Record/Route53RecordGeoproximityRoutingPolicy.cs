@@ -7,7 +7,7 @@ namespace aws.Route53Record
     [JsiiByValue(fqn: "aws.route53Record.Route53RecordGeoproximityRoutingPolicy")]
     public class Route53RecordGeoproximityRoutingPolicy : aws.Route53Record.IRoute53RecordGeoproximityRoutingPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_record#aws_region Route53Record#aws_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_record#aws_region Route53Record#aws_region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "awsRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AwsRegion
@@ -16,7 +16,7 @@ namespace aws.Route53Record
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_record#bias Route53Record#bias}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_record#bias Route53Record#bias}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bias", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Bias
@@ -29,7 +29,7 @@ namespace aws.Route53Record
 
         /// <summary>coordinates block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_record#coordinates Route53Record#coordinates}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_record#coordinates Route53Record#coordinates}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "coordinates", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53Record.Route53RecordGeoproximityRoutingPolicyCoordinates\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace aws.Route53Record
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_record#local_zone_group Route53Record#local_zone_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_record#local_zone_group Route53Record#local_zone_group}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "localZoneGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LocalZoneGroup

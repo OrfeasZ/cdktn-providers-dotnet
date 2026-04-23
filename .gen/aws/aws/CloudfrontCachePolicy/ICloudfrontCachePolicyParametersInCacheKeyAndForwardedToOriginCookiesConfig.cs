@@ -7,7 +7,7 @@ namespace aws.CloudfrontCachePolicy
     [JsiiInterface(nativeType: typeof(ICloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginCookiesConfig), fullyQualifiedName: "aws.cloudfrontCachePolicy.CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginCookiesConfig")]
     public interface ICloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginCookiesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_cache_policy#cookie_behavior CloudfrontCachePolicy#cookie_behavior}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_cache_policy#cookie_behavior CloudfrontCachePolicy#cookie_behavior}.</summary>
         [JsiiProperty(name: "cookieBehavior", typeJson: "{\"primitive\":\"string\"}")]
         string CookieBehavior
         {
@@ -16,7 +16,7 @@ namespace aws.CloudfrontCachePolicy
 
         /// <summary>cookies block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_cache_policy#cookies CloudfrontCachePolicy#cookies}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_cache_policy#cookies CloudfrontCachePolicy#cookies}
         /// </remarks>
         [JsiiProperty(name: "cookies", typeJson: "{\"fqn\":\"aws.cloudfrontCachePolicy.CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginCookiesConfigCookies\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace aws.CloudfrontCachePolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_cache_policy#cookie_behavior CloudfrontCachePolicy#cookie_behavior}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_cache_policy#cookie_behavior CloudfrontCachePolicy#cookie_behavior}.</summary>
             [JsiiProperty(name: "cookieBehavior", typeJson: "{\"primitive\":\"string\"}")]
             public string CookieBehavior
             {
@@ -44,7 +44,7 @@ namespace aws.CloudfrontCachePolicy
 
             /// <summary>cookies block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_cache_policy#cookies CloudfrontCachePolicy#cookies}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_cache_policy#cookies CloudfrontCachePolicy#cookies}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cookies", typeJson: "{\"fqn\":\"aws.cloudfrontCachePolicy.CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginCookiesConfigCookies\"}", isOptional: true)]

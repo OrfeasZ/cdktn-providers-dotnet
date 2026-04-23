@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     [JsiiByValue(fqn: "aws.medialiveChannel.MedialiveChannelEncoderSettingsCaptionDescriptions")]
     public class MedialiveChannelEncoderSettingsCaptionDescriptions : aws.MedialiveChannel.IMedialiveChannelEncoderSettingsCaptionDescriptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#caption_selector_name MedialiveChannel#caption_selector_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#caption_selector_name MedialiveChannel#caption_selector_name}.</summary>
         [JsiiProperty(name: "captionSelectorName", typeJson: "{\"primitive\":\"string\"}")]
         public string CaptionSelectorName
         {
@@ -17,7 +17,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#name MedialiveChannel#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#name MedialiveChannel#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#accessibility MedialiveChannel#accessibility}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#accessibility MedialiveChannel#accessibility}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessibility", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Accessibility
@@ -36,7 +36,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>destination_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#destination_settings MedialiveChannel#destination_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#destination_settings MedialiveChannel#destination_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "destinationSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettings\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#language_code MedialiveChannel#language_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#language_code MedialiveChannel#language_code}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "languageCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LanguageCode
@@ -55,7 +55,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#language_description MedialiveChannel#language_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#language_description MedialiveChannel#language_description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "languageDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LanguageDescription

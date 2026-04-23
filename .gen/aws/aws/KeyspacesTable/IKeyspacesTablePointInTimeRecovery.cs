@@ -7,7 +7,7 @@ namespace aws.KeyspacesTable
     [JsiiInterface(nativeType: typeof(IKeyspacesTablePointInTimeRecovery), fullyQualifiedName: "aws.keyspacesTable.KeyspacesTablePointInTimeRecovery")]
     public interface IKeyspacesTablePointInTimeRecovery
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/keyspaces_table#status KeyspacesTable#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/keyspaces_table#status KeyspacesTable#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Status
@@ -25,7 +25,7 @@ namespace aws.KeyspacesTable
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/keyspaces_table#status KeyspacesTable#status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/keyspaces_table#status KeyspacesTable#status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Status

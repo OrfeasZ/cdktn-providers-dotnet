@@ -9,7 +9,7 @@ namespace aws.DataAwsPricingProduct
     {
         /// <summary>filters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/pricing_product#filters DataAwsPricingProduct#filters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/pricing_product#filters DataAwsPricingProduct#filters}
         /// </remarks>
         [JsiiProperty(name: "filters", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsPricingProduct.DataAwsPricingProductFilters\"},\"kind\":\"array\"}}]}}")]
         object Filters
@@ -17,14 +17,14 @@ namespace aws.DataAwsPricingProduct
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/pricing_product#service_code DataAwsPricingProduct#service_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/pricing_product#service_code DataAwsPricingProduct#service_code}.</summary>
         [JsiiProperty(name: "serviceCode", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceCode
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/pricing_product#id DataAwsPricingProduct#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/pricing_product#id DataAwsPricingProduct#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace aws.DataAwsPricingProduct
 
             /// <summary>filters block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/pricing_product#filters DataAwsPricingProduct#filters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/pricing_product#filters DataAwsPricingProduct#filters}
             /// </remarks>
             [JsiiProperty(name: "filters", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsPricingProduct.DataAwsPricingProductFilters\"},\"kind\":\"array\"}}]}}")]
             public object Filters
@@ -56,14 +56,14 @@ namespace aws.DataAwsPricingProduct
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/pricing_product#service_code DataAwsPricingProduct#service_code}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/pricing_product#service_code DataAwsPricingProduct#service_code}.</summary>
             [JsiiProperty(name: "serviceCode", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceCode
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/pricing_product#id DataAwsPricingProduct#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/pricing_product#id DataAwsPricingProduct#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

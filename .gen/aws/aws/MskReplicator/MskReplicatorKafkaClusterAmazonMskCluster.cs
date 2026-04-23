@@ -9,7 +9,7 @@ namespace aws.MskReplicator
     [JsiiByValue(fqn: "aws.mskReplicator.MskReplicatorKafkaClusterAmazonMskCluster")]
     public class MskReplicatorKafkaClusterAmazonMskCluster : aws.MskReplicator.IMskReplicatorKafkaClusterAmazonMskCluster
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_replicator#msk_cluster_arn MskReplicator#msk_cluster_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_replicator#msk_cluster_arn MskReplicator#msk_cluster_arn}.</summary>
         [JsiiProperty(name: "mskClusterArn", typeJson: "{\"primitive\":\"string\"}")]
         public string MskClusterArn
         {

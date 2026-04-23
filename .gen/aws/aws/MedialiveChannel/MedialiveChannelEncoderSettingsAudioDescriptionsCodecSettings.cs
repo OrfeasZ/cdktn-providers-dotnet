@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     {
         /// <summary>aac_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#aac_settings MedialiveChannel#aac_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#aac_settings MedialiveChannel#aac_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "aacSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsAacSettings\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>ac3_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#ac3_settings MedialiveChannel#ac3_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#ac3_settings MedialiveChannel#ac3_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ac3Settings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsAc3Settings\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>eac3_atmos_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#eac3_atmos_settings MedialiveChannel#eac3_atmos_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#eac3_atmos_settings MedialiveChannel#eac3_atmos_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eac3AtmosSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3AtmosSettings\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>eac3_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#eac3_settings MedialiveChannel#eac3_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#eac3_settings MedialiveChannel#eac3_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eac3Settings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Settings\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>mp2_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#mp2_settings MedialiveChannel#mp2_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#mp2_settings MedialiveChannel#mp2_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mp2Settings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsMp2Settings\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>pass_through_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#pass_through_settings MedialiveChannel#pass_through_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#pass_through_settings MedialiveChannel#pass_through_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "passThroughSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsPassThroughSettings\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>wav_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#wav_settings MedialiveChannel#wav_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#wav_settings MedialiveChannel#wav_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "wavSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsWavSettings\"}", isOptional: true)]

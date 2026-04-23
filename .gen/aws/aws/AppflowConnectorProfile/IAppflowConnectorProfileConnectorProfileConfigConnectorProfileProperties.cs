@@ -9,7 +9,7 @@ namespace aws.AppflowConnectorProfile
     {
         /// <summary>amplitude block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#amplitude AppflowConnectorProfile#amplitude}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#amplitude AppflowConnectorProfile#amplitude}
         /// </remarks>
         [JsiiProperty(name: "amplitude", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesAmplitude\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.AppflowConnectorProfile
 
         /// <summary>custom_connector block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#custom_connector AppflowConnectorProfile#custom_connector}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#custom_connector AppflowConnectorProfile#custom_connector}
         /// </remarks>
         [JsiiProperty(name: "customConnector", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesCustomConnector\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.AppflowConnectorProfile
 
         /// <summary>datadog block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#datadog AppflowConnectorProfile#datadog}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#datadog AppflowConnectorProfile#datadog}
         /// </remarks>
         [JsiiProperty(name: "datadog", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesDatadog\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace aws.AppflowConnectorProfile
 
         /// <summary>dynatrace block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#dynatrace AppflowConnectorProfile#dynatrace}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#dynatrace AppflowConnectorProfile#dynatrace}
         /// </remarks>
         [JsiiProperty(name: "dynatrace", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesDynatrace\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace aws.AppflowConnectorProfile
 
         /// <summary>google_analytics block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#google_analytics AppflowConnectorProfile#google_analytics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#google_analytics AppflowConnectorProfile#google_analytics}
         /// </remarks>
         [JsiiProperty(name: "googleAnalytics", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesGoogleAnalytics\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +79,7 @@ namespace aws.AppflowConnectorProfile
 
         /// <summary>honeycode block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#honeycode AppflowConnectorProfile#honeycode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#honeycode AppflowConnectorProfile#honeycode}
         /// </remarks>
         [JsiiProperty(name: "honeycode", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesHoneycode\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,7 +93,7 @@ namespace aws.AppflowConnectorProfile
 
         /// <summary>infor_nexus block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#infor_nexus AppflowConnectorProfile#infor_nexus}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#infor_nexus AppflowConnectorProfile#infor_nexus}
         /// </remarks>
         [JsiiProperty(name: "inforNexus", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesInforNexus\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -107,7 +107,7 @@ namespace aws.AppflowConnectorProfile
 
         /// <summary>marketo block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#marketo AppflowConnectorProfile#marketo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#marketo AppflowConnectorProfile#marketo}
         /// </remarks>
         [JsiiProperty(name: "marketo", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesMarketo\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -121,7 +121,7 @@ namespace aws.AppflowConnectorProfile
 
         /// <summary>redshift block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#redshift AppflowConnectorProfile#redshift}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#redshift AppflowConnectorProfile#redshift}
         /// </remarks>
         [JsiiProperty(name: "redshift", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesRedshift\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -135,7 +135,7 @@ namespace aws.AppflowConnectorProfile
 
         /// <summary>salesforce block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#salesforce AppflowConnectorProfile#salesforce}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#salesforce AppflowConnectorProfile#salesforce}
         /// </remarks>
         [JsiiProperty(name: "salesforce", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSalesforce\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -149,7 +149,7 @@ namespace aws.AppflowConnectorProfile
 
         /// <summary>sapo_data block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#sapo_data AppflowConnectorProfile#sapo_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#sapo_data AppflowConnectorProfile#sapo_data}
         /// </remarks>
         [JsiiProperty(name: "sapoData", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSapoData\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -163,7 +163,7 @@ namespace aws.AppflowConnectorProfile
 
         /// <summary>service_now block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#service_now AppflowConnectorProfile#service_now}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#service_now AppflowConnectorProfile#service_now}
         /// </remarks>
         [JsiiProperty(name: "serviceNow", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesServiceNow\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -177,7 +177,7 @@ namespace aws.AppflowConnectorProfile
 
         /// <summary>singular block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#singular AppflowConnectorProfile#singular}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#singular AppflowConnectorProfile#singular}
         /// </remarks>
         [JsiiProperty(name: "singular", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSingular\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -191,7 +191,7 @@ namespace aws.AppflowConnectorProfile
 
         /// <summary>slack block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#slack AppflowConnectorProfile#slack}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#slack AppflowConnectorProfile#slack}
         /// </remarks>
         [JsiiProperty(name: "slack", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSlack\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -205,7 +205,7 @@ namespace aws.AppflowConnectorProfile
 
         /// <summary>snowflake block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#snowflake AppflowConnectorProfile#snowflake}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#snowflake AppflowConnectorProfile#snowflake}
         /// </remarks>
         [JsiiProperty(name: "snowflake", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSnowflake\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -219,7 +219,7 @@ namespace aws.AppflowConnectorProfile
 
         /// <summary>trendmicro block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#trendmicro AppflowConnectorProfile#trendmicro}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#trendmicro AppflowConnectorProfile#trendmicro}
         /// </remarks>
         [JsiiProperty(name: "trendmicro", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesTrendmicro\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -233,7 +233,7 @@ namespace aws.AppflowConnectorProfile
 
         /// <summary>veeva block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#veeva AppflowConnectorProfile#veeva}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#veeva AppflowConnectorProfile#veeva}
         /// </remarks>
         [JsiiProperty(name: "veeva", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesVeeva\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -247,7 +247,7 @@ namespace aws.AppflowConnectorProfile
 
         /// <summary>zendesk block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#zendesk AppflowConnectorProfile#zendesk}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#zendesk AppflowConnectorProfile#zendesk}
         /// </remarks>
         [JsiiProperty(name: "zendesk", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesZendesk\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -268,7 +268,7 @@ namespace aws.AppflowConnectorProfile
 
             /// <summary>amplitude block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#amplitude AppflowConnectorProfile#amplitude}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#amplitude AppflowConnectorProfile#amplitude}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "amplitude", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesAmplitude\"}", isOptional: true)]
@@ -279,7 +279,7 @@ namespace aws.AppflowConnectorProfile
 
             /// <summary>custom_connector block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#custom_connector AppflowConnectorProfile#custom_connector}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#custom_connector AppflowConnectorProfile#custom_connector}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customConnector", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesCustomConnector\"}", isOptional: true)]
@@ -290,7 +290,7 @@ namespace aws.AppflowConnectorProfile
 
             /// <summary>datadog block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#datadog AppflowConnectorProfile#datadog}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#datadog AppflowConnectorProfile#datadog}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "datadog", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesDatadog\"}", isOptional: true)]
@@ -301,7 +301,7 @@ namespace aws.AppflowConnectorProfile
 
             /// <summary>dynatrace block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#dynatrace AppflowConnectorProfile#dynatrace}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#dynatrace AppflowConnectorProfile#dynatrace}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dynatrace", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesDynatrace\"}", isOptional: true)]
@@ -312,7 +312,7 @@ namespace aws.AppflowConnectorProfile
 
             /// <summary>google_analytics block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#google_analytics AppflowConnectorProfile#google_analytics}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#google_analytics AppflowConnectorProfile#google_analytics}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "googleAnalytics", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesGoogleAnalytics\"}", isOptional: true)]
@@ -323,7 +323,7 @@ namespace aws.AppflowConnectorProfile
 
             /// <summary>honeycode block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#honeycode AppflowConnectorProfile#honeycode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#honeycode AppflowConnectorProfile#honeycode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "honeycode", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesHoneycode\"}", isOptional: true)]
@@ -334,7 +334,7 @@ namespace aws.AppflowConnectorProfile
 
             /// <summary>infor_nexus block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#infor_nexus AppflowConnectorProfile#infor_nexus}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#infor_nexus AppflowConnectorProfile#infor_nexus}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "inforNexus", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesInforNexus\"}", isOptional: true)]
@@ -345,7 +345,7 @@ namespace aws.AppflowConnectorProfile
 
             /// <summary>marketo block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#marketo AppflowConnectorProfile#marketo}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#marketo AppflowConnectorProfile#marketo}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "marketo", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesMarketo\"}", isOptional: true)]
@@ -356,7 +356,7 @@ namespace aws.AppflowConnectorProfile
 
             /// <summary>redshift block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#redshift AppflowConnectorProfile#redshift}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#redshift AppflowConnectorProfile#redshift}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "redshift", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesRedshift\"}", isOptional: true)]
@@ -367,7 +367,7 @@ namespace aws.AppflowConnectorProfile
 
             /// <summary>salesforce block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#salesforce AppflowConnectorProfile#salesforce}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#salesforce AppflowConnectorProfile#salesforce}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "salesforce", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSalesforce\"}", isOptional: true)]
@@ -378,7 +378,7 @@ namespace aws.AppflowConnectorProfile
 
             /// <summary>sapo_data block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#sapo_data AppflowConnectorProfile#sapo_data}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#sapo_data AppflowConnectorProfile#sapo_data}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sapoData", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSapoData\"}", isOptional: true)]
@@ -389,7 +389,7 @@ namespace aws.AppflowConnectorProfile
 
             /// <summary>service_now block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#service_now AppflowConnectorProfile#service_now}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#service_now AppflowConnectorProfile#service_now}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "serviceNow", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesServiceNow\"}", isOptional: true)]
@@ -400,7 +400,7 @@ namespace aws.AppflowConnectorProfile
 
             /// <summary>singular block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#singular AppflowConnectorProfile#singular}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#singular AppflowConnectorProfile#singular}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "singular", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSingular\"}", isOptional: true)]
@@ -411,7 +411,7 @@ namespace aws.AppflowConnectorProfile
 
             /// <summary>slack block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#slack AppflowConnectorProfile#slack}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#slack AppflowConnectorProfile#slack}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "slack", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSlack\"}", isOptional: true)]
@@ -422,7 +422,7 @@ namespace aws.AppflowConnectorProfile
 
             /// <summary>snowflake block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#snowflake AppflowConnectorProfile#snowflake}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#snowflake AppflowConnectorProfile#snowflake}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "snowflake", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSnowflake\"}", isOptional: true)]
@@ -433,7 +433,7 @@ namespace aws.AppflowConnectorProfile
 
             /// <summary>trendmicro block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#trendmicro AppflowConnectorProfile#trendmicro}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#trendmicro AppflowConnectorProfile#trendmicro}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "trendmicro", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesTrendmicro\"}", isOptional: true)]
@@ -444,7 +444,7 @@ namespace aws.AppflowConnectorProfile
 
             /// <summary>veeva block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#veeva AppflowConnectorProfile#veeva}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#veeva AppflowConnectorProfile#veeva}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "veeva", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesVeeva\"}", isOptional: true)]
@@ -455,7 +455,7 @@ namespace aws.AppflowConnectorProfile
 
             /// <summary>zendesk block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_connector_profile#zendesk AppflowConnectorProfile#zendesk}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#zendesk AppflowConnectorProfile#zendesk}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zendesk", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesZendesk\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.Lexv2ModelsBotLocale
     [JsiiByValue(fqn: "aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocaleVoiceSettings")]
     public class Lexv2ModelsBotLocaleVoiceSettings : aws.Lexv2ModelsBotLocale.ILexv2ModelsBotLocaleVoiceSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_bot_locale#voice_id Lexv2ModelsBotLocale#voice_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_bot_locale#voice_id Lexv2ModelsBotLocale#voice_id}.</summary>
         [JsiiProperty(name: "voiceId", typeJson: "{\"primitive\":\"string\"}")]
         public string VoiceId
         {
@@ -17,7 +17,7 @@ namespace aws.Lexv2ModelsBotLocale
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_bot_locale#engine Lexv2ModelsBotLocale#engine}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_bot_locale#engine Lexv2ModelsBotLocale#engine}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "engine", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Engine

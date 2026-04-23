@@ -9,7 +9,7 @@ namespace aws.S3FilesAccessPoint
     {
         /// <summary>Owner group ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3files_access_point#owner_gid S3FilesAccessPoint#owner_gid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3files_access_point#owner_gid S3FilesAccessPoint#owner_gid}
         /// </remarks>
         [JsiiProperty(name: "ownerGid", typeJson: "{\"primitive\":\"number\"}")]
         double OwnerGid
@@ -19,7 +19,7 @@ namespace aws.S3FilesAccessPoint
 
         /// <summary>Owner user ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3files_access_point#owner_uid S3FilesAccessPoint#owner_uid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3files_access_point#owner_uid S3FilesAccessPoint#owner_uid}
         /// </remarks>
         [JsiiProperty(name: "ownerUid", typeJson: "{\"primitive\":\"number\"}")]
         double OwnerUid
@@ -29,7 +29,7 @@ namespace aws.S3FilesAccessPoint
 
         /// <summary>POSIX permissions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3files_access_point#permissions S3FilesAccessPoint#permissions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3files_access_point#permissions S3FilesAccessPoint#permissions}
         /// </remarks>
         [JsiiProperty(name: "permissions", typeJson: "{\"primitive\":\"string\"}")]
         string Permissions
@@ -46,7 +46,7 @@ namespace aws.S3FilesAccessPoint
 
             /// <summary>Owner group ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3files_access_point#owner_gid S3FilesAccessPoint#owner_gid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3files_access_point#owner_gid S3FilesAccessPoint#owner_gid}
             /// </remarks>
             [JsiiProperty(name: "ownerGid", typeJson: "{\"primitive\":\"number\"}")]
             public double OwnerGid
@@ -56,7 +56,7 @@ namespace aws.S3FilesAccessPoint
 
             /// <summary>Owner user ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3files_access_point#owner_uid S3FilesAccessPoint#owner_uid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3files_access_point#owner_uid S3FilesAccessPoint#owner_uid}
             /// </remarks>
             [JsiiProperty(name: "ownerUid", typeJson: "{\"primitive\":\"number\"}")]
             public double OwnerUid
@@ -66,7 +66,7 @@ namespace aws.S3FilesAccessPoint
 
             /// <summary>POSIX permissions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3files_access_point#permissions S3FilesAccessPoint#permissions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3files_access_point#permissions S3FilesAccessPoint#permissions}
             /// </remarks>
             [JsiiProperty(name: "permissions", typeJson: "{\"primitive\":\"string\"}")]
             public string Permissions

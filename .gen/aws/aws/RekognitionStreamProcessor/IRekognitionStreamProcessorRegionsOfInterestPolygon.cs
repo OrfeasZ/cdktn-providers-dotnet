@@ -9,7 +9,7 @@ namespace aws.RekognitionStreamProcessor
     {
         /// <summary>The value of the X coordinate for a point on a Polygon.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rekognition_stream_processor#x RekognitionStreamProcessor#x}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#x RekognitionStreamProcessor#x}
         /// </remarks>
         [JsiiProperty(name: "x", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.RekognitionStreamProcessor
 
         /// <summary>The value of the Y coordinate for a point on a Polygon.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rekognition_stream_processor#y RekognitionStreamProcessor#y}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#y RekognitionStreamProcessor#y}
         /// </remarks>
         [JsiiProperty(name: "y", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace aws.RekognitionStreamProcessor
 
             /// <summary>The value of the X coordinate for a point on a Polygon.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rekognition_stream_processor#x RekognitionStreamProcessor#x}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#x RekognitionStreamProcessor#x}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "x", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace aws.RekognitionStreamProcessor
 
             /// <summary>The value of the Y coordinate for a point on a Polygon.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rekognition_stream_processor#y RekognitionStreamProcessor#y}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#y RekognitionStreamProcessor#y}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "y", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

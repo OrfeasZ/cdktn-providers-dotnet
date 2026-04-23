@@ -9,7 +9,7 @@ namespace aws.AppflowFlow
     {
         /// <summary>aggregation_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#aggregation_config AppflowFlow#aggregation_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#aggregation_config AppflowFlow#aggregation_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "aggregationConfig", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigAggregationConfig\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#file_type AppflowFlow#file_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#file_type AppflowFlow#file_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fileType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FileType
@@ -30,7 +30,7 @@ namespace aws.AppflowFlow
 
         /// <summary>prefix_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#prefix_config AppflowFlow#prefix_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#prefix_config AppflowFlow#prefix_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "prefixConfig", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigPrefixConfig\"}", isOptional: true)]
@@ -42,7 +42,7 @@ namespace aws.AppflowFlow
 
         private object? _preserveSourceDataTyping;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#preserve_source_data_typing AppflowFlow#preserve_source_data_typing}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#preserve_source_data_typing AppflowFlow#preserve_source_data_typing}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "preserveSourceDataTyping", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? PreserveSourceDataTyping

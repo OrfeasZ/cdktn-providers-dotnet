@@ -7,7 +7,7 @@ namespace aws.SecurityhubInsight
     [JsiiInterface(nativeType: typeof(ISecurityhubInsightFiltersResourceAwsEc2InstanceIpv6Addresses), fullyQualifiedName: "aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpv6Addresses")]
     public interface ISecurityhubInsightFiltersResourceAwsEc2InstanceIpv6Addresses
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}.</summary>
         [JsiiProperty(name: "cidr", typeJson: "{\"primitive\":\"string\"}")]
         string Cidr
         {
@@ -21,7 +21,7 @@ namespace aws.SecurityhubInsight
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}.</summary>
             [JsiiProperty(name: "cidr", typeJson: "{\"primitive\":\"string\"}")]
             public string Cidr
             {

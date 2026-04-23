@@ -9,7 +9,7 @@ namespace aws.KendraIndex
     {
         /// <summary>json_token_type_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kendra_index#json_token_type_configuration KendraIndex#json_token_type_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#json_token_type_configuration KendraIndex#json_token_type_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jsonTokenTypeConfiguration", typeJson: "{\"fqn\":\"aws.kendraIndex.KendraIndexUserTokenConfigurationsJsonTokenTypeConfiguration\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.KendraIndex
 
         /// <summary>jwt_token_type_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kendra_index#jwt_token_type_configuration KendraIndex#jwt_token_type_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#jwt_token_type_configuration KendraIndex#jwt_token_type_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jwtTokenTypeConfiguration", typeJson: "{\"fqn\":\"aws.kendraIndex.KendraIndexUserTokenConfigurationsJwtTokenTypeConfiguration\"}", isOptional: true)]

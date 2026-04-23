@@ -7,7 +7,7 @@ namespace aws.CodecatalystSourceRepository
     [JsiiByValue(fqn: "aws.codecatalystSourceRepository.CodecatalystSourceRepositoryTimeouts")]
     public class CodecatalystSourceRepositoryTimeouts : aws.CodecatalystSourceRepository.ICodecatalystSourceRepositoryTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codecatalyst_source_repository#create CodecatalystSourceRepository#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_source_repository#create CodecatalystSourceRepository#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.CodecatalystSourceRepository
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codecatalyst_source_repository#delete CodecatalystSourceRepository#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_source_repository#delete CodecatalystSourceRepository#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace aws.CodecatalystSourceRepository
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codecatalyst_source_repository#update CodecatalystSourceRepository#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_source_repository#update CodecatalystSourceRepository#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

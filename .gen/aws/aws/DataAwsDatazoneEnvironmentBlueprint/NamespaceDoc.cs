@@ -5,7 +5,7 @@ namespace aws.DataAwsDatazoneEnvironmentBlueprint
     /// <remarks>
     /// <h1><c>data_aws_datazone_environment_blueprint</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/datazone_environment_blueprint"><c>data_aws_datazone_environment_blueprint</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/datazone_environment_blueprint"><c>data_aws_datazone_environment_blueprint</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -9,7 +9,7 @@ namespace aws.BudgetsBudgetAction
     [JsiiByValue(fqn: "aws.budgetsBudgetAction.BudgetsBudgetActionActionThreshold")]
     public class BudgetsBudgetActionActionThreshold : aws.BudgetsBudgetAction.IBudgetsBudgetActionActionThreshold
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget_action#action_threshold_type BudgetsBudgetAction#action_threshold_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget_action#action_threshold_type BudgetsBudgetAction#action_threshold_type}.</summary>
         [JsiiProperty(name: "actionThresholdType", typeJson: "{\"primitive\":\"string\"}")]
         public string ActionThresholdType
         {
@@ -17,7 +17,7 @@ namespace aws.BudgetsBudgetAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget_action#action_threshold_value BudgetsBudgetAction#action_threshold_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget_action#action_threshold_value BudgetsBudgetAction#action_threshold_value}.</summary>
         [JsiiProperty(name: "actionThresholdValue", typeJson: "{\"primitive\":\"number\"}")]
         public double ActionThresholdValue
         {

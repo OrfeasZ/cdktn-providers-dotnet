@@ -7,7 +7,7 @@ namespace aws.BcmdataexportsExport
     [JsiiInterface(nativeType: typeof(IBcmdataexportsExportExportRefreshCadence), fullyQualifiedName: "aws.bcmdataexportsExport.BcmdataexportsExportExportRefreshCadence")]
     public interface IBcmdataexportsExportExportRefreshCadence
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bcmdataexports_export#frequency BcmdataexportsExport#frequency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bcmdataexports_export#frequency BcmdataexportsExport#frequency}.</summary>
         [JsiiProperty(name: "frequency", typeJson: "{\"primitive\":\"string\"}")]
         string Frequency
         {
@@ -21,7 +21,7 @@ namespace aws.BcmdataexportsExport
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bcmdataexports_export#frequency BcmdataexportsExport#frequency}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bcmdataexports_export#frequency BcmdataexportsExport#frequency}.</summary>
             [JsiiProperty(name: "frequency", typeJson: "{\"primitive\":\"string\"}")]
             public string Frequency
             {

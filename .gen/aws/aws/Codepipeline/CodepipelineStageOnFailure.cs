@@ -9,7 +9,7 @@ namespace aws.Codepipeline
     {
         /// <summary>condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline#condition Codepipeline#condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#condition Codepipeline#condition}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "condition", typeJson: "{\"fqn\":\"aws.codepipeline.CodepipelineStageOnFailureCondition\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace aws.Codepipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline#result Codepipeline#result}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#result Codepipeline#result}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "result", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Result
@@ -30,7 +30,7 @@ namespace aws.Codepipeline
 
         /// <summary>retry_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline#retry_configuration Codepipeline#retry_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#retry_configuration Codepipeline#retry_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retryConfiguration", typeJson: "{\"fqn\":\"aws.codepipeline.CodepipelineStageOnFailureRetryConfiguration\"}", isOptional: true)]

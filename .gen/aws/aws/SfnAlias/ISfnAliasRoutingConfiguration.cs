@@ -7,14 +7,14 @@ namespace aws.SfnAlias
     [JsiiInterface(nativeType: typeof(ISfnAliasRoutingConfiguration), fullyQualifiedName: "aws.sfnAlias.SfnAliasRoutingConfiguration")]
     public interface ISfnAliasRoutingConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sfn_alias#state_machine_version_arn SfnAlias#state_machine_version_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_alias#state_machine_version_arn SfnAlias#state_machine_version_arn}.</summary>
         [JsiiProperty(name: "stateMachineVersionArn", typeJson: "{\"primitive\":\"string\"}")]
         string StateMachineVersionArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sfn_alias#weight SfnAlias#weight}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_alias#weight SfnAlias#weight}.</summary>
         [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}")]
         double Weight
         {
@@ -28,14 +28,14 @@ namespace aws.SfnAlias
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sfn_alias#state_machine_version_arn SfnAlias#state_machine_version_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_alias#state_machine_version_arn SfnAlias#state_machine_version_arn}.</summary>
             [JsiiProperty(name: "stateMachineVersionArn", typeJson: "{\"primitive\":\"string\"}")]
             public string StateMachineVersionArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sfn_alias#weight SfnAlias#weight}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_alias#weight SfnAlias#weight}.</summary>
             [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}")]
             public double Weight
             {

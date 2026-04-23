@@ -7,7 +7,7 @@ namespace aws.DatazoneDomain
     [JsiiByValue(fqn: "aws.datazoneDomain.DatazoneDomainSingleSignOn")]
     public class DatazoneDomainSingleSignOn : aws.DatazoneDomain.IDatazoneDomainSingleSignOn
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_domain#type DatazoneDomain#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_domain#type DatazoneDomain#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type
@@ -16,7 +16,7 @@ namespace aws.DatazoneDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_domain#user_assignment DatazoneDomain#user_assignment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_domain#user_assignment DatazoneDomain#user_assignment}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "userAssignment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UserAssignment

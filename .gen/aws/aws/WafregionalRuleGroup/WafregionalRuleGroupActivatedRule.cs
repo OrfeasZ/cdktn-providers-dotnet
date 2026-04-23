@@ -11,7 +11,7 @@ namespace aws.WafregionalRuleGroup
     {
         /// <summary>action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_rule_group#action WafregionalRuleGroup#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_rule_group#action WafregionalRuleGroup#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"aws.wafregionalRuleGroup.WafregionalRuleGroupActivatedRuleAction\"}")]
         public aws.WafregionalRuleGroup.IWafregionalRuleGroupActivatedRuleAction Action
@@ -20,7 +20,7 @@ namespace aws.WafregionalRuleGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_rule_group#priority WafregionalRuleGroup#priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_rule_group#priority WafregionalRuleGroup#priority}.</summary>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
         public double Priority
         {
@@ -28,7 +28,7 @@ namespace aws.WafregionalRuleGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_rule_group#rule_id WafregionalRuleGroup#rule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_rule_group#rule_id WafregionalRuleGroup#rule_id}.</summary>
         [JsiiProperty(name: "ruleId", typeJson: "{\"primitive\":\"string\"}")]
         public string RuleId
         {
@@ -36,7 +36,7 @@ namespace aws.WafregionalRuleGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_rule_group#type WafregionalRuleGroup#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_rule_group#type WafregionalRuleGroup#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

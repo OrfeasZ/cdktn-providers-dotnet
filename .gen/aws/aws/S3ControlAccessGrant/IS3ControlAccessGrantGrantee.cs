@@ -7,14 +7,14 @@ namespace aws.S3ControlAccessGrant
     [JsiiInterface(nativeType: typeof(IS3ControlAccessGrantGrantee), fullyQualifiedName: "aws.s3ControlAccessGrant.S3ControlAccessGrantGrantee")]
     public interface IS3ControlAccessGrantGrantee
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3control_access_grant#grantee_identifier S3ControlAccessGrant#grantee_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_access_grant#grantee_identifier S3ControlAccessGrant#grantee_identifier}.</summary>
         [JsiiProperty(name: "granteeIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         string GranteeIdentifier
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3control_access_grant#grantee_type S3ControlAccessGrant#grantee_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_access_grant#grantee_type S3ControlAccessGrant#grantee_type}.</summary>
         [JsiiProperty(name: "granteeType", typeJson: "{\"primitive\":\"string\"}")]
         string GranteeType
         {
@@ -28,14 +28,14 @@ namespace aws.S3ControlAccessGrant
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3control_access_grant#grantee_identifier S3ControlAccessGrant#grantee_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_access_grant#grantee_identifier S3ControlAccessGrant#grantee_identifier}.</summary>
             [JsiiProperty(name: "granteeIdentifier", typeJson: "{\"primitive\":\"string\"}")]
             public string GranteeIdentifier
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3control_access_grant#grantee_type S3ControlAccessGrant#grantee_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_access_grant#grantee_type S3ControlAccessGrant#grantee_type}.</summary>
             [JsiiProperty(name: "granteeType", typeJson: "{\"primitive\":\"string\"}")]
             public string GranteeType
             {

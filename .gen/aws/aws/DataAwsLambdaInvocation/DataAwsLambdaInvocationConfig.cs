@@ -9,7 +9,7 @@ namespace aws.DataAwsLambdaInvocation
     [JsiiByValue(fqn: "aws.dataAwsLambdaInvocation.DataAwsLambdaInvocationConfig")]
     public class DataAwsLambdaInvocationConfig : aws.DataAwsLambdaInvocation.IDataAwsLambdaInvocationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/lambda_invocation#function_name DataAwsLambdaInvocation#function_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lambda_invocation#function_name DataAwsLambdaInvocation#function_name}.</summary>
         [JsiiProperty(name: "functionName", typeJson: "{\"primitive\":\"string\"}")]
         public string FunctionName
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsLambdaInvocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/lambda_invocation#input DataAwsLambdaInvocation#input}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lambda_invocation#input DataAwsLambdaInvocation#input}.</summary>
         [JsiiProperty(name: "input", typeJson: "{\"primitive\":\"string\"}")]
         public string Input
         {
@@ -25,7 +25,7 @@ namespace aws.DataAwsLambdaInvocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/lambda_invocation#id DataAwsLambdaInvocation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lambda_invocation#id DataAwsLambdaInvocation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace aws.DataAwsLambdaInvocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/lambda_invocation#qualifier DataAwsLambdaInvocation#qualifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lambda_invocation#qualifier DataAwsLambdaInvocation#qualifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "qualifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Qualifier
@@ -49,7 +49,7 @@ namespace aws.DataAwsLambdaInvocation
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/lambda_invocation#region DataAwsLambdaInvocation#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lambda_invocation#region DataAwsLambdaInvocation#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace aws.DataAwsLambdaInvocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/lambda_invocation#tenant_id DataAwsLambdaInvocation#tenant_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lambda_invocation#tenant_id DataAwsLambdaInvocation#tenant_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TenantId

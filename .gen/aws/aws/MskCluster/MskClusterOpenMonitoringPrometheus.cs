@@ -9,7 +9,7 @@ namespace aws.MskCluster
     {
         /// <summary>jmx_exporter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_cluster#jmx_exporter MskCluster#jmx_exporter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#jmx_exporter MskCluster#jmx_exporter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jmxExporter", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterOpenMonitoringPrometheusJmxExporter\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.MskCluster
 
         /// <summary>node_exporter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_cluster#node_exporter MskCluster#node_exporter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#node_exporter MskCluster#node_exporter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nodeExporter", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterOpenMonitoringPrometheusNodeExporter\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace aws.AcmCertificate
     [JsiiByValue(fqn: "aws.acmCertificate.AcmCertificateOptions")]
     public class AcmCertificateOptions : aws.AcmCertificate.IAcmCertificateOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/acm_certificate#certificate_transparency_logging_preference AcmCertificate#certificate_transparency_logging_preference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate#certificate_transparency_logging_preference AcmCertificate#certificate_transparency_logging_preference}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateTransparencyLoggingPreference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateTransparencyLoggingPreference
@@ -16,7 +16,7 @@ namespace aws.AcmCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/acm_certificate#export AcmCertificate#export}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate#export AcmCertificate#export}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "export", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Export

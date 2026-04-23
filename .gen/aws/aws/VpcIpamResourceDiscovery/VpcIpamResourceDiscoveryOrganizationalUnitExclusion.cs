@@ -9,7 +9,7 @@ namespace aws.VpcIpamResourceDiscovery
     [JsiiByValue(fqn: "aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscoveryOrganizationalUnitExclusion")]
     public class VpcIpamResourceDiscoveryOrganizationalUnitExclusion : aws.VpcIpamResourceDiscovery.IVpcIpamResourceDiscoveryOrganizationalUnitExclusion
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc_ipam_resource_discovery#organizations_entity_path VpcIpamResourceDiscovery#organizations_entity_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_ipam_resource_discovery#organizations_entity_path VpcIpamResourceDiscovery#organizations_entity_path}.</summary>
         [JsiiProperty(name: "organizationsEntityPath", typeJson: "{\"primitive\":\"string\"}")]
         public string OrganizationsEntityPath
         {

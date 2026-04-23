@@ -7,7 +7,7 @@ namespace aws.PipesPipe
     [JsiiInterface(nativeType: typeof(IPipesPipeSourceParametersRabbitmqBrokerParametersCredentials), fullyQualifiedName: "aws.pipesPipe.PipesPipeSourceParametersRabbitmqBrokerParametersCredentials")]
     public interface IPipesPipeSourceParametersRabbitmqBrokerParametersCredentials
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}.</summary>
         [JsiiProperty(name: "basicAuth", typeJson: "{\"primitive\":\"string\"}")]
         string BasicAuth
         {
@@ -21,7 +21,7 @@ namespace aws.PipesPipe
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}.</summary>
             [JsiiProperty(name: "basicAuth", typeJson: "{\"primitive\":\"string\"}")]
             public string BasicAuth
             {

@@ -7,7 +7,7 @@ namespace aws.FsxOpenzfsFileSystem
     [JsiiByValue(fqn: "aws.fsxOpenzfsFileSystem.FsxOpenzfsFileSystemReadCacheConfiguration")]
     public class FsxOpenzfsFileSystemReadCacheConfiguration : aws.FsxOpenzfsFileSystem.IFsxOpenzfsFileSystemReadCacheConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_openzfs_file_system#size FsxOpenzfsFileSystem#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_file_system#size FsxOpenzfsFileSystem#size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Size
@@ -16,7 +16,7 @@ namespace aws.FsxOpenzfsFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_openzfs_file_system#sizing_mode FsxOpenzfsFileSystem#sizing_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_file_system#sizing_mode FsxOpenzfsFileSystem#sizing_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sizingMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SizingMode

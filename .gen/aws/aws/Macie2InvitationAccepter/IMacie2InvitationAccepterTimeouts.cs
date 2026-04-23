@@ -7,7 +7,7 @@ namespace aws.Macie2InvitationAccepter
     [JsiiInterface(nativeType: typeof(IMacie2InvitationAccepterTimeouts), fullyQualifiedName: "aws.macie2InvitationAccepter.Macie2InvitationAccepterTimeouts")]
     public interface IMacie2InvitationAccepterTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/macie2_invitation_accepter#create Macie2InvitationAccepter#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/macie2_invitation_accepter#create Macie2InvitationAccepter#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -25,7 +25,7 @@ namespace aws.Macie2InvitationAccepter
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/macie2_invitation_accepter#create Macie2InvitationAccepter#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/macie2_invitation_accepter#create Macie2InvitationAccepter#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create

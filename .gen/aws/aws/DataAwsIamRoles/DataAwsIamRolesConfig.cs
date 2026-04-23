@@ -7,7 +7,7 @@ namespace aws.DataAwsIamRoles
     [JsiiByValue(fqn: "aws.dataAwsIamRoles.DataAwsIamRolesConfig")]
     public class DataAwsIamRolesConfig : aws.DataAwsIamRoles.IDataAwsIamRolesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/iam_roles#id DataAwsIamRoles#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/iam_roles#id DataAwsIamRoles#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -20,7 +20,7 @@ namespace aws.DataAwsIamRoles
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/iam_roles#name_regex DataAwsIamRoles#name_regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/iam_roles#name_regex DataAwsIamRoles#name_regex}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nameRegex", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NameRegex
@@ -29,7 +29,7 @@ namespace aws.DataAwsIamRoles
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/iam_roles#path_prefix DataAwsIamRoles#path_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/iam_roles#path_prefix DataAwsIamRoles#path_prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pathPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PathPrefix

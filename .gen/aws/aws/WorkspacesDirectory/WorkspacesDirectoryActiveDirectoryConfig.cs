@@ -9,7 +9,7 @@ namespace aws.WorkspacesDirectory
     [JsiiByValue(fqn: "aws.workspacesDirectory.WorkspacesDirectoryActiveDirectoryConfig")]
     public class WorkspacesDirectoryActiveDirectoryConfig : aws.WorkspacesDirectory.IWorkspacesDirectoryActiveDirectoryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspaces_directory#domain_name WorkspacesDirectory#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspaces_directory#domain_name WorkspacesDirectory#domain_name}.</summary>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainName
         {
@@ -17,7 +17,7 @@ namespace aws.WorkspacesDirectory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspaces_directory#service_account_secret_arn WorkspacesDirectory#service_account_secret_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspaces_directory#service_account_secret_arn WorkspacesDirectory#service_account_secret_arn}.</summary>
         [JsiiProperty(name: "serviceAccountSecretArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceAccountSecretArn
         {

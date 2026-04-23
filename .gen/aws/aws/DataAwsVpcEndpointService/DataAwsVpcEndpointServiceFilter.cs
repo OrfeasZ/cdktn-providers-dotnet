@@ -9,7 +9,7 @@ namespace aws.DataAwsVpcEndpointService
     [JsiiByValue(fqn: "aws.dataAwsVpcEndpointService.DataAwsVpcEndpointServiceFilter")]
     public class DataAwsVpcEndpointServiceFilter : aws.DataAwsVpcEndpointService.IDataAwsVpcEndpointServiceFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/vpc_endpoint_service#name DataAwsVpcEndpointService#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpc_endpoint_service#name DataAwsVpcEndpointService#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsVpcEndpointService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/vpc_endpoint_service#values DataAwsVpcEndpointService#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpc_endpoint_service#values DataAwsVpcEndpointService#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

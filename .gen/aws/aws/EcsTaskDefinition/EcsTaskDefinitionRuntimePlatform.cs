@@ -7,7 +7,7 @@ namespace aws.EcsTaskDefinition
     [JsiiByValue(fqn: "aws.ecsTaskDefinition.EcsTaskDefinitionRuntimePlatform")]
     public class EcsTaskDefinitionRuntimePlatform : aws.EcsTaskDefinition.IEcsTaskDefinitionRuntimePlatform
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_task_definition#cpu_architecture EcsTaskDefinition#cpu_architecture}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_definition#cpu_architecture EcsTaskDefinition#cpu_architecture}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cpuArchitecture", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CpuArchitecture
@@ -16,7 +16,7 @@ namespace aws.EcsTaskDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_task_definition#operating_system_family EcsTaskDefinition#operating_system_family}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_definition#operating_system_family EcsTaskDefinition#operating_system_family}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "operatingSystemFamily", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OperatingSystemFamily

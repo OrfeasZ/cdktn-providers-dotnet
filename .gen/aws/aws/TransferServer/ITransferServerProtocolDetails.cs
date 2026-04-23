@@ -7,7 +7,7 @@ namespace aws.TransferServer
     [JsiiInterface(nativeType: typeof(ITransferServerProtocolDetails), fullyQualifiedName: "aws.transferServer.TransferServerProtocolDetails")]
     public interface ITransferServerProtocolDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_server#as2_transports TransferServer#as2_transports}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#as2_transports TransferServer#as2_transports}.</summary>
         [JsiiProperty(name: "as2Transports", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? As2Transports
@@ -18,7 +18,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_server#passive_ip TransferServer#passive_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#passive_ip TransferServer#passive_ip}.</summary>
         [JsiiProperty(name: "passiveIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PassiveIp
@@ -29,7 +29,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_server#set_stat_option TransferServer#set_stat_option}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#set_stat_option TransferServer#set_stat_option}.</summary>
         [JsiiProperty(name: "setStatOption", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SetStatOption
@@ -40,7 +40,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_server#tls_session_resumption_mode TransferServer#tls_session_resumption_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#tls_session_resumption_mode TransferServer#tls_session_resumption_mode}.</summary>
         [JsiiProperty(name: "tlsSessionResumptionMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TlsSessionResumptionMode
@@ -58,7 +58,7 @@ namespace aws.TransferServer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_server#as2_transports TransferServer#as2_transports}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#as2_transports TransferServer#as2_transports}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "as2Transports", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? As2Transports
@@ -66,7 +66,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_server#passive_ip TransferServer#passive_ip}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#passive_ip TransferServer#passive_ip}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "passiveIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PassiveIp
@@ -74,7 +74,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_server#set_stat_option TransferServer#set_stat_option}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#set_stat_option TransferServer#set_stat_option}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "setStatOption", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SetStatOption
@@ -82,7 +82,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_server#tls_session_resumption_mode TransferServer#tls_session_resumption_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#tls_session_resumption_mode TransferServer#tls_session_resumption_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tlsSessionResumptionMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TlsSessionResumptionMode

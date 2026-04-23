@@ -9,7 +9,7 @@ namespace aws.SsmcontactsPlan
     {
         /// <summary>channel_target_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmcontacts_plan#channel_target_info SsmcontactsPlan#channel_target_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmcontacts_plan#channel_target_info SsmcontactsPlan#channel_target_info}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "channelTargetInfo", typeJson: "{\"fqn\":\"aws.ssmcontactsPlan.SsmcontactsPlanStageTargetChannelTargetInfo\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.SsmcontactsPlan
 
         /// <summary>contact_target_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmcontacts_plan#contact_target_info SsmcontactsPlan#contact_target_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmcontacts_plan#contact_target_info SsmcontactsPlan#contact_target_info}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "contactTargetInfo", typeJson: "{\"fqn\":\"aws.ssmcontactsPlan.SsmcontactsPlanStageTargetContactTargetInfo\"}", isOptional: true)]

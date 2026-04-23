@@ -7,7 +7,7 @@ namespace aws.CodebuildFleet
     [JsiiByValue(fqn: "aws.codebuildFleet.CodebuildFleetScalingConfigurationTargetTrackingScalingConfigs")]
     public class CodebuildFleetScalingConfigurationTargetTrackingScalingConfigs : aws.CodebuildFleet.ICodebuildFleetScalingConfigurationTargetTrackingScalingConfigs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_fleet#metric_type CodebuildFleet#metric_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#metric_type CodebuildFleet#metric_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metricType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MetricType
@@ -16,7 +16,7 @@ namespace aws.CodebuildFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_fleet#target_value CodebuildFleet#target_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#target_value CodebuildFleet#target_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetValue", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TargetValue

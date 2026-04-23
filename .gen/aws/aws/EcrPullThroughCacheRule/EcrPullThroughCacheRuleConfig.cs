@@ -9,7 +9,7 @@ namespace aws.EcrPullThroughCacheRule
     [JsiiByValue(fqn: "aws.ecrPullThroughCacheRule.EcrPullThroughCacheRuleConfig")]
     public class EcrPullThroughCacheRuleConfig : aws.EcrPullThroughCacheRule.IEcrPullThroughCacheRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecr_pull_through_cache_rule#ecr_repository_prefix EcrPullThroughCacheRule#ecr_repository_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_pull_through_cache_rule#ecr_repository_prefix EcrPullThroughCacheRule#ecr_repository_prefix}.</summary>
         [JsiiProperty(name: "ecrRepositoryPrefix", typeJson: "{\"primitive\":\"string\"}")]
         public string EcrRepositoryPrefix
         {
@@ -17,7 +17,7 @@ namespace aws.EcrPullThroughCacheRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecr_pull_through_cache_rule#upstream_registry_url EcrPullThroughCacheRule#upstream_registry_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_pull_through_cache_rule#upstream_registry_url EcrPullThroughCacheRule#upstream_registry_url}.</summary>
         [JsiiProperty(name: "upstreamRegistryUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string UpstreamRegistryUrl
         {
@@ -25,7 +25,7 @@ namespace aws.EcrPullThroughCacheRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecr_pull_through_cache_rule#credential_arn EcrPullThroughCacheRule#credential_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_pull_through_cache_rule#credential_arn EcrPullThroughCacheRule#credential_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "credentialArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CredentialArn
@@ -34,7 +34,7 @@ namespace aws.EcrPullThroughCacheRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecr_pull_through_cache_rule#custom_role_arn EcrPullThroughCacheRule#custom_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_pull_through_cache_rule#custom_role_arn EcrPullThroughCacheRule#custom_role_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomRoleArn
@@ -43,7 +43,7 @@ namespace aws.EcrPullThroughCacheRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecr_pull_through_cache_rule#id EcrPullThroughCacheRule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_pull_through_cache_rule#id EcrPullThroughCacheRule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace aws.EcrPullThroughCacheRule
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecr_pull_through_cache_rule#region EcrPullThroughCacheRule#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_pull_through_cache_rule#region EcrPullThroughCacheRule#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace aws.EcrPullThroughCacheRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecr_pull_through_cache_rule#upstream_repository_prefix EcrPullThroughCacheRule#upstream_repository_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_pull_through_cache_rule#upstream_repository_prefix EcrPullThroughCacheRule#upstream_repository_prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "upstreamRepositoryPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UpstreamRepositoryPrefix

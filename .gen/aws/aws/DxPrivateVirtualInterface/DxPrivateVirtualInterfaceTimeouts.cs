@@ -7,7 +7,7 @@ namespace aws.DxPrivateVirtualInterface
     [JsiiByValue(fqn: "aws.dxPrivateVirtualInterface.DxPrivateVirtualInterfaceTimeouts")]
     public class DxPrivateVirtualInterfaceTimeouts : aws.DxPrivateVirtualInterface.IDxPrivateVirtualInterfaceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dx_private_virtual_interface#create DxPrivateVirtualInterface#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_private_virtual_interface#create DxPrivateVirtualInterface#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.DxPrivateVirtualInterface
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dx_private_virtual_interface#delete DxPrivateVirtualInterface#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_private_virtual_interface#delete DxPrivateVirtualInterface#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace aws.DxPrivateVirtualInterface
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dx_private_virtual_interface#update DxPrivateVirtualInterface#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_private_virtual_interface#update DxPrivateVirtualInterface#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

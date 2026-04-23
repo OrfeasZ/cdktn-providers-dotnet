@@ -9,7 +9,7 @@ namespace aws.Route53HostedZoneDnssec
     [JsiiByValue(fqn: "aws.route53HostedZoneDnssec.Route53HostedZoneDnssecConfig")]
     public class Route53HostedZoneDnssecConfig : aws.Route53HostedZoneDnssec.IRoute53HostedZoneDnssecConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_hosted_zone_dnssec#hosted_zone_id Route53HostedZoneDnssec#hosted_zone_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_hosted_zone_dnssec#hosted_zone_id Route53HostedZoneDnssec#hosted_zone_id}.</summary>
         [JsiiProperty(name: "hostedZoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string HostedZoneId
         {
@@ -17,7 +17,7 @@ namespace aws.Route53HostedZoneDnssec
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_hosted_zone_dnssec#id Route53HostedZoneDnssec#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_hosted_zone_dnssec#id Route53HostedZoneDnssec#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ namespace aws.Route53HostedZoneDnssec
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_hosted_zone_dnssec#signing_status Route53HostedZoneDnssec#signing_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_hosted_zone_dnssec#signing_status Route53HostedZoneDnssec#signing_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "signingStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SigningStatus
@@ -41,7 +41,7 @@ namespace aws.Route53HostedZoneDnssec
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_hosted_zone_dnssec#timeouts Route53HostedZoneDnssec#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_hosted_zone_dnssec#timeouts Route53HostedZoneDnssec#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.route53HostedZoneDnssec.Route53HostedZoneDnssecTimeouts\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace aws.CodebuildProject
     [JsiiInterface(nativeType: typeof(ICodebuildProjectSecondarySourcesGitSubmodulesConfig), fullyQualifiedName: "aws.codebuildProject.CodebuildProjectSecondarySourcesGitSubmodulesConfig")]
     public interface ICodebuildProjectSecondarySourcesGitSubmodulesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#fetch_submodules CodebuildProject#fetch_submodules}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#fetch_submodules CodebuildProject#fetch_submodules}.</summary>
         [JsiiProperty(name: "fetchSubmodules", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         object FetchSubmodules
         {
@@ -21,7 +21,7 @@ namespace aws.CodebuildProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#fetch_submodules CodebuildProject#fetch_submodules}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#fetch_submodules CodebuildProject#fetch_submodules}.</summary>
             [JsiiProperty(name: "fetchSubmodules", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
             public object FetchSubmodules
             {

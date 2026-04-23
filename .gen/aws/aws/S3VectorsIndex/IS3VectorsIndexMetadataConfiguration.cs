@@ -7,7 +7,7 @@ namespace aws.S3VectorsIndex
     [JsiiInterface(nativeType: typeof(IS3VectorsIndexMetadataConfiguration), fullyQualifiedName: "aws.s3VectorsIndex.S3VectorsIndexMetadataConfiguration")]
     public interface IS3VectorsIndexMetadataConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3vectors_index#non_filterable_metadata_keys S3VectorsIndex#non_filterable_metadata_keys}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3vectors_index#non_filterable_metadata_keys S3VectorsIndex#non_filterable_metadata_keys}.</summary>
         [JsiiProperty(name: "nonFilterableMetadataKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] NonFilterableMetadataKeys
         {
@@ -21,7 +21,7 @@ namespace aws.S3VectorsIndex
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3vectors_index#non_filterable_metadata_keys S3VectorsIndex#non_filterable_metadata_keys}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3vectors_index#non_filterable_metadata_keys S3VectorsIndex#non_filterable_metadata_keys}.</summary>
             [JsiiProperty(name: "nonFilterableMetadataKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] NonFilterableMetadataKeys
             {

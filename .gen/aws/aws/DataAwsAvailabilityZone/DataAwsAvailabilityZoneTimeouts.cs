@@ -7,7 +7,7 @@ namespace aws.DataAwsAvailabilityZone
     [JsiiByValue(fqn: "aws.dataAwsAvailabilityZone.DataAwsAvailabilityZoneTimeouts")]
     public class DataAwsAvailabilityZoneTimeouts : aws.DataAwsAvailabilityZone.IDataAwsAvailabilityZoneTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/availability_zone#read DataAwsAvailabilityZone#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/availability_zone#read DataAwsAvailabilityZone#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

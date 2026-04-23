@@ -7,7 +7,7 @@ namespace aws.IvschatRoom
     [JsiiInterface(nativeType: typeof(IIvschatRoomMessageReviewHandler), fullyQualifiedName: "aws.ivschatRoom.IvschatRoomMessageReviewHandler")]
     public interface IIvschatRoomMessageReviewHandler
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ivschat_room#fallback_result IvschatRoom#fallback_result}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ivschat_room#fallback_result IvschatRoom#fallback_result}.</summary>
         [JsiiProperty(name: "fallbackResult", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FallbackResult
@@ -18,7 +18,7 @@ namespace aws.IvschatRoom
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ivschat_room#uri IvschatRoom#uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ivschat_room#uri IvschatRoom#uri}.</summary>
         [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Uri
@@ -36,7 +36,7 @@ namespace aws.IvschatRoom
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ivschat_room#fallback_result IvschatRoom#fallback_result}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ivschat_room#fallback_result IvschatRoom#fallback_result}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fallbackResult", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FallbackResult
@@ -44,7 +44,7 @@ namespace aws.IvschatRoom
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ivschat_room#uri IvschatRoom#uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ivschat_room#uri IvschatRoom#uri}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Uri

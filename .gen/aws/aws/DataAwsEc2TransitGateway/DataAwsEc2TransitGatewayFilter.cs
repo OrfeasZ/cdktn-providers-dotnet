@@ -9,7 +9,7 @@ namespace aws.DataAwsEc2TransitGateway
     [JsiiByValue(fqn: "aws.dataAwsEc2TransitGateway.DataAwsEc2TransitGatewayFilter")]
     public class DataAwsEc2TransitGatewayFilter : aws.DataAwsEc2TransitGateway.IDataAwsEc2TransitGatewayFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ec2_transit_gateway#name DataAwsEc2TransitGateway#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_transit_gateway#name DataAwsEc2TransitGateway#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsEc2TransitGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ec2_transit_gateway#values DataAwsEc2TransitGateway#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_transit_gateway#values DataAwsEc2TransitGateway#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

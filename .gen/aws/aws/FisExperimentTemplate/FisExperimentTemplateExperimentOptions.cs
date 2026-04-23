@@ -7,7 +7,7 @@ namespace aws.FisExperimentTemplate
     [JsiiByValue(fqn: "aws.fisExperimentTemplate.FisExperimentTemplateExperimentOptions")]
     public class FisExperimentTemplateExperimentOptions : aws.FisExperimentTemplate.IFisExperimentTemplateExperimentOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fis_experiment_template#account_targeting FisExperimentTemplate#account_targeting}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#account_targeting FisExperimentTemplate#account_targeting}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountTargeting", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountTargeting
@@ -16,7 +16,7 @@ namespace aws.FisExperimentTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fis_experiment_template#empty_target_resolution_mode FisExperimentTemplate#empty_target_resolution_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#empty_target_resolution_mode FisExperimentTemplate#empty_target_resolution_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "emptyTargetResolutionMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EmptyTargetResolutionMode

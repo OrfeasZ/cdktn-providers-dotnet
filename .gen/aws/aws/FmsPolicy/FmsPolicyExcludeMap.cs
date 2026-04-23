@@ -7,7 +7,7 @@ namespace aws.FmsPolicy
     [JsiiByValue(fqn: "aws.fmsPolicy.FmsPolicyExcludeMap")]
     public class FmsPolicyExcludeMap : aws.FmsPolicy.IFmsPolicyExcludeMap
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fms_policy#account FmsPolicy#account}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_policy#account FmsPolicy#account}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "account", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Account
@@ -16,7 +16,7 @@ namespace aws.FmsPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fms_policy#orgunit FmsPolicy#orgunit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_policy#orgunit FmsPolicy#orgunit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "orgunit", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Orgunit

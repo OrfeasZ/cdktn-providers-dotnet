@@ -7,14 +7,14 @@ namespace aws.DataAwsConnectBotAssociation
     [JsiiInterface(nativeType: typeof(IDataAwsConnectBotAssociationLexBot), fullyQualifiedName: "aws.dataAwsConnectBotAssociation.DataAwsConnectBotAssociationLexBot")]
     public interface IDataAwsConnectBotAssociationLexBot
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/connect_bot_association#name DataAwsConnectBotAssociation#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/connect_bot_association#name DataAwsConnectBotAssociation#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/connect_bot_association#lex_region DataAwsConnectBotAssociation#lex_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/connect_bot_association#lex_region DataAwsConnectBotAssociation#lex_region}.</summary>
         [JsiiProperty(name: "lexRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LexRegion
@@ -32,14 +32,14 @@ namespace aws.DataAwsConnectBotAssociation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/connect_bot_association#name DataAwsConnectBotAssociation#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/connect_bot_association#name DataAwsConnectBotAssociation#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/connect_bot_association#lex_region DataAwsConnectBotAssociation#lex_region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/connect_bot_association#lex_region DataAwsConnectBotAssociation#lex_region}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lexRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LexRegion

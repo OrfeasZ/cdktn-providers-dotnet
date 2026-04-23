@@ -7,7 +7,7 @@ namespace aws.PipesPipe
     [JsiiByValue(fqn: "aws.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParametersCredentials")]
     public class PipesPipeSourceParametersSelfManagedKafkaParametersCredentials : aws.PipesPipe.IPipesPipeSourceParametersSelfManagedKafkaParametersCredentials
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "basicAuth", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BasicAuth
@@ -16,7 +16,7 @@ namespace aws.PipesPipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pipes_pipe#client_certificate_tls_auth PipesPipe#client_certificate_tls_auth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#client_certificate_tls_auth PipesPipe#client_certificate_tls_auth}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clientCertificateTlsAuth", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClientCertificateTlsAuth
@@ -25,7 +25,7 @@ namespace aws.PipesPipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pipes_pipe#sasl_scram_256_auth PipesPipe#sasl_scram_256_auth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#sasl_scram_256_auth PipesPipe#sasl_scram_256_auth}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "saslScram256Auth", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SaslScram256Auth
@@ -34,7 +34,7 @@ namespace aws.PipesPipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pipes_pipe#sasl_scram_512_auth PipesPipe#sasl_scram_512_auth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#sasl_scram_512_auth PipesPipe#sasl_scram_512_auth}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "saslScram512Auth", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SaslScram512Auth

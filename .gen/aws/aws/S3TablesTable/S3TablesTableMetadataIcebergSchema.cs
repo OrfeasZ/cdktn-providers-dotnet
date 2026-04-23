@@ -11,7 +11,7 @@ namespace aws.S3TablesTable
 
         /// <summary>field block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3tables_table#field S3TablesTable#field}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table#field S3TablesTable#field}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "field", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3TablesTable.S3TablesTableMetadataIcebergSchemaField\"},\"kind\":\"array\"}}]}}", isOptional: true)]

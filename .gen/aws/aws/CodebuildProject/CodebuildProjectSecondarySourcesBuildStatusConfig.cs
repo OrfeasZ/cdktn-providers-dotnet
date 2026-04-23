@@ -7,7 +7,7 @@ namespace aws.CodebuildProject
     [JsiiByValue(fqn: "aws.codebuildProject.CodebuildProjectSecondarySourcesBuildStatusConfig")]
     public class CodebuildProjectSecondarySourcesBuildStatusConfig : aws.CodebuildProject.ICodebuildProjectSecondarySourcesBuildStatusConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#context CodebuildProject#context}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#context CodebuildProject#context}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "context", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Context
@@ -16,7 +16,7 @@ namespace aws.CodebuildProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#target_url CodebuildProject#target_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#target_url CodebuildProject#target_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetUrl

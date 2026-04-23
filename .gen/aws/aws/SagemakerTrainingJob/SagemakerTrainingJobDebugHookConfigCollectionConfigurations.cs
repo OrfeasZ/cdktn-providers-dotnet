@@ -7,7 +7,7 @@ namespace aws.SagemakerTrainingJob
     [JsiiByValue(fqn: "aws.sagemakerTrainingJob.SagemakerTrainingJobDebugHookConfigCollectionConfigurations")]
     public class SagemakerTrainingJobDebugHookConfigCollectionConfigurations : aws.SagemakerTrainingJob.ISagemakerTrainingJobDebugHookConfigCollectionConfigurations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_training_job#collection_name SagemakerTrainingJob#collection_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#collection_name SagemakerTrainingJob#collection_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "collectionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CollectionName
@@ -16,7 +16,7 @@ namespace aws.SagemakerTrainingJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_training_job#collection_parameters SagemakerTrainingJob#collection_parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#collection_parameters SagemakerTrainingJob#collection_parameters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "collectionParameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? CollectionParameters

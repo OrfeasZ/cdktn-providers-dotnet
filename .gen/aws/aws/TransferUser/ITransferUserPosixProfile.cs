@@ -7,21 +7,21 @@ namespace aws.TransferUser
     [JsiiInterface(nativeType: typeof(ITransferUserPosixProfile), fullyQualifiedName: "aws.transferUser.TransferUserPosixProfile")]
     public interface ITransferUserPosixProfile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_user#gid TransferUser#gid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_user#gid TransferUser#gid}.</summary>
         [JsiiProperty(name: "gid", typeJson: "{\"primitive\":\"number\"}")]
         double Gid
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_user#uid TransferUser#uid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_user#uid TransferUser#uid}.</summary>
         [JsiiProperty(name: "uid", typeJson: "{\"primitive\":\"number\"}")]
         double Uid
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_user#secondary_gids TransferUser#secondary_gids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_user#secondary_gids TransferUser#secondary_gids}.</summary>
         [JsiiProperty(name: "secondaryGids", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double[]? SecondaryGids
@@ -39,21 +39,21 @@ namespace aws.TransferUser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_user#gid TransferUser#gid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_user#gid TransferUser#gid}.</summary>
             [JsiiProperty(name: "gid", typeJson: "{\"primitive\":\"number\"}")]
             public double Gid
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_user#uid TransferUser#uid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_user#uid TransferUser#uid}.</summary>
             [JsiiProperty(name: "uid", typeJson: "{\"primitive\":\"number\"}")]
             public double Uid
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_user#secondary_gids TransferUser#secondary_gids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_user#secondary_gids TransferUser#secondary_gids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "secondaryGids", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
             public double[]? SecondaryGids

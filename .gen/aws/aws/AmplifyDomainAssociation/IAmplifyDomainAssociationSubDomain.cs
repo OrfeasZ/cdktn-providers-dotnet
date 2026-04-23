@@ -7,14 +7,14 @@ namespace aws.AmplifyDomainAssociation
     [JsiiInterface(nativeType: typeof(IAmplifyDomainAssociationSubDomain), fullyQualifiedName: "aws.amplifyDomainAssociation.AmplifyDomainAssociationSubDomain")]
     public interface IAmplifyDomainAssociationSubDomain
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/amplify_domain_association#branch_name AmplifyDomainAssociation#branch_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/amplify_domain_association#branch_name AmplifyDomainAssociation#branch_name}.</summary>
         [JsiiProperty(name: "branchName", typeJson: "{\"primitive\":\"string\"}")]
         string BranchName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/amplify_domain_association#prefix AmplifyDomainAssociation#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/amplify_domain_association#prefix AmplifyDomainAssociation#prefix}.</summary>
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
         string Prefix
         {
@@ -28,14 +28,14 @@ namespace aws.AmplifyDomainAssociation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/amplify_domain_association#branch_name AmplifyDomainAssociation#branch_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/amplify_domain_association#branch_name AmplifyDomainAssociation#branch_name}.</summary>
             [JsiiProperty(name: "branchName", typeJson: "{\"primitive\":\"string\"}")]
             public string BranchName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/amplify_domain_association#prefix AmplifyDomainAssociation#prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/amplify_domain_association#prefix AmplifyDomainAssociation#prefix}.</summary>
             [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
             public string Prefix
             {

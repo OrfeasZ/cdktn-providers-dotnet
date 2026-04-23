@@ -9,7 +9,7 @@ namespace aws.Route53Zone
     [JsiiByValue(fqn: "aws.route53Zone.Route53ZoneVpc")]
     public class Route53ZoneVpc : aws.Route53Zone.IRoute53ZoneVpc
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_zone#vpc_id Route53Zone#vpc_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_zone#vpc_id Route53Zone#vpc_id}.</summary>
         [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}")]
         public string VpcId
         {
@@ -17,7 +17,7 @@ namespace aws.Route53Zone
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_zone#vpc_region Route53Zone#vpc_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_zone#vpc_region Route53Zone#vpc_region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vpcRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VpcRegion

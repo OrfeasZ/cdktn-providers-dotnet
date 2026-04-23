@@ -9,7 +9,7 @@ namespace aws.CloudwatchLogTransformer
     [JsiiByValue(fqn: "aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigUpperCaseString")]
     public class CloudwatchLogTransformerTransformerConfigUpperCaseString : aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigUpperCaseString
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_log_transformer#with_keys CloudwatchLogTransformer#with_keys}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_log_transformer#with_keys CloudwatchLogTransformer#with_keys}.</summary>
         [JsiiProperty(name: "withKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] WithKeys
         {

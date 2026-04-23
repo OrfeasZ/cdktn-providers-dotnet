@@ -9,7 +9,7 @@ namespace aws.SagemakerUserProfile
     [JsiiByValue(fqn: "aws.sagemakerUserProfile.SagemakerUserProfileUserSettingsCustomPosixUserConfig")]
     public class SagemakerUserProfileUserSettingsCustomPosixUserConfig : aws.SagemakerUserProfile.ISagemakerUserProfileUserSettingsCustomPosixUserConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_user_profile#gid SagemakerUserProfile#gid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_user_profile#gid SagemakerUserProfile#gid}.</summary>
         [JsiiProperty(name: "gid", typeJson: "{\"primitive\":\"number\"}")]
         public double Gid
         {
@@ -17,7 +17,7 @@ namespace aws.SagemakerUserProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_user_profile#uid SagemakerUserProfile#uid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_user_profile#uid SagemakerUserProfile#uid}.</summary>
         [JsiiProperty(name: "uid", typeJson: "{\"primitive\":\"number\"}")]
         public double Uid
         {

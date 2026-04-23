@@ -7,7 +7,7 @@ namespace aws.EfsFileSystem
     [JsiiInterface(nativeType: typeof(IEfsFileSystemLifecyclePolicy), fullyQualifiedName: "aws.efsFileSystem.EfsFileSystemLifecyclePolicy")]
     public interface IEfsFileSystemLifecyclePolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/efs_file_system#transition_to_archive EfsFileSystem#transition_to_archive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#transition_to_archive EfsFileSystem#transition_to_archive}.</summary>
         [JsiiProperty(name: "transitionToArchive", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TransitionToArchive
@@ -18,7 +18,7 @@ namespace aws.EfsFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/efs_file_system#transition_to_ia EfsFileSystem#transition_to_ia}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#transition_to_ia EfsFileSystem#transition_to_ia}.</summary>
         [JsiiProperty(name: "transitionToIa", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TransitionToIa
@@ -29,7 +29,7 @@ namespace aws.EfsFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/efs_file_system#transition_to_primary_storage_class EfsFileSystem#transition_to_primary_storage_class}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#transition_to_primary_storage_class EfsFileSystem#transition_to_primary_storage_class}.</summary>
         [JsiiProperty(name: "transitionToPrimaryStorageClass", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TransitionToPrimaryStorageClass
@@ -47,7 +47,7 @@ namespace aws.EfsFileSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/efs_file_system#transition_to_archive EfsFileSystem#transition_to_archive}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#transition_to_archive EfsFileSystem#transition_to_archive}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "transitionToArchive", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TransitionToArchive
@@ -55,7 +55,7 @@ namespace aws.EfsFileSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/efs_file_system#transition_to_ia EfsFileSystem#transition_to_ia}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#transition_to_ia EfsFileSystem#transition_to_ia}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "transitionToIa", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TransitionToIa
@@ -63,7 +63,7 @@ namespace aws.EfsFileSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/efs_file_system#transition_to_primary_storage_class EfsFileSystem#transition_to_primary_storage_class}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#transition_to_primary_storage_class EfsFileSystem#transition_to_primary_storage_class}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "transitionToPrimaryStorageClass", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TransitionToPrimaryStorageClass

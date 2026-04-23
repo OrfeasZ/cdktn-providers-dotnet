@@ -9,7 +9,7 @@ namespace aws.ElasticacheCluster
     [JsiiByValue(fqn: "aws.elasticacheCluster.ElasticacheClusterLogDeliveryConfiguration")]
     public class ElasticacheClusterLogDeliveryConfiguration : aws.ElasticacheCluster.IElasticacheClusterLogDeliveryConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticache_cluster#destination ElasticacheCluster#destination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_cluster#destination ElasticacheCluster#destination}.</summary>
         [JsiiProperty(name: "destination", typeJson: "{\"primitive\":\"string\"}")]
         public string Destination
         {
@@ -17,7 +17,7 @@ namespace aws.ElasticacheCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticache_cluster#destination_type ElasticacheCluster#destination_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_cluster#destination_type ElasticacheCluster#destination_type}.</summary>
         [JsiiProperty(name: "destinationType", typeJson: "{\"primitive\":\"string\"}")]
         public string DestinationType
         {
@@ -25,7 +25,7 @@ namespace aws.ElasticacheCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticache_cluster#log_format ElasticacheCluster#log_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_cluster#log_format ElasticacheCluster#log_format}.</summary>
         [JsiiProperty(name: "logFormat", typeJson: "{\"primitive\":\"string\"}")]
         public string LogFormat
         {
@@ -33,7 +33,7 @@ namespace aws.ElasticacheCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticache_cluster#log_type ElasticacheCluster#log_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_cluster#log_type ElasticacheCluster#log_type}.</summary>
         [JsiiProperty(name: "logType", typeJson: "{\"primitive\":\"string\"}")]
         public string LogType
         {

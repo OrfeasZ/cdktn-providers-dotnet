@@ -9,7 +9,7 @@ namespace aws.AppsyncDatasource
     [JsiiByValue(fqn: "aws.appsyncDatasource.AppsyncDatasourceOpensearchserviceConfig")]
     public class AppsyncDatasourceOpensearchserviceConfig : aws.AppsyncDatasource.IAppsyncDatasourceOpensearchserviceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#endpoint AppsyncDatasource#endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#endpoint AppsyncDatasource#endpoint}.</summary>
         [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string Endpoint
         {
@@ -17,7 +17,7 @@ namespace aws.AppsyncDatasource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource#region AppsyncDatasource#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#region AppsyncDatasource#region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Region

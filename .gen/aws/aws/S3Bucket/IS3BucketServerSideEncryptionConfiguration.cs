@@ -9,7 +9,7 @@ namespace aws.S3Bucket
     {
         /// <summary>rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket#rule S3Bucket#rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#rule S3Bucket#rule}
         /// </remarks>
         [JsiiProperty(name: "rule", typeJson: "{\"fqn\":\"aws.s3Bucket.S3BucketServerSideEncryptionConfigurationRule\"}")]
         aws.S3Bucket.IS3BucketServerSideEncryptionConfigurationRule Rule
@@ -26,7 +26,7 @@ namespace aws.S3Bucket
 
             /// <summary>rule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket#rule S3Bucket#rule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#rule S3Bucket#rule}
             /// </remarks>
             [JsiiProperty(name: "rule", typeJson: "{\"fqn\":\"aws.s3Bucket.S3BucketServerSideEncryptionConfigurationRule\"}")]
             public aws.S3Bucket.IS3BucketServerSideEncryptionConfigurationRule Rule

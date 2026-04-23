@@ -7,7 +7,7 @@ namespace aws.AppflowFlow
     [JsiiInterface(nativeType: typeof(IAppflowFlowTriggerConfig), fullyQualifiedName: "aws.appflowFlow.AppflowFlowTriggerConfig")]
     public interface IAppflowFlowTriggerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#trigger_type AppflowFlow#trigger_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#trigger_type AppflowFlow#trigger_type}.</summary>
         [JsiiProperty(name: "triggerType", typeJson: "{\"primitive\":\"string\"}")]
         string TriggerType
         {
@@ -16,7 +16,7 @@ namespace aws.AppflowFlow
 
         /// <summary>trigger_properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#trigger_properties AppflowFlow#trigger_properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#trigger_properties AppflowFlow#trigger_properties}
         /// </remarks>
         [JsiiProperty(name: "triggerProperties", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowTriggerConfigTriggerProperties\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace aws.AppflowFlow
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#trigger_type AppflowFlow#trigger_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#trigger_type AppflowFlow#trigger_type}.</summary>
             [JsiiProperty(name: "triggerType", typeJson: "{\"primitive\":\"string\"}")]
             public string TriggerType
             {
@@ -44,7 +44,7 @@ namespace aws.AppflowFlow
 
             /// <summary>trigger_properties block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#trigger_properties AppflowFlow#trigger_properties}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#trigger_properties AppflowFlow#trigger_properties}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "triggerProperties", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowTriggerConfigTriggerProperties\"}", isOptional: true)]

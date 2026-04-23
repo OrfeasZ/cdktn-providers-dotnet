@@ -9,7 +9,7 @@ namespace aws.SsmcontactsPlan
     [JsiiByValue(fqn: "aws.ssmcontactsPlan.SsmcontactsPlanStageTargetChannelTargetInfo")]
     public class SsmcontactsPlanStageTargetChannelTargetInfo : aws.SsmcontactsPlan.ISsmcontactsPlanStageTargetChannelTargetInfo
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmcontacts_plan#contact_channel_id SsmcontactsPlan#contact_channel_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmcontacts_plan#contact_channel_id SsmcontactsPlan#contact_channel_id}.</summary>
         [JsiiProperty(name: "contactChannelId", typeJson: "{\"primitive\":\"string\"}")]
         public string ContactChannelId
         {
@@ -17,7 +17,7 @@ namespace aws.SsmcontactsPlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmcontacts_plan#retry_interval_in_minutes SsmcontactsPlan#retry_interval_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmcontacts_plan#retry_interval_in_minutes SsmcontactsPlan#retry_interval_in_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retryIntervalInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RetryIntervalInMinutes

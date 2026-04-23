@@ -7,7 +7,7 @@ namespace aws.GlobalacceleratorListener
     [JsiiInterface(nativeType: typeof(IGlobalacceleratorListenerPortRange), fullyQualifiedName: "aws.globalacceleratorListener.GlobalacceleratorListenerPortRange")]
     public interface IGlobalacceleratorListenerPortRange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/globalaccelerator_listener#from_port GlobalacceleratorListener#from_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/globalaccelerator_listener#from_port GlobalacceleratorListener#from_port}.</summary>
         [JsiiProperty(name: "fromPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? FromPort
@@ -18,7 +18,7 @@ namespace aws.GlobalacceleratorListener
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/globalaccelerator_listener#to_port GlobalacceleratorListener#to_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/globalaccelerator_listener#to_port GlobalacceleratorListener#to_port}.</summary>
         [JsiiProperty(name: "toPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ToPort
@@ -36,7 +36,7 @@ namespace aws.GlobalacceleratorListener
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/globalaccelerator_listener#from_port GlobalacceleratorListener#from_port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/globalaccelerator_listener#from_port GlobalacceleratorListener#from_port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fromPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? FromPort
@@ -44,7 +44,7 @@ namespace aws.GlobalacceleratorListener
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/globalaccelerator_listener#to_port GlobalacceleratorListener#to_port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/globalaccelerator_listener#to_port GlobalacceleratorListener#to_port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "toPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ToPort

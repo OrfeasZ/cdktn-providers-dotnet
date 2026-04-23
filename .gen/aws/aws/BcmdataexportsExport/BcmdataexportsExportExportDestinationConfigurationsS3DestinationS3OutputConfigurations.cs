@@ -9,7 +9,7 @@ namespace aws.BcmdataexportsExport
     [JsiiByValue(fqn: "aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurations")]
     public class BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurations : aws.BcmdataexportsExport.IBcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bcmdataexports_export#compression BcmdataexportsExport#compression}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bcmdataexports_export#compression BcmdataexportsExport#compression}.</summary>
         [JsiiProperty(name: "compression", typeJson: "{\"primitive\":\"string\"}")]
         public string Compression
         {
@@ -17,7 +17,7 @@ namespace aws.BcmdataexportsExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bcmdataexports_export#format BcmdataexportsExport#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bcmdataexports_export#format BcmdataexportsExport#format}.</summary>
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}")]
         public string Format
         {
@@ -25,7 +25,7 @@ namespace aws.BcmdataexportsExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bcmdataexports_export#output_type BcmdataexportsExport#output_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bcmdataexports_export#output_type BcmdataexportsExport#output_type}.</summary>
         [JsiiProperty(name: "outputType", typeJson: "{\"primitive\":\"string\"}")]
         public string OutputType
         {
@@ -33,7 +33,7 @@ namespace aws.BcmdataexportsExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bcmdataexports_export#overwrite BcmdataexportsExport#overwrite}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bcmdataexports_export#overwrite BcmdataexportsExport#overwrite}.</summary>
         [JsiiProperty(name: "overwrite", typeJson: "{\"primitive\":\"string\"}")]
         public string Overwrite
         {

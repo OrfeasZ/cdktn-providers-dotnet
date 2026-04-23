@@ -11,7 +11,7 @@ namespace aws.Codepipeline
     {
         /// <summary>git_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline#git_configuration Codepipeline#git_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#git_configuration Codepipeline#git_configuration}
         /// </remarks>
         [JsiiProperty(name: "gitConfiguration", typeJson: "{\"fqn\":\"aws.codepipeline.CodepipelineTriggerGitConfiguration\"}")]
         public aws.Codepipeline.ICodepipelineTriggerGitConfiguration GitConfiguration
@@ -20,7 +20,7 @@ namespace aws.Codepipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline#provider_type Codepipeline#provider_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#provider_type Codepipeline#provider_type}.</summary>
         [JsiiProperty(name: "providerType", typeJson: "{\"primitive\":\"string\"}")]
         public string ProviderType
         {

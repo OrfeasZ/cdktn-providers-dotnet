@@ -7,7 +7,7 @@ namespace aws.Route53ResolverRule
     [JsiiByValue(fqn: "aws.route53ResolverRule.Route53ResolverRuleTargetIp")]
     public class Route53ResolverRuleTargetIp : aws.Route53ResolverRule.IRoute53ResolverRuleTargetIp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_resolver_rule#ip Route53ResolverRule#ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_resolver_rule#ip Route53ResolverRule#ip}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ip
@@ -16,7 +16,7 @@ namespace aws.Route53ResolverRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_resolver_rule#ipv6 Route53ResolverRule#ipv6}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_resolver_rule#ipv6 Route53ResolverRule#ipv6}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipv6", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ipv6
@@ -25,7 +25,7 @@ namespace aws.Route53ResolverRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_resolver_rule#port Route53ResolverRule#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_resolver_rule#port Route53ResolverRule#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Port
@@ -34,7 +34,7 @@ namespace aws.Route53ResolverRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_resolver_rule#protocol Route53ResolverRule#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_resolver_rule#protocol Route53ResolverRule#protocol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Protocol

@@ -11,7 +11,7 @@ namespace aws.EksCluster
     {
         /// <summary>remote_node_networks block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_cluster#remote_node_networks EksCluster#remote_node_networks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_cluster#remote_node_networks EksCluster#remote_node_networks}
         /// </remarks>
         [JsiiProperty(name: "remoteNodeNetworks", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterRemoteNetworkConfigRemoteNodeNetworks\"}")]
         public aws.EksCluster.IEksClusterRemoteNetworkConfigRemoteNodeNetworks RemoteNodeNetworks
@@ -22,7 +22,7 @@ namespace aws.EksCluster
 
         /// <summary>remote_pod_networks block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_cluster#remote_pod_networks EksCluster#remote_pod_networks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_cluster#remote_pod_networks EksCluster#remote_pod_networks}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "remotePodNetworks", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterRemoteNetworkConfigRemotePodNetworks\"}", isOptional: true)]

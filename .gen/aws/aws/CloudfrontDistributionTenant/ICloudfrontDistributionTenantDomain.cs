@@ -7,7 +7,7 @@ namespace aws.CloudfrontDistributionTenant
     [JsiiInterface(nativeType: typeof(ICloudfrontDistributionTenantDomain), fullyQualifiedName: "aws.cloudfrontDistributionTenant.CloudfrontDistributionTenantDomain")]
     public interface ICloudfrontDistributionTenantDomain
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_distribution_tenant#domain CloudfrontDistributionTenant#domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution_tenant#domain CloudfrontDistributionTenant#domain}.</summary>
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
         string Domain
         {
@@ -21,7 +21,7 @@ namespace aws.CloudfrontDistributionTenant
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_distribution_tenant#domain CloudfrontDistributionTenant#domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution_tenant#domain CloudfrontDistributionTenant#domain}.</summary>
             [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
             public string Domain
             {

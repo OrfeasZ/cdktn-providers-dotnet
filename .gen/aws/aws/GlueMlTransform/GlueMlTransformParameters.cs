@@ -11,7 +11,7 @@ namespace aws.GlueMlTransform
     {
         /// <summary>find_matches_parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_ml_transform#find_matches_parameters GlueMlTransform#find_matches_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_ml_transform#find_matches_parameters GlueMlTransform#find_matches_parameters}
         /// </remarks>
         [JsiiProperty(name: "findMatchesParameters", typeJson: "{\"fqn\":\"aws.glueMlTransform.GlueMlTransformParametersFindMatchesParameters\"}")]
         public aws.GlueMlTransform.IGlueMlTransformParametersFindMatchesParameters FindMatchesParameters
@@ -20,7 +20,7 @@ namespace aws.GlueMlTransform
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_ml_transform#transform_type GlueMlTransform#transform_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_ml_transform#transform_type GlueMlTransform#transform_type}.</summary>
         [JsiiProperty(name: "transformType", typeJson: "{\"primitive\":\"string\"}")]
         public string TransformType
         {

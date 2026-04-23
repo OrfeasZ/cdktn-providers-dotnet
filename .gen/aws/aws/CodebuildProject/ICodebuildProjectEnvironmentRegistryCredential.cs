@@ -7,14 +7,14 @@ namespace aws.CodebuildProject
     [JsiiInterface(nativeType: typeof(ICodebuildProjectEnvironmentRegistryCredential), fullyQualifiedName: "aws.codebuildProject.CodebuildProjectEnvironmentRegistryCredential")]
     public interface ICodebuildProjectEnvironmentRegistryCredential
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#credential CodebuildProject#credential}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#credential CodebuildProject#credential}.</summary>
         [JsiiProperty(name: "credential", typeJson: "{\"primitive\":\"string\"}")]
         string Credential
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#credential_provider CodebuildProject#credential_provider}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#credential_provider CodebuildProject#credential_provider}.</summary>
         [JsiiProperty(name: "credentialProvider", typeJson: "{\"primitive\":\"string\"}")]
         string CredentialProvider
         {
@@ -28,14 +28,14 @@ namespace aws.CodebuildProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#credential CodebuildProject#credential}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#credential CodebuildProject#credential}.</summary>
             [JsiiProperty(name: "credential", typeJson: "{\"primitive\":\"string\"}")]
             public string Credential
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codebuild_project#credential_provider CodebuildProject#credential_provider}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#credential_provider CodebuildProject#credential_provider}.</summary>
             [JsiiProperty(name: "credentialProvider", typeJson: "{\"primitive\":\"string\"}")]
             public string CredentialProvider
             {

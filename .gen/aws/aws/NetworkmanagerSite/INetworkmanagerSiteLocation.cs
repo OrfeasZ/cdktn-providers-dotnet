@@ -7,7 +7,7 @@ namespace aws.NetworkmanagerSite
     [JsiiInterface(nativeType: typeof(INetworkmanagerSiteLocation), fullyQualifiedName: "aws.networkmanagerSite.NetworkmanagerSiteLocation")]
     public interface INetworkmanagerSiteLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_site#address NetworkmanagerSite#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_site#address NetworkmanagerSite#address}.</summary>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Address
@@ -18,7 +18,7 @@ namespace aws.NetworkmanagerSite
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_site#latitude NetworkmanagerSite#latitude}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_site#latitude NetworkmanagerSite#latitude}.</summary>
         [JsiiProperty(name: "latitude", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Latitude
@@ -29,7 +29,7 @@ namespace aws.NetworkmanagerSite
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_site#longitude NetworkmanagerSite#longitude}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_site#longitude NetworkmanagerSite#longitude}.</summary>
         [JsiiProperty(name: "longitude", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Longitude
@@ -47,7 +47,7 @@ namespace aws.NetworkmanagerSite
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_site#address NetworkmanagerSite#address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_site#address NetworkmanagerSite#address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Address
@@ -55,7 +55,7 @@ namespace aws.NetworkmanagerSite
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_site#latitude NetworkmanagerSite#latitude}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_site#latitude NetworkmanagerSite#latitude}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "latitude", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Latitude
@@ -63,7 +63,7 @@ namespace aws.NetworkmanagerSite
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_site#longitude NetworkmanagerSite#longitude}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_site#longitude NetworkmanagerSite#longitude}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "longitude", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Longitude

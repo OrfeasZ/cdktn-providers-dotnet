@@ -7,7 +7,7 @@ namespace aws.OsisPipeline
     [JsiiInterface(nativeType: typeof(IOsisPipelineEncryptionAtRestOptions), fullyQualifiedName: "aws.osisPipeline.OsisPipelineEncryptionAtRestOptions")]
     public interface IOsisPipelineEncryptionAtRestOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/osis_pipeline#kms_key_arn OsisPipeline#kms_key_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/osis_pipeline#kms_key_arn OsisPipeline#kms_key_arn}.</summary>
         [JsiiProperty(name: "kmsKeyArn", typeJson: "{\"primitive\":\"string\"}")]
         string KmsKeyArn
         {
@@ -21,7 +21,7 @@ namespace aws.OsisPipeline
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/osis_pipeline#kms_key_arn OsisPipeline#kms_key_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/osis_pipeline#kms_key_arn OsisPipeline#kms_key_arn}.</summary>
             [JsiiProperty(name: "kmsKeyArn", typeJson: "{\"primitive\":\"string\"}")]
             public string KmsKeyArn
             {

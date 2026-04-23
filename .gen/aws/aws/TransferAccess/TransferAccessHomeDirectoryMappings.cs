@@ -9,7 +9,7 @@ namespace aws.TransferAccess
     [JsiiByValue(fqn: "aws.transferAccess.TransferAccessHomeDirectoryMappings")]
     public class TransferAccessHomeDirectoryMappings : aws.TransferAccess.ITransferAccessHomeDirectoryMappings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_access#entry TransferAccess#entry}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_access#entry TransferAccess#entry}.</summary>
         [JsiiProperty(name: "entry", typeJson: "{\"primitive\":\"string\"}")]
         public string Entry
         {
@@ -17,7 +17,7 @@ namespace aws.TransferAccess
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_access#target TransferAccess#target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_access#target TransferAccess#target}.</summary>
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}")]
         public string Target
         {

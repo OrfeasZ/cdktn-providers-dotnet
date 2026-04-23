@@ -7,7 +7,7 @@ namespace aws.EmrCluster
     [JsiiInterface(nativeType: typeof(IEmrClusterCoreInstanceFleetLaunchSpecificationsOnDemandSpecification), fullyQualifiedName: "aws.emrCluster.EmrClusterCoreInstanceFleetLaunchSpecificationsOnDemandSpecification")]
     public interface IEmrClusterCoreInstanceFleetLaunchSpecificationsOnDemandSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/emr_cluster#allocation_strategy EmrCluster#allocation_strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#allocation_strategy EmrCluster#allocation_strategy}.</summary>
         [JsiiProperty(name: "allocationStrategy", typeJson: "{\"primitive\":\"string\"}")]
         string AllocationStrategy
         {
@@ -21,7 +21,7 @@ namespace aws.EmrCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/emr_cluster#allocation_strategy EmrCluster#allocation_strategy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#allocation_strategy EmrCluster#allocation_strategy}.</summary>
             [JsiiProperty(name: "allocationStrategy", typeJson: "{\"primitive\":\"string\"}")]
             public string AllocationStrategy
             {

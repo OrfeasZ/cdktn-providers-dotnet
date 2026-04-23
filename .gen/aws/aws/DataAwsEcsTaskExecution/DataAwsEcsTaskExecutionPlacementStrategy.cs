@@ -9,7 +9,7 @@ namespace aws.DataAwsEcsTaskExecution
     [JsiiByValue(fqn: "aws.dataAwsEcsTaskExecution.DataAwsEcsTaskExecutionPlacementStrategy")]
     public class DataAwsEcsTaskExecutionPlacementStrategy : aws.DataAwsEcsTaskExecution.IDataAwsEcsTaskExecutionPlacementStrategy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ecs_task_execution#type DataAwsEcsTaskExecution#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ecs_task_execution#type DataAwsEcsTaskExecution#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsEcsTaskExecution
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ecs_task_execution#field DataAwsEcsTaskExecution#field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ecs_task_execution#field DataAwsEcsTaskExecution#field}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "field", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Field

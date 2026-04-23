@@ -7,7 +7,7 @@ namespace aws.MskCluster
     [JsiiByValue(fqn: "aws.mskCluster.MskClusterBrokerNodeGroupInfoConnectivityInfoPublicAccess")]
     public class MskClusterBrokerNodeGroupInfoConnectivityInfoPublicAccess : aws.MskCluster.IMskClusterBrokerNodeGroupInfoConnectivityInfoPublicAccess
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_cluster#type MskCluster#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#type MskCluster#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

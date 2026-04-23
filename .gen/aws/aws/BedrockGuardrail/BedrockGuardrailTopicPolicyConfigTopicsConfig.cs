@@ -9,7 +9,7 @@ namespace aws.BedrockGuardrail
     [JsiiByValue(fqn: "aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigTopicsConfig")]
     public class BedrockGuardrailTopicPolicyConfigTopicsConfig : aws.BedrockGuardrail.IBedrockGuardrailTopicPolicyConfigTopicsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrock_guardrail#definition BedrockGuardrail#definition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrock_guardrail#definition BedrockGuardrail#definition}.</summary>
         [JsiiProperty(name: "definition", typeJson: "{\"primitive\":\"string\"}")]
         public string Definition
         {
@@ -17,7 +17,7 @@ namespace aws.BedrockGuardrail
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrock_guardrail#name BedrockGuardrail#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrock_guardrail#name BedrockGuardrail#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace aws.BedrockGuardrail
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -33,7 +33,7 @@ namespace aws.BedrockGuardrail
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrock_guardrail#examples BedrockGuardrail#examples}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrock_guardrail#examples BedrockGuardrail#examples}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "examples", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Examples

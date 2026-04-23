@@ -7,7 +7,7 @@ namespace aws.DbInstanceRoleAssociation
     [JsiiByValue(fqn: "aws.dbInstanceRoleAssociation.DbInstanceRoleAssociationTimeouts")]
     public class DbInstanceRoleAssociationTimeouts : aws.DbInstanceRoleAssociation.IDbInstanceRoleAssociationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/db_instance_role_association#create DbInstanceRoleAssociation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_instance_role_association#create DbInstanceRoleAssociation#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.DbInstanceRoleAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/db_instance_role_association#delete DbInstanceRoleAssociation#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_instance_role_association#delete DbInstanceRoleAssociation#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

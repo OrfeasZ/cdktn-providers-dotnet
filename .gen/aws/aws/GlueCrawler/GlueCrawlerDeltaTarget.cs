@@ -9,7 +9,7 @@ namespace aws.GlueCrawler
     [JsiiByValue(fqn: "aws.glueCrawler.GlueCrawlerDeltaTarget")]
     public class GlueCrawlerDeltaTarget : aws.GlueCrawler.IGlueCrawlerDeltaTarget
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_crawler#delta_tables GlueCrawler#delta_tables}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#delta_tables GlueCrawler#delta_tables}.</summary>
         [JsiiProperty(name: "deltaTables", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] DeltaTables
         {
@@ -19,7 +19,7 @@ namespace aws.GlueCrawler
 
         private object _writeManifest;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_crawler#write_manifest GlueCrawler#write_manifest}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#write_manifest GlueCrawler#write_manifest}.</summary>
         [JsiiProperty(name: "writeManifest", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object WriteManifest
         {
@@ -47,7 +47,7 @@ namespace aws.GlueCrawler
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "connectionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConnectionName
@@ -58,7 +58,7 @@ namespace aws.GlueCrawler
 
         private object? _createNativeDeltaTable;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_crawler#create_native_delta_table GlueCrawler#create_native_delta_table}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#create_native_delta_table GlueCrawler#create_native_delta_table}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "createNativeDeltaTable", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? CreateNativeDeltaTable

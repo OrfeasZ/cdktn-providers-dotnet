@@ -7,7 +7,7 @@ namespace aws.SesConfigurationSet
     [JsiiInterface(nativeType: typeof(ISesConfigurationSetTrackingOptions), fullyQualifiedName: "aws.sesConfigurationSet.SesConfigurationSetTrackingOptions")]
     public interface ISesConfigurationSetTrackingOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ses_configuration_set#custom_redirect_domain SesConfigurationSet#custom_redirect_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#custom_redirect_domain SesConfigurationSet#custom_redirect_domain}.</summary>
         [JsiiProperty(name: "customRedirectDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CustomRedirectDomain
@@ -25,7 +25,7 @@ namespace aws.SesConfigurationSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ses_configuration_set#custom_redirect_domain SesConfigurationSet#custom_redirect_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#custom_redirect_domain SesConfigurationSet#custom_redirect_domain}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "customRedirectDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CustomRedirectDomain

@@ -7,14 +7,14 @@ namespace aws.FinspaceKxEnvironment
     [JsiiInterface(nativeType: typeof(IFinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAclConfigurationIcmpTypeCode), fullyQualifiedName: "aws.finspaceKxEnvironment.FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAclConfigurationIcmpTypeCode")]
     public interface IFinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAclConfigurationIcmpTypeCode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/finspace_kx_environment#code FinspaceKxEnvironment#code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#code FinspaceKxEnvironment#code}.</summary>
         [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"number\"}")]
         double Code
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/finspace_kx_environment#type FinspaceKxEnvironment#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#type FinspaceKxEnvironment#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"number\"}")]
         double Type
         {
@@ -28,14 +28,14 @@ namespace aws.FinspaceKxEnvironment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/finspace_kx_environment#code FinspaceKxEnvironment#code}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#code FinspaceKxEnvironment#code}.</summary>
             [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"number\"}")]
             public double Code
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/finspace_kx_environment#type FinspaceKxEnvironment#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#type FinspaceKxEnvironment#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"number\"}")]
             public double Type
             {

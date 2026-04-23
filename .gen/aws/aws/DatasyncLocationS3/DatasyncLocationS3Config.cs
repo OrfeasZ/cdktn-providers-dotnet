@@ -9,7 +9,7 @@ namespace aws.DatasyncLocationS3
     [JsiiByValue(fqn: "aws.datasyncLocationS3.DatasyncLocationS3Config")]
     public class DatasyncLocationS3Config : aws.DatasyncLocationS3.IDatasyncLocationS3Config
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_s3#s3_bucket_arn DatasyncLocationS3#s3_bucket_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_s3#s3_bucket_arn DatasyncLocationS3#s3_bucket_arn}.</summary>
         [JsiiProperty(name: "s3BucketArn", typeJson: "{\"primitive\":\"string\"}")]
         public string S3BucketArn
         {
@@ -19,7 +19,7 @@ namespace aws.DatasyncLocationS3
 
         /// <summary>s3_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_s3#s3_config DatasyncLocationS3#s3_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_s3#s3_config DatasyncLocationS3#s3_config}
         /// </remarks>
         [JsiiProperty(name: "s3Config", typeJson: "{\"fqn\":\"aws.datasyncLocationS3.DatasyncLocationS3S3Config\"}")]
         public aws.DatasyncLocationS3.IDatasyncLocationS3S3Config S3Config
@@ -28,7 +28,7 @@ namespace aws.DatasyncLocationS3
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_s3#subdirectory DatasyncLocationS3#subdirectory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_s3#subdirectory DatasyncLocationS3#subdirectory}.</summary>
         [JsiiProperty(name: "subdirectory", typeJson: "{\"primitive\":\"string\"}")]
         public string Subdirectory
         {
@@ -36,7 +36,7 @@ namespace aws.DatasyncLocationS3
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_s3#agent_arns DatasyncLocationS3#agent_arns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_s3#agent_arns DatasyncLocationS3#agent_arns}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "agentArns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AgentArns
@@ -45,7 +45,7 @@ namespace aws.DatasyncLocationS3
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_s3#id DatasyncLocationS3#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_s3#id DatasyncLocationS3#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,7 +60,7 @@ namespace aws.DatasyncLocationS3
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_s3#region DatasyncLocationS3#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_s3#region DatasyncLocationS3#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace aws.DatasyncLocationS3
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_s3#s3_storage_class DatasyncLocationS3#s3_storage_class}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_s3#s3_storage_class DatasyncLocationS3#s3_storage_class}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "s3StorageClass", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? S3StorageClass
@@ -79,7 +79,7 @@ namespace aws.DatasyncLocationS3
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_s3#tags DatasyncLocationS3#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_s3#tags DatasyncLocationS3#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -88,7 +88,7 @@ namespace aws.DatasyncLocationS3
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_s3#tags_all DatasyncLocationS3#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_s3#tags_all DatasyncLocationS3#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll

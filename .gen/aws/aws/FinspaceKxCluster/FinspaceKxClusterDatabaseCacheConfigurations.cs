@@ -9,7 +9,7 @@ namespace aws.FinspaceKxCluster
     [JsiiByValue(fqn: "aws.finspaceKxCluster.FinspaceKxClusterDatabaseCacheConfigurations")]
     public class FinspaceKxClusterDatabaseCacheConfigurations : aws.FinspaceKxCluster.IFinspaceKxClusterDatabaseCacheConfigurations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/finspace_kx_cluster#cache_type FinspaceKxCluster#cache_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#cache_type FinspaceKxCluster#cache_type}.</summary>
         [JsiiProperty(name: "cacheType", typeJson: "{\"primitive\":\"string\"}")]
         public string CacheType
         {
@@ -17,7 +17,7 @@ namespace aws.FinspaceKxCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/finspace_kx_cluster#db_paths FinspaceKxCluster#db_paths}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#db_paths FinspaceKxCluster#db_paths}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dbPaths", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DbPaths

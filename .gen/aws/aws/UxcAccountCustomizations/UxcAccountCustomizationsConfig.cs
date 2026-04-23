@@ -7,7 +7,7 @@ namespace aws.UxcAccountCustomizations
     [JsiiByValue(fqn: "aws.uxcAccountCustomizations.UxcAccountCustomizationsConfig")]
     public class UxcAccountCustomizationsConfig : aws.UxcAccountCustomizations.IUxcAccountCustomizationsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/uxc_account_customizations#account_color UxcAccountCustomizations#account_color}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/uxc_account_customizations#account_color UxcAccountCustomizations#account_color}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountColor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountColor
@@ -16,7 +16,7 @@ namespace aws.UxcAccountCustomizations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/uxc_account_customizations#visible_regions UxcAccountCustomizations#visible_regions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/uxc_account_customizations#visible_regions UxcAccountCustomizations#visible_regions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "visibleRegions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? VisibleRegions
@@ -25,7 +25,7 @@ namespace aws.UxcAccountCustomizations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/uxc_account_customizations#visible_services UxcAccountCustomizations#visible_services}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/uxc_account_customizations#visible_services UxcAccountCustomizations#visible_services}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "visibleServices", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? VisibleServices

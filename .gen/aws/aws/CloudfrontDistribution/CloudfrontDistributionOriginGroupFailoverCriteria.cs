@@ -9,7 +9,7 @@ namespace aws.CloudfrontDistribution
     [JsiiByValue(fqn: "aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupFailoverCriteria")]
     public class CloudfrontDistributionOriginGroupFailoverCriteria : aws.CloudfrontDistribution.ICloudfrontDistributionOriginGroupFailoverCriteria
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_distribution#status_codes CloudfrontDistribution#status_codes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#status_codes CloudfrontDistribution#status_codes}.</summary>
         [JsiiProperty(name: "statusCodes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}")]
         public double[] StatusCodes
         {

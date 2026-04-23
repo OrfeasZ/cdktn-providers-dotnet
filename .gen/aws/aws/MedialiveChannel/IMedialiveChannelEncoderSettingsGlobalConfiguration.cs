@@ -7,7 +7,7 @@ namespace aws.MedialiveChannel
     [JsiiInterface(nativeType: typeof(IMedialiveChannelEncoderSettingsGlobalConfiguration), fullyQualifiedName: "aws.medialiveChannel.MedialiveChannelEncoderSettingsGlobalConfiguration")]
     public interface IMedialiveChannelEncoderSettingsGlobalConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#initial_audio_gain MedialiveChannel#initial_audio_gain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#initial_audio_gain MedialiveChannel#initial_audio_gain}.</summary>
         [JsiiProperty(name: "initialAudioGain", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InitialAudioGain
@@ -18,7 +18,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#input_end_action MedialiveChannel#input_end_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#input_end_action MedialiveChannel#input_end_action}.</summary>
         [JsiiProperty(name: "inputEndAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InputEndAction
@@ -31,7 +31,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>input_loss_behavior block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#input_loss_behavior MedialiveChannel#input_loss_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#input_loss_behavior MedialiveChannel#input_loss_behavior}
         /// </remarks>
         [JsiiProperty(name: "inputLossBehavior", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsGlobalConfigurationInputLossBehavior\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +43,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#output_locking_mode MedialiveChannel#output_locking_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#output_locking_mode MedialiveChannel#output_locking_mode}.</summary>
         [JsiiProperty(name: "outputLockingMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OutputLockingMode
@@ -54,7 +54,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#output_timing_source MedialiveChannel#output_timing_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#output_timing_source MedialiveChannel#output_timing_source}.</summary>
         [JsiiProperty(name: "outputTimingSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OutputTimingSource
@@ -65,7 +65,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#support_low_framerate_inputs MedialiveChannel#support_low_framerate_inputs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#support_low_framerate_inputs MedialiveChannel#support_low_framerate_inputs}.</summary>
         [JsiiProperty(name: "supportLowFramerateInputs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SupportLowFramerateInputs
@@ -83,7 +83,7 @@ namespace aws.MedialiveChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#initial_audio_gain MedialiveChannel#initial_audio_gain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#initial_audio_gain MedialiveChannel#initial_audio_gain}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "initialAudioGain", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InitialAudioGain
@@ -91,7 +91,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#input_end_action MedialiveChannel#input_end_action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#input_end_action MedialiveChannel#input_end_action}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "inputEndAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InputEndAction
@@ -101,7 +101,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>input_loss_behavior block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#input_loss_behavior MedialiveChannel#input_loss_behavior}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#input_loss_behavior MedialiveChannel#input_loss_behavior}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "inputLossBehavior", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsGlobalConfigurationInputLossBehavior\"}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<aws.MedialiveChannel.IMedialiveChannelEncoderSettingsGlobalConfigurationInputLossBehavior?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#output_locking_mode MedialiveChannel#output_locking_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#output_locking_mode MedialiveChannel#output_locking_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "outputLockingMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OutputLockingMode
@@ -118,7 +118,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#output_timing_source MedialiveChannel#output_timing_source}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#output_timing_source MedialiveChannel#output_timing_source}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "outputTimingSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OutputTimingSource
@@ -126,7 +126,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#support_low_framerate_inputs MedialiveChannel#support_low_framerate_inputs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#support_low_framerate_inputs MedialiveChannel#support_low_framerate_inputs}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "supportLowFramerateInputs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SupportLowFramerateInputs

@@ -7,7 +7,7 @@ namespace aws.DataAwsServicecatalogConstraint
     [JsiiInterface(nativeType: typeof(IDataAwsServicecatalogConstraintTimeouts), fullyQualifiedName: "aws.dataAwsServicecatalogConstraint.DataAwsServicecatalogConstraintTimeouts")]
     public interface IDataAwsServicecatalogConstraintTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/servicecatalog_constraint#read DataAwsServicecatalogConstraint#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/servicecatalog_constraint#read DataAwsServicecatalogConstraint#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace aws.DataAwsServicecatalogConstraint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/servicecatalog_constraint#read DataAwsServicecatalogConstraint#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/servicecatalog_constraint#read DataAwsServicecatalogConstraint#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

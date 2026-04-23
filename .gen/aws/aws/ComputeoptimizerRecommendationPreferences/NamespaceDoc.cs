@@ -5,7 +5,7 @@ namespace aws.ComputeoptimizerRecommendationPreferences
     /// <remarks>
     /// <h1><c>aws_computeoptimizer_recommendation_preferences</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/computeoptimizer_recommendation_preferences"><c>aws_computeoptimizer_recommendation_preferences</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/computeoptimizer_recommendation_preferences"><c>aws_computeoptimizer_recommendation_preferences</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

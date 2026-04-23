@@ -7,7 +7,7 @@ namespace aws.LambdaFunction
     [JsiiInterface(nativeType: typeof(ILambdaFunctionTracingConfig), fullyQualifiedName: "aws.lambdaFunction.LambdaFunctionTracingConfig")]
     public interface ILambdaFunctionTracingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_function#mode LambdaFunction#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function#mode LambdaFunction#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         string Mode
         {
@@ -21,7 +21,7 @@ namespace aws.LambdaFunction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_function#mode LambdaFunction#mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function#mode LambdaFunction#mode}.</summary>
             [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
             public string Mode
             {

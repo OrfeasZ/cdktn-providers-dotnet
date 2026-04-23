@@ -9,7 +9,7 @@ namespace aws.IvschatLoggingConfiguration
     [JsiiByValue(fqn: "aws.ivschatLoggingConfiguration.IvschatLoggingConfigurationDestinationConfigurationS3")]
     public class IvschatLoggingConfigurationDestinationConfigurationS3 : aws.IvschatLoggingConfiguration.IIvschatLoggingConfigurationDestinationConfigurationS3
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ivschat_logging_configuration#bucket_name IvschatLoggingConfiguration#bucket_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ivschat_logging_configuration#bucket_name IvschatLoggingConfiguration#bucket_name}.</summary>
         [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
         public string BucketName
         {

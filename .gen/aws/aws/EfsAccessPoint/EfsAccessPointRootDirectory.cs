@@ -9,7 +9,7 @@ namespace aws.EfsAccessPoint
     {
         /// <summary>creation_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/efs_access_point#creation_info EfsAccessPoint#creation_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_access_point#creation_info EfsAccessPoint#creation_info}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "creationInfo", typeJson: "{\"fqn\":\"aws.efsAccessPoint.EfsAccessPointRootDirectoryCreationInfo\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace aws.EfsAccessPoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/efs_access_point#path EfsAccessPoint#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_access_point#path EfsAccessPoint#path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Path

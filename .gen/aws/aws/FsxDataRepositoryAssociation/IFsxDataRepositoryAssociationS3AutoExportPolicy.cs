@@ -7,7 +7,7 @@ namespace aws.FsxDataRepositoryAssociation
     [JsiiInterface(nativeType: typeof(IFsxDataRepositoryAssociationS3AutoExportPolicy), fullyQualifiedName: "aws.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationS3AutoExportPolicy")]
     public interface IFsxDataRepositoryAssociationS3AutoExportPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_data_repository_association#events FsxDataRepositoryAssociation#events}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_data_repository_association#events FsxDataRepositoryAssociation#events}.</summary>
         [JsiiProperty(name: "events", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Events
@@ -25,7 +25,7 @@ namespace aws.FsxDataRepositoryAssociation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_data_repository_association#events FsxDataRepositoryAssociation#events}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_data_repository_association#events FsxDataRepositoryAssociation#events}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "events", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Events

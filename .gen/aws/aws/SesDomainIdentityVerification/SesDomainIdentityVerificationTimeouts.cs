@@ -7,7 +7,7 @@ namespace aws.SesDomainIdentityVerification
     [JsiiByValue(fqn: "aws.sesDomainIdentityVerification.SesDomainIdentityVerificationTimeouts")]
     public class SesDomainIdentityVerificationTimeouts : aws.SesDomainIdentityVerification.ISesDomainIdentityVerificationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ses_domain_identity_verification#create SesDomainIdentityVerification#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_domain_identity_verification#create SesDomainIdentityVerification#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create

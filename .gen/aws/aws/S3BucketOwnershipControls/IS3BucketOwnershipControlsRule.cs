@@ -7,7 +7,7 @@ namespace aws.S3BucketOwnershipControls
     [JsiiInterface(nativeType: typeof(IS3BucketOwnershipControlsRule), fullyQualifiedName: "aws.s3BucketOwnershipControls.S3BucketOwnershipControlsRule")]
     public interface IS3BucketOwnershipControlsRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_ownership_controls#object_ownership S3BucketOwnershipControls#object_ownership}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_ownership_controls#object_ownership S3BucketOwnershipControls#object_ownership}.</summary>
         [JsiiProperty(name: "objectOwnership", typeJson: "{\"primitive\":\"string\"}")]
         string ObjectOwnership
         {
@@ -21,7 +21,7 @@ namespace aws.S3BucketOwnershipControls
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_ownership_controls#object_ownership S3BucketOwnershipControls#object_ownership}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_ownership_controls#object_ownership S3BucketOwnershipControls#object_ownership}.</summary>
             [JsiiProperty(name: "objectOwnership", typeJson: "{\"primitive\":\"string\"}")]
             public string ObjectOwnership
             {

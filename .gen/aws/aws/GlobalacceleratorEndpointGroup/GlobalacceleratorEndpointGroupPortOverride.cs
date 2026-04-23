@@ -9,7 +9,7 @@ namespace aws.GlobalacceleratorEndpointGroup
     [JsiiByValue(fqn: "aws.globalacceleratorEndpointGroup.GlobalacceleratorEndpointGroupPortOverride")]
     public class GlobalacceleratorEndpointGroupPortOverride : aws.GlobalacceleratorEndpointGroup.IGlobalacceleratorEndpointGroupPortOverride
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/globalaccelerator_endpoint_group#endpoint_port GlobalacceleratorEndpointGroup#endpoint_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/globalaccelerator_endpoint_group#endpoint_port GlobalacceleratorEndpointGroup#endpoint_port}.</summary>
         [JsiiProperty(name: "endpointPort", typeJson: "{\"primitive\":\"number\"}")]
         public double EndpointPort
         {
@@ -17,7 +17,7 @@ namespace aws.GlobalacceleratorEndpointGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/globalaccelerator_endpoint_group#listener_port GlobalacceleratorEndpointGroup#listener_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/globalaccelerator_endpoint_group#listener_port GlobalacceleratorEndpointGroup#listener_port}.</summary>
         [JsiiProperty(name: "listenerPort", typeJson: "{\"primitive\":\"number\"}")]
         public double ListenerPort
         {

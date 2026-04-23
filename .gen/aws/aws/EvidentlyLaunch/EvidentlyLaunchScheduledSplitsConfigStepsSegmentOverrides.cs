@@ -9,7 +9,7 @@ namespace aws.EvidentlyLaunch
     [JsiiByValue(fqn: "aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverrides")]
     public class EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverrides : aws.EvidentlyLaunch.IEvidentlyLaunchScheduledSplitsConfigStepsSegmentOverrides
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/evidently_launch#evaluation_order EvidentlyLaunch#evaluation_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_launch#evaluation_order EvidentlyLaunch#evaluation_order}.</summary>
         [JsiiProperty(name: "evaluationOrder", typeJson: "{\"primitive\":\"number\"}")]
         public double EvaluationOrder
         {
@@ -17,7 +17,7 @@ namespace aws.EvidentlyLaunch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/evidently_launch#segment EvidentlyLaunch#segment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_launch#segment EvidentlyLaunch#segment}.</summary>
         [JsiiProperty(name: "segment", typeJson: "{\"primitive\":\"string\"}")]
         public string Segment
         {
@@ -25,7 +25,7 @@ namespace aws.EvidentlyLaunch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/evidently_launch#weights EvidentlyLaunch#weights}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_launch#weights EvidentlyLaunch#weights}.</summary>
         [JsiiProperty(name: "weights", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, double> Weights
         {

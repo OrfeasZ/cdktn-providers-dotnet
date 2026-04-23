@@ -9,7 +9,7 @@ namespace aws.LoadBalancerPolicy
     [JsiiByValue(fqn: "aws.loadBalancerPolicy.LoadBalancerPolicyConfig")]
     public class LoadBalancerPolicyConfig : aws.LoadBalancerPolicy.ILoadBalancerPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/load_balancer_policy#load_balancer_name LoadBalancerPolicy#load_balancer_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/load_balancer_policy#load_balancer_name LoadBalancerPolicy#load_balancer_name}.</summary>
         [JsiiProperty(name: "loadBalancerName", typeJson: "{\"primitive\":\"string\"}")]
         public string LoadBalancerName
         {
@@ -17,7 +17,7 @@ namespace aws.LoadBalancerPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/load_balancer_policy#policy_name LoadBalancerPolicy#policy_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/load_balancer_policy#policy_name LoadBalancerPolicy#policy_name}.</summary>
         [JsiiProperty(name: "policyName", typeJson: "{\"primitive\":\"string\"}")]
         public string PolicyName
         {
@@ -25,7 +25,7 @@ namespace aws.LoadBalancerPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/load_balancer_policy#policy_type_name LoadBalancerPolicy#policy_type_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/load_balancer_policy#policy_type_name LoadBalancerPolicy#policy_type_name}.</summary>
         [JsiiProperty(name: "policyTypeName", typeJson: "{\"primitive\":\"string\"}")]
         public string PolicyTypeName
         {
@@ -33,7 +33,7 @@ namespace aws.LoadBalancerPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/load_balancer_policy#id LoadBalancerPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/load_balancer_policy#id LoadBalancerPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,7 +50,7 @@ namespace aws.LoadBalancerPolicy
 
         /// <summary>policy_attribute block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/load_balancer_policy#policy_attribute LoadBalancerPolicy#policy_attribute}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/load_balancer_policy#policy_attribute LoadBalancerPolicy#policy_attribute}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "policyAttribute", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.loadBalancerPolicy.LoadBalancerPolicyPolicyAttribute\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace aws.LoadBalancerPolicy
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/load_balancer_policy#region LoadBalancerPolicy#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/load_balancer_policy#region LoadBalancerPolicy#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

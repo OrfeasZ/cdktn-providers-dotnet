@@ -9,7 +9,7 @@ namespace aws.ServicequotasTemplate
     [JsiiByValue(fqn: "aws.servicequotasTemplate.ServicequotasTemplateConfig")]
     public class ServicequotasTemplateConfig : aws.ServicequotasTemplate.IServicequotasTemplateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/servicequotas_template#quota_code ServicequotasTemplate#quota_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/servicequotas_template#quota_code ServicequotasTemplate#quota_code}.</summary>
         [JsiiProperty(name: "quotaCode", typeJson: "{\"primitive\":\"string\"}")]
         public string QuotaCode
         {
@@ -17,7 +17,7 @@ namespace aws.ServicequotasTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/servicequotas_template#service_code ServicequotasTemplate#service_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/servicequotas_template#service_code ServicequotasTemplate#service_code}.</summary>
         [JsiiProperty(name: "serviceCode", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceCode
         {
@@ -25,7 +25,7 @@ namespace aws.ServicequotasTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/servicequotas_template#value ServicequotasTemplate#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/servicequotas_template#value ServicequotasTemplate#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]
         public double Value
         {
@@ -33,7 +33,7 @@ namespace aws.ServicequotasTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/servicequotas_template#aws_region ServicequotasTemplate#aws_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/servicequotas_template#aws_region ServicequotasTemplate#aws_region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "awsRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AwsRegion
@@ -42,7 +42,7 @@ namespace aws.ServicequotasTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/servicequotas_template#region ServicequotasTemplate#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/servicequotas_template#region ServicequotasTemplate#region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Region

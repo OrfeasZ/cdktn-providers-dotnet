@@ -7,7 +7,7 @@ namespace aws.RdsCustomDbEngineVersion
     [JsiiByValue(fqn: "aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersionTimeouts")]
     public class RdsCustomDbEngineVersionTimeouts : aws.RdsCustomDbEngineVersion.IRdsCustomDbEngineVersionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_custom_db_engine_version#create RdsCustomDbEngineVersion#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_custom_db_engine_version#create RdsCustomDbEngineVersion#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.RdsCustomDbEngineVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_custom_db_engine_version#delete RdsCustomDbEngineVersion#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_custom_db_engine_version#delete RdsCustomDbEngineVersion#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace aws.RdsCustomDbEngineVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_custom_db_engine_version#update RdsCustomDbEngineVersion#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_custom_db_engine_version#update RdsCustomDbEngineVersion#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

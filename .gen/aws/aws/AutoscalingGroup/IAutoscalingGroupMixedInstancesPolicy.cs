@@ -9,7 +9,7 @@ namespace aws.AutoscalingGroup
     {
         /// <summary>launch_template block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/autoscaling_group#launch_template AutoscalingGroup#launch_template}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#launch_template AutoscalingGroup#launch_template}
         /// </remarks>
         [JsiiProperty(name: "launchTemplate", typeJson: "{\"fqn\":\"aws.autoscalingGroup.AutoscalingGroupMixedInstancesPolicyLaunchTemplate\"}")]
         aws.AutoscalingGroup.IAutoscalingGroupMixedInstancesPolicyLaunchTemplate LaunchTemplate
@@ -19,7 +19,7 @@ namespace aws.AutoscalingGroup
 
         /// <summary>instances_distribution block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/autoscaling_group#instances_distribution AutoscalingGroup#instances_distribution}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#instances_distribution AutoscalingGroup#instances_distribution}
         /// </remarks>
         [JsiiProperty(name: "instancesDistribution", typeJson: "{\"fqn\":\"aws.autoscalingGroup.AutoscalingGroupMixedInstancesPolicyInstancesDistribution\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace aws.AutoscalingGroup
 
             /// <summary>launch_template block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/autoscaling_group#launch_template AutoscalingGroup#launch_template}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#launch_template AutoscalingGroup#launch_template}
             /// </remarks>
             [JsiiProperty(name: "launchTemplate", typeJson: "{\"fqn\":\"aws.autoscalingGroup.AutoscalingGroupMixedInstancesPolicyLaunchTemplate\"}")]
             public aws.AutoscalingGroup.IAutoscalingGroupMixedInstancesPolicyLaunchTemplate LaunchTemplate
@@ -50,7 +50,7 @@ namespace aws.AutoscalingGroup
 
             /// <summary>instances_distribution block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/autoscaling_group#instances_distribution AutoscalingGroup#instances_distribution}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#instances_distribution AutoscalingGroup#instances_distribution}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "instancesDistribution", typeJson: "{\"fqn\":\"aws.autoscalingGroup.AutoscalingGroupMixedInstancesPolicyInstancesDistribution\"}", isOptional: true)]

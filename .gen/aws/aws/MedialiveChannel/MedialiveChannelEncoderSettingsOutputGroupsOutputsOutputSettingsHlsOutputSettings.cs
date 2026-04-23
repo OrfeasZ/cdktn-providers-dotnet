@@ -11,7 +11,7 @@ namespace aws.MedialiveChannel
     {
         /// <summary>hls_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#hls_settings MedialiveChannel#hls_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#hls_settings MedialiveChannel#hls_settings}
         /// </remarks>
         [JsiiProperty(name: "hlsSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHlsOutputSettingsHlsSettings\"}")]
         public aws.MedialiveChannel.IMedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHlsOutputSettingsHlsSettings HlsSettings
@@ -20,7 +20,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#h265_packaging_type MedialiveChannel#h265_packaging_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#h265_packaging_type MedialiveChannel#h265_packaging_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "h265PackagingType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? H265PackagingType
@@ -29,7 +29,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#name_modifier MedialiveChannel#name_modifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#name_modifier MedialiveChannel#name_modifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nameModifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NameModifier
@@ -38,7 +38,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#segment_modifier MedialiveChannel#segment_modifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#segment_modifier MedialiveChannel#segment_modifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "segmentModifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SegmentModifier

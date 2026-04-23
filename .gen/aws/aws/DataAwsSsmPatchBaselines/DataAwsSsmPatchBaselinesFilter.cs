@@ -9,7 +9,7 @@ namespace aws.DataAwsSsmPatchBaselines
     [JsiiByValue(fqn: "aws.dataAwsSsmPatchBaselines.DataAwsSsmPatchBaselinesFilter")]
     public class DataAwsSsmPatchBaselinesFilter : aws.DataAwsSsmPatchBaselines.IDataAwsSsmPatchBaselinesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ssm_patch_baselines#key DataAwsSsmPatchBaselines#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ssm_patch_baselines#key DataAwsSsmPatchBaselines#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsSsmPatchBaselines
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ssm_patch_baselines#values DataAwsSsmPatchBaselines#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ssm_patch_baselines#values DataAwsSsmPatchBaselines#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

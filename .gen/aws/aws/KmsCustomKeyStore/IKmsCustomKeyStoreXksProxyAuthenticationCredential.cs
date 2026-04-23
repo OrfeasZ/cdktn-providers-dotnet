@@ -7,14 +7,14 @@ namespace aws.KmsCustomKeyStore
     [JsiiInterface(nativeType: typeof(IKmsCustomKeyStoreXksProxyAuthenticationCredential), fullyQualifiedName: "aws.kmsCustomKeyStore.KmsCustomKeyStoreXksProxyAuthenticationCredential")]
     public interface IKmsCustomKeyStoreXksProxyAuthenticationCredential
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kms_custom_key_store#access_key_id KmsCustomKeyStore#access_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kms_custom_key_store#access_key_id KmsCustomKeyStore#access_key_id}.</summary>
         [JsiiProperty(name: "accessKeyId", typeJson: "{\"primitive\":\"string\"}")]
         string AccessKeyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kms_custom_key_store#raw_secret_access_key KmsCustomKeyStore#raw_secret_access_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kms_custom_key_store#raw_secret_access_key KmsCustomKeyStore#raw_secret_access_key}.</summary>
         [JsiiProperty(name: "rawSecretAccessKey", typeJson: "{\"primitive\":\"string\"}")]
         string RawSecretAccessKey
         {
@@ -28,14 +28,14 @@ namespace aws.KmsCustomKeyStore
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kms_custom_key_store#access_key_id KmsCustomKeyStore#access_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kms_custom_key_store#access_key_id KmsCustomKeyStore#access_key_id}.</summary>
             [JsiiProperty(name: "accessKeyId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccessKeyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kms_custom_key_store#raw_secret_access_key KmsCustomKeyStore#raw_secret_access_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kms_custom_key_store#raw_secret_access_key KmsCustomKeyStore#raw_secret_access_key}.</summary>
             [JsiiProperty(name: "rawSecretAccessKey", typeJson: "{\"primitive\":\"string\"}")]
             public string RawSecretAccessKey
             {

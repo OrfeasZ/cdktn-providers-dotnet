@@ -9,7 +9,7 @@ namespace aws.AlbListenerRule
     [JsiiByValue(fqn: "aws.albListenerRule.AlbListenerRuleConditionSourceIp")]
     public class AlbListenerRuleConditionSourceIp : aws.AlbListenerRule.IAlbListenerRuleConditionSourceIp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/alb_listener_rule#values AlbListenerRule#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener_rule#values AlbListenerRule#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

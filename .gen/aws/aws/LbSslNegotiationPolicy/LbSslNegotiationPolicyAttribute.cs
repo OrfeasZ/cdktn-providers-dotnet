@@ -9,7 +9,7 @@ namespace aws.LbSslNegotiationPolicy
     [JsiiByValue(fqn: "aws.lbSslNegotiationPolicy.LbSslNegotiationPolicyAttribute")]
     public class LbSslNegotiationPolicyAttribute : aws.LbSslNegotiationPolicy.ILbSslNegotiationPolicyAttribute
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_ssl_negotiation_policy#name LbSslNegotiationPolicy#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_ssl_negotiation_policy#name LbSslNegotiationPolicy#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.LbSslNegotiationPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_ssl_negotiation_policy#value LbSslNegotiationPolicy#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_ssl_negotiation_policy#value LbSslNegotiationPolicy#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

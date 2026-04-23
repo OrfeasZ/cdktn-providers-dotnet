@@ -7,7 +7,7 @@ namespace aws.BedrockagentAgent
     [JsiiInterface(nativeType: typeof(IBedrockagentAgentPromptOverrideConfiguration), fullyQualifiedName: "aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfiguration")]
     public interface IBedrockagentAgentPromptOverrideConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagent_agent#override_lambda BedrockagentAgent#override_lambda}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_agent#override_lambda BedrockagentAgent#override_lambda}.</summary>
         [JsiiProperty(name: "overrideLambda", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OverrideLambda
@@ -18,7 +18,7 @@ namespace aws.BedrockagentAgent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagent_agent#prompt_configurations BedrockagentAgent#prompt_configurations}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_agent#prompt_configurations BedrockagentAgent#prompt_configurations}.</summary>
         [JsiiProperty(name: "promptConfigurations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationPromptConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? PromptConfigurations
@@ -36,7 +36,7 @@ namespace aws.BedrockagentAgent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagent_agent#override_lambda BedrockagentAgent#override_lambda}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_agent#override_lambda BedrockagentAgent#override_lambda}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "overrideLambda", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OverrideLambda
@@ -44,7 +44,7 @@ namespace aws.BedrockagentAgent
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagent_agent#prompt_configurations BedrockagentAgent#prompt_configurations}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_agent#prompt_configurations BedrockagentAgent#prompt_configurations}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "promptConfigurations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationPromptConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
             public object? PromptConfigurations

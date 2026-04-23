@@ -9,7 +9,7 @@ namespace aws.VerifiedaccessEndpoint
     [JsiiByValue(fqn: "aws.verifiedaccessEndpoint.VerifiedaccessEndpointCidrOptionsPortRange")]
     public class VerifiedaccessEndpointCidrOptionsPortRange : aws.VerifiedaccessEndpoint.IVerifiedaccessEndpointCidrOptionsPortRange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/verifiedaccess_endpoint#from_port VerifiedaccessEndpoint#from_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/verifiedaccess_endpoint#from_port VerifiedaccessEndpoint#from_port}.</summary>
         [JsiiProperty(name: "fromPort", typeJson: "{\"primitive\":\"number\"}")]
         public double FromPort
         {
@@ -17,7 +17,7 @@ namespace aws.VerifiedaccessEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/verifiedaccess_endpoint#to_port VerifiedaccessEndpoint#to_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/verifiedaccess_endpoint#to_port VerifiedaccessEndpoint#to_port}.</summary>
         [JsiiProperty(name: "toPort", typeJson: "{\"primitive\":\"number\"}")]
         public double ToPort
         {

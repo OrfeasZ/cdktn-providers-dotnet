@@ -7,7 +7,7 @@ namespace aws.NetworkmanagerConnectPeer
     [JsiiInterface(nativeType: typeof(INetworkmanagerConnectPeerBgpOptions), fullyQualifiedName: "aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerBgpOptions")]
     public interface INetworkmanagerConnectPeerBgpOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_connect_peer#peer_asn NetworkmanagerConnectPeer#peer_asn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_connect_peer#peer_asn NetworkmanagerConnectPeer#peer_asn}.</summary>
         [JsiiProperty(name: "peerAsn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PeerAsn
@@ -25,7 +25,7 @@ namespace aws.NetworkmanagerConnectPeer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_connect_peer#peer_asn NetworkmanagerConnectPeer#peer_asn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_connect_peer#peer_asn NetworkmanagerConnectPeer#peer_asn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "peerAsn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PeerAsn

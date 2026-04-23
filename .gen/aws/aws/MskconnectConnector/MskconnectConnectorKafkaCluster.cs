@@ -11,7 +11,7 @@ namespace aws.MskconnectConnector
     {
         /// <summary>apache_kafka_cluster block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/mskconnect_connector#apache_kafka_cluster MskconnectConnector#apache_kafka_cluster}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#apache_kafka_cluster MskconnectConnector#apache_kafka_cluster}
         /// </remarks>
         [JsiiProperty(name: "apacheKafkaCluster", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorKafkaClusterApacheKafkaCluster\"}")]
         public aws.MskconnectConnector.IMskconnectConnectorKafkaClusterApacheKafkaCluster ApacheKafkaCluster

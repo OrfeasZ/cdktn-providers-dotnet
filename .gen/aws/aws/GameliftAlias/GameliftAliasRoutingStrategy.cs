@@ -9,7 +9,7 @@ namespace aws.GameliftAlias
     [JsiiByValue(fqn: "aws.gameliftAlias.GameliftAliasRoutingStrategy")]
     public class GameliftAliasRoutingStrategy : aws.GameliftAlias.IGameliftAliasRoutingStrategy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/gamelift_alias#type GameliftAlias#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_alias#type GameliftAlias#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.GameliftAlias
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/gamelift_alias#fleet_id GameliftAlias#fleet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_alias#fleet_id GameliftAlias#fleet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FleetId
@@ -26,7 +26,7 @@ namespace aws.GameliftAlias
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/gamelift_alias#message GameliftAlias#message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_alias#message GameliftAlias#message}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "message", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Message

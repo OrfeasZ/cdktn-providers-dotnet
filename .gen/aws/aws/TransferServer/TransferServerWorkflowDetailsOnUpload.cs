@@ -9,7 +9,7 @@ namespace aws.TransferServer
     [JsiiByValue(fqn: "aws.transferServer.TransferServerWorkflowDetailsOnUpload")]
     public class TransferServerWorkflowDetailsOnUpload : aws.TransferServer.ITransferServerWorkflowDetailsOnUpload
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_server#execution_role TransferServer#execution_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#execution_role TransferServer#execution_role}.</summary>
         [JsiiProperty(name: "executionRole", typeJson: "{\"primitive\":\"string\"}")]
         public string ExecutionRole
         {
@@ -17,7 +17,7 @@ namespace aws.TransferServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_server#workflow_id TransferServer#workflow_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#workflow_id TransferServer#workflow_id}.</summary>
         [JsiiProperty(name: "workflowId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkflowId
         {

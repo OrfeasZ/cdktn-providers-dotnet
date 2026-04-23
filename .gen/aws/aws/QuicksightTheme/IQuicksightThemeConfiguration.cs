@@ -9,7 +9,7 @@ namespace aws.QuicksightTheme
     {
         /// <summary>data_color_palette block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#data_color_palette QuicksightTheme#data_color_palette}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#data_color_palette QuicksightTheme#data_color_palette}
         /// </remarks>
         [JsiiProperty(name: "dataColorPalette", typeJson: "{\"fqn\":\"aws.quicksightTheme.QuicksightThemeConfigurationDataColorPalette\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.QuicksightTheme
 
         /// <summary>sheet block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#sheet QuicksightTheme#sheet}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#sheet QuicksightTheme#sheet}
         /// </remarks>
         [JsiiProperty(name: "sheet", typeJson: "{\"fqn\":\"aws.quicksightTheme.QuicksightThemeConfigurationSheet\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.QuicksightTheme
 
         /// <summary>typography block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#typography QuicksightTheme#typography}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#typography QuicksightTheme#typography}
         /// </remarks>
         [JsiiProperty(name: "typography", typeJson: "{\"fqn\":\"aws.quicksightTheme.QuicksightThemeConfigurationTypography\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace aws.QuicksightTheme
 
         /// <summary>ui_color_palette block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#ui_color_palette QuicksightTheme#ui_color_palette}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#ui_color_palette QuicksightTheme#ui_color_palette}
         /// </remarks>
         [JsiiProperty(name: "uiColorPalette", typeJson: "{\"fqn\":\"aws.quicksightTheme.QuicksightThemeConfigurationUiColorPalette\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,7 +72,7 @@ namespace aws.QuicksightTheme
 
             /// <summary>data_color_palette block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#data_color_palette QuicksightTheme#data_color_palette}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#data_color_palette QuicksightTheme#data_color_palette}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dataColorPalette", typeJson: "{\"fqn\":\"aws.quicksightTheme.QuicksightThemeConfigurationDataColorPalette\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace aws.QuicksightTheme
 
             /// <summary>sheet block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#sheet QuicksightTheme#sheet}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#sheet QuicksightTheme#sheet}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sheet", typeJson: "{\"fqn\":\"aws.quicksightTheme.QuicksightThemeConfigurationSheet\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace aws.QuicksightTheme
 
             /// <summary>typography block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#typography QuicksightTheme#typography}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#typography QuicksightTheme#typography}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "typography", typeJson: "{\"fqn\":\"aws.quicksightTheme.QuicksightThemeConfigurationTypography\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace aws.QuicksightTheme
 
             /// <summary>ui_color_palette block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_theme#ui_color_palette QuicksightTheme#ui_color_palette}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#ui_color_palette QuicksightTheme#ui_color_palette}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "uiColorPalette", typeJson: "{\"fqn\":\"aws.quicksightTheme.QuicksightThemeConfigurationUiColorPalette\"}", isOptional: true)]

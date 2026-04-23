@@ -7,14 +7,14 @@ namespace aws.SesEventDestination
     [JsiiInterface(nativeType: typeof(ISesEventDestinationKinesisDestination), fullyQualifiedName: "aws.sesEventDestination.SesEventDestinationKinesisDestination")]
     public interface ISesEventDestinationKinesisDestination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ses_event_destination#role_arn SesEventDestination#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_event_destination#role_arn SesEventDestination#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         string RoleArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ses_event_destination#stream_arn SesEventDestination#stream_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_event_destination#stream_arn SesEventDestination#stream_arn}.</summary>
         [JsiiProperty(name: "streamArn", typeJson: "{\"primitive\":\"string\"}")]
         string StreamArn
         {
@@ -28,14 +28,14 @@ namespace aws.SesEventDestination
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ses_event_destination#role_arn SesEventDestination#role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_event_destination#role_arn SesEventDestination#role_arn}.</summary>
             [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
             public string RoleArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ses_event_destination#stream_arn SesEventDestination#stream_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_event_destination#stream_arn SesEventDestination#stream_arn}.</summary>
             [JsiiProperty(name: "streamArn", typeJson: "{\"primitive\":\"string\"}")]
             public string StreamArn
             {

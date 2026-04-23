@@ -7,7 +7,7 @@ namespace aws.ApprunnerService
     [JsiiInterface(nativeType: typeof(IApprunnerServiceSourceConfigurationAuthenticationConfiguration), fullyQualifiedName: "aws.apprunnerService.ApprunnerServiceSourceConfigurationAuthenticationConfiguration")]
     public interface IApprunnerServiceSourceConfigurationAuthenticationConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apprunner_service#access_role_arn ApprunnerService#access_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#access_role_arn ApprunnerService#access_role_arn}.</summary>
         [JsiiProperty(name: "accessRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessRoleArn
@@ -18,7 +18,7 @@ namespace aws.ApprunnerService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apprunner_service#connection_arn ApprunnerService#connection_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#connection_arn ApprunnerService#connection_arn}.</summary>
         [JsiiProperty(name: "connectionArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ConnectionArn
@@ -36,7 +36,7 @@ namespace aws.ApprunnerService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apprunner_service#access_role_arn ApprunnerService#access_role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#access_role_arn ApprunnerService#access_role_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessRoleArn
@@ -44,7 +44,7 @@ namespace aws.ApprunnerService
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apprunner_service#connection_arn ApprunnerService#connection_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#connection_arn ApprunnerService#connection_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "connectionArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ConnectionArn

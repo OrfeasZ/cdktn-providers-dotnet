@@ -9,7 +9,7 @@ namespace aws.DatasyncLocationAzureBlob
     [JsiiByValue(fqn: "aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlobSasConfiguration")]
     public class DatasyncLocationAzureBlobSasConfiguration : aws.DatasyncLocationAzureBlob.IDatasyncLocationAzureBlobSasConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_azure_blob#token DatasyncLocationAzureBlob#token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_azure_blob#token DatasyncLocationAzureBlob#token}.</summary>
         [JsiiProperty(name: "token", typeJson: "{\"primitive\":\"string\"}")]
         public string Token
         {

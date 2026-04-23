@@ -9,7 +9,7 @@ namespace aws.S3BucketLogging
     {
         /// <summary>grantee block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_logging#grantee S3BucketLoggingA#grantee}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_logging#grantee S3BucketLoggingA#grantee}
         /// </remarks>
         [JsiiProperty(name: "grantee", typeJson: "{\"fqn\":\"aws.s3BucketLogging.S3BucketLoggingTargetGrantGrantee\"}")]
         aws.S3BucketLogging.IS3BucketLoggingTargetGrantGrantee Grantee
@@ -17,7 +17,7 @@ namespace aws.S3BucketLogging
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_logging#permission S3BucketLoggingA#permission}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_logging#permission S3BucketLoggingA#permission}.</summary>
         [JsiiProperty(name: "permission", typeJson: "{\"primitive\":\"string\"}")]
         string Permission
         {
@@ -33,7 +33,7 @@ namespace aws.S3BucketLogging
 
             /// <summary>grantee block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_logging#grantee S3BucketLoggingA#grantee}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_logging#grantee S3BucketLoggingA#grantee}
             /// </remarks>
             [JsiiProperty(name: "grantee", typeJson: "{\"fqn\":\"aws.s3BucketLogging.S3BucketLoggingTargetGrantGrantee\"}")]
             public aws.S3BucketLogging.IS3BucketLoggingTargetGrantGrantee Grantee
@@ -41,7 +41,7 @@ namespace aws.S3BucketLogging
                 get => GetInstanceProperty<aws.S3BucketLogging.IS3BucketLoggingTargetGrantGrantee>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_logging#permission S3BucketLoggingA#permission}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_logging#permission S3BucketLoggingA#permission}.</summary>
             [JsiiProperty(name: "permission", typeJson: "{\"primitive\":\"string\"}")]
             public string Permission
             {

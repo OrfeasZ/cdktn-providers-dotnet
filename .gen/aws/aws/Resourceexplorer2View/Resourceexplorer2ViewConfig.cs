@@ -9,7 +9,7 @@ namespace aws.Resourceexplorer2View
     [JsiiByValue(fqn: "aws.resourceexplorer2View.Resourceexplorer2ViewConfig")]
     public class Resourceexplorer2ViewConfig : aws.Resourceexplorer2View.IResourceexplorer2ViewConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -19,7 +19,7 @@ namespace aws.Resourceexplorer2View
 
         private object? _defaultView;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/resourceexplorer2_view#default_view Resourceexplorer2View#default_view}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourceexplorer2_view#default_view Resourceexplorer2View#default_view}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultView", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? DefaultView
@@ -52,7 +52,7 @@ namespace aws.Resourceexplorer2View
 
         /// <summary>filters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/resourceexplorer2_view#filters Resourceexplorer2View#filters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourceexplorer2_view#filters Resourceexplorer2View#filters}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filters", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.resourceexplorer2View.Resourceexplorer2ViewFilters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -86,7 +86,7 @@ namespace aws.Resourceexplorer2View
 
         /// <summary>included_property block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/resourceexplorer2_view#included_property Resourceexplorer2View#included_property}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourceexplorer2_view#included_property Resourceexplorer2View#included_property}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "includedProperty", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.resourceexplorer2View.Resourceexplorer2ViewIncludedProperty\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -118,7 +118,7 @@ namespace aws.Resourceexplorer2View
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/resourceexplorer2_view#region Resourceexplorer2View#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourceexplorer2_view#region Resourceexplorer2View#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace aws.Resourceexplorer2View
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/resourceexplorer2_view#scope Resourceexplorer2View#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourceexplorer2_view#scope Resourceexplorer2View#scope}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Scope
@@ -137,7 +137,7 @@ namespace aws.Resourceexplorer2View
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/resourceexplorer2_view#tags Resourceexplorer2View#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourceexplorer2_view#tags Resourceexplorer2View#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags

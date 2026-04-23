@@ -7,7 +7,7 @@ namespace aws.DataAwsDynamodbBackups
     [JsiiByValue(fqn: "aws.dataAwsDynamodbBackups.DataAwsDynamodbBackupsConfig")]
     public class DataAwsDynamodbBackupsConfig : aws.DataAwsDynamodbBackups.IDataAwsDynamodbBackupsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/dynamodb_backups#backup_type DataAwsDynamodbBackups#backup_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/dynamodb_backups#backup_type DataAwsDynamodbBackups#backup_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backupType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BackupType
@@ -18,7 +18,7 @@ namespace aws.DataAwsDynamodbBackups
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/dynamodb_backups#region DataAwsDynamodbBackups#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/dynamodb_backups#region DataAwsDynamodbBackups#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -28,7 +28,7 @@ namespace aws.DataAwsDynamodbBackups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/dynamodb_backups#table_name DataAwsDynamodbBackups#table_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/dynamodb_backups#table_name DataAwsDynamodbBackups#table_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TableName
@@ -37,7 +37,7 @@ namespace aws.DataAwsDynamodbBackups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/dynamodb_backups#time_range_lower_bound DataAwsDynamodbBackups#time_range_lower_bound}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/dynamodb_backups#time_range_lower_bound DataAwsDynamodbBackups#time_range_lower_bound}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeRangeLowerBound", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeRangeLowerBound
@@ -46,7 +46,7 @@ namespace aws.DataAwsDynamodbBackups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/dynamodb_backups#time_range_upper_bound DataAwsDynamodbBackups#time_range_upper_bound}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/dynamodb_backups#time_range_upper_bound DataAwsDynamodbBackups#time_range_upper_bound}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeRangeUpperBound", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeRangeUpperBound

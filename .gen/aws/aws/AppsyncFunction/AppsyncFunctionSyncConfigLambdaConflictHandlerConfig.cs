@@ -7,7 +7,7 @@ namespace aws.AppsyncFunction
     [JsiiByValue(fqn: "aws.appsyncFunction.AppsyncFunctionSyncConfigLambdaConflictHandlerConfig")]
     public class AppsyncFunctionSyncConfigLambdaConflictHandlerConfig : aws.AppsyncFunction.IAppsyncFunctionSyncConfigLambdaConflictHandlerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_function#lambda_conflict_handler_arn AppsyncFunction#lambda_conflict_handler_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_function#lambda_conflict_handler_arn AppsyncFunction#lambda_conflict_handler_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lambdaConflictHandlerArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LambdaConflictHandlerArn

@@ -7,14 +7,14 @@ namespace aws.InspectorAssessmentTemplate
     [JsiiInterface(nativeType: typeof(IInspectorAssessmentTemplateEventSubscription), fullyQualifiedName: "aws.inspectorAssessmentTemplate.InspectorAssessmentTemplateEventSubscription")]
     public interface IInspectorAssessmentTemplateEventSubscription
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/inspector_assessment_template#event InspectorAssessmentTemplate#event}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector_assessment_template#event InspectorAssessmentTemplate#event}.</summary>
         [JsiiProperty(name: "event", typeJson: "{\"primitive\":\"string\"}")]
         string Event
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/inspector_assessment_template#topic_arn InspectorAssessmentTemplate#topic_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector_assessment_template#topic_arn InspectorAssessmentTemplate#topic_arn}.</summary>
         [JsiiProperty(name: "topicArn", typeJson: "{\"primitive\":\"string\"}")]
         string TopicArn
         {
@@ -28,14 +28,14 @@ namespace aws.InspectorAssessmentTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/inspector_assessment_template#event InspectorAssessmentTemplate#event}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector_assessment_template#event InspectorAssessmentTemplate#event}.</summary>
             [JsiiProperty(name: "event", typeJson: "{\"primitive\":\"string\"}")]
             public string Event
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/inspector_assessment_template#topic_arn InspectorAssessmentTemplate#topic_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector_assessment_template#topic_arn InspectorAssessmentTemplate#topic_arn}.</summary>
             [JsiiProperty(name: "topicArn", typeJson: "{\"primitive\":\"string\"}")]
             public string TopicArn
             {

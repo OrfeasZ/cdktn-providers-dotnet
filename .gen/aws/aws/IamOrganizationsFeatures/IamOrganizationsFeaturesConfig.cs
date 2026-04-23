@@ -9,7 +9,7 @@ namespace aws.IamOrganizationsFeatures
     [JsiiByValue(fqn: "aws.iamOrganizationsFeatures.IamOrganizationsFeaturesConfig")]
     public class IamOrganizationsFeaturesConfig : aws.IamOrganizationsFeatures.IIamOrganizationsFeaturesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_organizations_features#enabled_features IamOrganizationsFeatures#enabled_features}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_organizations_features#enabled_features IamOrganizationsFeatures#enabled_features}.</summary>
         [JsiiProperty(name: "enabledFeatures", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] EnabledFeatures
         {

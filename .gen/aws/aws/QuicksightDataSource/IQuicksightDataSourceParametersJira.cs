@@ -7,7 +7,7 @@ namespace aws.QuicksightDataSource
     [JsiiInterface(nativeType: typeof(IQuicksightDataSourceParametersJira), fullyQualifiedName: "aws.quicksightDataSource.QuicksightDataSourceParametersJira")]
     public interface IQuicksightDataSourceParametersJira
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#site_base_url QuicksightDataSource#site_base_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#site_base_url QuicksightDataSource#site_base_url}.</summary>
         [JsiiProperty(name: "siteBaseUrl", typeJson: "{\"primitive\":\"string\"}")]
         string SiteBaseUrl
         {
@@ -21,7 +21,7 @@ namespace aws.QuicksightDataSource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#site_base_url QuicksightDataSource#site_base_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#site_base_url QuicksightDataSource#site_base_url}.</summary>
             [JsiiProperty(name: "siteBaseUrl", typeJson: "{\"primitive\":\"string\"}")]
             public string SiteBaseUrl
             {

@@ -7,7 +7,7 @@ namespace aws.TransferWebApp
     [JsiiInterface(nativeType: typeof(ITransferWebAppWebAppUnits), fullyQualifiedName: "aws.transferWebApp.TransferWebAppWebAppUnits")]
     public interface ITransferWebAppWebAppUnits
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_web_app#provisioned TransferWebApp#provisioned}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_web_app#provisioned TransferWebApp#provisioned}.</summary>
         [JsiiProperty(name: "provisioned", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Provisioned
@@ -25,7 +25,7 @@ namespace aws.TransferWebApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_web_app#provisioned TransferWebApp#provisioned}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_web_app#provisioned TransferWebApp#provisioned}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "provisioned", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Provisioned

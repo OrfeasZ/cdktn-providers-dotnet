@@ -7,7 +7,7 @@ namespace aws.GlueTrigger
     [JsiiByValue(fqn: "aws.glueTrigger.GlueTriggerPredicateConditions")]
     public class GlueTriggerPredicateConditions : aws.GlueTrigger.IGlueTriggerPredicateConditions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_trigger#crawler_name GlueTrigger#crawler_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#crawler_name GlueTrigger#crawler_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "crawlerName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CrawlerName
@@ -16,7 +16,7 @@ namespace aws.GlueTrigger
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_trigger#crawl_state GlueTrigger#crawl_state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#crawl_state GlueTrigger#crawl_state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "crawlState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CrawlState
@@ -25,7 +25,7 @@ namespace aws.GlueTrigger
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_trigger#job_name GlueTrigger#job_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#job_name GlueTrigger#job_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jobName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JobName
@@ -34,7 +34,7 @@ namespace aws.GlueTrigger
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_trigger#logical_operator GlueTrigger#logical_operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#logical_operator GlueTrigger#logical_operator}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logicalOperator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogicalOperator
@@ -43,7 +43,7 @@ namespace aws.GlueTrigger
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_trigger#state GlueTrigger#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#state GlueTrigger#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

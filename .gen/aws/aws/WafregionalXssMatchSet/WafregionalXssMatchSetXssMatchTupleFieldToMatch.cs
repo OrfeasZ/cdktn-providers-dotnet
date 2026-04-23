@@ -9,7 +9,7 @@ namespace aws.WafregionalXssMatchSet
     [JsiiByValue(fqn: "aws.wafregionalXssMatchSet.WafregionalXssMatchSetXssMatchTupleFieldToMatch")]
     public class WafregionalXssMatchSetXssMatchTupleFieldToMatch : aws.WafregionalXssMatchSet.IWafregionalXssMatchSetXssMatchTupleFieldToMatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_xss_match_set#type WafregionalXssMatchSet#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_xss_match_set#type WafregionalXssMatchSet#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.WafregionalXssMatchSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_xss_match_set#data WafregionalXssMatchSet#data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_xss_match_set#data WafregionalXssMatchSet#data}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "data", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Data

@@ -7,7 +7,7 @@ namespace aws.Wafv2WebAclAssociation
     [JsiiByValue(fqn: "aws.wafv2WebAclAssociation.Wafv2WebAclAssociationTimeouts")]
     public class Wafv2WebAclAssociationTimeouts : aws.Wafv2WebAclAssociation.IWafv2WebAclAssociationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafv2_web_acl_association#create Wafv2WebAclAssociation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl_association#create Wafv2WebAclAssociation#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create

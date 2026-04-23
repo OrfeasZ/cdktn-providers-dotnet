@@ -7,14 +7,14 @@ namespace aws.GlueClassifier
     [JsiiInterface(nativeType: typeof(IGlueClassifierXmlClassifier), fullyQualifiedName: "aws.glueClassifier.GlueClassifierXmlClassifier")]
     public interface IGlueClassifierXmlClassifier
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_classifier#classification GlueClassifier#classification}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#classification GlueClassifier#classification}.</summary>
         [JsiiProperty(name: "classification", typeJson: "{\"primitive\":\"string\"}")]
         string Classification
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_classifier#row_tag GlueClassifier#row_tag}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#row_tag GlueClassifier#row_tag}.</summary>
         [JsiiProperty(name: "rowTag", typeJson: "{\"primitive\":\"string\"}")]
         string RowTag
         {
@@ -28,14 +28,14 @@ namespace aws.GlueClassifier
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_classifier#classification GlueClassifier#classification}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#classification GlueClassifier#classification}.</summary>
             [JsiiProperty(name: "classification", typeJson: "{\"primitive\":\"string\"}")]
             public string Classification
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_classifier#row_tag GlueClassifier#row_tag}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#row_tag GlueClassifier#row_tag}.</summary>
             [JsiiProperty(name: "rowTag", typeJson: "{\"primitive\":\"string\"}")]
             public string RowTag
             {

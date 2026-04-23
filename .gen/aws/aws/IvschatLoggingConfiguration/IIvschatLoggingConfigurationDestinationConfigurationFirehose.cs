@@ -7,7 +7,7 @@ namespace aws.IvschatLoggingConfiguration
     [JsiiInterface(nativeType: typeof(IIvschatLoggingConfigurationDestinationConfigurationFirehose), fullyQualifiedName: "aws.ivschatLoggingConfiguration.IvschatLoggingConfigurationDestinationConfigurationFirehose")]
     public interface IIvschatLoggingConfigurationDestinationConfigurationFirehose
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ivschat_logging_configuration#delivery_stream_name IvschatLoggingConfiguration#delivery_stream_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ivschat_logging_configuration#delivery_stream_name IvschatLoggingConfiguration#delivery_stream_name}.</summary>
         [JsiiProperty(name: "deliveryStreamName", typeJson: "{\"primitive\":\"string\"}")]
         string DeliveryStreamName
         {
@@ -21,7 +21,7 @@ namespace aws.IvschatLoggingConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ivschat_logging_configuration#delivery_stream_name IvschatLoggingConfiguration#delivery_stream_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ivschat_logging_configuration#delivery_stream_name IvschatLoggingConfiguration#delivery_stream_name}.</summary>
             [JsiiProperty(name: "deliveryStreamName", typeJson: "{\"primitive\":\"string\"}")]
             public string DeliveryStreamName
             {

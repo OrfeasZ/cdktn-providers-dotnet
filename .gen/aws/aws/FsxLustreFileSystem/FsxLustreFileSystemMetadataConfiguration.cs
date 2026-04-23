@@ -7,7 +7,7 @@ namespace aws.FsxLustreFileSystem
     [JsiiByValue(fqn: "aws.fsxLustreFileSystem.FsxLustreFileSystemMetadataConfiguration")]
     public class FsxLustreFileSystemMetadataConfiguration : aws.FsxLustreFileSystem.IFsxLustreFileSystemMetadataConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_lustre_file_system#iops FsxLustreFileSystem#iops}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_lustre_file_system#iops FsxLustreFileSystem#iops}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "iops", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Iops
@@ -16,7 +16,7 @@ namespace aws.FsxLustreFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/fsx_lustre_file_system#mode FsxLustreFileSystem#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_lustre_file_system#mode FsxLustreFileSystem#mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Mode

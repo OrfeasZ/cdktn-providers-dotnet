@@ -7,28 +7,28 @@ namespace aws.MedialiveChannel
     [JsiiInterface(nativeType: typeof(IMedialiveChannelInputAttachmentsInputSettingsCaptionSelectorSelectorSettingsTeletextSourceSettingsOutputRectangle), fullyQualifiedName: "aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsCaptionSelectorSelectorSettingsTeletextSourceSettingsOutputRectangle")]
     public interface IMedialiveChannelInputAttachmentsInputSettingsCaptionSelectorSelectorSettingsTeletextSourceSettingsOutputRectangle
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#height MedialiveChannel#height}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#height MedialiveChannel#height}.</summary>
         [JsiiProperty(name: "height", typeJson: "{\"primitive\":\"number\"}")]
         double Height
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#left_offset MedialiveChannel#left_offset}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#left_offset MedialiveChannel#left_offset}.</summary>
         [JsiiProperty(name: "leftOffset", typeJson: "{\"primitive\":\"number\"}")]
         double LeftOffset
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#top_offset MedialiveChannel#top_offset}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#top_offset MedialiveChannel#top_offset}.</summary>
         [JsiiProperty(name: "topOffset", typeJson: "{\"primitive\":\"number\"}")]
         double TopOffset
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#width MedialiveChannel#width}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#width MedialiveChannel#width}.</summary>
         [JsiiProperty(name: "width", typeJson: "{\"primitive\":\"number\"}")]
         double Width
         {
@@ -42,28 +42,28 @@ namespace aws.MedialiveChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#height MedialiveChannel#height}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#height MedialiveChannel#height}.</summary>
             [JsiiProperty(name: "height", typeJson: "{\"primitive\":\"number\"}")]
             public double Height
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#left_offset MedialiveChannel#left_offset}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#left_offset MedialiveChannel#left_offset}.</summary>
             [JsiiProperty(name: "leftOffset", typeJson: "{\"primitive\":\"number\"}")]
             public double LeftOffset
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#top_offset MedialiveChannel#top_offset}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#top_offset MedialiveChannel#top_offset}.</summary>
             [JsiiProperty(name: "topOffset", typeJson: "{\"primitive\":\"number\"}")]
             public double TopOffset
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_channel#width MedialiveChannel#width}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#width MedialiveChannel#width}.</summary>
             [JsiiProperty(name: "width", typeJson: "{\"primitive\":\"number\"}")]
             public double Width
             {

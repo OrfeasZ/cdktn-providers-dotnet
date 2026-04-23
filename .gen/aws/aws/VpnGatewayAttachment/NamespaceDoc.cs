@@ -5,7 +5,7 @@ namespace aws.VpnGatewayAttachment
     /// <remarks>
     /// <h1><c>aws_vpn_gateway_attachment</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpn_gateway_attachment"><c>aws_vpn_gateway_attachment</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpn_gateway_attachment"><c>aws_vpn_gateway_attachment</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

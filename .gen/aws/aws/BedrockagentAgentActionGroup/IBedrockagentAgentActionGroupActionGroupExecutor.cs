@@ -7,7 +7,7 @@ namespace aws.BedrockagentAgentActionGroup
     [JsiiInterface(nativeType: typeof(IBedrockagentAgentActionGroupActionGroupExecutor), fullyQualifiedName: "aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroupActionGroupExecutor")]
     public interface IBedrockagentAgentActionGroupActionGroupExecutor
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagent_agent_action_group#custom_control BedrockagentAgentActionGroup#custom_control}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_agent_action_group#custom_control BedrockagentAgentActionGroup#custom_control}.</summary>
         [JsiiProperty(name: "customControl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CustomControl
@@ -18,7 +18,7 @@ namespace aws.BedrockagentAgentActionGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagent_agent_action_group#lambda BedrockagentAgentActionGroup#lambda}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_agent_action_group#lambda BedrockagentAgentActionGroup#lambda}.</summary>
         [JsiiProperty(name: "lambda", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Lambda
@@ -36,7 +36,7 @@ namespace aws.BedrockagentAgentActionGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagent_agent_action_group#custom_control BedrockagentAgentActionGroup#custom_control}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_agent_action_group#custom_control BedrockagentAgentActionGroup#custom_control}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "customControl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CustomControl
@@ -44,7 +44,7 @@ namespace aws.BedrockagentAgentActionGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagent_agent_action_group#lambda BedrockagentAgentActionGroup#lambda}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_agent_action_group#lambda BedrockagentAgentActionGroup#lambda}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lambda", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Lambda

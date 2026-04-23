@@ -9,7 +9,7 @@ namespace aws.InspectorAssessmentTemplate
     [JsiiByValue(fqn: "aws.inspectorAssessmentTemplate.InspectorAssessmentTemplateEventSubscription")]
     public class InspectorAssessmentTemplateEventSubscription : aws.InspectorAssessmentTemplate.IInspectorAssessmentTemplateEventSubscription
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/inspector_assessment_template#event InspectorAssessmentTemplate#event}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector_assessment_template#event InspectorAssessmentTemplate#event}.</summary>
         [JsiiProperty(name: "event", typeJson: "{\"primitive\":\"string\"}")]
         public string Event
         {
@@ -17,7 +17,7 @@ namespace aws.InspectorAssessmentTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/inspector_assessment_template#topic_arn InspectorAssessmentTemplate#topic_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector_assessment_template#topic_arn InspectorAssessmentTemplate#topic_arn}.</summary>
         [JsiiProperty(name: "topicArn", typeJson: "{\"primitive\":\"string\"}")]
         public string TopicArn
         {

@@ -7,7 +7,7 @@ namespace aws.TranscribeLanguageModel
     [JsiiInterface(nativeType: typeof(ITranscribeLanguageModelTimeouts), fullyQualifiedName: "aws.transcribeLanguageModel.TranscribeLanguageModelTimeouts")]
     public interface ITranscribeLanguageModelTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transcribe_language_model#create TranscribeLanguageModel#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transcribe_language_model#create TranscribeLanguageModel#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -25,7 +25,7 @@ namespace aws.TranscribeLanguageModel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transcribe_language_model#create TranscribeLanguageModel#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transcribe_language_model#create TranscribeLanguageModel#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create

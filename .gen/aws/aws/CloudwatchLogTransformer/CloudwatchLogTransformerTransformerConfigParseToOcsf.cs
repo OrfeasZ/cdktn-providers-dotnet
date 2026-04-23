@@ -9,7 +9,7 @@ namespace aws.CloudwatchLogTransformer
     [JsiiByValue(fqn: "aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseToOcsf")]
     public class CloudwatchLogTransformerTransformerConfigParseToOcsf : aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseToOcsf
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_log_transformer#event_source CloudwatchLogTransformer#event_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_log_transformer#event_source CloudwatchLogTransformer#event_source}.</summary>
         [JsiiProperty(name: "eventSource", typeJson: "{\"primitive\":\"string\"}")]
         public string EventSource
         {
@@ -17,7 +17,7 @@ namespace aws.CloudwatchLogTransformer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_log_transformer#ocsf_version CloudwatchLogTransformer#ocsf_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_log_transformer#ocsf_version CloudwatchLogTransformer#ocsf_version}.</summary>
         [JsiiProperty(name: "ocsfVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string OcsfVersion
         {
@@ -25,7 +25,7 @@ namespace aws.CloudwatchLogTransformer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Source

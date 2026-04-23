@@ -9,7 +9,7 @@ namespace aws.KendraExperience
     {
         /// <summary>content_source_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kendra_experience#content_source_configuration KendraExperience#content_source_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_experience#content_source_configuration KendraExperience#content_source_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "contentSourceConfiguration", typeJson: "{\"fqn\":\"aws.kendraExperience.KendraExperienceConfigurationContentSourceConfiguration\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.KendraExperience
 
         /// <summary>user_identity_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kendra_experience#user_identity_configuration KendraExperience#user_identity_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_experience#user_identity_configuration KendraExperience#user_identity_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userIdentityConfiguration", typeJson: "{\"fqn\":\"aws.kendraExperience.KendraExperienceConfigurationUserIdentityConfiguration\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.SecurityhubInsight
     {
         /// <summary>date_range block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
         /// </remarks>
         [JsiiProperty(name: "dateRange", typeJson: "{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersUpdatedAtDateRange\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace aws.SecurityhubInsight
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}.</summary>
         [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? End
@@ -32,7 +32,7 @@ namespace aws.SecurityhubInsight
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}.</summary>
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Start
@@ -52,7 +52,7 @@ namespace aws.SecurityhubInsight
 
             /// <summary>date_range block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dateRange", typeJson: "{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersUpdatedAtDateRange\"}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace aws.SecurityhubInsight
                 get => GetInstanceProperty<aws.SecurityhubInsight.ISecurityhubInsightFiltersUpdatedAtDateRange?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? End
@@ -69,7 +69,7 @@ namespace aws.SecurityhubInsight
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Start

@@ -9,7 +9,7 @@ namespace aws.DataAwsRamResourceShare
     [JsiiByValue(fqn: "aws.dataAwsRamResourceShare.DataAwsRamResourceShareFilter")]
     public class DataAwsRamResourceShareFilter : aws.DataAwsRamResourceShare.IDataAwsRamResourceShareFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ram_resource_share#name DataAwsRamResourceShare#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ram_resource_share#name DataAwsRamResourceShare#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsRamResourceShare
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ram_resource_share#values DataAwsRamResourceShare#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ram_resource_share#values DataAwsRamResourceShare#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

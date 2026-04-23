@@ -7,21 +7,21 @@ namespace aws.GameliftFleet
     [JsiiInterface(nativeType: typeof(IGameliftFleetRuntimeConfigurationServerProcess), fullyQualifiedName: "aws.gameliftFleet.GameliftFleetRuntimeConfigurationServerProcess")]
     public interface IGameliftFleetRuntimeConfigurationServerProcess
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/gamelift_fleet#concurrent_executions GameliftFleet#concurrent_executions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_fleet#concurrent_executions GameliftFleet#concurrent_executions}.</summary>
         [JsiiProperty(name: "concurrentExecutions", typeJson: "{\"primitive\":\"number\"}")]
         double ConcurrentExecutions
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/gamelift_fleet#launch_path GameliftFleet#launch_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_fleet#launch_path GameliftFleet#launch_path}.</summary>
         [JsiiProperty(name: "launchPath", typeJson: "{\"primitive\":\"string\"}")]
         string LaunchPath
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/gamelift_fleet#parameters GameliftFleet#parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_fleet#parameters GameliftFleet#parameters}.</summary>
         [JsiiProperty(name: "parameters", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Parameters
@@ -39,21 +39,21 @@ namespace aws.GameliftFleet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/gamelift_fleet#concurrent_executions GameliftFleet#concurrent_executions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_fleet#concurrent_executions GameliftFleet#concurrent_executions}.</summary>
             [JsiiProperty(name: "concurrentExecutions", typeJson: "{\"primitive\":\"number\"}")]
             public double ConcurrentExecutions
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/gamelift_fleet#launch_path GameliftFleet#launch_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_fleet#launch_path GameliftFleet#launch_path}.</summary>
             [JsiiProperty(name: "launchPath", typeJson: "{\"primitive\":\"string\"}")]
             public string LaunchPath
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/gamelift_fleet#parameters GameliftFleet#parameters}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_fleet#parameters GameliftFleet#parameters}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "parameters", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Parameters

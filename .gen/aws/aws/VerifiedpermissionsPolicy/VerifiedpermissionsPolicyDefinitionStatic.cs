@@ -9,7 +9,7 @@ namespace aws.VerifiedpermissionsPolicy
     [JsiiByValue(fqn: "aws.verifiedpermissionsPolicy.VerifiedpermissionsPolicyDefinitionStatic")]
     public class VerifiedpermissionsPolicyDefinitionStatic : aws.VerifiedpermissionsPolicy.IVerifiedpermissionsPolicyDefinitionStatic
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/verifiedpermissions_policy#statement VerifiedpermissionsPolicy#statement}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/verifiedpermissions_policy#statement VerifiedpermissionsPolicy#statement}.</summary>
         [JsiiProperty(name: "statement", typeJson: "{\"primitive\":\"string\"}")]
         public string Statement
         {
@@ -17,7 +17,7 @@ namespace aws.VerifiedpermissionsPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/verifiedpermissions_policy#description VerifiedpermissionsPolicy#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/verifiedpermissions_policy#description VerifiedpermissionsPolicy#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description

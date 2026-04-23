@@ -9,7 +9,7 @@ namespace aws.AppflowFlow
     [JsiiByValue(fqn: "aws.appflowFlow.AppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoData")]
     public class AppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoData : aws.AppflowFlow.IAppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoData
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#object_path AppflowFlow#object_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#object_path AppflowFlow#object_path}.</summary>
         [JsiiProperty(name: "objectPath", typeJson: "{\"primitive\":\"string\"}")]
         public string ObjectPath
         {
@@ -19,7 +19,7 @@ namespace aws.AppflowFlow
 
         /// <summary>pagination_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#pagination_config AppflowFlow#pagination_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#pagination_config AppflowFlow#pagination_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "paginationConfig", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataPaginationConfig\"}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.AppflowFlow
 
         /// <summary>parallelism_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appflow_flow#parallelism_config AppflowFlow#parallelism_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#parallelism_config AppflowFlow#parallelism_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parallelismConfig", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataParallelismConfig\"}", isOptional: true)]

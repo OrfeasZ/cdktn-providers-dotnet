@@ -9,7 +9,7 @@ namespace aws.Wafv2WebAcl
     {
         /// <summary>insert_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafv2_web_acl#insert_header Wafv2WebAcl#insert_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#insert_header Wafv2WebAcl#insert_header}
         /// </remarks>
         [JsiiProperty(name: "insertHeader", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleActionChallengeCustomRequestHandlingInsertHeader\"},\"kind\":\"array\"}}]}}")]
         object InsertHeader
@@ -26,7 +26,7 @@ namespace aws.Wafv2WebAcl
 
             /// <summary>insert_header block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafv2_web_acl#insert_header Wafv2WebAcl#insert_header}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#insert_header Wafv2WebAcl#insert_header}
             /// </remarks>
             [JsiiProperty(name: "insertHeader", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleActionChallengeCustomRequestHandlingInsertHeader\"},\"kind\":\"array\"}}]}}")]
             public object InsertHeader

@@ -9,7 +9,7 @@ namespace aws.LbListenerRule
     [JsiiByValue(fqn: "aws.lbListenerRule.LbListenerRuleAction")]
     public class LbListenerRuleAction : aws.LbListenerRule.ILbListenerRuleAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener_rule#type LbListenerRule#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#type LbListenerRule#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -19,7 +19,7 @@ namespace aws.LbListenerRule
 
         /// <summary>authenticate_cognito block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener_rule#authenticate_cognito LbListenerRule#authenticate_cognito}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#authenticate_cognito LbListenerRule#authenticate_cognito}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authenticateCognito", typeJson: "{\"fqn\":\"aws.lbListenerRule.LbListenerRuleActionAuthenticateCognito\"}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.LbListenerRule
 
         /// <summary>authenticate_oidc block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener_rule#authenticate_oidc LbListenerRule#authenticate_oidc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#authenticate_oidc LbListenerRule#authenticate_oidc}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authenticateOidc", typeJson: "{\"fqn\":\"aws.lbListenerRule.LbListenerRuleActionAuthenticateOidc\"}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace aws.LbListenerRule
 
         /// <summary>fixed_response block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener_rule#fixed_response LbListenerRule#fixed_response}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#fixed_response LbListenerRule#fixed_response}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fixedResponse", typeJson: "{\"fqn\":\"aws.lbListenerRule.LbListenerRuleActionFixedResponse\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace aws.LbListenerRule
 
         /// <summary>forward block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener_rule#forward LbListenerRule#forward}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#forward LbListenerRule#forward}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forward", typeJson: "{\"fqn\":\"aws.lbListenerRule.LbListenerRuleActionForward\"}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace aws.LbListenerRule
 
         /// <summary>jwt_validation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener_rule#jwt_validation LbListenerRule#jwt_validation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#jwt_validation LbListenerRule#jwt_validation}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jwtValidation", typeJson: "{\"fqn\":\"aws.lbListenerRule.LbListenerRuleActionJwtValidation\"}", isOptional: true)]
@@ -77,7 +77,7 @@ namespace aws.LbListenerRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener_rule#order LbListenerRule#order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#order LbListenerRule#order}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Order
@@ -88,7 +88,7 @@ namespace aws.LbListenerRule
 
         /// <summary>redirect block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener_rule#redirect LbListenerRule#redirect}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#redirect LbListenerRule#redirect}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "redirect", typeJson: "{\"fqn\":\"aws.lbListenerRule.LbListenerRuleActionRedirect\"}", isOptional: true)]
@@ -98,7 +98,7 @@ namespace aws.LbListenerRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener_rule#target_group_arn LbListenerRule#target_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#target_group_arn LbListenerRule#target_group_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetGroupArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetGroupArn

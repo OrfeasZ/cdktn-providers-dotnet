@@ -7,7 +7,7 @@ namespace aws.QuicksightIamPolicyAssignment
     [JsiiInterface(nativeType: typeof(IQuicksightIamPolicyAssignmentIdentities), fullyQualifiedName: "aws.quicksightIamPolicyAssignment.QuicksightIamPolicyAssignmentIdentities")]
     public interface IQuicksightIamPolicyAssignmentIdentities
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_iam_policy_assignment#group QuicksightIamPolicyAssignment#group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_iam_policy_assignment#group QuicksightIamPolicyAssignment#group}.</summary>
         [JsiiProperty(name: "group", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Group
@@ -18,7 +18,7 @@ namespace aws.QuicksightIamPolicyAssignment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_iam_policy_assignment#user QuicksightIamPolicyAssignment#user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_iam_policy_assignment#user QuicksightIamPolicyAssignment#user}.</summary>
         [JsiiProperty(name: "user", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? User
@@ -36,7 +36,7 @@ namespace aws.QuicksightIamPolicyAssignment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_iam_policy_assignment#group QuicksightIamPolicyAssignment#group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_iam_policy_assignment#group QuicksightIamPolicyAssignment#group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "group", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Group
@@ -44,7 +44,7 @@ namespace aws.QuicksightIamPolicyAssignment
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_iam_policy_assignment#user QuicksightIamPolicyAssignment#user}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_iam_policy_assignment#user QuicksightIamPolicyAssignment#user}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "user", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? User

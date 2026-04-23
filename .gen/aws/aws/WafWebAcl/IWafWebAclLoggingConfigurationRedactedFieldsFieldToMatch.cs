@@ -7,14 +7,14 @@ namespace aws.WafWebAcl
     [JsiiInterface(nativeType: typeof(IWafWebAclLoggingConfigurationRedactedFieldsFieldToMatch), fullyQualifiedName: "aws.wafWebAcl.WafWebAclLoggingConfigurationRedactedFieldsFieldToMatch")]
     public interface IWafWebAclLoggingConfigurationRedactedFieldsFieldToMatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/waf_web_acl#type WafWebAcl#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_web_acl#type WafWebAcl#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/waf_web_acl#data WafWebAcl#data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_web_acl#data WafWebAcl#data}.</summary>
         [JsiiProperty(name: "data", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Data
@@ -32,14 +32,14 @@ namespace aws.WafWebAcl
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/waf_web_acl#type WafWebAcl#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_web_acl#type WafWebAcl#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/waf_web_acl#data WafWebAcl#data}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_web_acl#data WafWebAcl#data}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "data", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Data

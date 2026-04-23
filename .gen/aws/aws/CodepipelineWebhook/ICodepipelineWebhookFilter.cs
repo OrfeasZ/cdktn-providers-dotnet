@@ -7,14 +7,14 @@ namespace aws.CodepipelineWebhook
     [JsiiInterface(nativeType: typeof(ICodepipelineWebhookFilter), fullyQualifiedName: "aws.codepipelineWebhook.CodepipelineWebhookFilter")]
     public interface ICodepipelineWebhookFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline_webhook#json_path CodepipelineWebhook#json_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline_webhook#json_path CodepipelineWebhook#json_path}.</summary>
         [JsiiProperty(name: "jsonPath", typeJson: "{\"primitive\":\"string\"}")]
         string JsonPath
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline_webhook#match_equals CodepipelineWebhook#match_equals}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline_webhook#match_equals CodepipelineWebhook#match_equals}.</summary>
         [JsiiProperty(name: "matchEquals", typeJson: "{\"primitive\":\"string\"}")]
         string MatchEquals
         {
@@ -28,14 +28,14 @@ namespace aws.CodepipelineWebhook
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline_webhook#json_path CodepipelineWebhook#json_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline_webhook#json_path CodepipelineWebhook#json_path}.</summary>
             [JsiiProperty(name: "jsonPath", typeJson: "{\"primitive\":\"string\"}")]
             public string JsonPath
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codepipeline_webhook#match_equals CodepipelineWebhook#match_equals}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline_webhook#match_equals CodepipelineWebhook#match_equals}.</summary>
             [JsiiProperty(name: "matchEquals", typeJson: "{\"primitive\":\"string\"}")]
             public string MatchEquals
             {

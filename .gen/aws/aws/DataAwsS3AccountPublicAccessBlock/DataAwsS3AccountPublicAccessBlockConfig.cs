@@ -7,7 +7,7 @@ namespace aws.DataAwsS3AccountPublicAccessBlock
     [JsiiByValue(fqn: "aws.dataAwsS3AccountPublicAccessBlock.DataAwsS3AccountPublicAccessBlockConfig")]
     public class DataAwsS3AccountPublicAccessBlockConfig : aws.DataAwsS3AccountPublicAccessBlock.IDataAwsS3AccountPublicAccessBlockConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/s3_account_public_access_block#account_id DataAwsS3AccountPublicAccessBlock#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_account_public_access_block#account_id DataAwsS3AccountPublicAccessBlock#account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountId
@@ -16,7 +16,7 @@ namespace aws.DataAwsS3AccountPublicAccessBlock
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/s3_account_public_access_block#id DataAwsS3AccountPublicAccessBlock#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_account_public_access_block#id DataAwsS3AccountPublicAccessBlock#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

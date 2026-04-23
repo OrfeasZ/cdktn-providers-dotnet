@@ -9,7 +9,7 @@ namespace aws.Route53RecordsExclusive
     [JsiiByValue(fqn: "aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetAliasTarget")]
     public class Route53RecordsExclusiveResourceRecordSetAliasTarget : aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetAliasTarget
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_records_exclusive#dns_name Route53RecordsExclusive#dns_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#dns_name Route53RecordsExclusive#dns_name}.</summary>
         [JsiiProperty(name: "dnsName", typeJson: "{\"primitive\":\"string\"}")]
         public string DnsName
         {
@@ -19,7 +19,7 @@ namespace aws.Route53RecordsExclusive
 
         private object _evaluateTargetHealth;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_records_exclusive#evaluate_target_health Route53RecordsExclusive#evaluate_target_health}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#evaluate_target_health Route53RecordsExclusive#evaluate_target_health}.</summary>
         [JsiiProperty(name: "evaluateTargetHealth", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object EvaluateTargetHealth
         {
@@ -47,7 +47,7 @@ namespace aws.Route53RecordsExclusive
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_records_exclusive#hosted_zone_id Route53RecordsExclusive#hosted_zone_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#hosted_zone_id Route53RecordsExclusive#hosted_zone_id}.</summary>
         [JsiiProperty(name: "hostedZoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string HostedZoneId
         {

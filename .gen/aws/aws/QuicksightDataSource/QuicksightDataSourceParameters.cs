@@ -9,7 +9,7 @@ namespace aws.QuicksightDataSource
     {
         /// <summary>amazon_elasticsearch block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#amazon_elasticsearch QuicksightDataSource#amazon_elasticsearch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#amazon_elasticsearch QuicksightDataSource#amazon_elasticsearch}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "amazonElasticsearch", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersAmazonElasticsearch\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>athena block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#athena QuicksightDataSource#athena}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#athena QuicksightDataSource#athena}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "athena", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersAthena\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>aurora block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#aurora QuicksightDataSource#aurora}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#aurora QuicksightDataSource#aurora}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "aurora", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersAurora\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>aurora_postgresql block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#aurora_postgresql QuicksightDataSource#aurora_postgresql}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#aurora_postgresql QuicksightDataSource#aurora_postgresql}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "auroraPostgresql", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersAuroraPostgresql\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>aws_iot_analytics block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#aws_iot_analytics QuicksightDataSource#aws_iot_analytics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#aws_iot_analytics QuicksightDataSource#aws_iot_analytics}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "awsIotAnalytics", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersAwsIotAnalytics\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>databricks block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#databricks QuicksightDataSource#databricks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#databricks QuicksightDataSource#databricks}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "databricks", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersDatabricks\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>jira block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#jira QuicksightDataSource#jira}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#jira QuicksightDataSource#jira}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jira", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersJira\"}", isOptional: true)]
@@ -93,7 +93,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>maria_db block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#maria_db QuicksightDataSource#maria_db}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#maria_db QuicksightDataSource#maria_db}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mariaDb", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersMariaDb\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>mysql block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#mysql QuicksightDataSource#mysql}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#mysql QuicksightDataSource#mysql}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mysql", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersMysql\"}", isOptional: true)]
@@ -117,7 +117,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>oracle block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#oracle QuicksightDataSource#oracle}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#oracle QuicksightDataSource#oracle}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "oracle", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersOracle\"}", isOptional: true)]
@@ -129,7 +129,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>postgresql block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#postgresql QuicksightDataSource#postgresql}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#postgresql QuicksightDataSource#postgresql}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "postgresql", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersPostgresql\"}", isOptional: true)]
@@ -141,7 +141,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>presto block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#presto QuicksightDataSource#presto}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#presto QuicksightDataSource#presto}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "presto", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersPresto\"}", isOptional: true)]
@@ -153,7 +153,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>rds block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#rds QuicksightDataSource#rds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#rds QuicksightDataSource#rds}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rds", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersRds\"}", isOptional: true)]
@@ -165,7 +165,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>redshift block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#redshift QuicksightDataSource#redshift}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#redshift QuicksightDataSource#redshift}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "redshift", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersRedshift\"}", isOptional: true)]
@@ -177,7 +177,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>s3 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#s3 QuicksightDataSource#s3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#s3 QuicksightDataSource#s3}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersS3\"}", isOptional: true)]
@@ -189,7 +189,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>service_now block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#service_now QuicksightDataSource#service_now}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#service_now QuicksightDataSource#service_now}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serviceNow", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersServiceNow\"}", isOptional: true)]
@@ -201,7 +201,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>snowflake block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#snowflake QuicksightDataSource#snowflake}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#snowflake QuicksightDataSource#snowflake}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "snowflake", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersSnowflake\"}", isOptional: true)]
@@ -213,7 +213,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>spark block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#spark QuicksightDataSource#spark}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#spark QuicksightDataSource#spark}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "spark", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersSpark\"}", isOptional: true)]
@@ -225,7 +225,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>sql_server block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#sql_server QuicksightDataSource#sql_server}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#sql_server QuicksightDataSource#sql_server}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sqlServer", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersSqlServer\"}", isOptional: true)]
@@ -237,7 +237,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>teradata block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#teradata QuicksightDataSource#teradata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#teradata QuicksightDataSource#teradata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "teradata", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersTeradata\"}", isOptional: true)]
@@ -249,7 +249,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>twitter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_data_source#twitter QuicksightDataSource#twitter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#twitter QuicksightDataSource#twitter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "twitter", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersTwitter\"}", isOptional: true)]

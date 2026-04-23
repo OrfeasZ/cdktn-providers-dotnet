@@ -9,7 +9,7 @@ namespace aws.KendraDataSource
     {
         /// <summary>seed_url_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kendra_data_source#seed_url_configuration KendraDataSource#seed_url_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#seed_url_configuration KendraDataSource#seed_url_configuration}
         /// </remarks>
         [JsiiProperty(name: "seedUrlConfiguration", typeJson: "{\"fqn\":\"aws.kendraDataSource.KendraDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.KendraDataSource
 
         /// <summary>site_maps_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kendra_data_source#site_maps_configuration KendraDataSource#site_maps_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#site_maps_configuration KendraDataSource#site_maps_configuration}
         /// </remarks>
         [JsiiProperty(name: "siteMapsConfiguration", typeJson: "{\"fqn\":\"aws.kendraDataSource.KendraDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace aws.KendraDataSource
 
             /// <summary>seed_url_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kendra_data_source#seed_url_configuration KendraDataSource#seed_url_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#seed_url_configuration KendraDataSource#seed_url_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "seedUrlConfiguration", typeJson: "{\"fqn\":\"aws.kendraDataSource.KendraDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace aws.KendraDataSource
 
             /// <summary>site_maps_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kendra_data_source#site_maps_configuration KendraDataSource#site_maps_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#site_maps_configuration KendraDataSource#site_maps_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "siteMapsConfiguration", typeJson: "{\"fqn\":\"aws.kendraDataSource.KendraDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfiguration\"}", isOptional: true)]

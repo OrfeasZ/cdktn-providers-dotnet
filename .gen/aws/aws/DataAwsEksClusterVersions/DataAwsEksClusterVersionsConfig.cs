@@ -7,7 +7,7 @@ namespace aws.DataAwsEksClusterVersions
     [JsiiByValue(fqn: "aws.dataAwsEksClusterVersions.DataAwsEksClusterVersionsConfig")]
     public class DataAwsEksClusterVersionsConfig : aws.DataAwsEksClusterVersions.IDataAwsEksClusterVersionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/eks_cluster_versions#cluster_type DataAwsEksClusterVersions#cluster_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/eks_cluster_versions#cluster_type DataAwsEksClusterVersions#cluster_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clusterType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClusterType
@@ -16,7 +16,7 @@ namespace aws.DataAwsEksClusterVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/eks_cluster_versions#cluster_versions_only DataAwsEksClusterVersions#cluster_versions_only}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/eks_cluster_versions#cluster_versions_only DataAwsEksClusterVersions#cluster_versions_only}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clusterVersionsOnly", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ClusterVersionsOnly
@@ -27,7 +27,7 @@ namespace aws.DataAwsEksClusterVersions
 
         private object? _defaultOnly;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/eks_cluster_versions#default_only DataAwsEksClusterVersions#default_only}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/eks_cluster_versions#default_only DataAwsEksClusterVersions#default_only}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultOnly", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? DefaultOnly
@@ -58,7 +58,7 @@ namespace aws.DataAwsEksClusterVersions
 
         private object? _includeAll;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/eks_cluster_versions#include_all DataAwsEksClusterVersions#include_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/eks_cluster_versions#include_all DataAwsEksClusterVersions#include_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeAll", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeAll
@@ -89,7 +89,7 @@ namespace aws.DataAwsEksClusterVersions
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/eks_cluster_versions#region DataAwsEksClusterVersions#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/eks_cluster_versions#region DataAwsEksClusterVersions#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace aws.DataAwsEksClusterVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/eks_cluster_versions#version_status DataAwsEksClusterVersions#version_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/eks_cluster_versions#version_status DataAwsEksClusterVersions#version_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "versionStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VersionStatus

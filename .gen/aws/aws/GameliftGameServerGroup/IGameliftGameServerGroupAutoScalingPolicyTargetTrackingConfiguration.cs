@@ -7,7 +7,7 @@ namespace aws.GameliftGameServerGroup
     [JsiiInterface(nativeType: typeof(IGameliftGameServerGroupAutoScalingPolicyTargetTrackingConfiguration), fullyQualifiedName: "aws.gameliftGameServerGroup.GameliftGameServerGroupAutoScalingPolicyTargetTrackingConfiguration")]
     public interface IGameliftGameServerGroupAutoScalingPolicyTargetTrackingConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/gamelift_game_server_group#target_value GameliftGameServerGroup#target_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_game_server_group#target_value GameliftGameServerGroup#target_value}.</summary>
         [JsiiProperty(name: "targetValue", typeJson: "{\"primitive\":\"number\"}")]
         double TargetValue
         {
@@ -21,7 +21,7 @@ namespace aws.GameliftGameServerGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/gamelift_game_server_group#target_value GameliftGameServerGroup#target_value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_game_server_group#target_value GameliftGameServerGroup#target_value}.</summary>
             [JsiiProperty(name: "targetValue", typeJson: "{\"primitive\":\"number\"}")]
             public double TargetValue
             {

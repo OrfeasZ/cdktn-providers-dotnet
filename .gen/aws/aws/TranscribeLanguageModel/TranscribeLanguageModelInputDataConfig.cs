@@ -9,7 +9,7 @@ namespace aws.TranscribeLanguageModel
     [JsiiByValue(fqn: "aws.transcribeLanguageModel.TranscribeLanguageModelInputDataConfig")]
     public class TranscribeLanguageModelInputDataConfig : aws.TranscribeLanguageModel.ITranscribeLanguageModelInputDataConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transcribe_language_model#data_access_role_arn TranscribeLanguageModel#data_access_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transcribe_language_model#data_access_role_arn TranscribeLanguageModel#data_access_role_arn}.</summary>
         [JsiiProperty(name: "dataAccessRoleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string DataAccessRoleArn
         {
@@ -17,7 +17,7 @@ namespace aws.TranscribeLanguageModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transcribe_language_model#s3_uri TranscribeLanguageModel#s3_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transcribe_language_model#s3_uri TranscribeLanguageModel#s3_uri}.</summary>
         [JsiiProperty(name: "s3Uri", typeJson: "{\"primitive\":\"string\"}")]
         public string S3Uri
         {
@@ -25,7 +25,7 @@ namespace aws.TranscribeLanguageModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transcribe_language_model#tuning_data_s3_uri TranscribeLanguageModel#tuning_data_s3_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transcribe_language_model#tuning_data_s3_uri TranscribeLanguageModel#tuning_data_s3_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tuningDataS3Uri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TuningDataS3Uri

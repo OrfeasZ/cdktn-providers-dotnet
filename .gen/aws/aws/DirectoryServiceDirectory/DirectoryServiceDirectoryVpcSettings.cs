@@ -9,7 +9,7 @@ namespace aws.DirectoryServiceDirectory
     [JsiiByValue(fqn: "aws.directoryServiceDirectory.DirectoryServiceDirectoryVpcSettings")]
     public class DirectoryServiceDirectoryVpcSettings : aws.DirectoryServiceDirectory.IDirectoryServiceDirectoryVpcSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_directory#subnet_ids DirectoryServiceDirectory#subnet_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_directory#subnet_ids DirectoryServiceDirectory#subnet_ids}.</summary>
         [JsiiProperty(name: "subnetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SubnetIds
         {
@@ -17,7 +17,7 @@ namespace aws.DirectoryServiceDirectory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_directory#vpc_id DirectoryServiceDirectory#vpc_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_directory#vpc_id DirectoryServiceDirectory#vpc_id}.</summary>
         [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}")]
         public string VpcId
         {

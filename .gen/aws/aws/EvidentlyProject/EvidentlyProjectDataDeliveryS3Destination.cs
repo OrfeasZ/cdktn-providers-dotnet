@@ -7,7 +7,7 @@ namespace aws.EvidentlyProject
     [JsiiByValue(fqn: "aws.evidentlyProject.EvidentlyProjectDataDeliveryS3Destination")]
     public class EvidentlyProjectDataDeliveryS3Destination : aws.EvidentlyProject.IEvidentlyProjectDataDeliveryS3Destination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/evidently_project#bucket EvidentlyProject#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_project#bucket EvidentlyProject#bucket}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Bucket
@@ -16,7 +16,7 @@ namespace aws.EvidentlyProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/evidently_project#prefix EvidentlyProject#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_project#prefix EvidentlyProject#prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Prefix

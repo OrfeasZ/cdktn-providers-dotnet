@@ -7,7 +7,7 @@ namespace aws.LaunchTemplate
     [JsiiInterface(nativeType: typeof(ILaunchTemplateLicenseSpecification), fullyQualifiedName: "aws.launchTemplate.LaunchTemplateLicenseSpecification")]
     public interface ILaunchTemplateLicenseSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/launch_template#license_configuration_arn LaunchTemplate#license_configuration_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#license_configuration_arn LaunchTemplate#license_configuration_arn}.</summary>
         [JsiiProperty(name: "licenseConfigurationArn", typeJson: "{\"primitive\":\"string\"}")]
         string LicenseConfigurationArn
         {
@@ -21,7 +21,7 @@ namespace aws.LaunchTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/launch_template#license_configuration_arn LaunchTemplate#license_configuration_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#license_configuration_arn LaunchTemplate#license_configuration_arn}.</summary>
             [JsiiProperty(name: "licenseConfigurationArn", typeJson: "{\"primitive\":\"string\"}")]
             public string LicenseConfigurationArn
             {
