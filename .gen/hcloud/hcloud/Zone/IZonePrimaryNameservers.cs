@@ -9,7 +9,7 @@ namespace hcloud.Zone
     {
         /// <summary>Public IPv4 or IPv6 address of the primary nameserver.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/zone#address Zone#address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/zone#address Zone#address}
         /// </remarks>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
         string Address
@@ -19,7 +19,7 @@ namespace hcloud.Zone
 
         /// <summary>Port of the primary nameserver.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/zone#port Zone#port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/zone#port Zone#port}
         /// </remarks>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace hcloud.Zone
 
         /// <summary>Transaction signature (TSIG) algorithm used to generate the TSIG key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/zone#tsig_algorithm Zone#tsig_algorithm}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/zone#tsig_algorithm Zone#tsig_algorithm}
         /// </remarks>
         [JsiiProperty(name: "tsigAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -47,7 +47,7 @@ namespace hcloud.Zone
 
         /// <summary>Transaction signature (TSIG) key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/zone#tsig_key Zone#tsig_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/zone#tsig_key Zone#tsig_key}
         /// </remarks>
         [JsiiProperty(name: "tsigKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,7 +68,7 @@ namespace hcloud.Zone
 
             /// <summary>Public IPv4 or IPv6 address of the primary nameserver.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/zone#address Zone#address}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/zone#address Zone#address}
             /// </remarks>
             [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
             public string Address
@@ -78,7 +78,7 @@ namespace hcloud.Zone
 
             /// <summary>Port of the primary nameserver.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/zone#port Zone#port}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/zone#port Zone#port}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -89,7 +89,7 @@ namespace hcloud.Zone
 
             /// <summary>Transaction signature (TSIG) algorithm used to generate the TSIG key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/zone#tsig_algorithm Zone#tsig_algorithm}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/zone#tsig_algorithm Zone#tsig_algorithm}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tsigAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -100,7 +100,7 @@ namespace hcloud.Zone
 
             /// <summary>Transaction signature (TSIG) key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/zone#tsig_key Zone#tsig_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/zone#tsig_key Zone#tsig_key}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tsigKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

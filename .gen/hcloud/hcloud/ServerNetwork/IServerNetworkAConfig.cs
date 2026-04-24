@@ -9,7 +9,7 @@ namespace hcloud.ServerNetwork
     {
         /// <summary>ID of the Server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/server_network#server_id ServerNetworkA#server_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/server_network#server_id ServerNetworkA#server_id}
         /// </remarks>
         [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"number\"}")]
         double ServerId
@@ -19,7 +19,7 @@ namespace hcloud.ServerNetwork
 
         /// <summary>Additional IPs to assign to the Server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/server_network#alias_ips ServerNetworkA#alias_ips}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/server_network#alias_ips ServerNetworkA#alias_ips}
         /// </remarks>
         [JsiiProperty(name: "aliasIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace hcloud.ServerNetwork
 
         /// <summary>IP to assign to the Server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/server_network#ip ServerNetworkA#ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/server_network#ip ServerNetworkA#ip}
         /// </remarks>
         [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -49,7 +49,7 @@ namespace hcloud.ServerNetwork
         /// <remarks>
         /// Using <c>subnet_id</c> is preferred. Required if <c>subnet_id</c> is not set. If <c>subnet_id</c> or <c>ip</c> are not set, the Server will be attached to the last subnet (ordered by <c>ip_range</c>).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/server_network#network_id ServerNetworkA#network_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/server_network#network_id ServerNetworkA#network_id}
         /// </remarks>
         [JsiiProperty(name: "networkId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,7 +63,7 @@ namespace hcloud.ServerNetwork
 
         /// <summary>ID of the Subnet to attach the Server to. Required if `network_id` is not set.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/server_network#subnet_id ServerNetworkA#subnet_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/server_network#subnet_id ServerNetworkA#subnet_id}
         /// </remarks>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -84,7 +84,7 @@ namespace hcloud.ServerNetwork
 
             /// <summary>ID of the Server.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/server_network#server_id ServerNetworkA#server_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/server_network#server_id ServerNetworkA#server_id}
             /// </remarks>
             [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"number\"}")]
             public double ServerId
@@ -94,7 +94,7 @@ namespace hcloud.ServerNetwork
 
             /// <summary>Additional IPs to assign to the Server.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/server_network#alias_ips ServerNetworkA#alias_ips}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/server_network#alias_ips ServerNetworkA#alias_ips}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "aliasIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace hcloud.ServerNetwork
 
             /// <summary>IP to assign to the Server.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/server_network#ip ServerNetworkA#ip}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/server_network#ip ServerNetworkA#ip}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -118,7 +118,7 @@ namespace hcloud.ServerNetwork
             /// <remarks>
             /// Using <c>subnet_id</c> is preferred. Required if <c>subnet_id</c> is not set. If <c>subnet_id</c> or <c>ip</c> are not set, the Server will be attached to the last subnet (ordered by <c>ip_range</c>).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/server_network#network_id ServerNetworkA#network_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/server_network#network_id ServerNetworkA#network_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "networkId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -129,7 +129,7 @@ namespace hcloud.ServerNetwork
 
             /// <summary>ID of the Subnet to attach the Server to. Required if `network_id` is not set.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/server_network#subnet_id ServerNetworkA#subnet_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/server_network#subnet_id ServerNetworkA#subnet_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

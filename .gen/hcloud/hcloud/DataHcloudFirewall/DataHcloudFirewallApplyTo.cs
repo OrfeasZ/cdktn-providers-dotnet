@@ -7,7 +7,7 @@ namespace hcloud.DataHcloudFirewall
     [JsiiByValue(fqn: "hcloud.dataHcloudFirewall.DataHcloudFirewallApplyTo")]
     public class DataHcloudFirewallApplyTo : hcloud.DataHcloudFirewall.IDataHcloudFirewallApplyTo
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/data-sources/firewall#label_selector DataHcloudFirewall#label_selector}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/firewall#label_selector DataHcloudFirewall#label_selector}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "labelSelector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LabelSelector
@@ -16,7 +16,7 @@ namespace hcloud.DataHcloudFirewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/data-sources/firewall#server DataHcloudFirewall#server}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/firewall#server DataHcloudFirewall#server}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "server", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Server

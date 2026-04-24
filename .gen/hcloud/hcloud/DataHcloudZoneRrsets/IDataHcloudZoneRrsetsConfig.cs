@@ -9,7 +9,7 @@ namespace hcloud.DataHcloudZoneRrsets
     {
         /// <summary>ID or Name of the parent Zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/data-sources/zone_rrsets#zone DataHcloudZoneRrsets#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/zone_rrsets#zone DataHcloudZoneRrsets#zone}
         /// </remarks>
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}")]
         string Zone
@@ -19,7 +19,7 @@ namespace hcloud.DataHcloudZoneRrsets
 
         /// <summary>Filter results using a [Label Selector](https://docs.hetzner.cloud/reference/cloud#label-selector).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/data-sources/zone_rrsets#with_selector DataHcloudZoneRrsets#with_selector}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/zone_rrsets#with_selector DataHcloudZoneRrsets#with_selector}
         /// </remarks>
         [JsiiProperty(name: "withSelector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace hcloud.DataHcloudZoneRrsets
 
             /// <summary>ID or Name of the parent Zone.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/data-sources/zone_rrsets#zone DataHcloudZoneRrsets#zone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/zone_rrsets#zone DataHcloudZoneRrsets#zone}
             /// </remarks>
             [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}")]
             public string Zone
@@ -50,7 +50,7 @@ namespace hcloud.DataHcloudZoneRrsets
 
             /// <summary>Filter results using a [Label Selector](https://docs.hetzner.cloud/reference/cloud#label-selector).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/data-sources/zone_rrsets#with_selector DataHcloudZoneRrsets#with_selector}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/zone_rrsets#with_selector DataHcloudZoneRrsets#with_selector}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "withSelector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

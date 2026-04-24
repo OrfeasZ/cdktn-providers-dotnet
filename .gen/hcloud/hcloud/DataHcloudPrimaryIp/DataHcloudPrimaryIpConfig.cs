@@ -7,17 +7,10 @@ namespace hcloud.DataHcloudPrimaryIp
     [JsiiByValue(fqn: "hcloud.dataHcloudPrimaryIp.DataHcloudPrimaryIpConfig")]
     public class DataHcloudPrimaryIpConfig : hcloud.DataHcloudPrimaryIp.IDataHcloudPrimaryIpConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/data-sources/primary_ip#assignee_id DataHcloudPrimaryIp#assignee_id}.</summary>
-        [JsiiOptional]
-        [JsiiProperty(name: "assigneeId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public double? AssigneeId
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/data-sources/primary_ip#id DataHcloudPrimaryIp#id}.</summary>
+        /// <summary>ID of the Primary IP.</summary>
         /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/primary_ip#id DataHcloudPrimaryIp#id}
+        ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
         /// </remarks>
@@ -29,7 +22,10 @@ namespace hcloud.DataHcloudPrimaryIp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/data-sources/primary_ip#ip_address DataHcloudPrimaryIp#ip_address}.</summary>
+        /// <summary>IP address of the Primary IP.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/primary_ip#ip_address DataHcloudPrimaryIp#ip_address}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpAddress
@@ -38,7 +34,10 @@ namespace hcloud.DataHcloudPrimaryIp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/data-sources/primary_ip#name DataHcloudPrimaryIp#name}.</summary>
+        /// <summary>Name of the Primary IP.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/primary_ip#name DataHcloudPrimaryIp#name}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -47,7 +46,10 @@ namespace hcloud.DataHcloudPrimaryIp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/data-sources/primary_ip#with_selector DataHcloudPrimaryIp#with_selector}.</summary>
+        /// <summary>Filter results using a [Label Selector](https://docs.hetzner.cloud/reference/cloud#label-selector).</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/primary_ip#with_selector DataHcloudPrimaryIp#with_selector}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "withSelector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WithSelector

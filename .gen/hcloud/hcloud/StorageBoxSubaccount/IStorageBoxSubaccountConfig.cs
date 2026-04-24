@@ -11,7 +11,7 @@ namespace hcloud.StorageBoxSubaccount
         /// <remarks>
         /// The directory will be created if it doesn't exist yet. Must not include a leading slash (<c>/</c>).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box_subaccount#home_directory StorageBoxSubaccount#home_directory}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box_subaccount#home_directory StorageBoxSubaccount#home_directory}
         /// </remarks>
         [JsiiProperty(name: "homeDirectory", typeJson: "{\"primitive\":\"string\"}")]
         string HomeDirectory
@@ -21,7 +21,7 @@ namespace hcloud.StorageBoxSubaccount
 
         /// <summary>Password of the Storage Box. For more details, see the [Storage Boxes password policy](https://docs.hetzner.cloud/reference/hetzner#storage-boxes-password-policy).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box_subaccount#password StorageBoxSubaccount#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box_subaccount#password StorageBoxSubaccount#password}
         /// </remarks>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         string Password
@@ -31,7 +31,7 @@ namespace hcloud.StorageBoxSubaccount
 
         /// <summary>ID of the Storage Box.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box_subaccount#storage_box_id StorageBoxSubaccount#storage_box_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box_subaccount#storage_box_id StorageBoxSubaccount#storage_box_id}
         /// </remarks>
         [JsiiProperty(name: "storageBoxId", typeJson: "{\"primitive\":\"number\"}")]
         double StorageBoxId
@@ -41,7 +41,7 @@ namespace hcloud.StorageBoxSubaccount
 
         /// <summary>Access settings for the Subaccount.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box_subaccount#access_settings StorageBoxSubaccount#access_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box_subaccount#access_settings StorageBoxSubaccount#access_settings}
         /// </remarks>
         [JsiiProperty(name: "accessSettings", typeJson: "{\"fqn\":\"hcloud.storageBoxSubaccount.StorageBoxSubaccountAccessSettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,7 +55,7 @@ namespace hcloud.StorageBoxSubaccount
 
         /// <summary>A description of the Storage Box Subaccount.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box_subaccount#description StorageBoxSubaccount#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box_subaccount#description StorageBoxSubaccount#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -69,7 +69,7 @@ namespace hcloud.StorageBoxSubaccount
 
         /// <summary>User-defined [labels](https://docs.hetzner.cloud/reference/cloud#labels) (key-value pairs) for the resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box_subaccount#labels StorageBoxSubaccount#labels}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box_subaccount#labels StorageBoxSubaccount#labels}
         /// </remarks>
         [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -83,7 +83,7 @@ namespace hcloud.StorageBoxSubaccount
 
         /// <summary>Name of the Storage Box Subaccount.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box_subaccount#name StorageBoxSubaccount#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box_subaccount#name StorageBoxSubaccount#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -106,7 +106,7 @@ namespace hcloud.StorageBoxSubaccount
             /// <remarks>
             /// The directory will be created if it doesn't exist yet. Must not include a leading slash (<c>/</c>).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box_subaccount#home_directory StorageBoxSubaccount#home_directory}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box_subaccount#home_directory StorageBoxSubaccount#home_directory}
             /// </remarks>
             [JsiiProperty(name: "homeDirectory", typeJson: "{\"primitive\":\"string\"}")]
             public string HomeDirectory
@@ -116,7 +116,7 @@ namespace hcloud.StorageBoxSubaccount
 
             /// <summary>Password of the Storage Box. For more details, see the [Storage Boxes password policy](https://docs.hetzner.cloud/reference/hetzner#storage-boxes-password-policy).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box_subaccount#password StorageBoxSubaccount#password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box_subaccount#password StorageBoxSubaccount#password}
             /// </remarks>
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
             public string Password
@@ -126,7 +126,7 @@ namespace hcloud.StorageBoxSubaccount
 
             /// <summary>ID of the Storage Box.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box_subaccount#storage_box_id StorageBoxSubaccount#storage_box_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box_subaccount#storage_box_id StorageBoxSubaccount#storage_box_id}
             /// </remarks>
             [JsiiProperty(name: "storageBoxId", typeJson: "{\"primitive\":\"number\"}")]
             public double StorageBoxId
@@ -136,7 +136,7 @@ namespace hcloud.StorageBoxSubaccount
 
             /// <summary>Access settings for the Subaccount.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box_subaccount#access_settings StorageBoxSubaccount#access_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box_subaccount#access_settings StorageBoxSubaccount#access_settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accessSettings", typeJson: "{\"fqn\":\"hcloud.storageBoxSubaccount.StorageBoxSubaccountAccessSettings\"}", isOptional: true)]
@@ -147,7 +147,7 @@ namespace hcloud.StorageBoxSubaccount
 
             /// <summary>A description of the Storage Box Subaccount.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box_subaccount#description StorageBoxSubaccount#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box_subaccount#description StorageBoxSubaccount#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -158,7 +158,7 @@ namespace hcloud.StorageBoxSubaccount
 
             /// <summary>User-defined [labels](https://docs.hetzner.cloud/reference/cloud#labels) (key-value pairs) for the resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box_subaccount#labels StorageBoxSubaccount#labels}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box_subaccount#labels StorageBoxSubaccount#labels}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -169,7 +169,7 @@ namespace hcloud.StorageBoxSubaccount
 
             /// <summary>Name of the Storage Box Subaccount.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box_subaccount#name StorageBoxSubaccount#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box_subaccount#name StorageBoxSubaccount#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
