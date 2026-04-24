@@ -7,7 +7,7 @@ namespace hcloud.DataHcloudLoadBalancer
     [JsiiByValue(fqn: "hcloud.dataHcloudLoadBalancer.DataHcloudLoadBalancerConfig")]
     public class DataHcloudLoadBalancerConfig : hcloud.DataHcloudLoadBalancer.IDataHcloudLoadBalancerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/data-sources/load_balancer#id DataHcloudLoadBalancer#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/load_balancer#id DataHcloudLoadBalancer#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -20,7 +20,7 @@ namespace hcloud.DataHcloudLoadBalancer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/data-sources/load_balancer#name DataHcloudLoadBalancer#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/load_balancer#name DataHcloudLoadBalancer#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -29,7 +29,7 @@ namespace hcloud.DataHcloudLoadBalancer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/data-sources/load_balancer#with_selector DataHcloudLoadBalancer#with_selector}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/load_balancer#with_selector DataHcloudLoadBalancer#with_selector}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "withSelector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WithSelector

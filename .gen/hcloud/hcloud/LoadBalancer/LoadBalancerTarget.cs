@@ -9,7 +9,7 @@ namespace hcloud.LoadBalancer
     [JsiiByValue(fqn: "hcloud.loadBalancer.LoadBalancerTarget")]
     public class LoadBalancerTarget : hcloud.LoadBalancer.ILoadBalancerTarget
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/load_balancer#type LoadBalancer#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer#type LoadBalancer#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace hcloud.LoadBalancer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/load_balancer#server_id LoadBalancer#server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer#server_id LoadBalancer#server_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ServerId
@@ -28,7 +28,7 @@ namespace hcloud.LoadBalancer
 
         private object? _usePrivateIp;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/load_balancer#use_private_ip LoadBalancer#use_private_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer#use_private_ip LoadBalancer#use_private_ip}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "usePrivateIp", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? UsePrivateIp

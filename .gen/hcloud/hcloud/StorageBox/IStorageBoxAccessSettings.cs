@@ -9,7 +9,7 @@ namespace hcloud.StorageBox
     {
         /// <summary>Whether access from outside the Hetzner network is allowed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box#reachable_externally StorageBox#reachable_externally}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box#reachable_externally StorageBox#reachable_externally}
         /// </remarks>
         [JsiiProperty(name: "reachableExternally", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace hcloud.StorageBox
 
         /// <summary>Whether the Samba subsystem is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box#samba_enabled StorageBox#samba_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box#samba_enabled StorageBox#samba_enabled}
         /// </remarks>
         [JsiiProperty(name: "sambaEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace hcloud.StorageBox
 
         /// <summary>Whether the SSH subsystem is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box#ssh_enabled StorageBox#ssh_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box#ssh_enabled StorageBox#ssh_enabled}
         /// </remarks>
         [JsiiProperty(name: "sshEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace hcloud.StorageBox
 
         /// <summary>Whether the WebDAV subsystem is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box#webdav_enabled StorageBox#webdav_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box#webdav_enabled StorageBox#webdav_enabled}
         /// </remarks>
         [JsiiProperty(name: "webdavEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace hcloud.StorageBox
 
         /// <summary>Whether the ZFS snapshot folder is visible.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box#zfs_enabled StorageBox#zfs_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box#zfs_enabled StorageBox#zfs_enabled}
         /// </remarks>
         [JsiiProperty(name: "zfsEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -86,7 +86,7 @@ namespace hcloud.StorageBox
 
             /// <summary>Whether access from outside the Hetzner network is allowed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box#reachable_externally StorageBox#reachable_externally}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box#reachable_externally StorageBox#reachable_externally}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "reachableExternally", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace hcloud.StorageBox
 
             /// <summary>Whether the Samba subsystem is enabled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box#samba_enabled StorageBox#samba_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box#samba_enabled StorageBox#samba_enabled}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sambaEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace hcloud.StorageBox
 
             /// <summary>Whether the SSH subsystem is enabled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box#ssh_enabled StorageBox#ssh_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box#ssh_enabled StorageBox#ssh_enabled}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sshEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -119,7 +119,7 @@ namespace hcloud.StorageBox
 
             /// <summary>Whether the WebDAV subsystem is enabled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box#webdav_enabled StorageBox#webdav_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box#webdav_enabled StorageBox#webdav_enabled}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "webdavEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -130,7 +130,7 @@ namespace hcloud.StorageBox
 
             /// <summary>Whether the ZFS snapshot folder is visible.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/storage_box#zfs_enabled StorageBox#zfs_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box#zfs_enabled StorageBox#zfs_enabled}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zfsEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

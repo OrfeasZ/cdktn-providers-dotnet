@@ -9,7 +9,10 @@ namespace hcloud.PrimaryIp
     [JsiiByValue(fqn: "hcloud.primaryIp.PrimaryIpConfig")]
     public class PrimaryIpConfig : hcloud.PrimaryIp.IPrimaryIpConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/primary_ip#assignee_type PrimaryIp#assignee_type}.</summary>
+        /// <summary>Type of the resource the Primary IP should be assigned to.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#assignee_type PrimaryIp#assignee_type}
+        /// </remarks>
         [JsiiProperty(name: "assigneeType", typeJson: "{\"primitive\":\"string\"}")]
         public string AssigneeType
         {
@@ -19,7 +22,12 @@ namespace hcloud.PrimaryIp
 
         private object _autoDelete;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/primary_ip#auto_delete PrimaryIp#auto_delete}.</summary>
+        /// <summary>Whether auto delete is enabled.</summary>
+        /// <remarks>
+        /// Setting <c>auto_delete</c> to <c>false</c> is recommended, because if a server assigned to the managed ip is getting deleted, it will also delete the primary IP which will break the terraform state.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#auto_delete PrimaryIp#auto_delete}
+        /// </remarks>
         [JsiiProperty(name: "autoDelete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object AutoDelete
         {
@@ -47,7 +55,21 @@ namespace hcloud.PrimaryIp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/primary_ip#type PrimaryIp#type}.</summary>
+        /// <summary>Name of the Primary IP.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#name PrimaryIp#name}
+        /// </remarks>
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        public string Name
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Type of the Primary IP (`ipv4` or `ipv6`).</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#type PrimaryIp#type}
+        /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -55,7 +77,10 @@ namespace hcloud.PrimaryIp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/primary_ip#assignee_id PrimaryIp#assignee_id}.</summary>
+        /// <summary>ID of the resource the Primary IP should be assigned to.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#assignee_id PrimaryIp#assignee_id}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "assigneeId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? AssigneeId
@@ -64,7 +89,10 @@ namespace hcloud.PrimaryIp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/primary_ip#datacenter PrimaryIp#datacenter}.</summary>
+        /// <summary>Name of the Datacenter for the Primary IP. See the [Hetzner Docs](https://docs.hetzner.com/cloud/general/locations/#what-datacenters-are-there) for more details about datacenters.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#datacenter PrimaryIp#datacenter}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "datacenter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Datacenter
@@ -75,7 +103,10 @@ namespace hcloud.PrimaryIp
 
         private object? _deleteProtection;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/primary_ip#delete_protection PrimaryIp#delete_protection}.</summary>
+        /// <summary>Whether delete protection is enabled.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#delete_protection PrimaryIp#delete_protection}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deleteProtection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? DeleteProtection
@@ -104,20 +135,10 @@ namespace hcloud.PrimaryIp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/primary_ip#id PrimaryIp#id}.</summary>
+        /// <summary>User-defined [labels](https://docs.hetzner.cloud/reference/cloud#labels) (key-value pairs) for the resource.</summary>
         /// <remarks>
-        /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-        /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#labels PrimaryIp#labels}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Id
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/primary_ip#labels PrimaryIp#labels}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Labels
@@ -126,19 +147,13 @@ namespace hcloud.PrimaryIp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/primary_ip#location PrimaryIp#location}.</summary>
+        /// <summary>Name of the Location for the Primary IP. See the [Hetzner Docs](https://docs.hetzner.com/cloud/general/locations/#what-locations-are-there) for more details about locations.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#location PrimaryIp#location}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Location
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/primary_ip#name PrimaryIp#name}.</summary>
-        [JsiiOptional]
-        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Name
         {
             get;
             set;

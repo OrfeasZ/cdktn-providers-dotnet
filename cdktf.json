@@ -9,7 +9,7 @@
     "cloudflare/cloudflare@5.18.0",
     "digitalocean/digitalocean@2.84.1",
     "hashicorp/random@3.8.1",
-    "hetznercloud/hcloud@1.60.1",
+    "hetznercloud/hcloud@1.61.0",
     "kislerdm/neon@0.13.0",
     "scaleway/scaleway@2.73.0",
     "stripe/stripe@0.2.2"

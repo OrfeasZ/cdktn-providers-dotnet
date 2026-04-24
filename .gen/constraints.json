@@ -5,7 +5,7 @@
     "aws": "6.42.0",
     "cloudflare": "5.18.0",
     "digitalocean": "2.84.1",
-    "hcloud": "1.60.1",
+    "hcloud": "1.61.0",
     "neon": "0.13.0",
     "random": "3.8.1",
     "scaleway": "2.73.0",

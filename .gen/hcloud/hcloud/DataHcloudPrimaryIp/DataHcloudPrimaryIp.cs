@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace hcloud.DataHcloudPrimaryIp
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/data-sources/primary_ip hcloud_primary_ip}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/primary_ip hcloud_primary_ip}.</summary>
     [JsiiClass(nativeType: typeof(hcloud.DataHcloudPrimaryIp.DataHcloudPrimaryIp), fullyQualifiedName: "hcloud.dataHcloudPrimaryIp.DataHcloudPrimaryIp", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"hcloud.dataHcloudPrimaryIp.DataHcloudPrimaryIpConfig\"}}]")]
     public class DataHcloudPrimaryIp : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/data-sources/primary_ip hcloud_primary_ip} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/primary_ip hcloud_primary_ip} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataHcloudPrimaryIp(Constructs.Construct scope, string id, hcloud.DataHcloudPrimaryIp.IDataHcloudPrimaryIpConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,16 +40,10 @@ namespace hcloud.DataHcloudPrimaryIp
         /// <param name="importToId">The construct id used in the generated config for the DataHcloudPrimaryIp to import.</param>
         /// <param name="importFromId">The id of the existing DataHcloudPrimaryIp that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataHcloudPrimaryIp to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataHcloudPrimaryIp to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/data-sources/primary_ip#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataHcloudPrimaryIp that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataHcloudPrimaryIp to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataHcloudPrimaryIp to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/primary_ip#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataHcloudPrimaryIp that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataHcloudPrimaryIp to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(hcloud.DataHcloudPrimaryIp.DataHcloudPrimaryIp), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
-        }
-
-        [JsiiMethod(name: "resetAssigneeId")]
-        public virtual void ResetAssigneeId()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetId")]
@@ -94,6 +88,12 @@ namespace hcloud.DataHcloudPrimaryIp
             get;
         }
         = GetStaticProperty<string>(typeof(hcloud.DataHcloudPrimaryIp.DataHcloudPrimaryIp))!;
+
+        [JsiiProperty(name: "assigneeId", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double AssigneeId
+        {
+            get => GetInstanceProperty<double>()!;
+        }
 
         [JsiiProperty(name: "assigneeType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AssigneeType
@@ -144,13 +144,6 @@ namespace hcloud.DataHcloudPrimaryIp
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "assigneeIdInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public virtual double? AssigneeIdInput
-        {
-            get => GetInstanceProperty<double?>();
-        }
-
-        [JsiiOptional]
         [JsiiProperty(name: "idInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? IdInput
         {
@@ -176,13 +169,6 @@ namespace hcloud.DataHcloudPrimaryIp
         public virtual string? WithSelectorInput
         {
             get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiProperty(name: "assigneeId", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double AssigneeId
-        {
-            get => GetInstanceProperty<double>()!;
-            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"number\"}")]

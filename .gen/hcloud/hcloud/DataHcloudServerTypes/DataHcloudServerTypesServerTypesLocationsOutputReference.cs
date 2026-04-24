@@ -35,6 +35,12 @@ namespace hcloud.DataHcloudServerTypes
         {
         }
 
+        [JsiiProperty(name: "available", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Available
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "deprecationAnnounced", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DeprecationAnnounced
         {
@@ -57,6 +63,12 @@ namespace hcloud.DataHcloudServerTypes
         public virtual string Name
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "recommended", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Recommended
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "unavailableAfter", typeJson: "{\"primitive\":\"string\"}")]

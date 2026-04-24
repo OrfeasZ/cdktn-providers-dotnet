@@ -5,7 +5,7 @@ namespace hcloud.ServerNetwork
     /// <remarks>
     /// <h1><c>hcloud_server_network</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/resources/server_network"><c>hcloud_server_network</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/server_network"><c>hcloud_server_network</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

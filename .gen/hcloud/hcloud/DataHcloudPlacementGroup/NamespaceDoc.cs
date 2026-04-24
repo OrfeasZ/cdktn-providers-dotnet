@@ -5,7 +5,7 @@ namespace hcloud.DataHcloudPlacementGroup
     /// <remarks>
     /// <h1><c>data_hcloud_placement_group</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hetznercloud/hcloud/1.60.1/docs/data-sources/placement_group"><c>data_hcloud_placement_group</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/placement_group"><c>data_hcloud_placement_group</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc
