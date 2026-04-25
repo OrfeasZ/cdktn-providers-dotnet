@@ -11,7 +11,7 @@ namespace cloudflare.UrlNormalizationSettings
     {
         /// <summary>The scope of the URL normalization. Available values: "incoming", "both", "none".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/url_normalization_settings#scope UrlNormalizationSettings#scope}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/url_normalization_settings#scope UrlNormalizationSettings#scope}
         /// </remarks>
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}")]
         public string Scope
@@ -22,7 +22,7 @@ namespace cloudflare.UrlNormalizationSettings
 
         /// <summary>The type of URL normalization performed by Cloudflare. Available values: "cloudflare", "rfc3986".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/url_normalization_settings#type UrlNormalizationSettings#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/url_normalization_settings#type UrlNormalizationSettings#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -33,7 +33,7 @@ namespace cloudflare.UrlNormalizationSettings
 
         /// <summary>The unique ID of the zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/url_normalization_settings#zone_id UrlNormalizationSettings#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/url_normalization_settings#zone_id UrlNormalizationSettings#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId

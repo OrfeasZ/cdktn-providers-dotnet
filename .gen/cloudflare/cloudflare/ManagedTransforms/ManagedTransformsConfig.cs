@@ -13,7 +13,7 @@ namespace cloudflare.ManagedTransforms
 
         /// <summary>The list of Managed Request Transforms.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/managed_transforms#managed_request_headers ManagedTransforms#managed_request_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/managed_transforms#managed_request_headers ManagedTransforms#managed_request_headers}
         /// </remarks>
         [JsiiProperty(name: "managedRequestHeaders", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.managedTransforms.ManagedTransformsManagedRequestHeaders\"},\"kind\":\"array\"}}]}}")]
         public object ManagedRequestHeaders
@@ -46,7 +46,7 @@ namespace cloudflare.ManagedTransforms
 
         /// <summary>The list of Managed Response Transforms.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/managed_transforms#managed_response_headers ManagedTransforms#managed_response_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/managed_transforms#managed_response_headers ManagedTransforms#managed_response_headers}
         /// </remarks>
         [JsiiProperty(name: "managedResponseHeaders", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.managedTransforms.ManagedTransformsManagedResponseHeaders\"},\"kind\":\"array\"}}]}}")]
         public object ManagedResponseHeaders
@@ -77,7 +77,7 @@ namespace cloudflare.ManagedTransforms
 
         /// <summary>The unique ID of the zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/managed_transforms#zone_id ManagedTransforms#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/managed_transforms#zone_id ManagedTransforms#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId

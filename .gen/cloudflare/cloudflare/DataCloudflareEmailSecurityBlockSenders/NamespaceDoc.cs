@@ -5,7 +5,7 @@ namespace cloudflare.DataCloudflareEmailSecurityBlockSenders
     /// <remarks>
     /// <h1><c>data_cloudflare_email_security_block_senders</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/email_security_block_senders"><c>data_cloudflare_email_security_block_senders</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/email_security_block_senders"><c>data_cloudflare_email_security_block_senders</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

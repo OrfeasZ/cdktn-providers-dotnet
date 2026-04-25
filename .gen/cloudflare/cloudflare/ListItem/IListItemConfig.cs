@@ -7,19 +7,9 @@ namespace cloudflare.ListItem
     [JsiiInterface(nativeType: typeof(IListItemConfig), fullyQualifiedName: "cloudflare.listItem.ListItemConfig")]
     public interface IListItemConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>The Account ID for this resource.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list_item#account_id ListItem#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
-        {
-            get;
-        }
-
         /// <summary>The unique ID of the list.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list_item#list_id ListItem#list_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list_item#list_id ListItem#list_id}
         /// </remarks>
         [JsiiProperty(name: "listId", typeJson: "{\"primitive\":\"string\"}")]
         string ListId
@@ -27,9 +17,23 @@ namespace cloudflare.ListItem
             get;
         }
 
+        /// <summary>The Account ID for this resource.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list_item#account_id ListItem#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>A non-negative 32 bit integer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list_item#asn ListItem#asn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list_item#asn ListItem#asn}
         /// </remarks>
         [JsiiProperty(name: "asn", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +47,7 @@ namespace cloudflare.ListItem
 
         /// <summary>An informative summary of the list item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list_item#comment ListItem#comment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list_item#comment ListItem#comment}
         /// </remarks>
         [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,7 +61,7 @@ namespace cloudflare.ListItem
 
         /// <summary>Valid characters for hostnames are ASCII(7) letters from a to z, the digits from 0 to 9, wildcards (*), and the hyphen (-).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list_item#hostname ListItem#hostname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list_item#hostname ListItem#hostname}
         /// </remarks>
         [JsiiProperty(name: "hostname", typeJson: "{\"fqn\":\"cloudflare.listItem.ListItemHostname\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -71,7 +75,7 @@ namespace cloudflare.ListItem
 
         /// <summary>An IPv4 address, an IPv4 CIDR, an IPv6 address, or an IPv6 CIDR.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list_item#ip ListItem#ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list_item#ip ListItem#ip}
         /// </remarks>
         [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -85,7 +89,7 @@ namespace cloudflare.ListItem
 
         /// <summary>The definition of the redirect.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list_item#redirect ListItem#redirect}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list_item#redirect ListItem#redirect}
         /// </remarks>
         [JsiiProperty(name: "redirect", typeJson: "{\"fqn\":\"cloudflare.listItem.ListItemRedirect\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -104,19 +108,9 @@ namespace cloudflare.ListItem
             {
             }
 
-            /// <summary>The Account ID for this resource.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list_item#account_id ListItem#account_id}
-            /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>The unique ID of the list.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list_item#list_id ListItem#list_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list_item#list_id ListItem#list_id}
             /// </remarks>
             [JsiiProperty(name: "listId", typeJson: "{\"primitive\":\"string\"}")]
             public string ListId
@@ -124,9 +118,20 @@ namespace cloudflare.ListItem
                 get => GetInstanceProperty<string>()!;
             }
 
+            /// <summary>The Account ID for this resource.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list_item#account_id ListItem#account_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
             /// <summary>A non-negative 32 bit integer.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list_item#asn ListItem#asn}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list_item#asn ListItem#asn}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "asn", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -137,7 +142,7 @@ namespace cloudflare.ListItem
 
             /// <summary>An informative summary of the list item.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list_item#comment ListItem#comment}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list_item#comment ListItem#comment}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -148,7 +153,7 @@ namespace cloudflare.ListItem
 
             /// <summary>Valid characters for hostnames are ASCII(7) letters from a to z, the digits from 0 to 9, wildcards (*), and the hyphen (-).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list_item#hostname ListItem#hostname}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list_item#hostname ListItem#hostname}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "hostname", typeJson: "{\"fqn\":\"cloudflare.listItem.ListItemHostname\"}", isOptional: true)]
@@ -159,7 +164,7 @@ namespace cloudflare.ListItem
 
             /// <summary>An IPv4 address, an IPv4 CIDR, an IPv6 address, or an IPv6 CIDR.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list_item#ip ListItem#ip}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list_item#ip ListItem#ip}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -170,7 +175,7 @@ namespace cloudflare.ListItem
 
             /// <summary>The definition of the redirect.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list_item#redirect ListItem#redirect}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list_item#redirect ListItem#redirect}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "redirect", typeJson: "{\"fqn\":\"cloudflare.listItem.ListItemRedirect\"}", isOptional: true)]

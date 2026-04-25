@@ -65,6 +65,12 @@ namespace cloudflare.DataCloudflareWorkerVersions
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "containers", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultContainersList\"}")]
+        public virtual cloudflare.DataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultContainersList Containers
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultContainersList>()!;
+        }
+
         [JsiiProperty(name: "createdOn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CreatedOn
         {
@@ -101,6 +107,12 @@ namespace cloudflare.DataCloudflareWorkerVersions
             get => GetInstanceProperty<cloudflare.DataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultMigrationsOutputReference>()!;
         }
 
+        [JsiiProperty(name: "migrationTag", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string MigrationTag
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "modules", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultModulesList\"}")]
         public virtual cloudflare.DataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultModulesList Modules
         {
@@ -129,6 +141,12 @@ namespace cloudflare.DataCloudflareWorkerVersions
         public virtual double StartupTimeMs
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "urls", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Urls
+        {
+            get => GetInstanceProperty<string[]>()!;
         }
 
         [JsiiProperty(name: "usageModel", typeJson: "{\"primitive\":\"string\"}")]

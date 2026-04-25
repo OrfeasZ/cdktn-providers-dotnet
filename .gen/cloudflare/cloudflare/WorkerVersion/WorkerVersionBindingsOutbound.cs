@@ -11,7 +11,7 @@ namespace cloudflare.WorkerVersion
 
         /// <summary>Pass information from the Dispatch Worker to the Outbound Worker through the parameters.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#params WorkerVersion#params}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#params WorkerVersion#params}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "params", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionBindingsOutboundParams\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace cloudflare.WorkerVersion
 
         /// <summary>Outbound worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#worker WorkerVersion#worker}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#worker WorkerVersion#worker}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "worker", typeJson: "{\"fqn\":\"cloudflare.workerVersion.WorkerVersionBindingsOutboundWorker\"}", isOptional: true)]

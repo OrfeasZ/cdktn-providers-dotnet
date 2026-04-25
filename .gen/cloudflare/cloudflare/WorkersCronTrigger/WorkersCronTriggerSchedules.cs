@@ -9,7 +9,7 @@ namespace cloudflare.WorkersCronTrigger
     [JsiiByValue(fqn: "cloudflare.workersCronTrigger.WorkersCronTriggerSchedules")]
     public class WorkersCronTriggerSchedules : cloudflare.WorkersCronTrigger.IWorkersCronTriggerSchedules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workers_cron_trigger#cron WorkersCronTrigger#cron}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workers_cron_trigger#cron WorkersCronTrigger#cron}.</summary>
         [JsiiProperty(name: "cron", typeJson: "{\"primitive\":\"string\"}")]
         public string Cron
         {

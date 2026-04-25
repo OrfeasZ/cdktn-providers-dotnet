@@ -4,29 +4,28 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareHealthchecks
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareHealthchecks.DataCloudflareHealthchecksConfig")]
     public class DataCloudflareHealthchecksConfig : cloudflare.DataCloudflareHealthchecks.IDataCloudflareHealthchecksConfig
     {
-        /// <summary>Identifier.</summary>
+        /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/healthchecks#zone_id DataCloudflareHealthchecks#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/healthchecks#max_items DataCloudflareHealthchecks#max_items}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
+        [JsiiOptional]
+        [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public double? MaxItems
         {
             get;
             set;
         }
 
-        /// <summary>Max items to fetch, default: 1000.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/healthchecks#max_items DataCloudflareHealthchecks#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/healthchecks#zone_id DataCloudflareHealthchecks#zone_id}
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public double? MaxItems
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
         {
             get;
             set;

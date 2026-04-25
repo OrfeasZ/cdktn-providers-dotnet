@@ -11,7 +11,7 @@ namespace cloudflare.ZoneCacheVariants
     {
         /// <summary>Value of the zone setting.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zone_cache_variants#value ZoneCacheVariants#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zone_cache_variants#value ZoneCacheVariants#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"fqn\":\"cloudflare.zoneCacheVariants.ZoneCacheVariantsValue\"}")]
         public cloudflare.ZoneCacheVariants.IZoneCacheVariantsValue Value
@@ -22,7 +22,7 @@ namespace cloudflare.ZoneCacheVariants
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zone_cache_variants#zone_id ZoneCacheVariants#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zone_cache_variants#zone_id ZoneCacheVariants#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId

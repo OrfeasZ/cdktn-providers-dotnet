@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.MagicNetworkMonitoringRule
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_network_monitoring_rule cloudflare_magic_network_monitoring_rule}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_network_monitoring_rule cloudflare_magic_network_monitoring_rule}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.MagicNetworkMonitoringRule.MagicNetworkMonitoringRule), fullyQualifiedName: "cloudflare.magicNetworkMonitoringRule.MagicNetworkMonitoringRule", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.magicNetworkMonitoringRule.MagicNetworkMonitoringRuleConfig\"}}]")]
     public class MagicNetworkMonitoringRule : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_network_monitoring_rule cloudflare_magic_network_monitoring_rule} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_network_monitoring_rule cloudflare_magic_network_monitoring_rule} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public MagicNetworkMonitoringRule(Constructs.Construct scope, string id, cloudflare.MagicNetworkMonitoringRule.IMagicNetworkMonitoringRuleConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,20 +40,20 @@ namespace cloudflare.MagicNetworkMonitoringRule
         /// <param name="importToId">The construct id used in the generated config for the MagicNetworkMonitoringRule to import.</param>
         /// <param name="importFromId">The id of the existing MagicNetworkMonitoringRule that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the MagicNetworkMonitoringRule to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the MagicNetworkMonitoringRule to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_network_monitoring_rule#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing MagicNetworkMonitoringRule that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the MagicNetworkMonitoringRule to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the MagicNetworkMonitoringRule to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_network_monitoring_rule#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing MagicNetworkMonitoringRule that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the MagicNetworkMonitoringRule to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.MagicNetworkMonitoringRule.MagicNetworkMonitoringRule), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
-        [JsiiMethod(name: "resetAutomaticAdvertisement")]
-        public virtual void ResetAutomaticAdvertisement()
+        [JsiiMethod(name: "resetAccountId")]
+        public virtual void ResetAccountId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetBandwidth")]
-        public virtual void ResetBandwidth()
+        [JsiiMethod(name: "resetBandwidthThreshold")]
+        public virtual void ResetBandwidthThreshold()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -70,8 +70,20 @@ namespace cloudflare.MagicNetworkMonitoringRule
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetPrefixes")]
-        public virtual void ResetPrefixes()
+        [JsiiMethod(name: "resetPrefixMatch")]
+        public virtual void ResetPrefixMatch()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetZscoreSensitivity")]
+        public virtual void ResetZscoreSensitivity()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetZscoreTarget")]
+        public virtual void ResetZscoreTarget()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -95,38 +107,8 @@ namespace cloudflare.MagicNetworkMonitoringRule
         }
         = GetStaticProperty<string>(typeof(cloudflare.MagicNetworkMonitoringRule.MagicNetworkMonitoringRule))!;
 
-        [JsiiProperty(name: "bandwidthThreshold", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double BandwidthThreshold
-        {
-            get => GetInstanceProperty<double>()!;
-        }
-
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "prefixMatch", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string PrefixMatch
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Type
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "zscoreSensitivity", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ZscoreSensitivity
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "zscoreTarget", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ZscoreTarget
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -146,8 +128,8 @@ namespace cloudflare.MagicNetworkMonitoringRule
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "bandwidthInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public virtual double? BandwidthInput
+        [JsiiProperty(name: "bandwidthThresholdInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? BandwidthThresholdInput
         {
             get => GetInstanceProperty<double?>();
         }
@@ -178,6 +160,34 @@ namespace cloudflare.MagicNetworkMonitoringRule
         public virtual string[]? PrefixesInput
         {
             get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "prefixMatchInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PrefixMatchInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "typeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "zscoreSensitivityInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ZscoreSensitivityInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "zscoreTargetInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ZscoreTargetInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
@@ -214,8 +224,8 @@ namespace cloudflare.MagicNetworkMonitoringRule
             }
         }
 
-        [JsiiProperty(name: "bandwidth", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double Bandwidth
+        [JsiiProperty(name: "bandwidthThreshold", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double BandwidthThreshold
         {
             get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
@@ -246,6 +256,34 @@ namespace cloudflare.MagicNetworkMonitoringRule
         public virtual string[] Prefixes
         {
             get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "prefixMatch", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrefixMatch
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Type
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "zscoreSensitivity", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ZscoreSensitivity
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "zscoreTarget", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ZscoreTarget
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
     }

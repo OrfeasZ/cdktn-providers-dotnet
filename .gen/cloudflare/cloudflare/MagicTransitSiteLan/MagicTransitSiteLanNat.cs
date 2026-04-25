@@ -9,7 +9,7 @@ namespace cloudflare.MagicTransitSiteLan
     {
         /// <summary>A valid CIDR notation representing an IP range.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_lan#static_prefix MagicTransitSiteLan#static_prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_lan#static_prefix MagicTransitSiteLan#static_prefix}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "staticPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -7,19 +7,9 @@ namespace cloudflare.DataCloudflareList
     [JsiiInterface(nativeType: typeof(IDataCloudflareListConfig), fullyQualifiedName: "cloudflare.dataCloudflareList.DataCloudflareListConfig")]
     public interface IDataCloudflareListConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>The Account ID for this resource.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/list#account_id DataCloudflareList#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
-        {
-            get;
-        }
-
         /// <summary>The unique ID of the list.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/list#list_id DataCloudflareList#list_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/list#list_id DataCloudflareList#list_id}
         /// </remarks>
         [JsiiProperty(name: "listId", typeJson: "{\"primitive\":\"string\"}")]
         string ListId
@@ -27,11 +17,25 @@ namespace cloudflare.DataCloudflareList
             get;
         }
 
+        /// <summary>The Account ID for this resource.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/list#account_id DataCloudflareList#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>A search query to filter returned items.</summary>
         /// <remarks>
         /// Its meaning depends on the list type: IP addresses must start with the provided string, hostnames and bulk redirects must contain the string, and ASNs must match the string exactly.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/list#search DataCloudflareList#search}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/list#search DataCloudflareList#search}
         /// </remarks>
         [JsiiProperty(name: "search", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,19 +54,9 @@ namespace cloudflare.DataCloudflareList
             {
             }
 
-            /// <summary>The Account ID for this resource.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/list#account_id DataCloudflareList#account_id}
-            /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>The unique ID of the list.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/list#list_id DataCloudflareList#list_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/list#list_id DataCloudflareList#list_id}
             /// </remarks>
             [JsiiProperty(name: "listId", typeJson: "{\"primitive\":\"string\"}")]
             public string ListId
@@ -70,11 +64,22 @@ namespace cloudflare.DataCloudflareList
                 get => GetInstanceProperty<string>()!;
             }
 
+            /// <summary>The Account ID for this resource.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/list#account_id DataCloudflareList#account_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
             /// <summary>A search query to filter returned items.</summary>
             /// <remarks>
             /// Its meaning depends on the list type: IP addresses must start with the provided string, hostnames and bulk redirects must contain the string, and ASNs must match the string exactly.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/list#search DataCloudflareList#search}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/list#search DataCloudflareList#search}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "search", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

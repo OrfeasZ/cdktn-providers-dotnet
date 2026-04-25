@@ -7,7 +7,7 @@ namespace cloudflare.WorkerVersion
     [JsiiInterface(nativeType: typeof(IWorkerVersionMigrationsRenamedClasses), fullyQualifiedName: "cloudflare.workerVersion.WorkerVersionMigrationsRenamedClasses")]
     public interface IWorkerVersionMigrationsRenamedClasses
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#from WorkerVersion#from}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#from WorkerVersion#from}.</summary>
         [JsiiProperty(name: "from", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? From
@@ -18,7 +18,7 @@ namespace cloudflare.WorkerVersion
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#to WorkerVersion#to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#to WorkerVersion#to}.</summary>
         [JsiiProperty(name: "to", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? To
@@ -36,7 +36,7 @@ namespace cloudflare.WorkerVersion
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#from WorkerVersion#from}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#from WorkerVersion#from}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "from", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? From
@@ -44,7 +44,7 @@ namespace cloudflare.WorkerVersion
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#to WorkerVersion#to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#to WorkerVersion#to}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "to", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? To

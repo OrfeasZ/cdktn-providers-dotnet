@@ -9,23 +9,24 @@ namespace cloudflare.DataCloudflareCloudforceOneRequestPriority
     [JsiiByValue(fqn: "cloudflare.dataCloudflareCloudforceOneRequestPriority.DataCloudflareCloudforceOneRequestPriorityConfig")]
     public class DataCloudflareCloudforceOneRequestPriorityConfig : cloudflare.DataCloudflareCloudforceOneRequestPriority.IDataCloudflareCloudforceOneRequestPriorityConfig
     {
-        /// <summary>Identifier.</summary>
+        /// <summary>UUID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/cloudforce_one_request_priority#account_id DataCloudflareCloudforceOneRequestPriority#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/cloudforce_one_request_priority#priority_id DataCloudflareCloudforceOneRequestPriority#priority_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiProperty(name: "priorityId", typeJson: "{\"primitive\":\"string\"}")]
+        public string PriorityId
         {
             get;
             set;
         }
 
-        /// <summary>UUID.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/cloudforce_one_request_priority#priority_id DataCloudflareCloudforceOneRequestPriority#priority_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/cloudforce_one_request_priority#account_id DataCloudflareCloudforceOneRequestPriority#account_id}
         /// </remarks>
-        [JsiiProperty(name: "priorityId", typeJson: "{\"primitive\":\"string\"}")]
-        public string PriorityId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

@@ -7,28 +7,28 @@ namespace cloudflare.TokenValidationConfig
     [JsiiInterface(nativeType: typeof(ITokenValidationConfigConfig), fullyQualifiedName: "cloudflare.tokenValidationConfig.TokenValidationConfigConfig")]
     public interface ITokenValidationConfigConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#credentials TokenValidationConfig#credentials}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#credentials TokenValidationConfig#credentials}.</summary>
         [JsiiProperty(name: "credentials", typeJson: "{\"fqn\":\"cloudflare.tokenValidationConfig.TokenValidationConfigCredentials\"}")]
         cloudflare.TokenValidationConfig.ITokenValidationConfigCredentials Credentials
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#description TokenValidationConfig#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#description TokenValidationConfig#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         string Description
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#title TokenValidationConfig#title}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#title TokenValidationConfig#title}.</summary>
         [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}")]
         string Title
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#token_sources TokenValidationConfig#token_sources}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#token_sources TokenValidationConfig#token_sources}.</summary>
         [JsiiProperty(name: "tokenSources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] TokenSources
         {
@@ -37,7 +37,7 @@ namespace cloudflare.TokenValidationConfig
 
         /// <summary>Available values: "JWT".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#token_type TokenValidationConfig#token_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#token_type TokenValidationConfig#token_type}
         /// </remarks>
         [JsiiProperty(name: "tokenType", typeJson: "{\"primitive\":\"string\"}")]
         string TokenType
@@ -47,12 +47,16 @@ namespace cloudflare.TokenValidationConfig
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#zone_id TokenValidationConfig#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#zone_id TokenValidationConfig#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? ZoneId
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(ITokenValidationConfigConfig), fullyQualifiedName: "cloudflare.tokenValidationConfig.TokenValidationConfigConfig")]
@@ -62,28 +66,28 @@ namespace cloudflare.TokenValidationConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#credentials TokenValidationConfig#credentials}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#credentials TokenValidationConfig#credentials}.</summary>
             [JsiiProperty(name: "credentials", typeJson: "{\"fqn\":\"cloudflare.tokenValidationConfig.TokenValidationConfigCredentials\"}")]
             public cloudflare.TokenValidationConfig.ITokenValidationConfigCredentials Credentials
             {
                 get => GetInstanceProperty<cloudflare.TokenValidationConfig.ITokenValidationConfigCredentials>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#description TokenValidationConfig#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#description TokenValidationConfig#description}.</summary>
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
             public string Description
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#title TokenValidationConfig#title}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#title TokenValidationConfig#title}.</summary>
             [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}")]
             public string Title
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#token_sources TokenValidationConfig#token_sources}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#token_sources TokenValidationConfig#token_sources}.</summary>
             [JsiiProperty(name: "tokenSources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] TokenSources
             {
@@ -92,7 +96,7 @@ namespace cloudflare.TokenValidationConfig
 
             /// <summary>Available values: "JWT".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#token_type TokenValidationConfig#token_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#token_type TokenValidationConfig#token_type}
             /// </remarks>
             [JsiiProperty(name: "tokenType", typeJson: "{\"primitive\":\"string\"}")]
             public string TokenType
@@ -102,12 +106,13 @@ namespace cloudflare.TokenValidationConfig
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#zone_id TokenValidationConfig#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#zone_id TokenValidationConfig#zone_id}
             /// </remarks>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
+            [JsiiOptional]
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

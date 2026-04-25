@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustAccessGroup
     {
         /// <summary>The ID of an Access OIDC SaaS application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#app_uid ZeroTrustAccessGroup#app_uid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#app_uid ZeroTrustAccessGroup#app_uid}
         /// </remarks>
         [JsiiProperty(name: "appUid", typeJson: "{\"primitive\":\"string\"}")]
         public string AppUid

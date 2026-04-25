@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareSnippets
     {
         /// <summary>The identifying name of the snippet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/snippets#snippet_name DataCloudflareSnippets#snippet_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/snippets#snippet_name DataCloudflareSnippets#snippet_name}
         /// </remarks>
         [JsiiProperty(name: "snippetName", typeJson: "{\"primitive\":\"string\"}")]
         string SnippetName
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareSnippets
 
         /// <summary>The unique ID of the zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/snippets#zone_id DataCloudflareSnippets#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/snippets#zone_id DataCloudflareSnippets#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
@@ -36,7 +36,7 @@ namespace cloudflare.DataCloudflareSnippets
 
             /// <summary>The identifying name of the snippet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/snippets#snippet_name DataCloudflareSnippets#snippet_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/snippets#snippet_name DataCloudflareSnippets#snippet_name}
             /// </remarks>
             [JsiiProperty(name: "snippetName", typeJson: "{\"primitive\":\"string\"}")]
             public string SnippetName
@@ -46,7 +46,7 @@ namespace cloudflare.DataCloudflareSnippets
 
             /// <summary>The unique ID of the zone.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/snippets#zone_id DataCloudflareSnippets#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/snippets#zone_id DataCloudflareSnippets#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId

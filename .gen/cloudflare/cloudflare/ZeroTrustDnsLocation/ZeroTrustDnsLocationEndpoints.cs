@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustDnsLocation
     [JsiiByValue(fqn: "cloudflare.zeroTrustDnsLocation.ZeroTrustDnsLocationEndpoints")]
     public class ZeroTrustDnsLocationEndpoints : cloudflare.ZeroTrustDnsLocation.IZeroTrustDnsLocationEndpoints
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dns_location#doh ZeroTrustDnsLocation#doh}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dns_location#doh ZeroTrustDnsLocation#doh}.</summary>
         [JsiiProperty(name: "doh", typeJson: "{\"fqn\":\"cloudflare.zeroTrustDnsLocation.ZeroTrustDnsLocationEndpointsDoh\"}")]
         public cloudflare.ZeroTrustDnsLocation.IZeroTrustDnsLocationEndpointsDoh Doh
         {
@@ -17,7 +17,7 @@ namespace cloudflare.ZeroTrustDnsLocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dns_location#dot ZeroTrustDnsLocation#dot}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dns_location#dot ZeroTrustDnsLocation#dot}.</summary>
         [JsiiProperty(name: "dot", typeJson: "{\"fqn\":\"cloudflare.zeroTrustDnsLocation.ZeroTrustDnsLocationEndpointsDot\"}")]
         public cloudflare.ZeroTrustDnsLocation.IZeroTrustDnsLocationEndpointsDot Dot
         {
@@ -25,7 +25,7 @@ namespace cloudflare.ZeroTrustDnsLocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dns_location#ipv4 ZeroTrustDnsLocation#ipv4}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dns_location#ipv4 ZeroTrustDnsLocation#ipv4}.</summary>
         [JsiiProperty(name: "ipv4", typeJson: "{\"fqn\":\"cloudflare.zeroTrustDnsLocation.ZeroTrustDnsLocationEndpointsIpv4\"}")]
         public cloudflare.ZeroTrustDnsLocation.IZeroTrustDnsLocationEndpointsIpv4 Ipv4
         {
@@ -33,7 +33,7 @@ namespace cloudflare.ZeroTrustDnsLocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dns_location#ipv6 ZeroTrustDnsLocation#ipv6}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dns_location#ipv6 ZeroTrustDnsLocation#ipv6}.</summary>
         [JsiiProperty(name: "ipv6", typeJson: "{\"fqn\":\"cloudflare.zeroTrustDnsLocation.ZeroTrustDnsLocationEndpointsIpv6\"}")]
         public cloudflare.ZeroTrustDnsLocation.IZeroTrustDnsLocationEndpointsIpv6 Ipv6
         {

@@ -9,23 +9,24 @@ namespace cloudflare.ZeroTrustAccessTag
     [JsiiByValue(fqn: "cloudflare.zeroTrustAccessTag.ZeroTrustAccessTagConfig")]
     public class ZeroTrustAccessTagConfig : cloudflare.ZeroTrustAccessTag.IZeroTrustAccessTagConfig
     {
-        /// <summary>Identifier.</summary>
+        /// <summary>The name of the tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_tag#account_id ZeroTrustAccessTag#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_tag#name ZeroTrustAccessTag#name}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        public string Name
         {
             get;
             set;
         }
 
-        /// <summary>The name of the tag.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_tag#name ZeroTrustAccessTag#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_tag#account_id ZeroTrustAccessTag#account_id}
         /// </remarks>
-        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
-        public string Name
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

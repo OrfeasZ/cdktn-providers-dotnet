@@ -9,7 +9,7 @@ namespace cloudflare.MagicTransitSite
     {
         /// <summary>Latitude.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site#lat MagicTransitSite#lat}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site#lat MagicTransitSite#lat}
         /// </remarks>
         [JsiiProperty(name: "lat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace cloudflare.MagicTransitSite
 
         /// <summary>Longitude.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site#lon MagicTransitSite#lon}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site#lon MagicTransitSite#lon}
         /// </remarks>
         [JsiiProperty(name: "lon", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace cloudflare.MagicTransitSite
 
             /// <summary>Latitude.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site#lat MagicTransitSite#lat}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site#lat MagicTransitSite#lat}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace cloudflare.MagicTransitSite
 
             /// <summary>Longitude.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site#lon MagicTransitSite#lon}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site#lon MagicTransitSite#lon}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lon", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -39,6 +39,18 @@ namespace cloudflare.DataCloudflareZeroTrustOrganization
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "amrMatchingSessionDuration", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AmrMatchingSessionDuration
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "requiredAaguids", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RequiredAaguids
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "sessionDuration", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SessionDuration
         {

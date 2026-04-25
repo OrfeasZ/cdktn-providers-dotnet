@@ -9,20 +9,9 @@ namespace cloudflare.DataCloudflareListItems
     [JsiiByValue(fqn: "cloudflare.dataCloudflareListItems.DataCloudflareListItemsAConfig")]
     public class DataCloudflareListItemsAConfig : cloudflare.DataCloudflareListItems.IDataCloudflareListItemsAConfig
     {
-        /// <summary>The Account ID for this resource.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/list_items#account_id DataCloudflareListItemsA#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
-        {
-            get;
-            set;
-        }
-
         /// <summary>The unique ID of the list.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/list_items#list_id DataCloudflareListItemsA#list_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/list_items#list_id DataCloudflareListItemsA#list_id}
         /// </remarks>
         [JsiiProperty(name: "listId", typeJson: "{\"primitive\":\"string\"}")]
         public string ListId
@@ -31,9 +20,21 @@ namespace cloudflare.DataCloudflareListItems
             set;
         }
 
+        /// <summary>The Account ID for this resource.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/list_items#account_id DataCloudflareListItemsA#account_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
+        {
+            get;
+            set;
+        }
+
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/list_items#max_items DataCloudflareListItemsA#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/list_items#max_items DataCloudflareListItemsA#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -45,7 +46,7 @@ namespace cloudflare.DataCloudflareListItems
 
         /// <summary>Amount of results to include in each paginated response. A non-negative 32 bit integer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/list_items#per_page DataCloudflareListItemsA#per_page}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/list_items#per_page DataCloudflareListItemsA#per_page}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "perPage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -59,7 +60,7 @@ namespace cloudflare.DataCloudflareListItems
         /// <remarks>
         /// Its meaning depends on the list type: IP addresses must start with the provided string, hostnames and bulk redirects must contain the string, and ASNs must match the string exactly.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/list_items#search DataCloudflareListItemsA#search}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/list_items#search DataCloudflareListItemsA#search}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "search", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

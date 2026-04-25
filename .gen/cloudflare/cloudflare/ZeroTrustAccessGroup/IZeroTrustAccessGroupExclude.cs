@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustAccessGroup
     {
         /// <summary>An empty object which matches on all service tokens.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#any_valid_service_token ZeroTrustAccessGroup#any_valid_service_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#any_valid_service_token ZeroTrustAccessGroup#any_valid_service_token}
         /// </remarks>
         [JsiiProperty(name: "anyValidServiceToken", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeAnyValidServiceToken\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#auth_context ZeroTrustAccessGroup#auth_context}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#auth_context ZeroTrustAccessGroup#auth_context}.</summary>
         [JsiiProperty(name: "authContext", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeAuthContext\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeAuthContext? AuthContext
@@ -32,7 +32,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#auth_method ZeroTrustAccessGroup#auth_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#auth_method ZeroTrustAccessGroup#auth_method}.</summary>
         [JsiiProperty(name: "authMethod", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeAuthMethod\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeAuthMethod? AuthMethod
@@ -43,7 +43,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#azure_ad ZeroTrustAccessGroup#azure_ad}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#azure_ad ZeroTrustAccessGroup#azure_ad}.</summary>
         [JsiiProperty(name: "azureAd", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeAzureAd\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeAzureAd? AzureAd
@@ -54,7 +54,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#certificate ZeroTrustAccessGroup#certificate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#certificate ZeroTrustAccessGroup#certificate}.</summary>
         [JsiiProperty(name: "certificate", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeCertificate\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeCertificate? Certificate
@@ -65,7 +65,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#common_name ZeroTrustAccessGroup#common_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#common_name ZeroTrustAccessGroup#common_name}.</summary>
         [JsiiProperty(name: "commonName", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeCommonName\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeCommonName? CommonName
@@ -76,7 +76,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#device_posture ZeroTrustAccessGroup#device_posture}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#device_posture ZeroTrustAccessGroup#device_posture}.</summary>
         [JsiiProperty(name: "devicePosture", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeDevicePosture\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeDevicePosture? DevicePosture
@@ -87,7 +87,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#email ZeroTrustAccessGroup#email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#email ZeroTrustAccessGroup#email}.</summary>
         [JsiiProperty(name: "email", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeEmail\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeEmail? Email
@@ -98,7 +98,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#email_domain ZeroTrustAccessGroup#email_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#email_domain ZeroTrustAccessGroup#email_domain}.</summary>
         [JsiiProperty(name: "emailDomain", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeEmailDomain\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeEmailDomain? EmailDomain
@@ -109,7 +109,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#email_list ZeroTrustAccessGroup#email_list}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#email_list ZeroTrustAccessGroup#email_list}.</summary>
         [JsiiProperty(name: "emailList", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeEmailListStruct\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeEmailListStruct? EmailList
@@ -122,7 +122,7 @@ namespace cloudflare.ZeroTrustAccessGroup
 
         /// <summary>An empty object which matches on all users.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#everyone ZeroTrustAccessGroup#everyone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#everyone ZeroTrustAccessGroup#everyone}
         /// </remarks>
         [JsiiProperty(name: "everyone", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeEveryone\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -134,7 +134,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#external_evaluation ZeroTrustAccessGroup#external_evaluation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#external_evaluation ZeroTrustAccessGroup#external_evaluation}.</summary>
         [JsiiProperty(name: "externalEvaluation", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeExternalEvaluation\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeExternalEvaluation? ExternalEvaluation
@@ -145,7 +145,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#geo ZeroTrustAccessGroup#geo}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#geo ZeroTrustAccessGroup#geo}.</summary>
         [JsiiProperty(name: "geo", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeGeo\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeGeo? Geo
@@ -156,7 +156,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#github_organization ZeroTrustAccessGroup#github_organization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#github_organization ZeroTrustAccessGroup#github_organization}.</summary>
         [JsiiProperty(name: "githubOrganization", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeGithubOrganization\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeGithubOrganization? GithubOrganization
@@ -167,7 +167,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#group ZeroTrustAccessGroup#group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#group ZeroTrustAccessGroup#group}.</summary>
         [JsiiProperty(name: "group", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeGroup\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeGroup? Group
@@ -178,7 +178,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#gsuite ZeroTrustAccessGroup#gsuite}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#gsuite ZeroTrustAccessGroup#gsuite}.</summary>
         [JsiiProperty(name: "gsuite", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeGsuite\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeGsuite? Gsuite
@@ -189,7 +189,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#ip ZeroTrustAccessGroup#ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#ip ZeroTrustAccessGroup#ip}.</summary>
         [JsiiProperty(name: "ip", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeIp\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeIp? Ip
@@ -200,7 +200,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#ip_list ZeroTrustAccessGroup#ip_list}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#ip_list ZeroTrustAccessGroup#ip_list}.</summary>
         [JsiiProperty(name: "ipList", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeIpListStruct\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeIpListStruct? IpList
@@ -211,7 +211,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#linked_app_token ZeroTrustAccessGroup#linked_app_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#linked_app_token ZeroTrustAccessGroup#linked_app_token}.</summary>
         [JsiiProperty(name: "linkedAppToken", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeLinkedAppToken\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeLinkedAppToken? LinkedAppToken
@@ -222,7 +222,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#login_method ZeroTrustAccessGroup#login_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#login_method ZeroTrustAccessGroup#login_method}.</summary>
         [JsiiProperty(name: "loginMethod", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeLoginMethod\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeLoginMethod? LoginMethod
@@ -233,7 +233,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#oidc ZeroTrustAccessGroup#oidc}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#oidc ZeroTrustAccessGroup#oidc}.</summary>
         [JsiiProperty(name: "oidc", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeOidc\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeOidc? Oidc
@@ -244,7 +244,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#okta ZeroTrustAccessGroup#okta}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#okta ZeroTrustAccessGroup#okta}.</summary>
         [JsiiProperty(name: "okta", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeOkta\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeOkta? Okta
@@ -255,7 +255,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#saml ZeroTrustAccessGroup#saml}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#saml ZeroTrustAccessGroup#saml}.</summary>
         [JsiiProperty(name: "saml", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeSaml\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeSaml? Saml
@@ -266,10 +266,21 @@ namespace cloudflare.ZeroTrustAccessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#service_token ZeroTrustAccessGroup#service_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#service_token ZeroTrustAccessGroup#service_token}.</summary>
         [JsiiProperty(name: "serviceToken", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeServiceToken\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeServiceToken? ServiceToken
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#user_risk_score ZeroTrustAccessGroup#user_risk_score}.</summary>
+        [JsiiProperty(name: "userRiskScore", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeUserRiskScore\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeUserRiskScore? UserRiskScore
         {
             get
             {
@@ -286,7 +297,7 @@ namespace cloudflare.ZeroTrustAccessGroup
 
             /// <summary>An empty object which matches on all service tokens.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#any_valid_service_token ZeroTrustAccessGroup#any_valid_service_token}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#any_valid_service_token ZeroTrustAccessGroup#any_valid_service_token}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "anyValidServiceToken", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeAnyValidServiceToken\"}", isOptional: true)]
@@ -295,7 +306,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeAnyValidServiceToken?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#auth_context ZeroTrustAccessGroup#auth_context}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#auth_context ZeroTrustAccessGroup#auth_context}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authContext", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeAuthContext\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeAuthContext? AuthContext
@@ -303,7 +314,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeAuthContext?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#auth_method ZeroTrustAccessGroup#auth_method}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#auth_method ZeroTrustAccessGroup#auth_method}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authMethod", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeAuthMethod\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeAuthMethod? AuthMethod
@@ -311,7 +322,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeAuthMethod?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#azure_ad ZeroTrustAccessGroup#azure_ad}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#azure_ad ZeroTrustAccessGroup#azure_ad}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "azureAd", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeAzureAd\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeAzureAd? AzureAd
@@ -319,7 +330,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeAzureAd?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#certificate ZeroTrustAccessGroup#certificate}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#certificate ZeroTrustAccessGroup#certificate}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "certificate", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeCertificate\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeCertificate? Certificate
@@ -327,7 +338,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeCertificate?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#common_name ZeroTrustAccessGroup#common_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#common_name ZeroTrustAccessGroup#common_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "commonName", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeCommonName\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeCommonName? CommonName
@@ -335,7 +346,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeCommonName?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#device_posture ZeroTrustAccessGroup#device_posture}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#device_posture ZeroTrustAccessGroup#device_posture}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "devicePosture", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeDevicePosture\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeDevicePosture? DevicePosture
@@ -343,7 +354,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeDevicePosture?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#email ZeroTrustAccessGroup#email}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#email ZeroTrustAccessGroup#email}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "email", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeEmail\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeEmail? Email
@@ -351,7 +362,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeEmail?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#email_domain ZeroTrustAccessGroup#email_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#email_domain ZeroTrustAccessGroup#email_domain}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "emailDomain", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeEmailDomain\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeEmailDomain? EmailDomain
@@ -359,7 +370,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeEmailDomain?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#email_list ZeroTrustAccessGroup#email_list}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#email_list ZeroTrustAccessGroup#email_list}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "emailList", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeEmailListStruct\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeEmailListStruct? EmailList
@@ -369,7 +380,7 @@ namespace cloudflare.ZeroTrustAccessGroup
 
             /// <summary>An empty object which matches on all users.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#everyone ZeroTrustAccessGroup#everyone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#everyone ZeroTrustAccessGroup#everyone}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "everyone", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeEveryone\"}", isOptional: true)]
@@ -378,7 +389,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeEveryone?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#external_evaluation ZeroTrustAccessGroup#external_evaluation}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#external_evaluation ZeroTrustAccessGroup#external_evaluation}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "externalEvaluation", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeExternalEvaluation\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeExternalEvaluation? ExternalEvaluation
@@ -386,7 +397,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeExternalEvaluation?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#geo ZeroTrustAccessGroup#geo}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#geo ZeroTrustAccessGroup#geo}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "geo", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeGeo\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeGeo? Geo
@@ -394,7 +405,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeGeo?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#github_organization ZeroTrustAccessGroup#github_organization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#github_organization ZeroTrustAccessGroup#github_organization}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "githubOrganization", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeGithubOrganization\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeGithubOrganization? GithubOrganization
@@ -402,7 +413,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeGithubOrganization?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#group ZeroTrustAccessGroup#group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#group ZeroTrustAccessGroup#group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "group", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeGroup\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeGroup? Group
@@ -410,7 +421,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeGroup?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#gsuite ZeroTrustAccessGroup#gsuite}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#gsuite ZeroTrustAccessGroup#gsuite}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "gsuite", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeGsuite\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeGsuite? Gsuite
@@ -418,7 +429,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeGsuite?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#ip ZeroTrustAccessGroup#ip}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#ip ZeroTrustAccessGroup#ip}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ip", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeIp\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeIp? Ip
@@ -426,7 +437,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeIp?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#ip_list ZeroTrustAccessGroup#ip_list}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#ip_list ZeroTrustAccessGroup#ip_list}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipList", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeIpListStruct\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeIpListStruct? IpList
@@ -434,7 +445,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeIpListStruct?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#linked_app_token ZeroTrustAccessGroup#linked_app_token}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#linked_app_token ZeroTrustAccessGroup#linked_app_token}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "linkedAppToken", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeLinkedAppToken\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeLinkedAppToken? LinkedAppToken
@@ -442,7 +453,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeLinkedAppToken?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#login_method ZeroTrustAccessGroup#login_method}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#login_method ZeroTrustAccessGroup#login_method}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "loginMethod", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeLoginMethod\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeLoginMethod? LoginMethod
@@ -450,7 +461,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeLoginMethod?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#oidc ZeroTrustAccessGroup#oidc}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#oidc ZeroTrustAccessGroup#oidc}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "oidc", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeOidc\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeOidc? Oidc
@@ -458,7 +469,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeOidc?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#okta ZeroTrustAccessGroup#okta}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#okta ZeroTrustAccessGroup#okta}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "okta", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeOkta\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeOkta? Okta
@@ -466,7 +477,7 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeOkta?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#saml ZeroTrustAccessGroup#saml}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#saml ZeroTrustAccessGroup#saml}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "saml", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeSaml\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeSaml? Saml
@@ -474,12 +485,20 @@ namespace cloudflare.ZeroTrustAccessGroup
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeSaml?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#service_token ZeroTrustAccessGroup#service_token}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#service_token ZeroTrustAccessGroup#service_token}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "serviceToken", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeServiceToken\"}", isOptional: true)]
             public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeServiceToken? ServiceToken
             {
                 get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeServiceToken?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#user_risk_score ZeroTrustAccessGroup#user_risk_score}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "userRiskScore", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeUserRiskScore\"}", isOptional: true)]
+            public cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeUserRiskScore? UserRiskScore
+            {
+                get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeUserRiskScore?>();
             }
         }
     }

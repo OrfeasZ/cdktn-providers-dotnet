@@ -15,7 +15,7 @@ namespace cloudflare.Ruleset
         /// <remarks>
         /// If this is true and a request meets eligibility criteria, Cloudflare will write the resource to Cache Reserve.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#eligible Ruleset#eligible}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#eligible Ruleset#eligible}
         /// </remarks>
         [JsiiProperty(name: "eligible", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object Eligible
@@ -46,7 +46,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The minimum file size eligible for storage in Cache Reserve.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#minimum_file_size Ruleset#minimum_file_size}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#minimum_file_size Ruleset#minimum_file_size}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minimumFileSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

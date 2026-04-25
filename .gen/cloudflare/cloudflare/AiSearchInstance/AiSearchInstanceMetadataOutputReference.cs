@@ -33,8 +33,20 @@ namespace cloudflare.AiSearchInstance
         {
         }
 
+        [JsiiMethod(name: "putSearchForAgents", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceMetadataSearchForAgents\"}}]")]
+        public virtual void PutSearchForAgents(cloudflare.AiSearchInstance.IAiSearchInstanceMetadataSearchForAgents @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.AiSearchInstance.IAiSearchInstanceMetadataSearchForAgents)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetCreatedFromAisearchWizard")]
         public virtual void ResetCreatedFromAisearchWizard()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSearchForAgents")]
+        public virtual void ResetSearchForAgents()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -45,9 +57,22 @@ namespace cloudflare.AiSearchInstance
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "searchForAgents", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceMetadataSearchForAgentsOutputReference\"}")]
+        public virtual cloudflare.AiSearchInstance.AiSearchInstanceMetadataSearchForAgentsOutputReference SearchForAgents
+        {
+            get => GetInstanceProperty<cloudflare.AiSearchInstance.AiSearchInstanceMetadataSearchForAgentsOutputReference>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "createdFromAisearchWizardInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? CreatedFromAisearchWizardInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "searchForAgentsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceMetadataSearchForAgents\"}]}}", isOptional: true)]
+        public virtual object? SearchForAgentsInput
         {
             get => GetInstanceProperty<object?>();
         }

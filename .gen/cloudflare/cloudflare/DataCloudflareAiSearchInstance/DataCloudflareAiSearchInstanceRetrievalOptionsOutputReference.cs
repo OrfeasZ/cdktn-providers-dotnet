@@ -33,6 +33,12 @@ namespace cloudflare.DataCloudflareAiSearchInstance
         {
         }
 
+        [JsiiProperty(name: "boostBy", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAiSearchInstance.DataCloudflareAiSearchInstanceRetrievalOptionsBoostByList\"}")]
+        public virtual cloudflare.DataCloudflareAiSearchInstance.DataCloudflareAiSearchInstanceRetrievalOptionsBoostByList BoostBy
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareAiSearchInstance.DataCloudflareAiSearchInstanceRetrievalOptionsBoostByList>()!;
+        }
+
         [JsiiProperty(name: "keywordMatchMode", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string KeywordMatchMode
         {

@@ -11,7 +11,7 @@ namespace cloudflare.MagicWanGreTunnel
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_gre_tunnel#account_id MagicWanGreTunnel#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_gre_tunnel#account_id MagicWanGreTunnel#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.MagicWanGreTunnel
 
         /// <summary>The IP address assigned to the Cloudflare side of the GRE tunnel.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_gre_tunnel#cloudflare_gre_endpoint MagicWanGreTunnel#cloudflare_gre_endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_gre_tunnel#cloudflare_gre_endpoint MagicWanGreTunnel#cloudflare_gre_endpoint}
         /// </remarks>
         [JsiiProperty(name: "cloudflareGreEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string CloudflareGreEndpoint
@@ -33,7 +33,7 @@ namespace cloudflare.MagicWanGreTunnel
 
         /// <summary>The IP address assigned to the customer side of the GRE tunnel.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_gre_tunnel#customer_gre_endpoint MagicWanGreTunnel#customer_gre_endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_gre_tunnel#customer_gre_endpoint MagicWanGreTunnel#customer_gre_endpoint}
         /// </remarks>
         [JsiiProperty(name: "customerGreEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string CustomerGreEndpoint
@@ -46,7 +46,7 @@ namespace cloudflare.MagicWanGreTunnel
         /// <remarks>
         /// Select the subnet from the following private IP space: 10.0.0.0–10.255.255.255, 172.16.0.0–172.31.255.255, 192.168.0.0–192.168.255.255.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_gre_tunnel#interface_address MagicWanGreTunnel#interface_address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_gre_tunnel#interface_address MagicWanGreTunnel#interface_address}
         /// </remarks>
         [JsiiProperty(name: "interfaceAddress", typeJson: "{\"primitive\":\"string\"}")]
         public string InterfaceAddress
@@ -59,7 +59,7 @@ namespace cloudflare.MagicWanGreTunnel
         /// <remarks>
         /// The name cannot contain spaces or special characters, must be 15 characters or less, and cannot share a name with another GRE tunnel.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_gre_tunnel#name MagicWanGreTunnel#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_gre_tunnel#name MagicWanGreTunnel#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -72,7 +72,7 @@ namespace cloudflare.MagicWanGreTunnel
 
         /// <summary>True if automatic stateful return routing should be enabled for a tunnel, false otherwise.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_gre_tunnel#automatic_return_routing MagicWanGreTunnel#automatic_return_routing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_gre_tunnel#automatic_return_routing MagicWanGreTunnel#automatic_return_routing}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "automaticReturnRouting", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -102,7 +102,7 @@ namespace cloudflare.MagicWanGreTunnel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_gre_tunnel#bgp MagicWanGreTunnel#bgp}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_gre_tunnel#bgp MagicWanGreTunnel#bgp}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bgp", typeJson: "{\"fqn\":\"cloudflare.magicWanGreTunnel.MagicWanGreTunnelBgp\"}", isOptional: true)]
         public cloudflare.MagicWanGreTunnel.IMagicWanGreTunnelBgp? Bgp
@@ -113,7 +113,7 @@ namespace cloudflare.MagicWanGreTunnel
 
         /// <summary>An optional description of the GRE tunnel.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_gre_tunnel#description MagicWanGreTunnel#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_gre_tunnel#description MagicWanGreTunnel#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -123,7 +123,7 @@ namespace cloudflare.MagicWanGreTunnel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_gre_tunnel#health_check MagicWanGreTunnel#health_check}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_gre_tunnel#health_check MagicWanGreTunnel#health_check}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "healthCheck", typeJson: "{\"fqn\":\"cloudflare.magicWanGreTunnel.MagicWanGreTunnelHealthCheck\"}", isOptional: true)]
         public cloudflare.MagicWanGreTunnel.IMagicWanGreTunnelHealthCheck? HealthCheck
@@ -136,7 +136,7 @@ namespace cloudflare.MagicWanGreTunnel
         /// <remarks>
         /// Eg if virtual_subnet6 is 2606:54c1:7:0:a9fe:12d2::/127 , interface_address6 could be 2606:54c1:7:0:a9fe:12d2:1:200/127
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_gre_tunnel#interface_address6 MagicWanGreTunnel#interface_address6}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_gre_tunnel#interface_address6 MagicWanGreTunnel#interface_address6}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "interfaceAddress6", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -148,7 +148,7 @@ namespace cloudflare.MagicWanGreTunnel
 
         /// <summary>Maximum Transmission Unit (MTU) in bytes for the GRE tunnel. The minimum value is 576.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_gre_tunnel#mtu MagicWanGreTunnel#mtu}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_gre_tunnel#mtu MagicWanGreTunnel#mtu}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mtu", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -160,7 +160,7 @@ namespace cloudflare.MagicWanGreTunnel
 
         /// <summary>Time To Live (TTL) in number of hops of the GRE tunnel.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_gre_tunnel#ttl MagicWanGreTunnel#ttl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_gre_tunnel#ttl MagicWanGreTunnel#ttl}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

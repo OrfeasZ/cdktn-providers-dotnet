@@ -99,6 +99,12 @@ namespace cloudflare.DataCloudflareRuleset
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "contentConverter", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable ContentConverter
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ContentType
         {
@@ -331,6 +337,12 @@ namespace cloudflare.DataCloudflareRuleset
         public virtual double ReadTimeout
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "redirectsForAiTraining", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable RedirectsForAiTraining
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "requestBodyBuffering", typeJson: "{\"primitive\":\"string\"}")]

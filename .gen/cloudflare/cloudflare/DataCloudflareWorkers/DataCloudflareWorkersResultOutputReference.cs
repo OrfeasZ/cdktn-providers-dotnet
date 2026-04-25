@@ -41,6 +41,12 @@ namespace cloudflare.DataCloudflareWorkers
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "deployedOn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DeployedOn
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {

@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareLogpushJob
     {
         /// <summary>Unique id of the job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/logpush_job#job_id DataCloudflareLogpushJob#job_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/logpush_job#job_id DataCloudflareLogpushJob#job_id}
         /// </remarks>
         [JsiiProperty(name: "jobId", typeJson: "{\"primitive\":\"number\"}")]
         public double JobId
@@ -22,7 +22,7 @@ namespace cloudflare.DataCloudflareLogpushJob
 
         /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/logpush_job#account_id DataCloudflareLogpushJob#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/logpush_job#account_id DataCloudflareLogpushJob#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace cloudflare.DataCloudflareLogpushJob
 
         /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/logpush_job#zone_id DataCloudflareLogpushJob#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/logpush_job#zone_id DataCloudflareLogpushJob#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

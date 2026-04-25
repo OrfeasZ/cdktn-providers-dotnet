@@ -11,7 +11,7 @@ namespace cloudflare.PagesProject
     {
         /// <summary>CPU time limit in milliseconds.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/pages_project#cpu_ms PagesProject#cpu_ms}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pages_project#cpu_ms PagesProject#cpu_ms}
         /// </remarks>
         [JsiiProperty(name: "cpuMs", typeJson: "{\"primitive\":\"number\"}")]
         public double CpuMs

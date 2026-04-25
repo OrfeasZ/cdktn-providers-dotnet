@@ -9,17 +9,18 @@ namespace cloudflare.ZeroTrustDlpDataset
     [JsiiByValue(fqn: "cloudflare.zeroTrustDlpDataset.ZeroTrustDlpDatasetConfig")]
     public class ZeroTrustDlpDatasetConfig : cloudflare.ZeroTrustDlpDataset.IZeroTrustDlpDatasetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dlp_dataset#account_id ZeroTrustDlpDataset#account_id}.</summary>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dlp_dataset#name ZeroTrustDlpDataset#name}.</summary>
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        public string Name
         {
             get;
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dlp_dataset#name ZeroTrustDlpDataset#name}.</summary>
-        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
-        public string Name
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dlp_dataset#account_id ZeroTrustDlpDataset#account_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;
@@ -32,7 +33,7 @@ namespace cloudflare.ZeroTrustDlpDataset
         /// Determines if the words should be matched in a case-sensitive manner
         /// Cannot be set to false if <c>secret</c> is true or undefined
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dlp_dataset#case_sensitive ZeroTrustDlpDataset#case_sensitive}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dlp_dataset#case_sensitive ZeroTrustDlpDataset#case_sensitive}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "caseSensitive", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -62,7 +63,7 @@ namespace cloudflare.ZeroTrustDlpDataset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dlp_dataset#dataset_id ZeroTrustDlpDataset#dataset_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dlp_dataset#dataset_id ZeroTrustDlpDataset#dataset_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "datasetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DatasetId
@@ -73,7 +74,7 @@ namespace cloudflare.ZeroTrustDlpDataset
 
         /// <summary>The description of the dataset.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dlp_dataset#description ZeroTrustDlpDataset#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dlp_dataset#description ZeroTrustDlpDataset#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -91,7 +92,7 @@ namespace cloudflare.ZeroTrustDlpDataset
         /// Omitting this field provides the default value 0, which is interpreted
         /// the same as 1.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dlp_dataset#encoding_version ZeroTrustDlpDataset#encoding_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dlp_dataset#encoding_version ZeroTrustDlpDataset#encoding_version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encodingVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -108,7 +109,7 @@ namespace cloudflare.ZeroTrustDlpDataset
         /// If true, the response will include a secret to use with the EDM encoder.
         /// If false, the response has no secret and the dataset is uploaded in plaintext.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dlp_dataset#secret ZeroTrustDlpDataset#secret}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dlp_dataset#secret ZeroTrustDlpDataset#secret}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secret", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

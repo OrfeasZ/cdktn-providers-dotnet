@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustAccessApplication
     {
         /// <summary>The UID of the IdP to use as the source for SCIM resources to provision to this application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#idp_uid ZeroTrustAccessApplication#idp_uid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#idp_uid ZeroTrustAccessApplication#idp_uid}
         /// </remarks>
         [JsiiProperty(name: "idpUid", typeJson: "{\"primitive\":\"string\"}")]
         public string IdpUid
@@ -22,7 +22,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>The base URI for the application's SCIM-compatible API.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#remote_uri ZeroTrustAccessApplication#remote_uri}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#remote_uri ZeroTrustAccessApplication#remote_uri}
         /// </remarks>
         [JsiiProperty(name: "remoteUri", typeJson: "{\"primitive\":\"string\"}")]
         public string RemoteUri
@@ -33,7 +33,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>Attributes for configuring HTTP Basic authentication scheme for SCIM provisioning to an application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#authentication ZeroTrustAccessApplication#authentication}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#authentication ZeroTrustAccessApplication#authentication}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authentication", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationScimConfigAuthentication\"}", isOptional: true)]
@@ -49,7 +49,7 @@ namespace cloudflare.ZeroTrustAccessApplication
         /// <remarks>
         /// If true, sets 'active' to false on the SCIM resource. Note: Some targets do not support DELETE operations.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#deactivate_on_delete ZeroTrustAccessApplication#deactivate_on_delete}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#deactivate_on_delete ZeroTrustAccessApplication#deactivate_on_delete}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deactivateOnDelete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>Whether SCIM provisioning is turned on for this application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#enabled ZeroTrustAccessApplication#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#enabled ZeroTrustAccessApplication#enabled}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -119,7 +119,7 @@ namespace cloudflare.ZeroTrustAccessApplication
         /// <remarks>
         /// These can transform or filter the resources to be provisioned.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#mappings ZeroTrustAccessApplication#mappings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#mappings ZeroTrustAccessApplication#mappings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mappings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationScimConfigMappings\"},\"kind\":\"array\"}}]}}", isOptional: true)]

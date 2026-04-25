@@ -9,7 +9,7 @@ namespace cloudflare.Organization
     [JsiiByValue(fqn: "cloudflare.organization.OrganizationConfig")]
     public class OrganizationConfig : cloudflare.Organization.IOrganizationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/organization#name Organization#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/organization#name Organization#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace cloudflare.Organization
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/organization#parent Organization#parent}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/organization#parent Organization#parent}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parent", typeJson: "{\"fqn\":\"cloudflare.organization.OrganizationParent\"}", isOptional: true)]
         public cloudflare.Organization.IOrganizationParent? Parent
@@ -26,7 +26,7 @@ namespace cloudflare.Organization
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/organization#profile Organization#profile}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/organization#profile Organization#profile}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "profile", typeJson: "{\"fqn\":\"cloudflare.organization.OrganizationProfile\"}", isOptional: true)]
         public cloudflare.Organization.IOrganizationProfile? Profile

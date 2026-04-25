@@ -33,6 +33,12 @@ namespace cloudflare.DataCloudflareWorkers
         {
         }
 
+        [JsiiProperty(name: "destinations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Destinations
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "enabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable Enabled
         {
@@ -47,6 +53,12 @@ namespace cloudflare.DataCloudflareWorkers
 
         [JsiiProperty(name: "invocationLogs", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable InvocationLogs
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "persist", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Persist
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }

@@ -12,7 +12,7 @@ namespace cloudflare.ZoneLockdown
         /// You must set the target to <c>ip</c> when specifying an IP address in the Zone Lockdown rule.
         /// Available values: "ip", "ip_range".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zone_lockdown#target ZoneLockdown#target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zone_lockdown#target ZoneLockdown#target}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace cloudflare.ZoneLockdown
 
         /// <summary>The IP address to match. This address will be compared to the IP address of incoming requests.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zone_lockdown#value ZoneLockdown#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zone_lockdown#value ZoneLockdown#value}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

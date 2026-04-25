@@ -41,6 +41,12 @@ namespace cloudflare.DataCloudflareStreams
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "clippedFrom", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ClippedFrom
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "created", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Created
         {
@@ -77,6 +83,12 @@ namespace cloudflare.DataCloudflareStreams
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "maxSizeBytes", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MaxSizeBytes
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "meta", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Meta
         {
@@ -99,6 +111,12 @@ namespace cloudflare.DataCloudflareStreams
         public virtual string Preview
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "publicDetails", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareStreams.DataCloudflareStreamsResultPublicDetailsOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareStreams.DataCloudflareStreamsResultPublicDetailsOutputReference PublicDetails
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareStreams.DataCloudflareStreamsResultPublicDetailsOutputReference>()!;
         }
 
         [JsiiProperty(name: "readyToStream", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]

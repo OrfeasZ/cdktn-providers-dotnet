@@ -33,6 +33,24 @@ namespace cloudflare.DataCloudflareAiSearchInstance
         {
         }
 
+        [JsiiMethod(name: "resetNamespace")]
+        public virtual void ResetNamespace()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetOrderBy")]
+        public virtual void ResetOrderBy()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetOrderByDirection")]
+        public virtual void ResetOrderByDirection()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSearch")]
         public virtual void ResetSearch()
         {
@@ -40,10 +58,52 @@ namespace cloudflare.DataCloudflareAiSearchInstance
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "namespaceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NamespaceInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "orderByDirectionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? OrderByDirectionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "orderByInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? OrderByInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "searchInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SearchInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Namespace
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "orderBy", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OrderBy
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "orderByDirection", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OrderByDirection
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "search", typeJson: "{\"primitive\":\"string\"}")]

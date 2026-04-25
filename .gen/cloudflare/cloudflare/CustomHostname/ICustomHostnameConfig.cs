@@ -9,7 +9,7 @@ namespace cloudflare.CustomHostname
     {
         /// <summary>The custom hostname that will point to your hostname via CNAME.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_hostname#hostname CustomHostname#hostname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_hostname#hostname CustomHostname#hostname}
         /// </remarks>
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
         string Hostname
@@ -17,29 +17,9 @@ namespace cloudflare.CustomHostname
             get;
         }
 
-        /// <summary>SSL properties used when creating the custom hostname.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_hostname#ssl CustomHostname#ssl}
-        /// </remarks>
-        [JsiiProperty(name: "ssl", typeJson: "{\"fqn\":\"cloudflare.customHostname.CustomHostnameSsl\"}")]
-        cloudflare.CustomHostname.ICustomHostnameSsl Ssl
-        {
-            get;
-        }
-
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_hostname#zone_id CustomHostname#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
-        {
-            get;
-        }
-
         /// <summary>Unique key/value metadata for this hostname. These are per-hostname (customer) settings.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_hostname#custom_metadata CustomHostname#custom_metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_hostname#custom_metadata CustomHostname#custom_metadata}
         /// </remarks>
         [JsiiProperty(name: "customMetadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -53,7 +33,7 @@ namespace cloudflare.CustomHostname
 
         /// <summary>a valid hostname that’s been added to your DNS zone as an A, AAAA, or CNAME record.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_hostname#custom_origin_server CustomHostname#custom_origin_server}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_hostname#custom_origin_server CustomHostname#custom_origin_server}
         /// </remarks>
         [JsiiProperty(name: "customOriginServer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -69,11 +49,39 @@ namespace cloudflare.CustomHostname
         /// <remarks>
         /// This can be a valid subdomain of the zone or custom origin server name or the string ':request_host_header:' which will cause the host header in the request to be used as SNI. Not configurable with default/fallback origin server.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_hostname#custom_origin_sni CustomHostname#custom_origin_sni}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_hostname#custom_origin_sni CustomHostname#custom_origin_sni}
         /// </remarks>
         [JsiiProperty(name: "customOriginSni", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CustomOriginSni
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>SSL properties used when creating the custom hostname.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_hostname#ssl CustomHostname#ssl}
+        /// </remarks>
+        [JsiiProperty(name: "ssl", typeJson: "{\"fqn\":\"cloudflare.customHostname.CustomHostnameSsl\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        cloudflare.CustomHostname.ICustomHostnameSsl? Ssl
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_hostname#zone_id CustomHostname#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? ZoneId
         {
             get
             {
@@ -90,7 +98,7 @@ namespace cloudflare.CustomHostname
 
             /// <summary>The custom hostname that will point to your hostname via CNAME.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_hostname#hostname CustomHostname#hostname}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_hostname#hostname CustomHostname#hostname}
             /// </remarks>
             [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
             public string Hostname
@@ -98,29 +106,9 @@ namespace cloudflare.CustomHostname
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>SSL properties used when creating the custom hostname.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_hostname#ssl CustomHostname#ssl}
-            /// </remarks>
-            [JsiiProperty(name: "ssl", typeJson: "{\"fqn\":\"cloudflare.customHostname.CustomHostnameSsl\"}")]
-            public cloudflare.CustomHostname.ICustomHostnameSsl Ssl
-            {
-                get => GetInstanceProperty<cloudflare.CustomHostname.ICustomHostnameSsl>()!;
-            }
-
-            /// <summary>Identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_hostname#zone_id CustomHostname#zone_id}
-            /// </remarks>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>Unique key/value metadata for this hostname. These are per-hostname (customer) settings.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_hostname#custom_metadata CustomHostname#custom_metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_hostname#custom_metadata CustomHostname#custom_metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customMetadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -131,7 +119,7 @@ namespace cloudflare.CustomHostname
 
             /// <summary>a valid hostname that’s been added to your DNS zone as an A, AAAA, or CNAME record.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_hostname#custom_origin_server CustomHostname#custom_origin_server}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_hostname#custom_origin_server CustomHostname#custom_origin_server}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customOriginServer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -144,11 +132,33 @@ namespace cloudflare.CustomHostname
             /// <remarks>
             /// This can be a valid subdomain of the zone or custom origin server name or the string ':request_host_header:' which will cause the host header in the request to be used as SNI. Not configurable with default/fallback origin server.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_hostname#custom_origin_sni CustomHostname#custom_origin_sni}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_hostname#custom_origin_sni CustomHostname#custom_origin_sni}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customOriginSni", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CustomOriginSni
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>SSL properties used when creating the custom hostname.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_hostname#ssl CustomHostname#ssl}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "ssl", typeJson: "{\"fqn\":\"cloudflare.customHostname.CustomHostnameSsl\"}", isOptional: true)]
+            public cloudflare.CustomHostname.ICustomHostnameSsl? Ssl
+            {
+                get => GetInstanceProperty<cloudflare.CustomHostname.ICustomHostnameSsl?>();
+            }
+
+            /// <summary>Identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_hostname#zone_id CustomHostname#zone_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
             {
                 get => GetInstanceProperty<string?>();
             }

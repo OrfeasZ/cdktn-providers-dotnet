@@ -9,7 +9,7 @@ namespace cloudflare.PageRule
     [JsiiByValue(fqn: "cloudflare.pageRule.PageRuleActionsForwardingUrl")]
     public class PageRuleActionsForwardingUrl : cloudflare.PageRule.IPageRuleActionsForwardingUrl
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/page_rule#status_code PageRule#status_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#status_code PageRule#status_code}.</summary>
         [JsiiProperty(name: "statusCode", typeJson: "{\"primitive\":\"number\"}")]
         public double StatusCode
         {
@@ -17,7 +17,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/page_rule#url PageRule#url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#url PageRule#url}.</summary>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         public string Url
         {

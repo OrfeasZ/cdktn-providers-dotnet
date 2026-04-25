@@ -7,7 +7,7 @@ namespace cloudflare.DataCloudflareOrganization
     [JsiiInterface(nativeType: typeof(IDataCloudflareOrganizationConfig), fullyQualifiedName: "cloudflare.dataCloudflareOrganization.DataCloudflareOrganizationConfig")]
     public interface IDataCloudflareOrganizationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/organization#filter DataCloudflareOrganization#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/organization#filter DataCloudflareOrganization#filter}.</summary>
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareOrganization.DataCloudflareOrganizationFilter\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.DataCloudflareOrganization.IDataCloudflareOrganizationFilter? Filter
@@ -18,7 +18,7 @@ namespace cloudflare.DataCloudflareOrganization
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/organization#organization_id DataCloudflareOrganization#organization_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/organization#organization_id DataCloudflareOrganization#organization_id}.</summary>
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OrganizationId
@@ -36,7 +36,7 @@ namespace cloudflare.DataCloudflareOrganization
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/organization#filter DataCloudflareOrganization#filter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/organization#filter DataCloudflareOrganization#filter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareOrganization.DataCloudflareOrganizationFilter\"}", isOptional: true)]
             public cloudflare.DataCloudflareOrganization.IDataCloudflareOrganizationFilter? Filter
@@ -44,7 +44,7 @@ namespace cloudflare.DataCloudflareOrganization
                 get => GetInstanceProperty<cloudflare.DataCloudflareOrganization.IDataCloudflareOrganizationFilter?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/organization#organization_id DataCloudflareOrganization#organization_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/organization#organization_id DataCloudflareOrganization#organization_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OrganizationId

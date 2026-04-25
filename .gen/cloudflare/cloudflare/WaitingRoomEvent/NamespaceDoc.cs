@@ -5,7 +5,7 @@ namespace cloudflare.WaitingRoomEvent
     /// <remarks>
     /// <h1><c>cloudflare_waiting_room_event</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room_event"><c>cloudflare_waiting_room_event</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room_event"><c>cloudflare_waiting_room_event</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

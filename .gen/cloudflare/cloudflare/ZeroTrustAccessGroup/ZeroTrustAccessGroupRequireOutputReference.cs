@@ -179,6 +179,12 @@ namespace cloudflare.ZeroTrustAccessGroup
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupRequireServiceToken)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putUserRiskScore", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupRequireUserRiskScore\"}}]")]
+        public virtual void PutUserRiskScore(cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupRequireUserRiskScore @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupRequireUserRiskScore)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetAnyValidServiceToken")]
         public virtual void ResetAnyValidServiceToken()
         {
@@ -319,6 +325,12 @@ namespace cloudflare.ZeroTrustAccessGroup
 
         [JsiiMethod(name: "resetServiceToken")]
         public virtual void ResetServiceToken()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetUserRiskScore")]
+        public virtual void ResetUserRiskScore()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -465,6 +477,12 @@ namespace cloudflare.ZeroTrustAccessGroup
         public virtual cloudflare.ZeroTrustAccessGroup.ZeroTrustAccessGroupRequireServiceTokenOutputReference ServiceToken
         {
             get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.ZeroTrustAccessGroupRequireServiceTokenOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "userRiskScore", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupRequireUserRiskScoreOutputReference\"}")]
+        public virtual cloudflare.ZeroTrustAccessGroup.ZeroTrustAccessGroupRequireUserRiskScoreOutputReference UserRiskScore
+        {
+            get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.ZeroTrustAccessGroupRequireUserRiskScoreOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -631,6 +649,13 @@ namespace cloudflare.ZeroTrustAccessGroup
         [JsiiOptional]
         [JsiiProperty(name: "serviceTokenInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupRequireServiceToken\"}]}}", isOptional: true)]
         public virtual object? ServiceTokenInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "userRiskScoreInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupRequireUserRiskScore\"}]}}", isOptional: true)]
+        public virtual object? UserRiskScoreInput
         {
             get => GetInstanceProperty<object?>();
         }

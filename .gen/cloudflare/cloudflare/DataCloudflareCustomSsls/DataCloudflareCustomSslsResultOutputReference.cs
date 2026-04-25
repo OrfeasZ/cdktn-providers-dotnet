@@ -41,6 +41,12 @@ namespace cloudflare.DataCloudflareCustomSsls
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "customCsrId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CustomCsrId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "expiresOn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ExpiresOn
         {

@@ -47,14 +47,14 @@ namespace cloudflare.LoadBalancerPool
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetDisabledAt")]
-        public virtual void ResetDisabledAt()
+        [JsiiMethod(name: "resetEnabled")]
+        public virtual void ResetEnabled()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetEnabled")]
-        public virtual void ResetEnabled()
+        [JsiiMethod(name: "resetFlattenCname")]
+        public virtual void ResetFlattenCname()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -89,6 +89,12 @@ namespace cloudflare.LoadBalancerPool
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "disabledAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DisabledAt
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "header", typeJson: "{\"fqn\":\"cloudflare.loadBalancerPool.LoadBalancerPoolOriginsHeaderOutputReference\"}")]
         public virtual cloudflare.LoadBalancerPool.LoadBalancerPoolOriginsHeaderOutputReference Header
         {
@@ -103,15 +109,15 @@ namespace cloudflare.LoadBalancerPool
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "disabledAtInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? DisabledAtInput
+        [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? EnabledInput
         {
-            get => GetInstanceProperty<string?>();
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? EnabledInput
+        [JsiiProperty(name: "flattenCnameInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? FlattenCnameInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -158,15 +164,35 @@ namespace cloudflare.LoadBalancerPool
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "disabledAt", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string DisabledAt
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        [JsiiProperty(name: "flattenCname", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object FlattenCname
         {
             get => GetInstanceProperty<object>()!;
             set

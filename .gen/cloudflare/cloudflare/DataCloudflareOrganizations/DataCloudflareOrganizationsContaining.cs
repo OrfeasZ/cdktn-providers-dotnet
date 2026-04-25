@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareOrganizations
     {
         /// <summary>Filter the list of organizations to the ones that contain this particular account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/organizations#account DataCloudflareOrganizations#account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/organizations#account DataCloudflareOrganizations#account}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "account", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace cloudflare.DataCloudflareOrganizations
 
         /// <summary>Filter the list of organizations to the ones that contain this particular organization.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/organizations#organization DataCloudflareOrganizations#organization}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/organizations#organization DataCloudflareOrganizations#organization}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "organization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace cloudflare.DataCloudflareOrganizations
         /// therein. An organization "containing" a user simply means the user is managed by
         /// that organization.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/organizations#user DataCloudflareOrganizations#user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/organizations#user DataCloudflareOrganizations#user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "user", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

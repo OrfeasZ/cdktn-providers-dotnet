@@ -9,23 +9,24 @@ namespace cloudflare.DataCloudflareNotificationPolicy
     [JsiiByValue(fqn: "cloudflare.dataCloudflareNotificationPolicy.DataCloudflareNotificationPolicyConfig")]
     public class DataCloudflareNotificationPolicyConfig : cloudflare.DataCloudflareNotificationPolicy.IDataCloudflareNotificationPolicyConfig
     {
-        /// <summary>The account id.</summary>
+        /// <summary>The unique identifier of a notification policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/notification_policy#account_id DataCloudflareNotificationPolicy#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/notification_policy#policy_id DataCloudflareNotificationPolicy#policy_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiProperty(name: "policyId", typeJson: "{\"primitive\":\"string\"}")]
+        public string PolicyId
         {
             get;
             set;
         }
 
-        /// <summary>The unique identifier of a notification policy.</summary>
+        /// <summary>The account id.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/notification_policy#policy_id DataCloudflareNotificationPolicy#policy_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/notification_policy#account_id DataCloudflareNotificationPolicy#account_id}
         /// </remarks>
-        [JsiiProperty(name: "policyId", typeJson: "{\"primitive\":\"string\"}")]
-        public string PolicyId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

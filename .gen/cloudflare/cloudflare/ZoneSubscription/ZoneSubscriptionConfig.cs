@@ -11,7 +11,7 @@ namespace cloudflare.ZoneSubscription
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zone_subscription#zone_id ZoneSubscription#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zone_subscription#zone_id ZoneSubscription#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId
@@ -25,7 +25,7 @@ namespace cloudflare.ZoneSubscription
         /// Available values: "weekly", "monthly", "quarterly", "yearly".
         /// Note: Some plans may not support frequency configuration and will return "not-applicable".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zone_subscription#frequency ZoneSubscription#frequency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zone_subscription#frequency ZoneSubscription#frequency}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "frequency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace cloudflare.ZoneSubscription
 
         /// <summary>The rate plan applied to the subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zone_subscription#rate_plan ZoneSubscription#rate_plan}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zone_subscription#rate_plan ZoneSubscription#rate_plan}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ratePlan", typeJson: "{\"fqn\":\"cloudflare.zoneSubscription.ZoneSubscriptionRatePlan\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace cloudflare.TokenValidationConfig
     {
         /// <summary>Algorithm Available values: "RS256", "RS384", "RS512", "PS256", "PS384", "PS512", "ES256", "ES384".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#alg TokenValidationConfig#alg}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#alg TokenValidationConfig#alg}
         /// </remarks>
         [JsiiProperty(name: "alg", typeJson: "{\"primitive\":\"string\"}")]
         string Alg
@@ -19,7 +19,7 @@ namespace cloudflare.TokenValidationConfig
 
         /// <summary>Key ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#kid TokenValidationConfig#kid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#kid TokenValidationConfig#kid}
         /// </remarks>
         [JsiiProperty(name: "kid", typeJson: "{\"primitive\":\"string\"}")]
         string Kid
@@ -29,7 +29,7 @@ namespace cloudflare.TokenValidationConfig
 
         /// <summary>Key Type Available values: "RSA", "EC".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#kty TokenValidationConfig#kty}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#kty TokenValidationConfig#kty}
         /// </remarks>
         [JsiiProperty(name: "kty", typeJson: "{\"primitive\":\"string\"}")]
         string Kty
@@ -39,7 +39,7 @@ namespace cloudflare.TokenValidationConfig
 
         /// <summary>Curve Available values: "P-256", "P-384".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#crv TokenValidationConfig#crv}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#crv TokenValidationConfig#crv}
         /// </remarks>
         [JsiiProperty(name: "crv", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -53,7 +53,7 @@ namespace cloudflare.TokenValidationConfig
 
         /// <summary>RSA exponent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#e TokenValidationConfig#e}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#e TokenValidationConfig#e}
         /// </remarks>
         [JsiiProperty(name: "e", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -67,7 +67,7 @@ namespace cloudflare.TokenValidationConfig
 
         /// <summary>RSA modulus.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#n TokenValidationConfig#n}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#n TokenValidationConfig#n}
         /// </remarks>
         [JsiiProperty(name: "n", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -81,7 +81,7 @@ namespace cloudflare.TokenValidationConfig
 
         /// <summary>X EC coordinate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#x TokenValidationConfig#x}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#x TokenValidationConfig#x}
         /// </remarks>
         [JsiiProperty(name: "x", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -95,7 +95,7 @@ namespace cloudflare.TokenValidationConfig
 
         /// <summary>Y EC coordinate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#y TokenValidationConfig#y}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#y TokenValidationConfig#y}
         /// </remarks>
         [JsiiProperty(name: "y", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -116,7 +116,7 @@ namespace cloudflare.TokenValidationConfig
 
             /// <summary>Algorithm Available values: "RS256", "RS384", "RS512", "PS256", "PS384", "PS512", "ES256", "ES384".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#alg TokenValidationConfig#alg}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#alg TokenValidationConfig#alg}
             /// </remarks>
             [JsiiProperty(name: "alg", typeJson: "{\"primitive\":\"string\"}")]
             public string Alg
@@ -126,7 +126,7 @@ namespace cloudflare.TokenValidationConfig
 
             /// <summary>Key ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#kid TokenValidationConfig#kid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#kid TokenValidationConfig#kid}
             /// </remarks>
             [JsiiProperty(name: "kid", typeJson: "{\"primitive\":\"string\"}")]
             public string Kid
@@ -136,7 +136,7 @@ namespace cloudflare.TokenValidationConfig
 
             /// <summary>Key Type Available values: "RSA", "EC".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#kty TokenValidationConfig#kty}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#kty TokenValidationConfig#kty}
             /// </remarks>
             [JsiiProperty(name: "kty", typeJson: "{\"primitive\":\"string\"}")]
             public string Kty
@@ -146,7 +146,7 @@ namespace cloudflare.TokenValidationConfig
 
             /// <summary>Curve Available values: "P-256", "P-384".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#crv TokenValidationConfig#crv}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#crv TokenValidationConfig#crv}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "crv", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -157,7 +157,7 @@ namespace cloudflare.TokenValidationConfig
 
             /// <summary>RSA exponent.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#e TokenValidationConfig#e}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#e TokenValidationConfig#e}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "e", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -168,7 +168,7 @@ namespace cloudflare.TokenValidationConfig
 
             /// <summary>RSA modulus.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#n TokenValidationConfig#n}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#n TokenValidationConfig#n}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "n", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -179,7 +179,7 @@ namespace cloudflare.TokenValidationConfig
 
             /// <summary>X EC coordinate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#x TokenValidationConfig#x}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#x TokenValidationConfig#x}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "x", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -190,7 +190,7 @@ namespace cloudflare.TokenValidationConfig
 
             /// <summary>Y EC coordinate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_config#y TokenValidationConfig#y}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_config#y TokenValidationConfig#y}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "y", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

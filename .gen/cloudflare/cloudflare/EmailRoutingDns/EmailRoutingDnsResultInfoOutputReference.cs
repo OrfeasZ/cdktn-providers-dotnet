@@ -57,6 +57,12 @@ namespace cloudflare.EmailRoutingDns
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "totalPages", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double TotalPages
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.emailRoutingDns.EmailRoutingDnsResultInfo\"}", isOptional: true)]
         public virtual cloudflare.EmailRoutingDns.IEmailRoutingDnsResultInfo? InternalValue

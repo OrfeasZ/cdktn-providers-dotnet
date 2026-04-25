@@ -33,6 +33,12 @@ namespace cloudflare.DataCloudflareAiSearchInstances
         {
         }
 
+        [JsiiProperty(name: "contentSelector", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAiSearchInstances.DataCloudflareAiSearchInstancesResultSourceParamsWebCrawlerParseOptionsContentSelectorList\"}")]
+        public virtual cloudflare.DataCloudflareAiSearchInstances.DataCloudflareAiSearchInstancesResultSourceParamsWebCrawlerParseOptionsContentSelectorList ContentSelector
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareAiSearchInstances.DataCloudflareAiSearchInstancesResultSourceParamsWebCrawlerParseOptionsContentSelectorList>()!;
+        }
+
         [JsiiProperty(name: "includeHeaders", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap IncludeHeaders
         {

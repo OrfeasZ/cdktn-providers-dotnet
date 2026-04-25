@@ -9,7 +9,7 @@ namespace cloudflare.AccountDnsSettings
     {
         /// <summary>The ID of the zone to fallback to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/account_dns_settings#reference_zone_id AccountDnsSettings#reference_zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_dns_settings#reference_zone_id AccountDnsSettings#reference_zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "referenceZoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

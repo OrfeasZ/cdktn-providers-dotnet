@@ -125,6 +125,18 @@ namespace cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpServers
             get => GetInstanceProperty<Io.Cdktn.StringMapList>()!;
         }
 
+        [JsiiProperty(name: "updatedPrompts", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessAiControlsMcpServers.DataCloudflareZeroTrustAccessAiControlsMcpServersResultUpdatedPromptsList\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpServers.DataCloudflareZeroTrustAccessAiControlsMcpServersResultUpdatedPromptsList UpdatedPrompts
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpServers.DataCloudflareZeroTrustAccessAiControlsMcpServersResultUpdatedPromptsList>()!;
+        }
+
+        [JsiiProperty(name: "updatedTools", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessAiControlsMcpServers.DataCloudflareZeroTrustAccessAiControlsMcpServersResultUpdatedToolsList\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpServers.DataCloudflareZeroTrustAccessAiControlsMcpServersResultUpdatedToolsList UpdatedTools
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpServers.DataCloudflareZeroTrustAccessAiControlsMcpServersResultUpdatedToolsList>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessAiControlsMcpServers.DataCloudflareZeroTrustAccessAiControlsMcpServersResult\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpServers.IDataCloudflareZeroTrustAccessAiControlsMcpServersResult? InternalValue

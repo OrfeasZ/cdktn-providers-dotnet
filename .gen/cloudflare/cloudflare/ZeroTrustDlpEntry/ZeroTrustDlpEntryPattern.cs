@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustDlpEntry
     [JsiiByValue(fqn: "cloudflare.zeroTrustDlpEntry.ZeroTrustDlpEntryPattern")]
     public class ZeroTrustDlpEntryPattern : cloudflare.ZeroTrustDlpEntry.IZeroTrustDlpEntryPattern
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dlp_entry#regex ZeroTrustDlpEntry#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dlp_entry#regex ZeroTrustDlpEntry#regex}.</summary>
         [JsiiProperty(name: "regex", typeJson: "{\"primitive\":\"string\"}")]
         public string Regex
         {
@@ -19,7 +19,7 @@ namespace cloudflare.ZeroTrustDlpEntry
 
         /// <summary>Available values: "luhn".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dlp_entry#validation ZeroTrustDlpEntry#validation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dlp_entry#validation ZeroTrustDlpEntry#validation}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "validation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

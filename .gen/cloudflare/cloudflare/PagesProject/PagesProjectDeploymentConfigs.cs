@@ -9,7 +9,7 @@ namespace cloudflare.PagesProject
     {
         /// <summary>Configs for preview deploys.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/pages_project#preview PagesProject#preview}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pages_project#preview PagesProject#preview}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "preview", typeJson: "{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreview\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Configs for production deploys.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/pages_project#production PagesProject#production}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pages_project#production PagesProject#production}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "production", typeJson: "{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsProduction\"}", isOptional: true)]

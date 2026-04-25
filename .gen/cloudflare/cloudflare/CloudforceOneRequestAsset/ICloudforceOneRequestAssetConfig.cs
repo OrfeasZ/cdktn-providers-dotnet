@@ -7,19 +7,9 @@ namespace cloudflare.CloudforceOneRequestAsset
     [JsiiInterface(nativeType: typeof(ICloudforceOneRequestAssetConfig), fullyQualifiedName: "cloudflare.cloudforceOneRequestAsset.CloudforceOneRequestAssetConfig")]
     public interface ICloudforceOneRequestAssetConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/cloudforce_one_request_asset#account_id CloudforceOneRequestAsset#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
-        {
-            get;
-        }
-
         /// <summary>Page number of results.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/cloudforce_one_request_asset#page CloudforceOneRequestAsset#page}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/cloudforce_one_request_asset#page CloudforceOneRequestAsset#page}
         /// </remarks>
         [JsiiProperty(name: "page", typeJson: "{\"primitive\":\"number\"}")]
         double Page
@@ -29,7 +19,7 @@ namespace cloudflare.CloudforceOneRequestAsset
 
         /// <summary>Number of results per page.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/cloudforce_one_request_asset#per_page CloudforceOneRequestAsset#per_page}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/cloudforce_one_request_asset#per_page CloudforceOneRequestAsset#per_page}
         /// </remarks>
         [JsiiProperty(name: "perPage", typeJson: "{\"primitive\":\"number\"}")]
         double PerPage
@@ -39,7 +29,7 @@ namespace cloudflare.CloudforceOneRequestAsset
 
         /// <summary>UUID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/cloudforce_one_request_asset#request_id CloudforceOneRequestAsset#request_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/cloudforce_one_request_asset#request_id CloudforceOneRequestAsset#request_id}
         /// </remarks>
         [JsiiProperty(name: "requestId", typeJson: "{\"primitive\":\"string\"}")]
         string RequestId
@@ -47,9 +37,23 @@ namespace cloudflare.CloudforceOneRequestAsset
             get;
         }
 
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/cloudforce_one_request_asset#account_id CloudforceOneRequestAsset#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>Asset file to upload.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/cloudforce_one_request_asset#source CloudforceOneRequestAsset#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/cloudforce_one_request_asset#source CloudforceOneRequestAsset#source}
         /// </remarks>
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,19 +72,9 @@ namespace cloudflare.CloudforceOneRequestAsset
             {
             }
 
-            /// <summary>Identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/cloudforce_one_request_asset#account_id CloudforceOneRequestAsset#account_id}
-            /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>Page number of results.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/cloudforce_one_request_asset#page CloudforceOneRequestAsset#page}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/cloudforce_one_request_asset#page CloudforceOneRequestAsset#page}
             /// </remarks>
             [JsiiProperty(name: "page", typeJson: "{\"primitive\":\"number\"}")]
             public double Page
@@ -90,7 +84,7 @@ namespace cloudflare.CloudforceOneRequestAsset
 
             /// <summary>Number of results per page.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/cloudforce_one_request_asset#per_page CloudforceOneRequestAsset#per_page}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/cloudforce_one_request_asset#per_page CloudforceOneRequestAsset#per_page}
             /// </remarks>
             [JsiiProperty(name: "perPage", typeJson: "{\"primitive\":\"number\"}")]
             public double PerPage
@@ -100,7 +94,7 @@ namespace cloudflare.CloudforceOneRequestAsset
 
             /// <summary>UUID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/cloudforce_one_request_asset#request_id CloudforceOneRequestAsset#request_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/cloudforce_one_request_asset#request_id CloudforceOneRequestAsset#request_id}
             /// </remarks>
             [JsiiProperty(name: "requestId", typeJson: "{\"primitive\":\"string\"}")]
             public string RequestId
@@ -108,9 +102,20 @@ namespace cloudflare.CloudforceOneRequestAsset
                 get => GetInstanceProperty<string>()!;
             }
 
+            /// <summary>Identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/cloudforce_one_request_asset#account_id CloudforceOneRequestAsset#account_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
             /// <summary>Asset file to upload.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/cloudforce_one_request_asset#source CloudforceOneRequestAsset#source}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/cloudforce_one_request_asset#source CloudforceOneRequestAsset#source}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

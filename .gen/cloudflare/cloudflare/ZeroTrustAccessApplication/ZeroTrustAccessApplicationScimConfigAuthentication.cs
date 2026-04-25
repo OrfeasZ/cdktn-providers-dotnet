@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustAccessApplication
     {
         /// <summary>The authentication scheme to use when making SCIM requests to this application. Available values: "httpbasic", "oauthbearertoken", "oauth2", "access_service_token".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#scheme ZeroTrustAccessApplication#scheme}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#scheme ZeroTrustAccessApplication#scheme}
         /// </remarks>
         [JsiiProperty(name: "scheme", typeJson: "{\"primitive\":\"string\"}")]
         public string Scheme
@@ -22,7 +22,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>URL used to generate the auth code used during token generation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#authorization_url ZeroTrustAccessApplication#authorization_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#authorization_url ZeroTrustAccessApplication#authorization_url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authorizationUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>Client ID used to authenticate when generating a token for authenticating with the remote SCIM service.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#client_id ZeroTrustAccessApplication#client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#client_id ZeroTrustAccessApplication#client_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>Secret used to authenticate when generating a token for authenticating with the remove SCIM service.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#client_secret ZeroTrustAccessApplication#client_secret}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#client_secret ZeroTrustAccessApplication#client_secret}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientSecret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>Password used to authenticate with the remote SCIM service.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#password ZeroTrustAccessApplication#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#password ZeroTrustAccessApplication#password}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>The authorization scopes to request when generating the token used to authenticate with the remove SCIM service.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#scopes ZeroTrustAccessApplication#scopes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#scopes ZeroTrustAccessApplication#scopes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>Token used to authenticate with the remote SCIM service.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#token ZeroTrustAccessApplication#token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#token ZeroTrustAccessApplication#token}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "token", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>URL used to generate the token used to authenticate with the remote SCIM service.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#token_url ZeroTrustAccessApplication#token_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#token_url ZeroTrustAccessApplication#token_url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tokenUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -106,7 +106,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>User name used to authenticate with the remote SCIM service.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#user ZeroTrustAccessApplication#user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#user ZeroTrustAccessApplication#user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "user", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

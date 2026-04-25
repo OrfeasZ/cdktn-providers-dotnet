@@ -15,7 +15,7 @@ namespace cloudflare.R2BucketSippy
         /// Sippy will use this token when writing objects to R2, so it is
         /// best to scope this token to the bucket you're enabling Sippy for.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_sippy#access_key_id R2BucketSippy#access_key_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_sippy#access_key_id R2BucketSippy#access_key_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accessKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -27,7 +27,7 @@ namespace cloudflare.R2BucketSippy
 
         /// <summary>Available values: "r2".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_sippy#cloud_provider R2BucketSippy#cloud_provider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_sippy#cloud_provider R2BucketSippy#cloud_provider}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudProvider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace cloudflare.R2BucketSippy
         /// Sippy will use this token when writing objects to R2, so it is
         /// best to scope this token to the bucket you're enabling Sippy for.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_sippy#secret_access_key R2BucketSippy#secret_access_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_sippy#secret_access_key R2BucketSippy#secret_access_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secretAccessKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

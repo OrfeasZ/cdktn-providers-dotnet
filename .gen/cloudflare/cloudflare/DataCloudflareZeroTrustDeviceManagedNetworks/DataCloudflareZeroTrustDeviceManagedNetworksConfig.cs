@@ -9,20 +9,21 @@ namespace cloudflare.DataCloudflareZeroTrustDeviceManagedNetworks
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustDeviceManagedNetworks.DataCloudflareZeroTrustDeviceManagedNetworksConfig")]
     public class DataCloudflareZeroTrustDeviceManagedNetworksConfig : cloudflare.DataCloudflareZeroTrustDeviceManagedNetworks.IDataCloudflareZeroTrustDeviceManagedNetworksConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_device_managed_networks#account_id DataCloudflareZeroTrustDeviceManagedNetworks#account_id}.</summary>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        /// <summary>API UUID.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_device_managed_networks#network_id DataCloudflareZeroTrustDeviceManagedNetworks#network_id}
+        /// </remarks>
+        [JsiiProperty(name: "networkId", typeJson: "{\"primitive\":\"string\"}")]
+        public string NetworkId
         {
             get;
             set;
         }
 
-        /// <summary>API UUID.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_device_managed_networks#network_id DataCloudflareZeroTrustDeviceManagedNetworks#network_id}
-        /// </remarks>
-        [JsiiProperty(name: "networkId", typeJson: "{\"primitive\":\"string\"}")]
-        public string NetworkId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_device_managed_networks#account_id DataCloudflareZeroTrustDeviceManagedNetworks#account_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

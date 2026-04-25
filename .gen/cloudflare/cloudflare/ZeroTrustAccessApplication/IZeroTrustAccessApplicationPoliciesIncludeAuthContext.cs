@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustAccessApplication
     {
         /// <summary>The ACID of an Authentication context.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#ac_id ZeroTrustAccessApplication#ac_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#ac_id ZeroTrustAccessApplication#ac_id}
         /// </remarks>
         [JsiiProperty(name: "acId", typeJson: "{\"primitive\":\"string\"}")]
         string AcId
@@ -19,7 +19,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>The ID of an Authentication context.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#id ZeroTrustAccessApplication#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#id ZeroTrustAccessApplication#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -32,7 +32,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>The ID of your Azure identity provider.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#identity_provider_id ZeroTrustAccessApplication#identity_provider_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#identity_provider_id ZeroTrustAccessApplication#identity_provider_id}
         /// </remarks>
         [JsiiProperty(name: "identityProviderId", typeJson: "{\"primitive\":\"string\"}")]
         string IdentityProviderId
@@ -49,7 +49,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
             /// <summary>The ACID of an Authentication context.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#ac_id ZeroTrustAccessApplication#ac_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#ac_id ZeroTrustAccessApplication#ac_id}
             /// </remarks>
             [JsiiProperty(name: "acId", typeJson: "{\"primitive\":\"string\"}")]
             public string AcId
@@ -59,7 +59,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
             /// <summary>The ID of an Authentication context.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#id ZeroTrustAccessApplication#id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#id ZeroTrustAccessApplication#id}
             ///
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
             /// <summary>The ID of your Azure identity provider.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#identity_provider_id ZeroTrustAccessApplication#identity_provider_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#identity_provider_id ZeroTrustAccessApplication#identity_provider_id}
             /// </remarks>
             [JsiiProperty(name: "identityProviderId", typeJson: "{\"primitive\":\"string\"}")]
             public string IdentityProviderId

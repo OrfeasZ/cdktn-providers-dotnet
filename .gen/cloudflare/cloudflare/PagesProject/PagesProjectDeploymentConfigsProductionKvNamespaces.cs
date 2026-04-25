@@ -11,7 +11,7 @@ namespace cloudflare.PagesProject
     {
         /// <summary>ID of the KV namespace.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/pages_project#namespace_id PagesProject#namespace_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pages_project#namespace_id PagesProject#namespace_id}
         /// </remarks>
         [JsiiProperty(name: "namespaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string NamespaceId

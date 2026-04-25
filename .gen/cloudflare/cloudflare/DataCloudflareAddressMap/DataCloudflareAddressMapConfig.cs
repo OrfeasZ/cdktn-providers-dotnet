@@ -9,23 +9,24 @@ namespace cloudflare.DataCloudflareAddressMap
     [JsiiByValue(fqn: "cloudflare.dataCloudflareAddressMap.DataCloudflareAddressMapConfig")]
     public class DataCloudflareAddressMapConfig : cloudflare.DataCloudflareAddressMap.IDataCloudflareAddressMapConfig
     {
-        /// <summary>Identifier of a Cloudflare account.</summary>
+        /// <summary>Identifier of an Address Map.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/address_map#account_id DataCloudflareAddressMap#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/address_map#address_map_id DataCloudflareAddressMap#address_map_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiProperty(name: "addressMapId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AddressMapId
         {
             get;
             set;
         }
 
-        /// <summary>Identifier of an Address Map.</summary>
+        /// <summary>Identifier of a Cloudflare account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/address_map#address_map_id DataCloudflareAddressMap#address_map_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/address_map#account_id DataCloudflareAddressMap#account_id}
         /// </remarks>
-        [JsiiProperty(name: "addressMapId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AddressMapId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

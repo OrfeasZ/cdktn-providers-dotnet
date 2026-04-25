@@ -12,7 +12,7 @@ namespace cloudflare.UserAgentBlockingRule
         /// You must set the target to <c>ua</c> when specifying a user agent in the rule.
         /// Available values: "ua".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/user_agent_blocking_rule#target UserAgentBlockingRule#target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user_agent_blocking_rule#target UserAgentBlockingRule#target}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace cloudflare.UserAgentBlockingRule
 
         /// <summary>the user agent to exactly match.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/user_agent_blocking_rule#value UserAgentBlockingRule#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user_agent_blocking_rule#value UserAgentBlockingRule#value}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

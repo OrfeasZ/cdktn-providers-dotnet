@@ -11,7 +11,7 @@ namespace cloudflare.RateLimit
     {
         /// <summary>The action to perform when the threshold of matched traffic within the configured period is exceeded.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/rate_limit#action RateLimit#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/rate_limit#action RateLimit#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"cloudflare.rateLimit.RateLimitAction\"}")]
         public cloudflare.RateLimit.IRateLimitAction Action
@@ -22,7 +22,7 @@ namespace cloudflare.RateLimit
 
         /// <summary>Determines which traffic the rate limit counts towards the threshold.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/rate_limit#match RateLimit#match}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/rate_limit#match RateLimit#match}
         /// </remarks>
         [JsiiProperty(name: "match", typeJson: "{\"fqn\":\"cloudflare.rateLimit.RateLimitMatch\"}")]
         public cloudflare.RateLimit.IRateLimitMatch Match
@@ -35,7 +35,7 @@ namespace cloudflare.RateLimit
         /// <remarks>
         /// If the count exceeds the configured threshold within this period, Cloudflare will perform the configured action.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/rate_limit#period RateLimit#period}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/rate_limit#period RateLimit#period}
         /// </remarks>
         [JsiiProperty(name: "period", typeJson: "{\"primitive\":\"number\"}")]
         public double Period
@@ -48,7 +48,7 @@ namespace cloudflare.RateLimit
         /// <remarks>
         /// Configure this value along with the <c>period</c> property to establish a threshold per period.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/rate_limit#threshold RateLimit#threshold}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/rate_limit#threshold RateLimit#threshold}
         /// </remarks>
         [JsiiProperty(name: "threshold", typeJson: "{\"primitive\":\"number\"}")]
         public double Threshold
@@ -59,10 +59,11 @@ namespace cloudflare.RateLimit
 
         /// <summary>Defines an identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/rate_limit#zone_id RateLimit#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/rate_limit#zone_id RateLimit#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
+        [JsiiOptional]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
         {
             get;
             set;

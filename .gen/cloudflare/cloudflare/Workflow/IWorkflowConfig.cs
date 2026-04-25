@@ -7,32 +7,47 @@ namespace cloudflare.Workflow
     [JsiiInterface(nativeType: typeof(IWorkflowConfig), fullyQualifiedName: "cloudflare.workflow.WorkflowConfig")]
     public interface IWorkflowConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workflow#account_id Workflow#account_id}.</summary>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
-        {
-            get;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workflow#class_name Workflow#class_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workflow#class_name Workflow#class_name}.</summary>
         [JsiiProperty(name: "className", typeJson: "{\"primitive\":\"string\"}")]
         string ClassName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workflow#script_name Workflow#script_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workflow#script_name Workflow#script_name}.</summary>
         [JsiiProperty(name: "scriptName", typeJson: "{\"primitive\":\"string\"}")]
         string ScriptName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workflow#workflow_name Workflow#workflow_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workflow#workflow_name Workflow#workflow_name}.</summary>
         [JsiiProperty(name: "workflowName", typeJson: "{\"primitive\":\"string\"}")]
         string WorkflowName
         {
             get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workflow#account_id Workflow#account_id}.</summary>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workflow#limits Workflow#limits}.</summary>
+        [JsiiProperty(name: "limits", typeJson: "{\"fqn\":\"cloudflare.workflow.WorkflowLimits\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        cloudflare.Workflow.IWorkflowLimits? Limits
+        {
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IWorkflowConfig), fullyQualifiedName: "cloudflare.workflow.WorkflowConfig")]
@@ -42,32 +57,41 @@ namespace cloudflare.Workflow
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workflow#account_id Workflow#account_id}.</summary>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workflow#class_name Workflow#class_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workflow#class_name Workflow#class_name}.</summary>
             [JsiiProperty(name: "className", typeJson: "{\"primitive\":\"string\"}")]
             public string ClassName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workflow#script_name Workflow#script_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workflow#script_name Workflow#script_name}.</summary>
             [JsiiProperty(name: "scriptName", typeJson: "{\"primitive\":\"string\"}")]
             public string ScriptName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workflow#workflow_name Workflow#workflow_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workflow#workflow_name Workflow#workflow_name}.</summary>
             [JsiiProperty(name: "workflowName", typeJson: "{\"primitive\":\"string\"}")]
             public string WorkflowName
             {
                 get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workflow#account_id Workflow#account_id}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workflow#limits Workflow#limits}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "limits", typeJson: "{\"fqn\":\"cloudflare.workflow.WorkflowLimits\"}", isOptional: true)]
+            public cloudflare.Workflow.IWorkflowLimits? Limits
+            {
+                get => GetInstanceProperty<cloudflare.Workflow.IWorkflowLimits?>();
             }
 
             /// <remarks>

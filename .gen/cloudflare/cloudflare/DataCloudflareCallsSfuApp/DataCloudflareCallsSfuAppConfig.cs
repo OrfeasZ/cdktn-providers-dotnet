@@ -9,23 +9,24 @@ namespace cloudflare.DataCloudflareCallsSfuApp
     [JsiiByValue(fqn: "cloudflare.dataCloudflareCallsSfuApp.DataCloudflareCallsSfuAppConfig")]
     public class DataCloudflareCallsSfuAppConfig : cloudflare.DataCloudflareCallsSfuApp.IDataCloudflareCallsSfuAppConfig
     {
-        /// <summary>The account identifier tag.</summary>
+        /// <summary>A Cloudflare-generated unique identifier for a item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/calls_sfu_app#account_id DataCloudflareCallsSfuApp#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/calls_sfu_app#app_id DataCloudflareCallsSfuApp#app_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AppId
         {
             get;
             set;
         }
 
-        /// <summary>A Cloudflare-generated unique identifier for a item.</summary>
+        /// <summary>The account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/calls_sfu_app#app_id DataCloudflareCallsSfuApp#app_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/calls_sfu_app#account_id DataCloudflareCallsSfuApp#account_id}
         /// </remarks>
-        [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AppId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

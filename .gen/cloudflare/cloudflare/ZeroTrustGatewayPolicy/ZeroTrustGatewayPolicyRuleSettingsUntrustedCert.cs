@@ -12,7 +12,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         /// The default action an error with HTTP code 526.
         /// Available values: "pass_through", "block", "error".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#action ZeroTrustGatewayPolicy#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#action ZeroTrustGatewayPolicy#action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,23 +9,24 @@ namespace cloudflare.DataCloudflareSsoConnector
     [JsiiByValue(fqn: "cloudflare.dataCloudflareSsoConnector.DataCloudflareSsoConnectorConfig")]
     public class DataCloudflareSsoConnectorConfig : cloudflare.DataCloudflareSsoConnector.IDataCloudflareSsoConnectorConfig
     {
-        /// <summary>Account identifier tag.</summary>
+        /// <summary>SSO Connector identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/sso_connector#account_id DataCloudflareSsoConnector#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/sso_connector#sso_connector_id DataCloudflareSsoConnector#sso_connector_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiProperty(name: "ssoConnectorId", typeJson: "{\"primitive\":\"string\"}")]
+        public string SsoConnectorId
         {
             get;
             set;
         }
 
-        /// <summary>SSO Connector identifier tag.</summary>
+        /// <summary>Account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/sso_connector#sso_connector_id DataCloudflareSsoConnector#sso_connector_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/sso_connector#account_id DataCloudflareSsoConnector#account_id}
         /// </remarks>
-        [JsiiProperty(name: "ssoConnectorId", typeJson: "{\"primitive\":\"string\"}")]
-        public string SsoConnectorId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

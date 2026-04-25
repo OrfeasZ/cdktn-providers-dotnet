@@ -9,7 +9,7 @@ namespace cloudflare.AiSearchInstance
     {
         private object? _createdFromAisearchWizard;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ai_search_instance#created_from_aisearch_wizard AiSearchInstance#created_from_aisearch_wizard}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_instance#created_from_aisearch_wizard AiSearchInstance#created_from_aisearch_wizard}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "createdFromAisearchWizard", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? CreatedFromAisearchWizard
@@ -38,7 +38,16 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ai_search_instance#worker_domain AiSearchInstance#worker_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_instance#search_for_agents AiSearchInstance#search_for_agents}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "searchForAgents", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceMetadataSearchForAgents\"}", isOptional: true)]
+        public cloudflare.AiSearchInstance.IAiSearchInstanceMetadataSearchForAgents? SearchForAgents
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_instance#worker_domain AiSearchInstance#worker_domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "workerDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WorkerDomain

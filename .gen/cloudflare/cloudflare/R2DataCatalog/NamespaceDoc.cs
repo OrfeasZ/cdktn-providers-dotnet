@@ -1,0 +1,14 @@
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace cloudflare.R2DataCatalog
+{
+    /// <remarks>
+    /// <h1><c>cloudflare_r2_data_catalog</c></h1>
+    ///
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_data_catalog"><c>cloudflare_r2_data_catalog</c></a>.
+    /// </remarks>
+    [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+    public class NamespaceDoc
+    {
+    }
+}

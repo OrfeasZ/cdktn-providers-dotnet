@@ -9,7 +9,7 @@ namespace cloudflare.R2BucketCors
     {
         /// <summary>Object specifying allowed origins, methods and headers for this CORS rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_cors#allowed R2BucketCors#allowed}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_cors#allowed R2BucketCors#allowed}
         /// </remarks>
         [JsiiProperty(name: "allowed", typeJson: "{\"fqn\":\"cloudflare.r2BucketCors.R2BucketCorsRulesAllowed\"}")]
         cloudflare.R2BucketCors.IR2BucketCorsRulesAllowed Allowed
@@ -21,7 +21,7 @@ namespace cloudflare.R2BucketCors
         /// <remarks>
         /// If you need to access headers beyond the safelisted response headers, such as Content-Encoding or cf-cache-status, you must specify it here.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_cors#expose_headers R2BucketCors#expose_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_cors#expose_headers R2BucketCors#expose_headers}
         /// </remarks>
         [JsiiProperty(name: "exposeHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace cloudflare.R2BucketCors
 
         /// <summary>Identifier for this rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_cors#id R2BucketCors#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_cors#id R2BucketCors#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,7 +54,7 @@ namespace cloudflare.R2BucketCors
         /// <remarks>
         /// Browsers may limit this to 2 hours or less, even if the maximum value (86400) is specified.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_cors#max_age_seconds R2BucketCors#max_age_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_cors#max_age_seconds R2BucketCors#max_age_seconds}
         /// </remarks>
         [JsiiProperty(name: "maxAgeSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,7 +75,7 @@ namespace cloudflare.R2BucketCors
 
             /// <summary>Object specifying allowed origins, methods and headers for this CORS rule.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_cors#allowed R2BucketCors#allowed}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_cors#allowed R2BucketCors#allowed}
             /// </remarks>
             [JsiiProperty(name: "allowed", typeJson: "{\"fqn\":\"cloudflare.r2BucketCors.R2BucketCorsRulesAllowed\"}")]
             public cloudflare.R2BucketCors.IR2BucketCorsRulesAllowed Allowed
@@ -87,7 +87,7 @@ namespace cloudflare.R2BucketCors
             /// <remarks>
             /// If you need to access headers beyond the safelisted response headers, such as Content-Encoding or cf-cache-status, you must specify it here.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_cors#expose_headers R2BucketCors#expose_headers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_cors#expose_headers R2BucketCors#expose_headers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "exposeHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -98,7 +98,7 @@ namespace cloudflare.R2BucketCors
 
             /// <summary>Identifier for this rule.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_cors#id R2BucketCors#id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_cors#id R2BucketCors#id}
             ///
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -114,7 +114,7 @@ namespace cloudflare.R2BucketCors
             /// <remarks>
             /// Browsers may limit this to 2 hours or less, even if the maximum value (86400) is specified.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_cors#max_age_seconds R2BucketCors#max_age_seconds}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_cors#max_age_seconds R2BucketCors#max_age_seconds}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxAgeSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

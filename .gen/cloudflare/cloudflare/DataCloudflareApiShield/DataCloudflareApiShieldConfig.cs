@@ -4,27 +4,14 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareApiShield
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareApiShield.DataCloudflareApiShieldConfig")]
     public class DataCloudflareApiShieldConfig : cloudflare.DataCloudflareApiShield.IDataCloudflareApiShieldConfig
     {
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_shield#zone_id DataCloudflareApiShield#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
-        {
-            get;
-            set;
-        }
-
         private object? _normalize;
 
         /// <summary>Ensures that the configuration is written or retrieved in normalized fashion.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_shield#normalize DataCloudflareApiShield#normalize}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield#normalize DataCloudflareApiShield#normalize}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "normalize", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -52,6 +39,18 @@ namespace cloudflare.DataCloudflareApiShield
                 }
                 _normalize = value;
             }
+        }
+
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield#zone_id DataCloudflareApiShield#zone_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
+        {
+            get;
+            set;
         }
 
         private object? _connection;

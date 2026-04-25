@@ -9,7 +9,7 @@ namespace cloudflare.ContentScanningExpression
     {
         /// <summary>Defines the ruleset expression to use in matching content objects.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/content_scanning_expression#payload ContentScanningExpression#payload}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/content_scanning_expression#payload ContentScanningExpression#payload}
         /// </remarks>
         [JsiiProperty(name: "payload", typeJson: "{\"primitive\":\"string\"}")]
         string Payload
@@ -26,7 +26,7 @@ namespace cloudflare.ContentScanningExpression
 
             /// <summary>Defines the ruleset expression to use in matching content objects.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/content_scanning_expression#payload ContentScanningExpression#payload}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/content_scanning_expression#payload ContentScanningExpression#payload}
             /// </remarks>
             [JsiiProperty(name: "payload", typeJson: "{\"primitive\":\"string\"}")]
             public string Payload

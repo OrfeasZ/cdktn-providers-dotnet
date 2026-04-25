@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustAccessPolicy
     {
         /// <summary>The ID of a device posture integration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_policy#integration_uid ZeroTrustAccessPolicy#integration_uid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_policy#integration_uid ZeroTrustAccessPolicy#integration_uid}
         /// </remarks>
         [JsiiProperty(name: "integrationUid", typeJson: "{\"primitive\":\"string\"}")]
         public string IntegrationUid

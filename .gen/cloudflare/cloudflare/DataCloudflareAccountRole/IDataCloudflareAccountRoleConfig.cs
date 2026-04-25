@@ -7,24 +7,28 @@ namespace cloudflare.DataCloudflareAccountRole
     [JsiiInterface(nativeType: typeof(IDataCloudflareAccountRoleConfig), fullyQualifiedName: "cloudflare.dataCloudflareAccountRole.DataCloudflareAccountRoleConfig")]
     public interface IDataCloudflareAccountRoleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Account identifier tag.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/account_role#account_id DataCloudflareAccountRole#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
-        {
-            get;
-        }
-
         /// <summary>Role identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/account_role#role_id DataCloudflareAccountRole#role_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/account_role#role_id DataCloudflareAccountRole#role_id}
         /// </remarks>
         [JsiiProperty(name: "roleId", typeJson: "{\"primitive\":\"string\"}")]
         string RoleId
         {
             get;
+        }
+
+        /// <summary>Account identifier tag.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/account_role#account_id DataCloudflareAccountRole#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
+        {
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IDataCloudflareAccountRoleConfig), fullyQualifiedName: "cloudflare.dataCloudflareAccountRole.DataCloudflareAccountRoleConfig")]
@@ -34,24 +38,25 @@ namespace cloudflare.DataCloudflareAccountRole
             {
             }
 
-            /// <summary>Account identifier tag.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/account_role#account_id DataCloudflareAccountRole#account_id}
-            /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>Role identifier tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/account_role#role_id DataCloudflareAccountRole#role_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/account_role#role_id DataCloudflareAccountRole#role_id}
             /// </remarks>
             [JsiiProperty(name: "roleId", typeJson: "{\"primitive\":\"string\"}")]
             public string RoleId
             {
                 get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Account identifier tag.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/account_role#account_id DataCloudflareAccountRole#account_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
+            {
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

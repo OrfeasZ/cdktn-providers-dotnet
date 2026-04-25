@@ -35,6 +35,12 @@ namespace cloudflare.ZeroTrustAccessAiControlsMcpPortal
         {
         }
 
+        [JsiiMethod(name: "resetAlias")]
+        public virtual void ResetAlias()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDescription")]
         public virtual void ResetDescription()
         {
@@ -45,6 +51,13 @@ namespace cloudflare.ZeroTrustAccessAiControlsMcpPortal
         public virtual void ResetEnabled()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "aliasInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AliasInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -66,6 +79,13 @@ namespace cloudflare.ZeroTrustAccessAiControlsMcpPortal
         public virtual string? NameInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Alias
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]

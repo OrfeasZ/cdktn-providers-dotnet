@@ -39,6 +39,12 @@ namespace cloudflare.Worker
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Worker.IWorkerObservabilityLogs)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putTraces", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.worker.WorkerObservabilityTraces\"}}]")]
+        public virtual void PutTraces(cloudflare.Worker.IWorkerObservabilityTraces @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Worker.IWorkerObservabilityTraces)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetEnabled")]
         public virtual void ResetEnabled()
         {
@@ -57,10 +63,22 @@ namespace cloudflare.Worker
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTraces")]
+        public virtual void ResetTraces()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "logs", typeJson: "{\"fqn\":\"cloudflare.worker.WorkerObservabilityLogsOutputReference\"}")]
         public virtual cloudflare.Worker.WorkerObservabilityLogsOutputReference Logs
         {
             get => GetInstanceProperty<cloudflare.Worker.WorkerObservabilityLogsOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "traces", typeJson: "{\"fqn\":\"cloudflare.worker.WorkerObservabilityTracesOutputReference\"}")]
+        public virtual cloudflare.Worker.WorkerObservabilityTracesOutputReference Traces
+        {
+            get => GetInstanceProperty<cloudflare.Worker.WorkerObservabilityTracesOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -80,6 +98,13 @@ namespace cloudflare.Worker
         [JsiiOptional]
         [JsiiProperty(name: "logsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.worker.WorkerObservabilityLogs\"}]}}", isOptional: true)]
         public virtual object? LogsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tracesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.worker.WorkerObservabilityTraces\"}]}}", isOptional: true)]
+        public virtual object? TracesInput
         {
             get => GetInstanceProperty<object?>();
         }

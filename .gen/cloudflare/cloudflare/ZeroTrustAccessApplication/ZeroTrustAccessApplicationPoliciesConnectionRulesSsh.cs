@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustAccessApplication
     {
         /// <summary>Contains the Unix usernames that may be used when connecting over SSH.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#usernames ZeroTrustAccessApplication#usernames}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#usernames ZeroTrustAccessApplication#usernames}
         /// </remarks>
         [JsiiProperty(name: "usernames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Usernames
@@ -24,7 +24,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>Enables using Identity Provider email alias as SSH username.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#allow_email_alias ZeroTrustAccessApplication#allow_email_alias}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#allow_email_alias ZeroTrustAccessApplication#allow_email_alias}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allowEmailAlias", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

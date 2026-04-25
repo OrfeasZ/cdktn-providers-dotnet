@@ -5,7 +5,7 @@ namespace cloudflare.DataCloudflareArgoTieredCaching
     /// <remarks>
     /// <h1><c>data_cloudflare_argo_tiered_caching</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/argo_tiered_caching"><c>data_cloudflare_argo_tiered_caching</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/argo_tiered_caching"><c>data_cloudflare_argo_tiered_caching</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

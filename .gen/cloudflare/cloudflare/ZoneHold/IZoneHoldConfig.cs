@@ -9,7 +9,7 @@ namespace cloudflare.ZoneHold
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zone_hold#zone_id ZoneHold#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zone_hold#zone_id ZoneHold#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
@@ -23,7 +23,7 @@ namespace cloudflare.ZoneHold
         /// no effect on an existing, enabled hold. Providing an empty string will set its value
         /// to the current time.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zone_hold#hold_after ZoneHold#hold_after}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zone_hold#hold_after ZoneHold#hold_after}
         /// </remarks>
         [JsiiProperty(name: "holdAfter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -41,7 +41,7 @@ namespace cloudflare.ZoneHold
         /// 'example.com' and include_subdomains=true will block 'example.com',
         /// 'staging.example.com', 'api.staging.example.com', etc.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zone_hold#include_subdomains ZoneHold#include_subdomains}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zone_hold#include_subdomains ZoneHold#include_subdomains}
         /// </remarks>
         [JsiiProperty(name: "includeSubdomains", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -62,7 +62,7 @@ namespace cloudflare.ZoneHold
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zone_hold#zone_id ZoneHold#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zone_hold#zone_id ZoneHold#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId
@@ -76,7 +76,7 @@ namespace cloudflare.ZoneHold
             /// no effect on an existing, enabled hold. Providing an empty string will set its value
             /// to the current time.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zone_hold#hold_after ZoneHold#hold_after}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zone_hold#hold_after ZoneHold#hold_after}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "holdAfter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace cloudflare.ZoneHold
             /// 'example.com' and include_subdomains=true will block 'example.com',
             /// 'staging.example.com', 'api.staging.example.com', etc.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zone_hold#include_subdomains ZoneHold#include_subdomains}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zone_hold#include_subdomains ZoneHold#include_subdomains}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "includeSubdomains", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

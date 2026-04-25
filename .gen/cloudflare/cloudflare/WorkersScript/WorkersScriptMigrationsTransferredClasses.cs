@@ -7,7 +7,7 @@ namespace cloudflare.WorkersScript
     [JsiiByValue(fqn: "cloudflare.workersScript.WorkersScriptMigrationsTransferredClasses")]
     public class WorkersScriptMigrationsTransferredClasses : cloudflare.WorkersScript.IWorkersScriptMigrationsTransferredClasses
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workers_script#from WorkersScript#from}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workers_script#from WorkersScript#from}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "from", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? From
@@ -16,7 +16,7 @@ namespace cloudflare.WorkersScript
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workers_script#from_script WorkersScript#from_script}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workers_script#from_script WorkersScript#from_script}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fromScript", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FromScript
@@ -25,7 +25,7 @@ namespace cloudflare.WorkersScript
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workers_script#to WorkersScript#to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workers_script#to WorkersScript#to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "to", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? To

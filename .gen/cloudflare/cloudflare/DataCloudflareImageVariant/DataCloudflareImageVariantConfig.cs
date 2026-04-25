@@ -9,20 +9,21 @@ namespace cloudflare.DataCloudflareImageVariant
     [JsiiByValue(fqn: "cloudflare.dataCloudflareImageVariant.DataCloudflareImageVariantConfig")]
     public class DataCloudflareImageVariantConfig : cloudflare.DataCloudflareImageVariant.IDataCloudflareImageVariantConfig
     {
-        /// <summary>Account identifier tag.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/image_variant#account_id DataCloudflareImageVariant#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/image_variant#variant_id DataCloudflareImageVariant#variant_id}.</summary>
+        [JsiiProperty(name: "variantId", typeJson: "{\"primitive\":\"string\"}")]
+        public string VariantId
         {
             get;
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/image_variant#variant_id DataCloudflareImageVariant#variant_id}.</summary>
-        [JsiiProperty(name: "variantId", typeJson: "{\"primitive\":\"string\"}")]
-        public string VariantId
+        /// <summary>Account identifier tag.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/image_variant#account_id DataCloudflareImageVariant#account_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

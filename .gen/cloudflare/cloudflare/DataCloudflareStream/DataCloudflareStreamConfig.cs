@@ -9,23 +9,24 @@ namespace cloudflare.DataCloudflareStream
     [JsiiByValue(fqn: "cloudflare.dataCloudflareStream.DataCloudflareStreamConfig")]
     public class DataCloudflareStreamConfig : cloudflare.DataCloudflareStream.IDataCloudflareStreamConfig
     {
-        /// <summary>The account identifier tag.</summary>
+        /// <summary>A Cloudflare-generated unique identifier for a media item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/stream#account_id DataCloudflareStream#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/stream#identifier DataCloudflareStream#identifier}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
+        public string Identifier
         {
             get;
             set;
         }
 
-        /// <summary>A Cloudflare-generated unique identifier for a media item.</summary>
+        /// <summary>The account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/stream#identifier DataCloudflareStream#identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/stream#account_id DataCloudflareStream#account_id}
         /// </remarks>
-        [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
-        public string Identifier
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

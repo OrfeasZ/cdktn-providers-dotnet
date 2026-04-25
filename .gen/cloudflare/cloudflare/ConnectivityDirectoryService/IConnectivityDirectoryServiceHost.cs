@@ -7,7 +7,7 @@ namespace cloudflare.ConnectivityDirectoryService
     [JsiiInterface(nativeType: typeof(IConnectivityDirectoryServiceHost), fullyQualifiedName: "cloudflare.connectivityDirectoryService.ConnectivityDirectoryServiceHost")]
     public interface IConnectivityDirectoryServiceHost
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/connectivity_directory_service#hostname ConnectivityDirectoryService#hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/connectivity_directory_service#hostname ConnectivityDirectoryService#hostname}.</summary>
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Hostname
@@ -18,7 +18,7 @@ namespace cloudflare.ConnectivityDirectoryService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/connectivity_directory_service#ipv4 ConnectivityDirectoryService#ipv4}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/connectivity_directory_service#ipv4 ConnectivityDirectoryService#ipv4}.</summary>
         [JsiiProperty(name: "ipv4", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Ipv4
@@ -29,7 +29,7 @@ namespace cloudflare.ConnectivityDirectoryService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/connectivity_directory_service#ipv6 ConnectivityDirectoryService#ipv6}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/connectivity_directory_service#ipv6 ConnectivityDirectoryService#ipv6}.</summary>
         [JsiiProperty(name: "ipv6", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Ipv6
@@ -40,7 +40,7 @@ namespace cloudflare.ConnectivityDirectoryService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/connectivity_directory_service#network ConnectivityDirectoryService#network}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/connectivity_directory_service#network ConnectivityDirectoryService#network}.</summary>
         [JsiiProperty(name: "network", typeJson: "{\"fqn\":\"cloudflare.connectivityDirectoryService.ConnectivityDirectoryServiceHostNetwork\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ConnectivityDirectoryService.IConnectivityDirectoryServiceHostNetwork? Network
@@ -51,7 +51,7 @@ namespace cloudflare.ConnectivityDirectoryService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/connectivity_directory_service#resolver_network ConnectivityDirectoryService#resolver_network}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/connectivity_directory_service#resolver_network ConnectivityDirectoryService#resolver_network}.</summary>
         [JsiiProperty(name: "resolverNetwork", typeJson: "{\"fqn\":\"cloudflare.connectivityDirectoryService.ConnectivityDirectoryServiceHostResolverNetwork\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ConnectivityDirectoryService.IConnectivityDirectoryServiceHostResolverNetwork? ResolverNetwork
@@ -69,7 +69,7 @@ namespace cloudflare.ConnectivityDirectoryService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/connectivity_directory_service#hostname ConnectivityDirectoryService#hostname}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/connectivity_directory_service#hostname ConnectivityDirectoryService#hostname}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Hostname
@@ -77,7 +77,7 @@ namespace cloudflare.ConnectivityDirectoryService
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/connectivity_directory_service#ipv4 ConnectivityDirectoryService#ipv4}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/connectivity_directory_service#ipv4 ConnectivityDirectoryService#ipv4}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipv4", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Ipv4
@@ -85,7 +85,7 @@ namespace cloudflare.ConnectivityDirectoryService
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/connectivity_directory_service#ipv6 ConnectivityDirectoryService#ipv6}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/connectivity_directory_service#ipv6 ConnectivityDirectoryService#ipv6}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipv6", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Ipv6
@@ -93,7 +93,7 @@ namespace cloudflare.ConnectivityDirectoryService
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/connectivity_directory_service#network ConnectivityDirectoryService#network}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/connectivity_directory_service#network ConnectivityDirectoryService#network}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "network", typeJson: "{\"fqn\":\"cloudflare.connectivityDirectoryService.ConnectivityDirectoryServiceHostNetwork\"}", isOptional: true)]
             public cloudflare.ConnectivityDirectoryService.IConnectivityDirectoryServiceHostNetwork? Network
@@ -101,7 +101,7 @@ namespace cloudflare.ConnectivityDirectoryService
                 get => GetInstanceProperty<cloudflare.ConnectivityDirectoryService.IConnectivityDirectoryServiceHostNetwork?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/connectivity_directory_service#resolver_network ConnectivityDirectoryService#resolver_network}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/connectivity_directory_service#resolver_network ConnectivityDirectoryService#resolver_network}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resolverNetwork", typeJson: "{\"fqn\":\"cloudflare.connectivityDirectoryService.ConnectivityDirectoryServiceHostResolverNetwork\"}", isOptional: true)]
             public cloudflare.ConnectivityDirectoryService.IConnectivityDirectoryServiceHostResolverNetwork? ResolverNetwork

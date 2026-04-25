@@ -7,7 +7,7 @@ namespace cloudflare.PageRule
     [JsiiInterface(nativeType: typeof(IPageRuleActionsCacheKeyFields), fullyQualifiedName: "cloudflare.pageRule.PageRuleActionsCacheKeyFields")]
     public interface IPageRuleActionsCacheKeyFields
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/page_rule#cookie PageRule#cookie}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#cookie PageRule#cookie}.</summary>
         [JsiiProperty(name: "cookie", typeJson: "{\"fqn\":\"cloudflare.pageRule.PageRuleActionsCacheKeyFieldsCookie\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.PageRule.IPageRuleActionsCacheKeyFieldsCookie? Cookie
@@ -18,7 +18,7 @@ namespace cloudflare.PageRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/page_rule#header PageRule#header}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#header PageRule#header}.</summary>
         [JsiiProperty(name: "header", typeJson: "{\"fqn\":\"cloudflare.pageRule.PageRuleActionsCacheKeyFieldsHeader\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.PageRule.IPageRuleActionsCacheKeyFieldsHeader? Header
@@ -29,7 +29,7 @@ namespace cloudflare.PageRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/page_rule#host PageRule#host}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#host PageRule#host}.</summary>
         [JsiiProperty(name: "host", typeJson: "{\"fqn\":\"cloudflare.pageRule.PageRuleActionsCacheKeyFieldsHost\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.PageRule.IPageRuleActionsCacheKeyFieldsHost? Host
@@ -40,7 +40,7 @@ namespace cloudflare.PageRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/page_rule#query_string PageRule#query_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#query_string PageRule#query_string}.</summary>
         [JsiiProperty(name: "queryString", typeJson: "{\"fqn\":\"cloudflare.pageRule.PageRuleActionsCacheKeyFieldsQueryString\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.PageRule.IPageRuleActionsCacheKeyFieldsQueryString? QueryString
@@ -51,7 +51,7 @@ namespace cloudflare.PageRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/page_rule#user PageRule#user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#user PageRule#user}.</summary>
         [JsiiProperty(name: "user", typeJson: "{\"fqn\":\"cloudflare.pageRule.PageRuleActionsCacheKeyFieldsUser\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.PageRule.IPageRuleActionsCacheKeyFieldsUser? User
@@ -69,7 +69,7 @@ namespace cloudflare.PageRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/page_rule#cookie PageRule#cookie}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#cookie PageRule#cookie}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "cookie", typeJson: "{\"fqn\":\"cloudflare.pageRule.PageRuleActionsCacheKeyFieldsCookie\"}", isOptional: true)]
             public cloudflare.PageRule.IPageRuleActionsCacheKeyFieldsCookie? Cookie
@@ -77,7 +77,7 @@ namespace cloudflare.PageRule
                 get => GetInstanceProperty<cloudflare.PageRule.IPageRuleActionsCacheKeyFieldsCookie?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/page_rule#header PageRule#header}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#header PageRule#header}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "header", typeJson: "{\"fqn\":\"cloudflare.pageRule.PageRuleActionsCacheKeyFieldsHeader\"}", isOptional: true)]
             public cloudflare.PageRule.IPageRuleActionsCacheKeyFieldsHeader? Header
@@ -85,7 +85,7 @@ namespace cloudflare.PageRule
                 get => GetInstanceProperty<cloudflare.PageRule.IPageRuleActionsCacheKeyFieldsHeader?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/page_rule#host PageRule#host}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#host PageRule#host}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "host", typeJson: "{\"fqn\":\"cloudflare.pageRule.PageRuleActionsCacheKeyFieldsHost\"}", isOptional: true)]
             public cloudflare.PageRule.IPageRuleActionsCacheKeyFieldsHost? Host
@@ -93,7 +93,7 @@ namespace cloudflare.PageRule
                 get => GetInstanceProperty<cloudflare.PageRule.IPageRuleActionsCacheKeyFieldsHost?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/page_rule#query_string PageRule#query_string}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#query_string PageRule#query_string}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "queryString", typeJson: "{\"fqn\":\"cloudflare.pageRule.PageRuleActionsCacheKeyFieldsQueryString\"}", isOptional: true)]
             public cloudflare.PageRule.IPageRuleActionsCacheKeyFieldsQueryString? QueryString
@@ -101,7 +101,7 @@ namespace cloudflare.PageRule
                 get => GetInstanceProperty<cloudflare.PageRule.IPageRuleActionsCacheKeyFieldsQueryString?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/page_rule#user PageRule#user}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#user PageRule#user}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "user", typeJson: "{\"fqn\":\"cloudflare.pageRule.PageRuleActionsCacheKeyFieldsUser\"}", isOptional: true)]
             public cloudflare.PageRule.IPageRuleActionsCacheKeyFieldsUser? User

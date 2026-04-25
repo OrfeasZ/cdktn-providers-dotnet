@@ -9,7 +9,7 @@ namespace cloudflare.RateLimit
     {
         private object? _headers;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/rate_limit#headers RateLimit#headers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/rate_limit#headers RateLimit#headers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "headers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.rateLimit.RateLimitMatchHeaders\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public object? Headers
@@ -38,7 +38,7 @@ namespace cloudflare.RateLimit
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/rate_limit#request RateLimit#request}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/rate_limit#request RateLimit#request}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "request", typeJson: "{\"fqn\":\"cloudflare.rateLimit.RateLimitMatchRequest\"}", isOptional: true)]
         public cloudflare.RateLimit.IRateLimitMatchRequest? Request
@@ -47,7 +47,7 @@ namespace cloudflare.RateLimit
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/rate_limit#response RateLimit#response}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/rate_limit#response RateLimit#response}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "response", typeJson: "{\"fqn\":\"cloudflare.rateLimit.RateLimitMatchResponse\"}", isOptional: true)]
         public cloudflare.RateLimit.IRateLimitMatchResponse? Response

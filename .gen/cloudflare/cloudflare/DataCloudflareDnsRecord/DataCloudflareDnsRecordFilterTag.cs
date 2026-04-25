@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareDnsRecord
     {
         /// <summary>Name of a tag which must *not* be present on the DNS record. Tag filters are case-insensitive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_record#absent DataCloudflareDnsRecord#absent}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_record#absent DataCloudflareDnsRecord#absent}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "absent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace cloudflare.DataCloudflareDnsRecord
         /// <remarks>
         /// The API will only return DNS records that have a tag named <c>&lt;tag-name&gt;</c> whose value contains <c>&lt;tag-value&gt;</c>. Tag filters are case-insensitive.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_record#contains DataCloudflareDnsRecord#contains}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_record#contains DataCloudflareDnsRecord#contains}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "contains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace cloudflare.DataCloudflareDnsRecord
         /// <remarks>
         /// The API will only return DNS records that have a tag named <c>&lt;tag-name&gt;</c> whose value ends with <c>&lt;tag-value&gt;</c>. Tag filters are case-insensitive.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_record#endswith DataCloudflareDnsRecord#endswith}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_record#endswith DataCloudflareDnsRecord#endswith}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "endswith", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace cloudflare.DataCloudflareDnsRecord
         /// <remarks>
         /// The API will only return DNS records that have a tag named <c>&lt;tag-name&gt;</c> whose value is <c>&lt;tag-value&gt;</c>. Tag filters are case-insensitive.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_record#exact DataCloudflareDnsRecord#exact}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_record#exact DataCloudflareDnsRecord#exact}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "exact", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -63,7 +63,7 @@ namespace cloudflare.DataCloudflareDnsRecord
 
         /// <summary>Name of a tag which must be present on the DNS record. Tag filters are case-insensitive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_record#present DataCloudflareDnsRecord#present}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_record#present DataCloudflareDnsRecord#present}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "present", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -77,7 +77,7 @@ namespace cloudflare.DataCloudflareDnsRecord
         /// <remarks>
         /// The API will only return DNS records that have a tag named <c>&lt;tag-name&gt;</c> whose value starts with <c>&lt;tag-value&gt;</c>. Tag filters are case-insensitive.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_record#startswith DataCloudflareDnsRecord#startswith}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_record#startswith DataCloudflareDnsRecord#startswith}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "startswith", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

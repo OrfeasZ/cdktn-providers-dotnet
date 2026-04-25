@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustAccessGroup
     {
         /// <summary>The common name to match.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#common_name ZeroTrustAccessGroup#common_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#common_name ZeroTrustAccessGroup#common_name}
         /// </remarks>
         [JsiiProperty(name: "commonName", typeJson: "{\"primitive\":\"string\"}")]
         string CommonName
@@ -26,7 +26,7 @@ namespace cloudflare.ZeroTrustAccessGroup
 
             /// <summary>The common name to match.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#common_name ZeroTrustAccessGroup#common_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#common_name ZeroTrustAccessGroup#common_name}
             /// </remarks>
             [JsiiProperty(name: "commonName", typeJson: "{\"primitive\":\"string\"}")]
             public string CommonName

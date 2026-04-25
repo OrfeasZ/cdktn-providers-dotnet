@@ -11,7 +11,7 @@ namespace cloudflare.MagicTransitSiteLan
     {
         /// <summary>A valid CIDR notation representing an IP range.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_lan#address MagicTransitSiteLan#address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_lan#address MagicTransitSiteLan#address}
         /// </remarks>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
         public string Address
@@ -20,7 +20,7 @@ namespace cloudflare.MagicTransitSiteLan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_lan#dhcp_relay MagicTransitSiteLan#dhcp_relay}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_lan#dhcp_relay MagicTransitSiteLan#dhcp_relay}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dhcpRelay", typeJson: "{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanStaticAddressingDhcpRelay\"}", isOptional: true)]
         public cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanStaticAddressingDhcpRelay? DhcpRelay
@@ -29,7 +29,7 @@ namespace cloudflare.MagicTransitSiteLan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_lan#dhcp_server MagicTransitSiteLan#dhcp_server}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_lan#dhcp_server MagicTransitSiteLan#dhcp_server}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dhcpServer", typeJson: "{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanStaticAddressingDhcpServer\"}", isOptional: true)]
         public cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanStaticAddressingDhcpServer? DhcpServer
@@ -40,7 +40,7 @@ namespace cloudflare.MagicTransitSiteLan
 
         /// <summary>A valid CIDR notation representing an IP range.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_lan#secondary_address MagicTransitSiteLan#secondary_address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_lan#secondary_address MagicTransitSiteLan#secondary_address}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secondaryAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -52,7 +52,7 @@ namespace cloudflare.MagicTransitSiteLan
 
         /// <summary>A valid CIDR notation representing an IP range.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_lan#virtual_address MagicTransitSiteLan#virtual_address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_lan#virtual_address MagicTransitSiteLan#virtual_address}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "virtualAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

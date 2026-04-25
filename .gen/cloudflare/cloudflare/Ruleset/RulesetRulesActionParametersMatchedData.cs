@@ -11,7 +11,7 @@ namespace cloudflare.Ruleset
     {
         /// <summary>The public key to encrypt matched data logs with.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#public_key Ruleset#public_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#public_key Ruleset#public_key}
         /// </remarks>
         [JsiiProperty(name: "publicKey", typeJson: "{\"primitive\":\"string\"}")]
         public string PublicKey

@@ -137,16 +137,16 @@ namespace cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortal
             get => GetInstanceProperty<Io.Cdktn.StringMapList>()!;
         }
 
-        [JsiiProperty(name: "updatedPrompts", typeJson: "{\"fqn\":\"cdktn.AnyMap\"}")]
-        public virtual Io.Cdktn.AnyMap UpdatedPrompts
+        [JsiiProperty(name: "updatedPrompts", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessAiControlsMcpPortal.DataCloudflareZeroTrustAccessAiControlsMcpPortalServersUpdatedPromptsList\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortal.DataCloudflareZeroTrustAccessAiControlsMcpPortalServersUpdatedPromptsList UpdatedPrompts
         {
-            get => GetInstanceProperty<Io.Cdktn.AnyMap>()!;
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortal.DataCloudflareZeroTrustAccessAiControlsMcpPortalServersUpdatedPromptsList>()!;
         }
 
-        [JsiiProperty(name: "updatedTools", typeJson: "{\"fqn\":\"cdktn.AnyMap\"}")]
-        public virtual Io.Cdktn.AnyMap UpdatedTools
+        [JsiiProperty(name: "updatedTools", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessAiControlsMcpPortal.DataCloudflareZeroTrustAccessAiControlsMcpPortalServersUpdatedToolsList\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortal.DataCloudflareZeroTrustAccessAiControlsMcpPortalServersUpdatedToolsList UpdatedTools
         {
-            get => GetInstanceProperty<Io.Cdktn.AnyMap>()!;
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortal.DataCloudflareZeroTrustAccessAiControlsMcpPortalServersUpdatedToolsList>()!;
         }
 
         [JsiiOptional]

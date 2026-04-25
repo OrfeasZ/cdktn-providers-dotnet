@@ -9,7 +9,7 @@ namespace cloudflare.LoadBalancer
     {
         /// <summary>The default weight for pools in the load balancer that are not specified in the pool_weights map.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer#default_weight LoadBalancer#default_weight}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer#default_weight LoadBalancer#default_weight}
         /// </remarks>
         [JsiiProperty(name: "defaultWeight", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace cloudflare.LoadBalancer
 
         /// <summary>A mapping of pool IDs to custom weights. The weight is relative to other pools in the load balancer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer#pool_weights LoadBalancer#pool_weights}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer#pool_weights LoadBalancer#pool_weights}
         /// </remarks>
         [JsiiProperty(name: "poolWeights", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace cloudflare.LoadBalancer
 
             /// <summary>The default weight for pools in the load balancer that are not specified in the pool_weights map.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer#default_weight LoadBalancer#default_weight}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer#default_weight LoadBalancer#default_weight}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "defaultWeight", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace cloudflare.LoadBalancer
 
             /// <summary>A mapping of pool IDs to custom weights. The weight is relative to other pools in the load balancer.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer#pool_weights LoadBalancer#pool_weights}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer#pool_weights LoadBalancer#pool_weights}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "poolWeights", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"map\"}}", isOptional: true)]

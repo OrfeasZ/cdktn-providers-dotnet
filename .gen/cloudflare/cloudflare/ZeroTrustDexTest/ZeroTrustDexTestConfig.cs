@@ -9,17 +9,9 @@ namespace cloudflare.ZeroTrustDexTest
     [JsiiByValue(fqn: "cloudflare.zeroTrustDexTest.ZeroTrustDexTestConfig")]
     public class ZeroTrustDexTestConfig : cloudflare.ZeroTrustDexTest.IZeroTrustDexTestConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dex_test#account_id ZeroTrustDexTest#account_id}.</summary>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
-        {
-            get;
-            set;
-        }
-
         /// <summary>The configuration object which contains the details for the WARP client to conduct the test.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dex_test#data ZeroTrustDexTest#data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dex_test#data ZeroTrustDexTest#data}
         /// </remarks>
         [JsiiProperty(name: "data", typeJson: "{\"fqn\":\"cloudflare.zeroTrustDexTest.ZeroTrustDexTestData\"}")]
         public cloudflare.ZeroTrustDexTest.IZeroTrustDexTestData Data
@@ -32,7 +24,7 @@ namespace cloudflare.ZeroTrustDexTest
 
         /// <summary>Determines whether or not the test is active.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dex_test#enabled ZeroTrustDexTest#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dex_test#enabled ZeroTrustDexTest#enabled}
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object Enabled
@@ -63,7 +55,7 @@ namespace cloudflare.ZeroTrustDexTest
 
         /// <summary>How often the test will run.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dex_test#interval ZeroTrustDexTest#interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dex_test#interval ZeroTrustDexTest#interval}
         /// </remarks>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
         public string Interval
@@ -74,7 +66,7 @@ namespace cloudflare.ZeroTrustDexTest
 
         /// <summary>The name of the DEX test. Must be unique.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dex_test#name ZeroTrustDexTest#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dex_test#name ZeroTrustDexTest#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -83,9 +75,18 @@ namespace cloudflare.ZeroTrustDexTest
             set;
         }
 
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dex_test#account_id ZeroTrustDexTest#account_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
+        {
+            get;
+            set;
+        }
+
         /// <summary>Additional details about the test.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dex_test#description ZeroTrustDexTest#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dex_test#description ZeroTrustDexTest#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -99,7 +100,7 @@ namespace cloudflare.ZeroTrustDexTest
 
         /// <summary>DEX rules targeted by this test.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dex_test#target_policies ZeroTrustDexTest#target_policies}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dex_test#target_policies ZeroTrustDexTest#target_policies}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetPolicies", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDexTest.ZeroTrustDexTestTargetPolicies\"},\"kind\":\"array\"}}]}}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace cloudflare.R2BucketLifecycle
     [JsiiInterface(nativeType: typeof(IR2BucketLifecycleRulesAbortMultipartUploadsTransitionCondition), fullyQualifiedName: "cloudflare.r2BucketLifecycle.R2BucketLifecycleRulesAbortMultipartUploadsTransitionCondition")]
     public interface IR2BucketLifecycleRulesAbortMultipartUploadsTransitionCondition
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_lifecycle#max_age R2BucketLifecycle#max_age}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_lifecycle#max_age R2BucketLifecycle#max_age}.</summary>
         [JsiiProperty(name: "maxAge", typeJson: "{\"primitive\":\"number\"}")]
         double MaxAge
         {
@@ -16,7 +16,7 @@ namespace cloudflare.R2BucketLifecycle
 
         /// <summary>Available values: "Age".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_lifecycle#type R2BucketLifecycle#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_lifecycle#type R2BucketLifecycle#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -31,7 +31,7 @@ namespace cloudflare.R2BucketLifecycle
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_lifecycle#max_age R2BucketLifecycle#max_age}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_lifecycle#max_age R2BucketLifecycle#max_age}.</summary>
             [JsiiProperty(name: "maxAge", typeJson: "{\"primitive\":\"number\"}")]
             public double MaxAge
             {
@@ -40,7 +40,7 @@ namespace cloudflare.R2BucketLifecycle
 
             /// <summary>Available values: "Age".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_lifecycle#type R2BucketLifecycle#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_lifecycle#type R2BucketLifecycle#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type

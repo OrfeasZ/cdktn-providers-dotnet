@@ -11,7 +11,7 @@ namespace cloudflare.WaitingRoom
         /// <remarks>
         /// Please do not include the scheme (http:// or https://). The host and path combination must be unique.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#host WaitingRoom#host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#host WaitingRoom#host}
         /// </remarks>
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
         string Host
@@ -21,7 +21,7 @@ namespace cloudflare.WaitingRoom
 
         /// <summary>A unique name to identify the waiting room. Only alphanumeric characters, hyphens and underscores are allowed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#name WaitingRoom#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#name WaitingRoom#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -33,7 +33,7 @@ namespace cloudflare.WaitingRoom
         /// <remarks>
         /// This value is used as baseline for the number of users that are let in per minute. So it is possible that there is a little more or little less traffic coming to the route based on the traffic patterns at that time around the world.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#new_users_per_minute WaitingRoom#new_users_per_minute}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#new_users_per_minute WaitingRoom#new_users_per_minute}
         /// </remarks>
         [JsiiProperty(name: "newUsersPerMinute", typeJson: "{\"primitive\":\"number\"}")]
         double NewUsersPerMinute
@@ -45,20 +45,10 @@ namespace cloudflare.WaitingRoom
         /// <remarks>
         /// A route is a combination of host and path on which a waiting room is available. This value is used as a baseline for the total number of active user sessions on the route. It is possible to have a situation where there are more or less active users sessions on the route based on the traffic patterns at that time around the world.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#total_active_users WaitingRoom#total_active_users}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#total_active_users WaitingRoom#total_active_users}
         /// </remarks>
         [JsiiProperty(name: "totalActiveUsers", typeJson: "{\"primitive\":\"number\"}")]
         double TotalActiveUsers
-        {
-            get;
-        }
-
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#zone_id WaitingRoom#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
         {
             get;
         }
@@ -67,7 +57,7 @@ namespace cloudflare.WaitingRoom
         /// <remarks>
         /// Additional hostname and path combinations to which this waiting room will be applied. There is an implied wildcard at the end of the path. The hostname and path combination must be unique to this and all other waiting rooms.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#additional_routes WaitingRoom#additional_routes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#additional_routes WaitingRoom#additional_routes}
         /// </remarks>
         [JsiiProperty(name: "additionalRoutes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.waitingRoom.WaitingRoomAdditionalRoutes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -83,7 +73,7 @@ namespace cloudflare.WaitingRoom
         /// <remarks>
         /// This encrypted cookie stores a user's status in the waiting room, such as queue position.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#cookie_attributes WaitingRoom#cookie_attributes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#cookie_attributes WaitingRoom#cookie_attributes}
         /// </remarks>
         [JsiiProperty(name: "cookieAttributes", typeJson: "{\"fqn\":\"cloudflare.waitingRoom.WaitingRoomCookieAttributes\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -99,7 +89,7 @@ namespace cloudflare.WaitingRoom
         /// <remarks>
         /// If <c>cookie_suffix</c> is "abcd", the cookie name will be <c>__cf_waitingroom_abcd</c>. This field is required if using <c>additional_routes</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#cookie_suffix WaitingRoom#cookie_suffix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#cookie_suffix WaitingRoom#cookie_suffix}
         /// </remarks>
         [JsiiProperty(name: "cookieSuffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -126,7 +116,7 @@ namespace cloudflare.WaitingRoom
         ///
         /// To view the full list of variables, look at the <c>cfWaitingRoom</c> object described under the <c>json_response_enabled</c> property in other Waiting Room API calls.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#custom_page_html WaitingRoom#custom_page_html}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#custom_page_html WaitingRoom#custom_page_html}
         /// </remarks>
         [JsiiProperty(name: "customPageHtml", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -143,7 +133,7 @@ namespace cloudflare.WaitingRoom
         /// If no default_template_language is provided, then <c>en-US</c> (English) will be used.
         /// Available values: "en-US", "es-ES", "de-DE", "fr-FR", "it-IT", "ja-JP", "ko-KR", "pt-BR", "zh-CN", "zh-TW", "nl-NL", "pl-PL", "id-ID", "tr-TR", "ar-EG", "ru-RU", "fa-IR", "bg-BG", "hr-HR", "cs-CZ", "da-DK", "fi-FI", "lt-LT", "ms-MY", "nb-NO", "ro-RO", "el-GR", "he-IL", "hi-IN", "hu-HU", "sr-BA", "sk-SK", "sl-SI", "sv-SE", "tl-PH", "th-TH", "uk-UA", "vi-VN".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#default_template_language WaitingRoom#default_template_language}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#default_template_language WaitingRoom#default_template_language}
         /// </remarks>
         [JsiiProperty(name: "defaultTemplateLanguage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -157,7 +147,7 @@ namespace cloudflare.WaitingRoom
 
         /// <summary>A note that you can use to add more details about the waiting room.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#description WaitingRoom#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#description WaitingRoom#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -173,7 +163,7 @@ namespace cloudflare.WaitingRoom
         /// <remarks>
         /// Disables automatic renewal of session cookies. If <c>true</c>, an accepted user will have session_duration minutes to browse the site. After that, they will have to go through the waiting room again. If <c>false</c>, a user's session cookie will be automatically renewed on every request.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#disable_session_renewal WaitingRoom#disable_session_renewal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#disable_session_renewal WaitingRoom#disable_session_renewal}
         /// </remarks>
         [JsiiProperty(name: "disableSessionRenewal", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -187,7 +177,7 @@ namespace cloudflare.WaitingRoom
 
         /// <summary>A list of enabled origin commands.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#enabled_origin_commands WaitingRoom#enabled_origin_commands}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#enabled_origin_commands WaitingRoom#enabled_origin_commands}
         /// </remarks>
         [JsiiProperty(name: "enabledOriginCommands", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -302,7 +292,7 @@ namespace cloudflare.WaitingRoom
         /// }
         /// ]]></code>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#json_response_enabled WaitingRoom#json_response_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#json_response_enabled WaitingRoom#json_response_enabled}
         /// </remarks>
         [JsiiProperty(name: "jsonResponseEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -318,7 +308,7 @@ namespace cloudflare.WaitingRoom
         /// <remarks>
         /// The waiting room will be enabled for all subpaths as well. If there are two waiting rooms on the same subpath, the waiting room for the most specific path will be chosen. Wildcards and query parameters are not supported.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#path WaitingRoom#path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#path WaitingRoom#path}
         /// </remarks>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -334,7 +324,7 @@ namespace cloudflare.WaitingRoom
         /// <remarks>
         /// No new traffic can get to the route once this field is set and estimated time will become unavailable.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#queue_all WaitingRoom#queue_all}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#queue_all WaitingRoom#queue_all}
         /// </remarks>
         [JsiiProperty(name: "queueAll", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -358,7 +348,7 @@ namespace cloudflare.WaitingRoom
         /// Available values: "fifo", "random", "passthrough", "reject".</description>
         /// </list>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#queueing_method WaitingRoom#queueing_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#queueing_method WaitingRoom#queueing_method}
         /// </remarks>
         [JsiiProperty(name: "queueingMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -372,7 +362,7 @@ namespace cloudflare.WaitingRoom
 
         /// <summary>HTTP status code returned to a user while in the queue. Available values: 200, 202, 429.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#queueing_status_code WaitingRoom#queueing_status_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#queueing_status_code WaitingRoom#queueing_status_code}
         /// </remarks>
         [JsiiProperty(name: "queueingStatusCode", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -388,7 +378,7 @@ namespace cloudflare.WaitingRoom
         /// <remarks>
         /// If a user is not seen by Cloudflare again in that time period, they will be treated as a new user that visits the route.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#session_duration WaitingRoom#session_duration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#session_duration WaitingRoom#session_duration}
         /// </remarks>
         [JsiiProperty(name: "sessionDuration", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -404,7 +394,7 @@ namespace cloudflare.WaitingRoom
         /// <remarks>
         /// If set to <c>true</c>, the traffic will not go to the waiting room.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#suspended WaitingRoom#suspended}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#suspended WaitingRoom#suspended}
         /// </remarks>
         [JsiiProperty(name: "suspended", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -425,7 +415,7 @@ namespace cloudflare.WaitingRoom
         /// origin. <c>infinite_queue</c> requires Advanced Waiting Room.
         /// Available values: "log", "infinite_queue".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#turnstile_action WaitingRoom#turnstile_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#turnstile_action WaitingRoom#turnstile_action}
         /// </remarks>
         [JsiiProperty(name: "turnstileAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -446,11 +436,25 @@ namespace cloudflare.WaitingRoom
         /// <c>off</c> or <c>invisible</c> requires Advanced Waiting Room.
         /// Available values: "off", "invisible", "visible_non_interactive", "visible_managed".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#turnstile_mode WaitingRoom#turnstile_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#turnstile_mode WaitingRoom#turnstile_mode}
         /// </remarks>
         [JsiiProperty(name: "turnstileMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TurnstileMode
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#zone_id WaitingRoom#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? ZoneId
         {
             get
             {
@@ -469,7 +473,7 @@ namespace cloudflare.WaitingRoom
             /// <remarks>
             /// Please do not include the scheme (http:// or https://). The host and path combination must be unique.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#host WaitingRoom#host}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#host WaitingRoom#host}
             /// </remarks>
             [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
             public string Host
@@ -479,7 +483,7 @@ namespace cloudflare.WaitingRoom
 
             /// <summary>A unique name to identify the waiting room. Only alphanumeric characters, hyphens and underscores are allowed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#name WaitingRoom#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#name WaitingRoom#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -491,7 +495,7 @@ namespace cloudflare.WaitingRoom
             /// <remarks>
             /// This value is used as baseline for the number of users that are let in per minute. So it is possible that there is a little more or little less traffic coming to the route based on the traffic patterns at that time around the world.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#new_users_per_minute WaitingRoom#new_users_per_minute}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#new_users_per_minute WaitingRoom#new_users_per_minute}
             /// </remarks>
             [JsiiProperty(name: "newUsersPerMinute", typeJson: "{\"primitive\":\"number\"}")]
             public double NewUsersPerMinute
@@ -503,7 +507,7 @@ namespace cloudflare.WaitingRoom
             /// <remarks>
             /// A route is a combination of host and path on which a waiting room is available. This value is used as a baseline for the total number of active user sessions on the route. It is possible to have a situation where there are more or less active users sessions on the route based on the traffic patterns at that time around the world.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#total_active_users WaitingRoom#total_active_users}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#total_active_users WaitingRoom#total_active_users}
             /// </remarks>
             [JsiiProperty(name: "totalActiveUsers", typeJson: "{\"primitive\":\"number\"}")]
             public double TotalActiveUsers
@@ -511,21 +515,11 @@ namespace cloudflare.WaitingRoom
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#zone_id WaitingRoom#zone_id}
-            /// </remarks>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>Only available for the Waiting Room Advanced subscription.</summary>
             /// <remarks>
             /// Additional hostname and path combinations to which this waiting room will be applied. There is an implied wildcard at the end of the path. The hostname and path combination must be unique to this and all other waiting rooms.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#additional_routes WaitingRoom#additional_routes}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#additional_routes WaitingRoom#additional_routes}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "additionalRoutes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.waitingRoom.WaitingRoomAdditionalRoutes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -538,7 +532,7 @@ namespace cloudflare.WaitingRoom
             /// <remarks>
             /// This encrypted cookie stores a user's status in the waiting room, such as queue position.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#cookie_attributes WaitingRoom#cookie_attributes}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#cookie_attributes WaitingRoom#cookie_attributes}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cookieAttributes", typeJson: "{\"fqn\":\"cloudflare.waitingRoom.WaitingRoomCookieAttributes\"}", isOptional: true)]
@@ -551,7 +545,7 @@ namespace cloudflare.WaitingRoom
             /// <remarks>
             /// If <c>cookie_suffix</c> is "abcd", the cookie name will be <c>__cf_waitingroom_abcd</c>. This field is required if using <c>additional_routes</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#cookie_suffix WaitingRoom#cookie_suffix}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#cookie_suffix WaitingRoom#cookie_suffix}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cookieSuffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -575,7 +569,7 @@ namespace cloudflare.WaitingRoom
             ///
             /// To view the full list of variables, look at the <c>cfWaitingRoom</c> object described under the <c>json_response_enabled</c> property in other Waiting Room API calls.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#custom_page_html WaitingRoom#custom_page_html}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#custom_page_html WaitingRoom#custom_page_html}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customPageHtml", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -589,7 +583,7 @@ namespace cloudflare.WaitingRoom
             /// If no default_template_language is provided, then <c>en-US</c> (English) will be used.
             /// Available values: "en-US", "es-ES", "de-DE", "fr-FR", "it-IT", "ja-JP", "ko-KR", "pt-BR", "zh-CN", "zh-TW", "nl-NL", "pl-PL", "id-ID", "tr-TR", "ar-EG", "ru-RU", "fa-IR", "bg-BG", "hr-HR", "cs-CZ", "da-DK", "fi-FI", "lt-LT", "ms-MY", "nb-NO", "ro-RO", "el-GR", "he-IL", "hi-IN", "hu-HU", "sr-BA", "sk-SK", "sl-SI", "sv-SE", "tl-PH", "th-TH", "uk-UA", "vi-VN".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#default_template_language WaitingRoom#default_template_language}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#default_template_language WaitingRoom#default_template_language}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "defaultTemplateLanguage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -600,7 +594,7 @@ namespace cloudflare.WaitingRoom
 
             /// <summary>A note that you can use to add more details about the waiting room.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#description WaitingRoom#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#description WaitingRoom#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -613,7 +607,7 @@ namespace cloudflare.WaitingRoom
             /// <remarks>
             /// Disables automatic renewal of session cookies. If <c>true</c>, an accepted user will have session_duration minutes to browse the site. After that, they will have to go through the waiting room again. If <c>false</c>, a user's session cookie will be automatically renewed on every request.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#disable_session_renewal WaitingRoom#disable_session_renewal}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#disable_session_renewal WaitingRoom#disable_session_renewal}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "disableSessionRenewal", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -624,7 +618,7 @@ namespace cloudflare.WaitingRoom
 
             /// <summary>A list of enabled origin commands.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#enabled_origin_commands WaitingRoom#enabled_origin_commands}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#enabled_origin_commands WaitingRoom#enabled_origin_commands}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "enabledOriginCommands", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -736,7 +730,7 @@ namespace cloudflare.WaitingRoom
             /// }
             /// ]]></code>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#json_response_enabled WaitingRoom#json_response_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#json_response_enabled WaitingRoom#json_response_enabled}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "jsonResponseEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -749,7 +743,7 @@ namespace cloudflare.WaitingRoom
             /// <remarks>
             /// The waiting room will be enabled for all subpaths as well. If there are two waiting rooms on the same subpath, the waiting room for the most specific path will be chosen. Wildcards and query parameters are not supported.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#path WaitingRoom#path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#path WaitingRoom#path}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -762,7 +756,7 @@ namespace cloudflare.WaitingRoom
             /// <remarks>
             /// No new traffic can get to the route once this field is set and estimated time will become unavailable.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#queue_all WaitingRoom#queue_all}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#queue_all WaitingRoom#queue_all}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "queueAll", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -783,7 +777,7 @@ namespace cloudflare.WaitingRoom
             /// Available values: "fifo", "random", "passthrough", "reject".</description>
             /// </list>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#queueing_method WaitingRoom#queueing_method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#queueing_method WaitingRoom#queueing_method}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "queueingMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -794,7 +788,7 @@ namespace cloudflare.WaitingRoom
 
             /// <summary>HTTP status code returned to a user while in the queue. Available values: 200, 202, 429.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#queueing_status_code WaitingRoom#queueing_status_code}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#queueing_status_code WaitingRoom#queueing_status_code}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "queueingStatusCode", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -807,7 +801,7 @@ namespace cloudflare.WaitingRoom
             /// <remarks>
             /// If a user is not seen by Cloudflare again in that time period, they will be treated as a new user that visits the route.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#session_duration WaitingRoom#session_duration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#session_duration WaitingRoom#session_duration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sessionDuration", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -820,7 +814,7 @@ namespace cloudflare.WaitingRoom
             /// <remarks>
             /// If set to <c>true</c>, the traffic will not go to the waiting room.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#suspended WaitingRoom#suspended}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#suspended WaitingRoom#suspended}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "suspended", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -838,7 +832,7 @@ namespace cloudflare.WaitingRoom
             /// origin. <c>infinite_queue</c> requires Advanced Waiting Room.
             /// Available values: "log", "infinite_queue".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#turnstile_action WaitingRoom#turnstile_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#turnstile_action WaitingRoom#turnstile_action}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "turnstileAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -856,11 +850,22 @@ namespace cloudflare.WaitingRoom
             /// <c>off</c> or <c>invisible</c> requires Advanced Waiting Room.
             /// Available values: "off", "invisible", "visible_non_interactive", "visible_managed".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room#turnstile_mode WaitingRoom#turnstile_mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#turnstile_mode WaitingRoom#turnstile_mode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "turnstileMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TurnstileMode
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room#zone_id WaitingRoom#zone_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
             {
                 get => GetInstanceProperty<string?>();
             }

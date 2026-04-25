@@ -11,7 +11,7 @@ namespace cloudflare.KeylessCertificate
     {
         /// <summary>Private IP of the Key Server Host.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/keyless_certificate#private_ip KeylessCertificate#private_ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/keyless_certificate#private_ip KeylessCertificate#private_ip}
         /// </remarks>
         [JsiiProperty(name: "privateIp", typeJson: "{\"primitive\":\"string\"}")]
         public string PrivateIp
@@ -22,7 +22,7 @@ namespace cloudflare.KeylessCertificate
 
         /// <summary>Cloudflare Tunnel Virtual Network ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/keyless_certificate#vnet_id KeylessCertificate#vnet_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/keyless_certificate#vnet_id KeylessCertificate#vnet_id}
         /// </remarks>
         [JsiiProperty(name: "vnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string VnetId

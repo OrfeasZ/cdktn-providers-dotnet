@@ -4,17 +4,16 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.Stream
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.stream.StreamConfig")]
     public class StreamConfig : cloudflare.Stream.IStreamConfig
     {
         /// <summary>The account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/stream#account_id Stream#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#account_id Stream#account_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;
@@ -24,7 +23,7 @@ namespace cloudflare.Stream
         /// <remarks>
         /// Enter allowed origin domains in an array and use <c>*</c> for wildcard subdomains. Empty arrays allow the video to be viewed on any origin.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/stream#allowed_origins Stream#allowed_origins}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#allowed_origins Stream#allowed_origins}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allowedOrigins", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -36,7 +35,7 @@ namespace cloudflare.Stream
 
         /// <summary>A user-defined identifier for the media creator.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/stream#creator Stream#creator}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#creator Stream#creator}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "creator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -48,7 +47,7 @@ namespace cloudflare.Stream
 
         /// <summary>A Cloudflare-generated unique identifier for a media item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/stream#identifier Stream#identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#identifier Stream#identifier}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -62,7 +61,7 @@ namespace cloudflare.Stream
         /// <remarks>
         /// Can be set for a video that is not yet uploaded to limit its duration. Uploads that exceed the specified duration will fail during processing. A value of <c>-1</c> means the value is unknown.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/stream#max_duration_seconds Stream#max_duration_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#max_duration_seconds Stream#max_duration_seconds}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxDurationSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -74,11 +73,23 @@ namespace cloudflare.Stream
 
         /// <summary>A user modifiable key-value store used to reference other systems of record for managing videos.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/stream#meta Stream#meta}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#meta Stream#meta}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "meta", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Meta
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Public details for the video including title, share link, channel link, and logo.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#public_details Stream#public_details}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "publicDetails", typeJson: "{\"fqn\":\"cloudflare.stream.StreamPublicDetails\"}", isOptional: true)]
+        public cloudflare.Stream.IStreamPublicDetails? PublicDetails
         {
             get;
             set;
@@ -90,7 +101,7 @@ namespace cloudflare.Stream
         /// <remarks>
         /// When set to <c>true</c>, a signed token must be generated with a signing key to view the video.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/stream#require_signed_urls Stream#require_signed_urls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#require_signed_urls Stream#require_signed_urls}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "requireSignedUrls", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -124,7 +135,7 @@ namespace cloudflare.Stream
         /// <remarks>
         /// Omit the field to indicate no change, or include with a <c>null</c> value to remove an existing scheduled deletion. If specified, must be at least 30 days from upload time.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/stream#scheduled_deletion Stream#scheduled_deletion}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#scheduled_deletion Stream#scheduled_deletion}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scheduledDeletion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -138,7 +149,7 @@ namespace cloudflare.Stream
         /// <remarks>
         /// To convert from a second-wise timestamp to a percentage, divide the desired timestamp by the total duration of the video.  If this value is not set, the default thumbnail image is taken from 0s of the video.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/stream#thumbnail_timestamp_pct Stream#thumbnail_timestamp_pct}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#thumbnail_timestamp_pct Stream#thumbnail_timestamp_pct}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "thumbnailTimestampPct", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -148,9 +159,21 @@ namespace cloudflare.Stream
             set;
         }
 
+        /// <summary>The unique identifier for the video. Can be used to verify the video being updated.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#uid Stream#uid}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "uid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Uid
+        {
+            get;
+            set;
+        }
+
         /// <summary>The date and time when the video upload URL is no longer valid for direct user uploads.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/stream#upload_expiry Stream#upload_expiry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#upload_expiry Stream#upload_expiry}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "uploadExpiry", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

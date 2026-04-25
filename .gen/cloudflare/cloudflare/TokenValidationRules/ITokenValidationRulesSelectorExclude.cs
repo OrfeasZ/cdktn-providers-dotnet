@@ -9,7 +9,7 @@ namespace cloudflare.TokenValidationRules
     {
         /// <summary>Excluded operation IDs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_rules#operation_ids TokenValidationRules#operation_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_rules#operation_ids TokenValidationRules#operation_ids}
         /// </remarks>
         [JsiiProperty(name: "operationIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace cloudflare.TokenValidationRules
 
             /// <summary>Excluded operation IDs.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_rules#operation_ids TokenValidationRules#operation_ids}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_rules#operation_ids TokenValidationRules#operation_ids}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "operationIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

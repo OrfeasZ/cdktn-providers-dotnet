@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareOrganizationProfile
     [JsiiByValue(fqn: "cloudflare.dataCloudflareOrganizationProfile.DataCloudflareOrganizationProfileAConfig")]
     public class DataCloudflareOrganizationProfileAConfig : cloudflare.DataCloudflareOrganizationProfile.IDataCloudflareOrganizationProfileAConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/organization_profile#organization_id DataCloudflareOrganizationProfileA#organization_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/organization_profile#organization_id DataCloudflareOrganizationProfileA#organization_id}.</summary>
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}")]
         public string OrganizationId
         {

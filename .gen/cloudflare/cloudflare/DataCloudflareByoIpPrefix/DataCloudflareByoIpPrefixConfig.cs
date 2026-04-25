@@ -9,23 +9,24 @@ namespace cloudflare.DataCloudflareByoIpPrefix
     [JsiiByValue(fqn: "cloudflare.dataCloudflareByoIpPrefix.DataCloudflareByoIpPrefixConfig")]
     public class DataCloudflareByoIpPrefixConfig : cloudflare.DataCloudflareByoIpPrefix.IDataCloudflareByoIpPrefixConfig
     {
-        /// <summary>Identifier of a Cloudflare account.</summary>
+        /// <summary>Identifier of an IP Prefix.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/byo_ip_prefix#account_id DataCloudflareByoIpPrefix#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/byo_ip_prefix#prefix_id DataCloudflareByoIpPrefix#prefix_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiProperty(name: "prefixId", typeJson: "{\"primitive\":\"string\"}")]
+        public string PrefixId
         {
             get;
             set;
         }
 
-        /// <summary>Identifier of an IP Prefix.</summary>
+        /// <summary>Identifier of a Cloudflare account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/byo_ip_prefix#prefix_id DataCloudflareByoIpPrefix#prefix_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/byo_ip_prefix#account_id DataCloudflareByoIpPrefix#account_id}
         /// </remarks>
-        [JsiiProperty(name: "prefixId", typeJson: "{\"primitive\":\"string\"}")]
-        public string PrefixId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

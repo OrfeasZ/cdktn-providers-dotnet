@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareDnsRecords
     {
         /// <summary>If this parameter is present, only records *without* a comment are returned.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_records#absent DataCloudflareDnsRecords#absent}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_records#absent DataCloudflareDnsRecords#absent}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "absent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace cloudflare.DataCloudflareDnsRecords
 
         /// <summary>Substring of the DNS record comment. Comment filters are case-insensitive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_records#contains DataCloudflareDnsRecords#contains}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_records#contains DataCloudflareDnsRecords#contains}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "contains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace cloudflare.DataCloudflareDnsRecords
 
         /// <summary>Suffix of the DNS record comment. Comment filters are case-insensitive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_records#endswith DataCloudflareDnsRecords#endswith}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_records#endswith DataCloudflareDnsRecords#endswith}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "endswith", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace cloudflare.DataCloudflareDnsRecords
 
         /// <summary>Exact value of the DNS record comment. Comment filters are case-insensitive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_records#exact DataCloudflareDnsRecords#exact}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_records#exact DataCloudflareDnsRecords#exact}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "exact", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace cloudflare.DataCloudflareDnsRecords
 
         /// <summary>If this parameter is present, only records *with* a comment are returned.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_records#present DataCloudflareDnsRecords#present}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_records#present DataCloudflareDnsRecords#present}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "present", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace cloudflare.DataCloudflareDnsRecords
 
         /// <summary>Prefix of the DNS record comment. Comment filters are case-insensitive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_records#startswith DataCloudflareDnsRecords#startswith}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_records#startswith DataCloudflareDnsRecords#startswith}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "startswith", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

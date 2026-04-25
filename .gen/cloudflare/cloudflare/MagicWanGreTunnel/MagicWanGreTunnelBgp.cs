@@ -11,7 +11,7 @@ namespace cloudflare.MagicWanGreTunnel
     {
         /// <summary>ASN used on the customer end of the BGP session.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_gre_tunnel#customer_asn MagicWanGreTunnel#customer_asn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_gre_tunnel#customer_asn MagicWanGreTunnel#customer_asn}
         /// </remarks>
         [JsiiProperty(name: "customerAsn", typeJson: "{\"primitive\":\"number\"}")]
         public double CustomerAsn
@@ -22,7 +22,7 @@ namespace cloudflare.MagicWanGreTunnel
 
         /// <summary>Prefixes in this list will be advertised to the customer device, in addition to the routes in the Magic routing table.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_gre_tunnel#extra_prefixes MagicWanGreTunnel#extra_prefixes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_gre_tunnel#extra_prefixes MagicWanGreTunnel#extra_prefixes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "extraPrefixes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace cloudflare.MagicWanGreTunnel
         /// (0x0C), and the question mark (<c>?</c>). Requests specifying an MD5 key with one or more of
         /// these disallowed characters will be rejected.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_gre_tunnel#md5_key MagicWanGreTunnel#md5_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_gre_tunnel#md5_key MagicWanGreTunnel#md5_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "md5Key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

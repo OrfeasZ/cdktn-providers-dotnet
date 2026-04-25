@@ -9,23 +9,24 @@ namespace cloudflare.EmailRoutingAddress
     [JsiiByValue(fqn: "cloudflare.emailRoutingAddress.EmailRoutingAddressConfig")]
     public class EmailRoutingAddressConfig : cloudflare.EmailRoutingAddress.IEmailRoutingAddressConfig
     {
-        /// <summary>Identifier.</summary>
+        /// <summary>The contact email address of the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_routing_address#account_id EmailRoutingAddress#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_routing_address#email EmailRoutingAddress#email}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
+        public string Email
         {
             get;
             set;
         }
 
-        /// <summary>The contact email address of the user.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_routing_address#email EmailRoutingAddress#email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_routing_address#account_id EmailRoutingAddress#account_id}
         /// </remarks>
-        [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
-        public string Email
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

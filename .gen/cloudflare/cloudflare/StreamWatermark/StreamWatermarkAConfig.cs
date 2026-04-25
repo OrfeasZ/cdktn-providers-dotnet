@@ -4,28 +4,16 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.StreamWatermark
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.streamWatermark.StreamWatermarkAConfig")]
     public class StreamWatermarkAConfig : cloudflare.StreamWatermark.IStreamWatermarkAConfig
     {
         /// <summary>The account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/stream_watermark#account_id StreamWatermarkA#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream_watermark#account_id StreamWatermarkA#account_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
-        {
-            get;
-            set;
-        }
-
-        /// <summary>The image file to upload.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/stream_watermark#file StreamWatermarkA#file}
-        /// </remarks>
-        [JsiiProperty(name: "file", typeJson: "{\"primitive\":\"string\"}")]
-        public string File
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;
@@ -33,7 +21,7 @@ namespace cloudflare.StreamWatermark
 
         /// <summary>The unique identifier for a watermark profile.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/stream_watermark#identifier StreamWatermarkA#identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream_watermark#identifier StreamWatermarkA#identifier}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +33,7 @@ namespace cloudflare.StreamWatermark
 
         /// <summary>A short description of the watermark profile.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/stream_watermark#name StreamWatermarkA#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream_watermark#name StreamWatermarkA#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -59,7 +47,7 @@ namespace cloudflare.StreamWatermark
         /// <remarks>
         /// A value of <c>0.0</c> makes the image completely transparent, and <c>1.0</c> makes the image completely opaque. Note that if the image is already semi-transparent, setting this to <c>1.0</c> will not make the image completely opaque.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/stream_watermark#opacity StreamWatermarkA#opacity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream_watermark#opacity StreamWatermarkA#opacity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "opacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -73,7 +61,7 @@ namespace cloudflare.StreamWatermark
         /// <remarks>
         /// <c>0.0</c> indicates no padding, and <c>1.0</c> indicates a fully padded video width or length, as determined by the algorithm.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/stream_watermark#padding StreamWatermarkA#padding}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream_watermark#padding StreamWatermarkA#padding}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "padding", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -87,7 +75,7 @@ namespace cloudflare.StreamWatermark
         /// <remarks>
         /// Valid positions are: <c>upperRight</c>, <c>upperLeft</c>, <c>lowerLeft</c>, <c>lowerRight</c>, and <c>center</c>. Note that <c>center</c> ignores the <c>padding</c> parameter.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/stream_watermark#position StreamWatermarkA#position}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream_watermark#position StreamWatermarkA#position}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "position", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -101,11 +89,23 @@ namespace cloudflare.StreamWatermark
         /// <remarks>
         /// This parameter will adapt to horizontal and vertical videos automatically. <c>0.0</c> indicates no scaling (use the size of the image as-is), and <c>1.0 </c>fills the entire video.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/stream_watermark#scale StreamWatermarkA#scale}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream_watermark#scale StreamWatermarkA#scale}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scale", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Scale
+        {
+            get;
+            set;
+        }
+
+        /// <summary>URL of the watermark image to copy.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream_watermark#url StreamWatermarkA#url}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Url
         {
             get;
             set;

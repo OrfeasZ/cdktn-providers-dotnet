@@ -9,7 +9,7 @@ namespace cloudflare.Queue
     {
         /// <summary>Number of seconds to delay delivery of all messages to consumers.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/queue#delivery_delay Queue#delivery_delay}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/queue#delivery_delay Queue#delivery_delay}
         /// </remarks>
         [JsiiProperty(name: "deliveryDelay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace cloudflare.Queue
 
         /// <summary>Indicates if message delivery to consumers is currently paused.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/queue#delivery_paused Queue#delivery_paused}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/queue#delivery_paused Queue#delivery_paused}
         /// </remarks>
         [JsiiProperty(name: "deliveryPaused", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace cloudflare.Queue
 
         /// <summary>Number of seconds after which an unconsumed message will be delayed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/queue#message_retention_period Queue#message_retention_period}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/queue#message_retention_period Queue#message_retention_period}
         /// </remarks>
         [JsiiProperty(name: "messageRetentionPeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace cloudflare.Queue
 
             /// <summary>Number of seconds to delay delivery of all messages to consumers.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/queue#delivery_delay Queue#delivery_delay}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/queue#delivery_delay Queue#delivery_delay}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "deliveryDelay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace cloudflare.Queue
 
             /// <summary>Indicates if message delivery to consumers is currently paused.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/queue#delivery_paused Queue#delivery_paused}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/queue#delivery_paused Queue#delivery_paused}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "deliveryPaused", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace cloudflare.Queue
 
             /// <summary>Number of seconds after which an unconsumed message will be delayed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/queue#message_retention_period Queue#message_retention_period}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/queue#message_retention_period Queue#message_retention_period}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "messageRetentionPeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace cloudflare.DataCloudflareApiToken
     [JsiiByValue(fqn: "cloudflare.dataCloudflareApiToken.DataCloudflareApiTokenConfig")]
     public class DataCloudflareApiTokenConfig : cloudflare.DataCloudflareApiToken.IDataCloudflareApiTokenConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_token#filter DataCloudflareApiToken#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_token#filter DataCloudflareApiToken#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareApiToken.DataCloudflareApiTokenFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareApiToken.IDataCloudflareApiTokenFilter? Filter
@@ -18,7 +18,7 @@ namespace cloudflare.DataCloudflareApiToken
 
         /// <summary>Token identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_token#token_id DataCloudflareApiToken#token_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_token#token_id DataCloudflareApiToken#token_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tokenId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

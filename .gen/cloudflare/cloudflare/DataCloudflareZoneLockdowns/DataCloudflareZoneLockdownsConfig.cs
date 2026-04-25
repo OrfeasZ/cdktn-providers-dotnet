@@ -4,25 +4,12 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareZoneLockdowns
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZoneLockdowns.DataCloudflareZoneLockdownsConfig")]
     public class DataCloudflareZoneLockdownsConfig : cloudflare.DataCloudflareZoneLockdowns.IDataCloudflareZoneLockdownsConfig
     {
-        /// <summary>Defines an identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zone_lockdowns#zone_id DataCloudflareZoneLockdowns#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
-        {
-            get;
-            set;
-        }
-
         /// <summary>The timestamp of when the rule was created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zone_lockdowns#created_on DataCloudflareZoneLockdowns#created_on}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zone_lockdowns#created_on DataCloudflareZoneLockdowns#created_on}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "createdOn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +21,7 @@ namespace cloudflare.DataCloudflareZoneLockdowns
 
         /// <summary>A string to search for in the description of existing rules.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zone_lockdowns#description DataCloudflareZoneLockdowns#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zone_lockdowns#description DataCloudflareZoneLockdowns#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +33,7 @@ namespace cloudflare.DataCloudflareZoneLockdowns
 
         /// <summary>A string to search for in the description of existing rules.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zone_lockdowns#description_search DataCloudflareZoneLockdowns#description_search}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zone_lockdowns#description_search DataCloudflareZoneLockdowns#description_search}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "descriptionSearch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +45,7 @@ namespace cloudflare.DataCloudflareZoneLockdowns
 
         /// <summary>A single IP address to search for in existing rules.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zone_lockdowns#ip DataCloudflareZoneLockdowns#ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zone_lockdowns#ip DataCloudflareZoneLockdowns#ip}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +57,7 @@ namespace cloudflare.DataCloudflareZoneLockdowns
 
         /// <summary>A single IP address range to search for in existing rules.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zone_lockdowns#ip_range_search DataCloudflareZoneLockdowns#ip_range_search}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zone_lockdowns#ip_range_search DataCloudflareZoneLockdowns#ip_range_search}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipRangeSearch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +69,7 @@ namespace cloudflare.DataCloudflareZoneLockdowns
 
         /// <summary>A single IP address to search for in existing rules.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zone_lockdowns#ip_search DataCloudflareZoneLockdowns#ip_search}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zone_lockdowns#ip_search DataCloudflareZoneLockdowns#ip_search}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipSearch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -94,7 +81,7 @@ namespace cloudflare.DataCloudflareZoneLockdowns
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zone_lockdowns#max_items DataCloudflareZoneLockdowns#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zone_lockdowns#max_items DataCloudflareZoneLockdowns#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -106,7 +93,7 @@ namespace cloudflare.DataCloudflareZoneLockdowns
 
         /// <summary>The timestamp of when the rule was last modified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zone_lockdowns#modified_on DataCloudflareZoneLockdowns#modified_on}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zone_lockdowns#modified_on DataCloudflareZoneLockdowns#modified_on}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "modifiedOn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -120,7 +107,7 @@ namespace cloudflare.DataCloudflareZoneLockdowns
         /// <remarks>
         /// A lower number indicates higher priority. If not provided, any rules with a configured priority will be processed before rules without a priority.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zone_lockdowns#priority DataCloudflareZoneLockdowns#priority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zone_lockdowns#priority DataCloudflareZoneLockdowns#priority}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -132,11 +119,23 @@ namespace cloudflare.DataCloudflareZoneLockdowns
 
         /// <summary>A single URI to search for in the list of URLs of existing rules.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zone_lockdowns#uri_search DataCloudflareZoneLockdowns#uri_search}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zone_lockdowns#uri_search DataCloudflareZoneLockdowns#uri_search}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "uriSearch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UriSearch
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Defines an identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zone_lockdowns#zone_id DataCloudflareZoneLockdowns#zone_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
         {
             get;
             set;

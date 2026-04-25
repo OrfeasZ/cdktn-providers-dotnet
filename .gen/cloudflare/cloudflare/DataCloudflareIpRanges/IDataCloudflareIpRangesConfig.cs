@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareIpRanges
     {
         /// <summary>Specified as `jdcloud` to list IPs used by JD Cloud data centers.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/ip_ranges#networks DataCloudflareIpRanges#networks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/ip_ranges#networks DataCloudflareIpRanges#networks}
         /// </remarks>
         [JsiiProperty(name: "networks", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace cloudflare.DataCloudflareIpRanges
 
             /// <summary>Specified as `jdcloud` to list IPs used by JD Cloud data centers.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/ip_ranges#networks DataCloudflareIpRanges#networks}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/ip_ranges#networks DataCloudflareIpRanges#networks}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "networks", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

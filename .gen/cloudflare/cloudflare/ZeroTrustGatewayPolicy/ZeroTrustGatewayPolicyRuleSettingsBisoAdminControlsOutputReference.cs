@@ -105,6 +105,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetWmId")]
+        public virtual void ResetWmId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "copyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CopyInput
@@ -185,6 +191,13 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         [JsiiOptional]
         [JsiiProperty(name: "versionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? VersionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "wmIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? WmIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -368,6 +381,13 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Version
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "wmId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string WmId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

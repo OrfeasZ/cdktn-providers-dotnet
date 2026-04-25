@@ -4,17 +4,16 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.CallsSfuApp
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.callsSfuApp.CallsSfuAppConfig")]
     public class CallsSfuAppConfig : cloudflare.CallsSfuApp.ICallsSfuAppConfig
     {
         /// <summary>The account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/calls_sfu_app#account_id CallsSfuApp#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/calls_sfu_app#account_id CallsSfuApp#account_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;
@@ -22,7 +21,7 @@ namespace cloudflare.CallsSfuApp
 
         /// <summary>A Cloudflare-generated unique identifier for a item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/calls_sfu_app#app_id CallsSfuApp#app_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/calls_sfu_app#app_id CallsSfuApp#app_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +33,7 @@ namespace cloudflare.CallsSfuApp
 
         /// <summary>A short description of Calls app, not shown to end users.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/calls_sfu_app#name CallsSfuApp#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/calls_sfu_app#name CallsSfuApp#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

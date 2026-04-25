@@ -65,6 +65,12 @@ namespace cloudflare.WorkerVersion
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetAppId")]
+        public virtual void ResetAppId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetBucketName")]
         public virtual void ResetBucketName()
         {
@@ -83,6 +89,12 @@ namespace cloudflare.WorkerVersion
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDatabaseId")]
+        public virtual void ResetDatabaseId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDataset")]
         public virtual void ResetDataset()
         {
@@ -91,6 +103,18 @@ namespace cloudflare.WorkerVersion
 
         [JsiiMethod(name: "resetDestinationAddress")]
         public virtual void ResetDestinationAddress()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDispatchNamespace")]
+        public virtual void ResetDispatchNamespace()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetEntrypoint")]
+        public virtual void ResetEntrypoint()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -115,6 +139,12 @@ namespace cloudflare.WorkerVersion
 
         [JsiiMethod(name: "resetIndexName")]
         public virtual void ResetIndexName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetInstanceName")]
+        public virtual void ResetInstanceName()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -151,6 +181,12 @@ namespace cloudflare.WorkerVersion
 
         [JsiiMethod(name: "resetNamespaceId")]
         public virtual void ResetNamespaceId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetNetworkId")]
+        public virtual void ResetNetworkId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -203,6 +239,12 @@ namespace cloudflare.WorkerVersion
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetServiceId")]
+        public virtual void ResetServiceId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSimple")]
         public virtual void ResetSimple()
         {
@@ -217,6 +259,12 @@ namespace cloudflare.WorkerVersion
 
         [JsiiMethod(name: "resetText")]
         public virtual void ResetText()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTunnelId")]
+        public virtual void ResetTunnelId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -273,6 +321,13 @@ namespace cloudflare.WorkerVersion
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "appIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AppIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "bucketNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? BucketNameInput
         {
@@ -294,6 +349,13 @@ namespace cloudflare.WorkerVersion
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "databaseIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DatabaseIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "datasetInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DatasetInput
         {
@@ -303,6 +365,20 @@ namespace cloudflare.WorkerVersion
         [JsiiOptional]
         [JsiiProperty(name: "destinationAddressInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DestinationAddressInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "dispatchNamespaceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DispatchNamespaceInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "entrypointInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? EntrypointInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -331,6 +407,13 @@ namespace cloudflare.WorkerVersion
         [JsiiOptional]
         [JsiiProperty(name: "indexNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? IndexNameInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "instanceNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? InstanceNameInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -385,6 +468,13 @@ namespace cloudflare.WorkerVersion
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "networkIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NetworkIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "oldNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? OldNameInput
         {
@@ -434,6 +524,13 @@ namespace cloudflare.WorkerVersion
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "serviceIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ServiceIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "serviceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ServiceInput
         {
@@ -457,6 +554,13 @@ namespace cloudflare.WorkerVersion
         [JsiiOptional]
         [JsiiProperty(name: "textInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? TextInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tunnelIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TunnelIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -510,6 +614,13 @@ namespace cloudflare.WorkerVersion
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AppId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string BucketName
         {
@@ -531,6 +642,13 @@ namespace cloudflare.WorkerVersion
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DatabaseId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "dataset", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Dataset
         {
@@ -540,6 +658,20 @@ namespace cloudflare.WorkerVersion
 
         [JsiiProperty(name: "destinationAddress", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DestinationAddress
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "dispatchNamespace", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DispatchNamespace
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "entrypoint", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Entrypoint
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -568,6 +700,13 @@ namespace cloudflare.WorkerVersion
 
         [JsiiProperty(name: "indexName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string IndexName
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "instanceName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string InstanceName
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -622,6 +761,13 @@ namespace cloudflare.WorkerVersion
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "networkId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NetworkId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "oldName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string OldName
         {
@@ -671,6 +817,13 @@ namespace cloudflare.WorkerVersion
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "serviceId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ServiceId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "storeId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string StoreId
         {
@@ -680,6 +833,13 @@ namespace cloudflare.WorkerVersion
 
         [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Text
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "tunnelId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TunnelId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

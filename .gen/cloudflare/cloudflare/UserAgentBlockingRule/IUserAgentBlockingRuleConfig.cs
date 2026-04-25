@@ -7,7 +7,7 @@ namespace cloudflare.UserAgentBlockingRule
     [JsiiInterface(nativeType: typeof(IUserAgentBlockingRuleConfig), fullyQualifiedName: "cloudflare.userAgentBlockingRule.UserAgentBlockingRuleConfig")]
     public interface IUserAgentBlockingRuleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/user_agent_blocking_rule#configuration UserAgentBlockingRule#configuration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user_agent_blocking_rule#configuration UserAgentBlockingRule#configuration}.</summary>
         [JsiiProperty(name: "configuration", typeJson: "{\"fqn\":\"cloudflare.userAgentBlockingRule.UserAgentBlockingRuleConfiguration\"}")]
         cloudflare.UserAgentBlockingRule.IUserAgentBlockingRuleConfiguration Configuration
         {
@@ -16,7 +16,7 @@ namespace cloudflare.UserAgentBlockingRule
 
         /// <summary>The action to apply to a matched request. Available values: "block", "challenge", "whitelist", "js_challenge", "managed_challenge".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/user_agent_blocking_rule#mode UserAgentBlockingRule#mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user_agent_blocking_rule#mode UserAgentBlockingRule#mode}
         /// </remarks>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         string Mode
@@ -24,19 +24,9 @@ namespace cloudflare.UserAgentBlockingRule
             get;
         }
 
-        /// <summary>Defines an identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/user_agent_blocking_rule#zone_id UserAgentBlockingRule#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
-        {
-            get;
-        }
-
         /// <summary>An informative summary of the rule. This value is sanitized and any tags will be removed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/user_agent_blocking_rule#description UserAgentBlockingRule#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user_agent_blocking_rule#description UserAgentBlockingRule#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,11 +40,25 @@ namespace cloudflare.UserAgentBlockingRule
 
         /// <summary>When true, indicates that the rule is currently paused.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/user_agent_blocking_rule#paused UserAgentBlockingRule#paused}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user_agent_blocking_rule#paused UserAgentBlockingRule#paused}
         /// </remarks>
         [JsiiProperty(name: "paused", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? Paused
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Defines an identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user_agent_blocking_rule#zone_id UserAgentBlockingRule#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? ZoneId
         {
             get
             {
@@ -69,7 +73,7 @@ namespace cloudflare.UserAgentBlockingRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/user_agent_blocking_rule#configuration UserAgentBlockingRule#configuration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user_agent_blocking_rule#configuration UserAgentBlockingRule#configuration}.</summary>
             [JsiiProperty(name: "configuration", typeJson: "{\"fqn\":\"cloudflare.userAgentBlockingRule.UserAgentBlockingRuleConfiguration\"}")]
             public cloudflare.UserAgentBlockingRule.IUserAgentBlockingRuleConfiguration Configuration
             {
@@ -78,7 +82,7 @@ namespace cloudflare.UserAgentBlockingRule
 
             /// <summary>The action to apply to a matched request. Available values: "block", "challenge", "whitelist", "js_challenge", "managed_challenge".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/user_agent_blocking_rule#mode UserAgentBlockingRule#mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user_agent_blocking_rule#mode UserAgentBlockingRule#mode}
             /// </remarks>
             [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
             public string Mode
@@ -86,19 +90,9 @@ namespace cloudflare.UserAgentBlockingRule
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Defines an identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/user_agent_blocking_rule#zone_id UserAgentBlockingRule#zone_id}
-            /// </remarks>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>An informative summary of the rule. This value is sanitized and any tags will be removed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/user_agent_blocking_rule#description UserAgentBlockingRule#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user_agent_blocking_rule#description UserAgentBlockingRule#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -109,13 +103,24 @@ namespace cloudflare.UserAgentBlockingRule
 
             /// <summary>When true, indicates that the rule is currently paused.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/user_agent_blocking_rule#paused UserAgentBlockingRule#paused}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user_agent_blocking_rule#paused UserAgentBlockingRule#paused}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "paused", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? Paused
             {
                 get => GetInstanceProperty<object?>();
+            }
+
+            /// <summary>Defines an identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user_agent_blocking_rule#zone_id UserAgentBlockingRule#zone_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
+            {
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

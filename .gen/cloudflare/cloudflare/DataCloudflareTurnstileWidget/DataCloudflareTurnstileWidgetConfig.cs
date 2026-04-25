@@ -4,23 +4,22 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareTurnstileWidget
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareTurnstileWidget.DataCloudflareTurnstileWidgetConfig")]
     public class DataCloudflareTurnstileWidgetConfig : cloudflare.DataCloudflareTurnstileWidget.IDataCloudflareTurnstileWidgetConfig
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/turnstile_widget#account_id DataCloudflareTurnstileWidget#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/turnstile_widget#account_id DataCloudflareTurnstileWidget#account_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/turnstile_widget#filter DataCloudflareTurnstileWidget#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/turnstile_widget#filter DataCloudflareTurnstileWidget#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareTurnstileWidget.DataCloudflareTurnstileWidgetFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareTurnstileWidget.IDataCloudflareTurnstileWidgetFilter? Filter
@@ -31,7 +30,7 @@ namespace cloudflare.DataCloudflareTurnstileWidget
 
         /// <summary>Widget item identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/turnstile_widget#sitekey DataCloudflareTurnstileWidget#sitekey}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/turnstile_widget#sitekey DataCloudflareTurnstileWidget#sitekey}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sitekey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

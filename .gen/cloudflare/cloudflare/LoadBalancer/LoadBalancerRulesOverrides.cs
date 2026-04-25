@@ -11,7 +11,7 @@ namespace cloudflare.LoadBalancer
         /// <remarks>
         /// For example, zero-downtime failover occurs immediately when an origin becomes unavailable due to HTTP 521, 522, or 523 response codes. If there is another healthy origin in the same pool, the request is retried once against this alternate origin.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer#adaptive_routing LoadBalancer#adaptive_routing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer#adaptive_routing LoadBalancer#adaptive_routing}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "adaptiveRouting", typeJson: "{\"fqn\":\"cloudflare.loadBalancer.LoadBalancerRulesOverridesAdaptiveRouting\"}", isOptional: true)]
@@ -27,7 +27,7 @@ namespace cloudflare.LoadBalancer
         /// <remarks>
         /// Any country not explicitly defined will fall back to using the corresponding region_pool mapping if it exists else to default_pools.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer#country_pools LoadBalancer#country_pools}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer#country_pools LoadBalancer#country_pools}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "countryPools", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace cloudflare.LoadBalancer
         /// <remarks>
         /// Pools defined here are used by default, or when region_pools are not configured for a given region.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer#default_pools LoadBalancer#default_pools}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer#default_pools LoadBalancer#default_pools}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultPools", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace cloudflare.LoadBalancer
 
         /// <summary>The pool ID to use when all other pools are detected as unhealthy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer#fallback_pool LoadBalancer#fallback_pool}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer#fallback_pool LoadBalancer#fallback_pool}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fallbackPool", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -85,7 +85,7 @@ namespace cloudflare.LoadBalancer
 
         /// <summary>Controls location-based steering for non-proxied requests. See `steering_policy` to learn how steering is affected.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer#location_strategy LoadBalancer#location_strategy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer#location_strategy LoadBalancer#location_strategy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "locationStrategy", typeJson: "{\"fqn\":\"cloudflare.loadBalancer.LoadBalancerRulesOverridesLocationStrategy\"}", isOptional: true)]
@@ -101,7 +101,7 @@ namespace cloudflare.LoadBalancer
         /// <remarks>
         /// Any PoPs not explicitly defined will fall back to using the corresponding country_pool, then region_pool mapping if it exists else to default_pools.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer#pop_pools LoadBalancer#pop_pools}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer#pop_pools LoadBalancer#pop_pools}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "popPools", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -139,7 +139,7 @@ namespace cloudflare.LoadBalancer
         /// <description><c>steering_policy="least_connections"</c>: Use pool weights to scale each pool's open connections.</description>
         /// </list>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer#random_steering LoadBalancer#random_steering}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer#random_steering LoadBalancer#random_steering}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "randomSteering", typeJson: "{\"fqn\":\"cloudflare.loadBalancer.LoadBalancerRulesOverridesRandomSteering\"}", isOptional: true)]
@@ -155,7 +155,7 @@ namespace cloudflare.LoadBalancer
         /// <remarks>
         /// Any regions not explicitly defined will fall back to using default_pools.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer#region_pools LoadBalancer#region_pools}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer#region_pools LoadBalancer#region_pools}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regionPools", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -190,7 +190,7 @@ namespace cloudflare.LoadBalancer
         /// The supported types are: - <c>"cookie"</c>: On the first request to a proxied load balancer, a cookie is generated, encoding information of which origin the request will be forwarded to. Subsequent requests, by the same client to the same load balancer, will be sent to the origin server the cookie encodes, for the duration of the cookie and as long as the origin server remains healthy. If the cookie has expired or the origin server is unhealthy, then a new origin server is calculated and used. - <c>"ip_cookie"</c>: Behaves the same as <c>"cookie"</c> except the initial origin selection is stable and based on the client's ip address. - <c>"header"</c>: On the first request to a proxied load balancer, a session key based on the configured HTTP headers (see <c>session_affinity_attributes.headers</c>) is generated, encoding the request headers used for storing in the load balancer session state which origin the request will be forwarded to. Subsequent requests to the load balancer with the same headers will be sent to the same origin server, for the duration of the session and as long as the origin server remains healthy. If the session has been idle for the duration of <c>session_affinity_ttl</c> seconds or the origin server is unhealthy, then a new origin server is calculated and used. See <c>headers</c> in <c>session_affinity_attributes</c> for additional required configuration.
         /// Available values: "none", "cookie", "ip_cookie", "header".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer#session_affinity LoadBalancer#session_affinity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer#session_affinity LoadBalancer#session_affinity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sessionAffinity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -202,7 +202,7 @@ namespace cloudflare.LoadBalancer
 
         /// <summary>Configures attributes for session affinity.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer#session_affinity_attributes LoadBalancer#session_affinity_attributes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer#session_affinity_attributes LoadBalancer#session_affinity_attributes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sessionAffinityAttributes", typeJson: "{\"fqn\":\"cloudflare.loadBalancer.LoadBalancerRulesOverridesSessionAffinityAttributes\"}", isOptional: true)]
@@ -216,7 +216,7 @@ namespace cloudflare.LoadBalancer
         /// <remarks>
         /// Once the expiry time has been reached, subsequent requests may get sent to a different origin server. The accepted ranges per <c>session_affinity</c> policy are: - <c>"cookie"</c> / <c>"ip_cookie"</c>: The current default of 23 hours will be used unless explicitly set. The accepted range of values is between [1800, 604800]. - <c>"header"</c>: The current default of 1800 seconds will be used unless explicitly set. The accepted range of values is between [30, 3600]. Note: With session affinity by header, sessions only expire after they haven't been used for the number of seconds specified.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer#session_affinity_ttl LoadBalancer#session_affinity_ttl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer#session_affinity_ttl LoadBalancer#session_affinity_ttl}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sessionAffinityTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -240,7 +240,7 @@ namespace cloudflare.LoadBalancer
         /// Available values: "off", "geo", "random", "dynamic_latency", "proximity", "least_outstanding_requests", "least_connections", "".</description>
         /// </list>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer#steering_policy LoadBalancer#steering_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer#steering_policy LoadBalancer#steering_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "steeringPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -254,7 +254,7 @@ namespace cloudflare.LoadBalancer
         /// <remarks>
         /// This only applies to gray-clouded (unproxied) load balancers.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer#ttl LoadBalancer#ttl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer#ttl LoadBalancer#ttl}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

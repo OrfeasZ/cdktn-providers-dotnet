@@ -11,7 +11,7 @@ namespace cloudflare.LogpullRetention
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/logpull_retention#zone_id LogpullRetention#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/logpull_retention#zone_id LogpullRetention#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId
@@ -24,7 +24,7 @@ namespace cloudflare.LogpullRetention
 
         /// <summary>The log retention flag for Logpull API.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/logpull_retention#flag LogpullRetention#flag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/logpull_retention#flag LogpullRetention#flag}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "flag", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
