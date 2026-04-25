@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.ConnectivityDirectoryService
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/connectivity_directory_service cloudflare_connectivity_directory_service}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/connectivity_directory_service cloudflare_connectivity_directory_service}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.ConnectivityDirectoryService.ConnectivityDirectoryService), fullyQualifiedName: "cloudflare.connectivityDirectoryService.ConnectivityDirectoryService", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.connectivityDirectoryService.ConnectivityDirectoryServiceConfig\"}}]")]
     public class ConnectivityDirectoryService : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/connectivity_directory_service cloudflare_connectivity_directory_service} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/connectivity_directory_service cloudflare_connectivity_directory_service} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ConnectivityDirectoryService(Constructs.Construct scope, string id, cloudflare.ConnectivityDirectoryService.IConnectivityDirectoryServiceConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace cloudflare.ConnectivityDirectoryService
         /// <param name="importToId">The construct id used in the generated config for the ConnectivityDirectoryService to import.</param>
         /// <param name="importFromId">The id of the existing ConnectivityDirectoryService that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ConnectivityDirectoryService to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ConnectivityDirectoryService to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/connectivity_directory_service#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ConnectivityDirectoryService that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ConnectivityDirectoryService to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ConnectivityDirectoryService to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/connectivity_directory_service#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ConnectivityDirectoryService that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ConnectivityDirectoryService to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.ConnectivityDirectoryService.ConnectivityDirectoryService), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -52,6 +52,24 @@ namespace cloudflare.ConnectivityDirectoryService
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ConnectivityDirectoryService.IConnectivityDirectoryServiceHost)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putTlsSettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.connectivityDirectoryService.ConnectivityDirectoryServiceTlsSettings\"}}]")]
+        public virtual void PutTlsSettings(cloudflare.ConnectivityDirectoryService.IConnectivityDirectoryServiceTlsSettings @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ConnectivityDirectoryService.IConnectivityDirectoryServiceTlsSettings)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetAccountId")]
+        public virtual void ResetAccountId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAppProtocol")]
+        public virtual void ResetAppProtocol()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetHttpPort")]
         public virtual void ResetHttpPort()
         {
@@ -60,6 +78,18 @@ namespace cloudflare.ConnectivityDirectoryService
 
         [JsiiMethod(name: "resetHttpsPort")]
         public virtual void ResetHttpsPort()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTcpPort")]
+        public virtual void ResetTcpPort()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTlsSettings")]
+        public virtual void ResetTlsSettings()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -107,6 +137,12 @@ namespace cloudflare.ConnectivityDirectoryService
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "tlsSettings", typeJson: "{\"fqn\":\"cloudflare.connectivityDirectoryService.ConnectivityDirectoryServiceTlsSettingsOutputReference\"}")]
+        public virtual cloudflare.ConnectivityDirectoryService.ConnectivityDirectoryServiceTlsSettingsOutputReference TlsSettings
+        {
+            get => GetInstanceProperty<cloudflare.ConnectivityDirectoryService.ConnectivityDirectoryServiceTlsSettingsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "updatedAt", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string UpdatedAt
         {
@@ -116,6 +152,13 @@ namespace cloudflare.ConnectivityDirectoryService
         [JsiiOptional]
         [JsiiProperty(name: "accountIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AccountIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "appProtocolInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AppProtocolInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -149,6 +192,20 @@ namespace cloudflare.ConnectivityDirectoryService
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "tcpPortInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? TcpPortInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tlsSettingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.connectivityDirectoryService.ConnectivityDirectoryServiceTlsSettings\"}]}}", isOptional: true)]
+        public virtual object? TlsSettingsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "typeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? TypeInput
         {
@@ -157,6 +214,13 @@ namespace cloudflare.ConnectivityDirectoryService
 
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AccountId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "appProtocol", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AppProtocol
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -180,6 +244,13 @@ namespace cloudflare.ConnectivityDirectoryService
         public virtual string Name
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "tcpPort", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double TcpPort
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

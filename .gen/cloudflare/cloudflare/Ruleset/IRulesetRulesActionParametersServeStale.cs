@@ -9,7 +9,7 @@ namespace cloudflare.Ruleset
     {
         /// <summary>Whether Cloudflare should disable serving stale content while getting the latest content from the origin.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#disable_stale_while_updating Ruleset#disable_stale_while_updating}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#disable_stale_while_updating Ruleset#disable_stale_while_updating}
         /// </remarks>
         [JsiiProperty(name: "disableStaleWhileUpdating", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether Cloudflare should disable serving stale content while getting the latest content from the origin.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#disable_stale_while_updating Ruleset#disable_stale_while_updating}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#disable_stale_while_updating Ruleset#disable_stale_while_updating}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "disableStaleWhileUpdating", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

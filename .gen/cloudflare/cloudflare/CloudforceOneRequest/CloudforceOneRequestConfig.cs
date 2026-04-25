@@ -4,17 +4,16 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.CloudforceOneRequest
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.cloudforceOneRequest.CloudforceOneRequestConfig")]
     public class CloudforceOneRequestConfig : cloudflare.CloudforceOneRequest.ICloudforceOneRequestConfig
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/cloudforce_one_request#account_id CloudforceOneRequest#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/cloudforce_one_request#account_id CloudforceOneRequest#account_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;
@@ -22,7 +21,7 @@ namespace cloudflare.CloudforceOneRequest
 
         /// <summary>Request content.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/cloudforce_one_request#content CloudforceOneRequest#content}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/cloudforce_one_request#content CloudforceOneRequest#content}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +33,7 @@ namespace cloudflare.CloudforceOneRequest
 
         /// <summary>Priority for analyzing the request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/cloudforce_one_request#priority CloudforceOneRequest#priority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/cloudforce_one_request#priority CloudforceOneRequest#priority}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +45,7 @@ namespace cloudflare.CloudforceOneRequest
 
         /// <summary>Requested information from request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/cloudforce_one_request#request_type CloudforceOneRequest#request_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/cloudforce_one_request#request_type CloudforceOneRequest#request_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "requestType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +57,7 @@ namespace cloudflare.CloudforceOneRequest
 
         /// <summary>Brief description of the request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/cloudforce_one_request#summary CloudforceOneRequest#summary}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/cloudforce_one_request#summary CloudforceOneRequest#summary}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "summary", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +69,7 @@ namespace cloudflare.CloudforceOneRequest
 
         /// <summary>The CISA defined Traffic Light Protocol (TLP). Available values: "clear", "amber", "amber-strict", "green", "red".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/cloudforce_one_request#tlp CloudforceOneRequest#tlp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/cloudforce_one_request#tlp CloudforceOneRequest#tlp}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tlp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

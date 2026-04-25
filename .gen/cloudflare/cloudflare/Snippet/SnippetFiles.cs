@@ -9,7 +9,7 @@ namespace cloudflare.Snippet
     [JsiiByValue(fqn: "cloudflare.snippet.SnippetFiles")]
     public class SnippetFiles : cloudflare.Snippet.ISnippetFiles
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/snippet#content Snippet#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/snippet#content Snippet#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         public string Content
         {
@@ -17,7 +17,7 @@ namespace cloudflare.Snippet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/snippet#name Snippet#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/snippet#name Snippet#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

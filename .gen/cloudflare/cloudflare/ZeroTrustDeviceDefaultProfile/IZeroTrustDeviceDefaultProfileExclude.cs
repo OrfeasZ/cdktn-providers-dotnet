@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustDeviceDefaultProfile
     {
         /// <summary>The address in CIDR format to exclude from the tunnel. If `address` is present, `host` must not be present.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_device_default_profile#address ZeroTrustDeviceDefaultProfile#address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_device_default_profile#address ZeroTrustDeviceDefaultProfile#address}
         /// </remarks>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace cloudflare.ZeroTrustDeviceDefaultProfile
 
         /// <summary>A description of the Split Tunnel item, displayed in the client UI.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_device_default_profile#description ZeroTrustDeviceDefaultProfile#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_device_default_profile#description ZeroTrustDeviceDefaultProfile#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace cloudflare.ZeroTrustDeviceDefaultProfile
 
         /// <summary>The domain name to exclude from the tunnel. If `host` is present, `address` must not be present.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_device_default_profile#host ZeroTrustDeviceDefaultProfile#host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_device_default_profile#host ZeroTrustDeviceDefaultProfile#host}
         /// </remarks>
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace cloudflare.ZeroTrustDeviceDefaultProfile
 
             /// <summary>The address in CIDR format to exclude from the tunnel. If `address` is present, `host` must not be present.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_device_default_profile#address ZeroTrustDeviceDefaultProfile#address}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_device_default_profile#address ZeroTrustDeviceDefaultProfile#address}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace cloudflare.ZeroTrustDeviceDefaultProfile
 
             /// <summary>A description of the Split Tunnel item, displayed in the client UI.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_device_default_profile#description ZeroTrustDeviceDefaultProfile#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_device_default_profile#description ZeroTrustDeviceDefaultProfile#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace cloudflare.ZeroTrustDeviceDefaultProfile
 
             /// <summary>The domain name to exclude from the tunnel. If `host` is present, `address` must not be present.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_device_default_profile#host ZeroTrustDeviceDefaultProfile#host}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_device_default_profile#host ZeroTrustDeviceDefaultProfile#host}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

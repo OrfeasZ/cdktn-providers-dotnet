@@ -9,17 +9,18 @@ namespace cloudflare.DataCloudflareZeroTrustDlpDataset
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustDlpDataset.DataCloudflareZeroTrustDlpDatasetConfig")]
     public class DataCloudflareZeroTrustDlpDatasetConfig : cloudflare.DataCloudflareZeroTrustDlpDataset.IDataCloudflareZeroTrustDlpDatasetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_dlp_dataset#account_id DataCloudflareZeroTrustDlpDataset#account_id}.</summary>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_dlp_dataset#dataset_id DataCloudflareZeroTrustDlpDataset#dataset_id}.</summary>
+        [JsiiProperty(name: "datasetId", typeJson: "{\"primitive\":\"string\"}")]
+        public string DatasetId
         {
             get;
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_dlp_dataset#dataset_id DataCloudflareZeroTrustDlpDataset#dataset_id}.</summary>
-        [JsiiProperty(name: "datasetId", typeJson: "{\"primitive\":\"string\"}")]
-        public string DatasetId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_dlp_dataset#account_id DataCloudflareZeroTrustDlpDataset#account_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

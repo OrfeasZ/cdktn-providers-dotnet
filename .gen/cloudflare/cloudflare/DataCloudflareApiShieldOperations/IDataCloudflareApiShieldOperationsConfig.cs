@@ -7,19 +7,9 @@ namespace cloudflare.DataCloudflareApiShieldOperations
     [JsiiInterface(nativeType: typeof(IDataCloudflareApiShieldOperationsConfig), fullyQualifiedName: "cloudflare.dataCloudflareApiShieldOperations.DataCloudflareApiShieldOperationsConfig")]
     public interface IDataCloudflareApiShieldOperationsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_shield_operations#zone_id DataCloudflareApiShieldOperations#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
-        {
-            get;
-        }
-
         /// <summary>Direction to order results. Available values: "asc", "desc".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_shield_operations#direction DataCloudflareApiShieldOperations#direction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_operations#direction DataCloudflareApiShieldOperations#direction}
         /// </remarks>
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +23,7 @@ namespace cloudflare.DataCloudflareApiShieldOperations
 
         /// <summary>Filter results to only include endpoints containing this pattern.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_shield_operations#endpoint DataCloudflareApiShieldOperations#endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_operations#endpoint DataCloudflareApiShieldOperations#endpoint}
         /// </remarks>
         [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -49,7 +39,7 @@ namespace cloudflare.DataCloudflareApiShieldOperations
         /// <remarks>
         /// The feature name that is given here corresponds to the resulting feature object. Have a look at the top-level object description for more details on the specific meaning.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_shield_operations#feature DataCloudflareApiShieldOperations#feature}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_operations#feature DataCloudflareApiShieldOperations#feature}
         /// </remarks>
         [JsiiProperty(name: "feature", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,7 +53,7 @@ namespace cloudflare.DataCloudflareApiShieldOperations
 
         /// <summary>Filter results to only include the specified hosts.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_shield_operations#host DataCloudflareApiShieldOperations#host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_operations#host DataCloudflareApiShieldOperations#host}
         /// </remarks>
         [JsiiProperty(name: "host", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -77,7 +67,7 @@ namespace cloudflare.DataCloudflareApiShieldOperations
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_shield_operations#max_items DataCloudflareApiShieldOperations#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_operations#max_items DataCloudflareApiShieldOperations#max_items}
         /// </remarks>
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -91,7 +81,7 @@ namespace cloudflare.DataCloudflareApiShieldOperations
 
         /// <summary>Filter results to only include the specified HTTP methods.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_shield_operations#method DataCloudflareApiShieldOperations#method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_operations#method DataCloudflareApiShieldOperations#method}
         /// </remarks>
         [JsiiProperty(name: "method", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -108,11 +98,25 @@ namespace cloudflare.DataCloudflareApiShieldOperations
         /// When requesting a feature, the feature keys are available for ordering as well, e.g., <c>thresholds.suggested_threshold</c>.
         /// Available values: "method", "host", "endpoint", "thresholds.$key".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_shield_operations#order DataCloudflareApiShieldOperations#order}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_operations#order DataCloudflareApiShieldOperations#order}
         /// </remarks>
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Order
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_operations#zone_id DataCloudflareApiShieldOperations#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? ZoneId
         {
             get
             {
@@ -127,19 +131,9 @@ namespace cloudflare.DataCloudflareApiShieldOperations
             {
             }
 
-            /// <summary>Identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_shield_operations#zone_id DataCloudflareApiShieldOperations#zone_id}
-            /// </remarks>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>Direction to order results. Available values: "asc", "desc".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_shield_operations#direction DataCloudflareApiShieldOperations#direction}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_operations#direction DataCloudflareApiShieldOperations#direction}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -150,7 +144,7 @@ namespace cloudflare.DataCloudflareApiShieldOperations
 
             /// <summary>Filter results to only include endpoints containing this pattern.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_shield_operations#endpoint DataCloudflareApiShieldOperations#endpoint}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_operations#endpoint DataCloudflareApiShieldOperations#endpoint}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -163,7 +157,7 @@ namespace cloudflare.DataCloudflareApiShieldOperations
             /// <remarks>
             /// The feature name that is given here corresponds to the resulting feature object. Have a look at the top-level object description for more details on the specific meaning.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_shield_operations#feature DataCloudflareApiShieldOperations#feature}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_operations#feature DataCloudflareApiShieldOperations#feature}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "feature", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -174,7 +168,7 @@ namespace cloudflare.DataCloudflareApiShieldOperations
 
             /// <summary>Filter results to only include the specified hosts.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_shield_operations#host DataCloudflareApiShieldOperations#host}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_operations#host DataCloudflareApiShieldOperations#host}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "host", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -185,7 +179,7 @@ namespace cloudflare.DataCloudflareApiShieldOperations
 
             /// <summary>Max items to fetch, default: 1000.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_shield_operations#max_items DataCloudflareApiShieldOperations#max_items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_operations#max_items DataCloudflareApiShieldOperations#max_items}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -196,7 +190,7 @@ namespace cloudflare.DataCloudflareApiShieldOperations
 
             /// <summary>Filter results to only include the specified HTTP methods.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_shield_operations#method DataCloudflareApiShieldOperations#method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_operations#method DataCloudflareApiShieldOperations#method}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "method", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -210,11 +204,22 @@ namespace cloudflare.DataCloudflareApiShieldOperations
             /// When requesting a feature, the feature keys are available for ordering as well, e.g., <c>thresholds.suggested_threshold</c>.
             /// Available values: "method", "host", "endpoint", "thresholds.$key".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_shield_operations#order DataCloudflareApiShieldOperations#order}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_operations#order DataCloudflareApiShieldOperations#order}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Order
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_operations#zone_id DataCloudflareApiShieldOperations#zone_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
             {
                 get => GetInstanceProperty<string?>();
             }

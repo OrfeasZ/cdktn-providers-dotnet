@@ -9,7 +9,7 @@ namespace cloudflare.TokenValidationRules
     {
         /// <summary>Move rule to after rule with this ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_rules#after TokenValidationRules#after}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_rules#after TokenValidationRules#after}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "after", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace cloudflare.TokenValidationRules
 
         /// <summary>Move rule to before rule with this ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_rules#before TokenValidationRules#before}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_rules#before TokenValidationRules#before}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "before", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace cloudflare.TokenValidationRules
 
         /// <summary>Move rule to this position.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_rules#index TokenValidationRules#index}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_rules#index TokenValidationRules#index}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "index", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

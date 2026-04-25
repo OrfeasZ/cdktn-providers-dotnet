@@ -4,14 +4,13 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareZeroTrustDevicePostureRules
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustDevicePostureRules.DataCloudflareZeroTrustDevicePostureRulesConfig")]
     public class DataCloudflareZeroTrustDevicePostureRulesConfig : cloudflare.DataCloudflareZeroTrustDevicePostureRules.IDataCloudflareZeroTrustDevicePostureRulesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_device_posture_rules#account_id DataCloudflareZeroTrustDevicePostureRules#account_id}.</summary>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_device_posture_rules#account_id DataCloudflareZeroTrustDevicePostureRules#account_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;
@@ -19,7 +18,7 @@ namespace cloudflare.DataCloudflareZeroTrustDevicePostureRules
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_device_posture_rules#max_items DataCloudflareZeroTrustDevicePostureRules#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_device_posture_rules#max_items DataCloudflareZeroTrustDevicePostureRules#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

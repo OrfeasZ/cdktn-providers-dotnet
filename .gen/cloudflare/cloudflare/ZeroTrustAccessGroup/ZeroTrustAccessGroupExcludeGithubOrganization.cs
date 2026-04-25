@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustAccessGroup
     {
         /// <summary>The ID of your Github identity provider.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#identity_provider_id ZeroTrustAccessGroup#identity_provider_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#identity_provider_id ZeroTrustAccessGroup#identity_provider_id}
         /// </remarks>
         [JsiiProperty(name: "identityProviderId", typeJson: "{\"primitive\":\"string\"}")]
         public string IdentityProviderId
@@ -22,7 +22,7 @@ namespace cloudflare.ZeroTrustAccessGroup
 
         /// <summary>The name of the organization.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#name ZeroTrustAccessGroup#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#name ZeroTrustAccessGroup#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -33,7 +33,7 @@ namespace cloudflare.ZeroTrustAccessGroup
 
         /// <summary>The name of the team.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#team ZeroTrustAccessGroup#team}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#team ZeroTrustAccessGroup#team}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "team", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

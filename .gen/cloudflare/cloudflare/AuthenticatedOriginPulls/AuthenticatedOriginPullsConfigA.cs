@@ -9,7 +9,7 @@ namespace cloudflare.AuthenticatedOriginPulls
     {
         /// <summary>Certificate identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/authenticated_origin_pulls#cert_id AuthenticatedOriginPulls#cert_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/authenticated_origin_pulls#cert_id AuthenticatedOriginPulls#cert_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "certId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace cloudflare.AuthenticatedOriginPulls
 
         /// <summary>Indicates whether hostname-level authenticated origin pulls is enabled. A null value voids the association.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/authenticated_origin_pulls#enabled AuthenticatedOriginPulls#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/authenticated_origin_pulls#enabled AuthenticatedOriginPulls#enabled}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace cloudflare.AuthenticatedOriginPulls
 
         /// <summary>The hostname on the origin for which the client certificate uploaded will be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/authenticated_origin_pulls#hostname AuthenticatedOriginPulls#hostname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/authenticated_origin_pulls#hostname AuthenticatedOriginPulls#hostname}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

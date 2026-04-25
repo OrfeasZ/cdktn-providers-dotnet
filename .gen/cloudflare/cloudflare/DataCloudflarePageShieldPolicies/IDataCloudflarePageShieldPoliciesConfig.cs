@@ -7,23 +7,27 @@ namespace cloudflare.DataCloudflarePageShieldPolicies
     [JsiiInterface(nativeType: typeof(IDataCloudflarePageShieldPoliciesConfig), fullyQualifiedName: "cloudflare.dataCloudflarePageShieldPolicies.DataCloudflarePageShieldPoliciesConfig")]
     public interface IDataCloudflarePageShieldPoliciesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/page_shield_policies#zone_id DataCloudflarePageShieldPolicies#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
-        {
-            get;
-        }
-
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/page_shield_policies#max_items DataCloudflarePageShieldPolicies#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/page_shield_policies#max_items DataCloudflarePageShieldPolicies#max_items}
         /// </remarks>
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxItems
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/page_shield_policies#zone_id DataCloudflarePageShieldPolicies#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? ZoneId
         {
             get
             {
@@ -38,25 +42,26 @@ namespace cloudflare.DataCloudflarePageShieldPolicies
             {
             }
 
-            /// <summary>Identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/page_shield_policies#zone_id DataCloudflarePageShieldPolicies#zone_id}
-            /// </remarks>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>Max items to fetch, default: 1000.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/page_shield_policies#max_items DataCloudflarePageShieldPolicies#max_items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/page_shield_policies#max_items DataCloudflarePageShieldPolicies#max_items}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxItems
             {
                 get => GetInstanceProperty<double?>();
+            }
+
+            /// <summary>Identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/page_shield_policies#zone_id DataCloudflarePageShieldPolicies#zone_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
+            {
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

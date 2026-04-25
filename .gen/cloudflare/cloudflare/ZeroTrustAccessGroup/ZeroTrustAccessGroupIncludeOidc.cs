@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustAccessGroup
     {
         /// <summary>The name of the OIDC claim.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#claim_name ZeroTrustAccessGroup#claim_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#claim_name ZeroTrustAccessGroup#claim_name}
         /// </remarks>
         [JsiiProperty(name: "claimName", typeJson: "{\"primitive\":\"string\"}")]
         public string ClaimName
@@ -22,7 +22,7 @@ namespace cloudflare.ZeroTrustAccessGroup
 
         /// <summary>The OIDC claim value to look for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#claim_value ZeroTrustAccessGroup#claim_value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#claim_value ZeroTrustAccessGroup#claim_value}
         /// </remarks>
         [JsiiProperty(name: "claimValue", typeJson: "{\"primitive\":\"string\"}")]
         public string ClaimValue
@@ -33,7 +33,7 @@ namespace cloudflare.ZeroTrustAccessGroup
 
         /// <summary>The ID of your OIDC identity provider.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#identity_provider_id ZeroTrustAccessGroup#identity_provider_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#identity_provider_id ZeroTrustAccessGroup#identity_provider_id}
         /// </remarks>
         [JsiiProperty(name: "identityProviderId", typeJson: "{\"primitive\":\"string\"}")]
         public string IdentityProviderId

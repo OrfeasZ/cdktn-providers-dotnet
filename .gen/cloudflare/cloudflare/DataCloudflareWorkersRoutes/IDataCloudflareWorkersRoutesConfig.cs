@@ -7,23 +7,27 @@ namespace cloudflare.DataCloudflareWorkersRoutes
     [JsiiInterface(nativeType: typeof(IDataCloudflareWorkersRoutesConfig), fullyQualifiedName: "cloudflare.dataCloudflareWorkersRoutes.DataCloudflareWorkersRoutesConfig")]
     public interface IDataCloudflareWorkersRoutesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/workers_routes#zone_id DataCloudflareWorkersRoutes#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
-        {
-            get;
-        }
-
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/workers_routes#max_items DataCloudflareWorkersRoutes#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/workers_routes#max_items DataCloudflareWorkersRoutes#max_items}
         /// </remarks>
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxItems
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/workers_routes#zone_id DataCloudflareWorkersRoutes#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? ZoneId
         {
             get
             {
@@ -38,25 +42,26 @@ namespace cloudflare.DataCloudflareWorkersRoutes
             {
             }
 
-            /// <summary>Identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/workers_routes#zone_id DataCloudflareWorkersRoutes#zone_id}
-            /// </remarks>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>Max items to fetch, default: 1000.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/workers_routes#max_items DataCloudflareWorkersRoutes#max_items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/workers_routes#max_items DataCloudflareWorkersRoutes#max_items}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxItems
             {
                 get => GetInstanceProperty<double?>();
+            }
+
+            /// <summary>Identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/workers_routes#zone_id DataCloudflareWorkersRoutes#zone_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
+            {
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

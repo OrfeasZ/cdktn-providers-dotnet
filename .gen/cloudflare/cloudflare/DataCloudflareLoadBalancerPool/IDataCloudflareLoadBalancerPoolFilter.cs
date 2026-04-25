@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareLoadBalancerPool
     {
         /// <summary>The ID of the Monitor to use for checking the health of origins within this pool.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/load_balancer_pool#monitor DataCloudflareLoadBalancerPool#monitor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/load_balancer_pool#monitor DataCloudflareLoadBalancerPool#monitor}
         /// </remarks>
         [JsiiProperty(name: "monitor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace cloudflare.DataCloudflareLoadBalancerPool
 
             /// <summary>The ID of the Monitor to use for checking the health of origins within this pool.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/load_balancer_pool#monitor DataCloudflareLoadBalancerPool#monitor}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/load_balancer_pool#monitor DataCloudflareLoadBalancerPool#monitor}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "monitor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

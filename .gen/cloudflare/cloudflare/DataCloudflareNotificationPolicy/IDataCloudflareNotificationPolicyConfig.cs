@@ -7,24 +7,28 @@ namespace cloudflare.DataCloudflareNotificationPolicy
     [JsiiInterface(nativeType: typeof(IDataCloudflareNotificationPolicyConfig), fullyQualifiedName: "cloudflare.dataCloudflareNotificationPolicy.DataCloudflareNotificationPolicyConfig")]
     public interface IDataCloudflareNotificationPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>The account id.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/notification_policy#account_id DataCloudflareNotificationPolicy#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
-        {
-            get;
-        }
-
         /// <summary>The unique identifier of a notification policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/notification_policy#policy_id DataCloudflareNotificationPolicy#policy_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/notification_policy#policy_id DataCloudflareNotificationPolicy#policy_id}
         /// </remarks>
         [JsiiProperty(name: "policyId", typeJson: "{\"primitive\":\"string\"}")]
         string PolicyId
         {
             get;
+        }
+
+        /// <summary>The account id.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/notification_policy#account_id DataCloudflareNotificationPolicy#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
+        {
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IDataCloudflareNotificationPolicyConfig), fullyQualifiedName: "cloudflare.dataCloudflareNotificationPolicy.DataCloudflareNotificationPolicyConfig")]
@@ -34,24 +38,25 @@ namespace cloudflare.DataCloudflareNotificationPolicy
             {
             }
 
-            /// <summary>The account id.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/notification_policy#account_id DataCloudflareNotificationPolicy#account_id}
-            /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>The unique identifier of a notification policy.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/notification_policy#policy_id DataCloudflareNotificationPolicy#policy_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/notification_policy#policy_id DataCloudflareNotificationPolicy#policy_id}
             /// </remarks>
             [JsiiProperty(name: "policyId", typeJson: "{\"primitive\":\"string\"}")]
             public string PolicyId
             {
                 get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>The account id.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/notification_policy#account_id DataCloudflareNotificationPolicy#account_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
+            {
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

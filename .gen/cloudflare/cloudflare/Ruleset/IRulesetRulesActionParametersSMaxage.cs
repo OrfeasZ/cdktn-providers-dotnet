@@ -9,7 +9,7 @@ namespace cloudflare.Ruleset
     {
         /// <summary>The operation to perform. Available values: "set", "remove".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#operation Ruleset#operation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#operation Ruleset#operation}
         /// </remarks>
         [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}")]
         string Operation
@@ -19,7 +19,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to apply the directive only to Cloudflare's cache.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#cloudflare_only Ruleset#cloudflare_only}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#cloudflare_only Ruleset#cloudflare_only}
         /// </remarks>
         [JsiiProperty(name: "cloudflareOnly", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The value for the directive in seconds.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#value Ruleset#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#value Ruleset#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The operation to perform. Available values: "set", "remove".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#operation Ruleset#operation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#operation Ruleset#operation}
             /// </remarks>
             [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}")]
             public string Operation
@@ -64,7 +64,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to apply the directive only to Cloudflare's cache.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#cloudflare_only Ruleset#cloudflare_only}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#cloudflare_only Ruleset#cloudflare_only}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudflareOnly", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The value for the directive in seconds.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#value Ruleset#value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#value Ruleset#value}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

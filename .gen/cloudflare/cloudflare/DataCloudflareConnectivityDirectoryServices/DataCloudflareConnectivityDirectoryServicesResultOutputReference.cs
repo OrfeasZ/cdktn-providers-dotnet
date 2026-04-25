@@ -35,6 +35,12 @@ namespace cloudflare.DataCloudflareConnectivityDirectoryServices
         {
         }
 
+        [JsiiProperty(name: "appProtocol", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AppProtocol
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "createdAt", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CreatedAt
         {
@@ -59,12 +65,6 @@ namespace cloudflare.DataCloudflareConnectivityDirectoryServices
             get => GetInstanceProperty<double>()!;
         }
 
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Id
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
         {
@@ -75,6 +75,18 @@ namespace cloudflare.DataCloudflareConnectivityDirectoryServices
         public virtual string ServiceId
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "tcpPort", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double TcpPort
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "tlsSettings", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareConnectivityDirectoryServices.DataCloudflareConnectivityDirectoryServicesResultTlsSettingsOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareConnectivityDirectoryServices.DataCloudflareConnectivityDirectoryServicesResultTlsSettingsOutputReference TlsSettings
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareConnectivityDirectoryServices.DataCloudflareConnectivityDirectoryServicesResultTlsSettingsOutputReference>()!;
         }
 
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]

@@ -9,7 +9,7 @@ namespace cloudflare.WorkersDeployment
     [JsiiByValue(fqn: "cloudflare.workersDeployment.WorkersDeploymentVersions")]
     public class WorkersDeploymentVersions : cloudflare.WorkersDeployment.IWorkersDeploymentVersions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workers_deployment#percentage WorkersDeployment#percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workers_deployment#percentage WorkersDeployment#percentage}.</summary>
         [JsiiProperty(name: "percentage", typeJson: "{\"primitive\":\"number\"}")]
         public double Percentage
         {
@@ -17,7 +17,7 @@ namespace cloudflare.WorkersDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workers_deployment#version_id WorkersDeployment#version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workers_deployment#version_id WorkersDeployment#version_id}.</summary>
         [JsiiProperty(name: "versionId", typeJson: "{\"primitive\":\"string\"}")]
         public string VersionId
         {

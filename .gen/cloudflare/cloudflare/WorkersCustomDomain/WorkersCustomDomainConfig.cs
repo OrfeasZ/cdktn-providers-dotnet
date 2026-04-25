@@ -9,20 +9,11 @@ namespace cloudflare.WorkersCustomDomain
     [JsiiByValue(fqn: "cloudflare.workersCustomDomain.WorkersCustomDomainConfig")]
     public class WorkersCustomDomainConfig : cloudflare.WorkersCustomDomain.IWorkersCustomDomainConfig
     {
-        /// <summary>Identifer of the account.</summary>
+        /// <summary>Hostname of the domain.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workers_custom_domain#account_id WorkersCustomDomain#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Hostname of the Worker Domain.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workers_custom_domain#hostname WorkersCustomDomain#hostname}
+        /// Can be either the zone apex or a subdomain of the zone. Requests to this hostname will be routed to the configured Worker.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workers_custom_domain#hostname WorkersCustomDomain#hostname}
         /// </remarks>
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
         public string Hostname
@@ -31,9 +22,9 @@ namespace cloudflare.WorkersCustomDomain
             set;
         }
 
-        /// <summary>Worker service associated with the zone and hostname.</summary>
+        /// <summary>Name of the Worker associated with the domain. Requests to the configured hostname will be routed to this Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workers_custom_domain#service WorkersCustomDomain#service}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workers_custom_domain#service WorkersCustomDomain#service}
         /// </remarks>
         [JsiiProperty(name: "service", typeJson: "{\"primitive\":\"string\"}")]
         public string Service
@@ -42,24 +33,49 @@ namespace cloudflare.WorkersCustomDomain
             set;
         }
 
-        /// <summary>Identifier of the zone.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workers_custom_domain#zone_id WorkersCustomDomain#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workers_custom_domain#account_id WorkersCustomDomain#account_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;
         }
 
-        /// <summary>Worker environment associated with the zone and hostname.</summary>
+        /// <summary>Worker environment associated with the domain.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workers_custom_domain#environment WorkersCustomDomain#environment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workers_custom_domain#environment WorkersCustomDomain#environment}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "environment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Environment
+        {
+            get;
+            set;
+        }
+
+        /// <summary>ID of the zone containing the domain hostname.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workers_custom_domain#zone_id WorkersCustomDomain#zone_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Name of the zone containing the domain hostname.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workers_custom_domain#zone_name WorkersCustomDomain#zone_name}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "zoneName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneName
         {
             get;
             set;

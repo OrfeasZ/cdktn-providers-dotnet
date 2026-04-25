@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareApiTokens
     {
         /// <summary>Direction to order results. Available values: "asc", "desc".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_tokens#direction DataCloudflareApiTokens#direction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_tokens#direction DataCloudflareApiTokens#direction}
         /// </remarks>
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace cloudflare.DataCloudflareApiTokens
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_tokens#max_items DataCloudflareApiTokens#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_tokens#max_items DataCloudflareApiTokens#max_items}
         /// </remarks>
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace cloudflare.DataCloudflareApiTokens
 
             /// <summary>Direction to order results. Available values: "asc", "desc".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_tokens#direction DataCloudflareApiTokens#direction}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_tokens#direction DataCloudflareApiTokens#direction}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace cloudflare.DataCloudflareApiTokens
 
             /// <summary>Max items to fetch, default: 1000.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_tokens#max_items DataCloudflareApiTokens#max_items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_tokens#max_items DataCloudflareApiTokens#max_items}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

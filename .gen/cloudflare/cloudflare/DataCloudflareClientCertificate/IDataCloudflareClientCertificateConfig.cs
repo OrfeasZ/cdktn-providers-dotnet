@@ -9,17 +9,7 @@ namespace cloudflare.DataCloudflareClientCertificate
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/client_certificate#zone_id DataCloudflareClientCertificate#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
-        {
-            get;
-        }
-
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/client_certificate#client_certificate_id DataCloudflareClientCertificate#client_certificate_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/client_certificate#client_certificate_id DataCloudflareClientCertificate#client_certificate_id}
         /// </remarks>
         [JsiiProperty(name: "clientCertificateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,10 +21,24 @@ namespace cloudflare.DataCloudflareClientCertificate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/client_certificate#filter DataCloudflareClientCertificate#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/client_certificate#filter DataCloudflareClientCertificate#filter}.</summary>
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareClientCertificate.DataCloudflareClientCertificateFilter\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.DataCloudflareClientCertificate.IDataCloudflareClientCertificateFilter? Filter
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/client_certificate#zone_id DataCloudflareClientCertificate#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? ZoneId
         {
             get
             {
@@ -51,17 +55,7 @@ namespace cloudflare.DataCloudflareClientCertificate
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/client_certificate#zone_id DataCloudflareClientCertificate#zone_id}
-            /// </remarks>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
-            /// <summary>Identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/client_certificate#client_certificate_id DataCloudflareClientCertificate#client_certificate_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/client_certificate#client_certificate_id DataCloudflareClientCertificate#client_certificate_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clientCertificateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,12 +64,23 @@ namespace cloudflare.DataCloudflareClientCertificate
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/client_certificate#filter DataCloudflareClientCertificate#filter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/client_certificate#filter DataCloudflareClientCertificate#filter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareClientCertificate.DataCloudflareClientCertificateFilter\"}", isOptional: true)]
             public cloudflare.DataCloudflareClientCertificate.IDataCloudflareClientCertificateFilter? Filter
             {
                 get => GetInstanceProperty<cloudflare.DataCloudflareClientCertificate.IDataCloudflareClientCertificateFilter?>();
+            }
+
+            /// <summary>Identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/client_certificate#zone_id DataCloudflareClientCertificate#zone_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
+            {
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

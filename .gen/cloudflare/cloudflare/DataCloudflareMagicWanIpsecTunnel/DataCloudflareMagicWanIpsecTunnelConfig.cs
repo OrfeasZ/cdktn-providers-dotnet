@@ -11,10 +11,10 @@ namespace cloudflare.DataCloudflareMagicWanIpsecTunnel
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/magic_wan_ipsec_tunnel#account_id DataCloudflareMagicWanIpsecTunnel#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/magic_wan_ipsec_tunnel#ipsec_tunnel_id DataCloudflareMagicWanIpsecTunnel#ipsec_tunnel_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiProperty(name: "ipsecTunnelId", typeJson: "{\"primitive\":\"string\"}")]
+        public string IpsecTunnelId
         {
             get;
             set;
@@ -22,10 +22,11 @@ namespace cloudflare.DataCloudflareMagicWanIpsecTunnel
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/magic_wan_ipsec_tunnel#ipsec_tunnel_id DataCloudflareMagicWanIpsecTunnel#ipsec_tunnel_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/magic_wan_ipsec_tunnel#account_id DataCloudflareMagicWanIpsecTunnel#account_id}
         /// </remarks>
-        [JsiiProperty(name: "ipsecTunnelId", typeJson: "{\"primitive\":\"string\"}")]
-        public string IpsecTunnelId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

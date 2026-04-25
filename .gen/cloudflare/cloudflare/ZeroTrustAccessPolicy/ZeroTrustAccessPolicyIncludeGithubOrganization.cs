@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustAccessPolicy
     {
         /// <summary>The ID of your Github identity provider.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_policy#identity_provider_id ZeroTrustAccessPolicy#identity_provider_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_policy#identity_provider_id ZeroTrustAccessPolicy#identity_provider_id}
         /// </remarks>
         [JsiiProperty(name: "identityProviderId", typeJson: "{\"primitive\":\"string\"}")]
         public string IdentityProviderId
@@ -22,7 +22,7 @@ namespace cloudflare.ZeroTrustAccessPolicy
 
         /// <summary>The name of the organization.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_policy#name ZeroTrustAccessPolicy#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_policy#name ZeroTrustAccessPolicy#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -33,7 +33,7 @@ namespace cloudflare.ZeroTrustAccessPolicy
 
         /// <summary>The name of the team.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_policy#team ZeroTrustAccessPolicy#team}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_policy#team ZeroTrustAccessPolicy#team}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "team", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

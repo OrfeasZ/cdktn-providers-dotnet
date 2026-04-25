@@ -11,7 +11,7 @@ namespace cloudflare.EmailRoutingCatchAll
     {
         /// <summary>Type of matcher. Default is 'all'. Available values: "all".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_routing_catch_all#type EmailRoutingCatchAll#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_routing_catch_all#type EmailRoutingCatchAll#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type

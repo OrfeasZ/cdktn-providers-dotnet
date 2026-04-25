@@ -9,15 +9,35 @@ namespace cloudflare.AccountDnsSettings
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/account_dns_settings#account_id AccountDnsSettings#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_dns_settings#account_id AccountDnsSettings#account_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/account_dns_settings#zone_defaults AccountDnsSettings#zone_defaults}.</summary>
+        /// <summary>When enabled, forces all proxied DNS records in the account to behave as DNS-only at the edge, regardless of each record's individual proxy setting.</summary>
+        /// <remarks>
+        /// Note that this account-level override does not modify the records themselves; it only affects how they are served at the edge. See more on <a href="https://developers.cloudflare.com/dns/proxy-status/enforce-dns-only">Enforce DNS-only</a>.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_dns_settings#enforce_dns_only AccountDnsSettings#enforce_dns_only}
+        /// </remarks>
+        [JsiiProperty(name: "enforceDnsOnly", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? EnforceDnsOnly
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_dns_settings#zone_defaults AccountDnsSettings#zone_defaults}.</summary>
         [JsiiProperty(name: "zoneDefaults", typeJson: "{\"fqn\":\"cloudflare.accountDnsSettings.AccountDnsSettingsZoneDefaults\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.AccountDnsSettings.IAccountDnsSettingsZoneDefaults? ZoneDefaults
@@ -37,15 +57,29 @@ namespace cloudflare.AccountDnsSettings
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/account_dns_settings#account_id AccountDnsSettings#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_dns_settings#account_id AccountDnsSettings#account_id}
             /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/account_dns_settings#zone_defaults AccountDnsSettings#zone_defaults}.</summary>
+            /// <summary>When enabled, forces all proxied DNS records in the account to behave as DNS-only at the edge, regardless of each record's individual proxy setting.</summary>
+            /// <remarks>
+            /// Note that this account-level override does not modify the records themselves; it only affects how they are served at the edge. See more on <a href="https://developers.cloudflare.com/dns/proxy-status/enforce-dns-only">Enforce DNS-only</a>.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_dns_settings#enforce_dns_only AccountDnsSettings#enforce_dns_only}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "enforceDnsOnly", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+            public object? EnforceDnsOnly
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_dns_settings#zone_defaults AccountDnsSettings#zone_defaults}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "zoneDefaults", typeJson: "{\"fqn\":\"cloudflare.accountDnsSettings.AccountDnsSettingsZoneDefaults\"}", isOptional: true)]
             public cloudflare.AccountDnsSettings.IAccountDnsSettingsZoneDefaults? ZoneDefaults

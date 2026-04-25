@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustAccessPolicy
     {
         /// <summary>The RDP-specific rules that define clipboard behavior for RDP connections.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_policy#rdp ZeroTrustAccessPolicy#rdp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_policy#rdp ZeroTrustAccessPolicy#rdp}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rdp", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyConnectionRulesRdp\"}", isOptional: true)]

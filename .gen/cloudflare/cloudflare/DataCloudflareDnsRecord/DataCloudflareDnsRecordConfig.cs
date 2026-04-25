@@ -4,25 +4,12 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareDnsRecord
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareDnsRecord.DataCloudflareDnsRecordConfig")]
     public class DataCloudflareDnsRecordConfig : cloudflare.DataCloudflareDnsRecord.IDataCloudflareDnsRecordConfig
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_record#zone_id DataCloudflareDnsRecord#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_record#dns_record_id DataCloudflareDnsRecord#dns_record_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_record#dns_record_id DataCloudflareDnsRecord#dns_record_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dnsRecordId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -32,10 +19,22 @@ namespace cloudflare.DataCloudflareDnsRecord
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_record#filter DataCloudflareDnsRecord#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_record#filter DataCloudflareDnsRecord#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareDnsRecord.DataCloudflareDnsRecordFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareDnsRecord.IDataCloudflareDnsRecordFilter? Filter
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_record#zone_id DataCloudflareDnsRecord#zone_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
         {
             get;
             set;

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.WorkersRoute
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workers_route cloudflare_workers_route}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workers_route cloudflare_workers_route}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.WorkersRoute.WorkersRoute), fullyQualifiedName: "cloudflare.workersRoute.WorkersRoute", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.workersRoute.WorkersRouteConfig\"}}]")]
     public class WorkersRoute : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workers_route cloudflare_workers_route} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workers_route cloudflare_workers_route} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public WorkersRoute(Constructs.Construct scope, string id, cloudflare.WorkersRoute.IWorkersRouteConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace cloudflare.WorkersRoute
         /// <param name="importToId">The construct id used in the generated config for the WorkersRoute to import.</param>
         /// <param name="importFromId">The id of the existing WorkersRoute that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the WorkersRoute to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the WorkersRoute to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/workers_route#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing WorkersRoute that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the WorkersRoute to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the WorkersRoute to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workers_route#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing WorkersRoute that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the WorkersRoute to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.WorkersRoute.WorkersRoute), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -48,6 +48,12 @@ namespace cloudflare.WorkersRoute
 
         [JsiiMethod(name: "resetScript")]
         public virtual void ResetScript()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetZoneId")]
+        public virtual void ResetZoneId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }

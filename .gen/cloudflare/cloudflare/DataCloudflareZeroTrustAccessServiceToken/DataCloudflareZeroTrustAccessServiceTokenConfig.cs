@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareZeroTrustAccessServiceToken
     {
         /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_access_service_token#account_id DataCloudflareZeroTrustAccessServiceToken#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_access_service_token#account_id DataCloudflareZeroTrustAccessServiceToken#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareZeroTrustAccessServiceToken
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_access_service_token#filter DataCloudflareZeroTrustAccessServiceToken#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_access_service_token#filter DataCloudflareZeroTrustAccessServiceToken#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessServiceToken.DataCloudflareZeroTrustAccessServiceTokenFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareZeroTrustAccessServiceToken.IDataCloudflareZeroTrustAccessServiceTokenFilter? Filter
@@ -30,7 +30,7 @@ namespace cloudflare.DataCloudflareZeroTrustAccessServiceToken
 
         /// <summary>UUID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_access_service_token#service_token_id DataCloudflareZeroTrustAccessServiceToken#service_token_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_access_service_token#service_token_id DataCloudflareZeroTrustAccessServiceToken#service_token_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serviceTokenId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -42,7 +42,7 @@ namespace cloudflare.DataCloudflareZeroTrustAccessServiceToken
 
         /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_access_service_token#zone_id DataCloudflareZeroTrustAccessServiceToken#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_access_service_token#zone_id DataCloudflareZeroTrustAccessServiceToken#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>Whether or not this mapping applies to create (POST) operations.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#create ZeroTrustAccessApplication#create}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#create ZeroTrustAccessApplication#create}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>Whether or not this mapping applies to DELETE operations.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#delete ZeroTrustAccessApplication#delete}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#delete ZeroTrustAccessApplication#delete}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>Whether or not this mapping applies to update (PATCH/PUT) operations.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#update ZeroTrustAccessApplication#update}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#update ZeroTrustAccessApplication#update}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

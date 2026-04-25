@@ -9,7 +9,7 @@ namespace cloudflare.WorkerVersion
     {
         /// <summary>A list of classes to delete Durable Object namespaces from.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#deleted_classes WorkerVersion#deleted_classes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#deleted_classes WorkerVersion#deleted_classes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deletedClasses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace cloudflare.WorkerVersion
 
         /// <summary>A list of classes to create Durable Object namespaces from.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#new_classes WorkerVersion#new_classes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#new_classes WorkerVersion#new_classes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "newClasses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace cloudflare.WorkerVersion
 
         /// <summary>A list of classes to create Durable Object namespaces with SQLite from.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#new_sqlite_classes WorkerVersion#new_sqlite_classes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#new_sqlite_classes WorkerVersion#new_sqlite_classes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "newSqliteClasses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace cloudflare.WorkerVersion
 
         /// <summary>Tag to set as the latest migration tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#new_tag WorkerVersion#new_tag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#new_tag WorkerVersion#new_tag}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "newTag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace cloudflare.WorkerVersion
         /// <remarks>
         /// If they don't match, the upload is rejected.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#old_tag WorkerVersion#old_tag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#old_tag WorkerVersion#old_tag}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "oldTag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace cloudflare.WorkerVersion
 
         /// <summary>A list of classes with Durable Object namespaces that were renamed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#renamed_classes WorkerVersion#renamed_classes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#renamed_classes WorkerVersion#renamed_classes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "renamedClasses", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionMigrationsRenamedClasses\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace cloudflare.WorkerVersion
 
         /// <summary>Migrations to apply in order.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#steps WorkerVersion#steps}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#steps WorkerVersion#steps}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "steps", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionMigrationsSteps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -141,7 +141,7 @@ namespace cloudflare.WorkerVersion
 
         /// <summary>A list of transfers for Durable Object namespaces from a different Worker and class to a class defined in this Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#transferred_classes WorkerVersion#transferred_classes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#transferred_classes WorkerVersion#transferred_classes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transferredClasses", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionMigrationsTransferredClasses\"},\"kind\":\"array\"}}]}}", isOptional: true)]

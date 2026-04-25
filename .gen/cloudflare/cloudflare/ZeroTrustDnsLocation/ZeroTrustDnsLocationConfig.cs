@@ -9,20 +9,21 @@ namespace cloudflare.ZeroTrustDnsLocation
     [JsiiByValue(fqn: "cloudflare.zeroTrustDnsLocation.ZeroTrustDnsLocationConfig")]
     public class ZeroTrustDnsLocationConfig : cloudflare.ZeroTrustDnsLocation.IZeroTrustDnsLocationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dns_location#account_id ZeroTrustDnsLocation#account_id}.</summary>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        /// <summary>Specify the location name.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dns_location#name ZeroTrustDnsLocation#name}
+        /// </remarks>
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        public string Name
         {
             get;
             set;
         }
 
-        /// <summary>Specify the location name.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dns_location#name ZeroTrustDnsLocation#name}
-        /// </remarks>
-        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
-        public string Name
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dns_location#account_id ZeroTrustDnsLocation#account_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;
@@ -32,7 +33,7 @@ namespace cloudflare.ZeroTrustDnsLocation
 
         /// <summary>Indicate whether this location is the default location.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dns_location#client_default ZeroTrustDnsLocation#client_default}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dns_location#client_default ZeroTrustDnsLocation#client_default}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientDefault", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -66,7 +67,7 @@ namespace cloudflare.ZeroTrustDnsLocation
         /// <remarks>
         /// When creating a location, if this field is absent or set to null, the pair of shared IPv4 addresses (0e4a32c6-6fb8-4858-9296-98f51631e8e6) is auto-assigned. When updating a location, if this field is absent or set to null, the pre-assigned pair remains unchanged.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dns_location#dns_destination_ips_id ZeroTrustDnsLocation#dns_destination_ips_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dns_location#dns_destination_ips_id ZeroTrustDnsLocation#dns_destination_ips_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dnsDestinationIpsId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -80,7 +81,7 @@ namespace cloudflare.ZeroTrustDnsLocation
 
         /// <summary>Indicate whether the location must resolve EDNS queries.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dns_location#ecs_support ZeroTrustDnsLocation#ecs_support}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dns_location#ecs_support ZeroTrustDnsLocation#ecs_support}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ecsSupport", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -112,7 +113,7 @@ namespace cloudflare.ZeroTrustDnsLocation
 
         /// <summary>Configure the destination endpoints for this location.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dns_location#endpoints ZeroTrustDnsLocation#endpoints}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dns_location#endpoints ZeroTrustDnsLocation#endpoints}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "endpoints", typeJson: "{\"fqn\":\"cloudflare.zeroTrustDnsLocation.ZeroTrustDnsLocationEndpoints\"}", isOptional: true)]
@@ -128,7 +129,7 @@ namespace cloudflare.ZeroTrustDnsLocation
         /// <remarks>
         /// The list takes effect only if it is non-empty and the IPv4 endpoint is enabled for this location.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dns_location#networks ZeroTrustDnsLocation#networks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dns_location#networks ZeroTrustDnsLocation#networks}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networks", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDnsLocation.ZeroTrustDnsLocationNetworks\"},\"kind\":\"array\"}}]}}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace cloudflare.ArgoTieredCaching
     {
         /// <summary>Enables Tiered Caching. Available values: "on", "off".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/argo_tiered_caching#value ArgoTieredCaching#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/argo_tiered_caching#value ArgoTieredCaching#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
@@ -22,7 +22,7 @@ namespace cloudflare.ArgoTieredCaching
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/argo_tiered_caching#zone_id ArgoTieredCaching#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/argo_tiered_caching#zone_id ArgoTieredCaching#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId

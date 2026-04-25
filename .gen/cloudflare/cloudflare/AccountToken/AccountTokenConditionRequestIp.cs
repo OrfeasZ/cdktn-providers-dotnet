@@ -9,7 +9,7 @@ namespace cloudflare.AccountToken
     {
         /// <summary>List of IPv4/IPv6 CIDR addresses.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/account_token#in AccountToken#in}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_token#in AccountToken#in}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "in", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace cloudflare.AccountToken
 
         /// <summary>List of IPv4/IPv6 CIDR addresses.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/account_token#not_in AccountToken#not_in}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_token#not_in AccountToken#not_in}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notIn", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

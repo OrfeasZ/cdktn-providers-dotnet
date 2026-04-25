@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareD1Database
     {
         /// <summary>a database name to search for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/d1_database#name DataCloudflareD1Database#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/d1_database#name DataCloudflareD1Database#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

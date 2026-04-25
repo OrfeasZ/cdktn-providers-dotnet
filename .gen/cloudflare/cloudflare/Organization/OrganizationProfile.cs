@@ -9,7 +9,7 @@ namespace cloudflare.Organization
     [JsiiByValue(fqn: "cloudflare.organization.OrganizationProfile")]
     public class OrganizationProfile : cloudflare.Organization.IOrganizationProfile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/organization#business_address Organization#business_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/organization#business_address Organization#business_address}.</summary>
         [JsiiProperty(name: "businessAddress", typeJson: "{\"primitive\":\"string\"}")]
         public string BusinessAddress
         {
@@ -17,7 +17,7 @@ namespace cloudflare.Organization
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/organization#business_email Organization#business_email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/organization#business_email Organization#business_email}.</summary>
         [JsiiProperty(name: "businessEmail", typeJson: "{\"primitive\":\"string\"}")]
         public string BusinessEmail
         {
@@ -25,7 +25,7 @@ namespace cloudflare.Organization
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/organization#business_name Organization#business_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/organization#business_name Organization#business_name}.</summary>
         [JsiiProperty(name: "businessName", typeJson: "{\"primitive\":\"string\"}")]
         public string BusinessName
         {
@@ -33,7 +33,7 @@ namespace cloudflare.Organization
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/organization#business_phone Organization#business_phone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/organization#business_phone Organization#business_phone}.</summary>
         [JsiiProperty(name: "businessPhone", typeJson: "{\"primitive\":\"string\"}")]
         public string BusinessPhone
         {
@@ -41,7 +41,7 @@ namespace cloudflare.Organization
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/organization#external_metadata Organization#external_metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/organization#external_metadata Organization#external_metadata}.</summary>
         [JsiiProperty(name: "externalMetadata", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalMetadata
         {

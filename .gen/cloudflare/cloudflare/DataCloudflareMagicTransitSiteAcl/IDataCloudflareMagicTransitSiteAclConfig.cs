@@ -9,17 +9,7 @@ namespace cloudflare.DataCloudflareMagicTransitSiteAcl
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/magic_transit_site_acl#account_id DataCloudflareMagicTransitSiteAcl#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
-        {
-            get;
-        }
-
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/magic_transit_site_acl#acl_id DataCloudflareMagicTransitSiteAcl#acl_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/magic_transit_site_acl#acl_id DataCloudflareMagicTransitSiteAcl#acl_id}
         /// </remarks>
         [JsiiProperty(name: "aclId", typeJson: "{\"primitive\":\"string\"}")]
         string AclId
@@ -29,12 +19,26 @@ namespace cloudflare.DataCloudflareMagicTransitSiteAcl
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/magic_transit_site_acl#site_id DataCloudflareMagicTransitSiteAcl#site_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/magic_transit_site_acl#site_id DataCloudflareMagicTransitSiteAcl#site_id}
         /// </remarks>
         [JsiiProperty(name: "siteId", typeJson: "{\"primitive\":\"string\"}")]
         string SiteId
         {
             get;
+        }
+
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/magic_transit_site_acl#account_id DataCloudflareMagicTransitSiteAcl#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
+        {
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IDataCloudflareMagicTransitSiteAclConfig), fullyQualifiedName: "cloudflare.dataCloudflareMagicTransitSiteAcl.DataCloudflareMagicTransitSiteAclConfig")]
@@ -46,17 +50,7 @@ namespace cloudflare.DataCloudflareMagicTransitSiteAcl
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/magic_transit_site_acl#account_id DataCloudflareMagicTransitSiteAcl#account_id}
-            /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
-            /// <summary>Identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/magic_transit_site_acl#acl_id DataCloudflareMagicTransitSiteAcl#acl_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/magic_transit_site_acl#acl_id DataCloudflareMagicTransitSiteAcl#acl_id}
             /// </remarks>
             [JsiiProperty(name: "aclId", typeJson: "{\"primitive\":\"string\"}")]
             public string AclId
@@ -66,12 +60,23 @@ namespace cloudflare.DataCloudflareMagicTransitSiteAcl
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/magic_transit_site_acl#site_id DataCloudflareMagicTransitSiteAcl#site_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/magic_transit_site_acl#site_id DataCloudflareMagicTransitSiteAcl#site_id}
             /// </remarks>
             [JsiiProperty(name: "siteId", typeJson: "{\"primitive\":\"string\"}")]
             public string SiteId
             {
                 get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/magic_transit_site_acl#account_id DataCloudflareMagicTransitSiteAcl#account_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
+            {
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

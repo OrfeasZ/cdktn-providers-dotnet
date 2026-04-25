@@ -15,7 +15,7 @@ namespace cloudflare.LoadBalancer
         /// Available values: "pop", "resolver_ip".</description>
         /// </list>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer#mode LoadBalancer#mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer#mode LoadBalancer#mode}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -35,7 +35,7 @@ namespace cloudflare.LoadBalancer
         /// Available values: "always", "never", "proximity", "geo".</description>
         /// </list>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer#prefer_ecs LoadBalancer#prefer_ecs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer#prefer_ecs LoadBalancer#prefer_ecs}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "preferEcs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

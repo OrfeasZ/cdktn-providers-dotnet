@@ -4,29 +4,28 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareWeb3Hostnames
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareWeb3Hostnames.DataCloudflareWeb3HostnamesConfig")]
     public class DataCloudflareWeb3HostnamesConfig : cloudflare.DataCloudflareWeb3Hostnames.IDataCloudflareWeb3HostnamesConfig
     {
-        /// <summary>Specify the identifier of the hostname.</summary>
+        /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/web3_hostnames#zone_id DataCloudflareWeb3Hostnames#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/web3_hostnames#max_items DataCloudflareWeb3Hostnames#max_items}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
+        [JsiiOptional]
+        [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public double? MaxItems
         {
             get;
             set;
         }
 
-        /// <summary>Max items to fetch, default: 1000.</summary>
+        /// <summary>Specify the identifier of the hostname.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/web3_hostnames#max_items DataCloudflareWeb3Hostnames#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/web3_hostnames#zone_id DataCloudflareWeb3Hostnames#zone_id}
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public double? MaxItems
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
         {
             get;
             set;

@@ -9,7 +9,7 @@ namespace cloudflare.CustomOriginTrustStore
     {
         /// <summary>The zone's SSL certificate or certificate and the intermediate(s).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_origin_trust_store#certificate CustomOriginTrustStore#certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_origin_trust_store#certificate CustomOriginTrustStore#certificate}
         /// </remarks>
         [JsiiProperty(name: "certificate", typeJson: "{\"primitive\":\"string\"}")]
         string Certificate
@@ -19,12 +19,16 @@ namespace cloudflare.CustomOriginTrustStore
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_origin_trust_store#zone_id CustomOriginTrustStore#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_origin_trust_store#zone_id CustomOriginTrustStore#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? ZoneId
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(ICustomOriginTrustStoreConfig), fullyQualifiedName: "cloudflare.customOriginTrustStore.CustomOriginTrustStoreConfig")]
@@ -36,7 +40,7 @@ namespace cloudflare.CustomOriginTrustStore
 
             /// <summary>The zone's SSL certificate or certificate and the intermediate(s).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_origin_trust_store#certificate CustomOriginTrustStore#certificate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_origin_trust_store#certificate CustomOriginTrustStore#certificate}
             /// </remarks>
             [JsiiProperty(name: "certificate", typeJson: "{\"primitive\":\"string\"}")]
             public string Certificate
@@ -46,12 +50,13 @@ namespace cloudflare.CustomOriginTrustStore
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_origin_trust_store#zone_id CustomOriginTrustStore#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_origin_trust_store#zone_id CustomOriginTrustStore#zone_id}
             /// </remarks>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
+            [JsiiOptional]
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

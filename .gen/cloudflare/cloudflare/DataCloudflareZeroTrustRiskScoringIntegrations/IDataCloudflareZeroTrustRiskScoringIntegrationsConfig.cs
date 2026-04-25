@@ -7,16 +7,20 @@ namespace cloudflare.DataCloudflareZeroTrustRiskScoringIntegrations
     [JsiiInterface(nativeType: typeof(IDataCloudflareZeroTrustRiskScoringIntegrationsConfig), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustRiskScoringIntegrations.DataCloudflareZeroTrustRiskScoringIntegrationsConfig")]
     public interface IDataCloudflareZeroTrustRiskScoringIntegrationsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_risk_scoring_integrations#account_id DataCloudflareZeroTrustRiskScoringIntegrations#account_id}.</summary>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_risk_scoring_integrations#account_id DataCloudflareZeroTrustRiskScoringIntegrations#account_id}.</summary>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_risk_scoring_integrations#max_items DataCloudflareZeroTrustRiskScoringIntegrations#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_risk_scoring_integrations#max_items DataCloudflareZeroTrustRiskScoringIntegrations#max_items}
         /// </remarks>
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,16 +39,17 @@ namespace cloudflare.DataCloudflareZeroTrustRiskScoringIntegrations
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_risk_scoring_integrations#account_id DataCloudflareZeroTrustRiskScoringIntegrations#account_id}.</summary>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_risk_scoring_integrations#account_id DataCloudflareZeroTrustRiskScoringIntegrations#account_id}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
             }
 
             /// <summary>Max items to fetch, default: 1000.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_risk_scoring_integrations#max_items DataCloudflareZeroTrustRiskScoringIntegrations#max_items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_risk_scoring_integrations#max_items DataCloudflareZeroTrustRiskScoringIntegrations#max_items}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

@@ -9,15 +9,7 @@ namespace cloudflare.AiSearchToken
     [JsiiByValue(fqn: "cloudflare.aiSearchToken.AiSearchTokenConfig")]
     public class AiSearchTokenConfig : cloudflare.AiSearchToken.IAiSearchTokenConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ai_search_token#account_id AiSearchToken#account_id}.</summary>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ai_search_token#cf_api_id AiSearchToken#cf_api_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_token#cf_api_id AiSearchToken#cf_api_id}.</summary>
         [JsiiProperty(name: "cfApiId", typeJson: "{\"primitive\":\"string\"}")]
         public string CfApiId
         {
@@ -25,7 +17,7 @@ namespace cloudflare.AiSearchToken
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ai_search_token#cf_api_key AiSearchToken#cf_api_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_token#cf_api_key AiSearchToken#cf_api_key}.</summary>
         [JsiiProperty(name: "cfApiKey", typeJson: "{\"primitive\":\"string\"}")]
         public string CfApiKey
         {
@@ -33,12 +25,52 @@ namespace cloudflare.AiSearchToken
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ai_search_token#name AiSearchToken#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_token#name AiSearchToken#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
             get;
             set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_token#account_id AiSearchToken#account_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
+        {
+            get;
+            set;
+        }
+
+        private object? _legacy;
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_token#legacy AiSearchToken#legacy}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "legacy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? Legacy
+        {
+            get => _legacy;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _legacy = value;
+            }
         }
 
         private object? _connection;

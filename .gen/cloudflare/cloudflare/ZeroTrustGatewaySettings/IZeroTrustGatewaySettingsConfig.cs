@@ -7,7 +7,7 @@ namespace cloudflare.ZeroTrustGatewaySettings
     [JsiiInterface(nativeType: typeof(IZeroTrustGatewaySettingsConfig), fullyQualifiedName: "cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsConfig")]
     public interface IZeroTrustGatewaySettingsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_settings#account_id ZeroTrustGatewaySettings#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_settings#account_id ZeroTrustGatewaySettings#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
         {
@@ -16,7 +16,7 @@ namespace cloudflare.ZeroTrustGatewaySettings
 
         /// <summary>Specify account settings.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_settings#settings ZeroTrustGatewaySettings#settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_settings#settings ZeroTrustGatewaySettings#settings}
         /// </remarks>
         [JsiiProperty(name: "settings", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace cloudflare.ZeroTrustGatewaySettings
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_settings#account_id ZeroTrustGatewaySettings#account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_settings#account_id ZeroTrustGatewaySettings#account_id}.</summary>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
             {
@@ -44,7 +44,7 @@ namespace cloudflare.ZeroTrustGatewaySettings
 
             /// <summary>Specify account settings.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_settings#settings ZeroTrustGatewaySettings#settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_settings#settings ZeroTrustGatewaySettings#settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "settings", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettings\"}", isOptional: true)]

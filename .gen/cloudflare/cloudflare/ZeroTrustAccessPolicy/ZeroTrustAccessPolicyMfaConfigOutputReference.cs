@@ -39,8 +39,8 @@ namespace cloudflare.ZeroTrustAccessPolicy
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetMfaBypass")]
-        public virtual void ResetMfaBypass()
+        [JsiiMethod(name: "resetMfaDisabled")]
+        public virtual void ResetMfaDisabled()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -59,8 +59,8 @@ namespace cloudflare.ZeroTrustAccessPolicy
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "mfaBypassInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? MfaBypassInput
+        [JsiiProperty(name: "mfaDisabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? MfaDisabledInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -79,8 +79,8 @@ namespace cloudflare.ZeroTrustAccessPolicy
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "mfaBypass", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public virtual object MfaBypass
+        [JsiiProperty(name: "mfaDisabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object MfaDisabled
         {
             get => GetInstanceProperty<object>()!;
             set

@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareSpectrumApplication
     {
         /// <summary>Sets the direction by which results are ordered. Available values: "asc", "desc".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/spectrum_application#direction DataCloudflareSpectrumApplication#direction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/spectrum_application#direction DataCloudflareSpectrumApplication#direction}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace cloudflare.DataCloudflareSpectrumApplication
 
         /// <summary>Application field by which results are ordered. Available values: "protocol", "app_id", "created_on", "modified_on", "dns".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/spectrum_application#order DataCloudflareSpectrumApplication#order}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/spectrum_application#order DataCloudflareSpectrumApplication#order}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

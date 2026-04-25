@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareMtlsCertificate
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/mtls_certificate#account_id DataCloudflareMtlsCertificate#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/mtls_certificate#account_id DataCloudflareMtlsCertificate#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareMtlsCertificate
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/mtls_certificate#mtls_certificate_id DataCloudflareMtlsCertificate#mtls_certificate_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/mtls_certificate#mtls_certificate_id DataCloudflareMtlsCertificate#mtls_certificate_id}
         /// </remarks>
         [JsiiProperty(name: "mtlsCertificateId", typeJson: "{\"primitive\":\"string\"}")]
         string MtlsCertificateId
@@ -36,7 +36,7 @@ namespace cloudflare.DataCloudflareMtlsCertificate
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/mtls_certificate#account_id DataCloudflareMtlsCertificate#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/mtls_certificate#account_id DataCloudflareMtlsCertificate#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -46,7 +46,7 @@ namespace cloudflare.DataCloudflareMtlsCertificate
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/mtls_certificate#mtls_certificate_id DataCloudflareMtlsCertificate#mtls_certificate_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/mtls_certificate#mtls_certificate_id DataCloudflareMtlsCertificate#mtls_certificate_id}
             /// </remarks>
             [JsiiProperty(name: "mtlsCertificateId", typeJson: "{\"primitive\":\"string\"}")]
             public string MtlsCertificateId

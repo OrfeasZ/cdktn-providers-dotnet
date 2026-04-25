@@ -35,6 +35,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortals
         {
         }
 
+        [JsiiProperty(name: "allowCodeMode", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable AllowCodeMode
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "createdAt", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CreatedAt
         {
@@ -87,6 +93,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortals
         public virtual Io.Cdktn.IResolvable SecureWebGateway
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "servers", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessAiControlsMcpPortals.DataCloudflareZeroTrustAccessAiControlsMcpPortalsResultServersList\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortals.DataCloudflareZeroTrustAccessAiControlsMcpPortalsResultServersList Servers
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortals.DataCloudflareZeroTrustAccessAiControlsMcpPortalsResultServersList>()!;
         }
 
         [JsiiOptional]

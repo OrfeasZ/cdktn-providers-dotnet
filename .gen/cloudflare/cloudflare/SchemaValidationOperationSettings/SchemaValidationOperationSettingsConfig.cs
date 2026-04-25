@@ -22,7 +22,7 @@ namespace cloudflare.SchemaValidationOperationSettings
         /// </list></description>
         /// </list>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/schema_validation_operation_settings#mitigation_action SchemaValidationOperationSettings#mitigation_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/schema_validation_operation_settings#mitigation_action SchemaValidationOperationSettings#mitigation_action}
         /// </remarks>
         [JsiiProperty(name: "mitigationAction", typeJson: "{\"primitive\":\"string\"}")]
         public string MitigationAction
@@ -33,7 +33,7 @@ namespace cloudflare.SchemaValidationOperationSettings
 
         /// <summary>UUID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/schema_validation_operation_settings#operation_id SchemaValidationOperationSettings#operation_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/schema_validation_operation_settings#operation_id SchemaValidationOperationSettings#operation_id}
         /// </remarks>
         [JsiiProperty(name: "operationId", typeJson: "{\"primitive\":\"string\"}")]
         public string OperationId
@@ -44,10 +44,11 @@ namespace cloudflare.SchemaValidationOperationSettings
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/schema_validation_operation_settings#zone_id SchemaValidationOperationSettings#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/schema_validation_operation_settings#zone_id SchemaValidationOperationSettings#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
+        [JsiiOptional]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
         {
             get;
             set;

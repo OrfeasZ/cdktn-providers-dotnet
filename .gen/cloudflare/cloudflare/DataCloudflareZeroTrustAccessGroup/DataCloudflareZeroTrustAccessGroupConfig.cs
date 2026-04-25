@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareZeroTrustAccessGroup
     {
         /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_access_group#account_id DataCloudflareZeroTrustAccessGroup#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_access_group#account_id DataCloudflareZeroTrustAccessGroup#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareZeroTrustAccessGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_access_group#filter DataCloudflareZeroTrustAccessGroup#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_access_group#filter DataCloudflareZeroTrustAccessGroup#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessGroup.DataCloudflareZeroTrustAccessGroupFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareZeroTrustAccessGroup.IDataCloudflareZeroTrustAccessGroupFilter? Filter
@@ -30,7 +30,7 @@ namespace cloudflare.DataCloudflareZeroTrustAccessGroup
 
         /// <summary>UUID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_access_group#group_id DataCloudflareZeroTrustAccessGroup#group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_access_group#group_id DataCloudflareZeroTrustAccessGroup#group_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "groupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -42,7 +42,7 @@ namespace cloudflare.DataCloudflareZeroTrustAccessGroup
 
         /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_access_group#zone_id DataCloudflareZeroTrustAccessGroup#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_access_group#zone_id DataCloudflareZeroTrustAccessGroup#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

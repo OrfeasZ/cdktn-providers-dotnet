@@ -4,17 +4,16 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareUrlNormalizationSettings
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareUrlNormalizationSettings.DataCloudflareUrlNormalizationSettingsConfig")]
     public class DataCloudflareUrlNormalizationSettingsConfig : cloudflare.DataCloudflareUrlNormalizationSettings.IDataCloudflareUrlNormalizationSettingsConfig
     {
         /// <summary>The unique ID of the zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/url_normalization_settings#zone_id DataCloudflareUrlNormalizationSettings#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/url_normalization_settings#zone_id DataCloudflareUrlNormalizationSettings#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
+        [JsiiOptional]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
         {
             get;
             set;

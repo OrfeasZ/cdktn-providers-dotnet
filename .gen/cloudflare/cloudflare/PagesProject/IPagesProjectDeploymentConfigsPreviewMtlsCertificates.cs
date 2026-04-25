@@ -7,7 +7,7 @@ namespace cloudflare.PagesProject
     [JsiiInterface(nativeType: typeof(IPagesProjectDeploymentConfigsPreviewMtlsCertificates), fullyQualifiedName: "cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewMtlsCertificates")]
     public interface IPagesProjectDeploymentConfigsPreviewMtlsCertificates
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/pages_project#certificate_id PagesProject#certificate_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pages_project#certificate_id PagesProject#certificate_id}.</summary>
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]
         string CertificateId
         {
@@ -21,7 +21,7 @@ namespace cloudflare.PagesProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/pages_project#certificate_id PagesProject#certificate_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pages_project#certificate_id PagesProject#certificate_id}.</summary>
             [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]
             public string CertificateId
             {

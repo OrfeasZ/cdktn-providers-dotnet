@@ -9,20 +9,21 @@ namespace cloudflare.DataCloudflareMagicNetworkMonitoringRule
     [JsiiByValue(fqn: "cloudflare.dataCloudflareMagicNetworkMonitoringRule.DataCloudflareMagicNetworkMonitoringRuleConfig")]
     public class DataCloudflareMagicNetworkMonitoringRuleConfig : cloudflare.DataCloudflareMagicNetworkMonitoringRule.IDataCloudflareMagicNetworkMonitoringRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/magic_network_monitoring_rule#account_id DataCloudflareMagicNetworkMonitoringRule#account_id}.</summary>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        /// <summary>The id of the rule. Must be unique.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/magic_network_monitoring_rule#rule_id DataCloudflareMagicNetworkMonitoringRule#rule_id}
+        /// </remarks>
+        [JsiiProperty(name: "ruleId", typeJson: "{\"primitive\":\"string\"}")]
+        public string RuleId
         {
             get;
             set;
         }
 
-        /// <summary>The id of the rule. Must be unique.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/magic_network_monitoring_rule#rule_id DataCloudflareMagicNetworkMonitoringRule#rule_id}
-        /// </remarks>
-        [JsiiProperty(name: "ruleId", typeJson: "{\"primitive\":\"string\"}")]
-        public string RuleId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/magic_network_monitoring_rule#account_id DataCloudflareMagicNetworkMonitoringRule#account_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

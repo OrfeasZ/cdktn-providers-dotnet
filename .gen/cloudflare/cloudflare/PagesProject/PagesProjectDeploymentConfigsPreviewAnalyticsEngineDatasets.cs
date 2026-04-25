@@ -11,7 +11,7 @@ namespace cloudflare.PagesProject
     {
         /// <summary>Name of the dataset.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/pages_project#dataset PagesProject#dataset}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pages_project#dataset PagesProject#dataset}
         /// </remarks>
         [JsiiProperty(name: "dataset", typeJson: "{\"primitive\":\"string\"}")]
         public string Dataset

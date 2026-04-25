@@ -53,10 +53,22 @@ namespace cloudflare.DataCloudflareMagicTransitConnectors
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "interruptWindowDaysOfWeek", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] InterruptWindowDaysOfWeek
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "interruptWindowDurationHours", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double InterruptWindowDurationHours
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "interruptWindowEmbargoDates", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] InterruptWindowEmbargoDates
+        {
+            get => GetInstanceProperty<string[]>()!;
         }
 
         [JsiiProperty(name: "interruptWindowHourOfDay", typeJson: "{\"primitive\":\"number\"}")]

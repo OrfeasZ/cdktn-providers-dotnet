@@ -13,7 +13,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         /// <remarks>
         /// Use header names as keys that map to arrays of header values. Settable only for <c>http</c> rules with the action set to <c>allow</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#add_headers ZeroTrustGatewayPolicy#add_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#add_headers ZeroTrustGatewayPolicy#add_headers}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "addHeaders", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -49,7 +49,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         /// <remarks>
         /// Only parent MSP accounts can set this. this rule. Settable for all types of rules.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#allow_child_bypass ZeroTrustGatewayPolicy#allow_child_bypass}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#allow_child_bypass ZeroTrustGatewayPolicy#allow_child_bypass}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allowChildBypass", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         /// <summary>Define the settings for the Audit SSH action. Settable only for `l4` rules with `audit_ssh` action.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#audit_ssh ZeroTrustGatewayPolicy#audit_ssh}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#audit_ssh ZeroTrustGatewayPolicy#audit_ssh}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "auditSsh", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsAuditSsh\"}", isOptional: true)]
@@ -93,7 +93,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         /// <summary>Configure browser isolation behavior. Settable only for `http` rules with the action set to `isolate`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#biso_admin_controls ZeroTrustGatewayPolicy#biso_admin_controls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#biso_admin_controls ZeroTrustGatewayPolicy#biso_admin_controls}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bisoAdminControls", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsBisoAdminControls\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         /// <remarks>
         /// If missing or null, use the account settings. Settable only for <c>http</c> rules with the action set to <c>block</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#block_page ZeroTrustGatewayPolicy#block_page}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#block_page ZeroTrustGatewayPolicy#block_page}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "blockPage", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsBlockPage\"}", isOptional: true)]
@@ -121,7 +121,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         /// <summary>Enable the custom block page. Settable only for `dns` rules with action `block`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#block_page_enabled ZeroTrustGatewayPolicy#block_page_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#block_page_enabled ZeroTrustGatewayPolicy#block_page_enabled}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "blockPageEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -155,7 +155,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         /// <remarks>
         /// The custom block page shows this text (if enabled). Settable only for <c>dns</c>, <c>l4</c>, and <c>http</c> rules when the action set to <c>block</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#block_reason ZeroTrustGatewayPolicy#block_reason}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#block_reason ZeroTrustGatewayPolicy#block_reason}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "blockReason", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -171,7 +171,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         /// <remarks>
         /// Only MSP child accounts can set this. Settable for all types of rules.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#bypass_parent_rule ZeroTrustGatewayPolicy#bypass_parent_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#bypass_parent_rule ZeroTrustGatewayPolicy#bypass_parent_rule}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bypassParentRule", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -203,7 +203,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         /// <summary>Configure session check behavior. Settable only for `l4` and `http` rules with the action set to `allow`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#check_session ZeroTrustGatewayPolicy#check_session}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#check_session ZeroTrustGatewayPolicy#check_session}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "checkSession", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsCheckSession\"}", isOptional: true)]
@@ -217,7 +217,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         /// <remarks>
         /// Unused with 'resolve_dns_through_cloudflare' or 'resolve_dns_internally' settings. DNS queries get routed to the address closest to their origin. Only valid when a rule's action set to 'resolve'. Settable only for <c>dns_resolver</c> rules.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#dns_resolvers ZeroTrustGatewayPolicy#dns_resolvers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#dns_resolvers ZeroTrustGatewayPolicy#dns_resolvers}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dnsResolvers", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsDnsResolvers\"}", isOptional: true)]
@@ -231,7 +231,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         /// <remarks>
         /// You can enable this setting for rules with Egress actions and filters, or omit it to indicate local egress via WARP IPs. Settable only for <c>egress</c> rules.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#egress ZeroTrustGatewayPolicy#egress}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#egress ZeroTrustGatewayPolicy#egress}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "egress", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsEgress\"}", isOptional: true)]
@@ -243,7 +243,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         /// <summary>Configure whether a copy of the HTTP request will be sent to storage when the rule matches.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#forensic_copy ZeroTrustGatewayPolicy#forensic_copy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#forensic_copy ZeroTrustGatewayPolicy#forensic_copy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forensicCopy", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsForensicCopy\"}", isOptional: true)]
@@ -259,7 +259,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         /// <remarks>
         /// When off, evaluate categories in this rule against all CNAME domain categories in the response. Settable only for <c>dns</c> and <c>dns_resolver</c> rules.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#ignore_cname_category_matches ZeroTrustGatewayPolicy#ignore_cname_category_matches}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#ignore_cname_category_matches ZeroTrustGatewayPolicy#ignore_cname_category_matches}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ignoreCnameCategoryMatches", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -293,7 +293,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         /// <summary>Specify whether to disable DNSSEC validation (for Allow actions) [INSECURE]. Settable only for `dns` rules.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#insecure_disable_dnssec_validation ZeroTrustGatewayPolicy#insecure_disable_dnssec_validation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#insecure_disable_dnssec_validation ZeroTrustGatewayPolicy#insecure_disable_dnssec_validation}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "insecureDisableDnssecValidation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -329,7 +329,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         /// <remarks>
         /// The system blocks only domain name categories unless you enable this setting. Settable only for <c>dns</c> and <c>dns_resolver</c> rules.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#ip_categories ZeroTrustGatewayPolicy#ip_categories}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#ip_categories ZeroTrustGatewayPolicy#ip_categories}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipCategories", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -365,7 +365,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         /// <remarks>
         /// Default, indicator feeds block only domain names. Settable only for <c>dns</c> and <c>dns_resolver</c> rules.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#ip_indicator_feeds ZeroTrustGatewayPolicy#ip_indicator_feeds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#ip_indicator_feeds ZeroTrustGatewayPolicy#ip_indicator_feeds}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipIndicatorFeeds", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -399,7 +399,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         /// <remarks>
         /// Settable only for <c>l4</c> rules with the action set to <c>l4_override</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#l4override ZeroTrustGatewayPolicy#l4override}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#l4override ZeroTrustGatewayPolicy#l4override}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "l4Override", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsL4Override\"}", isOptional: true)]
@@ -413,7 +413,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         /// <remarks>
         /// Settable for all types of rules with the action set to <c>block</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#notification_settings ZeroTrustGatewayPolicy#notification_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#notification_settings ZeroTrustGatewayPolicy#notification_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notificationSettings", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsNotificationSettings\"}", isOptional: true)]
@@ -427,7 +427,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         /// <remarks>
         /// Settable only for <c>dns</c> rules with the action set to <c>override</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#override_host ZeroTrustGatewayPolicy#override_host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#override_host ZeroTrustGatewayPolicy#override_host}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "overrideHost", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -441,7 +441,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         /// <remarks>
         /// Settable only for <c>dns</c> rules with the action set to <c>override</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#override_ips ZeroTrustGatewayPolicy#override_ips}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#override_ips ZeroTrustGatewayPolicy#override_ips}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "overrideIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -453,7 +453,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         /// <summary>Configure DLP payload logging. Settable only for `http` rules.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#payload_log ZeroTrustGatewayPolicy#payload_log}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#payload_log ZeroTrustGatewayPolicy#payload_log}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "payloadLog", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsPayloadLog\"}", isOptional: true)]
@@ -465,7 +465,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         /// <summary>Configure settings that apply to quarantine rules. Settable only for `http` rules.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#quarantine ZeroTrustGatewayPolicy#quarantine}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#quarantine ZeroTrustGatewayPolicy#quarantine}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "quarantine", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsQuarantine\"}", isOptional: true)]
@@ -477,7 +477,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         /// <summary>Apply settings to redirect rules. Settable only for `http` rules with the action set to `redirect`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#redirect ZeroTrustGatewayPolicy#redirect}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#redirect ZeroTrustGatewayPolicy#redirect}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "redirect", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsRedirect\"}", isOptional: true)]
@@ -491,7 +491,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         /// <remarks>
         /// Not used when 'dns_resolvers' is specified or 'resolve_dns_through_cloudflare' is set. Only valid when a rule's action set to 'resolve'. Settable only for <c>dns_resolver</c> rules.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#resolve_dns_internally ZeroTrustGatewayPolicy#resolve_dns_internally}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#resolve_dns_internally ZeroTrustGatewayPolicy#resolve_dns_internally}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resolveDnsInternally", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsResolveDnsInternally\"}", isOptional: true)]
@@ -505,7 +505,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         /// <summary>Enable to send queries that match the policy to Cloudflare's default 1.1.1.1 DNS resolver. Cannot set when 'dns_resolvers' specified or 'resolve_dns_internally' is set. Only valid when a rule's action set to 'resolve'. Settable only for `dns_resolver` rules.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#resolve_dns_through_cloudflare ZeroTrustGatewayPolicy#resolve_dns_through_cloudflare}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#resolve_dns_through_cloudflare ZeroTrustGatewayPolicy#resolve_dns_through_cloudflare}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resolveDnsThroughCloudflare", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -539,7 +539,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         /// <remarks>
         /// Settable only for <c>http</c> rules with the action set to <c>allow</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#untrusted_cert ZeroTrustGatewayPolicy#untrusted_cert}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#untrusted_cert ZeroTrustGatewayPolicy#untrusted_cert}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "untrustedCert", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsUntrustedCert\"}", isOptional: true)]

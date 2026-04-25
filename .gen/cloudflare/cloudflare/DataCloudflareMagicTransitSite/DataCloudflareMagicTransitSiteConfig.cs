@@ -4,23 +4,22 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareMagicTransitSite
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareMagicTransitSite.DataCloudflareMagicTransitSiteConfig")]
     public class DataCloudflareMagicTransitSiteConfig : cloudflare.DataCloudflareMagicTransitSite.IDataCloudflareMagicTransitSiteConfig
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/magic_transit_site#account_id DataCloudflareMagicTransitSite#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/magic_transit_site#account_id DataCloudflareMagicTransitSite#account_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/magic_transit_site#filter DataCloudflareMagicTransitSite#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/magic_transit_site#filter DataCloudflareMagicTransitSite#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareMagicTransitSite.DataCloudflareMagicTransitSiteFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareMagicTransitSite.IDataCloudflareMagicTransitSiteFilter? Filter
@@ -31,7 +30,7 @@ namespace cloudflare.DataCloudflareMagicTransitSite
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/magic_transit_site#site_id DataCloudflareMagicTransitSite#site_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/magic_transit_site#site_id DataCloudflareMagicTransitSite#site_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "siteId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

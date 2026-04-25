@@ -7,19 +7,9 @@ namespace cloudflare.MagicTransitSite
     [JsiiInterface(nativeType: typeof(IMagicTransitSiteConfig), fullyQualifiedName: "cloudflare.magicTransitSite.MagicTransitSiteConfig")]
     public interface IMagicTransitSiteConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site#account_id MagicTransitSite#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
-        {
-            get;
-        }
-
         /// <summary>The name of the site.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site#name MagicTransitSite#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site#name MagicTransitSite#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -27,9 +17,23 @@ namespace cloudflare.MagicTransitSite
             get;
         }
 
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site#account_id MagicTransitSite#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>Magic Connector identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site#connector_id MagicTransitSite#connector_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site#connector_id MagicTransitSite#connector_id}
         /// </remarks>
         [JsiiProperty(name: "connectorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -41,7 +45,7 @@ namespace cloudflare.MagicTransitSite
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site#description MagicTransitSite#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site#description MagicTransitSite#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -56,7 +60,7 @@ namespace cloudflare.MagicTransitSite
         /// <remarks>
         /// If set to true, the site can have two connectors and runs in high availability mode.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site#ha_mode MagicTransitSite#ha_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site#ha_mode MagicTransitSite#ha_mode}
         /// </remarks>
         [JsiiProperty(name: "haMode", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -70,7 +74,7 @@ namespace cloudflare.MagicTransitSite
 
         /// <summary>Location of site in latitude and longitude.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site#location MagicTransitSite#location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site#location MagicTransitSite#location}
         /// </remarks>
         [JsiiProperty(name: "location", typeJson: "{\"fqn\":\"cloudflare.magicTransitSite.MagicTransitSiteLocation\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -84,7 +88,7 @@ namespace cloudflare.MagicTransitSite
 
         /// <summary>Magic Connector identifier tag. Used when high availability mode is on.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site#secondary_connector_id MagicTransitSite#secondary_connector_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site#secondary_connector_id MagicTransitSite#secondary_connector_id}
         /// </remarks>
         [JsiiProperty(name: "secondaryConnectorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -103,19 +107,9 @@ namespace cloudflare.MagicTransitSite
             {
             }
 
-            /// <summary>Identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site#account_id MagicTransitSite#account_id}
-            /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>The name of the site.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site#name MagicTransitSite#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site#name MagicTransitSite#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -123,9 +117,20 @@ namespace cloudflare.MagicTransitSite
                 get => GetInstanceProperty<string>()!;
             }
 
+            /// <summary>Identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site#account_id MagicTransitSite#account_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
             /// <summary>Magic Connector identifier tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site#connector_id MagicTransitSite#connector_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site#connector_id MagicTransitSite#connector_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connectorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -134,7 +139,7 @@ namespace cloudflare.MagicTransitSite
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site#description MagicTransitSite#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site#description MagicTransitSite#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -146,7 +151,7 @@ namespace cloudflare.MagicTransitSite
             /// <remarks>
             /// If set to true, the site can have two connectors and runs in high availability mode.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site#ha_mode MagicTransitSite#ha_mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site#ha_mode MagicTransitSite#ha_mode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "haMode", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -157,7 +162,7 @@ namespace cloudflare.MagicTransitSite
 
             /// <summary>Location of site in latitude and longitude.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site#location MagicTransitSite#location}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site#location MagicTransitSite#location}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "location", typeJson: "{\"fqn\":\"cloudflare.magicTransitSite.MagicTransitSiteLocation\"}", isOptional: true)]
@@ -168,7 +173,7 @@ namespace cloudflare.MagicTransitSite
 
             /// <summary>Magic Connector identifier tag. Used when high availability mode is on.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site#secondary_connector_id MagicTransitSite#secondary_connector_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site#secondary_connector_id MagicTransitSite#secondary_connector_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "secondaryConnectorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

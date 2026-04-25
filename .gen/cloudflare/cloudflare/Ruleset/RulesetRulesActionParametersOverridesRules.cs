@@ -11,7 +11,7 @@ namespace cloudflare.Ruleset
     {
         /// <summary>The ID of the rule to override.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#id Ruleset#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#id Ruleset#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The action to override the rule with.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#action Ruleset#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#action Ruleset#action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to enable execution of the rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#enabled Ruleset#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#enabled Ruleset#enabled}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The score threshold to use for the rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#score_threshold Ruleset#score_threshold}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#score_threshold Ruleset#score_threshold}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scoreThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -86,7 +86,7 @@ namespace cloudflare.Ruleset
         /// This option is only applicable for DDoS phases.
         /// Available values: "default", "medium", "low", "eoff".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#sensitivity_level Ruleset#sensitivity_level}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#sensitivity_level Ruleset#sensitivity_level}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sensitivityLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

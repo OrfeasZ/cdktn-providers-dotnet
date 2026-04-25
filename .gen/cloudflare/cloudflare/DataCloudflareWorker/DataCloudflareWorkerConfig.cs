@@ -4,17 +4,25 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareWorker
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareWorker.DataCloudflareWorkerConfig")]
     public class DataCloudflareWorkerConfig : cloudflare.DataCloudflareWorker.IDataCloudflareWorkerConfig
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/worker#account_id DataCloudflareWorker#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/worker#account_id DataCloudflareWorker#account_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/worker#filter DataCloudflareWorker#filter}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorker.DataCloudflareWorkerFilter\"}", isOptional: true)]
+        public cloudflare.DataCloudflareWorker.IDataCloudflareWorkerFilter? Filter
         {
             get;
             set;
@@ -22,10 +30,11 @@ namespace cloudflare.DataCloudflareWorker
 
         /// <summary>Identifier for the Worker, which can be ID or name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/worker#worker_id DataCloudflareWorker#worker_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/worker#worker_id DataCloudflareWorker#worker_id}
         /// </remarks>
-        [JsiiProperty(name: "workerId", typeJson: "{\"primitive\":\"string\"}")]
-        public string WorkerId
+        [JsiiOptional]
+        [JsiiProperty(name: "workerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? WorkerId
         {
             get;
             set;

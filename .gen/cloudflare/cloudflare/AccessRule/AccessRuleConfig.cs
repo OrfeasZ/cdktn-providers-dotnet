@@ -11,7 +11,7 @@ namespace cloudflare.AccessRule
     {
         /// <summary>The rule configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/access_rule#configuration AccessRule#configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/access_rule#configuration AccessRule#configuration}
         /// </remarks>
         [JsiiProperty(name: "configuration", typeJson: "{\"fqn\":\"cloudflare.accessRule.AccessRuleConfiguration\"}")]
         public cloudflare.AccessRule.IAccessRuleConfiguration Configuration
@@ -22,7 +22,7 @@ namespace cloudflare.AccessRule
 
         /// <summary>The action to apply to a matched request. Available values: "block", "challenge", "whitelist", "js_challenge", "managed_challenge".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/access_rule#mode AccessRule#mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/access_rule#mode AccessRule#mode}
         /// </remarks>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         public string Mode
@@ -33,7 +33,7 @@ namespace cloudflare.AccessRule
 
         /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/access_rule#account_id AccessRule#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/access_rule#account_id AccessRule#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace cloudflare.AccessRule
 
         /// <summary>An informative summary of the rule, typically used as a reminder or explanation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/access_rule#notes AccessRule#notes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/access_rule#notes AccessRule#notes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace cloudflare.AccessRule
 
         /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/access_rule#zone_id AccessRule#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/access_rule#zone_id AccessRule#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

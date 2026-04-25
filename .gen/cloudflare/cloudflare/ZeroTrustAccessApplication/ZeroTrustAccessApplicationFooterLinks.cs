@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustAccessApplication
     {
         /// <summary>The hypertext in the footer link.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#name ZeroTrustAccessApplication#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#name ZeroTrustAccessApplication#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>the hyperlink in the footer link.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#url ZeroTrustAccessApplication#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#url ZeroTrustAccessApplication#url}
         /// </remarks>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         public string Url

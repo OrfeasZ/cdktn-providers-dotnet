@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareOriginCaCertificates
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/origin_ca_certificates#zone_id DataCloudflareOriginCaCertificates#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/origin_ca_certificates#zone_id DataCloudflareOriginCaCertificates#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId
@@ -22,7 +22,7 @@ namespace cloudflare.DataCloudflareOriginCaCertificates
 
         /// <summary>Limit to the number of records returned.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/origin_ca_certificates#limit DataCloudflareOriginCaCertificates#limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/origin_ca_certificates#limit DataCloudflareOriginCaCertificates#limit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace cloudflare.DataCloudflareOriginCaCertificates
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/origin_ca_certificates#max_items DataCloudflareOriginCaCertificates#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/origin_ca_certificates#max_items DataCloudflareOriginCaCertificates#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace cloudflare.DataCloudflareOriginCaCertificates
 
         /// <summary>Offset the results.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/origin_ca_certificates#offset DataCloudflareOriginCaCertificates#offset}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/origin_ca_certificates#offset DataCloudflareOriginCaCertificates#offset}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "offset", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

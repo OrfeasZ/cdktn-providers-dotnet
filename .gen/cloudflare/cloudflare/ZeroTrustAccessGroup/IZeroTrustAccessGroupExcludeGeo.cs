@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustAccessGroup
     {
         /// <summary>The country code that should be matched.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#country_code ZeroTrustAccessGroup#country_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#country_code ZeroTrustAccessGroup#country_code}
         /// </remarks>
         [JsiiProperty(name: "countryCode", typeJson: "{\"primitive\":\"string\"}")]
         string CountryCode
@@ -26,7 +26,7 @@ namespace cloudflare.ZeroTrustAccessGroup
 
             /// <summary>The country code that should be matched.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#country_code ZeroTrustAccessGroup#country_code}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#country_code ZeroTrustAccessGroup#country_code}
             /// </remarks>
             [JsiiProperty(name: "countryCode", typeJson: "{\"primitive\":\"string\"}")]
             public string CountryCode

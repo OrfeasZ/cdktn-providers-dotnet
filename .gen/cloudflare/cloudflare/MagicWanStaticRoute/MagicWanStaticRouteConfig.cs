@@ -11,7 +11,7 @@ namespace cloudflare.MagicWanStaticRoute
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_static_route#account_id MagicWanStaticRoute#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_static_route#account_id MagicWanStaticRoute#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.MagicWanStaticRoute
 
         /// <summary>The next-hop IP Address for the static route.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_static_route#nexthop MagicWanStaticRoute#nexthop}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_static_route#nexthop MagicWanStaticRoute#nexthop}
         /// </remarks>
         [JsiiProperty(name: "nexthop", typeJson: "{\"primitive\":\"string\"}")]
         public string Nexthop
@@ -33,7 +33,7 @@ namespace cloudflare.MagicWanStaticRoute
 
         /// <summary>IP Prefix in Classless Inter-Domain Routing format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_static_route#prefix MagicWanStaticRoute#prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_static_route#prefix MagicWanStaticRoute#prefix}
         /// </remarks>
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
         public string Prefix
@@ -44,7 +44,7 @@ namespace cloudflare.MagicWanStaticRoute
 
         /// <summary>Priority of the static route.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_static_route#priority MagicWanStaticRoute#priority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_static_route#priority MagicWanStaticRoute#priority}
         /// </remarks>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
         public double Priority
@@ -55,7 +55,7 @@ namespace cloudflare.MagicWanStaticRoute
 
         /// <summary>An optional human provided description of the static route.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_static_route#description MagicWanStaticRoute#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_static_route#description MagicWanStaticRoute#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace cloudflare.MagicWanStaticRoute
 
         /// <summary>Used only for ECMP routes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_static_route#scope MagicWanStaticRoute#scope}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_static_route#scope MagicWanStaticRoute#scope}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scope", typeJson: "{\"fqn\":\"cloudflare.magicWanStaticRoute.MagicWanStaticRouteScope\"}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace cloudflare.MagicWanStaticRoute
 
         /// <summary>Optional weight of the ECMP scope - if provided.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_static_route#weight MagicWanStaticRoute#weight}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_static_route#weight MagicWanStaticRoute#weight}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

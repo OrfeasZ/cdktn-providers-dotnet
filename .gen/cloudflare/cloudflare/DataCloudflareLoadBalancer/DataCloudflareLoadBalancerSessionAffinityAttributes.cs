@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareLoadBalancer
         /// <remarks>
         /// This field is only used when session affinity is enabled on the load balancer.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/load_balancer#drain_duration DataCloudflareLoadBalancer#drain_duration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/load_balancer#drain_duration DataCloudflareLoadBalancer#drain_duration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "drainDuration", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

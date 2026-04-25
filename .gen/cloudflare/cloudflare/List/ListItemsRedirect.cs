@@ -9,7 +9,7 @@ namespace cloudflare.List
     [JsiiByValue(fqn: "cloudflare.list.ListItemsRedirect")]
     public class ListItemsRedirect : cloudflare.List.IListItemsRedirect
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list#source_url List#source_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list#source_url List#source_url}.</summary>
         [JsiiProperty(name: "sourceUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceUrl
         {
@@ -17,7 +17,7 @@ namespace cloudflare.List
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list#target_url List#target_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list#target_url List#target_url}.</summary>
         [JsiiProperty(name: "targetUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetUrl
         {
@@ -27,7 +27,7 @@ namespace cloudflare.List
 
         private object? _includeSubdomains;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list#include_subdomains List#include_subdomains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list#include_subdomains List#include_subdomains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeSubdomains", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeSubdomains
@@ -58,7 +58,7 @@ namespace cloudflare.List
 
         private object? _preservePathSuffix;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list#preserve_path_suffix List#preserve_path_suffix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list#preserve_path_suffix List#preserve_path_suffix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "preservePathSuffix", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? PreservePathSuffix
@@ -89,7 +89,7 @@ namespace cloudflare.List
 
         private object? _preserveQueryString;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list#preserve_query_string List#preserve_query_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list#preserve_query_string List#preserve_query_string}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "preserveQueryString", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? PreserveQueryString
@@ -120,7 +120,7 @@ namespace cloudflare.List
 
         /// <summary>Available values: 301, 302, 307, 308.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list#status_code List#status_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list#status_code List#status_code}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "statusCode", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -132,7 +132,7 @@ namespace cloudflare.List
 
         private object? _subpathMatching;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/list#subpath_matching List#subpath_matching}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/list#subpath_matching List#subpath_matching}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subpathMatching", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? SubpathMatching

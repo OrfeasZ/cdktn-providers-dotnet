@@ -9,20 +9,21 @@ namespace cloudflare.DataCloudflareMagicTransitConnector
     [JsiiByValue(fqn: "cloudflare.dataCloudflareMagicTransitConnector.DataCloudflareMagicTransitConnectorConfig")]
     public class DataCloudflareMagicTransitConnectorConfig : cloudflare.DataCloudflareMagicTransitConnector.IDataCloudflareMagicTransitConnectorConfig
     {
-        /// <summary>Account identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/magic_transit_connector#account_id DataCloudflareMagicTransitConnector#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/magic_transit_connector#connector_id DataCloudflareMagicTransitConnector#connector_id}.</summary>
+        [JsiiProperty(name: "connectorId", typeJson: "{\"primitive\":\"string\"}")]
+        public string ConnectorId
         {
             get;
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/magic_transit_connector#connector_id DataCloudflareMagicTransitConnector#connector_id}.</summary>
-        [JsiiProperty(name: "connectorId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ConnectorId
+        /// <summary>Account identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/magic_transit_connector#account_id DataCloudflareMagicTransitConnector#account_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

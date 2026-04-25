@@ -39,6 +39,12 @@ namespace cloudflare.DataCloudflareWorkerVersions
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "subrequests", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Subrequests
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultLimits\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareWorkerVersions.IDataCloudflareWorkerVersionsResultLimits? InternalValue

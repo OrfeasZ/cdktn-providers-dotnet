@@ -11,7 +11,7 @@ namespace cloudflare.AuthenticatedOriginPulls
     {
         private object _config;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/authenticated_origin_pulls#config AuthenticatedOriginPulls#config}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/authenticated_origin_pulls#config AuthenticatedOriginPulls#config}.</summary>
         [JsiiProperty(name: "config", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.authenticatedOriginPulls.AuthenticatedOriginPullsConfigA\"},\"kind\":\"array\"}}]}}")]
         public object Config
         {
@@ -41,7 +41,7 @@ namespace cloudflare.AuthenticatedOriginPulls
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/authenticated_origin_pulls#zone_id AuthenticatedOriginPulls#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/authenticated_origin_pulls#zone_id AuthenticatedOriginPulls#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId

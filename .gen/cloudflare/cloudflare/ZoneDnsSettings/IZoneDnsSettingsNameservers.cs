@@ -9,7 +9,7 @@ namespace cloudflare.ZoneDnsSettings
     {
         /// <summary>Configured nameserver set to be used for this zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zone_dns_settings#ns_set ZoneDnsSettings#ns_set}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zone_dns_settings#ns_set ZoneDnsSettings#ns_set}
         /// </remarks>
         [JsiiProperty(name: "nsSet", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace cloudflare.ZoneDnsSettings
 
         /// <summary>Nameserver type Available values: "cloudflare.standard", "custom.account", "custom.tenant", "custom.zone".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zone_dns_settings#type ZoneDnsSettings#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zone_dns_settings#type ZoneDnsSettings#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace cloudflare.ZoneDnsSettings
 
             /// <summary>Configured nameserver set to be used for this zone.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zone_dns_settings#ns_set ZoneDnsSettings#ns_set}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zone_dns_settings#ns_set ZoneDnsSettings#ns_set}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "nsSet", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace cloudflare.ZoneDnsSettings
 
             /// <summary>Nameserver type Available values: "cloudflare.standard", "custom.account", "custom.tenant", "custom.zone".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zone_dns_settings#type ZoneDnsSettings#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zone_dns_settings#type ZoneDnsSettings#type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

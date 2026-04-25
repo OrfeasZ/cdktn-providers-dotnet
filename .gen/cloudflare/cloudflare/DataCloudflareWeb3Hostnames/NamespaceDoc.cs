@@ -5,7 +5,7 @@ namespace cloudflare.DataCloudflareWeb3Hostnames
     /// <remarks>
     /// <h1><c>data_cloudflare_web3_hostnames</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/web3_hostnames"><c>data_cloudflare_web3_hostnames</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/web3_hostnames"><c>data_cloudflare_web3_hostnames</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

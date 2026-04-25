@@ -33,6 +33,18 @@ namespace cloudflare.WorkerVersion
         {
         }
 
+        [JsiiMethod(name: "resetCpuMs")]
+        public virtual void ResetCpuMs()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSubrequests")]
+        public virtual void ResetSubrequests()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "cpuMsInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? CpuMsInput
@@ -40,8 +52,22 @@ namespace cloudflare.WorkerVersion
             get => GetInstanceProperty<double?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "subrequestsInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? SubrequestsInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
         [JsiiProperty(name: "cpuMs", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double CpuMs
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "subrequests", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Subrequests
         {
             get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);

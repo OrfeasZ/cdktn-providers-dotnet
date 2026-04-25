@@ -9,7 +9,7 @@ namespace cloudflare.PageRule
     {
         private object? _deviceType;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/page_rule#device_type PageRule#device_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#device_type PageRule#device_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deviceType", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? DeviceType
@@ -40,7 +40,7 @@ namespace cloudflare.PageRule
 
         private object? _geo;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/page_rule#geo PageRule#geo}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#geo PageRule#geo}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "geo", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Geo
@@ -71,7 +71,7 @@ namespace cloudflare.PageRule
 
         private object? _lang;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/page_rule#lang PageRule#lang}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#lang PageRule#lang}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lang", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Lang

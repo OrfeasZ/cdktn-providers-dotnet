@@ -4,17 +4,16 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareAccountDnsSettings
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareAccountDnsSettings.DataCloudflareAccountDnsSettingsConfig")]
     public class DataCloudflareAccountDnsSettingsConfig : cloudflare.DataCloudflareAccountDnsSettings.IDataCloudflareAccountDnsSettingsConfig
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/account_dns_settings#account_id DataCloudflareAccountDnsSettings#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/account_dns_settings#account_id DataCloudflareAccountDnsSettings#account_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

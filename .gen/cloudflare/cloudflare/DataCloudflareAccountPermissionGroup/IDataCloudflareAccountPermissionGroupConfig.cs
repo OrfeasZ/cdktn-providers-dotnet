@@ -7,24 +7,28 @@ namespace cloudflare.DataCloudflareAccountPermissionGroup
     [JsiiInterface(nativeType: typeof(IDataCloudflareAccountPermissionGroupConfig), fullyQualifiedName: "cloudflare.dataCloudflareAccountPermissionGroup.DataCloudflareAccountPermissionGroupConfig")]
     public interface IDataCloudflareAccountPermissionGroupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Account identifier tag.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/account_permission_group#account_id DataCloudflareAccountPermissionGroup#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
-        {
-            get;
-        }
-
         /// <summary>Permission Group identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/account_permission_group#permission_group_id DataCloudflareAccountPermissionGroup#permission_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/account_permission_group#permission_group_id DataCloudflareAccountPermissionGroup#permission_group_id}
         /// </remarks>
         [JsiiProperty(name: "permissionGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string PermissionGroupId
         {
             get;
+        }
+
+        /// <summary>Account identifier tag.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/account_permission_group#account_id DataCloudflareAccountPermissionGroup#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
+        {
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IDataCloudflareAccountPermissionGroupConfig), fullyQualifiedName: "cloudflare.dataCloudflareAccountPermissionGroup.DataCloudflareAccountPermissionGroupConfig")]
@@ -34,24 +38,25 @@ namespace cloudflare.DataCloudflareAccountPermissionGroup
             {
             }
 
-            /// <summary>Account identifier tag.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/account_permission_group#account_id DataCloudflareAccountPermissionGroup#account_id}
-            /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>Permission Group identifier tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/account_permission_group#permission_group_id DataCloudflareAccountPermissionGroup#permission_group_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/account_permission_group#permission_group_id DataCloudflareAccountPermissionGroup#permission_group_id}
             /// </remarks>
             [JsiiProperty(name: "permissionGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string PermissionGroupId
             {
                 get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Account identifier tag.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/account_permission_group#account_id DataCloudflareAccountPermissionGroup#account_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
+            {
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

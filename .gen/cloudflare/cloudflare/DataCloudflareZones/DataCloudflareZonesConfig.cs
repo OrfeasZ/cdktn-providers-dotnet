@@ -7,7 +7,7 @@ namespace cloudflare.DataCloudflareZones
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZones.DataCloudflareZonesConfig")]
     public class DataCloudflareZonesConfig : cloudflare.DataCloudflareZones.IDataCloudflareZonesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zones#account DataCloudflareZones#account}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zones#account DataCloudflareZones#account}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "account", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZones.DataCloudflareZonesAccount\"}", isOptional: true)]
         public cloudflare.DataCloudflareZones.IDataCloudflareZonesAccount? Account
@@ -18,7 +18,7 @@ namespace cloudflare.DataCloudflareZones
 
         /// <summary>Direction to order zones. Available values: "asc", "desc".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zones#direction DataCloudflareZones#direction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zones#direction DataCloudflareZones#direction}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -30,7 +30,7 @@ namespace cloudflare.DataCloudflareZones
 
         /// <summary>Whether to match all search requirements or at least one (any). Available values: "any", "all".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zones#match DataCloudflareZones#match}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zones#match DataCloudflareZones#match}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "match", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -42,7 +42,7 @@ namespace cloudflare.DataCloudflareZones
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zones#max_items DataCloudflareZones#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zones#max_items DataCloudflareZones#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace cloudflare.DataCloudflareZones
         /// <description><c>contains_case_sensitive</c></description>
         /// </list>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zones#name DataCloudflareZones#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zones#name DataCloudflareZones#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace cloudflare.DataCloudflareZones
 
         /// <summary>Field to order zones by. Available values: "name", "status", "account.id", "account.name", "plan.id".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zones#order DataCloudflareZones#order}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zones#order DataCloudflareZones#order}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace cloudflare.DataCloudflareZones
 
         /// <summary>Specify a zone status to filter by. Available values: "initializing", "pending", "active", "moved".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zones#status DataCloudflareZones#status}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zones#status DataCloudflareZones#status}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

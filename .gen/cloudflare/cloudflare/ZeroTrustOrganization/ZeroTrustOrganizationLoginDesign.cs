@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustOrganization
     {
         /// <summary>The background color on your login page.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_organization#background_color ZeroTrustOrganization#background_color}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_organization#background_color ZeroTrustOrganization#background_color}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "backgroundColor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace cloudflare.ZeroTrustOrganization
 
         /// <summary>The text at the bottom of your login page.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_organization#footer_text ZeroTrustOrganization#footer_text}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_organization#footer_text ZeroTrustOrganization#footer_text}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "footerText", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace cloudflare.ZeroTrustOrganization
 
         /// <summary>The text at the top of your login page.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_organization#header_text ZeroTrustOrganization#header_text}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_organization#header_text ZeroTrustOrganization#header_text}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "headerText", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace cloudflare.ZeroTrustOrganization
 
         /// <summary>The URL of the logo on your login page.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_organization#logo_path ZeroTrustOrganization#logo_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_organization#logo_path ZeroTrustOrganization#logo_path}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logoPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace cloudflare.ZeroTrustOrganization
 
         /// <summary>The text color on your login page.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_organization#text_color ZeroTrustOrganization#text_color}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_organization#text_color ZeroTrustOrganization#text_color}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "textColor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

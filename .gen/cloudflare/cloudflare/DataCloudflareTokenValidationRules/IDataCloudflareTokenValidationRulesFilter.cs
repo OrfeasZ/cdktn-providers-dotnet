@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareTokenValidationRules
     {
         /// <summary>Action to take on requests that match operations included in `selector` and fail `expression`. Available values: "log", "block".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/token_validation_rules#action DataCloudflareTokenValidationRules#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/token_validation_rules#action DataCloudflareTokenValidationRules#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace cloudflare.DataCloudflareTokenValidationRules
 
         /// <summary>Toggle rule on or off.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/token_validation_rules#enabled DataCloudflareTokenValidationRules#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/token_validation_rules#enabled DataCloudflareTokenValidationRules#enabled}
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace cloudflare.DataCloudflareTokenValidationRules
 
         /// <summary>Select rules with this host in `include`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/token_validation_rules#host DataCloudflareTokenValidationRules#host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/token_validation_rules#host DataCloudflareTokenValidationRules#host}
         /// </remarks>
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace cloudflare.DataCloudflareTokenValidationRules
 
         /// <summary>Select rules with this host in `include`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/token_validation_rules#hostname DataCloudflareTokenValidationRules#hostname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/token_validation_rules#hostname DataCloudflareTokenValidationRules#hostname}
         /// </remarks>
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace cloudflare.DataCloudflareTokenValidationRules
 
         /// <summary>Select rules with these IDs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/token_validation_rules#id DataCloudflareTokenValidationRules#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/token_validation_rules#id DataCloudflareTokenValidationRules#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,7 +82,7 @@ namespace cloudflare.DataCloudflareTokenValidationRules
 
         /// <summary>Select rules using any of these token configurations.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/token_validation_rules#token_configuration DataCloudflareTokenValidationRules#token_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/token_validation_rules#token_configuration DataCloudflareTokenValidationRules#token_configuration}
         /// </remarks>
         [JsiiProperty(name: "tokenConfiguration", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -103,7 +103,7 @@ namespace cloudflare.DataCloudflareTokenValidationRules
 
             /// <summary>Action to take on requests that match operations included in `selector` and fail `expression`. Available values: "log", "block".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/token_validation_rules#action DataCloudflareTokenValidationRules#action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/token_validation_rules#action DataCloudflareTokenValidationRules#action}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -114,7 +114,7 @@ namespace cloudflare.DataCloudflareTokenValidationRules
 
             /// <summary>Toggle rule on or off.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/token_validation_rules#enabled DataCloudflareTokenValidationRules#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/token_validation_rules#enabled DataCloudflareTokenValidationRules#enabled}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -125,7 +125,7 @@ namespace cloudflare.DataCloudflareTokenValidationRules
 
             /// <summary>Select rules with this host in `include`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/token_validation_rules#host DataCloudflareTokenValidationRules#host}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/token_validation_rules#host DataCloudflareTokenValidationRules#host}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -136,7 +136,7 @@ namespace cloudflare.DataCloudflareTokenValidationRules
 
             /// <summary>Select rules with this host in `include`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/token_validation_rules#hostname DataCloudflareTokenValidationRules#hostname}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/token_validation_rules#hostname DataCloudflareTokenValidationRules#hostname}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -147,7 +147,7 @@ namespace cloudflare.DataCloudflareTokenValidationRules
 
             /// <summary>Select rules with these IDs.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/token_validation_rules#id DataCloudflareTokenValidationRules#id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/token_validation_rules#id DataCloudflareTokenValidationRules#id}
             ///
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -161,7 +161,7 @@ namespace cloudflare.DataCloudflareTokenValidationRules
 
             /// <summary>Select rules using any of these token configurations.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/token_validation_rules#token_configuration DataCloudflareTokenValidationRules#token_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/token_validation_rules#token_configuration DataCloudflareTokenValidationRules#token_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tokenConfiguration", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

@@ -7,24 +7,28 @@ namespace cloudflare.DataCloudflareR2BucketCors
     [JsiiInterface(nativeType: typeof(IDataCloudflareR2BucketCorsConfig), fullyQualifiedName: "cloudflare.dataCloudflareR2BucketCors.DataCloudflareR2BucketCorsConfig")]
     public interface IDataCloudflareR2BucketCorsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Account ID.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/r2_bucket_cors#account_id DataCloudflareR2BucketCors#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
-        {
-            get;
-        }
-
         /// <summary>Name of the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/r2_bucket_cors#bucket_name DataCloudflareR2BucketCors#bucket_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/r2_bucket_cors#bucket_name DataCloudflareR2BucketCors#bucket_name}
         /// </remarks>
         [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
         string BucketName
         {
             get;
+        }
+
+        /// <summary>Account ID.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/r2_bucket_cors#account_id DataCloudflareR2BucketCors#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
+        {
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IDataCloudflareR2BucketCorsConfig), fullyQualifiedName: "cloudflare.dataCloudflareR2BucketCors.DataCloudflareR2BucketCorsConfig")]
@@ -34,24 +38,25 @@ namespace cloudflare.DataCloudflareR2BucketCors
             {
             }
 
-            /// <summary>Account ID.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/r2_bucket_cors#account_id DataCloudflareR2BucketCors#account_id}
-            /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>Name of the bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/r2_bucket_cors#bucket_name DataCloudflareR2BucketCors#bucket_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/r2_bucket_cors#bucket_name DataCloudflareR2BucketCors#bucket_name}
             /// </remarks>
             [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
             public string BucketName
             {
                 get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Account ID.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/r2_bucket_cors#account_id DataCloudflareR2BucketCors#account_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
+            {
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

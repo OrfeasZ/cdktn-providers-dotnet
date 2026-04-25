@@ -9,7 +9,7 @@ namespace cloudflare.MagicTransitSiteLan
     {
         /// <summary>A valid IPv4 address.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_lan#next_hop MagicTransitSiteLan#next_hop}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_lan#next_hop MagicTransitSiteLan#next_hop}
         /// </remarks>
         [JsiiProperty(name: "nextHop", typeJson: "{\"primitive\":\"string\"}")]
         string NextHop
@@ -19,7 +19,7 @@ namespace cloudflare.MagicTransitSiteLan
 
         /// <summary>A valid CIDR notation representing an IP range.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_lan#prefix MagicTransitSiteLan#prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_lan#prefix MagicTransitSiteLan#prefix}
         /// </remarks>
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
         string Prefix
@@ -27,7 +27,7 @@ namespace cloudflare.MagicTransitSiteLan
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_lan#nat MagicTransitSiteLan#nat}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_lan#nat MagicTransitSiteLan#nat}.</summary>
         [JsiiProperty(name: "nat", typeJson: "{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanRoutedSubnetsNat\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanRoutedSubnetsNat? Nat
@@ -47,7 +47,7 @@ namespace cloudflare.MagicTransitSiteLan
 
             /// <summary>A valid IPv4 address.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_lan#next_hop MagicTransitSiteLan#next_hop}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_lan#next_hop MagicTransitSiteLan#next_hop}
             /// </remarks>
             [JsiiProperty(name: "nextHop", typeJson: "{\"primitive\":\"string\"}")]
             public string NextHop
@@ -57,7 +57,7 @@ namespace cloudflare.MagicTransitSiteLan
 
             /// <summary>A valid CIDR notation representing an IP range.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_lan#prefix MagicTransitSiteLan#prefix}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_lan#prefix MagicTransitSiteLan#prefix}
             /// </remarks>
             [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
             public string Prefix
@@ -65,7 +65,7 @@ namespace cloudflare.MagicTransitSiteLan
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_lan#nat MagicTransitSiteLan#nat}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_lan#nat MagicTransitSiteLan#nat}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nat", typeJson: "{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanRoutedSubnetsNat\"}", isOptional: true)]
             public cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanRoutedSubnetsNat? Nat

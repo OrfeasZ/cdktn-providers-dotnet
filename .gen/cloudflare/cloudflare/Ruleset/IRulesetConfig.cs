@@ -9,7 +9,7 @@ namespace cloudflare.Ruleset
     {
         /// <summary>The kind of the ruleset. Available values: "managed", "custom", "root", "zone".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#kind Ruleset#kind}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#kind Ruleset#kind}
         /// </remarks>
         [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}")]
         string Kind
@@ -19,7 +19,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The human-readable name of the ruleset.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#name Ruleset#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#name Ruleset#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -31,7 +31,7 @@ namespace cloudflare.Ruleset
         /// <remarks>
         /// Available values: "ddos_l4", "ddos_l7", "http_config_settings", "http_custom_errors", "http_log_custom_fields", "http_ratelimit", "http_request_cache_settings", "http_request_dynamic_redirect", "http_request_firewall_custom", "http_request_firewall_managed", "http_request_late_transform", "http_request_origin", "http_request_redirect", "http_request_sanitize", "http_request_sbfm", "http_request_transform", "http_response_cache_settings", "http_response_compression", "http_response_firewall_managed", "http_response_headers_transform", "magic_transit", "magic_transit_ids_managed", "magic_transit_managed", "magic_transit_ratelimit".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#phase Ruleset#phase}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#phase Ruleset#phase}
         /// </remarks>
         [JsiiProperty(name: "phase", typeJson: "{\"primitive\":\"string\"}")]
         string Phase
@@ -41,7 +41,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The unique ID of the account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#account_id Ruleset#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#account_id Ruleset#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,7 +55,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>An informative description of the ruleset.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#description Ruleset#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#description Ruleset#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -69,7 +69,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The list of rules in the ruleset.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#rules Ruleset#rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#rules Ruleset#rules}
         /// </remarks>
         [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -83,7 +83,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The unique ID of the zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#zone_id Ruleset#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#zone_id Ruleset#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -104,7 +104,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The kind of the ruleset. Available values: "managed", "custom", "root", "zone".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#kind Ruleset#kind}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#kind Ruleset#kind}
             /// </remarks>
             [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}")]
             public string Kind
@@ -114,7 +114,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The human-readable name of the ruleset.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#name Ruleset#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#name Ruleset#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -126,7 +126,7 @@ namespace cloudflare.Ruleset
             /// <remarks>
             /// Available values: "ddos_l4", "ddos_l7", "http_config_settings", "http_custom_errors", "http_log_custom_fields", "http_ratelimit", "http_request_cache_settings", "http_request_dynamic_redirect", "http_request_firewall_custom", "http_request_firewall_managed", "http_request_late_transform", "http_request_origin", "http_request_redirect", "http_request_sanitize", "http_request_sbfm", "http_request_transform", "http_response_cache_settings", "http_response_compression", "http_response_firewall_managed", "http_response_headers_transform", "magic_transit", "magic_transit_ids_managed", "magic_transit_managed", "magic_transit_ratelimit".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#phase Ruleset#phase}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#phase Ruleset#phase}
             /// </remarks>
             [JsiiProperty(name: "phase", typeJson: "{\"primitive\":\"string\"}")]
             public string Phase
@@ -136,7 +136,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The unique ID of the account.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#account_id Ruleset#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#account_id Ruleset#account_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -147,7 +147,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>An informative description of the ruleset.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#description Ruleset#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#description Ruleset#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -158,7 +158,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The list of rules in the ruleset.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#rules Ruleset#rules}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#rules Ruleset#rules}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -169,7 +169,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The unique ID of the zone.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#zone_id Ruleset#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#zone_id Ruleset#zone_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

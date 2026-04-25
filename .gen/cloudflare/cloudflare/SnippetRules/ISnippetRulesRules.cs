@@ -9,7 +9,7 @@ namespace cloudflare.SnippetRules
     {
         /// <summary>Define the expression that determines which traffic matches the rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/snippet_rules#expression SnippetRules#expression}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/snippet_rules#expression SnippetRules#expression}
         /// </remarks>
         [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}")]
         string Expression
@@ -19,7 +19,7 @@ namespace cloudflare.SnippetRules
 
         /// <summary>Identify the snippet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/snippet_rules#snippet_name SnippetRules#snippet_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/snippet_rules#snippet_name SnippetRules#snippet_name}
         /// </remarks>
         [JsiiProperty(name: "snippetName", typeJson: "{\"primitive\":\"string\"}")]
         string SnippetName
@@ -29,7 +29,7 @@ namespace cloudflare.SnippetRules
 
         /// <summary>Provide an informative description of the rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/snippet_rules#description SnippetRules#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/snippet_rules#description SnippetRules#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +43,7 @@ namespace cloudflare.SnippetRules
 
         /// <summary>Indicate whether to execute the rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/snippet_rules#enabled SnippetRules#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/snippet_rules#enabled SnippetRules#enabled}
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -64,7 +64,7 @@ namespace cloudflare.SnippetRules
 
             /// <summary>Define the expression that determines which traffic matches the rule.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/snippet_rules#expression SnippetRules#expression}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/snippet_rules#expression SnippetRules#expression}
             /// </remarks>
             [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}")]
             public string Expression
@@ -74,7 +74,7 @@ namespace cloudflare.SnippetRules
 
             /// <summary>Identify the snippet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/snippet_rules#snippet_name SnippetRules#snippet_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/snippet_rules#snippet_name SnippetRules#snippet_name}
             /// </remarks>
             [JsiiProperty(name: "snippetName", typeJson: "{\"primitive\":\"string\"}")]
             public string SnippetName
@@ -84,7 +84,7 @@ namespace cloudflare.SnippetRules
 
             /// <summary>Provide an informative description of the rule.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/snippet_rules#description SnippetRules#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/snippet_rules#description SnippetRules#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace cloudflare.SnippetRules
 
             /// <summary>Indicate whether to execute the rule.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/snippet_rules#enabled SnippetRules#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/snippet_rules#enabled SnippetRules#enabled}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

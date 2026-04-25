@@ -11,7 +11,7 @@ namespace cloudflare.CustomPages
     {
         /// <summary>Error Page Types Available values: "1000_errors", "500_errors", "basic_challenge", "country_challenge", "ip_block", "managed_challenge", "ratelimit_block", "under_attack", "waf_block", "waf_challenge".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_pages#identifier CustomPages#identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_pages#identifier CustomPages#identifier}
         /// </remarks>
         [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
         public string Identifier
@@ -22,7 +22,7 @@ namespace cloudflare.CustomPages
 
         /// <summary>The custom page state. Available values: "default", "customized".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_pages#state CustomPages#state}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_pages#state CustomPages#state}
         /// </remarks>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public string State
@@ -33,7 +33,7 @@ namespace cloudflare.CustomPages
 
         /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_pages#account_id CustomPages#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_pages#account_id CustomPages#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace cloudflare.CustomPages
 
         /// <summary>The URL associated with the custom page.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_pages#url CustomPages#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_pages#url CustomPages#url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace cloudflare.CustomPages
 
         /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_pages#zone_id CustomPages#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_pages#zone_id CustomPages#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

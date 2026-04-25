@@ -7,9 +7,9 @@ namespace cloudflare.WorkerVersion
     [JsiiInterface(nativeType: typeof(IWorkerVersionAnnotations), fullyQualifiedName: "cloudflare.workerVersion.WorkerVersionAnnotations")]
     public interface IWorkerVersionAnnotations
     {
-        /// <summary>Human-readable message about the version.</summary>
+        /// <summary>Human-readable message about the version. Truncated to 1000 bytes if longer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#workers_message WorkerVersion#workers_message}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#workers_message WorkerVersion#workers_message}
         /// </remarks>
         [JsiiProperty(name: "workersMessage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,9 +21,9 @@ namespace cloudflare.WorkerVersion
             }
         }
 
-        /// <summary>User-provided identifier for the version.</summary>
+        /// <summary>User-provided identifier for the version. Maximum 100 bytes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#workers_tag WorkerVersion#workers_tag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#workers_tag WorkerVersion#workers_tag}
         /// </remarks>
         [JsiiProperty(name: "workersTag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,9 +42,9 @@ namespace cloudflare.WorkerVersion
             {
             }
 
-            /// <summary>Human-readable message about the version.</summary>
+            /// <summary>Human-readable message about the version. Truncated to 1000 bytes if longer.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#workers_message WorkerVersion#workers_message}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#workers_message WorkerVersion#workers_message}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "workersMessage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -53,9 +53,9 @@ namespace cloudflare.WorkerVersion
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>User-provided identifier for the version.</summary>
+            /// <summary>User-provided identifier for the version. Maximum 100 bytes.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#workers_tag WorkerVersion#workers_tag}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#workers_tag WorkerVersion#workers_tag}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "workersTag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

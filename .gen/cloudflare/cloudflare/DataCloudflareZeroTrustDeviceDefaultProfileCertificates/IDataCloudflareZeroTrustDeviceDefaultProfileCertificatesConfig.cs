@@ -7,11 +7,15 @@ namespace cloudflare.DataCloudflareZeroTrustDeviceDefaultProfileCertificates
     [JsiiInterface(nativeType: typeof(IDataCloudflareZeroTrustDeviceDefaultProfileCertificatesConfig), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustDeviceDefaultProfileCertificates.DataCloudflareZeroTrustDeviceDefaultProfileCertificatesConfig")]
     public interface IDataCloudflareZeroTrustDeviceDefaultProfileCertificatesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_device_default_profile_certificates#zone_id DataCloudflareZeroTrustDeviceDefaultProfileCertificates#zone_id}.</summary>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_device_default_profile_certificates#zone_id DataCloudflareZeroTrustDeviceDefaultProfileCertificates#zone_id}.</summary>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? ZoneId
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IDataCloudflareZeroTrustDeviceDefaultProfileCertificatesConfig), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustDeviceDefaultProfileCertificates.DataCloudflareZeroTrustDeviceDefaultProfileCertificatesConfig")]
@@ -21,11 +25,12 @@ namespace cloudflare.DataCloudflareZeroTrustDeviceDefaultProfileCertificates
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_device_default_profile_certificates#zone_id DataCloudflareZeroTrustDeviceDefaultProfileCertificates#zone_id}.</summary>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_device_default_profile_certificates#zone_id DataCloudflareZeroTrustDeviceDefaultProfileCertificates#zone_id}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

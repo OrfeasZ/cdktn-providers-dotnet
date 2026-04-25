@@ -5,7 +5,7 @@ namespace cloudflare.DataCloudflareAccountDnsSettingsInternalViews
     /// <remarks>
     /// <h1><c>data_cloudflare_account_dns_settings_internal_views</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/account_dns_settings_internal_views"><c>data_cloudflare_account_dns_settings_internal_views</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/account_dns_settings_internal_views"><c>data_cloudflare_account_dns_settings_internal_views</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

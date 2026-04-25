@@ -7,14 +7,14 @@ namespace cloudflare.Snippet
     [JsiiInterface(nativeType: typeof(ISnippetFiles), fullyQualifiedName: "cloudflare.snippet.SnippetFiles")]
     public interface ISnippetFiles
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/snippet#content Snippet#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/snippet#content Snippet#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         string Content
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/snippet#name Snippet#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/snippet#name Snippet#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -28,14 +28,14 @@ namespace cloudflare.Snippet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/snippet#content Snippet#content}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/snippet#content Snippet#content}.</summary>
             [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
             public string Content
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/snippet#name Snippet#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/snippet#name Snippet#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {

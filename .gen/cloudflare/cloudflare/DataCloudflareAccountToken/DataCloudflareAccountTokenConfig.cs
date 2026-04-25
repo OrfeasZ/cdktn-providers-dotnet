@@ -4,23 +4,22 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareAccountToken
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareAccountToken.DataCloudflareAccountTokenConfig")]
     public class DataCloudflareAccountTokenConfig : cloudflare.DataCloudflareAccountToken.IDataCloudflareAccountTokenConfig
     {
         /// <summary>Account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/account_token#account_id DataCloudflareAccountToken#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/account_token#account_id DataCloudflareAccountToken#account_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/account_token#filter DataCloudflareAccountToken#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/account_token#filter DataCloudflareAccountToken#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAccountToken.DataCloudflareAccountTokenFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareAccountToken.IDataCloudflareAccountTokenFilter? Filter
@@ -31,7 +30,7 @@ namespace cloudflare.DataCloudflareAccountToken
 
         /// <summary>Token identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/account_token#token_id DataCloudflareAccountToken#token_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/account_token#token_id DataCloudflareAccountToken#token_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tokenId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

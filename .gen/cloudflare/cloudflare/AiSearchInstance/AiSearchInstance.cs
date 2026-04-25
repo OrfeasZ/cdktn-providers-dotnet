@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.AiSearchInstance
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ai_search_instance cloudflare_ai_search_instance}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_instance cloudflare_ai_search_instance}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.AiSearchInstance.AiSearchInstance), fullyQualifiedName: "cloudflare.aiSearchInstance.AiSearchInstance", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceConfig\"}}]")]
     public class AiSearchInstance : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ai_search_instance cloudflare_ai_search_instance} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_instance cloudflare_ai_search_instance} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public AiSearchInstance(Constructs.Construct scope, string id, cloudflare.AiSearchInstance.IAiSearchInstanceConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace cloudflare.AiSearchInstance
         /// <param name="importToId">The construct id used in the generated config for the AiSearchInstance to import.</param>
         /// <param name="importFromId">The id of the existing AiSearchInstance that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the AiSearchInstance to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the AiSearchInstance to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ai_search_instance#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing AiSearchInstance that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the AiSearchInstance to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the AiSearchInstance to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_instance#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing AiSearchInstance that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the AiSearchInstance to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.AiSearchInstance.AiSearchInstance), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -67,6 +67,18 @@ namespace cloudflare.AiSearchInstance
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putIndexingOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceIndexingOptions\"}}]")]
+        public virtual void PutIndexingOptions(cloudflare.AiSearchInstance.IAiSearchInstanceIndexingOptions @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.AiSearchInstance.IAiSearchInstanceIndexingOptions)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putIndexMethod", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceIndexMethod\"}}]")]
+        public virtual void PutIndexMethod(cloudflare.AiSearchInstance.IAiSearchInstanceIndexMethod @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.AiSearchInstance.IAiSearchInstanceIndexMethod)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putMetadata", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceMetadata\"}}]")]
@@ -159,6 +171,18 @@ namespace cloudflare.AiSearchInstance
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetIndexingOptions")]
+        public virtual void ResetIndexingOptions()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIndexMethod")]
+        public virtual void ResetIndexMethod()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetMaxNumResults")]
         public virtual void ResetMaxNumResults()
         {
@@ -219,6 +243,12 @@ namespace cloudflare.AiSearchInstance
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSource")]
+        public virtual void ResetSource()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSourceParams")]
         public virtual void ResetSourceParams()
         {
@@ -233,6 +263,12 @@ namespace cloudflare.AiSearchInstance
 
         [JsiiMethod(name: "resetSummarizationModel")]
         public virtual void ResetSummarizationModel()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSyncInterval")]
+        public virtual void ResetSyncInterval()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -257,6 +293,12 @@ namespace cloudflare.AiSearchInstance
 
         [JsiiMethod(name: "resetTokenId")]
         public virtual void ResetTokenId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetType")]
+        public virtual void ResetType()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -304,6 +346,24 @@ namespace cloudflare.AiSearchInstance
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "engineVersion", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double EngineVersion
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "indexingOptions", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceIndexingOptionsOutputReference\"}")]
+        public virtual cloudflare.AiSearchInstance.AiSearchInstanceIndexingOptionsOutputReference IndexingOptions
+        {
+            get => GetInstanceProperty<cloudflare.AiSearchInstance.AiSearchInstanceIndexingOptionsOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "indexMethod", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceIndexMethodOutputReference\"}")]
+        public virtual cloudflare.AiSearchInstance.AiSearchInstanceIndexMethodOutputReference IndexMethod
+        {
+            get => GetInstanceProperty<cloudflare.AiSearchInstance.AiSearchInstanceIndexMethodOutputReference>()!;
+        }
+
         [JsiiProperty(name: "lastActivity", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LastActivity
         {
@@ -324,6 +384,12 @@ namespace cloudflare.AiSearchInstance
 
         [JsiiProperty(name: "modifiedBy", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ModifiedBy
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Namespace
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -456,6 +522,20 @@ namespace cloudflare.AiSearchInstance
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "indexingOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceIndexingOptions\"}]}}", isOptional: true)]
+        public virtual object? IndexingOptionsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "indexMethodInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceIndexMethod\"}]}}", isOptional: true)]
+        public virtual object? IndexMethodInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "maxNumResultsInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? MaxNumResultsInput
         {
@@ -551,6 +631,13 @@ namespace cloudflare.AiSearchInstance
         public virtual string? SummarizationModelInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "syncIntervalInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? SyncIntervalInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -879,6 +966,13 @@ namespace cloudflare.AiSearchInstance
         public virtual string SummarizationModel
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "syncInterval", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double SyncInterval
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

@@ -9,17 +9,21 @@ namespace cloudflare.AccountSubscription
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/account_subscription#account_id AccountSubscription#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_subscription#account_id AccountSubscription#account_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         /// <summary>How often the subscription is renewed automatically. Available values: "weekly", "monthly", "quarterly", "yearly".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/account_subscription#frequency AccountSubscription#frequency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_subscription#frequency AccountSubscription#frequency}
         /// </remarks>
         [JsiiProperty(name: "frequency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +37,7 @@ namespace cloudflare.AccountSubscription
 
         /// <summary>The rate plan applied to the subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/account_subscription#rate_plan AccountSubscription#rate_plan}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_subscription#rate_plan AccountSubscription#rate_plan}
         /// </remarks>
         [JsiiProperty(name: "ratePlan", typeJson: "{\"fqn\":\"cloudflare.accountSubscription.AccountSubscriptionRatePlan\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,17 +58,18 @@ namespace cloudflare.AccountSubscription
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/account_subscription#account_id AccountSubscription#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_subscription#account_id AccountSubscription#account_id}
             /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
             }
 
             /// <summary>How often the subscription is renewed automatically. Available values: "weekly", "monthly", "quarterly", "yearly".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/account_subscription#frequency AccountSubscription#frequency}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_subscription#frequency AccountSubscription#frequency}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "frequency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -75,7 +80,7 @@ namespace cloudflare.AccountSubscription
 
             /// <summary>The rate plan applied to the subscription.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/account_subscription#rate_plan AccountSubscription#rate_plan}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_subscription#rate_plan AccountSubscription#rate_plan}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ratePlan", typeJson: "{\"fqn\":\"cloudflare.accountSubscription.AccountSubscriptionRatePlan\"}", isOptional: true)]

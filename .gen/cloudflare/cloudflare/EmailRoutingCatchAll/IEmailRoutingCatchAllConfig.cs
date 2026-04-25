@@ -9,7 +9,7 @@ namespace cloudflare.EmailRoutingCatchAll
     {
         /// <summary>List actions for the catch-all routing rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_routing_catch_all#actions EmailRoutingCatchAll#actions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_routing_catch_all#actions EmailRoutingCatchAll#actions}
         /// </remarks>
         [JsiiProperty(name: "actions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.emailRoutingCatchAll.EmailRoutingCatchAllActions\"},\"kind\":\"array\"}}]}}")]
         object Actions
@@ -19,7 +19,7 @@ namespace cloudflare.EmailRoutingCatchAll
 
         /// <summary>List of matchers for the catch-all routing rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_routing_catch_all#matchers EmailRoutingCatchAll#matchers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_routing_catch_all#matchers EmailRoutingCatchAll#matchers}
         /// </remarks>
         [JsiiProperty(name: "matchers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.emailRoutingCatchAll.EmailRoutingCatchAllMatchers\"},\"kind\":\"array\"}}]}}")]
         object Matchers
@@ -29,7 +29,7 @@ namespace cloudflare.EmailRoutingCatchAll
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_routing_catch_all#zone_id EmailRoutingCatchAll#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_routing_catch_all#zone_id EmailRoutingCatchAll#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
@@ -39,7 +39,7 @@ namespace cloudflare.EmailRoutingCatchAll
 
         /// <summary>Routing rule status.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_routing_catch_all#enabled EmailRoutingCatchAll#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_routing_catch_all#enabled EmailRoutingCatchAll#enabled}
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -53,7 +53,7 @@ namespace cloudflare.EmailRoutingCatchAll
 
         /// <summary>Routing rule name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_routing_catch_all#name EmailRoutingCatchAll#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_routing_catch_all#name EmailRoutingCatchAll#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -74,7 +74,7 @@ namespace cloudflare.EmailRoutingCatchAll
 
             /// <summary>List actions for the catch-all routing rule.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_routing_catch_all#actions EmailRoutingCatchAll#actions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_routing_catch_all#actions EmailRoutingCatchAll#actions}
             /// </remarks>
             [JsiiProperty(name: "actions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.emailRoutingCatchAll.EmailRoutingCatchAllActions\"},\"kind\":\"array\"}}]}}")]
             public object Actions
@@ -84,7 +84,7 @@ namespace cloudflare.EmailRoutingCatchAll
 
             /// <summary>List of matchers for the catch-all routing rule.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_routing_catch_all#matchers EmailRoutingCatchAll#matchers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_routing_catch_all#matchers EmailRoutingCatchAll#matchers}
             /// </remarks>
             [JsiiProperty(name: "matchers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.emailRoutingCatchAll.EmailRoutingCatchAllMatchers\"},\"kind\":\"array\"}}]}}")]
             public object Matchers
@@ -94,7 +94,7 @@ namespace cloudflare.EmailRoutingCatchAll
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_routing_catch_all#zone_id EmailRoutingCatchAll#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_routing_catch_all#zone_id EmailRoutingCatchAll#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId
@@ -104,7 +104,7 @@ namespace cloudflare.EmailRoutingCatchAll
 
             /// <summary>Routing rule status.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_routing_catch_all#enabled EmailRoutingCatchAll#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_routing_catch_all#enabled EmailRoutingCatchAll#enabled}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -115,7 +115,7 @@ namespace cloudflare.EmailRoutingCatchAll
 
             /// <summary>Routing rule name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_routing_catch_all#name EmailRoutingCatchAll#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_routing_catch_all#name EmailRoutingCatchAll#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

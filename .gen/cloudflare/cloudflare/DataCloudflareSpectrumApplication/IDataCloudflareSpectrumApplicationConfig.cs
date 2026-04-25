@@ -7,19 +7,9 @@ namespace cloudflare.DataCloudflareSpectrumApplication
     [JsiiInterface(nativeType: typeof(IDataCloudflareSpectrumApplicationConfig), fullyQualifiedName: "cloudflare.dataCloudflareSpectrumApplication.DataCloudflareSpectrumApplicationConfig")]
     public interface IDataCloudflareSpectrumApplicationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Zone identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/spectrum_application#zone_id DataCloudflareSpectrumApplication#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
-        {
-            get;
-        }
-
         /// <summary>App identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/spectrum_application#app_id DataCloudflareSpectrumApplication#app_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/spectrum_application#app_id DataCloudflareSpectrumApplication#app_id}
         /// </remarks>
         [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,10 +21,24 @@ namespace cloudflare.DataCloudflareSpectrumApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/spectrum_application#filter DataCloudflareSpectrumApplication#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/spectrum_application#filter DataCloudflareSpectrumApplication#filter}.</summary>
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareSpectrumApplication.DataCloudflareSpectrumApplicationFilter\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.DataCloudflareSpectrumApplication.IDataCloudflareSpectrumApplicationFilter? Filter
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Zone identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/spectrum_application#zone_id DataCloudflareSpectrumApplication#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? ZoneId
         {
             get
             {
@@ -49,19 +53,9 @@ namespace cloudflare.DataCloudflareSpectrumApplication
             {
             }
 
-            /// <summary>Zone identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/spectrum_application#zone_id DataCloudflareSpectrumApplication#zone_id}
-            /// </remarks>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>App identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/spectrum_application#app_id DataCloudflareSpectrumApplication#app_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/spectrum_application#app_id DataCloudflareSpectrumApplication#app_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,12 +64,23 @@ namespace cloudflare.DataCloudflareSpectrumApplication
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/spectrum_application#filter DataCloudflareSpectrumApplication#filter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/spectrum_application#filter DataCloudflareSpectrumApplication#filter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareSpectrumApplication.DataCloudflareSpectrumApplicationFilter\"}", isOptional: true)]
             public cloudflare.DataCloudflareSpectrumApplication.IDataCloudflareSpectrumApplicationFilter? Filter
             {
                 get => GetInstanceProperty<cloudflare.DataCloudflareSpectrumApplication.IDataCloudflareSpectrumApplicationFilter?>();
+            }
+
+            /// <summary>Zone identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/spectrum_application#zone_id DataCloudflareSpectrumApplication#zone_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
+            {
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

@@ -11,7 +11,7 @@ namespace cloudflare.Ruleset
         /// <remarks>
         /// Available values: "block", "challenge", "compress_response", "ddos_dynamic", "execute", "force_connection_close", "js_challenge", "log", "log_custom_field", "managed_challenge", "redirect", "rewrite", "route", "score", "serve_error", "set_cache_control", "set_cache_settings", "set_cache_tags", "set_config", "skip".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#action Ruleset#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#action Ruleset#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         string Action
@@ -21,7 +21,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The expression defining which traffic will match the rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#expression Ruleset#expression}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#expression Ruleset#expression}
         /// </remarks>
         [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}")]
         string Expression
@@ -31,7 +31,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The parameters configuring the rule's action.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#action_parameters Ruleset#action_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#action_parameters Ruleset#action_parameters}
         /// </remarks>
         [JsiiProperty(name: "actionParameters", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParameters\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>An informative description of the rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#description Ruleset#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#description Ruleset#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether the rule should be executed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#enabled Ruleset#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#enabled Ruleset#enabled}
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -73,7 +73,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Configuration for exposed credential checking.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#exposed_credential_check Ruleset#exposed_credential_check}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#exposed_credential_check Ruleset#exposed_credential_check}
         /// </remarks>
         [JsiiProperty(name: "exposedCredentialCheck", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesExposedCredentialCheck\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -87,7 +87,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>An object configuring the rule's logging behavior.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#logging Ruleset#logging}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#logging Ruleset#logging}
         /// </remarks>
         [JsiiProperty(name: "logging", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesLogging\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -101,7 +101,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>An object configuring the rule's rate limit behavior.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#ratelimit Ruleset#ratelimit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#ratelimit Ruleset#ratelimit}
         /// </remarks>
         [JsiiProperty(name: "ratelimit", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesRatelimit\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -115,7 +115,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The reference of the rule (the rule's ID by default).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#ref Ruleset#ref}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#ref Ruleset#ref}
         /// </remarks>
         [JsiiProperty(name: "ref", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -138,7 +138,7 @@ namespace cloudflare.Ruleset
             /// <remarks>
             /// Available values: "block", "challenge", "compress_response", "ddos_dynamic", "execute", "force_connection_close", "js_challenge", "log", "log_custom_field", "managed_challenge", "redirect", "rewrite", "route", "score", "serve_error", "set_cache_control", "set_cache_settings", "set_cache_tags", "set_config", "skip".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#action Ruleset#action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#action Ruleset#action}
             /// </remarks>
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
             public string Action
@@ -148,7 +148,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The expression defining which traffic will match the rule.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#expression Ruleset#expression}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#expression Ruleset#expression}
             /// </remarks>
             [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}")]
             public string Expression
@@ -158,7 +158,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The parameters configuring the rule's action.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#action_parameters Ruleset#action_parameters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#action_parameters Ruleset#action_parameters}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "actionParameters", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParameters\"}", isOptional: true)]
@@ -169,7 +169,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>An informative description of the rule.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#description Ruleset#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#description Ruleset#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -180,7 +180,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether the rule should be executed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#enabled Ruleset#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#enabled Ruleset#enabled}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -191,7 +191,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Configuration for exposed credential checking.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#exposed_credential_check Ruleset#exposed_credential_check}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#exposed_credential_check Ruleset#exposed_credential_check}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "exposedCredentialCheck", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesExposedCredentialCheck\"}", isOptional: true)]
@@ -202,7 +202,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>An object configuring the rule's logging behavior.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#logging Ruleset#logging}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#logging Ruleset#logging}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "logging", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesLogging\"}", isOptional: true)]
@@ -213,7 +213,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>An object configuring the rule's rate limit behavior.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#ratelimit Ruleset#ratelimit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#ratelimit Ruleset#ratelimit}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ratelimit", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesRatelimit\"}", isOptional: true)]
@@ -224,7 +224,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The reference of the rule (the rule's ID by default).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#ref Ruleset#ref}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#ref Ruleset#ref}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ref", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

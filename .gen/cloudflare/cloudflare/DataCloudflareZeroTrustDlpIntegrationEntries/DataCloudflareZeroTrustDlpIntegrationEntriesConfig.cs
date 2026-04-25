@@ -4,14 +4,13 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareZeroTrustDlpIntegrationEntries
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustDlpIntegrationEntries.DataCloudflareZeroTrustDlpIntegrationEntriesConfig")]
     public class DataCloudflareZeroTrustDlpIntegrationEntriesConfig : cloudflare.DataCloudflareZeroTrustDlpIntegrationEntries.IDataCloudflareZeroTrustDlpIntegrationEntriesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_dlp_integration_entries#account_id DataCloudflareZeroTrustDlpIntegrationEntries#account_id}.</summary>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_dlp_integration_entries#account_id DataCloudflareZeroTrustDlpIntegrationEntries#account_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;
@@ -19,7 +18,7 @@ namespace cloudflare.DataCloudflareZeroTrustDlpIntegrationEntries
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_dlp_integration_entries#max_items DataCloudflareZeroTrustDlpIntegrationEntries#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_dlp_integration_entries#max_items DataCloudflareZeroTrustDlpIntegrationEntries#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

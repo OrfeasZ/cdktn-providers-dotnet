@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareSnippet
     {
         /// <summary>Identify the snippet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/snippet#snippet_name DataCloudflareSnippet#snippet_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/snippet#snippet_name DataCloudflareSnippet#snippet_name}
         /// </remarks>
         [JsiiProperty(name: "snippetName", typeJson: "{\"primitive\":\"string\"}")]
         public string SnippetName
@@ -22,10 +22,11 @@ namespace cloudflare.DataCloudflareSnippet
 
         /// <summary>Use this field to specify the unique ID of the zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/snippet#zone_id DataCloudflareSnippet#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/snippet#zone_id DataCloudflareSnippet#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
+        [JsiiOptional]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
         {
             get;
             set;

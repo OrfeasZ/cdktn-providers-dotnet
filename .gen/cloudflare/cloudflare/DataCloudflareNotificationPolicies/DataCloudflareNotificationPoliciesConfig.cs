@@ -4,17 +4,16 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareNotificationPolicies
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareNotificationPolicies.DataCloudflareNotificationPoliciesConfig")]
     public class DataCloudflareNotificationPoliciesConfig : cloudflare.DataCloudflareNotificationPolicies.IDataCloudflareNotificationPoliciesConfig
     {
         /// <summary>The account id.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/notification_policies#account_id DataCloudflareNotificationPolicies#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/notification_policies#account_id DataCloudflareNotificationPolicies#account_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;
@@ -22,7 +21,7 @@ namespace cloudflare.DataCloudflareNotificationPolicies
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/notification_policies#max_items DataCloudflareNotificationPolicies#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/notification_policies#max_items DataCloudflareNotificationPolicies#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

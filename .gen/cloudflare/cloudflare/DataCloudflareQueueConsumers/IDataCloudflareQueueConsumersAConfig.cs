@@ -9,17 +9,7 @@ namespace cloudflare.DataCloudflareQueueConsumers
     {
         /// <summary>A Resource identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/queue_consumers#account_id DataCloudflareQueueConsumersA#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
-        {
-            get;
-        }
-
-        /// <summary>A Resource identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/queue_consumers#queue_id DataCloudflareQueueConsumersA#queue_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/queue_consumers#queue_id DataCloudflareQueueConsumersA#queue_id}
         /// </remarks>
         [JsiiProperty(name: "queueId", typeJson: "{\"primitive\":\"string\"}")]
         string QueueId
@@ -27,9 +17,23 @@ namespace cloudflare.DataCloudflareQueueConsumers
             get;
         }
 
+        /// <summary>A Resource identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/queue_consumers#account_id DataCloudflareQueueConsumersA#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/queue_consumers#max_items DataCloudflareQueueConsumersA#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/queue_consumers#max_items DataCloudflareQueueConsumersA#max_items}
         /// </remarks>
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,17 +54,7 @@ namespace cloudflare.DataCloudflareQueueConsumers
 
             /// <summary>A Resource identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/queue_consumers#account_id DataCloudflareQueueConsumersA#account_id}
-            /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
-            /// <summary>A Resource identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/queue_consumers#queue_id DataCloudflareQueueConsumersA#queue_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/queue_consumers#queue_id DataCloudflareQueueConsumersA#queue_id}
             /// </remarks>
             [JsiiProperty(name: "queueId", typeJson: "{\"primitive\":\"string\"}")]
             public string QueueId
@@ -68,9 +62,20 @@ namespace cloudflare.DataCloudflareQueueConsumers
                 get => GetInstanceProperty<string>()!;
             }
 
+            /// <summary>A Resource identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/queue_consumers#account_id DataCloudflareQueueConsumersA#account_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
             /// <summary>Max items to fetch, default: 1000.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/queue_consumers#max_items DataCloudflareQueueConsumersA#max_items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/queue_consumers#max_items DataCloudflareQueueConsumersA#max_items}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace cloudflare.PagesProject
     {
         /// <summary>Name of the R2 bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/pages_project#name PagesProject#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pages_project#name PagesProject#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -19,7 +19,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Jurisdiction of the R2 bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/pages_project#jurisdiction PagesProject#jurisdiction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pages_project#jurisdiction PagesProject#jurisdiction}
         /// </remarks>
         [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>Name of the R2 bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/pages_project#name PagesProject#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pages_project#name PagesProject#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -50,7 +50,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>Jurisdiction of the R2 bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/pages_project#jurisdiction PagesProject#jurisdiction}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pages_project#jurisdiction PagesProject#jurisdiction}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

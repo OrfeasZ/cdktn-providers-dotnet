@@ -9,7 +9,7 @@ namespace cloudflare.MagicTransitSiteAcl
     {
         /// <summary>The identifier for the LAN you want to create an ACL policy with.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#lan_id MagicTransitSiteAcl#lan_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#lan_id MagicTransitSiteAcl#lan_id}
         /// </remarks>
         [JsiiProperty(name: "lanId", typeJson: "{\"primitive\":\"string\"}")]
         string LanId
@@ -19,7 +19,7 @@ namespace cloudflare.MagicTransitSiteAcl
 
         /// <summary>The name of the LAN based on the provided lan_id.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#lan_name MagicTransitSiteAcl#lan_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#lan_name MagicTransitSiteAcl#lan_name}
         /// </remarks>
         [JsiiProperty(name: "lanName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace cloudflare.MagicTransitSiteAcl
         /// <remarks>
         /// If no ports or port rangess are provided, communication on any port on this LAN is allowed.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#port_ranges MagicTransitSiteAcl#port_ranges}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#port_ranges MagicTransitSiteAcl#port_ranges}
         /// </remarks>
         [JsiiProperty(name: "portRanges", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace cloudflare.MagicTransitSiteAcl
         /// <remarks>
         /// If no ports or port ranges are provided, communication on any port on this LAN is allowed.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#ports MagicTransitSiteAcl#ports}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#ports MagicTransitSiteAcl#ports}
         /// </remarks>
         [JsiiProperty(name: "ports", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -67,7 +67,7 @@ namespace cloudflare.MagicTransitSiteAcl
         /// <remarks>
         /// If no subnets are provided, communication on any subnets on this LAN are allowed.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#subnets MagicTransitSiteAcl#subnets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#subnets MagicTransitSiteAcl#subnets}
         /// </remarks>
         [JsiiProperty(name: "subnets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -88,7 +88,7 @@ namespace cloudflare.MagicTransitSiteAcl
 
             /// <summary>The identifier for the LAN you want to create an ACL policy with.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#lan_id MagicTransitSiteAcl#lan_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#lan_id MagicTransitSiteAcl#lan_id}
             /// </remarks>
             [JsiiProperty(name: "lanId", typeJson: "{\"primitive\":\"string\"}")]
             public string LanId
@@ -98,7 +98,7 @@ namespace cloudflare.MagicTransitSiteAcl
 
             /// <summary>The name of the LAN based on the provided lan_id.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#lan_name MagicTransitSiteAcl#lan_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#lan_name MagicTransitSiteAcl#lan_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lanName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -111,7 +111,7 @@ namespace cloudflare.MagicTransitSiteAcl
             /// <remarks>
             /// If no ports or port rangess are provided, communication on any port on this LAN is allowed.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#port_ranges MagicTransitSiteAcl#port_ranges}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#port_ranges MagicTransitSiteAcl#port_ranges}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "portRanges", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -124,7 +124,7 @@ namespace cloudflare.MagicTransitSiteAcl
             /// <remarks>
             /// If no ports or port ranges are provided, communication on any port on this LAN is allowed.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#ports MagicTransitSiteAcl#ports}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#ports MagicTransitSiteAcl#ports}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ports", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -137,7 +137,7 @@ namespace cloudflare.MagicTransitSiteAcl
             /// <remarks>
             /// If no subnets are provided, communication on any subnets on this LAN are allowed.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#subnets MagicTransitSiteAcl#subnets}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#subnets MagicTransitSiteAcl#subnets}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "subnets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

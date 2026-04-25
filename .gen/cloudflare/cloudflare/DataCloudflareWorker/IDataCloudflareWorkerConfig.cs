@@ -9,22 +9,41 @@ namespace cloudflare.DataCloudflareWorker
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/worker#account_id DataCloudflareWorker#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/worker#account_id DataCloudflareWorker#account_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
         {
-            get;
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/worker#filter DataCloudflareWorker#filter}.</summary>
+        [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorker.DataCloudflareWorkerFilter\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        cloudflare.DataCloudflareWorker.IDataCloudflareWorkerFilter? Filter
+        {
+            get
+            {
+                return null;
+            }
         }
 
         /// <summary>Identifier for the Worker, which can be ID or name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/worker#worker_id DataCloudflareWorker#worker_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/worker#worker_id DataCloudflareWorker#worker_id}
         /// </remarks>
-        [JsiiProperty(name: "workerId", typeJson: "{\"primitive\":\"string\"}")]
-        string WorkerId
+        [JsiiProperty(name: "workerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? WorkerId
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IDataCloudflareWorkerConfig), fullyQualifiedName: "cloudflare.dataCloudflareWorker.DataCloudflareWorkerConfig")]
@@ -36,22 +55,32 @@ namespace cloudflare.DataCloudflareWorker
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/worker#account_id DataCloudflareWorker#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/worker#account_id DataCloudflareWorker#account_id}
             /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/worker#filter DataCloudflareWorker#filter}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorker.DataCloudflareWorkerFilter\"}", isOptional: true)]
+            public cloudflare.DataCloudflareWorker.IDataCloudflareWorkerFilter? Filter
+            {
+                get => GetInstanceProperty<cloudflare.DataCloudflareWorker.IDataCloudflareWorkerFilter?>();
             }
 
             /// <summary>Identifier for the Worker, which can be ID or name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/worker#worker_id DataCloudflareWorker#worker_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/worker#worker_id DataCloudflareWorker#worker_id}
             /// </remarks>
-            [JsiiProperty(name: "workerId", typeJson: "{\"primitive\":\"string\"}")]
-            public string WorkerId
+            [JsiiOptional]
+            [JsiiProperty(name: "workerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? WorkerId
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

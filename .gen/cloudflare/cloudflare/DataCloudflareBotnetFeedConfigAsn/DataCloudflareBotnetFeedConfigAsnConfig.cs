@@ -4,17 +4,16 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareBotnetFeedConfigAsn
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareBotnetFeedConfigAsn.DataCloudflareBotnetFeedConfigAsnConfig")]
     public class DataCloudflareBotnetFeedConfigAsnConfig : cloudflare.DataCloudflareBotnetFeedConfigAsn.IDataCloudflareBotnetFeedConfigAsnConfig
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/botnet_feed_config_asn#account_id DataCloudflareBotnetFeedConfigAsn#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/botnet_feed_config_asn#account_id DataCloudflareBotnetFeedConfigAsn#account_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

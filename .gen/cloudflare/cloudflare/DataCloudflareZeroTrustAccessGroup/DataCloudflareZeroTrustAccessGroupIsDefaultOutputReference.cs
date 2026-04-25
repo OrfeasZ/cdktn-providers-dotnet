@@ -179,6 +179,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessGroup
             get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessGroup.DataCloudflareZeroTrustAccessGroupIsDefaultServiceTokenOutputReference>()!;
         }
 
+        [JsiiProperty(name: "userRiskScore", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessGroup.DataCloudflareZeroTrustAccessGroupIsDefaultUserRiskScoreOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustAccessGroup.DataCloudflareZeroTrustAccessGroupIsDefaultUserRiskScoreOutputReference UserRiskScore
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessGroup.DataCloudflareZeroTrustAccessGroupIsDefaultUserRiskScoreOutputReference>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessGroup.DataCloudflareZeroTrustAccessGroupIsDefault\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareZeroTrustAccessGroup.IDataCloudflareZeroTrustAccessGroupIsDefault? InternalValue

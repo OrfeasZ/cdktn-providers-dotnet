@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareRateLimit
     {
         /// <summary>Defines the unique identifier of the rate limit.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/rate_limit#rate_limit_id DataCloudflareRateLimit#rate_limit_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/rate_limit#rate_limit_id DataCloudflareRateLimit#rate_limit_id}
         /// </remarks>
         [JsiiProperty(name: "rateLimitId", typeJson: "{\"primitive\":\"string\"}")]
         public string RateLimitId
@@ -22,10 +22,11 @@ namespace cloudflare.DataCloudflareRateLimit
 
         /// <summary>Defines an identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/rate_limit#zone_id DataCloudflareRateLimit#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/rate_limit#zone_id DataCloudflareRateLimit#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
+        [JsiiOptional]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
         {
             get;
             set;

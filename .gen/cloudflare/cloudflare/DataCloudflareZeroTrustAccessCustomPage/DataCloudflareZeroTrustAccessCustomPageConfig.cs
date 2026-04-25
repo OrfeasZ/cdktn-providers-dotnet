@@ -9,23 +9,24 @@ namespace cloudflare.DataCloudflareZeroTrustAccessCustomPage
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustAccessCustomPage.DataCloudflareZeroTrustAccessCustomPageConfig")]
     public class DataCloudflareZeroTrustAccessCustomPageConfig : cloudflare.DataCloudflareZeroTrustAccessCustomPage.IDataCloudflareZeroTrustAccessCustomPageConfig
     {
-        /// <summary>Identifier.</summary>
+        /// <summary>UUID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_access_custom_page#account_id DataCloudflareZeroTrustAccessCustomPage#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_access_custom_page#custom_page_id DataCloudflareZeroTrustAccessCustomPage#custom_page_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiProperty(name: "customPageId", typeJson: "{\"primitive\":\"string\"}")]
+        public string CustomPageId
         {
             get;
             set;
         }
 
-        /// <summary>UUID.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_access_custom_page#custom_page_id DataCloudflareZeroTrustAccessCustomPage#custom_page_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_access_custom_page#account_id DataCloudflareZeroTrustAccessCustomPage#account_id}
         /// </remarks>
-        [JsiiProperty(name: "customPageId", typeJson: "{\"primitive\":\"string\"}")]
-        public string CustomPageId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

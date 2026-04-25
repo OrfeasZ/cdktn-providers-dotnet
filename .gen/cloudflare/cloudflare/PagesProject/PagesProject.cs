@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.PagesProject
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/pages_project cloudflare_pages_project}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pages_project cloudflare_pages_project}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.PagesProject.PagesProject), fullyQualifiedName: "cloudflare.pagesProject.PagesProject", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectConfig\"}}]")]
     public class PagesProject : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/pages_project cloudflare_pages_project} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pages_project cloudflare_pages_project} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public PagesProject(Constructs.Construct scope, string id, cloudflare.PagesProject.IPagesProjectConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace cloudflare.PagesProject
         /// <param name="importToId">The construct id used in the generated config for the PagesProject to import.</param>
         /// <param name="importFromId">The id of the existing PagesProject that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the PagesProject to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the PagesProject to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/pages_project#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing PagesProject that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the PagesProject to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the PagesProject to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pages_project#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing PagesProject that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the PagesProject to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.PagesProject.PagesProject), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -62,6 +62,12 @@ namespace cloudflare.PagesProject
         public virtual void PutSource(cloudflare.PagesProject.IPagesProjectSource @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.PagesProject.IPagesProjectSource)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetAccountId")]
+        public virtual void ResetAccountId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetBuildConfig")]

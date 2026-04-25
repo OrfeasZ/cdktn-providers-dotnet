@@ -4,19 +4,19 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareZeroTrustDexTests
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_dex_tests cloudflare_zero_trust_dex_tests}.</summary>
-    [JsiiClass(nativeType: typeof(cloudflare.DataCloudflareZeroTrustDexTests.DataCloudflareZeroTrustDexTests), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustDexTests.DataCloudflareZeroTrustDexTests", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDexTests.DataCloudflareZeroTrustDexTestsConfig\"}}]")]
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_dex_tests cloudflare_zero_trust_dex_tests}.</summary>
+    [JsiiClass(nativeType: typeof(cloudflare.DataCloudflareZeroTrustDexTests.DataCloudflareZeroTrustDexTests), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustDexTests.DataCloudflareZeroTrustDexTests", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDexTests.DataCloudflareZeroTrustDexTestsConfig\"}}]")]
     public class DataCloudflareZeroTrustDexTests : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_dex_tests cloudflare_zero_trust_dex_tests} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_dex_tests cloudflare_zero_trust_dex_tests} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
-        public DataCloudflareZeroTrustDexTests(Constructs.Construct scope, string id, cloudflare.DataCloudflareZeroTrustDexTests.IDataCloudflareZeroTrustDexTestsConfig config): base(_MakeDeputyProps(scope, id, config))
+        public DataCloudflareZeroTrustDexTests(Constructs.Construct scope, string id, cloudflare.DataCloudflareZeroTrustDexTests.IDataCloudflareZeroTrustDexTestsConfig? config = null): base(_MakeDeputyProps(scope, id, config))
         {
         }
 
         [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, cloudflare.DataCloudflareZeroTrustDexTests.IDataCloudflareZeroTrustDexTestsConfig config)
+        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, cloudflare.DataCloudflareZeroTrustDexTests.IDataCloudflareZeroTrustDexTestsConfig? config = null)
         {
             return new DeputyProps(new object?[]{scope, id, config});
         }
@@ -40,10 +40,16 @@ namespace cloudflare.DataCloudflareZeroTrustDexTests
         /// <param name="importToId">The construct id used in the generated config for the DataCloudflareZeroTrustDexTests to import.</param>
         /// <param name="importFromId">The id of the existing DataCloudflareZeroTrustDexTests that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataCloudflareZeroTrustDexTests to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataCloudflareZeroTrustDexTests to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_dex_tests#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataCloudflareZeroTrustDexTests that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataCloudflareZeroTrustDexTests to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataCloudflareZeroTrustDexTests to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_dex_tests#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataCloudflareZeroTrustDexTests that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataCloudflareZeroTrustDexTests to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.DataCloudflareZeroTrustDexTests.DataCloudflareZeroTrustDexTests), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "resetAccountId")]
+        public virtual void ResetAccountId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetKind")]

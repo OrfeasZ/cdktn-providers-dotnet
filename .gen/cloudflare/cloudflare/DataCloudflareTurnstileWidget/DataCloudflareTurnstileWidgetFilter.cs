@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareTurnstileWidget
     {
         /// <summary>Direction to order widgets. Available values: "asc", "desc".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/turnstile_widget#direction DataCloudflareTurnstileWidget#direction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/turnstile_widget#direction DataCloudflareTurnstileWidget#direction}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace cloudflare.DataCloudflareTurnstileWidget
         /// Returns 400 Bad Request if the field is unsupported or format is invalid.
         /// An empty filter value returns all results.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/turnstile_widget#filter DataCloudflareTurnstileWidget#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/turnstile_widget#filter DataCloudflareTurnstileWidget#filter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace cloudflare.DataCloudflareTurnstileWidget
 
         /// <summary>Field to order widgets by. Available values: "id", "sitekey", "name", "created_on", "modified_on".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/turnstile_widget#order DataCloudflareTurnstileWidget#order}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/turnstile_widget#order DataCloudflareTurnstileWidget#order}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

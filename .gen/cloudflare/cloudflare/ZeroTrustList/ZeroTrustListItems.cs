@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustList
     {
         /// <summary>Provide the list item description (optional).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_list#description ZeroTrustList#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_list#description ZeroTrustList#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace cloudflare.ZeroTrustList
 
         /// <summary>Specify the item value.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_list#value ZeroTrustList#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_list#value ZeroTrustList#value}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

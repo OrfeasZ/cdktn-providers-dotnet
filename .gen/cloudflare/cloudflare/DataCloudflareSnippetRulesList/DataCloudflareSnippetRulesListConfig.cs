@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareSnippetRulesList
     {
         /// <summary>The unique ID of the zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/snippet_rules_list#zone_id DataCloudflareSnippetRulesList#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/snippet_rules_list#zone_id DataCloudflareSnippetRulesList#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId
@@ -22,7 +22,7 @@ namespace cloudflare.DataCloudflareSnippetRulesList
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/snippet_rules_list#max_items DataCloudflareSnippetRulesList#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/snippet_rules_list#max_items DataCloudflareSnippetRulesList#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

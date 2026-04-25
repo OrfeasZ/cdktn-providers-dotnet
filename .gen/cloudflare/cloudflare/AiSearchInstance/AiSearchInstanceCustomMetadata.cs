@@ -9,9 +9,9 @@ namespace cloudflare.AiSearchInstance
     [JsiiByValue(fqn: "cloudflare.aiSearchInstance.AiSearchInstanceCustomMetadata")]
     public class AiSearchInstanceCustomMetadata : cloudflare.AiSearchInstance.IAiSearchInstanceCustomMetadata
     {
-        /// <summary>Available values: "text", "number", "boolean".</summary>
+        /// <summary>Available values: "text", "number", "boolean", "datetime".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ai_search_instance#data_type AiSearchInstance#data_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_instance#data_type AiSearchInstance#data_type}
         /// </remarks>
         [JsiiProperty(name: "dataType", typeJson: "{\"primitive\":\"string\"}")]
         public string DataType
@@ -20,7 +20,7 @@ namespace cloudflare.AiSearchInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ai_search_instance#field_name AiSearchInstance#field_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_instance#field_name AiSearchInstance#field_name}.</summary>
         [JsiiProperty(name: "fieldName", typeJson: "{\"primitive\":\"string\"}")]
         public string FieldName
         {

@@ -9,20 +9,9 @@ namespace cloudflare.DataCloudflareWorkerVersions
     [JsiiByValue(fqn: "cloudflare.dataCloudflareWorkerVersions.DataCloudflareWorkerVersionsConfig")]
     public class DataCloudflareWorkerVersionsConfig : cloudflare.DataCloudflareWorkerVersions.IDataCloudflareWorkerVersionsConfig
     {
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/worker_versions#account_id DataCloudflareWorkerVersions#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
-        {
-            get;
-            set;
-        }
-
         /// <summary>Identifier for the Worker, which can be ID or name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/worker_versions#worker_id DataCloudflareWorkerVersions#worker_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/worker_versions#worker_id DataCloudflareWorkerVersions#worker_id}
         /// </remarks>
         [JsiiProperty(name: "workerId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkerId
@@ -31,9 +20,21 @@ namespace cloudflare.DataCloudflareWorkerVersions
             set;
         }
 
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/worker_versions#account_id DataCloudflareWorkerVersions#account_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
+        {
+            get;
+            set;
+        }
+
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/worker_versions#max_items DataCloudflareWorkerVersions#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/worker_versions#max_items DataCloudflareWorkerVersions#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

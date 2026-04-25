@@ -9,7 +9,7 @@ namespace cloudflare.Healthcheck
     {
         /// <summary>The TCP connection method to use for the health check. Available values: "connection_established".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/healthcheck#method Healthcheck#method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/healthcheck#method Healthcheck#method}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "method", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace cloudflare.Healthcheck
 
         /// <summary>Port number to connect to for the health check. Defaults to 80.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/healthcheck#port Healthcheck#port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/healthcheck#port Healthcheck#port}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

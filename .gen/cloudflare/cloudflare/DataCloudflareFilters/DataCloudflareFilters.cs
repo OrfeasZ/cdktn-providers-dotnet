@@ -4,19 +4,19 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareFilters
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/filters cloudflare_filters}.</summary>
-    [JsiiClass(nativeType: typeof(cloudflare.DataCloudflareFilters.DataCloudflareFilters), fullyQualifiedName: "cloudflare.dataCloudflareFilters.DataCloudflareFilters", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.dataCloudflareFilters.DataCloudflareFiltersConfig\"}}]")]
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/filters cloudflare_filters}.</summary>
+    [JsiiClass(nativeType: typeof(cloudflare.DataCloudflareFilters.DataCloudflareFilters), fullyQualifiedName: "cloudflare.dataCloudflareFilters.DataCloudflareFilters", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"cloudflare.dataCloudflareFilters.DataCloudflareFiltersConfig\"}}]")]
     public class DataCloudflareFilters : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/filters cloudflare_filters} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/filters cloudflare_filters} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
-        public DataCloudflareFilters(Constructs.Construct scope, string id, cloudflare.DataCloudflareFilters.IDataCloudflareFiltersConfig config): base(_MakeDeputyProps(scope, id, config))
+        public DataCloudflareFilters(Constructs.Construct scope, string id, cloudflare.DataCloudflareFilters.IDataCloudflareFiltersConfig? config = null): base(_MakeDeputyProps(scope, id, config))
         {
         }
 
         [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, cloudflare.DataCloudflareFilters.IDataCloudflareFiltersConfig config)
+        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, cloudflare.DataCloudflareFilters.IDataCloudflareFiltersConfig? config = null)
         {
             return new DeputyProps(new object?[]{scope, id, config});
         }
@@ -40,7 +40,7 @@ namespace cloudflare.DataCloudflareFilters
         /// <param name="importToId">The construct id used in the generated config for the DataCloudflareFilters to import.</param>
         /// <param name="importFromId">The id of the existing DataCloudflareFilters that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataCloudflareFilters to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataCloudflareFilters to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/filters#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataCloudflareFilters that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataCloudflareFilters to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataCloudflareFilters to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/filters#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataCloudflareFilters that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataCloudflareFilters to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.DataCloudflareFilters.DataCloudflareFilters), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -78,6 +78,12 @@ namespace cloudflare.DataCloudflareFilters
 
         [JsiiMethod(name: "resetRef")]
         public virtual void ResetRef()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetZoneId")]
+        public virtual void ResetZoneId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }

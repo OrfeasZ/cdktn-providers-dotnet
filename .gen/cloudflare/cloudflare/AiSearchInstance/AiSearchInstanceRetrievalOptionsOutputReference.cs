@@ -33,10 +33,52 @@ namespace cloudflare.AiSearchInstance
         {
         }
 
+        [JsiiMethod(name: "putBoostBy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceRetrievalOptionsBoostBy\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutBoostBy(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case cloudflare.AiSearchInstance.IAiSearchInstanceRetrievalOptionsBoostBy[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.AiSearchInstance.IAiSearchInstanceRetrievalOptionsBoostBy).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.AiSearchInstance.IAiSearchInstanceRetrievalOptionsBoostBy).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetBoostBy")]
+        public virtual void ResetBoostBy()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetKeywordMatchMode")]
         public virtual void ResetKeywordMatchMode()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "boostBy", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceRetrievalOptionsBoostByList\"}")]
+        public virtual cloudflare.AiSearchInstance.AiSearchInstanceRetrievalOptionsBoostByList BoostBy
+        {
+            get => GetInstanceProperty<cloudflare.AiSearchInstance.AiSearchInstanceRetrievalOptionsBoostByList>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "boostByInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceRetrievalOptionsBoostBy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? BoostByInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

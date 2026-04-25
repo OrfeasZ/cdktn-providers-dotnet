@@ -7,7 +7,7 @@ namespace cloudflare.DataCloudflareWaitingRoomRules
     [JsiiInterface(nativeType: typeof(IDataCloudflareWaitingRoomRulesConfig), fullyQualifiedName: "cloudflare.dataCloudflareWaitingRoomRules.DataCloudflareWaitingRoomRulesConfig")]
     public interface IDataCloudflareWaitingRoomRulesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/waiting_room_rules#waiting_room_id DataCloudflareWaitingRoomRules#waiting_room_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/waiting_room_rules#waiting_room_id DataCloudflareWaitingRoomRules#waiting_room_id}.</summary>
         [JsiiProperty(name: "waitingRoomId", typeJson: "{\"primitive\":\"string\"}")]
         string WaitingRoomId
         {
@@ -16,12 +16,16 @@ namespace cloudflare.DataCloudflareWaitingRoomRules
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/waiting_room_rules#zone_id DataCloudflareWaitingRoomRules#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/waiting_room_rules#zone_id DataCloudflareWaitingRoomRules#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? ZoneId
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IDataCloudflareWaitingRoomRulesConfig), fullyQualifiedName: "cloudflare.dataCloudflareWaitingRoomRules.DataCloudflareWaitingRoomRulesConfig")]
@@ -31,7 +35,7 @@ namespace cloudflare.DataCloudflareWaitingRoomRules
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/waiting_room_rules#waiting_room_id DataCloudflareWaitingRoomRules#waiting_room_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/waiting_room_rules#waiting_room_id DataCloudflareWaitingRoomRules#waiting_room_id}.</summary>
             [JsiiProperty(name: "waitingRoomId", typeJson: "{\"primitive\":\"string\"}")]
             public string WaitingRoomId
             {
@@ -40,12 +44,13 @@ namespace cloudflare.DataCloudflareWaitingRoomRules
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/waiting_room_rules#zone_id DataCloudflareWaitingRoomRules#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/waiting_room_rules#zone_id DataCloudflareWaitingRoomRules#zone_id}
             /// </remarks>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
+            [JsiiOptional]
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

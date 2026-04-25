@@ -5,7 +5,7 @@ namespace cloudflare.ArgoSmartRouting
     /// <remarks>
     /// <h1><c>cloudflare_argo_smart_routing</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/argo_smart_routing"><c>cloudflare_argo_smart_routing</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/argo_smart_routing"><c>cloudflare_argo_smart_routing</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

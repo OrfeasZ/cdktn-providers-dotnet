@@ -9,7 +9,7 @@ namespace cloudflare.LoadBalancerPool
     {
         /// <summary>If set true, disable notifications for this type of resource (pool or origin).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer_pool#disable LoadBalancerPool#disable}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer_pool#disable LoadBalancerPool#disable}
         /// </remarks>
         [JsiiProperty(name: "disable", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace cloudflare.LoadBalancerPool
 
         /// <summary>If present, send notifications only for this health status (e.g. false for only DOWN events). Use null to reset (all events).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer_pool#healthy LoadBalancerPool#healthy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer_pool#healthy LoadBalancerPool#healthy}
         /// </remarks>
         [JsiiProperty(name: "healthy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace cloudflare.LoadBalancerPool
 
             /// <summary>If set true, disable notifications for this type of resource (pool or origin).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer_pool#disable LoadBalancerPool#disable}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer_pool#disable LoadBalancerPool#disable}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "disable", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace cloudflare.LoadBalancerPool
 
             /// <summary>If present, send notifications only for this health status (e.g. false for only DOWN events). Use null to reset (all events).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/load_balancer_pool#healthy LoadBalancerPool#healthy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/load_balancer_pool#healthy LoadBalancerPool#healthy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "healthy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace cloudflare.PagesProject
     [JsiiByValue(fqn: "cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionAiBindings")]
     public class PagesProjectDeploymentConfigsProductionAiBindings : cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionAiBindings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/pages_project#project_id PagesProject#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pages_project#project_id PagesProject#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {

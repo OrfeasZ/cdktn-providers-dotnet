@@ -9,18 +9,7 @@ namespace cloudflare.Queue
     [JsiiByValue(fqn: "cloudflare.queue.QueueConfig")]
     public class QueueConfig : cloudflare.Queue.IQueueConfig
     {
-        /// <summary>A Resource identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/queue#account_id Queue#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/queue#queue_name Queue#queue_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/queue#queue_name Queue#queue_name}.</summary>
         [JsiiProperty(name: "queueName", typeJson: "{\"primitive\":\"string\"}")]
         public string QueueName
         {
@@ -28,7 +17,19 @@ namespace cloudflare.Queue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/queue#settings Queue#settings}.</summary>
+        /// <summary>A Resource identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/queue#account_id Queue#account_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/queue#settings Queue#settings}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "settings", typeJson: "{\"fqn\":\"cloudflare.queue.QueueSettings\"}", isOptional: true)]
         public cloudflare.Queue.IQueueSettings? Settings

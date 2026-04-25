@@ -39,8 +39,8 @@ namespace cloudflare.DataCloudflareZeroTrustAccessPolicies
             get => GetInstanceProperty<string[]>()!;
         }
 
-        [JsiiProperty(name: "mfaBypass", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable MfaBypass
+        [JsiiProperty(name: "mfaDisabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable MfaDisabled
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }

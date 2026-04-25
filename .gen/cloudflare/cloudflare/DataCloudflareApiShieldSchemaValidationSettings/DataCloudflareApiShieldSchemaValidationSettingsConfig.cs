@@ -4,17 +4,16 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareApiShieldSchemaValidationSettings
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareApiShieldSchemaValidationSettings.DataCloudflareApiShieldSchemaValidationSettingsConfig")]
     public class DataCloudflareApiShieldSchemaValidationSettingsConfig : cloudflare.DataCloudflareApiShieldSchemaValidationSettings.IDataCloudflareApiShieldSchemaValidationSettingsConfig
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/api_shield_schema_validation_settings#zone_id DataCloudflareApiShieldSchemaValidationSettings#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_schema_validation_settings#zone_id DataCloudflareApiShieldSchemaValidationSettings#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
+        [JsiiOptional]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
         {
             get;
             set;

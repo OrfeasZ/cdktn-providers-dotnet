@@ -7,24 +7,28 @@ namespace cloudflare.DataCloudflareSsoConnector
     [JsiiInterface(nativeType: typeof(IDataCloudflareSsoConnectorConfig), fullyQualifiedName: "cloudflare.dataCloudflareSsoConnector.DataCloudflareSsoConnectorConfig")]
     public interface IDataCloudflareSsoConnectorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Account identifier tag.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/sso_connector#account_id DataCloudflareSsoConnector#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
-        {
-            get;
-        }
-
         /// <summary>SSO Connector identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/sso_connector#sso_connector_id DataCloudflareSsoConnector#sso_connector_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/sso_connector#sso_connector_id DataCloudflareSsoConnector#sso_connector_id}
         /// </remarks>
         [JsiiProperty(name: "ssoConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         string SsoConnectorId
         {
             get;
+        }
+
+        /// <summary>Account identifier tag.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/sso_connector#account_id DataCloudflareSsoConnector#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
+        {
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IDataCloudflareSsoConnectorConfig), fullyQualifiedName: "cloudflare.dataCloudflareSsoConnector.DataCloudflareSsoConnectorConfig")]
@@ -34,24 +38,25 @@ namespace cloudflare.DataCloudflareSsoConnector
             {
             }
 
-            /// <summary>Account identifier tag.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/sso_connector#account_id DataCloudflareSsoConnector#account_id}
-            /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>SSO Connector identifier tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/sso_connector#sso_connector_id DataCloudflareSsoConnector#sso_connector_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/sso_connector#sso_connector_id DataCloudflareSsoConnector#sso_connector_id}
             /// </remarks>
             [JsiiProperty(name: "ssoConnectorId", typeJson: "{\"primitive\":\"string\"}")]
             public string SsoConnectorId
             {
                 get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Account identifier tag.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/sso_connector#account_id DataCloudflareSsoConnector#account_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
+            {
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

@@ -11,7 +11,7 @@ namespace cloudflare.MagicWanGreTunnel
         /// <remarks>
         /// Setting the value to the empty string indicates that the calculated default value will be used.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_wan_gre_tunnel#saved MagicWanGreTunnel#saved}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_wan_gre_tunnel#saved MagicWanGreTunnel#saved}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "saved", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

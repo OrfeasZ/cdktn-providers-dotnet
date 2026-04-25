@@ -9,12 +9,30 @@ namespace cloudflare.WorkerVersion
     {
         /// <summary>CPU time limit in milliseconds.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#cpu_ms WorkerVersion#cpu_ms}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#cpu_ms WorkerVersion#cpu_ms}
         /// </remarks>
-        [JsiiProperty(name: "cpuMs", typeJson: "{\"primitive\":\"number\"}")]
-        double CpuMs
+        [JsiiProperty(name: "cpuMs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        double? CpuMs
         {
-            get;
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Subrequest limit per request.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#subrequests WorkerVersion#subrequests}
+        /// </remarks>
+        [JsiiProperty(name: "subrequests", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        double? Subrequests
+        {
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IWorkerVersionLimits), fullyQualifiedName: "cloudflare.workerVersion.WorkerVersionLimits")]
@@ -26,12 +44,24 @@ namespace cloudflare.WorkerVersion
 
             /// <summary>CPU time limit in milliseconds.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker_version#cpu_ms WorkerVersion#cpu_ms}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#cpu_ms WorkerVersion#cpu_ms}
             /// </remarks>
-            [JsiiProperty(name: "cpuMs", typeJson: "{\"primitive\":\"number\"}")]
-            public double CpuMs
+            [JsiiOptional]
+            [JsiiProperty(name: "cpuMs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+            public double? CpuMs
             {
-                get => GetInstanceProperty<double>()!;
+                get => GetInstanceProperty<double?>();
+            }
+
+            /// <summary>Subrequest limit per request.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#subrequests WorkerVersion#subrequests}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "subrequests", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+            public double? Subrequests
+            {
+                get => GetInstanceProperty<double?>();
             }
         }
     }

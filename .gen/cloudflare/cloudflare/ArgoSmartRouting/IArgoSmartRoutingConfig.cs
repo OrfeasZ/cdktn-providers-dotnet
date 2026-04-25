@@ -9,7 +9,7 @@ namespace cloudflare.ArgoSmartRouting
     {
         /// <summary>Specifies the enablement value of Argo Smart Routing. Available values: "on", "off".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/argo_smart_routing#value ArgoSmartRouting#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/argo_smart_routing#value ArgoSmartRouting#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
@@ -19,7 +19,7 @@ namespace cloudflare.ArgoSmartRouting
 
         /// <summary>Specifies the zone associated with the API call.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/argo_smart_routing#zone_id ArgoSmartRouting#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/argo_smart_routing#zone_id ArgoSmartRouting#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
@@ -36,7 +36,7 @@ namespace cloudflare.ArgoSmartRouting
 
             /// <summary>Specifies the enablement value of Argo Smart Routing. Available values: "on", "off".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/argo_smart_routing#value ArgoSmartRouting#value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/argo_smart_routing#value ArgoSmartRouting#value}
             /// </remarks>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
@@ -46,7 +46,7 @@ namespace cloudflare.ArgoSmartRouting
 
             /// <summary>Specifies the zone associated with the API call.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/argo_smart_routing#zone_id ArgoSmartRouting#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/argo_smart_routing#zone_id ArgoSmartRouting#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId

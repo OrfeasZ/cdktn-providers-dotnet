@@ -45,6 +45,12 @@ namespace cloudflare.ZeroTrustDevicePostureRule
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetAuthState")]
+        public virtual void ResetAuthState()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetCertificateId")]
         public virtual void ResetCertificateId()
         {
@@ -302,6 +308,13 @@ namespace cloudflare.ZeroTrustDevicePostureRule
         public virtual double? ActiveThreatsInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "authStateInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? AuthStateInput
+        {
+            get => GetInstanceProperty<string[]?>();
         }
 
         [JsiiOptional]
@@ -595,6 +608,13 @@ namespace cloudflare.ZeroTrustDevicePostureRule
         public virtual double ActiveThreats
         {
             get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "authState", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] AuthState
+        {
+            get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);
         }
 

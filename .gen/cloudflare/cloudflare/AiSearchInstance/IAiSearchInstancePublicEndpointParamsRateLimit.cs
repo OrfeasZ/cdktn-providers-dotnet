@@ -7,7 +7,7 @@ namespace cloudflare.AiSearchInstance
     [JsiiInterface(nativeType: typeof(IAiSearchInstancePublicEndpointParamsRateLimit), fullyQualifiedName: "cloudflare.aiSearchInstance.AiSearchInstancePublicEndpointParamsRateLimit")]
     public interface IAiSearchInstancePublicEndpointParamsRateLimit
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ai_search_instance#period_ms AiSearchInstance#period_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_instance#period_ms AiSearchInstance#period_ms}.</summary>
         [JsiiProperty(name: "periodMs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? PeriodMs
@@ -18,7 +18,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ai_search_instance#requests AiSearchInstance#requests}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_instance#requests AiSearchInstance#requests}.</summary>
         [JsiiProperty(name: "requests", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Requests
@@ -31,7 +31,7 @@ namespace cloudflare.AiSearchInstance
 
         /// <summary>Available values: "fixed", "sliding".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ai_search_instance#technique AiSearchInstance#technique}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_instance#technique AiSearchInstance#technique}
         /// </remarks>
         [JsiiProperty(name: "technique", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,7 +50,7 @@ namespace cloudflare.AiSearchInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ai_search_instance#period_ms AiSearchInstance#period_ms}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_instance#period_ms AiSearchInstance#period_ms}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "periodMs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? PeriodMs
@@ -58,7 +58,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ai_search_instance#requests AiSearchInstance#requests}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_instance#requests AiSearchInstance#requests}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "requests", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Requests
@@ -68,7 +68,7 @@ namespace cloudflare.AiSearchInstance
 
             /// <summary>Available values: "fixed", "sliding".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ai_search_instance#technique AiSearchInstance#technique}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_instance#technique AiSearchInstance#technique}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "technique", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

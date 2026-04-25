@@ -7,19 +7,9 @@ namespace cloudflare.DataCloudflareR2CustomDomain
     [JsiiInterface(nativeType: typeof(IDataCloudflareR2CustomDomainConfig), fullyQualifiedName: "cloudflare.dataCloudflareR2CustomDomain.DataCloudflareR2CustomDomainConfig")]
     public interface IDataCloudflareR2CustomDomainConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Account ID.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/r2_custom_domain#account_id DataCloudflareR2CustomDomain#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
-        {
-            get;
-        }
-
         /// <summary>Name of the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/r2_custom_domain#bucket_name DataCloudflareR2CustomDomain#bucket_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/r2_custom_domain#bucket_name DataCloudflareR2CustomDomain#bucket_name}
         /// </remarks>
         [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
         string BucketName
@@ -29,12 +19,26 @@ namespace cloudflare.DataCloudflareR2CustomDomain
 
         /// <summary>Name of the custom domain.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/r2_custom_domain#domain DataCloudflareR2CustomDomain#domain}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/r2_custom_domain#domain DataCloudflareR2CustomDomain#domain}
         /// </remarks>
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
         string Domain
         {
             get;
+        }
+
+        /// <summary>Account ID.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/r2_custom_domain#account_id DataCloudflareR2CustomDomain#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
+        {
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IDataCloudflareR2CustomDomainConfig), fullyQualifiedName: "cloudflare.dataCloudflareR2CustomDomain.DataCloudflareR2CustomDomainConfig")]
@@ -44,19 +48,9 @@ namespace cloudflare.DataCloudflareR2CustomDomain
             {
             }
 
-            /// <summary>Account ID.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/r2_custom_domain#account_id DataCloudflareR2CustomDomain#account_id}
-            /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>Name of the bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/r2_custom_domain#bucket_name DataCloudflareR2CustomDomain#bucket_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/r2_custom_domain#bucket_name DataCloudflareR2CustomDomain#bucket_name}
             /// </remarks>
             [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
             public string BucketName
@@ -66,12 +60,23 @@ namespace cloudflare.DataCloudflareR2CustomDomain
 
             /// <summary>Name of the custom domain.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/r2_custom_domain#domain DataCloudflareR2CustomDomain#domain}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/r2_custom_domain#domain DataCloudflareR2CustomDomain#domain}
             /// </remarks>
             [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
             public string Domain
             {
                 get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Account ID.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/r2_custom_domain#account_id DataCloudflareR2CustomDomain#account_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
+            {
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

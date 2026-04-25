@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustDnsLocation
     {
         /// <summary>Specify the IPv4 address or IPv4 CIDR. Limit IPv4 CIDRs to a maximum of /24.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dns_location#network ZeroTrustDnsLocation#network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dns_location#network ZeroTrustDnsLocation#network}
         /// </remarks>
         [JsiiProperty(name: "network", typeJson: "{\"primitive\":\"string\"}")]
         string Network
@@ -26,7 +26,7 @@ namespace cloudflare.ZeroTrustDnsLocation
 
             /// <summary>Specify the IPv4 address or IPv4 CIDR. Limit IPv4 CIDRs to a maximum of /24.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dns_location#network ZeroTrustDnsLocation#network}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dns_location#network ZeroTrustDnsLocation#network}
             /// </remarks>
             [JsiiProperty(name: "network", typeJson: "{\"primitive\":\"string\"}")]
             public string Network

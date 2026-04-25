@@ -4,17 +4,16 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareZeroTrustAccessCustomPages
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustAccessCustomPages.DataCloudflareZeroTrustAccessCustomPagesConfig")]
     public class DataCloudflareZeroTrustAccessCustomPagesConfig : cloudflare.DataCloudflareZeroTrustAccessCustomPages.IDataCloudflareZeroTrustAccessCustomPagesConfig
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_access_custom_pages#account_id DataCloudflareZeroTrustAccessCustomPages#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_access_custom_pages#account_id DataCloudflareZeroTrustAccessCustomPages#account_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;
@@ -22,7 +21,7 @@ namespace cloudflare.DataCloudflareZeroTrustAccessCustomPages
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_access_custom_pages#max_items DataCloudflareZeroTrustAccessCustomPages#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_access_custom_pages#max_items DataCloudflareZeroTrustAccessCustomPages#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

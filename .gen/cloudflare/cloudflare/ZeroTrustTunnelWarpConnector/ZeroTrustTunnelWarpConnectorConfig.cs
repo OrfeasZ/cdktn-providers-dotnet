@@ -9,20 +9,9 @@ namespace cloudflare.ZeroTrustTunnelWarpConnector
     [JsiiByValue(fqn: "cloudflare.zeroTrustTunnelWarpConnector.ZeroTrustTunnelWarpConnectorConfig")]
     public class ZeroTrustTunnelWarpConnectorConfig : cloudflare.ZeroTrustTunnelWarpConnector.IZeroTrustTunnelWarpConnectorConfig
     {
-        /// <summary>Cloudflare account ID.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_tunnel_warp_connector#account_id ZeroTrustTunnelWarpConnector#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
-        {
-            get;
-            set;
-        }
-
         /// <summary>A user-friendly name for a tunnel.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_tunnel_warp_connector#name ZeroTrustTunnelWarpConnector#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_tunnel_warp_connector#name ZeroTrustTunnelWarpConnector#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -31,11 +20,57 @@ namespace cloudflare.ZeroTrustTunnelWarpConnector
             set;
         }
 
+        /// <summary>Cloudflare account ID.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_tunnel_warp_connector#account_id ZeroTrustTunnelWarpConnector#account_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
+        {
+            get;
+            set;
+        }
+
+        private object? _ha;
+
+        /// <summary>Indicates that the tunnel will be created to be highly available. If omitted, defaults to false.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_tunnel_warp_connector#ha ZeroTrustTunnelWarpConnector#ha}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "ha", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? Ha
+        {
+            get => _ha;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _ha = value;
+            }
+        }
+
         /// <summary>Sets the password required to run a locally-managed tunnel.</summary>
         /// <remarks>
         /// Must be at least 32 bytes and encoded as a base64 string.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_tunnel_warp_connector#tunnel_secret ZeroTrustTunnelWarpConnector#tunnel_secret}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_tunnel_warp_connector#tunnel_secret ZeroTrustTunnelWarpConnector#tunnel_secret}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tunnelSecret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

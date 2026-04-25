@@ -11,7 +11,7 @@ namespace cloudflare.WaitingRoomRules
     {
         private object _rules;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room_rules#rules WaitingRoomRules#rules}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room_rules#rules WaitingRoomRules#rules}.</summary>
         [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.waitingRoomRules.WaitingRoomRulesRules\"},\"kind\":\"array\"}}]}}")]
         public object Rules
         {
@@ -39,7 +39,7 @@ namespace cloudflare.WaitingRoomRules
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room_rules#waiting_room_id WaitingRoomRules#waiting_room_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room_rules#waiting_room_id WaitingRoomRules#waiting_room_id}.</summary>
         [JsiiProperty(name: "waitingRoomId", typeJson: "{\"primitive\":\"string\"}")]
         public string WaitingRoomId
         {
@@ -49,10 +49,11 @@ namespace cloudflare.WaitingRoomRules
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/waiting_room_rules#zone_id WaitingRoomRules#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/waiting_room_rules#zone_id WaitingRoomRules#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
+        [JsiiOptional]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
         {
             get;
             set;

@@ -53,6 +53,12 @@ namespace cloudflare.DataCloudflareLoadBalancerPool
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "flattenCname", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable FlattenCname
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "header", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareLoadBalancerPool.DataCloudflareLoadBalancerPoolOriginsHeaderOutputReference\"}")]
         public virtual cloudflare.DataCloudflareLoadBalancerPool.DataCloudflareLoadBalancerPoolOriginsHeaderOutputReference Header
         {

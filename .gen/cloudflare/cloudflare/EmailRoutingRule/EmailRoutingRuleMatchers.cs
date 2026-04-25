@@ -11,7 +11,7 @@ namespace cloudflare.EmailRoutingRule
     {
         /// <summary>Type of matcher. Available values: "all", "literal".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_routing_rule#type EmailRoutingRule#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_routing_rule#type EmailRoutingRule#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -22,7 +22,7 @@ namespace cloudflare.EmailRoutingRule
 
         /// <summary>Field for type matcher. Available values: "to".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_routing_rule#field EmailRoutingRule#field}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_routing_rule#field EmailRoutingRule#field}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "field", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace cloudflare.EmailRoutingRule
 
         /// <summary>Value for matcher.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_routing_rule#value EmailRoutingRule#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_routing_rule#value EmailRoutingRule#value}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

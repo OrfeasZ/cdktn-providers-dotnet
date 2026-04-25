@@ -4,25 +4,24 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareWorkersCustomDomains
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareWorkersCustomDomains.DataCloudflareWorkersCustomDomainsConfig")]
     public class DataCloudflareWorkersCustomDomainsConfig : cloudflare.DataCloudflareWorkersCustomDomains.IDataCloudflareWorkersCustomDomainsConfig
     {
-        /// <summary>Identifer of the account.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/workers_custom_domains#account_id DataCloudflareWorkersCustomDomains#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/workers_custom_domains#account_id DataCloudflareWorkersCustomDomains#account_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;
         }
 
-        /// <summary>Worker environment associated with the zone and hostname.</summary>
+        /// <summary>Worker environment associated with the domain.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/workers_custom_domains#environment DataCloudflareWorkersCustomDomains#environment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/workers_custom_domains#environment DataCloudflareWorkersCustomDomains#environment}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "environment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -32,9 +31,9 @@ namespace cloudflare.DataCloudflareWorkersCustomDomains
             set;
         }
 
-        /// <summary>Hostname of the Worker Domain.</summary>
+        /// <summary>Hostname of the domain.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/workers_custom_domains#hostname DataCloudflareWorkersCustomDomains#hostname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/workers_custom_domains#hostname DataCloudflareWorkersCustomDomains#hostname}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +45,7 @@ namespace cloudflare.DataCloudflareWorkersCustomDomains
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/workers_custom_domains#max_items DataCloudflareWorkersCustomDomains#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/workers_custom_domains#max_items DataCloudflareWorkersCustomDomains#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -56,9 +55,9 @@ namespace cloudflare.DataCloudflareWorkersCustomDomains
             set;
         }
 
-        /// <summary>Worker service associated with the zone and hostname.</summary>
+        /// <summary>Name of the Worker associated with the domain.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/workers_custom_domains#service DataCloudflareWorkersCustomDomains#service}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/workers_custom_domains#service DataCloudflareWorkersCustomDomains#service}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "service", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -68,9 +67,9 @@ namespace cloudflare.DataCloudflareWorkersCustomDomains
             set;
         }
 
-        /// <summary>Identifier of the zone.</summary>
+        /// <summary>ID of the zone containing the domain hostname.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/workers_custom_domains#zone_id DataCloudflareWorkersCustomDomains#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/workers_custom_domains#zone_id DataCloudflareWorkersCustomDomains#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -80,9 +79,9 @@ namespace cloudflare.DataCloudflareWorkersCustomDomains
             set;
         }
 
-        /// <summary>Name of the zone.</summary>
+        /// <summary>Name of the zone containing the domain hostname.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/workers_custom_domains#zone_name DataCloudflareWorkersCustomDomains#zone_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/workers_custom_domains#zone_name DataCloudflareWorkersCustomDomains#zone_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

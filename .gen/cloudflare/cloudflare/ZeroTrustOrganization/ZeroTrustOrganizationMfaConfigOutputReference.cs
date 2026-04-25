@@ -39,6 +39,18 @@ namespace cloudflare.ZeroTrustOrganization
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetAmrMatchingSessionDuration")]
+        public virtual void ResetAmrMatchingSessionDuration()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRequiredAaguids")]
+        public virtual void ResetRequiredAaguids()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSessionDuration")]
         public virtual void ResetSessionDuration()
         {
@@ -53,6 +65,20 @@ namespace cloudflare.ZeroTrustOrganization
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "amrMatchingSessionDurationInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AmrMatchingSessionDurationInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "requiredAaguidsInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RequiredAaguidsInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "sessionDurationInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SessionDurationInput
         {
@@ -63,6 +89,20 @@ namespace cloudflare.ZeroTrustOrganization
         public virtual string[] AllowedAuthenticators
         {
             get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "amrMatchingSessionDuration", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AmrMatchingSessionDuration
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "requiredAaguids", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RequiredAaguids
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

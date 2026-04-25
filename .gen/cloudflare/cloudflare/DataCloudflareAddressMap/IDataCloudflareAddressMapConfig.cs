@@ -7,24 +7,28 @@ namespace cloudflare.DataCloudflareAddressMap
     [JsiiInterface(nativeType: typeof(IDataCloudflareAddressMapConfig), fullyQualifiedName: "cloudflare.dataCloudflareAddressMap.DataCloudflareAddressMapConfig")]
     public interface IDataCloudflareAddressMapConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Identifier of a Cloudflare account.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/address_map#account_id DataCloudflareAddressMap#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
-        {
-            get;
-        }
-
         /// <summary>Identifier of an Address Map.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/address_map#address_map_id DataCloudflareAddressMap#address_map_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/address_map#address_map_id DataCloudflareAddressMap#address_map_id}
         /// </remarks>
         [JsiiProperty(name: "addressMapId", typeJson: "{\"primitive\":\"string\"}")]
         string AddressMapId
         {
             get;
+        }
+
+        /// <summary>Identifier of a Cloudflare account.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/address_map#account_id DataCloudflareAddressMap#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
+        {
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IDataCloudflareAddressMapConfig), fullyQualifiedName: "cloudflare.dataCloudflareAddressMap.DataCloudflareAddressMapConfig")]
@@ -34,24 +38,25 @@ namespace cloudflare.DataCloudflareAddressMap
             {
             }
 
-            /// <summary>Identifier of a Cloudflare account.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/address_map#account_id DataCloudflareAddressMap#account_id}
-            /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>Identifier of an Address Map.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/address_map#address_map_id DataCloudflareAddressMap#address_map_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/address_map#address_map_id DataCloudflareAddressMap#address_map_id}
             /// </remarks>
             [JsiiProperty(name: "addressMapId", typeJson: "{\"primitive\":\"string\"}")]
             public string AddressMapId
             {
                 get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Identifier of a Cloudflare account.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/address_map#account_id DataCloudflareAddressMap#account_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
+            {
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

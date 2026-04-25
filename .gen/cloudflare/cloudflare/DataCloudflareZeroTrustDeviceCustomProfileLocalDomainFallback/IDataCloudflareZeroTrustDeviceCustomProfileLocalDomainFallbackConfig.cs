@@ -7,18 +7,22 @@ namespace cloudflare.DataCloudflareZeroTrustDeviceCustomProfileLocalDomainFallba
     [JsiiInterface(nativeType: typeof(IDataCloudflareZeroTrustDeviceCustomProfileLocalDomainFallbackConfig), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustDeviceCustomProfileLocalDomainFallback.DataCloudflareZeroTrustDeviceCustomProfileLocalDomainFallbackConfig")]
     public interface IDataCloudflareZeroTrustDeviceCustomProfileLocalDomainFallbackConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_device_custom_profile_local_domain_fallback#account_id DataCloudflareZeroTrustDeviceCustomProfileLocalDomainFallback#account_id}.</summary>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
-        {
-            get;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_device_custom_profile_local_domain_fallback#policy_id DataCloudflareZeroTrustDeviceCustomProfileLocalDomainFallback#policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_device_custom_profile_local_domain_fallback#policy_id DataCloudflareZeroTrustDeviceCustomProfileLocalDomainFallback#policy_id}.</summary>
         [JsiiProperty(name: "policyId", typeJson: "{\"primitive\":\"string\"}")]
         string PolicyId
         {
             get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_device_custom_profile_local_domain_fallback#account_id DataCloudflareZeroTrustDeviceCustomProfileLocalDomainFallback#account_id}.</summary>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
+        {
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IDataCloudflareZeroTrustDeviceCustomProfileLocalDomainFallbackConfig), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustDeviceCustomProfileLocalDomainFallback.DataCloudflareZeroTrustDeviceCustomProfileLocalDomainFallbackConfig")]
@@ -28,18 +32,19 @@ namespace cloudflare.DataCloudflareZeroTrustDeviceCustomProfileLocalDomainFallba
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_device_custom_profile_local_domain_fallback#account_id DataCloudflareZeroTrustDeviceCustomProfileLocalDomainFallback#account_id}.</summary>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_device_custom_profile_local_domain_fallback#policy_id DataCloudflareZeroTrustDeviceCustomProfileLocalDomainFallback#policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_device_custom_profile_local_domain_fallback#policy_id DataCloudflareZeroTrustDeviceCustomProfileLocalDomainFallback#policy_id}.</summary>
             [JsiiProperty(name: "policyId", typeJson: "{\"primitive\":\"string\"}")]
             public string PolicyId
             {
                 get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_device_custom_profile_local_domain_fallback#account_id DataCloudflareZeroTrustDeviceCustomProfileLocalDomainFallback#account_id}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
+            {
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

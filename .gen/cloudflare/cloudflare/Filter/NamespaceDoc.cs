@@ -5,7 +5,7 @@ namespace cloudflare.Filter
     /// <remarks>
     /// <h1><c>cloudflare_filter</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/filter"><c>cloudflare_filter</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/filter"><c>cloudflare_filter</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

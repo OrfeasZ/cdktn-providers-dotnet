@@ -33,6 +33,12 @@ namespace cloudflare.Worker
         {
         }
 
+        [JsiiMethod(name: "resetDestinations")]
+        public virtual void ResetDestinations()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetEnabled")]
         public virtual void ResetEnabled()
         {
@@ -49,6 +55,19 @@ namespace cloudflare.Worker
         public virtual void ResetInvocationLogs()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPersist")]
+        public virtual void ResetPersist()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "destinationsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? DestinationsInput
+        {
+            get => GetInstanceProperty<string[]?>();
         }
 
         [JsiiOptional]
@@ -70,6 +89,20 @@ namespace cloudflare.Worker
         public virtual object? InvocationLogsInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "persistInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? PersistInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiProperty(name: "destinations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Destinations
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -108,6 +141,33 @@ namespace cloudflare.Worker
 
         [JsiiProperty(name: "invocationLogs", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object InvocationLogs
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        [JsiiProperty(name: "persist", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object Persist
         {
             get => GetInstanceProperty<object>()!;
             set

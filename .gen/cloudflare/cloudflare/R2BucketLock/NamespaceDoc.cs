@@ -5,7 +5,7 @@ namespace cloudflare.R2BucketLock
     /// <remarks>
     /// <h1><c>cloudflare_r2_bucket_lock</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_lock"><c>cloudflare_r2_bucket_lock</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_lock"><c>cloudflare_r2_bucket_lock</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

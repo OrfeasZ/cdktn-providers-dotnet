@@ -9,7 +9,7 @@ namespace cloudflare.TokenValidationRules
     {
         /// <summary>Ignore operations that were otherwise included by `include`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_rules#exclude TokenValidationRules#exclude}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_rules#exclude TokenValidationRules#exclude}
         /// </remarks>
         [JsiiProperty(name: "exclude", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.tokenValidationRules.TokenValidationRulesSelectorExclude\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace cloudflare.TokenValidationRules
 
         /// <summary>Select all matching operations.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_rules#include TokenValidationRules#include}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_rules#include TokenValidationRules#include}
         /// </remarks>
         [JsiiProperty(name: "include", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.tokenValidationRules.TokenValidationRulesSelectorInclude\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace cloudflare.TokenValidationRules
 
             /// <summary>Ignore operations that were otherwise included by `include`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_rules#exclude TokenValidationRules#exclude}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_rules#exclude TokenValidationRules#exclude}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "exclude", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.tokenValidationRules.TokenValidationRulesSelectorExclude\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace cloudflare.TokenValidationRules
 
             /// <summary>Select all matching operations.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/token_validation_rules#include TokenValidationRules#include}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/token_validation_rules#include TokenValidationRules#include}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "include", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.tokenValidationRules.TokenValidationRulesSelectorInclude\"},\"kind\":\"array\"}}]}}", isOptional: true)]

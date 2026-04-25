@@ -7,7 +7,7 @@ namespace cloudflare.DataCloudflareZone
     [JsiiInterface(nativeType: typeof(IDataCloudflareZoneConfig), fullyQualifiedName: "cloudflare.dataCloudflareZone.DataCloudflareZoneConfig")]
     public interface IDataCloudflareZoneConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zone#filter DataCloudflareZone#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zone#filter DataCloudflareZone#filter}.</summary>
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZone.DataCloudflareZoneFilter\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.DataCloudflareZone.IDataCloudflareZoneFilter? Filter
@@ -20,7 +20,7 @@ namespace cloudflare.DataCloudflareZone
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zone#zone_id DataCloudflareZone#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zone#zone_id DataCloudflareZone#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -39,7 +39,7 @@ namespace cloudflare.DataCloudflareZone
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zone#filter DataCloudflareZone#filter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zone#filter DataCloudflareZone#filter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZone.DataCloudflareZoneFilter\"}", isOptional: true)]
             public cloudflare.DataCloudflareZone.IDataCloudflareZoneFilter? Filter
@@ -49,7 +49,7 @@ namespace cloudflare.DataCloudflareZone
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zone#zone_id DataCloudflareZone#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zone#zone_id DataCloudflareZone#zone_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustDnsLocation
 
         /// <summary>Indicate whether the DOH endpoint is enabled for this location.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dns_location#enabled ZeroTrustDnsLocation#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dns_location#enabled ZeroTrustDnsLocation#enabled}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace cloudflare.ZeroTrustDnsLocation
         /// <remarks>
         /// When the list is empty, the endpoint allows all source IPs. The list takes effect only if the endpoint is enabled for this location.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dns_location#networks ZeroTrustDnsLocation#networks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dns_location#networks ZeroTrustDnsLocation#networks}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networks", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDnsLocation.ZeroTrustDnsLocationEndpointsDohNetworks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace cloudflare.ZeroTrustDnsLocation
 
         /// <summary>Specify whether the DOH endpoint requires user identity authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dns_location#require_token ZeroTrustDnsLocation#require_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dns_location#require_token ZeroTrustDnsLocation#require_token}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "requireToken", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

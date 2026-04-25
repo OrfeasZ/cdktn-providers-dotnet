@@ -4,17 +4,16 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.EmailRoutingSettings
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.emailRoutingSettings.EmailRoutingSettingsConfig")]
     public class EmailRoutingSettingsConfig : cloudflare.EmailRoutingSettings.IEmailRoutingSettingsConfig
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_routing_settings#zone_id EmailRoutingSettings#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_routing_settings#zone_id EmailRoutingSettings#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
+        [JsiiOptional]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
         {
             get;
             set;

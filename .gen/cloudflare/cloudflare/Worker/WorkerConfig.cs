@@ -9,23 +9,24 @@ namespace cloudflare.Worker
     [JsiiByValue(fqn: "cloudflare.worker.WorkerConfig")]
     public class WorkerConfig : cloudflare.Worker.IWorkerConfig
     {
-        /// <summary>Identifier.</summary>
+        /// <summary>Name of the Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker#account_id Worker#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker#name Worker#name}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        public string Name
         {
             get;
             set;
         }
 
-        /// <summary>Name of the Worker.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker#name Worker#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker#account_id Worker#account_id}
         /// </remarks>
-        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
-        public string Name
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;
@@ -35,7 +36,7 @@ namespace cloudflare.Worker
 
         /// <summary>Whether logpush is enabled for the Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker#logpush Worker#logpush}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker#logpush Worker#logpush}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logpush", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -67,7 +68,7 @@ namespace cloudflare.Worker
 
         /// <summary>Observability settings for the Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker#observability Worker#observability}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker#observability Worker#observability}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "observability", typeJson: "{\"fqn\":\"cloudflare.worker.WorkerObservability\"}", isOptional: true)]
@@ -79,7 +80,7 @@ namespace cloudflare.Worker
 
         /// <summary>Subdomain settings for the Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker#subdomain Worker#subdomain}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker#subdomain Worker#subdomain}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subdomain", typeJson: "{\"fqn\":\"cloudflare.worker.WorkerSubdomain\"}", isOptional: true)]
@@ -91,7 +92,7 @@ namespace cloudflare.Worker
 
         /// <summary>Tags associated with the Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker#tags Worker#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker#tags Worker#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -105,7 +106,7 @@ namespace cloudflare.Worker
 
         /// <summary>Other Workers that should consume logs from the Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/worker#tail_consumers Worker#tail_consumers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker#tail_consumers Worker#tail_consumers}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tailConsumers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.worker.WorkerTailConsumers\"},\"kind\":\"array\"}}]}}", isOptional: true)]

@@ -4,25 +4,12 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareSpectrumApplications
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareSpectrumApplications.DataCloudflareSpectrumApplicationsConfig")]
     public class DataCloudflareSpectrumApplicationsConfig : cloudflare.DataCloudflareSpectrumApplications.IDataCloudflareSpectrumApplicationsConfig
     {
-        /// <summary>Zone identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/spectrum_applications#zone_id DataCloudflareSpectrumApplications#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
-        {
-            get;
-            set;
-        }
-
         /// <summary>Sets the direction by which results are ordered. Available values: "asc", "desc".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/spectrum_applications#direction DataCloudflareSpectrumApplications#direction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/spectrum_applications#direction DataCloudflareSpectrumApplications#direction}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +21,7 @@ namespace cloudflare.DataCloudflareSpectrumApplications
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/spectrum_applications#max_items DataCloudflareSpectrumApplications#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/spectrum_applications#max_items DataCloudflareSpectrumApplications#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -46,11 +33,23 @@ namespace cloudflare.DataCloudflareSpectrumApplications
 
         /// <summary>Application field by which results are ordered. Available values: "protocol", "app_id", "created_on", "modified_on", "dns".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/spectrum_applications#order DataCloudflareSpectrumApplications#order}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/spectrum_applications#order DataCloudflareSpectrumApplications#order}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Order
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Zone identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/spectrum_applications#zone_id DataCloudflareSpectrumApplications#zone_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
         {
             get;
             set;

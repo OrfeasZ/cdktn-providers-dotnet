@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareAccessRule
     {
         /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/access_rule#account_id DataCloudflareAccessRule#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/access_rule#account_id DataCloudflareAccessRule#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareAccessRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/access_rule#filter DataCloudflareAccessRule#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/access_rule#filter DataCloudflareAccessRule#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAccessRule.DataCloudflareAccessRuleFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareAccessRule.IDataCloudflareAccessRuleFilter? Filter
@@ -30,7 +30,7 @@ namespace cloudflare.DataCloudflareAccessRule
 
         /// <summary>Unique identifier for a rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/access_rule#rule_id DataCloudflareAccessRule#rule_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/access_rule#rule_id DataCloudflareAccessRule#rule_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ruleId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -42,7 +42,7 @@ namespace cloudflare.DataCloudflareAccessRule
 
         /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/access_rule#zone_id DataCloudflareAccessRule#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/access_rule#zone_id DataCloudflareAccessRule#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

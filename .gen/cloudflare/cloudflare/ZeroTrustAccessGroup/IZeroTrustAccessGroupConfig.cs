@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustAccessGroup
     {
         /// <summary>Rules evaluated with an OR logical operator. A user needs to meet only one of the Include rules.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#include ZeroTrustAccessGroup#include}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#include ZeroTrustAccessGroup#include}
         /// </remarks>
         [JsiiProperty(name: "include", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupInclude\"},\"kind\":\"array\"}}]}}")]
         object Include
@@ -19,7 +19,7 @@ namespace cloudflare.ZeroTrustAccessGroup
 
         /// <summary>The name of the Access group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#name ZeroTrustAccessGroup#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#name ZeroTrustAccessGroup#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -29,7 +29,7 @@ namespace cloudflare.ZeroTrustAccessGroup
 
         /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#account_id ZeroTrustAccessGroup#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#account_id ZeroTrustAccessGroup#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace cloudflare.ZeroTrustAccessGroup
         /// <remarks>
         /// To match a policy, a user cannot meet any of the Exclude rules.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#exclude ZeroTrustAccessGroup#exclude}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#exclude ZeroTrustAccessGroup#exclude}
         /// </remarks>
         [JsiiProperty(name: "exclude", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExclude\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace cloudflare.ZeroTrustAccessGroup
 
         /// <summary>Whether this is the default group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#is_default ZeroTrustAccessGroup#is_default}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#is_default ZeroTrustAccessGroup#is_default}
         /// </remarks>
         [JsiiProperty(name: "isDefault", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,7 +75,7 @@ namespace cloudflare.ZeroTrustAccessGroup
         /// <remarks>
         /// To match a policy, a user must meet all of the Require rules.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#require ZeroTrustAccessGroup#require}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#require ZeroTrustAccessGroup#require}
         /// </remarks>
         [JsiiProperty(name: "require", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupRequire\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -89,7 +89,7 @@ namespace cloudflare.ZeroTrustAccessGroup
 
         /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#zone_id ZeroTrustAccessGroup#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#zone_id ZeroTrustAccessGroup#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -110,7 +110,7 @@ namespace cloudflare.ZeroTrustAccessGroup
 
             /// <summary>Rules evaluated with an OR logical operator. A user needs to meet only one of the Include rules.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#include ZeroTrustAccessGroup#include}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#include ZeroTrustAccessGroup#include}
             /// </remarks>
             [JsiiProperty(name: "include", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupInclude\"},\"kind\":\"array\"}}]}}")]
             public object Include
@@ -120,7 +120,7 @@ namespace cloudflare.ZeroTrustAccessGroup
 
             /// <summary>The name of the Access group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#name ZeroTrustAccessGroup#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#name ZeroTrustAccessGroup#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -130,7 +130,7 @@ namespace cloudflare.ZeroTrustAccessGroup
 
             /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#account_id ZeroTrustAccessGroup#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#account_id ZeroTrustAccessGroup#account_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -143,7 +143,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             /// <remarks>
             /// To match a policy, a user cannot meet any of the Exclude rules.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#exclude ZeroTrustAccessGroup#exclude}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#exclude ZeroTrustAccessGroup#exclude}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "exclude", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExclude\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -154,7 +154,7 @@ namespace cloudflare.ZeroTrustAccessGroup
 
             /// <summary>Whether this is the default group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#is_default ZeroTrustAccessGroup#is_default}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#is_default ZeroTrustAccessGroup#is_default}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "isDefault", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -167,7 +167,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             /// <remarks>
             /// To match a policy, a user must meet all of the Require rules.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#require ZeroTrustAccessGroup#require}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#require ZeroTrustAccessGroup#require}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "require", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupRequire\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -178,7 +178,7 @@ namespace cloudflare.ZeroTrustAccessGroup
 
             /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#zone_id ZeroTrustAccessGroup#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#zone_id ZeroTrustAccessGroup#zone_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

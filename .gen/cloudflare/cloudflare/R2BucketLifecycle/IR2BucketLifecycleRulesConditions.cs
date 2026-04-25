@@ -9,7 +9,7 @@ namespace cloudflare.R2BucketLifecycle
     {
         /// <summary>Transitions will only apply to objects/uploads in the bucket that start with the given prefix, an empty prefix can be provided to scope rule to all objects/uploads.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_lifecycle#prefix R2BucketLifecycle#prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_lifecycle#prefix R2BucketLifecycle#prefix}
         /// </remarks>
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
         string Prefix
@@ -26,7 +26,7 @@ namespace cloudflare.R2BucketLifecycle
 
             /// <summary>Transitions will only apply to objects/uploads in the bucket that start with the given prefix, an empty prefix can be provided to scope rule to all objects/uploads.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_lifecycle#prefix R2BucketLifecycle#prefix}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_lifecycle#prefix R2BucketLifecycle#prefix}
             /// </remarks>
             [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
             public string Prefix

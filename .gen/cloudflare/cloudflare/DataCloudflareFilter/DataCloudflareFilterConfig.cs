@@ -4,23 +4,10 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareFilter
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareFilter.DataCloudflareFilterConfig")]
     public class DataCloudflareFilterConfig : cloudflare.DataCloudflareFilter.IDataCloudflareFilterConfig
     {
-        /// <summary>Defines an identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/filter#zone_id DataCloudflareFilter#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/filter#filter DataCloudflareFilter#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/filter#filter DataCloudflareFilter#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareFilter.DataCloudflareFilterFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareFilter.IDataCloudflareFilterFilter? Filter
@@ -31,11 +18,23 @@ namespace cloudflare.DataCloudflareFilter
 
         /// <summary>The unique identifier of the filter.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/filter#filter_id DataCloudflareFilter#filter_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/filter#filter_id DataCloudflareFilter#filter_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FilterId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Defines an identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/filter#zone_id DataCloudflareFilter#zone_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
         {
             get;
             set;

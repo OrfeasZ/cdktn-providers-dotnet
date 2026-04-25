@@ -9,17 +9,18 @@ namespace cloudflare.DataCloudflareZeroTrustGatewayPacfile
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustGatewayPacfile.DataCloudflareZeroTrustGatewayPacfileConfig")]
     public class DataCloudflareZeroTrustGatewayPacfileConfig : cloudflare.DataCloudflareZeroTrustGatewayPacfile.IDataCloudflareZeroTrustGatewayPacfileConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_gateway_pacfile#account_id DataCloudflareZeroTrustGatewayPacfile#account_id}.</summary>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_gateway_pacfile#pacfile_id DataCloudflareZeroTrustGatewayPacfile#pacfile_id}.</summary>
+        [JsiiProperty(name: "pacfileId", typeJson: "{\"primitive\":\"string\"}")]
+        public string PacfileId
         {
             get;
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_gateway_pacfile#pacfile_id DataCloudflareZeroTrustGatewayPacfile#pacfile_id}.</summary>
-        [JsiiProperty(name: "pacfileId", typeJson: "{\"primitive\":\"string\"}")]
-        public string PacfileId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_gateway_pacfile#account_id DataCloudflareZeroTrustGatewayPacfile#account_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

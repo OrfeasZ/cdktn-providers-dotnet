@@ -9,7 +9,7 @@ namespace cloudflare.ApiToken
     {
         /// <summary>Client IP restrictions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/api_token#request_ip ApiToken#request_ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/api_token#request_ip ApiToken#request_ip}
         /// </remarks>
         [JsiiProperty(name: "requestIp", typeJson: "{\"fqn\":\"cloudflare.apiToken.ApiTokenConditionRequestIp\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace cloudflare.ApiToken
 
             /// <summary>Client IP restrictions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/api_token#request_ip ApiToken#request_ip}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/api_token#request_ip ApiToken#request_ip}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "requestIp", typeJson: "{\"fqn\":\"cloudflare.apiToken.ApiTokenConditionRequestIp\"}", isOptional: true)]

@@ -9,23 +9,24 @@ namespace cloudflare.DataCloudflareResourceGroup
     [JsiiByValue(fqn: "cloudflare.dataCloudflareResourceGroup.DataCloudflareResourceGroupConfig")]
     public class DataCloudflareResourceGroupConfig : cloudflare.DataCloudflareResourceGroup.IDataCloudflareResourceGroupConfig
     {
-        /// <summary>Account identifier tag.</summary>
+        /// <summary>Resource Group identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/resource_group#account_id DataCloudflareResourceGroup#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/resource_group#resource_group_id DataCloudflareResourceGroup#resource_group_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiProperty(name: "resourceGroupId", typeJson: "{\"primitive\":\"string\"}")]
+        public string ResourceGroupId
         {
             get;
             set;
         }
 
-        /// <summary>Resource Group identifier tag.</summary>
+        /// <summary>Account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/resource_group#resource_group_id DataCloudflareResourceGroup#resource_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/resource_group#account_id DataCloudflareResourceGroup#account_id}
         /// </remarks>
-        [JsiiProperty(name: "resourceGroupId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ResourceGroupId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

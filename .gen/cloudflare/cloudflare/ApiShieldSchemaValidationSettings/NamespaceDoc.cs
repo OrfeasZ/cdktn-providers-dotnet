@@ -5,7 +5,7 @@ namespace cloudflare.ApiShieldSchemaValidationSettings
     /// <remarks>
     /// <h1><c>cloudflare_api_shield_schema_validation_settings</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/api_shield_schema_validation_settings"><c>cloudflare_api_shield_schema_validation_settings</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/api_shield_schema_validation_settings"><c>cloudflare_api_shield_schema_validation_settings</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

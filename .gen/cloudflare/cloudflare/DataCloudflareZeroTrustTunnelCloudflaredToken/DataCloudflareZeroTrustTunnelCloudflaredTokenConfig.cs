@@ -9,23 +9,24 @@ namespace cloudflare.DataCloudflareZeroTrustTunnelCloudflaredToken
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustTunnelCloudflaredToken.DataCloudflareZeroTrustTunnelCloudflaredTokenConfig")]
     public class DataCloudflareZeroTrustTunnelCloudflaredTokenConfig : cloudflare.DataCloudflareZeroTrustTunnelCloudflaredToken.IDataCloudflareZeroTrustTunnelCloudflaredTokenConfig
     {
-        /// <summary>Cloudflare account ID.</summary>
+        /// <summary>UUID of the tunnel.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_tunnel_cloudflared_token#account_id DataCloudflareZeroTrustTunnelCloudflaredToken#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_tunnel_cloudflared_token#tunnel_id DataCloudflareZeroTrustTunnelCloudflaredToken#tunnel_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiProperty(name: "tunnelId", typeJson: "{\"primitive\":\"string\"}")]
+        public string TunnelId
         {
             get;
             set;
         }
 
-        /// <summary>UUID of the tunnel.</summary>
+        /// <summary>Cloudflare account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_tunnel_cloudflared_token#tunnel_id DataCloudflareZeroTrustTunnelCloudflaredToken#tunnel_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_tunnel_cloudflared_token#account_id DataCloudflareZeroTrustTunnelCloudflaredToken#account_id}
         /// </remarks>
-        [JsiiProperty(name: "tunnelId", typeJson: "{\"primitive\":\"string\"}")]
-        public string TunnelId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareDnsRecord
     {
         /// <summary>Substring of the DNS record content. Content filters are case-insensitive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_record#contains DataCloudflareDnsRecord#contains}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_record#contains DataCloudflareDnsRecord#contains}
         /// </remarks>
         [JsiiProperty(name: "contains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace cloudflare.DataCloudflareDnsRecord
 
         /// <summary>Suffix of the DNS record content. Content filters are case-insensitive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_record#endswith DataCloudflareDnsRecord#endswith}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_record#endswith DataCloudflareDnsRecord#endswith}
         /// </remarks>
         [JsiiProperty(name: "endswith", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace cloudflare.DataCloudflareDnsRecord
 
         /// <summary>Exact value of the DNS record content. Content filters are case-insensitive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_record#exact DataCloudflareDnsRecord#exact}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_record#exact DataCloudflareDnsRecord#exact}
         /// </remarks>
         [JsiiProperty(name: "exact", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace cloudflare.DataCloudflareDnsRecord
 
         /// <summary>Prefix of the DNS record content. Content filters are case-insensitive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_record#startswith DataCloudflareDnsRecord#startswith}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_record#startswith DataCloudflareDnsRecord#startswith}
         /// </remarks>
         [JsiiProperty(name: "startswith", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,7 +72,7 @@ namespace cloudflare.DataCloudflareDnsRecord
 
             /// <summary>Substring of the DNS record content. Content filters are case-insensitive.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_record#contains DataCloudflareDnsRecord#contains}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_record#contains DataCloudflareDnsRecord#contains}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "contains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace cloudflare.DataCloudflareDnsRecord
 
             /// <summary>Suffix of the DNS record content. Content filters are case-insensitive.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_record#endswith DataCloudflareDnsRecord#endswith}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_record#endswith DataCloudflareDnsRecord#endswith}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "endswith", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace cloudflare.DataCloudflareDnsRecord
 
             /// <summary>Exact value of the DNS record content. Content filters are case-insensitive.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_record#exact DataCloudflareDnsRecord#exact}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_record#exact DataCloudflareDnsRecord#exact}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "exact", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace cloudflare.DataCloudflareDnsRecord
 
             /// <summary>Prefix of the DNS record content. Content filters are case-insensitive.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/dns_record#startswith DataCloudflareDnsRecord#startswith}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/dns_record#startswith DataCloudflareDnsRecord#startswith}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "startswith", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

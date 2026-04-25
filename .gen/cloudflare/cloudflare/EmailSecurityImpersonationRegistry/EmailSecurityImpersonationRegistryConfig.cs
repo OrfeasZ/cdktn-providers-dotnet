@@ -9,18 +9,7 @@ namespace cloudflare.EmailSecurityImpersonationRegistry
     [JsiiByValue(fqn: "cloudflare.emailSecurityImpersonationRegistry.EmailSecurityImpersonationRegistryConfig")]
     public class EmailSecurityImpersonationRegistryConfig : cloudflare.EmailSecurityImpersonationRegistry.IEmailSecurityImpersonationRegistryConfig
     {
-        /// <summary>Account Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_security_impersonation_registry#account_id EmailSecurityImpersonationRegistry#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_security_impersonation_registry#email EmailSecurityImpersonationRegistry#email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_security_impersonation_registry#email EmailSecurityImpersonationRegistry#email}.</summary>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
         public string Email
         {
@@ -30,7 +19,7 @@ namespace cloudflare.EmailSecurityImpersonationRegistry
 
         private object _isEmailRegex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_security_impersonation_registry#is_email_regex EmailSecurityImpersonationRegistry#is_email_regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_security_impersonation_registry#is_email_regex EmailSecurityImpersonationRegistry#is_email_regex}.</summary>
         [JsiiProperty(name: "isEmailRegex", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object IsEmailRegex
         {
@@ -58,9 +47,21 @@ namespace cloudflare.EmailSecurityImpersonationRegistry
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/email_security_impersonation_registry#name EmailSecurityImpersonationRegistry#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_security_impersonation_registry#name EmailSecurityImpersonationRegistry#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Account Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/email_security_impersonation_registry#account_id EmailSecurityImpersonationRegistry#account_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

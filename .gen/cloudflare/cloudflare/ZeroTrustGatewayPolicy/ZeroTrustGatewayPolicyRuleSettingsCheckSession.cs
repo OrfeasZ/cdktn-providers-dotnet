@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
     {
         /// <summary>Sets the required session freshness threshold. The API returns a normalized version of this value.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#duration ZeroTrustGatewayPolicy#duration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#duration ZeroTrustGatewayPolicy#duration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         /// <summary>Enable session enforcement.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#enforce ZeroTrustGatewayPolicy#enforce}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#enforce ZeroTrustGatewayPolicy#enforce}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enforce", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

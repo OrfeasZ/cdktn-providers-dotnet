@@ -9,7 +9,7 @@ namespace cloudflare.FirewallRule
     {
         /// <summary>The action to perform. Available values: "simulate", "ban", "challenge", "js_challenge", "managed_challenge".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/firewall_rule#mode FirewallRule#mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/firewall_rule#mode FirewallRule#mode}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace cloudflare.FirewallRule
         /// The custom response configured in this object will override the custom error for the zone. This object is optional.
         /// Notes: If you omit this object, Cloudflare will use the default HTML error page. If "mode" is "challenge", "managed_challenge", or "js_challenge", Cloudflare will use the zone challenge pages and you should not provide the "response" object.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/firewall_rule#response FirewallRule#response}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/firewall_rule#response FirewallRule#response}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "response", typeJson: "{\"fqn\":\"cloudflare.firewallRule.FirewallRuleActionResponse\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace cloudflare.FirewallRule
         /// Must be an integer value greater than or equal to the period.
         /// Notes: If "mode" is "challenge", "managed_challenge", or "js_challenge", Cloudflare will use the zone's Challenge Passage time and you should not provide this value.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/firewall_rule#timeout FirewallRule#timeout}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/firewall_rule#timeout FirewallRule#timeout}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

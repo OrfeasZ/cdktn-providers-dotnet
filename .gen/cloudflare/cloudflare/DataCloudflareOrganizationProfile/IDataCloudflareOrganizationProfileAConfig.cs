@@ -7,7 +7,7 @@ namespace cloudflare.DataCloudflareOrganizationProfile
     [JsiiInterface(nativeType: typeof(IDataCloudflareOrganizationProfileAConfig), fullyQualifiedName: "cloudflare.dataCloudflareOrganizationProfile.DataCloudflareOrganizationProfileAConfig")]
     public interface IDataCloudflareOrganizationProfileAConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/organization_profile#organization_id DataCloudflareOrganizationProfileA#organization_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/organization_profile#organization_id DataCloudflareOrganizationProfileA#organization_id}.</summary>
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}")]
         string OrganizationId
         {
@@ -21,7 +21,7 @@ namespace cloudflare.DataCloudflareOrganizationProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/organization_profile#organization_id DataCloudflareOrganizationProfileA#organization_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/organization_profile#organization_id DataCloudflareOrganizationProfileA#organization_id}.</summary>
             [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}")]
             public string OrganizationId
             {

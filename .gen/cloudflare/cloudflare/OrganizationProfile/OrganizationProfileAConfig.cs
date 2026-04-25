@@ -9,7 +9,7 @@ namespace cloudflare.OrganizationProfile
     [JsiiByValue(fqn: "cloudflare.organizationProfile.OrganizationProfileAConfig")]
     public class OrganizationProfileAConfig : cloudflare.OrganizationProfile.IOrganizationProfileAConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/organization_profile#business_address OrganizationProfileA#business_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/organization_profile#business_address OrganizationProfileA#business_address}.</summary>
         [JsiiProperty(name: "businessAddress", typeJson: "{\"primitive\":\"string\"}")]
         public string BusinessAddress
         {
@@ -17,7 +17,7 @@ namespace cloudflare.OrganizationProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/organization_profile#business_email OrganizationProfileA#business_email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/organization_profile#business_email OrganizationProfileA#business_email}.</summary>
         [JsiiProperty(name: "businessEmail", typeJson: "{\"primitive\":\"string\"}")]
         public string BusinessEmail
         {
@@ -25,7 +25,7 @@ namespace cloudflare.OrganizationProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/organization_profile#business_name OrganizationProfileA#business_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/organization_profile#business_name OrganizationProfileA#business_name}.</summary>
         [JsiiProperty(name: "businessName", typeJson: "{\"primitive\":\"string\"}")]
         public string BusinessName
         {
@@ -33,7 +33,7 @@ namespace cloudflare.OrganizationProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/organization_profile#business_phone OrganizationProfileA#business_phone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/organization_profile#business_phone OrganizationProfileA#business_phone}.</summary>
         [JsiiProperty(name: "businessPhone", typeJson: "{\"primitive\":\"string\"}")]
         public string BusinessPhone
         {
@@ -41,7 +41,7 @@ namespace cloudflare.OrganizationProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/organization_profile#external_metadata OrganizationProfileA#external_metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/organization_profile#external_metadata OrganizationProfileA#external_metadata}.</summary>
         [JsiiProperty(name: "externalMetadata", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalMetadata
         {
@@ -49,7 +49,7 @@ namespace cloudflare.OrganizationProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/organization_profile#organization_id OrganizationProfileA#organization_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/organization_profile#organization_id OrganizationProfileA#organization_id}.</summary>
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}")]
         public string OrganizationId
         {

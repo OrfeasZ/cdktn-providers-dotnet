@@ -101,6 +101,12 @@ namespace cloudflare.DataCloudflareAiSearchInstances
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "engineVersion", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double EngineVersion
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "fusionMethod", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string FusionMethod
         {
@@ -117,6 +123,18 @@ namespace cloudflare.DataCloudflareAiSearchInstances
         public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "indexingOptions", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAiSearchInstances.DataCloudflareAiSearchInstancesResultIndexingOptionsOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareAiSearchInstances.DataCloudflareAiSearchInstancesResultIndexingOptionsOutputReference IndexingOptions
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareAiSearchInstances.DataCloudflareAiSearchInstancesResultIndexingOptionsOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "indexMethod", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAiSearchInstances.DataCloudflareAiSearchInstancesResultIndexMethodOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareAiSearchInstances.DataCloudflareAiSearchInstancesResultIndexMethodOutputReference IndexMethod
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareAiSearchInstances.DataCloudflareAiSearchInstancesResultIndexMethodOutputReference>()!;
         }
 
         [JsiiProperty(name: "lastActivity", typeJson: "{\"primitive\":\"string\"}")]
@@ -145,6 +163,12 @@ namespace cloudflare.DataCloudflareAiSearchInstances
 
         [JsiiProperty(name: "modifiedBy", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ModifiedBy
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Namespace
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -221,6 +245,12 @@ namespace cloudflare.DataCloudflareAiSearchInstances
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "syncInterval", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double SyncInterval
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "tokenId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TokenId
         {
@@ -229,12 +259,6 @@ namespace cloudflare.DataCloudflareAiSearchInstances
 
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Type
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "vectorizeName", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string VectorizeName
         {
             get => GetInstanceProperty<string>()!;
         }

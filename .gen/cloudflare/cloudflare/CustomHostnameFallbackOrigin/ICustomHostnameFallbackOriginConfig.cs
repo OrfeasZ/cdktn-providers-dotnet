@@ -9,7 +9,7 @@ namespace cloudflare.CustomHostnameFallbackOrigin
     {
         /// <summary>Your origin hostname that requests to your custom hostnames will be sent to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_hostname_fallback_origin#origin CustomHostnameFallbackOrigin#origin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_hostname_fallback_origin#origin CustomHostnameFallbackOrigin#origin}
         /// </remarks>
         [JsiiProperty(name: "origin", typeJson: "{\"primitive\":\"string\"}")]
         string Origin
@@ -19,7 +19,7 @@ namespace cloudflare.CustomHostnameFallbackOrigin
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_hostname_fallback_origin#zone_id CustomHostnameFallbackOrigin#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_hostname_fallback_origin#zone_id CustomHostnameFallbackOrigin#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
@@ -36,7 +36,7 @@ namespace cloudflare.CustomHostnameFallbackOrigin
 
             /// <summary>Your origin hostname that requests to your custom hostnames will be sent to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_hostname_fallback_origin#origin CustomHostnameFallbackOrigin#origin}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_hostname_fallback_origin#origin CustomHostnameFallbackOrigin#origin}
             /// </remarks>
             [JsiiProperty(name: "origin", typeJson: "{\"primitive\":\"string\"}")]
             public string Origin
@@ -46,7 +46,7 @@ namespace cloudflare.CustomHostnameFallbackOrigin
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_hostname_fallback_origin#zone_id CustomHostnameFallbackOrigin#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_hostname_fallback_origin#zone_id CustomHostnameFallbackOrigin#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId

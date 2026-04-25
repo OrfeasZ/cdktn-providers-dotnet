@@ -11,7 +11,7 @@ namespace cloudflare.CustomHostname
     {
         /// <summary>If a custom uploaded certificate is used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_hostname#custom_certificate CustomHostname#custom_certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_hostname#custom_certificate CustomHostname#custom_certificate}
         /// </remarks>
         [JsiiProperty(name: "customCertificate", typeJson: "{\"primitive\":\"string\"}")]
         public string CustomCertificate
@@ -22,7 +22,7 @@ namespace cloudflare.CustomHostname
 
         /// <summary>The key for a custom uploaded certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/custom_hostname#custom_key CustomHostname#custom_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_hostname#custom_key CustomHostname#custom_key}
         /// </remarks>
         [JsiiProperty(name: "customKey", typeJson: "{\"primitive\":\"string\"}")]
         public string CustomKey

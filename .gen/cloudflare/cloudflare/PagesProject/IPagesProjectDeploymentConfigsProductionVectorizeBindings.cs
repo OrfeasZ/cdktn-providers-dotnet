@@ -7,7 +7,7 @@ namespace cloudflare.PagesProject
     [JsiiInterface(nativeType: typeof(IPagesProjectDeploymentConfigsProductionVectorizeBindings), fullyQualifiedName: "cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionVectorizeBindings")]
     public interface IPagesProjectDeploymentConfigsProductionVectorizeBindings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/pages_project#index_name PagesProject#index_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pages_project#index_name PagesProject#index_name}.</summary>
         [JsiiProperty(name: "indexName", typeJson: "{\"primitive\":\"string\"}")]
         string IndexName
         {
@@ -21,7 +21,7 @@ namespace cloudflare.PagesProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/pages_project#index_name PagesProject#index_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pages_project#index_name PagesProject#index_name}.</summary>
             [JsiiProperty(name: "indexName", typeJson: "{\"primitive\":\"string\"}")]
             public string IndexName
             {

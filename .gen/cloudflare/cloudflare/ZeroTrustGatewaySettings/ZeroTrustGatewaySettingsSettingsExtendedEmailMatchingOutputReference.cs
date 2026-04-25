@@ -39,22 +39,22 @@ namespace cloudflare.ZeroTrustGatewaySettings
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetReadOnly")]
-        public virtual void ResetReadOnly()
+        [JsiiProperty(name: "readOnly", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable ReadOnly
         {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
-        [JsiiMethod(name: "resetSourceAccount")]
-        public virtual void ResetSourceAccount()
+        [JsiiProperty(name: "sourceAccount", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SourceAccount
         {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+            get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiMethod(name: "resetVersion")]
-        public virtual void ResetVersion()
+        [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Version
         {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiOptional]
@@ -62,27 +62,6 @@ namespace cloudflare.ZeroTrustGatewaySettings
         public virtual object? EnabledInput
         {
             get => GetInstanceProperty<object?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "readOnlyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? ReadOnlyInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "sourceAccountInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? SourceAccountInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "versionInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public virtual double? VersionInput
-        {
-            get => GetInstanceProperty<double?>();
         }
 
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -110,47 +89,6 @@ namespace cloudflare.ZeroTrustGatewaySettings
                 }
                 SetInstanceProperty(value);
             }
-        }
-
-        [JsiiProperty(name: "readOnly", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public virtual object ReadOnly
-        {
-            get => GetInstanceProperty<object>()!;
-            set
-            {
-                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-                {
-                    switch (value)
-                    {
-                        case bool cast_cd4240:
-                            break;
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
-                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
-                            // Not enough information to type-check...
-                            break;
-                        case null:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
-                        default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
-                    }
-                }
-                SetInstanceProperty(value);
-            }
-        }
-
-        [JsiiProperty(name: "sourceAccount", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string SourceAccount
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double Version
-        {
-            get => GetInstanceProperty<double>()!;
-            set => SetInstanceProperty(value);
         }
 
         [JsiiOptional]

@@ -9,23 +9,24 @@ namespace cloudflare.DataCloudflareAccountPermissionGroup
     [JsiiByValue(fqn: "cloudflare.dataCloudflareAccountPermissionGroup.DataCloudflareAccountPermissionGroupConfig")]
     public class DataCloudflareAccountPermissionGroupConfig : cloudflare.DataCloudflareAccountPermissionGroup.IDataCloudflareAccountPermissionGroupConfig
     {
-        /// <summary>Account identifier tag.</summary>
+        /// <summary>Permission Group identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/account_permission_group#account_id DataCloudflareAccountPermissionGroup#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/account_permission_group#permission_group_id DataCloudflareAccountPermissionGroup#permission_group_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiProperty(name: "permissionGroupId", typeJson: "{\"primitive\":\"string\"}")]
+        public string PermissionGroupId
         {
             get;
             set;
         }
 
-        /// <summary>Permission Group identifier tag.</summary>
+        /// <summary>Account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/account_permission_group#permission_group_id DataCloudflareAccountPermissionGroup#permission_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/account_permission_group#account_id DataCloudflareAccountPermissionGroup#account_id}
         /// </remarks>
-        [JsiiProperty(name: "permissionGroupId", typeJson: "{\"primitive\":\"string\"}")]
-        public string PermissionGroupId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortal
     {
         /// <summary>Search by id, name, hostname.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zero_trust_access_ai_controls_mcp_portal#search DataCloudflareZeroTrustAccessAiControlsMcpPortal#search}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_access_ai_controls_mcp_portal#search DataCloudflareZeroTrustAccessAiControlsMcpPortal#search}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "search", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

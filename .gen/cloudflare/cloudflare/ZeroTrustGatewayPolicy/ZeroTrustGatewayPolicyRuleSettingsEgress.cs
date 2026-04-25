@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
     {
         /// <summary>Specify the IPv4 address to use for egress.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#ipv4 ZeroTrustGatewayPolicy#ipv4}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#ipv4 ZeroTrustGatewayPolicy#ipv4}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipv4", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         /// <remarks>
         /// Set '0.0.0.0' to indicate local egress via WARP IPs.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#ipv4_fallback ZeroTrustGatewayPolicy#ipv4_fallback}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#ipv4_fallback ZeroTrustGatewayPolicy#ipv4_fallback}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipv4Fallback", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -35,7 +35,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         /// <summary>Specify the IPv6 range to use for egress.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_gateway_policy#ipv6 ZeroTrustGatewayPolicy#ipv6}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_gateway_policy#ipv6 ZeroTrustGatewayPolicy#ipv6}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipv6", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

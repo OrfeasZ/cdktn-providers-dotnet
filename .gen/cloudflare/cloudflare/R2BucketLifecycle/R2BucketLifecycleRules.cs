@@ -11,7 +11,7 @@ namespace cloudflare.R2BucketLifecycle
     {
         /// <summary>Conditions that apply to all transitions of this rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_lifecycle#conditions R2BucketLifecycle#conditions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_lifecycle#conditions R2BucketLifecycle#conditions}
         /// </remarks>
         [JsiiProperty(name: "conditions", typeJson: "{\"fqn\":\"cloudflare.r2BucketLifecycle.R2BucketLifecycleRulesConditions\"}")]
         public cloudflare.R2BucketLifecycle.IR2BucketLifecycleRulesConditions Conditions
@@ -24,7 +24,7 @@ namespace cloudflare.R2BucketLifecycle
 
         /// <summary>Whether or not this rule is in effect.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_lifecycle#enabled R2BucketLifecycle#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_lifecycle#enabled R2BucketLifecycle#enabled}
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object Enabled
@@ -55,7 +55,7 @@ namespace cloudflare.R2BucketLifecycle
 
         /// <summary>Unique identifier for this rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_lifecycle#id R2BucketLifecycle#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_lifecycle#id R2BucketLifecycle#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,7 +69,7 @@ namespace cloudflare.R2BucketLifecycle
 
         /// <summary>Transition to abort ongoing multipart uploads.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_lifecycle#abort_multipart_uploads_transition R2BucketLifecycle#abort_multipart_uploads_transition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_lifecycle#abort_multipart_uploads_transition R2BucketLifecycle#abort_multipart_uploads_transition}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "abortMultipartUploadsTransition", typeJson: "{\"fqn\":\"cloudflare.r2BucketLifecycle.R2BucketLifecycleRulesAbortMultipartUploadsTransition\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace cloudflare.R2BucketLifecycle
 
         /// <summary>Transition to delete objects.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_lifecycle#delete_objects_transition R2BucketLifecycle#delete_objects_transition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_lifecycle#delete_objects_transition R2BucketLifecycle#delete_objects_transition}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deleteObjectsTransition", typeJson: "{\"fqn\":\"cloudflare.r2BucketLifecycle.R2BucketLifecycleRulesDeleteObjectsTransition\"}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace cloudflare.R2BucketLifecycle
 
         /// <summary>Transitions to change the storage class of objects.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/r2_bucket_lifecycle#storage_class_transitions R2BucketLifecycle#storage_class_transitions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/r2_bucket_lifecycle#storage_class_transitions R2BucketLifecycle#storage_class_transitions}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "storageClassTransitions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.r2BucketLifecycle.R2BucketLifecycleRulesStorageClassTransitions\"},\"kind\":\"array\"}}]}}", isOptional: true)]

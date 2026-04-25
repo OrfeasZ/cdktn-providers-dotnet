@@ -7,24 +7,14 @@ namespace cloudflare.MagicTransitSiteAcl
     [JsiiInterface(nativeType: typeof(IMagicTransitSiteAclConfig), fullyQualifiedName: "cloudflare.magicTransitSiteAcl.MagicTransitSiteAclConfig")]
     public interface IMagicTransitSiteAclConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#account_id MagicTransitSiteAcl#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
-        {
-            get;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#lan_1 MagicTransitSiteAcl#lan_1}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#lan_1 MagicTransitSiteAcl#lan_1}.</summary>
         [JsiiProperty(name: "lan1", typeJson: "{\"fqn\":\"cloudflare.magicTransitSiteAcl.MagicTransitSiteAclLan1\"}")]
         cloudflare.MagicTransitSiteAcl.IMagicTransitSiteAclLan1 Lan1
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#lan_2 MagicTransitSiteAcl#lan_2}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#lan_2 MagicTransitSiteAcl#lan_2}.</summary>
         [JsiiProperty(name: "lan2", typeJson: "{\"fqn\":\"cloudflare.magicTransitSiteAcl.MagicTransitSiteAclLan2\"}")]
         cloudflare.MagicTransitSiteAcl.IMagicTransitSiteAclLan2 Lan2
         {
@@ -33,7 +23,7 @@ namespace cloudflare.MagicTransitSiteAcl
 
         /// <summary>The name of the ACL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#name MagicTransitSiteAcl#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#name MagicTransitSiteAcl#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -43,7 +33,7 @@ namespace cloudflare.MagicTransitSiteAcl
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#site_id MagicTransitSiteAcl#site_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#site_id MagicTransitSiteAcl#site_id}
         /// </remarks>
         [JsiiProperty(name: "siteId", typeJson: "{\"primitive\":\"string\"}")]
         string SiteId
@@ -51,9 +41,23 @@ namespace cloudflare.MagicTransitSiteAcl
             get;
         }
 
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#account_id MagicTransitSiteAcl#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AccountId
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>Description for the ACL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#description MagicTransitSiteAcl#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#description MagicTransitSiteAcl#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -69,7 +73,7 @@ namespace cloudflare.MagicTransitSiteAcl
         /// <remarks>
         /// If set to "false", the policy will forward traffic to Cloudflare. If set to "true", the policy will forward traffic locally on the Magic Connector. If not included in request, will default to false.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#forward_locally MagicTransitSiteAcl#forward_locally}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#forward_locally MagicTransitSiteAcl#forward_locally}
         /// </remarks>
         [JsiiProperty(name: "forwardLocally", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -81,7 +85,7 @@ namespace cloudflare.MagicTransitSiteAcl
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#protocols MagicTransitSiteAcl#protocols}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#protocols MagicTransitSiteAcl#protocols}.</summary>
         [JsiiProperty(name: "protocols", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Protocols
@@ -96,7 +100,7 @@ namespace cloudflare.MagicTransitSiteAcl
         /// <remarks>
         /// If set to "false", the policy will allow bidirectional traffic. If set to "true", the policy will only allow traffic in one direction. If not included in request, will default to false.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#unidirectional MagicTransitSiteAcl#unidirectional}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#unidirectional MagicTransitSiteAcl#unidirectional}
         /// </remarks>
         [JsiiProperty(name: "unidirectional", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -115,24 +119,14 @@ namespace cloudflare.MagicTransitSiteAcl
             {
             }
 
-            /// <summary>Identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#account_id MagicTransitSiteAcl#account_id}
-            /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#lan_1 MagicTransitSiteAcl#lan_1}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#lan_1 MagicTransitSiteAcl#lan_1}.</summary>
             [JsiiProperty(name: "lan1", typeJson: "{\"fqn\":\"cloudflare.magicTransitSiteAcl.MagicTransitSiteAclLan1\"}")]
             public cloudflare.MagicTransitSiteAcl.IMagicTransitSiteAclLan1 Lan1
             {
                 get => GetInstanceProperty<cloudflare.MagicTransitSiteAcl.IMagicTransitSiteAclLan1>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#lan_2 MagicTransitSiteAcl#lan_2}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#lan_2 MagicTransitSiteAcl#lan_2}.</summary>
             [JsiiProperty(name: "lan2", typeJson: "{\"fqn\":\"cloudflare.magicTransitSiteAcl.MagicTransitSiteAclLan2\"}")]
             public cloudflare.MagicTransitSiteAcl.IMagicTransitSiteAclLan2 Lan2
             {
@@ -141,7 +135,7 @@ namespace cloudflare.MagicTransitSiteAcl
 
             /// <summary>The name of the ACL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#name MagicTransitSiteAcl#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#name MagicTransitSiteAcl#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -151,7 +145,7 @@ namespace cloudflare.MagicTransitSiteAcl
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#site_id MagicTransitSiteAcl#site_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#site_id MagicTransitSiteAcl#site_id}
             /// </remarks>
             [JsiiProperty(name: "siteId", typeJson: "{\"primitive\":\"string\"}")]
             public string SiteId
@@ -159,9 +153,20 @@ namespace cloudflare.MagicTransitSiteAcl
                 get => GetInstanceProperty<string>()!;
             }
 
+            /// <summary>Identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#account_id MagicTransitSiteAcl#account_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
             /// <summary>Description for the ACL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#description MagicTransitSiteAcl#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#description MagicTransitSiteAcl#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -174,7 +179,7 @@ namespace cloudflare.MagicTransitSiteAcl
             /// <remarks>
             /// If set to "false", the policy will forward traffic to Cloudflare. If set to "true", the policy will forward traffic locally on the Magic Connector. If not included in request, will default to false.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#forward_locally MagicTransitSiteAcl#forward_locally}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#forward_locally MagicTransitSiteAcl#forward_locally}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "forwardLocally", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -183,7 +188,7 @@ namespace cloudflare.MagicTransitSiteAcl
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#protocols MagicTransitSiteAcl#protocols}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#protocols MagicTransitSiteAcl#protocols}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "protocols", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Protocols
@@ -195,7 +200,7 @@ namespace cloudflare.MagicTransitSiteAcl
             /// <remarks>
             /// If set to "false", the policy will allow bidirectional traffic. If set to "true", the policy will only allow traffic in one direction. If not included in request, will default to false.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/magic_transit_site_acl#unidirectional MagicTransitSiteAcl#unidirectional}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/magic_transit_site_acl#unidirectional MagicTransitSiteAcl#unidirectional}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "unidirectional", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

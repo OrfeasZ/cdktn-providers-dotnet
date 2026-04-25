@@ -9,23 +9,24 @@ namespace cloudflare.DataCloudflareR2Bucket
     [JsiiByValue(fqn: "cloudflare.dataCloudflareR2Bucket.DataCloudflareR2BucketConfig")]
     public class DataCloudflareR2BucketConfig : cloudflare.DataCloudflareR2Bucket.IDataCloudflareR2BucketConfig
     {
-        /// <summary>Account ID.</summary>
+        /// <summary>Name of the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/r2_bucket#account_id DataCloudflareR2Bucket#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/r2_bucket#bucket_name DataCloudflareR2Bucket#bucket_name}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
+        public string BucketName
         {
             get;
             set;
         }
 
-        /// <summary>Name of the bucket.</summary>
+        /// <summary>Account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/r2_bucket#bucket_name DataCloudflareR2Bucket#bucket_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/r2_bucket#account_id DataCloudflareR2Bucket#account_id}
         /// </remarks>
-        [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
-        public string BucketName
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;

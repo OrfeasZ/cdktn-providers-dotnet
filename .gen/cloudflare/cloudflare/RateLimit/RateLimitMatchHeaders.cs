@@ -9,7 +9,7 @@ namespace cloudflare.RateLimit
     {
         /// <summary>The name of the response header to match.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/rate_limit#name RateLimit#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/rate_limit#name RateLimit#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace cloudflare.RateLimit
 
         /// <summary>The operator used when matching: `eq` means "equal" and `ne` means "not equal". Available values: "eq", "ne".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/rate_limit#op RateLimit#op}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/rate_limit#op RateLimit#op}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "op", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace cloudflare.RateLimit
 
         /// <summary>The value of the response header, which must match exactly.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/rate_limit#value RateLimit#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/rate_limit#value RateLimit#value}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

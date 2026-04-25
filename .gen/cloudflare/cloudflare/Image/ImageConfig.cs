@@ -9,20 +9,9 @@ namespace cloudflare.Image
     [JsiiByValue(fqn: "cloudflare.image.ImageConfig")]
     public class ImageConfig : cloudflare.Image.IImageConfig
     {
-        /// <summary>Account identifier tag.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/image#account_id Image#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
-        {
-            get;
-            set;
-        }
-
         /// <summary>An optional custom unique identifier for your image.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/image#id Image#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/image#id Image#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,9 +23,21 @@ namespace cloudflare.Image
             set;
         }
 
+        /// <summary>Account identifier tag.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/image#account_id Image#account_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
+        {
+            get;
+            set;
+        }
+
         /// <summary>Can set the creator field with an internal user ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/image#creator Image#creator}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/image#creator Image#creator}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "creator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -48,7 +49,7 @@ namespace cloudflare.Image
 
         /// <summary>An image binary data. Only needed when type is uploading a file.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/image#file Image#file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/image#file Image#file}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "file", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -60,7 +61,7 @@ namespace cloudflare.Image
 
         /// <summary>User modifiable key-value store. Can use used for keeping references to another system of record for managing images.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/image#metadata Image#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/image#metadata Image#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -74,7 +75,7 @@ namespace cloudflare.Image
 
         /// <summary>Indicates whether the image requires a signature token for the access.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/image#require_signed_urls Image#require_signed_urls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/image#require_signed_urls Image#require_signed_urls}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "requireSignedUrls", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -106,7 +107,7 @@ namespace cloudflare.Image
 
         /// <summary>A URL to fetch an image from origin. Only needed when type is uploading from a URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/image#url Image#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/image#url Image#url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

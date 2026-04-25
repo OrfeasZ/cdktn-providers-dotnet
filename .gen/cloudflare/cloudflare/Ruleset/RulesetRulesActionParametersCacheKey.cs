@@ -11,7 +11,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to separate cached content based on the visitor's device type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#cache_by_device_type Ruleset#cache_by_device_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#cache_by_device_type Ruleset#cache_by_device_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cacheByDeviceType", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to protect from web cache deception attacks, while allowing static assets to be cached.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#cache_deception_armor Ruleset#cache_deception_armor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#cache_deception_armor Ruleset#cache_deception_armor}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cacheDeceptionArmor", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -77,7 +77,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Which components of the request are included or excluded from the cache key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#custom_key Ruleset#custom_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#custom_key Ruleset#custom_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customKey", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKey\"}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to treat requests with the same query parameters the same, regardless of the order those query parameters are in.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#ignore_query_strings_order Ruleset#ignore_query_strings_order}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#ignore_query_strings_order Ruleset#ignore_query_strings_order}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ignoreQueryStringsOrder", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

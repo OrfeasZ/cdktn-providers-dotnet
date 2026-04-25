@@ -9,7 +9,7 @@ namespace cloudflare.Ruleset
     {
         /// <summary>The content to return.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#content Ruleset#content}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#content Ruleset#content}
         /// </remarks>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         string Content
@@ -19,7 +19,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The type of the content to return.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#content_type Ruleset#content_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#content_type Ruleset#content_type}
         /// </remarks>
         [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}")]
         string ContentType
@@ -29,7 +29,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The status code to return.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#status_code Ruleset#status_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#status_code Ruleset#status_code}
         /// </remarks>
         [JsiiProperty(name: "statusCode", typeJson: "{\"primitive\":\"number\"}")]
         double StatusCode
@@ -46,7 +46,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The content to return.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#content Ruleset#content}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#content Ruleset#content}
             /// </remarks>
             [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
             public string Content
@@ -56,7 +56,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The type of the content to return.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#content_type Ruleset#content_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#content_type Ruleset#content_type}
             /// </remarks>
             [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}")]
             public string ContentType
@@ -66,7 +66,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The status code to return.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#status_code Ruleset#status_code}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#status_code Ruleset#status_code}
             /// </remarks>
             [JsiiProperty(name: "statusCode", typeJson: "{\"primitive\":\"number\"}")]
             public double StatusCode

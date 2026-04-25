@@ -53,6 +53,18 @@ namespace cloudflare.DataCloudflareMagicTransitSiteLans
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "isBreakout", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsBreakout
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "isPrioritized", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsPrioritized
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
         {

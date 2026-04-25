@@ -4,19 +4,19 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.ZeroTrustNetworkHostnameRoute
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_network_hostname_route cloudflare_zero_trust_network_hostname_route}.</summary>
-    [JsiiClass(nativeType: typeof(cloudflare.ZeroTrustNetworkHostnameRoute.ZeroTrustNetworkHostnameRoute), fullyQualifiedName: "cloudflare.zeroTrustNetworkHostnameRoute.ZeroTrustNetworkHostnameRoute", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.zeroTrustNetworkHostnameRoute.ZeroTrustNetworkHostnameRouteConfig\"}}]")]
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_network_hostname_route cloudflare_zero_trust_network_hostname_route}.</summary>
+    [JsiiClass(nativeType: typeof(cloudflare.ZeroTrustNetworkHostnameRoute.ZeroTrustNetworkHostnameRoute), fullyQualifiedName: "cloudflare.zeroTrustNetworkHostnameRoute.ZeroTrustNetworkHostnameRoute", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"cloudflare.zeroTrustNetworkHostnameRoute.ZeroTrustNetworkHostnameRouteConfig\"}}]")]
     public class ZeroTrustNetworkHostnameRoute : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_network_hostname_route cloudflare_zero_trust_network_hostname_route} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_network_hostname_route cloudflare_zero_trust_network_hostname_route} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
-        public ZeroTrustNetworkHostnameRoute(Constructs.Construct scope, string id, cloudflare.ZeroTrustNetworkHostnameRoute.IZeroTrustNetworkHostnameRouteConfig config): base(_MakeDeputyProps(scope, id, config))
+        public ZeroTrustNetworkHostnameRoute(Constructs.Construct scope, string id, cloudflare.ZeroTrustNetworkHostnameRoute.IZeroTrustNetworkHostnameRouteConfig? config = null): base(_MakeDeputyProps(scope, id, config))
         {
         }
 
         [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, cloudflare.ZeroTrustNetworkHostnameRoute.IZeroTrustNetworkHostnameRouteConfig config)
+        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, cloudflare.ZeroTrustNetworkHostnameRoute.IZeroTrustNetworkHostnameRouteConfig? config = null)
         {
             return new DeputyProps(new object?[]{scope, id, config});
         }
@@ -40,10 +40,16 @@ namespace cloudflare.ZeroTrustNetworkHostnameRoute
         /// <param name="importToId">The construct id used in the generated config for the ZeroTrustNetworkHostnameRoute to import.</param>
         /// <param name="importFromId">The id of the existing ZeroTrustNetworkHostnameRoute that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ZeroTrustNetworkHostnameRoute to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ZeroTrustNetworkHostnameRoute to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_network_hostname_route#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ZeroTrustNetworkHostnameRoute that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ZeroTrustNetworkHostnameRoute to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ZeroTrustNetworkHostnameRoute to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_network_hostname_route#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ZeroTrustNetworkHostnameRoute that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ZeroTrustNetworkHostnameRoute to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.ZeroTrustNetworkHostnameRoute.ZeroTrustNetworkHostnameRoute), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "resetAccountId")]
+        public virtual void ResetAccountId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetComment")]

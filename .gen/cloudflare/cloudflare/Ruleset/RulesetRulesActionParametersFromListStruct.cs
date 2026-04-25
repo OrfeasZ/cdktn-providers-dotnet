@@ -11,7 +11,7 @@ namespace cloudflare.Ruleset
     {
         /// <summary>An expression that evaluates to the list lookup key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#key Ruleset#key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#key Ruleset#key}
         /// </remarks>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
@@ -22,7 +22,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The name of the list to match against.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/ruleset#name Ruleset#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ruleset#name Ruleset#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name

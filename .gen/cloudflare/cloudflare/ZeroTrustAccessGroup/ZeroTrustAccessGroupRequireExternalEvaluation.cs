@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustAccessGroup
     {
         /// <summary>The API endpoint containing your business logic.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#evaluate_url ZeroTrustAccessGroup#evaluate_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#evaluate_url ZeroTrustAccessGroup#evaluate_url}
         /// </remarks>
         [JsiiProperty(name: "evaluateUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string EvaluateUrl
@@ -22,7 +22,7 @@ namespace cloudflare.ZeroTrustAccessGroup
 
         /// <summary>The API endpoint containing the key that Access uses to verify that the response came from your API.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_group#keys_url ZeroTrustAccessGroup#keys_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_group#keys_url ZeroTrustAccessGroup#keys_url}
         /// </remarks>
         [JsiiProperty(name: "keysUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string KeysUrl

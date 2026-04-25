@@ -7,7 +7,7 @@ namespace cloudflare.ZeroTrustDlpEntry
     [JsiiInterface(nativeType: typeof(IZeroTrustDlpEntryPattern), fullyQualifiedName: "cloudflare.zeroTrustDlpEntry.ZeroTrustDlpEntryPattern")]
     public interface IZeroTrustDlpEntryPattern
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dlp_entry#regex ZeroTrustDlpEntry#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dlp_entry#regex ZeroTrustDlpEntry#regex}.</summary>
         [JsiiProperty(name: "regex", typeJson: "{\"primitive\":\"string\"}")]
         string Regex
         {
@@ -16,7 +16,7 @@ namespace cloudflare.ZeroTrustDlpEntry
 
         /// <summary>Available values: "luhn".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dlp_entry#validation ZeroTrustDlpEntry#validation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dlp_entry#validation ZeroTrustDlpEntry#validation}
         /// </remarks>
         [JsiiProperty(name: "validation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace cloudflare.ZeroTrustDlpEntry
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dlp_entry#regex ZeroTrustDlpEntry#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dlp_entry#regex ZeroTrustDlpEntry#regex}.</summary>
             [JsiiProperty(name: "regex", typeJson: "{\"primitive\":\"string\"}")]
             public string Regex
             {
@@ -44,7 +44,7 @@ namespace cloudflare.ZeroTrustDlpEntry
 
             /// <summary>Available values: "luhn".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_dlp_entry#validation ZeroTrustDlpEntry#validation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dlp_entry#validation ZeroTrustDlpEntry#validation}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "validation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

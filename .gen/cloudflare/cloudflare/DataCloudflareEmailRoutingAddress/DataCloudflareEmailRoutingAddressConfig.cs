@@ -4,17 +4,16 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareEmailRoutingAddress
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareEmailRoutingAddress.DataCloudflareEmailRoutingAddressConfig")]
     public class DataCloudflareEmailRoutingAddressConfig : cloudflare.DataCloudflareEmailRoutingAddress.IDataCloudflareEmailRoutingAddressConfig
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/email_routing_address#account_id DataCloudflareEmailRoutingAddress#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/email_routing_address#account_id DataCloudflareEmailRoutingAddress#account_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;
@@ -22,7 +21,7 @@ namespace cloudflare.DataCloudflareEmailRoutingAddress
 
         /// <summary>Destination address identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/email_routing_address#destination_address_identifier DataCloudflareEmailRoutingAddress#destination_address_identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/email_routing_address#destination_address_identifier DataCloudflareEmailRoutingAddress#destination_address_identifier}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "destinationAddressIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -32,7 +31,7 @@ namespace cloudflare.DataCloudflareEmailRoutingAddress
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/email_routing_address#filter DataCloudflareEmailRoutingAddress#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/email_routing_address#filter DataCloudflareEmailRoutingAddress#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareEmailRoutingAddress.DataCloudflareEmailRoutingAddressFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareEmailRoutingAddress.IDataCloudflareEmailRoutingAddressFilter? Filter

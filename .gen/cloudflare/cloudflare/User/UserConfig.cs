@@ -9,7 +9,7 @@ namespace cloudflare.User
     {
         /// <summary>The country in which the user lives.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/user#country User#country}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user#country User#country}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace cloudflare.User
 
         /// <summary>User's first name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/user#first_name User#first_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user#first_name User#first_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace cloudflare.User
 
         /// <summary>User's last name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/user#last_name User#last_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user#last_name User#last_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace cloudflare.User
 
         /// <summary>User's telephone number.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/user#telephone User#telephone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user#telephone User#telephone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "telephone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace cloudflare.User
 
         /// <summary>The zipcode or postal code where the user lives.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/user#zipcode User#zipcode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user#zipcode User#zipcode}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zipcode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,17 +9,9 @@ namespace cloudflare.DataCloudflareLoadBalancer
     [JsiiByValue(fqn: "cloudflare.dataCloudflareLoadBalancer.DataCloudflareLoadBalancerConfig")]
     public class DataCloudflareLoadBalancerConfig : cloudflare.DataCloudflareLoadBalancer.IDataCloudflareLoadBalancerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/load_balancer#load_balancer_id DataCloudflareLoadBalancer#load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/load_balancer#load_balancer_id DataCloudflareLoadBalancer#load_balancer_id}.</summary>
         [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         public string LoadBalancerId
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/load_balancer#zone_id DataCloudflareLoadBalancer#zone_id}.</summary>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
         {
             get;
             set;
@@ -31,7 +23,7 @@ namespace cloudflare.DataCloudflareLoadBalancer
         /// <remarks>
         /// Any PoPs not explicitly defined will fall back to using the corresponding country_pool, then region_pool mapping if it exists else to default_pools.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/load_balancer#pop_pools DataCloudflareLoadBalancer#pop_pools}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/load_balancer#pop_pools DataCloudflareLoadBalancer#pop_pools}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "popPools", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -67,7 +59,7 @@ namespace cloudflare.DataCloudflareLoadBalancer
         /// <remarks>
         /// Any regions not explicitly defined will fall back to using default_pools.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/load_balancer#region_pools DataCloudflareLoadBalancer#region_pools}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/load_balancer#region_pools DataCloudflareLoadBalancer#region_pools}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regionPools", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -95,6 +87,15 @@ namespace cloudflare.DataCloudflareLoadBalancer
                 }
                 _regionPools = value;
             }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/load_balancer#zone_id DataCloudflareLoadBalancer#zone_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
+        {
+            get;
+            set;
         }
 
         private object? _connection;

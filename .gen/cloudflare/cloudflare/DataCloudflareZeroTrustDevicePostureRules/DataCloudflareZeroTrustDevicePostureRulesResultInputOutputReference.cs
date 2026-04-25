@@ -39,6 +39,12 @@ namespace cloudflare.DataCloudflareZeroTrustDevicePostureRules
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "authState", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] AuthState
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CertificateId
         {

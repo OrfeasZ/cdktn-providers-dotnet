@@ -9,7 +9,7 @@ namespace cloudflare.AccountToken
     {
         /// <summary>Allow or deny operations against the resources. Available values: "allow", "deny".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/account_token#effect AccountToken#effect}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_token#effect AccountToken#effect}
         /// </remarks>
         [JsiiProperty(name: "effect", typeJson: "{\"primitive\":\"string\"}")]
         string Effect
@@ -19,7 +19,7 @@ namespace cloudflare.AccountToken
 
         /// <summary>A set of permission groups that are specified to the policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/account_token#permission_groups AccountToken#permission_groups}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_token#permission_groups AccountToken#permission_groups}
         /// </remarks>
         [JsiiProperty(name: "permissionGroups", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.accountToken.AccountTokenPoliciesPermissionGroups\"},\"kind\":\"array\"}}]}}")]
         object PermissionGroups
@@ -29,7 +29,7 @@ namespace cloudflare.AccountToken
 
         /// <summary>A json object representing the resources that are specified to the policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/account_token#resources AccountToken#resources}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_token#resources AccountToken#resources}
         /// </remarks>
         [JsiiProperty(name: "resources", typeJson: "{\"primitive\":\"string\"}")]
         string Resources
@@ -46,7 +46,7 @@ namespace cloudflare.AccountToken
 
             /// <summary>Allow or deny operations against the resources. Available values: "allow", "deny".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/account_token#effect AccountToken#effect}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_token#effect AccountToken#effect}
             /// </remarks>
             [JsiiProperty(name: "effect", typeJson: "{\"primitive\":\"string\"}")]
             public string Effect
@@ -56,7 +56,7 @@ namespace cloudflare.AccountToken
 
             /// <summary>A set of permission groups that are specified to the policy.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/account_token#permission_groups AccountToken#permission_groups}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_token#permission_groups AccountToken#permission_groups}
             /// </remarks>
             [JsiiProperty(name: "permissionGroups", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.accountToken.AccountTokenPoliciesPermissionGroups\"},\"kind\":\"array\"}}]}}")]
             public object PermissionGroups
@@ -66,7 +66,7 @@ namespace cloudflare.AccountToken
 
             /// <summary>A json object representing the resources that are specified to the policy.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/account_token#resources AccountToken#resources}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_token#resources AccountToken#resources}
             /// </remarks>
             [JsiiProperty(name: "resources", typeJson: "{\"primitive\":\"string\"}")]
             public string Resources

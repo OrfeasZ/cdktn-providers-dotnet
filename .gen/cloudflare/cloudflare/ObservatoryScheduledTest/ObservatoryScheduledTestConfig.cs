@@ -11,7 +11,7 @@ namespace cloudflare.ObservatoryScheduledTest
     {
         /// <summary>A URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/observatory_scheduled_test#url ObservatoryScheduledTest#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/observatory_scheduled_test#url ObservatoryScheduledTest#url}
         /// </remarks>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         public string Url
@@ -20,12 +20,39 @@ namespace cloudflare.ObservatoryScheduledTest
             set;
         }
 
+        /// <summary>The frequency of the scheduled test. Defaults to WEEKLY for free plans, DAILY for paid plans.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/observatory_scheduled_test#frequency ObservatoryScheduledTest#frequency}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "frequency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Frequency
+        {
+            get;
+            set;
+        }
+
+        /// <summary>A test region.</summary>
+        /// <remarks>
+        /// Available values: "asia-east1", "asia-northeast1", "asia-northeast2", "asia-south1", "asia-southeast1", "australia-southeast1", "europe-north1", "europe-southwest1", "europe-west1", "europe-west2", "europe-west3", "europe-west4", "europe-west8", "europe-west9", "me-west1", "southamerica-east1", "us-central1", "us-east1", "us-east4", "us-south1", "us-west1".
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/observatory_scheduled_test#region ObservatoryScheduledTest#region}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Region
+        {
+            get;
+            set;
+        }
+
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/observatory_scheduled_test#zone_id ObservatoryScheduledTest#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/observatory_scheduled_test#zone_id ObservatoryScheduledTest#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
+        [JsiiOptional]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
         {
             get;
             set;

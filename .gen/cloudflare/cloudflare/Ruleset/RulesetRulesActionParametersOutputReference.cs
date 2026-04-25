@@ -422,6 +422,12 @@ namespace cloudflare.Ruleset
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetContentConverter")]
+        public virtual void ResetContentConverter()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetContentType")]
         public virtual void ResetContentType()
         {
@@ -652,6 +658,12 @@ namespace cloudflare.Ruleset
 
         [JsiiMethod(name: "resetReadTimeout")]
         public virtual void ResetReadTimeout()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRedirectsForAiTraining")]
+        public virtual void ResetRedirectsForAiTraining()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -1087,6 +1099,13 @@ namespace cloudflare.Ruleset
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "contentConverterInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? ContentConverterInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "contentInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ContentInput
         {
@@ -1364,6 +1383,13 @@ namespace cloudflare.Ruleset
         public virtual double? ReadTimeoutInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "redirectsForAiTrainingInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? RedirectsForAiTrainingInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -1648,6 +1674,33 @@ namespace cloudflare.Ruleset
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "contentConverter", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object ContentConverter
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
 
         [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}")]
@@ -1988,6 +2041,33 @@ namespace cloudflare.Ruleset
         {
             get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "redirectsForAiTraining", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object RedirectsForAiTraining
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
 
         [JsiiProperty(name: "requestBodyBuffering", typeJson: "{\"primitive\":\"string\"}")]

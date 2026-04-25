@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.ZeroTrustAccessApplication
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application cloudflare_zero_trust_access_application}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application cloudflare_zero_trust_access_application}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplication), fullyQualifiedName: "cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplication", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationConfig\"}}]")]
     public class ZeroTrustAccessApplication : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application cloudflare_zero_trust_access_application} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application cloudflare_zero_trust_access_application} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ZeroTrustAccessApplication(Constructs.Construct scope, string id, cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace cloudflare.ZeroTrustAccessApplication
         /// <param name="importToId">The construct id used in the generated config for the ZeroTrustAccessApplication to import.</param>
         /// <param name="importFromId">The id of the existing ZeroTrustAccessApplication that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ZeroTrustAccessApplication to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ZeroTrustAccessApplication to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/zero_trust_access_application#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ZeroTrustAccessApplication that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ZeroTrustAccessApplication to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ZeroTrustAccessApplication to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_access_application#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ZeroTrustAccessApplication that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ZeroTrustAccessApplication to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplication), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -102,6 +102,12 @@ namespace cloudflare.ZeroTrustAccessApplication
         public virtual void PutLandingPageDesign(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationLandingPageDesign @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationLandingPageDesign)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putOauthConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationOauthConfiguration\"}}]")]
+        public virtual void PutOauthConfiguration(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationOauthConfiguration @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationOauthConfiguration)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putPolicies", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPolicies\"},\"kind\":\"array\"}}]}}}]")]
@@ -294,6 +300,12 @@ namespace cloudflare.ZeroTrustAccessApplication
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetOauthConfiguration")]
+        public virtual void ResetOauthConfiguration()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetOptionsPreflightBypass")]
         public virtual void ResetOptionsPreflightBypass()
         {
@@ -443,6 +455,12 @@ namespace cloudflare.ZeroTrustAccessApplication
         public virtual cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationLandingPageDesignOutputReference LandingPageDesign
         {
             get => GetInstanceProperty<cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationLandingPageDesignOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "oauthConfiguration", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationOauthConfigurationOutputReference\"}")]
+        public virtual cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationOauthConfigurationOutputReference OauthConfiguration
+        {
+            get => GetInstanceProperty<cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationOauthConfigurationOutputReference>()!;
         }
 
         [JsiiProperty(name: "policies", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesList\"}")]
@@ -621,6 +639,13 @@ namespace cloudflare.ZeroTrustAccessApplication
         public virtual string? NameInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "oauthConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationOauthConfiguration\"}]}}", isOptional: true)]
+        public virtual object? OauthConfigurationInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

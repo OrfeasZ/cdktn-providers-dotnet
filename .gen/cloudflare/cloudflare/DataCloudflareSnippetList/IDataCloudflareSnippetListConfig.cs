@@ -7,23 +7,27 @@ namespace cloudflare.DataCloudflareSnippetList
     [JsiiInterface(nativeType: typeof(IDataCloudflareSnippetListConfig), fullyQualifiedName: "cloudflare.dataCloudflareSnippetList.DataCloudflareSnippetListConfig")]
     public interface IDataCloudflareSnippetListConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Use this field to specify the unique ID of the zone.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/snippet_list#zone_id DataCloudflareSnippetList#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
-        {
-            get;
-        }
-
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/snippet_list#max_items DataCloudflareSnippetList#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/snippet_list#max_items DataCloudflareSnippetList#max_items}
         /// </remarks>
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxItems
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Use this field to specify the unique ID of the zone.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/snippet_list#zone_id DataCloudflareSnippetList#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? ZoneId
         {
             get
             {
@@ -38,25 +42,26 @@ namespace cloudflare.DataCloudflareSnippetList
             {
             }
 
-            /// <summary>Use this field to specify the unique ID of the zone.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/snippet_list#zone_id DataCloudflareSnippetList#zone_id}
-            /// </remarks>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>Max items to fetch, default: 1000.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/snippet_list#max_items DataCloudflareSnippetList#max_items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/snippet_list#max_items DataCloudflareSnippetList#max_items}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxItems
             {
                 get => GetInstanceProperty<double?>();
+            }
+
+            /// <summary>Use this field to specify the unique ID of the zone.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/snippet_list#zone_id DataCloudflareSnippetList#zone_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
+            {
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>
