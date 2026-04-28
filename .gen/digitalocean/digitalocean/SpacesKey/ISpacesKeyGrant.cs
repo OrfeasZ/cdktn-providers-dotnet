@@ -9,7 +9,7 @@ namespace digitalocean.SpacesKey
     {
         /// <summary>The name of the bucket to grant the key access to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_key#bucket SpacesKey#bucket}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_key#bucket SpacesKey#bucket}
         /// </remarks>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         string Bucket
@@ -19,7 +19,7 @@ namespace digitalocean.SpacesKey
 
         /// <summary>The permission to grant the key. Valid values are `read`, `readwrite`, or `fullaccess`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_key#permission SpacesKey#permission}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_key#permission SpacesKey#permission}
         /// </remarks>
         [JsiiProperty(name: "permission", typeJson: "{\"primitive\":\"string\"}")]
         string Permission
@@ -36,7 +36,7 @@ namespace digitalocean.SpacesKey
 
             /// <summary>The name of the bucket to grant the key access to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_key#bucket SpacesKey#bucket}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_key#bucket SpacesKey#bucket}
             /// </remarks>
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
             public string Bucket
@@ -46,7 +46,7 @@ namespace digitalocean.SpacesKey
 
             /// <summary>The permission to grant the key. Valid values are `read`, `readwrite`, or `fullaccess`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_key#permission SpacesKey#permission}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_key#permission SpacesKey#permission}
             /// </remarks>
             [JsiiProperty(name: "permission", typeJson: "{\"primitive\":\"string\"}")]
             public string Permission

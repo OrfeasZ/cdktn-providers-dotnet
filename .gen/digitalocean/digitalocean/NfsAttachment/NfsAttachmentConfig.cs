@@ -9,7 +9,7 @@ namespace digitalocean.NfsAttachment
     [JsiiByValue(fqn: "digitalocean.nfsAttachment.NfsAttachmentConfig")]
     public class NfsAttachmentConfig : digitalocean.NfsAttachment.INfsAttachmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/nfs_attachment#region NfsAttachment#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/nfs_attachment#region NfsAttachment#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public string Region
         {
@@ -17,7 +17,7 @@ namespace digitalocean.NfsAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/nfs_attachment#share_id NfsAttachment#share_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/nfs_attachment#share_id NfsAttachment#share_id}.</summary>
         [JsiiProperty(name: "shareId", typeJson: "{\"primitive\":\"string\"}")]
         public string ShareId
         {
@@ -25,7 +25,7 @@ namespace digitalocean.NfsAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/nfs_attachment#vpc_id NfsAttachment#vpc_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/nfs_attachment#vpc_id NfsAttachment#vpc_id}.</summary>
         [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}")]
         public string VpcId
         {
@@ -33,7 +33,7 @@ namespace digitalocean.NfsAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/nfs_attachment#id NfsAttachment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/nfs_attachment#id NfsAttachment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -11,7 +11,7 @@ namespace digitalocean.PartnerAttachment
     {
         /// <summary>The connection bandwidth in Mbps.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/partner_attachment#connection_bandwidth_in_mbps PartnerAttachment#connection_bandwidth_in_mbps}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/partner_attachment#connection_bandwidth_in_mbps PartnerAttachment#connection_bandwidth_in_mbps}
         /// </remarks>
         [JsiiProperty(name: "connectionBandwidthInMbps", typeJson: "{\"primitive\":\"number\"}")]
         public double ConnectionBandwidthInMbps
@@ -22,7 +22,7 @@ namespace digitalocean.PartnerAttachment
 
         /// <summary>The NaaS provider.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/partner_attachment#naas_provider PartnerAttachment#naas_provider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/partner_attachment#naas_provider PartnerAttachment#naas_provider}
         /// </remarks>
         [JsiiProperty(name: "naasProvider", typeJson: "{\"primitive\":\"string\"}")]
         public string NaasProvider
@@ -33,7 +33,7 @@ namespace digitalocean.PartnerAttachment
 
         /// <summary>The name of the Partner Attachment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/partner_attachment#name PartnerAttachment#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/partner_attachment#name PartnerAttachment#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -44,7 +44,7 @@ namespace digitalocean.PartnerAttachment
 
         /// <summary>The region where the Partner Attachment will be created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/partner_attachment#region PartnerAttachment#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/partner_attachment#region PartnerAttachment#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public string Region
@@ -55,7 +55,7 @@ namespace digitalocean.PartnerAttachment
 
         /// <summary>The list of VPC IDs to attach the Partner Attachment to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/partner_attachment#vpc_ids PartnerAttachment#vpc_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/partner_attachment#vpc_ids PartnerAttachment#vpc_ids}
         /// </remarks>
         [JsiiProperty(name: "vpcIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] VpcIds
@@ -66,7 +66,7 @@ namespace digitalocean.PartnerAttachment
 
         /// <summary>bgp block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/partner_attachment#bgp PartnerAttachment#bgp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/partner_attachment#bgp PartnerAttachment#bgp}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bgp", typeJson: "{\"fqn\":\"digitalocean.partnerAttachment.PartnerAttachmentBgp\"}", isOptional: true)]
@@ -78,7 +78,7 @@ namespace digitalocean.PartnerAttachment
 
         /// <summary>The UUID of the Parent Partner Attachment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/partner_attachment#parent_uuid PartnerAttachment#parent_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/partner_attachment#parent_uuid PartnerAttachment#parent_uuid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parentUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -90,7 +90,7 @@ namespace digitalocean.PartnerAttachment
 
         /// <summary>The redundancy zone for the NaaS.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/partner_attachment#redundancy_zone PartnerAttachment#redundancy_zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/partner_attachment#redundancy_zone PartnerAttachment#redundancy_zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "redundancyZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -102,7 +102,7 @@ namespace digitalocean.PartnerAttachment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/partner_attachment#timeouts PartnerAttachment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/partner_attachment#timeouts PartnerAttachment#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"digitalocean.partnerAttachment.PartnerAttachmentTimeouts\"}", isOptional: true)]

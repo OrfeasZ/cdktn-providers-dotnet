@@ -9,7 +9,7 @@ namespace digitalocean.DatabaseUser
     [JsiiByValue(fqn: "digitalocean.databaseUser.DatabaseUserSettingsAcl")]
     public class DatabaseUserSettingsAcl : digitalocean.DatabaseUser.IDatabaseUserSettingsAcl
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_user#permission DatabaseUser#permission}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_user#permission DatabaseUser#permission}.</summary>
         [JsiiProperty(name: "permission", typeJson: "{\"primitive\":\"string\"}")]
         public string Permission
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DatabaseUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_user#topic DatabaseUser#topic}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_user#topic DatabaseUser#topic}.</summary>
         [JsiiProperty(name: "topic", typeJson: "{\"primitive\":\"string\"}")]
         public string Topic
         {

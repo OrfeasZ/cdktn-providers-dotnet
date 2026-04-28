@@ -9,7 +9,7 @@ namespace digitalocean.App
     [JsiiByValue(fqn: "digitalocean.app.AppSpecJobAlert")]
     public class AppSpecJobAlert : digitalocean.App.IAppSpecJobAlert
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#operator App#operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#operator App#operator}.</summary>
         [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}")]
         public string Operator
         {
@@ -17,7 +17,7 @@ namespace digitalocean.App
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#rule App#rule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#rule App#rule}.</summary>
         [JsiiProperty(name: "rule", typeJson: "{\"primitive\":\"string\"}")]
         public string Rule
         {
@@ -25,7 +25,7 @@ namespace digitalocean.App
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#value App#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#value App#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]
         public double Value
         {
@@ -33,7 +33,7 @@ namespace digitalocean.App
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#window App#window}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#window App#window}.</summary>
         [JsiiProperty(name: "window", typeJson: "{\"primitive\":\"string\"}")]
         public string Window
         {
@@ -43,7 +43,7 @@ namespace digitalocean.App
 
         /// <summary>destinations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#destinations App#destinations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#destinations App#destinations}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "destinations", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecJobAlertDestinations\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace digitalocean.App
 
         private object? _disabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#disabled App#disabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#disabled App#disabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "disabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Disabled

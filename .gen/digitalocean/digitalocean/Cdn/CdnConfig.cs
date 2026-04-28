@@ -11,7 +11,7 @@ namespace digitalocean.Cdn
     {
         /// <summary>fully qualified domain name (FQDN) for the origin server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/cdn#origin Cdn#origin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/cdn#origin Cdn#origin}
         /// </remarks>
         [JsiiProperty(name: "origin", typeJson: "{\"primitive\":\"string\"}")]
         public string Origin
@@ -22,7 +22,7 @@ namespace digitalocean.Cdn
 
         /// <summary>ID of a DigitalOcean managed TLS certificate for use with custom domains.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/cdn#certificate_id Cdn#certificate_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/cdn#certificate_id Cdn#certificate_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -32,7 +32,7 @@ namespace digitalocean.Cdn
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/cdn#certificate_name Cdn#certificate_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/cdn#certificate_name Cdn#certificate_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateName
@@ -43,7 +43,7 @@ namespace digitalocean.Cdn
 
         /// <summary>fully qualified domain name (FQDN) for custom subdomain, (requires certificate_id).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/cdn#custom_domain Cdn#custom_domain}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/cdn#custom_domain Cdn#custom_domain}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -53,7 +53,7 @@ namespace digitalocean.Cdn
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/cdn#id Cdn#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/cdn#id Cdn#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,7 +68,7 @@ namespace digitalocean.Cdn
 
         /// <summary>The amount of time the content is cached in the CDN.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/cdn#ttl Cdn#ttl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/cdn#ttl Cdn#ttl}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

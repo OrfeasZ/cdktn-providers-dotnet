@@ -7,14 +7,14 @@ namespace digitalocean.DatabaseUser
     [JsiiInterface(nativeType: typeof(IDatabaseUserSettingsOpensearchAcl), fullyQualifiedName: "digitalocean.databaseUser.DatabaseUserSettingsOpensearchAcl")]
     public interface IDatabaseUserSettingsOpensearchAcl
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_user#index DatabaseUser#index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_user#index DatabaseUser#index}.</summary>
         [JsiiProperty(name: "index", typeJson: "{\"primitive\":\"string\"}")]
         string Index
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_user#permission DatabaseUser#permission}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_user#permission DatabaseUser#permission}.</summary>
         [JsiiProperty(name: "permission", typeJson: "{\"primitive\":\"string\"}")]
         string Permission
         {
@@ -28,14 +28,14 @@ namespace digitalocean.DatabaseUser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_user#index DatabaseUser#index}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_user#index DatabaseUser#index}.</summary>
             [JsiiProperty(name: "index", typeJson: "{\"primitive\":\"string\"}")]
             public string Index
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_user#permission DatabaseUser#permission}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_user#permission DatabaseUser#permission}.</summary>
             [JsiiProperty(name: "permission", typeJson: "{\"primitive\":\"string\"}")]
             public string Permission
             {

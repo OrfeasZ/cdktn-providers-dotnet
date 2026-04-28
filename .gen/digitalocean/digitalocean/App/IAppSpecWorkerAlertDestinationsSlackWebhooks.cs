@@ -9,7 +9,7 @@ namespace digitalocean.App
     {
         /// <summary>The Slack channel to send notifications to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#channel App#channel}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#channel App#channel}
         /// </remarks>
         [JsiiProperty(name: "channel", typeJson: "{\"primitive\":\"string\"}")]
         string Channel
@@ -19,7 +19,7 @@ namespace digitalocean.App
 
         /// <summary>The Slack webhook URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#url App#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#url App#url}
         /// </remarks>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         string Url
@@ -36,7 +36,7 @@ namespace digitalocean.App
 
             /// <summary>The Slack channel to send notifications to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#channel App#channel}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#channel App#channel}
             /// </remarks>
             [JsiiProperty(name: "channel", typeJson: "{\"primitive\":\"string\"}")]
             public string Channel
@@ -46,7 +46,7 @@ namespace digitalocean.App
 
             /// <summary>The Slack webhook URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#url App#url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#url App#url}
             /// </remarks>
             [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
             public string Url

@@ -9,7 +9,7 @@ namespace digitalocean.App
     {
         /// <summary>Datadog API key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#api_key App#api_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#api_key App#api_key}
         /// </remarks>
         [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}")]
         string ApiKey
@@ -19,7 +19,7 @@ namespace digitalocean.App
 
         /// <summary>Datadog HTTP log intake endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#endpoint App#endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#endpoint App#endpoint}
         /// </remarks>
         [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace digitalocean.App
 
             /// <summary>Datadog API key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#api_key App#api_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#api_key App#api_key}
             /// </remarks>
             [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}")]
             public string ApiKey
@@ -50,7 +50,7 @@ namespace digitalocean.App
 
             /// <summary>Datadog HTTP log intake endpoint.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#endpoint App#endpoint}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#endpoint App#endpoint}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

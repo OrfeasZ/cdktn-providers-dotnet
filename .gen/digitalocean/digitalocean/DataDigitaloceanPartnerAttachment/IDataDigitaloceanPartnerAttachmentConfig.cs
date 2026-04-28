@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanPartnerAttachment
     {
         /// <summary>bgp block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/partner_attachment#bgp DataDigitaloceanPartnerAttachment#bgp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/partner_attachment#bgp DataDigitaloceanPartnerAttachment#bgp}
         /// </remarks>
         [JsiiProperty(name: "bgp", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanPartnerAttachment.DataDigitaloceanPartnerAttachmentBgp\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace digitalocean.DataDigitaloceanPartnerAttachment
 
         /// <summary>The ID of the Partner Attachment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/partner_attachment#id DataDigitaloceanPartnerAttachment#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/partner_attachment#id DataDigitaloceanPartnerAttachment#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace digitalocean.DataDigitaloceanPartnerAttachment
 
         /// <summary>The name of the Partner Attachment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/partner_attachment#name DataDigitaloceanPartnerAttachment#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/partner_attachment#name DataDigitaloceanPartnerAttachment#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace digitalocean.DataDigitaloceanPartnerAttachment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/partner_attachment#redundancy_zone DataDigitaloceanPartnerAttachment#redundancy_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/partner_attachment#redundancy_zone DataDigitaloceanPartnerAttachment#redundancy_zone}.</summary>
         [JsiiProperty(name: "redundancyZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RedundancyZone
@@ -72,7 +72,7 @@ namespace digitalocean.DataDigitaloceanPartnerAttachment
 
             /// <summary>bgp block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/partner_attachment#bgp DataDigitaloceanPartnerAttachment#bgp}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/partner_attachment#bgp DataDigitaloceanPartnerAttachment#bgp}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bgp", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanPartnerAttachment.DataDigitaloceanPartnerAttachmentBgp\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace digitalocean.DataDigitaloceanPartnerAttachment
 
             /// <summary>The ID of the Partner Attachment.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/partner_attachment#id DataDigitaloceanPartnerAttachment#id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/partner_attachment#id DataDigitaloceanPartnerAttachment#id}
             ///
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -97,7 +97,7 @@ namespace digitalocean.DataDigitaloceanPartnerAttachment
 
             /// <summary>The name of the Partner Attachment.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/partner_attachment#name DataDigitaloceanPartnerAttachment#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/partner_attachment#name DataDigitaloceanPartnerAttachment#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -106,7 +106,7 @@ namespace digitalocean.DataDigitaloceanPartnerAttachment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/partner_attachment#redundancy_zone DataDigitaloceanPartnerAttachment#redundancy_zone}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/partner_attachment#redundancy_zone DataDigitaloceanPartnerAttachment#redundancy_zone}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "redundancyZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RedundancyZone

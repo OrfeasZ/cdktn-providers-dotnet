@@ -9,7 +9,7 @@ namespace digitalocean.App
     {
         /// <summary>The name of the branch to use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#branch App#branch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#branch App#branch}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "branch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace digitalocean.App
 
         /// <summary>The clone URL of the repo.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#repo_clone_url App#repo_clone_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#repo_clone_url App#repo_clone_url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "repoCloneUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace digitalocean.SshKey
     [JsiiByValue(fqn: "digitalocean.sshKey.SshKeyTimeouts")]
     public class SshKeyTimeouts : digitalocean.SshKey.ISshKeyTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/ssh_key#create SshKey#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/ssh_key#create SshKey#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create

@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
     {
         /// <summary>Number of completed datasources in the last indexing job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#completed_datasources DataDigitaloceanGradientaiAgent#completed_datasources}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#completed_datasources DataDigitaloceanGradientaiAgent#completed_datasources}
         /// </remarks>
         [JsiiProperty(name: "completedDatasources", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>Datasource UUIDs for the last indexing job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#data_source_uuids DataDigitaloceanGradientaiAgent#data_source_uuids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#data_source_uuids DataDigitaloceanGradientaiAgent#data_source_uuids}
         /// </remarks>
         [JsiiProperty(name: "dataSourceUuids", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>Phase of the last indexing job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#phase DataDigitaloceanGradientaiAgent#phase}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#phase DataDigitaloceanGradientaiAgent#phase}
         /// </remarks>
         [JsiiProperty(name: "phase", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>Number of tokens processed in the last indexing job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#tokens DataDigitaloceanGradientaiAgent#tokens}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#tokens DataDigitaloceanGradientaiAgent#tokens}
         /// </remarks>
         [JsiiProperty(name: "tokens", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>Total number of datasources in the last indexing job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#total_datasources DataDigitaloceanGradientaiAgent#total_datasources}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#total_datasources DataDigitaloceanGradientaiAgent#total_datasources}
         /// </remarks>
         [JsiiProperty(name: "totalDatasources", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +79,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>UUID  of the last indexing job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#uuid DataDigitaloceanGradientaiAgent#uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#uuid DataDigitaloceanGradientaiAgent#uuid}
         /// </remarks>
         [JsiiProperty(name: "uuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -100,7 +100,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
             /// <summary>Number of completed datasources in the last indexing job.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#completed_datasources DataDigitaloceanGradientaiAgent#completed_datasources}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#completed_datasources DataDigitaloceanGradientaiAgent#completed_datasources}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "completedDatasources", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -111,7 +111,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
             /// <summary>Datasource UUIDs for the last indexing job.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#data_source_uuids DataDigitaloceanGradientaiAgent#data_source_uuids}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#data_source_uuids DataDigitaloceanGradientaiAgent#data_source_uuids}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dataSourceUuids", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -122,7 +122,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
             /// <summary>Phase of the last indexing job.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#phase DataDigitaloceanGradientaiAgent#phase}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#phase DataDigitaloceanGradientaiAgent#phase}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "phase", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -133,7 +133,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
             /// <summary>Number of tokens processed in the last indexing job.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#tokens DataDigitaloceanGradientaiAgent#tokens}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#tokens DataDigitaloceanGradientaiAgent#tokens}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tokens", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -144,7 +144,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
             /// <summary>Total number of datasources in the last indexing job.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#total_datasources DataDigitaloceanGradientaiAgent#total_datasources}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#total_datasources DataDigitaloceanGradientaiAgent#total_datasources}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "totalDatasources", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -155,7 +155,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
             /// <summary>UUID  of the last indexing job.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#uuid DataDigitaloceanGradientaiAgent#uuid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#uuid DataDigitaloceanGradientaiAgent#uuid}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "uuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

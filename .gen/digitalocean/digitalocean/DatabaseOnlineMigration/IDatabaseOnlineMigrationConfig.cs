@@ -7,7 +7,7 @@ namespace digitalocean.DatabaseOnlineMigration
     [JsiiInterface(nativeType: typeof(IDatabaseOnlineMigrationConfig), fullyQualifiedName: "digitalocean.databaseOnlineMigration.DatabaseOnlineMigrationConfig")]
     public interface IDatabaseOnlineMigrationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_online_migration#cluster_id DatabaseOnlineMigration#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_online_migration#cluster_id DatabaseOnlineMigration#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         string ClusterId
         {
@@ -16,7 +16,7 @@ namespace digitalocean.DatabaseOnlineMigration
 
         /// <summary>source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_online_migration#source DatabaseOnlineMigration#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_online_migration#source DatabaseOnlineMigration#source}
         /// </remarks>
         [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"digitalocean.databaseOnlineMigration.DatabaseOnlineMigrationSource\"}")]
         digitalocean.DatabaseOnlineMigration.IDatabaseOnlineMigrationSource Source
@@ -26,7 +26,7 @@ namespace digitalocean.DatabaseOnlineMigration
 
         /// <summary>Disables SSL encryption when connecting to the source database.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_online_migration#disable_ssl DatabaseOnlineMigration#disable_ssl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_online_migration#disable_ssl DatabaseOnlineMigration#disable_ssl}
         /// </remarks>
         [JsiiProperty(name: "disableSsl", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace digitalocean.DatabaseOnlineMigration
 
         /// <summary>The list of databases to be ignored during the migration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_online_migration#ignore_dbs DatabaseOnlineMigration#ignore_dbs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_online_migration#ignore_dbs DatabaseOnlineMigration#ignore_dbs}
         /// </remarks>
         [JsiiProperty(name: "ignoreDbs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace digitalocean.DatabaseOnlineMigration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_online_migration#cluster_id DatabaseOnlineMigration#cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_online_migration#cluster_id DatabaseOnlineMigration#cluster_id}.</summary>
             [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
             public string ClusterId
             {
@@ -68,7 +68,7 @@ namespace digitalocean.DatabaseOnlineMigration
 
             /// <summary>source block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_online_migration#source DatabaseOnlineMigration#source}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_online_migration#source DatabaseOnlineMigration#source}
             /// </remarks>
             [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"digitalocean.databaseOnlineMigration.DatabaseOnlineMigrationSource\"}")]
             public digitalocean.DatabaseOnlineMigration.IDatabaseOnlineMigrationSource Source
@@ -78,7 +78,7 @@ namespace digitalocean.DatabaseOnlineMigration
 
             /// <summary>Disables SSL encryption when connecting to the source database.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_online_migration#disable_ssl DatabaseOnlineMigration#disable_ssl}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_online_migration#disable_ssl DatabaseOnlineMigration#disable_ssl}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "disableSsl", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -89,7 +89,7 @@ namespace digitalocean.DatabaseOnlineMigration
 
             /// <summary>The list of databases to be ignored during the migration.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_online_migration#ignore_dbs DatabaseOnlineMigration#ignore_dbs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_online_migration#ignore_dbs DatabaseOnlineMigration#ignore_dbs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ignoreDbs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

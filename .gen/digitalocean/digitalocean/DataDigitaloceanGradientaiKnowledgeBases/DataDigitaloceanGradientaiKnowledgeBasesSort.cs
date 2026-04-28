@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBases
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanGradientaiKnowledgeBases.DataDigitaloceanGradientaiKnowledgeBasesSort")]
     public class DataDigitaloceanGradientaiKnowledgeBasesSort : digitalocean.DataDigitaloceanGradientaiKnowledgeBases.IDataDigitaloceanGradientaiKnowledgeBasesSort
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_bases#key DataDigitaloceanGradientaiKnowledgeBases#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_bases#key DataDigitaloceanGradientaiKnowledgeBases#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_bases#direction DataDigitaloceanGradientaiKnowledgeBases#direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_bases#direction DataDigitaloceanGradientaiKnowledgeBases#direction}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Direction

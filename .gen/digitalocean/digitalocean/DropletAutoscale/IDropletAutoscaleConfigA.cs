@@ -9,7 +9,7 @@ namespace digitalocean.DropletAutoscale
     {
         /// <summary>Cooldown duration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#cooldown_minutes DropletAutoscale#cooldown_minutes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#cooldown_minutes DropletAutoscale#cooldown_minutes}
         /// </remarks>
         [JsiiProperty(name: "cooldownMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace digitalocean.DropletAutoscale
 
         /// <summary>Max number of members.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#max_instances DropletAutoscale#max_instances}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#max_instances DropletAutoscale#max_instances}
         /// </remarks>
         [JsiiProperty(name: "maxInstances", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace digitalocean.DropletAutoscale
 
         /// <summary>Min number of members.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#min_instances DropletAutoscale#min_instances}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#min_instances DropletAutoscale#min_instances}
         /// </remarks>
         [JsiiProperty(name: "minInstances", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace digitalocean.DropletAutoscale
 
         /// <summary>CPU target threshold.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#target_cpu_utilization DropletAutoscale#target_cpu_utilization}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#target_cpu_utilization DropletAutoscale#target_cpu_utilization}
         /// </remarks>
         [JsiiProperty(name: "targetCpuUtilization", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace digitalocean.DropletAutoscale
 
         /// <summary>Memory target threshold.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#target_memory_utilization DropletAutoscale#target_memory_utilization}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#target_memory_utilization DropletAutoscale#target_memory_utilization}
         /// </remarks>
         [JsiiProperty(name: "targetMemoryUtilization", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +79,7 @@ namespace digitalocean.DropletAutoscale
 
         /// <summary>Target number of members.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#target_number_instances DropletAutoscale#target_number_instances}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#target_number_instances DropletAutoscale#target_number_instances}
         /// </remarks>
         [JsiiProperty(name: "targetNumberInstances", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -100,7 +100,7 @@ namespace digitalocean.DropletAutoscale
 
             /// <summary>Cooldown duration.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#cooldown_minutes DropletAutoscale#cooldown_minutes}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#cooldown_minutes DropletAutoscale#cooldown_minutes}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cooldownMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -111,7 +111,7 @@ namespace digitalocean.DropletAutoscale
 
             /// <summary>Max number of members.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#max_instances DropletAutoscale#max_instances}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#max_instances DropletAutoscale#max_instances}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxInstances", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -122,7 +122,7 @@ namespace digitalocean.DropletAutoscale
 
             /// <summary>Min number of members.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#min_instances DropletAutoscale#min_instances}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#min_instances DropletAutoscale#min_instances}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "minInstances", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -133,7 +133,7 @@ namespace digitalocean.DropletAutoscale
 
             /// <summary>CPU target threshold.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#target_cpu_utilization DropletAutoscale#target_cpu_utilization}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#target_cpu_utilization DropletAutoscale#target_cpu_utilization}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "targetCpuUtilization", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -144,7 +144,7 @@ namespace digitalocean.DropletAutoscale
 
             /// <summary>Memory target threshold.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#target_memory_utilization DropletAutoscale#target_memory_utilization}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#target_memory_utilization DropletAutoscale#target_memory_utilization}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "targetMemoryUtilization", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -155,7 +155,7 @@ namespace digitalocean.DropletAutoscale
 
             /// <summary>Target number of members.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#target_number_instances DropletAutoscale#target_number_instances}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#target_number_instances DropletAutoscale#target_number_instances}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "targetNumberInstances", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

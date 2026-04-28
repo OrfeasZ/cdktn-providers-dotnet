@@ -9,7 +9,7 @@ namespace digitalocean.FloatingIp
     [JsiiByValue(fqn: "digitalocean.floatingIp.FloatingIpConfig")]
     public class FloatingIpConfig : digitalocean.FloatingIp.IFloatingIpConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/floating_ip#region FloatingIp#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/floating_ip#region FloatingIp#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public string Region
         {
@@ -17,7 +17,7 @@ namespace digitalocean.FloatingIp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/floating_ip#droplet_id FloatingIp#droplet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/floating_ip#droplet_id FloatingIp#droplet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dropletId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DropletId
@@ -26,7 +26,7 @@ namespace digitalocean.FloatingIp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/floating_ip#id FloatingIp#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/floating_ip#id FloatingIp#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ namespace digitalocean.FloatingIp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/floating_ip#ip_address FloatingIp#ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/floating_ip#ip_address FloatingIp#ip_address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpAddress

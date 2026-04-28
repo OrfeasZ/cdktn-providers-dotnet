@@ -11,7 +11,7 @@ namespace digitalocean.GradientaiKnowledgeBaseDataSource
     {
         /// <summary>UUID of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_knowledge_base_data_source#knowledge_base_uuid GradientaiKnowledgeBaseDataSource#knowledge_base_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_knowledge_base_data_source#knowledge_base_uuid GradientaiKnowledgeBaseDataSource#knowledge_base_uuid}
         /// </remarks>
         [JsiiProperty(name: "knowledgeBaseUuid", typeJson: "{\"primitive\":\"string\"}")]
         public string KnowledgeBaseUuid
@@ -20,7 +20,7 @@ namespace digitalocean.GradientaiKnowledgeBaseDataSource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_knowledge_base_data_source#id GradientaiKnowledgeBaseDataSource#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_knowledge_base_data_source#id GradientaiKnowledgeBaseDataSource#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ namespace digitalocean.GradientaiKnowledgeBaseDataSource
 
         /// <summary>spaces_data_source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_knowledge_base_data_source#spaces_data_source GradientaiKnowledgeBaseDataSource#spaces_data_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_knowledge_base_data_source#spaces_data_source GradientaiKnowledgeBaseDataSource#spaces_data_source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "spacesDataSource", typeJson: "{\"fqn\":\"digitalocean.gradientaiKnowledgeBaseDataSource.GradientaiKnowledgeBaseDataSourceSpacesDataSource\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace digitalocean.GradientaiKnowledgeBaseDataSource
 
         /// <summary>web_crawler_data_source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_knowledge_base_data_source#web_crawler_data_source GradientaiKnowledgeBaseDataSource#web_crawler_data_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_knowledge_base_data_source#web_crawler_data_source GradientaiKnowledgeBaseDataSource#web_crawler_data_source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "webCrawlerDataSource", typeJson: "{\"fqn\":\"digitalocean.gradientaiKnowledgeBaseDataSource.GradientaiKnowledgeBaseDataSourceWebCrawlerDataSource\"}", isOptional: true)]

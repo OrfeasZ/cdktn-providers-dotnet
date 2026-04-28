@@ -9,7 +9,7 @@ namespace digitalocean.MonitorAlert
     {
         /// <summary>alerts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#alerts MonitorAlert#alerts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#alerts MonitorAlert#alerts}
         /// </remarks>
         [JsiiProperty(name: "alerts", typeJson: "{\"fqn\":\"digitalocean.monitorAlert.MonitorAlertAlerts\"}")]
         digitalocean.MonitorAlert.IMonitorAlertAlerts Alerts
@@ -19,7 +19,7 @@ namespace digitalocean.MonitorAlert
 
         /// <summary>The comparison operator to use for value.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#compare MonitorAlert#compare}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#compare MonitorAlert#compare}
         /// </remarks>
         [JsiiProperty(name: "compare", typeJson: "{\"primitive\":\"string\"}")]
         string Compare
@@ -29,7 +29,7 @@ namespace digitalocean.MonitorAlert
 
         /// <summary>Description of the alert policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#description MonitorAlert#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#description MonitorAlert#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         string Description
@@ -37,28 +37,28 @@ namespace digitalocean.MonitorAlert
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#type MonitorAlert#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#type MonitorAlert#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#value MonitorAlert#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#value MonitorAlert#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]
         double Value
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#window MonitorAlert#window}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#window MonitorAlert#window}.</summary>
         [JsiiProperty(name: "window", typeJson: "{\"primitive\":\"string\"}")]
         string Window
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#enabled MonitorAlert#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#enabled MonitorAlert#enabled}.</summary>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? Enabled
@@ -71,7 +71,7 @@ namespace digitalocean.MonitorAlert
 
         /// <summary>The droplets to apply the alert policy to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#entities MonitorAlert#entities}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#entities MonitorAlert#entities}
         /// </remarks>
         [JsiiProperty(name: "entities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -83,7 +83,7 @@ namespace digitalocean.MonitorAlert
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#id MonitorAlert#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#id MonitorAlert#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -98,7 +98,7 @@ namespace digitalocean.MonitorAlert
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#tags MonitorAlert#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#tags MonitorAlert#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Tags
@@ -118,7 +118,7 @@ namespace digitalocean.MonitorAlert
 
             /// <summary>alerts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#alerts MonitorAlert#alerts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#alerts MonitorAlert#alerts}
             /// </remarks>
             [JsiiProperty(name: "alerts", typeJson: "{\"fqn\":\"digitalocean.monitorAlert.MonitorAlertAlerts\"}")]
             public digitalocean.MonitorAlert.IMonitorAlertAlerts Alerts
@@ -128,7 +128,7 @@ namespace digitalocean.MonitorAlert
 
             /// <summary>The comparison operator to use for value.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#compare MonitorAlert#compare}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#compare MonitorAlert#compare}
             /// </remarks>
             [JsiiProperty(name: "compare", typeJson: "{\"primitive\":\"string\"}")]
             public string Compare
@@ -138,7 +138,7 @@ namespace digitalocean.MonitorAlert
 
             /// <summary>Description of the alert policy.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#description MonitorAlert#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#description MonitorAlert#description}
             /// </remarks>
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
             public string Description
@@ -146,28 +146,28 @@ namespace digitalocean.MonitorAlert
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#type MonitorAlert#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#type MonitorAlert#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#value MonitorAlert#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#value MonitorAlert#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]
             public double Value
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#window MonitorAlert#window}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#window MonitorAlert#window}.</summary>
             [JsiiProperty(name: "window", typeJson: "{\"primitive\":\"string\"}")]
             public string Window
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#enabled MonitorAlert#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#enabled MonitorAlert#enabled}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? Enabled
@@ -177,7 +177,7 @@ namespace digitalocean.MonitorAlert
 
             /// <summary>The droplets to apply the alert policy to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#entities MonitorAlert#entities}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#entities MonitorAlert#entities}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "entities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -186,7 +186,7 @@ namespace digitalocean.MonitorAlert
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#id MonitorAlert#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#id MonitorAlert#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -198,7 +198,7 @@ namespace digitalocean.MonitorAlert
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/monitor_alert#tags MonitorAlert#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/monitor_alert#tags MonitorAlert#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Tags

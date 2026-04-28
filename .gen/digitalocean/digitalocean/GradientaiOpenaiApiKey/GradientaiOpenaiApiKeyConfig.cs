@@ -11,7 +11,7 @@ namespace digitalocean.GradientaiOpenaiApiKey
     {
         /// <summary>The OpenAI API key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_openai_api_key#api_key GradientaiOpenaiApiKey#api_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_openai_api_key#api_key GradientaiOpenaiApiKey#api_key}
         /// </remarks>
         [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiKey
@@ -22,7 +22,7 @@ namespace digitalocean.GradientaiOpenaiApiKey
 
         /// <summary>A name for the API key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_openai_api_key#name GradientaiOpenaiApiKey#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_openai_api_key#name GradientaiOpenaiApiKey#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -31,7 +31,7 @@ namespace digitalocean.GradientaiOpenaiApiKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_openai_api_key#id GradientaiOpenaiApiKey#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_openai_api_key#id GradientaiOpenaiApiKey#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace digitalocean.GradientaiOpenaiApiKey
 
         /// <summary>model block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_openai_api_key#model GradientaiOpenaiApiKey#model}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_openai_api_key#model GradientaiOpenaiApiKey#model}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "model", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiOpenaiApiKey.GradientaiOpenaiApiKeyModel\"},\"kind\":\"array\"}}]}}", isOptional: true)]

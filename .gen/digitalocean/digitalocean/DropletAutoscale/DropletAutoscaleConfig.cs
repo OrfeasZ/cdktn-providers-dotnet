@@ -11,7 +11,7 @@ namespace digitalocean.DropletAutoscale
     {
         /// <summary>config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#config DropletAutoscale#config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#config DropletAutoscale#config}
         /// </remarks>
         [JsiiProperty(name: "config", typeJson: "{\"fqn\":\"digitalocean.dropletAutoscale.DropletAutoscaleConfigA\"}")]
         public digitalocean.DropletAutoscale.IDropletAutoscaleConfigA Config
@@ -22,7 +22,7 @@ namespace digitalocean.DropletAutoscale
 
         /// <summary>droplet_template block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#droplet_template DropletAutoscale#droplet_template}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#droplet_template DropletAutoscale#droplet_template}
         /// </remarks>
         [JsiiProperty(name: "dropletTemplate", typeJson: "{\"fqn\":\"digitalocean.dropletAutoscale.DropletAutoscaleDropletTemplate\"}")]
         public digitalocean.DropletAutoscale.IDropletAutoscaleDropletTemplate DropletTemplate
@@ -33,7 +33,7 @@ namespace digitalocean.DropletAutoscale
 
         /// <summary>Name of the Droplet autoscale pool.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#name DropletAutoscale#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#name DropletAutoscale#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name

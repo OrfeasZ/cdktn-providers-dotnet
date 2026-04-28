@@ -11,7 +11,7 @@ namespace digitalocean.UptimeAlert
     {
         /// <summary>The Slack channel to send alerts to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/uptime_alert#channel UptimeAlert#channel}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/uptime_alert#channel UptimeAlert#channel}
         /// </remarks>
         [JsiiProperty(name: "channel", typeJson: "{\"primitive\":\"string\"}")]
         public string Channel
@@ -22,7 +22,7 @@ namespace digitalocean.UptimeAlert
 
         /// <summary>The webhook URL for Slack.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/uptime_alert#url UptimeAlert#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/uptime_alert#url UptimeAlert#url}
         /// </remarks>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         public string Url

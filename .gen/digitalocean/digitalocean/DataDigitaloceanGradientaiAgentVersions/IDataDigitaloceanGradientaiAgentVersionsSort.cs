@@ -7,14 +7,14 @@ namespace digitalocean.DataDigitaloceanGradientaiAgentVersions
     [JsiiInterface(nativeType: typeof(IDataDigitaloceanGradientaiAgentVersionsSort), fullyQualifiedName: "digitalocean.dataDigitaloceanGradientaiAgentVersions.DataDigitaloceanGradientaiAgentVersionsSort")]
     public interface IDataDigitaloceanGradientaiAgentVersionsSort
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent_versions#key DataDigitaloceanGradientaiAgentVersions#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent_versions#key DataDigitaloceanGradientaiAgentVersions#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent_versions#direction DataDigitaloceanGradientaiAgentVersions#direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent_versions#direction DataDigitaloceanGradientaiAgentVersions#direction}.</summary>
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Direction
@@ -32,14 +32,14 @@ namespace digitalocean.DataDigitaloceanGradientaiAgentVersions
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent_versions#key DataDigitaloceanGradientaiAgentVersions#key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent_versions#key DataDigitaloceanGradientaiAgentVersions#key}.</summary>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent_versions#direction DataDigitaloceanGradientaiAgentVersions#direction}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent_versions#direction DataDigitaloceanGradientaiAgentVersions#direction}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Direction

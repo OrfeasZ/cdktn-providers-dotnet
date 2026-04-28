@@ -7,7 +7,7 @@ namespace digitalocean.Droplet
     [JsiiInterface(nativeType: typeof(IDropletBackupPolicy), fullyQualifiedName: "digitalocean.droplet.DropletBackupPolicy")]
     public interface IDropletBackupPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet#hour Droplet#hour}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet#hour Droplet#hour}.</summary>
         [JsiiProperty(name: "hour", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Hour
@@ -18,7 +18,7 @@ namespace digitalocean.Droplet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet#plan Droplet#plan}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet#plan Droplet#plan}.</summary>
         [JsiiProperty(name: "plan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Plan
@@ -29,7 +29,7 @@ namespace digitalocean.Droplet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet#weekday Droplet#weekday}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet#weekday Droplet#weekday}.</summary>
         [JsiiProperty(name: "weekday", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Weekday
@@ -47,7 +47,7 @@ namespace digitalocean.Droplet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet#hour Droplet#hour}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet#hour Droplet#hour}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hour", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Hour
@@ -55,7 +55,7 @@ namespace digitalocean.Droplet
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet#plan Droplet#plan}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet#plan Droplet#plan}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "plan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Plan
@@ -63,7 +63,7 @@ namespace digitalocean.Droplet
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet#weekday Droplet#weekday}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet#weekday Droplet#weekday}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "weekday", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Weekday

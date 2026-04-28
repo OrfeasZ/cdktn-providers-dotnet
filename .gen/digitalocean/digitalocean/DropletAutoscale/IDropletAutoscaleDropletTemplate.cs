@@ -9,7 +9,7 @@ namespace digitalocean.DropletAutoscale
     {
         /// <summary>Droplet image.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#image DropletAutoscale#image}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#image DropletAutoscale#image}
         /// </remarks>
         [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}")]
         string Image
@@ -19,7 +19,7 @@ namespace digitalocean.DropletAutoscale
 
         /// <summary>Droplet region.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#region DropletAutoscale#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#region DropletAutoscale#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         string Region
@@ -29,7 +29,7 @@ namespace digitalocean.DropletAutoscale
 
         /// <summary>Droplet size.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#size DropletAutoscale#size}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#size DropletAutoscale#size}
         /// </remarks>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"string\"}")]
         string Size
@@ -39,7 +39,7 @@ namespace digitalocean.DropletAutoscale
 
         /// <summary>Droplet SSH keys.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#ssh_keys DropletAutoscale#ssh_keys}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#ssh_keys DropletAutoscale#ssh_keys}
         /// </remarks>
         [JsiiProperty(name: "sshKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] SshKeys
@@ -49,7 +49,7 @@ namespace digitalocean.DropletAutoscale
 
         /// <summary>Enable droplet IPv6.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#ipv6 DropletAutoscale#ipv6}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#ipv6 DropletAutoscale#ipv6}
         /// </remarks>
         [JsiiProperty(name: "ipv6", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,7 +63,7 @@ namespace digitalocean.DropletAutoscale
 
         /// <summary>Droplet project ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#project_id DropletAutoscale#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#project_id DropletAutoscale#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +79,7 @@ namespace digitalocean.DropletAutoscale
         /// <remarks>
         /// By default, this is always enabled on new Droplets, but by explicitly setting it to false, you can create a Droplet with public networking entirely disabled.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#public_networking DropletAutoscale#public_networking}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#public_networking DropletAutoscale#public_networking}
         /// </remarks>
         [JsiiProperty(name: "publicNetworking", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,7 +93,7 @@ namespace digitalocean.DropletAutoscale
 
         /// <summary>Droplet tags.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#tags DropletAutoscale#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#tags DropletAutoscale#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -107,7 +107,7 @@ namespace digitalocean.DropletAutoscale
 
         /// <summary>Droplet user data.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#user_data DropletAutoscale#user_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#user_data DropletAutoscale#user_data}
         /// </remarks>
         [JsiiProperty(name: "userData", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -121,7 +121,7 @@ namespace digitalocean.DropletAutoscale
 
         /// <summary>Droplet VPC UUID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#vpc_uuid DropletAutoscale#vpc_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#vpc_uuid DropletAutoscale#vpc_uuid}
         /// </remarks>
         [JsiiProperty(name: "vpcUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -135,7 +135,7 @@ namespace digitalocean.DropletAutoscale
 
         /// <summary>Enable droplet agent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#with_droplet_agent DropletAutoscale#with_droplet_agent}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#with_droplet_agent DropletAutoscale#with_droplet_agent}
         /// </remarks>
         [JsiiProperty(name: "withDropletAgent", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -156,7 +156,7 @@ namespace digitalocean.DropletAutoscale
 
             /// <summary>Droplet image.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#image DropletAutoscale#image}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#image DropletAutoscale#image}
             /// </remarks>
             [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}")]
             public string Image
@@ -166,7 +166,7 @@ namespace digitalocean.DropletAutoscale
 
             /// <summary>Droplet region.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#region DropletAutoscale#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#region DropletAutoscale#region}
             /// </remarks>
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
             public string Region
@@ -176,7 +176,7 @@ namespace digitalocean.DropletAutoscale
 
             /// <summary>Droplet size.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#size DropletAutoscale#size}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#size DropletAutoscale#size}
             /// </remarks>
             [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"string\"}")]
             public string Size
@@ -186,7 +186,7 @@ namespace digitalocean.DropletAutoscale
 
             /// <summary>Droplet SSH keys.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#ssh_keys DropletAutoscale#ssh_keys}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#ssh_keys DropletAutoscale#ssh_keys}
             /// </remarks>
             [JsiiProperty(name: "sshKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] SshKeys
@@ -196,7 +196,7 @@ namespace digitalocean.DropletAutoscale
 
             /// <summary>Enable droplet IPv6.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#ipv6 DropletAutoscale#ipv6}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#ipv6 DropletAutoscale#ipv6}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ipv6", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -207,7 +207,7 @@ namespace digitalocean.DropletAutoscale
 
             /// <summary>Droplet project ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#project_id DropletAutoscale#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#project_id DropletAutoscale#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -220,7 +220,7 @@ namespace digitalocean.DropletAutoscale
             /// <remarks>
             /// By default, this is always enabled on new Droplets, but by explicitly setting it to false, you can create a Droplet with public networking entirely disabled.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#public_networking DropletAutoscale#public_networking}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#public_networking DropletAutoscale#public_networking}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "publicNetworking", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -231,7 +231,7 @@ namespace digitalocean.DropletAutoscale
 
             /// <summary>Droplet tags.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#tags DropletAutoscale#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#tags DropletAutoscale#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -242,7 +242,7 @@ namespace digitalocean.DropletAutoscale
 
             /// <summary>Droplet user data.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#user_data DropletAutoscale#user_data}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#user_data DropletAutoscale#user_data}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "userData", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -253,7 +253,7 @@ namespace digitalocean.DropletAutoscale
 
             /// <summary>Droplet VPC UUID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#vpc_uuid DropletAutoscale#vpc_uuid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#vpc_uuid DropletAutoscale#vpc_uuid}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vpcUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -264,7 +264,7 @@ namespace digitalocean.DropletAutoscale
 
             /// <summary>Enable droplet agent.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/droplet_autoscale#with_droplet_agent DropletAutoscale#with_droplet_agent}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/droplet_autoscale#with_droplet_agent DropletAutoscale#with_droplet_agent}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "withDropletAgent", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

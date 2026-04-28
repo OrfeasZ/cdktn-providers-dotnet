@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBase
     {
         /// <summary>Timestamp when the Knowledge Base was added to the Agent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_base#added_to_agent_at DataDigitaloceanGradientaiKnowledgeBase#added_to_agent_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_base#added_to_agent_at DataDigitaloceanGradientaiKnowledgeBase#added_to_agent_at}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "addedToAgentAt", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBase
 
         /// <summary>Database ID of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_base#database_id DataDigitaloceanGradientaiKnowledgeBase#database_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_base#database_id DataDigitaloceanGradientaiKnowledgeBase#database_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBase
 
         /// <summary>Embedding model UUID for the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_base#embedding_model_uuid DataDigitaloceanGradientaiKnowledgeBase#embedding_model_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_base#embedding_model_uuid DataDigitaloceanGradientaiKnowledgeBase#embedding_model_uuid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "embeddingModelUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_base#id DataDigitaloceanGradientaiKnowledgeBase#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_base#id DataDigitaloceanGradientaiKnowledgeBase#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,7 +60,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBase
 
         /// <summary>Indicates if the Knowledge Base is public.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_base#is_public DataDigitaloceanGradientaiKnowledgeBase#is_public}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_base#is_public DataDigitaloceanGradientaiKnowledgeBase#is_public}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isPublic", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBase
 
         /// <summary>last_indexing_job block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_base#last_indexing_job DataDigitaloceanGradientaiKnowledgeBase#last_indexing_job}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_base#last_indexing_job DataDigitaloceanGradientaiKnowledgeBase#last_indexing_job}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lastIndexingJob", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiKnowledgeBase.DataDigitaloceanGradientaiKnowledgeBaseLastIndexingJob\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -126,7 +126,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBase
 
         /// <summary>Name of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_base#name DataDigitaloceanGradientaiKnowledgeBase#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_base#name DataDigitaloceanGradientaiKnowledgeBase#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -138,7 +138,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBase
 
         /// <summary>Project ID of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_base#project_id DataDigitaloceanGradientaiKnowledgeBase#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_base#project_id DataDigitaloceanGradientaiKnowledgeBase#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -150,7 +150,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBase
 
         /// <summary>Region of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_base#region DataDigitaloceanGradientaiKnowledgeBase#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_base#region DataDigitaloceanGradientaiKnowledgeBase#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -162,7 +162,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBase
 
         /// <summary>List of tags.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_base#tags DataDigitaloceanGradientaiKnowledgeBase#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_base#tags DataDigitaloceanGradientaiKnowledgeBase#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -174,7 +174,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBase
 
         /// <summary>User ID of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_base#user_id DataDigitaloceanGradientaiKnowledgeBase#user_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_base#user_id DataDigitaloceanGradientaiKnowledgeBase#user_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -186,7 +186,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBase
 
         /// <summary>UUID of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_base#uuid DataDigitaloceanGradientaiKnowledgeBase#uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_base#uuid DataDigitaloceanGradientaiKnowledgeBase#uuid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "uuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

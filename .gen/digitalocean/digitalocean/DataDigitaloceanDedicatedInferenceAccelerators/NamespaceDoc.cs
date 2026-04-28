@@ -5,7 +5,7 @@ namespace digitalocean.DataDigitaloceanDedicatedInferenceAccelerators
     /// <remarks>
     /// <h1><c>data_digitalocean_dedicated_inference_accelerators</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/dedicated_inference_accelerators"><c>data_digitalocean_dedicated_inference_accelerators</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/dedicated_inference_accelerators"><c>data_digitalocean_dedicated_inference_accelerators</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

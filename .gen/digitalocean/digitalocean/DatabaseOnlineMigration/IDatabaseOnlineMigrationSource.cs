@@ -9,7 +9,7 @@ namespace digitalocean.DatabaseOnlineMigration
     {
         /// <summary>The name of the default database.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_online_migration#db_name DatabaseOnlineMigration#db_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_online_migration#db_name DatabaseOnlineMigration#db_name}
         /// </remarks>
         [JsiiProperty(name: "dbName", typeJson: "{\"primitive\":\"string\"}")]
         string DbName
@@ -19,7 +19,7 @@ namespace digitalocean.DatabaseOnlineMigration
 
         /// <summary>The FQDN pointing to the database cluster's current primary node.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_online_migration#host DatabaseOnlineMigration#host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_online_migration#host DatabaseOnlineMigration#host}
         /// </remarks>
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
         string Host
@@ -29,7 +29,7 @@ namespace digitalocean.DatabaseOnlineMigration
 
         /// <summary>The password of the database.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_online_migration#password DatabaseOnlineMigration#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_online_migration#password DatabaseOnlineMigration#password}
         /// </remarks>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         string Password
@@ -39,7 +39,7 @@ namespace digitalocean.DatabaseOnlineMigration
 
         /// <summary>The port on which the database cluster is listening.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_online_migration#port DatabaseOnlineMigration#port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_online_migration#port DatabaseOnlineMigration#port}
         /// </remarks>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         double Port
@@ -49,7 +49,7 @@ namespace digitalocean.DatabaseOnlineMigration
 
         /// <summary>The default user of the database.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_online_migration#username DatabaseOnlineMigration#username}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_online_migration#username DatabaseOnlineMigration#username}
         /// </remarks>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         string Username
@@ -66,7 +66,7 @@ namespace digitalocean.DatabaseOnlineMigration
 
             /// <summary>The name of the default database.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_online_migration#db_name DatabaseOnlineMigration#db_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_online_migration#db_name DatabaseOnlineMigration#db_name}
             /// </remarks>
             [JsiiProperty(name: "dbName", typeJson: "{\"primitive\":\"string\"}")]
             public string DbName
@@ -76,7 +76,7 @@ namespace digitalocean.DatabaseOnlineMigration
 
             /// <summary>The FQDN pointing to the database cluster's current primary node.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_online_migration#host DatabaseOnlineMigration#host}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_online_migration#host DatabaseOnlineMigration#host}
             /// </remarks>
             [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
             public string Host
@@ -86,7 +86,7 @@ namespace digitalocean.DatabaseOnlineMigration
 
             /// <summary>The password of the database.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_online_migration#password DatabaseOnlineMigration#password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_online_migration#password DatabaseOnlineMigration#password}
             /// </remarks>
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
             public string Password
@@ -96,7 +96,7 @@ namespace digitalocean.DatabaseOnlineMigration
 
             /// <summary>The port on which the database cluster is listening.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_online_migration#port DatabaseOnlineMigration#port}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_online_migration#port DatabaseOnlineMigration#port}
             /// </remarks>
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
             public double Port
@@ -106,7 +106,7 @@ namespace digitalocean.DatabaseOnlineMigration
 
             /// <summary>The default user of the database.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_online_migration#username DatabaseOnlineMigration#username}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_online_migration#username DatabaseOnlineMigration#username}
             /// </remarks>
             [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
             public string Username

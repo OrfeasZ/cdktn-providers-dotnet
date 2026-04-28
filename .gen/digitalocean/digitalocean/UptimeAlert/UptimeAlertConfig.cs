@@ -11,7 +11,7 @@ namespace digitalocean.UptimeAlert
     {
         /// <summary>A unique identifier for a check.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/uptime_alert#check_id UptimeAlert#check_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/uptime_alert#check_id UptimeAlert#check_id}
         /// </remarks>
         [JsiiProperty(name: "checkId", typeJson: "{\"primitive\":\"string\"}")]
         public string CheckId
@@ -22,7 +22,7 @@ namespace digitalocean.UptimeAlert
 
         /// <summary>A human-friendly display name for the alert.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/uptime_alert#name UptimeAlert#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/uptime_alert#name UptimeAlert#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -35,7 +35,7 @@ namespace digitalocean.UptimeAlert
 
         /// <summary>notifications block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/uptime_alert#notifications UptimeAlert#notifications}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/uptime_alert#notifications UptimeAlert#notifications}
         /// </remarks>
         [JsiiProperty(name: "notifications", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.uptimeAlert.UptimeAlertNotifications\"},\"kind\":\"array\"}}]}}")]
         public object Notifications
@@ -66,7 +66,7 @@ namespace digitalocean.UptimeAlert
 
         /// <summary>The type of health check to perform. Enum: 'latency' 'down' 'down_global' 'ssl_expiry'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/uptime_alert#type UptimeAlert#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/uptime_alert#type UptimeAlert#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -77,7 +77,7 @@ namespace digitalocean.UptimeAlert
 
         /// <summary>The comparison operator used against the alert's threshold. Enum: 'greater_than' 'less_than.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/uptime_alert#comparison UptimeAlert#comparison}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/uptime_alert#comparison UptimeAlert#comparison}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "comparison", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace digitalocean.UptimeAlert
         /// <remarks>
         /// Enum '2m' '3m' '5m' '10m' '15m' '30m' '1h'
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/uptime_alert#period UptimeAlert#period}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/uptime_alert#period UptimeAlert#period}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "period", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace digitalocean.UptimeAlert
         /// <remarks>
         /// The specific threshold is dependent on the alert type.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/uptime_alert#threshold UptimeAlert#threshold}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/uptime_alert#threshold UptimeAlert#threshold}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "threshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

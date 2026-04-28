@@ -11,7 +11,7 @@ namespace digitalocean.ProjectResources
     {
         /// <summary>project ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/project_resources#project ProjectResources#project}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/project_resources#project ProjectResources#project}
         /// </remarks>
         [JsiiProperty(name: "project", typeJson: "{\"primitive\":\"string\"}")]
         public string Project
@@ -22,7 +22,7 @@ namespace digitalocean.ProjectResources
 
         /// <summary>the resources associated with the project.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/project_resources#resources ProjectResources#resources}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/project_resources#resources ProjectResources#resources}
         /// </remarks>
         [JsiiProperty(name: "resources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Resources
@@ -31,7 +31,7 @@ namespace digitalocean.ProjectResources
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/project_resources#id ProjectResources#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/project_resources#id ProjectResources#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -11,7 +11,7 @@ namespace digitalocean.Loadbalancer
     {
         /// <summary>domain name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/loadbalancer#name Loadbalancer#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/loadbalancer#name Loadbalancer#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>name of certificate required for TLS handshaking.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/loadbalancer#certificate_name Loadbalancer#certificate_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/loadbalancer#certificate_name Loadbalancer#certificate_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "certificateName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>flag indicating if domain is managed by DigitalOcean.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/loadbalancer#is_managed Loadbalancer#is_managed}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/loadbalancer#is_managed Loadbalancer#is_managed}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isManaged", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace digitalocean.DataDigitaloceanProject
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanProject.DataDigitaloceanProjectConfig")]
     public class DataDigitaloceanProjectConfig : digitalocean.DataDigitaloceanProject.IDataDigitaloceanProjectConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/project#id DataDigitaloceanProject#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/project#id DataDigitaloceanProject#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -20,7 +20,7 @@ namespace digitalocean.DataDigitaloceanProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/project#name DataDigitaloceanProject#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/project#name DataDigitaloceanProject#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name

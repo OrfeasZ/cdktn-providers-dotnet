@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanDatabaseCluster
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanDatabaseCluster.DataDigitaloceanDatabaseClusterConfig")]
     public class DataDigitaloceanDatabaseClusterConfig : digitalocean.DataDigitaloceanDatabaseCluster.IDataDigitaloceanDatabaseClusterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/database_cluster#name DataDigitaloceanDatabaseCluster#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/database_cluster#name DataDigitaloceanDatabaseCluster#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanDatabaseCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/database_cluster#id DataDigitaloceanDatabaseCluster#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/database_cluster#id DataDigitaloceanDatabaseCluster#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ namespace digitalocean.DataDigitaloceanDatabaseCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/database_cluster#tags DataDigitaloceanDatabaseCluster#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/database_cluster#tags DataDigitaloceanDatabaseCluster#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Tags

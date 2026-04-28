@@ -11,7 +11,7 @@ namespace digitalocean.DataDigitaloceanDroplets
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/droplets#filter DataDigitaloceanDroplets#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/droplets#filter DataDigitaloceanDroplets#filter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanDroplets.DataDigitaloceanDropletsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace digitalocean.DataDigitaloceanDroplets
 
         private object? _gpus;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/droplets#gpus DataDigitaloceanDroplets#gpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/droplets#gpus DataDigitaloceanDroplets#gpus}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "gpus", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Gpus
@@ -72,7 +72,7 @@ namespace digitalocean.DataDigitaloceanDroplets
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/droplets#id DataDigitaloceanDroplets#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/droplets#id DataDigitaloceanDroplets#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,7 +89,7 @@ namespace digitalocean.DataDigitaloceanDroplets
 
         /// <summary>sort block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/droplets#sort DataDigitaloceanDroplets#sort}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/droplets#sort DataDigitaloceanDroplets#sort}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sort", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanDroplets.DataDigitaloceanDropletsSort\"},\"kind\":\"array\"}}]}}", isOptional: true)]

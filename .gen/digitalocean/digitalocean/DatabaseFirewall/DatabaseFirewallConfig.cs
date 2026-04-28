@@ -9,7 +9,7 @@ namespace digitalocean.DatabaseFirewall
     [JsiiByValue(fqn: "digitalocean.databaseFirewall.DatabaseFirewallConfig")]
     public class DatabaseFirewallConfig : digitalocean.DatabaseFirewall.IDatabaseFirewallConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_firewall#cluster_id DatabaseFirewall#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_firewall#cluster_id DatabaseFirewall#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterId
         {
@@ -21,7 +21,7 @@ namespace digitalocean.DatabaseFirewall
 
         /// <summary>rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_firewall#rule DatabaseFirewall#rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_firewall#rule DatabaseFirewall#rule}
         /// </remarks>
         [JsiiProperty(name: "rule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.databaseFirewall.DatabaseFirewallRule\"},\"kind\":\"array\"}}]}}")]
         public object Rule
@@ -50,7 +50,7 @@ namespace digitalocean.DatabaseFirewall
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_firewall#id DatabaseFirewall#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_firewall#id DatabaseFirewall#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -7,7 +7,7 @@ namespace digitalocean.App
     [JsiiByValue(fqn: "digitalocean.app.AppSpecIngressRuleComponent")]
     public class AppSpecIngressRuleComponent : digitalocean.App.IAppSpecIngressRuleComponent
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#name App#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#name App#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -18,7 +18,7 @@ namespace digitalocean.App
 
         private object? _preservePathPrefix;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#preserve_path_prefix App#preserve_path_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#preserve_path_prefix App#preserve_path_prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "preservePathPrefix", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? PreservePathPrefix
@@ -47,7 +47,7 @@ namespace digitalocean.App
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#rewrite App#rewrite}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#rewrite App#rewrite}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rewrite", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Rewrite

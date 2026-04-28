@@ -9,7 +9,7 @@ namespace digitalocean.SpacesBucket
     {
         /// <summary>A list of HTTP methods (e.g. GET) which are allowed from the specified origin.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket#allowed_methods SpacesBucket#allowed_methods}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket#allowed_methods SpacesBucket#allowed_methods}
         /// </remarks>
         [JsiiProperty(name: "allowedMethods", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] AllowedMethods
@@ -21,7 +21,7 @@ namespace digitalocean.SpacesBucket
         /// <remarks>
         /// A host may contain one wildcard (e.g. http://*.example.com).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket#allowed_origins SpacesBucket#allowed_origins}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket#allowed_origins SpacesBucket#allowed_origins}
         /// </remarks>
         [JsiiProperty(name: "allowedOrigins", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] AllowedOrigins
@@ -33,7 +33,7 @@ namespace digitalocean.SpacesBucket
         /// <remarks>
         /// A header may contain one wildcard (e.g. x-amz-*).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket#allowed_headers SpacesBucket#allowed_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket#allowed_headers SpacesBucket#allowed_headers}
         /// </remarks>
         [JsiiProperty(name: "allowedHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace digitalocean.SpacesBucket
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket#max_age_seconds SpacesBucket#max_age_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket#max_age_seconds SpacesBucket#max_age_seconds}.</summary>
         [JsiiProperty(name: "maxAgeSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxAgeSeconds
@@ -65,7 +65,7 @@ namespace digitalocean.SpacesBucket
 
             /// <summary>A list of HTTP methods (e.g. GET) which are allowed from the specified origin.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket#allowed_methods SpacesBucket#allowed_methods}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket#allowed_methods SpacesBucket#allowed_methods}
             /// </remarks>
             [JsiiProperty(name: "allowedMethods", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] AllowedMethods
@@ -77,7 +77,7 @@ namespace digitalocean.SpacesBucket
             /// <remarks>
             /// A host may contain one wildcard (e.g. http://*.example.com).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket#allowed_origins SpacesBucket#allowed_origins}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket#allowed_origins SpacesBucket#allowed_origins}
             /// </remarks>
             [JsiiProperty(name: "allowedOrigins", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] AllowedOrigins
@@ -89,7 +89,7 @@ namespace digitalocean.SpacesBucket
             /// <remarks>
             /// A header may contain one wildcard (e.g. x-amz-*).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket#allowed_headers SpacesBucket#allowed_headers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket#allowed_headers SpacesBucket#allowed_headers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "allowedHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -98,7 +98,7 @@ namespace digitalocean.SpacesBucket
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket#max_age_seconds SpacesBucket#max_age_seconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket#max_age_seconds SpacesBucket#max_age_seconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxAgeSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxAgeSeconds

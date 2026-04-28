@@ -7,7 +7,7 @@ namespace digitalocean.DatabasePostgresqlConfig
     [JsiiInterface(nativeType: typeof(IDatabasePostgresqlConfigTimescaledb), fullyQualifiedName: "digitalocean.databasePostgresqlConfig.DatabasePostgresqlConfigTimescaledb")]
     public interface IDatabasePostgresqlConfigTimescaledb
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_background_workers DatabasePostgresqlConfig#max_background_workers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_background_workers DatabasePostgresqlConfig#max_background_workers}.</summary>
         [JsiiProperty(name: "maxBackgroundWorkers", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxBackgroundWorkers
@@ -25,7 +25,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_background_workers DatabasePostgresqlConfig#max_background_workers}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_background_workers DatabasePostgresqlConfig#max_background_workers}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxBackgroundWorkers", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxBackgroundWorkers

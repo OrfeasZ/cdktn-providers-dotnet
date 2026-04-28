@@ -9,7 +9,7 @@ namespace digitalocean.DedicatedInferenceToken
     {
         /// <summary>The ID of the dedicated inference endpoint this token belongs to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/dedicated_inference_token#dedicated_inference_id DedicatedInferenceToken#dedicated_inference_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/dedicated_inference_token#dedicated_inference_id DedicatedInferenceToken#dedicated_inference_id}
         /// </remarks>
         [JsiiProperty(name: "dedicatedInferenceId", typeJson: "{\"primitive\":\"string\"}")]
         string DedicatedInferenceId
@@ -19,7 +19,7 @@ namespace digitalocean.DedicatedInferenceToken
 
         /// <summary>A human-readable name for the token.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/dedicated_inference_token#name DedicatedInferenceToken#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/dedicated_inference_token#name DedicatedInferenceToken#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -27,7 +27,7 @@ namespace digitalocean.DedicatedInferenceToken
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/dedicated_inference_token#id DedicatedInferenceToken#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/dedicated_inference_token#id DedicatedInferenceToken#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace digitalocean.DedicatedInferenceToken
 
             /// <summary>The ID of the dedicated inference endpoint this token belongs to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/dedicated_inference_token#dedicated_inference_id DedicatedInferenceToken#dedicated_inference_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/dedicated_inference_token#dedicated_inference_id DedicatedInferenceToken#dedicated_inference_id}
             /// </remarks>
             [JsiiProperty(name: "dedicatedInferenceId", typeJson: "{\"primitive\":\"string\"}")]
             public string DedicatedInferenceId
@@ -61,7 +61,7 @@ namespace digitalocean.DedicatedInferenceToken
 
             /// <summary>A human-readable name for the token.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/dedicated_inference_token#name DedicatedInferenceToken#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/dedicated_inference_token#name DedicatedInferenceToken#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -69,7 +69,7 @@ namespace digitalocean.DedicatedInferenceToken
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/dedicated_inference_token#id DedicatedInferenceToken#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/dedicated_inference_token#id DedicatedInferenceToken#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

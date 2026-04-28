@@ -7,7 +7,7 @@ namespace digitalocean.SpacesBucket
     [JsiiByValue(fqn: "digitalocean.spacesBucket.SpacesBucketLifecycleRuleExpiration")]
     public class SpacesBucketLifecycleRuleExpiration : digitalocean.SpacesBucket.ISpacesBucketLifecycleRuleExpiration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket#date SpacesBucket#date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket#date SpacesBucket#date}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "date", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Date
@@ -16,7 +16,7 @@ namespace digitalocean.SpacesBucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket#days SpacesBucket#days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket#days SpacesBucket#days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Days
@@ -27,7 +27,7 @@ namespace digitalocean.SpacesBucket
 
         private object? _expiredObjectDeleteMarker;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket#expired_object_delete_marker SpacesBucket#expired_object_delete_marker}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket#expired_object_delete_marker SpacesBucket#expired_object_delete_marker}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expiredObjectDeleteMarker", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? ExpiredObjectDeleteMarker

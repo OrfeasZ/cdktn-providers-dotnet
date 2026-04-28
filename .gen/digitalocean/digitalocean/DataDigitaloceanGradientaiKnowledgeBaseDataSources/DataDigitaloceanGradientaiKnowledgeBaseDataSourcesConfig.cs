@@ -11,7 +11,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBaseDataSources
     {
         /// <summary>UUID of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_base_data_sources#knowledge_base_uuid DataDigitaloceanGradientaiKnowledgeBaseDataSources#knowledge_base_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_base_data_sources#knowledge_base_uuid DataDigitaloceanGradientaiKnowledgeBaseDataSources#knowledge_base_uuid}
         /// </remarks>
         [JsiiProperty(name: "knowledgeBaseUuid", typeJson: "{\"primitive\":\"string\"}")]
         public string KnowledgeBaseUuid
@@ -20,7 +20,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBaseDataSources
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_base_data_sources#id DataDigitaloceanGradientaiKnowledgeBaseDataSources#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_base_data_sources#id DataDigitaloceanGradientaiKnowledgeBaseDataSources#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

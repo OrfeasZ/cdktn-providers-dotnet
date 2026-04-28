@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanReservedIpv6
     {
         /// <summary>reserved ipv6 address.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/reserved_ipv6#ip DataDigitaloceanReservedIpv6#ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/reserved_ipv6#ip DataDigitaloceanReservedIpv6#ip}
         /// </remarks>
         [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}")]
         string Ip
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanReservedIpv6
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/reserved_ipv6#id DataDigitaloceanReservedIpv6#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/reserved_ipv6#id DataDigitaloceanReservedIpv6#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ namespace digitalocean.DataDigitaloceanReservedIpv6
 
             /// <summary>reserved ipv6 address.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/reserved_ipv6#ip DataDigitaloceanReservedIpv6#ip}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/reserved_ipv6#ip DataDigitaloceanReservedIpv6#ip}
             /// </remarks>
             [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}")]
             public string Ip
@@ -49,7 +49,7 @@ namespace digitalocean.DataDigitaloceanReservedIpv6
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/reserved_ipv6#id DataDigitaloceanReservedIpv6#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/reserved_ipv6#id DataDigitaloceanReservedIpv6#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

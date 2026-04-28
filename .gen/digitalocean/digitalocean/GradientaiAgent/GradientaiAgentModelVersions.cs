@@ -9,7 +9,7 @@ namespace digitalocean.GradientaiAgent
     {
         /// <summary>Major version of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_agent#major GradientaiAgent#major}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_agent#major GradientaiAgent#major}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "major", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace digitalocean.GradientaiAgent
 
         /// <summary>Minor version of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_agent#minor GradientaiAgent#minor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_agent#minor GradientaiAgent#minor}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minor", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace digitalocean.GradientaiAgent
 
         /// <summary>Patch version of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_agent#patch GradientaiAgent#patch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_agent#patch GradientaiAgent#patch}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "patch", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgentVersions
     {
         /// <summary>The ID of the agent to fetch versions for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent_versions#agent_id DataDigitaloceanGradientaiAgentVersions#agent_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent_versions#agent_id DataDigitaloceanGradientaiAgentVersions#agent_id}
         /// </remarks>
         [JsiiProperty(name: "agentId", typeJson: "{\"primitive\":\"string\"}")]
         string AgentId
@@ -19,7 +19,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgentVersions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent_versions#filter DataDigitaloceanGradientaiAgentVersions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent_versions#filter DataDigitaloceanGradientaiAgentVersions#filter}
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgentVersions.DataDigitaloceanGradientaiAgentVersionsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,7 +31,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgentVersions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent_versions#id DataDigitaloceanGradientaiAgentVersions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent_versions#id DataDigitaloceanGradientaiAgentVersions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgentVersions
 
         /// <summary>sort block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent_versions#sort DataDigitaloceanGradientaiAgentVersions#sort}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent_versions#sort DataDigitaloceanGradientaiAgentVersions#sort}
         /// </remarks>
         [JsiiProperty(name: "sort", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgentVersions.DataDigitaloceanGradientaiAgentVersionsSort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -69,7 +69,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgentVersions
 
             /// <summary>The ID of the agent to fetch versions for.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent_versions#agent_id DataDigitaloceanGradientaiAgentVersions#agent_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent_versions#agent_id DataDigitaloceanGradientaiAgentVersions#agent_id}
             /// </remarks>
             [JsiiProperty(name: "agentId", typeJson: "{\"primitive\":\"string\"}")]
             public string AgentId
@@ -79,7 +79,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgentVersions
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent_versions#filter DataDigitaloceanGradientaiAgentVersions#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent_versions#filter DataDigitaloceanGradientaiAgentVersions#filter}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgentVersions.DataDigitaloceanGradientaiAgentVersionsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -88,7 +88,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgentVersions
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent_versions#id DataDigitaloceanGradientaiAgentVersions#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent_versions#id DataDigitaloceanGradientaiAgentVersions#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -102,7 +102,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgentVersions
 
             /// <summary>sort block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent_versions#sort DataDigitaloceanGradientaiAgentVersions#sort}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent_versions#sort DataDigitaloceanGradientaiAgentVersions#sort}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sort", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgentVersions.DataDigitaloceanGradientaiAgentVersionsSort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
