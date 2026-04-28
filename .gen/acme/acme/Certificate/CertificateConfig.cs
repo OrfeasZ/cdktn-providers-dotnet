@@ -9,7 +9,7 @@ namespace acme.Certificate
     [JsiiByValue(fqn: "acme.certificate.CertificateConfig")]
     public class CertificateConfig : acme.Certificate.ICertificateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#account_key_pem Certificate#account_key_pem}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#account_key_pem Certificate#account_key_pem}.</summary>
         [JsiiProperty(name: "accountKeyPem", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountKeyPem
         {
@@ -17,7 +17,7 @@ namespace acme.Certificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#certificate_p12_password Certificate#certificate_p12_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#certificate_p12_password Certificate#certificate_p12_password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateP12Password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateP12Password
@@ -26,7 +26,7 @@ namespace acme.Certificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#certificate_request_pem Certificate#certificate_request_pem}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#certificate_request_pem Certificate#certificate_request_pem}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateRequestPem", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateRequestPem
@@ -35,7 +35,7 @@ namespace acme.Certificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#cert_timeout Certificate#cert_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#cert_timeout Certificate#cert_timeout}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? CertTimeout
@@ -44,7 +44,7 @@ namespace acme.Certificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#common_name Certificate#common_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#common_name Certificate#common_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "commonName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CommonName
@@ -55,7 +55,7 @@ namespace acme.Certificate
 
         private object? _deactivateAuthorizations;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#deactivate_authorizations Certificate#deactivate_authorizations}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#deactivate_authorizations Certificate#deactivate_authorizations}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deactivateAuthorizations", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? DeactivateAuthorizations
@@ -86,7 +86,7 @@ namespace acme.Certificate
 
         private object? _disableCompletePropagation;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#disable_complete_propagation Certificate#disable_complete_propagation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#disable_complete_propagation Certificate#disable_complete_propagation}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "disableCompletePropagation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? DisableCompletePropagation
@@ -119,7 +119,7 @@ namespace acme.Certificate
 
         /// <summary>dns_challenge block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#dns_challenge Certificate#dns_challenge}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#dns_challenge Certificate#dns_challenge}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dnsChallenge", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"acme.certificate.CertificateDnsChallenge\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -151,7 +151,7 @@ namespace acme.Certificate
 
         /// <summary>http_challenge block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#http_challenge Certificate#http_challenge}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#http_challenge Certificate#http_challenge}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpChallenge", typeJson: "{\"fqn\":\"acme.certificate.CertificateHttpChallenge\"}", isOptional: true)]
@@ -163,7 +163,7 @@ namespace acme.Certificate
 
         /// <summary>http_memcached_challenge block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#http_memcached_challenge Certificate#http_memcached_challenge}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#http_memcached_challenge Certificate#http_memcached_challenge}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpMemcachedChallenge", typeJson: "{\"fqn\":\"acme.certificate.CertificateHttpMemcachedChallenge\"}", isOptional: true)]
@@ -175,7 +175,7 @@ namespace acme.Certificate
 
         /// <summary>http_s3_challenge block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#http_s3_challenge Certificate#http_s3_challenge}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#http_s3_challenge Certificate#http_s3_challenge}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpS3Challenge", typeJson: "{\"fqn\":\"acme.certificate.CertificateHttpS3Challenge\"}", isOptional: true)]
@@ -187,7 +187,7 @@ namespace acme.Certificate
 
         /// <summary>http_webroot_challenge block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#http_webroot_challenge Certificate#http_webroot_challenge}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#http_webroot_challenge Certificate#http_webroot_challenge}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpWebrootChallenge", typeJson: "{\"fqn\":\"acme.certificate.CertificateHttpWebrootChallenge\"}", isOptional: true)]
@@ -197,7 +197,7 @@ namespace acme.Certificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#id Certificate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#id Certificate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -210,7 +210,7 @@ namespace acme.Certificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#key_type Certificate#key_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#key_type Certificate#key_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyType
@@ -221,7 +221,7 @@ namespace acme.Certificate
 
         private object? _minDaysDynamic;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#min_days_dynamic Certificate#min_days_dynamic}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#min_days_dynamic Certificate#min_days_dynamic}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minDaysDynamic", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? MinDaysDynamic
@@ -250,7 +250,7 @@ namespace acme.Certificate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#min_days_remaining Certificate#min_days_remaining}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#min_days_remaining Certificate#min_days_remaining}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minDaysRemaining", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinDaysRemaining
@@ -261,7 +261,7 @@ namespace acme.Certificate
 
         private object? _mustStaple;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#must_staple Certificate#must_staple}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#must_staple Certificate#must_staple}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mustStaple", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? MustStaple
@@ -290,7 +290,7 @@ namespace acme.Certificate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#pre_check_delay Certificate#pre_check_delay}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#pre_check_delay Certificate#pre_check_delay}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "preCheckDelay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PreCheckDelay
@@ -299,7 +299,7 @@ namespace acme.Certificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#preferred_chain Certificate#preferred_chain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#preferred_chain Certificate#preferred_chain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "preferredChain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PreferredChain
@@ -308,7 +308,7 @@ namespace acme.Certificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#profile Certificate#profile}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#profile Certificate#profile}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "profile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Profile
@@ -317,7 +317,7 @@ namespace acme.Certificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#propagation_wait Certificate#propagation_wait}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#propagation_wait Certificate#propagation_wait}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "propagationWait", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PropagationWait
@@ -326,7 +326,7 @@ namespace acme.Certificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#recursive_nameservers Certificate#recursive_nameservers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#recursive_nameservers Certificate#recursive_nameservers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "recursiveNameservers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? RecursiveNameservers
@@ -337,7 +337,7 @@ namespace acme.Certificate
 
         private object? _renewalInfoIgnoreRetryAfter;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#renewal_info_ignore_retry_after Certificate#renewal_info_ignore_retry_after}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#renewal_info_ignore_retry_after Certificate#renewal_info_ignore_retry_after}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "renewalInfoIgnoreRetryAfter", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? RenewalInfoIgnoreRetryAfter
@@ -366,7 +366,7 @@ namespace acme.Certificate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#renewal_info_max_sleep Certificate#renewal_info_max_sleep}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#renewal_info_max_sleep Certificate#renewal_info_max_sleep}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "renewalInfoMaxSleep", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RenewalInfoMaxSleep
@@ -377,7 +377,7 @@ namespace acme.Certificate
 
         private object? _revokeCertificateOnDestroy;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#revoke_certificate_on_destroy Certificate#revoke_certificate_on_destroy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#revoke_certificate_on_destroy Certificate#revoke_certificate_on_destroy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "revokeCertificateOnDestroy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? RevokeCertificateOnDestroy
@@ -406,7 +406,7 @@ namespace acme.Certificate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#revoke_certificate_reason Certificate#revoke_certificate_reason}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#revoke_certificate_reason Certificate#revoke_certificate_reason}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "revokeCertificateReason", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RevokeCertificateReason
@@ -415,7 +415,7 @@ namespace acme.Certificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#subject_alternative_names Certificate#subject_alternative_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#subject_alternative_names Certificate#subject_alternative_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subjectAlternativeNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SubjectAlternativeNames
@@ -426,7 +426,7 @@ namespace acme.Certificate
 
         /// <summary>tls_challenge block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#tls_challenge Certificate#tls_challenge}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#tls_challenge Certificate#tls_challenge}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tlsChallenge", typeJson: "{\"fqn\":\"acme.certificate.CertificateTlsChallenge\"}", isOptional: true)]
@@ -438,7 +438,7 @@ namespace acme.Certificate
 
         private object? _useRenewalInfo;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#use_renewal_info Certificate#use_renewal_info}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#use_renewal_info Certificate#use_renewal_info}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "useRenewalInfo", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? UseRenewalInfo
@@ -467,7 +467,7 @@ namespace acme.Certificate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#validity_days Certificate#validity_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#validity_days Certificate#validity_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "validityDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ValidityDays

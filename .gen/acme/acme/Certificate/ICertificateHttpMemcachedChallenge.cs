@@ -7,7 +7,7 @@ namespace acme.Certificate
     [JsiiInterface(nativeType: typeof(ICertificateHttpMemcachedChallenge), fullyQualifiedName: "acme.certificate.CertificateHttpMemcachedChallenge")]
     public interface ICertificateHttpMemcachedChallenge
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#hosts Certificate#hosts}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#hosts Certificate#hosts}.</summary>
         [JsiiProperty(name: "hosts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Hosts
         {
@@ -21,7 +21,7 @@ namespace acme.Certificate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#hosts Certificate#hosts}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#hosts Certificate#hosts}.</summary>
             [JsiiProperty(name: "hosts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Hosts
             {
