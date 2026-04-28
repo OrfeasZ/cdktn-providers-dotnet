@@ -11,7 +11,7 @@ namespace scaleway.InstanceIpReverseDns
     {
         /// <summary>The IP ID or IP address.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_ip_reverse_dns#ip_id InstanceIpReverseDns#ip_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_ip_reverse_dns#ip_id InstanceIpReverseDns#ip_id}
         /// </remarks>
         [JsiiProperty(name: "ipId", typeJson: "{\"primitive\":\"string\"}")]
         public string IpId
@@ -22,7 +22,7 @@ namespace scaleway.InstanceIpReverseDns
 
         /// <summary>The reverse DNS for this IP.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_ip_reverse_dns#reverse InstanceIpReverseDns#reverse}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_ip_reverse_dns#reverse InstanceIpReverseDns#reverse}
         /// </remarks>
         [JsiiProperty(name: "reverse", typeJson: "{\"primitive\":\"string\"}")]
         public string Reverse
@@ -31,7 +31,7 @@ namespace scaleway.InstanceIpReverseDns
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_ip_reverse_dns#id InstanceIpReverseDns#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_ip_reverse_dns#id InstanceIpReverseDns#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace scaleway.InstanceIpReverseDns
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_ip_reverse_dns#timeouts InstanceIpReverseDns#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_ip_reverse_dns#timeouts InstanceIpReverseDns#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.instanceIpReverseDns.InstanceIpReverseDnsTimeouts\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace scaleway.InstanceIpReverseDns
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_ip_reverse_dns#zone InstanceIpReverseDns#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_ip_reverse_dns#zone InstanceIpReverseDns#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

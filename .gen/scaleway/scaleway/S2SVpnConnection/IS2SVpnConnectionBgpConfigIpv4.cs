@@ -9,7 +9,7 @@ namespace scaleway.S2SVpnConnection
     {
         /// <summary>The ID of the routing policy to use for BGP route filtering.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_connection#routing_policy_id S2SVpnConnection#routing_policy_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_connection#routing_policy_id S2SVpnConnection#routing_policy_id}
         /// </remarks>
         [JsiiProperty(name: "routingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string RoutingPolicyId
@@ -19,7 +19,7 @@ namespace scaleway.S2SVpnConnection
 
         /// <summary>The BGP peer IP on customer side.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_connection#peer_private_ip S2SVpnConnection#peer_private_ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_connection#peer_private_ip S2SVpnConnection#peer_private_ip}
         /// </remarks>
         [JsiiProperty(name: "peerPrivateIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace scaleway.S2SVpnConnection
 
         /// <summary>The BGP peer IP on Scaleway side.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_connection#private_ip S2SVpnConnection#private_ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_connection#private_ip S2SVpnConnection#private_ip}
         /// </remarks>
         [JsiiProperty(name: "privateIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace scaleway.S2SVpnConnection
 
             /// <summary>The ID of the routing policy to use for BGP route filtering.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_connection#routing_policy_id S2SVpnConnection#routing_policy_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_connection#routing_policy_id S2SVpnConnection#routing_policy_id}
             /// </remarks>
             [JsiiProperty(name: "routingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string RoutingPolicyId
@@ -64,7 +64,7 @@ namespace scaleway.S2SVpnConnection
 
             /// <summary>The BGP peer IP on customer side.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_connection#peer_private_ip S2SVpnConnection#peer_private_ip}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_connection#peer_private_ip S2SVpnConnection#peer_private_ip}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "peerPrivateIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace scaleway.S2SVpnConnection
 
             /// <summary>The BGP peer IP on Scaleway side.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_connection#private_ip S2SVpnConnection#private_ip}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_connection#private_ip S2SVpnConnection#private_ip}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "privateIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

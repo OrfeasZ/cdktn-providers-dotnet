@@ -9,7 +9,7 @@ namespace scaleway.LbFrontend
     {
         /// <summary>action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_frontend#action LbFrontend#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_frontend#action LbFrontend#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"scaleway.lbFrontend.LbFrontendAclAction\"}")]
         scaleway.LbFrontend.ILbFrontendAclAction Action
@@ -19,7 +19,7 @@ namespace scaleway.LbFrontend
 
         /// <summary>match block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_frontend#match LbFrontend#match}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_frontend#match LbFrontend#match}
         /// </remarks>
         [JsiiProperty(name: "match", typeJson: "{\"fqn\":\"scaleway.lbFrontend.LbFrontendAclMatch\"}")]
         scaleway.LbFrontend.ILbFrontendAclMatch Match
@@ -29,7 +29,7 @@ namespace scaleway.LbFrontend
 
         /// <summary>Description of the ACL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_frontend#description LbFrontend#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_frontend#description LbFrontend#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +43,7 @@ namespace scaleway.LbFrontend
 
         /// <summary>The ACL name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_frontend#name LbFrontend#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_frontend#name LbFrontend#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -64,7 +64,7 @@ namespace scaleway.LbFrontend
 
             /// <summary>action block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_frontend#action LbFrontend#action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_frontend#action LbFrontend#action}
             /// </remarks>
             [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"scaleway.lbFrontend.LbFrontendAclAction\"}")]
             public scaleway.LbFrontend.ILbFrontendAclAction Action
@@ -74,7 +74,7 @@ namespace scaleway.LbFrontend
 
             /// <summary>match block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_frontend#match LbFrontend#match}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_frontend#match LbFrontend#match}
             /// </remarks>
             [JsiiProperty(name: "match", typeJson: "{\"fqn\":\"scaleway.lbFrontend.LbFrontendAclMatch\"}")]
             public scaleway.LbFrontend.ILbFrontendAclMatch Match
@@ -84,7 +84,7 @@ namespace scaleway.LbFrontend
 
             /// <summary>Description of the ACL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_frontend#description LbFrontend#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_frontend#description LbFrontend#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace scaleway.LbFrontend
 
             /// <summary>The ACL name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_frontend#name LbFrontend#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_frontend#name LbFrontend#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace scaleway.JobDefinition
     {
         /// <summary>CPU limit of the job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#cpu_limit JobDefinition#cpu_limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#cpu_limit JobDefinition#cpu_limit}
         /// </remarks>
         [JsiiProperty(name: "cpuLimit", typeJson: "{\"primitive\":\"number\"}")]
         public double CpuLimit
@@ -22,7 +22,7 @@ namespace scaleway.JobDefinition
 
         /// <summary>Image URI to use for the job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#image_uri JobDefinition#image_uri}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#image_uri JobDefinition#image_uri}
         /// </remarks>
         [JsiiProperty(name: "imageUri", typeJson: "{\"primitive\":\"string\"}")]
         public string ImageUri
@@ -33,7 +33,7 @@ namespace scaleway.JobDefinition
 
         /// <summary>Local storage capacity of the job in MiB.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#local_storage_capacity JobDefinition#local_storage_capacity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#local_storage_capacity JobDefinition#local_storage_capacity}
         /// </remarks>
         [JsiiProperty(name: "localStorageCapacity", typeJson: "{\"primitive\":\"number\"}")]
         public double LocalStorageCapacity
@@ -44,7 +44,7 @@ namespace scaleway.JobDefinition
 
         /// <summary>Memory limit of the job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#memory_limit JobDefinition#memory_limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#memory_limit JobDefinition#memory_limit}
         /// </remarks>
         [JsiiProperty(name: "memoryLimit", typeJson: "{\"primitive\":\"number\"}")]
         public double MemoryLimit
@@ -55,7 +55,7 @@ namespace scaleway.JobDefinition
 
         /// <summary>Job arguments in list format. Overrides the default arguments defined in the job image.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#args JobDefinition#args}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#args JobDefinition#args}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "args", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace scaleway.JobDefinition
 
         /// <summary>Command to use for the job (in string format).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#command JobDefinition#command}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#command JobDefinition#command}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "command", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace scaleway.JobDefinition
 
         /// <summary>cron block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#cron JobDefinition#cron}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#cron JobDefinition#cron}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cron", typeJson: "{\"fqn\":\"scaleway.jobDefinition.JobDefinitionCron\"}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace scaleway.JobDefinition
 
         /// <summary>The job description.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#description JobDefinition#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#description JobDefinition#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -103,7 +103,7 @@ namespace scaleway.JobDefinition
 
         /// <summary>Environment variables to pass to the job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#env JobDefinition#env}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#env JobDefinition#env}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "env", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -113,7 +113,7 @@ namespace scaleway.JobDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#id JobDefinition#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#id JobDefinition#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -128,7 +128,7 @@ namespace scaleway.JobDefinition
 
         /// <summary>The job name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#name JobDefinition#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#name JobDefinition#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -140,7 +140,7 @@ namespace scaleway.JobDefinition
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#project_id JobDefinition#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#project_id JobDefinition#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -152,7 +152,7 @@ namespace scaleway.JobDefinition
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#region JobDefinition#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#region JobDefinition#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -166,7 +166,7 @@ namespace scaleway.JobDefinition
 
         /// <summary>secret_reference block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#secret_reference JobDefinition#secret_reference}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#secret_reference JobDefinition#secret_reference}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secretReference", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.jobDefinition.JobDefinitionSecretReference\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -198,7 +198,7 @@ namespace scaleway.JobDefinition
 
         /// <summary>Command to use for the job (in list format). Overrides the default command defined in the job image.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#startup_command JobDefinition#startup_command}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#startup_command JobDefinition#startup_command}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "startupCommand", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -210,7 +210,7 @@ namespace scaleway.JobDefinition
 
         /// <summary>Timeout for the job in seconds.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#timeout JobDefinition#timeout}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#timeout JobDefinition#timeout}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

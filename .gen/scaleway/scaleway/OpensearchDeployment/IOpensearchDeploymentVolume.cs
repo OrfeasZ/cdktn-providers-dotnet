@@ -9,7 +9,7 @@ namespace scaleway.OpensearchDeployment
     {
         /// <summary>Volume size in GB.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/opensearch_deployment#size_in_gb OpensearchDeployment#size_in_gb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/opensearch_deployment#size_in_gb OpensearchDeployment#size_in_gb}
         /// </remarks>
         [JsiiProperty(name: "sizeInGb", typeJson: "{\"primitive\":\"number\"}")]
         double SizeInGb
@@ -19,7 +19,7 @@ namespace scaleway.OpensearchDeployment
 
         /// <summary>Volume type (sbs_5k, sbs_15k).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/opensearch_deployment#type OpensearchDeployment#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/opensearch_deployment#type OpensearchDeployment#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -36,7 +36,7 @@ namespace scaleway.OpensearchDeployment
 
             /// <summary>Volume size in GB.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/opensearch_deployment#size_in_gb OpensearchDeployment#size_in_gb}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/opensearch_deployment#size_in_gb OpensearchDeployment#size_in_gb}
             /// </remarks>
             [JsiiProperty(name: "sizeInGb", typeJson: "{\"primitive\":\"number\"}")]
             public double SizeInGb
@@ -46,7 +46,7 @@ namespace scaleway.OpensearchDeployment
 
             /// <summary>Volume type (sbs_5k, sbs_15k).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/opensearch_deployment#type OpensearchDeployment#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/opensearch_deployment#type OpensearchDeployment#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type

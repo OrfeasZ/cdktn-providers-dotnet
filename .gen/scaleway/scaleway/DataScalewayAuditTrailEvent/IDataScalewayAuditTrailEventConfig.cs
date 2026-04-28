@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
     [JsiiInterface(nativeType: typeof(IDataScalewayAuditTrailEventConfig), fullyQualifiedName: "scaleway.dataScalewayAuditTrailEvent.DataScalewayAuditTrailEventConfig")]
     public interface IDataScalewayAuditTrailEventConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#id DataScalewayAuditTrailEvent#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#id DataScalewayAuditTrailEvent#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,7 +24,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
         /// <summary>Name of the method of the API call performed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#method_name DataScalewayAuditTrailEvent#method_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#method_name DataScalewayAuditTrailEvent#method_name}
         /// </remarks>
         [JsiiProperty(name: "methodName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,7 +38,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
         /// <summary>Defines the order in which events are returned. Default value: recorded_at_desc.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#order_by DataScalewayAuditTrailEvent#order_by}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#order_by DataScalewayAuditTrailEvent#order_by}
         /// </remarks>
         [JsiiProperty(name: "orderBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
         /// <summary>ID of the organization containing the Audit Trail events.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#organization_id DataScalewayAuditTrailEvent#organization_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#organization_id DataScalewayAuditTrailEvent#organization_id}
         /// </remarks>
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,7 +66,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
         /// <summary>ID of the User or IAM application at the origin of the event.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#principal_id DataScalewayAuditTrailEvent#principal_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#principal_id DataScalewayAuditTrailEvent#principal_id}
         /// </remarks>
         [JsiiProperty(name: "principalId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -80,7 +80,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
         /// <summary>Scaleway product associated with the listed events in a hyphenated format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#product_name DataScalewayAuditTrailEvent#product_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#product_name DataScalewayAuditTrailEvent#product_name}
         /// </remarks>
         [JsiiProperty(name: "productName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -94,7 +94,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
         /// <summary>ID of the project containing the Audit Trail events.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#project_id DataScalewayAuditTrailEvent#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#project_id DataScalewayAuditTrailEvent#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -110,7 +110,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
         /// <remarks>
         /// Returns <c>one hour ago</c> by default (Format ISO 8601)
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#recorded_after DataScalewayAuditTrailEvent#recorded_after}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#recorded_after DataScalewayAuditTrailEvent#recorded_after}
         /// </remarks>
         [JsiiProperty(name: "recordedAfter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -126,7 +126,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
         /// <remarks>
         /// Must be later than recorded_after. Returns <c>now</c> by default (Format ISO 8601)
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#recorded_before DataScalewayAuditTrailEvent#recorded_before}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#recorded_before DataScalewayAuditTrailEvent#recorded_before}
         /// </remarks>
         [JsiiProperty(name: "recordedBefore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -140,7 +140,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#region DataScalewayAuditTrailEvent#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#region DataScalewayAuditTrailEvent#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -154,7 +154,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
         /// <summary>ID of the Scaleway resource associated with the listed events.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#resource_id DataScalewayAuditTrailEvent#resource_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#resource_id DataScalewayAuditTrailEvent#resource_id}
         /// </remarks>
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -168,7 +168,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
         /// <summary>Type of the scaleway resources associated with the listed events.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#resource_type DataScalewayAuditTrailEvent#resource_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#resource_type DataScalewayAuditTrailEvent#resource_type}
         /// </remarks>
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -182,7 +182,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
         /// <summary>Name of the service of the API call performed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#service_name DataScalewayAuditTrailEvent#service_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#service_name DataScalewayAuditTrailEvent#service_name}
         /// </remarks>
         [JsiiProperty(name: "serviceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -196,7 +196,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
         /// <summary>IP address at the origin of the event.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#source_ip DataScalewayAuditTrailEvent#source_ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#source_ip DataScalewayAuditTrailEvent#source_ip}
         /// </remarks>
         [JsiiProperty(name: "sourceIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -210,7 +210,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
         /// <summary>HTTP status code of the request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#status DataScalewayAuditTrailEvent#status}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#status DataScalewayAuditTrailEvent#status}
         /// </remarks>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -229,7 +229,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#id DataScalewayAuditTrailEvent#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#id DataScalewayAuditTrailEvent#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -243,7 +243,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
             /// <summary>Name of the method of the API call performed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#method_name DataScalewayAuditTrailEvent#method_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#method_name DataScalewayAuditTrailEvent#method_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "methodName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -254,7 +254,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
             /// <summary>Defines the order in which events are returned. Default value: recorded_at_desc.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#order_by DataScalewayAuditTrailEvent#order_by}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#order_by DataScalewayAuditTrailEvent#order_by}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "orderBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -265,7 +265,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
             /// <summary>ID of the organization containing the Audit Trail events.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#organization_id DataScalewayAuditTrailEvent#organization_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#organization_id DataScalewayAuditTrailEvent#organization_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -276,7 +276,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
             /// <summary>ID of the User or IAM application at the origin of the event.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#principal_id DataScalewayAuditTrailEvent#principal_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#principal_id DataScalewayAuditTrailEvent#principal_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "principalId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -287,7 +287,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
             /// <summary>Scaleway product associated with the listed events in a hyphenated format.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#product_name DataScalewayAuditTrailEvent#product_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#product_name DataScalewayAuditTrailEvent#product_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "productName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -298,7 +298,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
             /// <summary>ID of the project containing the Audit Trail events.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#project_id DataScalewayAuditTrailEvent#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#project_id DataScalewayAuditTrailEvent#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -311,7 +311,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
             /// <remarks>
             /// Returns <c>one hour ago</c> by default (Format ISO 8601)
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#recorded_after DataScalewayAuditTrailEvent#recorded_after}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#recorded_after DataScalewayAuditTrailEvent#recorded_after}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "recordedAfter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -324,7 +324,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
             /// <remarks>
             /// Must be later than recorded_after. Returns <c>now</c> by default (Format ISO 8601)
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#recorded_before DataScalewayAuditTrailEvent#recorded_before}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#recorded_before DataScalewayAuditTrailEvent#recorded_before}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "recordedBefore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -335,7 +335,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#region DataScalewayAuditTrailEvent#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#region DataScalewayAuditTrailEvent#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -346,7 +346,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
             /// <summary>ID of the Scaleway resource associated with the listed events.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#resource_id DataScalewayAuditTrailEvent#resource_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#resource_id DataScalewayAuditTrailEvent#resource_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -357,7 +357,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
             /// <summary>Type of the scaleway resources associated with the listed events.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#resource_type DataScalewayAuditTrailEvent#resource_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#resource_type DataScalewayAuditTrailEvent#resource_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -368,7 +368,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
             /// <summary>Name of the service of the API call performed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#service_name DataScalewayAuditTrailEvent#service_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#service_name DataScalewayAuditTrailEvent#service_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "serviceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -379,7 +379,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
             /// <summary>IP address at the origin of the event.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#source_ip DataScalewayAuditTrailEvent#source_ip}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#source_ip DataScalewayAuditTrailEvent#source_ip}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sourceIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -390,7 +390,7 @@ namespace scaleway.DataScalewayAuditTrailEvent
 
             /// <summary>HTTP status code of the request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/audit_trail_event#status DataScalewayAuditTrailEvent#status}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/audit_trail_event#status DataScalewayAuditTrailEvent#status}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

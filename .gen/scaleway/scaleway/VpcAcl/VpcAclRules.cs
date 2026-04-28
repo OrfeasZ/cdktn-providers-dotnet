@@ -9,7 +9,7 @@ namespace scaleway.VpcAcl
     {
         /// <summary>The policy to apply to the packet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_acl#action VpcAcl#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_acl#action VpcAcl#action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace scaleway.VpcAcl
 
         /// <summary>The rule description.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_acl#description VpcAcl#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_acl#description VpcAcl#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace scaleway.VpcAcl
 
         /// <summary>Destination IP range to which this rule applies (CIDR notation with subnet mask).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_acl#destination VpcAcl#destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_acl#destination VpcAcl#destination}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "destination", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace scaleway.VpcAcl
 
         /// <summary>Ending port of the destination port range to which this rule applies (inclusive).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_acl#dst_port_high VpcAcl#dst_port_high}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_acl#dst_port_high VpcAcl#dst_port_high}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dstPortHigh", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace scaleway.VpcAcl
 
         /// <summary>Starting port of the destination port range to which this rule applies (inclusive).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_acl#dst_port_low VpcAcl#dst_port_low}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_acl#dst_port_low VpcAcl#dst_port_low}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dstPortLow", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace scaleway.VpcAcl
 
         /// <summary>The protocol to which this rule applies. Default value: ANY.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_acl#protocol VpcAcl#protocol}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_acl#protocol VpcAcl#protocol}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace scaleway.VpcAcl
 
         /// <summary>Source IP range to which this rule applies (CIDR notation with subnet mask).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_acl#source VpcAcl#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_acl#source VpcAcl#source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -93,7 +93,7 @@ namespace scaleway.VpcAcl
 
         /// <summary>Ending port of the source port range to which this rule applies (inclusive).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_acl#src_port_high VpcAcl#src_port_high}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_acl#src_port_high VpcAcl#src_port_high}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "srcPortHigh", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace scaleway.VpcAcl
 
         /// <summary>Starting port of the source port range to which this rule applies (inclusive).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_acl#src_port_low VpcAcl#src_port_low}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_acl#src_port_low VpcAcl#src_port_low}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "srcPortLow", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

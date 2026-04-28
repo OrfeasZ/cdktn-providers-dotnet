@@ -9,7 +9,7 @@ namespace scaleway.IpamIpReverseDns
     {
         /// <summary>The IP corresponding to the hostname.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/ipam_ip_reverse_dns#address IpamIpReverseDns#address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/ipam_ip_reverse_dns#address IpamIpReverseDns#address}
         /// </remarks>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
         string Address
@@ -19,7 +19,7 @@ namespace scaleway.IpamIpReverseDns
 
         /// <summary>The reverse domain name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/ipam_ip_reverse_dns#hostname IpamIpReverseDns#hostname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/ipam_ip_reverse_dns#hostname IpamIpReverseDns#hostname}
         /// </remarks>
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
         string Hostname
@@ -29,7 +29,7 @@ namespace scaleway.IpamIpReverseDns
 
         /// <summary>The IPAM IP ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/ipam_ip_reverse_dns#ipam_ip_id IpamIpReverseDns#ipam_ip_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/ipam_ip_reverse_dns#ipam_ip_id IpamIpReverseDns#ipam_ip_id}
         /// </remarks>
         [JsiiProperty(name: "ipamIpId", typeJson: "{\"primitive\":\"string\"}")]
         string IpamIpId
@@ -37,7 +37,7 @@ namespace scaleway.IpamIpReverseDns
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/ipam_ip_reverse_dns#id IpamIpReverseDns#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/ipam_ip_reverse_dns#id IpamIpReverseDns#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,7 +54,7 @@ namespace scaleway.IpamIpReverseDns
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/ipam_ip_reverse_dns#region IpamIpReverseDns#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/ipam_ip_reverse_dns#region IpamIpReverseDns#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,7 +68,7 @@ namespace scaleway.IpamIpReverseDns
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/ipam_ip_reverse_dns#timeouts IpamIpReverseDns#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/ipam_ip_reverse_dns#timeouts IpamIpReverseDns#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.ipamIpReverseDns.IpamIpReverseDnsTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -89,7 +89,7 @@ namespace scaleway.IpamIpReverseDns
 
             /// <summary>The IP corresponding to the hostname.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/ipam_ip_reverse_dns#address IpamIpReverseDns#address}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/ipam_ip_reverse_dns#address IpamIpReverseDns#address}
             /// </remarks>
             [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
             public string Address
@@ -99,7 +99,7 @@ namespace scaleway.IpamIpReverseDns
 
             /// <summary>The reverse domain name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/ipam_ip_reverse_dns#hostname IpamIpReverseDns#hostname}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/ipam_ip_reverse_dns#hostname IpamIpReverseDns#hostname}
             /// </remarks>
             [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
             public string Hostname
@@ -109,7 +109,7 @@ namespace scaleway.IpamIpReverseDns
 
             /// <summary>The IPAM IP ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/ipam_ip_reverse_dns#ipam_ip_id IpamIpReverseDns#ipam_ip_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/ipam_ip_reverse_dns#ipam_ip_id IpamIpReverseDns#ipam_ip_id}
             /// </remarks>
             [JsiiProperty(name: "ipamIpId", typeJson: "{\"primitive\":\"string\"}")]
             public string IpamIpId
@@ -117,7 +117,7 @@ namespace scaleway.IpamIpReverseDns
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/ipam_ip_reverse_dns#id IpamIpReverseDns#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/ipam_ip_reverse_dns#id IpamIpReverseDns#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -131,7 +131,7 @@ namespace scaleway.IpamIpReverseDns
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/ipam_ip_reverse_dns#region IpamIpReverseDns#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/ipam_ip_reverse_dns#region IpamIpReverseDns#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -142,7 +142,7 @@ namespace scaleway.IpamIpReverseDns
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/ipam_ip_reverse_dns#timeouts IpamIpReverseDns#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/ipam_ip_reverse_dns#timeouts IpamIpReverseDns#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.ipamIpReverseDns.IpamIpReverseDnsTimeouts\"}", isOptional: true)]

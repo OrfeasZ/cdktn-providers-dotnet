@@ -9,7 +9,7 @@ namespace scaleway.LbBackend
     {
         /// <summary>User sessions will be forwarded to this port of backend servers.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#forward_port LbBackend#forward_port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#forward_port LbBackend#forward_port}
         /// </remarks>
         [JsiiProperty(name: "forwardPort", typeJson: "{\"primitive\":\"number\"}")]
         double ForwardPort
@@ -19,7 +19,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Backend protocol.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#forward_protocol LbBackend#forward_protocol}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#forward_protocol LbBackend#forward_protocol}
         /// </remarks>
         [JsiiProperty(name: "forwardProtocol", typeJson: "{\"primitive\":\"string\"}")]
         string ForwardProtocol
@@ -29,7 +29,7 @@ namespace scaleway.LbBackend
 
         /// <summary>The load-balancer ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#lb_id LbBackend#lb_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#lb_id LbBackend#lb_id}
         /// </remarks>
         [JsiiProperty(name: "lbId", typeJson: "{\"primitive\":\"string\"}")]
         string LbId
@@ -42,7 +42,7 @@ namespace scaleway.LbBackend
         /// <strong>NOTE</strong> : Only the host part of the Scaleway S3 bucket website is expected.
         /// E.g. 'failover-website.s3-website.fr-par.scw.cloud' if your bucket website URL is 'https://failover-website.s3-website.fr-par.scw.cloud/'.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#failover_host LbBackend#failover_host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#failover_host LbBackend#failover_host}
         /// </remarks>
         [JsiiProperty(name: "failoverHost", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -56,7 +56,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Load balancing algorithm.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#forward_port_algorithm LbBackend#forward_port_algorithm}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#forward_port_algorithm LbBackend#forward_port_algorithm}
         /// </remarks>
         [JsiiProperty(name: "forwardPortAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -70,7 +70,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Interval between two HC requests.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#health_check_delay LbBackend#health_check_delay}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#health_check_delay LbBackend#health_check_delay}
         /// </remarks>
         [JsiiProperty(name: "healthCheckDelay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -84,7 +84,7 @@ namespace scaleway.LbBackend
 
         /// <summary>health_check_http block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#health_check_http LbBackend#health_check_http}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#health_check_http LbBackend#health_check_http}
         /// </remarks>
         [JsiiProperty(name: "healthCheckHttp", typeJson: "{\"fqn\":\"scaleway.lbBackend.LbBackendHealthCheckHttp\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -98,7 +98,7 @@ namespace scaleway.LbBackend
 
         /// <summary>health_check_https block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#health_check_https LbBackend#health_check_https}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#health_check_https LbBackend#health_check_https}
         /// </remarks>
         [JsiiProperty(name: "healthCheckHttps", typeJson: "{\"fqn\":\"scaleway.lbBackend.LbBackendHealthCheckHttps\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -112,7 +112,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Number of allowed failed HC requests before the backend server is marked down.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#health_check_max_retries LbBackend#health_check_max_retries}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#health_check_max_retries LbBackend#health_check_max_retries}
         /// </remarks>
         [JsiiProperty(name: "healthCheckMaxRetries", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -126,7 +126,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Port the HC requests will be send to. Default to `forward_port`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#health_check_port LbBackend#health_check_port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#health_check_port LbBackend#health_check_port}
         /// </remarks>
         [JsiiProperty(name: "healthCheckPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -140,7 +140,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Defines whether proxy protocol should be activated for the health check.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#health_check_send_proxy LbBackend#health_check_send_proxy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#health_check_send_proxy LbBackend#health_check_send_proxy}
         /// </remarks>
         [JsiiProperty(name: "healthCheckSendProxy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -154,7 +154,7 @@ namespace scaleway.LbBackend
 
         /// <summary>health_check_tcp block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#health_check_tcp LbBackend#health_check_tcp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#health_check_tcp LbBackend#health_check_tcp}
         /// </remarks>
         [JsiiProperty(name: "healthCheckTcp", typeJson: "{\"fqn\":\"scaleway.lbBackend.LbBackendHealthCheckTcp\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -168,7 +168,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Timeout before we consider a HC request failed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#health_check_timeout LbBackend#health_check_timeout}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#health_check_timeout LbBackend#health_check_timeout}
         /// </remarks>
         [JsiiProperty(name: "healthCheckTimeout", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -182,7 +182,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Time to wait between two consecutive health checks when a backend server is in a transient state (going UP or DOWN).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#health_check_transient_delay LbBackend#health_check_transient_delay}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#health_check_transient_delay LbBackend#health_check_transient_delay}
         /// </remarks>
         [JsiiProperty(name: "healthCheckTransientDelay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -194,7 +194,7 @@ namespace scaleway.LbBackend
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#id LbBackend#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#id LbBackend#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -211,7 +211,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Specifies whether the Load Balancer should check the backend server’s certificate before initiating a connection.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#ignore_ssl_server_verify LbBackend#ignore_ssl_server_verify}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#ignore_ssl_server_verify LbBackend#ignore_ssl_server_verify}
         /// </remarks>
         [JsiiProperty(name: "ignoreSslServerVerify", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -225,7 +225,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Maximum number of connections allowed per backend server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#max_connections LbBackend#max_connections}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#max_connections LbBackend#max_connections}
         /// </remarks>
         [JsiiProperty(name: "maxConnections", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -239,7 +239,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Number of retries when a backend server connection failed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#max_retries LbBackend#max_retries}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#max_retries LbBackend#max_retries}
         /// </remarks>
         [JsiiProperty(name: "maxRetries", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -253,7 +253,7 @@ namespace scaleway.LbBackend
 
         /// <summary>The name of the backend.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#name LbBackend#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#name LbBackend#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -267,7 +267,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Modify what occurs when a backend server is marked down.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#on_marked_down_action LbBackend#on_marked_down_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#on_marked_down_action LbBackend#on_marked_down_action}
         /// </remarks>
         [JsiiProperty(name: "onMarkedDownAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -281,7 +281,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Type of PROXY protocol to enable.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#proxy_protocol LbBackend#proxy_protocol}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#proxy_protocol LbBackend#proxy_protocol}
         /// </remarks>
         [JsiiProperty(name: "proxyProtocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -295,7 +295,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Whether to use another backend server on each attempt.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#redispatch_attempt_count LbBackend#redispatch_attempt_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#redispatch_attempt_count LbBackend#redispatch_attempt_count}
         /// </remarks>
         [JsiiProperty(name: "redispatchAttemptCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -309,7 +309,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Enables PROXY protocol version 2.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#send_proxy_v2 LbBackend#send_proxy_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#send_proxy_v2 LbBackend#send_proxy_v2}
         /// </remarks>
         [JsiiProperty(name: "sendProxyV2", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -323,7 +323,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Backend server IP addresses list (IPv4 or IPv6).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#server_ips LbBackend#server_ips}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#server_ips LbBackend#server_ips}
         /// </remarks>
         [JsiiProperty(name: "serverIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -337,7 +337,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Enables SSL between load balancer and backend servers.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#ssl_bridging LbBackend#ssl_bridging}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#ssl_bridging LbBackend#ssl_bridging}
         /// </remarks>
         [JsiiProperty(name: "sslBridging", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -351,7 +351,7 @@ namespace scaleway.LbBackend
 
         /// <summary>The type of sticky sessions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#sticky_sessions LbBackend#sticky_sessions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#sticky_sessions LbBackend#sticky_sessions}
         /// </remarks>
         [JsiiProperty(name: "stickySessions", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -365,7 +365,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Cookie name for sticky sessions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#sticky_sessions_cookie_name LbBackend#sticky_sessions_cookie_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#sticky_sessions_cookie_name LbBackend#sticky_sessions_cookie_name}
         /// </remarks>
         [JsiiProperty(name: "stickySessionsCookieName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -379,7 +379,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Maximum initial server connection establishment time.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#timeout_connect LbBackend#timeout_connect}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#timeout_connect LbBackend#timeout_connect}
         /// </remarks>
         [JsiiProperty(name: "timeoutConnect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -393,7 +393,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Maximum time (in seconds) for a request to be left pending in queue when `max_connections` is reached.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#timeout_queue LbBackend#timeout_queue}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#timeout_queue LbBackend#timeout_queue}
         /// </remarks>
         [JsiiProperty(name: "timeoutQueue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -407,7 +407,7 @@ namespace scaleway.LbBackend
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#timeouts LbBackend#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#timeouts LbBackend#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.lbBackend.LbBackendTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -421,7 +421,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Maximum server connection inactivity time.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#timeout_server LbBackend#timeout_server}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#timeout_server LbBackend#timeout_server}
         /// </remarks>
         [JsiiProperty(name: "timeoutServer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -435,7 +435,7 @@ namespace scaleway.LbBackend
 
         /// <summary>Maximum tunnel inactivity time.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#timeout_tunnel LbBackend#timeout_tunnel}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#timeout_tunnel LbBackend#timeout_tunnel}
         /// </remarks>
         [JsiiProperty(name: "timeoutTunnel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -456,7 +456,7 @@ namespace scaleway.LbBackend
 
             /// <summary>User sessions will be forwarded to this port of backend servers.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#forward_port LbBackend#forward_port}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#forward_port LbBackend#forward_port}
             /// </remarks>
             [JsiiProperty(name: "forwardPort", typeJson: "{\"primitive\":\"number\"}")]
             public double ForwardPort
@@ -466,7 +466,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Backend protocol.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#forward_protocol LbBackend#forward_protocol}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#forward_protocol LbBackend#forward_protocol}
             /// </remarks>
             [JsiiProperty(name: "forwardProtocol", typeJson: "{\"primitive\":\"string\"}")]
             public string ForwardProtocol
@@ -476,7 +476,7 @@ namespace scaleway.LbBackend
 
             /// <summary>The load-balancer ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#lb_id LbBackend#lb_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#lb_id LbBackend#lb_id}
             /// </remarks>
             [JsiiProperty(name: "lbId", typeJson: "{\"primitive\":\"string\"}")]
             public string LbId
@@ -489,7 +489,7 @@ namespace scaleway.LbBackend
             /// <strong>NOTE</strong> : Only the host part of the Scaleway S3 bucket website is expected.
             /// E.g. 'failover-website.s3-website.fr-par.scw.cloud' if your bucket website URL is 'https://failover-website.s3-website.fr-par.scw.cloud/'.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#failover_host LbBackend#failover_host}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#failover_host LbBackend#failover_host}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "failoverHost", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -500,7 +500,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Load balancing algorithm.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#forward_port_algorithm LbBackend#forward_port_algorithm}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#forward_port_algorithm LbBackend#forward_port_algorithm}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "forwardPortAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -511,7 +511,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Interval between two HC requests.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#health_check_delay LbBackend#health_check_delay}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#health_check_delay LbBackend#health_check_delay}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "healthCheckDelay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -522,7 +522,7 @@ namespace scaleway.LbBackend
 
             /// <summary>health_check_http block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#health_check_http LbBackend#health_check_http}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#health_check_http LbBackend#health_check_http}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "healthCheckHttp", typeJson: "{\"fqn\":\"scaleway.lbBackend.LbBackendHealthCheckHttp\"}", isOptional: true)]
@@ -533,7 +533,7 @@ namespace scaleway.LbBackend
 
             /// <summary>health_check_https block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#health_check_https LbBackend#health_check_https}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#health_check_https LbBackend#health_check_https}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "healthCheckHttps", typeJson: "{\"fqn\":\"scaleway.lbBackend.LbBackendHealthCheckHttps\"}", isOptional: true)]
@@ -544,7 +544,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Number of allowed failed HC requests before the backend server is marked down.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#health_check_max_retries LbBackend#health_check_max_retries}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#health_check_max_retries LbBackend#health_check_max_retries}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "healthCheckMaxRetries", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -555,7 +555,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Port the HC requests will be send to. Default to `forward_port`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#health_check_port LbBackend#health_check_port}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#health_check_port LbBackend#health_check_port}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "healthCheckPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -566,7 +566,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Defines whether proxy protocol should be activated for the health check.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#health_check_send_proxy LbBackend#health_check_send_proxy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#health_check_send_proxy LbBackend#health_check_send_proxy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "healthCheckSendProxy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -577,7 +577,7 @@ namespace scaleway.LbBackend
 
             /// <summary>health_check_tcp block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#health_check_tcp LbBackend#health_check_tcp}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#health_check_tcp LbBackend#health_check_tcp}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "healthCheckTcp", typeJson: "{\"fqn\":\"scaleway.lbBackend.LbBackendHealthCheckTcp\"}", isOptional: true)]
@@ -588,7 +588,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Timeout before we consider a HC request failed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#health_check_timeout LbBackend#health_check_timeout}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#health_check_timeout LbBackend#health_check_timeout}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "healthCheckTimeout", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -599,7 +599,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Time to wait between two consecutive health checks when a backend server is in a transient state (going UP or DOWN).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#health_check_transient_delay LbBackend#health_check_transient_delay}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#health_check_transient_delay LbBackend#health_check_transient_delay}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "healthCheckTransientDelay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -608,7 +608,7 @@ namespace scaleway.LbBackend
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#id LbBackend#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#id LbBackend#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -622,7 +622,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Specifies whether the Load Balancer should check the backend server’s certificate before initiating a connection.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#ignore_ssl_server_verify LbBackend#ignore_ssl_server_verify}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#ignore_ssl_server_verify LbBackend#ignore_ssl_server_verify}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ignoreSslServerVerify", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -633,7 +633,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Maximum number of connections allowed per backend server.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#max_connections LbBackend#max_connections}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#max_connections LbBackend#max_connections}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxConnections", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -644,7 +644,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Number of retries when a backend server connection failed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#max_retries LbBackend#max_retries}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#max_retries LbBackend#max_retries}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxRetries", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -655,7 +655,7 @@ namespace scaleway.LbBackend
 
             /// <summary>The name of the backend.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#name LbBackend#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#name LbBackend#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -666,7 +666,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Modify what occurs when a backend server is marked down.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#on_marked_down_action LbBackend#on_marked_down_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#on_marked_down_action LbBackend#on_marked_down_action}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "onMarkedDownAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -677,7 +677,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Type of PROXY protocol to enable.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#proxy_protocol LbBackend#proxy_protocol}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#proxy_protocol LbBackend#proxy_protocol}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "proxyProtocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -688,7 +688,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Whether to use another backend server on each attempt.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#redispatch_attempt_count LbBackend#redispatch_attempt_count}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#redispatch_attempt_count LbBackend#redispatch_attempt_count}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "redispatchAttemptCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -699,7 +699,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Enables PROXY protocol version 2.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#send_proxy_v2 LbBackend#send_proxy_v2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#send_proxy_v2 LbBackend#send_proxy_v2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sendProxyV2", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -710,7 +710,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Backend server IP addresses list (IPv4 or IPv6).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#server_ips LbBackend#server_ips}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#server_ips LbBackend#server_ips}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "serverIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -721,7 +721,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Enables SSL between load balancer and backend servers.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#ssl_bridging LbBackend#ssl_bridging}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#ssl_bridging LbBackend#ssl_bridging}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sslBridging", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -732,7 +732,7 @@ namespace scaleway.LbBackend
 
             /// <summary>The type of sticky sessions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#sticky_sessions LbBackend#sticky_sessions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#sticky_sessions LbBackend#sticky_sessions}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "stickySessions", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -743,7 +743,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Cookie name for sticky sessions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#sticky_sessions_cookie_name LbBackend#sticky_sessions_cookie_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#sticky_sessions_cookie_name LbBackend#sticky_sessions_cookie_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "stickySessionsCookieName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -754,7 +754,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Maximum initial server connection establishment time.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#timeout_connect LbBackend#timeout_connect}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#timeout_connect LbBackend#timeout_connect}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeoutConnect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -765,7 +765,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Maximum time (in seconds) for a request to be left pending in queue when `max_connections` is reached.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#timeout_queue LbBackend#timeout_queue}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#timeout_queue LbBackend#timeout_queue}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeoutQueue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -776,7 +776,7 @@ namespace scaleway.LbBackend
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#timeouts LbBackend#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#timeouts LbBackend#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.lbBackend.LbBackendTimeouts\"}", isOptional: true)]
@@ -787,7 +787,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Maximum server connection inactivity time.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#timeout_server LbBackend#timeout_server}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#timeout_server LbBackend#timeout_server}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeoutServer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -798,7 +798,7 @@ namespace scaleway.LbBackend
 
             /// <summary>Maximum tunnel inactivity time.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#timeout_tunnel LbBackend#timeout_tunnel}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#timeout_tunnel LbBackend#timeout_tunnel}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeoutTunnel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

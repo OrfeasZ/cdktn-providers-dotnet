@@ -5,7 +5,7 @@ namespace scaleway.BaremetalServer
     /// <remarks>
     /// <h1><c>scaleway_baremetal_server</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/baremetal_server"><c>scaleway_baremetal_server</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/baremetal_server"><c>scaleway_baremetal_server</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -11,7 +11,7 @@ namespace scaleway.ObjectBucketWebsiteConfiguration
     {
         /// <summary>The bucket's name or regional ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_website_configuration#bucket ObjectBucketWebsiteConfiguration#bucket}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_website_configuration#bucket ObjectBucketWebsiteConfiguration#bucket}
         /// </remarks>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
@@ -22,7 +22,7 @@ namespace scaleway.ObjectBucketWebsiteConfiguration
 
         /// <summary>index_document block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_website_configuration#index_document ObjectBucketWebsiteConfiguration#index_document}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_website_configuration#index_document ObjectBucketWebsiteConfiguration#index_document}
         /// </remarks>
         [JsiiProperty(name: "indexDocument", typeJson: "{\"fqn\":\"scaleway.objectBucketWebsiteConfiguration.ObjectBucketWebsiteConfigurationIndexDocument\"}")]
         public scaleway.ObjectBucketWebsiteConfiguration.IObjectBucketWebsiteConfigurationIndexDocument IndexDocument
@@ -33,7 +33,7 @@ namespace scaleway.ObjectBucketWebsiteConfiguration
 
         /// <summary>error_document block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_website_configuration#error_document ObjectBucketWebsiteConfiguration#error_document}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_website_configuration#error_document ObjectBucketWebsiteConfiguration#error_document}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "errorDocument", typeJson: "{\"fqn\":\"scaleway.objectBucketWebsiteConfiguration.ObjectBucketWebsiteConfigurationErrorDocument\"}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace scaleway.ObjectBucketWebsiteConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_website_configuration#id ObjectBucketWebsiteConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_website_configuration#id ObjectBucketWebsiteConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace scaleway.ObjectBucketWebsiteConfiguration
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_website_configuration#project_id ObjectBucketWebsiteConfiguration#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_website_configuration#project_id ObjectBucketWebsiteConfiguration#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace scaleway.ObjectBucketWebsiteConfiguration
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_website_configuration#region ObjectBucketWebsiteConfiguration#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_website_configuration#region ObjectBucketWebsiteConfiguration#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

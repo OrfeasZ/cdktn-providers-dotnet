@@ -11,7 +11,7 @@ namespace scaleway.IotRoute
     {
         /// <summary>The HTTP call extra headers.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#headers IotRoute#headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#headers IotRoute#headers}
         /// </remarks>
         [JsiiProperty(name: "headers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, string> Headers
@@ -22,7 +22,7 @@ namespace scaleway.IotRoute
 
         /// <summary>The URI of the REST endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#uri IotRoute#uri}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#uri IotRoute#uri}
         /// </remarks>
         [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}")]
         public string Uri
@@ -33,7 +33,7 @@ namespace scaleway.IotRoute
 
         /// <summary>The HTTP Verb used to call REST URI.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#verb IotRoute#verb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#verb IotRoute#verb}
         /// </remarks>
         [JsiiProperty(name: "verb", typeJson: "{\"primitive\":\"string\"}")]
         public string Verb

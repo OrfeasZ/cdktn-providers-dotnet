@@ -11,7 +11,7 @@ namespace scaleway.DomainRecord
     {
         /// <summary>The weighted IP.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_record#ip DomainRecord#ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_record#ip DomainRecord#ip}
         /// </remarks>
         [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}")]
         public string Ip
@@ -22,7 +22,7 @@ namespace scaleway.DomainRecord
 
         /// <summary>The weight of the IP.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_record#weight DomainRecord#weight}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_record#weight DomainRecord#weight}
         /// </remarks>
         [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}")]
         public double Weight

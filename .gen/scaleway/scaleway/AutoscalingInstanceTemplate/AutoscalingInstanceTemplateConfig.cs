@@ -11,7 +11,7 @@ namespace scaleway.AutoscalingInstanceTemplate
     {
         /// <summary>Name of Instance commercial type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_template#commercial_type AutoscalingInstanceTemplate#commercial_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_template#commercial_type AutoscalingInstanceTemplate#commercial_type}
         /// </remarks>
         [JsiiProperty(name: "commercialType", typeJson: "{\"primitive\":\"string\"}")]
         public string CommercialType
@@ -22,7 +22,7 @@ namespace scaleway.AutoscalingInstanceTemplate
 
         /// <summary>Cloud-config to apply to each instance (will be passed in Base64 format).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_template#cloud_init AutoscalingInstanceTemplate#cloud_init}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_template#cloud_init AutoscalingInstanceTemplate#cloud_init}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudInit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -32,7 +32,7 @@ namespace scaleway.AutoscalingInstanceTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_template#id AutoscalingInstanceTemplate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_template#id AutoscalingInstanceTemplate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,7 +49,7 @@ namespace scaleway.AutoscalingInstanceTemplate
         /// <remarks>
         /// Can be an ID of a marketplace or personal image. This image must be compatible with <c>volume</c> and <c>commercial_type</c> template
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_template#image_id AutoscalingInstanceTemplate#image_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_template#image_id AutoscalingInstanceTemplate#image_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "imageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace scaleway.AutoscalingInstanceTemplate
 
         /// <summary>The Instance template name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_template#name AutoscalingInstanceTemplate#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_template#name AutoscalingInstanceTemplate#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace scaleway.AutoscalingInstanceTemplate
         /// <remarks>
         /// This is optional, but it is highly recommended to set a preference for Instance location within Availability Zone
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_template#placement_group_id AutoscalingInstanceTemplate#placement_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_template#placement_group_id AutoscalingInstanceTemplate#placement_group_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "placementGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -87,7 +87,7 @@ namespace scaleway.AutoscalingInstanceTemplate
 
         /// <summary>Private Network IDs to attach to the new Instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_template#private_network_ids AutoscalingInstanceTemplate#private_network_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_template#private_network_ids AutoscalingInstanceTemplate#private_network_ids}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateNetworkIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace scaleway.AutoscalingInstanceTemplate
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_template#project_id AutoscalingInstanceTemplate#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_template#project_id AutoscalingInstanceTemplate#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -111,7 +111,7 @@ namespace scaleway.AutoscalingInstanceTemplate
 
         /// <summary>Number of flexible IPv4 addresses to attach to the new Instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_template#public_ips_v4_count AutoscalingInstanceTemplate#public_ips_v4_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_template#public_ips_v4_count AutoscalingInstanceTemplate#public_ips_v4_count}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publicIpsV4Count", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -123,7 +123,7 @@ namespace scaleway.AutoscalingInstanceTemplate
 
         /// <summary>Number of flexible IPv6 addresses to attach to the new Instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_template#public_ips_v6_count AutoscalingInstanceTemplate#public_ips_v6_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_template#public_ips_v6_count AutoscalingInstanceTemplate#public_ips_v6_count}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publicIpsV6Count", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -135,7 +135,7 @@ namespace scaleway.AutoscalingInstanceTemplate
 
         /// <summary>Instance security group ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_template#security_group_id AutoscalingInstanceTemplate#security_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_template#security_group_id AutoscalingInstanceTemplate#security_group_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "securityGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -147,7 +147,7 @@ namespace scaleway.AutoscalingInstanceTemplate
 
         /// <summary>The tags associated with the Instance template.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_template#tags AutoscalingInstanceTemplate#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_template#tags AutoscalingInstanceTemplate#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -161,7 +161,7 @@ namespace scaleway.AutoscalingInstanceTemplate
 
         /// <summary>volumes block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_template#volumes AutoscalingInstanceTemplate#volumes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_template#volumes AutoscalingInstanceTemplate#volumes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "volumes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.autoscalingInstanceTemplate.AutoscalingInstanceTemplateVolumes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -193,7 +193,7 @@ namespace scaleway.AutoscalingInstanceTemplate
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_template#zone AutoscalingInstanceTemplate#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_template#zone AutoscalingInstanceTemplate#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

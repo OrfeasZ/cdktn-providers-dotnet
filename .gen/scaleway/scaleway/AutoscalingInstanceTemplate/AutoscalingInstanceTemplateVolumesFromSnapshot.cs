@@ -11,7 +11,7 @@ namespace scaleway.AutoscalingInstanceTemplate
     {
         /// <summary>ID of the snapshot to clone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_template#snapshot_id AutoscalingInstanceTemplate#snapshot_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_template#snapshot_id AutoscalingInstanceTemplate#snapshot_id}
         /// </remarks>
         [JsiiProperty(name: "snapshotId", typeJson: "{\"primitive\":\"string\"}")]
         public string SnapshotId
@@ -22,7 +22,7 @@ namespace scaleway.AutoscalingInstanceTemplate
 
         /// <summary>Override size (in GB) of the cloned volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_template#size AutoscalingInstanceTemplate#size}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_template#size AutoscalingInstanceTemplate#size}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

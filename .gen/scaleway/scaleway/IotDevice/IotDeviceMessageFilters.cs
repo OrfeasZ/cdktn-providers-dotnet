@@ -9,7 +9,7 @@ namespace scaleway.IotDevice
     {
         /// <summary>publish block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_device#publish IotDevice#publish}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_device#publish IotDevice#publish}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publish", typeJson: "{\"fqn\":\"scaleway.iotDevice.IotDeviceMessageFiltersPublish\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace scaleway.IotDevice
 
         /// <summary>subscribe block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_device#subscribe IotDevice#subscribe}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_device#subscribe IotDevice#subscribe}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subscribe", typeJson: "{\"fqn\":\"scaleway.iotDevice.IotDeviceMessageFiltersSubscribe\"}", isOptional: true)]

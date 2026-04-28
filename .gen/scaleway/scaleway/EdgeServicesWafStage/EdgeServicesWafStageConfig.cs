@@ -13,7 +13,7 @@ namespace scaleway.EdgeServicesWafStage
         /// <remarks>
         /// With a high level, requests are more likely to be classed as malicious, and false positives are expected. With a lower level, requests are more likely to be classed as benign
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/edge_services_waf_stage#paranoia_level EdgeServicesWafStage#paranoia_level}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/edge_services_waf_stage#paranoia_level EdgeServicesWafStage#paranoia_level}
         /// </remarks>
         [JsiiProperty(name: "paranoiaLevel", typeJson: "{\"primitive\":\"number\"}")]
         public double ParanoiaLevel
@@ -24,7 +24,7 @@ namespace scaleway.EdgeServicesWafStage
 
         /// <summary>The ID of the pipeline.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/edge_services_waf_stage#pipeline_id EdgeServicesWafStage#pipeline_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/edge_services_waf_stage#pipeline_id EdgeServicesWafStage#pipeline_id}
         /// </remarks>
         [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}")]
         public string PipelineId
@@ -35,7 +35,7 @@ namespace scaleway.EdgeServicesWafStage
 
         /// <summary>The ID of the backend stage to forward requests to after the WAF stage.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/edge_services_waf_stage#backend_stage_id EdgeServicesWafStage#backend_stage_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/edge_services_waf_stage#backend_stage_id EdgeServicesWafStage#backend_stage_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "backendStageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace scaleway.EdgeServicesWafStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/edge_services_waf_stage#id EdgeServicesWafStage#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/edge_services_waf_stage#id EdgeServicesWafStage#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,7 +60,7 @@ namespace scaleway.EdgeServicesWafStage
 
         /// <summary>Mode defining WAF behavior (`disable`/`log_only`/`enable`).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/edge_services_waf_stage#mode EdgeServicesWafStage#mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/edge_services_waf_stage#mode EdgeServicesWafStage#mode}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -72,7 +72,7 @@ namespace scaleway.EdgeServicesWafStage
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/edge_services_waf_stage#project_id EdgeServicesWafStage#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/edge_services_waf_stage#project_id EdgeServicesWafStage#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

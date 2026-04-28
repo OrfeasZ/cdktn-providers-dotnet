@@ -9,7 +9,7 @@ namespace scaleway.ObjectBucketWebsiteConfiguration
     {
         /// <summary>Suffix that will be added to the index.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_website_configuration#suffix ObjectBucketWebsiteConfiguration#suffix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_website_configuration#suffix ObjectBucketWebsiteConfiguration#suffix}
         /// </remarks>
         [JsiiProperty(name: "suffix", typeJson: "{\"primitive\":\"string\"}")]
         string Suffix
@@ -26,7 +26,7 @@ namespace scaleway.ObjectBucketWebsiteConfiguration
 
             /// <summary>Suffix that will be added to the index.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_website_configuration#suffix ObjectBucketWebsiteConfiguration#suffix}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_website_configuration#suffix ObjectBucketWebsiteConfiguration#suffix}
             /// </remarks>
             [JsiiProperty(name: "suffix", typeJson: "{\"primitive\":\"string\"}")]
             public string Suffix

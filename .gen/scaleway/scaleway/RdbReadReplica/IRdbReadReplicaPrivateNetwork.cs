@@ -9,7 +9,7 @@ namespace scaleway.RdbReadReplica
     {
         /// <summary>UUID of the private network to be connected to the read replica (UUID format).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_read_replica#private_network_id RdbReadReplica#private_network_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_read_replica#private_network_id RdbReadReplica#private_network_id}
         /// </remarks>
         [JsiiProperty(name: "privateNetworkId", typeJson: "{\"primitive\":\"string\"}")]
         string PrivateNetworkId
@@ -19,7 +19,7 @@ namespace scaleway.RdbReadReplica
 
         /// <summary>Whether or not the private network endpoint should be configured with IPAM.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_read_replica#enable_ipam RdbReadReplica#enable_ipam}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_read_replica#enable_ipam RdbReadReplica#enable_ipam}
         /// </remarks>
         [JsiiProperty(name: "enableIpam", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace scaleway.RdbReadReplica
 
         /// <summary>The IP network address within the private subnet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_read_replica#service_ip RdbReadReplica#service_ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_read_replica#service_ip RdbReadReplica#service_ip}
         /// </remarks>
         [JsiiProperty(name: "serviceIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace scaleway.RdbReadReplica
 
             /// <summary>UUID of the private network to be connected to the read replica (UUID format).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_read_replica#private_network_id RdbReadReplica#private_network_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_read_replica#private_network_id RdbReadReplica#private_network_id}
             /// </remarks>
             [JsiiProperty(name: "privateNetworkId", typeJson: "{\"primitive\":\"string\"}")]
             public string PrivateNetworkId
@@ -64,7 +64,7 @@ namespace scaleway.RdbReadReplica
 
             /// <summary>Whether or not the private network endpoint should be configured with IPAM.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_read_replica#enable_ipam RdbReadReplica#enable_ipam}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_read_replica#enable_ipam RdbReadReplica#enable_ipam}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "enableIpam", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace scaleway.RdbReadReplica
 
             /// <summary>The IP network address within the private subnet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_read_replica#service_ip RdbReadReplica#service_ip}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_read_replica#service_ip RdbReadReplica#service_ip}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "serviceIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

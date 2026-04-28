@@ -11,7 +11,7 @@ namespace scaleway.VpcPrivateNetwork
 
         /// <summary>Defines whether default v4 and v6 routes are propagated for this Private Network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_private_network#enable_default_route_propagation VpcPrivateNetwork#enable_default_route_propagation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_private_network#enable_default_route_propagation VpcPrivateNetwork#enable_default_route_propagation}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableDefaultRoutePropagation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace scaleway.VpcPrivateNetwork
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_private_network#id VpcPrivateNetwork#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_private_network#id VpcPrivateNetwork#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,7 +56,7 @@ namespace scaleway.VpcPrivateNetwork
 
         /// <summary>ipv4_subnet block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_private_network#ipv4_subnet VpcPrivateNetwork#ipv4_subnet}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_private_network#ipv4_subnet VpcPrivateNetwork#ipv4_subnet}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipv4Subnet", typeJson: "{\"fqn\":\"scaleway.vpcPrivateNetwork.VpcPrivateNetworkIpv4Subnet\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace scaleway.VpcPrivateNetwork
 
         /// <summary>ipv6_subnets block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_private_network#ipv6_subnets VpcPrivateNetwork#ipv6_subnets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_private_network#ipv6_subnets VpcPrivateNetwork#ipv6_subnets}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipv6Subnets", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.vpcPrivateNetwork.VpcPrivateNetworkIpv6Subnets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -104,7 +104,7 @@ namespace scaleway.VpcPrivateNetwork
 
         /// <summary>Defines whether the private network is Regional. By default, it will be Zonal.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_private_network#is_regional VpcPrivateNetwork#is_regional}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_private_network#is_regional VpcPrivateNetwork#is_regional}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isRegional", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -136,7 +136,7 @@ namespace scaleway.VpcPrivateNetwork
 
         /// <summary>The name of the private network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_private_network#name VpcPrivateNetwork#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_private_network#name VpcPrivateNetwork#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -148,7 +148,7 @@ namespace scaleway.VpcPrivateNetwork
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_private_network#project_id VpcPrivateNetwork#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_private_network#project_id VpcPrivateNetwork#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -160,7 +160,7 @@ namespace scaleway.VpcPrivateNetwork
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_private_network#region VpcPrivateNetwork#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_private_network#region VpcPrivateNetwork#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -172,7 +172,7 @@ namespace scaleway.VpcPrivateNetwork
 
         /// <summary>The tags associated with private network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_private_network#tags VpcPrivateNetwork#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_private_network#tags VpcPrivateNetwork#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -184,7 +184,7 @@ namespace scaleway.VpcPrivateNetwork
 
         /// <summary>The VPC in which to create the private network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_private_network#vpc_id VpcPrivateNetwork#vpc_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_private_network#vpc_id VpcPrivateNetwork#vpc_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -196,7 +196,7 @@ namespace scaleway.VpcPrivateNetwork
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_private_network#zone VpcPrivateNetwork#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_private_network#zone VpcPrivateNetwork#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

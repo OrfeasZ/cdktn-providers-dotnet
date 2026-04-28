@@ -11,7 +11,7 @@ namespace scaleway.FlexibleIpMacAddress
     {
         /// <summary>The ID of the flexible IP for which to generate a virtual MAC.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/flexible_ip_mac_address#flexible_ip_id FlexibleIpMacAddress#flexible_ip_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/flexible_ip_mac_address#flexible_ip_id FlexibleIpMacAddress#flexible_ip_id}
         /// </remarks>
         [JsiiProperty(name: "flexibleIpId", typeJson: "{\"primitive\":\"string\"}")]
         public string FlexibleIpId
@@ -22,7 +22,7 @@ namespace scaleway.FlexibleIpMacAddress
 
         /// <summary>The type of the virtual MAC.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/flexible_ip_mac_address#type FlexibleIpMacAddress#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/flexible_ip_mac_address#type FlexibleIpMacAddress#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -35,7 +35,7 @@ namespace scaleway.FlexibleIpMacAddress
         /// <remarks>
         /// <strong>NOTE</strong> : The flexible IPs need to be attached to the same server for the operation to work.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/flexible_ip_mac_address#flexible_ip_ids_to_duplicate FlexibleIpMacAddress#flexible_ip_ids_to_duplicate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/flexible_ip_mac_address#flexible_ip_ids_to_duplicate FlexibleIpMacAddress#flexible_ip_ids_to_duplicate}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "flexibleIpIdsToDuplicate", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace scaleway.FlexibleIpMacAddress
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/flexible_ip_mac_address#id FlexibleIpMacAddress#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/flexible_ip_mac_address#id FlexibleIpMacAddress#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,7 +60,7 @@ namespace scaleway.FlexibleIpMacAddress
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/flexible_ip_mac_address#timeouts FlexibleIpMacAddress#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/flexible_ip_mac_address#timeouts FlexibleIpMacAddress#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.flexibleIpMacAddress.FlexibleIpMacAddressTimeouts\"}", isOptional: true)]
@@ -72,7 +72,7 @@ namespace scaleway.FlexibleIpMacAddress
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/flexible_ip_mac_address#zone FlexibleIpMacAddress#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/flexible_ip_mac_address#zone FlexibleIpMacAddress#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

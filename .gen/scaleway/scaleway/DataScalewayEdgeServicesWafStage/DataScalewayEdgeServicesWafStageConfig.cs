@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayEdgeServicesWafStage
     [JsiiByValue(fqn: "scaleway.dataScalewayEdgeServicesWafStage.DataScalewayEdgeServicesWafStageConfig")]
     public class DataScalewayEdgeServicesWafStageConfig : scaleway.DataScalewayEdgeServicesWafStage.IDataScalewayEdgeServicesWafStageConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/edge_services_waf_stage#id DataScalewayEdgeServicesWafStage#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/edge_services_waf_stage#id DataScalewayEdgeServicesWafStage#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace scaleway.DataScalewayEdgeServicesWafStage
 
         /// <summary>The ID of the pipeline.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/edge_services_waf_stage#pipeline_id DataScalewayEdgeServicesWafStage#pipeline_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/edge_services_waf_stage#pipeline_id DataScalewayEdgeServicesWafStage#pipeline_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace scaleway.DataScalewayEdgeServicesWafStage
 
         /// <summary>The ID of the WAF stage.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/edge_services_waf_stage#waf_stage_id DataScalewayEdgeServicesWafStage#waf_stage_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/edge_services_waf_stage#waf_stage_id DataScalewayEdgeServicesWafStage#waf_stage_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "wafStageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

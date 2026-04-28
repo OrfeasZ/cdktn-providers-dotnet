@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayAvailabilityZones
     [JsiiByValue(fqn: "scaleway.dataScalewayAvailabilityZones.DataScalewayAvailabilityZonesConfig")]
     public class DataScalewayAvailabilityZonesConfig : scaleway.DataScalewayAvailabilityZones.IDataScalewayAvailabilityZonesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/availability_zones#id DataScalewayAvailabilityZones#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/availability_zones#id DataScalewayAvailabilityZones#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace scaleway.DataScalewayAvailabilityZones
 
         /// <summary>Region is represented as a Geographical area such as France.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/availability_zones#region DataScalewayAvailabilityZones#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/availability_zones#region DataScalewayAvailabilityZones#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace scaleway.DataScalewayAvailabilityZones
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/availability_zones#timeouts DataScalewayAvailabilityZones#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/availability_zones#timeouts DataScalewayAvailabilityZones#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.dataScalewayAvailabilityZones.DataScalewayAvailabilityZonesTimeouts\"}", isOptional: true)]

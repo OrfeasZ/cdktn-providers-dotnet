@@ -9,7 +9,7 @@ namespace scaleway.DomainRecord
     {
         /// <summary>The data of the view record.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_record#data DomainRecord#data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_record#data DomainRecord#data}
         /// </remarks>
         [JsiiProperty(name: "data", typeJson: "{\"primitive\":\"string\"}")]
         string Data
@@ -19,7 +19,7 @@ namespace scaleway.DomainRecord
 
         /// <summary>The subnet of the view.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_record#subnet DomainRecord#subnet}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_record#subnet DomainRecord#subnet}
         /// </remarks>
         [JsiiProperty(name: "subnet", typeJson: "{\"primitive\":\"string\"}")]
         string Subnet
@@ -36,7 +36,7 @@ namespace scaleway.DomainRecord
 
             /// <summary>The data of the view record.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_record#data DomainRecord#data}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_record#data DomainRecord#data}
             /// </remarks>
             [JsiiProperty(name: "data", typeJson: "{\"primitive\":\"string\"}")]
             public string Data
@@ -46,7 +46,7 @@ namespace scaleway.DomainRecord
 
             /// <summary>The subnet of the view.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_record#subnet DomainRecord#subnet}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_record#subnet DomainRecord#subnet}
             /// </remarks>
             [JsiiProperty(name: "subnet", typeJson: "{\"primitive\":\"string\"}")]
             public string Subnet

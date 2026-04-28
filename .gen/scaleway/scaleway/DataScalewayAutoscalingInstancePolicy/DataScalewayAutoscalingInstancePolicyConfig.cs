@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayAutoscalingInstancePolicy
     [JsiiByValue(fqn: "scaleway.dataScalewayAutoscalingInstancePolicy.DataScalewayAutoscalingInstancePolicyConfig")]
     public class DataScalewayAutoscalingInstancePolicyConfig : scaleway.DataScalewayAutoscalingInstancePolicy.IDataScalewayAutoscalingInstancePolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/autoscaling_instance_policy#id DataScalewayAutoscalingInstancePolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/autoscaling_instance_policy#id DataScalewayAutoscalingInstancePolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace scaleway.DataScalewayAutoscalingInstancePolicy
 
         /// <summary>ID of the instance group related to this policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/autoscaling_instance_policy#instance_group_id DataScalewayAutoscalingInstancePolicy#instance_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/autoscaling_instance_policy#instance_group_id DataScalewayAutoscalingInstancePolicy#instance_group_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "instanceGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace scaleway.DataScalewayAutoscalingInstancePolicy
 
         /// <summary>The ID of the instance policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/autoscaling_instance_policy#instance_policy_id DataScalewayAutoscalingInstancePolicy#instance_policy_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/autoscaling_instance_policy#instance_policy_id DataScalewayAutoscalingInstancePolicy#instance_policy_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "instancePolicyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace scaleway.DataScalewayAutoscalingInstancePolicy
 
         /// <summary>The policy name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/autoscaling_instance_policy#name DataScalewayAutoscalingInstancePolicy#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/autoscaling_instance_policy#name DataScalewayAutoscalingInstancePolicy#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace scaleway.DataScalewayAutoscalingInstancePolicy
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/autoscaling_instance_policy#zone DataScalewayAutoscalingInstancePolicy#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/autoscaling_instance_policy#zone DataScalewayAutoscalingInstancePolicy#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

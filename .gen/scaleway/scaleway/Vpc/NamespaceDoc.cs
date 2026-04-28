@@ -5,7 +5,7 @@ namespace scaleway.Vpc
     /// <remarks>
     /// <h1><c>scaleway_vpc</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc"><c>scaleway_vpc</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc"><c>scaleway_vpc</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

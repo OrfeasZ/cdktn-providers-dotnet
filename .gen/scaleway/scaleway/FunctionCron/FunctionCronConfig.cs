@@ -11,7 +11,7 @@ namespace scaleway.FunctionCron
     {
         /// <summary>Functions arguments as json object to pass through during execution.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_cron#args FunctionCron#args}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_cron#args FunctionCron#args}
         /// </remarks>
         [JsiiProperty(name: "args", typeJson: "{\"primitive\":\"string\"}")]
         public string Args
@@ -22,7 +22,7 @@ namespace scaleway.FunctionCron
 
         /// <summary>The ID of the function to create a cron for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_cron#function_id FunctionCron#function_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_cron#function_id FunctionCron#function_id}
         /// </remarks>
         [JsiiProperty(name: "functionId", typeJson: "{\"primitive\":\"string\"}")]
         public string FunctionId
@@ -35,7 +35,7 @@ namespace scaleway.FunctionCron
         /// <remarks>
         /// <strong>Hourly</strong>: , as schedule time of its jobs to be created and executed.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_cron#schedule FunctionCron#schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_cron#schedule FunctionCron#schedule}
         /// </remarks>
         [JsiiProperty(name: "schedule", typeJson: "{\"primitive\":\"string\"}")]
         public string Schedule
@@ -44,7 +44,7 @@ namespace scaleway.FunctionCron
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_cron#id FunctionCron#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_cron#id FunctionCron#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace scaleway.FunctionCron
 
         /// <summary>The name of the cron job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_cron#name FunctionCron#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_cron#name FunctionCron#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace scaleway.FunctionCron
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_cron#region FunctionCron#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_cron#region FunctionCron#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace scaleway.FunctionCron
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_cron#timeouts FunctionCron#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_cron#timeouts FunctionCron#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.functionCron.FunctionCronTimeouts\"}", isOptional: true)]

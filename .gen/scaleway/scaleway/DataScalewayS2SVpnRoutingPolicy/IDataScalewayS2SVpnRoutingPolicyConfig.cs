@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayS2SVpnRoutingPolicy
     [JsiiInterface(nativeType: typeof(IDataScalewayS2SVpnRoutingPolicyConfig), fullyQualifiedName: "scaleway.dataScalewayS2SVpnRoutingPolicy.DataScalewayS2SVpnRoutingPolicyConfig")]
     public interface IDataScalewayS2SVpnRoutingPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_routing_policy#id DataScalewayS2SVpnRoutingPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_routing_policy#id DataScalewayS2SVpnRoutingPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,7 +24,7 @@ namespace scaleway.DataScalewayS2SVpnRoutingPolicy
 
         /// <summary>The name of the routing policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_routing_policy#name DataScalewayS2SVpnRoutingPolicy#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_routing_policy#name DataScalewayS2SVpnRoutingPolicy#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,7 +38,7 @@ namespace scaleway.DataScalewayS2SVpnRoutingPolicy
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_routing_policy#project_id DataScalewayS2SVpnRoutingPolicy#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_routing_policy#project_id DataScalewayS2SVpnRoutingPolicy#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace scaleway.DataScalewayS2SVpnRoutingPolicy
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_routing_policy#region DataScalewayS2SVpnRoutingPolicy#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_routing_policy#region DataScalewayS2SVpnRoutingPolicy#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,7 +66,7 @@ namespace scaleway.DataScalewayS2SVpnRoutingPolicy
 
         /// <summary>The ID of the routing policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_routing_policy#routing_policy_id DataScalewayS2SVpnRoutingPolicy#routing_policy_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_routing_policy#routing_policy_id DataScalewayS2SVpnRoutingPolicy#routing_policy_id}
         /// </remarks>
         [JsiiProperty(name: "routingPolicyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -85,7 +85,7 @@ namespace scaleway.DataScalewayS2SVpnRoutingPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_routing_policy#id DataScalewayS2SVpnRoutingPolicy#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_routing_policy#id DataScalewayS2SVpnRoutingPolicy#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -99,7 +99,7 @@ namespace scaleway.DataScalewayS2SVpnRoutingPolicy
 
             /// <summary>The name of the routing policy.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_routing_policy#name DataScalewayS2SVpnRoutingPolicy#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_routing_policy#name DataScalewayS2SVpnRoutingPolicy#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace scaleway.DataScalewayS2SVpnRoutingPolicy
 
             /// <summary>The project_id you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_routing_policy#project_id DataScalewayS2SVpnRoutingPolicy#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_routing_policy#project_id DataScalewayS2SVpnRoutingPolicy#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -121,7 +121,7 @@ namespace scaleway.DataScalewayS2SVpnRoutingPolicy
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_routing_policy#region DataScalewayS2SVpnRoutingPolicy#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_routing_policy#region DataScalewayS2SVpnRoutingPolicy#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -132,7 +132,7 @@ namespace scaleway.DataScalewayS2SVpnRoutingPolicy
 
             /// <summary>The ID of the routing policy.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_routing_policy#routing_policy_id DataScalewayS2SVpnRoutingPolicy#routing_policy_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_routing_policy#routing_policy_id DataScalewayS2SVpnRoutingPolicy#routing_policy_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "routingPolicyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

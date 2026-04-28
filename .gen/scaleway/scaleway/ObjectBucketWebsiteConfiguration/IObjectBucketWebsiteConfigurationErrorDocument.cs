@@ -9,7 +9,7 @@ namespace scaleway.ObjectBucketWebsiteConfiguration
     {
         /// <summary>Key for the object to use as an error document.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_website_configuration#key ObjectBucketWebsiteConfiguration#key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_website_configuration#key ObjectBucketWebsiteConfiguration#key}
         /// </remarks>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
@@ -26,7 +26,7 @@ namespace scaleway.ObjectBucketWebsiteConfiguration
 
             /// <summary>Key for the object to use as an error document.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_website_configuration#key ObjectBucketWebsiteConfiguration#key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_website_configuration#key ObjectBucketWebsiteConfiguration#key}
             /// </remarks>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key

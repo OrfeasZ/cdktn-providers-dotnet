@@ -11,7 +11,7 @@ namespace scaleway.Container
     {
         /// <summary>Number of consecutive health check failures before considering the container unhealthy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/container#failure_threshold Container#failure_threshold}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container#failure_threshold Container#failure_threshold}
         /// </remarks>
         [JsiiProperty(name: "failureThreshold", typeJson: "{\"primitive\":\"number\"}")]
         public double FailureThreshold
@@ -24,7 +24,7 @@ namespace scaleway.Container
 
         /// <summary>http block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/container#http Container#http}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container#http Container#http}
         /// </remarks>
         [JsiiProperty(name: "http", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.container.ContainerHealthCheckHttp\"},\"kind\":\"array\"}}]}}")]
         public object Http
@@ -55,7 +55,7 @@ namespace scaleway.Container
 
         /// <summary>Period between health checks.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/container#interval Container#interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container#interval Container#interval}
         /// </remarks>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
         public string Interval

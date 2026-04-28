@@ -9,7 +9,7 @@ namespace scaleway.ObjectBucketLockConfiguration
     {
         /// <summary>default_retention block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_lock_configuration#default_retention ObjectBucketLockConfiguration#default_retention}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_lock_configuration#default_retention ObjectBucketLockConfiguration#default_retention}
         /// </remarks>
         [JsiiProperty(name: "defaultRetention", typeJson: "{\"fqn\":\"scaleway.objectBucketLockConfiguration.ObjectBucketLockConfigurationRuleDefaultRetention\"}")]
         scaleway.ObjectBucketLockConfiguration.IObjectBucketLockConfigurationRuleDefaultRetention DefaultRetention
@@ -26,7 +26,7 @@ namespace scaleway.ObjectBucketLockConfiguration
 
             /// <summary>default_retention block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_lock_configuration#default_retention ObjectBucketLockConfiguration#default_retention}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_lock_configuration#default_retention ObjectBucketLockConfiguration#default_retention}
             /// </remarks>
             [JsiiProperty(name: "defaultRetention", typeJson: "{\"fqn\":\"scaleway.objectBucketLockConfiguration.ObjectBucketLockConfigurationRuleDefaultRetention\"}")]
             public scaleway.ObjectBucketLockConfiguration.IObjectBucketLockConfigurationRuleDefaultRetention DefaultRetention

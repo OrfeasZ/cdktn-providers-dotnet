@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayInterlinkPops
     {
         /// <summary>Filter for PoPs with a dedicated connection available for self-hosted links.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/interlink_pops#dedicated_available DataScalewayInterlinkPops#dedicated_available}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_pops#dedicated_available DataScalewayInterlinkPops#dedicated_available}
         /// </remarks>
         [JsiiProperty(name: "dedicatedAvailable", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace scaleway.DataScalewayInterlinkPops
 
         /// <summary>Hosting provider name to filter for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/interlink_pops#hosting_provider_name DataScalewayInterlinkPops#hosting_provider_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_pops#hosting_provider_name DataScalewayInterlinkPops#hosting_provider_name}
         /// </remarks>
         [JsiiProperty(name: "hostingProviderName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace scaleway.DataScalewayInterlinkPops
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/interlink_pops#id DataScalewayInterlinkPops#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_pops#id DataScalewayInterlinkPops#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,7 +52,7 @@ namespace scaleway.DataScalewayInterlinkPops
 
         /// <summary>Filter for PoPs with a shared connection allowing this bandwidth size.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/interlink_pops#link_bandwidth_mbps DataScalewayInterlinkPops#link_bandwidth_mbps}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_pops#link_bandwidth_mbps DataScalewayInterlinkPops#link_bandwidth_mbps}
         /// </remarks>
         [JsiiProperty(name: "linkBandwidthMbps", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,7 +66,7 @@ namespace scaleway.DataScalewayInterlinkPops
 
         /// <summary>PoP name to filter for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/interlink_pops#name DataScalewayInterlinkPops#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_pops#name DataScalewayInterlinkPops#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -80,7 +80,7 @@ namespace scaleway.DataScalewayInterlinkPops
 
         /// <summary>Filter for PoPs hosting an available shared connection from this partner.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/interlink_pops#partner_id DataScalewayInterlinkPops#partner_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_pops#partner_id DataScalewayInterlinkPops#partner_id}
         /// </remarks>
         [JsiiProperty(name: "partnerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -94,7 +94,7 @@ namespace scaleway.DataScalewayInterlinkPops
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/interlink_pops#region DataScalewayInterlinkPops#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_pops#region DataScalewayInterlinkPops#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -115,7 +115,7 @@ namespace scaleway.DataScalewayInterlinkPops
 
             /// <summary>Filter for PoPs with a dedicated connection available for self-hosted links.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/interlink_pops#dedicated_available DataScalewayInterlinkPops#dedicated_available}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_pops#dedicated_available DataScalewayInterlinkPops#dedicated_available}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dedicatedAvailable", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -126,7 +126,7 @@ namespace scaleway.DataScalewayInterlinkPops
 
             /// <summary>Hosting provider name to filter for.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/interlink_pops#hosting_provider_name DataScalewayInterlinkPops#hosting_provider_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_pops#hosting_provider_name DataScalewayInterlinkPops#hosting_provider_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "hostingProviderName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -135,7 +135,7 @@ namespace scaleway.DataScalewayInterlinkPops
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/interlink_pops#id DataScalewayInterlinkPops#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_pops#id DataScalewayInterlinkPops#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -149,7 +149,7 @@ namespace scaleway.DataScalewayInterlinkPops
 
             /// <summary>Filter for PoPs with a shared connection allowing this bandwidth size.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/interlink_pops#link_bandwidth_mbps DataScalewayInterlinkPops#link_bandwidth_mbps}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_pops#link_bandwidth_mbps DataScalewayInterlinkPops#link_bandwidth_mbps}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "linkBandwidthMbps", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -160,7 +160,7 @@ namespace scaleway.DataScalewayInterlinkPops
 
             /// <summary>PoP name to filter for.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/interlink_pops#name DataScalewayInterlinkPops#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_pops#name DataScalewayInterlinkPops#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -171,7 +171,7 @@ namespace scaleway.DataScalewayInterlinkPops
 
             /// <summary>Filter for PoPs hosting an available shared connection from this partner.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/interlink_pops#partner_id DataScalewayInterlinkPops#partner_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_pops#partner_id DataScalewayInterlinkPops#partner_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "partnerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -182,7 +182,7 @@ namespace scaleway.DataScalewayInterlinkPops
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/interlink_pops#region DataScalewayInterlinkPops#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_pops#region DataScalewayInterlinkPops#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

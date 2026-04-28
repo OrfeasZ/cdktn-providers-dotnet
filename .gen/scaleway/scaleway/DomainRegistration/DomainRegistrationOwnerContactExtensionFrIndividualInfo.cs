@@ -11,7 +11,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>Whether the individual contact has opted into WHOIS publishing.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_registration#whois_opt_in DomainRegistration#whois_opt_in}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_registration#whois_opt_in DomainRegistration#whois_opt_in}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "whoisOptIn", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayAutoscalingInstanceGroup
     [JsiiInterface(nativeType: typeof(IDataScalewayAutoscalingInstanceGroupConfig), fullyQualifiedName: "scaleway.dataScalewayAutoscalingInstanceGroup.DataScalewayAutoscalingInstanceGroupConfig")]
     public interface IDataScalewayAutoscalingInstanceGroupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/autoscaling_instance_group#id DataScalewayAutoscalingInstanceGroup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/autoscaling_instance_group#id DataScalewayAutoscalingInstanceGroup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,7 +24,7 @@ namespace scaleway.DataScalewayAutoscalingInstanceGroup
 
         /// <summary>The ID of the instance group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/autoscaling_instance_group#instance_group_id DataScalewayAutoscalingInstanceGroup#instance_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/autoscaling_instance_group#instance_group_id DataScalewayAutoscalingInstanceGroup#instance_group_id}
         /// </remarks>
         [JsiiProperty(name: "instanceGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,7 +38,7 @@ namespace scaleway.DataScalewayAutoscalingInstanceGroup
 
         /// <summary>The Instance group name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/autoscaling_instance_group#name DataScalewayAutoscalingInstanceGroup#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/autoscaling_instance_group#name DataScalewayAutoscalingInstanceGroup#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace scaleway.DataScalewayAutoscalingInstanceGroup
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/autoscaling_instance_group#zone DataScalewayAutoscalingInstanceGroup#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/autoscaling_instance_group#zone DataScalewayAutoscalingInstanceGroup#zone}
         /// </remarks>
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -71,7 +71,7 @@ namespace scaleway.DataScalewayAutoscalingInstanceGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/autoscaling_instance_group#id DataScalewayAutoscalingInstanceGroup#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/autoscaling_instance_group#id DataScalewayAutoscalingInstanceGroup#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace scaleway.DataScalewayAutoscalingInstanceGroup
 
             /// <summary>The ID of the instance group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/autoscaling_instance_group#instance_group_id DataScalewayAutoscalingInstanceGroup#instance_group_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/autoscaling_instance_group#instance_group_id DataScalewayAutoscalingInstanceGroup#instance_group_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "instanceGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace scaleway.DataScalewayAutoscalingInstanceGroup
 
             /// <summary>The Instance group name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/autoscaling_instance_group#name DataScalewayAutoscalingInstanceGroup#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/autoscaling_instance_group#name DataScalewayAutoscalingInstanceGroup#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace scaleway.DataScalewayAutoscalingInstanceGroup
 
             /// <summary>The zone you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/autoscaling_instance_group#zone DataScalewayAutoscalingInstanceGroup#zone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/autoscaling_instance_group#zone DataScalewayAutoscalingInstanceGroup#zone}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayEdgeServicesTlsStage
     [JsiiInterface(nativeType: typeof(IDataScalewayEdgeServicesTlsStageConfig), fullyQualifiedName: "scaleway.dataScalewayEdgeServicesTlsStage.DataScalewayEdgeServicesTlsStageConfig")]
     public interface IDataScalewayEdgeServicesTlsStageConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/edge_services_tls_stage#id DataScalewayEdgeServicesTlsStage#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/edge_services_tls_stage#id DataScalewayEdgeServicesTlsStage#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,7 +24,7 @@ namespace scaleway.DataScalewayEdgeServicesTlsStage
 
         /// <summary>The ID of the pipeline.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/edge_services_tls_stage#pipeline_id DataScalewayEdgeServicesTlsStage#pipeline_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/edge_services_tls_stage#pipeline_id DataScalewayEdgeServicesTlsStage#pipeline_id}
         /// </remarks>
         [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,7 +38,7 @@ namespace scaleway.DataScalewayEdgeServicesTlsStage
 
         /// <summary>Secret ID to filter for. Only TLS stages with this Secret ID will be returned.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/edge_services_tls_stage#secret_id DataScalewayEdgeServicesTlsStage#secret_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/edge_services_tls_stage#secret_id DataScalewayEdgeServicesTlsStage#secret_id}
         /// </remarks>
         [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace scaleway.DataScalewayEdgeServicesTlsStage
 
         /// <summary>Secret region to filter for. Only TLS stages with a Secret in this region will be returned.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/edge_services_tls_stage#secret_region DataScalewayEdgeServicesTlsStage#secret_region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/edge_services_tls_stage#secret_region DataScalewayEdgeServicesTlsStage#secret_region}
         /// </remarks>
         [JsiiProperty(name: "secretRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,7 +66,7 @@ namespace scaleway.DataScalewayEdgeServicesTlsStage
 
         /// <summary>The ID of the TLS stage.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/edge_services_tls_stage#tls_stage_id DataScalewayEdgeServicesTlsStage#tls_stage_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/edge_services_tls_stage#tls_stage_id DataScalewayEdgeServicesTlsStage#tls_stage_id}
         /// </remarks>
         [JsiiProperty(name: "tlsStageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -85,7 +85,7 @@ namespace scaleway.DataScalewayEdgeServicesTlsStage
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/edge_services_tls_stage#id DataScalewayEdgeServicesTlsStage#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/edge_services_tls_stage#id DataScalewayEdgeServicesTlsStage#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -99,7 +99,7 @@ namespace scaleway.DataScalewayEdgeServicesTlsStage
 
             /// <summary>The ID of the pipeline.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/edge_services_tls_stage#pipeline_id DataScalewayEdgeServicesTlsStage#pipeline_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/edge_services_tls_stage#pipeline_id DataScalewayEdgeServicesTlsStage#pipeline_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace scaleway.DataScalewayEdgeServicesTlsStage
 
             /// <summary>Secret ID to filter for. Only TLS stages with this Secret ID will be returned.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/edge_services_tls_stage#secret_id DataScalewayEdgeServicesTlsStage#secret_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/edge_services_tls_stage#secret_id DataScalewayEdgeServicesTlsStage#secret_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -121,7 +121,7 @@ namespace scaleway.DataScalewayEdgeServicesTlsStage
 
             /// <summary>Secret region to filter for. Only TLS stages with a Secret in this region will be returned.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/edge_services_tls_stage#secret_region DataScalewayEdgeServicesTlsStage#secret_region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/edge_services_tls_stage#secret_region DataScalewayEdgeServicesTlsStage#secret_region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "secretRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -132,7 +132,7 @@ namespace scaleway.DataScalewayEdgeServicesTlsStage
 
             /// <summary>The ID of the TLS stage.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/edge_services_tls_stage#tls_stage_id DataScalewayEdgeServicesTlsStage#tls_stage_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/edge_services_tls_stage#tls_stage_id DataScalewayEdgeServicesTlsStage#tls_stage_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tlsStageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace scaleway.DomainRegistration
     {
         /// <summary>AFNIC authorization code for the contact (specific to French domains).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_registration#code_auth_afnic DomainRegistration#code_auth_afnic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_registration#code_auth_afnic DomainRegistration#code_auth_afnic}
         /// </remarks>
         [JsiiProperty(name: "codeAuthAfnic", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>AFNIC authorization code for the contact (specific to French domains).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_registration#code_auth_afnic DomainRegistration#code_auth_afnic}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_registration#code_auth_afnic DomainRegistration#code_auth_afnic}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "codeAuthAfnic", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

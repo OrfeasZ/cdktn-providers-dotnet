@@ -11,7 +11,7 @@ namespace scaleway.KafkaCluster
     {
         /// <summary>Name of the Kafka cluster.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/kafka_cluster#name KafkaCluster#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/kafka_cluster#name KafkaCluster#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace scaleway.KafkaCluster
 
         /// <summary>Number of nodes in the cluster.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/kafka_cluster#node_amount KafkaCluster#node_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/kafka_cluster#node_amount KafkaCluster#node_amount}
         /// </remarks>
         [JsiiProperty(name: "nodeAmount", typeJson: "{\"primitive\":\"number\"}")]
         public double NodeAmount
@@ -33,7 +33,7 @@ namespace scaleway.KafkaCluster
 
         /// <summary>Node type to use for the cluster.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/kafka_cluster#node_type KafkaCluster#node_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/kafka_cluster#node_type KafkaCluster#node_type}
         /// </remarks>
         [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}")]
         public string NodeType
@@ -44,7 +44,7 @@ namespace scaleway.KafkaCluster
 
         /// <summary>Kafka version to use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/kafka_cluster#version KafkaCluster#version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/kafka_cluster#version KafkaCluster#version}
         /// </remarks>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
         public string Version
@@ -55,7 +55,7 @@ namespace scaleway.KafkaCluster
 
         /// <summary>Volume size in GB.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/kafka_cluster#volume_size_in_gb KafkaCluster#volume_size_in_gb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/kafka_cluster#volume_size_in_gb KafkaCluster#volume_size_in_gb}
         /// </remarks>
         [JsiiProperty(name: "volumeSizeInGb", typeJson: "{\"primitive\":\"number\"}")]
         public double VolumeSizeInGb
@@ -66,7 +66,7 @@ namespace scaleway.KafkaCluster
 
         /// <summary>Type of volume where data is stored.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/kafka_cluster#volume_type KafkaCluster#volume_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/kafka_cluster#volume_type KafkaCluster#volume_type}
         /// </remarks>
         [JsiiProperty(name: "volumeType", typeJson: "{\"primitive\":\"string\"}")]
         public string VolumeType
@@ -75,7 +75,7 @@ namespace scaleway.KafkaCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/kafka_cluster#id KafkaCluster#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/kafka_cluster#id KafkaCluster#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -90,7 +90,7 @@ namespace scaleway.KafkaCluster
 
         /// <summary>Password for the Kafka user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/kafka_cluster#password KafkaCluster#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/kafka_cluster#password KafkaCluster#password}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -102,7 +102,7 @@ namespace scaleway.KafkaCluster
 
         /// <summary>private_network block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/kafka_cluster#private_network KafkaCluster#private_network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/kafka_cluster#private_network KafkaCluster#private_network}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateNetwork", typeJson: "{\"fqn\":\"scaleway.kafkaCluster.KafkaClusterPrivateNetwork\"}", isOptional: true)]
@@ -114,7 +114,7 @@ namespace scaleway.KafkaCluster
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/kafka_cluster#project_id KafkaCluster#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/kafka_cluster#project_id KafkaCluster#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -126,7 +126,7 @@ namespace scaleway.KafkaCluster
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/kafka_cluster#region KafkaCluster#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/kafka_cluster#region KafkaCluster#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -138,7 +138,7 @@ namespace scaleway.KafkaCluster
 
         /// <summary>List of tags to apply.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/kafka_cluster#tags KafkaCluster#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/kafka_cluster#tags KafkaCluster#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -150,7 +150,7 @@ namespace scaleway.KafkaCluster
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/kafka_cluster#timeouts KafkaCluster#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/kafka_cluster#timeouts KafkaCluster#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.kafkaCluster.KafkaClusterTimeouts\"}", isOptional: true)]
@@ -162,7 +162,7 @@ namespace scaleway.KafkaCluster
 
         /// <summary>Username for the Kafka user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/kafka_cluster#user_name KafkaCluster#user_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/kafka_cluster#user_name KafkaCluster#user_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace scaleway.ObjectBucketAcl
     {
         /// <summary>owner block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_acl#owner ObjectBucketAcl#owner}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_acl#owner ObjectBucketAcl#owner}
         /// </remarks>
         [JsiiProperty(name: "owner", typeJson: "{\"fqn\":\"scaleway.objectBucketAcl.ObjectBucketAclAccessControlPolicyOwner\"}")]
         scaleway.ObjectBucketAcl.IObjectBucketAclAccessControlPolicyOwner Owner
@@ -19,7 +19,7 @@ namespace scaleway.ObjectBucketAcl
 
         /// <summary>grant block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_acl#grant ObjectBucketAcl#grant}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_acl#grant ObjectBucketAcl#grant}
         /// </remarks>
         [JsiiProperty(name: "grant", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.objectBucketAcl.ObjectBucketAclAccessControlPolicyGrant\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace scaleway.ObjectBucketAcl
 
             /// <summary>owner block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_acl#owner ObjectBucketAcl#owner}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_acl#owner ObjectBucketAcl#owner}
             /// </remarks>
             [JsiiProperty(name: "owner", typeJson: "{\"fqn\":\"scaleway.objectBucketAcl.ObjectBucketAclAccessControlPolicyOwner\"}")]
             public scaleway.ObjectBucketAcl.IObjectBucketAclAccessControlPolicyOwner Owner
@@ -50,7 +50,7 @@ namespace scaleway.ObjectBucketAcl
 
             /// <summary>grant block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_acl#grant ObjectBucketAcl#grant}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_acl#grant ObjectBucketAcl#grant}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "grant", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.objectBucketAcl.ObjectBucketAclAccessControlPolicyGrant\"},\"kind\":\"array\"}}]}}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace scaleway.LbCertificate
     {
         /// <summary>The main domain name of the certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_certificate#common_name LbCertificate#common_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_certificate#common_name LbCertificate#common_name}
         /// </remarks>
         [JsiiProperty(name: "commonName", typeJson: "{\"primitive\":\"string\"}")]
         public string CommonName
@@ -22,7 +22,7 @@ namespace scaleway.LbCertificate
 
         /// <summary>The alternative domain names of the certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_certificate#subject_alternative_name LbCertificate#subject_alternative_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_certificate#subject_alternative_name LbCertificate#subject_alternative_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subjectAlternativeName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

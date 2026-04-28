@@ -9,7 +9,7 @@ namespace scaleway.K8SPool
     {
         /// <summary>The maximum number of nodes to be created during the upgrade.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#max_surge K8SPool#max_surge}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#max_surge K8SPool#max_surge}
         /// </remarks>
         [JsiiProperty(name: "maxSurge", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace scaleway.K8SPool
 
         /// <summary>The maximum number of nodes that can be not ready at the same time.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#max_unavailable K8SPool#max_unavailable}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#max_unavailable K8SPool#max_unavailable}
         /// </remarks>
         [JsiiProperty(name: "maxUnavailable", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace scaleway.K8SPool
 
             /// <summary>The maximum number of nodes to be created during the upgrade.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#max_surge K8SPool#max_surge}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#max_surge K8SPool#max_surge}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxSurge", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace scaleway.K8SPool
 
             /// <summary>The maximum number of nodes that can be not ready at the same time.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#max_unavailable K8SPool#max_unavailable}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#max_unavailable K8SPool#max_unavailable}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxUnavailable", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

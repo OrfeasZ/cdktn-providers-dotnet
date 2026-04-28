@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayAvailabilityZones
     [JsiiInterface(nativeType: typeof(IDataScalewayAvailabilityZonesTimeouts), fullyQualifiedName: "scaleway.dataScalewayAvailabilityZones.DataScalewayAvailabilityZonesTimeouts")]
     public interface IDataScalewayAvailabilityZonesTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/availability_zones#read DataScalewayAvailabilityZones#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/availability_zones#read DataScalewayAvailabilityZones#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace scaleway.DataScalewayAvailabilityZones
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/availability_zones#read DataScalewayAvailabilityZones#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/availability_zones#read DataScalewayAvailabilityZones#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

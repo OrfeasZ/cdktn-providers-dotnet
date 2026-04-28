@@ -11,7 +11,7 @@ namespace scaleway.DataScalewayIamSamlCertificate
     {
         /// <summary>The ID of the SAML certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/iam_saml_certificate#certificate_id DataScalewayIamSamlCertificate#certificate_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/iam_saml_certificate#certificate_id DataScalewayIamSamlCertificate#certificate_id}
         /// </remarks>
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateId

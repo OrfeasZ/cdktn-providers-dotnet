@@ -9,7 +9,7 @@ namespace scaleway.RdbInstance
     {
         /// <summary>The max age (in days) of remote logs to keep on the Database Instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_instance#max_age_retention RdbInstance#max_age_retention}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_instance#max_age_retention RdbInstance#max_age_retention}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxAgeRetention", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>The max disk size of remote logs to keep on the Database Instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_instance#total_disk_retention RdbInstance#total_disk_retention}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_instance#total_disk_retention RdbInstance#total_disk_retention}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "totalDiskRetention", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

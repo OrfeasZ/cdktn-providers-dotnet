@@ -9,7 +9,7 @@ namespace scaleway.AutoscalingInstancePolicy
     {
         /// <summary>Action to execute when the metric-based condition is met.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#action AutoscalingInstancePolicy#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#action AutoscalingInstancePolicy#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         string Action
@@ -19,7 +19,7 @@ namespace scaleway.AutoscalingInstancePolicy
 
         /// <summary>ID of the instance group related to this policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#instance_group_id AutoscalingInstancePolicy#instance_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#instance_group_id AutoscalingInstancePolicy#instance_group_id}
         /// </remarks>
         [JsiiProperty(name: "instanceGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string InstanceGroupId
@@ -31,7 +31,7 @@ namespace scaleway.AutoscalingInstancePolicy
         /// <remarks>
         /// This determines the processing order. The lower the number, the higher the priority
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#priority AutoscalingInstancePolicy#priority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#priority AutoscalingInstancePolicy#priority}
         /// </remarks>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
         double Priority
@@ -41,7 +41,7 @@ namespace scaleway.AutoscalingInstancePolicy
 
         /// <summary>How to use the number defined in `value` when determining by how many Instances to scale up/down.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#type AutoscalingInstancePolicy#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#type AutoscalingInstancePolicy#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -53,7 +53,7 @@ namespace scaleway.AutoscalingInstancePolicy
         /// <remarks>
         /// Depending on the <c>type</c> parameter, this number could represent a total number of Instances in the group, a number of Instances to add, or a percentage to scale the group by
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#value AutoscalingInstancePolicy#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#value AutoscalingInstancePolicy#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]
         double Value
@@ -61,7 +61,7 @@ namespace scaleway.AutoscalingInstancePolicy
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#id AutoscalingInstancePolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#id AutoscalingInstancePolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -78,7 +78,7 @@ namespace scaleway.AutoscalingInstancePolicy
 
         /// <summary>metric block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#metric AutoscalingInstancePolicy#metric}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#metric AutoscalingInstancePolicy#metric}
         /// </remarks>
         [JsiiProperty(name: "metric", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.autoscalingInstancePolicy.AutoscalingInstancePolicyMetric\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -92,7 +92,7 @@ namespace scaleway.AutoscalingInstancePolicy
 
         /// <summary>The policy name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#name AutoscalingInstancePolicy#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#name AutoscalingInstancePolicy#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -106,7 +106,7 @@ namespace scaleway.AutoscalingInstancePolicy
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#project_id AutoscalingInstancePolicy#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#project_id AutoscalingInstancePolicy#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -120,7 +120,7 @@ namespace scaleway.AutoscalingInstancePolicy
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#zone AutoscalingInstancePolicy#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#zone AutoscalingInstancePolicy#zone}
         /// </remarks>
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -141,7 +141,7 @@ namespace scaleway.AutoscalingInstancePolicy
 
             /// <summary>Action to execute when the metric-based condition is met.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#action AutoscalingInstancePolicy#action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#action AutoscalingInstancePolicy#action}
             /// </remarks>
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
             public string Action
@@ -151,7 +151,7 @@ namespace scaleway.AutoscalingInstancePolicy
 
             /// <summary>ID of the instance group related to this policy.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#instance_group_id AutoscalingInstancePolicy#instance_group_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#instance_group_id AutoscalingInstancePolicy#instance_group_id}
             /// </remarks>
             [JsiiProperty(name: "instanceGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string InstanceGroupId
@@ -163,7 +163,7 @@ namespace scaleway.AutoscalingInstancePolicy
             /// <remarks>
             /// This determines the processing order. The lower the number, the higher the priority
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#priority AutoscalingInstancePolicy#priority}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#priority AutoscalingInstancePolicy#priority}
             /// </remarks>
             [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
             public double Priority
@@ -173,7 +173,7 @@ namespace scaleway.AutoscalingInstancePolicy
 
             /// <summary>How to use the number defined in `value` when determining by how many Instances to scale up/down.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#type AutoscalingInstancePolicy#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#type AutoscalingInstancePolicy#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -185,7 +185,7 @@ namespace scaleway.AutoscalingInstancePolicy
             /// <remarks>
             /// Depending on the <c>type</c> parameter, this number could represent a total number of Instances in the group, a number of Instances to add, or a percentage to scale the group by
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#value AutoscalingInstancePolicy#value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#value AutoscalingInstancePolicy#value}
             /// </remarks>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]
             public double Value
@@ -193,7 +193,7 @@ namespace scaleway.AutoscalingInstancePolicy
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#id AutoscalingInstancePolicy#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#id AutoscalingInstancePolicy#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -207,7 +207,7 @@ namespace scaleway.AutoscalingInstancePolicy
 
             /// <summary>metric block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#metric AutoscalingInstancePolicy#metric}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#metric AutoscalingInstancePolicy#metric}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metric", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.autoscalingInstancePolicy.AutoscalingInstancePolicyMetric\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -218,7 +218,7 @@ namespace scaleway.AutoscalingInstancePolicy
 
             /// <summary>The policy name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#name AutoscalingInstancePolicy#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#name AutoscalingInstancePolicy#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -229,7 +229,7 @@ namespace scaleway.AutoscalingInstancePolicy
 
             /// <summary>The project_id you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#project_id AutoscalingInstancePolicy#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#project_id AutoscalingInstancePolicy#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -240,7 +240,7 @@ namespace scaleway.AutoscalingInstancePolicy
 
             /// <summary>The zone you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_policy#zone AutoscalingInstancePolicy#zone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_policy#zone AutoscalingInstancePolicy#zone}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace scaleway.IpamIp
     {
         /// <summary>MAC address of the custom resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/ipam_ip#mac_address IpamIp#mac_address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/ipam_ip#mac_address IpamIp#mac_address}
         /// </remarks>
         [JsiiProperty(name: "macAddress", typeJson: "{\"primitive\":\"string\"}")]
         string MacAddress
@@ -19,7 +19,7 @@ namespace scaleway.IpamIp
 
         /// <summary>When the resource is in a Private Network, a DNS record is available to resolve the resource name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/ipam_ip#name IpamIp#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/ipam_ip#name IpamIp#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace scaleway.IpamIp
 
             /// <summary>MAC address of the custom resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/ipam_ip#mac_address IpamIp#mac_address}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/ipam_ip#mac_address IpamIp#mac_address}
             /// </remarks>
             [JsiiProperty(name: "macAddress", typeJson: "{\"primitive\":\"string\"}")]
             public string MacAddress
@@ -50,7 +50,7 @@ namespace scaleway.IpamIp
 
             /// <summary>When the resource is in a Private Network, a DNS record is available to resolve the resource name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/ipam_ip#name IpamIp#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/ipam_ip#name IpamIp#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
