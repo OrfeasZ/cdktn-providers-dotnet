@@ -7,7 +7,7 @@ namespace hcloud.Snapshot
     [JsiiByValue(fqn: "hcloud.snapshot.SnapshotTimeouts")]
     public class SnapshotTimeouts : hcloud.Snapshot.ISnapshotTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/snapshot#create Snapshot#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/snapshot#create Snapshot#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create

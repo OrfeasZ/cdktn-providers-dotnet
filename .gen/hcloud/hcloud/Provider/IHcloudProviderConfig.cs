@@ -9,7 +9,7 @@ namespace hcloud.Provider
     {
         /// <summary>Alias name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs#alias HcloudProvider#alias}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs#alias HcloudProvider#alias}
         /// </remarks>
         [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace hcloud.Provider
 
         /// <summary>The Hetzner Cloud API endpoint, can be used to override the default API Endpoint https://api.hetzner.cloud/v1.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs#endpoint HcloudProvider#endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs#endpoint HcloudProvider#endpoint}
         /// </remarks>
         [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace hcloud.Provider
 
         /// <summary>The Hetzner API endpoint, can be used to override the default API Endpoint https://api.hetzner.com/v1.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs#endpoint_hetzner HcloudProvider#endpoint_hetzner}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs#endpoint_hetzner HcloudProvider#endpoint_hetzner}
         /// </remarks>
         [JsiiProperty(name: "endpointHetzner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace hcloud.Provider
 
         /// <summary>The type of function to be used during the polling.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs#poll_function HcloudProvider#poll_function}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs#poll_function HcloudProvider#poll_function}
         /// </remarks>
         [JsiiProperty(name: "pollFunction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -67,7 +67,7 @@ namespace hcloud.Provider
         /// <remarks>
         /// Default <c>500ms</c>. Increase this interval if you run into rate limiting errors.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs#poll_interval HcloudProvider#poll_interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs#poll_interval HcloudProvider#poll_interval}
         /// </remarks>
         [JsiiProperty(name: "pollInterval", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -81,7 +81,7 @@ namespace hcloud.Provider
 
         /// <summary>The Hetzner Cloud API token, can also be specified with the HCLOUD_TOKEN environment variable.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs#token HcloudProvider#token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs#token HcloudProvider#token}
         /// </remarks>
         [JsiiProperty(name: "token", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -102,7 +102,7 @@ namespace hcloud.Provider
 
             /// <summary>Alias name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs#alias HcloudProvider#alias}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs#alias HcloudProvider#alias}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -113,7 +113,7 @@ namespace hcloud.Provider
 
             /// <summary>The Hetzner Cloud API endpoint, can be used to override the default API Endpoint https://api.hetzner.cloud/v1.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs#endpoint HcloudProvider#endpoint}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs#endpoint HcloudProvider#endpoint}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -124,7 +124,7 @@ namespace hcloud.Provider
 
             /// <summary>The Hetzner API endpoint, can be used to override the default API Endpoint https://api.hetzner.com/v1.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs#endpoint_hetzner HcloudProvider#endpoint_hetzner}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs#endpoint_hetzner HcloudProvider#endpoint_hetzner}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "endpointHetzner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -135,7 +135,7 @@ namespace hcloud.Provider
 
             /// <summary>The type of function to be used during the polling.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs#poll_function HcloudProvider#poll_function}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs#poll_function HcloudProvider#poll_function}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pollFunction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -148,7 +148,7 @@ namespace hcloud.Provider
             /// <remarks>
             /// Default <c>500ms</c>. Increase this interval if you run into rate limiting errors.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs#poll_interval HcloudProvider#poll_interval}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs#poll_interval HcloudProvider#poll_interval}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pollInterval", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -159,7 +159,7 @@ namespace hcloud.Provider
 
             /// <summary>The Hetzner Cloud API token, can also be specified with the HCLOUD_TOKEN environment variable.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs#token HcloudProvider#token}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs#token HcloudProvider#token}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "token", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

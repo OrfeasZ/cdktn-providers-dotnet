@@ -7,21 +7,11 @@ namespace hcloud.PrimaryIp
     [JsiiInterface(nativeType: typeof(IPrimaryIpConfig), fullyQualifiedName: "hcloud.primaryIp.PrimaryIpConfig")]
     public interface IPrimaryIpConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Type of the resource the Primary IP should be assigned to.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#assignee_type PrimaryIp#assignee_type}
-        /// </remarks>
-        [JsiiProperty(name: "assigneeType", typeJson: "{\"primitive\":\"string\"}")]
-        string AssigneeType
-        {
-            get;
-        }
-
         /// <summary>Whether auto delete is enabled.</summary>
         /// <remarks>
         /// Setting <c>auto_delete</c> to <c>false</c> is recommended, because if a server assigned to the managed ip is getting deleted, it will also delete the primary IP which will break the terraform state.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#auto_delete PrimaryIp#auto_delete}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/primary_ip#auto_delete PrimaryIp#auto_delete}
         /// </remarks>
         [JsiiProperty(name: "autoDelete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         object AutoDelete
@@ -31,7 +21,7 @@ namespace hcloud.PrimaryIp
 
         /// <summary>Name of the Primary IP.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#name PrimaryIp#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/primary_ip#name PrimaryIp#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -41,7 +31,7 @@ namespace hcloud.PrimaryIp
 
         /// <summary>Type of the Primary IP (`ipv4` or `ipv6`).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#type PrimaryIp#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/primary_ip#type PrimaryIp#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -51,7 +41,7 @@ namespace hcloud.PrimaryIp
 
         /// <summary>ID of the resource the Primary IP should be assigned to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#assignee_id PrimaryIp#assignee_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/primary_ip#assignee_id PrimaryIp#assignee_id}
         /// </remarks>
         [JsiiProperty(name: "assigneeId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,9 +53,23 @@ namespace hcloud.PrimaryIp
             }
         }
 
+        /// <summary>Type of the resource the Primary IP should be assigned to.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/primary_ip#assignee_type PrimaryIp#assignee_type}
+        /// </remarks>
+        [JsiiProperty(name: "assigneeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? AssigneeType
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>Name of the Datacenter for the Primary IP. See the [Hetzner Docs](https://docs.hetzner.com/cloud/general/locations/#what-datacenters-are-there) for more details about datacenters.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#datacenter PrimaryIp#datacenter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/primary_ip#datacenter PrimaryIp#datacenter}
         /// </remarks>
         [JsiiProperty(name: "datacenter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +83,7 @@ namespace hcloud.PrimaryIp
 
         /// <summary>Whether delete protection is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#delete_protection PrimaryIp#delete_protection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/primary_ip#delete_protection PrimaryIp#delete_protection}
         /// </remarks>
         [JsiiProperty(name: "deleteProtection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,7 +97,7 @@ namespace hcloud.PrimaryIp
 
         /// <summary>User-defined [labels](https://docs.hetzner.cloud/reference/cloud#labels) (key-value pairs) for the resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#labels PrimaryIp#labels}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/primary_ip#labels PrimaryIp#labels}
         /// </remarks>
         [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -107,7 +111,7 @@ namespace hcloud.PrimaryIp
 
         /// <summary>Name of the Location for the Primary IP. See the [Hetzner Docs](https://docs.hetzner.com/cloud/general/locations/#what-locations-are-there) for more details about locations.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#location PrimaryIp#location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/primary_ip#location PrimaryIp#location}
         /// </remarks>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -126,21 +130,11 @@ namespace hcloud.PrimaryIp
             {
             }
 
-            /// <summary>Type of the resource the Primary IP should be assigned to.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#assignee_type PrimaryIp#assignee_type}
-            /// </remarks>
-            [JsiiProperty(name: "assigneeType", typeJson: "{\"primitive\":\"string\"}")]
-            public string AssigneeType
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>Whether auto delete is enabled.</summary>
             /// <remarks>
             /// Setting <c>auto_delete</c> to <c>false</c> is recommended, because if a server assigned to the managed ip is getting deleted, it will also delete the primary IP which will break the terraform state.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#auto_delete PrimaryIp#auto_delete}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/primary_ip#auto_delete PrimaryIp#auto_delete}
             /// </remarks>
             [JsiiProperty(name: "autoDelete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
             public object AutoDelete
@@ -150,7 +144,7 @@ namespace hcloud.PrimaryIp
 
             /// <summary>Name of the Primary IP.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#name PrimaryIp#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/primary_ip#name PrimaryIp#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -160,7 +154,7 @@ namespace hcloud.PrimaryIp
 
             /// <summary>Type of the Primary IP (`ipv4` or `ipv6`).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#type PrimaryIp#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/primary_ip#type PrimaryIp#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -170,7 +164,7 @@ namespace hcloud.PrimaryIp
 
             /// <summary>ID of the resource the Primary IP should be assigned to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#assignee_id PrimaryIp#assignee_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/primary_ip#assignee_id PrimaryIp#assignee_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "assigneeId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -179,9 +173,20 @@ namespace hcloud.PrimaryIp
                 get => GetInstanceProperty<double?>();
             }
 
+            /// <summary>Type of the resource the Primary IP should be assigned to.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/primary_ip#assignee_type PrimaryIp#assignee_type}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "assigneeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AssigneeType
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
             /// <summary>Name of the Datacenter for the Primary IP. See the [Hetzner Docs](https://docs.hetzner.com/cloud/general/locations/#what-datacenters-are-there) for more details about datacenters.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#datacenter PrimaryIp#datacenter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/primary_ip#datacenter PrimaryIp#datacenter}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "datacenter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -192,7 +197,7 @@ namespace hcloud.PrimaryIp
 
             /// <summary>Whether delete protection is enabled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#delete_protection PrimaryIp#delete_protection}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/primary_ip#delete_protection PrimaryIp#delete_protection}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "deleteProtection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -203,7 +208,7 @@ namespace hcloud.PrimaryIp
 
             /// <summary>User-defined [labels](https://docs.hetzner.cloud/reference/cloud#labels) (key-value pairs) for the resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#labels PrimaryIp#labels}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/primary_ip#labels PrimaryIp#labels}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -214,7 +219,7 @@ namespace hcloud.PrimaryIp
 
             /// <summary>Name of the Location for the Primary IP. See the [Hetzner Docs](https://docs.hetzner.com/cloud/general/locations/#what-locations-are-there) for more details about locations.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/primary_ip#location PrimaryIp#location}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/primary_ip#location PrimaryIp#location}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

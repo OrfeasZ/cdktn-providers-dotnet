@@ -5,7 +5,7 @@ namespace hcloud.SshKey
     /// <remarks>
     /// <h1><c>hcloud_ssh_key</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/ssh_key"><c>hcloud_ssh_key</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/ssh_key"><c>hcloud_ssh_key</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc
