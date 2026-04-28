@@ -11,7 +11,7 @@ namespace scaleway.MnqSqsCredentials
 
         /// <summary>Allow manage the associated resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mnq_sqs_credentials#can_manage MnqSqsCredentials#can_manage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mnq_sqs_credentials#can_manage MnqSqsCredentials#can_manage}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "canManage", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace scaleway.MnqSqsCredentials
 
         /// <summary>Allow publish messages to the service.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mnq_sqs_credentials#can_publish MnqSqsCredentials#can_publish}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mnq_sqs_credentials#can_publish MnqSqsCredentials#can_publish}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "canPublish", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace scaleway.MnqSqsCredentials
 
         /// <summary>Allow receive messages from the service.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mnq_sqs_credentials#can_receive MnqSqsCredentials#can_receive}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mnq_sqs_credentials#can_receive MnqSqsCredentials#can_receive}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "canReceive", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayRegistryImageTag
     {
         /// <summary>The ID of the registry image.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/registry_image_tag#image_id DataScalewayRegistryImageTag#image_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/registry_image_tag#image_id DataScalewayRegistryImageTag#image_id}
         /// </remarks>
         [JsiiProperty(name: "imageId", typeJson: "{\"primitive\":\"string\"}")]
         string ImageId
@@ -17,7 +17,7 @@ namespace scaleway.DataScalewayRegistryImageTag
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/registry_image_tag#id DataScalewayRegistryImageTag#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/registry_image_tag#id DataScalewayRegistryImageTag#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,7 +34,7 @@ namespace scaleway.DataScalewayRegistryImageTag
 
         /// <summary>The name of the registry image tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/registry_image_tag#name DataScalewayRegistryImageTag#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/registry_image_tag#name DataScalewayRegistryImageTag#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -48,7 +48,7 @@ namespace scaleway.DataScalewayRegistryImageTag
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/registry_image_tag#project_id DataScalewayRegistryImageTag#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/registry_image_tag#project_id DataScalewayRegistryImageTag#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -62,7 +62,7 @@ namespace scaleway.DataScalewayRegistryImageTag
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/registry_image_tag#region DataScalewayRegistryImageTag#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/registry_image_tag#region DataScalewayRegistryImageTag#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -76,7 +76,7 @@ namespace scaleway.DataScalewayRegistryImageTag
 
         /// <summary>The ID of the registry image tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/registry_image_tag#tag_id DataScalewayRegistryImageTag#tag_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/registry_image_tag#tag_id DataScalewayRegistryImageTag#tag_id}
         /// </remarks>
         [JsiiProperty(name: "tagId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -97,7 +97,7 @@ namespace scaleway.DataScalewayRegistryImageTag
 
             /// <summary>The ID of the registry image.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/registry_image_tag#image_id DataScalewayRegistryImageTag#image_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/registry_image_tag#image_id DataScalewayRegistryImageTag#image_id}
             /// </remarks>
             [JsiiProperty(name: "imageId", typeJson: "{\"primitive\":\"string\"}")]
             public string ImageId
@@ -105,7 +105,7 @@ namespace scaleway.DataScalewayRegistryImageTag
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/registry_image_tag#id DataScalewayRegistryImageTag#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/registry_image_tag#id DataScalewayRegistryImageTag#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -119,7 +119,7 @@ namespace scaleway.DataScalewayRegistryImageTag
 
             /// <summary>The name of the registry image tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/registry_image_tag#name DataScalewayRegistryImageTag#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/registry_image_tag#name DataScalewayRegistryImageTag#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -130,7 +130,7 @@ namespace scaleway.DataScalewayRegistryImageTag
 
             /// <summary>The project_id you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/registry_image_tag#project_id DataScalewayRegistryImageTag#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/registry_image_tag#project_id DataScalewayRegistryImageTag#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -141,7 +141,7 @@ namespace scaleway.DataScalewayRegistryImageTag
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/registry_image_tag#region DataScalewayRegistryImageTag#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/registry_image_tag#region DataScalewayRegistryImageTag#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -152,7 +152,7 @@ namespace scaleway.DataScalewayRegistryImageTag
 
             /// <summary>The ID of the registry image tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/registry_image_tag#tag_id DataScalewayRegistryImageTag#tag_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/registry_image_tag#tag_id DataScalewayRegistryImageTag#tag_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tagId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

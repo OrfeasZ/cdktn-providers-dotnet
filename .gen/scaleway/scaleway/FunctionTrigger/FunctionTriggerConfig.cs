@@ -11,7 +11,7 @@ namespace scaleway.FunctionTrigger
     {
         /// <summary>The ID of the function to create a trigger for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_trigger#function_id FunctionTrigger#function_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_trigger#function_id FunctionTrigger#function_id}
         /// </remarks>
         [JsiiProperty(name: "functionId", typeJson: "{\"primitive\":\"string\"}")]
         public string FunctionId
@@ -22,7 +22,7 @@ namespace scaleway.FunctionTrigger
 
         /// <summary>The trigger description.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_trigger#description FunctionTrigger#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_trigger#description FunctionTrigger#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -32,7 +32,7 @@ namespace scaleway.FunctionTrigger
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_trigger#id FunctionTrigger#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_trigger#id FunctionTrigger#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,7 +47,7 @@ namespace scaleway.FunctionTrigger
 
         /// <summary>The trigger name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_trigger#name FunctionTrigger#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_trigger#name FunctionTrigger#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace scaleway.FunctionTrigger
 
         /// <summary>nats block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_trigger#nats FunctionTrigger#nats}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_trigger#nats FunctionTrigger#nats}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nats", typeJson: "{\"fqn\":\"scaleway.functionTrigger.FunctionTriggerNats\"}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace scaleway.FunctionTrigger
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_trigger#region FunctionTrigger#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_trigger#region FunctionTrigger#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace scaleway.FunctionTrigger
 
         /// <summary>sqs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_trigger#sqs FunctionTrigger#sqs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_trigger#sqs FunctionTrigger#sqs}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sqs", typeJson: "{\"fqn\":\"scaleway.functionTrigger.FunctionTriggerSqs\"}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace scaleway.FunctionTrigger
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_trigger#timeouts FunctionTrigger#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_trigger#timeouts FunctionTrigger#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.functionTrigger.FunctionTriggerTimeouts\"}", isOptional: true)]

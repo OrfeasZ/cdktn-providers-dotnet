@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayBaremetalOffer
     [JsiiByValue(fqn: "scaleway.dataScalewayBaremetalOffer.DataScalewayBaremetalOfferConfig")]
     public class DataScalewayBaremetalOfferConfig : scaleway.DataScalewayBaremetalOffer.IDataScalewayBaremetalOfferConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/baremetal_offer#id DataScalewayBaremetalOffer#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/baremetal_offer#id DataScalewayBaremetalOffer#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,7 +24,7 @@ namespace scaleway.DataScalewayBaremetalOffer
 
         /// <summary>Include disabled offers.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/baremetal_offer#include_disabled DataScalewayBaremetalOffer#include_disabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/baremetal_offer#include_disabled DataScalewayBaremetalOffer#include_disabled}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "includeDisabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace scaleway.DataScalewayBaremetalOffer
 
         /// <summary>Exact name of the desired offer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/baremetal_offer#name DataScalewayBaremetalOffer#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/baremetal_offer#name DataScalewayBaremetalOffer#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace scaleway.DataScalewayBaremetalOffer
 
         /// <summary>ID of the desired offer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/baremetal_offer#offer_id DataScalewayBaremetalOffer#offer_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/baremetal_offer#offer_id DataScalewayBaremetalOffer#offer_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "offerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace scaleway.DataScalewayBaremetalOffer
 
         /// <summary>Period of subscription the desired offer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/baremetal_offer#subscription_period DataScalewayBaremetalOffer#subscription_period}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/baremetal_offer#subscription_period DataScalewayBaremetalOffer#subscription_period}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subscriptionPeriod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace scaleway.DataScalewayBaremetalOffer
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/baremetal_offer#zone DataScalewayBaremetalOffer#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/baremetal_offer#zone DataScalewayBaremetalOffer#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

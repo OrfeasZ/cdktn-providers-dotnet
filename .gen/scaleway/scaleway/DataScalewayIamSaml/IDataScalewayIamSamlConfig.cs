@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayIamSaml
     {
         /// <summary>The organization ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/iam_saml#organization_id DataScalewayIamSaml#organization_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/iam_saml#organization_id DataScalewayIamSaml#organization_id}
         /// </remarks>
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace scaleway.DataScalewayIamSaml
 
             /// <summary>The organization ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/iam_saml#organization_id DataScalewayIamSaml#organization_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/iam_saml#organization_id DataScalewayIamSaml#organization_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

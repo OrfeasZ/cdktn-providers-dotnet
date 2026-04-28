@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayEdgeServicesBackendStage
     {
         /// <summary>The ID of the backend stage.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/edge_services_backend_stage#backend_stage_id DataScalewayEdgeServicesBackendStage#backend_stage_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/edge_services_backend_stage#backend_stage_id DataScalewayEdgeServicesBackendStage#backend_stage_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "backendStageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace scaleway.DataScalewayEdgeServicesBackendStage
 
         /// <summary>Filter by S3 bucket name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/edge_services_backend_stage#bucket_name DataScalewayEdgeServicesBackendStage#bucket_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/edge_services_backend_stage#bucket_name DataScalewayEdgeServicesBackendStage#bucket_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace scaleway.DataScalewayEdgeServicesBackendStage
 
         /// <summary>Filter by S3 bucket region.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/edge_services_backend_stage#bucket_region DataScalewayEdgeServicesBackendStage#bucket_region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/edge_services_backend_stage#bucket_region DataScalewayEdgeServicesBackendStage#bucket_region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bucketRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace scaleway.DataScalewayEdgeServicesBackendStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/edge_services_backend_stage#id DataScalewayEdgeServicesBackendStage#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/edge_services_backend_stage#id DataScalewayEdgeServicesBackendStage#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace scaleway.DataScalewayEdgeServicesBackendStage
 
         /// <summary>Filter by Load Balancer ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/edge_services_backend_stage#lb_id DataScalewayEdgeServicesBackendStage#lb_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/edge_services_backend_stage#lb_id DataScalewayEdgeServicesBackendStage#lb_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lbId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace scaleway.DataScalewayEdgeServicesBackendStage
 
         /// <summary>The ID of the pipeline.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/edge_services_backend_stage#pipeline_id DataScalewayEdgeServicesBackendStage#pipeline_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/edge_services_backend_stage#pipeline_id DataScalewayEdgeServicesBackendStage#pipeline_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace scaleway.CockpitAlertManager
     {
         /// <summary>Email addresses for the alert receivers.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/cockpit_alert_manager#email CockpitAlertManager#email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/cockpit_alert_manager#email CockpitAlertManager#email}
         /// </remarks>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace scaleway.CockpitAlertManager
 
             /// <summary>Email addresses for the alert receivers.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/cockpit_alert_manager#email CockpitAlertManager#email}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/cockpit_alert_manager#email CockpitAlertManager#email}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

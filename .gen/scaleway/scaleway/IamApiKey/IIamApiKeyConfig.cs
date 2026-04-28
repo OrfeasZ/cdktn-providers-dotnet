@@ -9,7 +9,7 @@ namespace scaleway.IamApiKey
     {
         /// <summary>ID of the application attached to the api key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_api_key#application_id IamApiKey#application_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_api_key#application_id IamApiKey#application_id}
         /// </remarks>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace scaleway.IamApiKey
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_api_key#default_project_id IamApiKey#default_project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_api_key#default_project_id IamApiKey#default_project_id}
         /// </remarks>
         [JsiiProperty(name: "defaultProjectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace scaleway.IamApiKey
 
         /// <summary>The description of the iam api key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_api_key#description IamApiKey#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_api_key#description IamApiKey#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace scaleway.IamApiKey
 
         /// <summary>The date and time of the expiration of the iam api key. Cannot be changed afterwards.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_api_key#expires_at IamApiKey#expires_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_api_key#expires_at IamApiKey#expires_at}
         /// </remarks>
         [JsiiProperty(name: "expiresAt", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,7 +63,7 @@ namespace scaleway.IamApiKey
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_api_key#id IamApiKey#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_api_key#id IamApiKey#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,7 +80,7 @@ namespace scaleway.IamApiKey
 
         /// <summary>ID of the user attached to the api key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_api_key#user_id IamApiKey#user_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_api_key#user_id IamApiKey#user_id}
         /// </remarks>
         [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -101,7 +101,7 @@ namespace scaleway.IamApiKey
 
             /// <summary>ID of the application attached to the api key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_api_key#application_id IamApiKey#application_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_api_key#application_id IamApiKey#application_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -112,7 +112,7 @@ namespace scaleway.IamApiKey
 
             /// <summary>The project_id you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_api_key#default_project_id IamApiKey#default_project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_api_key#default_project_id IamApiKey#default_project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "defaultProjectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -123,7 +123,7 @@ namespace scaleway.IamApiKey
 
             /// <summary>The description of the iam api key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_api_key#description IamApiKey#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_api_key#description IamApiKey#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -134,7 +134,7 @@ namespace scaleway.IamApiKey
 
             /// <summary>The date and time of the expiration of the iam api key. Cannot be changed afterwards.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_api_key#expires_at IamApiKey#expires_at}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_api_key#expires_at IamApiKey#expires_at}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "expiresAt", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -143,7 +143,7 @@ namespace scaleway.IamApiKey
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_api_key#id IamApiKey#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_api_key#id IamApiKey#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -157,7 +157,7 @@ namespace scaleway.IamApiKey
 
             /// <summary>ID of the user attached to the api key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_api_key#user_id IamApiKey#user_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_api_key#user_id IamApiKey#user_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

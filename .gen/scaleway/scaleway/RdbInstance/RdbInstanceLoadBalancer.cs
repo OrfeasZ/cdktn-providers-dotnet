@@ -9,7 +9,7 @@ namespace scaleway.RdbInstance
     {
         /// <summary>The endpoint ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_instance#endpoint_id RdbInstance#endpoint_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_instance#endpoint_id RdbInstance#endpoint_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "endpointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

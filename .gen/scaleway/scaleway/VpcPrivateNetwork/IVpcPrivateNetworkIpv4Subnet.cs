@@ -9,7 +9,7 @@ namespace scaleway.VpcPrivateNetwork
     {
         /// <summary>The subnet CIDR.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_private_network#subnet VpcPrivateNetwork#subnet}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_private_network#subnet VpcPrivateNetwork#subnet}
         /// </remarks>
         [JsiiProperty(name: "subnet", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace scaleway.VpcPrivateNetwork
 
             /// <summary>The subnet CIDR.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_private_network#subnet VpcPrivateNetwork#subnet}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_private_network#subnet VpcPrivateNetwork#subnet}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "subnet", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

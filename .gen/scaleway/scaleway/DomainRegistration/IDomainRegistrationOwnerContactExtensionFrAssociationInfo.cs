@@ -9,7 +9,7 @@ namespace scaleway.DomainRegistration
     {
         /// <summary>Publication date in the Official Journal (RFC3339 format) for association information.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_registration#publication_jo DomainRegistration#publication_jo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_registration#publication_jo DomainRegistration#publication_jo}
         /// </remarks>
         [JsiiProperty(name: "publicationJo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>Page number of the publication in the Official Journal for association information.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_registration#publication_jo_page DomainRegistration#publication_jo_page}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_registration#publication_jo_page DomainRegistration#publication_jo_page}
         /// </remarks>
         [JsiiProperty(name: "publicationJoPage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Publication date in the Official Journal (RFC3339 format) for association information.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_registration#publication_jo DomainRegistration#publication_jo}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_registration#publication_jo DomainRegistration#publication_jo}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "publicationJo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Page number of the publication in the Official Journal for association information.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_registration#publication_jo_page DomainRegistration#publication_jo_page}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_registration#publication_jo_page DomainRegistration#publication_jo_page}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "publicationJoPage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

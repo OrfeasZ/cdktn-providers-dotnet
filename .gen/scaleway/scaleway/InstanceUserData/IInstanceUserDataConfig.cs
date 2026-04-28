@@ -9,7 +9,7 @@ namespace scaleway.InstanceUserData
     {
         /// <summary>The key of the user data to set.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_user_data#key InstanceUserData#key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_user_data#key InstanceUserData#key}
         /// </remarks>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
@@ -19,7 +19,7 @@ namespace scaleway.InstanceUserData
 
         /// <summary>The ID of the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_user_data#server_id InstanceUserData#server_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_user_data#server_id InstanceUserData#server_id}
         /// </remarks>
         [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"string\"}")]
         string ServerId
@@ -29,7 +29,7 @@ namespace scaleway.InstanceUserData
 
         /// <summary>The value of the user data to set.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_user_data#value InstanceUserData#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_user_data#value InstanceUserData#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
@@ -37,7 +37,7 @@ namespace scaleway.InstanceUserData
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_user_data#id InstanceUserData#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_user_data#id InstanceUserData#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,7 +54,7 @@ namespace scaleway.InstanceUserData
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_user_data#timeouts InstanceUserData#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_user_data#timeouts InstanceUserData#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.instanceUserData.InstanceUserDataTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,7 +68,7 @@ namespace scaleway.InstanceUserData
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_user_data#zone InstanceUserData#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_user_data#zone InstanceUserData#zone}
         /// </remarks>
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -89,7 +89,7 @@ namespace scaleway.InstanceUserData
 
             /// <summary>The key of the user data to set.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_user_data#key InstanceUserData#key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_user_data#key InstanceUserData#key}
             /// </remarks>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key
@@ -99,7 +99,7 @@ namespace scaleway.InstanceUserData
 
             /// <summary>The ID of the server.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_user_data#server_id InstanceUserData#server_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_user_data#server_id InstanceUserData#server_id}
             /// </remarks>
             [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"string\"}")]
             public string ServerId
@@ -109,7 +109,7 @@ namespace scaleway.InstanceUserData
 
             /// <summary>The value of the user data to set.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_user_data#value InstanceUserData#value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_user_data#value InstanceUserData#value}
             /// </remarks>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
@@ -117,7 +117,7 @@ namespace scaleway.InstanceUserData
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_user_data#id InstanceUserData#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_user_data#id InstanceUserData#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -131,7 +131,7 @@ namespace scaleway.InstanceUserData
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_user_data#timeouts InstanceUserData#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_user_data#timeouts InstanceUserData#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.instanceUserData.InstanceUserDataTimeouts\"}", isOptional: true)]
@@ -142,7 +142,7 @@ namespace scaleway.InstanceUserData
 
             /// <summary>The zone you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_user_data#zone InstanceUserData#zone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_user_data#zone InstanceUserData#zone}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

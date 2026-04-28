@@ -9,7 +9,7 @@ namespace scaleway.RdbPrivilege
     {
         /// <summary>Database name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_privilege#database_name RdbPrivilege#database_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_privilege#database_name RdbPrivilege#database_name}
         /// </remarks>
         [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseName
@@ -19,7 +19,7 @@ namespace scaleway.RdbPrivilege
 
         /// <summary>Instance on which the database is created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_privilege#instance_id RdbPrivilege#instance_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_privilege#instance_id RdbPrivilege#instance_id}
         /// </remarks>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         string InstanceId
@@ -29,7 +29,7 @@ namespace scaleway.RdbPrivilege
 
         /// <summary>Desired permission (readonly, readwrite, all, custom, none).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_privilege#permission RdbPrivilege#permission}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_privilege#permission RdbPrivilege#permission}
         /// </remarks>
         [JsiiProperty(name: "permission", typeJson: "{\"primitive\":\"string\"}")]
         string Permission
@@ -39,7 +39,7 @@ namespace scaleway.RdbPrivilege
 
         /// <summary>User name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_privilege#user_name RdbPrivilege#user_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_privilege#user_name RdbPrivilege#user_name}
         /// </remarks>
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}")]
         string UserName
@@ -47,7 +47,7 @@ namespace scaleway.RdbPrivilege
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_privilege#id RdbPrivilege#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_privilege#id RdbPrivilege#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace scaleway.RdbPrivilege
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_privilege#region RdbPrivilege#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_privilege#region RdbPrivilege#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,7 +78,7 @@ namespace scaleway.RdbPrivilege
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_privilege#timeouts RdbPrivilege#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_privilege#timeouts RdbPrivilege#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.rdbPrivilege.RdbPrivilegeTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -99,7 +99,7 @@ namespace scaleway.RdbPrivilege
 
             /// <summary>Database name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_privilege#database_name RdbPrivilege#database_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_privilege#database_name RdbPrivilege#database_name}
             /// </remarks>
             [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseName
@@ -109,7 +109,7 @@ namespace scaleway.RdbPrivilege
 
             /// <summary>Instance on which the database is created.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_privilege#instance_id RdbPrivilege#instance_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_privilege#instance_id RdbPrivilege#instance_id}
             /// </remarks>
             [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string InstanceId
@@ -119,7 +119,7 @@ namespace scaleway.RdbPrivilege
 
             /// <summary>Desired permission (readonly, readwrite, all, custom, none).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_privilege#permission RdbPrivilege#permission}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_privilege#permission RdbPrivilege#permission}
             /// </remarks>
             [JsiiProperty(name: "permission", typeJson: "{\"primitive\":\"string\"}")]
             public string Permission
@@ -129,7 +129,7 @@ namespace scaleway.RdbPrivilege
 
             /// <summary>User name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_privilege#user_name RdbPrivilege#user_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_privilege#user_name RdbPrivilege#user_name}
             /// </remarks>
             [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}")]
             public string UserName
@@ -137,7 +137,7 @@ namespace scaleway.RdbPrivilege
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_privilege#id RdbPrivilege#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_privilege#id RdbPrivilege#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -151,7 +151,7 @@ namespace scaleway.RdbPrivilege
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_privilege#region RdbPrivilege#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_privilege#region RdbPrivilege#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -162,7 +162,7 @@ namespace scaleway.RdbPrivilege
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_privilege#timeouts RdbPrivilege#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_privilege#timeouts RdbPrivilege#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.rdbPrivilege.RdbPrivilegeTimeouts\"}", isOptional: true)]

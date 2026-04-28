@@ -7,7 +7,7 @@ namespace scaleway.IotNetwork
     [JsiiByValue(fqn: "scaleway.iotNetwork.IotNetworkTimeouts")]
     public class IotNetworkTimeouts : scaleway.IotNetwork.IIotNetworkTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_network#default IotNetwork#default}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_network#default IotNetwork#default}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "default", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Default
@@ -16,7 +16,7 @@ namespace scaleway.IotNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_network#delete IotNetwork#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_network#delete IotNetwork#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

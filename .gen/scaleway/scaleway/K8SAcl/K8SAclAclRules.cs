@@ -9,7 +9,7 @@ namespace scaleway.K8SAcl
     {
         /// <summary>The description of the ACL rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_acl#description K8SAcl#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_acl#description K8SAcl#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace scaleway.K8SAcl
 
         /// <summary>The IP subnet to be allowed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_acl#ip K8SAcl#ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_acl#ip K8SAcl#ip}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -35,7 +35,7 @@ namespace scaleway.K8SAcl
 
         /// <summary>Allow access to cluster from all Scaleway ranges.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_acl#scaleway_ranges K8SAcl#scaleway_ranges}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_acl#scaleway_ranges K8SAcl#scaleway_ranges}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scalewayRanges", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

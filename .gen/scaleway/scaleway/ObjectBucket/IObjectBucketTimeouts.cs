@@ -7,7 +7,7 @@ namespace scaleway.ObjectBucket
     [JsiiInterface(nativeType: typeof(IObjectBucketTimeouts), fullyQualifiedName: "scaleway.objectBucket.ObjectBucketTimeouts")]
     public interface IObjectBucketTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket#default ObjectBucket#default}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket#default ObjectBucket#default}.</summary>
         [JsiiProperty(name: "default", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Default
@@ -25,7 +25,7 @@ namespace scaleway.ObjectBucket
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket#default ObjectBucket#default}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket#default ObjectBucket#default}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "default", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Default

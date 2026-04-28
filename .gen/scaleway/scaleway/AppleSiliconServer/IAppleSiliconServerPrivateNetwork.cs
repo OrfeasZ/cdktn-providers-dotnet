@@ -9,7 +9,7 @@ namespace scaleway.AppleSiliconServer
     {
         /// <summary>The private network ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/apple_silicon_server#id AppleSiliconServer#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/apple_silicon_server#id AppleSiliconServer#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace scaleway.AppleSiliconServer
 
         /// <summary>List of IPAM IP IDs to attach to the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/apple_silicon_server#ipam_ip_ids AppleSiliconServer#ipam_ip_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/apple_silicon_server#ipam_ip_ids AppleSiliconServer#ipam_ip_ids}
         /// </remarks>
         [JsiiProperty(name: "ipamIpIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +43,7 @@ namespace scaleway.AppleSiliconServer
 
             /// <summary>The private network ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/apple_silicon_server#id AppleSiliconServer#id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/apple_silicon_server#id AppleSiliconServer#id}
             ///
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,7 +56,7 @@ namespace scaleway.AppleSiliconServer
 
             /// <summary>List of IPAM IP IDs to attach to the server.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/apple_silicon_server#ipam_ip_ids AppleSiliconServer#ipam_ip_ids}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/apple_silicon_server#ipam_ip_ids AppleSiliconServer#ipam_ip_ids}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ipamIpIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

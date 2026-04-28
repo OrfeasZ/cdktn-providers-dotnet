@@ -11,7 +11,7 @@ namespace scaleway.EdgeServicesDnsStage
     {
         /// <summary>The ID of the pipeline.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/edge_services_dns_stage#pipeline_id EdgeServicesDnsStage#pipeline_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/edge_services_dns_stage#pipeline_id EdgeServicesDnsStage#pipeline_id}
         /// </remarks>
         [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}")]
         public string PipelineId
@@ -22,7 +22,7 @@ namespace scaleway.EdgeServicesDnsStage
 
         /// <summary>The backend stage ID the DNS stage will be linked to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/edge_services_dns_stage#backend_stage_id EdgeServicesDnsStage#backend_stage_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/edge_services_dns_stage#backend_stage_id EdgeServicesDnsStage#backend_stage_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "backendStageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace scaleway.EdgeServicesDnsStage
 
         /// <summary>The cache stage ID the DNS stage will be linked to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/edge_services_dns_stage#cache_stage_id EdgeServicesDnsStage#cache_stage_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/edge_services_dns_stage#cache_stage_id EdgeServicesDnsStage#cache_stage_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cacheStageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace scaleway.EdgeServicesDnsStage
 
         /// <summary>Fully Qualified Domain Name (in the format subdomain.example.com) to attach to the stage.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/edge_services_dns_stage#fqdns EdgeServicesDnsStage#fqdns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/edge_services_dns_stage#fqdns EdgeServicesDnsStage#fqdns}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fqdns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace scaleway.EdgeServicesDnsStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/edge_services_dns_stage#id EdgeServicesDnsStage#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/edge_services_dns_stage#id EdgeServicesDnsStage#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,7 +71,7 @@ namespace scaleway.EdgeServicesDnsStage
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/edge_services_dns_stage#project_id EdgeServicesDnsStage#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/edge_services_dns_stage#project_id EdgeServicesDnsStage#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace scaleway.EdgeServicesDnsStage
 
         /// <summary>The TLS stage ID the DNS stage will be linked to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/edge_services_dns_stage#tls_stage_id EdgeServicesDnsStage#tls_stage_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/edge_services_dns_stage#tls_stage_id EdgeServicesDnsStage#tls_stage_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tlsStageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

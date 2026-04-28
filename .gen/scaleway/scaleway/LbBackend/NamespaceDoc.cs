@@ -5,7 +5,7 @@ namespace scaleway.LbBackend
     /// <remarks>
     /// <h1><c>scaleway_lb_backend</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend"><c>scaleway_lb_backend</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend"><c>scaleway_lb_backend</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

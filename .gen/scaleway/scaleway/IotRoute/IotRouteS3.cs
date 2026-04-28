@@ -11,7 +11,7 @@ namespace scaleway.IotRoute
     {
         /// <summary>The name of the S3 route's destination bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#bucket_name IotRoute#bucket_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#bucket_name IotRoute#bucket_name}
         /// </remarks>
         [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
         public string BucketName
@@ -22,7 +22,7 @@ namespace scaleway.IotRoute
 
         /// <summary>The region of the S3 route's destination bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#bucket_region IotRoute#bucket_region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#bucket_region IotRoute#bucket_region}
         /// </remarks>
         [JsiiProperty(name: "bucketRegion", typeJson: "{\"primitive\":\"string\"}")]
         public string BucketRegion
@@ -33,7 +33,7 @@ namespace scaleway.IotRoute
 
         /// <summary>How the S3 route's objects will be created: one per topic or one per message.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#strategy IotRoute#strategy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#strategy IotRoute#strategy}
         /// </remarks>
         [JsiiProperty(name: "strategy", typeJson: "{\"primitive\":\"string\"}")]
         public string Strategy
@@ -44,7 +44,7 @@ namespace scaleway.IotRoute
 
         /// <summary>The string to prefix object names with.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#object_prefix IotRoute#object_prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#object_prefix IotRoute#object_prefix}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "objectPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

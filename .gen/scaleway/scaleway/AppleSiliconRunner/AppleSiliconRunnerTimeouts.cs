@@ -7,7 +7,7 @@ namespace scaleway.AppleSiliconRunner
     [JsiiByValue(fqn: "scaleway.appleSiliconRunner.AppleSiliconRunnerTimeouts")]
     public class AppleSiliconRunnerTimeouts : scaleway.AppleSiliconRunner.IAppleSiliconRunnerTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/apple_silicon_runner#create AppleSiliconRunner#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/apple_silicon_runner#create AppleSiliconRunner#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace scaleway.AppleSiliconRunner
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/apple_silicon_runner#default AppleSiliconRunner#default}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/apple_silicon_runner#default AppleSiliconRunner#default}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "default", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Default

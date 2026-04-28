@@ -11,7 +11,7 @@ namespace scaleway.VpcAcl
     {
         /// <summary>The VPC in which to create the ACL rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_acl#vpc_id VpcAcl#vpc_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_acl#vpc_id VpcAcl#vpc_id}
         /// </remarks>
         [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}")]
         public string VpcId
@@ -22,7 +22,7 @@ namespace scaleway.VpcAcl
 
         /// <summary>The action to take for packets which do not match any rules.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_acl#default_policy VpcAcl#default_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_acl#default_policy VpcAcl#default_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -32,7 +32,7 @@ namespace scaleway.VpcAcl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_acl#id VpcAcl#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_acl#id VpcAcl#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace scaleway.VpcAcl
         /// <remarks>
         /// Each Network ACL can have rules for only one IP type
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_acl#is_ipv6 VpcAcl#is_ipv6}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_acl#is_ipv6 VpcAcl#is_ipv6}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isIpv6", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace scaleway.VpcAcl
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_acl#region VpcAcl#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_acl#region VpcAcl#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace scaleway.VpcAcl
 
         /// <summary>rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_acl#rules VpcAcl#rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_acl#rules VpcAcl#rules}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.vpcAcl.VpcAclRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]

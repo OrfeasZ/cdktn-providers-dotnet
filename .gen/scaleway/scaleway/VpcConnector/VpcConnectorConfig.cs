@@ -11,7 +11,7 @@ namespace scaleway.VpcConnector
     {
         /// <summary>The ID of the target VPC to connect to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_connector#target_vpc_id VpcConnector#target_vpc_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_connector#target_vpc_id VpcConnector#target_vpc_id}
         /// </remarks>
         [JsiiProperty(name: "targetVpcId", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetVpcId
@@ -22,7 +22,7 @@ namespace scaleway.VpcConnector
 
         /// <summary>The ID of the source VPC.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_connector#vpc_id VpcConnector#vpc_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_connector#vpc_id VpcConnector#vpc_id}
         /// </remarks>
         [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}")]
         public string VpcId
@@ -31,7 +31,7 @@ namespace scaleway.VpcConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_connector#id VpcConnector#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_connector#id VpcConnector#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace scaleway.VpcConnector
 
         /// <summary>The name of the VPC connector.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_connector#name VpcConnector#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_connector#name VpcConnector#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace scaleway.VpcConnector
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_connector#region VpcConnector#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_connector#region VpcConnector#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace scaleway.VpcConnector
 
         /// <summary>The tags associated with the VPC connector.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_connector#tags VpcConnector#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_connector#tags VpcConnector#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

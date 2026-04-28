@@ -9,7 +9,7 @@ namespace scaleway.IamUser
     {
         /// <summary>The email of the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#email IamUser#email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#email IamUser#email}
         /// </remarks>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
         string Email
@@ -19,7 +19,7 @@ namespace scaleway.IamUser
 
         /// <summary>The member's username.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#username IamUser#username}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#username IamUser#username}
         /// </remarks>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         string Username
@@ -29,7 +29,7 @@ namespace scaleway.IamUser
 
         /// <summary>The member's first name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#first_name IamUser#first_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#first_name IamUser#first_name}
         /// </remarks>
         [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -41,7 +41,7 @@ namespace scaleway.IamUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#id IamUser#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#id IamUser#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace scaleway.IamUser
 
         /// <summary>The member's last name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#last_name IamUser#last_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#last_name IamUser#last_name}
         /// </remarks>
         [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,7 +72,7 @@ namespace scaleway.IamUser
 
         /// <summary>The member's locale.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#locale IamUser#locale}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#locale IamUser#locale}
         /// </remarks>
         [JsiiProperty(name: "locale", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -86,7 +86,7 @@ namespace scaleway.IamUser
 
         /// <summary>ID of organization the resource is associated to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#organization_id IamUser#organization_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#organization_id IamUser#organization_id}
         /// </remarks>
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -100,7 +100,7 @@ namespace scaleway.IamUser
 
         /// <summary>The member's password for first access. Only one of `password` or `password_wo` should be specified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#password IamUser#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#password IamUser#password}
         /// </remarks>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -114,7 +114,7 @@ namespace scaleway.IamUser
 
         /// <summary>The member's password for first access in [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) mode. Only one of `password` or `password_wo` should be specified. `password_wo` will not be set in the Terraform state. To update the `password_wo`, you must also update the `password_wo_version`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#password_wo IamUser#password_wo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#password_wo IamUser#password_wo}
         /// </remarks>
         [JsiiProperty(name: "passwordWo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -128,7 +128,7 @@ namespace scaleway.IamUser
 
         /// <summary>The version of the [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) password. To update the `password_wo`, you must also update the `password_wo_version`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#password_wo_version IamUser#password_wo_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#password_wo_version IamUser#password_wo_version}
         /// </remarks>
         [JsiiProperty(name: "passwordWoVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -142,7 +142,7 @@ namespace scaleway.IamUser
 
         /// <summary>The member's phone number.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#phone_number IamUser#phone_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#phone_number IamUser#phone_number}
         /// </remarks>
         [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -156,7 +156,7 @@ namespace scaleway.IamUser
 
         /// <summary>Whether or not to send an email containing the member's password.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#send_password_email IamUser#send_password_email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#send_password_email IamUser#send_password_email}
         /// </remarks>
         [JsiiProperty(name: "sendPasswordEmail", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -170,7 +170,7 @@ namespace scaleway.IamUser
 
         /// <summary>Whether or not to send a welcome email that includes onboarding information.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#send_welcome_email IamUser#send_welcome_email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#send_welcome_email IamUser#send_welcome_email}
         /// </remarks>
         [JsiiProperty(name: "sendWelcomeEmail", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -184,7 +184,7 @@ namespace scaleway.IamUser
 
         /// <summary>The tags associated with the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#tags IamUser#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#tags IamUser#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -205,7 +205,7 @@ namespace scaleway.IamUser
 
             /// <summary>The email of the user.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#email IamUser#email}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#email IamUser#email}
             /// </remarks>
             [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
             public string Email
@@ -215,7 +215,7 @@ namespace scaleway.IamUser
 
             /// <summary>The member's username.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#username IamUser#username}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#username IamUser#username}
             /// </remarks>
             [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
             public string Username
@@ -225,7 +225,7 @@ namespace scaleway.IamUser
 
             /// <summary>The member's first name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#first_name IamUser#first_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#first_name IamUser#first_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -234,7 +234,7 @@ namespace scaleway.IamUser
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#id IamUser#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#id IamUser#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -248,7 +248,7 @@ namespace scaleway.IamUser
 
             /// <summary>The member's last name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#last_name IamUser#last_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#last_name IamUser#last_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -259,7 +259,7 @@ namespace scaleway.IamUser
 
             /// <summary>The member's locale.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#locale IamUser#locale}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#locale IamUser#locale}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "locale", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -270,7 +270,7 @@ namespace scaleway.IamUser
 
             /// <summary>ID of organization the resource is associated to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#organization_id IamUser#organization_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#organization_id IamUser#organization_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -281,7 +281,7 @@ namespace scaleway.IamUser
 
             /// <summary>The member's password for first access. Only one of `password` or `password_wo` should be specified.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#password IamUser#password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#password IamUser#password}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -292,7 +292,7 @@ namespace scaleway.IamUser
 
             /// <summary>The member's password for first access in [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) mode. Only one of `password` or `password_wo` should be specified. `password_wo` will not be set in the Terraform state. To update the `password_wo`, you must also update the `password_wo_version`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#password_wo IamUser#password_wo}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#password_wo IamUser#password_wo}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "passwordWo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -303,7 +303,7 @@ namespace scaleway.IamUser
 
             /// <summary>The version of the [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) password. To update the `password_wo`, you must also update the `password_wo_version`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#password_wo_version IamUser#password_wo_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#password_wo_version IamUser#password_wo_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "passwordWoVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -314,7 +314,7 @@ namespace scaleway.IamUser
 
             /// <summary>The member's phone number.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#phone_number IamUser#phone_number}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#phone_number IamUser#phone_number}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -325,7 +325,7 @@ namespace scaleway.IamUser
 
             /// <summary>Whether or not to send an email containing the member's password.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#send_password_email IamUser#send_password_email}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#send_password_email IamUser#send_password_email}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sendPasswordEmail", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -336,7 +336,7 @@ namespace scaleway.IamUser
 
             /// <summary>Whether or not to send a welcome email that includes onboarding information.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#send_welcome_email IamUser#send_welcome_email}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#send_welcome_email IamUser#send_welcome_email}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sendWelcomeEmail", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -347,7 +347,7 @@ namespace scaleway.IamUser
 
             /// <summary>The tags associated with the user.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_user#tags IamUser#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_user#tags IamUser#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

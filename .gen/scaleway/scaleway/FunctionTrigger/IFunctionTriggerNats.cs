@@ -9,7 +9,7 @@ namespace scaleway.FunctionTrigger
     {
         /// <summary>Subject to listen to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_trigger#subject FunctionTrigger#subject}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_trigger#subject FunctionTrigger#subject}
         /// </remarks>
         [JsiiProperty(name: "subject", typeJson: "{\"primitive\":\"string\"}")]
         string Subject
@@ -19,7 +19,7 @@ namespace scaleway.FunctionTrigger
 
         /// <summary>ID of the mnq nats account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_trigger#account_id FunctionTrigger#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_trigger#account_id FunctionTrigger#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace scaleway.FunctionTrigger
 
         /// <summary>Project ID of the project where the mnq sqs exists, defaults to provider project_id.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_trigger#project_id FunctionTrigger#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_trigger#project_id FunctionTrigger#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -47,7 +47,7 @@ namespace scaleway.FunctionTrigger
 
         /// <summary>Region where the mnq sqs exists, defaults to function's region.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_trigger#region FunctionTrigger#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_trigger#region FunctionTrigger#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,7 +68,7 @@ namespace scaleway.FunctionTrigger
 
             /// <summary>Subject to listen to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_trigger#subject FunctionTrigger#subject}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_trigger#subject FunctionTrigger#subject}
             /// </remarks>
             [JsiiProperty(name: "subject", typeJson: "{\"primitive\":\"string\"}")]
             public string Subject
@@ -78,7 +78,7 @@ namespace scaleway.FunctionTrigger
 
             /// <summary>ID of the mnq nats account.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_trigger#account_id FunctionTrigger#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_trigger#account_id FunctionTrigger#account_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -89,7 +89,7 @@ namespace scaleway.FunctionTrigger
 
             /// <summary>Project ID of the project where the mnq sqs exists, defaults to provider project_id.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_trigger#project_id FunctionTrigger#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_trigger#project_id FunctionTrigger#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -100,7 +100,7 @@ namespace scaleway.FunctionTrigger
 
             /// <summary>Region where the mnq sqs exists, defaults to function's region.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/function_trigger#region FunctionTrigger#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/function_trigger#region FunctionTrigger#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

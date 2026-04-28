@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayVpcPublicGatewayIp
     [JsiiByValue(fqn: "scaleway.dataScalewayVpcPublicGatewayIp.DataScalewayVpcPublicGatewayIpConfig")]
     public class DataScalewayVpcPublicGatewayIpConfig : scaleway.DataScalewayVpcPublicGatewayIp.IDataScalewayVpcPublicGatewayIpConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_public_gateway_ip#id DataScalewayVpcPublicGatewayIp#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_public_gateway_ip#id DataScalewayVpcPublicGatewayIp#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace scaleway.DataScalewayVpcPublicGatewayIp
 
         /// <summary>The ID of the IP.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_public_gateway_ip#ip_id DataScalewayVpcPublicGatewayIp#ip_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_public_gateway_ip#ip_id DataScalewayVpcPublicGatewayIp#ip_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

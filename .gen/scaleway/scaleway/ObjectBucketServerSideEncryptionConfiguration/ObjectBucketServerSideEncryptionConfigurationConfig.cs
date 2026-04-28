@@ -11,7 +11,7 @@ namespace scaleway.ObjectBucketServerSideEncryptionConfiguration
     {
         /// <summary>The bucket's name or regional ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_server_side_encryption_configuration#bucket ObjectBucketServerSideEncryptionConfiguration#bucket}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_server_side_encryption_configuration#bucket ObjectBucketServerSideEncryptionConfiguration#bucket}
         /// </remarks>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
@@ -24,7 +24,7 @@ namespace scaleway.ObjectBucketServerSideEncryptionConfiguration
 
         /// <summary>rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_server_side_encryption_configuration#rule ObjectBucketServerSideEncryptionConfiguration#rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_server_side_encryption_configuration#rule ObjectBucketServerSideEncryptionConfiguration#rule}
         /// </remarks>
         [JsiiProperty(name: "rule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.objectBucketServerSideEncryptionConfiguration.ObjectBucketServerSideEncryptionConfigurationRule\"},\"kind\":\"array\"}}]}}")]
         public object Rule
@@ -53,7 +53,7 @@ namespace scaleway.ObjectBucketServerSideEncryptionConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_server_side_encryption_configuration#id ObjectBucketServerSideEncryptionConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_server_side_encryption_configuration#id ObjectBucketServerSideEncryptionConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -9,7 +9,7 @@ namespace scaleway.ContainerTrigger
     {
         /// <summary>The ID of the container to create a trigger for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/container_trigger#container_id ContainerTrigger#container_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#container_id ContainerTrigger#container_id}
         /// </remarks>
         [JsiiProperty(name: "containerId", typeJson: "{\"primitive\":\"string\"}")]
         string ContainerId
@@ -19,7 +19,7 @@ namespace scaleway.ContainerTrigger
 
         /// <summary>The trigger description.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/container_trigger#description ContainerTrigger#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#description ContainerTrigger#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,7 +31,7 @@ namespace scaleway.ContainerTrigger
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/container_trigger#id ContainerTrigger#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#id ContainerTrigger#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace scaleway.ContainerTrigger
 
         /// <summary>The trigger name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/container_trigger#name ContainerTrigger#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#name ContainerTrigger#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -62,7 +62,7 @@ namespace scaleway.ContainerTrigger
 
         /// <summary>nats block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/container_trigger#nats ContainerTrigger#nats}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#nats ContainerTrigger#nats}
         /// </remarks>
         [JsiiProperty(name: "nats", typeJson: "{\"fqn\":\"scaleway.containerTrigger.ContainerTriggerNats\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -76,7 +76,7 @@ namespace scaleway.ContainerTrigger
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/container_trigger#region ContainerTrigger#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#region ContainerTrigger#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -90,7 +90,7 @@ namespace scaleway.ContainerTrigger
 
         /// <summary>sqs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/container_trigger#sqs ContainerTrigger#sqs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#sqs ContainerTrigger#sqs}
         /// </remarks>
         [JsiiProperty(name: "sqs", typeJson: "{\"fqn\":\"scaleway.containerTrigger.ContainerTriggerSqs\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -104,7 +104,7 @@ namespace scaleway.ContainerTrigger
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/container_trigger#timeouts ContainerTrigger#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#timeouts ContainerTrigger#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.containerTrigger.ContainerTriggerTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -125,7 +125,7 @@ namespace scaleway.ContainerTrigger
 
             /// <summary>The ID of the container to create a trigger for.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/container_trigger#container_id ContainerTrigger#container_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#container_id ContainerTrigger#container_id}
             /// </remarks>
             [JsiiProperty(name: "containerId", typeJson: "{\"primitive\":\"string\"}")]
             public string ContainerId
@@ -135,7 +135,7 @@ namespace scaleway.ContainerTrigger
 
             /// <summary>The trigger description.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/container_trigger#description ContainerTrigger#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#description ContainerTrigger#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -144,7 +144,7 @@ namespace scaleway.ContainerTrigger
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/container_trigger#id ContainerTrigger#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#id ContainerTrigger#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -158,7 +158,7 @@ namespace scaleway.ContainerTrigger
 
             /// <summary>The trigger name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/container_trigger#name ContainerTrigger#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#name ContainerTrigger#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -169,7 +169,7 @@ namespace scaleway.ContainerTrigger
 
             /// <summary>nats block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/container_trigger#nats ContainerTrigger#nats}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#nats ContainerTrigger#nats}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "nats", typeJson: "{\"fqn\":\"scaleway.containerTrigger.ContainerTriggerNats\"}", isOptional: true)]
@@ -180,7 +180,7 @@ namespace scaleway.ContainerTrigger
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/container_trigger#region ContainerTrigger#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#region ContainerTrigger#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -191,7 +191,7 @@ namespace scaleway.ContainerTrigger
 
             /// <summary>sqs block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/container_trigger#sqs ContainerTrigger#sqs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#sqs ContainerTrigger#sqs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sqs", typeJson: "{\"fqn\":\"scaleway.containerTrigger.ContainerTriggerSqs\"}", isOptional: true)]
@@ -202,7 +202,7 @@ namespace scaleway.ContainerTrigger
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/container_trigger#timeouts ContainerTrigger#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#timeouts ContainerTrigger#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.containerTrigger.ContainerTriggerTimeouts\"}", isOptional: true)]

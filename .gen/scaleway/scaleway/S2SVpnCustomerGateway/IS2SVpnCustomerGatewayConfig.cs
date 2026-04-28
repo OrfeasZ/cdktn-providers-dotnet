@@ -9,7 +9,7 @@ namespace scaleway.S2SVpnCustomerGateway
     {
         /// <summary>The AS Number of the customer gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_customer_gateway#asn S2SVpnCustomerGateway#asn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_customer_gateway#asn S2SVpnCustomerGateway#asn}
         /// </remarks>
         [JsiiProperty(name: "asn", typeJson: "{\"primitive\":\"number\"}")]
         double Asn
@@ -17,7 +17,7 @@ namespace scaleway.S2SVpnCustomerGateway
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_customer_gateway#id S2SVpnCustomerGateway#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_customer_gateway#id S2SVpnCustomerGateway#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,7 +34,7 @@ namespace scaleway.S2SVpnCustomerGateway
 
         /// <summary>The public IPv4 address of the customer gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_customer_gateway#ipv4_public S2SVpnCustomerGateway#ipv4_public}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_customer_gateway#ipv4_public S2SVpnCustomerGateway#ipv4_public}
         /// </remarks>
         [JsiiProperty(name: "ipv4Public", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -48,7 +48,7 @@ namespace scaleway.S2SVpnCustomerGateway
 
         /// <summary>The public IPv6 address of the customer gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_customer_gateway#ipv6_public S2SVpnCustomerGateway#ipv6_public}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_customer_gateway#ipv6_public S2SVpnCustomerGateway#ipv6_public}
         /// </remarks>
         [JsiiProperty(name: "ipv6Public", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -62,7 +62,7 @@ namespace scaleway.S2SVpnCustomerGateway
 
         /// <summary>The name of the customer gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_customer_gateway#name S2SVpnCustomerGateway#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_customer_gateway#name S2SVpnCustomerGateway#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -76,7 +76,7 @@ namespace scaleway.S2SVpnCustomerGateway
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_customer_gateway#project_id S2SVpnCustomerGateway#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_customer_gateway#project_id S2SVpnCustomerGateway#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -90,7 +90,7 @@ namespace scaleway.S2SVpnCustomerGateway
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_customer_gateway#region S2SVpnCustomerGateway#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_customer_gateway#region S2SVpnCustomerGateway#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -104,7 +104,7 @@ namespace scaleway.S2SVpnCustomerGateway
 
         /// <summary>The list of tags to apply to the customer gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_customer_gateway#tags S2SVpnCustomerGateway#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_customer_gateway#tags S2SVpnCustomerGateway#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -125,7 +125,7 @@ namespace scaleway.S2SVpnCustomerGateway
 
             /// <summary>The AS Number of the customer gateway.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_customer_gateway#asn S2SVpnCustomerGateway#asn}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_customer_gateway#asn S2SVpnCustomerGateway#asn}
             /// </remarks>
             [JsiiProperty(name: "asn", typeJson: "{\"primitive\":\"number\"}")]
             public double Asn
@@ -133,7 +133,7 @@ namespace scaleway.S2SVpnCustomerGateway
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_customer_gateway#id S2SVpnCustomerGateway#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_customer_gateway#id S2SVpnCustomerGateway#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -147,7 +147,7 @@ namespace scaleway.S2SVpnCustomerGateway
 
             /// <summary>The public IPv4 address of the customer gateway.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_customer_gateway#ipv4_public S2SVpnCustomerGateway#ipv4_public}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_customer_gateway#ipv4_public S2SVpnCustomerGateway#ipv4_public}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ipv4Public", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -158,7 +158,7 @@ namespace scaleway.S2SVpnCustomerGateway
 
             /// <summary>The public IPv6 address of the customer gateway.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_customer_gateway#ipv6_public S2SVpnCustomerGateway#ipv6_public}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_customer_gateway#ipv6_public S2SVpnCustomerGateway#ipv6_public}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ipv6Public", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -169,7 +169,7 @@ namespace scaleway.S2SVpnCustomerGateway
 
             /// <summary>The name of the customer gateway.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_customer_gateway#name S2SVpnCustomerGateway#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_customer_gateway#name S2SVpnCustomerGateway#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -180,7 +180,7 @@ namespace scaleway.S2SVpnCustomerGateway
 
             /// <summary>The project_id you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_customer_gateway#project_id S2SVpnCustomerGateway#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_customer_gateway#project_id S2SVpnCustomerGateway#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -191,7 +191,7 @@ namespace scaleway.S2SVpnCustomerGateway
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_customer_gateway#region S2SVpnCustomerGateway#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_customer_gateway#region S2SVpnCustomerGateway#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -202,7 +202,7 @@ namespace scaleway.S2SVpnCustomerGateway
 
             /// <summary>The list of tags to apply to the customer gateway.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_customer_gateway#tags S2SVpnCustomerGateway#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_customer_gateway#tags S2SVpnCustomerGateway#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

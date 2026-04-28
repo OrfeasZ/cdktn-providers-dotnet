@@ -9,7 +9,7 @@ namespace scaleway.MongodbInstance
     {
         /// <summary>Number of nodes in the instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#node_number MongodbInstance#node_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#node_number MongodbInstance#node_number}
         /// </remarks>
         [JsiiProperty(name: "nodeNumber", typeJson: "{\"primitive\":\"number\"}")]
         double NodeNumber
@@ -19,7 +19,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>Type of node to use for the instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#node_type MongodbInstance#node_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#node_type MongodbInstance#node_type}
         /// </remarks>
         [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}")]
         string NodeType
@@ -27,7 +27,7 @@ namespace scaleway.MongodbInstance
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#id MongodbInstance#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#id MongodbInstance#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>Enable or disable automatic snapshot scheduling.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#is_snapshot_schedule_enabled MongodbInstance#is_snapshot_schedule_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#is_snapshot_schedule_enabled MongodbInstance#is_snapshot_schedule_enabled}
         /// </remarks>
         [JsiiProperty(name: "isSnapshotScheduleEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>Name of the MongoDB cluster.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#name MongodbInstance#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#name MongodbInstance#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,7 +72,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>Password of the user. Only one of `password` or `password_wo` should be specified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#password MongodbInstance#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#password MongodbInstance#password}
         /// </remarks>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -86,7 +86,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>Password of the user in [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) mode. Only one of `password` or `password_wo` should be specified. `password_wo` will not be set in the Terraform state. To update the `password_wo`, you must also update the `password_wo_version`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#password_wo MongodbInstance#password_wo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#password_wo MongodbInstance#password_wo}
         /// </remarks>
         [JsiiProperty(name: "passwordWo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -100,7 +100,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>The version of the [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) password. To update the `password_wo`, you must also update the `password_wo_version`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#password_wo_version MongodbInstance#password_wo_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#password_wo_version MongodbInstance#password_wo_version}
         /// </remarks>
         [JsiiProperty(name: "passwordWoVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -114,7 +114,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>private_ip block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#private_ip MongodbInstance#private_ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#private_ip MongodbInstance#private_ip}
         /// </remarks>
         [JsiiProperty(name: "privateIp", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.mongodbInstance.MongodbInstancePrivateIp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -128,7 +128,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>private_network block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#private_network MongodbInstance#private_network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#private_network MongodbInstance#private_network}
         /// </remarks>
         [JsiiProperty(name: "privateNetwork", typeJson: "{\"fqn\":\"scaleway.mongodbInstance.MongodbInstancePrivateNetwork\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -142,7 +142,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#project_id MongodbInstance#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#project_id MongodbInstance#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -156,7 +156,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>public_network block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#public_network MongodbInstance#public_network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#public_network MongodbInstance#public_network}
         /// </remarks>
         [JsiiProperty(name: "publicNetwork", typeJson: "{\"fqn\":\"scaleway.mongodbInstance.MongodbInstancePublicNetwork\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -170,7 +170,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#region MongodbInstance#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#region MongodbInstance#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -184,7 +184,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>Map of settings to define for the instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#settings MongodbInstance#settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#settings MongodbInstance#settings}
         /// </remarks>
         [JsiiProperty(name: "settings", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -198,7 +198,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>Snapshot ID to restore the MongoDB instance from.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#snapshot_id MongodbInstance#snapshot_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#snapshot_id MongodbInstance#snapshot_id}
         /// </remarks>
         [JsiiProperty(name: "snapshotId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -212,7 +212,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>Snapshot schedule frequency in hours.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#snapshot_schedule_frequency_hours MongodbInstance#snapshot_schedule_frequency_hours}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#snapshot_schedule_frequency_hours MongodbInstance#snapshot_schedule_frequency_hours}
         /// </remarks>
         [JsiiProperty(name: "snapshotScheduleFrequencyHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -226,7 +226,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>Snapshot schedule retention in days.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#snapshot_schedule_retention_days MongodbInstance#snapshot_schedule_retention_days}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#snapshot_schedule_retention_days MongodbInstance#snapshot_schedule_retention_days}
         /// </remarks>
         [JsiiProperty(name: "snapshotScheduleRetentionDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -240,7 +240,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>List of tags ["tag1", "tag2", ...] attached to a MongoDB instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#tags MongodbInstance#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#tags MongodbInstance#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -254,7 +254,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#timeouts MongodbInstance#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#timeouts MongodbInstance#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.mongodbInstance.MongodbInstanceTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -268,7 +268,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>Name of the user created when the cluster is created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#user_name MongodbInstance#user_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#user_name MongodbInstance#user_name}
         /// </remarks>
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -282,7 +282,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>MongoDB version of the instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#version MongodbInstance#version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#version MongodbInstance#version}
         /// </remarks>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -296,7 +296,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>Volume size (in GB).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#volume_size_in_gb MongodbInstance#volume_size_in_gb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#volume_size_in_gb MongodbInstance#volume_size_in_gb}
         /// </remarks>
         [JsiiProperty(name: "volumeSizeInGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -310,7 +310,7 @@ namespace scaleway.MongodbInstance
 
         /// <summary>Volume type of the instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#volume_type MongodbInstance#volume_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#volume_type MongodbInstance#volume_type}
         /// </remarks>
         [JsiiProperty(name: "volumeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -331,7 +331,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>Number of nodes in the instance.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#node_number MongodbInstance#node_number}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#node_number MongodbInstance#node_number}
             /// </remarks>
             [JsiiProperty(name: "nodeNumber", typeJson: "{\"primitive\":\"number\"}")]
             public double NodeNumber
@@ -341,7 +341,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>Type of node to use for the instance.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#node_type MongodbInstance#node_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#node_type MongodbInstance#node_type}
             /// </remarks>
             [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}")]
             public string NodeType
@@ -349,7 +349,7 @@ namespace scaleway.MongodbInstance
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#id MongodbInstance#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#id MongodbInstance#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -363,7 +363,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>Enable or disable automatic snapshot scheduling.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#is_snapshot_schedule_enabled MongodbInstance#is_snapshot_schedule_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#is_snapshot_schedule_enabled MongodbInstance#is_snapshot_schedule_enabled}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "isSnapshotScheduleEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -374,7 +374,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>Name of the MongoDB cluster.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#name MongodbInstance#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#name MongodbInstance#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -385,7 +385,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>Password of the user. Only one of `password` or `password_wo` should be specified.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#password MongodbInstance#password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#password MongodbInstance#password}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -396,7 +396,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>Password of the user in [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) mode. Only one of `password` or `password_wo` should be specified. `password_wo` will not be set in the Terraform state. To update the `password_wo`, you must also update the `password_wo_version`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#password_wo MongodbInstance#password_wo}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#password_wo MongodbInstance#password_wo}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "passwordWo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -407,7 +407,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>The version of the [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) password. To update the `password_wo`, you must also update the `password_wo_version`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#password_wo_version MongodbInstance#password_wo_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#password_wo_version MongodbInstance#password_wo_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "passwordWoVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -418,7 +418,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>private_ip block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#private_ip MongodbInstance#private_ip}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#private_ip MongodbInstance#private_ip}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "privateIp", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.mongodbInstance.MongodbInstancePrivateIp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -429,7 +429,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>private_network block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#private_network MongodbInstance#private_network}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#private_network MongodbInstance#private_network}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "privateNetwork", typeJson: "{\"fqn\":\"scaleway.mongodbInstance.MongodbInstancePrivateNetwork\"}", isOptional: true)]
@@ -440,7 +440,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>The project_id you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#project_id MongodbInstance#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#project_id MongodbInstance#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -451,7 +451,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>public_network block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#public_network MongodbInstance#public_network}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#public_network MongodbInstance#public_network}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "publicNetwork", typeJson: "{\"fqn\":\"scaleway.mongodbInstance.MongodbInstancePublicNetwork\"}", isOptional: true)]
@@ -462,7 +462,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#region MongodbInstance#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#region MongodbInstance#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -473,7 +473,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>Map of settings to define for the instance.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#settings MongodbInstance#settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#settings MongodbInstance#settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "settings", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -484,7 +484,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>Snapshot ID to restore the MongoDB instance from.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#snapshot_id MongodbInstance#snapshot_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#snapshot_id MongodbInstance#snapshot_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "snapshotId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -495,7 +495,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>Snapshot schedule frequency in hours.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#snapshot_schedule_frequency_hours MongodbInstance#snapshot_schedule_frequency_hours}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#snapshot_schedule_frequency_hours MongodbInstance#snapshot_schedule_frequency_hours}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "snapshotScheduleFrequencyHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -506,7 +506,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>Snapshot schedule retention in days.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#snapshot_schedule_retention_days MongodbInstance#snapshot_schedule_retention_days}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#snapshot_schedule_retention_days MongodbInstance#snapshot_schedule_retention_days}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "snapshotScheduleRetentionDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -517,7 +517,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>List of tags ["tag1", "tag2", ...] attached to a MongoDB instance.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#tags MongodbInstance#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#tags MongodbInstance#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -528,7 +528,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#timeouts MongodbInstance#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#timeouts MongodbInstance#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.mongodbInstance.MongodbInstanceTimeouts\"}", isOptional: true)]
@@ -539,7 +539,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>Name of the user created when the cluster is created.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#user_name MongodbInstance#user_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#user_name MongodbInstance#user_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -550,7 +550,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>MongoDB version of the instance.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#version MongodbInstance#version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#version MongodbInstance#version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -561,7 +561,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>Volume size (in GB).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#volume_size_in_gb MongodbInstance#volume_size_in_gb}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#volume_size_in_gb MongodbInstance#volume_size_in_gb}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "volumeSizeInGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -572,7 +572,7 @@ namespace scaleway.MongodbInstance
 
             /// <summary>Volume type of the instance.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#volume_type MongodbInstance#volume_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#volume_type MongodbInstance#volume_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "volumeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

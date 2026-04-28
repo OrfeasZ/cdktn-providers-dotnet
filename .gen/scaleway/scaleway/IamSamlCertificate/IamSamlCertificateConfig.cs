@@ -11,7 +11,7 @@ namespace scaleway.IamSamlCertificate
     {
         /// <summary>The content of the SAML certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_saml_certificate#content IamSamlCertificate#content}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_saml_certificate#content IamSamlCertificate#content}
         /// </remarks>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         public string Content
@@ -22,7 +22,7 @@ namespace scaleway.IamSamlCertificate
 
         /// <summary>The type of the SAML certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_saml_certificate#type IamSamlCertificate#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_saml_certificate#type IamSamlCertificate#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -33,7 +33,7 @@ namespace scaleway.IamSamlCertificate
 
         /// <summary>The organization ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_saml_certificate#organization_id IamSamlCertificate#organization_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_saml_certificate#organization_id IamSamlCertificate#organization_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace scaleway.IamSamlCertificate
 
         /// <summary>The ID of the SAML configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_saml_certificate#saml_id IamSamlCertificate#saml_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_saml_certificate#saml_id IamSamlCertificate#saml_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "samlId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

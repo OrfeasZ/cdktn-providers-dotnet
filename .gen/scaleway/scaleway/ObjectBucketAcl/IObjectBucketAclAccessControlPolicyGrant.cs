@@ -9,7 +9,7 @@ namespace scaleway.ObjectBucketAcl
     {
         /// <summary>Logging permissions assigned to the grantee for the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_acl#permission ObjectBucketAcl#permission}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_acl#permission ObjectBucketAcl#permission}
         /// </remarks>
         [JsiiProperty(name: "permission", typeJson: "{\"primitive\":\"string\"}")]
         string Permission
@@ -19,7 +19,7 @@ namespace scaleway.ObjectBucketAcl
 
         /// <summary>grantee block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_acl#grantee ObjectBucketAcl#grantee}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_acl#grantee ObjectBucketAcl#grantee}
         /// </remarks>
         [JsiiProperty(name: "grantee", typeJson: "{\"fqn\":\"scaleway.objectBucketAcl.ObjectBucketAclAccessControlPolicyGrantGrantee\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace scaleway.ObjectBucketAcl
 
             /// <summary>Logging permissions assigned to the grantee for the bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_acl#permission ObjectBucketAcl#permission}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_acl#permission ObjectBucketAcl#permission}
             /// </remarks>
             [JsiiProperty(name: "permission", typeJson: "{\"primitive\":\"string\"}")]
             public string Permission
@@ -50,7 +50,7 @@ namespace scaleway.ObjectBucketAcl
 
             /// <summary>grantee block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/object_bucket_acl#grantee ObjectBucketAcl#grantee}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/object_bucket_acl#grantee ObjectBucketAcl#grantee}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "grantee", typeJson: "{\"fqn\":\"scaleway.objectBucketAcl.ObjectBucketAclAccessControlPolicyGrantGrantee\"}", isOptional: true)]

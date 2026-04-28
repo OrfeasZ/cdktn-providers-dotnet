@@ -9,7 +9,7 @@ namespace scaleway.DomainRegistration
     {
         /// <summary>Trademark information from INPI (French extension).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_registration#trademark_inpi DomainRegistration#trademark_inpi}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_registration#trademark_inpi DomainRegistration#trademark_inpi}
         /// </remarks>
         [JsiiProperty(name: "trademarkInpi", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Trademark information from INPI (French extension).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_registration#trademark_inpi DomainRegistration#trademark_inpi}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_registration#trademark_inpi DomainRegistration#trademark_inpi}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "trademarkInpi", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

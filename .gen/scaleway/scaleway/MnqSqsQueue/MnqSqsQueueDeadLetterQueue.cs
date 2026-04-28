@@ -11,7 +11,7 @@ namespace scaleway.MnqSqsQueue
     {
         /// <summary>The ID or ARN of the dead-letter queue where messages are sent after the maximum receive count is exceeded.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mnq_sqs_queue#id MnqSqsQueue#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mnq_sqs_queue#id MnqSqsQueue#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,7 +27,7 @@ namespace scaleway.MnqSqsQueue
         /// <remarks>
         /// Must be between 1 and 1,000.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mnq_sqs_queue#max_receive_count MnqSqsQueue#max_receive_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mnq_sqs_queue#max_receive_count MnqSqsQueue#max_receive_count}
         /// </remarks>
         [JsiiProperty(name: "maxReceiveCount", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxReceiveCount

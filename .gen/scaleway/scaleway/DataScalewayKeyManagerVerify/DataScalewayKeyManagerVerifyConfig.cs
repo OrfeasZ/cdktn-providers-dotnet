@@ -13,7 +13,7 @@ namespace scaleway.DataScalewayKeyManagerVerify
         /// <remarks>
         /// Must be generated using the same algorithm specified in the key’s configuration, and encoded as a base64 string.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/key_manager_verify#digest DataScalewayKeyManagerVerify#digest}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/key_manager_verify#digest DataScalewayKeyManagerVerify#digest}
         /// </remarks>
         [JsiiProperty(name: "digest", typeJson: "{\"primitive\":\"string\"}")]
         public string Digest
@@ -24,7 +24,7 @@ namespace scaleway.DataScalewayKeyManagerVerify
 
         /// <summary>ID of the key to use for signature verification. Can be a plain UUID or a regional ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/key_manager_verify#key_id DataScalewayKeyManagerVerify#key_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/key_manager_verify#key_id DataScalewayKeyManagerVerify#key_id}
         /// </remarks>
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyId
@@ -35,7 +35,7 @@ namespace scaleway.DataScalewayKeyManagerVerify
 
         /// <summary>The message signature to verify, encoded as a base64 string.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/key_manager_verify#signature DataScalewayKeyManagerVerify#signature}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/key_manager_verify#signature DataScalewayKeyManagerVerify#signature}
         /// </remarks>
         [JsiiProperty(name: "signature", typeJson: "{\"primitive\":\"string\"}")]
         public string Signature
@@ -44,7 +44,7 @@ namespace scaleway.DataScalewayKeyManagerVerify
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/key_manager_verify#id DataScalewayKeyManagerVerify#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/key_manager_verify#id DataScalewayKeyManagerVerify#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,7 +61,7 @@ namespace scaleway.DataScalewayKeyManagerVerify
         /// <remarks>
         /// If not set, the region is derived from the key_id when possible or from the provider configuration.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/key_manager_verify#region DataScalewayKeyManagerVerify#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/key_manager_verify#region DataScalewayKeyManagerVerify#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

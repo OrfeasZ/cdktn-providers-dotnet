@@ -9,7 +9,7 @@ namespace scaleway.VpcPublicGatewayDhcp
     {
         /// <summary>Subnet for the DHCP server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#subnet VpcPublicGatewayDhcp#subnet}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#subnet VpcPublicGatewayDhcp#subnet}
         /// </remarks>
         [JsiiProperty(name: "subnet", typeJson: "{\"primitive\":\"string\"}")]
         string Subnet
@@ -21,7 +21,7 @@ namespace scaleway.VpcPublicGatewayDhcp
         /// <remarks>
         /// This will be the gateway's address in the private network. Defaults to the first address of the subnet
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#address VpcPublicGatewayDhcp#address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#address VpcPublicGatewayDhcp#address}
         /// </remarks>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace scaleway.VpcPublicGatewayDhcp
         /// <remarks>
         /// Allowed characters are <c>a-z0-9-.</c>. Defaults to the slugified Private Network name if created along a GatewayNetwork, or else to <c>priv</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#dns_local_name VpcPublicGatewayDhcp#dns_local_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#dns_local_name VpcPublicGatewayDhcp#dns_local_name}
         /// </remarks>
         [JsiiProperty(name: "dnsLocalName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace scaleway.VpcPublicGatewayDhcp
 
         /// <summary>Additional DNS search paths.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#dns_search VpcPublicGatewayDhcp#dns_search}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#dns_search VpcPublicGatewayDhcp#dns_search}
         /// </remarks>
         [JsiiProperty(name: "dnsSearch", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace scaleway.VpcPublicGatewayDhcp
 
         /// <summary>Override the DNS server list pushed to DHCP clients, instead of the gateway itself.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#dns_servers_override VpcPublicGatewayDhcp#dns_servers_override}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#dns_servers_override VpcPublicGatewayDhcp#dns_servers_override}
         /// </remarks>
         [JsiiProperty(name: "dnsServersOverride", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -81,7 +81,7 @@ namespace scaleway.VpcPublicGatewayDhcp
         /// <remarks>
         /// By turning the dynamic pool off, only pre-existing DHCP reservations will be handed out. Defaults to true.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#enable_dynamic VpcPublicGatewayDhcp#enable_dynamic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#enable_dynamic VpcPublicGatewayDhcp#enable_dynamic}
         /// </remarks>
         [JsiiProperty(name: "enableDynamic", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,7 +93,7 @@ namespace scaleway.VpcPublicGatewayDhcp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#id VpcPublicGatewayDhcp#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#id VpcPublicGatewayDhcp#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -110,7 +110,7 @@ namespace scaleway.VpcPublicGatewayDhcp
 
         /// <summary>High IP (included) of the dynamic address pool. Defaults to the last address of the subnet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#pool_high VpcPublicGatewayDhcp#pool_high}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#pool_high VpcPublicGatewayDhcp#pool_high}
         /// </remarks>
         [JsiiProperty(name: "poolHigh", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -124,7 +124,7 @@ namespace scaleway.VpcPublicGatewayDhcp
 
         /// <summary>Low IP (included) of the dynamic address pool. Defaults to the second address of the subnet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#pool_low VpcPublicGatewayDhcp#pool_low}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#pool_low VpcPublicGatewayDhcp#pool_low}
         /// </remarks>
         [JsiiProperty(name: "poolLow", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -138,7 +138,7 @@ namespace scaleway.VpcPublicGatewayDhcp
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#project_id VpcPublicGatewayDhcp#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#project_id VpcPublicGatewayDhcp#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -152,7 +152,7 @@ namespace scaleway.VpcPublicGatewayDhcp
 
         /// <summary>Whether the gateway should push a default route to DHCP clients or only hand out IPs. Defaults to true.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#push_default_route VpcPublicGatewayDhcp#push_default_route}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#push_default_route VpcPublicGatewayDhcp#push_default_route}
         /// </remarks>
         [JsiiProperty(name: "pushDefaultRoute", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -168,7 +168,7 @@ namespace scaleway.VpcPublicGatewayDhcp
         /// <remarks>
         /// This allows for instance hostname -&gt; IP resolution. Defaults to true.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#push_dns_server VpcPublicGatewayDhcp#push_dns_server}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#push_dns_server VpcPublicGatewayDhcp#push_dns_server}
         /// </remarks>
         [JsiiProperty(name: "pushDnsServer", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -184,7 +184,7 @@ namespace scaleway.VpcPublicGatewayDhcp
         /// <remarks>
         /// Must be 30s lower than <c>valid_lifetime</c>. Defaults to 51m (3060s).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#rebind_timer VpcPublicGatewayDhcp#rebind_timer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#rebind_timer VpcPublicGatewayDhcp#rebind_timer}
         /// </remarks>
         [JsiiProperty(name: "rebindTimer", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -200,7 +200,7 @@ namespace scaleway.VpcPublicGatewayDhcp
         /// <remarks>
         /// Must be 30s lower than <c>rebind_timer</c>. Defaults to 50m (3000s).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#renew_timer VpcPublicGatewayDhcp#renew_timer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#renew_timer VpcPublicGatewayDhcp#renew_timer}
         /// </remarks>
         [JsiiProperty(name: "renewTimer", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -214,7 +214,7 @@ namespace scaleway.VpcPublicGatewayDhcp
 
         /// <summary>For how long, in seconds, will DHCP entries will be valid. Defaults to 1h (3600s).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#valid_lifetime VpcPublicGatewayDhcp#valid_lifetime}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#valid_lifetime VpcPublicGatewayDhcp#valid_lifetime}
         /// </remarks>
         [JsiiProperty(name: "validLifetime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -228,7 +228,7 @@ namespace scaleway.VpcPublicGatewayDhcp
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#zone VpcPublicGatewayDhcp#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#zone VpcPublicGatewayDhcp#zone}
         /// </remarks>
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -249,7 +249,7 @@ namespace scaleway.VpcPublicGatewayDhcp
 
             /// <summary>Subnet for the DHCP server.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#subnet VpcPublicGatewayDhcp#subnet}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#subnet VpcPublicGatewayDhcp#subnet}
             /// </remarks>
             [JsiiProperty(name: "subnet", typeJson: "{\"primitive\":\"string\"}")]
             public string Subnet
@@ -261,7 +261,7 @@ namespace scaleway.VpcPublicGatewayDhcp
             /// <remarks>
             /// This will be the gateway's address in the private network. Defaults to the first address of the subnet
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#address VpcPublicGatewayDhcp#address}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#address VpcPublicGatewayDhcp#address}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -274,7 +274,7 @@ namespace scaleway.VpcPublicGatewayDhcp
             /// <remarks>
             /// Allowed characters are <c>a-z0-9-.</c>. Defaults to the slugified Private Network name if created along a GatewayNetwork, or else to <c>priv</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#dns_local_name VpcPublicGatewayDhcp#dns_local_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#dns_local_name VpcPublicGatewayDhcp#dns_local_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dnsLocalName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -285,7 +285,7 @@ namespace scaleway.VpcPublicGatewayDhcp
 
             /// <summary>Additional DNS search paths.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#dns_search VpcPublicGatewayDhcp#dns_search}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#dns_search VpcPublicGatewayDhcp#dns_search}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dnsSearch", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -296,7 +296,7 @@ namespace scaleway.VpcPublicGatewayDhcp
 
             /// <summary>Override the DNS server list pushed to DHCP clients, instead of the gateway itself.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#dns_servers_override VpcPublicGatewayDhcp#dns_servers_override}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#dns_servers_override VpcPublicGatewayDhcp#dns_servers_override}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dnsServersOverride", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -309,7 +309,7 @@ namespace scaleway.VpcPublicGatewayDhcp
             /// <remarks>
             /// By turning the dynamic pool off, only pre-existing DHCP reservations will be handed out. Defaults to true.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#enable_dynamic VpcPublicGatewayDhcp#enable_dynamic}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#enable_dynamic VpcPublicGatewayDhcp#enable_dynamic}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "enableDynamic", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -318,7 +318,7 @@ namespace scaleway.VpcPublicGatewayDhcp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#id VpcPublicGatewayDhcp#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#id VpcPublicGatewayDhcp#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -332,7 +332,7 @@ namespace scaleway.VpcPublicGatewayDhcp
 
             /// <summary>High IP (included) of the dynamic address pool. Defaults to the last address of the subnet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#pool_high VpcPublicGatewayDhcp#pool_high}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#pool_high VpcPublicGatewayDhcp#pool_high}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "poolHigh", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -343,7 +343,7 @@ namespace scaleway.VpcPublicGatewayDhcp
 
             /// <summary>Low IP (included) of the dynamic address pool. Defaults to the second address of the subnet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#pool_low VpcPublicGatewayDhcp#pool_low}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#pool_low VpcPublicGatewayDhcp#pool_low}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "poolLow", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -354,7 +354,7 @@ namespace scaleway.VpcPublicGatewayDhcp
 
             /// <summary>The project_id you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#project_id VpcPublicGatewayDhcp#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#project_id VpcPublicGatewayDhcp#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -365,7 +365,7 @@ namespace scaleway.VpcPublicGatewayDhcp
 
             /// <summary>Whether the gateway should push a default route to DHCP clients or only hand out IPs. Defaults to true.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#push_default_route VpcPublicGatewayDhcp#push_default_route}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#push_default_route VpcPublicGatewayDhcp#push_default_route}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pushDefaultRoute", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -378,7 +378,7 @@ namespace scaleway.VpcPublicGatewayDhcp
             /// <remarks>
             /// This allows for instance hostname -&gt; IP resolution. Defaults to true.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#push_dns_server VpcPublicGatewayDhcp#push_dns_server}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#push_dns_server VpcPublicGatewayDhcp#push_dns_server}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pushDnsServer", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -391,7 +391,7 @@ namespace scaleway.VpcPublicGatewayDhcp
             /// <remarks>
             /// Must be 30s lower than <c>valid_lifetime</c>. Defaults to 51m (3060s).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#rebind_timer VpcPublicGatewayDhcp#rebind_timer}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#rebind_timer VpcPublicGatewayDhcp#rebind_timer}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rebindTimer", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -404,7 +404,7 @@ namespace scaleway.VpcPublicGatewayDhcp
             /// <remarks>
             /// Must be 30s lower than <c>rebind_timer</c>. Defaults to 50m (3000s).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#renew_timer VpcPublicGatewayDhcp#renew_timer}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#renew_timer VpcPublicGatewayDhcp#renew_timer}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "renewTimer", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -415,7 +415,7 @@ namespace scaleway.VpcPublicGatewayDhcp
 
             /// <summary>For how long, in seconds, will DHCP entries will be valid. Defaults to 1h (3600s).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#valid_lifetime VpcPublicGatewayDhcp#valid_lifetime}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#valid_lifetime VpcPublicGatewayDhcp#valid_lifetime}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "validLifetime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -426,7 +426,7 @@ namespace scaleway.VpcPublicGatewayDhcp
 
             /// <summary>The zone you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_dhcp#zone VpcPublicGatewayDhcp#zone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_dhcp#zone VpcPublicGatewayDhcp#zone}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayFunctionNamespace
     [JsiiByValue(fqn: "scaleway.dataScalewayFunctionNamespace.DataScalewayFunctionNamespaceConfig")]
     public class DataScalewayFunctionNamespaceConfig : scaleway.DataScalewayFunctionNamespace.IDataScalewayFunctionNamespaceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/function_namespace#id DataScalewayFunctionNamespace#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/function_namespace#id DataScalewayFunctionNamespace#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace scaleway.DataScalewayFunctionNamespace
 
         /// <summary>The name of the function namespace.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/function_namespace#name DataScalewayFunctionNamespace#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/function_namespace#name DataScalewayFunctionNamespace#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace scaleway.DataScalewayFunctionNamespace
 
         /// <summary>The ID of the function namespace.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/function_namespace#namespace_id DataScalewayFunctionNamespace#namespace_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/function_namespace#namespace_id DataScalewayFunctionNamespace#namespace_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "namespaceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace scaleway.DataScalewayFunctionNamespace
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/function_namespace#project_id DataScalewayFunctionNamespace#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/function_namespace#project_id DataScalewayFunctionNamespace#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace scaleway.DataScalewayFunctionNamespace
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/function_namespace#region DataScalewayFunctionNamespace#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/function_namespace#region DataScalewayFunctionNamespace#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

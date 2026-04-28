@@ -11,7 +11,7 @@ namespace scaleway.DataScalewayRdbDatabase
     {
         /// <summary>Instance on which the database is created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/rdb_database#instance_id DataScalewayRdbDatabase#instance_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/rdb_database#instance_id DataScalewayRdbDatabase#instance_id}
         /// </remarks>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceId
@@ -22,7 +22,7 @@ namespace scaleway.DataScalewayRdbDatabase
 
         /// <summary>Database name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/rdb_database#name DataScalewayRdbDatabase#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/rdb_database#name DataScalewayRdbDatabase#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -31,7 +31,7 @@ namespace scaleway.DataScalewayRdbDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/rdb_database#id DataScalewayRdbDatabase#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/rdb_database#id DataScalewayRdbDatabase#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace scaleway.DataScalewayRdbDatabase
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/rdb_database#region DataScalewayRdbDatabase#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/rdb_database#region DataScalewayRdbDatabase#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

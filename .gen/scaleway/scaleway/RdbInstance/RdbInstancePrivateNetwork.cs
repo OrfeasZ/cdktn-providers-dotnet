@@ -11,7 +11,7 @@ namespace scaleway.RdbInstance
     {
         /// <summary>The private network ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_instance#pn_id RdbInstance#pn_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_instance#pn_id RdbInstance#pn_id}
         /// </remarks>
         [JsiiProperty(name: "pnId", typeJson: "{\"primitive\":\"string\"}")]
         public string PnId
@@ -24,7 +24,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>Whether or not the private network endpoint should be configured with IPAM.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_instance#enable_ipam RdbInstance#enable_ipam}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_instance#enable_ipam RdbInstance#enable_ipam}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableIpam", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>The IP with the given mask within the private subnet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_instance#ip_net RdbInstance#ip_net}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_instance#ip_net RdbInstance#ip_net}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipNet", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>The port of your private service.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_instance#port RdbInstance#port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_instance#port RdbInstance#port}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_instance#zone RdbInstance#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_instance#zone RdbInstance#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

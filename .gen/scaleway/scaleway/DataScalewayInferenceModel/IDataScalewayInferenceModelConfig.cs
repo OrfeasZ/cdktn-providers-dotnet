@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayInferenceModel
     [JsiiInterface(nativeType: typeof(IDataScalewayInferenceModelConfig), fullyQualifiedName: "scaleway.dataScalewayInferenceModel.DataScalewayInferenceModelConfig")]
     public interface IDataScalewayInferenceModelConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/inference_model#id DataScalewayInferenceModel#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/inference_model#id DataScalewayInferenceModel#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,7 +24,7 @@ namespace scaleway.DataScalewayInferenceModel
 
         /// <summary>The ID of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/inference_model#model_id DataScalewayInferenceModel#model_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/inference_model#model_id DataScalewayInferenceModel#model_id}
         /// </remarks>
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,7 +38,7 @@ namespace scaleway.DataScalewayInferenceModel
 
         /// <summary>The name of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/inference_model#name DataScalewayInferenceModel#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/inference_model#name DataScalewayInferenceModel#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace scaleway.DataScalewayInferenceModel
         /// <remarks>
         /// Typically, this is a Hugging Face repository URL (e.g., <c>https://huggingface.co/your-org/your-model</c>). The URL must be publicly accessible or require a valid secret for authentication.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/inference_model#url DataScalewayInferenceModel#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/inference_model#url DataScalewayInferenceModel#url}
         /// </remarks>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -73,7 +73,7 @@ namespace scaleway.DataScalewayInferenceModel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/inference_model#id DataScalewayInferenceModel#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/inference_model#id DataScalewayInferenceModel#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -87,7 +87,7 @@ namespace scaleway.DataScalewayInferenceModel
 
             /// <summary>The ID of the model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/inference_model#model_id DataScalewayInferenceModel#model_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/inference_model#model_id DataScalewayInferenceModel#model_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -98,7 +98,7 @@ namespace scaleway.DataScalewayInferenceModel
 
             /// <summary>The name of the model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/inference_model#name DataScalewayInferenceModel#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/inference_model#name DataScalewayInferenceModel#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -111,7 +111,7 @@ namespace scaleway.DataScalewayInferenceModel
             /// <remarks>
             /// Typically, this is a Hugging Face repository URL (e.g., <c>https://huggingface.co/your-org/your-model</c>). The URL must be publicly accessible or require a valid secret for authentication.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/inference_model#url DataScalewayInferenceModel#url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/inference_model#url DataScalewayInferenceModel#url}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

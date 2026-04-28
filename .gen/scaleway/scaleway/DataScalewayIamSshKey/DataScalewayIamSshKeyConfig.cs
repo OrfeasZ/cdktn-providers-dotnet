@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayIamSshKey
     [JsiiByValue(fqn: "scaleway.dataScalewayIamSshKey.DataScalewayIamSshKeyConfig")]
     public class DataScalewayIamSshKeyConfig : scaleway.DataScalewayIamSshKey.IDataScalewayIamSshKeyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/iam_ssh_key#id DataScalewayIamSshKey#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/iam_ssh_key#id DataScalewayIamSshKey#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace scaleway.DataScalewayIamSshKey
 
         /// <summary>The name of the iam SSH key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/iam_ssh_key#name DataScalewayIamSshKey#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/iam_ssh_key#name DataScalewayIamSshKey#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace scaleway.DataScalewayIamSshKey
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/iam_ssh_key#project_id DataScalewayIamSshKey#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/iam_ssh_key#project_id DataScalewayIamSshKey#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace scaleway.DataScalewayIamSshKey
 
         /// <summary>The ID of the SSH key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/iam_ssh_key#ssh_key_id DataScalewayIamSshKey#ssh_key_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/iam_ssh_key#ssh_key_id DataScalewayIamSshKey#ssh_key_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sshKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace scaleway.LbCertificate
     {
         /// <summary>The full PEM-formatted certificate chain.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_certificate#certificate_chain LbCertificate#certificate_chain}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_certificate#certificate_chain LbCertificate#certificate_chain}
         /// </remarks>
         [JsiiProperty(name: "certificateChain", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateChain

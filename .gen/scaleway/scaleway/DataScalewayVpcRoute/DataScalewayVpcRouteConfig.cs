@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayVpcRoute
     [JsiiByValue(fqn: "scaleway.dataScalewayVpcRoute.DataScalewayVpcRouteConfig")]
     public class DataScalewayVpcRouteConfig : scaleway.DataScalewayVpcRoute.IDataScalewayVpcRouteConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_route#id DataScalewayVpcRoute#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_route#id DataScalewayVpcRoute#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,7 +24,7 @@ namespace scaleway.DataScalewayVpcRoute
 
         /// <summary>Only routes with an IPv6 destination will be returned.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_route#is_ipv6 DataScalewayVpcRoute#is_ipv6}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_route#is_ipv6 DataScalewayVpcRoute#is_ipv6}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isIpv6", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace scaleway.DataScalewayVpcRoute
 
         /// <summary>The ID of the nexthop private network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_route#nexthop_private_network_id DataScalewayVpcRoute#nexthop_private_network_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_route#nexthop_private_network_id DataScalewayVpcRoute#nexthop_private_network_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nexthopPrivateNetworkId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace scaleway.DataScalewayVpcRoute
 
         /// <summary>The ID of the nexthop resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_route#nexthop_resource_id DataScalewayVpcRoute#nexthop_resource_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_route#nexthop_resource_id DataScalewayVpcRoute#nexthop_resource_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nexthopResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace scaleway.DataScalewayVpcRoute
 
         /// <summary>Only routes with a matching next hop resource type will be returned.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_route#nexthop_resource_type DataScalewayVpcRoute#nexthop_resource_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_route#nexthop_resource_type DataScalewayVpcRoute#nexthop_resource_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nexthopResourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace scaleway.DataScalewayVpcRoute
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_route#region DataScalewayVpcRoute#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_route#region DataScalewayVpcRoute#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -104,7 +104,7 @@ namespace scaleway.DataScalewayVpcRoute
 
         /// <summary>The ID of the route.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_route#route_id DataScalewayVpcRoute#route_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_route#route_id DataScalewayVpcRoute#route_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "routeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -116,7 +116,7 @@ namespace scaleway.DataScalewayVpcRoute
 
         /// <summary>The tags associated with the Route.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_route#tags DataScalewayVpcRoute#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_route#tags DataScalewayVpcRoute#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace scaleway.DataScalewayVpcRoute
 
         /// <summary>VPC ID the Route belongs to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_route#vpc_id DataScalewayVpcRoute#vpc_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_route#vpc_id DataScalewayVpcRoute#vpc_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

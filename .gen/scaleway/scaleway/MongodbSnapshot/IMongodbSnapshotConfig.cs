@@ -9,7 +9,7 @@ namespace scaleway.MongodbSnapshot
     {
         /// <summary>Expiration date (Format ISO 8601). Cannot be removed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_snapshot#expires_at MongodbSnapshot#expires_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_snapshot#expires_at MongodbSnapshot#expires_at}
         /// </remarks>
         [JsiiProperty(name: "expiresAt", typeJson: "{\"primitive\":\"string\"}")]
         string ExpiresAt
@@ -19,7 +19,7 @@ namespace scaleway.MongodbSnapshot
 
         /// <summary>The ID of the instance from which the snapshot was created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_snapshot#instance_id MongodbSnapshot#instance_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_snapshot#instance_id MongodbSnapshot#instance_id}
         /// </remarks>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         string InstanceId
@@ -27,7 +27,7 @@ namespace scaleway.MongodbSnapshot
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_snapshot#id MongodbSnapshot#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_snapshot#id MongodbSnapshot#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace scaleway.MongodbSnapshot
 
         /// <summary>Name of the snapshot.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_snapshot#name MongodbSnapshot#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_snapshot#name MongodbSnapshot#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace scaleway.MongodbSnapshot
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_snapshot#region MongodbSnapshot#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_snapshot#region MongodbSnapshot#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,7 +72,7 @@ namespace scaleway.MongodbSnapshot
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_snapshot#timeouts MongodbSnapshot#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_snapshot#timeouts MongodbSnapshot#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.mongodbSnapshot.MongodbSnapshotTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,7 +93,7 @@ namespace scaleway.MongodbSnapshot
 
             /// <summary>Expiration date (Format ISO 8601). Cannot be removed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_snapshot#expires_at MongodbSnapshot#expires_at}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_snapshot#expires_at MongodbSnapshot#expires_at}
             /// </remarks>
             [JsiiProperty(name: "expiresAt", typeJson: "{\"primitive\":\"string\"}")]
             public string ExpiresAt
@@ -103,7 +103,7 @@ namespace scaleway.MongodbSnapshot
 
             /// <summary>The ID of the instance from which the snapshot was created.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_snapshot#instance_id MongodbSnapshot#instance_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_snapshot#instance_id MongodbSnapshot#instance_id}
             /// </remarks>
             [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string InstanceId
@@ -111,7 +111,7 @@ namespace scaleway.MongodbSnapshot
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_snapshot#id MongodbSnapshot#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_snapshot#id MongodbSnapshot#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -125,7 +125,7 @@ namespace scaleway.MongodbSnapshot
 
             /// <summary>Name of the snapshot.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_snapshot#name MongodbSnapshot#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_snapshot#name MongodbSnapshot#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -136,7 +136,7 @@ namespace scaleway.MongodbSnapshot
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_snapshot#region MongodbSnapshot#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_snapshot#region MongodbSnapshot#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -147,7 +147,7 @@ namespace scaleway.MongodbSnapshot
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_snapshot#timeouts MongodbSnapshot#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_snapshot#timeouts MongodbSnapshot#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.mongodbSnapshot.MongodbSnapshotTimeouts\"}", isOptional: true)]

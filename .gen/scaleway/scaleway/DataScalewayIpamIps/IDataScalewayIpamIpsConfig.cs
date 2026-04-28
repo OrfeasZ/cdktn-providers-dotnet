@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayIpamIps
     {
         /// <summary>Defines whether to filter only for IPs which are attached to a resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#attached DataScalewayIpamIps#attached}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#attached DataScalewayIpamIps#attached}
         /// </remarks>
         [JsiiProperty(name: "attached", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace scaleway.DataScalewayIpamIps
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#id DataScalewayIpamIps#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#id DataScalewayIpamIps#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace scaleway.DataScalewayIpamIps
 
         /// <summary>The MAC address to filter for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#mac_address DataScalewayIpamIps#mac_address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#mac_address DataScalewayIpamIps#mac_address}
         /// </remarks>
         [JsiiProperty(name: "macAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace scaleway.DataScalewayIpamIps
 
         /// <summary>The private Network to filter for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#private_network_id DataScalewayIpamIps#private_network_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#private_network_id DataScalewayIpamIps#private_network_id}
         /// </remarks>
         [JsiiProperty(name: "privateNetworkId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,7 +66,7 @@ namespace scaleway.DataScalewayIpamIps
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#project_id DataScalewayIpamIps#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#project_id DataScalewayIpamIps#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -80,7 +80,7 @@ namespace scaleway.DataScalewayIpamIps
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#region DataScalewayIpamIps#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#region DataScalewayIpamIps#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -94,7 +94,7 @@ namespace scaleway.DataScalewayIpamIps
 
         /// <summary>resource block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#resource DataScalewayIpamIps#resource}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#resource DataScalewayIpamIps#resource}
         /// </remarks>
         [JsiiProperty(name: "resource", typeJson: "{\"fqn\":\"scaleway.dataScalewayIpamIps.DataScalewayIpamIpsResource\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -108,7 +108,7 @@ namespace scaleway.DataScalewayIpamIps
 
         /// <summary>The tags associated with the IP to filter for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#tags DataScalewayIpamIps#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#tags DataScalewayIpamIps#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -122,7 +122,7 @@ namespace scaleway.DataScalewayIpamIps
 
         /// <summary>IP Type (ipv4, ipv6) to filter for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#type DataScalewayIpamIps#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#type DataScalewayIpamIps#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -136,7 +136,7 @@ namespace scaleway.DataScalewayIpamIps
 
         /// <summary>The zone you want to filter upon.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#zonal DataScalewayIpamIps#zonal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#zonal DataScalewayIpamIps#zonal}
         /// </remarks>
         [JsiiProperty(name: "zonal", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -157,7 +157,7 @@ namespace scaleway.DataScalewayIpamIps
 
             /// <summary>Defines whether to filter only for IPs which are attached to a resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#attached DataScalewayIpamIps#attached}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#attached DataScalewayIpamIps#attached}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "attached", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -166,7 +166,7 @@ namespace scaleway.DataScalewayIpamIps
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#id DataScalewayIpamIps#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#id DataScalewayIpamIps#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -180,7 +180,7 @@ namespace scaleway.DataScalewayIpamIps
 
             /// <summary>The MAC address to filter for.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#mac_address DataScalewayIpamIps#mac_address}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#mac_address DataScalewayIpamIps#mac_address}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "macAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -191,7 +191,7 @@ namespace scaleway.DataScalewayIpamIps
 
             /// <summary>The private Network to filter for.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#private_network_id DataScalewayIpamIps#private_network_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#private_network_id DataScalewayIpamIps#private_network_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "privateNetworkId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -202,7 +202,7 @@ namespace scaleway.DataScalewayIpamIps
 
             /// <summary>The project_id you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#project_id DataScalewayIpamIps#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#project_id DataScalewayIpamIps#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -213,7 +213,7 @@ namespace scaleway.DataScalewayIpamIps
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#region DataScalewayIpamIps#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#region DataScalewayIpamIps#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -224,7 +224,7 @@ namespace scaleway.DataScalewayIpamIps
 
             /// <summary>resource block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#resource DataScalewayIpamIps#resource}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#resource DataScalewayIpamIps#resource}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resource", typeJson: "{\"fqn\":\"scaleway.dataScalewayIpamIps.DataScalewayIpamIpsResource\"}", isOptional: true)]
@@ -235,7 +235,7 @@ namespace scaleway.DataScalewayIpamIps
 
             /// <summary>The tags associated with the IP to filter for.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#tags DataScalewayIpamIps#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#tags DataScalewayIpamIps#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -246,7 +246,7 @@ namespace scaleway.DataScalewayIpamIps
 
             /// <summary>IP Type (ipv4, ipv6) to filter for.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#type DataScalewayIpamIps#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#type DataScalewayIpamIps#type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -257,7 +257,7 @@ namespace scaleway.DataScalewayIpamIps
 
             /// <summary>The zone you want to filter upon.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/ipam_ips#zonal DataScalewayIpamIps#zonal}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/ipam_ips#zonal DataScalewayIpamIps#zonal}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zonal", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

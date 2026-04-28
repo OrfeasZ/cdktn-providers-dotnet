@@ -11,7 +11,7 @@ namespace scaleway.MongodbInstance
     {
         /// <summary>The private network ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mongodb_instance#pn_id MongodbInstance#pn_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mongodb_instance#pn_id MongodbInstance#pn_id}
         /// </remarks>
         [JsiiProperty(name: "pnId", typeJson: "{\"primitive\":\"string\"}")]
         public string PnId

@@ -11,7 +11,7 @@ namespace scaleway.CockpitExporter
     {
         /// <summary>ID of the data source linked to the data export.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/cockpit_exporter#datasource_id CockpitExporter#datasource_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/cockpit_exporter#datasource_id CockpitExporter#datasource_id}
         /// </remarks>
         [JsiiProperty(name: "datasourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatasourceId
@@ -22,7 +22,7 @@ namespace scaleway.CockpitExporter
 
         /// <summary>Name of the data export.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/cockpit_exporter#name CockpitExporter#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/cockpit_exporter#name CockpitExporter#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -33,7 +33,7 @@ namespace scaleway.CockpitExporter
 
         /// <summary>datadog_destination block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/cockpit_exporter#datadog_destination CockpitExporter#datadog_destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/cockpit_exporter#datadog_destination CockpitExporter#datadog_destination}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "datadogDestination", typeJson: "{\"fqn\":\"scaleway.cockpitExporter.CockpitExporterDatadogDestination\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace scaleway.CockpitExporter
 
         /// <summary>Description of the data export.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/cockpit_exporter#description CockpitExporter#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/cockpit_exporter#description CockpitExporter#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace scaleway.CockpitExporter
         /// <remarks>
         /// Use ["all"] to export all products. Use scaleway_cockpit_products data source for valid product names.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/cockpit_exporter#exported_products CockpitExporter#exported_products}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/cockpit_exporter#exported_products CockpitExporter#exported_products}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "exportedProducts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace scaleway.CockpitExporter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/cockpit_exporter#id CockpitExporter#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/cockpit_exporter#id CockpitExporter#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,7 +84,7 @@ namespace scaleway.CockpitExporter
 
         /// <summary>otlp_destination block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/cockpit_exporter#otlp_destination CockpitExporter#otlp_destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/cockpit_exporter#otlp_destination CockpitExporter#otlp_destination}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "otlpDestination", typeJson: "{\"fqn\":\"scaleway.cockpitExporter.CockpitExporterOtlpDestination\"}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace scaleway.CockpitExporter
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/cockpit_exporter#project_id CockpitExporter#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/cockpit_exporter#project_id CockpitExporter#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace scaleway.CockpitExporter
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/cockpit_exporter#region CockpitExporter#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/cockpit_exporter#region CockpitExporter#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -120,7 +120,7 @@ namespace scaleway.CockpitExporter
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/cockpit_exporter#timeouts CockpitExporter#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/cockpit_exporter#timeouts CockpitExporter#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.cockpitExporter.CockpitExporterTimeouts\"}", isOptional: true)]

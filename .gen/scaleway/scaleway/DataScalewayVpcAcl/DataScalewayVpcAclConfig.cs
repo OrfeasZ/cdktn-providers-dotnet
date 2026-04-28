@@ -11,7 +11,7 @@ namespace scaleway.DataScalewayVpcAcl
     {
         /// <summary>The VPC ID to look up the ACL for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_acl#vpc_id DataScalewayVpcAcl#vpc_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_acl#vpc_id DataScalewayVpcAcl#vpc_id}
         /// </remarks>
         [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}")]
         public string VpcId
@@ -20,7 +20,7 @@ namespace scaleway.DataScalewayVpcAcl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_acl#id DataScalewayVpcAcl#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_acl#id DataScalewayVpcAcl#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ namespace scaleway.DataScalewayVpcAcl
         /// <remarks>
         /// Each Network ACL can have rules for only one IP type
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_acl#is_ipv6 DataScalewayVpcAcl#is_ipv6}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_acl#is_ipv6 DataScalewayVpcAcl#is_ipv6}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isIpv6", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace scaleway.DataScalewayVpcAcl
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_acl#region DataScalewayVpcAcl#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_acl#region DataScalewayVpcAcl#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

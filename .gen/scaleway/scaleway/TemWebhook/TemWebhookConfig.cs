@@ -11,7 +11,7 @@ namespace scaleway.TemWebhook
     {
         /// <summary>The domain id.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/tem_webhook#domain_id TemWebhook#domain_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/tem_webhook#domain_id TemWebhook#domain_id}
         /// </remarks>
         [JsiiProperty(name: "domainId", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainId
@@ -22,7 +22,7 @@ namespace scaleway.TemWebhook
 
         /// <summary>List of event types.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/tem_webhook#event_types TemWebhook#event_types}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/tem_webhook#event_types TemWebhook#event_types}
         /// </remarks>
         [JsiiProperty(name: "eventTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] EventTypes
@@ -33,7 +33,7 @@ namespace scaleway.TemWebhook
 
         /// <summary>SNS ARN.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/tem_webhook#sns_arn TemWebhook#sns_arn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/tem_webhook#sns_arn TemWebhook#sns_arn}
         /// </remarks>
         [JsiiProperty(name: "snsArn", typeJson: "{\"primitive\":\"string\"}")]
         public string SnsArn
@@ -42,7 +42,7 @@ namespace scaleway.TemWebhook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/tem_webhook#id TemWebhook#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/tem_webhook#id TemWebhook#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ namespace scaleway.TemWebhook
 
         /// <summary>The name of the webhook.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/tem_webhook#name TemWebhook#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/tem_webhook#name TemWebhook#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace scaleway.TemWebhook
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/tem_webhook#project_id TemWebhook#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/tem_webhook#project_id TemWebhook#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace scaleway.TemWebhook
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/tem_webhook#region TemWebhook#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/tem_webhook#region TemWebhook#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

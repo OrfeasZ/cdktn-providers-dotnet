@@ -9,7 +9,7 @@ namespace scaleway.VpcPublicGatewayIpReverseDns
     {
         /// <summary>The IP ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_ip_reverse_dns#gateway_ip_id VpcPublicGatewayIpReverseDns#gateway_ip_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_ip_reverse_dns#gateway_ip_id VpcPublicGatewayIpReverseDns#gateway_ip_id}
         /// </remarks>
         [JsiiProperty(name: "gatewayIpId", typeJson: "{\"primitive\":\"string\"}")]
         string GatewayIpId
@@ -19,7 +19,7 @@ namespace scaleway.VpcPublicGatewayIpReverseDns
 
         /// <summary>The reverse DNS for this IP.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_ip_reverse_dns#reverse VpcPublicGatewayIpReverseDns#reverse}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_ip_reverse_dns#reverse VpcPublicGatewayIpReverseDns#reverse}
         /// </remarks>
         [JsiiProperty(name: "reverse", typeJson: "{\"primitive\":\"string\"}")]
         string Reverse
@@ -27,7 +27,7 @@ namespace scaleway.VpcPublicGatewayIpReverseDns
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_ip_reverse_dns#id VpcPublicGatewayIpReverseDns#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_ip_reverse_dns#id VpcPublicGatewayIpReverseDns#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace scaleway.VpcPublicGatewayIpReverseDns
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_ip_reverse_dns#timeouts VpcPublicGatewayIpReverseDns#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_ip_reverse_dns#timeouts VpcPublicGatewayIpReverseDns#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.vpcPublicGatewayIpReverseDns.VpcPublicGatewayIpReverseDnsTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace scaleway.VpcPublicGatewayIpReverseDns
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_ip_reverse_dns#zone VpcPublicGatewayIpReverseDns#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_ip_reverse_dns#zone VpcPublicGatewayIpReverseDns#zone}
         /// </remarks>
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +79,7 @@ namespace scaleway.VpcPublicGatewayIpReverseDns
 
             /// <summary>The IP ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_ip_reverse_dns#gateway_ip_id VpcPublicGatewayIpReverseDns#gateway_ip_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_ip_reverse_dns#gateway_ip_id VpcPublicGatewayIpReverseDns#gateway_ip_id}
             /// </remarks>
             [JsiiProperty(name: "gatewayIpId", typeJson: "{\"primitive\":\"string\"}")]
             public string GatewayIpId
@@ -89,7 +89,7 @@ namespace scaleway.VpcPublicGatewayIpReverseDns
 
             /// <summary>The reverse DNS for this IP.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_ip_reverse_dns#reverse VpcPublicGatewayIpReverseDns#reverse}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_ip_reverse_dns#reverse VpcPublicGatewayIpReverseDns#reverse}
             /// </remarks>
             [JsiiProperty(name: "reverse", typeJson: "{\"primitive\":\"string\"}")]
             public string Reverse
@@ -97,7 +97,7 @@ namespace scaleway.VpcPublicGatewayIpReverseDns
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_ip_reverse_dns#id VpcPublicGatewayIpReverseDns#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_ip_reverse_dns#id VpcPublicGatewayIpReverseDns#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -111,7 +111,7 @@ namespace scaleway.VpcPublicGatewayIpReverseDns
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_ip_reverse_dns#timeouts VpcPublicGatewayIpReverseDns#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_ip_reverse_dns#timeouts VpcPublicGatewayIpReverseDns#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.vpcPublicGatewayIpReverseDns.VpcPublicGatewayIpReverseDnsTimeouts\"}", isOptional: true)]
@@ -122,7 +122,7 @@ namespace scaleway.VpcPublicGatewayIpReverseDns
 
             /// <summary>The zone you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_ip_reverse_dns#zone VpcPublicGatewayIpReverseDns#zone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_ip_reverse_dns#zone VpcPublicGatewayIpReverseDns#zone}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

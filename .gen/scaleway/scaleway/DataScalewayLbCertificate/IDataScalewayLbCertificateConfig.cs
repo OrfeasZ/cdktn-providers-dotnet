@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayLbCertificate
     {
         /// <summary>The ID of the certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/lb_certificate#certificate_id DataScalewayLbCertificate#certificate_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/lb_certificate#certificate_id DataScalewayLbCertificate#certificate_id}
         /// </remarks>
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace scaleway.DataScalewayLbCertificate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/lb_certificate#id DataScalewayLbCertificate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/lb_certificate#id DataScalewayLbCertificate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace scaleway.DataScalewayLbCertificate
 
         /// <summary>The load-balancer ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/lb_certificate#lb_id DataScalewayLbCertificate#lb_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/lb_certificate#lb_id DataScalewayLbCertificate#lb_id}
         /// </remarks>
         [JsiiProperty(name: "lbId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace scaleway.DataScalewayLbCertificate
 
         /// <summary>The name of the load-balancer certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/lb_certificate#name DataScalewayLbCertificate#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/lb_certificate#name DataScalewayLbCertificate#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -73,7 +73,7 @@ namespace scaleway.DataScalewayLbCertificate
 
             /// <summary>The ID of the certificate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/lb_certificate#certificate_id DataScalewayLbCertificate#certificate_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/lb_certificate#certificate_id DataScalewayLbCertificate#certificate_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace scaleway.DataScalewayLbCertificate
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/lb_certificate#id DataScalewayLbCertificate#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/lb_certificate#id DataScalewayLbCertificate#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -96,7 +96,7 @@ namespace scaleway.DataScalewayLbCertificate
 
             /// <summary>The load-balancer ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/lb_certificate#lb_id DataScalewayLbCertificate#lb_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/lb_certificate#lb_id DataScalewayLbCertificate#lb_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lbId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace scaleway.DataScalewayLbCertificate
 
             /// <summary>The name of the load-balancer certificate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/lb_certificate#name DataScalewayLbCertificate#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/lb_certificate#name DataScalewayLbCertificate#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

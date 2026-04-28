@@ -11,7 +11,7 @@ namespace scaleway.LbAcl
     {
         /// <summary>action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_acl#action LbAcl#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_acl#action LbAcl#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"scaleway.lbAcl.LbAclAction\"}")]
         public scaleway.LbAcl.ILbAclAction Action
@@ -22,7 +22,7 @@ namespace scaleway.LbAcl
 
         /// <summary>The frontend ID on which the ACL is applied.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_acl#frontend_id LbAcl#frontend_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_acl#frontend_id LbAcl#frontend_id}
         /// </remarks>
         [JsiiProperty(name: "frontendId", typeJson: "{\"primitive\":\"string\"}")]
         public string FrontendId
@@ -33,7 +33,7 @@ namespace scaleway.LbAcl
 
         /// <summary>The priority of the ACL. (ACLs are applied in ascending order, 0 is the first ACL executed).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_acl#index LbAcl#index}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_acl#index LbAcl#index}
         /// </remarks>
         [JsiiProperty(name: "index", typeJson: "{\"primitive\":\"number\"}")]
         public double Index
@@ -44,7 +44,7 @@ namespace scaleway.LbAcl
 
         /// <summary>Description of the ACL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_acl#description LbAcl#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_acl#description LbAcl#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace scaleway.LbAcl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_acl#id LbAcl#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_acl#id LbAcl#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,7 +69,7 @@ namespace scaleway.LbAcl
 
         /// <summary>match block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_acl#match LbAcl#match}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_acl#match LbAcl#match}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "match", typeJson: "{\"fqn\":\"scaleway.lbAcl.LbAclMatch\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace scaleway.LbAcl
 
         /// <summary>The ACL name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_acl#name LbAcl#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_acl#name LbAcl#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -93,7 +93,7 @@ namespace scaleway.LbAcl
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_acl#timeouts LbAcl#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_acl#timeouts LbAcl#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.lbAcl.LbAclTimeouts\"}", isOptional: true)]

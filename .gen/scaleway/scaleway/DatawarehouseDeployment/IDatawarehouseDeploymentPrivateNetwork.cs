@@ -9,7 +9,7 @@ namespace scaleway.DatawarehouseDeployment
     {
         /// <summary>The private network ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#pn_id DatawarehouseDeployment#pn_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#pn_id DatawarehouseDeployment#pn_id}
         /// </remarks>
         [JsiiProperty(name: "pnId", typeJson: "{\"primitive\":\"string\"}")]
         string PnId
@@ -26,7 +26,7 @@ namespace scaleway.DatawarehouseDeployment
 
             /// <summary>The private network ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#pn_id DatawarehouseDeployment#pn_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#pn_id DatawarehouseDeployment#pn_id}
             /// </remarks>
             [JsiiProperty(name: "pnId", typeJson: "{\"primitive\":\"string\"}")]
             public string PnId

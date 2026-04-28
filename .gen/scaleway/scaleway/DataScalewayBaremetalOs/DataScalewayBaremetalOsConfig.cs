@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayBaremetalOs
     [JsiiByValue(fqn: "scaleway.dataScalewayBaremetalOs.DataScalewayBaremetalOsConfig")]
     public class DataScalewayBaremetalOsConfig : scaleway.DataScalewayBaremetalOs.IDataScalewayBaremetalOsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/baremetal_os#id DataScalewayBaremetalOs#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/baremetal_os#id DataScalewayBaremetalOs#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace scaleway.DataScalewayBaremetalOs
 
         /// <summary>Exact label of the desired image.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/baremetal_os#name DataScalewayBaremetalOs#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/baremetal_os#name DataScalewayBaremetalOs#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace scaleway.DataScalewayBaremetalOs
 
         /// <summary>The ID of the os.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/baremetal_os#os_id DataScalewayBaremetalOs#os_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/baremetal_os#os_id DataScalewayBaremetalOs#os_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "osId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace scaleway.DataScalewayBaremetalOs
 
         /// <summary>Version string of the desired OS.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/baremetal_os#version DataScalewayBaremetalOs#version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/baremetal_os#version DataScalewayBaremetalOs#version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace scaleway.DataScalewayBaremetalOs
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/baremetal_os#zone DataScalewayBaremetalOs#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/baremetal_os#zone DataScalewayBaremetalOs#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

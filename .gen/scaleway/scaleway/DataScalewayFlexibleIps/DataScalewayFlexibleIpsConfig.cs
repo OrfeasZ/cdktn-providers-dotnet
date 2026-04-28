@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayFlexibleIps
     [JsiiByValue(fqn: "scaleway.dataScalewayFlexibleIps.DataScalewayFlexibleIpsConfig")]
     public class DataScalewayFlexibleIpsConfig : scaleway.DataScalewayFlexibleIps.IDataScalewayFlexibleIpsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/flexible_ips#id DataScalewayFlexibleIps#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/flexible_ips#id DataScalewayFlexibleIps#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace scaleway.DataScalewayFlexibleIps
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/flexible_ips#project_id DataScalewayFlexibleIps#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/flexible_ips#project_id DataScalewayFlexibleIps#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace scaleway.DataScalewayFlexibleIps
 
         /// <summary>Flexible IPs that are attached to these server IDs are listed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/flexible_ips#server_ids DataScalewayFlexibleIps#server_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/flexible_ips#server_ids DataScalewayFlexibleIps#server_ids}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serverIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace scaleway.DataScalewayFlexibleIps
 
         /// <summary>Flexible IPs with these exact tags are listed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/flexible_ips#tags DataScalewayFlexibleIps#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/flexible_ips#tags DataScalewayFlexibleIps#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace scaleway.DataScalewayFlexibleIps
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/flexible_ips#zone DataScalewayFlexibleIps#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/flexible_ips#zone DataScalewayFlexibleIps#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

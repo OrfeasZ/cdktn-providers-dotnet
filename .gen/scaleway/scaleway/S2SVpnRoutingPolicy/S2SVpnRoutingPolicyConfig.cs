@@ -7,7 +7,7 @@ namespace scaleway.S2SVpnRoutingPolicy
     [JsiiByValue(fqn: "scaleway.s2SVpnRoutingPolicy.S2SVpnRoutingPolicyConfig")]
     public class S2SVpnRoutingPolicyConfig : scaleway.S2SVpnRoutingPolicy.IS2SVpnRoutingPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_routing_policy#id S2SVpnRoutingPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_routing_policy#id S2SVpnRoutingPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,7 +24,7 @@ namespace scaleway.S2SVpnRoutingPolicy
 
         /// <summary>IP prefixes version of the routing policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_routing_policy#is_ipv6 S2SVpnRoutingPolicy#is_ipv6}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_routing_policy#is_ipv6 S2SVpnRoutingPolicy#is_ipv6}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isIpv6", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace scaleway.S2SVpnRoutingPolicy
 
         /// <summary>The name of the routing policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_routing_policy#name S2SVpnRoutingPolicy#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_routing_policy#name S2SVpnRoutingPolicy#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace scaleway.S2SVpnRoutingPolicy
 
         /// <summary>IP prefixes to accept from the peer (ranges of route announcements to accept).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_routing_policy#prefix_filter_in S2SVpnRoutingPolicy#prefix_filter_in}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_routing_policy#prefix_filter_in S2SVpnRoutingPolicy#prefix_filter_in}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "prefixFilterIn", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace scaleway.S2SVpnRoutingPolicy
 
         /// <summary>IP prefix filters to advertise to the peer (ranges of routes to advertise).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_routing_policy#prefix_filter_out S2SVpnRoutingPolicy#prefix_filter_out}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_routing_policy#prefix_filter_out S2SVpnRoutingPolicy#prefix_filter_out}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "prefixFilterOut", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace scaleway.S2SVpnRoutingPolicy
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_routing_policy#project_id S2SVpnRoutingPolicy#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_routing_policy#project_id S2SVpnRoutingPolicy#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -104,7 +104,7 @@ namespace scaleway.S2SVpnRoutingPolicy
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_routing_policy#region S2SVpnRoutingPolicy#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_routing_policy#region S2SVpnRoutingPolicy#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -116,7 +116,7 @@ namespace scaleway.S2SVpnRoutingPolicy
 
         /// <summary>The list of tags to apply to the routing policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_routing_policy#tags S2SVpnRoutingPolicy#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_routing_policy#tags S2SVpnRoutingPolicy#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

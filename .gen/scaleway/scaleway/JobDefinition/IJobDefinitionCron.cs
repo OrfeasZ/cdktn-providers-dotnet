@@ -9,7 +9,7 @@ namespace scaleway.JobDefinition
     {
         /// <summary>UNIX cron schedule to run job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#schedule JobDefinition#schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#schedule JobDefinition#schedule}
         /// </remarks>
         [JsiiProperty(name: "schedule", typeJson: "{\"primitive\":\"string\"}")]
         string Schedule
@@ -19,7 +19,7 @@ namespace scaleway.JobDefinition
 
         /// <summary>Timezone for the cron schedule, in tz database format (e.g., 'Europe/Paris').</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#timezone JobDefinition#timezone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#timezone JobDefinition#timezone}
         /// </remarks>
         [JsiiProperty(name: "timezone", typeJson: "{\"primitive\":\"string\"}")]
         string Timezone
@@ -36,7 +36,7 @@ namespace scaleway.JobDefinition
 
             /// <summary>UNIX cron schedule to run job.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#schedule JobDefinition#schedule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#schedule JobDefinition#schedule}
             /// </remarks>
             [JsiiProperty(name: "schedule", typeJson: "{\"primitive\":\"string\"}")]
             public string Schedule
@@ -46,7 +46,7 @@ namespace scaleway.JobDefinition
 
             /// <summary>Timezone for the cron schedule, in tz database format (e.g., 'Europe/Paris').</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/job_definition#timezone JobDefinition#timezone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/job_definition#timezone JobDefinition#timezone}
             /// </remarks>
             [JsiiProperty(name: "timezone", typeJson: "{\"primitive\":\"string\"}")]
             public string Timezone

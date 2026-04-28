@@ -11,7 +11,7 @@ namespace scaleway.RdbDatabaseBackup
     {
         /// <summary>Name of the database of this backup.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_database_backup#database_name RdbDatabaseBackup#database_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_database_backup#database_name RdbDatabaseBackup#database_name}
         /// </remarks>
         [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseName
@@ -22,7 +22,7 @@ namespace scaleway.RdbDatabaseBackup
 
         /// <summary>Instance on which the user is created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_database_backup#instance_id RdbDatabaseBackup#instance_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_database_backup#instance_id RdbDatabaseBackup#instance_id}
         /// </remarks>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceId
@@ -33,7 +33,7 @@ namespace scaleway.RdbDatabaseBackup
 
         /// <summary>Expiration date (Format ISO 8601). Cannot be removed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_database_backup#expires_at RdbDatabaseBackup#expires_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_database_backup#expires_at RdbDatabaseBackup#expires_at}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "expiresAt", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace scaleway.RdbDatabaseBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_database_backup#id RdbDatabaseBackup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_database_backup#id RdbDatabaseBackup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace scaleway.RdbDatabaseBackup
 
         /// <summary>Name of the backup.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_database_backup#name RdbDatabaseBackup#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_database_backup#name RdbDatabaseBackup#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace scaleway.RdbDatabaseBackup
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_database_backup#region RdbDatabaseBackup#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_database_backup#region RdbDatabaseBackup#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace scaleway.RdbDatabaseBackup
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_database_backup#timeouts RdbDatabaseBackup#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_database_backup#timeouts RdbDatabaseBackup#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.rdbDatabaseBackup.RdbDatabaseBackupTimeouts\"}", isOptional: true)]

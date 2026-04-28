@@ -11,7 +11,7 @@ namespace scaleway.IotRoute
     {
         /// <summary>The ID of the route's hub.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#hub_id IotRoute#hub_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#hub_id IotRoute#hub_id}
         /// </remarks>
         [JsiiProperty(name: "hubId", typeJson: "{\"primitive\":\"string\"}")]
         public string HubId
@@ -22,7 +22,7 @@ namespace scaleway.IotRoute
 
         /// <summary>The name of the route.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#name IotRoute#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#name IotRoute#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -33,7 +33,7 @@ namespace scaleway.IotRoute
 
         /// <summary>The Topic the route subscribes to (wildcards allowed).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#topic IotRoute#topic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#topic IotRoute#topic}
         /// </remarks>
         [JsiiProperty(name: "topic", typeJson: "{\"primitive\":\"string\"}")]
         public string Topic
@@ -44,7 +44,7 @@ namespace scaleway.IotRoute
 
         /// <summary>database block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#database IotRoute#database}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#database IotRoute#database}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "database", typeJson: "{\"fqn\":\"scaleway.iotRoute.IotRouteDatabase\"}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace scaleway.IotRoute
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#id IotRoute#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#id IotRoute#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,7 +69,7 @@ namespace scaleway.IotRoute
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#region IotRoute#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#region IotRoute#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace scaleway.IotRoute
 
         /// <summary>rest block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#rest IotRoute#rest}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#rest IotRoute#rest}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rest", typeJson: "{\"fqn\":\"scaleway.iotRoute.IotRouteRest\"}", isOptional: true)]
@@ -93,7 +93,7 @@ namespace scaleway.IotRoute
 
         /// <summary>s3 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#s3 IotRoute#s3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#s3 IotRoute#s3}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3", typeJson: "{\"fqn\":\"scaleway.iotRoute.IotRouteS3\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace scaleway.IotRoute
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#timeouts IotRoute#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#timeouts IotRoute#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.iotRoute.IotRouteTimeouts\"}", isOptional: true)]

@@ -5,7 +5,7 @@ namespace scaleway.RedisCluster
     /// <remarks>
     /// <h1><c>scaleway_redis_cluster</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/redis_cluster"><c>scaleway_redis_cluster</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/redis_cluster"><c>scaleway_redis_cluster</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

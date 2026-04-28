@@ -5,7 +5,7 @@ namespace scaleway.IotDevice
     /// <remarks>
     /// <h1><c>scaleway_iot_device</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_device"><c>scaleway_iot_device</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_device"><c>scaleway_iot_device</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

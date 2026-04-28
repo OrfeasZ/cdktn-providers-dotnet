@@ -5,7 +5,7 @@ namespace scaleway.DataScalewayAutoscalingInstanceGroup
     /// <remarks>
     /// <h1><c>data_scaleway_autoscaling_instance_group</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/autoscaling_instance_group"><c>data_scaleway_autoscaling_instance_group</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/autoscaling_instance_group"><c>data_scaleway_autoscaling_instance_group</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

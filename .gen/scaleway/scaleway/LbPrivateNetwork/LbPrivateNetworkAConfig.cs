@@ -11,7 +11,7 @@ namespace scaleway.LbPrivateNetwork
     {
         /// <summary>The load-balancer ID to attach the private network to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_private_network#lb_id LbPrivateNetworkA#lb_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_private_network#lb_id LbPrivateNetworkA#lb_id}
         /// </remarks>
         [JsiiProperty(name: "lbId", typeJson: "{\"primitive\":\"string\"}")]
         public string LbId
@@ -22,7 +22,7 @@ namespace scaleway.LbPrivateNetwork
 
         /// <summary>The private network ID to attach.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_private_network#private_network_id LbPrivateNetworkA#private_network_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_private_network#private_network_id LbPrivateNetworkA#private_network_id}
         /// </remarks>
         [JsiiProperty(name: "privateNetworkId", typeJson: "{\"primitive\":\"string\"}")]
         public string PrivateNetworkId
@@ -31,7 +31,7 @@ namespace scaleway.LbPrivateNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_private_network#id LbPrivateNetworkA#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_private_network#id LbPrivateNetworkA#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace scaleway.LbPrivateNetwork
 
         /// <summary>IPAM ID of a pre-reserved IP address to assign to the Load Balancer on this Private Network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_private_network#ipam_ip_ids LbPrivateNetworkA#ipam_ip_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_private_network#ipam_ip_ids LbPrivateNetworkA#ipam_ip_ids}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipamIpIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace scaleway.LbPrivateNetwork
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_private_network#project_id LbPrivateNetworkA#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_private_network#project_id LbPrivateNetworkA#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace scaleway.LbPrivateNetwork
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_private_network#timeouts LbPrivateNetworkA#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_private_network#timeouts LbPrivateNetworkA#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.lbPrivateNetwork.LbPrivateNetworkTimeouts\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace scaleway.LbPrivateNetwork
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_private_network#zone LbPrivateNetworkA#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_private_network#zone LbPrivateNetworkA#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

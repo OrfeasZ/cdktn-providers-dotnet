@@ -11,7 +11,7 @@ namespace scaleway.CockpitExporter
     {
         /// <summary>Datadog API key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/cockpit_exporter#api_key CockpitExporter#api_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/cockpit_exporter#api_key CockpitExporter#api_key}
         /// </remarks>
         [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiKey
@@ -22,7 +22,7 @@ namespace scaleway.CockpitExporter
 
         /// <summary>Datadog endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/cockpit_exporter#endpoint CockpitExporter#endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/cockpit_exporter#endpoint CockpitExporter#endpoint}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

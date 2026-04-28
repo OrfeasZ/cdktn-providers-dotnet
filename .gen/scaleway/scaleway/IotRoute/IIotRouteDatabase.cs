@@ -9,7 +9,7 @@ namespace scaleway.IotRoute
     {
         /// <summary>The database name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#dbname IotRoute#dbname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#dbname IotRoute#dbname}
         /// </remarks>
         [JsiiProperty(name: "dbname", typeJson: "{\"primitive\":\"string\"}")]
         string Dbname
@@ -19,7 +19,7 @@ namespace scaleway.IotRoute
 
         /// <summary>The database hostname.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#host IotRoute#host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#host IotRoute#host}
         /// </remarks>
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
         string Host
@@ -29,7 +29,7 @@ namespace scaleway.IotRoute
 
         /// <summary>The database password.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#password IotRoute#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#password IotRoute#password}
         /// </remarks>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         string Password
@@ -39,7 +39,7 @@ namespace scaleway.IotRoute
 
         /// <summary>The database port.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#port IotRoute#port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#port IotRoute#port}
         /// </remarks>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         double Port
@@ -49,7 +49,7 @@ namespace scaleway.IotRoute
 
         /// <summary>SQL query to be executed ($TOPIC and $PAYLOAD variables are available, see documentation).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#query IotRoute#query}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#query IotRoute#query}
         /// </remarks>
         [JsiiProperty(name: "query", typeJson: "{\"primitive\":\"string\"}")]
         string Query
@@ -59,7 +59,7 @@ namespace scaleway.IotRoute
 
         /// <summary>The database username.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#username IotRoute#username}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#username IotRoute#username}
         /// </remarks>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         string Username
@@ -76,7 +76,7 @@ namespace scaleway.IotRoute
 
             /// <summary>The database name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#dbname IotRoute#dbname}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#dbname IotRoute#dbname}
             /// </remarks>
             [JsiiProperty(name: "dbname", typeJson: "{\"primitive\":\"string\"}")]
             public string Dbname
@@ -86,7 +86,7 @@ namespace scaleway.IotRoute
 
             /// <summary>The database hostname.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#host IotRoute#host}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#host IotRoute#host}
             /// </remarks>
             [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
             public string Host
@@ -96,7 +96,7 @@ namespace scaleway.IotRoute
 
             /// <summary>The database password.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#password IotRoute#password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#password IotRoute#password}
             /// </remarks>
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
             public string Password
@@ -106,7 +106,7 @@ namespace scaleway.IotRoute
 
             /// <summary>The database port.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#port IotRoute#port}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#port IotRoute#port}
             /// </remarks>
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
             public double Port
@@ -116,7 +116,7 @@ namespace scaleway.IotRoute
 
             /// <summary>SQL query to be executed ($TOPIC and $PAYLOAD variables are available, see documentation).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#query IotRoute#query}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#query IotRoute#query}
             /// </remarks>
             [JsiiProperty(name: "query", typeJson: "{\"primitive\":\"string\"}")]
             public string Query
@@ -126,7 +126,7 @@ namespace scaleway.IotRoute
 
             /// <summary>The database username.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iot_route#username IotRoute#username}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iot_route#username IotRoute#username}
             /// </remarks>
             [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
             public string Username

@@ -11,7 +11,7 @@ namespace scaleway.S2SVpnGateway
     {
         /// <summary>The VPN gateway type (commercial offer type).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_gateway#gateway_type S2SVpnGateway#gateway_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_gateway#gateway_type S2SVpnGateway#gateway_type}
         /// </remarks>
         [JsiiProperty(name: "gatewayType", typeJson: "{\"primitive\":\"string\"}")]
         public string GatewayType
@@ -22,7 +22,7 @@ namespace scaleway.S2SVpnGateway
 
         /// <summary>The ID of the Private Network to attach to the VPN gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_gateway#private_network_id S2SVpnGateway#private_network_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_gateway#private_network_id S2SVpnGateway#private_network_id}
         /// </remarks>
         [JsiiProperty(name: "privateNetworkId", typeJson: "{\"primitive\":\"string\"}")]
         public string PrivateNetworkId
@@ -31,7 +31,7 @@ namespace scaleway.S2SVpnGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_gateway#id S2SVpnGateway#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_gateway#id S2SVpnGateway#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace scaleway.S2SVpnGateway
 
         /// <summary>The ID of the IPAM private IPv4 address to attach to the VPN gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_gateway#ipam_private_ipv4_id S2SVpnGateway#ipam_private_ipv4_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_gateway#ipam_private_ipv4_id S2SVpnGateway#ipam_private_ipv4_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipamPrivateIpv4Id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace scaleway.S2SVpnGateway
 
         /// <summary>The ID of the IPAM private IPv6 address to attach to the VPN gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_gateway#ipam_private_ipv6_id S2SVpnGateway#ipam_private_ipv6_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_gateway#ipam_private_ipv6_id S2SVpnGateway#ipam_private_ipv6_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipamPrivateIpv6Id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace scaleway.S2SVpnGateway
 
         /// <summary>The name of the VPN gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_gateway#name S2SVpnGateway#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_gateway#name S2SVpnGateway#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace scaleway.S2SVpnGateway
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_gateway#project_id S2SVpnGateway#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_gateway#project_id S2SVpnGateway#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace scaleway.S2SVpnGateway
 
         /// <summary>public_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_gateway#public_config S2SVpnGateway#public_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_gateway#public_config S2SVpnGateway#public_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publicConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.s2SVpnGateway.S2SVpnGatewayPublicConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace scaleway.S2SVpnGateway
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_gateway#region S2SVpnGateway#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_gateway#region S2SVpnGateway#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -140,7 +140,7 @@ namespace scaleway.S2SVpnGateway
 
         /// <summary>The list of tags to apply to the VPN gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_gateway#tags S2SVpnGateway#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_gateway#tags S2SVpnGateway#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -152,7 +152,7 @@ namespace scaleway.S2SVpnGateway
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_gateway#timeouts S2SVpnGateway#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_gateway#timeouts S2SVpnGateway#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.s2SVpnGateway.S2SVpnGatewayTimeouts\"}", isOptional: true)]
@@ -164,7 +164,7 @@ namespace scaleway.S2SVpnGateway
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/s2s_vpn_gateway#zone S2SVpnGateway#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/s2s_vpn_gateway#zone S2SVpnGateway#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

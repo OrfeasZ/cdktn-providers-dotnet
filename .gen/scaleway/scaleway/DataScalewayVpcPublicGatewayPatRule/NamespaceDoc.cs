@@ -5,7 +5,7 @@ namespace scaleway.DataScalewayVpcPublicGatewayPatRule
     /// <remarks>
     /// <h1><c>data_scaleway_vpc_public_gateway_pat_rule</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_public_gateway_pat_rule"><c>data_scaleway_vpc_public_gateway_pat_rule</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_public_gateway_pat_rule"><c>data_scaleway_vpc_public_gateway_pat_rule</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

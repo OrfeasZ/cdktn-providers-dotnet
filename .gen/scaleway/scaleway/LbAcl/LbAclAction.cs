@@ -11,7 +11,7 @@ namespace scaleway.LbAcl
     {
         /// <summary>The action type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_acl#type LbAcl#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_acl#type LbAcl#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -24,7 +24,7 @@ namespace scaleway.LbAcl
 
         /// <summary>redirect block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_acl#redirect LbAcl#redirect}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_acl#redirect LbAcl#redirect}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "redirect", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.lbAcl.LbAclActionRedirect\"},\"kind\":\"array\"}}]}}", isOptional: true)]

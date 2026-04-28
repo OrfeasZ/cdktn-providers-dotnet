@@ -9,7 +9,7 @@ namespace scaleway.LbFrontend
     {
         /// <summary>The HTTP filter to match.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_frontend#http_filter LbFrontend#http_filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_frontend#http_filter LbFrontend#http_filter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace scaleway.LbFrontend
 
         /// <summary>You can use this field with http_header_match acl type to set the header name to filter.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_frontend#http_filter_option LbFrontend#http_filter_option}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_frontend#http_filter_option LbFrontend#http_filter_option}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpFilterOption", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace scaleway.LbFrontend
 
         /// <summary>A list of possible values to match for the given HTTP filter.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_frontend#http_filter_value LbFrontend#http_filter_value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_frontend#http_filter_value LbFrontend#http_filter_value}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpFilterValue", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace scaleway.LbFrontend
 
         /// <summary>If set to true, the condition will be of type "unless".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_frontend#invert LbFrontend#invert}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_frontend#invert LbFrontend#invert}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "invert", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace scaleway.LbFrontend
 
         /// <summary>Defines whether Edge Services IPs should be matched.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_frontend#ips_edge_services LbFrontend#ips_edge_services}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_frontend#ips_edge_services LbFrontend#ips_edge_services}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipsEdgeServices", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -113,7 +113,7 @@ namespace scaleway.LbFrontend
 
         /// <summary>A list of IPs or CIDR v4/v6 addresses of the client of the session to match.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_frontend#ip_subnet LbFrontend#ip_subnet}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_frontend#ip_subnet LbFrontend#ip_subnet}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipSubnet", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

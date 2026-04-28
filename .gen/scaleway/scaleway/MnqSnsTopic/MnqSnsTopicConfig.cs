@@ -11,7 +11,7 @@ namespace scaleway.MnqSnsTopic
     {
         /// <summary>SNS access key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mnq_sns_topic#access_key MnqSnsTopic#access_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mnq_sns_topic#access_key MnqSnsTopic#access_key}
         /// </remarks>
         [JsiiProperty(name: "accessKey", typeJson: "{\"primitive\":\"string\"}")]
         public string AccessKey
@@ -22,7 +22,7 @@ namespace scaleway.MnqSnsTopic
 
         /// <summary>SNS secret key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mnq_sns_topic#secret_key MnqSnsTopic#secret_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mnq_sns_topic#secret_key MnqSnsTopic#secret_key}
         /// </remarks>
         [JsiiProperty(name: "secretKey", typeJson: "{\"primitive\":\"string\"}")]
         public string SecretKey
@@ -35,7 +35,7 @@ namespace scaleway.MnqSnsTopic
 
         /// <summary>Specifies whether to enable content-based deduplication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mnq_sns_topic#content_based_deduplication MnqSnsTopic#content_based_deduplication}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mnq_sns_topic#content_based_deduplication MnqSnsTopic#content_based_deduplication}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "contentBasedDeduplication", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace scaleway.MnqSnsTopic
 
         /// <summary>Whether the topic is a FIFO topic. If true, the topic name must end with .fifo.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mnq_sns_topic#fifo_topic MnqSnsTopic#fifo_topic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mnq_sns_topic#fifo_topic MnqSnsTopic#fifo_topic}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fifoTopic", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace scaleway.MnqSnsTopic
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mnq_sns_topic#id MnqSnsTopic#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mnq_sns_topic#id MnqSnsTopic#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -114,7 +114,7 @@ namespace scaleway.MnqSnsTopic
 
         /// <summary>Name of the SNS Topic.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mnq_sns_topic#name MnqSnsTopic#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mnq_sns_topic#name MnqSnsTopic#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -126,7 +126,7 @@ namespace scaleway.MnqSnsTopic
 
         /// <summary>Creates a unique name beginning with the specified prefix.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mnq_sns_topic#name_prefix MnqSnsTopic#name_prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mnq_sns_topic#name_prefix MnqSnsTopic#name_prefix}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "namePrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -138,7 +138,7 @@ namespace scaleway.MnqSnsTopic
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mnq_sns_topic#project_id MnqSnsTopic#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mnq_sns_topic#project_id MnqSnsTopic#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -150,7 +150,7 @@ namespace scaleway.MnqSnsTopic
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mnq_sns_topic#region MnqSnsTopic#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mnq_sns_topic#region MnqSnsTopic#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -162,7 +162,7 @@ namespace scaleway.MnqSnsTopic
 
         /// <summary>SNS endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/mnq_sns_topic#sns_endpoint MnqSnsTopic#sns_endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/mnq_sns_topic#sns_endpoint MnqSnsTopic#sns_endpoint}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "snsEndpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

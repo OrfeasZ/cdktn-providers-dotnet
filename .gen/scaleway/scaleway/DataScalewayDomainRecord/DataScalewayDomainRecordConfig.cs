@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayDomainRecord
     {
         /// <summary>The data of the record.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/domain_record#data DataScalewayDomainRecord#data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/domain_record#data DataScalewayDomainRecord#data}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "data", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace scaleway.DataScalewayDomainRecord
 
         /// <summary>The zone you want to add the record in.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/domain_record#dns_zone DataScalewayDomainRecord#dns_zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/domain_record#dns_zone DataScalewayDomainRecord#dns_zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dnsZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace scaleway.DataScalewayDomainRecord
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/domain_record#id DataScalewayDomainRecord#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/domain_record#id DataScalewayDomainRecord#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace scaleway.DataScalewayDomainRecord
 
         /// <summary>The name of the record.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/domain_record#name DataScalewayDomainRecord#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/domain_record#name DataScalewayDomainRecord#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace scaleway.DataScalewayDomainRecord
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/domain_record#project_id DataScalewayDomainRecord#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/domain_record#project_id DataScalewayDomainRecord#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace scaleway.DataScalewayDomainRecord
 
         /// <summary>The ID of the record (UUID or dns_zone/uuid format).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/domain_record#record_id DataScalewayDomainRecord#record_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/domain_record#record_id DataScalewayDomainRecord#record_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "recordId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace scaleway.DataScalewayDomainRecord
 
         /// <summary>The type of the record.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/domain_record#type DataScalewayDomainRecord#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/domain_record#type DataScalewayDomainRecord#type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

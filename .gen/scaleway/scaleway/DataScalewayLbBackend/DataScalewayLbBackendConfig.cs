@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayLbBackend
     {
         /// <summary>The ID of the backend.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/lb_backend#backend_id DataScalewayLbBackend#backend_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/lb_backend#backend_id DataScalewayLbBackend#backend_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "backendId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace scaleway.DataScalewayLbBackend
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/lb_backend#id DataScalewayLbBackend#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/lb_backend#id DataScalewayLbBackend#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,7 +34,7 @@ namespace scaleway.DataScalewayLbBackend
 
         /// <summary>The load-balancer ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/lb_backend#lb_id DataScalewayLbBackend#lb_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/lb_backend#lb_id DataScalewayLbBackend#lb_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lbId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace scaleway.DataScalewayLbBackend
 
         /// <summary>The name of the backend.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/lb_backend#name DataScalewayLbBackend#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/lb_backend#name DataScalewayLbBackend#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayS2SVpnGateway
     [JsiiInterface(nativeType: typeof(IDataScalewayS2SVpnGatewayConfig), fullyQualifiedName: "scaleway.dataScalewayS2SVpnGateway.DataScalewayS2SVpnGatewayConfig")]
     public interface IDataScalewayS2SVpnGatewayConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_gateway#id DataScalewayS2SVpnGateway#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_gateway#id DataScalewayS2SVpnGateway#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,7 +24,7 @@ namespace scaleway.DataScalewayS2SVpnGateway
 
         /// <summary>The name of the VPN gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_gateway#name DataScalewayS2SVpnGateway#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_gateway#name DataScalewayS2SVpnGateway#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,7 +38,7 @@ namespace scaleway.DataScalewayS2SVpnGateway
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_gateway#project_id DataScalewayS2SVpnGateway#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_gateway#project_id DataScalewayS2SVpnGateway#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace scaleway.DataScalewayS2SVpnGateway
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_gateway#region DataScalewayS2SVpnGateway#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_gateway#region DataScalewayS2SVpnGateway#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,7 +66,7 @@ namespace scaleway.DataScalewayS2SVpnGateway
 
         /// <summary>The ID of the VPN gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_gateway#vpn_gateway_id DataScalewayS2SVpnGateway#vpn_gateway_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_gateway#vpn_gateway_id DataScalewayS2SVpnGateway#vpn_gateway_id}
         /// </remarks>
         [JsiiProperty(name: "vpnGatewayId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -85,7 +85,7 @@ namespace scaleway.DataScalewayS2SVpnGateway
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_gateway#id DataScalewayS2SVpnGateway#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_gateway#id DataScalewayS2SVpnGateway#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -99,7 +99,7 @@ namespace scaleway.DataScalewayS2SVpnGateway
 
             /// <summary>The name of the VPN gateway.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_gateway#name DataScalewayS2SVpnGateway#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_gateway#name DataScalewayS2SVpnGateway#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace scaleway.DataScalewayS2SVpnGateway
 
             /// <summary>The project_id you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_gateway#project_id DataScalewayS2SVpnGateway#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_gateway#project_id DataScalewayS2SVpnGateway#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -121,7 +121,7 @@ namespace scaleway.DataScalewayS2SVpnGateway
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_gateway#region DataScalewayS2SVpnGateway#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_gateway#region DataScalewayS2SVpnGateway#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -132,7 +132,7 @@ namespace scaleway.DataScalewayS2SVpnGateway
 
             /// <summary>The ID of the VPN gateway.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/s2s_vpn_gateway#vpn_gateway_id DataScalewayS2SVpnGateway#vpn_gateway_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/s2s_vpn_gateway#vpn_gateway_id DataScalewayS2SVpnGateway#vpn_gateway_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vpnGatewayId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

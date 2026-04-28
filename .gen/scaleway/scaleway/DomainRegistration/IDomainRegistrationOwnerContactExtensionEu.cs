@@ -9,7 +9,7 @@ namespace scaleway.DomainRegistration
     {
         /// <summary>Indicates the European citizenship of the contact.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_registration#european_citizenship DomainRegistration#european_citizenship}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_registration#european_citizenship DomainRegistration#european_citizenship}
         /// </remarks>
         [JsiiProperty(name: "europeanCitizenship", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Indicates the European citizenship of the contact.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_registration#european_citizenship DomainRegistration#european_citizenship}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_registration#european_citizenship DomainRegistration#european_citizenship}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "europeanCitizenship", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

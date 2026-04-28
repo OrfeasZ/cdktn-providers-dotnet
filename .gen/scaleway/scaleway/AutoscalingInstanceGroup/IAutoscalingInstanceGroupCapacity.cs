@@ -9,7 +9,7 @@ namespace scaleway.AutoscalingInstanceGroup
     {
         /// <summary>Time (in seconds) after a scaling action during which requests to carry out a new scaling action will be denied.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_group#cooldown_delay AutoscalingInstanceGroup#cooldown_delay}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_group#cooldown_delay AutoscalingInstanceGroup#cooldown_delay}
         /// </remarks>
         [JsiiProperty(name: "cooldownDelay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
         /// <summary>The maximum count of Instances for the Instance group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_group#max_replicas AutoscalingInstanceGroup#max_replicas}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_group#max_replicas AutoscalingInstanceGroup#max_replicas}
         /// </remarks>
         [JsiiProperty(name: "maxReplicas", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
         /// <summary>The minimum count of Instances for the Instance group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_group#min_replicas AutoscalingInstanceGroup#min_replicas}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_group#min_replicas AutoscalingInstanceGroup#min_replicas}
         /// </remarks>
         [JsiiProperty(name: "minReplicas", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
             /// <summary>Time (in seconds) after a scaling action during which requests to carry out a new scaling action will be denied.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_group#cooldown_delay AutoscalingInstanceGroup#cooldown_delay}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_group#cooldown_delay AutoscalingInstanceGroup#cooldown_delay}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cooldownDelay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
             /// <summary>The maximum count of Instances for the Instance group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_group#max_replicas AutoscalingInstanceGroup#max_replicas}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_group#max_replicas AutoscalingInstanceGroup#max_replicas}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxReplicas", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
             /// <summary>The minimum count of Instances for the Instance group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/autoscaling_instance_group#min_replicas AutoscalingInstanceGroup#min_replicas}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/autoscaling_instance_group#min_replicas AutoscalingInstanceGroup#min_replicas}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "minReplicas", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace scaleway.InstanceSecurityGroup
     {
         /// <summary>Action when rule match request (drop or accept).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#action InstanceSecurityGroup#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#action InstanceSecurityGroup#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         public string Action
@@ -22,7 +22,7 @@ namespace scaleway.InstanceSecurityGroup
 
         /// <summary>Ip address for this rule (e.g: 1.1.1.1). Only one of ip or ip_range should be provided.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#ip InstanceSecurityGroup#ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#ip InstanceSecurityGroup#ip}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace scaleway.InstanceSecurityGroup
 
         /// <summary>Ip range for this rule (e.g: 192.168.1.0/24). Only one of ip or ip_range should be provided.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#ip_range InstanceSecurityGroup#ip_range}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#ip_range InstanceSecurityGroup#ip_range}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipRange", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace scaleway.InstanceSecurityGroup
 
         /// <summary>Network port for this rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#port InstanceSecurityGroup#port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#port InstanceSecurityGroup#port}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace scaleway.InstanceSecurityGroup
 
         /// <summary>Computed port range for this rule (e.g: 1-1024, 22-22).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#port_range InstanceSecurityGroup#port_range}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#port_range InstanceSecurityGroup#port_range}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "portRange", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace scaleway.InstanceSecurityGroup
 
         /// <summary>Protocol for this rule (TCP, UDP, ICMP or ANY).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#protocol InstanceSecurityGroup#protocol}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#protocol InstanceSecurityGroup#protocol}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

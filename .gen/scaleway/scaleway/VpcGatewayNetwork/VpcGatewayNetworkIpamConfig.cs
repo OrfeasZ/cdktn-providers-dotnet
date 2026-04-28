@@ -9,7 +9,7 @@ namespace scaleway.VpcGatewayNetwork
     {
         /// <summary>Use this IPAM-booked IP ID as the Gateway's IP in this Private Network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_gateway_network#ipam_ip_id VpcGatewayNetwork#ipam_ip_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_gateway_network#ipam_ip_id VpcGatewayNetwork#ipam_ip_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipamIpId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace scaleway.VpcGatewayNetwork
 
         /// <summary>Defines whether the default route is enabled on that Gateway Network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_gateway_network#push_default_route VpcGatewayNetwork#push_default_route}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_gateway_network#push_default_route VpcGatewayNetwork#push_default_route}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pushDefaultRoute", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

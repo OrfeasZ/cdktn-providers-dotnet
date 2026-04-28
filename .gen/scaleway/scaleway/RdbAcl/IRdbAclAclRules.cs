@@ -9,7 +9,7 @@ namespace scaleway.RdbAcl
     {
         /// <summary>IPv4 address or range in CIDR notation (IPv6 is not supported by the Scaleway API).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_acl#ip RdbAcl#ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_acl#ip RdbAcl#ip}
         /// </remarks>
         [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}")]
         string Ip
@@ -19,7 +19,7 @@ namespace scaleway.RdbAcl
 
         /// <summary>Description of the rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_acl#description RdbAcl#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_acl#description RdbAcl#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace scaleway.RdbAcl
 
             /// <summary>IPv4 address or range in CIDR notation (IPv6 is not supported by the Scaleway API).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_acl#ip RdbAcl#ip}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_acl#ip RdbAcl#ip}
             /// </remarks>
             [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}")]
             public string Ip
@@ -50,7 +50,7 @@ namespace scaleway.RdbAcl
 
             /// <summary>Description of the rule.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/rdb_acl#description RdbAcl#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/rdb_acl#description RdbAcl#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

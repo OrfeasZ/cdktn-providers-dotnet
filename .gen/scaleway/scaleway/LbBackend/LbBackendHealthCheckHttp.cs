@@ -11,7 +11,7 @@ namespace scaleway.LbBackend
     {
         /// <summary>The HTTP endpoint URL to call for HC requests.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#uri LbBackend#uri}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#uri LbBackend#uri}
         /// </remarks>
         [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}")]
         public string Uri
@@ -22,7 +22,7 @@ namespace scaleway.LbBackend
 
         /// <summary>The expected HTTP status code.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#code LbBackend#code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#code LbBackend#code}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace scaleway.LbBackend
 
         /// <summary>The HTTP host header to use for HC requests.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#host_header LbBackend#host_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#host_header LbBackend#host_header}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hostHeader", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace scaleway.LbBackend
 
         /// <summary>The HTTP method to use for HC requests.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_backend#method LbBackend#method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_backend#method LbBackend#method}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "method", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

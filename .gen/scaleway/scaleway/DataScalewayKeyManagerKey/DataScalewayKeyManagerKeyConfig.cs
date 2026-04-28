@@ -11,7 +11,7 @@ namespace scaleway.DataScalewayKeyManagerKey
     {
         /// <summary>The ID of the key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/key_manager_key#key_id DataScalewayKeyManagerKey#key_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/key_manager_key#key_id DataScalewayKeyManagerKey#key_id}
         /// </remarks>
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyId
@@ -22,7 +22,7 @@ namespace scaleway.DataScalewayKeyManagerKey
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/key_manager_key#region DataScalewayKeyManagerKey#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/key_manager_key#region DataScalewayKeyManagerKey#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace scaleway.K8SPool
     {
         /// <summary>The ID of the cluster on which this pool will be created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#cluster_id K8SPool#cluster_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#cluster_id K8SPool#cluster_id}
         /// </remarks>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterId
@@ -22,7 +22,7 @@ namespace scaleway.K8SPool
 
         /// <summary>The name of the pool.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#name K8SPool#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#name K8SPool#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -33,7 +33,7 @@ namespace scaleway.K8SPool
 
         /// <summary>Server type of the pool servers.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#node_type K8SPool#node_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#node_type K8SPool#node_type}
         /// </remarks>
         [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}")]
         public string NodeType
@@ -44,7 +44,7 @@ namespace scaleway.K8SPool
 
         /// <summary>Size of the pool.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#size K8SPool#size}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#size K8SPool#size}
         /// </remarks>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}")]
         public double Size
@@ -57,7 +57,7 @@ namespace scaleway.K8SPool
 
         /// <summary>Enable the autohealing on the pool.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#autohealing K8SPool#autohealing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#autohealing K8SPool#autohealing}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autohealing", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace scaleway.K8SPool
 
         /// <summary>Enable the autoscaling on the pool.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#autoscaling K8SPool#autoscaling}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#autoscaling K8SPool#autoscaling}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoscaling", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -123,7 +123,7 @@ namespace scaleway.K8SPool
 
         /// <summary>Container runtime for the pool.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#container_runtime K8SPool#container_runtime}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#container_runtime K8SPool#container_runtime}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "containerRuntime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -133,7 +133,7 @@ namespace scaleway.K8SPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#id K8SPool#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#id K8SPool#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -148,7 +148,7 @@ namespace scaleway.K8SPool
 
         /// <summary>The Kubelet arguments to be used by this pool.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#kubelet_args K8SPool#kubelet_args}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#kubelet_args K8SPool#kubelet_args}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kubeletArgs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -160,7 +160,7 @@ namespace scaleway.K8SPool
 
         /// <summary>Maximum size of the pool.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#max_size K8SPool#max_size}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#max_size K8SPool#max_size}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -172,7 +172,7 @@ namespace scaleway.K8SPool
 
         /// <summary>Minimum size of the pool.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#min_size K8SPool#min_size}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#min_size K8SPool#min_size}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -184,7 +184,7 @@ namespace scaleway.K8SPool
 
         /// <summary>ID of the placement group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#placement_group_id K8SPool#placement_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#placement_group_id K8SPool#placement_group_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "placementGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -198,7 +198,7 @@ namespace scaleway.K8SPool
 
         /// <summary>Defines if the public IP should be removed from the nodes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#public_ip_disabled K8SPool#public_ip_disabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#public_ip_disabled K8SPool#public_ip_disabled}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publicIpDisabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -230,7 +230,7 @@ namespace scaleway.K8SPool
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#region K8SPool#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#region K8SPool#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -242,7 +242,7 @@ namespace scaleway.K8SPool
 
         /// <summary>The size of the system volume of the nodes in gigabyte.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#root_volume_size_in_gb K8SPool#root_volume_size_in_gb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#root_volume_size_in_gb K8SPool#root_volume_size_in_gb}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rootVolumeSizeInGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -254,7 +254,7 @@ namespace scaleway.K8SPool
 
         /// <summary>System volume type of the nodes composing the pool.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#root_volume_type K8SPool#root_volume_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#root_volume_type K8SPool#root_volume_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rootVolumeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -266,7 +266,7 @@ namespace scaleway.K8SPool
 
         /// <summary>The ID of the security group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#security_group_id K8SPool#security_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#security_group_id K8SPool#security_group_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "securityGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -278,7 +278,7 @@ namespace scaleway.K8SPool
 
         /// <summary>The tags associated with the pool.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#tags K8SPool#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#tags K8SPool#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -290,7 +290,7 @@ namespace scaleway.K8SPool
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#timeouts K8SPool#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#timeouts K8SPool#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.k8SPool.K8SPoolTimeouts\"}", isOptional: true)]
@@ -302,7 +302,7 @@ namespace scaleway.K8SPool
 
         /// <summary>upgrade_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#upgrade_policy K8SPool#upgrade_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#upgrade_policy K8SPool#upgrade_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "upgradePolicy", typeJson: "{\"fqn\":\"scaleway.k8SPool.K8SPoolUpgradePolicy\"}", isOptional: true)]
@@ -316,7 +316,7 @@ namespace scaleway.K8SPool
 
         /// <summary>Whether to wait for the pool to be ready.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#wait_for_pool_ready K8SPool#wait_for_pool_ready}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#wait_for_pool_ready K8SPool#wait_for_pool_ready}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "waitForPoolReady", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -348,7 +348,7 @@ namespace scaleway.K8SPool
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/k8s_pool#zone K8SPool#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/k8s_pool#zone K8SPool#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

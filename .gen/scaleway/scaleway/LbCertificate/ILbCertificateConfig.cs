@@ -9,7 +9,7 @@ namespace scaleway.LbCertificate
     {
         /// <summary>The load-balancer ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_certificate#lb_id LbCertificate#lb_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_certificate#lb_id LbCertificate#lb_id}
         /// </remarks>
         [JsiiProperty(name: "lbId", typeJson: "{\"primitive\":\"string\"}")]
         string LbId
@@ -19,7 +19,7 @@ namespace scaleway.LbCertificate
 
         /// <summary>custom_certificate block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_certificate#custom_certificate LbCertificate#custom_certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_certificate#custom_certificate LbCertificate#custom_certificate}
         /// </remarks>
         [JsiiProperty(name: "customCertificate", typeJson: "{\"fqn\":\"scaleway.lbCertificate.LbCertificateCustomCertificate\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,7 +31,7 @@ namespace scaleway.LbCertificate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_certificate#id LbCertificate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_certificate#id LbCertificate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace scaleway.LbCertificate
 
         /// <summary>letsencrypt block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_certificate#letsencrypt LbCertificate#letsencrypt}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_certificate#letsencrypt LbCertificate#letsencrypt}
         /// </remarks>
         [JsiiProperty(name: "letsencrypt", typeJson: "{\"fqn\":\"scaleway.lbCertificate.LbCertificateLetsencrypt\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -62,7 +62,7 @@ namespace scaleway.LbCertificate
 
         /// <summary>The name of the load-balancer certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_certificate#name LbCertificate#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_certificate#name LbCertificate#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -76,7 +76,7 @@ namespace scaleway.LbCertificate
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_certificate#timeouts LbCertificate#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_certificate#timeouts LbCertificate#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.lbCertificate.LbCertificateTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -97,7 +97,7 @@ namespace scaleway.LbCertificate
 
             /// <summary>The load-balancer ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_certificate#lb_id LbCertificate#lb_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_certificate#lb_id LbCertificate#lb_id}
             /// </remarks>
             [JsiiProperty(name: "lbId", typeJson: "{\"primitive\":\"string\"}")]
             public string LbId
@@ -107,7 +107,7 @@ namespace scaleway.LbCertificate
 
             /// <summary>custom_certificate block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_certificate#custom_certificate LbCertificate#custom_certificate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_certificate#custom_certificate LbCertificate#custom_certificate}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customCertificate", typeJson: "{\"fqn\":\"scaleway.lbCertificate.LbCertificateCustomCertificate\"}", isOptional: true)]
@@ -116,7 +116,7 @@ namespace scaleway.LbCertificate
                 get => GetInstanceProperty<scaleway.LbCertificate.ILbCertificateCustomCertificate?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_certificate#id LbCertificate#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_certificate#id LbCertificate#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -130,7 +130,7 @@ namespace scaleway.LbCertificate
 
             /// <summary>letsencrypt block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_certificate#letsencrypt LbCertificate#letsencrypt}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_certificate#letsencrypt LbCertificate#letsencrypt}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "letsencrypt", typeJson: "{\"fqn\":\"scaleway.lbCertificate.LbCertificateLetsencrypt\"}", isOptional: true)]
@@ -141,7 +141,7 @@ namespace scaleway.LbCertificate
 
             /// <summary>The name of the load-balancer certificate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_certificate#name LbCertificate#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_certificate#name LbCertificate#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -152,7 +152,7 @@ namespace scaleway.LbCertificate
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_certificate#timeouts LbCertificate#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_certificate#timeouts LbCertificate#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.lbCertificate.LbCertificateTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace scaleway.DatawarehouseDeployment
     {
         /// <summary>Maximum CPU count.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#cpu_max DatawarehouseDeployment#cpu_max}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#cpu_max DatawarehouseDeployment#cpu_max}
         /// </remarks>
         [JsiiProperty(name: "cpuMax", typeJson: "{\"primitive\":\"number\"}")]
         double CpuMax
@@ -19,7 +19,7 @@ namespace scaleway.DatawarehouseDeployment
 
         /// <summary>Minimum CPU count.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#cpu_min DatawarehouseDeployment#cpu_min}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#cpu_min DatawarehouseDeployment#cpu_min}
         /// </remarks>
         [JsiiProperty(name: "cpuMin", typeJson: "{\"primitive\":\"number\"}")]
         double CpuMin
@@ -29,7 +29,7 @@ namespace scaleway.DatawarehouseDeployment
 
         /// <summary>Name of the Datawarehouse deployment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#name DatawarehouseDeployment#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#name DatawarehouseDeployment#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -39,7 +39,7 @@ namespace scaleway.DatawarehouseDeployment
 
         /// <summary>RAM per CPU (GB).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#ram_per_cpu DatawarehouseDeployment#ram_per_cpu}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#ram_per_cpu DatawarehouseDeployment#ram_per_cpu}
         /// </remarks>
         [JsiiProperty(name: "ramPerCpu", typeJson: "{\"primitive\":\"number\"}")]
         double RamPerCpu
@@ -49,7 +49,7 @@ namespace scaleway.DatawarehouseDeployment
 
         /// <summary>Number of replicas.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#replica_count DatawarehouseDeployment#replica_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#replica_count DatawarehouseDeployment#replica_count}
         /// </remarks>
         [JsiiProperty(name: "replicaCount", typeJson: "{\"primitive\":\"number\"}")]
         double ReplicaCount
@@ -59,7 +59,7 @@ namespace scaleway.DatawarehouseDeployment
 
         /// <summary>ClickHouse version to use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#version DatawarehouseDeployment#version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#version DatawarehouseDeployment#version}
         /// </remarks>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
         string Version
@@ -67,7 +67,7 @@ namespace scaleway.DatawarehouseDeployment
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#id DatawarehouseDeployment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#id DatawarehouseDeployment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,7 +84,7 @@ namespace scaleway.DatawarehouseDeployment
 
         /// <summary>Password for the first user of the deployment. Only one of `password` or `password_wo` should be specified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#password DatawarehouseDeployment#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#password DatawarehouseDeployment#password}
         /// </remarks>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -98,7 +98,7 @@ namespace scaleway.DatawarehouseDeployment
 
         /// <summary>Password for the first user of the deployment in [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) mode. Only one of `password` or `password_wo` should be specified. `password_wo` will not be set in the Terraform state. To update the `password_wo`, you must also update the `password_wo_version`. When updating, the password is rotated via the Data Warehouse Users API (the initial user is selected as an admin user when present, otherwise the first user by name).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#password_wo DatawarehouseDeployment#password_wo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#password_wo DatawarehouseDeployment#password_wo}
         /// </remarks>
         [JsiiProperty(name: "passwordWo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -112,7 +112,7 @@ namespace scaleway.DatawarehouseDeployment
 
         /// <summary>The version of the [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) password. To update the `password_wo`, you must also update the `password_wo_version`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#password_wo_version DatawarehouseDeployment#password_wo_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#password_wo_version DatawarehouseDeployment#password_wo_version}
         /// </remarks>
         [JsiiProperty(name: "passwordWoVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -126,7 +126,7 @@ namespace scaleway.DatawarehouseDeployment
 
         /// <summary>private_network block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#private_network DatawarehouseDeployment#private_network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#private_network DatawarehouseDeployment#private_network}
         /// </remarks>
         [JsiiProperty(name: "privateNetwork", typeJson: "{\"fqn\":\"scaleway.datawarehouseDeployment.DatawarehouseDeploymentPrivateNetwork\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -140,7 +140,7 @@ namespace scaleway.DatawarehouseDeployment
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#project_id DatawarehouseDeployment#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#project_id DatawarehouseDeployment#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -154,7 +154,7 @@ namespace scaleway.DatawarehouseDeployment
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#region DatawarehouseDeployment#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#region DatawarehouseDeployment#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -170,7 +170,7 @@ namespace scaleway.DatawarehouseDeployment
         /// <remarks>
         /// Maps to the Start deployment and Stop deployment API actions.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#started DatawarehouseDeployment#started}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#started DatawarehouseDeployment#started}
         /// </remarks>
         [JsiiProperty(name: "started", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -184,7 +184,7 @@ namespace scaleway.DatawarehouseDeployment
 
         /// <summary>List of tags to apply.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#tags DatawarehouseDeployment#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#tags DatawarehouseDeployment#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -198,7 +198,7 @@ namespace scaleway.DatawarehouseDeployment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#timeouts DatawarehouseDeployment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#timeouts DatawarehouseDeployment#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.datawarehouseDeployment.DatawarehouseDeploymentTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -219,7 +219,7 @@ namespace scaleway.DatawarehouseDeployment
 
             /// <summary>Maximum CPU count.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#cpu_max DatawarehouseDeployment#cpu_max}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#cpu_max DatawarehouseDeployment#cpu_max}
             /// </remarks>
             [JsiiProperty(name: "cpuMax", typeJson: "{\"primitive\":\"number\"}")]
             public double CpuMax
@@ -229,7 +229,7 @@ namespace scaleway.DatawarehouseDeployment
 
             /// <summary>Minimum CPU count.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#cpu_min DatawarehouseDeployment#cpu_min}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#cpu_min DatawarehouseDeployment#cpu_min}
             /// </remarks>
             [JsiiProperty(name: "cpuMin", typeJson: "{\"primitive\":\"number\"}")]
             public double CpuMin
@@ -239,7 +239,7 @@ namespace scaleway.DatawarehouseDeployment
 
             /// <summary>Name of the Datawarehouse deployment.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#name DatawarehouseDeployment#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#name DatawarehouseDeployment#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -249,7 +249,7 @@ namespace scaleway.DatawarehouseDeployment
 
             /// <summary>RAM per CPU (GB).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#ram_per_cpu DatawarehouseDeployment#ram_per_cpu}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#ram_per_cpu DatawarehouseDeployment#ram_per_cpu}
             /// </remarks>
             [JsiiProperty(name: "ramPerCpu", typeJson: "{\"primitive\":\"number\"}")]
             public double RamPerCpu
@@ -259,7 +259,7 @@ namespace scaleway.DatawarehouseDeployment
 
             /// <summary>Number of replicas.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#replica_count DatawarehouseDeployment#replica_count}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#replica_count DatawarehouseDeployment#replica_count}
             /// </remarks>
             [JsiiProperty(name: "replicaCount", typeJson: "{\"primitive\":\"number\"}")]
             public double ReplicaCount
@@ -269,7 +269,7 @@ namespace scaleway.DatawarehouseDeployment
 
             /// <summary>ClickHouse version to use.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#version DatawarehouseDeployment#version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#version DatawarehouseDeployment#version}
             /// </remarks>
             [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
             public string Version
@@ -277,7 +277,7 @@ namespace scaleway.DatawarehouseDeployment
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#id DatawarehouseDeployment#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#id DatawarehouseDeployment#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -291,7 +291,7 @@ namespace scaleway.DatawarehouseDeployment
 
             /// <summary>Password for the first user of the deployment. Only one of `password` or `password_wo` should be specified.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#password DatawarehouseDeployment#password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#password DatawarehouseDeployment#password}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -302,7 +302,7 @@ namespace scaleway.DatawarehouseDeployment
 
             /// <summary>Password for the first user of the deployment in [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) mode. Only one of `password` or `password_wo` should be specified. `password_wo` will not be set in the Terraform state. To update the `password_wo`, you must also update the `password_wo_version`. When updating, the password is rotated via the Data Warehouse Users API (the initial user is selected as an admin user when present, otherwise the first user by name).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#password_wo DatawarehouseDeployment#password_wo}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#password_wo DatawarehouseDeployment#password_wo}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "passwordWo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -313,7 +313,7 @@ namespace scaleway.DatawarehouseDeployment
 
             /// <summary>The version of the [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) password. To update the `password_wo`, you must also update the `password_wo_version`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#password_wo_version DatawarehouseDeployment#password_wo_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#password_wo_version DatawarehouseDeployment#password_wo_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "passwordWoVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -324,7 +324,7 @@ namespace scaleway.DatawarehouseDeployment
 
             /// <summary>private_network block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#private_network DatawarehouseDeployment#private_network}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#private_network DatawarehouseDeployment#private_network}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "privateNetwork", typeJson: "{\"fqn\":\"scaleway.datawarehouseDeployment.DatawarehouseDeploymentPrivateNetwork\"}", isOptional: true)]
@@ -335,7 +335,7 @@ namespace scaleway.DatawarehouseDeployment
 
             /// <summary>The project_id you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#project_id DatawarehouseDeployment#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#project_id DatawarehouseDeployment#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -346,7 +346,7 @@ namespace scaleway.DatawarehouseDeployment
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#region DatawarehouseDeployment#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#region DatawarehouseDeployment#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -359,7 +359,7 @@ namespace scaleway.DatawarehouseDeployment
             /// <remarks>
             /// Maps to the Start deployment and Stop deployment API actions.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#started DatawarehouseDeployment#started}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#started DatawarehouseDeployment#started}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "started", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -370,7 +370,7 @@ namespace scaleway.DatawarehouseDeployment
 
             /// <summary>List of tags to apply.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#tags DatawarehouseDeployment#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#tags DatawarehouseDeployment#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -381,7 +381,7 @@ namespace scaleway.DatawarehouseDeployment
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/datawarehouse_deployment#timeouts DatawarehouseDeployment#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/datawarehouse_deployment#timeouts DatawarehouseDeployment#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.datawarehouseDeployment.DatawarehouseDeploymentTimeouts\"}", isOptional: true)]

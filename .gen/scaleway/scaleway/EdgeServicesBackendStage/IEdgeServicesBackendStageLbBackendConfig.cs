@@ -9,7 +9,7 @@ namespace scaleway.EdgeServicesBackendStage
     {
         /// <summary>lb_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/edge_services_backend_stage#lb_config EdgeServicesBackendStage#lb_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/edge_services_backend_stage#lb_config EdgeServicesBackendStage#lb_config}
         /// </remarks>
         [JsiiProperty(name: "lbConfig", typeJson: "{\"fqn\":\"scaleway.edgeServicesBackendStage.EdgeServicesBackendStageLbBackendConfigLbConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace scaleway.EdgeServicesBackendStage
 
             /// <summary>lb_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/edge_services_backend_stage#lb_config EdgeServicesBackendStage#lb_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/edge_services_backend_stage#lb_config EdgeServicesBackendStage#lb_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lbConfig", typeJson: "{\"fqn\":\"scaleway.edgeServicesBackendStage.EdgeServicesBackendStageLbBackendConfigLbConfig\"}", isOptional: true)]

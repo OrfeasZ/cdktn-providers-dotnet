@@ -9,7 +9,7 @@ namespace scaleway.DomainRecord
     {
         /// <summary>matches block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_record#matches DomainRecord#matches}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_record#matches DomainRecord#matches}
         /// </remarks>
         [JsiiProperty(name: "matches", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.domainRecord.DomainRecordGeoIpMatches\"},\"kind\":\"array\"}}]}}")]
         object Matches
@@ -26,7 +26,7 @@ namespace scaleway.DomainRecord
 
             /// <summary>matches block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_record#matches DomainRecord#matches}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_record#matches DomainRecord#matches}
             /// </remarks>
             [JsiiProperty(name: "matches", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.domainRecord.DomainRecordGeoIpMatches\"},\"kind\":\"array\"}}]}}")]
             public object Matches

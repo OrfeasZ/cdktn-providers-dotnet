@@ -11,7 +11,7 @@ namespace scaleway.VpcPublicGatewayPatRule
     {
         /// <summary>The ID of the gateway this PAT rule is applied to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_pat_rule#gateway_id VpcPublicGatewayPatRule#gateway_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_pat_rule#gateway_id VpcPublicGatewayPatRule#gateway_id}
         /// </remarks>
         [JsiiProperty(name: "gatewayId", typeJson: "{\"primitive\":\"string\"}")]
         public string GatewayId
@@ -22,7 +22,7 @@ namespace scaleway.VpcPublicGatewayPatRule
 
         /// <summary>The private IP used in the PAT rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_pat_rule#private_ip VpcPublicGatewayPatRule#private_ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_pat_rule#private_ip VpcPublicGatewayPatRule#private_ip}
         /// </remarks>
         [JsiiProperty(name: "privateIp", typeJson: "{\"primitive\":\"string\"}")]
         public string PrivateIp
@@ -33,7 +33,7 @@ namespace scaleway.VpcPublicGatewayPatRule
 
         /// <summary>The private port used in the PAT rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_pat_rule#private_port VpcPublicGatewayPatRule#private_port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_pat_rule#private_port VpcPublicGatewayPatRule#private_port}
         /// </remarks>
         [JsiiProperty(name: "privatePort", typeJson: "{\"primitive\":\"number\"}")]
         public double PrivatePort
@@ -44,7 +44,7 @@ namespace scaleway.VpcPublicGatewayPatRule
 
         /// <summary>The public port used in the PAT rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_pat_rule#public_port VpcPublicGatewayPatRule#public_port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_pat_rule#public_port VpcPublicGatewayPatRule#public_port}
         /// </remarks>
         [JsiiProperty(name: "publicPort", typeJson: "{\"primitive\":\"number\"}")]
         public double PublicPort
@@ -53,7 +53,7 @@ namespace scaleway.VpcPublicGatewayPatRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_pat_rule#id VpcPublicGatewayPatRule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_pat_rule#id VpcPublicGatewayPatRule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,7 +68,7 @@ namespace scaleway.VpcPublicGatewayPatRule
 
         /// <summary>The protocol used in the PAT rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_pat_rule#protocol VpcPublicGatewayPatRule#protocol}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_pat_rule#protocol VpcPublicGatewayPatRule#protocol}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace scaleway.VpcPublicGatewayPatRule
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_pat_rule#timeouts VpcPublicGatewayPatRule#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_pat_rule#timeouts VpcPublicGatewayPatRule#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.vpcPublicGatewayPatRule.VpcPublicGatewayPatRuleTimeouts\"}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace scaleway.VpcPublicGatewayPatRule
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/vpc_public_gateway_pat_rule#zone VpcPublicGatewayPatRule#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/vpc_public_gateway_pat_rule#zone VpcPublicGatewayPatRule#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

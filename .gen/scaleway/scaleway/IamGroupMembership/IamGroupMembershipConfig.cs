@@ -11,7 +11,7 @@ namespace scaleway.IamGroupMembership
     {
         /// <summary>The ID of the group to add the user to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_group_membership#group_id IamGroupMembership#group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_group_membership#group_id IamGroupMembership#group_id}
         /// </remarks>
         [JsiiProperty(name: "groupId", typeJson: "{\"primitive\":\"string\"}")]
         public string GroupId
@@ -22,7 +22,7 @@ namespace scaleway.IamGroupMembership
 
         /// <summary>The ID of the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_group_membership#application_id IamGroupMembership#application_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_group_membership#application_id IamGroupMembership#application_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -32,7 +32,7 @@ namespace scaleway.IamGroupMembership
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_group_membership#id IamGroupMembership#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_group_membership#id IamGroupMembership#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,7 +47,7 @@ namespace scaleway.IamGroupMembership
 
         /// <summary>The ID of the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/iam_group_membership#user_id IamGroupMembership#user_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/iam_group_membership#user_id IamGroupMembership#user_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

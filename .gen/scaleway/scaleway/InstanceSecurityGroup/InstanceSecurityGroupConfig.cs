@@ -9,7 +9,7 @@ namespace scaleway.InstanceSecurityGroup
     {
         /// <summary>The description of the security group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#description InstanceSecurityGroup#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#description InstanceSecurityGroup#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace scaleway.InstanceSecurityGroup
 
         /// <summary>Enable blocking of SMTP on IPv4 and IPv6.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#enable_default_security InstanceSecurityGroup#enable_default_security}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#enable_default_security InstanceSecurityGroup#enable_default_security}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableDefaultSecurity", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace scaleway.InstanceSecurityGroup
 
         /// <summary>External rules for this security group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#external_rules InstanceSecurityGroup#external_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#external_rules InstanceSecurityGroup#external_rules}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "externalRules", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -87,7 +87,7 @@ namespace scaleway.InstanceSecurityGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#id InstanceSecurityGroup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#id InstanceSecurityGroup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -102,7 +102,7 @@ namespace scaleway.InstanceSecurityGroup
 
         /// <summary>Default inbound traffic policy for this security group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#inbound_default_policy InstanceSecurityGroup#inbound_default_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#inbound_default_policy InstanceSecurityGroup#inbound_default_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inboundDefaultPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -116,7 +116,7 @@ namespace scaleway.InstanceSecurityGroup
 
         /// <summary>inbound_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#inbound_rule InstanceSecurityGroup#inbound_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#inbound_rule InstanceSecurityGroup#inbound_rule}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inboundRule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instanceSecurityGroup.InstanceSecurityGroupInboundRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -148,7 +148,7 @@ namespace scaleway.InstanceSecurityGroup
 
         /// <summary>The name of the security group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#name InstanceSecurityGroup#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#name InstanceSecurityGroup#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -160,7 +160,7 @@ namespace scaleway.InstanceSecurityGroup
 
         /// <summary>Default outbound traffic policy for this security group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#outbound_default_policy InstanceSecurityGroup#outbound_default_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#outbound_default_policy InstanceSecurityGroup#outbound_default_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "outboundDefaultPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -174,7 +174,7 @@ namespace scaleway.InstanceSecurityGroup
 
         /// <summary>outbound_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#outbound_rule InstanceSecurityGroup#outbound_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#outbound_rule InstanceSecurityGroup#outbound_rule}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "outboundRule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instanceSecurityGroup.InstanceSecurityGroupOutboundRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -206,7 +206,7 @@ namespace scaleway.InstanceSecurityGroup
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#project_id InstanceSecurityGroup#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#project_id InstanceSecurityGroup#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -220,7 +220,7 @@ namespace scaleway.InstanceSecurityGroup
 
         /// <summary>The stateful value of the security group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#stateful InstanceSecurityGroup#stateful}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#stateful InstanceSecurityGroup#stateful}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stateful", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -252,7 +252,7 @@ namespace scaleway.InstanceSecurityGroup
 
         /// <summary>The tags associated with the security group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#tags InstanceSecurityGroup#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#tags InstanceSecurityGroup#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -264,7 +264,7 @@ namespace scaleway.InstanceSecurityGroup
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#timeouts InstanceSecurityGroup#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#timeouts InstanceSecurityGroup#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.instanceSecurityGroup.InstanceSecurityGroupTimeouts\"}", isOptional: true)]
@@ -276,7 +276,7 @@ namespace scaleway.InstanceSecurityGroup
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/instance_security_group#zone InstanceSecurityGroup#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/instance_security_group#zone InstanceSecurityGroup#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

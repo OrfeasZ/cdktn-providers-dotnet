@@ -9,7 +9,7 @@ namespace scaleway.DomainRegistration
     {
         /// <summary>DUNS ID associated with the domain owner (for French domains).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_registration#duns_id DomainRegistration#duns_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_registration#duns_id DomainRegistration#duns_id}
         /// </remarks>
         [JsiiProperty(name: "dunsId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>Local identifier of the domain owner (for French domains).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_registration#local_id DomainRegistration#local_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_registration#local_id DomainRegistration#local_id}
         /// </remarks>
         [JsiiProperty(name: "localId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>DUNS ID associated with the domain owner (for French domains).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_registration#duns_id DomainRegistration#duns_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_registration#duns_id DomainRegistration#duns_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dunsId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Local identifier of the domain owner (for French domains).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/domain_registration#local_id DomainRegistration#local_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/domain_registration#local_id DomainRegistration#local_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "localId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

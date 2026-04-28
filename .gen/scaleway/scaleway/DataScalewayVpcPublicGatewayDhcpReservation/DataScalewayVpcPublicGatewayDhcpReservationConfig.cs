@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayVpcPublicGatewayDhcpReservation
     {
         /// <summary>The ID of the owning GatewayNetwork (UUID format).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_public_gateway_dhcp_reservation#gateway_network_id DataScalewayVpcPublicGatewayDhcpReservation#gateway_network_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_public_gateway_dhcp_reservation#gateway_network_id DataScalewayVpcPublicGatewayDhcpReservation#gateway_network_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "gatewayNetworkId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace scaleway.DataScalewayVpcPublicGatewayDhcpReservation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_public_gateway_dhcp_reservation#id DataScalewayVpcPublicGatewayDhcpReservation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_public_gateway_dhcp_reservation#id DataScalewayVpcPublicGatewayDhcpReservation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,7 +34,7 @@ namespace scaleway.DataScalewayVpcPublicGatewayDhcpReservation
 
         /// <summary>The MAC address to give a static entry to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_public_gateway_dhcp_reservation#mac_address DataScalewayVpcPublicGatewayDhcpReservation#mac_address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_public_gateway_dhcp_reservation#mac_address DataScalewayVpcPublicGatewayDhcpReservation#mac_address}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "macAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace scaleway.DataScalewayVpcPublicGatewayDhcpReservation
 
         /// <summary>The ID of dhcp entry reservation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_public_gateway_dhcp_reservation#reservation_id DataScalewayVpcPublicGatewayDhcpReservation#reservation_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_public_gateway_dhcp_reservation#reservation_id DataScalewayVpcPublicGatewayDhcpReservation#reservation_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "reservationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -60,7 +60,7 @@ namespace scaleway.DataScalewayVpcPublicGatewayDhcpReservation
 
         /// <summary>Wait the MAC address in dhcp entries.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_public_gateway_dhcp_reservation#wait_for_dhcp DataScalewayVpcPublicGatewayDhcpReservation#wait_for_dhcp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_public_gateway_dhcp_reservation#wait_for_dhcp DataScalewayVpcPublicGatewayDhcpReservation#wait_for_dhcp}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "waitForDhcp", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace scaleway.DataScalewayVpcPublicGatewayDhcpReservation
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/vpc_public_gateway_dhcp_reservation#zone DataScalewayVpcPublicGatewayDhcpReservation#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/vpc_public_gateway_dhcp_reservation#zone DataScalewayVpcPublicGatewayDhcpReservation#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

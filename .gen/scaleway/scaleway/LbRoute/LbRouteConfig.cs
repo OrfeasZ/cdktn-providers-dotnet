@@ -11,7 +11,7 @@ namespace scaleway.LbRoute
     {
         /// <summary>The backend ID destination of redirection.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_route#backend_id LbRoute#backend_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_route#backend_id LbRoute#backend_id}
         /// </remarks>
         [JsiiProperty(name: "backendId", typeJson: "{\"primitive\":\"string\"}")]
         public string BackendId
@@ -22,7 +22,7 @@ namespace scaleway.LbRoute
 
         /// <summary>The frontend ID origin of redirection.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_route#frontend_id LbRoute#frontend_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_route#frontend_id LbRoute#frontend_id}
         /// </remarks>
         [JsiiProperty(name: "frontendId", typeJson: "{\"primitive\":\"string\"}")]
         public string FrontendId
@@ -31,7 +31,7 @@ namespace scaleway.LbRoute
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_route#id LbRoute#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_route#id LbRoute#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace scaleway.LbRoute
 
         /// <summary>Specifies the host of the server to which the request is being sent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_route#match_host_header LbRoute#match_host_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_route#match_host_header LbRoute#match_host_header}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "matchHostHeader", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace scaleway.LbRoute
 
         /// <summary>Value to match in the URL beginning path from an incoming request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_route#match_path_begin LbRoute#match_path_begin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_route#match_path_begin LbRoute#match_path_begin}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "matchPathBegin", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace scaleway.LbRoute
 
         /// <summary>Server Name Indication TLS extension field from an incoming connection made via an SSL/TLS transport layer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_route#match_sni LbRoute#match_sni}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_route#match_sni LbRoute#match_sni}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "matchSni", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -84,7 +84,7 @@ namespace scaleway.LbRoute
 
         /// <summary>If true, all subdomains will match.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_route#match_subdomains LbRoute#match_subdomains}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_route#match_subdomains LbRoute#match_subdomains}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "matchSubdomains", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -116,7 +116,7 @@ namespace scaleway.LbRoute
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/resources/lb_route#timeouts LbRoute#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/lb_route#timeouts LbRoute#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.lbRoute.LbRouteTimeouts\"}", isOptional: true)]

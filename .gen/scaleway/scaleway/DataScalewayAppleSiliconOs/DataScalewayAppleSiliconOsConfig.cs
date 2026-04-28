@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayAppleSiliconOs
     [JsiiByValue(fqn: "scaleway.dataScalewayAppleSiliconOs.DataScalewayAppleSiliconOsConfig")]
     public class DataScalewayAppleSiliconOsConfig : scaleway.DataScalewayAppleSiliconOs.IDataScalewayAppleSiliconOsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/apple_silicon_os#id DataScalewayAppleSiliconOs#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/apple_silicon_os#id DataScalewayAppleSiliconOs#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace scaleway.DataScalewayAppleSiliconOs
 
         /// <summary>Exact label of the desired image.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/apple_silicon_os#name DataScalewayAppleSiliconOs#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/apple_silicon_os#name DataScalewayAppleSiliconOs#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace scaleway.DataScalewayAppleSiliconOs
 
         /// <summary>The ID of the os.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/apple_silicon_os#os_id DataScalewayAppleSiliconOs#os_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/apple_silicon_os#os_id DataScalewayAppleSiliconOs#os_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "osId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace scaleway.DataScalewayAppleSiliconOs
 
         /// <summary>Version string of the desired OS.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/apple_silicon_os#version DataScalewayAppleSiliconOs#version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/apple_silicon_os#version DataScalewayAppleSiliconOs#version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace scaleway.DataScalewayAppleSiliconOs
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.73.0/docs/data-sources/apple_silicon_os#zone DataScalewayAppleSiliconOs#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/apple_silicon_os#zone DataScalewayAppleSiliconOs#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
