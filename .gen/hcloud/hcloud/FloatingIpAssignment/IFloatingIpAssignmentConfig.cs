@@ -7,21 +7,21 @@ namespace hcloud.FloatingIpAssignment
     [JsiiInterface(nativeType: typeof(IFloatingIpAssignmentConfig), fullyQualifiedName: "hcloud.floatingIpAssignment.FloatingIpAssignmentConfig")]
     public interface IFloatingIpAssignmentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/floating_ip_assignment#floating_ip_id FloatingIpAssignment#floating_ip_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/floating_ip_assignment#floating_ip_id FloatingIpAssignment#floating_ip_id}.</summary>
         [JsiiProperty(name: "floatingIpId", typeJson: "{\"primitive\":\"number\"}")]
         double FloatingIpId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/floating_ip_assignment#server_id FloatingIpAssignment#server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/floating_ip_assignment#server_id FloatingIpAssignment#server_id}.</summary>
         [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"number\"}")]
         double ServerId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/floating_ip_assignment#id FloatingIpAssignment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/floating_ip_assignment#id FloatingIpAssignment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,21 +43,21 @@ namespace hcloud.FloatingIpAssignment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/floating_ip_assignment#floating_ip_id FloatingIpAssignment#floating_ip_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/floating_ip_assignment#floating_ip_id FloatingIpAssignment#floating_ip_id}.</summary>
             [JsiiProperty(name: "floatingIpId", typeJson: "{\"primitive\":\"number\"}")]
             public double FloatingIpId
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/floating_ip_assignment#server_id FloatingIpAssignment#server_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/floating_ip_assignment#server_id FloatingIpAssignment#server_id}.</summary>
             [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"number\"}")]
             public double ServerId
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/floating_ip_assignment#id FloatingIpAssignment#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/floating_ip_assignment#id FloatingIpAssignment#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

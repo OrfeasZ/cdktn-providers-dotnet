@@ -7,7 +7,7 @@ namespace hcloud.DataHcloudPlacementGroups
     [JsiiInterface(nativeType: typeof(IDataHcloudPlacementGroupsConfig), fullyQualifiedName: "hcloud.dataHcloudPlacementGroups.DataHcloudPlacementGroupsConfig")]
     public interface IDataHcloudPlacementGroupsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/placement_groups#id DataHcloudPlacementGroups#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/placement_groups#id DataHcloudPlacementGroups#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace hcloud.DataHcloudPlacementGroups
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/placement_groups#most_recent DataHcloudPlacementGroups#most_recent}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/placement_groups#most_recent DataHcloudPlacementGroups#most_recent}.</summary>
         [JsiiProperty(name: "mostRecent", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? MostRecent
@@ -33,7 +33,7 @@ namespace hcloud.DataHcloudPlacementGroups
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/placement_groups#with_selector DataHcloudPlacementGroups#with_selector}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/placement_groups#with_selector DataHcloudPlacementGroups#with_selector}.</summary>
         [JsiiProperty(name: "withSelector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? WithSelector
@@ -51,7 +51,7 @@ namespace hcloud.DataHcloudPlacementGroups
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/placement_groups#id DataHcloudPlacementGroups#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/placement_groups#id DataHcloudPlacementGroups#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,7 +63,7 @@ namespace hcloud.DataHcloudPlacementGroups
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/placement_groups#most_recent DataHcloudPlacementGroups#most_recent}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/placement_groups#most_recent DataHcloudPlacementGroups#most_recent}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mostRecent", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? MostRecent
@@ -71,7 +71,7 @@ namespace hcloud.DataHcloudPlacementGroups
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/placement_groups#with_selector DataHcloudPlacementGroups#with_selector}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/placement_groups#with_selector DataHcloudPlacementGroups#with_selector}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "withSelector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? WithSelector

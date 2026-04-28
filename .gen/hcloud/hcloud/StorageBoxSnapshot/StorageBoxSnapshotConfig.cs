@@ -11,7 +11,7 @@ namespace hcloud.StorageBoxSnapshot
     {
         /// <summary>ID of the Storage Box.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box_snapshot#storage_box_id StorageBoxSnapshot#storage_box_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/storage_box_snapshot#storage_box_id StorageBoxSnapshot#storage_box_id}
         /// </remarks>
         [JsiiProperty(name: "storageBoxId", typeJson: "{\"primitive\":\"number\"}")]
         public double StorageBoxId
@@ -22,7 +22,7 @@ namespace hcloud.StorageBoxSnapshot
 
         /// <summary>Description of the Storage Box Snapshot.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box_snapshot#description StorageBoxSnapshot#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/storage_box_snapshot#description StorageBoxSnapshot#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace hcloud.StorageBoxSnapshot
 
         /// <summary>User-defined [labels](https://docs.hetzner.cloud/reference/cloud#labels) (key-value pairs) for the resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box_snapshot#labels StorageBoxSnapshot#labels}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/storage_box_snapshot#labels StorageBoxSnapshot#labels}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]

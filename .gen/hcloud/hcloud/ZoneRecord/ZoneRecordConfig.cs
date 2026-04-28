@@ -11,7 +11,7 @@ namespace hcloud.ZoneRecord
     {
         /// <summary>Name of the Zone Record.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/zone_record#name ZoneRecord#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/zone_record#name ZoneRecord#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace hcloud.ZoneRecord
 
         /// <summary>Type of the Zone Record.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/zone_record#type ZoneRecord#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/zone_record#type ZoneRecord#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -33,7 +33,7 @@ namespace hcloud.ZoneRecord
 
         /// <summary>Value of the Zone Record.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/zone_record#value ZoneRecord#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/zone_record#value ZoneRecord#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
@@ -44,7 +44,7 @@ namespace hcloud.ZoneRecord
 
         /// <summary>ID or Name of the parent Zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/zone_record#zone ZoneRecord#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/zone_record#zone ZoneRecord#zone}
         /// </remarks>
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}")]
         public string Zone
@@ -55,7 +55,7 @@ namespace hcloud.ZoneRecord
 
         /// <summary>Comment of the Zone Record.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/zone_record#comment ZoneRecord#comment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/zone_record#comment ZoneRecord#comment}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

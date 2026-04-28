@@ -9,7 +9,7 @@ namespace hcloud.DataHcloudSshKey
     {
         /// <summary>Fingerprint of the SSH Key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/ssh_key#fingerprint DataHcloudSshKey#fingerprint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/ssh_key#fingerprint DataHcloudSshKey#fingerprint}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fingerprint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace hcloud.DataHcloudSshKey
 
         /// <summary>ID of the SSH Key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/ssh_key#id DataHcloudSshKey#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/ssh_key#id DataHcloudSshKey#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,7 +36,7 @@ namespace hcloud.DataHcloudSshKey
 
         /// <summary>Name of the SSH Key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/ssh_key#name DataHcloudSshKey#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/ssh_key#name DataHcloudSshKey#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -48,7 +48,7 @@ namespace hcloud.DataHcloudSshKey
 
         /// <summary>Filter results using a [Label Selector](https://docs.hetzner.cloud/reference/cloud#label-selector).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/ssh_key#selector DataHcloudSshKey#selector}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/ssh_key#selector DataHcloudSshKey#selector}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "selector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -60,7 +60,7 @@ namespace hcloud.DataHcloudSshKey
 
         /// <summary>Filter results using a [Label Selector](https://docs.hetzner.cloud/reference/cloud#label-selector).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/ssh_key#with_selector DataHcloudSshKey#with_selector}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/ssh_key#with_selector DataHcloudSshKey#with_selector}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "withSelector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

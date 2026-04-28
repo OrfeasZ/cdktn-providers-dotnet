@@ -5,7 +5,7 @@ namespace hcloud.DataHcloudStorageBoxSnapshot
     /// <remarks>
     /// <h1><c>data_hcloud_storage_box_snapshot</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/storage_box_snapshot"><c>data_hcloud_storage_box_snapshot</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/storage_box_snapshot"><c>data_hcloud_storage_box_snapshot</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

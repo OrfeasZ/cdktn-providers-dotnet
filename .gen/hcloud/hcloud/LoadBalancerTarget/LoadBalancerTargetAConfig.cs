@@ -9,7 +9,7 @@ namespace hcloud.LoadBalancerTarget
     [JsiiByValue(fqn: "hcloud.loadBalancerTarget.LoadBalancerTargetAConfig")]
     public class LoadBalancerTargetAConfig : hcloud.LoadBalancerTarget.ILoadBalancerTargetAConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer_target#load_balancer_id LoadBalancerTargetA#load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer_target#load_balancer_id LoadBalancerTargetA#load_balancer_id}.</summary>
         [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"number\"}")]
         public double LoadBalancerId
         {
@@ -17,7 +17,7 @@ namespace hcloud.LoadBalancerTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer_target#type LoadBalancerTargetA#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer_target#type LoadBalancerTargetA#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -25,7 +25,7 @@ namespace hcloud.LoadBalancerTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer_target#id LoadBalancerTargetA#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer_target#id LoadBalancerTargetA#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace hcloud.LoadBalancerTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer_target#ip LoadBalancerTargetA#ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer_target#ip LoadBalancerTargetA#ip}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ip
@@ -47,7 +47,7 @@ namespace hcloud.LoadBalancerTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer_target#label_selector LoadBalancerTargetA#label_selector}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer_target#label_selector LoadBalancerTargetA#label_selector}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "labelSelector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LabelSelector
@@ -56,7 +56,7 @@ namespace hcloud.LoadBalancerTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer_target#server_id LoadBalancerTargetA#server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer_target#server_id LoadBalancerTargetA#server_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ServerId
@@ -67,7 +67,7 @@ namespace hcloud.LoadBalancerTarget
 
         private object? _usePrivateIp;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer_target#use_private_ip LoadBalancerTargetA#use_private_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer_target#use_private_ip LoadBalancerTargetA#use_private_ip}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "usePrivateIp", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? UsePrivateIp

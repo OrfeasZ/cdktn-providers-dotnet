@@ -9,7 +9,7 @@ namespace hcloud.DataHcloudFirewall
     [JsiiByValue(fqn: "hcloud.dataHcloudFirewall.DataHcloudFirewallRule")]
     public class DataHcloudFirewallRule : hcloud.DataHcloudFirewall.IDataHcloudFirewallRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/firewall#direction DataHcloudFirewall#direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/firewall#direction DataHcloudFirewall#direction}.</summary>
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}")]
         public string Direction
         {
@@ -17,7 +17,7 @@ namespace hcloud.DataHcloudFirewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/firewall#description DataHcloudFirewall#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/firewall#description DataHcloudFirewall#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -26,7 +26,7 @@ namespace hcloud.DataHcloudFirewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/firewall#destination_ips DataHcloudFirewall#destination_ips}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/firewall#destination_ips DataHcloudFirewall#destination_ips}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "destinationIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DestinationIps
@@ -35,7 +35,7 @@ namespace hcloud.DataHcloudFirewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/firewall#port DataHcloudFirewall#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/firewall#port DataHcloudFirewall#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Port
@@ -44,7 +44,7 @@ namespace hcloud.DataHcloudFirewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/firewall#protocol DataHcloudFirewall#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/firewall#protocol DataHcloudFirewall#protocol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Protocol
@@ -53,7 +53,7 @@ namespace hcloud.DataHcloudFirewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/firewall#source_ips DataHcloudFirewall#source_ips}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/firewall#source_ips DataHcloudFirewall#source_ips}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SourceIps

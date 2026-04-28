@@ -7,7 +7,7 @@ namespace hcloud.Firewall
     [JsiiByValue(fqn: "hcloud.firewall.FirewallApplyTo")]
     public class FirewallApplyTo : hcloud.Firewall.IFirewallApplyTo
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/firewall#label_selector Firewall#label_selector}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/firewall#label_selector Firewall#label_selector}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "labelSelector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LabelSelector
@@ -16,7 +16,7 @@ namespace hcloud.Firewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/firewall#server Firewall#server}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/firewall#server Firewall#server}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "server", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Server

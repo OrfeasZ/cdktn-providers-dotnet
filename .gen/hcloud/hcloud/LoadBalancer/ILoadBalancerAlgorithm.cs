@@ -7,7 +7,7 @@ namespace hcloud.LoadBalancer
     [JsiiInterface(nativeType: typeof(ILoadBalancerAlgorithm), fullyQualifiedName: "hcloud.loadBalancer.LoadBalancerAlgorithm")]
     public interface ILoadBalancerAlgorithm
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer#type LoadBalancer#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer#type LoadBalancer#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
@@ -25,7 +25,7 @@ namespace hcloud.LoadBalancer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer#type LoadBalancer#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer#type LoadBalancer#type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type

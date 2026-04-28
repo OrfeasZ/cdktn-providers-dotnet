@@ -11,7 +11,7 @@ namespace hcloud.StorageBox
     {
         /// <summary>Name of the Location.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box#location StorageBox#location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/storage_box#location StorageBox#location}
         /// </remarks>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
@@ -22,7 +22,7 @@ namespace hcloud.StorageBox
 
         /// <summary>Name of the Storage Box.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box#name StorageBox#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/storage_box#name StorageBox#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -33,7 +33,7 @@ namespace hcloud.StorageBox
 
         /// <summary>Password of the Storage Box. For more details, see the [Storage Boxes password policy](https://docs.hetzner.cloud/reference/hetzner#storage-boxes-password-policy).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box#password StorageBox#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/storage_box#password StorageBox#password}
         /// </remarks>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         public string Password
@@ -44,7 +44,7 @@ namespace hcloud.StorageBox
 
         /// <summary>Name of the Storage Box Type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box#storage_box_type StorageBox#storage_box_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/storage_box#storage_box_type StorageBox#storage_box_type}
         /// </remarks>
         [JsiiProperty(name: "storageBoxType", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageBoxType
@@ -55,7 +55,7 @@ namespace hcloud.StorageBox
 
         /// <summary>Access settings of the Storage Box.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box#access_settings StorageBox#access_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/storage_box#access_settings StorageBox#access_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accessSettings", typeJson: "{\"fqn\":\"hcloud.storageBox.StorageBoxAccessSettings\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace hcloud.StorageBox
 
         /// <summary>Prevent the Storage Box from being accidentally deleted outside of Terraform.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box#delete_protection StorageBox#delete_protection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/storage_box#delete_protection StorageBox#delete_protection}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deleteProtection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -101,7 +101,7 @@ namespace hcloud.StorageBox
 
         /// <summary>User-defined [labels](https://docs.hetzner.cloud/reference/cloud#labels) (key-value pairs) for the resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box#labels StorageBox#labels}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/storage_box#labels StorageBox#labels}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -113,7 +113,7 @@ namespace hcloud.StorageBox
 
         /// <summary>Details of the active snapshot plan.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box#snapshot_plan StorageBox#snapshot_plan}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/storage_box#snapshot_plan StorageBox#snapshot_plan}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "snapshotPlan", typeJson: "{\"fqn\":\"hcloud.storageBox.StorageBoxSnapshotPlan\"}", isOptional: true)]
@@ -127,7 +127,7 @@ namespace hcloud.StorageBox
         /// <remarks>
         /// It is not possible to update the SSH Keys through the API, so changing this attribute forces a replace of the Storage Box.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/storage_box#ssh_keys StorageBox#ssh_keys}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/storage_box#ssh_keys StorageBox#ssh_keys}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sshKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

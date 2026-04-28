@@ -7,7 +7,7 @@ namespace hcloud.DataHcloudFirewalls
     [JsiiByValue(fqn: "hcloud.dataHcloudFirewalls.DataHcloudFirewallsConfig")]
     public class DataHcloudFirewallsConfig : hcloud.DataHcloudFirewalls.IDataHcloudFirewallsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/firewalls#id DataHcloudFirewalls#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/firewalls#id DataHcloudFirewalls#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace hcloud.DataHcloudFirewalls
 
         private object? _mostRecent;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/firewalls#most_recent DataHcloudFirewalls#most_recent}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/firewalls#most_recent DataHcloudFirewalls#most_recent}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mostRecent", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? MostRecent
@@ -51,7 +51,7 @@ namespace hcloud.DataHcloudFirewalls
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/data-sources/firewalls#with_selector DataHcloudFirewalls#with_selector}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/data-sources/firewalls#with_selector DataHcloudFirewalls#with_selector}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "withSelector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WithSelector

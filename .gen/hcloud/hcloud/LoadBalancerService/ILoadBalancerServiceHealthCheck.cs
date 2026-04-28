@@ -7,35 +7,35 @@ namespace hcloud.LoadBalancerService
     [JsiiInterface(nativeType: typeof(ILoadBalancerServiceHealthCheck), fullyQualifiedName: "hcloud.loadBalancerService.LoadBalancerServiceHealthCheck")]
     public interface ILoadBalancerServiceHealthCheck
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer_service#interval LoadBalancerService#interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer_service#interval LoadBalancerService#interval}.</summary>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"number\"}")]
         double Interval
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer_service#port LoadBalancerService#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer_service#port LoadBalancerService#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         double Port
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer_service#protocol LoadBalancerService#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer_service#protocol LoadBalancerService#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         string Protocol
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer_service#retries LoadBalancerService#retries}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer_service#retries LoadBalancerService#retries}.</summary>
         [JsiiProperty(name: "retries", typeJson: "{\"primitive\":\"number\"}")]
         double Retries
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer_service#timeout LoadBalancerService#timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer_service#timeout LoadBalancerService#timeout}.</summary>
         [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}")]
         double Timeout
         {
@@ -44,7 +44,7 @@ namespace hcloud.LoadBalancerService
 
         /// <summary>http block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer_service#http LoadBalancerService#http}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer_service#http LoadBalancerService#http}
         /// </remarks>
         [JsiiProperty(name: "http", typeJson: "{\"fqn\":\"hcloud.loadBalancerService.LoadBalancerServiceHealthCheckHttp\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,35 +63,35 @@ namespace hcloud.LoadBalancerService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer_service#interval LoadBalancerService#interval}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer_service#interval LoadBalancerService#interval}.</summary>
             [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"number\"}")]
             public double Interval
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer_service#port LoadBalancerService#port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer_service#port LoadBalancerService#port}.</summary>
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
             public double Port
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer_service#protocol LoadBalancerService#protocol}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer_service#protocol LoadBalancerService#protocol}.</summary>
             [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
             public string Protocol
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer_service#retries LoadBalancerService#retries}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer_service#retries LoadBalancerService#retries}.</summary>
             [JsiiProperty(name: "retries", typeJson: "{\"primitive\":\"number\"}")]
             public double Retries
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer_service#timeout LoadBalancerService#timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer_service#timeout LoadBalancerService#timeout}.</summary>
             [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}")]
             public double Timeout
             {
@@ -100,7 +100,7 @@ namespace hcloud.LoadBalancerService
 
             /// <summary>http block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.61.0/docs/resources/load_balancer_service#http LoadBalancerService#http}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.62.0/docs/resources/load_balancer_service#http LoadBalancerService#http}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "http", typeJson: "{\"fqn\":\"hcloud.loadBalancerService.LoadBalancerServiceHealthCheckHttp\"}", isOptional: true)]
