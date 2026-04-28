@@ -7,7 +7,7 @@ namespace digitalocean.PartnerAttachment
     [JsiiByValue(fqn: "digitalocean.partnerAttachment.PartnerAttachmentTimeouts")]
     public class PartnerAttachmentTimeouts : digitalocean.PartnerAttachment.IPartnerAttachmentTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/partner_attachment#create PartnerAttachment#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/partner_attachment#create PartnerAttachment#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace digitalocean.PartnerAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/partner_attachment#delete PartnerAttachment#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/partner_attachment#delete PartnerAttachment#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

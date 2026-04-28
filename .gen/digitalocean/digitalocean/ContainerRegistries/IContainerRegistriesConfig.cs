@@ -7,21 +7,21 @@ namespace digitalocean.ContainerRegistries
     [JsiiInterface(nativeType: typeof(IContainerRegistriesConfig), fullyQualifiedName: "digitalocean.containerRegistries.ContainerRegistriesConfig")]
     public interface IContainerRegistriesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/container_registries#name ContainerRegistries#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/container_registries#name ContainerRegistries#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/container_registries#subscription_tier_slug ContainerRegistries#subscription_tier_slug}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/container_registries#subscription_tier_slug ContainerRegistries#subscription_tier_slug}.</summary>
         [JsiiProperty(name: "subscriptionTierSlug", typeJson: "{\"primitive\":\"string\"}")]
         string SubscriptionTierSlug
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/container_registries#id ContainerRegistries#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/container_registries#id ContainerRegistries#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,7 +36,7 @@ namespace digitalocean.ContainerRegistries
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/container_registries#region ContainerRegistries#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/container_registries#region ContainerRegistries#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Region
@@ -54,21 +54,21 @@ namespace digitalocean.ContainerRegistries
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/container_registries#name ContainerRegistries#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/container_registries#name ContainerRegistries#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/container_registries#subscription_tier_slug ContainerRegistries#subscription_tier_slug}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/container_registries#subscription_tier_slug ContainerRegistries#subscription_tier_slug}.</summary>
             [JsiiProperty(name: "subscriptionTierSlug", typeJson: "{\"primitive\":\"string\"}")]
             public string SubscriptionTierSlug
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/container_registries#id ContainerRegistries#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/container_registries#id ContainerRegistries#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,7 +80,7 @@ namespace digitalocean.ContainerRegistries
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/container_registries#region ContainerRegistries#region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/container_registries#region ContainerRegistries#region}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Region

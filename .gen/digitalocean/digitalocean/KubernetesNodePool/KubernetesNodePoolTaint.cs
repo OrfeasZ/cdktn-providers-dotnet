@@ -9,7 +9,7 @@ namespace digitalocean.KubernetesNodePool
     [JsiiByValue(fqn: "digitalocean.kubernetesNodePool.KubernetesNodePoolTaint")]
     public class KubernetesNodePoolTaint : digitalocean.KubernetesNodePool.IKubernetesNodePoolTaint
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#effect KubernetesNodePool#effect}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#effect KubernetesNodePool#effect}.</summary>
         [JsiiProperty(name: "effect", typeJson: "{\"primitive\":\"string\"}")]
         public string Effect
         {
@@ -17,7 +17,7 @@ namespace digitalocean.KubernetesNodePool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#key KubernetesNodePool#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#key KubernetesNodePool#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -25,7 +25,7 @@ namespace digitalocean.KubernetesNodePool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#value KubernetesNodePool#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#value KubernetesNodePool#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

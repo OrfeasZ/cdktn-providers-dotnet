@@ -7,7 +7,7 @@ namespace digitalocean.DataDigitaloceanKubernetesVersions
     [JsiiInterface(nativeType: typeof(IDataDigitaloceanKubernetesVersionsConfig), fullyQualifiedName: "digitalocean.dataDigitaloceanKubernetesVersions.DataDigitaloceanKubernetesVersionsConfig")]
     public interface IDataDigitaloceanKubernetesVersionsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/kubernetes_versions#id DataDigitaloceanKubernetesVersions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/kubernetes_versions#id DataDigitaloceanKubernetesVersions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace digitalocean.DataDigitaloceanKubernetesVersions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/kubernetes_versions#version_prefix DataDigitaloceanKubernetesVersions#version_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/kubernetes_versions#version_prefix DataDigitaloceanKubernetesVersions#version_prefix}.</summary>
         [JsiiProperty(name: "versionPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VersionPrefix
@@ -40,7 +40,7 @@ namespace digitalocean.DataDigitaloceanKubernetesVersions
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/kubernetes_versions#id DataDigitaloceanKubernetesVersions#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/kubernetes_versions#id DataDigitaloceanKubernetesVersions#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,7 +52,7 @@ namespace digitalocean.DataDigitaloceanKubernetesVersions
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/kubernetes_versions#version_prefix DataDigitaloceanKubernetesVersions#version_prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/kubernetes_versions#version_prefix DataDigitaloceanKubernetesVersions#version_prefix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "versionPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VersionPrefix

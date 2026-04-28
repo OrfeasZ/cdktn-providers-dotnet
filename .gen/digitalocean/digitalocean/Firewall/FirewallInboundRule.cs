@@ -9,7 +9,7 @@ namespace digitalocean.Firewall
     [JsiiByValue(fqn: "digitalocean.firewall.FirewallInboundRule")]
     public class FirewallInboundRule : digitalocean.Firewall.IFirewallInboundRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/firewall#protocol Firewall#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/firewall#protocol Firewall#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         public string Protocol
         {
@@ -17,7 +17,7 @@ namespace digitalocean.Firewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/firewall#port_range Firewall#port_range}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/firewall#port_range Firewall#port_range}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "portRange", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PortRange
@@ -26,7 +26,7 @@ namespace digitalocean.Firewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/firewall#source_addresses Firewall#source_addresses}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/firewall#source_addresses Firewall#source_addresses}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceAddresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SourceAddresses
@@ -35,7 +35,7 @@ namespace digitalocean.Firewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/firewall#source_droplet_ids Firewall#source_droplet_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/firewall#source_droplet_ids Firewall#source_droplet_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceDropletIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
         public double[]? SourceDropletIds
@@ -44,7 +44,7 @@ namespace digitalocean.Firewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/firewall#source_kubernetes_ids Firewall#source_kubernetes_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/firewall#source_kubernetes_ids Firewall#source_kubernetes_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceKubernetesIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SourceKubernetesIds
@@ -53,7 +53,7 @@ namespace digitalocean.Firewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/firewall#source_load_balancer_uids Firewall#source_load_balancer_uids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/firewall#source_load_balancer_uids Firewall#source_load_balancer_uids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceLoadBalancerUids", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SourceLoadBalancerUids
@@ -62,7 +62,7 @@ namespace digitalocean.Firewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/firewall#source_tags Firewall#source_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/firewall#source_tags Firewall#source_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SourceTags

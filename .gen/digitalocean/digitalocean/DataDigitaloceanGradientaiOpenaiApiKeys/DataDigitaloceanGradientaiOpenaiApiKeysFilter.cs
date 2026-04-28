@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanGradientaiOpenaiApiKeys
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanGradientaiOpenaiApiKeys.DataDigitaloceanGradientaiOpenaiApiKeysFilter")]
     public class DataDigitaloceanGradientaiOpenaiApiKeysFilter : digitalocean.DataDigitaloceanGradientaiOpenaiApiKeys.IDataDigitaloceanGradientaiOpenaiApiKeysFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_openai_api_keys#key DataDigitaloceanGradientaiOpenaiApiKeys#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_openai_api_keys#key DataDigitaloceanGradientaiOpenaiApiKeys#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanGradientaiOpenaiApiKeys
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_openai_api_keys#values DataDigitaloceanGradientaiOpenaiApiKeys#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_openai_api_keys#values DataDigitaloceanGradientaiOpenaiApiKeys#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace digitalocean.DataDigitaloceanGradientaiOpenaiApiKeys
 
         private object? _all;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_openai_api_keys#all DataDigitaloceanGradientaiOpenaiApiKeys#all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_openai_api_keys#all DataDigitaloceanGradientaiOpenaiApiKeys#all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "all", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? All
@@ -56,7 +56,7 @@ namespace digitalocean.DataDigitaloceanGradientaiOpenaiApiKeys
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_openai_api_keys#match_by DataDigitaloceanGradientaiOpenaiApiKeys#match_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_openai_api_keys#match_by DataDigitaloceanGradientaiOpenaiApiKeys#match_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "matchBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MatchBy

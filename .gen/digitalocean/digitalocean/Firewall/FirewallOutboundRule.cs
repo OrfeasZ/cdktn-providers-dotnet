@@ -9,7 +9,7 @@ namespace digitalocean.Firewall
     [JsiiByValue(fqn: "digitalocean.firewall.FirewallOutboundRule")]
     public class FirewallOutboundRule : digitalocean.Firewall.IFirewallOutboundRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/firewall#protocol Firewall#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/firewall#protocol Firewall#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         public string Protocol
         {
@@ -17,7 +17,7 @@ namespace digitalocean.Firewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/firewall#destination_addresses Firewall#destination_addresses}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/firewall#destination_addresses Firewall#destination_addresses}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "destinationAddresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DestinationAddresses
@@ -26,7 +26,7 @@ namespace digitalocean.Firewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/firewall#destination_droplet_ids Firewall#destination_droplet_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/firewall#destination_droplet_ids Firewall#destination_droplet_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "destinationDropletIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
         public double[]? DestinationDropletIds
@@ -35,7 +35,7 @@ namespace digitalocean.Firewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/firewall#destination_kubernetes_ids Firewall#destination_kubernetes_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/firewall#destination_kubernetes_ids Firewall#destination_kubernetes_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "destinationKubernetesIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DestinationKubernetesIds
@@ -44,7 +44,7 @@ namespace digitalocean.Firewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/firewall#destination_load_balancer_uids Firewall#destination_load_balancer_uids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/firewall#destination_load_balancer_uids Firewall#destination_load_balancer_uids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "destinationLoadBalancerUids", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DestinationLoadBalancerUids
@@ -53,7 +53,7 @@ namespace digitalocean.Firewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/firewall#destination_tags Firewall#destination_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/firewall#destination_tags Firewall#destination_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "destinationTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DestinationTags
@@ -62,7 +62,7 @@ namespace digitalocean.Firewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/firewall#port_range Firewall#port_range}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/firewall#port_range Firewall#port_range}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "portRange", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PortRange

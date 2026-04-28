@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
     {
         /// <summary>Agent UUID for the Guardrail.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#agent_uuid DataDigitaloceanGradientaiAgent#agent_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#agent_uuid DataDigitaloceanGradientaiAgent#agent_uuid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "agentUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>Default response for the Guardrail.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#default_response DataDigitaloceanGradientaiAgent#default_response}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#default_response DataDigitaloceanGradientaiAgent#default_response}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultResponse", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>Description of the Guardrail.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#description DataDigitaloceanGradientaiAgent#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#description DataDigitaloceanGradientaiAgent#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>Guardrail UUID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#guardrail_uuid DataDigitaloceanGradientaiAgent#guardrail_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#guardrail_uuid DataDigitaloceanGradientaiAgent#guardrail_uuid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "guardrailUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>Indicates if the Guardrail is default.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#is_default DataDigitaloceanGradientaiAgent#is_default}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#is_default DataDigitaloceanGradientaiAgent#is_default}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isDefault", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>Name of Guardrail.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#name DataDigitaloceanGradientaiAgent#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#name DataDigitaloceanGradientaiAgent#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -103,7 +103,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>Priority of the Guardrail.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#priority DataDigitaloceanGradientaiAgent#priority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#priority DataDigitaloceanGradientaiAgent#priority}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -115,7 +115,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>Type of the Guardrail.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#type DataDigitaloceanGradientaiAgent#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#type DataDigitaloceanGradientaiAgent#type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -127,7 +127,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>Guardrail UUID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#uuid DataDigitaloceanGradientaiAgent#uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#uuid DataDigitaloceanGradientaiAgent#uuid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "uuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

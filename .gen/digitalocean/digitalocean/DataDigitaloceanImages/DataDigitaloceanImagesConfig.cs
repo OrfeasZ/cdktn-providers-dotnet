@@ -11,7 +11,7 @@ namespace digitalocean.DataDigitaloceanImages
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/images#filter DataDigitaloceanImages#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/images#filter DataDigitaloceanImages#filter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanImages.DataDigitaloceanImagesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace digitalocean.DataDigitaloceanImages
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/images#id DataDigitaloceanImages#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/images#id DataDigitaloceanImages#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace digitalocean.DataDigitaloceanImages
 
         /// <summary>sort block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/images#sort DataDigitaloceanImages#sort}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/images#sort DataDigitaloceanImages#sort}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sort", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanImages.DataDigitaloceanImagesSort\"},\"kind\":\"array\"}}]}}", isOptional: true)]

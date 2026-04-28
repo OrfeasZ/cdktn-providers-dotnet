@@ -9,7 +9,7 @@ namespace digitalocean.GradientaiKnowledgeBase
     {
         /// <summary>The original name of the uploaded file.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_knowledge_base#original_file_name GradientaiKnowledgeBase#original_file_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_knowledge_base#original_file_name GradientaiKnowledgeBase#original_file_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "originalFileName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace digitalocean.GradientaiKnowledgeBase
 
         /// <summary>The size of the file in bytes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_knowledge_base#size_in_bytes GradientaiKnowledgeBase#size_in_bytes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_knowledge_base#size_in_bytes GradientaiKnowledgeBase#size_in_bytes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sizeInBytes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace digitalocean.GradientaiKnowledgeBase
 
         /// <summary>The stored object key for the file.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_knowledge_base#stored_object_key GradientaiKnowledgeBase#stored_object_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_knowledge_base#stored_object_key GradientaiKnowledgeBase#stored_object_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "storedObjectKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

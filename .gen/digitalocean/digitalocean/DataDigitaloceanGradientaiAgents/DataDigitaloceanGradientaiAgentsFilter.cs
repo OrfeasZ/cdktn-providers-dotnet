@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgents
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanGradientaiAgents.DataDigitaloceanGradientaiAgentsFilter")]
     public class DataDigitaloceanGradientaiAgentsFilter : digitalocean.DataDigitaloceanGradientaiAgents.IDataDigitaloceanGradientaiAgentsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agents#key DataDigitaloceanGradientaiAgents#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agents#key DataDigitaloceanGradientaiAgents#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgents
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agents#values DataDigitaloceanGradientaiAgents#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agents#values DataDigitaloceanGradientaiAgents#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgents
 
         private object? _all;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agents#all DataDigitaloceanGradientaiAgents#all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agents#all DataDigitaloceanGradientaiAgents#all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "all", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? All
@@ -56,7 +56,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgents
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agents#match_by DataDigitaloceanGradientaiAgents#match_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agents#match_by DataDigitaloceanGradientaiAgents#match_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "matchBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MatchBy

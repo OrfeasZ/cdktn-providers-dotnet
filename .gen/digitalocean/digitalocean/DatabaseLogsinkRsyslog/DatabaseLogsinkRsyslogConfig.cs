@@ -11,7 +11,7 @@ namespace digitalocean.DatabaseLogsinkRsyslog
     {
         /// <summary>UUID of the source database cluster that will forward logs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_logsink_rsyslog#cluster_id DatabaseLogsinkRsyslog#cluster_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_logsink_rsyslog#cluster_id DatabaseLogsinkRsyslog#cluster_id}
         /// </remarks>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterId
@@ -22,7 +22,7 @@ namespace digitalocean.DatabaseLogsinkRsyslog
 
         /// <summary>Display name for the logsink.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_logsink_rsyslog#name DatabaseLogsinkRsyslog#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_logsink_rsyslog#name DatabaseLogsinkRsyslog#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -33,7 +33,7 @@ namespace digitalocean.DatabaseLogsinkRsyslog
 
         /// <summary>Port number for the rsyslog server (1-65535).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_logsink_rsyslog#port DatabaseLogsinkRsyslog#port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_logsink_rsyslog#port DatabaseLogsinkRsyslog#port}
         /// </remarks>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         public double Port
@@ -44,7 +44,7 @@ namespace digitalocean.DatabaseLogsinkRsyslog
 
         /// <summary>Hostname or IP address of the rsyslog server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_logsink_rsyslog#server DatabaseLogsinkRsyslog#server}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_logsink_rsyslog#server DatabaseLogsinkRsyslog#server}
         /// </remarks>
         [JsiiProperty(name: "server", typeJson: "{\"primitive\":\"string\"}")]
         public string Server
@@ -55,7 +55,7 @@ namespace digitalocean.DatabaseLogsinkRsyslog
 
         /// <summary>CA certificate for TLS verification (PEM format).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_logsink_rsyslog#ca_cert DatabaseLogsinkRsyslog#ca_cert}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_logsink_rsyslog#ca_cert DatabaseLogsinkRsyslog#ca_cert}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "caCert", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace digitalocean.DatabaseLogsinkRsyslog
 
         /// <summary>Client certificate for mTLS (PEM format).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_logsink_rsyslog#client_cert DatabaseLogsinkRsyslog#client_cert}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_logsink_rsyslog#client_cert DatabaseLogsinkRsyslog#client_cert}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientCert", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace digitalocean.DatabaseLogsinkRsyslog
 
         /// <summary>Client private key for mTLS (PEM format).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_logsink_rsyslog#client_key DatabaseLogsinkRsyslog#client_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_logsink_rsyslog#client_key DatabaseLogsinkRsyslog#client_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace digitalocean.DatabaseLogsinkRsyslog
 
         /// <summary>Log format: rfc5424, rfc3164, or custom.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_logsink_rsyslog#format DatabaseLogsinkRsyslog#format}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_logsink_rsyslog#format DatabaseLogsinkRsyslog#format}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -103,7 +103,7 @@ namespace digitalocean.DatabaseLogsinkRsyslog
 
         /// <summary>Custom logline template (required when format is 'custom').</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_logsink_rsyslog#logline DatabaseLogsinkRsyslog#logline}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_logsink_rsyslog#logline DatabaseLogsinkRsyslog#logline}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logline", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -115,7 +115,7 @@ namespace digitalocean.DatabaseLogsinkRsyslog
 
         /// <summary>Structured data for rsyslog.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_logsink_rsyslog#structured_data DatabaseLogsinkRsyslog#structured_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_logsink_rsyslog#structured_data DatabaseLogsinkRsyslog#structured_data}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "structuredData", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -129,7 +129,7 @@ namespace digitalocean.DatabaseLogsinkRsyslog
 
         /// <summary>Enable TLS encryption for rsyslog connection.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_logsink_rsyslog#tls DatabaseLogsinkRsyslog#tls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_logsink_rsyslog#tls DatabaseLogsinkRsyslog#tls}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tls", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

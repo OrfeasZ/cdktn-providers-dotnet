@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgents
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanGradientaiAgents.DataDigitaloceanGradientaiAgentsSort")]
     public class DataDigitaloceanGradientaiAgentsSort : digitalocean.DataDigitaloceanGradientaiAgents.IDataDigitaloceanGradientaiAgentsSort
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agents#key DataDigitaloceanGradientaiAgents#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agents#key DataDigitaloceanGradientaiAgents#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgents
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agents#direction DataDigitaloceanGradientaiAgents#direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agents#direction DataDigitaloceanGradientaiAgents#direction}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Direction

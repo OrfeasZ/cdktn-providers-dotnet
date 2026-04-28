@@ -9,7 +9,7 @@ namespace digitalocean.App
     {
         /// <summary>The number of failed health checks before considered unhealthy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#failure_threshold App#failure_threshold}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#failure_threshold App#failure_threshold}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "failureThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace digitalocean.App
 
         /// <summary>The route path used for the HTTP health check ping.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#http_path App#http_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#http_path App#http_path}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace digitalocean.App
 
         /// <summary>The number of seconds to wait before beginning health checks.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#initial_delay_seconds App#initial_delay_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#initial_delay_seconds App#initial_delay_seconds}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "initialDelaySeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace digitalocean.App
 
         /// <summary>The number of seconds to wait between health checks.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#period_seconds App#period_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#period_seconds App#period_seconds}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "periodSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace digitalocean.App
         /// <remarks>
         /// If not set, the health check will be performed on the component's http_port.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#port App#port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#port App#port}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace digitalocean.App
 
         /// <summary>The number of successful health checks before considered healthy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#success_threshold App#success_threshold}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#success_threshold App#success_threshold}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "successThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace digitalocean.App
 
         /// <summary>The number of seconds after which the check times out.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#timeout_seconds App#timeout_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#timeout_seconds App#timeout_seconds}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

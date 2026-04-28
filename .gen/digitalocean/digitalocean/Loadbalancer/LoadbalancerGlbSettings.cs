@@ -11,7 +11,7 @@ namespace digitalocean.Loadbalancer
     {
         /// <summary>target port rules.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/loadbalancer#target_port Loadbalancer#target_port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/loadbalancer#target_port Loadbalancer#target_port}
         /// </remarks>
         [JsiiProperty(name: "targetPort", typeJson: "{\"primitive\":\"number\"}")]
         public double TargetPort
@@ -22,7 +22,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>target protocol rules.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/loadbalancer#target_protocol Loadbalancer#target_protocol}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/loadbalancer#target_protocol Loadbalancer#target_protocol}
         /// </remarks>
         [JsiiProperty(name: "targetProtocol", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetProtocol
@@ -33,7 +33,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>cdn block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/loadbalancer#cdn Loadbalancer#cdn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/loadbalancer#cdn Loadbalancer#cdn}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cdn", typeJson: "{\"fqn\":\"digitalocean.loadbalancer.LoadbalancerGlbSettingsCdn\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>fail-over threshold.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/loadbalancer#failover_threshold Loadbalancer#failover_threshold}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/loadbalancer#failover_threshold Loadbalancer#failover_threshold}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "failoverThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>region priority map.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/loadbalancer#region_priorities Loadbalancer#region_priorities}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/loadbalancer#region_priorities Loadbalancer#region_priorities}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regionPriorities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"map\"}}", isOptional: true)]

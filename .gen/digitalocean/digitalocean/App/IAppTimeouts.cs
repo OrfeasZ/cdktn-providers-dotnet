@@ -7,7 +7,7 @@ namespace digitalocean.App
     [JsiiInterface(nativeType: typeof(IAppTimeouts), fullyQualifiedName: "digitalocean.app.AppTimeouts")]
     public interface IAppTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#create App#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#create App#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -25,7 +25,7 @@ namespace digitalocean.App
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#create App#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#create App#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create

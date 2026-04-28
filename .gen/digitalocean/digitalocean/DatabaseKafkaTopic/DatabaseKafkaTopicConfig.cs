@@ -9,7 +9,7 @@ namespace digitalocean.DatabaseKafkaTopic
     [JsiiByValue(fqn: "digitalocean.databaseKafkaTopic.DatabaseKafkaTopicConfig")]
     public class DatabaseKafkaTopicConfig : digitalocean.DatabaseKafkaTopic.IDatabaseKafkaTopicConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#cluster_id DatabaseKafkaTopic#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#cluster_id DatabaseKafkaTopic#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterId
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#name DatabaseKafkaTopic#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#name DatabaseKafkaTopic#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -29,7 +29,7 @@ namespace digitalocean.DatabaseKafkaTopic
 
         /// <summary>config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#config DatabaseKafkaTopic#config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#config DatabaseKafkaTopic#config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "config", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.databaseKafkaTopic.DatabaseKafkaTopicConfigA\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace digitalocean.DatabaseKafkaTopic
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#id DatabaseKafkaTopic#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#id DatabaseKafkaTopic#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#partition_count DatabaseKafkaTopic#partition_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#partition_count DatabaseKafkaTopic#partition_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "partitionCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PartitionCount
@@ -81,7 +81,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#replication_factor DatabaseKafkaTopic#replication_factor}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#replication_factor DatabaseKafkaTopic#replication_factor}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "replicationFactor", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ReplicationFactor

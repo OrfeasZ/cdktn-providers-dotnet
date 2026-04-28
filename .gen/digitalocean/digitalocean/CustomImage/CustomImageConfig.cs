@@ -9,7 +9,7 @@ namespace digitalocean.CustomImage
     [JsiiByValue(fqn: "digitalocean.customImage.CustomImageConfig")]
     public class CustomImageConfig : digitalocean.CustomImage.ICustomImageConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/custom_image#name CustomImage#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/custom_image#name CustomImage#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace digitalocean.CustomImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/custom_image#regions CustomImage#regions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/custom_image#regions CustomImage#regions}.</summary>
         [JsiiProperty(name: "regions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Regions
         {
@@ -25,7 +25,7 @@ namespace digitalocean.CustomImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/custom_image#url CustomImage#url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/custom_image#url CustomImage#url}.</summary>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         public string Url
         {
@@ -33,7 +33,7 @@ namespace digitalocean.CustomImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/custom_image#description CustomImage#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/custom_image#description CustomImage#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -42,7 +42,7 @@ namespace digitalocean.CustomImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/custom_image#distribution CustomImage#distribution}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/custom_image#distribution CustomImage#distribution}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "distribution", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Distribution
@@ -51,7 +51,7 @@ namespace digitalocean.CustomImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/custom_image#id CustomImage#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/custom_image#id CustomImage#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace digitalocean.CustomImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/custom_image#tags CustomImage#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/custom_image#tags CustomImage#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Tags
@@ -75,7 +75,7 @@ namespace digitalocean.CustomImage
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/custom_image#timeouts CustomImage#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/custom_image#timeouts CustomImage#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"digitalocean.customImage.CustomImageTimeouts\"}", isOptional: true)]

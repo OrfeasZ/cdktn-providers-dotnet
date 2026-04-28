@@ -9,7 +9,7 @@ namespace digitalocean.DatabaseUser
     [JsiiByValue(fqn: "digitalocean.databaseUser.DatabaseUserSettingsOpensearchAcl")]
     public class DatabaseUserSettingsOpensearchAcl : digitalocean.DatabaseUser.IDatabaseUserSettingsOpensearchAcl
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_user#index DatabaseUser#index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_user#index DatabaseUser#index}.</summary>
         [JsiiProperty(name: "index", typeJson: "{\"primitive\":\"string\"}")]
         public string Index
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DatabaseUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_user#permission DatabaseUser#permission}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_user#permission DatabaseUser#permission}.</summary>
         [JsiiProperty(name: "permission", typeJson: "{\"primitive\":\"string\"}")]
         public string Permission
         {

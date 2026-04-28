@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanRegions
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanRegions.DataDigitaloceanRegionsFilter")]
     public class DataDigitaloceanRegionsFilter : digitalocean.DataDigitaloceanRegions.IDataDigitaloceanRegionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/regions#key DataDigitaloceanRegions#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/regions#key DataDigitaloceanRegions#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanRegions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/regions#values DataDigitaloceanRegions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/regions#values DataDigitaloceanRegions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace digitalocean.DataDigitaloceanRegions
 
         private object? _all;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/regions#all DataDigitaloceanRegions#all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/regions#all DataDigitaloceanRegions#all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "all", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? All
@@ -56,7 +56,7 @@ namespace digitalocean.DataDigitaloceanRegions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/regions#match_by DataDigitaloceanRegions#match_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/regions#match_by DataDigitaloceanRegions#match_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "matchBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MatchBy

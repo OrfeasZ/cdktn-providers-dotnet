@@ -9,7 +9,7 @@ namespace digitalocean.DatabaseConnectionPool
     [JsiiByValue(fqn: "digitalocean.databaseConnectionPool.DatabaseConnectionPoolConfig")]
     public class DatabaseConnectionPoolConfig : digitalocean.DatabaseConnectionPool.IDatabaseConnectionPoolConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_connection_pool#cluster_id DatabaseConnectionPool#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_connection_pool#cluster_id DatabaseConnectionPool#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterId
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DatabaseConnectionPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_connection_pool#db_name DatabaseConnectionPool#db_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_connection_pool#db_name DatabaseConnectionPool#db_name}.</summary>
         [JsiiProperty(name: "dbName", typeJson: "{\"primitive\":\"string\"}")]
         public string DbName
         {
@@ -25,7 +25,7 @@ namespace digitalocean.DatabaseConnectionPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_connection_pool#mode DatabaseConnectionPool#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_connection_pool#mode DatabaseConnectionPool#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         public string Mode
         {
@@ -33,7 +33,7 @@ namespace digitalocean.DatabaseConnectionPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_connection_pool#name DatabaseConnectionPool#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_connection_pool#name DatabaseConnectionPool#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -41,7 +41,7 @@ namespace digitalocean.DatabaseConnectionPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_connection_pool#size DatabaseConnectionPool#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_connection_pool#size DatabaseConnectionPool#size}.</summary>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}")]
         public double Size
         {
@@ -49,7 +49,7 @@ namespace digitalocean.DatabaseConnectionPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_connection_pool#id DatabaseConnectionPool#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_connection_pool#id DatabaseConnectionPool#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -62,7 +62,7 @@ namespace digitalocean.DatabaseConnectionPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_connection_pool#user DatabaseConnectionPool#user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_connection_pool#user DatabaseConnectionPool#user}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "user", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? User

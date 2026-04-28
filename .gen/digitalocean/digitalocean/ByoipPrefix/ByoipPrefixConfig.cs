@@ -9,7 +9,7 @@ namespace digitalocean.ByoipPrefix
     [JsiiByValue(fqn: "digitalocean.byoipPrefix.ByoipPrefixConfig")]
     public class ByoipPrefixConfig : digitalocean.ByoipPrefix.IByoipPrefixConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/byoip_prefix#prefix ByoipPrefix#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/byoip_prefix#prefix ByoipPrefix#prefix}.</summary>
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
         public string Prefix
         {
@@ -17,7 +17,7 @@ namespace digitalocean.ByoipPrefix
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/byoip_prefix#region ByoipPrefix#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/byoip_prefix#region ByoipPrefix#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public string Region
         {
@@ -27,7 +27,7 @@ namespace digitalocean.ByoipPrefix
 
         private object? _advertised;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/byoip_prefix#advertised ByoipPrefix#advertised}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/byoip_prefix#advertised ByoipPrefix#advertised}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "advertised", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Advertised
@@ -56,7 +56,7 @@ namespace digitalocean.ByoipPrefix
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/byoip_prefix#id ByoipPrefix#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/byoip_prefix#id ByoipPrefix#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,7 +69,7 @@ namespace digitalocean.ByoipPrefix
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/byoip_prefix#signature ByoipPrefix#signature}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/byoip_prefix#signature ByoipPrefix#signature}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "signature", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Signature

@@ -7,14 +7,14 @@ namespace digitalocean.DataDigitaloceanDedicatedInferenceTokens
     [JsiiInterface(nativeType: typeof(IDataDigitaloceanDedicatedInferenceTokensSort), fullyQualifiedName: "digitalocean.dataDigitaloceanDedicatedInferenceTokens.DataDigitaloceanDedicatedInferenceTokensSort")]
     public interface IDataDigitaloceanDedicatedInferenceTokensSort
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/dedicated_inference_tokens#key DataDigitaloceanDedicatedInferenceTokens#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/dedicated_inference_tokens#key DataDigitaloceanDedicatedInferenceTokens#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/dedicated_inference_tokens#direction DataDigitaloceanDedicatedInferenceTokens#direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/dedicated_inference_tokens#direction DataDigitaloceanDedicatedInferenceTokens#direction}.</summary>
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Direction
@@ -32,14 +32,14 @@ namespace digitalocean.DataDigitaloceanDedicatedInferenceTokens
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/dedicated_inference_tokens#key DataDigitaloceanDedicatedInferenceTokens#key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/dedicated_inference_tokens#key DataDigitaloceanDedicatedInferenceTokens#key}.</summary>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/dedicated_inference_tokens#direction DataDigitaloceanDedicatedInferenceTokens#direction}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/dedicated_inference_tokens#direction DataDigitaloceanDedicatedInferenceTokens#direction}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Direction

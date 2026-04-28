@@ -5,7 +5,7 @@ namespace digitalocean.DataDigitaloceanVolume
     /// <remarks>
     /// <h1><c>data_digitalocean_volume</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/volume"><c>data_digitalocean_volume</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/volume"><c>data_digitalocean_volume</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

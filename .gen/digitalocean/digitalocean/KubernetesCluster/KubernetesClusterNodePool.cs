@@ -9,7 +9,7 @@ namespace digitalocean.KubernetesCluster
     [JsiiByValue(fqn: "digitalocean.kubernetesCluster.KubernetesClusterNodePool")]
     public class KubernetesClusterNodePool : digitalocean.KubernetesCluster.IKubernetesClusterNodePool
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_cluster#name KubernetesCluster#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_cluster#name KubernetesCluster#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace digitalocean.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_cluster#size KubernetesCluster#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_cluster#size KubernetesCluster#size}.</summary>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"string\"}")]
         public string Size
         {
@@ -27,7 +27,7 @@ namespace digitalocean.KubernetesCluster
 
         private object? _autoScale;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_cluster#auto_scale KubernetesCluster#auto_scale}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_cluster#auto_scale KubernetesCluster#auto_scale}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "autoScale", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? AutoScale
@@ -56,7 +56,7 @@ namespace digitalocean.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_cluster#labels KubernetesCluster#labels}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_cluster#labels KubernetesCluster#labels}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Labels
@@ -65,7 +65,7 @@ namespace digitalocean.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_cluster#max_nodes KubernetesCluster#max_nodes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_cluster#max_nodes KubernetesCluster#max_nodes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxNodes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxNodes
@@ -74,7 +74,7 @@ namespace digitalocean.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_cluster#min_nodes KubernetesCluster#min_nodes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_cluster#min_nodes KubernetesCluster#min_nodes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minNodes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinNodes
@@ -83,7 +83,7 @@ namespace digitalocean.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_cluster#node_count KubernetesCluster#node_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_cluster#node_count KubernetesCluster#node_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nodeCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? NodeCount
@@ -92,7 +92,7 @@ namespace digitalocean.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_cluster#tags KubernetesCluster#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_cluster#tags KubernetesCluster#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Tags
@@ -105,7 +105,7 @@ namespace digitalocean.KubernetesCluster
 
         /// <summary>taint block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_cluster#taint KubernetesCluster#taint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_cluster#taint KubernetesCluster#taint}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taint", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterNodePoolTaint\"},\"kind\":\"array\"}}]}}", isOptional: true)]

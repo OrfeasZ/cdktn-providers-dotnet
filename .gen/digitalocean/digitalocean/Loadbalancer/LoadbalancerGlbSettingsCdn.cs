@@ -11,7 +11,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>cache enable flag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/loadbalancer#is_enabled Loadbalancer#is_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/loadbalancer#is_enabled Loadbalancer#is_enabled}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

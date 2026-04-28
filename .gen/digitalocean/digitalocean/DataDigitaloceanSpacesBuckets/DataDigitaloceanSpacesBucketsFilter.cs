@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanSpacesBuckets
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanSpacesBuckets.DataDigitaloceanSpacesBucketsFilter")]
     public class DataDigitaloceanSpacesBucketsFilter : digitalocean.DataDigitaloceanSpacesBuckets.IDataDigitaloceanSpacesBucketsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/spaces_buckets#key DataDigitaloceanSpacesBuckets#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/spaces_buckets#key DataDigitaloceanSpacesBuckets#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanSpacesBuckets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/spaces_buckets#values DataDigitaloceanSpacesBuckets#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/spaces_buckets#values DataDigitaloceanSpacesBuckets#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace digitalocean.DataDigitaloceanSpacesBuckets
 
         private object? _all;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/spaces_buckets#all DataDigitaloceanSpacesBuckets#all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/spaces_buckets#all DataDigitaloceanSpacesBuckets#all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "all", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? All
@@ -56,7 +56,7 @@ namespace digitalocean.DataDigitaloceanSpacesBuckets
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/spaces_buckets#match_by DataDigitaloceanSpacesBuckets#match_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/spaces_buckets#match_by DataDigitaloceanSpacesBuckets#match_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "matchBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MatchBy

@@ -7,14 +7,14 @@ namespace digitalocean.DatabasePostgresqlConfig
     [JsiiInterface(nativeType: typeof(IDatabasePostgresqlConfigConfig), fullyQualifiedName: "digitalocean.databasePostgresqlConfig.DatabasePostgresqlConfigConfig")]
     public interface IDatabasePostgresqlConfigConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#cluster_id DatabasePostgresqlConfig#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#cluster_id DatabasePostgresqlConfig#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         string ClusterId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#autovacuum_analyze_scale_factor DatabasePostgresqlConfig#autovacuum_analyze_scale_factor}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#autovacuum_analyze_scale_factor DatabasePostgresqlConfig#autovacuum_analyze_scale_factor}.</summary>
         [JsiiProperty(name: "autovacuumAnalyzeScaleFactor", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? AutovacuumAnalyzeScaleFactor
@@ -25,7 +25,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#autovacuum_analyze_threshold DatabasePostgresqlConfig#autovacuum_analyze_threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#autovacuum_analyze_threshold DatabasePostgresqlConfig#autovacuum_analyze_threshold}.</summary>
         [JsiiProperty(name: "autovacuumAnalyzeThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? AutovacuumAnalyzeThreshold
@@ -36,7 +36,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#autovacuum_freeze_max_age DatabasePostgresqlConfig#autovacuum_freeze_max_age}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#autovacuum_freeze_max_age DatabasePostgresqlConfig#autovacuum_freeze_max_age}.</summary>
         [JsiiProperty(name: "autovacuumFreezeMaxAge", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? AutovacuumFreezeMaxAge
@@ -47,7 +47,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#autovacuum_max_workers DatabasePostgresqlConfig#autovacuum_max_workers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#autovacuum_max_workers DatabasePostgresqlConfig#autovacuum_max_workers}.</summary>
         [JsiiProperty(name: "autovacuumMaxWorkers", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? AutovacuumMaxWorkers
@@ -58,7 +58,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#autovacuum_naptime DatabasePostgresqlConfig#autovacuum_naptime}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#autovacuum_naptime DatabasePostgresqlConfig#autovacuum_naptime}.</summary>
         [JsiiProperty(name: "autovacuumNaptime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? AutovacuumNaptime
@@ -69,7 +69,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#autovacuum_vacuum_cost_delay DatabasePostgresqlConfig#autovacuum_vacuum_cost_delay}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#autovacuum_vacuum_cost_delay DatabasePostgresqlConfig#autovacuum_vacuum_cost_delay}.</summary>
         [JsiiProperty(name: "autovacuumVacuumCostDelay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? AutovacuumVacuumCostDelay
@@ -80,7 +80,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#autovacuum_vacuum_cost_limit DatabasePostgresqlConfig#autovacuum_vacuum_cost_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#autovacuum_vacuum_cost_limit DatabasePostgresqlConfig#autovacuum_vacuum_cost_limit}.</summary>
         [JsiiProperty(name: "autovacuumVacuumCostLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? AutovacuumVacuumCostLimit
@@ -91,7 +91,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#autovacuum_vacuum_scale_factor DatabasePostgresqlConfig#autovacuum_vacuum_scale_factor}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#autovacuum_vacuum_scale_factor DatabasePostgresqlConfig#autovacuum_vacuum_scale_factor}.</summary>
         [JsiiProperty(name: "autovacuumVacuumScaleFactor", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? AutovacuumVacuumScaleFactor
@@ -102,7 +102,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#autovacuum_vacuum_threshold DatabasePostgresqlConfig#autovacuum_vacuum_threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#autovacuum_vacuum_threshold DatabasePostgresqlConfig#autovacuum_vacuum_threshold}.</summary>
         [JsiiProperty(name: "autovacuumVacuumThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? AutovacuumVacuumThreshold
@@ -113,7 +113,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#backup_hour DatabasePostgresqlConfig#backup_hour}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#backup_hour DatabasePostgresqlConfig#backup_hour}.</summary>
         [JsiiProperty(name: "backupHour", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BackupHour
@@ -124,7 +124,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#backup_minute DatabasePostgresqlConfig#backup_minute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#backup_minute DatabasePostgresqlConfig#backup_minute}.</summary>
         [JsiiProperty(name: "backupMinute", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BackupMinute
@@ -135,7 +135,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#bgwriter_delay DatabasePostgresqlConfig#bgwriter_delay}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#bgwriter_delay DatabasePostgresqlConfig#bgwriter_delay}.</summary>
         [JsiiProperty(name: "bgwriterDelay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BgwriterDelay
@@ -146,7 +146,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#bgwriter_flush_after DatabasePostgresqlConfig#bgwriter_flush_after}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#bgwriter_flush_after DatabasePostgresqlConfig#bgwriter_flush_after}.</summary>
         [JsiiProperty(name: "bgwriterFlushAfter", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BgwriterFlushAfter
@@ -157,7 +157,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#bgwriter_lru_maxpages DatabasePostgresqlConfig#bgwriter_lru_maxpages}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#bgwriter_lru_maxpages DatabasePostgresqlConfig#bgwriter_lru_maxpages}.</summary>
         [JsiiProperty(name: "bgwriterLruMaxpages", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BgwriterLruMaxpages
@@ -168,7 +168,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#bgwriter_lru_multiplier DatabasePostgresqlConfig#bgwriter_lru_multiplier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#bgwriter_lru_multiplier DatabasePostgresqlConfig#bgwriter_lru_multiplier}.</summary>
         [JsiiProperty(name: "bgwriterLruMultiplier", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BgwriterLruMultiplier
@@ -179,7 +179,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#deadlock_timeout DatabasePostgresqlConfig#deadlock_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#deadlock_timeout DatabasePostgresqlConfig#deadlock_timeout}.</summary>
         [JsiiProperty(name: "deadlockTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? DeadlockTimeout
@@ -190,7 +190,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#default_toast_compression DatabasePostgresqlConfig#default_toast_compression}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#default_toast_compression DatabasePostgresqlConfig#default_toast_compression}.</summary>
         [JsiiProperty(name: "defaultToastCompression", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DefaultToastCompression
@@ -201,7 +201,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#id DatabasePostgresqlConfig#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#id DatabasePostgresqlConfig#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -216,7 +216,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#idle_in_transaction_session_timeout DatabasePostgresqlConfig#idle_in_transaction_session_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#idle_in_transaction_session_timeout DatabasePostgresqlConfig#idle_in_transaction_session_timeout}.</summary>
         [JsiiProperty(name: "idleInTransactionSessionTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? IdleInTransactionSessionTimeout
@@ -227,7 +227,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#jit DatabasePostgresqlConfig#jit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#jit DatabasePostgresqlConfig#jit}.</summary>
         [JsiiProperty(name: "jit", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? Jit
@@ -238,7 +238,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#log_autovacuum_min_duration DatabasePostgresqlConfig#log_autovacuum_min_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#log_autovacuum_min_duration DatabasePostgresqlConfig#log_autovacuum_min_duration}.</summary>
         [JsiiProperty(name: "logAutovacuumMinDuration", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? LogAutovacuumMinDuration
@@ -249,7 +249,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#log_error_verbosity DatabasePostgresqlConfig#log_error_verbosity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#log_error_verbosity DatabasePostgresqlConfig#log_error_verbosity}.</summary>
         [JsiiProperty(name: "logErrorVerbosity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LogErrorVerbosity
@@ -260,7 +260,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#log_line_prefix DatabasePostgresqlConfig#log_line_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#log_line_prefix DatabasePostgresqlConfig#log_line_prefix}.</summary>
         [JsiiProperty(name: "logLinePrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LogLinePrefix
@@ -271,7 +271,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#log_min_duration_statement DatabasePostgresqlConfig#log_min_duration_statement}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#log_min_duration_statement DatabasePostgresqlConfig#log_min_duration_statement}.</summary>
         [JsiiProperty(name: "logMinDurationStatement", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? LogMinDurationStatement
@@ -282,7 +282,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_files_per_process DatabasePostgresqlConfig#max_files_per_process}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_files_per_process DatabasePostgresqlConfig#max_files_per_process}.</summary>
         [JsiiProperty(name: "maxFilesPerProcess", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxFilesPerProcess
@@ -293,7 +293,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_locks_per_transaction DatabasePostgresqlConfig#max_locks_per_transaction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_locks_per_transaction DatabasePostgresqlConfig#max_locks_per_transaction}.</summary>
         [JsiiProperty(name: "maxLocksPerTransaction", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxLocksPerTransaction
@@ -304,7 +304,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_logical_replication_workers DatabasePostgresqlConfig#max_logical_replication_workers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_logical_replication_workers DatabasePostgresqlConfig#max_logical_replication_workers}.</summary>
         [JsiiProperty(name: "maxLogicalReplicationWorkers", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxLogicalReplicationWorkers
@@ -315,7 +315,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_parallel_workers DatabasePostgresqlConfig#max_parallel_workers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_parallel_workers DatabasePostgresqlConfig#max_parallel_workers}.</summary>
         [JsiiProperty(name: "maxParallelWorkers", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxParallelWorkers
@@ -326,7 +326,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_parallel_workers_per_gather DatabasePostgresqlConfig#max_parallel_workers_per_gather}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_parallel_workers_per_gather DatabasePostgresqlConfig#max_parallel_workers_per_gather}.</summary>
         [JsiiProperty(name: "maxParallelWorkersPerGather", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxParallelWorkersPerGather
@@ -337,7 +337,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_pred_locks_per_transaction DatabasePostgresqlConfig#max_pred_locks_per_transaction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_pred_locks_per_transaction DatabasePostgresqlConfig#max_pred_locks_per_transaction}.</summary>
         [JsiiProperty(name: "maxPredLocksPerTransaction", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxPredLocksPerTransaction
@@ -348,7 +348,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_prepared_transactions DatabasePostgresqlConfig#max_prepared_transactions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_prepared_transactions DatabasePostgresqlConfig#max_prepared_transactions}.</summary>
         [JsiiProperty(name: "maxPreparedTransactions", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxPreparedTransactions
@@ -359,7 +359,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_replication_slots DatabasePostgresqlConfig#max_replication_slots}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_replication_slots DatabasePostgresqlConfig#max_replication_slots}.</summary>
         [JsiiProperty(name: "maxReplicationSlots", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxReplicationSlots
@@ -370,7 +370,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_stack_depth DatabasePostgresqlConfig#max_stack_depth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_stack_depth DatabasePostgresqlConfig#max_stack_depth}.</summary>
         [JsiiProperty(name: "maxStackDepth", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxStackDepth
@@ -381,7 +381,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_standby_archive_delay DatabasePostgresqlConfig#max_standby_archive_delay}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_standby_archive_delay DatabasePostgresqlConfig#max_standby_archive_delay}.</summary>
         [JsiiProperty(name: "maxStandbyArchiveDelay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxStandbyArchiveDelay
@@ -392,7 +392,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_standby_streaming_delay DatabasePostgresqlConfig#max_standby_streaming_delay}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_standby_streaming_delay DatabasePostgresqlConfig#max_standby_streaming_delay}.</summary>
         [JsiiProperty(name: "maxStandbyStreamingDelay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxStandbyStreamingDelay
@@ -403,7 +403,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_wal_senders DatabasePostgresqlConfig#max_wal_senders}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_wal_senders DatabasePostgresqlConfig#max_wal_senders}.</summary>
         [JsiiProperty(name: "maxWalSenders", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxWalSenders
@@ -414,7 +414,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_worker_processes DatabasePostgresqlConfig#max_worker_processes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_worker_processes DatabasePostgresqlConfig#max_worker_processes}.</summary>
         [JsiiProperty(name: "maxWorkerProcesses", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxWorkerProcesses
@@ -427,7 +427,7 @@ namespace digitalocean.DatabasePostgresqlConfig
 
         /// <summary>pgbouncer block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#pgbouncer DatabasePostgresqlConfig#pgbouncer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#pgbouncer DatabasePostgresqlConfig#pgbouncer}
         /// </remarks>
         [JsiiProperty(name: "pgbouncer", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.databasePostgresqlConfig.DatabasePostgresqlConfigPgbouncer\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -439,7 +439,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#pg_partman_bgw_interval DatabasePostgresqlConfig#pg_partman_bgw_interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#pg_partman_bgw_interval DatabasePostgresqlConfig#pg_partman_bgw_interval}.</summary>
         [JsiiProperty(name: "pgPartmanBgwInterval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? PgPartmanBgwInterval
@@ -450,7 +450,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#pg_partman_bgw_role DatabasePostgresqlConfig#pg_partman_bgw_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#pg_partman_bgw_role DatabasePostgresqlConfig#pg_partman_bgw_role}.</summary>
         [JsiiProperty(name: "pgPartmanBgwRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PgPartmanBgwRole
@@ -461,7 +461,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#pg_stat_statements_track DatabasePostgresqlConfig#pg_stat_statements_track}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#pg_stat_statements_track DatabasePostgresqlConfig#pg_stat_statements_track}.</summary>
         [JsiiProperty(name: "pgStatStatementsTrack", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PgStatStatementsTrack
@@ -472,7 +472,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#shared_buffers_percentage DatabasePostgresqlConfig#shared_buffers_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#shared_buffers_percentage DatabasePostgresqlConfig#shared_buffers_percentage}.</summary>
         [JsiiProperty(name: "sharedBuffersPercentage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? SharedBuffersPercentage
@@ -483,7 +483,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#temp_file_limit DatabasePostgresqlConfig#temp_file_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#temp_file_limit DatabasePostgresqlConfig#temp_file_limit}.</summary>
         [JsiiProperty(name: "tempFileLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TempFileLimit
@@ -496,7 +496,7 @@ namespace digitalocean.DatabasePostgresqlConfig
 
         /// <summary>timescaledb block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#timescaledb DatabasePostgresqlConfig#timescaledb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#timescaledb DatabasePostgresqlConfig#timescaledb}
         /// </remarks>
         [JsiiProperty(name: "timescaledb", typeJson: "{\"fqn\":\"digitalocean.databasePostgresqlConfig.DatabasePostgresqlConfigTimescaledb\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -508,7 +508,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#timezone DatabasePostgresqlConfig#timezone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#timezone DatabasePostgresqlConfig#timezone}.</summary>
         [JsiiProperty(name: "timezone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Timezone
@@ -519,7 +519,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#track_activity_query_size DatabasePostgresqlConfig#track_activity_query_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#track_activity_query_size DatabasePostgresqlConfig#track_activity_query_size}.</summary>
         [JsiiProperty(name: "trackActivityQuerySize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TrackActivityQuerySize
@@ -530,7 +530,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#track_commit_timestamp DatabasePostgresqlConfig#track_commit_timestamp}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#track_commit_timestamp DatabasePostgresqlConfig#track_commit_timestamp}.</summary>
         [JsiiProperty(name: "trackCommitTimestamp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TrackCommitTimestamp
@@ -541,7 +541,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#track_functions DatabasePostgresqlConfig#track_functions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#track_functions DatabasePostgresqlConfig#track_functions}.</summary>
         [JsiiProperty(name: "trackFunctions", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TrackFunctions
@@ -552,7 +552,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#track_io_timing DatabasePostgresqlConfig#track_io_timing}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#track_io_timing DatabasePostgresqlConfig#track_io_timing}.</summary>
         [JsiiProperty(name: "trackIoTiming", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TrackIoTiming
@@ -563,7 +563,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#wal_sender_timeout DatabasePostgresqlConfig#wal_sender_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#wal_sender_timeout DatabasePostgresqlConfig#wal_sender_timeout}.</summary>
         [JsiiProperty(name: "walSenderTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? WalSenderTimeout
@@ -574,7 +574,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#wal_writer_delay DatabasePostgresqlConfig#wal_writer_delay}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#wal_writer_delay DatabasePostgresqlConfig#wal_writer_delay}.</summary>
         [JsiiProperty(name: "walWriterDelay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? WalWriterDelay
@@ -585,7 +585,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#work_mem DatabasePostgresqlConfig#work_mem}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#work_mem DatabasePostgresqlConfig#work_mem}.</summary>
         [JsiiProperty(name: "workMem", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? WorkMem
@@ -603,14 +603,14 @@ namespace digitalocean.DatabasePostgresqlConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#cluster_id DatabasePostgresqlConfig#cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#cluster_id DatabasePostgresqlConfig#cluster_id}.</summary>
             [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
             public string ClusterId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#autovacuum_analyze_scale_factor DatabasePostgresqlConfig#autovacuum_analyze_scale_factor}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#autovacuum_analyze_scale_factor DatabasePostgresqlConfig#autovacuum_analyze_scale_factor}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autovacuumAnalyzeScaleFactor", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? AutovacuumAnalyzeScaleFactor
@@ -618,7 +618,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#autovacuum_analyze_threshold DatabasePostgresqlConfig#autovacuum_analyze_threshold}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#autovacuum_analyze_threshold DatabasePostgresqlConfig#autovacuum_analyze_threshold}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autovacuumAnalyzeThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? AutovacuumAnalyzeThreshold
@@ -626,7 +626,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#autovacuum_freeze_max_age DatabasePostgresqlConfig#autovacuum_freeze_max_age}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#autovacuum_freeze_max_age DatabasePostgresqlConfig#autovacuum_freeze_max_age}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autovacuumFreezeMaxAge", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? AutovacuumFreezeMaxAge
@@ -634,7 +634,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#autovacuum_max_workers DatabasePostgresqlConfig#autovacuum_max_workers}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#autovacuum_max_workers DatabasePostgresqlConfig#autovacuum_max_workers}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autovacuumMaxWorkers", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? AutovacuumMaxWorkers
@@ -642,7 +642,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#autovacuum_naptime DatabasePostgresqlConfig#autovacuum_naptime}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#autovacuum_naptime DatabasePostgresqlConfig#autovacuum_naptime}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autovacuumNaptime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? AutovacuumNaptime
@@ -650,7 +650,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#autovacuum_vacuum_cost_delay DatabasePostgresqlConfig#autovacuum_vacuum_cost_delay}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#autovacuum_vacuum_cost_delay DatabasePostgresqlConfig#autovacuum_vacuum_cost_delay}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autovacuumVacuumCostDelay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? AutovacuumVacuumCostDelay
@@ -658,7 +658,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#autovacuum_vacuum_cost_limit DatabasePostgresqlConfig#autovacuum_vacuum_cost_limit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#autovacuum_vacuum_cost_limit DatabasePostgresqlConfig#autovacuum_vacuum_cost_limit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autovacuumVacuumCostLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? AutovacuumVacuumCostLimit
@@ -666,7 +666,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#autovacuum_vacuum_scale_factor DatabasePostgresqlConfig#autovacuum_vacuum_scale_factor}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#autovacuum_vacuum_scale_factor DatabasePostgresqlConfig#autovacuum_vacuum_scale_factor}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autovacuumVacuumScaleFactor", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? AutovacuumVacuumScaleFactor
@@ -674,7 +674,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#autovacuum_vacuum_threshold DatabasePostgresqlConfig#autovacuum_vacuum_threshold}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#autovacuum_vacuum_threshold DatabasePostgresqlConfig#autovacuum_vacuum_threshold}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autovacuumVacuumThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? AutovacuumVacuumThreshold
@@ -682,7 +682,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#backup_hour DatabasePostgresqlConfig#backup_hour}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#backup_hour DatabasePostgresqlConfig#backup_hour}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "backupHour", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BackupHour
@@ -690,7 +690,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#backup_minute DatabasePostgresqlConfig#backup_minute}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#backup_minute DatabasePostgresqlConfig#backup_minute}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "backupMinute", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BackupMinute
@@ -698,7 +698,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#bgwriter_delay DatabasePostgresqlConfig#bgwriter_delay}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#bgwriter_delay DatabasePostgresqlConfig#bgwriter_delay}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bgwriterDelay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BgwriterDelay
@@ -706,7 +706,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#bgwriter_flush_after DatabasePostgresqlConfig#bgwriter_flush_after}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#bgwriter_flush_after DatabasePostgresqlConfig#bgwriter_flush_after}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bgwriterFlushAfter", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BgwriterFlushAfter
@@ -714,7 +714,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#bgwriter_lru_maxpages DatabasePostgresqlConfig#bgwriter_lru_maxpages}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#bgwriter_lru_maxpages DatabasePostgresqlConfig#bgwriter_lru_maxpages}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bgwriterLruMaxpages", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BgwriterLruMaxpages
@@ -722,7 +722,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#bgwriter_lru_multiplier DatabasePostgresqlConfig#bgwriter_lru_multiplier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#bgwriter_lru_multiplier DatabasePostgresqlConfig#bgwriter_lru_multiplier}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bgwriterLruMultiplier", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BgwriterLruMultiplier
@@ -730,7 +730,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#deadlock_timeout DatabasePostgresqlConfig#deadlock_timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#deadlock_timeout DatabasePostgresqlConfig#deadlock_timeout}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "deadlockTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? DeadlockTimeout
@@ -738,7 +738,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#default_toast_compression DatabasePostgresqlConfig#default_toast_compression}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#default_toast_compression DatabasePostgresqlConfig#default_toast_compression}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "defaultToastCompression", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DefaultToastCompression
@@ -746,7 +746,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#id DatabasePostgresqlConfig#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#id DatabasePostgresqlConfig#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -758,7 +758,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#idle_in_transaction_session_timeout DatabasePostgresqlConfig#idle_in_transaction_session_timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#idle_in_transaction_session_timeout DatabasePostgresqlConfig#idle_in_transaction_session_timeout}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "idleInTransactionSessionTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? IdleInTransactionSessionTimeout
@@ -766,7 +766,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#jit DatabasePostgresqlConfig#jit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#jit DatabasePostgresqlConfig#jit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "jit", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? Jit
@@ -774,7 +774,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#log_autovacuum_min_duration DatabasePostgresqlConfig#log_autovacuum_min_duration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#log_autovacuum_min_duration DatabasePostgresqlConfig#log_autovacuum_min_duration}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "logAutovacuumMinDuration", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? LogAutovacuumMinDuration
@@ -782,7 +782,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#log_error_verbosity DatabasePostgresqlConfig#log_error_verbosity}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#log_error_verbosity DatabasePostgresqlConfig#log_error_verbosity}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "logErrorVerbosity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LogErrorVerbosity
@@ -790,7 +790,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#log_line_prefix DatabasePostgresqlConfig#log_line_prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#log_line_prefix DatabasePostgresqlConfig#log_line_prefix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "logLinePrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LogLinePrefix
@@ -798,7 +798,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#log_min_duration_statement DatabasePostgresqlConfig#log_min_duration_statement}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#log_min_duration_statement DatabasePostgresqlConfig#log_min_duration_statement}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "logMinDurationStatement", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? LogMinDurationStatement
@@ -806,7 +806,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_files_per_process DatabasePostgresqlConfig#max_files_per_process}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_files_per_process DatabasePostgresqlConfig#max_files_per_process}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxFilesPerProcess", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxFilesPerProcess
@@ -814,7 +814,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_locks_per_transaction DatabasePostgresqlConfig#max_locks_per_transaction}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_locks_per_transaction DatabasePostgresqlConfig#max_locks_per_transaction}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxLocksPerTransaction", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxLocksPerTransaction
@@ -822,7 +822,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_logical_replication_workers DatabasePostgresqlConfig#max_logical_replication_workers}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_logical_replication_workers DatabasePostgresqlConfig#max_logical_replication_workers}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxLogicalReplicationWorkers", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxLogicalReplicationWorkers
@@ -830,7 +830,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_parallel_workers DatabasePostgresqlConfig#max_parallel_workers}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_parallel_workers DatabasePostgresqlConfig#max_parallel_workers}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxParallelWorkers", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxParallelWorkers
@@ -838,7 +838,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_parallel_workers_per_gather DatabasePostgresqlConfig#max_parallel_workers_per_gather}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_parallel_workers_per_gather DatabasePostgresqlConfig#max_parallel_workers_per_gather}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxParallelWorkersPerGather", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxParallelWorkersPerGather
@@ -846,7 +846,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_pred_locks_per_transaction DatabasePostgresqlConfig#max_pred_locks_per_transaction}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_pred_locks_per_transaction DatabasePostgresqlConfig#max_pred_locks_per_transaction}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxPredLocksPerTransaction", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxPredLocksPerTransaction
@@ -854,7 +854,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_prepared_transactions DatabasePostgresqlConfig#max_prepared_transactions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_prepared_transactions DatabasePostgresqlConfig#max_prepared_transactions}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxPreparedTransactions", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxPreparedTransactions
@@ -862,7 +862,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_replication_slots DatabasePostgresqlConfig#max_replication_slots}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_replication_slots DatabasePostgresqlConfig#max_replication_slots}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxReplicationSlots", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxReplicationSlots
@@ -870,7 +870,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_stack_depth DatabasePostgresqlConfig#max_stack_depth}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_stack_depth DatabasePostgresqlConfig#max_stack_depth}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxStackDepth", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxStackDepth
@@ -878,7 +878,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_standby_archive_delay DatabasePostgresqlConfig#max_standby_archive_delay}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_standby_archive_delay DatabasePostgresqlConfig#max_standby_archive_delay}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxStandbyArchiveDelay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxStandbyArchiveDelay
@@ -886,7 +886,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_standby_streaming_delay DatabasePostgresqlConfig#max_standby_streaming_delay}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_standby_streaming_delay DatabasePostgresqlConfig#max_standby_streaming_delay}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxStandbyStreamingDelay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxStandbyStreamingDelay
@@ -894,7 +894,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_wal_senders DatabasePostgresqlConfig#max_wal_senders}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_wal_senders DatabasePostgresqlConfig#max_wal_senders}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxWalSenders", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxWalSenders
@@ -902,7 +902,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#max_worker_processes DatabasePostgresqlConfig#max_worker_processes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#max_worker_processes DatabasePostgresqlConfig#max_worker_processes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxWorkerProcesses", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxWorkerProcesses
@@ -912,7 +912,7 @@ namespace digitalocean.DatabasePostgresqlConfig
 
             /// <summary>pgbouncer block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#pgbouncer DatabasePostgresqlConfig#pgbouncer}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#pgbouncer DatabasePostgresqlConfig#pgbouncer}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pgbouncer", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.databasePostgresqlConfig.DatabasePostgresqlConfigPgbouncer\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -921,7 +921,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#pg_partman_bgw_interval DatabasePostgresqlConfig#pg_partman_bgw_interval}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#pg_partman_bgw_interval DatabasePostgresqlConfig#pg_partman_bgw_interval}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "pgPartmanBgwInterval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? PgPartmanBgwInterval
@@ -929,7 +929,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#pg_partman_bgw_role DatabasePostgresqlConfig#pg_partman_bgw_role}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#pg_partman_bgw_role DatabasePostgresqlConfig#pg_partman_bgw_role}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "pgPartmanBgwRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PgPartmanBgwRole
@@ -937,7 +937,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#pg_stat_statements_track DatabasePostgresqlConfig#pg_stat_statements_track}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#pg_stat_statements_track DatabasePostgresqlConfig#pg_stat_statements_track}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "pgStatStatementsTrack", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PgStatStatementsTrack
@@ -945,7 +945,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#shared_buffers_percentage DatabasePostgresqlConfig#shared_buffers_percentage}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#shared_buffers_percentage DatabasePostgresqlConfig#shared_buffers_percentage}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sharedBuffersPercentage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? SharedBuffersPercentage
@@ -953,7 +953,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#temp_file_limit DatabasePostgresqlConfig#temp_file_limit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#temp_file_limit DatabasePostgresqlConfig#temp_file_limit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tempFileLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TempFileLimit
@@ -963,7 +963,7 @@ namespace digitalocean.DatabasePostgresqlConfig
 
             /// <summary>timescaledb block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#timescaledb DatabasePostgresqlConfig#timescaledb}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#timescaledb DatabasePostgresqlConfig#timescaledb}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timescaledb", typeJson: "{\"fqn\":\"digitalocean.databasePostgresqlConfig.DatabasePostgresqlConfigTimescaledb\"}", isOptional: true)]
@@ -972,7 +972,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<digitalocean.DatabasePostgresqlConfig.IDatabasePostgresqlConfigTimescaledb?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#timezone DatabasePostgresqlConfig#timezone}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#timezone DatabasePostgresqlConfig#timezone}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timezone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Timezone
@@ -980,7 +980,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#track_activity_query_size DatabasePostgresqlConfig#track_activity_query_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#track_activity_query_size DatabasePostgresqlConfig#track_activity_query_size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "trackActivityQuerySize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TrackActivityQuerySize
@@ -988,7 +988,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#track_commit_timestamp DatabasePostgresqlConfig#track_commit_timestamp}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#track_commit_timestamp DatabasePostgresqlConfig#track_commit_timestamp}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "trackCommitTimestamp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TrackCommitTimestamp
@@ -996,7 +996,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#track_functions DatabasePostgresqlConfig#track_functions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#track_functions DatabasePostgresqlConfig#track_functions}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "trackFunctions", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TrackFunctions
@@ -1004,7 +1004,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#track_io_timing DatabasePostgresqlConfig#track_io_timing}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#track_io_timing DatabasePostgresqlConfig#track_io_timing}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "trackIoTiming", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TrackIoTiming
@@ -1012,7 +1012,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#wal_sender_timeout DatabasePostgresqlConfig#wal_sender_timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#wal_sender_timeout DatabasePostgresqlConfig#wal_sender_timeout}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "walSenderTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? WalSenderTimeout
@@ -1020,7 +1020,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#wal_writer_delay DatabasePostgresqlConfig#wal_writer_delay}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#wal_writer_delay DatabasePostgresqlConfig#wal_writer_delay}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "walWriterDelay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? WalWriterDelay
@@ -1028,7 +1028,7 @@ namespace digitalocean.DatabasePostgresqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_postgresql_config#work_mem DatabasePostgresqlConfig#work_mem}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_postgresql_config#work_mem DatabasePostgresqlConfig#work_mem}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "workMem", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? WorkMem

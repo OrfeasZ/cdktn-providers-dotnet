@@ -7,35 +7,35 @@ namespace digitalocean.SpacesBucketLogging
     [JsiiInterface(nativeType: typeof(ISpacesBucketLoggingConfig), fullyQualifiedName: "digitalocean.spacesBucketLogging.SpacesBucketLoggingConfig")]
     public interface ISpacesBucketLoggingConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket_logging#bucket SpacesBucketLogging#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket_logging#bucket SpacesBucketLogging#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         string Bucket
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket_logging#region SpacesBucketLogging#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket_logging#region SpacesBucketLogging#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         string Region
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket_logging#target_bucket SpacesBucketLogging#target_bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket_logging#target_bucket SpacesBucketLogging#target_bucket}.</summary>
         [JsiiProperty(name: "targetBucket", typeJson: "{\"primitive\":\"string\"}")]
         string TargetBucket
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket_logging#target_prefix SpacesBucketLogging#target_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket_logging#target_prefix SpacesBucketLogging#target_prefix}.</summary>
         [JsiiProperty(name: "targetPrefix", typeJson: "{\"primitive\":\"string\"}")]
         string TargetPrefix
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket_logging#id SpacesBucketLogging#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket_logging#id SpacesBucketLogging#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,35 +57,35 @@ namespace digitalocean.SpacesBucketLogging
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket_logging#bucket SpacesBucketLogging#bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket_logging#bucket SpacesBucketLogging#bucket}.</summary>
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
             public string Bucket
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket_logging#region SpacesBucketLogging#region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket_logging#region SpacesBucketLogging#region}.</summary>
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
             public string Region
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket_logging#target_bucket SpacesBucketLogging#target_bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket_logging#target_bucket SpacesBucketLogging#target_bucket}.</summary>
             [JsiiProperty(name: "targetBucket", typeJson: "{\"primitive\":\"string\"}")]
             public string TargetBucket
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket_logging#target_prefix SpacesBucketLogging#target_prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket_logging#target_prefix SpacesBucketLogging#target_prefix}.</summary>
             [JsiiProperty(name: "targetPrefix", typeJson: "{\"primitive\":\"string\"}")]
             public string TargetPrefix
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket_logging#id SpacesBucketLogging#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket_logging#id SpacesBucketLogging#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

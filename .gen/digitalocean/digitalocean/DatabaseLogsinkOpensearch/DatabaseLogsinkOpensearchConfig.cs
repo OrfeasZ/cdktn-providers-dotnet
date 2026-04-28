@@ -11,7 +11,7 @@ namespace digitalocean.DatabaseLogsinkOpensearch
     {
         /// <summary>UUID of the source database cluster that will forward logs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_logsink_opensearch#cluster_id DatabaseLogsinkOpensearch#cluster_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_logsink_opensearch#cluster_id DatabaseLogsinkOpensearch#cluster_id}
         /// </remarks>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterId
@@ -22,7 +22,7 @@ namespace digitalocean.DatabaseLogsinkOpensearch
 
         /// <summary>HTTPS URL to OpenSearch (https://host:port).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_logsink_opensearch#endpoint DatabaseLogsinkOpensearch#endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_logsink_opensearch#endpoint DatabaseLogsinkOpensearch#endpoint}
         /// </remarks>
         [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string Endpoint
@@ -33,7 +33,7 @@ namespace digitalocean.DatabaseLogsinkOpensearch
 
         /// <summary>Prefix for OpenSearch indices.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_logsink_opensearch#index_prefix DatabaseLogsinkOpensearch#index_prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_logsink_opensearch#index_prefix DatabaseLogsinkOpensearch#index_prefix}
         /// </remarks>
         [JsiiProperty(name: "indexPrefix", typeJson: "{\"primitive\":\"string\"}")]
         public string IndexPrefix
@@ -44,7 +44,7 @@ namespace digitalocean.DatabaseLogsinkOpensearch
 
         /// <summary>Display name for the logsink.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_logsink_opensearch#name DatabaseLogsinkOpensearch#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_logsink_opensearch#name DatabaseLogsinkOpensearch#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -55,7 +55,7 @@ namespace digitalocean.DatabaseLogsinkOpensearch
 
         /// <summary>CA certificate for TLS verification (PEM format).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_logsink_opensearch#ca_cert DatabaseLogsinkOpensearch#ca_cert}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_logsink_opensearch#ca_cert DatabaseLogsinkOpensearch#ca_cert}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "caCert", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace digitalocean.DatabaseLogsinkOpensearch
 
         /// <summary>Maximum number of days to retain indices (&gt;= 1).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_logsink_opensearch#index_days_max DatabaseLogsinkOpensearch#index_days_max}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_logsink_opensearch#index_days_max DatabaseLogsinkOpensearch#index_days_max}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "indexDaysMax", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace digitalocean.DatabaseLogsinkOpensearch
 
         /// <summary>Request timeout for log deliveries in seconds (&gt;= 1).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_logsink_opensearch#timeout_seconds DatabaseLogsinkOpensearch#timeout_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_logsink_opensearch#timeout_seconds DatabaseLogsinkOpensearch#timeout_seconds}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

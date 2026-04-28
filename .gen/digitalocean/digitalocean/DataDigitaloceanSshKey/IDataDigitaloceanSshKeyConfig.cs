@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanSshKey
     {
         /// <summary>name of the ssh key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/ssh_key#name DataDigitaloceanSshKey#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/ssh_key#name DataDigitaloceanSshKey#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -26,7 +26,7 @@ namespace digitalocean.DataDigitaloceanSshKey
 
             /// <summary>name of the ssh key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/ssh_key#name DataDigitaloceanSshKey#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/ssh_key#name DataDigitaloceanSshKey#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name

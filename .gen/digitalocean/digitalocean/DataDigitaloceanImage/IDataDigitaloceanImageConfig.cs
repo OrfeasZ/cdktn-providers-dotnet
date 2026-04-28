@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanImage
     {
         /// <summary>id of the image.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/image#id DataDigitaloceanImage#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/image#id DataDigitaloceanImage#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -26,7 +26,7 @@ namespace digitalocean.DataDigitaloceanImage
 
         /// <summary>name of the image.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/image#name DataDigitaloceanImage#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/image#name DataDigitaloceanImage#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace digitalocean.DataDigitaloceanImage
 
         /// <summary>slug of the image.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/image#slug DataDigitaloceanImage#slug}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/image#slug DataDigitaloceanImage#slug}
         /// </remarks>
         [JsiiProperty(name: "slug", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace digitalocean.DataDigitaloceanImage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/image#source DataDigitaloceanImage#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/image#source DataDigitaloceanImage#source}.</summary>
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Source
@@ -72,7 +72,7 @@ namespace digitalocean.DataDigitaloceanImage
 
             /// <summary>id of the image.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/image#id DataDigitaloceanImage#id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/image#id DataDigitaloceanImage#id}
             ///
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -86,7 +86,7 @@ namespace digitalocean.DataDigitaloceanImage
 
             /// <summary>name of the image.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/image#name DataDigitaloceanImage#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/image#name DataDigitaloceanImage#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace digitalocean.DataDigitaloceanImage
 
             /// <summary>slug of the image.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/image#slug DataDigitaloceanImage#slug}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/image#slug DataDigitaloceanImage#slug}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "slug", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -106,7 +106,7 @@ namespace digitalocean.DataDigitaloceanImage
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/image#source DataDigitaloceanImage#source}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/image#source DataDigitaloceanImage#source}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Source

@@ -11,7 +11,7 @@ namespace digitalocean.App
         /// <remarks>
         /// Selecting a container instance for termination begins an asynchronous drain of new requests on upstream load-balancers. Default: 15 seconds, Minimum 1, Maximum 110.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#drain_seconds App#drain_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#drain_seconds App#drain_seconds}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "drainSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -25,7 +25,7 @@ namespace digitalocean.App
         /// <remarks>
         /// Default: 120, Minimum 1, Maximum 600.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#grace_period_seconds App#grace_period_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#grace_period_seconds App#grace_period_seconds}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "gracePeriodSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

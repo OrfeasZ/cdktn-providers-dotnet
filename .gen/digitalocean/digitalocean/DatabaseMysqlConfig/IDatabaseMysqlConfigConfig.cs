@@ -7,14 +7,14 @@ namespace digitalocean.DatabaseMysqlConfig
     [JsiiInterface(nativeType: typeof(IDatabaseMysqlConfigConfig), fullyQualifiedName: "digitalocean.databaseMysqlConfig.DatabaseMysqlConfigConfig")]
     public interface IDatabaseMysqlConfigConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#cluster_id DatabaseMysqlConfig#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#cluster_id DatabaseMysqlConfig#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         string ClusterId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#backup_hour DatabaseMysqlConfig#backup_hour}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#backup_hour DatabaseMysqlConfig#backup_hour}.</summary>
         [JsiiProperty(name: "backupHour", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BackupHour
@@ -25,7 +25,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#backup_minute DatabaseMysqlConfig#backup_minute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#backup_minute DatabaseMysqlConfig#backup_minute}.</summary>
         [JsiiProperty(name: "backupMinute", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BackupMinute
@@ -36,7 +36,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#binlog_retention_period DatabaseMysqlConfig#binlog_retention_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#binlog_retention_period DatabaseMysqlConfig#binlog_retention_period}.</summary>
         [JsiiProperty(name: "binlogRetentionPeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BinlogRetentionPeriod
@@ -47,7 +47,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#connect_timeout DatabaseMysqlConfig#connect_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#connect_timeout DatabaseMysqlConfig#connect_timeout}.</summary>
         [JsiiProperty(name: "connectTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ConnectTimeout
@@ -58,7 +58,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#default_time_zone DatabaseMysqlConfig#default_time_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#default_time_zone DatabaseMysqlConfig#default_time_zone}.</summary>
         [JsiiProperty(name: "defaultTimeZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DefaultTimeZone
@@ -69,7 +69,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#group_concat_max_len DatabaseMysqlConfig#group_concat_max_len}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#group_concat_max_len DatabaseMysqlConfig#group_concat_max_len}.</summary>
         [JsiiProperty(name: "groupConcatMaxLen", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? GroupConcatMaxLen
@@ -80,7 +80,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#id DatabaseMysqlConfig#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#id DatabaseMysqlConfig#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,7 +95,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#information_schema_stats_expiry DatabaseMysqlConfig#information_schema_stats_expiry}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#information_schema_stats_expiry DatabaseMysqlConfig#information_schema_stats_expiry}.</summary>
         [JsiiProperty(name: "informationSchemaStatsExpiry", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InformationSchemaStatsExpiry
@@ -106,7 +106,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#innodb_ft_min_token_size DatabaseMysqlConfig#innodb_ft_min_token_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#innodb_ft_min_token_size DatabaseMysqlConfig#innodb_ft_min_token_size}.</summary>
         [JsiiProperty(name: "innodbFtMinTokenSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InnodbFtMinTokenSize
@@ -117,7 +117,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#innodb_ft_server_stopword_table DatabaseMysqlConfig#innodb_ft_server_stopword_table}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#innodb_ft_server_stopword_table DatabaseMysqlConfig#innodb_ft_server_stopword_table}.</summary>
         [JsiiProperty(name: "innodbFtServerStopwordTable", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InnodbFtServerStopwordTable
@@ -128,7 +128,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#innodb_lock_wait_timeout DatabaseMysqlConfig#innodb_lock_wait_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#innodb_lock_wait_timeout DatabaseMysqlConfig#innodb_lock_wait_timeout}.</summary>
         [JsiiProperty(name: "innodbLockWaitTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InnodbLockWaitTimeout
@@ -139,7 +139,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#innodb_log_buffer_size DatabaseMysqlConfig#innodb_log_buffer_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#innodb_log_buffer_size DatabaseMysqlConfig#innodb_log_buffer_size}.</summary>
         [JsiiProperty(name: "innodbLogBufferSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InnodbLogBufferSize
@@ -150,7 +150,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#innodb_online_alter_log_max_size DatabaseMysqlConfig#innodb_online_alter_log_max_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#innodb_online_alter_log_max_size DatabaseMysqlConfig#innodb_online_alter_log_max_size}.</summary>
         [JsiiProperty(name: "innodbOnlineAlterLogMaxSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InnodbOnlineAlterLogMaxSize
@@ -161,7 +161,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#innodb_print_all_deadlocks DatabaseMysqlConfig#innodb_print_all_deadlocks}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#innodb_print_all_deadlocks DatabaseMysqlConfig#innodb_print_all_deadlocks}.</summary>
         [JsiiProperty(name: "innodbPrintAllDeadlocks", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? InnodbPrintAllDeadlocks
@@ -172,7 +172,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#innodb_rollback_on_timeout DatabaseMysqlConfig#innodb_rollback_on_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#innodb_rollback_on_timeout DatabaseMysqlConfig#innodb_rollback_on_timeout}.</summary>
         [JsiiProperty(name: "innodbRollbackOnTimeout", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? InnodbRollbackOnTimeout
@@ -183,7 +183,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#interactive_timeout DatabaseMysqlConfig#interactive_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#interactive_timeout DatabaseMysqlConfig#interactive_timeout}.</summary>
         [JsiiProperty(name: "interactiveTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InteractiveTimeout
@@ -194,7 +194,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#internal_tmp_mem_storage_engine DatabaseMysqlConfig#internal_tmp_mem_storage_engine}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#internal_tmp_mem_storage_engine DatabaseMysqlConfig#internal_tmp_mem_storage_engine}.</summary>
         [JsiiProperty(name: "internalTmpMemStorageEngine", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InternalTmpMemStorageEngine
@@ -205,7 +205,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#long_query_time DatabaseMysqlConfig#long_query_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#long_query_time DatabaseMysqlConfig#long_query_time}.</summary>
         [JsiiProperty(name: "longQueryTime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? LongQueryTime
@@ -216,7 +216,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#max_allowed_packet DatabaseMysqlConfig#max_allowed_packet}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#max_allowed_packet DatabaseMysqlConfig#max_allowed_packet}.</summary>
         [JsiiProperty(name: "maxAllowedPacket", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxAllowedPacket
@@ -227,7 +227,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#max_heap_table_size DatabaseMysqlConfig#max_heap_table_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#max_heap_table_size DatabaseMysqlConfig#max_heap_table_size}.</summary>
         [JsiiProperty(name: "maxHeapTableSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxHeapTableSize
@@ -238,7 +238,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#net_read_timeout DatabaseMysqlConfig#net_read_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#net_read_timeout DatabaseMysqlConfig#net_read_timeout}.</summary>
         [JsiiProperty(name: "netReadTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? NetReadTimeout
@@ -249,7 +249,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#net_write_timeout DatabaseMysqlConfig#net_write_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#net_write_timeout DatabaseMysqlConfig#net_write_timeout}.</summary>
         [JsiiProperty(name: "netWriteTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? NetWriteTimeout
@@ -260,7 +260,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#slow_query_log DatabaseMysqlConfig#slow_query_log}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#slow_query_log DatabaseMysqlConfig#slow_query_log}.</summary>
         [JsiiProperty(name: "slowQueryLog", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? SlowQueryLog
@@ -271,7 +271,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#sort_buffer_size DatabaseMysqlConfig#sort_buffer_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#sort_buffer_size DatabaseMysqlConfig#sort_buffer_size}.</summary>
         [JsiiProperty(name: "sortBufferSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? SortBufferSize
@@ -282,7 +282,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#sql_mode DatabaseMysqlConfig#sql_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#sql_mode DatabaseMysqlConfig#sql_mode}.</summary>
         [JsiiProperty(name: "sqlMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SqlMode
@@ -293,7 +293,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#sql_require_primary_key DatabaseMysqlConfig#sql_require_primary_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#sql_require_primary_key DatabaseMysqlConfig#sql_require_primary_key}.</summary>
         [JsiiProperty(name: "sqlRequirePrimaryKey", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? SqlRequirePrimaryKey
@@ -304,7 +304,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#tmp_table_size DatabaseMysqlConfig#tmp_table_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#tmp_table_size DatabaseMysqlConfig#tmp_table_size}.</summary>
         [JsiiProperty(name: "tmpTableSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TmpTableSize
@@ -315,7 +315,7 @@ namespace digitalocean.DatabaseMysqlConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#wait_timeout DatabaseMysqlConfig#wait_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#wait_timeout DatabaseMysqlConfig#wait_timeout}.</summary>
         [JsiiProperty(name: "waitTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? WaitTimeout
@@ -333,14 +333,14 @@ namespace digitalocean.DatabaseMysqlConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#cluster_id DatabaseMysqlConfig#cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#cluster_id DatabaseMysqlConfig#cluster_id}.</summary>
             [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
             public string ClusterId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#backup_hour DatabaseMysqlConfig#backup_hour}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#backup_hour DatabaseMysqlConfig#backup_hour}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "backupHour", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BackupHour
@@ -348,7 +348,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#backup_minute DatabaseMysqlConfig#backup_minute}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#backup_minute DatabaseMysqlConfig#backup_minute}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "backupMinute", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BackupMinute
@@ -356,7 +356,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#binlog_retention_period DatabaseMysqlConfig#binlog_retention_period}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#binlog_retention_period DatabaseMysqlConfig#binlog_retention_period}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "binlogRetentionPeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BinlogRetentionPeriod
@@ -364,7 +364,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#connect_timeout DatabaseMysqlConfig#connect_timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#connect_timeout DatabaseMysqlConfig#connect_timeout}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "connectTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ConnectTimeout
@@ -372,7 +372,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#default_time_zone DatabaseMysqlConfig#default_time_zone}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#default_time_zone DatabaseMysqlConfig#default_time_zone}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "defaultTimeZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DefaultTimeZone
@@ -380,7 +380,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#group_concat_max_len DatabaseMysqlConfig#group_concat_max_len}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#group_concat_max_len DatabaseMysqlConfig#group_concat_max_len}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "groupConcatMaxLen", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? GroupConcatMaxLen
@@ -388,7 +388,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#id DatabaseMysqlConfig#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#id DatabaseMysqlConfig#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -400,7 +400,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#information_schema_stats_expiry DatabaseMysqlConfig#information_schema_stats_expiry}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#information_schema_stats_expiry DatabaseMysqlConfig#information_schema_stats_expiry}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "informationSchemaStatsExpiry", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InformationSchemaStatsExpiry
@@ -408,7 +408,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#innodb_ft_min_token_size DatabaseMysqlConfig#innodb_ft_min_token_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#innodb_ft_min_token_size DatabaseMysqlConfig#innodb_ft_min_token_size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "innodbFtMinTokenSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InnodbFtMinTokenSize
@@ -416,7 +416,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#innodb_ft_server_stopword_table DatabaseMysqlConfig#innodb_ft_server_stopword_table}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#innodb_ft_server_stopword_table DatabaseMysqlConfig#innodb_ft_server_stopword_table}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "innodbFtServerStopwordTable", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InnodbFtServerStopwordTable
@@ -424,7 +424,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#innodb_lock_wait_timeout DatabaseMysqlConfig#innodb_lock_wait_timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#innodb_lock_wait_timeout DatabaseMysqlConfig#innodb_lock_wait_timeout}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "innodbLockWaitTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InnodbLockWaitTimeout
@@ -432,7 +432,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#innodb_log_buffer_size DatabaseMysqlConfig#innodb_log_buffer_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#innodb_log_buffer_size DatabaseMysqlConfig#innodb_log_buffer_size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "innodbLogBufferSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InnodbLogBufferSize
@@ -440,7 +440,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#innodb_online_alter_log_max_size DatabaseMysqlConfig#innodb_online_alter_log_max_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#innodb_online_alter_log_max_size DatabaseMysqlConfig#innodb_online_alter_log_max_size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "innodbOnlineAlterLogMaxSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InnodbOnlineAlterLogMaxSize
@@ -448,7 +448,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#innodb_print_all_deadlocks DatabaseMysqlConfig#innodb_print_all_deadlocks}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#innodb_print_all_deadlocks DatabaseMysqlConfig#innodb_print_all_deadlocks}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "innodbPrintAllDeadlocks", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? InnodbPrintAllDeadlocks
@@ -456,7 +456,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#innodb_rollback_on_timeout DatabaseMysqlConfig#innodb_rollback_on_timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#innodb_rollback_on_timeout DatabaseMysqlConfig#innodb_rollback_on_timeout}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "innodbRollbackOnTimeout", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? InnodbRollbackOnTimeout
@@ -464,7 +464,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#interactive_timeout DatabaseMysqlConfig#interactive_timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#interactive_timeout DatabaseMysqlConfig#interactive_timeout}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "interactiveTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InteractiveTimeout
@@ -472,7 +472,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#internal_tmp_mem_storage_engine DatabaseMysqlConfig#internal_tmp_mem_storage_engine}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#internal_tmp_mem_storage_engine DatabaseMysqlConfig#internal_tmp_mem_storage_engine}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "internalTmpMemStorageEngine", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InternalTmpMemStorageEngine
@@ -480,7 +480,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#long_query_time DatabaseMysqlConfig#long_query_time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#long_query_time DatabaseMysqlConfig#long_query_time}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "longQueryTime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? LongQueryTime
@@ -488,7 +488,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#max_allowed_packet DatabaseMysqlConfig#max_allowed_packet}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#max_allowed_packet DatabaseMysqlConfig#max_allowed_packet}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxAllowedPacket", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxAllowedPacket
@@ -496,7 +496,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#max_heap_table_size DatabaseMysqlConfig#max_heap_table_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#max_heap_table_size DatabaseMysqlConfig#max_heap_table_size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxHeapTableSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxHeapTableSize
@@ -504,7 +504,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#net_read_timeout DatabaseMysqlConfig#net_read_timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#net_read_timeout DatabaseMysqlConfig#net_read_timeout}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "netReadTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? NetReadTimeout
@@ -512,7 +512,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#net_write_timeout DatabaseMysqlConfig#net_write_timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#net_write_timeout DatabaseMysqlConfig#net_write_timeout}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "netWriteTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? NetWriteTimeout
@@ -520,7 +520,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#slow_query_log DatabaseMysqlConfig#slow_query_log}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#slow_query_log DatabaseMysqlConfig#slow_query_log}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "slowQueryLog", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? SlowQueryLog
@@ -528,7 +528,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#sort_buffer_size DatabaseMysqlConfig#sort_buffer_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#sort_buffer_size DatabaseMysqlConfig#sort_buffer_size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sortBufferSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? SortBufferSize
@@ -536,7 +536,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#sql_mode DatabaseMysqlConfig#sql_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#sql_mode DatabaseMysqlConfig#sql_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sqlMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SqlMode
@@ -544,7 +544,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#sql_require_primary_key DatabaseMysqlConfig#sql_require_primary_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#sql_require_primary_key DatabaseMysqlConfig#sql_require_primary_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sqlRequirePrimaryKey", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? SqlRequirePrimaryKey
@@ -552,7 +552,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#tmp_table_size DatabaseMysqlConfig#tmp_table_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#tmp_table_size DatabaseMysqlConfig#tmp_table_size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tmpTableSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TmpTableSize
@@ -560,7 +560,7 @@ namespace digitalocean.DatabaseMysqlConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mysql_config#wait_timeout DatabaseMysqlConfig#wait_timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mysql_config#wait_timeout DatabaseMysqlConfig#wait_timeout}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "waitTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? WaitTimeout

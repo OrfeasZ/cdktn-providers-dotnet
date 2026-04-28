@@ -7,28 +7,28 @@ namespace digitalocean.KubernetesNodePool
     [JsiiInterface(nativeType: typeof(IKubernetesNodePoolConfig), fullyQualifiedName: "digitalocean.kubernetesNodePool.KubernetesNodePoolConfig")]
     public interface IKubernetesNodePoolConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#cluster_id KubernetesNodePool#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#cluster_id KubernetesNodePool#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         string ClusterId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#name KubernetesNodePool#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#name KubernetesNodePool#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#size KubernetesNodePool#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#size KubernetesNodePool#size}.</summary>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"string\"}")]
         string Size
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#auto_scale KubernetesNodePool#auto_scale}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#auto_scale KubernetesNodePool#auto_scale}.</summary>
         [JsiiProperty(name: "autoScale", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? AutoScale
@@ -39,7 +39,7 @@ namespace digitalocean.KubernetesNodePool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#id KubernetesNodePool#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#id KubernetesNodePool#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,7 +54,7 @@ namespace digitalocean.KubernetesNodePool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#labels KubernetesNodePool#labels}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#labels KubernetesNodePool#labels}.</summary>
         [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Labels
@@ -65,7 +65,7 @@ namespace digitalocean.KubernetesNodePool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#max_nodes KubernetesNodePool#max_nodes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#max_nodes KubernetesNodePool#max_nodes}.</summary>
         [JsiiProperty(name: "maxNodes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxNodes
@@ -76,7 +76,7 @@ namespace digitalocean.KubernetesNodePool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#min_nodes KubernetesNodePool#min_nodes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#min_nodes KubernetesNodePool#min_nodes}.</summary>
         [JsiiProperty(name: "minNodes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MinNodes
@@ -87,7 +87,7 @@ namespace digitalocean.KubernetesNodePool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#node_count KubernetesNodePool#node_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#node_count KubernetesNodePool#node_count}.</summary>
         [JsiiProperty(name: "nodeCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? NodeCount
@@ -98,7 +98,7 @@ namespace digitalocean.KubernetesNodePool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#tags KubernetesNodePool#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#tags KubernetesNodePool#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Tags
@@ -111,7 +111,7 @@ namespace digitalocean.KubernetesNodePool
 
         /// <summary>taint block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#taint KubernetesNodePool#taint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#taint KubernetesNodePool#taint}
         /// </remarks>
         [JsiiProperty(name: "taint", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.kubernetesNodePool.KubernetesNodePoolTaint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -125,7 +125,7 @@ namespace digitalocean.KubernetesNodePool
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#timeouts KubernetesNodePool#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#timeouts KubernetesNodePool#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"digitalocean.kubernetesNodePool.KubernetesNodePoolTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -144,28 +144,28 @@ namespace digitalocean.KubernetesNodePool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#cluster_id KubernetesNodePool#cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#cluster_id KubernetesNodePool#cluster_id}.</summary>
             [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
             public string ClusterId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#name KubernetesNodePool#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#name KubernetesNodePool#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#size KubernetesNodePool#size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#size KubernetesNodePool#size}.</summary>
             [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"string\"}")]
             public string Size
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#auto_scale KubernetesNodePool#auto_scale}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#auto_scale KubernetesNodePool#auto_scale}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autoScale", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? AutoScale
@@ -173,7 +173,7 @@ namespace digitalocean.KubernetesNodePool
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#id KubernetesNodePool#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#id KubernetesNodePool#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -185,7 +185,7 @@ namespace digitalocean.KubernetesNodePool
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#labels KubernetesNodePool#labels}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#labels KubernetesNodePool#labels}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Labels
@@ -193,7 +193,7 @@ namespace digitalocean.KubernetesNodePool
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#max_nodes KubernetesNodePool#max_nodes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#max_nodes KubernetesNodePool#max_nodes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxNodes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxNodes
@@ -201,7 +201,7 @@ namespace digitalocean.KubernetesNodePool
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#min_nodes KubernetesNodePool#min_nodes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#min_nodes KubernetesNodePool#min_nodes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "minNodes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MinNodes
@@ -209,7 +209,7 @@ namespace digitalocean.KubernetesNodePool
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#node_count KubernetesNodePool#node_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#node_count KubernetesNodePool#node_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nodeCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? NodeCount
@@ -217,7 +217,7 @@ namespace digitalocean.KubernetesNodePool
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#tags KubernetesNodePool#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#tags KubernetesNodePool#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Tags
@@ -227,7 +227,7 @@ namespace digitalocean.KubernetesNodePool
 
             /// <summary>taint block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#taint KubernetesNodePool#taint}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#taint KubernetesNodePool#taint}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "taint", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.kubernetesNodePool.KubernetesNodePoolTaint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -238,7 +238,7 @@ namespace digitalocean.KubernetesNodePool
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/kubernetes_node_pool#timeouts KubernetesNodePool#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/kubernetes_node_pool#timeouts KubernetesNodePool#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"digitalocean.kubernetesNodePool.KubernetesNodePoolTimeouts\"}", isOptional: true)]

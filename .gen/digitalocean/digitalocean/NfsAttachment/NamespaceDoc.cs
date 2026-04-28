@@ -5,7 +5,7 @@ namespace digitalocean.NfsAttachment
     /// <remarks>
     /// <h1><c>digitalocean_nfs_attachment</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/nfs_attachment"><c>digitalocean_nfs_attachment</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/nfs_attachment"><c>digitalocean_nfs_attachment</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

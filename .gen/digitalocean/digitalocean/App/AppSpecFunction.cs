@@ -11,7 +11,7 @@ namespace digitalocean.App
     {
         /// <summary>The name of the component.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#name App#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#name App#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -24,7 +24,7 @@ namespace digitalocean.App
 
         /// <summary>alert block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#alert App#alert}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#alert App#alert}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "alert", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecFunctionAlert\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace digitalocean.App
 
         /// <summary>bitbucket block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#bitbucket App#bitbucket}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#bitbucket App#bitbucket}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bitbucket", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecFunctionBitbucket\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace digitalocean.App
 
         /// <summary>cors block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#cors App#cors}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#cors App#cors}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cors", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecFunctionCors\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace digitalocean.App
 
         /// <summary>env block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#env App#env}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#env App#env}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "env", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecFunctionEnv\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -114,7 +114,7 @@ namespace digitalocean.App
 
         /// <summary>git block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#git App#git}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#git App#git}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "git", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecFunctionGit\"}", isOptional: true)]
@@ -126,7 +126,7 @@ namespace digitalocean.App
 
         /// <summary>github block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#github App#github}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#github App#github}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "github", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecFunctionGithub\"}", isOptional: true)]
@@ -138,7 +138,7 @@ namespace digitalocean.App
 
         /// <summary>gitlab block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#gitlab App#gitlab}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#gitlab App#gitlab}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "gitlab", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecFunctionGitlab\"}", isOptional: true)]
@@ -152,7 +152,7 @@ namespace digitalocean.App
 
         /// <summary>log_destination block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#log_destination App#log_destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#log_destination App#log_destination}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logDestination", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecFunctionLogDestination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -186,7 +186,7 @@ namespace digitalocean.App
 
         /// <summary>routes block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#routes App#routes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#routes App#routes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "routes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecFunctionRoutes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -218,7 +218,7 @@ namespace digitalocean.App
 
         /// <summary>An optional path to the working directory to use for the build.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#source_dir App#source_dir}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#source_dir App#source_dir}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceDir", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

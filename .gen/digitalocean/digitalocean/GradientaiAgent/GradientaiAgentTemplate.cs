@@ -9,7 +9,7 @@ namespace digitalocean.GradientaiAgent
     {
         /// <summary>Description of the Agent Template.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_agent#description GradientaiAgent#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_agent#description GradientaiAgent#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace digitalocean.GradientaiAgent
 
         /// <summary>Instruction for the Agent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_agent#instruction GradientaiAgent#instruction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_agent#instruction GradientaiAgent#instruction}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "instruction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace digitalocean.GradientaiAgent
 
         /// <summary>K value for the Agent Template.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_agent#k GradientaiAgent#k}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_agent#k GradientaiAgent#k}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "k", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace digitalocean.GradientaiAgent
 
         /// <summary>knowledge_bases block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_agent#knowledge_bases GradientaiAgent#knowledge_bases}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_agent#knowledge_bases GradientaiAgent#knowledge_bases}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "knowledgeBases", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentTemplateKnowledgeBases\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace digitalocean.GradientaiAgent
 
         /// <summary>Maximum tokens allowed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_agent#max_tokens GradientaiAgent#max_tokens}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_agent#max_tokens GradientaiAgent#max_tokens}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxTokens", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -93,7 +93,7 @@ namespace digitalocean.GradientaiAgent
 
         /// <summary>model block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_agent#model GradientaiAgent#model}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_agent#model GradientaiAgent#model}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "model", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentTemplateModel\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -125,7 +125,7 @@ namespace digitalocean.GradientaiAgent
 
         /// <summary>Name of the Agent Template.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_agent#name GradientaiAgent#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_agent#name GradientaiAgent#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -137,7 +137,7 @@ namespace digitalocean.GradientaiAgent
 
         /// <summary>Agent temperature setting.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_agent#temperature GradientaiAgent#temperature}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_agent#temperature GradientaiAgent#temperature}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "temperature", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -149,7 +149,7 @@ namespace digitalocean.GradientaiAgent
 
         /// <summary>Top P sampling parameter.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_agent#top_p GradientaiAgent#top_p}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_agent#top_p GradientaiAgent#top_p}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "topP", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -161,7 +161,7 @@ namespace digitalocean.GradientaiAgent
 
         /// <summary>uuid of the Agent Template.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_agent#uuid GradientaiAgent#uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_agent#uuid GradientaiAgent#uuid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "uuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -7,21 +7,21 @@ namespace digitalocean.ReservedIpAssignment
     [JsiiInterface(nativeType: typeof(IReservedIpAssignmentConfig), fullyQualifiedName: "digitalocean.reservedIpAssignment.ReservedIpAssignmentConfig")]
     public interface IReservedIpAssignmentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/reserved_ip_assignment#droplet_id ReservedIpAssignment#droplet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/reserved_ip_assignment#droplet_id ReservedIpAssignment#droplet_id}.</summary>
         [JsiiProperty(name: "dropletId", typeJson: "{\"primitive\":\"number\"}")]
         double DropletId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/reserved_ip_assignment#ip_address ReservedIpAssignment#ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/reserved_ip_assignment#ip_address ReservedIpAssignment#ip_address}.</summary>
         [JsiiProperty(name: "ipAddress", typeJson: "{\"primitive\":\"string\"}")]
         string IpAddress
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/reserved_ip_assignment#id ReservedIpAssignment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/reserved_ip_assignment#id ReservedIpAssignment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,21 +43,21 @@ namespace digitalocean.ReservedIpAssignment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/reserved_ip_assignment#droplet_id ReservedIpAssignment#droplet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/reserved_ip_assignment#droplet_id ReservedIpAssignment#droplet_id}.</summary>
             [JsiiProperty(name: "dropletId", typeJson: "{\"primitive\":\"number\"}")]
             public double DropletId
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/reserved_ip_assignment#ip_address ReservedIpAssignment#ip_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/reserved_ip_assignment#ip_address ReservedIpAssignment#ip_address}.</summary>
             [JsiiProperty(name: "ipAddress", typeJson: "{\"primitive\":\"string\"}")]
             public string IpAddress
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/reserved_ip_assignment#id ReservedIpAssignment#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/reserved_ip_assignment#id ReservedIpAssignment#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

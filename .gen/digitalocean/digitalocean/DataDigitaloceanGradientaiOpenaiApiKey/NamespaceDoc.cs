@@ -5,7 +5,7 @@ namespace digitalocean.DataDigitaloceanGradientaiOpenaiApiKey
     /// <remarks>
     /// <h1><c>data_digitalocean_gradientai_openai_api_key</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_openai_api_key"><c>data_digitalocean_gradientai_openai_api_key</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_openai_api_key"><c>data_digitalocean_gradientai_openai_api_key</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

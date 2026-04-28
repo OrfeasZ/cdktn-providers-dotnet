@@ -9,7 +9,7 @@ namespace digitalocean.GradientaiKnowledgeBaseDataSource
     {
         /// <summary>The base URL to crawl.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_knowledge_base_data_source#base_url GradientaiKnowledgeBaseDataSource#base_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_knowledge_base_data_source#base_url GradientaiKnowledgeBaseDataSource#base_url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "baseUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace digitalocean.GradientaiKnowledgeBaseDataSource
         /// <description>SUBDOMAINS: Crawl the base URL and linked pages for any subdomain.</description>
         /// </list>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_knowledge_base_data_source#crawling_option GradientaiKnowledgeBaseDataSource#crawling_option}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_knowledge_base_data_source#crawling_option GradientaiKnowledgeBaseDataSource#crawling_option}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "crawlingOption", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace digitalocean.GradientaiKnowledgeBaseDataSource
 
         /// <summary>Whether to embed media content.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_knowledge_base_data_source#embed_media GradientaiKnowledgeBaseDataSource#embed_media}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_knowledge_base_data_source#embed_media GradientaiKnowledgeBaseDataSource#embed_media}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "embedMedia", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

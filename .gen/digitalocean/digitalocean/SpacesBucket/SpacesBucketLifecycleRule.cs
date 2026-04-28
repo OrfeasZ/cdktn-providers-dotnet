@@ -11,7 +11,7 @@ namespace digitalocean.SpacesBucket
     {
         private object _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket#enabled SpacesBucket#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket#enabled SpacesBucket#enabled}.</summary>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object Enabled
         {
@@ -39,7 +39,7 @@ namespace digitalocean.SpacesBucket
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket#abort_incomplete_multipart_upload_days SpacesBucket#abort_incomplete_multipart_upload_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket#abort_incomplete_multipart_upload_days SpacesBucket#abort_incomplete_multipart_upload_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "abortIncompleteMultipartUploadDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? AbortIncompleteMultipartUploadDays
@@ -50,7 +50,7 @@ namespace digitalocean.SpacesBucket
 
         /// <summary>expiration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket#expiration SpacesBucket#expiration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket#expiration SpacesBucket#expiration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "expiration", typeJson: "{\"fqn\":\"digitalocean.spacesBucket.SpacesBucketLifecycleRuleExpiration\"}", isOptional: true)]
@@ -60,7 +60,7 @@ namespace digitalocean.SpacesBucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket#id SpacesBucket#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket#id SpacesBucket#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,7 +75,7 @@ namespace digitalocean.SpacesBucket
 
         /// <summary>noncurrent_version_expiration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket#noncurrent_version_expiration SpacesBucket#noncurrent_version_expiration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket#noncurrent_version_expiration SpacesBucket#noncurrent_version_expiration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "noncurrentVersionExpiration", typeJson: "{\"fqn\":\"digitalocean.spacesBucket.SpacesBucketLifecycleRuleNoncurrentVersionExpiration\"}", isOptional: true)]
@@ -85,7 +85,7 @@ namespace digitalocean.SpacesBucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/spaces_bucket#prefix SpacesBucket#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/spaces_bucket#prefix SpacesBucket#prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Prefix

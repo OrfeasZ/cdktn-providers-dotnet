@@ -9,7 +9,7 @@ namespace digitalocean.DatabaseKafkaSchemaRegistry
     [JsiiByValue(fqn: "digitalocean.databaseKafkaSchemaRegistry.DatabaseKafkaSchemaRegistryConfig")]
     public class DatabaseKafkaSchemaRegistryConfig : digitalocean.DatabaseKafkaSchemaRegistry.IDatabaseKafkaSchemaRegistryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_schema_registry#cluster_id DatabaseKafkaSchemaRegistry#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_schema_registry#cluster_id DatabaseKafkaSchemaRegistry#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterId
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DatabaseKafkaSchemaRegistry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_schema_registry#schema DatabaseKafkaSchemaRegistry#schema}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_schema_registry#schema DatabaseKafkaSchemaRegistry#schema}.</summary>
         [JsiiProperty(name: "schema", typeJson: "{\"primitive\":\"string\"}")]
         public string Schema
         {
@@ -25,7 +25,7 @@ namespace digitalocean.DatabaseKafkaSchemaRegistry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_schema_registry#schema_type DatabaseKafkaSchemaRegistry#schema_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_schema_registry#schema_type DatabaseKafkaSchemaRegistry#schema_type}.</summary>
         [JsiiProperty(name: "schemaType", typeJson: "{\"primitive\":\"string\"}")]
         public string SchemaType
         {
@@ -33,7 +33,7 @@ namespace digitalocean.DatabaseKafkaSchemaRegistry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_schema_registry#subject_name DatabaseKafkaSchemaRegistry#subject_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_schema_registry#subject_name DatabaseKafkaSchemaRegistry#subject_name}.</summary>
         [JsiiProperty(name: "subjectName", typeJson: "{\"primitive\":\"string\"}")]
         public string SubjectName
         {
@@ -41,7 +41,7 @@ namespace digitalocean.DatabaseKafkaSchemaRegistry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_schema_registry#id DatabaseKafkaSchemaRegistry#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_schema_registry#id DatabaseKafkaSchemaRegistry#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

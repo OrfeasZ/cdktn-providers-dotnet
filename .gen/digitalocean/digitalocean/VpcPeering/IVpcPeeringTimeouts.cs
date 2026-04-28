@@ -7,7 +7,7 @@ namespace digitalocean.VpcPeering
     [JsiiInterface(nativeType: typeof(IVpcPeeringTimeouts), fullyQualifiedName: "digitalocean.vpcPeering.VpcPeeringTimeouts")]
     public interface IVpcPeeringTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/vpc_peering#create VpcPeering#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/vpc_peering#create VpcPeering#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace digitalocean.VpcPeering
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/vpc_peering#delete VpcPeering#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/vpc_peering#delete VpcPeering#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -36,7 +36,7 @@ namespace digitalocean.VpcPeering
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/vpc_peering#create VpcPeering#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/vpc_peering#create VpcPeering#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -44,7 +44,7 @@ namespace digitalocean.VpcPeering
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/vpc_peering#delete VpcPeering#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/vpc_peering#delete VpcPeering#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete

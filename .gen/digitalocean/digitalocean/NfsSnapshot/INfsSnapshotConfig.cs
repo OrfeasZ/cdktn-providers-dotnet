@@ -7,28 +7,28 @@ namespace digitalocean.NfsSnapshot
     [JsiiInterface(nativeType: typeof(INfsSnapshotConfig), fullyQualifiedName: "digitalocean.nfsSnapshot.NfsSnapshotConfig")]
     public interface INfsSnapshotConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/nfs_snapshot#name NfsSnapshot#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/nfs_snapshot#name NfsSnapshot#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/nfs_snapshot#region NfsSnapshot#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/nfs_snapshot#region NfsSnapshot#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         string Region
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/nfs_snapshot#share_id NfsSnapshot#share_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/nfs_snapshot#share_id NfsSnapshot#share_id}.</summary>
         [JsiiProperty(name: "shareId", typeJson: "{\"primitive\":\"string\"}")]
         string ShareId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/nfs_snapshot#id NfsSnapshot#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/nfs_snapshot#id NfsSnapshot#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,28 +50,28 @@ namespace digitalocean.NfsSnapshot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/nfs_snapshot#name NfsSnapshot#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/nfs_snapshot#name NfsSnapshot#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/nfs_snapshot#region NfsSnapshot#region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/nfs_snapshot#region NfsSnapshot#region}.</summary>
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
             public string Region
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/nfs_snapshot#share_id NfsSnapshot#share_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/nfs_snapshot#share_id NfsSnapshot#share_id}.</summary>
             [JsiiProperty(name: "shareId", typeJson: "{\"primitive\":\"string\"}")]
             public string ShareId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/nfs_snapshot#id NfsSnapshot#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/nfs_snapshot#id NfsSnapshot#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

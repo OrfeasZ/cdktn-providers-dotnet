@@ -7,7 +7,7 @@ namespace digitalocean.DataDigitaloceanVpc
     [JsiiInterface(nativeType: typeof(IDataDigitaloceanVpcConfig), fullyQualifiedName: "digitalocean.dataDigitaloceanVpc.DataDigitaloceanVpcConfig")]
     public interface IDataDigitaloceanVpcConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/vpc#id DataDigitaloceanVpc#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/vpc#id DataDigitaloceanVpc#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace digitalocean.DataDigitaloceanVpc
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/vpc#name DataDigitaloceanVpc#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/vpc#name DataDigitaloceanVpc#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -33,7 +33,7 @@ namespace digitalocean.DataDigitaloceanVpc
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/vpc#region DataDigitaloceanVpc#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/vpc#region DataDigitaloceanVpc#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Region
@@ -51,7 +51,7 @@ namespace digitalocean.DataDigitaloceanVpc
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/vpc#id DataDigitaloceanVpc#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/vpc#id DataDigitaloceanVpc#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,7 +63,7 @@ namespace digitalocean.DataDigitaloceanVpc
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/vpc#name DataDigitaloceanVpc#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/vpc#name DataDigitaloceanVpc#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -71,7 +71,7 @@ namespace digitalocean.DataDigitaloceanVpc
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/vpc#region DataDigitaloceanVpc#region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/vpc#region DataDigitaloceanVpc#region}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Region

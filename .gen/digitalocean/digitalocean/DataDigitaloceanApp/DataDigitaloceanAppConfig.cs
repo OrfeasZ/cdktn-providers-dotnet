@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanApp
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanApp.DataDigitaloceanAppConfig")]
     public class DataDigitaloceanAppConfig : digitalocean.DataDigitaloceanApp.IDataDigitaloceanAppConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/app#app_id DataDigitaloceanApp#app_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/app#app_id DataDigitaloceanApp#app_id}.</summary>
         [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
         public string AppId
         {
@@ -21,7 +21,7 @@ namespace digitalocean.DataDigitaloceanApp
 
         /// <summary>dedicated_ips block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/app#dedicated_ips DataDigitaloceanApp#dedicated_ips}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/app#dedicated_ips DataDigitaloceanApp#dedicated_ips}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dedicatedIps", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanApp.DataDigitaloceanAppDedicatedIps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace digitalocean.DataDigitaloceanApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/app#id DataDigitaloceanApp#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/app#id DataDigitaloceanApp#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

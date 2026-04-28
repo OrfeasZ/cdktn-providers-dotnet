@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
     {
         /// <summary>OpenAI API Key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#api_key DataDigitaloceanGradientaiAgent#api_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#api_key DataDigitaloceanGradientaiAgent#api_key}
         /// </remarks>
         [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
             /// <summary>OpenAI API Key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_agent#api_key DataDigitaloceanGradientaiAgent#api_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_agent#api_key DataDigitaloceanGradientaiAgent#api_key}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

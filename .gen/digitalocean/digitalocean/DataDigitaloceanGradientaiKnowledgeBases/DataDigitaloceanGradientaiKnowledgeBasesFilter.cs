@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBases
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanGradientaiKnowledgeBases.DataDigitaloceanGradientaiKnowledgeBasesFilter")]
     public class DataDigitaloceanGradientaiKnowledgeBasesFilter : digitalocean.DataDigitaloceanGradientaiKnowledgeBases.IDataDigitaloceanGradientaiKnowledgeBasesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_bases#key DataDigitaloceanGradientaiKnowledgeBases#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_bases#key DataDigitaloceanGradientaiKnowledgeBases#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_bases#values DataDigitaloceanGradientaiKnowledgeBases#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_bases#values DataDigitaloceanGradientaiKnowledgeBases#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBases
 
         private object? _all;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_bases#all DataDigitaloceanGradientaiKnowledgeBases#all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_bases#all DataDigitaloceanGradientaiKnowledgeBases#all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "all", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? All
@@ -56,7 +56,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_knowledge_bases#match_by DataDigitaloceanGradientaiKnowledgeBases#match_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_knowledge_bases#match_by DataDigitaloceanGradientaiKnowledgeBases#match_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "matchBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MatchBy

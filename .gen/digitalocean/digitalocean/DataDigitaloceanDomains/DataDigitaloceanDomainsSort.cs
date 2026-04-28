@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanDomains
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanDomains.DataDigitaloceanDomainsSort")]
     public class DataDigitaloceanDomainsSort : digitalocean.DataDigitaloceanDomains.IDataDigitaloceanDomainsSort
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/domains#key DataDigitaloceanDomains#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/domains#key DataDigitaloceanDomains#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanDomains
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/domains#direction DataDigitaloceanDomains#direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/domains#direction DataDigitaloceanDomains#direction}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Direction

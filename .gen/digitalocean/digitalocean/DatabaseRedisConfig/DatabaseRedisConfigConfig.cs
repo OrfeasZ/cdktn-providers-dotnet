@@ -9,7 +9,7 @@ namespace digitalocean.DatabaseRedisConfig
     [JsiiByValue(fqn: "digitalocean.databaseRedisConfig.DatabaseRedisConfigConfig")]
     public class DatabaseRedisConfigConfig : digitalocean.DatabaseRedisConfig.IDatabaseRedisConfigConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_redis_config#cluster_id DatabaseRedisConfig#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_redis_config#cluster_id DatabaseRedisConfig#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterId
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DatabaseRedisConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_redis_config#acl_channels_default DatabaseRedisConfig#acl_channels_default}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_redis_config#acl_channels_default DatabaseRedisConfig#acl_channels_default}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "aclChannelsDefault", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AclChannelsDefault
@@ -26,7 +26,7 @@ namespace digitalocean.DatabaseRedisConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_redis_config#id DatabaseRedisConfig#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_redis_config#id DatabaseRedisConfig#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ namespace digitalocean.DatabaseRedisConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_redis_config#io_threads DatabaseRedisConfig#io_threads}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_redis_config#io_threads DatabaseRedisConfig#io_threads}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ioThreads", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IoThreads
@@ -48,7 +48,7 @@ namespace digitalocean.DatabaseRedisConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_redis_config#lfu_decay_time DatabaseRedisConfig#lfu_decay_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_redis_config#lfu_decay_time DatabaseRedisConfig#lfu_decay_time}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lfuDecayTime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? LfuDecayTime
@@ -57,7 +57,7 @@ namespace digitalocean.DatabaseRedisConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_redis_config#lfu_log_factor DatabaseRedisConfig#lfu_log_factor}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_redis_config#lfu_log_factor DatabaseRedisConfig#lfu_log_factor}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lfuLogFactor", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? LfuLogFactor
@@ -66,7 +66,7 @@ namespace digitalocean.DatabaseRedisConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_redis_config#maxmemory_policy DatabaseRedisConfig#maxmemory_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_redis_config#maxmemory_policy DatabaseRedisConfig#maxmemory_policy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxmemoryPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaxmemoryPolicy
@@ -75,7 +75,7 @@ namespace digitalocean.DatabaseRedisConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_redis_config#notify_keyspace_events DatabaseRedisConfig#notify_keyspace_events}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_redis_config#notify_keyspace_events DatabaseRedisConfig#notify_keyspace_events}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "notifyKeyspaceEvents", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NotifyKeyspaceEvents
@@ -84,7 +84,7 @@ namespace digitalocean.DatabaseRedisConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_redis_config#number_of_databases DatabaseRedisConfig#number_of_databases}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_redis_config#number_of_databases DatabaseRedisConfig#number_of_databases}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "numberOfDatabases", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? NumberOfDatabases
@@ -93,7 +93,7 @@ namespace digitalocean.DatabaseRedisConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_redis_config#persistence DatabaseRedisConfig#persistence}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_redis_config#persistence DatabaseRedisConfig#persistence}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "persistence", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Persistence
@@ -102,7 +102,7 @@ namespace digitalocean.DatabaseRedisConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_redis_config#pubsub_client_output_buffer_limit DatabaseRedisConfig#pubsub_client_output_buffer_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_redis_config#pubsub_client_output_buffer_limit DatabaseRedisConfig#pubsub_client_output_buffer_limit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pubsubClientOutputBufferLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PubsubClientOutputBufferLimit
@@ -113,7 +113,7 @@ namespace digitalocean.DatabaseRedisConfig
 
         private object? _ssl;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_redis_config#ssl DatabaseRedisConfig#ssl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_redis_config#ssl DatabaseRedisConfig#ssl}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ssl", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Ssl
@@ -142,7 +142,7 @@ namespace digitalocean.DatabaseRedisConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_redis_config#timeout DatabaseRedisConfig#timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_redis_config#timeout DatabaseRedisConfig#timeout}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Timeout

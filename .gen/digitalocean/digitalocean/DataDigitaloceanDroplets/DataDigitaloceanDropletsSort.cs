@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanDroplets
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanDroplets.DataDigitaloceanDropletsSort")]
     public class DataDigitaloceanDropletsSort : digitalocean.DataDigitaloceanDroplets.IDataDigitaloceanDropletsSort
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/droplets#key DataDigitaloceanDroplets#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/droplets#key DataDigitaloceanDroplets#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanDroplets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/droplets#direction DataDigitaloceanDroplets#direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/droplets#direction DataDigitaloceanDroplets#direction}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Direction

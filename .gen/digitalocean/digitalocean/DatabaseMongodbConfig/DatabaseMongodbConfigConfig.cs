@@ -9,7 +9,7 @@ namespace digitalocean.DatabaseMongodbConfig
     [JsiiByValue(fqn: "digitalocean.databaseMongodbConfig.DatabaseMongodbConfigConfig")]
     public class DatabaseMongodbConfigConfig : digitalocean.DatabaseMongodbConfig.IDatabaseMongodbConfigConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mongodb_config#cluster_id DatabaseMongodbConfig#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mongodb_config#cluster_id DatabaseMongodbConfig#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterId
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DatabaseMongodbConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mongodb_config#default_read_concern DatabaseMongodbConfig#default_read_concern}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mongodb_config#default_read_concern DatabaseMongodbConfig#default_read_concern}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultReadConcern", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultReadConcern
@@ -26,7 +26,7 @@ namespace digitalocean.DatabaseMongodbConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mongodb_config#default_write_concern DatabaseMongodbConfig#default_write_concern}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mongodb_config#default_write_concern DatabaseMongodbConfig#default_write_concern}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultWriteConcern", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultWriteConcern
@@ -35,7 +35,7 @@ namespace digitalocean.DatabaseMongodbConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mongodb_config#id DatabaseMongodbConfig#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mongodb_config#id DatabaseMongodbConfig#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace digitalocean.DatabaseMongodbConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mongodb_config#slow_op_threshold_ms DatabaseMongodbConfig#slow_op_threshold_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mongodb_config#slow_op_threshold_ms DatabaseMongodbConfig#slow_op_threshold_ms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "slowOpThresholdMs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SlowOpThresholdMs
@@ -57,7 +57,7 @@ namespace digitalocean.DatabaseMongodbConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mongodb_config#transaction_lifetime_limit_seconds DatabaseMongodbConfig#transaction_lifetime_limit_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mongodb_config#transaction_lifetime_limit_seconds DatabaseMongodbConfig#transaction_lifetime_limit_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "transactionLifetimeLimitSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TransactionLifetimeLimitSeconds
@@ -66,7 +66,7 @@ namespace digitalocean.DatabaseMongodbConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_mongodb_config#verbosity DatabaseMongodbConfig#verbosity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_mongodb_config#verbosity DatabaseMongodbConfig#verbosity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "verbosity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Verbosity

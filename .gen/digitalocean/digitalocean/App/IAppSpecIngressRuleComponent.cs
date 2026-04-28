@@ -7,7 +7,7 @@ namespace digitalocean.App
     [JsiiInterface(nativeType: typeof(IAppSpecIngressRuleComponent), fullyQualifiedName: "digitalocean.app.AppSpecIngressRuleComponent")]
     public interface IAppSpecIngressRuleComponent
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#name App#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#name App#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -18,7 +18,7 @@ namespace digitalocean.App
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#preserve_path_prefix App#preserve_path_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#preserve_path_prefix App#preserve_path_prefix}.</summary>
         [JsiiProperty(name: "preservePathPrefix", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? PreservePathPrefix
@@ -29,7 +29,7 @@ namespace digitalocean.App
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#rewrite App#rewrite}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#rewrite App#rewrite}.</summary>
         [JsiiProperty(name: "rewrite", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Rewrite
@@ -47,7 +47,7 @@ namespace digitalocean.App
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#name App#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#name App#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -55,7 +55,7 @@ namespace digitalocean.App
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#preserve_path_prefix App#preserve_path_prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#preserve_path_prefix App#preserve_path_prefix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "preservePathPrefix", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? PreservePathPrefix
@@ -63,7 +63,7 @@ namespace digitalocean.App
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#rewrite App#rewrite}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#rewrite App#rewrite}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "rewrite", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Rewrite

@@ -7,7 +7,7 @@ namespace digitalocean.App
     [JsiiInterface(nativeType: typeof(IAppSpecAlert), fullyQualifiedName: "digitalocean.app.AppSpecAlert")]
     public interface IAppSpecAlert
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#rule App#rule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#rule App#rule}.</summary>
         [JsiiProperty(name: "rule", typeJson: "{\"primitive\":\"string\"}")]
         string Rule
         {
@@ -16,7 +16,7 @@ namespace digitalocean.App
 
         /// <summary>destinations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#destinations App#destinations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#destinations App#destinations}
         /// </remarks>
         [JsiiProperty(name: "destinations", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecAlertDestinations\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,7 +28,7 @@ namespace digitalocean.App
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#disabled App#disabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#disabled App#disabled}.</summary>
         [JsiiProperty(name: "disabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? Disabled
@@ -46,7 +46,7 @@ namespace digitalocean.App
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#rule App#rule}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#rule App#rule}.</summary>
             [JsiiProperty(name: "rule", typeJson: "{\"primitive\":\"string\"}")]
             public string Rule
             {
@@ -55,7 +55,7 @@ namespace digitalocean.App
 
             /// <summary>destinations block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#destinations App#destinations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#destinations App#destinations}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "destinations", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecAlertDestinations\"}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace digitalocean.App
                 get => GetInstanceProperty<digitalocean.App.IAppSpecAlertDestinations?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#disabled App#disabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#disabled App#disabled}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "disabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? Disabled

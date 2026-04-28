@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanGradientaiIndexingJobDataSources
     {
         /// <summary>UUID of the indexing job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_indexing_job_data_sources#indexing_job_uuid DataDigitaloceanGradientaiIndexingJobDataSources#indexing_job_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_indexing_job_data_sources#indexing_job_uuid DataDigitaloceanGradientaiIndexingJobDataSources#indexing_job_uuid}
         /// </remarks>
         [JsiiProperty(name: "indexingJobUuid", typeJson: "{\"primitive\":\"string\"}")]
         string IndexingJobUuid
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanGradientaiIndexingJobDataSources
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_indexing_job_data_sources#id DataDigitaloceanGradientaiIndexingJobDataSources#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_indexing_job_data_sources#id DataDigitaloceanGradientaiIndexingJobDataSources#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ namespace digitalocean.DataDigitaloceanGradientaiIndexingJobDataSources
 
             /// <summary>UUID of the indexing job.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_indexing_job_data_sources#indexing_job_uuid DataDigitaloceanGradientaiIndexingJobDataSources#indexing_job_uuid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_indexing_job_data_sources#indexing_job_uuid DataDigitaloceanGradientaiIndexingJobDataSources#indexing_job_uuid}
             /// </remarks>
             [JsiiProperty(name: "indexingJobUuid", typeJson: "{\"primitive\":\"string\"}")]
             public string IndexingJobUuid
@@ -49,7 +49,7 @@ namespace digitalocean.DataDigitaloceanGradientaiIndexingJobDataSources
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/gradientai_indexing_job_data_sources#id DataDigitaloceanGradientaiIndexingJobDataSources#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/gradientai_indexing_job_data_sources#id DataDigitaloceanGradientaiIndexingJobDataSources#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanByoipPrefix
     {
         /// <summary>UUID of the BYOIP prefix.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/byoip_prefix#uuid DataDigitaloceanByoipPrefix#uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/byoip_prefix#uuid DataDigitaloceanByoipPrefix#uuid}
         /// </remarks>
         [JsiiProperty(name: "uuid", typeJson: "{\"primitive\":\"string\"}")]
         string Uuid
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanByoipPrefix
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/byoip_prefix#id DataDigitaloceanByoipPrefix#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/byoip_prefix#id DataDigitaloceanByoipPrefix#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ namespace digitalocean.DataDigitaloceanByoipPrefix
 
             /// <summary>UUID of the BYOIP prefix.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/byoip_prefix#uuid DataDigitaloceanByoipPrefix#uuid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/byoip_prefix#uuid DataDigitaloceanByoipPrefix#uuid}
             /// </remarks>
             [JsiiProperty(name: "uuid", typeJson: "{\"primitive\":\"string\"}")]
             public string Uuid
@@ -49,7 +49,7 @@ namespace digitalocean.DataDigitaloceanByoipPrefix
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/byoip_prefix#id DataDigitaloceanByoipPrefix#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/byoip_prefix#id DataDigitaloceanByoipPrefix#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

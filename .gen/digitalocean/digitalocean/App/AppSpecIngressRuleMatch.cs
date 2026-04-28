@@ -9,7 +9,7 @@ namespace digitalocean.App
     {
         /// <summary>authority block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#authority App#authority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#authority App#authority}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authority", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecIngressRuleMatchAuthority\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace digitalocean.App
 
         /// <summary>path block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#path App#path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#path App#path}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "path", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecIngressRuleMatchPath\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace digitalocean.DatabaseValkeyConfig
     {
         /// <summary>A unique identifier for the database cluster.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_valkey_config#cluster_id DatabaseValkeyConfig#cluster_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_valkey_config#cluster_id DatabaseValkeyConfig#cluster_id}
         /// </remarks>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterId
@@ -24,7 +24,7 @@ namespace digitalocean.DatabaseValkeyConfig
         /// <remarks>
         /// When this option is not defined, all_channels is assumed to keep backward compatibility. This option doesn't affect Valkey configuration acl-pubsub-default.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_valkey_config#acl_channels_default DatabaseValkeyConfig#acl_channels_default}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_valkey_config#acl_channels_default DatabaseValkeyConfig#acl_channels_default}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "aclChannelsDefault", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace digitalocean.DatabaseValkeyConfig
         /// <remarks>
         /// When enabled, Valkey will create frequent local RDB snapshots. When disabled, Valkey will only take RDB snapshots when a backup is created, based on the backup schedule. This setting is ignored when valkey_persistence is set to off.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_valkey_config#frequent_snapshots DatabaseValkeyConfig#frequent_snapshots}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_valkey_config#frequent_snapshots DatabaseValkeyConfig#frequent_snapshots}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "frequentSnapshots", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace digitalocean.DatabaseValkeyConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_valkey_config#id DatabaseValkeyConfig#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_valkey_config#id DatabaseValkeyConfig#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace digitalocean.DatabaseValkeyConfig
 
         /// <summary>The number of IO threads used by Valkey. Must be between 1 and 32.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_valkey_config#io_threads DatabaseValkeyConfig#io_threads}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_valkey_config#io_threads DatabaseValkeyConfig#io_threads}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ioThreads", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace digitalocean.DatabaseValkeyConfig
 
         /// <summary>The decay time for Valkey's LFU cache eviction. Must be between 1 and 120.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_valkey_config#lfu_decay_time DatabaseValkeyConfig#lfu_decay_time}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_valkey_config#lfu_decay_time DatabaseValkeyConfig#lfu_decay_time}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lfuDecayTime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -109,7 +109,7 @@ namespace digitalocean.DatabaseValkeyConfig
 
         /// <summary>The log factor for Valkey's LFU (Least Frequently Used) cache eviction. Must be between 1 and 100.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_valkey_config#lfu_log_factor DatabaseValkeyConfig#lfu_log_factor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_valkey_config#lfu_log_factor DatabaseValkeyConfig#lfu_log_factor}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lfuLogFactor", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -139,7 +139,7 @@ namespace digitalocean.DatabaseValkeyConfig
         /// n — New key events
         /// A — Alias for "g$lshztxed"
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_valkey_config#notify_keyspace_events DatabaseValkeyConfig#notify_keyspace_events}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_valkey_config#notify_keyspace_events DatabaseValkeyConfig#notify_keyspace_events}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notifyKeyspaceEvents", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -151,7 +151,7 @@ namespace digitalocean.DatabaseValkeyConfig
 
         /// <summary>The number of logical databases in the Valkey cluster. Must be between 1 and 128.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_valkey_config#number_of_databases DatabaseValkeyConfig#number_of_databases}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_valkey_config#number_of_databases DatabaseValkeyConfig#number_of_databases}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "numberOfDatabases", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -165,7 +165,7 @@ namespace digitalocean.DatabaseValkeyConfig
         /// <remarks>
         /// Also RDB dumps are done according to backup schedule for backup purposes. When persistence is 'off', no RDB dumps and backups are done, so data can be lost at any moment if service is restarted for any reason, or if service is powered off. Also service can't be forked.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_valkey_config#persistence DatabaseValkeyConfig#persistence}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_valkey_config#persistence DatabaseValkeyConfig#persistence}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "persistence", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -179,7 +179,7 @@ namespace digitalocean.DatabaseValkeyConfig
         /// <remarks>
         /// The value is the hard limit, the soft limit is 1/4 of the hard limit. When setting the limit, be mindful of the available memory in the selected service plan.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_valkey_config#pubsub_client_output_buffer_limit DatabaseValkeyConfig#pubsub_client_output_buffer_limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_valkey_config#pubsub_client_output_buffer_limit DatabaseValkeyConfig#pubsub_client_output_buffer_limit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pubsubClientOutputBufferLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -193,7 +193,7 @@ namespace digitalocean.DatabaseValkeyConfig
 
         /// <summary>Whether to enable SSL/TLS for connections to the Valkey cluster.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_valkey_config#ssl DatabaseValkeyConfig#ssl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_valkey_config#ssl DatabaseValkeyConfig#ssl}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ssl", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -225,7 +225,7 @@ namespace digitalocean.DatabaseValkeyConfig
 
         /// <summary>The timeout (in seconds) for Valkey client connections.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_valkey_config#timeout DatabaseValkeyConfig#timeout}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_valkey_config#timeout DatabaseValkeyConfig#timeout}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -239,7 +239,7 @@ namespace digitalocean.DatabaseValkeyConfig
         /// <remarks>
         /// Valkey reclaims expired keys both when accessed and in the background. The background process scans for expired keys to free memory. Increasing the active-expire-effort setting (default 1, max 10) uses more CPU to reclaim expired keys faster, reducing memory usage but potentially increasing latency.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_valkey_config#valkey_active_expire_effort DatabaseValkeyConfig#valkey_active_expire_effort}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_valkey_config#valkey_active_expire_effort DatabaseValkeyConfig#valkey_active_expire_effort}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "valkeyActiveExpireEffort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -251,7 +251,7 @@ namespace digitalocean.DatabaseValkeyConfig
 
         /// <summary>A string specifying the desired eviction policy for a Caching or Valkey cluster.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_valkey_config#valkey_maxmemory_policy DatabaseValkeyConfig#valkey_maxmemory_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_valkey_config#valkey_maxmemory_policy DatabaseValkeyConfig#valkey_maxmemory_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "valkeyMaxmemoryPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

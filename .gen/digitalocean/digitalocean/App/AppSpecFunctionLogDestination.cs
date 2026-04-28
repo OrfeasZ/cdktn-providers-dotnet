@@ -11,7 +11,7 @@ namespace digitalocean.App
     {
         /// <summary>Name of the log destination.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#name App#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#name App#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace digitalocean.App
 
         /// <summary>datadog block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#datadog App#datadog}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#datadog App#datadog}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "datadog", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecFunctionLogDestinationDatadog\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace digitalocean.App
 
         /// <summary>logtail block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#logtail App#logtail}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#logtail App#logtail}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logtail", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecFunctionLogDestinationLogtail\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace digitalocean.App
 
         /// <summary>open_search block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#open_search App#open_search}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#open_search App#open_search}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "openSearch", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecFunctionLogDestinationOpenSearch\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace digitalocean.App
 
         /// <summary>papertrail block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#papertrail App#papertrail}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#papertrail App#papertrail}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "papertrail", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecFunctionLogDestinationPapertrail\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace digitalocean.GradientaiFunction
     {
         /// <summary>The name of the GradientAI resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_function#agent_id GradientaiFunction#agent_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_function#agent_id GradientaiFunction#agent_id}
         /// </remarks>
         [JsiiProperty(name: "agentId", typeJson: "{\"primitive\":\"string\"}")]
         string AgentId
@@ -19,7 +19,7 @@ namespace digitalocean.GradientaiFunction
 
         /// <summary>The region where the GradientAI resource will be created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_function#description GradientaiFunction#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_function#description GradientaiFunction#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         string Description
@@ -29,7 +29,7 @@ namespace digitalocean.GradientaiFunction
 
         /// <summary>The current status of the GradientAI resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_function#faas_namespace GradientaiFunction#faas_namespace}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_function#faas_namespace GradientaiFunction#faas_namespace}
         /// </remarks>
         [JsiiProperty(name: "faasNamespace", typeJson: "{\"primitive\":\"string\"}")]
         string FaasNamespace
@@ -39,7 +39,7 @@ namespace digitalocean.GradientaiFunction
 
         /// <summary>The creation timestamp of the GradientAI resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_function#function_name GradientaiFunction#function_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_function#function_name GradientaiFunction#function_name}
         /// </remarks>
         [JsiiProperty(name: "functionName", typeJson: "{\"primitive\":\"string\"}")]
         string FunctionName
@@ -49,7 +49,7 @@ namespace digitalocean.GradientaiFunction
 
         /// <summary>The input schema of the GradientAI resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_function#input_schema GradientaiFunction#input_schema}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_function#input_schema GradientaiFunction#input_schema}
         /// </remarks>
         [JsiiProperty(name: "inputSchema", typeJson: "{\"primitive\":\"string\"}")]
         string InputSchema
@@ -59,7 +59,7 @@ namespace digitalocean.GradientaiFunction
 
         /// <summary>The model to use for the GradientAI resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_function#faas_name GradientaiFunction#faas_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_function#faas_name GradientaiFunction#faas_name}
         /// </remarks>
         [JsiiProperty(name: "faasName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -71,7 +71,7 @@ namespace digitalocean.GradientaiFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_function#id GradientaiFunction#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_function#id GradientaiFunction#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -88,7 +88,7 @@ namespace digitalocean.GradientaiFunction
 
         /// <summary>The output schema of the GradientAI resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_function#output_schema GradientaiFunction#output_schema}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_function#output_schema GradientaiFunction#output_schema}
         /// </remarks>
         [JsiiProperty(name: "outputSchema", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -109,7 +109,7 @@ namespace digitalocean.GradientaiFunction
 
             /// <summary>The name of the GradientAI resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_function#agent_id GradientaiFunction#agent_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_function#agent_id GradientaiFunction#agent_id}
             /// </remarks>
             [JsiiProperty(name: "agentId", typeJson: "{\"primitive\":\"string\"}")]
             public string AgentId
@@ -119,7 +119,7 @@ namespace digitalocean.GradientaiFunction
 
             /// <summary>The region where the GradientAI resource will be created.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_function#description GradientaiFunction#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_function#description GradientaiFunction#description}
             /// </remarks>
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
             public string Description
@@ -129,7 +129,7 @@ namespace digitalocean.GradientaiFunction
 
             /// <summary>The current status of the GradientAI resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_function#faas_namespace GradientaiFunction#faas_namespace}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_function#faas_namespace GradientaiFunction#faas_namespace}
             /// </remarks>
             [JsiiProperty(name: "faasNamespace", typeJson: "{\"primitive\":\"string\"}")]
             public string FaasNamespace
@@ -139,7 +139,7 @@ namespace digitalocean.GradientaiFunction
 
             /// <summary>The creation timestamp of the GradientAI resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_function#function_name GradientaiFunction#function_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_function#function_name GradientaiFunction#function_name}
             /// </remarks>
             [JsiiProperty(name: "functionName", typeJson: "{\"primitive\":\"string\"}")]
             public string FunctionName
@@ -149,7 +149,7 @@ namespace digitalocean.GradientaiFunction
 
             /// <summary>The input schema of the GradientAI resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_function#input_schema GradientaiFunction#input_schema}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_function#input_schema GradientaiFunction#input_schema}
             /// </remarks>
             [JsiiProperty(name: "inputSchema", typeJson: "{\"primitive\":\"string\"}")]
             public string InputSchema
@@ -159,7 +159,7 @@ namespace digitalocean.GradientaiFunction
 
             /// <summary>The model to use for the GradientAI resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_function#faas_name GradientaiFunction#faas_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_function#faas_name GradientaiFunction#faas_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "faasName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -168,7 +168,7 @@ namespace digitalocean.GradientaiFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_function#id GradientaiFunction#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_function#id GradientaiFunction#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -182,7 +182,7 @@ namespace digitalocean.GradientaiFunction
 
             /// <summary>The output schema of the GradientAI resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/gradientai_function#output_schema GradientaiFunction#output_schema}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/gradientai_function#output_schema GradientaiFunction#output_schema}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "outputSchema", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

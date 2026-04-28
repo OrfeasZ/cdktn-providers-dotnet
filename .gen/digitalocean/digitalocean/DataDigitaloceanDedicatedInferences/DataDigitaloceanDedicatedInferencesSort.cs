@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanDedicatedInferences
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanDedicatedInferences.DataDigitaloceanDedicatedInferencesSort")]
     public class DataDigitaloceanDedicatedInferencesSort : digitalocean.DataDigitaloceanDedicatedInferences.IDataDigitaloceanDedicatedInferencesSort
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/dedicated_inferences#key DataDigitaloceanDedicatedInferences#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/dedicated_inferences#key DataDigitaloceanDedicatedInferences#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanDedicatedInferences
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/dedicated_inferences#direction DataDigitaloceanDedicatedInferences#direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/dedicated_inferences#direction DataDigitaloceanDedicatedInferences#direction}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Direction

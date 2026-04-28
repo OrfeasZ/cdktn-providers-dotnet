@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanNfsSnapshot
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanNfsSnapshot.DataDigitaloceanNfsSnapshotConfig")]
     public class DataDigitaloceanNfsSnapshotConfig : digitalocean.DataDigitaloceanNfsSnapshot.IDataDigitaloceanNfsSnapshotConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/nfs_snapshot#share_id DataDigitaloceanNfsSnapshot#share_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/nfs_snapshot#share_id DataDigitaloceanNfsSnapshot#share_id}.</summary>
         [JsiiProperty(name: "shareId", typeJson: "{\"primitive\":\"string\"}")]
         public string ShareId
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanNfsSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/nfs_snapshot#id DataDigitaloceanNfsSnapshot#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/nfs_snapshot#id DataDigitaloceanNfsSnapshot#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ namespace digitalocean.DataDigitaloceanNfsSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/nfs_snapshot#name DataDigitaloceanNfsSnapshot#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/nfs_snapshot#name DataDigitaloceanNfsSnapshot#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -39,7 +39,7 @@ namespace digitalocean.DataDigitaloceanNfsSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/nfs_snapshot#name_regex DataDigitaloceanNfsSnapshot#name_regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/nfs_snapshot#name_regex DataDigitaloceanNfsSnapshot#name_regex}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nameRegex", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NameRegex
@@ -48,7 +48,7 @@ namespace digitalocean.DataDigitaloceanNfsSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/nfs_snapshot#region DataDigitaloceanNfsSnapshot#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/nfs_snapshot#region DataDigitaloceanNfsSnapshot#region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Region

@@ -11,7 +11,7 @@ namespace digitalocean.VpcNatGateway
     {
         /// <summary>Name of the VPC NAT Gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/vpc_nat_gateway#name VpcNatGateway#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/vpc_nat_gateway#name VpcNatGateway#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace digitalocean.VpcNatGateway
 
         /// <summary>Region of the VPC NAT Gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/vpc_nat_gateway#region VpcNatGateway#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/vpc_nat_gateway#region VpcNatGateway#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public string Region
@@ -33,7 +33,7 @@ namespace digitalocean.VpcNatGateway
 
         /// <summary>Size of the VPC NAT Gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/vpc_nat_gateway#size VpcNatGateway#size}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/vpc_nat_gateway#size VpcNatGateway#size}
         /// </remarks>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}")]
         public double Size
@@ -44,7 +44,7 @@ namespace digitalocean.VpcNatGateway
 
         /// <summary>Type of the VPC NAT Gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/vpc_nat_gateway#type VpcNatGateway#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/vpc_nat_gateway#type VpcNatGateway#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -57,7 +57,7 @@ namespace digitalocean.VpcNatGateway
 
         /// <summary>vpcs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/vpc_nat_gateway#vpcs VpcNatGateway#vpcs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/vpc_nat_gateway#vpcs VpcNatGateway#vpcs}
         /// </remarks>
         [JsiiProperty(name: "vpcs", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.vpcNatGateway.VpcNatGatewayVpcs\"},\"kind\":\"array\"}}]}}")]
         public object Vpcs
@@ -88,7 +88,7 @@ namespace digitalocean.VpcNatGateway
 
         /// <summary>ICMP connection timeout (in seconds).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/vpc_nat_gateway#icmp_timeout_seconds VpcNatGateway#icmp_timeout_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/vpc_nat_gateway#icmp_timeout_seconds VpcNatGateway#icmp_timeout_seconds}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "icmpTimeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -100,7 +100,7 @@ namespace digitalocean.VpcNatGateway
 
         /// <summary>ID of the project to which the VPC NAT Gateway will be assigned.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/vpc_nat_gateway#project_id VpcNatGateway#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/vpc_nat_gateway#project_id VpcNatGateway#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -112,7 +112,7 @@ namespace digitalocean.VpcNatGateway
 
         /// <summary>TCP connection timeout (in seconds).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/vpc_nat_gateway#tcp_timeout_seconds VpcNatGateway#tcp_timeout_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/vpc_nat_gateway#tcp_timeout_seconds VpcNatGateway#tcp_timeout_seconds}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tcpTimeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -124,7 +124,7 @@ namespace digitalocean.VpcNatGateway
 
         /// <summary>UDP connection timeout (in seconds).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/vpc_nat_gateway#udp_timeout_seconds VpcNatGateway#udp_timeout_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/vpc_nat_gateway#udp_timeout_seconds VpcNatGateway#udp_timeout_seconds}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "udpTimeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

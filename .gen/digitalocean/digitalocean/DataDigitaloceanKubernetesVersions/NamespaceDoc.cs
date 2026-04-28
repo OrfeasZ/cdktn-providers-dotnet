@@ -5,7 +5,7 @@ namespace digitalocean.DataDigitaloceanKubernetesVersions
     /// <remarks>
     /// <h1><c>data_digitalocean_kubernetes_versions</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/kubernetes_versions"><c>data_digitalocean_kubernetes_versions</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/kubernetes_versions"><c>data_digitalocean_kubernetes_versions</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

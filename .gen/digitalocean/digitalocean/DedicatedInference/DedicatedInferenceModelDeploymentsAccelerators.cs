@@ -11,7 +11,7 @@ namespace digitalocean.DedicatedInference
     {
         /// <summary>The slug identifier for the GPU accelerator type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/dedicated_inference#accelerator_slug DedicatedInference#accelerator_slug}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/dedicated_inference#accelerator_slug DedicatedInference#accelerator_slug}
         /// </remarks>
         [JsiiProperty(name: "acceleratorSlug", typeJson: "{\"primitive\":\"string\"}")]
         public string AcceleratorSlug
@@ -22,7 +22,7 @@ namespace digitalocean.DedicatedInference
 
         /// <summary>The number of accelerator units to allocate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/dedicated_inference#scale DedicatedInference#scale}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/dedicated_inference#scale DedicatedInference#scale}
         /// </remarks>
         [JsiiProperty(name: "scale", typeJson: "{\"primitive\":\"number\"}")]
         public double Scale
@@ -33,7 +33,7 @@ namespace digitalocean.DedicatedInference
 
         /// <summary>The accelerator type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/dedicated_inference#type DedicatedInference#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/dedicated_inference#type DedicatedInference#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type

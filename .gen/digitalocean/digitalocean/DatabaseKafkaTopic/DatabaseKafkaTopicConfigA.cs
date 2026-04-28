@@ -7,7 +7,7 @@ namespace digitalocean.DatabaseKafkaTopic
     [JsiiByValue(fqn: "digitalocean.databaseKafkaTopic.DatabaseKafkaTopicConfigA")]
     public class DatabaseKafkaTopicConfigA : digitalocean.DatabaseKafkaTopic.IDatabaseKafkaTopicConfigA
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#cleanup_policy DatabaseKafkaTopic#cleanup_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#cleanup_policy DatabaseKafkaTopic#cleanup_policy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cleanupPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CleanupPolicy
@@ -16,7 +16,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#compression_type DatabaseKafkaTopic#compression_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#compression_type DatabaseKafkaTopic#compression_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compressionType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompressionType
@@ -25,7 +25,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#delete_retention_ms DatabaseKafkaTopic#delete_retention_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#delete_retention_ms DatabaseKafkaTopic#delete_retention_ms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deleteRetentionMs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DeleteRetentionMs
@@ -34,7 +34,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#file_delete_delay_ms DatabaseKafkaTopic#file_delete_delay_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#file_delete_delay_ms DatabaseKafkaTopic#file_delete_delay_ms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fileDeleteDelayMs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FileDeleteDelayMs
@@ -43,7 +43,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#flush_messages DatabaseKafkaTopic#flush_messages}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#flush_messages DatabaseKafkaTopic#flush_messages}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "flushMessages", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FlushMessages
@@ -52,7 +52,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#flush_ms DatabaseKafkaTopic#flush_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#flush_ms DatabaseKafkaTopic#flush_ms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "flushMs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FlushMs
@@ -61,7 +61,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#index_interval_bytes DatabaseKafkaTopic#index_interval_bytes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#index_interval_bytes DatabaseKafkaTopic#index_interval_bytes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "indexIntervalBytes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IndexIntervalBytes
@@ -70,7 +70,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#max_compaction_lag_ms DatabaseKafkaTopic#max_compaction_lag_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#max_compaction_lag_ms DatabaseKafkaTopic#max_compaction_lag_ms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxCompactionLagMs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaxCompactionLagMs
@@ -79,7 +79,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#max_message_bytes DatabaseKafkaTopic#max_message_bytes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#max_message_bytes DatabaseKafkaTopic#max_message_bytes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxMessageBytes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaxMessageBytes
@@ -90,7 +90,7 @@ namespace digitalocean.DatabaseKafkaTopic
 
         private object? _messageDownConversionEnable;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#message_down_conversion_enable DatabaseKafkaTopic#message_down_conversion_enable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#message_down_conversion_enable DatabaseKafkaTopic#message_down_conversion_enable}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "messageDownConversionEnable", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? MessageDownConversionEnable
@@ -119,7 +119,7 @@ namespace digitalocean.DatabaseKafkaTopic
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#message_format_version DatabaseKafkaTopic#message_format_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#message_format_version DatabaseKafkaTopic#message_format_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "messageFormatVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MessageFormatVersion
@@ -128,7 +128,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#message_timestamp_difference_max_ms DatabaseKafkaTopic#message_timestamp_difference_max_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#message_timestamp_difference_max_ms DatabaseKafkaTopic#message_timestamp_difference_max_ms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "messageTimestampDifferenceMaxMs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MessageTimestampDifferenceMaxMs
@@ -137,7 +137,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#message_timestamp_type DatabaseKafkaTopic#message_timestamp_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#message_timestamp_type DatabaseKafkaTopic#message_timestamp_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "messageTimestampType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MessageTimestampType
@@ -146,7 +146,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#min_cleanable_dirty_ratio DatabaseKafkaTopic#min_cleanable_dirty_ratio}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#min_cleanable_dirty_ratio DatabaseKafkaTopic#min_cleanable_dirty_ratio}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minCleanableDirtyRatio", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinCleanableDirtyRatio
@@ -155,7 +155,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#min_compaction_lag_ms DatabaseKafkaTopic#min_compaction_lag_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#min_compaction_lag_ms DatabaseKafkaTopic#min_compaction_lag_ms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minCompactionLagMs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MinCompactionLagMs
@@ -164,7 +164,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#min_insync_replicas DatabaseKafkaTopic#min_insync_replicas}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#min_insync_replicas DatabaseKafkaTopic#min_insync_replicas}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minInsyncReplicas", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinInsyncReplicas
@@ -175,7 +175,7 @@ namespace digitalocean.DatabaseKafkaTopic
 
         private object? _preallocate;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#preallocate DatabaseKafkaTopic#preallocate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#preallocate DatabaseKafkaTopic#preallocate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "preallocate", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Preallocate
@@ -204,7 +204,7 @@ namespace digitalocean.DatabaseKafkaTopic
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#retention_bytes DatabaseKafkaTopic#retention_bytes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#retention_bytes DatabaseKafkaTopic#retention_bytes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retentionBytes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RetentionBytes
@@ -213,7 +213,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#retention_ms DatabaseKafkaTopic#retention_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#retention_ms DatabaseKafkaTopic#retention_ms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retentionMs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RetentionMs
@@ -222,7 +222,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#segment_bytes DatabaseKafkaTopic#segment_bytes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#segment_bytes DatabaseKafkaTopic#segment_bytes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "segmentBytes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SegmentBytes
@@ -231,7 +231,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#segment_index_bytes DatabaseKafkaTopic#segment_index_bytes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#segment_index_bytes DatabaseKafkaTopic#segment_index_bytes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "segmentIndexBytes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SegmentIndexBytes
@@ -240,7 +240,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#segment_jitter_ms DatabaseKafkaTopic#segment_jitter_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#segment_jitter_ms DatabaseKafkaTopic#segment_jitter_ms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "segmentJitterMs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SegmentJitterMs
@@ -249,7 +249,7 @@ namespace digitalocean.DatabaseKafkaTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_kafka_topic#segment_ms DatabaseKafkaTopic#segment_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_kafka_topic#segment_ms DatabaseKafkaTopic#segment_ms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "segmentMs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SegmentMs

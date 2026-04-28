@@ -13,7 +13,7 @@ namespace digitalocean.DedicatedInference
 
         /// <summary>accelerators block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/dedicated_inference#accelerators DedicatedInference#accelerators}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/dedicated_inference#accelerators DedicatedInference#accelerators}
         /// </remarks>
         [JsiiProperty(name: "accelerators", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dedicatedInference.DedicatedInferenceModelDeploymentsAccelerators\"},\"kind\":\"array\"}}]}}")]
         public object Accelerators
@@ -44,7 +44,7 @@ namespace digitalocean.DedicatedInference
 
         /// <summary>The provider of the model (e.g. 'modelcatalog', 'hugging_face').</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/dedicated_inference#model_provider DedicatedInference#model_provider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/dedicated_inference#model_provider DedicatedInference#model_provider}
         /// </remarks>
         [JsiiProperty(name: "modelProvider", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelProvider
@@ -55,7 +55,7 @@ namespace digitalocean.DedicatedInference
 
         /// <summary>The slug identifier for the model to deploy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/dedicated_inference#model_slug DedicatedInference#model_slug}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/dedicated_inference#model_slug DedicatedInference#model_slug}
         /// </remarks>
         [JsiiProperty(name: "modelSlug", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelSlug
@@ -66,7 +66,7 @@ namespace digitalocean.DedicatedInference
 
         /// <summary>The unique ID of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/dedicated_inference#model_id DedicatedInference#model_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/dedicated_inference#model_id DedicatedInference#model_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -78,7 +78,7 @@ namespace digitalocean.DedicatedInference
 
         /// <summary>The provider-specific model ID. Required when model_provider is 'hugging_face', optional for 'modelcatalog'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/dedicated_inference#provider_model_id DedicatedInference#provider_model_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/dedicated_inference#provider_model_id DedicatedInference#provider_model_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "providerModelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanDatabaseCa
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanDatabaseCa.DataDigitaloceanDatabaseCaConfig")]
     public class DataDigitaloceanDatabaseCaConfig : digitalocean.DataDigitaloceanDatabaseCa.IDataDigitaloceanDatabaseCaConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/database_ca#cluster_id DataDigitaloceanDatabaseCa#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/database_ca#cluster_id DataDigitaloceanDatabaseCa#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterId
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanDatabaseCa
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/data-sources/database_ca#id DataDigitaloceanDatabaseCa#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/data-sources/database_ca#id DataDigitaloceanDatabaseCa#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -11,7 +11,7 @@ namespace digitalocean.App
     {
         /// <summary>The registry type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#registry_type App#registry_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#registry_type App#registry_type}
         /// </remarks>
         [JsiiProperty(name: "registryType", typeJson: "{\"primitive\":\"string\"}")]
         public string RegistryType
@@ -22,7 +22,7 @@ namespace digitalocean.App
 
         /// <summary>The repository name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#repository App#repository}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#repository App#repository}
         /// </remarks>
         [JsiiProperty(name: "repository", typeJson: "{\"primitive\":\"string\"}")]
         public string Repository
@@ -35,7 +35,7 @@ namespace digitalocean.App
 
         /// <summary>deploy_on_push block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#deploy_on_push App#deploy_on_push}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#deploy_on_push App#deploy_on_push}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deployOnPush", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecServiceImageDeployOnPush\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace digitalocean.App
 
         /// <summary>The image digest. Cannot be specified if tag is provided.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#digest App#digest}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#digest App#digest}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "digest", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace digitalocean.App
 
         /// <summary>The registry name. Must be left empty for the DOCR registry type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#registry App#registry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#registry App#registry}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "registry", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace digitalocean.App
 
         /// <summary>Access credentials for third-party registries.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#registry_credentials App#registry_credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#registry_credentials App#registry_credentials}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "registryCredentials", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -103,7 +103,7 @@ namespace digitalocean.App
 
         /// <summary>The repository tag. Defaults to latest if not provided. Cannot be specified if digest is provided.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/app#tag App#tag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/app#tag App#tag}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

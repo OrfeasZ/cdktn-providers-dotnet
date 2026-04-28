@@ -9,7 +9,7 @@ namespace digitalocean.DatabaseOpensearchConfig
     [JsiiByValue(fqn: "digitalocean.databaseOpensearchConfig.DatabaseOpensearchConfigConfig")]
     public class DatabaseOpensearchConfigConfig : digitalocean.DatabaseOpensearchConfig.IDatabaseOpensearchConfigConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#cluster_id DatabaseOpensearchConfig#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#cluster_id DatabaseOpensearchConfig#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterId
         {
@@ -19,7 +19,7 @@ namespace digitalocean.DatabaseOpensearchConfig
 
         private object? _actionAutoCreateIndexEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#action_auto_create_index_enabled DatabaseOpensearchConfig#action_auto_create_index_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#action_auto_create_index_enabled DatabaseOpensearchConfig#action_auto_create_index_enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "actionAutoCreateIndexEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? ActionAutoCreateIndexEnabled
@@ -50,7 +50,7 @@ namespace digitalocean.DatabaseOpensearchConfig
 
         private object? _actionDestructiveRequiresName;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#action_destructive_requires_name DatabaseOpensearchConfig#action_destructive_requires_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#action_destructive_requires_name DatabaseOpensearchConfig#action_destructive_requires_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "actionDestructiveRequiresName", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? ActionDestructiveRequiresName
@@ -79,7 +79,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#cluster_max_shards_per_node DatabaseOpensearchConfig#cluster_max_shards_per_node}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#cluster_max_shards_per_node DatabaseOpensearchConfig#cluster_max_shards_per_node}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clusterMaxShardsPerNode", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ClusterMaxShardsPerNode
@@ -88,7 +88,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#cluster_routing_allocation_node_concurrent_recoveries DatabaseOpensearchConfig#cluster_routing_allocation_node_concurrent_recoveries}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#cluster_routing_allocation_node_concurrent_recoveries DatabaseOpensearchConfig#cluster_routing_allocation_node_concurrent_recoveries}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clusterRoutingAllocationNodeConcurrentRecoveries", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ClusterRoutingAllocationNodeConcurrentRecoveries
@@ -99,7 +99,7 @@ namespace digitalocean.DatabaseOpensearchConfig
 
         private object? _enableSecurityAudit;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#enable_security_audit DatabaseOpensearchConfig#enable_security_audit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#enable_security_audit DatabaseOpensearchConfig#enable_security_audit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enableSecurityAudit", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? EnableSecurityAudit
@@ -128,7 +128,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#http_max_content_length_bytes DatabaseOpensearchConfig#http_max_content_length_bytes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#http_max_content_length_bytes DatabaseOpensearchConfig#http_max_content_length_bytes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "httpMaxContentLengthBytes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? HttpMaxContentLengthBytes
@@ -137,7 +137,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#http_max_header_size_bytes DatabaseOpensearchConfig#http_max_header_size_bytes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#http_max_header_size_bytes DatabaseOpensearchConfig#http_max_header_size_bytes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "httpMaxHeaderSizeBytes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? HttpMaxHeaderSizeBytes
@@ -146,7 +146,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#http_max_initial_line_length_bytes DatabaseOpensearchConfig#http_max_initial_line_length_bytes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#http_max_initial_line_length_bytes DatabaseOpensearchConfig#http_max_initial_line_length_bytes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "httpMaxInitialLineLengthBytes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? HttpMaxInitialLineLengthBytes
@@ -155,7 +155,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#id DatabaseOpensearchConfig#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#id DatabaseOpensearchConfig#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -168,7 +168,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#indices_fielddata_cache_size_percentage DatabaseOpensearchConfig#indices_fielddata_cache_size_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#indices_fielddata_cache_size_percentage DatabaseOpensearchConfig#indices_fielddata_cache_size_percentage}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "indicesFielddataCacheSizePercentage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IndicesFielddataCacheSizePercentage
@@ -177,7 +177,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#indices_memory_index_buffer_size_percentage DatabaseOpensearchConfig#indices_memory_index_buffer_size_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#indices_memory_index_buffer_size_percentage DatabaseOpensearchConfig#indices_memory_index_buffer_size_percentage}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "indicesMemoryIndexBufferSizePercentage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IndicesMemoryIndexBufferSizePercentage
@@ -186,7 +186,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#indices_memory_max_index_buffer_size_mb DatabaseOpensearchConfig#indices_memory_max_index_buffer_size_mb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#indices_memory_max_index_buffer_size_mb DatabaseOpensearchConfig#indices_memory_max_index_buffer_size_mb}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "indicesMemoryMaxIndexBufferSizeMb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IndicesMemoryMaxIndexBufferSizeMb
@@ -195,7 +195,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#indices_memory_min_index_buffer_size_mb DatabaseOpensearchConfig#indices_memory_min_index_buffer_size_mb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#indices_memory_min_index_buffer_size_mb DatabaseOpensearchConfig#indices_memory_min_index_buffer_size_mb}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "indicesMemoryMinIndexBufferSizeMb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IndicesMemoryMinIndexBufferSizeMb
@@ -204,7 +204,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#indices_queries_cache_size_percentage DatabaseOpensearchConfig#indices_queries_cache_size_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#indices_queries_cache_size_percentage DatabaseOpensearchConfig#indices_queries_cache_size_percentage}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "indicesQueriesCacheSizePercentage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IndicesQueriesCacheSizePercentage
@@ -213,7 +213,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#indices_query_bool_max_clause_count DatabaseOpensearchConfig#indices_query_bool_max_clause_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#indices_query_bool_max_clause_count DatabaseOpensearchConfig#indices_query_bool_max_clause_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "indicesQueryBoolMaxClauseCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IndicesQueryBoolMaxClauseCount
@@ -222,7 +222,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#indices_recovery_max_concurrent_file_chunks DatabaseOpensearchConfig#indices_recovery_max_concurrent_file_chunks}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#indices_recovery_max_concurrent_file_chunks DatabaseOpensearchConfig#indices_recovery_max_concurrent_file_chunks}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "indicesRecoveryMaxConcurrentFileChunks", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IndicesRecoveryMaxConcurrentFileChunks
@@ -231,7 +231,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#indices_recovery_max_mb_per_sec DatabaseOpensearchConfig#indices_recovery_max_mb_per_sec}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#indices_recovery_max_mb_per_sec DatabaseOpensearchConfig#indices_recovery_max_mb_per_sec}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "indicesRecoveryMaxMbPerSec", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IndicesRecoveryMaxMbPerSec
@@ -242,7 +242,7 @@ namespace digitalocean.DatabaseOpensearchConfig
 
         private object? _ismEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#ism_enabled DatabaseOpensearchConfig#ism_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#ism_enabled DatabaseOpensearchConfig#ism_enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ismEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IsmEnabled
@@ -273,7 +273,7 @@ namespace digitalocean.DatabaseOpensearchConfig
 
         private object? _ismHistoryEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#ism_history_enabled DatabaseOpensearchConfig#ism_history_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#ism_history_enabled DatabaseOpensearchConfig#ism_history_enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ismHistoryEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IsmHistoryEnabled
@@ -302,7 +302,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#ism_history_max_age_hours DatabaseOpensearchConfig#ism_history_max_age_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#ism_history_max_age_hours DatabaseOpensearchConfig#ism_history_max_age_hours}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ismHistoryMaxAgeHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IsmHistoryMaxAgeHours
@@ -311,7 +311,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#ism_history_max_docs DatabaseOpensearchConfig#ism_history_max_docs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#ism_history_max_docs DatabaseOpensearchConfig#ism_history_max_docs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ismHistoryMaxDocs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IsmHistoryMaxDocs
@@ -320,7 +320,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#ism_history_rollover_check_period_hours DatabaseOpensearchConfig#ism_history_rollover_check_period_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#ism_history_rollover_check_period_hours DatabaseOpensearchConfig#ism_history_rollover_check_period_hours}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ismHistoryRolloverCheckPeriodHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IsmHistoryRolloverCheckPeriodHours
@@ -329,7 +329,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#ism_history_rollover_retention_period_days DatabaseOpensearchConfig#ism_history_rollover_retention_period_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#ism_history_rollover_retention_period_days DatabaseOpensearchConfig#ism_history_rollover_retention_period_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ismHistoryRolloverRetentionPeriodDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IsmHistoryRolloverRetentionPeriodDays
@@ -340,7 +340,7 @@ namespace digitalocean.DatabaseOpensearchConfig
 
         private object? _overrideMainResponseVersion;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#override_main_response_version DatabaseOpensearchConfig#override_main_response_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#override_main_response_version DatabaseOpensearchConfig#override_main_response_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "overrideMainResponseVersion", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? OverrideMainResponseVersion
@@ -371,7 +371,7 @@ namespace digitalocean.DatabaseOpensearchConfig
 
         private object? _pluginsAlertingFilterByBackendRolesEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#plugins_alerting_filter_by_backend_roles_enabled DatabaseOpensearchConfig#plugins_alerting_filter_by_backend_roles_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#plugins_alerting_filter_by_backend_roles_enabled DatabaseOpensearchConfig#plugins_alerting_filter_by_backend_roles_enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pluginsAlertingFilterByBackendRolesEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? PluginsAlertingFilterByBackendRolesEnabled
@@ -400,7 +400,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#reindex_remote_whitelist DatabaseOpensearchConfig#reindex_remote_whitelist}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#reindex_remote_whitelist DatabaseOpensearchConfig#reindex_remote_whitelist}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "reindexRemoteWhitelist", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ReindexRemoteWhitelist
@@ -409,7 +409,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#script_max_compilations_rate DatabaseOpensearchConfig#script_max_compilations_rate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#script_max_compilations_rate DatabaseOpensearchConfig#script_max_compilations_rate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scriptMaxCompilationsRate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ScriptMaxCompilationsRate
@@ -418,7 +418,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#search_max_buckets DatabaseOpensearchConfig#search_max_buckets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#search_max_buckets DatabaseOpensearchConfig#search_max_buckets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "searchMaxBuckets", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SearchMaxBuckets
@@ -427,7 +427,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#thread_pool_analyze_queue_size DatabaseOpensearchConfig#thread_pool_analyze_queue_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#thread_pool_analyze_queue_size DatabaseOpensearchConfig#thread_pool_analyze_queue_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "threadPoolAnalyzeQueueSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ThreadPoolAnalyzeQueueSize
@@ -436,7 +436,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#thread_pool_analyze_size DatabaseOpensearchConfig#thread_pool_analyze_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#thread_pool_analyze_size DatabaseOpensearchConfig#thread_pool_analyze_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "threadPoolAnalyzeSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ThreadPoolAnalyzeSize
@@ -445,7 +445,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#thread_pool_force_merge_size DatabaseOpensearchConfig#thread_pool_force_merge_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#thread_pool_force_merge_size DatabaseOpensearchConfig#thread_pool_force_merge_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "threadPoolForceMergeSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ThreadPoolForceMergeSize
@@ -454,7 +454,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#thread_pool_get_queue_size DatabaseOpensearchConfig#thread_pool_get_queue_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#thread_pool_get_queue_size DatabaseOpensearchConfig#thread_pool_get_queue_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "threadPoolGetQueueSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ThreadPoolGetQueueSize
@@ -463,7 +463,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#thread_pool_get_size DatabaseOpensearchConfig#thread_pool_get_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#thread_pool_get_size DatabaseOpensearchConfig#thread_pool_get_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "threadPoolGetSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ThreadPoolGetSize
@@ -472,7 +472,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#thread_pool_search_queue_size DatabaseOpensearchConfig#thread_pool_search_queue_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#thread_pool_search_queue_size DatabaseOpensearchConfig#thread_pool_search_queue_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "threadPoolSearchQueueSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ThreadPoolSearchQueueSize
@@ -481,7 +481,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#thread_pool_search_size DatabaseOpensearchConfig#thread_pool_search_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#thread_pool_search_size DatabaseOpensearchConfig#thread_pool_search_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "threadPoolSearchSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ThreadPoolSearchSize
@@ -490,7 +490,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#thread_pool_search_throttled_queue_size DatabaseOpensearchConfig#thread_pool_search_throttled_queue_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#thread_pool_search_throttled_queue_size DatabaseOpensearchConfig#thread_pool_search_throttled_queue_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "threadPoolSearchThrottledQueueSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ThreadPoolSearchThrottledQueueSize
@@ -499,7 +499,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#thread_pool_search_throttled_size DatabaseOpensearchConfig#thread_pool_search_throttled_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#thread_pool_search_throttled_size DatabaseOpensearchConfig#thread_pool_search_throttled_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "threadPoolSearchThrottledSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ThreadPoolSearchThrottledSize
@@ -508,7 +508,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#thread_pool_write_queue_size DatabaseOpensearchConfig#thread_pool_write_queue_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#thread_pool_write_queue_size DatabaseOpensearchConfig#thread_pool_write_queue_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "threadPoolWriteQueueSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ThreadPoolWriteQueueSize
@@ -517,7 +517,7 @@ namespace digitalocean.DatabaseOpensearchConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.84.1/docs/resources/database_opensearch_config#thread_pool_write_size DatabaseOpensearchConfig#thread_pool_write_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.0/docs/resources/database_opensearch_config#thread_pool_write_size DatabaseOpensearchConfig#thread_pool_write_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "threadPoolWriteSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ThreadPoolWriteSize
