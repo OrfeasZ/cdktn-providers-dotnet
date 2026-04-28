@@ -7,7 +7,7 @@ namespace acme.DataAcmeServerUrl
     [JsiiByValue(fqn: "acme.dataAcmeServerUrl.DataAcmeServerUrlConfig")]
     public class DataAcmeServerUrlConfig : acme.DataAcmeServerUrl.IDataAcmeServerUrlConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/data-sources/server_url#id DataAcmeServerUrl#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/data-sources/server_url#id DataAcmeServerUrl#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

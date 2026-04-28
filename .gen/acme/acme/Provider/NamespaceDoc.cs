@@ -5,7 +5,7 @@ namespace acme.Provider
     /// <remarks>
     /// <h1><c>provider</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs"><c>acme</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs"><c>acme</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

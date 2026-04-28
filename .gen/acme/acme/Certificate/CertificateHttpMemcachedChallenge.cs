@@ -9,7 +9,7 @@ namespace acme.Certificate
     [JsiiByValue(fqn: "acme.certificate.CertificateHttpMemcachedChallenge")]
     public class CertificateHttpMemcachedChallenge : acme.Certificate.ICertificateHttpMemcachedChallenge
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.0/docs/resources/certificate#hosts Certificate#hosts}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/2.48.1/docs/resources/certificate#hosts Certificate#hosts}.</summary>
         [JsiiProperty(name: "hosts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Hosts
         {
