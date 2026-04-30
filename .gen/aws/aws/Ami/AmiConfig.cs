@@ -9,7 +9,7 @@ namespace aws.Ami
     [JsiiByValue(fqn: "aws.ami.AmiConfig")]
     public class AmiConfig : aws.Ami.IAmiConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#name Ami#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#name Ami#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#architecture Ami#architecture}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#architecture Ami#architecture}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "architecture", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Architecture
@@ -26,7 +26,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#boot_mode Ami#boot_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#boot_mode Ami#boot_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bootMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BootMode
@@ -35,7 +35,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#deprecation_time Ami#deprecation_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#deprecation_time Ami#deprecation_time}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deprecationTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DeprecationTime
@@ -44,7 +44,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#description Ami#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#description Ami#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -57,7 +57,7 @@ namespace aws.Ami
 
         /// <summary>ebs_block_device block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#ebs_block_device Ami#ebs_block_device}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#ebs_block_device Ami#ebs_block_device}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ebsBlockDevice", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ami.AmiEbsBlockDevice\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -89,7 +89,7 @@ namespace aws.Ami
 
         private object? _enaSupport;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#ena_support Ami#ena_support}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#ena_support Ami#ena_support}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enaSupport", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? EnaSupport
@@ -122,7 +122,7 @@ namespace aws.Ami
 
         /// <summary>ephemeral_block_device block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#ephemeral_block_device Ami#ephemeral_block_device}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#ephemeral_block_device Ami#ephemeral_block_device}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ephemeralBlockDevice", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ami.AmiEphemeralBlockDevice\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -152,7 +152,7 @@ namespace aws.Ami
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#id Ami#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#id Ami#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -165,7 +165,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#image_location Ami#image_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#image_location Ami#image_location}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imageLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImageLocation
@@ -174,7 +174,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#imds_support Ami#imds_support}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#imds_support Ami#imds_support}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imdsSupport", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImdsSupport
@@ -183,7 +183,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#kernel_id Ami#kernel_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#kernel_id Ami#kernel_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kernelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KernelId
@@ -192,7 +192,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#ramdisk_id Ami#ramdisk_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#ramdisk_id Ami#ramdisk_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ramdiskId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RamdiskId
@@ -203,7 +203,7 @@ namespace aws.Ami
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#region Ami#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#region Ami#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -213,7 +213,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#root_device_name Ami#root_device_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#root_device_name Ami#root_device_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rootDeviceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RootDeviceName
@@ -222,7 +222,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#sriov_net_support Ami#sriov_net_support}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#sriov_net_support Ami#sriov_net_support}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sriovNetSupport", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SriovNetSupport
@@ -231,7 +231,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#tags Ami#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#tags Ami#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -240,7 +240,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#tags_all Ami#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#tags_all Ami#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -251,7 +251,7 @@ namespace aws.Ami
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#timeouts Ami#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#timeouts Ami#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.ami.AmiTimeouts\"}", isOptional: true)]
@@ -261,7 +261,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#tpm_support Ami#tpm_support}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#tpm_support Ami#tpm_support}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tpmSupport", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TpmSupport
@@ -270,7 +270,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#uefi_data Ami#uefi_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#uefi_data Ami#uefi_data}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "uefiData", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UefiData
@@ -279,7 +279,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#virtualization_type Ami#virtualization_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#virtualization_type Ami#virtualization_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "virtualizationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VirtualizationType

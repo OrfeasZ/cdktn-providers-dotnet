@@ -7,7 +7,7 @@ namespace aws.DynamodbTable
     [JsiiInterface(nativeType: typeof(IDynamodbTableGlobalTableWitness), fullyQualifiedName: "aws.dynamodbTable.DynamodbTableGlobalTableWitness")]
     public interface IDynamodbTableGlobalTableWitness
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#region_name DynamodbTable#region_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_table#region_name DynamodbTable#region_name}.</summary>
         [JsiiProperty(name: "regionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RegionName
@@ -25,7 +25,7 @@ namespace aws.DynamodbTable
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#region_name DynamodbTable#region_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_table#region_name DynamodbTable#region_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "regionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RegionName

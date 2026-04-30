@@ -9,7 +9,7 @@ namespace aws.Apigatewayv2RoutingRule
     [JsiiByValue(fqn: "aws.apigatewayv2RoutingRule.Apigatewayv2RoutingRuleActionInvokeApi")]
     public class Apigatewayv2RoutingRuleActionInvokeApi : aws.Apigatewayv2RoutingRule.IApigatewayv2RoutingRuleActionInvokeApi
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_routing_rule#api_id Apigatewayv2RoutingRule#api_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_routing_rule#api_id Apigatewayv2RoutingRule#api_id}.</summary>
         [JsiiProperty(name: "apiId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiId
         {
@@ -17,7 +17,7 @@ namespace aws.Apigatewayv2RoutingRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_routing_rule#stage Apigatewayv2RoutingRule#stage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_routing_rule#stage Apigatewayv2RoutingRule#stage}.</summary>
         [JsiiProperty(name: "stage", typeJson: "{\"primitive\":\"string\"}")]
         public string Stage
         {
@@ -27,7 +27,7 @@ namespace aws.Apigatewayv2RoutingRule
 
         private object? _stripBasePath;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_routing_rule#strip_base_path Apigatewayv2RoutingRule#strip_base_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_routing_rule#strip_base_path Apigatewayv2RoutingRule#strip_base_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "stripBasePath", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? StripBasePath

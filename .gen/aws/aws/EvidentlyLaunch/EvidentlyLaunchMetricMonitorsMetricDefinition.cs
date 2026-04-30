@@ -9,7 +9,7 @@ namespace aws.EvidentlyLaunch
     [JsiiByValue(fqn: "aws.evidentlyLaunch.EvidentlyLaunchMetricMonitorsMetricDefinition")]
     public class EvidentlyLaunchMetricMonitorsMetricDefinition : aws.EvidentlyLaunch.IEvidentlyLaunchMetricMonitorsMetricDefinition
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_launch#entity_id_key EvidentlyLaunch#entity_id_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/evidently_launch#entity_id_key EvidentlyLaunch#entity_id_key}.</summary>
         [JsiiProperty(name: "entityIdKey", typeJson: "{\"primitive\":\"string\"}")]
         public string EntityIdKey
         {
@@ -17,7 +17,7 @@ namespace aws.EvidentlyLaunch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_launch#name EvidentlyLaunch#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/evidently_launch#name EvidentlyLaunch#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace aws.EvidentlyLaunch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_launch#value_key EvidentlyLaunch#value_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/evidently_launch#value_key EvidentlyLaunch#value_key}.</summary>
         [JsiiProperty(name: "valueKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ValueKey
         {
@@ -33,7 +33,7 @@ namespace aws.EvidentlyLaunch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_launch#event_pattern EvidentlyLaunch#event_pattern}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/evidently_launch#event_pattern EvidentlyLaunch#event_pattern}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "eventPattern", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EventPattern
@@ -42,7 +42,7 @@ namespace aws.EvidentlyLaunch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_launch#unit_label EvidentlyLaunch#unit_label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/evidently_launch#unit_label EvidentlyLaunch#unit_label}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "unitLabel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UnitLabel

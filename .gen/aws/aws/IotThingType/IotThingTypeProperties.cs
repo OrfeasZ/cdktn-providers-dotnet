@@ -7,7 +7,7 @@ namespace aws.IotThingType
     [JsiiByValue(fqn: "aws.iotThingType.IotThingTypeProperties")]
     public class IotThingTypeProperties : aws.IotThingType.IIotThingTypeProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_thing_type#description IotThingType#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_thing_type#description IotThingType#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -16,7 +16,7 @@ namespace aws.IotThingType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_thing_type#searchable_attributes IotThingType#searchable_attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_thing_type#searchable_attributes IotThingType#searchable_attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "searchableAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SearchableAttributes

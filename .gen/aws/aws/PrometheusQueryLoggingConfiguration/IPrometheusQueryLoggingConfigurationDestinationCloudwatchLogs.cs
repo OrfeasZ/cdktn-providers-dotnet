@@ -7,7 +7,7 @@ namespace aws.PrometheusQueryLoggingConfiguration
     [JsiiInterface(nativeType: typeof(IPrometheusQueryLoggingConfigurationDestinationCloudwatchLogs), fullyQualifiedName: "aws.prometheusQueryLoggingConfiguration.PrometheusQueryLoggingConfigurationDestinationCloudwatchLogs")]
     public interface IPrometheusQueryLoggingConfigurationDestinationCloudwatchLogs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/prometheus_query_logging_configuration#log_group_arn PrometheusQueryLoggingConfiguration#log_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/prometheus_query_logging_configuration#log_group_arn PrometheusQueryLoggingConfiguration#log_group_arn}.</summary>
         [JsiiProperty(name: "logGroupArn", typeJson: "{\"primitive\":\"string\"}")]
         string LogGroupArn
         {
@@ -21,7 +21,7 @@ namespace aws.PrometheusQueryLoggingConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/prometheus_query_logging_configuration#log_group_arn PrometheusQueryLoggingConfiguration#log_group_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/prometheus_query_logging_configuration#log_group_arn PrometheusQueryLoggingConfiguration#log_group_arn}.</summary>
             [JsiiProperty(name: "logGroupArn", typeJson: "{\"primitive\":\"string\"}")]
             public string LogGroupArn
             {

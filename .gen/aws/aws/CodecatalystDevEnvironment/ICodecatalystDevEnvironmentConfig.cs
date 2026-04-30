@@ -9,7 +9,7 @@ namespace aws.CodecatalystDevEnvironment
     {
         /// <summary>ides block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#ides CodecatalystDevEnvironment#ides}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#ides CodecatalystDevEnvironment#ides}
         /// </remarks>
         [JsiiProperty(name: "ides", typeJson: "{\"fqn\":\"aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentIdes\"}")]
         aws.CodecatalystDevEnvironment.ICodecatalystDevEnvironmentIdes Ides
@@ -17,7 +17,7 @@ namespace aws.CodecatalystDevEnvironment
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#instance_type CodecatalystDevEnvironment#instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#instance_type CodecatalystDevEnvironment#instance_type}.</summary>
         [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}")]
         string InstanceType
         {
@@ -26,7 +26,7 @@ namespace aws.CodecatalystDevEnvironment
 
         /// <summary>persistent_storage block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#persistent_storage CodecatalystDevEnvironment#persistent_storage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#persistent_storage CodecatalystDevEnvironment#persistent_storage}
         /// </remarks>
         [JsiiProperty(name: "persistentStorage", typeJson: "{\"fqn\":\"aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentPersistentStorage\"}")]
         aws.CodecatalystDevEnvironment.ICodecatalystDevEnvironmentPersistentStorage PersistentStorage
@@ -34,21 +34,21 @@ namespace aws.CodecatalystDevEnvironment
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#project_name CodecatalystDevEnvironment#project_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#project_name CodecatalystDevEnvironment#project_name}.</summary>
         [JsiiProperty(name: "projectName", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#space_name CodecatalystDevEnvironment#space_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#space_name CodecatalystDevEnvironment#space_name}.</summary>
         [JsiiProperty(name: "spaceName", typeJson: "{\"primitive\":\"string\"}")]
         string SpaceName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#alias CodecatalystDevEnvironment#alias}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#alias CodecatalystDevEnvironment#alias}.</summary>
         [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Alias
@@ -59,7 +59,7 @@ namespace aws.CodecatalystDevEnvironment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#id CodecatalystDevEnvironment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#id CodecatalystDevEnvironment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace aws.CodecatalystDevEnvironment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#inactivity_timeout_minutes CodecatalystDevEnvironment#inactivity_timeout_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#inactivity_timeout_minutes CodecatalystDevEnvironment#inactivity_timeout_minutes}.</summary>
         [JsiiProperty(name: "inactivityTimeoutMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InactivityTimeoutMinutes
@@ -87,7 +87,7 @@ namespace aws.CodecatalystDevEnvironment
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#region CodecatalystDevEnvironment#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#region CodecatalystDevEnvironment#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -101,7 +101,7 @@ namespace aws.CodecatalystDevEnvironment
 
         /// <summary>repositories block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#repositories CodecatalystDevEnvironment#repositories}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#repositories CodecatalystDevEnvironment#repositories}
         /// </remarks>
         [JsiiProperty(name: "repositories", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentRepositories\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -115,7 +115,7 @@ namespace aws.CodecatalystDevEnvironment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#timeouts CodecatalystDevEnvironment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#timeouts CodecatalystDevEnvironment#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -136,7 +136,7 @@ namespace aws.CodecatalystDevEnvironment
 
             /// <summary>ides block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#ides CodecatalystDevEnvironment#ides}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#ides CodecatalystDevEnvironment#ides}
             /// </remarks>
             [JsiiProperty(name: "ides", typeJson: "{\"fqn\":\"aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentIdes\"}")]
             public aws.CodecatalystDevEnvironment.ICodecatalystDevEnvironmentIdes Ides
@@ -144,7 +144,7 @@ namespace aws.CodecatalystDevEnvironment
                 get => GetInstanceProperty<aws.CodecatalystDevEnvironment.ICodecatalystDevEnvironmentIdes>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#instance_type CodecatalystDevEnvironment#instance_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#instance_type CodecatalystDevEnvironment#instance_type}.</summary>
             [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}")]
             public string InstanceType
             {
@@ -153,7 +153,7 @@ namespace aws.CodecatalystDevEnvironment
 
             /// <summary>persistent_storage block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#persistent_storage CodecatalystDevEnvironment#persistent_storage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#persistent_storage CodecatalystDevEnvironment#persistent_storage}
             /// </remarks>
             [JsiiProperty(name: "persistentStorage", typeJson: "{\"fqn\":\"aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentPersistentStorage\"}")]
             public aws.CodecatalystDevEnvironment.ICodecatalystDevEnvironmentPersistentStorage PersistentStorage
@@ -161,21 +161,21 @@ namespace aws.CodecatalystDevEnvironment
                 get => GetInstanceProperty<aws.CodecatalystDevEnvironment.ICodecatalystDevEnvironmentPersistentStorage>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#project_name CodecatalystDevEnvironment#project_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#project_name CodecatalystDevEnvironment#project_name}.</summary>
             [JsiiProperty(name: "projectName", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#space_name CodecatalystDevEnvironment#space_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#space_name CodecatalystDevEnvironment#space_name}.</summary>
             [JsiiProperty(name: "spaceName", typeJson: "{\"primitive\":\"string\"}")]
             public string SpaceName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#alias CodecatalystDevEnvironment#alias}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#alias CodecatalystDevEnvironment#alias}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Alias
@@ -183,7 +183,7 @@ namespace aws.CodecatalystDevEnvironment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#id CodecatalystDevEnvironment#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#id CodecatalystDevEnvironment#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -195,7 +195,7 @@ namespace aws.CodecatalystDevEnvironment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#inactivity_timeout_minutes CodecatalystDevEnvironment#inactivity_timeout_minutes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#inactivity_timeout_minutes CodecatalystDevEnvironment#inactivity_timeout_minutes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "inactivityTimeoutMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InactivityTimeoutMinutes
@@ -205,7 +205,7 @@ namespace aws.CodecatalystDevEnvironment
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#region CodecatalystDevEnvironment#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#region CodecatalystDevEnvironment#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -216,7 +216,7 @@ namespace aws.CodecatalystDevEnvironment
 
             /// <summary>repositories block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#repositories CodecatalystDevEnvironment#repositories}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#repositories CodecatalystDevEnvironment#repositories}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "repositories", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentRepositories\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -227,7 +227,7 @@ namespace aws.CodecatalystDevEnvironment
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_dev_environment#timeouts CodecatalystDevEnvironment#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_dev_environment#timeouts CodecatalystDevEnvironment#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentTimeouts\"}", isOptional: true)]

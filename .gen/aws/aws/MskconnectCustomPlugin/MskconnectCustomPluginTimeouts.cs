@@ -7,7 +7,7 @@ namespace aws.MskconnectCustomPlugin
     [JsiiByValue(fqn: "aws.mskconnectCustomPlugin.MskconnectCustomPluginTimeouts")]
     public class MskconnectCustomPluginTimeouts : aws.MskconnectCustomPlugin.IMskconnectCustomPluginTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_custom_plugin#create MskconnectCustomPlugin#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_custom_plugin#create MskconnectCustomPlugin#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.MskconnectCustomPlugin
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_custom_plugin#delete MskconnectCustomPlugin#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_custom_plugin#delete MskconnectCustomPlugin#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

@@ -11,7 +11,7 @@ namespace aws.AppmeshRoute
     {
         /// <summary>action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#action AppmeshRoute#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#action AppmeshRoute#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecHttp2RouteAction\"}")]
         public aws.AppmeshRoute.IAppmeshRouteSpecHttp2RouteAction Action
@@ -22,7 +22,7 @@ namespace aws.AppmeshRoute
 
         /// <summary>match block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#match AppmeshRoute#match}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#match AppmeshRoute#match}
         /// </remarks>
         [JsiiProperty(name: "match", typeJson: "{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecHttp2RouteMatch\"}")]
         public aws.AppmeshRoute.IAppmeshRouteSpecHttp2RouteMatch Match
@@ -33,7 +33,7 @@ namespace aws.AppmeshRoute
 
         /// <summary>retry_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#retry_policy AppmeshRoute#retry_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#retry_policy AppmeshRoute#retry_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retryPolicy", typeJson: "{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecHttp2RouteRetryPolicy\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace aws.AppmeshRoute
 
         /// <summary>timeout block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#timeout AppmeshRoute#timeout}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#timeout AppmeshRoute#timeout}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeout", typeJson: "{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecHttp2RouteTimeout\"}", isOptional: true)]

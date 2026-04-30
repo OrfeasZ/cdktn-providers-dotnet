@@ -7,7 +7,7 @@ namespace aws.Lexv2ModelsSlotType
     [JsiiInterface(nativeType: typeof(ILexv2ModelsSlotTypeValueSelectionSettingRegexFilter), fullyQualifiedName: "aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeValueSelectionSettingRegexFilter")]
     public interface ILexv2ModelsSlotTypeValueSelectionSettingRegexFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot_type#pattern Lexv2ModelsSlotType#pattern}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot_type#pattern Lexv2ModelsSlotType#pattern}.</summary>
         [JsiiProperty(name: "pattern", typeJson: "{\"primitive\":\"string\"}")]
         string Pattern
         {
@@ -21,7 +21,7 @@ namespace aws.Lexv2ModelsSlotType
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot_type#pattern Lexv2ModelsSlotType#pattern}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot_type#pattern Lexv2ModelsSlotType#pattern}.</summary>
             [JsiiProperty(name: "pattern", typeJson: "{\"primitive\":\"string\"}")]
             public string Pattern
             {

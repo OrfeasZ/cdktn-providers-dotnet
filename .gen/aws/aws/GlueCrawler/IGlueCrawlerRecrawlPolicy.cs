@@ -7,7 +7,7 @@ namespace aws.GlueCrawler
     [JsiiInterface(nativeType: typeof(IGlueCrawlerRecrawlPolicy), fullyQualifiedName: "aws.glueCrawler.GlueCrawlerRecrawlPolicy")]
     public interface IGlueCrawlerRecrawlPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#recrawl_behavior GlueCrawler#recrawl_behavior}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_crawler#recrawl_behavior GlueCrawler#recrawl_behavior}.</summary>
         [JsiiProperty(name: "recrawlBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RecrawlBehavior
@@ -25,7 +25,7 @@ namespace aws.GlueCrawler
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#recrawl_behavior GlueCrawler#recrawl_behavior}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_crawler#recrawl_behavior GlueCrawler#recrawl_behavior}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "recrawlBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RecrawlBehavior

@@ -7,21 +7,21 @@ namespace aws.KinesisAnalyticsApplication
     [JsiiInterface(nativeType: typeof(IKinesisAnalyticsApplicationReferenceDataSourcesSchemaRecordColumns), fullyQualifiedName: "aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationReferenceDataSourcesSchemaRecordColumns")]
     public interface IKinesisAnalyticsApplicationReferenceDataSourcesSchemaRecordColumns
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#name KinesisAnalyticsApplication#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_analytics_application#name KinesisAnalyticsApplication#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#sql_type KinesisAnalyticsApplication#sql_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_analytics_application#sql_type KinesisAnalyticsApplication#sql_type}.</summary>
         [JsiiProperty(name: "sqlType", typeJson: "{\"primitive\":\"string\"}")]
         string SqlType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#mapping KinesisAnalyticsApplication#mapping}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_analytics_application#mapping KinesisAnalyticsApplication#mapping}.</summary>
         [JsiiProperty(name: "mapping", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Mapping
@@ -39,21 +39,21 @@ namespace aws.KinesisAnalyticsApplication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#name KinesisAnalyticsApplication#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_analytics_application#name KinesisAnalyticsApplication#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#sql_type KinesisAnalyticsApplication#sql_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_analytics_application#sql_type KinesisAnalyticsApplication#sql_type}.</summary>
             [JsiiProperty(name: "sqlType", typeJson: "{\"primitive\":\"string\"}")]
             public string SqlType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#mapping KinesisAnalyticsApplication#mapping}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_analytics_application#mapping KinesisAnalyticsApplication#mapping}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mapping", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Mapping

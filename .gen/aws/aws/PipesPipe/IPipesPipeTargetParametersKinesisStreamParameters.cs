@@ -7,7 +7,7 @@ namespace aws.PipesPipe
     [JsiiInterface(nativeType: typeof(IPipesPipeTargetParametersKinesisStreamParameters), fullyQualifiedName: "aws.pipesPipe.PipesPipeTargetParametersKinesisStreamParameters")]
     public interface IPipesPipeTargetParametersKinesisStreamParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#partition_key PipesPipe#partition_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#partition_key PipesPipe#partition_key}.</summary>
         [JsiiProperty(name: "partitionKey", typeJson: "{\"primitive\":\"string\"}")]
         string PartitionKey
         {
@@ -21,7 +21,7 @@ namespace aws.PipesPipe
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#partition_key PipesPipe#partition_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#partition_key PipesPipe#partition_key}.</summary>
             [JsiiProperty(name: "partitionKey", typeJson: "{\"primitive\":\"string\"}")]
             public string PartitionKey
             {

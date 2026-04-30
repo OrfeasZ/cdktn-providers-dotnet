@@ -5,7 +5,7 @@ namespace aws.DevicefarmUpload
     /// <remarks>
     /// <h1><c>aws_devicefarm_upload</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_upload"><c>aws_devicefarm_upload</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_upload"><c>aws_devicefarm_upload</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

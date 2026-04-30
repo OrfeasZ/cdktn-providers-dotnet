@@ -7,14 +7,14 @@ namespace aws.NotificationsChannelAssociation
     [JsiiInterface(nativeType: typeof(INotificationsChannelAssociationConfig), fullyQualifiedName: "aws.notificationsChannelAssociation.NotificationsChannelAssociationConfig")]
     public interface INotificationsChannelAssociationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_channel_association#arn NotificationsChannelAssociation#arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/notifications_channel_association#arn NotificationsChannelAssociation#arn}.</summary>
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
         string Arn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_channel_association#notification_configuration_arn NotificationsChannelAssociation#notification_configuration_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/notifications_channel_association#notification_configuration_arn NotificationsChannelAssociation#notification_configuration_arn}.</summary>
         [JsiiProperty(name: "notificationConfigurationArn", typeJson: "{\"primitive\":\"string\"}")]
         string NotificationConfigurationArn
         {
@@ -28,14 +28,14 @@ namespace aws.NotificationsChannelAssociation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_channel_association#arn NotificationsChannelAssociation#arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/notifications_channel_association#arn NotificationsChannelAssociation#arn}.</summary>
             [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
             public string Arn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_channel_association#notification_configuration_arn NotificationsChannelAssociation#notification_configuration_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/notifications_channel_association#notification_configuration_arn NotificationsChannelAssociation#notification_configuration_arn}.</summary>
             [JsiiProperty(name: "notificationConfigurationArn", typeJson: "{\"primitive\":\"string\"}")]
             public string NotificationConfigurationArn
             {

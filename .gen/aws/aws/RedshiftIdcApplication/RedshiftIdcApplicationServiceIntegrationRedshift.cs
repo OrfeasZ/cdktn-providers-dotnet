@@ -11,7 +11,7 @@ namespace aws.RedshiftIdcApplication
 
         /// <summary>connect block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshift_idc_application#connect RedshiftIdcApplication#connect}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/redshift_idc_application#connect RedshiftIdcApplication#connect}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connect", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.redshiftIdcApplication.RedshiftIdcApplicationServiceIntegrationRedshiftConnect\"},\"kind\":\"array\"}}]}}", isOptional: true)]

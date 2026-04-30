@@ -7,7 +7,7 @@ namespace aws.WafregionalWebAcl
     [JsiiInterface(nativeType: typeof(IWafregionalWebAclDefaultAction), fullyQualifiedName: "aws.wafregionalWebAcl.WafregionalWebAclDefaultAction")]
     public interface IWafregionalWebAclDefaultAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_web_acl#type WafregionalWebAcl#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_web_acl#type WafregionalWebAcl#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -21,7 +21,7 @@ namespace aws.WafregionalWebAcl
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_web_acl#type WafregionalWebAcl#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_web_acl#type WafregionalWebAcl#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

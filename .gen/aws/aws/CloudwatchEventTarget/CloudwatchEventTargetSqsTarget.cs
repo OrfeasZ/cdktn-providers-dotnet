@@ -7,7 +7,7 @@ namespace aws.CloudwatchEventTarget
     [JsiiByValue(fqn: "aws.cloudwatchEventTarget.CloudwatchEventTargetSqsTarget")]
     public class CloudwatchEventTargetSqsTarget : aws.CloudwatchEventTarget.ICloudwatchEventTargetSqsTarget
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#message_group_id CloudwatchEventTarget#message_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#message_group_id CloudwatchEventTarget#message_group_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "messageGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MessageGroupId

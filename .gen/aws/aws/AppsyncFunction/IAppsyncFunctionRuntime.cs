@@ -7,14 +7,14 @@ namespace aws.AppsyncFunction
     [JsiiInterface(nativeType: typeof(IAppsyncFunctionRuntime), fullyQualifiedName: "aws.appsyncFunction.AppsyncFunctionRuntime")]
     public interface IAppsyncFunctionRuntime
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_function#name AppsyncFunction#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_function#name AppsyncFunction#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_function#runtime_version AppsyncFunction#runtime_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_function#runtime_version AppsyncFunction#runtime_version}.</summary>
         [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}")]
         string RuntimeVersion
         {
@@ -28,14 +28,14 @@ namespace aws.AppsyncFunction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_function#name AppsyncFunction#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_function#name AppsyncFunction#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_function#runtime_version AppsyncFunction#runtime_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_function#runtime_version AppsyncFunction#runtime_version}.</summary>
             [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string RuntimeVersion
             {

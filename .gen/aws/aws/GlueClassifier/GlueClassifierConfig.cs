@@ -9,7 +9,7 @@ namespace aws.GlueClassifier
     [JsiiByValue(fqn: "aws.glueClassifier.GlueClassifierConfig")]
     public class GlueClassifierConfig : aws.GlueClassifier.IGlueClassifierConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#name GlueClassifier#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_classifier#name GlueClassifier#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -19,7 +19,7 @@ namespace aws.GlueClassifier
 
         /// <summary>csv_classifier block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#csv_classifier GlueClassifier#csv_classifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_classifier#csv_classifier GlueClassifier#csv_classifier}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "csvClassifier", typeJson: "{\"fqn\":\"aws.glueClassifier.GlueClassifierCsvClassifier\"}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.GlueClassifier
 
         /// <summary>grok_classifier block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#grok_classifier GlueClassifier#grok_classifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_classifier#grok_classifier GlueClassifier#grok_classifier}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "grokClassifier", typeJson: "{\"fqn\":\"aws.glueClassifier.GlueClassifierGrokClassifier\"}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace aws.GlueClassifier
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#id GlueClassifier#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_classifier#id GlueClassifier#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,7 +56,7 @@ namespace aws.GlueClassifier
 
         /// <summary>json_classifier block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#json_classifier GlueClassifier#json_classifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_classifier#json_classifier GlueClassifier#json_classifier}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jsonClassifier", typeJson: "{\"fqn\":\"aws.glueClassifier.GlueClassifierJsonClassifier\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace aws.GlueClassifier
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#region GlueClassifier#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_classifier#region GlueClassifier#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace aws.GlueClassifier
 
         /// <summary>xml_classifier block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#xml_classifier GlueClassifier#xml_classifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_classifier#xml_classifier GlueClassifier#xml_classifier}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "xmlClassifier", typeJson: "{\"fqn\":\"aws.glueClassifier.GlueClassifierXmlClassifier\"}", isOptional: true)]

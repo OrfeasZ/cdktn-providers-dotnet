@@ -7,7 +7,7 @@ namespace aws.DataAwsElasticacheUser
     [JsiiInterface(nativeType: typeof(IDataAwsElasticacheUserAuthenticationMode), fullyQualifiedName: "aws.dataAwsElasticacheUser.DataAwsElasticacheUserAuthenticationMode")]
     public interface IDataAwsElasticacheUserAuthenticationMode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/elasticache_user#password_count DataAwsElasticacheUser#password_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/elasticache_user#password_count DataAwsElasticacheUser#password_count}.</summary>
         [JsiiProperty(name: "passwordCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? PasswordCount
@@ -18,7 +18,7 @@ namespace aws.DataAwsElasticacheUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/elasticache_user#type DataAwsElasticacheUser#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/elasticache_user#type DataAwsElasticacheUser#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
@@ -36,7 +36,7 @@ namespace aws.DataAwsElasticacheUser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/elasticache_user#password_count DataAwsElasticacheUser#password_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/elasticache_user#password_count DataAwsElasticacheUser#password_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "passwordCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? PasswordCount
@@ -44,7 +44,7 @@ namespace aws.DataAwsElasticacheUser
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/elasticache_user#type DataAwsElasticacheUser#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/elasticache_user#type DataAwsElasticacheUser#type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type

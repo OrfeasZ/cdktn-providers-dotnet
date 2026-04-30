@@ -9,7 +9,7 @@ namespace aws.AppintegrationsDataIntegration
     [JsiiByValue(fqn: "aws.appintegrationsDataIntegration.AppintegrationsDataIntegrationScheduleConfig")]
     public class AppintegrationsDataIntegrationScheduleConfig : aws.AppintegrationsDataIntegration.IAppintegrationsDataIntegrationScheduleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appintegrations_data_integration#first_execution_from AppintegrationsDataIntegration#first_execution_from}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appintegrations_data_integration#first_execution_from AppintegrationsDataIntegration#first_execution_from}.</summary>
         [JsiiProperty(name: "firstExecutionFrom", typeJson: "{\"primitive\":\"string\"}")]
         public string FirstExecutionFrom
         {
@@ -17,7 +17,7 @@ namespace aws.AppintegrationsDataIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appintegrations_data_integration#object AppintegrationsDataIntegration#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appintegrations_data_integration#object AppintegrationsDataIntegration#object}.</summary>
         [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
         public string Object
         {
@@ -25,7 +25,7 @@ namespace aws.AppintegrationsDataIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appintegrations_data_integration#schedule_expression AppintegrationsDataIntegration#schedule_expression}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appintegrations_data_integration#schedule_expression AppintegrationsDataIntegration#schedule_expression}.</summary>
         [JsiiProperty(name: "scheduleExpression", typeJson: "{\"primitive\":\"string\"}")]
         public string ScheduleExpression
         {

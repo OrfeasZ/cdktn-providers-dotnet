@@ -7,7 +7,7 @@ namespace aws.DataAwsVpcIpamPool
     [JsiiInterface(nativeType: typeof(IDataAwsVpcIpamPoolTimeouts), fullyQualifiedName: "aws.dataAwsVpcIpamPool.DataAwsVpcIpamPoolTimeouts")]
     public interface IDataAwsVpcIpamPoolTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpc_ipam_pool#read DataAwsVpcIpamPool#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/vpc_ipam_pool#read DataAwsVpcIpamPool#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace aws.DataAwsVpcIpamPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpc_ipam_pool#read DataAwsVpcIpamPool#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/vpc_ipam_pool#read DataAwsVpcIpamPool#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

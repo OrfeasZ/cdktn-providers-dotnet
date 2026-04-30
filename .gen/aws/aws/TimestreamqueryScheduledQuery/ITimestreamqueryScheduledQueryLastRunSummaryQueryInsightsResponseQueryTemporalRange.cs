@@ -9,7 +9,7 @@ namespace aws.TimestreamqueryScheduledQuery
     {
         /// <summary>max block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/timestreamquery_scheduled_query#max TimestreamqueryScheduledQuery#max}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/timestreamquery_scheduled_query#max TimestreamqueryScheduledQuery#max}
         /// </remarks>
         [JsiiProperty(name: "max", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.timestreamqueryScheduledQuery.TimestreamqueryScheduledQueryLastRunSummaryQueryInsightsResponseQueryTemporalRangeMax\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.TimestreamqueryScheduledQuery
 
             /// <summary>max block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/timestreamquery_scheduled_query#max TimestreamqueryScheduledQuery#max}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/timestreamquery_scheduled_query#max TimestreamqueryScheduledQuery#max}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "max", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.timestreamqueryScheduledQuery.TimestreamqueryScheduledQueryLastRunSummaryQueryInsightsResponseQueryTemporalRangeMax\"},\"kind\":\"array\"}}]}}", isOptional: true)]

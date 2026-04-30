@@ -9,7 +9,7 @@ namespace aws.SsmcontactsContactChannel
     [JsiiByValue(fqn: "aws.ssmcontactsContactChannel.SsmcontactsContactChannelConfig")]
     public class SsmcontactsContactChannelConfig : aws.SsmcontactsContactChannel.ISsmcontactsContactChannelConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmcontacts_contact_channel#contact_id SsmcontactsContactChannel#contact_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssmcontacts_contact_channel#contact_id SsmcontactsContactChannel#contact_id}.</summary>
         [JsiiProperty(name: "contactId", typeJson: "{\"primitive\":\"string\"}")]
         public string ContactId
         {
@@ -19,7 +19,7 @@ namespace aws.SsmcontactsContactChannel
 
         /// <summary>delivery_address block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmcontacts_contact_channel#delivery_address SsmcontactsContactChannel#delivery_address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssmcontacts_contact_channel#delivery_address SsmcontactsContactChannel#delivery_address}
         /// </remarks>
         [JsiiProperty(name: "deliveryAddress", typeJson: "{\"fqn\":\"aws.ssmcontactsContactChannel.SsmcontactsContactChannelDeliveryAddress\"}")]
         public aws.SsmcontactsContactChannel.ISsmcontactsContactChannelDeliveryAddress DeliveryAddress
@@ -28,7 +28,7 @@ namespace aws.SsmcontactsContactChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmcontacts_contact_channel#name SsmcontactsContactChannel#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssmcontacts_contact_channel#name SsmcontactsContactChannel#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -36,7 +36,7 @@ namespace aws.SsmcontactsContactChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmcontacts_contact_channel#type SsmcontactsContactChannel#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssmcontacts_contact_channel#type SsmcontactsContactChannel#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -44,7 +44,7 @@ namespace aws.SsmcontactsContactChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmcontacts_contact_channel#id SsmcontactsContactChannel#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssmcontacts_contact_channel#id SsmcontactsContactChannel#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace aws.SsmcontactsContactChannel
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmcontacts_contact_channel#region SsmcontactsContactChannel#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssmcontacts_contact_channel#region SsmcontactsContactChannel#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

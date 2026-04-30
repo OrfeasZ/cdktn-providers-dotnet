@@ -7,7 +7,7 @@ namespace aws.AthenaWorkgroup
     [JsiiInterface(nativeType: typeof(IAthenaWorkgroupConfigurationResultConfigurationAclConfiguration), fullyQualifiedName: "aws.athenaWorkgroup.AthenaWorkgroupConfigurationResultConfigurationAclConfiguration")]
     public interface IAthenaWorkgroupConfigurationResultConfigurationAclConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_workgroup#s3_acl_option AthenaWorkgroup#s3_acl_option}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_workgroup#s3_acl_option AthenaWorkgroup#s3_acl_option}.</summary>
         [JsiiProperty(name: "s3AclOption", typeJson: "{\"primitive\":\"string\"}")]
         string S3AclOption
         {
@@ -21,7 +21,7 @@ namespace aws.AthenaWorkgroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_workgroup#s3_acl_option AthenaWorkgroup#s3_acl_option}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_workgroup#s3_acl_option AthenaWorkgroup#s3_acl_option}.</summary>
             [JsiiProperty(name: "s3AclOption", typeJson: "{\"primitive\":\"string\"}")]
             public string S3AclOption
             {

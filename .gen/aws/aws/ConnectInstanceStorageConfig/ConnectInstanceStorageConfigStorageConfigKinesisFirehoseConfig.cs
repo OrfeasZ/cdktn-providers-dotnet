@@ -9,7 +9,7 @@ namespace aws.ConnectInstanceStorageConfig
     [JsiiByValue(fqn: "aws.connectInstanceStorageConfig.ConnectInstanceStorageConfigStorageConfigKinesisFirehoseConfig")]
     public class ConnectInstanceStorageConfigStorageConfigKinesisFirehoseConfig : aws.ConnectInstanceStorageConfig.IConnectInstanceStorageConfigStorageConfigKinesisFirehoseConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_instance_storage_config#firehose_arn ConnectInstanceStorageConfig#firehose_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_instance_storage_config#firehose_arn ConnectInstanceStorageConfig#firehose_arn}.</summary>
         [JsiiProperty(name: "firehoseArn", typeJson: "{\"primitive\":\"string\"}")]
         public string FirehoseArn
         {

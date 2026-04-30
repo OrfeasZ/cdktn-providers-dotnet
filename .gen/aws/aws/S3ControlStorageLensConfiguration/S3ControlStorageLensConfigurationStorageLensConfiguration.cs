@@ -11,7 +11,7 @@ namespace aws.S3ControlStorageLensConfiguration
     {
         /// <summary>account_level block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_storage_lens_configuration#account_level S3ControlStorageLensConfiguration#account_level}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_storage_lens_configuration#account_level S3ControlStorageLensConfiguration#account_level}
         /// </remarks>
         [JsiiProperty(name: "accountLevel", typeJson: "{\"fqn\":\"aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevel\"}")]
         public aws.S3ControlStorageLensConfiguration.IS3ControlStorageLensConfigurationStorageLensConfigurationAccountLevel AccountLevel
@@ -22,7 +22,7 @@ namespace aws.S3ControlStorageLensConfiguration
 
         private object _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_storage_lens_configuration#enabled S3ControlStorageLensConfiguration#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_storage_lens_configuration#enabled S3ControlStorageLensConfiguration#enabled}.</summary>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object Enabled
         {
@@ -52,7 +52,7 @@ namespace aws.S3ControlStorageLensConfiguration
 
         /// <summary>aws_org block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_storage_lens_configuration#aws_org S3ControlStorageLensConfiguration#aws_org}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_storage_lens_configuration#aws_org S3ControlStorageLensConfiguration#aws_org}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "awsOrg", typeJson: "{\"fqn\":\"aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationAwsOrg\"}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace aws.S3ControlStorageLensConfiguration
 
         /// <summary>data_export block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_storage_lens_configuration#data_export S3ControlStorageLensConfiguration#data_export}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_storage_lens_configuration#data_export S3ControlStorageLensConfiguration#data_export}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataExport", typeJson: "{\"fqn\":\"aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationDataExport\"}", isOptional: true)]
@@ -76,7 +76,7 @@ namespace aws.S3ControlStorageLensConfiguration
 
         /// <summary>exclude block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_storage_lens_configuration#exclude S3ControlStorageLensConfiguration#exclude}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_storage_lens_configuration#exclude S3ControlStorageLensConfiguration#exclude}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "exclude", typeJson: "{\"fqn\":\"aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationExclude\"}", isOptional: true)]
@@ -88,7 +88,7 @@ namespace aws.S3ControlStorageLensConfiguration
 
         /// <summary>expanded_prefixes_data_export block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_storage_lens_configuration#expanded_prefixes_data_export S3ControlStorageLensConfiguration#expanded_prefixes_data_export}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_storage_lens_configuration#expanded_prefixes_data_export S3ControlStorageLensConfiguration#expanded_prefixes_data_export}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "expandedPrefixesDataExport", typeJson: "{\"fqn\":\"aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExport\"}", isOptional: true)]
@@ -100,7 +100,7 @@ namespace aws.S3ControlStorageLensConfiguration
 
         /// <summary>include block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_storage_lens_configuration#include S3ControlStorageLensConfiguration#include}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_storage_lens_configuration#include S3ControlStorageLensConfiguration#include}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "include", typeJson: "{\"fqn\":\"aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationInclude\"}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace aws.S3ControlStorageLensConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_storage_lens_configuration#prefix_delimiter S3ControlStorageLensConfiguration#prefix_delimiter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_storage_lens_configuration#prefix_delimiter S3ControlStorageLensConfiguration#prefix_delimiter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "prefixDelimiter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrefixDelimiter

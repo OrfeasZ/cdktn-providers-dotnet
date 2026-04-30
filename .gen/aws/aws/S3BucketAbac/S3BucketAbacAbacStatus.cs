@@ -9,7 +9,7 @@ namespace aws.S3BucketAbac
     [JsiiByValue(fqn: "aws.s3BucketAbac.S3BucketAbacAbacStatus")]
     public class S3BucketAbacAbacStatus : aws.S3BucketAbac.IS3BucketAbacAbacStatus
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_abac#status S3BucketAbac#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_abac#status S3BucketAbac#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public string Status
         {

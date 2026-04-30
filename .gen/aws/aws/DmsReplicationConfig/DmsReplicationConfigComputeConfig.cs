@@ -9,7 +9,7 @@ namespace aws.DmsReplicationConfig
     [JsiiByValue(fqn: "aws.dmsReplicationConfig.DmsReplicationConfigComputeConfig")]
     public class DmsReplicationConfigComputeConfig : aws.DmsReplicationConfig.IDmsReplicationConfigComputeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_config#replication_subnet_group_id DmsReplicationConfig#replication_subnet_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_config#replication_subnet_group_id DmsReplicationConfig#replication_subnet_group_id}.</summary>
         [JsiiProperty(name: "replicationSubnetGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string ReplicationSubnetGroupId
         {
@@ -17,7 +17,7 @@ namespace aws.DmsReplicationConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_config#availability_zone DmsReplicationConfig#availability_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_config#availability_zone DmsReplicationConfig#availability_zone}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AvailabilityZone
@@ -26,7 +26,7 @@ namespace aws.DmsReplicationConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_config#dns_name_servers DmsReplicationConfig#dns_name_servers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_config#dns_name_servers DmsReplicationConfig#dns_name_servers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dnsNameServers", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DnsNameServers
@@ -35,7 +35,7 @@ namespace aws.DmsReplicationConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_config#kms_key_id DmsReplicationConfig#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_config#kms_key_id DmsReplicationConfig#kms_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyId
@@ -44,7 +44,7 @@ namespace aws.DmsReplicationConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_config#max_capacity_units DmsReplicationConfig#max_capacity_units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_config#max_capacity_units DmsReplicationConfig#max_capacity_units}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxCapacityUnits", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxCapacityUnits
@@ -53,7 +53,7 @@ namespace aws.DmsReplicationConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_config#min_capacity_units DmsReplicationConfig#min_capacity_units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_config#min_capacity_units DmsReplicationConfig#min_capacity_units}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minCapacityUnits", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinCapacityUnits
@@ -64,7 +64,7 @@ namespace aws.DmsReplicationConfig
 
         private object? _multiAz;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_config#multi_az DmsReplicationConfig#multi_az}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_config#multi_az DmsReplicationConfig#multi_az}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "multiAz", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? MultiAz
@@ -93,7 +93,7 @@ namespace aws.DmsReplicationConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_config#preferred_maintenance_window DmsReplicationConfig#preferred_maintenance_window}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_config#preferred_maintenance_window DmsReplicationConfig#preferred_maintenance_window}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "preferredMaintenanceWindow", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PreferredMaintenanceWindow
@@ -102,7 +102,7 @@ namespace aws.DmsReplicationConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_config#vpc_security_group_ids DmsReplicationConfig#vpc_security_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_config#vpc_security_group_ids DmsReplicationConfig#vpc_security_group_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vpcSecurityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? VpcSecurityGroupIds

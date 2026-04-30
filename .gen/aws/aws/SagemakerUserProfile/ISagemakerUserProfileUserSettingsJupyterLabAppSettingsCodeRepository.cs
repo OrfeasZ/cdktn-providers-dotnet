@@ -7,7 +7,7 @@ namespace aws.SagemakerUserProfile
     [JsiiInterface(nativeType: typeof(ISagemakerUserProfileUserSettingsJupyterLabAppSettingsCodeRepository), fullyQualifiedName: "aws.sagemakerUserProfile.SagemakerUserProfileUserSettingsJupyterLabAppSettingsCodeRepository")]
     public interface ISagemakerUserProfileUserSettingsJupyterLabAppSettingsCodeRepository
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_user_profile#repository_url SagemakerUserProfile#repository_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_user_profile#repository_url SagemakerUserProfile#repository_url}.</summary>
         [JsiiProperty(name: "repositoryUrl", typeJson: "{\"primitive\":\"string\"}")]
         string RepositoryUrl
         {
@@ -21,7 +21,7 @@ namespace aws.SagemakerUserProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_user_profile#repository_url SagemakerUserProfile#repository_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_user_profile#repository_url SagemakerUserProfile#repository_url}.</summary>
             [JsiiProperty(name: "repositoryUrl", typeJson: "{\"primitive\":\"string\"}")]
             public string RepositoryUrl
             {

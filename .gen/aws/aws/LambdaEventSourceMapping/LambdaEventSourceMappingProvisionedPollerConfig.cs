@@ -7,7 +7,7 @@ namespace aws.LambdaEventSourceMapping
     [JsiiByValue(fqn: "aws.lambdaEventSourceMapping.LambdaEventSourceMappingProvisionedPollerConfig")]
     public class LambdaEventSourceMappingProvisionedPollerConfig : aws.LambdaEventSourceMapping.ILambdaEventSourceMappingProvisionedPollerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_event_source_mapping#maximum_pollers LambdaEventSourceMapping#maximum_pollers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_event_source_mapping#maximum_pollers LambdaEventSourceMapping#maximum_pollers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maximumPollers", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaximumPollers
@@ -16,7 +16,7 @@ namespace aws.LambdaEventSourceMapping
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_event_source_mapping#minimum_pollers LambdaEventSourceMapping#minimum_pollers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_event_source_mapping#minimum_pollers LambdaEventSourceMapping#minimum_pollers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minimumPollers", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinimumPollers
@@ -25,7 +25,7 @@ namespace aws.LambdaEventSourceMapping
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_event_source_mapping#poller_group_name LambdaEventSourceMapping#poller_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_event_source_mapping#poller_group_name LambdaEventSourceMapping#poller_group_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pollerGroupName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PollerGroupName

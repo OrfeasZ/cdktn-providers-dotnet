@@ -9,7 +9,7 @@ namespace aws.DynamodbTable
     [JsiiByValue(fqn: "aws.dynamodbTable.DynamodbTableLocalSecondaryIndex")]
     public class DynamodbTableLocalSecondaryIndex : aws.DynamodbTable.IDynamodbTableLocalSecondaryIndex
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#name DynamodbTable#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_table#name DynamodbTable#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DynamodbTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}.</summary>
         [JsiiProperty(name: "projectionType", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectionType
         {
@@ -25,7 +25,7 @@ namespace aws.DynamodbTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#range_key DynamodbTable#range_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_table#range_key DynamodbTable#range_key}.</summary>
         [JsiiProperty(name: "rangeKey", typeJson: "{\"primitive\":\"string\"}")]
         public string RangeKey
         {
@@ -33,7 +33,7 @@ namespace aws.DynamodbTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nonKeyAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NonKeyAttributes

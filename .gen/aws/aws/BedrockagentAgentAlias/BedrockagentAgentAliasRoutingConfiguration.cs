@@ -7,7 +7,7 @@ namespace aws.BedrockagentAgentAlias
     [JsiiByValue(fqn: "aws.bedrockagentAgentAlias.BedrockagentAgentAliasRoutingConfiguration")]
     public class BedrockagentAgentAliasRoutingConfiguration : aws.BedrockagentAgentAlias.IBedrockagentAgentAliasRoutingConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_agent_alias#agent_version BedrockagentAgentAlias#agent_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_agent_alias#agent_version BedrockagentAgentAlias#agent_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "agentVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AgentVersion
@@ -16,7 +16,7 @@ namespace aws.BedrockagentAgentAlias
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_agent_alias#provisioned_throughput BedrockagentAgentAlias#provisioned_throughput}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_agent_alias#provisioned_throughput BedrockagentAgentAlias#provisioned_throughput}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "provisionedThroughput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProvisionedThroughput

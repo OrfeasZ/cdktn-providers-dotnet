@@ -7,7 +7,7 @@ namespace aws.ElasticacheServerlessCache
     [JsiiInterface(nativeType: typeof(IElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecond), fullyQualifiedName: "aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecond")]
     public interface IElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecond
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_serverless_cache#maximum ElasticacheServerlessCache#maximum}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_serverless_cache#maximum ElasticacheServerlessCache#maximum}.</summary>
         [JsiiProperty(name: "maximum", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Maximum
@@ -18,7 +18,7 @@ namespace aws.ElasticacheServerlessCache
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_serverless_cache#minimum ElasticacheServerlessCache#minimum}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_serverless_cache#minimum ElasticacheServerlessCache#minimum}.</summary>
         [JsiiProperty(name: "minimum", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Minimum
@@ -36,7 +36,7 @@ namespace aws.ElasticacheServerlessCache
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_serverless_cache#maximum ElasticacheServerlessCache#maximum}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_serverless_cache#maximum ElasticacheServerlessCache#maximum}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maximum", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Maximum
@@ -44,7 +44,7 @@ namespace aws.ElasticacheServerlessCache
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_serverless_cache#minimum ElasticacheServerlessCache#minimum}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_serverless_cache#minimum ElasticacheServerlessCache#minimum}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "minimum", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Minimum

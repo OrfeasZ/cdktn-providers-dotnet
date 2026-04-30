@@ -7,7 +7,7 @@ namespace aws.SagemakerAppImageConfig
     [JsiiInterface(nativeType: typeof(ISagemakerAppImageConfigKernelGatewayImageConfigFileSystemConfig), fullyQualifiedName: "aws.sagemakerAppImageConfig.SagemakerAppImageConfigKernelGatewayImageConfigFileSystemConfig")]
     public interface ISagemakerAppImageConfigKernelGatewayImageConfigFileSystemConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_app_image_config#default_gid SagemakerAppImageConfig#default_gid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_app_image_config#default_gid SagemakerAppImageConfig#default_gid}.</summary>
         [JsiiProperty(name: "defaultGid", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? DefaultGid
@@ -18,7 +18,7 @@ namespace aws.SagemakerAppImageConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_app_image_config#default_uid SagemakerAppImageConfig#default_uid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_app_image_config#default_uid SagemakerAppImageConfig#default_uid}.</summary>
         [JsiiProperty(name: "defaultUid", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? DefaultUid
@@ -29,7 +29,7 @@ namespace aws.SagemakerAppImageConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_app_image_config#mount_path SagemakerAppImageConfig#mount_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_app_image_config#mount_path SagemakerAppImageConfig#mount_path}.</summary>
         [JsiiProperty(name: "mountPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MountPath
@@ -47,7 +47,7 @@ namespace aws.SagemakerAppImageConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_app_image_config#default_gid SagemakerAppImageConfig#default_gid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_app_image_config#default_gid SagemakerAppImageConfig#default_gid}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "defaultGid", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? DefaultGid
@@ -55,7 +55,7 @@ namespace aws.SagemakerAppImageConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_app_image_config#default_uid SagemakerAppImageConfig#default_uid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_app_image_config#default_uid SagemakerAppImageConfig#default_uid}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "defaultUid", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? DefaultUid
@@ -63,7 +63,7 @@ namespace aws.SagemakerAppImageConfig
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_app_image_config#mount_path SagemakerAppImageConfig#mount_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_app_image_config#mount_path SagemakerAppImageConfig#mount_path}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mountPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MountPath

@@ -7,7 +7,7 @@ namespace aws.ConnectRoutingProfile
     [JsiiInterface(nativeType: typeof(IConnectRoutingProfileMediaConcurrenciesCrossChannelBehavior), fullyQualifiedName: "aws.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesCrossChannelBehavior")]
     public interface IConnectRoutingProfileMediaConcurrenciesCrossChannelBehavior
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_routing_profile#behavior_type ConnectRoutingProfile#behavior_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_routing_profile#behavior_type ConnectRoutingProfile#behavior_type}.</summary>
         [JsiiProperty(name: "behaviorType", typeJson: "{\"primitive\":\"string\"}")]
         string BehaviorType
         {
@@ -21,7 +21,7 @@ namespace aws.ConnectRoutingProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_routing_profile#behavior_type ConnectRoutingProfile#behavior_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_routing_profile#behavior_type ConnectRoutingProfile#behavior_type}.</summary>
             [JsiiProperty(name: "behaviorType", typeJson: "{\"primitive\":\"string\"}")]
             public string BehaviorType
             {

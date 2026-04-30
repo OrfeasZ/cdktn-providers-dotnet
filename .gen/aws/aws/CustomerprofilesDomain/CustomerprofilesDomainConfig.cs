@@ -9,7 +9,7 @@ namespace aws.CustomerprofilesDomain
     [JsiiByValue(fqn: "aws.customerprofilesDomain.CustomerprofilesDomainConfig")]
     public class CustomerprofilesDomainConfig : aws.CustomerprofilesDomain.ICustomerprofilesDomainConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#default_expiration_days CustomerprofilesDomain#default_expiration_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#default_expiration_days CustomerprofilesDomain#default_expiration_days}.</summary>
         [JsiiProperty(name: "defaultExpirationDays", typeJson: "{\"primitive\":\"number\"}")]
         public double DefaultExpirationDays
         {
@@ -17,7 +17,7 @@ namespace aws.CustomerprofilesDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#domain_name CustomerprofilesDomain#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#domain_name CustomerprofilesDomain#domain_name}.</summary>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainName
         {
@@ -25,7 +25,7 @@ namespace aws.CustomerprofilesDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#dead_letter_queue_url CustomerprofilesDomain#dead_letter_queue_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#dead_letter_queue_url CustomerprofilesDomain#dead_letter_queue_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deadLetterQueueUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DeadLetterQueueUrl
@@ -34,7 +34,7 @@ namespace aws.CustomerprofilesDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#default_encryption_key CustomerprofilesDomain#default_encryption_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#default_encryption_key CustomerprofilesDomain#default_encryption_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultEncryptionKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultEncryptionKey
@@ -43,7 +43,7 @@ namespace aws.CustomerprofilesDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#id CustomerprofilesDomain#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#id CustomerprofilesDomain#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace aws.CustomerprofilesDomain
 
         /// <summary>matching block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#matching CustomerprofilesDomain#matching}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#matching CustomerprofilesDomain#matching}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "matching", typeJson: "{\"fqn\":\"aws.customerprofilesDomain.CustomerprofilesDomainMatching\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace aws.CustomerprofilesDomain
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#region CustomerprofilesDomain#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#region CustomerprofilesDomain#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace aws.CustomerprofilesDomain
 
         /// <summary>rule_based_matching block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#rule_based_matching CustomerprofilesDomain#rule_based_matching}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#rule_based_matching CustomerprofilesDomain#rule_based_matching}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ruleBasedMatching", typeJson: "{\"fqn\":\"aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatching\"}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace aws.CustomerprofilesDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#tags CustomerprofilesDomain#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#tags CustomerprofilesDomain#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -101,7 +101,7 @@ namespace aws.CustomerprofilesDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#tags_all CustomerprofilesDomain#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#tags_all CustomerprofilesDomain#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll

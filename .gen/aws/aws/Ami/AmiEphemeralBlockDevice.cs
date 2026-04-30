@@ -9,7 +9,7 @@ namespace aws.Ami
     [JsiiByValue(fqn: "aws.ami.AmiEphemeralBlockDevice")]
     public class AmiEphemeralBlockDevice : aws.Ami.IAmiEphemeralBlockDevice
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#device_name Ami#device_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#device_name Ami#device_name}.</summary>
         [JsiiProperty(name: "deviceName", typeJson: "{\"primitive\":\"string\"}")]
         public string DeviceName
         {
@@ -17,7 +17,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ami#virtual_name Ami#virtual_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ami#virtual_name Ami#virtual_name}.</summary>
         [JsiiProperty(name: "virtualName", typeJson: "{\"primitive\":\"string\"}")]
         public string VirtualName
         {

@@ -9,7 +9,7 @@ namespace aws.Cloud9EnvironmentMembership
     [JsiiByValue(fqn: "aws.cloud9EnvironmentMembership.Cloud9EnvironmentMembershipConfig")]
     public class Cloud9EnvironmentMembershipConfig : aws.Cloud9EnvironmentMembership.ICloud9EnvironmentMembershipConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloud9_environment_membership#environment_id Cloud9EnvironmentMembership#environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloud9_environment_membership#environment_id Cloud9EnvironmentMembership#environment_id}.</summary>
         [JsiiProperty(name: "environmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string EnvironmentId
         {
@@ -17,7 +17,7 @@ namespace aws.Cloud9EnvironmentMembership
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloud9_environment_membership#permissions Cloud9EnvironmentMembership#permissions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloud9_environment_membership#permissions Cloud9EnvironmentMembership#permissions}.</summary>
         [JsiiProperty(name: "permissions", typeJson: "{\"primitive\":\"string\"}")]
         public string Permissions
         {
@@ -25,7 +25,7 @@ namespace aws.Cloud9EnvironmentMembership
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloud9_environment_membership#user_arn Cloud9EnvironmentMembership#user_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloud9_environment_membership#user_arn Cloud9EnvironmentMembership#user_arn}.</summary>
         [JsiiProperty(name: "userArn", typeJson: "{\"primitive\":\"string\"}")]
         public string UserArn
         {
@@ -33,7 +33,7 @@ namespace aws.Cloud9EnvironmentMembership
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloud9_environment_membership#id Cloud9EnvironmentMembership#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloud9_environment_membership#id Cloud9EnvironmentMembership#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace aws.Cloud9EnvironmentMembership
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloud9_environment_membership#region Cloud9EnvironmentMembership#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloud9_environment_membership#region Cloud9EnvironmentMembership#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

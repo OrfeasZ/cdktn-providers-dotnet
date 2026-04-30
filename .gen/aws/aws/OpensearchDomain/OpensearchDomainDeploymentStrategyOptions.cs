@@ -9,7 +9,7 @@ namespace aws.OpensearchDomain
     [JsiiByValue(fqn: "aws.opensearchDomain.OpensearchDomainDeploymentStrategyOptions")]
     public class OpensearchDomainDeploymentStrategyOptions : aws.OpensearchDomain.IOpensearchDomainDeploymentStrategyOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#deployment_strategy OpensearchDomain#deployment_strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#deployment_strategy OpensearchDomain#deployment_strategy}.</summary>
         [JsiiProperty(name: "deploymentStrategy", typeJson: "{\"primitive\":\"string\"}")]
         public string DeploymentStrategy
         {

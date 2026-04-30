@@ -7,14 +7,14 @@ namespace aws.ApiGatewayMethodSettings
     [JsiiInterface(nativeType: typeof(IApiGatewayMethodSettingsConfig), fullyQualifiedName: "aws.apiGatewayMethodSettings.ApiGatewayMethodSettingsConfig")]
     public interface IApiGatewayMethodSettingsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_method_settings#method_path ApiGatewayMethodSettings#method_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_method_settings#method_path ApiGatewayMethodSettings#method_path}.</summary>
         [JsiiProperty(name: "methodPath", typeJson: "{\"primitive\":\"string\"}")]
         string MethodPath
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_method_settings#rest_api_id ApiGatewayMethodSettings#rest_api_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_method_settings#rest_api_id ApiGatewayMethodSettings#rest_api_id}.</summary>
         [JsiiProperty(name: "restApiId", typeJson: "{\"primitive\":\"string\"}")]
         string RestApiId
         {
@@ -23,7 +23,7 @@ namespace aws.ApiGatewayMethodSettings
 
         /// <summary>settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_method_settings#settings ApiGatewayMethodSettings#settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_method_settings#settings ApiGatewayMethodSettings#settings}
         /// </remarks>
         [JsiiProperty(name: "settings", typeJson: "{\"fqn\":\"aws.apiGatewayMethodSettings.ApiGatewayMethodSettingsSettings\"}")]
         aws.ApiGatewayMethodSettings.IApiGatewayMethodSettingsSettings Settings
@@ -31,14 +31,14 @@ namespace aws.ApiGatewayMethodSettings
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_method_settings#stage_name ApiGatewayMethodSettings#stage_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_method_settings#stage_name ApiGatewayMethodSettings#stage_name}.</summary>
         [JsiiProperty(name: "stageName", typeJson: "{\"primitive\":\"string\"}")]
         string StageName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_method_settings#id ApiGatewayMethodSettings#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_method_settings#id ApiGatewayMethodSettings#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace aws.ApiGatewayMethodSettings
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_method_settings#region ApiGatewayMethodSettings#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_method_settings#region ApiGatewayMethodSettings#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -74,14 +74,14 @@ namespace aws.ApiGatewayMethodSettings
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_method_settings#method_path ApiGatewayMethodSettings#method_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_method_settings#method_path ApiGatewayMethodSettings#method_path}.</summary>
             [JsiiProperty(name: "methodPath", typeJson: "{\"primitive\":\"string\"}")]
             public string MethodPath
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_method_settings#rest_api_id ApiGatewayMethodSettings#rest_api_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_method_settings#rest_api_id ApiGatewayMethodSettings#rest_api_id}.</summary>
             [JsiiProperty(name: "restApiId", typeJson: "{\"primitive\":\"string\"}")]
             public string RestApiId
             {
@@ -90,7 +90,7 @@ namespace aws.ApiGatewayMethodSettings
 
             /// <summary>settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_method_settings#settings ApiGatewayMethodSettings#settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_method_settings#settings ApiGatewayMethodSettings#settings}
             /// </remarks>
             [JsiiProperty(name: "settings", typeJson: "{\"fqn\":\"aws.apiGatewayMethodSettings.ApiGatewayMethodSettingsSettings\"}")]
             public aws.ApiGatewayMethodSettings.IApiGatewayMethodSettingsSettings Settings
@@ -98,14 +98,14 @@ namespace aws.ApiGatewayMethodSettings
                 get => GetInstanceProperty<aws.ApiGatewayMethodSettings.IApiGatewayMethodSettingsSettings>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_method_settings#stage_name ApiGatewayMethodSettings#stage_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_method_settings#stage_name ApiGatewayMethodSettings#stage_name}.</summary>
             [JsiiProperty(name: "stageName", typeJson: "{\"primitive\":\"string\"}")]
             public string StageName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_method_settings#id ApiGatewayMethodSettings#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_method_settings#id ApiGatewayMethodSettings#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -119,7 +119,7 @@ namespace aws.ApiGatewayMethodSettings
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_method_settings#region ApiGatewayMethodSettings#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_method_settings#region ApiGatewayMethodSettings#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

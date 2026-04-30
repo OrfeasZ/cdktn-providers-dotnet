@@ -9,7 +9,7 @@ namespace aws.SyntheticsCanary
     {
         /// <summary>s3_encryption block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/synthetics_canary#s3_encryption SyntheticsCanary#s3_encryption}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/synthetics_canary#s3_encryption SyntheticsCanary#s3_encryption}
         /// </remarks>
         [JsiiProperty(name: "s3Encryption", typeJson: "{\"fqn\":\"aws.syntheticsCanary.SyntheticsCanaryArtifactConfigS3Encryption\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.SyntheticsCanary
 
             /// <summary>s3_encryption block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/synthetics_canary#s3_encryption SyntheticsCanary#s3_encryption}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/synthetics_canary#s3_encryption SyntheticsCanary#s3_encryption}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3Encryption", typeJson: "{\"fqn\":\"aws.syntheticsCanary.SyntheticsCanaryArtifactConfigS3Encryption\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.MskTopic
     [JsiiByValue(fqn: "aws.mskTopic.MskTopicConfig")]
     public class MskTopicConfig : aws.MskTopic.IMskTopicConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_topic#cluster_arn MskTopic#cluster_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_topic#cluster_arn MskTopic#cluster_arn}.</summary>
         [JsiiProperty(name: "clusterArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterArn
         {
@@ -17,7 +17,7 @@ namespace aws.MskTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_topic#name MskTopic#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_topic#name MskTopic#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace aws.MskTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_topic#partition_count MskTopic#partition_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_topic#partition_count MskTopic#partition_count}.</summary>
         [JsiiProperty(name: "partitionCount", typeJson: "{\"primitive\":\"number\"}")]
         public double PartitionCount
         {
@@ -33,7 +33,7 @@ namespace aws.MskTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_topic#replication_factor MskTopic#replication_factor}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_topic#replication_factor MskTopic#replication_factor}.</summary>
         [JsiiProperty(name: "replicationFactor", typeJson: "{\"primitive\":\"number\"}")]
         public double ReplicationFactor
         {
@@ -41,7 +41,7 @@ namespace aws.MskTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_topic#configs MskTopic#configs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_topic#configs MskTopic#configs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "configs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Configs
@@ -52,7 +52,7 @@ namespace aws.MskTopic
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_topic#region MskTopic#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_topic#region MskTopic#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace aws.MskTopic
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_topic#timeouts MskTopic#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_topic#timeouts MskTopic#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.mskTopic.MskTopicTimeouts\"}", isOptional: true)]

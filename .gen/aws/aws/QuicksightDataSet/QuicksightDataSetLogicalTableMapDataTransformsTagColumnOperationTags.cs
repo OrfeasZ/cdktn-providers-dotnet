@@ -9,7 +9,7 @@ namespace aws.QuicksightDataSet
     {
         /// <summary>column_description block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#column_description QuicksightDataSet#column_description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#column_description QuicksightDataSet#column_description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "columnDescription", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTagsColumnDescription\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace aws.QuicksightDataSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#column_geographic_role QuicksightDataSet#column_geographic_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#column_geographic_role QuicksightDataSet#column_geographic_role}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "columnGeographicRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ColumnGeographicRole

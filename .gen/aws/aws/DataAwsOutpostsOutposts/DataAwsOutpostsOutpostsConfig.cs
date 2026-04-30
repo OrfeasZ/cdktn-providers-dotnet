@@ -7,7 +7,7 @@ namespace aws.DataAwsOutpostsOutposts
     [JsiiByValue(fqn: "aws.dataAwsOutpostsOutposts.DataAwsOutpostsOutpostsConfig")]
     public class DataAwsOutpostsOutpostsConfig : aws.DataAwsOutpostsOutposts.IDataAwsOutpostsOutpostsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/outposts_outposts#availability_zone DataAwsOutpostsOutposts#availability_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/outposts_outposts#availability_zone DataAwsOutpostsOutposts#availability_zone}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AvailabilityZone
@@ -16,7 +16,7 @@ namespace aws.DataAwsOutpostsOutposts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/outposts_outposts#availability_zone_id DataAwsOutpostsOutposts#availability_zone_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/outposts_outposts#availability_zone_id DataAwsOutpostsOutposts#availability_zone_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityZoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AvailabilityZoneId
@@ -25,7 +25,7 @@ namespace aws.DataAwsOutpostsOutposts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/outposts_outposts#id DataAwsOutpostsOutposts#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/outposts_outposts#id DataAwsOutpostsOutposts#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace aws.DataAwsOutpostsOutposts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/outposts_outposts#owner_id DataAwsOutpostsOutposts#owner_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/outposts_outposts#owner_id DataAwsOutpostsOutposts#owner_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ownerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OwnerId
@@ -49,7 +49,7 @@ namespace aws.DataAwsOutpostsOutposts
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/outposts_outposts#region DataAwsOutpostsOutposts#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/outposts_outposts#region DataAwsOutpostsOutposts#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace aws.DataAwsOutpostsOutposts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/outposts_outposts#site_id DataAwsOutpostsOutposts#site_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/outposts_outposts#site_id DataAwsOutpostsOutposts#site_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "siteId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SiteId

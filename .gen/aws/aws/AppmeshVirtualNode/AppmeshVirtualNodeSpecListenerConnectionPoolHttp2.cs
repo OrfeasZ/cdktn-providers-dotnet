@@ -9,7 +9,7 @@ namespace aws.AppmeshVirtualNode
     [JsiiByValue(fqn: "aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerConnectionPoolHttp2")]
     public class AppmeshVirtualNodeSpecListenerConnectionPoolHttp2 : aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerConnectionPoolHttp2
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_node#max_requests AppmeshVirtualNode#max_requests}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_node#max_requests AppmeshVirtualNode#max_requests}.</summary>
         [JsiiProperty(name: "maxRequests", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxRequests
         {

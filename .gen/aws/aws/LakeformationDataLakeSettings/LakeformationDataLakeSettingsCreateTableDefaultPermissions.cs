@@ -7,7 +7,7 @@ namespace aws.LakeformationDataLakeSettings
     [JsiiByValue(fqn: "aws.lakeformationDataLakeSettings.LakeformationDataLakeSettingsCreateTableDefaultPermissions")]
     public class LakeformationDataLakeSettingsCreateTableDefaultPermissions : aws.LakeformationDataLakeSettings.ILakeformationDataLakeSettingsCreateTableDefaultPermissions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_data_lake_settings#permissions LakeformationDataLakeSettings#permissions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_data_lake_settings#permissions LakeformationDataLakeSettings#permissions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "permissions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Permissions
@@ -16,7 +16,7 @@ namespace aws.LakeformationDataLakeSettings
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_data_lake_settings#principal LakeformationDataLakeSettings#principal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_data_lake_settings#principal LakeformationDataLakeSettings#principal}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "principal", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Principal

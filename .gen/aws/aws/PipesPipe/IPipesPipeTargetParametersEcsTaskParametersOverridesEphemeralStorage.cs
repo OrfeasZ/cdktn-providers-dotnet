@@ -7,7 +7,7 @@ namespace aws.PipesPipe
     [JsiiInterface(nativeType: typeof(IPipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage), fullyQualifiedName: "aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage")]
     public interface IPipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#size_in_gib PipesPipe#size_in_gib}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#size_in_gib PipesPipe#size_in_gib}.</summary>
         [JsiiProperty(name: "sizeInGib", typeJson: "{\"primitive\":\"number\"}")]
         double SizeInGib
         {
@@ -21,7 +21,7 @@ namespace aws.PipesPipe
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#size_in_gib PipesPipe#size_in_gib}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#size_in_gib PipesPipe#size_in_gib}.</summary>
             [JsiiProperty(name: "sizeInGib", typeJson: "{\"primitive\":\"number\"}")]
             public double SizeInGib
             {

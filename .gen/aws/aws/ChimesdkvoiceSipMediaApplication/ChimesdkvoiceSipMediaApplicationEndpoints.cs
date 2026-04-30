@@ -9,7 +9,7 @@ namespace aws.ChimesdkvoiceSipMediaApplication
     [JsiiByValue(fqn: "aws.chimesdkvoiceSipMediaApplication.ChimesdkvoiceSipMediaApplicationEndpoints")]
     public class ChimesdkvoiceSipMediaApplicationEndpoints : aws.ChimesdkvoiceSipMediaApplication.IChimesdkvoiceSipMediaApplicationEndpoints
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/chimesdkvoice_sip_media_application#lambda_arn ChimesdkvoiceSipMediaApplication#lambda_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/chimesdkvoice_sip_media_application#lambda_arn ChimesdkvoiceSipMediaApplication#lambda_arn}.</summary>
         [JsiiProperty(name: "lambdaArn", typeJson: "{\"primitive\":\"string\"}")]
         public string LambdaArn
         {

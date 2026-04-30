@@ -9,7 +9,7 @@ namespace aws.ResourcegroupsResource
     [JsiiByValue(fqn: "aws.resourcegroupsResource.ResourcegroupsResourceConfig")]
     public class ResourcegroupsResourceConfig : aws.ResourcegroupsResource.IResourcegroupsResourceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourcegroups_resource#group_arn ResourcegroupsResource#group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/resourcegroups_resource#group_arn ResourcegroupsResource#group_arn}.</summary>
         [JsiiProperty(name: "groupArn", typeJson: "{\"primitive\":\"string\"}")]
         public string GroupArn
         {
@@ -17,7 +17,7 @@ namespace aws.ResourcegroupsResource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourcegroups_resource#resource_arn ResourcegroupsResource#resource_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/resourcegroups_resource#resource_arn ResourcegroupsResource#resource_arn}.</summary>
         [JsiiProperty(name: "resourceArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceArn
         {
@@ -25,7 +25,7 @@ namespace aws.ResourcegroupsResource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourcegroups_resource#id ResourcegroupsResource#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/resourcegroups_resource#id ResourcegroupsResource#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace aws.ResourcegroupsResource
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourcegroups_resource#region ResourcegroupsResource#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/resourcegroups_resource#region ResourcegroupsResource#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -52,7 +52,7 @@ namespace aws.ResourcegroupsResource
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourcegroups_resource#timeouts ResourcegroupsResource#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/resourcegroups_resource#timeouts ResourcegroupsResource#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.resourcegroupsResource.ResourcegroupsResourceTimeouts\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace aws.QuicksightDataSet
     {
         /// <summary>lookback_window block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#lookback_window QuicksightDataSet#lookback_window}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#lookback_window QuicksightDataSet#lookback_window}
         /// </remarks>
         [JsiiProperty(name: "lookbackWindow", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshLookbackWindow\"}")]
         public aws.QuicksightDataSet.IQuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshLookbackWindow LookbackWindow

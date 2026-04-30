@@ -9,7 +9,7 @@ namespace aws.LbTargetGroup
     {
         /// <summary>dns_failover block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#dns_failover LbTargetGroup#dns_failover}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#dns_failover LbTargetGroup#dns_failover}
         /// </remarks>
         [JsiiProperty(name: "dnsFailover", typeJson: "{\"fqn\":\"aws.lbTargetGroup.LbTargetGroupTargetGroupHealthDnsFailover\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.LbTargetGroup
 
         /// <summary>unhealthy_state_routing block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#unhealthy_state_routing LbTargetGroup#unhealthy_state_routing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#unhealthy_state_routing LbTargetGroup#unhealthy_state_routing}
         /// </remarks>
         [JsiiProperty(name: "unhealthyStateRouting", typeJson: "{\"fqn\":\"aws.lbTargetGroup.LbTargetGroupTargetGroupHealthUnhealthyStateRouting\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace aws.LbTargetGroup
 
             /// <summary>dns_failover block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#dns_failover LbTargetGroup#dns_failover}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#dns_failover LbTargetGroup#dns_failover}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dnsFailover", typeJson: "{\"fqn\":\"aws.lbTargetGroup.LbTargetGroupTargetGroupHealthDnsFailover\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace aws.LbTargetGroup
 
             /// <summary>unhealthy_state_routing block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#unhealthy_state_routing LbTargetGroup#unhealthy_state_routing}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#unhealthy_state_routing LbTargetGroup#unhealthy_state_routing}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "unhealthyStateRouting", typeJson: "{\"fqn\":\"aws.lbTargetGroup.LbTargetGroupTargetGroupHealthUnhealthyStateRouting\"}", isOptional: true)]

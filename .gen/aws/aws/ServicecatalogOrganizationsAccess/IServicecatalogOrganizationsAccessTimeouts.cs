@@ -7,7 +7,7 @@ namespace aws.ServicecatalogOrganizationsAccess
     [JsiiInterface(nativeType: typeof(IServicecatalogOrganizationsAccessTimeouts), fullyQualifiedName: "aws.servicecatalogOrganizationsAccess.ServicecatalogOrganizationsAccessTimeouts")]
     public interface IServicecatalogOrganizationsAccessTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/servicecatalog_organizations_access#read ServicecatalogOrganizationsAccess#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/servicecatalog_organizations_access#read ServicecatalogOrganizationsAccess#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace aws.ServicecatalogOrganizationsAccess
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/servicecatalog_organizations_access#read ServicecatalogOrganizationsAccess#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/servicecatalog_organizations_access#read ServicecatalogOrganizationsAccess#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

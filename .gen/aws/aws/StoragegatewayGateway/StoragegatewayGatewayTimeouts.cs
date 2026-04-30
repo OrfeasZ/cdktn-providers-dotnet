@@ -7,7 +7,7 @@ namespace aws.StoragegatewayGateway
     [JsiiByValue(fqn: "aws.storagegatewayGateway.StoragegatewayGatewayTimeouts")]
     public class StoragegatewayGatewayTimeouts : aws.StoragegatewayGateway.IStoragegatewayGatewayTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/storagegateway_gateway#create StoragegatewayGateway#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/storagegateway_gateway#create StoragegatewayGateway#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create

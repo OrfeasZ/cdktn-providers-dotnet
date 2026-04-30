@@ -7,7 +7,7 @@ namespace aws.CeAnomalySubscription
     [JsiiByValue(fqn: "aws.ceAnomalySubscription.CeAnomalySubscriptionThresholdExpressionOrTags")]
     public class CeAnomalySubscriptionThresholdExpressionOrTags : aws.CeAnomalySubscription.ICeAnomalySubscriptionThresholdExpressionOrTags
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_anomaly_subscription#key CeAnomalySubscription#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ce_anomaly_subscription#key CeAnomalySubscription#key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Key
@@ -16,7 +16,7 @@ namespace aws.CeAnomalySubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_anomaly_subscription#match_options CeAnomalySubscription#match_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ce_anomaly_subscription#match_options CeAnomalySubscription#match_options}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "matchOptions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? MatchOptions
@@ -25,7 +25,7 @@ namespace aws.CeAnomalySubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_anomaly_subscription#values CeAnomalySubscription#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ce_anomaly_subscription#values CeAnomalySubscription#values}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Values

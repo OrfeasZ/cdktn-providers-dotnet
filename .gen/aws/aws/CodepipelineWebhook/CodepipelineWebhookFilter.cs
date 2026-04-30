@@ -9,7 +9,7 @@ namespace aws.CodepipelineWebhook
     [JsiiByValue(fqn: "aws.codepipelineWebhook.CodepipelineWebhookFilter")]
     public class CodepipelineWebhookFilter : aws.CodepipelineWebhook.ICodepipelineWebhookFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline_webhook#json_path CodepipelineWebhook#json_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codepipeline_webhook#json_path CodepipelineWebhook#json_path}.</summary>
         [JsiiProperty(name: "jsonPath", typeJson: "{\"primitive\":\"string\"}")]
         public string JsonPath
         {
@@ -17,7 +17,7 @@ namespace aws.CodepipelineWebhook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline_webhook#match_equals CodepipelineWebhook#match_equals}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codepipeline_webhook#match_equals CodepipelineWebhook#match_equals}.</summary>
         [JsiiProperty(name: "matchEquals", typeJson: "{\"primitive\":\"string\"}")]
         public string MatchEquals
         {

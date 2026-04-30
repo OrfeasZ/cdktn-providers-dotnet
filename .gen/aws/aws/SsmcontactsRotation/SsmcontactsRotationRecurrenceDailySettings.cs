@@ -9,7 +9,7 @@ namespace aws.SsmcontactsRotation
     [JsiiByValue(fqn: "aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceDailySettings")]
     public class SsmcontactsRotationRecurrenceDailySettings : aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceDailySettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmcontacts_rotation#hour_of_day SsmcontactsRotation#hour_of_day}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssmcontacts_rotation#hour_of_day SsmcontactsRotation#hour_of_day}.</summary>
         [JsiiProperty(name: "hourOfDay", typeJson: "{\"primitive\":\"number\"}")]
         public double HourOfDay
         {
@@ -17,7 +17,7 @@ namespace aws.SsmcontactsRotation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmcontacts_rotation#minute_of_hour SsmcontactsRotation#minute_of_hour}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssmcontacts_rotation#minute_of_hour SsmcontactsRotation#minute_of_hour}.</summary>
         [JsiiProperty(name: "minuteOfHour", typeJson: "{\"primitive\":\"number\"}")]
         public double MinuteOfHour
         {

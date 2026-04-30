@@ -7,7 +7,7 @@ namespace aws.PinpointEmailTemplate
     [JsiiByValue(fqn: "aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplateHeader")]
     public class PinpointEmailTemplateEmailTemplateHeader : aws.PinpointEmailTemplate.IPinpointEmailTemplateEmailTemplateHeader
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pinpoint_email_template#name PinpointEmailTemplate#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pinpoint_email_template#name PinpointEmailTemplate#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -16,7 +16,7 @@ namespace aws.PinpointEmailTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pinpoint_email_template#value PinpointEmailTemplate#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pinpoint_email_template#value PinpointEmailTemplate#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

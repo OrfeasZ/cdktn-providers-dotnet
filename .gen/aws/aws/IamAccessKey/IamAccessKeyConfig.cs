@@ -9,7 +9,7 @@ namespace aws.IamAccessKey
     [JsiiByValue(fqn: "aws.iamAccessKey.IamAccessKeyConfig")]
     public class IamAccessKeyConfig : aws.IamAccessKey.IIamAccessKeyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_access_key#user IamAccessKey#user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_access_key#user IamAccessKey#user}.</summary>
         [JsiiProperty(name: "user", typeJson: "{\"primitive\":\"string\"}")]
         public string User
         {
@@ -17,7 +17,7 @@ namespace aws.IamAccessKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_access_key#id IamAccessKey#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_access_key#id IamAccessKey#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ namespace aws.IamAccessKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_access_key#pgp_key IamAccessKey#pgp_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_access_key#pgp_key IamAccessKey#pgp_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pgpKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PgpKey
@@ -39,7 +39,7 @@ namespace aws.IamAccessKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_access_key#status IamAccessKey#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_access_key#status IamAccessKey#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status

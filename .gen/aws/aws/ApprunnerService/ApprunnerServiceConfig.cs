@@ -9,7 +9,7 @@ namespace aws.ApprunnerService
     [JsiiByValue(fqn: "aws.apprunnerService.ApprunnerServiceConfig")]
     public class ApprunnerServiceConfig : aws.ApprunnerService.IApprunnerServiceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#service_name ApprunnerService#service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#service_name ApprunnerService#service_name}.</summary>
         [JsiiProperty(name: "serviceName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceName
         {
@@ -19,7 +19,7 @@ namespace aws.ApprunnerService
 
         /// <summary>source_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#source_configuration ApprunnerService#source_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#source_configuration ApprunnerService#source_configuration}
         /// </remarks>
         [JsiiProperty(name: "sourceConfiguration", typeJson: "{\"fqn\":\"aws.apprunnerService.ApprunnerServiceSourceConfiguration\"}")]
         public aws.ApprunnerService.IApprunnerServiceSourceConfiguration SourceConfiguration
@@ -28,7 +28,7 @@ namespace aws.ApprunnerService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#auto_scaling_configuration_arn ApprunnerService#auto_scaling_configuration_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#auto_scaling_configuration_arn ApprunnerService#auto_scaling_configuration_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "autoScalingConfigurationArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AutoScalingConfigurationArn
@@ -39,7 +39,7 @@ namespace aws.ApprunnerService
 
         /// <summary>encryption_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#encryption_configuration ApprunnerService#encryption_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#encryption_configuration ApprunnerService#encryption_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionConfiguration", typeJson: "{\"fqn\":\"aws.apprunnerService.ApprunnerServiceEncryptionConfiguration\"}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace aws.ApprunnerService
 
         /// <summary>health_check_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#health_check_configuration ApprunnerService#health_check_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#health_check_configuration ApprunnerService#health_check_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "healthCheckConfiguration", typeJson: "{\"fqn\":\"aws.apprunnerService.ApprunnerServiceHealthCheckConfiguration\"}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace aws.ApprunnerService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#id ApprunnerService#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#id ApprunnerService#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -76,7 +76,7 @@ namespace aws.ApprunnerService
 
         /// <summary>instance_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#instance_configuration ApprunnerService#instance_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#instance_configuration ApprunnerService#instance_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "instanceConfiguration", typeJson: "{\"fqn\":\"aws.apprunnerService.ApprunnerServiceInstanceConfiguration\"}", isOptional: true)]
@@ -88,7 +88,7 @@ namespace aws.ApprunnerService
 
         /// <summary>network_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#network_configuration ApprunnerService#network_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#network_configuration ApprunnerService#network_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkConfiguration", typeJson: "{\"fqn\":\"aws.apprunnerService.ApprunnerServiceNetworkConfiguration\"}", isOptional: true)]
@@ -100,7 +100,7 @@ namespace aws.ApprunnerService
 
         /// <summary>observability_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#observability_configuration ApprunnerService#observability_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#observability_configuration ApprunnerService#observability_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "observabilityConfiguration", typeJson: "{\"fqn\":\"aws.apprunnerService.ApprunnerServiceObservabilityConfiguration\"}", isOptional: true)]
@@ -112,7 +112,7 @@ namespace aws.ApprunnerService
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#region ApprunnerService#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#region ApprunnerService#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -122,7 +122,7 @@ namespace aws.ApprunnerService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#tags ApprunnerService#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#tags ApprunnerService#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -131,7 +131,7 @@ namespace aws.ApprunnerService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#tags_all ApprunnerService#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#tags_all ApprunnerService#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll

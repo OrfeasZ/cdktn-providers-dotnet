@@ -11,7 +11,7 @@ namespace aws.MskconnectCustomPlugin
     {
         /// <summary>s3 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_custom_plugin#s3 MskconnectCustomPlugin#s3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_custom_plugin#s3 MskconnectCustomPlugin#s3}
         /// </remarks>
         [JsiiProperty(name: "s3", typeJson: "{\"fqn\":\"aws.mskconnectCustomPlugin.MskconnectCustomPluginLocationS3\"}")]
         public aws.MskconnectCustomPlugin.IMskconnectCustomPluginLocationS3 S3

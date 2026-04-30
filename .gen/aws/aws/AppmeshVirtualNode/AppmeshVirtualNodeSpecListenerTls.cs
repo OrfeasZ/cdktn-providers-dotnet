@@ -11,7 +11,7 @@ namespace aws.AppmeshVirtualNode
     {
         /// <summary>certificate block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_node#certificate AppmeshVirtualNode#certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_node#certificate AppmeshVirtualNode#certificate}
         /// </remarks>
         [JsiiProperty(name: "certificate", typeJson: "{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerTlsCertificate\"}")]
         public aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerTlsCertificate Certificate
@@ -20,7 +20,7 @@ namespace aws.AppmeshVirtualNode
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_node#mode AppmeshVirtualNode#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_node#mode AppmeshVirtualNode#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         public string Mode
         {
@@ -30,7 +30,7 @@ namespace aws.AppmeshVirtualNode
 
         /// <summary>validation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_node#validation AppmeshVirtualNode#validation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_node#validation AppmeshVirtualNode#validation}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "validation", typeJson: "{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerTlsValidation\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.DatasyncTask
     [JsiiByValue(fqn: "aws.datasyncTask.DatasyncTaskTaskReportConfigS3Destination")]
     public class DatasyncTaskTaskReportConfigS3Destination : aws.DatasyncTask.IDatasyncTaskTaskReportConfigS3Destination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#bucket_access_role_arn DatasyncTask#bucket_access_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#bucket_access_role_arn DatasyncTask#bucket_access_role_arn}.</summary>
         [JsiiProperty(name: "bucketAccessRoleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string BucketAccessRoleArn
         {
@@ -17,7 +17,7 @@ namespace aws.DatasyncTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#s3_bucket_arn DatasyncTask#s3_bucket_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#s3_bucket_arn DatasyncTask#s3_bucket_arn}.</summary>
         [JsiiProperty(name: "s3BucketArn", typeJson: "{\"primitive\":\"string\"}")]
         public string S3BucketArn
         {
@@ -25,7 +25,7 @@ namespace aws.DatasyncTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#subdirectory DatasyncTask#subdirectory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#subdirectory DatasyncTask#subdirectory}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subdirectory", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Subdirectory

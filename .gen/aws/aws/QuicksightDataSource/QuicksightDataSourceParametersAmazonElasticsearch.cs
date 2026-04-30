@@ -9,7 +9,7 @@ namespace aws.QuicksightDataSource
     [JsiiByValue(fqn: "aws.quicksightDataSource.QuicksightDataSourceParametersAmazonElasticsearch")]
     public class QuicksightDataSourceParametersAmazonElasticsearch : aws.QuicksightDataSource.IQuicksightDataSourceParametersAmazonElasticsearch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#domain QuicksightDataSource#domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#domain QuicksightDataSource#domain}.</summary>
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
         public string Domain
         {

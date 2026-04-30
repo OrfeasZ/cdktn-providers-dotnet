@@ -9,7 +9,7 @@ namespace aws.PaymentcryptographyKey
     {
         private object? _decrypt;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/paymentcryptography_key#decrypt PaymentcryptographyKey#decrypt}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/paymentcryptography_key#decrypt PaymentcryptographyKey#decrypt}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "decrypt", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Decrypt
@@ -40,7 +40,7 @@ namespace aws.PaymentcryptographyKey
 
         private object? _deriveKey;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/paymentcryptography_key#derive_key PaymentcryptographyKey#derive_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/paymentcryptography_key#derive_key PaymentcryptographyKey#derive_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deriveKey", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? DeriveKey
@@ -71,7 +71,7 @@ namespace aws.PaymentcryptographyKey
 
         private object? _encrypt;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/paymentcryptography_key#encrypt PaymentcryptographyKey#encrypt}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/paymentcryptography_key#encrypt PaymentcryptographyKey#encrypt}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "encrypt", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Encrypt
@@ -102,7 +102,7 @@ namespace aws.PaymentcryptographyKey
 
         private object? _generate;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/paymentcryptography_key#generate PaymentcryptographyKey#generate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/paymentcryptography_key#generate PaymentcryptographyKey#generate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "generate", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Generate
@@ -133,7 +133,7 @@ namespace aws.PaymentcryptographyKey
 
         private object? _noRestrictions;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/paymentcryptography_key#no_restrictions PaymentcryptographyKey#no_restrictions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/paymentcryptography_key#no_restrictions PaymentcryptographyKey#no_restrictions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "noRestrictions", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? NoRestrictions
@@ -164,7 +164,7 @@ namespace aws.PaymentcryptographyKey
 
         private object? _sign;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/paymentcryptography_key#sign PaymentcryptographyKey#sign}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/paymentcryptography_key#sign PaymentcryptographyKey#sign}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sign", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Sign
@@ -195,7 +195,7 @@ namespace aws.PaymentcryptographyKey
 
         private object? _unwrap;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/paymentcryptography_key#unwrap PaymentcryptographyKey#unwrap}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/paymentcryptography_key#unwrap PaymentcryptographyKey#unwrap}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "unwrap", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Unwrap
@@ -226,7 +226,7 @@ namespace aws.PaymentcryptographyKey
 
         private object? _verify;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/paymentcryptography_key#verify PaymentcryptographyKey#verify}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/paymentcryptography_key#verify PaymentcryptographyKey#verify}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "verify", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Verify
@@ -257,7 +257,7 @@ namespace aws.PaymentcryptographyKey
 
         private object? _wrap;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/paymentcryptography_key#wrap PaymentcryptographyKey#wrap}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/paymentcryptography_key#wrap PaymentcryptographyKey#wrap}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "wrap", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Wrap

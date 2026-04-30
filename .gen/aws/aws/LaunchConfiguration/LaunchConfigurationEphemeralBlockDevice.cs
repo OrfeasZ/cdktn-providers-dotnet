@@ -9,7 +9,7 @@ namespace aws.LaunchConfiguration
     [JsiiByValue(fqn: "aws.launchConfiguration.LaunchConfigurationEphemeralBlockDevice")]
     public class LaunchConfigurationEphemeralBlockDevice : aws.LaunchConfiguration.ILaunchConfigurationEphemeralBlockDevice
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_configuration#device_name LaunchConfiguration#device_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_configuration#device_name LaunchConfiguration#device_name}.</summary>
         [JsiiProperty(name: "deviceName", typeJson: "{\"primitive\":\"string\"}")]
         public string DeviceName
         {
@@ -19,7 +19,7 @@ namespace aws.LaunchConfiguration
 
         private object? _noDevice;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_configuration#no_device LaunchConfiguration#no_device}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_configuration#no_device LaunchConfiguration#no_device}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "noDevice", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? NoDevice
@@ -48,7 +48,7 @@ namespace aws.LaunchConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_configuration#virtual_name LaunchConfiguration#virtual_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_configuration#virtual_name LaunchConfiguration#virtual_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "virtualName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VirtualName

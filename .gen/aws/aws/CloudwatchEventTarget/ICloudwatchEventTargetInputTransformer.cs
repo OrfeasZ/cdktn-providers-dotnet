@@ -7,14 +7,14 @@ namespace aws.CloudwatchEventTarget
     [JsiiInterface(nativeType: typeof(ICloudwatchEventTargetInputTransformer), fullyQualifiedName: "aws.cloudwatchEventTarget.CloudwatchEventTargetInputTransformer")]
     public interface ICloudwatchEventTargetInputTransformer
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#input_template CloudwatchEventTarget#input_template}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#input_template CloudwatchEventTarget#input_template}.</summary>
         [JsiiProperty(name: "inputTemplate", typeJson: "{\"primitive\":\"string\"}")]
         string InputTemplate
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#input_paths CloudwatchEventTarget#input_paths}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#input_paths CloudwatchEventTarget#input_paths}.</summary>
         [JsiiProperty(name: "inputPaths", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? InputPaths
@@ -32,14 +32,14 @@ namespace aws.CloudwatchEventTarget
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#input_template CloudwatchEventTarget#input_template}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#input_template CloudwatchEventTarget#input_template}.</summary>
             [JsiiProperty(name: "inputTemplate", typeJson: "{\"primitive\":\"string\"}")]
             public string InputTemplate
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#input_paths CloudwatchEventTarget#input_paths}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#input_paths CloudwatchEventTarget#input_paths}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "inputPaths", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? InputPaths

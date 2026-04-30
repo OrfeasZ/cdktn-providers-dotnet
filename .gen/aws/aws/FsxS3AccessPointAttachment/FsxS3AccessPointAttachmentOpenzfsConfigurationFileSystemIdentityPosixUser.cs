@@ -9,7 +9,7 @@ namespace aws.FsxS3AccessPointAttachment
     [JsiiByValue(fqn: "aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityPosixUser")]
     public class FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityPosixUser : aws.FsxS3AccessPointAttachment.IFsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityPosixUser
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_s3_access_point_attachment#gid FsxS3AccessPointAttachment#gid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_s3_access_point_attachment#gid FsxS3AccessPointAttachment#gid}.</summary>
         [JsiiProperty(name: "gid", typeJson: "{\"primitive\":\"number\"}")]
         public double Gid
         {
@@ -17,7 +17,7 @@ namespace aws.FsxS3AccessPointAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_s3_access_point_attachment#uid FsxS3AccessPointAttachment#uid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_s3_access_point_attachment#uid FsxS3AccessPointAttachment#uid}.</summary>
         [JsiiProperty(name: "uid", typeJson: "{\"primitive\":\"number\"}")]
         public double Uid
         {
@@ -25,7 +25,7 @@ namespace aws.FsxS3AccessPointAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_s3_access_point_attachment#secondary_gids FsxS3AccessPointAttachment#secondary_gids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_s3_access_point_attachment#secondary_gids FsxS3AccessPointAttachment#secondary_gids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secondaryGids", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
         public double[]? SecondaryGids

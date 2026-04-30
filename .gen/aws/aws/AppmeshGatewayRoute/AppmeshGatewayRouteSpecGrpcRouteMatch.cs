@@ -9,7 +9,7 @@ namespace aws.AppmeshGatewayRoute
     [JsiiByValue(fqn: "aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecGrpcRouteMatch")]
     public class AppmeshGatewayRouteSpecGrpcRouteMatch : aws.AppmeshGatewayRoute.IAppmeshGatewayRouteSpecGrpcRouteMatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_gateway_route#service_name AppmeshGatewayRoute#service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_gateway_route#service_name AppmeshGatewayRoute#service_name}.</summary>
         [JsiiProperty(name: "serviceName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceName
         {
@@ -17,7 +17,7 @@ namespace aws.AppmeshGatewayRoute
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_gateway_route#port AppmeshGatewayRoute#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_gateway_route#port AppmeshGatewayRoute#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Port

@@ -7,7 +7,7 @@ namespace aws.GlueCrawler
     [JsiiByValue(fqn: "aws.glueCrawler.GlueCrawlerRecrawlPolicy")]
     public class GlueCrawlerRecrawlPolicy : aws.GlueCrawler.IGlueCrawlerRecrawlPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#recrawl_behavior GlueCrawler#recrawl_behavior}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_crawler#recrawl_behavior GlueCrawler#recrawl_behavior}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "recrawlBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RecrawlBehavior

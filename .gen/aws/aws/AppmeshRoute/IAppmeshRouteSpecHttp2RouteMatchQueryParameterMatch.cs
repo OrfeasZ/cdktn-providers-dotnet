@@ -7,7 +7,7 @@ namespace aws.AppmeshRoute
     [JsiiInterface(nativeType: typeof(IAppmeshRouteSpecHttp2RouteMatchQueryParameterMatch), fullyQualifiedName: "aws.appmeshRoute.AppmeshRouteSpecHttp2RouteMatchQueryParameterMatch")]
     public interface IAppmeshRouteSpecHttp2RouteMatchQueryParameterMatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#exact AppmeshRoute#exact}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#exact AppmeshRoute#exact}.</summary>
         [JsiiProperty(name: "exact", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Exact
@@ -25,7 +25,7 @@ namespace aws.AppmeshRoute
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#exact AppmeshRoute#exact}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#exact AppmeshRoute#exact}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "exact", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Exact

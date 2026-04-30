@@ -9,7 +9,7 @@ namespace aws.CloudwatchLogIndexPolicy
     [JsiiByValue(fqn: "aws.cloudwatchLogIndexPolicy.CloudwatchLogIndexPolicyConfig")]
     public class CloudwatchLogIndexPolicyConfig : aws.CloudwatchLogIndexPolicy.ICloudwatchLogIndexPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_log_index_policy#log_group_name CloudwatchLogIndexPolicy#log_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_log_index_policy#log_group_name CloudwatchLogIndexPolicy#log_group_name}.</summary>
         [JsiiProperty(name: "logGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string LogGroupName
         {
@@ -19,7 +19,7 @@ namespace aws.CloudwatchLogIndexPolicy
 
         /// <summary>Field index filter policy, in JSON.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_log_index_policy#policy_document CloudwatchLogIndexPolicy#policy_document}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_log_index_policy#policy_document CloudwatchLogIndexPolicy#policy_document}
         /// </remarks>
         [JsiiProperty(name: "policyDocument", typeJson: "{\"primitive\":\"string\"}")]
         public string PolicyDocument
@@ -30,7 +30,7 @@ namespace aws.CloudwatchLogIndexPolicy
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_log_index_policy#region CloudwatchLogIndexPolicy#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_log_index_policy#region CloudwatchLogIndexPolicy#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -5,7 +5,7 @@ namespace aws.ApprunnerAutoScalingConfigurationVersion
     /// <remarks>
     /// <h1><c>aws_apprunner_auto_scaling_configuration_version</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_auto_scaling_configuration_version"><c>aws_apprunner_auto_scaling_configuration_version</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_auto_scaling_configuration_version"><c>aws_apprunner_auto_scaling_configuration_version</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

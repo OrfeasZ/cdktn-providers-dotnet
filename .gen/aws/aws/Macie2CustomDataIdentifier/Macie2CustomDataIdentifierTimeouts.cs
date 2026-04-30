@@ -7,7 +7,7 @@ namespace aws.Macie2CustomDataIdentifier
     [JsiiByValue(fqn: "aws.macie2CustomDataIdentifier.Macie2CustomDataIdentifierTimeouts")]
     public class Macie2CustomDataIdentifierTimeouts : aws.Macie2CustomDataIdentifier.IMacie2CustomDataIdentifierTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/macie2_custom_data_identifier#create Macie2CustomDataIdentifier#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/macie2_custom_data_identifier#create Macie2CustomDataIdentifier#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create

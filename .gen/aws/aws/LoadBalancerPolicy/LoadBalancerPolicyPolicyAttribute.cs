@@ -7,7 +7,7 @@ namespace aws.LoadBalancerPolicy
     [JsiiByValue(fqn: "aws.loadBalancerPolicy.LoadBalancerPolicyPolicyAttribute")]
     public class LoadBalancerPolicyPolicyAttribute : aws.LoadBalancerPolicy.ILoadBalancerPolicyPolicyAttribute
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/load_balancer_policy#name LoadBalancerPolicy#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/load_balancer_policy#name LoadBalancerPolicy#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -16,7 +16,7 @@ namespace aws.LoadBalancerPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/load_balancer_policy#value LoadBalancerPolicy#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/load_balancer_policy#value LoadBalancerPolicy#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

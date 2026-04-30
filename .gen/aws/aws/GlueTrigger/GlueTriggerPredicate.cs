@@ -13,7 +13,7 @@ namespace aws.GlueTrigger
 
         /// <summary>conditions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#conditions GlueTrigger#conditions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_trigger#conditions GlueTrigger#conditions}
         /// </remarks>
         [JsiiProperty(name: "conditions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueTrigger.GlueTriggerPredicateConditions\"},\"kind\":\"array\"}}]}}")]
         public object Conditions
@@ -42,7 +42,7 @@ namespace aws.GlueTrigger
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#logical GlueTrigger#logical}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_trigger#logical GlueTrigger#logical}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logical", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Logical

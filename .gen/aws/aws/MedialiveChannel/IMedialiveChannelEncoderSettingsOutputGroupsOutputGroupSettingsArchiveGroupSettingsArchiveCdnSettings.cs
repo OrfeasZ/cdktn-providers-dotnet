@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     {
         /// <summary>archive_s3_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#archive_s3_settings MedialiveChannel#archive_s3_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#archive_s3_settings MedialiveChannel#archive_s3_settings}
         /// </remarks>
         [JsiiProperty(name: "archiveS3Settings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsArchiveCdnSettingsArchiveS3Settings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>archive_s3_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#archive_s3_settings MedialiveChannel#archive_s3_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#archive_s3_settings MedialiveChannel#archive_s3_settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "archiveS3Settings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsArchiveCdnSettingsArchiveS3Settings\"}", isOptional: true)]

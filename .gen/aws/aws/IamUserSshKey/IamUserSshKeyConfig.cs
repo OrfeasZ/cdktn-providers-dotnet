@@ -9,7 +9,7 @@ namespace aws.IamUserSshKey
     [JsiiByValue(fqn: "aws.iamUserSshKey.IamUserSshKeyConfig")]
     public class IamUserSshKeyConfig : aws.IamUserSshKey.IIamUserSshKeyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_user_ssh_key#encoding IamUserSshKey#encoding}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_user_ssh_key#encoding IamUserSshKey#encoding}.</summary>
         [JsiiProperty(name: "encoding", typeJson: "{\"primitive\":\"string\"}")]
         public string Encoding
         {
@@ -17,7 +17,7 @@ namespace aws.IamUserSshKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_user_ssh_key#public_key IamUserSshKey#public_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_user_ssh_key#public_key IamUserSshKey#public_key}.</summary>
         [JsiiProperty(name: "publicKey", typeJson: "{\"primitive\":\"string\"}")]
         public string PublicKey
         {
@@ -25,7 +25,7 @@ namespace aws.IamUserSshKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_user_ssh_key#username IamUserSshKey#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_user_ssh_key#username IamUserSshKey#username}.</summary>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         public string Username
         {
@@ -33,7 +33,7 @@ namespace aws.IamUserSshKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_user_ssh_key#id IamUserSshKey#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_user_ssh_key#id IamUserSshKey#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace aws.IamUserSshKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_user_ssh_key#status IamUserSshKey#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_user_ssh_key#status IamUserSshKey#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status

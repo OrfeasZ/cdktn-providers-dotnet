@@ -9,7 +9,7 @@ namespace aws.MedialiveMultiplexProgram
     [JsiiByValue(fqn: "aws.medialiveMultiplexProgram.MedialiveMultiplexProgramMultiplexProgramSettingsServiceDescriptor")]
     public class MedialiveMultiplexProgramMultiplexProgramSettingsServiceDescriptor : aws.MedialiveMultiplexProgram.IMedialiveMultiplexProgramMultiplexProgramSettingsServiceDescriptor
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_multiplex_program#provider_name MedialiveMultiplexProgram#provider_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_multiplex_program#provider_name MedialiveMultiplexProgram#provider_name}.</summary>
         [JsiiProperty(name: "providerName", typeJson: "{\"primitive\":\"string\"}")]
         public string ProviderName
         {
@@ -17,7 +17,7 @@ namespace aws.MedialiveMultiplexProgram
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_multiplex_program#service_name MedialiveMultiplexProgram#service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_multiplex_program#service_name MedialiveMultiplexProgram#service_name}.</summary>
         [JsiiProperty(name: "serviceName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceName
         {

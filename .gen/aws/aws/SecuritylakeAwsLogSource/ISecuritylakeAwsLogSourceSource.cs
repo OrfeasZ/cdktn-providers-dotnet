@@ -7,21 +7,21 @@ namespace aws.SecuritylakeAwsLogSource
     [JsiiInterface(nativeType: typeof(ISecuritylakeAwsLogSourceSource), fullyQualifiedName: "aws.securitylakeAwsLogSource.SecuritylakeAwsLogSourceSource")]
     public interface ISecuritylakeAwsLogSourceSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_aws_log_source#regions SecuritylakeAwsLogSource#regions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_aws_log_source#regions SecuritylakeAwsLogSource#regions}.</summary>
         [JsiiProperty(name: "regions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Regions
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_aws_log_source#source_name SecuritylakeAwsLogSource#source_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_aws_log_source#source_name SecuritylakeAwsLogSource#source_name}.</summary>
         [JsiiProperty(name: "sourceName", typeJson: "{\"primitive\":\"string\"}")]
         string SourceName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_aws_log_source#accounts SecuritylakeAwsLogSource#accounts}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_aws_log_source#accounts SecuritylakeAwsLogSource#accounts}.</summary>
         [JsiiProperty(name: "accounts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Accounts
@@ -32,7 +32,7 @@ namespace aws.SecuritylakeAwsLogSource
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_aws_log_source#source_version SecuritylakeAwsLogSource#source_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_aws_log_source#source_version SecuritylakeAwsLogSource#source_version}.</summary>
         [JsiiProperty(name: "sourceVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceVersion
@@ -50,21 +50,21 @@ namespace aws.SecuritylakeAwsLogSource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_aws_log_source#regions SecuritylakeAwsLogSource#regions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_aws_log_source#regions SecuritylakeAwsLogSource#regions}.</summary>
             [JsiiProperty(name: "regions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Regions
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_aws_log_source#source_name SecuritylakeAwsLogSource#source_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_aws_log_source#source_name SecuritylakeAwsLogSource#source_name}.</summary>
             [JsiiProperty(name: "sourceName", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_aws_log_source#accounts SecuritylakeAwsLogSource#accounts}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_aws_log_source#accounts SecuritylakeAwsLogSource#accounts}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accounts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Accounts
@@ -72,7 +72,7 @@ namespace aws.SecuritylakeAwsLogSource
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_aws_log_source#source_version SecuritylakeAwsLogSource#source_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_aws_log_source#source_version SecuritylakeAwsLogSource#source_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceVersion

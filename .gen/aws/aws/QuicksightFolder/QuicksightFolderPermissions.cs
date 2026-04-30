@@ -9,7 +9,7 @@ namespace aws.QuicksightFolder
     [JsiiByValue(fqn: "aws.quicksightFolder.QuicksightFolderPermissions")]
     public class QuicksightFolderPermissions : aws.QuicksightFolder.IQuicksightFolderPermissions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_folder#actions QuicksightFolder#actions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_folder#actions QuicksightFolder#actions}.</summary>
         [JsiiProperty(name: "actions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Actions
         {
@@ -17,7 +17,7 @@ namespace aws.QuicksightFolder
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_folder#principal QuicksightFolder#principal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_folder#principal QuicksightFolder#principal}.</summary>
         [JsiiProperty(name: "principal", typeJson: "{\"primitive\":\"string\"}")]
         public string Principal
         {

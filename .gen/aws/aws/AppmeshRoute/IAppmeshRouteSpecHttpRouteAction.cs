@@ -9,7 +9,7 @@ namespace aws.AppmeshRoute
     {
         /// <summary>weighted_target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#weighted_target AppmeshRoute#weighted_target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#weighted_target AppmeshRoute#weighted_target}
         /// </remarks>
         [JsiiProperty(name: "weightedTarget", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecHttpRouteActionWeightedTarget\"},\"kind\":\"array\"}}]}}")]
         object WeightedTarget
@@ -26,7 +26,7 @@ namespace aws.AppmeshRoute
 
             /// <summary>weighted_target block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#weighted_target AppmeshRoute#weighted_target}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#weighted_target AppmeshRoute#weighted_target}
             /// </remarks>
             [JsiiProperty(name: "weightedTarget", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecHttpRouteActionWeightedTarget\"},\"kind\":\"array\"}}]}}")]
             public object WeightedTarget

@@ -7,7 +7,7 @@ namespace aws.EvidentlyFeature
     [JsiiInterface(nativeType: typeof(IEvidentlyFeatureVariations), fullyQualifiedName: "aws.evidentlyFeature.EvidentlyFeatureVariations")]
     public interface IEvidentlyFeatureVariations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_feature#name EvidentlyFeature#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/evidently_feature#name EvidentlyFeature#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -16,7 +16,7 @@ namespace aws.EvidentlyFeature
 
         /// <summary>value block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_feature#value EvidentlyFeature#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/evidently_feature#value EvidentlyFeature#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"fqn\":\"aws.evidentlyFeature.EvidentlyFeatureVariationsValue\"}")]
         aws.EvidentlyFeature.IEvidentlyFeatureVariationsValue Value
@@ -31,7 +31,7 @@ namespace aws.EvidentlyFeature
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_feature#name EvidentlyFeature#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/evidently_feature#name EvidentlyFeature#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
@@ -40,7 +40,7 @@ namespace aws.EvidentlyFeature
 
             /// <summary>value block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_feature#value EvidentlyFeature#value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/evidently_feature#value EvidentlyFeature#value}
             /// </remarks>
             [JsiiProperty(name: "value", typeJson: "{\"fqn\":\"aws.evidentlyFeature.EvidentlyFeatureVariationsValue\"}")]
             public aws.EvidentlyFeature.IEvidentlyFeatureVariationsValue Value

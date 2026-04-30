@@ -9,7 +9,7 @@ namespace aws.BudgetsBudgetAction
     {
         /// <summary>iam_action_definition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget_action#iam_action_definition BudgetsBudgetAction#iam_action_definition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget_action#iam_action_definition BudgetsBudgetAction#iam_action_definition}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "iamActionDefinition", typeJson: "{\"fqn\":\"aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionIamActionDefinition\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.BudgetsBudgetAction
 
         /// <summary>scp_action_definition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget_action#scp_action_definition BudgetsBudgetAction#scp_action_definition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget_action#scp_action_definition BudgetsBudgetAction#scp_action_definition}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scpActionDefinition", typeJson: "{\"fqn\":\"aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionScpActionDefinition\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace aws.BudgetsBudgetAction
 
         /// <summary>ssm_action_definition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget_action#ssm_action_definition BudgetsBudgetAction#ssm_action_definition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget_action#ssm_action_definition BudgetsBudgetAction#ssm_action_definition}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ssmActionDefinition", typeJson: "{\"fqn\":\"aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionSsmActionDefinition\"}", isOptional: true)]

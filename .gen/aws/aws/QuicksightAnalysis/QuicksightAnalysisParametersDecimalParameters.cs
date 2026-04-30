@@ -9,7 +9,7 @@ namespace aws.QuicksightAnalysis
     [JsiiByValue(fqn: "aws.quicksightAnalysis.QuicksightAnalysisParametersDecimalParameters")]
     public class QuicksightAnalysisParametersDecimalParameters : aws.QuicksightAnalysis.IQuicksightAnalysisParametersDecimalParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.QuicksightAnalysis
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_analysis#values QuicksightAnalysis#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_analysis#values QuicksightAnalysis#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}")]
         public double[] Values
         {

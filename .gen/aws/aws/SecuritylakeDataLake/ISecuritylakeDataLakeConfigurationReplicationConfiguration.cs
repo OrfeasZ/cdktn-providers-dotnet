@@ -7,7 +7,7 @@ namespace aws.SecuritylakeDataLake
     [JsiiInterface(nativeType: typeof(ISecuritylakeDataLakeConfigurationReplicationConfiguration), fullyQualifiedName: "aws.securitylakeDataLake.SecuritylakeDataLakeConfigurationReplicationConfiguration")]
     public interface ISecuritylakeDataLakeConfigurationReplicationConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_data_lake#regions SecuritylakeDataLake#regions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_data_lake#regions SecuritylakeDataLake#regions}.</summary>
         [JsiiProperty(name: "regions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Regions
@@ -18,7 +18,7 @@ namespace aws.SecuritylakeDataLake
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_data_lake#role_arn SecuritylakeDataLake#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_data_lake#role_arn SecuritylakeDataLake#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RoleArn
@@ -36,7 +36,7 @@ namespace aws.SecuritylakeDataLake
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_data_lake#regions SecuritylakeDataLake#regions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_data_lake#regions SecuritylakeDataLake#regions}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "regions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Regions
@@ -44,7 +44,7 @@ namespace aws.SecuritylakeDataLake
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_data_lake#role_arn SecuritylakeDataLake#role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_data_lake#role_arn SecuritylakeDataLake#role_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RoleArn

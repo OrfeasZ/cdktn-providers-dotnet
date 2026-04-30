@@ -9,7 +9,7 @@ namespace aws.CloudwatchEventConnection
     [JsiiByValue(fqn: "aws.cloudwatchEventConnection.CloudwatchEventConnectionAuthParametersOauthClientParameters")]
     public class CloudwatchEventConnectionAuthParametersOauthClientParameters : aws.CloudwatchEventConnection.ICloudwatchEventConnectionAuthParametersOauthClientParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_connection#client_id CloudwatchEventConnection#client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_connection#client_id CloudwatchEventConnection#client_id}.</summary>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientId
         {
@@ -17,7 +17,7 @@ namespace aws.CloudwatchEventConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_connection#client_secret CloudwatchEventConnection#client_secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_connection#client_secret CloudwatchEventConnection#client_secret}.</summary>
         [JsiiProperty(name: "clientSecret", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientSecret
         {

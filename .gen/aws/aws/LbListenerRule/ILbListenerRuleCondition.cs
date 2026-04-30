@@ -9,7 +9,7 @@ namespace aws.LbListenerRule
     {
         /// <summary>host_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#host_header LbListenerRule#host_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener_rule#host_header LbListenerRule#host_header}
         /// </remarks>
         [JsiiProperty(name: "hostHeader", typeJson: "{\"fqn\":\"aws.lbListenerRule.LbListenerRuleConditionHostHeader\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.LbListenerRule
 
         /// <summary>http_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#http_header LbListenerRule#http_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener_rule#http_header LbListenerRule#http_header}
         /// </remarks>
         [JsiiProperty(name: "httpHeader", typeJson: "{\"fqn\":\"aws.lbListenerRule.LbListenerRuleConditionHttpHeader\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.LbListenerRule
 
         /// <summary>http_request_method block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#http_request_method LbListenerRule#http_request_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener_rule#http_request_method LbListenerRule#http_request_method}
         /// </remarks>
         [JsiiProperty(name: "httpRequestMethod", typeJson: "{\"fqn\":\"aws.lbListenerRule.LbListenerRuleConditionHttpRequestMethod\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace aws.LbListenerRule
 
         /// <summary>path_pattern block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#path_pattern LbListenerRule#path_pattern}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener_rule#path_pattern LbListenerRule#path_pattern}
         /// </remarks>
         [JsiiProperty(name: "pathPattern", typeJson: "{\"fqn\":\"aws.lbListenerRule.LbListenerRuleConditionPathPattern\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace aws.LbListenerRule
 
         /// <summary>query_string block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#query_string LbListenerRule#query_string}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener_rule#query_string LbListenerRule#query_string}
         /// </remarks>
         [JsiiProperty(name: "queryString", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lbListenerRule.LbListenerRuleConditionQueryString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +79,7 @@ namespace aws.LbListenerRule
 
         /// <summary>source_ip block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#source_ip LbListenerRule#source_ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener_rule#source_ip LbListenerRule#source_ip}
         /// </remarks>
         [JsiiProperty(name: "sourceIp", typeJson: "{\"fqn\":\"aws.lbListenerRule.LbListenerRuleConditionSourceIp\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -100,7 +100,7 @@ namespace aws.LbListenerRule
 
             /// <summary>host_header block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#host_header LbListenerRule#host_header}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener_rule#host_header LbListenerRule#host_header}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "hostHeader", typeJson: "{\"fqn\":\"aws.lbListenerRule.LbListenerRuleConditionHostHeader\"}", isOptional: true)]
@@ -111,7 +111,7 @@ namespace aws.LbListenerRule
 
             /// <summary>http_header block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#http_header LbListenerRule#http_header}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener_rule#http_header LbListenerRule#http_header}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "httpHeader", typeJson: "{\"fqn\":\"aws.lbListenerRule.LbListenerRuleConditionHttpHeader\"}", isOptional: true)]
@@ -122,7 +122,7 @@ namespace aws.LbListenerRule
 
             /// <summary>http_request_method block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#http_request_method LbListenerRule#http_request_method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener_rule#http_request_method LbListenerRule#http_request_method}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "httpRequestMethod", typeJson: "{\"fqn\":\"aws.lbListenerRule.LbListenerRuleConditionHttpRequestMethod\"}", isOptional: true)]
@@ -133,7 +133,7 @@ namespace aws.LbListenerRule
 
             /// <summary>path_pattern block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#path_pattern LbListenerRule#path_pattern}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener_rule#path_pattern LbListenerRule#path_pattern}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pathPattern", typeJson: "{\"fqn\":\"aws.lbListenerRule.LbListenerRuleConditionPathPattern\"}", isOptional: true)]
@@ -144,7 +144,7 @@ namespace aws.LbListenerRule
 
             /// <summary>query_string block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#query_string LbListenerRule#query_string}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener_rule#query_string LbListenerRule#query_string}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "queryString", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lbListenerRule.LbListenerRuleConditionQueryString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -155,7 +155,7 @@ namespace aws.LbListenerRule
 
             /// <summary>source_ip block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#source_ip LbListenerRule#source_ip}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener_rule#source_ip LbListenerRule#source_ip}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sourceIp", typeJson: "{\"fqn\":\"aws.lbListenerRule.LbListenerRuleConditionSourceIp\"}", isOptional: true)]

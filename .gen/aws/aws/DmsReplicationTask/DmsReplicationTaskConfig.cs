@@ -9,7 +9,7 @@ namespace aws.DmsReplicationTask
     [JsiiByValue(fqn: "aws.dmsReplicationTask.DmsReplicationTaskConfig")]
     public class DmsReplicationTaskConfig : aws.DmsReplicationTask.IDmsReplicationTaskConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_task#migration_type DmsReplicationTask#migration_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_task#migration_type DmsReplicationTask#migration_type}.</summary>
         [JsiiProperty(name: "migrationType", typeJson: "{\"primitive\":\"string\"}")]
         public string MigrationType
         {
@@ -17,7 +17,7 @@ namespace aws.DmsReplicationTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_task#replication_instance_arn DmsReplicationTask#replication_instance_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_task#replication_instance_arn DmsReplicationTask#replication_instance_arn}.</summary>
         [JsiiProperty(name: "replicationInstanceArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ReplicationInstanceArn
         {
@@ -25,7 +25,7 @@ namespace aws.DmsReplicationTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_task#replication_task_id DmsReplicationTask#replication_task_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_task#replication_task_id DmsReplicationTask#replication_task_id}.</summary>
         [JsiiProperty(name: "replicationTaskId", typeJson: "{\"primitive\":\"string\"}")]
         public string ReplicationTaskId
         {
@@ -33,7 +33,7 @@ namespace aws.DmsReplicationTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_task#source_endpoint_arn DmsReplicationTask#source_endpoint_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_task#source_endpoint_arn DmsReplicationTask#source_endpoint_arn}.</summary>
         [JsiiProperty(name: "sourceEndpointArn", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceEndpointArn
         {
@@ -41,7 +41,7 @@ namespace aws.DmsReplicationTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_task#table_mappings DmsReplicationTask#table_mappings}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_task#table_mappings DmsReplicationTask#table_mappings}.</summary>
         [JsiiProperty(name: "tableMappings", typeJson: "{\"primitive\":\"string\"}")]
         public string TableMappings
         {
@@ -49,7 +49,7 @@ namespace aws.DmsReplicationTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_task#target_endpoint_arn DmsReplicationTask#target_endpoint_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_task#target_endpoint_arn DmsReplicationTask#target_endpoint_arn}.</summary>
         [JsiiProperty(name: "targetEndpointArn", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetEndpointArn
         {
@@ -57,7 +57,7 @@ namespace aws.DmsReplicationTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_task#cdc_start_position DmsReplicationTask#cdc_start_position}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_task#cdc_start_position DmsReplicationTask#cdc_start_position}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cdcStartPosition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CdcStartPosition
@@ -66,7 +66,7 @@ namespace aws.DmsReplicationTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_task#cdc_start_time DmsReplicationTask#cdc_start_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_task#cdc_start_time DmsReplicationTask#cdc_start_time}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cdcStartTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CdcStartTime
@@ -75,7 +75,7 @@ namespace aws.DmsReplicationTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_task#id DmsReplicationTask#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_task#id DmsReplicationTask#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -90,7 +90,7 @@ namespace aws.DmsReplicationTask
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_task#region DmsReplicationTask#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_task#region DmsReplicationTask#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -100,7 +100,7 @@ namespace aws.DmsReplicationTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_task#replication_task_settings DmsReplicationTask#replication_task_settings}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_task#replication_task_settings DmsReplicationTask#replication_task_settings}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "replicationTaskSettings", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ReplicationTaskSettings
@@ -109,7 +109,7 @@ namespace aws.DmsReplicationTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_task#resource_identifier DmsReplicationTask#resource_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_task#resource_identifier DmsReplicationTask#resource_identifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceIdentifier
@@ -120,7 +120,7 @@ namespace aws.DmsReplicationTask
 
         private object? _startReplicationTask;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_task#start_replication_task DmsReplicationTask#start_replication_task}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_task#start_replication_task DmsReplicationTask#start_replication_task}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "startReplicationTask", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? StartReplicationTask
@@ -149,7 +149,7 @@ namespace aws.DmsReplicationTask
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_task#tags DmsReplicationTask#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_task#tags DmsReplicationTask#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -158,7 +158,7 @@ namespace aws.DmsReplicationTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_task#tags_all DmsReplicationTask#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_task#tags_all DmsReplicationTask#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll

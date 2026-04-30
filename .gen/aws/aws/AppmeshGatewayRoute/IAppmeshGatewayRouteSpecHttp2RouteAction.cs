@@ -9,7 +9,7 @@ namespace aws.AppmeshGatewayRoute
     {
         /// <summary>target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_gateway_route#target AppmeshGatewayRoute#target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_gateway_route#target AppmeshGatewayRoute#target}
         /// </remarks>
         [JsiiProperty(name: "target", typeJson: "{\"fqn\":\"aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttp2RouteActionTarget\"}")]
         aws.AppmeshGatewayRoute.IAppmeshGatewayRouteSpecHttp2RouteActionTarget Target
@@ -19,7 +19,7 @@ namespace aws.AppmeshGatewayRoute
 
         /// <summary>rewrite block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_gateway_route#rewrite AppmeshGatewayRoute#rewrite}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_gateway_route#rewrite AppmeshGatewayRoute#rewrite}
         /// </remarks>
         [JsiiProperty(name: "rewrite", typeJson: "{\"fqn\":\"aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttp2RouteActionRewrite\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace aws.AppmeshGatewayRoute
 
             /// <summary>target block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_gateway_route#target AppmeshGatewayRoute#target}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_gateway_route#target AppmeshGatewayRoute#target}
             /// </remarks>
             [JsiiProperty(name: "target", typeJson: "{\"fqn\":\"aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttp2RouteActionTarget\"}")]
             public aws.AppmeshGatewayRoute.IAppmeshGatewayRouteSpecHttp2RouteActionTarget Target
@@ -50,7 +50,7 @@ namespace aws.AppmeshGatewayRoute
 
             /// <summary>rewrite block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_gateway_route#rewrite AppmeshGatewayRoute#rewrite}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_gateway_route#rewrite AppmeshGatewayRoute#rewrite}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rewrite", typeJson: "{\"fqn\":\"aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttp2RouteActionRewrite\"}", isOptional: true)]

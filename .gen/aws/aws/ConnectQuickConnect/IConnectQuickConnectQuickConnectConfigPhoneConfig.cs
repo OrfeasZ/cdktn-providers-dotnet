@@ -7,7 +7,7 @@ namespace aws.ConnectQuickConnect
     [JsiiInterface(nativeType: typeof(IConnectQuickConnectQuickConnectConfigPhoneConfig), fullyQualifiedName: "aws.connectQuickConnect.ConnectQuickConnectQuickConnectConfigPhoneConfig")]
     public interface IConnectQuickConnectQuickConnectConfigPhoneConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_quick_connect#phone_number ConnectQuickConnect#phone_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_quick_connect#phone_number ConnectQuickConnect#phone_number}.</summary>
         [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}")]
         string PhoneNumber
         {
@@ -21,7 +21,7 @@ namespace aws.ConnectQuickConnect
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_quick_connect#phone_number ConnectQuickConnect#phone_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_quick_connect#phone_number ConnectQuickConnect#phone_number}.</summary>
             [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}")]
             public string PhoneNumber
             {

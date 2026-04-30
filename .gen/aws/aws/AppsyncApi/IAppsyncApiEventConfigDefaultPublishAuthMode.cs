@@ -7,7 +7,7 @@ namespace aws.AppsyncApi
     [JsiiInterface(nativeType: typeof(IAppsyncApiEventConfigDefaultPublishAuthMode), fullyQualifiedName: "aws.appsyncApi.AppsyncApiEventConfigDefaultPublishAuthMode")]
     public interface IAppsyncApiEventConfigDefaultPublishAuthMode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}.</summary>
         [JsiiProperty(name: "authType", typeJson: "{\"primitive\":\"string\"}")]
         string AuthType
         {
@@ -21,7 +21,7 @@ namespace aws.AppsyncApi
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}.</summary>
             [JsiiProperty(name: "authType", typeJson: "{\"primitive\":\"string\"}")]
             public string AuthType
             {

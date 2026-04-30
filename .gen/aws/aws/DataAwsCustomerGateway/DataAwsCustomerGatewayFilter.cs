@@ -9,7 +9,7 @@ namespace aws.DataAwsCustomerGateway
     [JsiiByValue(fqn: "aws.dataAwsCustomerGateway.DataAwsCustomerGatewayFilter")]
     public class DataAwsCustomerGatewayFilter : aws.DataAwsCustomerGateway.IDataAwsCustomerGatewayFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/customer_gateway#name DataAwsCustomerGateway#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/customer_gateway#name DataAwsCustomerGateway#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsCustomerGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/customer_gateway#values DataAwsCustomerGateway#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/customer_gateway#values DataAwsCustomerGateway#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

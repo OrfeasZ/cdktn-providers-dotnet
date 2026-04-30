@@ -7,14 +7,14 @@ namespace aws.LambdaFunction
     [JsiiInterface(nativeType: typeof(ILambdaFunctionFileSystemConfig), fullyQualifiedName: "aws.lambdaFunction.LambdaFunctionFileSystemConfig")]
     public interface ILambdaFunctionFileSystemConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function#arn LambdaFunction#arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_function#arn LambdaFunction#arn}.</summary>
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
         string Arn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function#local_mount_path LambdaFunction#local_mount_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_function#local_mount_path LambdaFunction#local_mount_path}.</summary>
         [JsiiProperty(name: "localMountPath", typeJson: "{\"primitive\":\"string\"}")]
         string LocalMountPath
         {
@@ -28,14 +28,14 @@ namespace aws.LambdaFunction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function#arn LambdaFunction#arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_function#arn LambdaFunction#arn}.</summary>
             [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
             public string Arn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function#local_mount_path LambdaFunction#local_mount_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_function#local_mount_path LambdaFunction#local_mount_path}.</summary>
             [JsiiProperty(name: "localMountPath", typeJson: "{\"primitive\":\"string\"}")]
             public string LocalMountPath
             {

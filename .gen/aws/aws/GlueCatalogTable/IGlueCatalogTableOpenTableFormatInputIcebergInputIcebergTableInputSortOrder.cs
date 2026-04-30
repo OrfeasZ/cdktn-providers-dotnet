@@ -9,7 +9,7 @@ namespace aws.GlueCatalogTable
     {
         /// <summary>fields block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#fields GlueCatalogTable#fields}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#fields GlueCatalogTable#fields}
         /// </remarks>
         [JsiiProperty(name: "fields", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSortOrderFields\"},\"kind\":\"array\"}}]}}")]
         object Fields
@@ -17,7 +17,7 @@ namespace aws.GlueCatalogTable
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#order_id GlueCatalogTable#order_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#order_id GlueCatalogTable#order_id}.</summary>
         [JsiiProperty(name: "orderId", typeJson: "{\"primitive\":\"number\"}")]
         double OrderId
         {
@@ -33,7 +33,7 @@ namespace aws.GlueCatalogTable
 
             /// <summary>fields block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#fields GlueCatalogTable#fields}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#fields GlueCatalogTable#fields}
             /// </remarks>
             [JsiiProperty(name: "fields", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSortOrderFields\"},\"kind\":\"array\"}}]}}")]
             public object Fields
@@ -41,7 +41,7 @@ namespace aws.GlueCatalogTable
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#order_id GlueCatalogTable#order_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#order_id GlueCatalogTable#order_id}.</summary>
             [JsiiProperty(name: "orderId", typeJson: "{\"primitive\":\"number\"}")]
             public double OrderId
             {

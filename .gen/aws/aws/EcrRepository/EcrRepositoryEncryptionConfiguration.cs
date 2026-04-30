@@ -7,7 +7,7 @@ namespace aws.EcrRepository
     [JsiiByValue(fqn: "aws.ecrRepository.EcrRepositoryEncryptionConfiguration")]
     public class EcrRepositoryEncryptionConfiguration : aws.EcrRepository.IEcrRepositoryEncryptionConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#encryption_type EcrRepository#encryption_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_repository#encryption_type EcrRepository#encryption_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EncryptionType
@@ -16,7 +16,7 @@ namespace aws.EcrRepository
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#kms_key EcrRepository#kms_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_repository#kms_key EcrRepository#kms_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKey

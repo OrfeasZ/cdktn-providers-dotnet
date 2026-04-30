@@ -9,7 +9,7 @@ namespace aws.NetworkmanagerDevice
     [JsiiByValue(fqn: "aws.networkmanagerDevice.NetworkmanagerDeviceConfig")]
     public class NetworkmanagerDeviceConfig : aws.NetworkmanagerDevice.INetworkmanagerDeviceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_device#global_network_id NetworkmanagerDevice#global_network_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_device#global_network_id NetworkmanagerDevice#global_network_id}.</summary>
         [JsiiProperty(name: "globalNetworkId", typeJson: "{\"primitive\":\"string\"}")]
         public string GlobalNetworkId
         {
@@ -19,7 +19,7 @@ namespace aws.NetworkmanagerDevice
 
         /// <summary>aws_location block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_device#aws_location NetworkmanagerDevice#aws_location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_device#aws_location NetworkmanagerDevice#aws_location}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "awsLocation", typeJson: "{\"fqn\":\"aws.networkmanagerDevice.NetworkmanagerDeviceAwsLocation\"}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace aws.NetworkmanagerDevice
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_device#description NetworkmanagerDevice#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_device#description NetworkmanagerDevice#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -38,7 +38,7 @@ namespace aws.NetworkmanagerDevice
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_device#id NetworkmanagerDevice#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_device#id NetworkmanagerDevice#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,7 +53,7 @@ namespace aws.NetworkmanagerDevice
 
         /// <summary>location block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_device#location NetworkmanagerDevice#location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_device#location NetworkmanagerDevice#location}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "location", typeJson: "{\"fqn\":\"aws.networkmanagerDevice.NetworkmanagerDeviceLocation\"}", isOptional: true)]
@@ -63,7 +63,7 @@ namespace aws.NetworkmanagerDevice
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_device#model NetworkmanagerDevice#model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_device#model NetworkmanagerDevice#model}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "model", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Model
@@ -72,7 +72,7 @@ namespace aws.NetworkmanagerDevice
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_device#serial_number NetworkmanagerDevice#serial_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_device#serial_number NetworkmanagerDevice#serial_number}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serialNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SerialNumber
@@ -81,7 +81,7 @@ namespace aws.NetworkmanagerDevice
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_device#site_id NetworkmanagerDevice#site_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_device#site_id NetworkmanagerDevice#site_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "siteId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SiteId
@@ -90,7 +90,7 @@ namespace aws.NetworkmanagerDevice
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_device#tags NetworkmanagerDevice#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_device#tags NetworkmanagerDevice#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -99,7 +99,7 @@ namespace aws.NetworkmanagerDevice
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_device#tags_all NetworkmanagerDevice#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_device#tags_all NetworkmanagerDevice#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -110,7 +110,7 @@ namespace aws.NetworkmanagerDevice
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_device#timeouts NetworkmanagerDevice#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_device#timeouts NetworkmanagerDevice#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.networkmanagerDevice.NetworkmanagerDeviceTimeouts\"}", isOptional: true)]
@@ -120,7 +120,7 @@ namespace aws.NetworkmanagerDevice
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_device#type NetworkmanagerDevice#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_device#type NetworkmanagerDevice#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type
@@ -129,7 +129,7 @@ namespace aws.NetworkmanagerDevice
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_device#vendor NetworkmanagerDevice#vendor}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_device#vendor NetworkmanagerDevice#vendor}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vendor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Vendor

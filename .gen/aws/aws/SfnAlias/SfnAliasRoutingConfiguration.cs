@@ -9,7 +9,7 @@ namespace aws.SfnAlias
     [JsiiByValue(fqn: "aws.sfnAlias.SfnAliasRoutingConfiguration")]
     public class SfnAliasRoutingConfiguration : aws.SfnAlias.ISfnAliasRoutingConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_alias#state_machine_version_arn SfnAlias#state_machine_version_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_alias#state_machine_version_arn SfnAlias#state_machine_version_arn}.</summary>
         [JsiiProperty(name: "stateMachineVersionArn", typeJson: "{\"primitive\":\"string\"}")]
         public string StateMachineVersionArn
         {
@@ -17,7 +17,7 @@ namespace aws.SfnAlias
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_alias#weight SfnAlias#weight}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_alias#weight SfnAlias#weight}.</summary>
         [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}")]
         public double Weight
         {

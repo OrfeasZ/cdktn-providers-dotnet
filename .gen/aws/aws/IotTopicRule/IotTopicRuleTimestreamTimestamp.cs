@@ -9,7 +9,7 @@ namespace aws.IotTopicRule
     [JsiiByValue(fqn: "aws.iotTopicRule.IotTopicRuleTimestreamTimestamp")]
     public class IotTopicRuleTimestreamTimestamp : aws.IotTopicRule.IIotTopicRuleTimestreamTimestamp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#unit IotTopicRule#unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#unit IotTopicRule#unit}.</summary>
         [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}")]
         public string Unit
         {
@@ -17,7 +17,7 @@ namespace aws.IotTopicRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#value IotTopicRule#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#value IotTopicRule#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

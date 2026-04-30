@@ -7,21 +7,21 @@ namespace aws.SsmincidentsResponsePlan
     [JsiiInterface(nativeType: typeof(ISsmincidentsResponsePlanIntegrationPagerduty), fullyQualifiedName: "aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationPagerduty")]
     public interface ISsmincidentsResponsePlanIntegrationPagerduty
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmincidents_response_plan#name SsmincidentsResponsePlan#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssmincidents_response_plan#name SsmincidentsResponsePlan#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmincidents_response_plan#secret_id SsmincidentsResponsePlan#secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssmincidents_response_plan#secret_id SsmincidentsResponsePlan#secret_id}.</summary>
         [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}")]
         string SecretId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmincidents_response_plan#service_id SsmincidentsResponsePlan#service_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssmincidents_response_plan#service_id SsmincidentsResponsePlan#service_id}.</summary>
         [JsiiProperty(name: "serviceId", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceId
         {
@@ -35,21 +35,21 @@ namespace aws.SsmincidentsResponsePlan
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmincidents_response_plan#name SsmincidentsResponsePlan#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssmincidents_response_plan#name SsmincidentsResponsePlan#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmincidents_response_plan#secret_id SsmincidentsResponsePlan#secret_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssmincidents_response_plan#secret_id SsmincidentsResponsePlan#secret_id}.</summary>
             [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}")]
             public string SecretId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmincidents_response_plan#service_id SsmincidentsResponsePlan#service_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssmincidents_response_plan#service_id SsmincidentsResponsePlan#service_id}.</summary>
             [JsiiProperty(name: "serviceId", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceId
             {

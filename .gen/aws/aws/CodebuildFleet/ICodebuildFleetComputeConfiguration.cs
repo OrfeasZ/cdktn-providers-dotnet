@@ -7,7 +7,7 @@ namespace aws.CodebuildFleet
     [JsiiInterface(nativeType: typeof(ICodebuildFleetComputeConfiguration), fullyQualifiedName: "aws.codebuildFleet.CodebuildFleetComputeConfiguration")]
     public interface ICodebuildFleetComputeConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#disk CodebuildFleet#disk}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#disk CodebuildFleet#disk}.</summary>
         [JsiiProperty(name: "disk", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Disk
@@ -18,7 +18,7 @@ namespace aws.CodebuildFleet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#instance_type CodebuildFleet#instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#instance_type CodebuildFleet#instance_type}.</summary>
         [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InstanceType
@@ -29,7 +29,7 @@ namespace aws.CodebuildFleet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#machine_type CodebuildFleet#machine_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#machine_type CodebuildFleet#machine_type}.</summary>
         [JsiiProperty(name: "machineType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MachineType
@@ -40,7 +40,7 @@ namespace aws.CodebuildFleet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#memory CodebuildFleet#memory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#memory CodebuildFleet#memory}.</summary>
         [JsiiProperty(name: "memory", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Memory
@@ -51,7 +51,7 @@ namespace aws.CodebuildFleet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#vcpu CodebuildFleet#vcpu}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#vcpu CodebuildFleet#vcpu}.</summary>
         [JsiiProperty(name: "vcpu", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Vcpu
@@ -69,7 +69,7 @@ namespace aws.CodebuildFleet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#disk CodebuildFleet#disk}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#disk CodebuildFleet#disk}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "disk", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Disk
@@ -77,7 +77,7 @@ namespace aws.CodebuildFleet
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#instance_type CodebuildFleet#instance_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#instance_type CodebuildFleet#instance_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InstanceType
@@ -85,7 +85,7 @@ namespace aws.CodebuildFleet
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#machine_type CodebuildFleet#machine_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#machine_type CodebuildFleet#machine_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "machineType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MachineType
@@ -93,7 +93,7 @@ namespace aws.CodebuildFleet
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#memory CodebuildFleet#memory}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#memory CodebuildFleet#memory}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "memory", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Memory
@@ -101,7 +101,7 @@ namespace aws.CodebuildFleet
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#vcpu CodebuildFleet#vcpu}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#vcpu CodebuildFleet#vcpu}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vcpu", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Vcpu

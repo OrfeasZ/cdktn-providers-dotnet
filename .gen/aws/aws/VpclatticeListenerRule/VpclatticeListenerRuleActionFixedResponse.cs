@@ -9,7 +9,7 @@ namespace aws.VpclatticeListenerRule
     [JsiiByValue(fqn: "aws.vpclatticeListenerRule.VpclatticeListenerRuleActionFixedResponse")]
     public class VpclatticeListenerRuleActionFixedResponse : aws.VpclatticeListenerRule.IVpclatticeListenerRuleActionFixedResponse
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpclattice_listener_rule#status_code VpclatticeListenerRule#status_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpclattice_listener_rule#status_code VpclatticeListenerRule#status_code}.</summary>
         [JsiiProperty(name: "statusCode", typeJson: "{\"primitive\":\"number\"}")]
         public double StatusCode
         {

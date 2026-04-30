@@ -7,7 +7,7 @@ namespace aws.S3ControlBucketLifecycleConfiguration
     [JsiiByValue(fqn: "aws.s3ControlBucketLifecycleConfiguration.S3ControlBucketLifecycleConfigurationRuleExpiration")]
     public class S3ControlBucketLifecycleConfigurationRuleExpiration : aws.S3ControlBucketLifecycleConfiguration.IS3ControlBucketLifecycleConfigurationRuleExpiration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_bucket_lifecycle_configuration#date S3ControlBucketLifecycleConfiguration#date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_bucket_lifecycle_configuration#date S3ControlBucketLifecycleConfiguration#date}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "date", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Date
@@ -16,7 +16,7 @@ namespace aws.S3ControlBucketLifecycleConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_bucket_lifecycle_configuration#days S3ControlBucketLifecycleConfiguration#days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_bucket_lifecycle_configuration#days S3ControlBucketLifecycleConfiguration#days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Days
@@ -27,7 +27,7 @@ namespace aws.S3ControlBucketLifecycleConfiguration
 
         private object? _expiredObjectDeleteMarker;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_bucket_lifecycle_configuration#expired_object_delete_marker S3ControlBucketLifecycleConfiguration#expired_object_delete_marker}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_bucket_lifecycle_configuration#expired_object_delete_marker S3ControlBucketLifecycleConfiguration#expired_object_delete_marker}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expiredObjectDeleteMarker", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? ExpiredObjectDeleteMarker

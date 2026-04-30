@@ -7,7 +7,7 @@ namespace aws.SecurityhubAutomationRule
     [JsiiByValue(fqn: "aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverity")]
     public class SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverity : aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleActionsFindingFieldsUpdateSeverity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_automation_rule#label SecurityhubAutomationRule#label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_automation_rule#label SecurityhubAutomationRule#label}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Label
@@ -16,7 +16,7 @@ namespace aws.SecurityhubAutomationRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_automation_rule#product SecurityhubAutomationRule#product}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_automation_rule#product SecurityhubAutomationRule#product}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Product

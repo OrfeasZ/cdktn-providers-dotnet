@@ -9,7 +9,7 @@ namespace aws.EmrCluster
     [JsiiByValue(fqn: "aws.emrCluster.EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecification")]
     public class EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecification : aws.EmrCluster.IEmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#allocation_strategy EmrCluster#allocation_strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#allocation_strategy EmrCluster#allocation_strategy}.</summary>
         [JsiiProperty(name: "allocationStrategy", typeJson: "{\"primitive\":\"string\"}")]
         public string AllocationStrategy
         {
@@ -17,7 +17,7 @@ namespace aws.EmrCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#timeout_action EmrCluster#timeout_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#timeout_action EmrCluster#timeout_action}.</summary>
         [JsiiProperty(name: "timeoutAction", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeoutAction
         {
@@ -25,7 +25,7 @@ namespace aws.EmrCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#timeout_duration_minutes EmrCluster#timeout_duration_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#timeout_duration_minutes EmrCluster#timeout_duration_minutes}.</summary>
         [JsiiProperty(name: "timeoutDurationMinutes", typeJson: "{\"primitive\":\"number\"}")]
         public double TimeoutDurationMinutes
         {
@@ -33,7 +33,7 @@ namespace aws.EmrCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#block_duration_minutes EmrCluster#block_duration_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#block_duration_minutes EmrCluster#block_duration_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "blockDurationMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BlockDurationMinutes

@@ -7,7 +7,7 @@ namespace aws.CognitoRiskConfiguration
     [JsiiInterface(nativeType: typeof(ICognitoRiskConfigurationCompromisedCredentialsRiskConfigurationActions), fullyQualifiedName: "aws.cognitoRiskConfiguration.CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationActions")]
     public interface ICognitoRiskConfigurationCompromisedCredentialsRiskConfigurationActions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_risk_configuration#event_action CognitoRiskConfiguration#event_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_risk_configuration#event_action CognitoRiskConfiguration#event_action}.</summary>
         [JsiiProperty(name: "eventAction", typeJson: "{\"primitive\":\"string\"}")]
         string EventAction
         {
@@ -21,7 +21,7 @@ namespace aws.CognitoRiskConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_risk_configuration#event_action CognitoRiskConfiguration#event_action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_risk_configuration#event_action CognitoRiskConfiguration#event_action}.</summary>
             [JsiiProperty(name: "eventAction", typeJson: "{\"primitive\":\"string\"}")]
             public string EventAction
             {

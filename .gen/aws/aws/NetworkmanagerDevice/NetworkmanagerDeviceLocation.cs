@@ -7,7 +7,7 @@ namespace aws.NetworkmanagerDevice
     [JsiiByValue(fqn: "aws.networkmanagerDevice.NetworkmanagerDeviceLocation")]
     public class NetworkmanagerDeviceLocation : aws.NetworkmanagerDevice.INetworkmanagerDeviceLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_device#address NetworkmanagerDevice#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_device#address NetworkmanagerDevice#address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Address
@@ -16,7 +16,7 @@ namespace aws.NetworkmanagerDevice
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_device#latitude NetworkmanagerDevice#latitude}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_device#latitude NetworkmanagerDevice#latitude}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "latitude", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Latitude
@@ -25,7 +25,7 @@ namespace aws.NetworkmanagerDevice
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_device#longitude NetworkmanagerDevice#longitude}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_device#longitude NetworkmanagerDevice#longitude}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "longitude", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Longitude

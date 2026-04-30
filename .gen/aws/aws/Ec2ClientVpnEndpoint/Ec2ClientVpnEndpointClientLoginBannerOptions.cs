@@ -7,7 +7,7 @@ namespace aws.Ec2ClientVpnEndpoint
     [JsiiByValue(fqn: "aws.ec2ClientVpnEndpoint.Ec2ClientVpnEndpointClientLoginBannerOptions")]
     public class Ec2ClientVpnEndpointClientLoginBannerOptions : aws.Ec2ClientVpnEndpoint.IEc2ClientVpnEndpointClientLoginBannerOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_client_vpn_endpoint#banner_text Ec2ClientVpnEndpoint#banner_text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_client_vpn_endpoint#banner_text Ec2ClientVpnEndpoint#banner_text}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bannerText", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BannerText
@@ -18,7 +18,7 @@ namespace aws.Ec2ClientVpnEndpoint
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_client_vpn_endpoint#enabled Ec2ClientVpnEndpoint#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_client_vpn_endpoint#enabled Ec2ClientVpnEndpoint#enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Enabled

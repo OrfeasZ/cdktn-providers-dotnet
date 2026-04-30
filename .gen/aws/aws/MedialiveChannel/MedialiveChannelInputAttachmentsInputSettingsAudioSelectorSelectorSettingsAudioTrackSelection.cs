@@ -13,7 +13,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>tracks block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#tracks MedialiveChannel#tracks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#tracks MedialiveChannel#tracks}
         /// </remarks>
         [JsiiProperty(name: "tracks", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsAudioSelectorSelectorSettingsAudioTrackSelectionTracks\"},\"kind\":\"array\"}}]}}")]
         public object Tracks
@@ -44,7 +44,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>dolby_e_decode block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#dolby_e_decode MedialiveChannel#dolby_e_decode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#dolby_e_decode MedialiveChannel#dolby_e_decode}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dolbyEDecode", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsAudioSelectorSelectorSettingsAudioTrackSelectionDolbyEDecode\"}", isOptional: true)]

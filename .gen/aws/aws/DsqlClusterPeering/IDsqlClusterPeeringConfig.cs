@@ -7,21 +7,21 @@ namespace aws.DsqlClusterPeering
     [JsiiInterface(nativeType: typeof(IDsqlClusterPeeringConfig), fullyQualifiedName: "aws.dsqlClusterPeering.DsqlClusterPeeringConfig")]
     public interface IDsqlClusterPeeringConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dsql_cluster_peering#clusters DsqlClusterPeering#clusters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dsql_cluster_peering#clusters DsqlClusterPeering#clusters}.</summary>
         [JsiiProperty(name: "clusters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Clusters
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dsql_cluster_peering#identifier DsqlClusterPeering#identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dsql_cluster_peering#identifier DsqlClusterPeering#identifier}.</summary>
         [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
         string Identifier
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dsql_cluster_peering#witness_region DsqlClusterPeering#witness_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dsql_cluster_peering#witness_region DsqlClusterPeering#witness_region}.</summary>
         [JsiiProperty(name: "witnessRegion", typeJson: "{\"primitive\":\"string\"}")]
         string WitnessRegion
         {
@@ -30,7 +30,7 @@ namespace aws.DsqlClusterPeering
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dsql_cluster_peering#region DsqlClusterPeering#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dsql_cluster_peering#region DsqlClusterPeering#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace aws.DsqlClusterPeering
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dsql_cluster_peering#timeouts DsqlClusterPeering#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dsql_cluster_peering#timeouts DsqlClusterPeering#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.dsqlClusterPeering.DsqlClusterPeeringTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,21 +63,21 @@ namespace aws.DsqlClusterPeering
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dsql_cluster_peering#clusters DsqlClusterPeering#clusters}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dsql_cluster_peering#clusters DsqlClusterPeering#clusters}.</summary>
             [JsiiProperty(name: "clusters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Clusters
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dsql_cluster_peering#identifier DsqlClusterPeering#identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dsql_cluster_peering#identifier DsqlClusterPeering#identifier}.</summary>
             [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
             public string Identifier
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dsql_cluster_peering#witness_region DsqlClusterPeering#witness_region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dsql_cluster_peering#witness_region DsqlClusterPeering#witness_region}.</summary>
             [JsiiProperty(name: "witnessRegion", typeJson: "{\"primitive\":\"string\"}")]
             public string WitnessRegion
             {
@@ -86,7 +86,7 @@ namespace aws.DsqlClusterPeering
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dsql_cluster_peering#region DsqlClusterPeering#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dsql_cluster_peering#region DsqlClusterPeering#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace aws.DsqlClusterPeering
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dsql_cluster_peering#timeouts DsqlClusterPeering#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dsql_cluster_peering#timeouts DsqlClusterPeering#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.dsqlClusterPeering.DsqlClusterPeeringTimeouts\"}", isOptional: true)]

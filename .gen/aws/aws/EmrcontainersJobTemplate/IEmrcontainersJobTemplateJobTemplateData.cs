@@ -7,7 +7,7 @@ namespace aws.EmrcontainersJobTemplate
     [JsiiInterface(nativeType: typeof(IEmrcontainersJobTemplateJobTemplateData), fullyQualifiedName: "aws.emrcontainersJobTemplate.EmrcontainersJobTemplateJobTemplateData")]
     public interface IEmrcontainersJobTemplateJobTemplateData
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrcontainers_job_template#execution_role_arn EmrcontainersJobTemplate#execution_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrcontainers_job_template#execution_role_arn EmrcontainersJobTemplate#execution_role_arn}.</summary>
         [JsiiProperty(name: "executionRoleArn", typeJson: "{\"primitive\":\"string\"}")]
         string ExecutionRoleArn
         {
@@ -16,7 +16,7 @@ namespace aws.EmrcontainersJobTemplate
 
         /// <summary>job_driver block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrcontainers_job_template#job_driver EmrcontainersJobTemplate#job_driver}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrcontainers_job_template#job_driver EmrcontainersJobTemplate#job_driver}
         /// </remarks>
         [JsiiProperty(name: "jobDriver", typeJson: "{\"fqn\":\"aws.emrcontainersJobTemplate.EmrcontainersJobTemplateJobTemplateDataJobDriver\"}")]
         aws.EmrcontainersJobTemplate.IEmrcontainersJobTemplateJobTemplateDataJobDriver JobDriver
@@ -24,7 +24,7 @@ namespace aws.EmrcontainersJobTemplate
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrcontainers_job_template#release_label EmrcontainersJobTemplate#release_label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrcontainers_job_template#release_label EmrcontainersJobTemplate#release_label}.</summary>
         [JsiiProperty(name: "releaseLabel", typeJson: "{\"primitive\":\"string\"}")]
         string ReleaseLabel
         {
@@ -33,7 +33,7 @@ namespace aws.EmrcontainersJobTemplate
 
         /// <summary>configuration_overrides block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrcontainers_job_template#configuration_overrides EmrcontainersJobTemplate#configuration_overrides}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrcontainers_job_template#configuration_overrides EmrcontainersJobTemplate#configuration_overrides}
         /// </remarks>
         [JsiiProperty(name: "configurationOverrides", typeJson: "{\"fqn\":\"aws.emrcontainersJobTemplate.EmrcontainersJobTemplateJobTemplateDataConfigurationOverrides\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace aws.EmrcontainersJobTemplate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrcontainers_job_template#job_tags EmrcontainersJobTemplate#job_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrcontainers_job_template#job_tags EmrcontainersJobTemplate#job_tags}.</summary>
         [JsiiProperty(name: "jobTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? JobTags
@@ -63,7 +63,7 @@ namespace aws.EmrcontainersJobTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrcontainers_job_template#execution_role_arn EmrcontainersJobTemplate#execution_role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrcontainers_job_template#execution_role_arn EmrcontainersJobTemplate#execution_role_arn}.</summary>
             [JsiiProperty(name: "executionRoleArn", typeJson: "{\"primitive\":\"string\"}")]
             public string ExecutionRoleArn
             {
@@ -72,7 +72,7 @@ namespace aws.EmrcontainersJobTemplate
 
             /// <summary>job_driver block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrcontainers_job_template#job_driver EmrcontainersJobTemplate#job_driver}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrcontainers_job_template#job_driver EmrcontainersJobTemplate#job_driver}
             /// </remarks>
             [JsiiProperty(name: "jobDriver", typeJson: "{\"fqn\":\"aws.emrcontainersJobTemplate.EmrcontainersJobTemplateJobTemplateDataJobDriver\"}")]
             public aws.EmrcontainersJobTemplate.IEmrcontainersJobTemplateJobTemplateDataJobDriver JobDriver
@@ -80,7 +80,7 @@ namespace aws.EmrcontainersJobTemplate
                 get => GetInstanceProperty<aws.EmrcontainersJobTemplate.IEmrcontainersJobTemplateJobTemplateDataJobDriver>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrcontainers_job_template#release_label EmrcontainersJobTemplate#release_label}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrcontainers_job_template#release_label EmrcontainersJobTemplate#release_label}.</summary>
             [JsiiProperty(name: "releaseLabel", typeJson: "{\"primitive\":\"string\"}")]
             public string ReleaseLabel
             {
@@ -89,7 +89,7 @@ namespace aws.EmrcontainersJobTemplate
 
             /// <summary>configuration_overrides block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrcontainers_job_template#configuration_overrides EmrcontainersJobTemplate#configuration_overrides}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrcontainers_job_template#configuration_overrides EmrcontainersJobTemplate#configuration_overrides}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "configurationOverrides", typeJson: "{\"fqn\":\"aws.emrcontainersJobTemplate.EmrcontainersJobTemplateJobTemplateDataConfigurationOverrides\"}", isOptional: true)]
@@ -98,7 +98,7 @@ namespace aws.EmrcontainersJobTemplate
                 get => GetInstanceProperty<aws.EmrcontainersJobTemplate.IEmrcontainersJobTemplateJobTemplateDataConfigurationOverrides?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrcontainers_job_template#job_tags EmrcontainersJobTemplate#job_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrcontainers_job_template#job_tags EmrcontainersJobTemplate#job_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "jobTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? JobTags

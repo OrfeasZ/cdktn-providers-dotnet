@@ -9,7 +9,7 @@ namespace aws.MskconnectConnector
     [JsiiByValue(fqn: "aws.mskconnectConnector.MskconnectConnectorCapacityProvisionedCapacity")]
     public class MskconnectConnectorCapacityProvisionedCapacity : aws.MskconnectConnector.IMskconnectConnectorCapacityProvisionedCapacity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#worker_count MskconnectConnector#worker_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_connector#worker_count MskconnectConnector#worker_count}.</summary>
         [JsiiProperty(name: "workerCount", typeJson: "{\"primitive\":\"number\"}")]
         public double WorkerCount
         {
@@ -17,7 +17,7 @@ namespace aws.MskconnectConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#mcu_count MskconnectConnector#mcu_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_connector#mcu_count MskconnectConnector#mcu_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mcuCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? McuCount

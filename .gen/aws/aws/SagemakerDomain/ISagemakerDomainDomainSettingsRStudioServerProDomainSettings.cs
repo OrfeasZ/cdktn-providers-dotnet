@@ -7,7 +7,7 @@ namespace aws.SagemakerDomain
     [JsiiInterface(nativeType: typeof(ISagemakerDomainDomainSettingsRStudioServerProDomainSettings), fullyQualifiedName: "aws.sagemakerDomain.SagemakerDomainDomainSettingsRStudioServerProDomainSettings")]
     public interface ISagemakerDomainDomainSettingsRStudioServerProDomainSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#domain_execution_role_arn SagemakerDomain#domain_execution_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#domain_execution_role_arn SagemakerDomain#domain_execution_role_arn}.</summary>
         [JsiiProperty(name: "domainExecutionRoleArn", typeJson: "{\"primitive\":\"string\"}")]
         string DomainExecutionRoleArn
         {
@@ -16,7 +16,7 @@ namespace aws.SagemakerDomain
 
         /// <summary>default_resource_spec block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
         /// </remarks>
         [JsiiProperty(name: "defaultResourceSpec", typeJson: "{\"fqn\":\"aws.sagemakerDomain.SagemakerDomainDomainSettingsRStudioServerProDomainSettingsDefaultResourceSpec\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,7 +28,7 @@ namespace aws.SagemakerDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#r_studio_connect_url SagemakerDomain#r_studio_connect_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#r_studio_connect_url SagemakerDomain#r_studio_connect_url}.</summary>
         [JsiiProperty(name: "rStudioConnectUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RStudioConnectUrl
@@ -39,7 +39,7 @@ namespace aws.SagemakerDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#r_studio_package_manager_url SagemakerDomain#r_studio_package_manager_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#r_studio_package_manager_url SagemakerDomain#r_studio_package_manager_url}.</summary>
         [JsiiProperty(name: "rStudioPackageManagerUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RStudioPackageManagerUrl
@@ -57,7 +57,7 @@ namespace aws.SagemakerDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#domain_execution_role_arn SagemakerDomain#domain_execution_role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#domain_execution_role_arn SagemakerDomain#domain_execution_role_arn}.</summary>
             [JsiiProperty(name: "domainExecutionRoleArn", typeJson: "{\"primitive\":\"string\"}")]
             public string DomainExecutionRoleArn
             {
@@ -66,7 +66,7 @@ namespace aws.SagemakerDomain
 
             /// <summary>default_resource_spec block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "defaultResourceSpec", typeJson: "{\"fqn\":\"aws.sagemakerDomain.SagemakerDomainDomainSettingsRStudioServerProDomainSettingsDefaultResourceSpec\"}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace aws.SagemakerDomain
                 get => GetInstanceProperty<aws.SagemakerDomain.ISagemakerDomainDomainSettingsRStudioServerProDomainSettingsDefaultResourceSpec?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#r_studio_connect_url SagemakerDomain#r_studio_connect_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#r_studio_connect_url SagemakerDomain#r_studio_connect_url}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "rStudioConnectUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RStudioConnectUrl
@@ -83,7 +83,7 @@ namespace aws.SagemakerDomain
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#r_studio_package_manager_url SagemakerDomain#r_studio_package_manager_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#r_studio_package_manager_url SagemakerDomain#r_studio_package_manager_url}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "rStudioPackageManagerUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RStudioPackageManagerUrl

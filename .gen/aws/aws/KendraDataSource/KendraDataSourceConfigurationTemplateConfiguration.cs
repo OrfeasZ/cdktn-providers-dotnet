@@ -9,7 +9,7 @@ namespace aws.KendraDataSource
     [JsiiByValue(fqn: "aws.kendraDataSource.KendraDataSourceConfigurationTemplateConfiguration")]
     public class KendraDataSourceConfigurationTemplateConfiguration : aws.KendraDataSource.IKendraDataSourceConfigurationTemplateConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#template KendraDataSource#template}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#template KendraDataSource#template}.</summary>
         [JsiiProperty(name: "template", typeJson: "{\"primitive\":\"string\"}")]
         public string Template
         {

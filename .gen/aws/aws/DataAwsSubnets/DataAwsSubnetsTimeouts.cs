@@ -7,7 +7,7 @@ namespace aws.DataAwsSubnets
     [JsiiByValue(fqn: "aws.dataAwsSubnets.DataAwsSubnetsTimeouts")]
     public class DataAwsSubnetsTimeouts : aws.DataAwsSubnets.IDataAwsSubnetsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/subnets#read DataAwsSubnets#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/subnets#read DataAwsSubnets#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

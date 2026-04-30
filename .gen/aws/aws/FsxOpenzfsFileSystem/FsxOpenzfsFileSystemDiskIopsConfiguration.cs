@@ -7,7 +7,7 @@ namespace aws.FsxOpenzfsFileSystem
     [JsiiByValue(fqn: "aws.fsxOpenzfsFileSystem.FsxOpenzfsFileSystemDiskIopsConfiguration")]
     public class FsxOpenzfsFileSystemDiskIopsConfiguration : aws.FsxOpenzfsFileSystem.IFsxOpenzfsFileSystemDiskIopsConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_file_system#iops FsxOpenzfsFileSystem#iops}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_openzfs_file_system#iops FsxOpenzfsFileSystem#iops}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "iops", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Iops
@@ -16,7 +16,7 @@ namespace aws.FsxOpenzfsFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_file_system#mode FsxOpenzfsFileSystem#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_openzfs_file_system#mode FsxOpenzfsFileSystem#mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Mode

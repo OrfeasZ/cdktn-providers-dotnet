@@ -9,7 +9,7 @@ namespace aws.VpcPeeringConnectionOptions
     [JsiiByValue(fqn: "aws.vpcPeeringConnectionOptions.VpcPeeringConnectionOptionsConfig")]
     public class VpcPeeringConnectionOptionsConfig : aws.VpcPeeringConnectionOptions.IVpcPeeringConnectionOptionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_peering_connection_options#vpc_peering_connection_id VpcPeeringConnectionOptions#vpc_peering_connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_peering_connection_options#vpc_peering_connection_id VpcPeeringConnectionOptions#vpc_peering_connection_id}.</summary>
         [JsiiProperty(name: "vpcPeeringConnectionId", typeJson: "{\"primitive\":\"string\"}")]
         public string VpcPeeringConnectionId
         {
@@ -19,7 +19,7 @@ namespace aws.VpcPeeringConnectionOptions
 
         /// <summary>accepter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_peering_connection_options#accepter VpcPeeringConnectionOptions#accepter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_peering_connection_options#accepter VpcPeeringConnectionOptions#accepter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accepter", typeJson: "{\"fqn\":\"aws.vpcPeeringConnectionOptions.VpcPeeringConnectionOptionsAccepter\"}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace aws.VpcPeeringConnectionOptions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_peering_connection_options#id VpcPeeringConnectionOptions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_peering_connection_options#id VpcPeeringConnectionOptions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace aws.VpcPeeringConnectionOptions
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_peering_connection_options#region VpcPeeringConnectionOptions#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_peering_connection_options#region VpcPeeringConnectionOptions#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace aws.VpcPeeringConnectionOptions
 
         /// <summary>requester block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_peering_connection_options#requester VpcPeeringConnectionOptions#requester}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_peering_connection_options#requester VpcPeeringConnectionOptions#requester}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "requester", typeJson: "{\"fqn\":\"aws.vpcPeeringConnectionOptions.VpcPeeringConnectionOptionsRequester\"}", isOptional: true)]

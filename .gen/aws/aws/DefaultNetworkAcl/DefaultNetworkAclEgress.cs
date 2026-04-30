@@ -9,7 +9,7 @@ namespace aws.DefaultNetworkAcl
     [JsiiByValue(fqn: "aws.defaultNetworkAcl.DefaultNetworkAclEgress")]
     public class DefaultNetworkAclEgress : aws.DefaultNetworkAcl.IDefaultNetworkAclEgress
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/default_network_acl#action DefaultNetworkAcl#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/default_network_acl#action DefaultNetworkAcl#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         public string Action
         {
@@ -17,7 +17,7 @@ namespace aws.DefaultNetworkAcl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/default_network_acl#from_port DefaultNetworkAcl#from_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/default_network_acl#from_port DefaultNetworkAcl#from_port}.</summary>
         [JsiiProperty(name: "fromPort", typeJson: "{\"primitive\":\"number\"}")]
         public double FromPort
         {
@@ -25,7 +25,7 @@ namespace aws.DefaultNetworkAcl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/default_network_acl#protocol DefaultNetworkAcl#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/default_network_acl#protocol DefaultNetworkAcl#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         public string Protocol
         {
@@ -33,7 +33,7 @@ namespace aws.DefaultNetworkAcl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/default_network_acl#rule_no DefaultNetworkAcl#rule_no}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/default_network_acl#rule_no DefaultNetworkAcl#rule_no}.</summary>
         [JsiiProperty(name: "ruleNo", typeJson: "{\"primitive\":\"number\"}")]
         public double RuleNo
         {
@@ -41,7 +41,7 @@ namespace aws.DefaultNetworkAcl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/default_network_acl#to_port DefaultNetworkAcl#to_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/default_network_acl#to_port DefaultNetworkAcl#to_port}.</summary>
         [JsiiProperty(name: "toPort", typeJson: "{\"primitive\":\"number\"}")]
         public double ToPort
         {
@@ -49,7 +49,7 @@ namespace aws.DefaultNetworkAcl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/default_network_acl#cidr_block DefaultNetworkAcl#cidr_block}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/default_network_acl#cidr_block DefaultNetworkAcl#cidr_block}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cidrBlock", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CidrBlock
@@ -58,7 +58,7 @@ namespace aws.DefaultNetworkAcl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/default_network_acl#icmp_code DefaultNetworkAcl#icmp_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/default_network_acl#icmp_code DefaultNetworkAcl#icmp_code}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "icmpCode", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IcmpCode
@@ -67,7 +67,7 @@ namespace aws.DefaultNetworkAcl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/default_network_acl#icmp_type DefaultNetworkAcl#icmp_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/default_network_acl#icmp_type DefaultNetworkAcl#icmp_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "icmpType", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IcmpType
@@ -76,7 +76,7 @@ namespace aws.DefaultNetworkAcl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/default_network_acl#ipv6_cidr_block DefaultNetworkAcl#ipv6_cidr_block}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/default_network_acl#ipv6_cidr_block DefaultNetworkAcl#ipv6_cidr_block}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipv6CidrBlock", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ipv6CidrBlock

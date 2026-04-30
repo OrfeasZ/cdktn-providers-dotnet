@@ -7,7 +7,7 @@ namespace aws.BedrockagentPrompt
     [JsiiByValue(fqn: "aws.bedrockagentPrompt.BedrockagentPromptVariantInferenceConfigurationText")]
     public class BedrockagentPromptVariantInferenceConfigurationText : aws.BedrockagentPrompt.IBedrockagentPromptVariantInferenceConfigurationText
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_prompt#max_tokens BedrockagentPrompt#max_tokens}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_prompt#max_tokens BedrockagentPrompt#max_tokens}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxTokens", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxTokens
@@ -16,7 +16,7 @@ namespace aws.BedrockagentPrompt
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_prompt#stop_sequences BedrockagentPrompt#stop_sequences}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_prompt#stop_sequences BedrockagentPrompt#stop_sequences}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "stopSequences", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? StopSequences
@@ -25,7 +25,7 @@ namespace aws.BedrockagentPrompt
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_prompt#temperature BedrockagentPrompt#temperature}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_prompt#temperature BedrockagentPrompt#temperature}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "temperature", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Temperature
@@ -34,7 +34,7 @@ namespace aws.BedrockagentPrompt
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_prompt#top_p BedrockagentPrompt#top_p}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_prompt#top_p BedrockagentPrompt#top_p}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "topP", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TopP

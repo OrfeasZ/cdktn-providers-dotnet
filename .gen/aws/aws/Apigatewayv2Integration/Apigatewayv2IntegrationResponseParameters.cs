@@ -9,7 +9,7 @@ namespace aws.Apigatewayv2Integration
     [JsiiByValue(fqn: "aws.apigatewayv2Integration.Apigatewayv2IntegrationResponseParameters")]
     public class Apigatewayv2IntegrationResponseParameters : aws.Apigatewayv2Integration.IApigatewayv2IntegrationResponseParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_integration#mappings Apigatewayv2Integration#mappings}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_integration#mappings Apigatewayv2Integration#mappings}.</summary>
         [JsiiProperty(name: "mappings", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, string> Mappings
         {
@@ -17,7 +17,7 @@ namespace aws.Apigatewayv2Integration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_integration#status_code Apigatewayv2Integration#status_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_integration#status_code Apigatewayv2Integration#status_code}.</summary>
         [JsiiProperty(name: "statusCode", typeJson: "{\"primitive\":\"string\"}")]
         public string StatusCode
         {

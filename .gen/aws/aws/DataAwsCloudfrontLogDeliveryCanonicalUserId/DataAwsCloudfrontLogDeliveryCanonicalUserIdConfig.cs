@@ -7,7 +7,7 @@ namespace aws.DataAwsCloudfrontLogDeliveryCanonicalUserId
     [JsiiByValue(fqn: "aws.dataAwsCloudfrontLogDeliveryCanonicalUserId.DataAwsCloudfrontLogDeliveryCanonicalUserIdConfig")]
     public class DataAwsCloudfrontLogDeliveryCanonicalUserIdConfig : aws.DataAwsCloudfrontLogDeliveryCanonicalUserId.IDataAwsCloudfrontLogDeliveryCanonicalUserIdConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id#id DataAwsCloudfrontLogDeliveryCanonicalUserId#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id#id DataAwsCloudfrontLogDeliveryCanonicalUserId#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -20,7 +20,7 @@ namespace aws.DataAwsCloudfrontLogDeliveryCanonicalUserId
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id#region DataAwsCloudfrontLogDeliveryCanonicalUserId#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id#region DataAwsCloudfrontLogDeliveryCanonicalUserId#region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Region

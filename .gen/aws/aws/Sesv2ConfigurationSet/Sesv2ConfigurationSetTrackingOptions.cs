@@ -9,7 +9,7 @@ namespace aws.Sesv2ConfigurationSet
     [JsiiByValue(fqn: "aws.sesv2ConfigurationSet.Sesv2ConfigurationSetTrackingOptions")]
     public class Sesv2ConfigurationSetTrackingOptions : aws.Sesv2ConfigurationSet.ISesv2ConfigurationSetTrackingOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_configuration_set#custom_redirect_domain Sesv2ConfigurationSet#custom_redirect_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_configuration_set#custom_redirect_domain Sesv2ConfigurationSet#custom_redirect_domain}.</summary>
         [JsiiProperty(name: "customRedirectDomain", typeJson: "{\"primitive\":\"string\"}")]
         public string CustomRedirectDomain
         {
@@ -17,7 +17,7 @@ namespace aws.Sesv2ConfigurationSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_configuration_set#https_policy Sesv2ConfigurationSet#https_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_configuration_set#https_policy Sesv2ConfigurationSet#https_policy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "httpsPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HttpsPolicy

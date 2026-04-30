@@ -7,7 +7,7 @@ namespace aws.Lexv2ModelsIntent
     [JsiiInterface(nativeType: typeof(ILexv2ModelsIntentDialogCodeHook), fullyQualifiedName: "aws.lexv2ModelsIntent.Lexv2ModelsIntentDialogCodeHook")]
     public interface ILexv2ModelsIntentDialogCodeHook
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#enabled Lexv2ModelsIntent#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#enabled Lexv2ModelsIntent#enabled}.</summary>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         object Enabled
         {
@@ -21,7 +21,7 @@ namespace aws.Lexv2ModelsIntent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#enabled Lexv2ModelsIntent#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#enabled Lexv2ModelsIntent#enabled}.</summary>
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
             public object Enabled
             {

@@ -9,7 +9,7 @@ namespace aws.LocationPlaceIndex
     [JsiiByValue(fqn: "aws.locationPlaceIndex.LocationPlaceIndexConfig")]
     public class LocationPlaceIndexConfig : aws.LocationPlaceIndex.ILocationPlaceIndexConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/location_place_index#data_source LocationPlaceIndex#data_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/location_place_index#data_source LocationPlaceIndex#data_source}.</summary>
         [JsiiProperty(name: "dataSource", typeJson: "{\"primitive\":\"string\"}")]
         public string DataSource
         {
@@ -17,7 +17,7 @@ namespace aws.LocationPlaceIndex
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/location_place_index#index_name LocationPlaceIndex#index_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/location_place_index#index_name LocationPlaceIndex#index_name}.</summary>
         [JsiiProperty(name: "indexName", typeJson: "{\"primitive\":\"string\"}")]
         public string IndexName
         {
@@ -27,7 +27,7 @@ namespace aws.LocationPlaceIndex
 
         /// <summary>data_source_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/location_place_index#data_source_configuration LocationPlaceIndex#data_source_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/location_place_index#data_source_configuration LocationPlaceIndex#data_source_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataSourceConfiguration", typeJson: "{\"fqn\":\"aws.locationPlaceIndex.LocationPlaceIndexDataSourceConfiguration\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace aws.LocationPlaceIndex
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/location_place_index#description LocationPlaceIndex#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/location_place_index#description LocationPlaceIndex#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -46,7 +46,7 @@ namespace aws.LocationPlaceIndex
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/location_place_index#id LocationPlaceIndex#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/location_place_index#id LocationPlaceIndex#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,7 +61,7 @@ namespace aws.LocationPlaceIndex
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/location_place_index#region LocationPlaceIndex#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/location_place_index#region LocationPlaceIndex#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace aws.LocationPlaceIndex
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/location_place_index#tags LocationPlaceIndex#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/location_place_index#tags LocationPlaceIndex#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -80,7 +80,7 @@ namespace aws.LocationPlaceIndex
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/location_place_index#tags_all LocationPlaceIndex#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/location_place_index#tags_all LocationPlaceIndex#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll

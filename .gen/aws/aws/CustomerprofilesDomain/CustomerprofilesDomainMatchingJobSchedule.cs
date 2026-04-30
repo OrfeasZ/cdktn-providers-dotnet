@@ -9,7 +9,7 @@ namespace aws.CustomerprofilesDomain
     [JsiiByValue(fqn: "aws.customerprofilesDomain.CustomerprofilesDomainMatchingJobSchedule")]
     public class CustomerprofilesDomainMatchingJobSchedule : aws.CustomerprofilesDomain.ICustomerprofilesDomainMatchingJobSchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#day_of_the_week CustomerprofilesDomain#day_of_the_week}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#day_of_the_week CustomerprofilesDomain#day_of_the_week}.</summary>
         [JsiiProperty(name: "dayOfTheWeek", typeJson: "{\"primitive\":\"string\"}")]
         public string DayOfTheWeek
         {
@@ -17,7 +17,7 @@ namespace aws.CustomerprofilesDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#time CustomerprofilesDomain#time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#time CustomerprofilesDomain#time}.</summary>
         [JsiiProperty(name: "time", typeJson: "{\"primitive\":\"string\"}")]
         public string Time
         {

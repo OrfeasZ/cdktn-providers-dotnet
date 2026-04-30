@@ -7,7 +7,7 @@ namespace aws.EfsFileSystem
     [JsiiByValue(fqn: "aws.efsFileSystem.EfsFileSystemConfig")]
     public class EfsFileSystemConfig : aws.EfsFileSystem.IEfsFileSystemConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#availability_zone_name EfsFileSystem#availability_zone_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_file_system#availability_zone_name EfsFileSystem#availability_zone_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityZoneName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AvailabilityZoneName
@@ -16,7 +16,7 @@ namespace aws.EfsFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#creation_token EfsFileSystem#creation_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_file_system#creation_token EfsFileSystem#creation_token}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "creationToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CreationToken
@@ -27,7 +27,7 @@ namespace aws.EfsFileSystem
 
         private object? _encrypted;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#encrypted EfsFileSystem#encrypted}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_file_system#encrypted EfsFileSystem#encrypted}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "encrypted", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Encrypted
@@ -56,7 +56,7 @@ namespace aws.EfsFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#id EfsFileSystem#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_file_system#id EfsFileSystem#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,7 +69,7 @@ namespace aws.EfsFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#kms_key_id EfsFileSystem#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_file_system#kms_key_id EfsFileSystem#kms_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyId
@@ -82,7 +82,7 @@ namespace aws.EfsFileSystem
 
         /// <summary>lifecycle_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#lifecycle_policy EfsFileSystem#lifecycle_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_file_system#lifecycle_policy EfsFileSystem#lifecycle_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lifecyclePolicy", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.efsFileSystem.EfsFileSystemLifecyclePolicy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -112,7 +112,7 @@ namespace aws.EfsFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#performance_mode EfsFileSystem#performance_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_file_system#performance_mode EfsFileSystem#performance_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "performanceMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PerformanceMode
@@ -123,7 +123,7 @@ namespace aws.EfsFileSystem
 
         /// <summary>protection block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#protection EfsFileSystem#protection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_file_system#protection EfsFileSystem#protection}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "protection", typeJson: "{\"fqn\":\"aws.efsFileSystem.EfsFileSystemProtection\"}", isOptional: true)]
@@ -133,7 +133,7 @@ namespace aws.EfsFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#provisioned_throughput_in_mibps EfsFileSystem#provisioned_throughput_in_mibps}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_file_system#provisioned_throughput_in_mibps EfsFileSystem#provisioned_throughput_in_mibps}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "provisionedThroughputInMibps", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ProvisionedThroughputInMibps
@@ -144,7 +144,7 @@ namespace aws.EfsFileSystem
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#region EfsFileSystem#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_file_system#region EfsFileSystem#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -154,7 +154,7 @@ namespace aws.EfsFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#tags EfsFileSystem#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_file_system#tags EfsFileSystem#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -163,7 +163,7 @@ namespace aws.EfsFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#tags_all EfsFileSystem#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_file_system#tags_all EfsFileSystem#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -172,7 +172,7 @@ namespace aws.EfsFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#throughput_mode EfsFileSystem#throughput_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_file_system#throughput_mode EfsFileSystem#throughput_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "throughputMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ThroughputMode

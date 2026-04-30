@@ -9,7 +9,7 @@ namespace aws.LbListener
     [JsiiByValue(fqn: "aws.lbListener.LbListenerMutualAuthentication")]
     public class LbListenerMutualAuthentication : aws.LbListener.ILbListenerMutualAuthentication
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#mode LbListener#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#mode LbListener#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         public string Mode
         {
@@ -17,7 +17,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#advertise_trust_store_ca_names LbListener#advertise_trust_store_ca_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#advertise_trust_store_ca_names LbListener#advertise_trust_store_ca_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "advertiseTrustStoreCaNames", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AdvertiseTrustStoreCaNames
@@ -28,7 +28,7 @@ namespace aws.LbListener
 
         private object? _ignoreClientCertificateExpiry;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#ignore_client_certificate_expiry LbListener#ignore_client_certificate_expiry}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#ignore_client_certificate_expiry LbListener#ignore_client_certificate_expiry}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ignoreClientCertificateExpiry", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IgnoreClientCertificateExpiry
@@ -57,7 +57,7 @@ namespace aws.LbListener
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#trust_store_arn LbListener#trust_store_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#trust_store_arn LbListener#trust_store_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "trustStoreArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TrustStoreArn

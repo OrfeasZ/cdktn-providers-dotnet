@@ -7,14 +7,14 @@ namespace aws.DocdbCluster
     [JsiiInterface(nativeType: typeof(IDocdbClusterServerlessV2ScalingConfiguration), fullyQualifiedName: "aws.docdbCluster.DocdbClusterServerlessV2ScalingConfiguration")]
     public interface IDocdbClusterServerlessV2ScalingConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/docdb_cluster#max_capacity DocdbCluster#max_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/docdb_cluster#max_capacity DocdbCluster#max_capacity}.</summary>
         [JsiiProperty(name: "maxCapacity", typeJson: "{\"primitive\":\"number\"}")]
         double MaxCapacity
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/docdb_cluster#min_capacity DocdbCluster#min_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/docdb_cluster#min_capacity DocdbCluster#min_capacity}.</summary>
         [JsiiProperty(name: "minCapacity", typeJson: "{\"primitive\":\"number\"}")]
         double MinCapacity
         {
@@ -28,14 +28,14 @@ namespace aws.DocdbCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/docdb_cluster#max_capacity DocdbCluster#max_capacity}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/docdb_cluster#max_capacity DocdbCluster#max_capacity}.</summary>
             [JsiiProperty(name: "maxCapacity", typeJson: "{\"primitive\":\"number\"}")]
             public double MaxCapacity
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/docdb_cluster#min_capacity DocdbCluster#min_capacity}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/docdb_cluster#min_capacity DocdbCluster#min_capacity}.</summary>
             [JsiiProperty(name: "minCapacity", typeJson: "{\"primitive\":\"number\"}")]
             public double MinCapacity
             {

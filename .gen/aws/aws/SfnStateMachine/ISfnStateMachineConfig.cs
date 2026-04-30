@@ -7,14 +7,14 @@ namespace aws.SfnStateMachine
     [JsiiInterface(nativeType: typeof(ISfnStateMachineConfig), fullyQualifiedName: "aws.sfnStateMachine.SfnStateMachineConfig")]
     public interface ISfnStateMachineConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#definition SfnStateMachine#definition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#definition SfnStateMachine#definition}.</summary>
         [JsiiProperty(name: "definition", typeJson: "{\"primitive\":\"string\"}")]
         string Definition
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#role_arn SfnStateMachine#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#role_arn SfnStateMachine#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         string RoleArn
         {
@@ -23,7 +23,7 @@ namespace aws.SfnStateMachine
 
         /// <summary>encryption_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#encryption_configuration SfnStateMachine#encryption_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#encryption_configuration SfnStateMachine#encryption_configuration}
         /// </remarks>
         [JsiiProperty(name: "encryptionConfiguration", typeJson: "{\"fqn\":\"aws.sfnStateMachine.SfnStateMachineEncryptionConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace aws.SfnStateMachine
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#id SfnStateMachine#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#id SfnStateMachine#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,7 +52,7 @@ namespace aws.SfnStateMachine
 
         /// <summary>logging_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#logging_configuration SfnStateMachine#logging_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#logging_configuration SfnStateMachine#logging_configuration}
         /// </remarks>
         [JsiiProperty(name: "loggingConfiguration", typeJson: "{\"fqn\":\"aws.sfnStateMachine.SfnStateMachineLoggingConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -64,7 +64,7 @@ namespace aws.SfnStateMachine
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#name SfnStateMachine#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#name SfnStateMachine#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -75,7 +75,7 @@ namespace aws.SfnStateMachine
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#name_prefix SfnStateMachine#name_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#name_prefix SfnStateMachine#name_prefix}.</summary>
         [JsiiProperty(name: "namePrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NamePrefix
@@ -86,7 +86,7 @@ namespace aws.SfnStateMachine
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#publish SfnStateMachine#publish}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#publish SfnStateMachine#publish}.</summary>
         [JsiiProperty(name: "publish", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? Publish
@@ -99,7 +99,7 @@ namespace aws.SfnStateMachine
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#region SfnStateMachine#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#region SfnStateMachine#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -111,7 +111,7 @@ namespace aws.SfnStateMachine
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#tags SfnStateMachine#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#tags SfnStateMachine#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -122,7 +122,7 @@ namespace aws.SfnStateMachine
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#tags_all SfnStateMachine#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#tags_all SfnStateMachine#tags_all}.</summary>
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -135,7 +135,7 @@ namespace aws.SfnStateMachine
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#timeouts SfnStateMachine#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#timeouts SfnStateMachine#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.sfnStateMachine.SfnStateMachineTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -149,7 +149,7 @@ namespace aws.SfnStateMachine
 
         /// <summary>tracing_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#tracing_configuration SfnStateMachine#tracing_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#tracing_configuration SfnStateMachine#tracing_configuration}
         /// </remarks>
         [JsiiProperty(name: "tracingConfiguration", typeJson: "{\"fqn\":\"aws.sfnStateMachine.SfnStateMachineTracingConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -161,7 +161,7 @@ namespace aws.SfnStateMachine
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#type SfnStateMachine#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#type SfnStateMachine#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
@@ -179,14 +179,14 @@ namespace aws.SfnStateMachine
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#definition SfnStateMachine#definition}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#definition SfnStateMachine#definition}.</summary>
             [JsiiProperty(name: "definition", typeJson: "{\"primitive\":\"string\"}")]
             public string Definition
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#role_arn SfnStateMachine#role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#role_arn SfnStateMachine#role_arn}.</summary>
             [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
             public string RoleArn
             {
@@ -195,7 +195,7 @@ namespace aws.SfnStateMachine
 
             /// <summary>encryption_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#encryption_configuration SfnStateMachine#encryption_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#encryption_configuration SfnStateMachine#encryption_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "encryptionConfiguration", typeJson: "{\"fqn\":\"aws.sfnStateMachine.SfnStateMachineEncryptionConfiguration\"}", isOptional: true)]
@@ -204,7 +204,7 @@ namespace aws.SfnStateMachine
                 get => GetInstanceProperty<aws.SfnStateMachine.ISfnStateMachineEncryptionConfiguration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#id SfnStateMachine#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#id SfnStateMachine#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -218,7 +218,7 @@ namespace aws.SfnStateMachine
 
             /// <summary>logging_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#logging_configuration SfnStateMachine#logging_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#logging_configuration SfnStateMachine#logging_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "loggingConfiguration", typeJson: "{\"fqn\":\"aws.sfnStateMachine.SfnStateMachineLoggingConfiguration\"}", isOptional: true)]
@@ -227,7 +227,7 @@ namespace aws.SfnStateMachine
                 get => GetInstanceProperty<aws.SfnStateMachine.ISfnStateMachineLoggingConfiguration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#name SfnStateMachine#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#name SfnStateMachine#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -235,7 +235,7 @@ namespace aws.SfnStateMachine
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#name_prefix SfnStateMachine#name_prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#name_prefix SfnStateMachine#name_prefix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "namePrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NamePrefix
@@ -243,7 +243,7 @@ namespace aws.SfnStateMachine
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#publish SfnStateMachine#publish}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#publish SfnStateMachine#publish}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "publish", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? Publish
@@ -253,7 +253,7 @@ namespace aws.SfnStateMachine
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#region SfnStateMachine#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#region SfnStateMachine#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -262,7 +262,7 @@ namespace aws.SfnStateMachine
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#tags SfnStateMachine#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#tags SfnStateMachine#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -270,7 +270,7 @@ namespace aws.SfnStateMachine
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#tags_all SfnStateMachine#tags_all}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#tags_all SfnStateMachine#tags_all}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -280,7 +280,7 @@ namespace aws.SfnStateMachine
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#timeouts SfnStateMachine#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#timeouts SfnStateMachine#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.sfnStateMachine.SfnStateMachineTimeouts\"}", isOptional: true)]
@@ -291,7 +291,7 @@ namespace aws.SfnStateMachine
 
             /// <summary>tracing_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#tracing_configuration SfnStateMachine#tracing_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#tracing_configuration SfnStateMachine#tracing_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tracingConfiguration", typeJson: "{\"fqn\":\"aws.sfnStateMachine.SfnStateMachineTracingConfiguration\"}", isOptional: true)]
@@ -300,7 +300,7 @@ namespace aws.SfnStateMachine
                 get => GetInstanceProperty<aws.SfnStateMachine.ISfnStateMachineTracingConfiguration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#type SfnStateMachine#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#type SfnStateMachine#type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type

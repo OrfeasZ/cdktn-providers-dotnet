@@ -7,14 +7,14 @@ namespace aws.GlacierVault
     [JsiiInterface(nativeType: typeof(IGlacierVaultNotification), fullyQualifiedName: "aws.glacierVault.GlacierVaultNotification")]
     public interface IGlacierVaultNotification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glacier_vault#events GlacierVault#events}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glacier_vault#events GlacierVault#events}.</summary>
         [JsiiProperty(name: "events", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Events
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glacier_vault#sns_topic GlacierVault#sns_topic}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glacier_vault#sns_topic GlacierVault#sns_topic}.</summary>
         [JsiiProperty(name: "snsTopic", typeJson: "{\"primitive\":\"string\"}")]
         string SnsTopic
         {
@@ -28,14 +28,14 @@ namespace aws.GlacierVault
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glacier_vault#events GlacierVault#events}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glacier_vault#events GlacierVault#events}.</summary>
             [JsiiProperty(name: "events", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Events
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glacier_vault#sns_topic GlacierVault#sns_topic}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glacier_vault#sns_topic GlacierVault#sns_topic}.</summary>
             [JsiiProperty(name: "snsTopic", typeJson: "{\"primitive\":\"string\"}")]
             public string SnsTopic
             {

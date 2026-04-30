@@ -9,7 +9,7 @@ namespace aws.LaunchTemplate
     [JsiiByValue(fqn: "aws.launchTemplate.LaunchTemplateLicenseSpecification")]
     public class LaunchTemplateLicenseSpecification : aws.LaunchTemplate.ILaunchTemplateLicenseSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#license_configuration_arn LaunchTemplate#license_configuration_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#license_configuration_arn LaunchTemplate#license_configuration_arn}.</summary>
         [JsiiProperty(name: "licenseConfigurationArn", typeJson: "{\"primitive\":\"string\"}")]
         public string LicenseConfigurationArn
         {

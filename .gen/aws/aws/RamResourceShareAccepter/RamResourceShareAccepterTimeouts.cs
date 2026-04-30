@@ -7,7 +7,7 @@ namespace aws.RamResourceShareAccepter
     [JsiiByValue(fqn: "aws.ramResourceShareAccepter.RamResourceShareAccepterTimeouts")]
     public class RamResourceShareAccepterTimeouts : aws.RamResourceShareAccepter.IRamResourceShareAccepterTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ram_resource_share_accepter#create RamResourceShareAccepter#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ram_resource_share_accepter#create RamResourceShareAccepter#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.RamResourceShareAccepter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ram_resource_share_accepter#delete RamResourceShareAccepter#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ram_resource_share_accepter#delete RamResourceShareAccepter#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

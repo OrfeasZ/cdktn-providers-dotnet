@@ -9,7 +9,7 @@ namespace aws.MskCluster
     [JsiiByValue(fqn: "aws.mskCluster.MskClusterBrokerNodeGroupInfo")]
     public class MskClusterBrokerNodeGroupInfo : aws.MskCluster.IMskClusterBrokerNodeGroupInfo
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#client_subnets MskCluster#client_subnets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#client_subnets MskCluster#client_subnets}.</summary>
         [JsiiProperty(name: "clientSubnets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] ClientSubnets
         {
@@ -17,7 +17,7 @@ namespace aws.MskCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#instance_type MskCluster#instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#instance_type MskCluster#instance_type}.</summary>
         [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceType
         {
@@ -25,7 +25,7 @@ namespace aws.MskCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#security_groups MskCluster#security_groups}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#security_groups MskCluster#security_groups}.</summary>
         [JsiiProperty(name: "securityGroups", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SecurityGroups
         {
@@ -33,7 +33,7 @@ namespace aws.MskCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#az_distribution MskCluster#az_distribution}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#az_distribution MskCluster#az_distribution}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "azDistribution", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AzDistribution
@@ -44,7 +44,7 @@ namespace aws.MskCluster
 
         /// <summary>connectivity_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#connectivity_info MskCluster#connectivity_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#connectivity_info MskCluster#connectivity_info}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connectivityInfo", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterBrokerNodeGroupInfoConnectivityInfo\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace aws.MskCluster
 
         /// <summary>storage_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#storage_info MskCluster#storage_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#storage_info MskCluster#storage_info}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "storageInfo", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterBrokerNodeGroupInfoStorageInfo\"}", isOptional: true)]

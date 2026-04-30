@@ -9,7 +9,7 @@ namespace aws.SagemakerFlowDefinition
     [JsiiByValue(fqn: "aws.sagemakerFlowDefinition.SagemakerFlowDefinitionHumanLoopConfig")]
     public class SagemakerFlowDefinitionHumanLoopConfig : aws.SagemakerFlowDefinition.ISagemakerFlowDefinitionHumanLoopConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_flow_definition#human_task_ui_arn SagemakerFlowDefinition#human_task_ui_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_flow_definition#human_task_ui_arn SagemakerFlowDefinition#human_task_ui_arn}.</summary>
         [JsiiProperty(name: "humanTaskUiArn", typeJson: "{\"primitive\":\"string\"}")]
         public string HumanTaskUiArn
         {
@@ -17,7 +17,7 @@ namespace aws.SagemakerFlowDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_flow_definition#task_count SagemakerFlowDefinition#task_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_flow_definition#task_count SagemakerFlowDefinition#task_count}.</summary>
         [JsiiProperty(name: "taskCount", typeJson: "{\"primitive\":\"number\"}")]
         public double TaskCount
         {
@@ -25,7 +25,7 @@ namespace aws.SagemakerFlowDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_flow_definition#task_description SagemakerFlowDefinition#task_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_flow_definition#task_description SagemakerFlowDefinition#task_description}.</summary>
         [JsiiProperty(name: "taskDescription", typeJson: "{\"primitive\":\"string\"}")]
         public string TaskDescription
         {
@@ -33,7 +33,7 @@ namespace aws.SagemakerFlowDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_flow_definition#task_title SagemakerFlowDefinition#task_title}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_flow_definition#task_title SagemakerFlowDefinition#task_title}.</summary>
         [JsiiProperty(name: "taskTitle", typeJson: "{\"primitive\":\"string\"}")]
         public string TaskTitle
         {
@@ -41,7 +41,7 @@ namespace aws.SagemakerFlowDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_flow_definition#workteam_arn SagemakerFlowDefinition#workteam_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_flow_definition#workteam_arn SagemakerFlowDefinition#workteam_arn}.</summary>
         [JsiiProperty(name: "workteamArn", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkteamArn
         {
@@ -51,7 +51,7 @@ namespace aws.SagemakerFlowDefinition
 
         /// <summary>public_workforce_task_price block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_flow_definition#public_workforce_task_price SagemakerFlowDefinition#public_workforce_task_price}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_flow_definition#public_workforce_task_price SagemakerFlowDefinition#public_workforce_task_price}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publicWorkforceTaskPrice", typeJson: "{\"fqn\":\"aws.sagemakerFlowDefinition.SagemakerFlowDefinitionHumanLoopConfigPublicWorkforceTaskPrice\"}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace aws.SagemakerFlowDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_flow_definition#task_availability_lifetime_in_seconds SagemakerFlowDefinition#task_availability_lifetime_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_flow_definition#task_availability_lifetime_in_seconds SagemakerFlowDefinition#task_availability_lifetime_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "taskAvailabilityLifetimeInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TaskAvailabilityLifetimeInSeconds
@@ -70,7 +70,7 @@ namespace aws.SagemakerFlowDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_flow_definition#task_keywords SagemakerFlowDefinition#task_keywords}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_flow_definition#task_keywords SagemakerFlowDefinition#task_keywords}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "taskKeywords", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? TaskKeywords
@@ -79,7 +79,7 @@ namespace aws.SagemakerFlowDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_flow_definition#task_time_limit_in_seconds SagemakerFlowDefinition#task_time_limit_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_flow_definition#task_time_limit_in_seconds SagemakerFlowDefinition#task_time_limit_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "taskTimeLimitInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TaskTimeLimitInSeconds

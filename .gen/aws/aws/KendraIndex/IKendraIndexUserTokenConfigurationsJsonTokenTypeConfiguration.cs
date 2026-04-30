@@ -7,14 +7,14 @@ namespace aws.KendraIndex
     [JsiiInterface(nativeType: typeof(IKendraIndexUserTokenConfigurationsJsonTokenTypeConfiguration), fullyQualifiedName: "aws.kendraIndex.KendraIndexUserTokenConfigurationsJsonTokenTypeConfiguration")]
     public interface IKendraIndexUserTokenConfigurationsJsonTokenTypeConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#group_attribute_field KendraIndex#group_attribute_field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_index#group_attribute_field KendraIndex#group_attribute_field}.</summary>
         [JsiiProperty(name: "groupAttributeField", typeJson: "{\"primitive\":\"string\"}")]
         string GroupAttributeField
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#user_name_attribute_field KendraIndex#user_name_attribute_field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_index#user_name_attribute_field KendraIndex#user_name_attribute_field}.</summary>
         [JsiiProperty(name: "userNameAttributeField", typeJson: "{\"primitive\":\"string\"}")]
         string UserNameAttributeField
         {
@@ -28,14 +28,14 @@ namespace aws.KendraIndex
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#group_attribute_field KendraIndex#group_attribute_field}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_index#group_attribute_field KendraIndex#group_attribute_field}.</summary>
             [JsiiProperty(name: "groupAttributeField", typeJson: "{\"primitive\":\"string\"}")]
             public string GroupAttributeField
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#user_name_attribute_field KendraIndex#user_name_attribute_field}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_index#user_name_attribute_field KendraIndex#user_name_attribute_field}.</summary>
             [JsiiProperty(name: "userNameAttributeField", typeJson: "{\"primitive\":\"string\"}")]
             public string UserNameAttributeField
             {

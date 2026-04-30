@@ -7,7 +7,7 @@ namespace aws.WafregionalWebAclAssociation
     [JsiiByValue(fqn: "aws.wafregionalWebAclAssociation.WafregionalWebAclAssociationTimeouts")]
     public class WafregionalWebAclAssociationTimeouts : aws.WafregionalWebAclAssociation.IWafregionalWebAclAssociationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_web_acl_association#create WafregionalWebAclAssociation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_web_acl_association#create WafregionalWebAclAssociation#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create

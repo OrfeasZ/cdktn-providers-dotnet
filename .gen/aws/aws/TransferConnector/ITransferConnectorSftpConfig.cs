@@ -7,7 +7,7 @@ namespace aws.TransferConnector
     [JsiiInterface(nativeType: typeof(ITransferConnectorSftpConfig), fullyQualifiedName: "aws.transferConnector.TransferConnectorSftpConfig")]
     public interface ITransferConnectorSftpConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_connector#trusted_host_keys TransferConnector#trusted_host_keys}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_connector#trusted_host_keys TransferConnector#trusted_host_keys}.</summary>
         [JsiiProperty(name: "trustedHostKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? TrustedHostKeys
@@ -18,7 +18,7 @@ namespace aws.TransferConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_connector#user_secret_id TransferConnector#user_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_connector#user_secret_id TransferConnector#user_secret_id}.</summary>
         [JsiiProperty(name: "userSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UserSecretId
@@ -36,7 +36,7 @@ namespace aws.TransferConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_connector#trusted_host_keys TransferConnector#trusted_host_keys}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_connector#trusted_host_keys TransferConnector#trusted_host_keys}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "trustedHostKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? TrustedHostKeys
@@ -44,7 +44,7 @@ namespace aws.TransferConnector
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_connector#user_secret_id TransferConnector#user_secret_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_connector#user_secret_id TransferConnector#user_secret_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "userSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UserSecretId

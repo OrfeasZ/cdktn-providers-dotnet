@@ -9,7 +9,7 @@ namespace aws.SagemakerLabelingJob
     [JsiiByValue(fqn: "aws.sagemakerLabelingJob.SagemakerLabelingJobInputConfigDataSourceSnsDataSource")]
     public class SagemakerLabelingJobInputConfigDataSourceSnsDataSource : aws.SagemakerLabelingJob.ISagemakerLabelingJobInputConfigDataSourceSnsDataSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_labeling_job#sns_topic_arn SagemakerLabelingJob#sns_topic_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_labeling_job#sns_topic_arn SagemakerLabelingJob#sns_topic_arn}.</summary>
         [JsiiProperty(name: "snsTopicArn", typeJson: "{\"primitive\":\"string\"}")]
         public string SnsTopicArn
         {

@@ -7,7 +7,7 @@ namespace aws.NetworkfirewallRuleGroup
     [JsiiInterface(nativeType: typeof(INetworkfirewallRuleGroupRuleGroupReferenceSetsIpSetReferencesIpSetReference), fullyQualifiedName: "aws.networkfirewallRuleGroup.NetworkfirewallRuleGroupRuleGroupReferenceSetsIpSetReferencesIpSetReference")]
     public interface INetworkfirewallRuleGroupRuleGroupReferenceSetsIpSetReferencesIpSetReference
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkfirewall_rule_group#reference_arn NetworkfirewallRuleGroup#reference_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkfirewall_rule_group#reference_arn NetworkfirewallRuleGroup#reference_arn}.</summary>
         [JsiiProperty(name: "referenceArn", typeJson: "{\"primitive\":\"string\"}")]
         string ReferenceArn
         {
@@ -21,7 +21,7 @@ namespace aws.NetworkfirewallRuleGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkfirewall_rule_group#reference_arn NetworkfirewallRuleGroup#reference_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkfirewall_rule_group#reference_arn NetworkfirewallRuleGroup#reference_arn}.</summary>
             [JsiiProperty(name: "referenceArn", typeJson: "{\"primitive\":\"string\"}")]
             public string ReferenceArn
             {

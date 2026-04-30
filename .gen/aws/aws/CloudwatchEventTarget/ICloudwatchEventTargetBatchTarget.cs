@@ -7,21 +7,21 @@ namespace aws.CloudwatchEventTarget
     [JsiiInterface(nativeType: typeof(ICloudwatchEventTargetBatchTarget), fullyQualifiedName: "aws.cloudwatchEventTarget.CloudwatchEventTargetBatchTarget")]
     public interface ICloudwatchEventTargetBatchTarget
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#job_definition CloudwatchEventTarget#job_definition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#job_definition CloudwatchEventTarget#job_definition}.</summary>
         [JsiiProperty(name: "jobDefinition", typeJson: "{\"primitive\":\"string\"}")]
         string JobDefinition
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#job_name CloudwatchEventTarget#job_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#job_name CloudwatchEventTarget#job_name}.</summary>
         [JsiiProperty(name: "jobName", typeJson: "{\"primitive\":\"string\"}")]
         string JobName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#array_size CloudwatchEventTarget#array_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#array_size CloudwatchEventTarget#array_size}.</summary>
         [JsiiProperty(name: "arraySize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ArraySize
@@ -32,7 +32,7 @@ namespace aws.CloudwatchEventTarget
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#job_attempts CloudwatchEventTarget#job_attempts}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#job_attempts CloudwatchEventTarget#job_attempts}.</summary>
         [JsiiProperty(name: "jobAttempts", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? JobAttempts
@@ -50,21 +50,21 @@ namespace aws.CloudwatchEventTarget
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#job_definition CloudwatchEventTarget#job_definition}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#job_definition CloudwatchEventTarget#job_definition}.</summary>
             [JsiiProperty(name: "jobDefinition", typeJson: "{\"primitive\":\"string\"}")]
             public string JobDefinition
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#job_name CloudwatchEventTarget#job_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#job_name CloudwatchEventTarget#job_name}.</summary>
             [JsiiProperty(name: "jobName", typeJson: "{\"primitive\":\"string\"}")]
             public string JobName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#array_size CloudwatchEventTarget#array_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#array_size CloudwatchEventTarget#array_size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "arraySize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ArraySize
@@ -72,7 +72,7 @@ namespace aws.CloudwatchEventTarget
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#job_attempts CloudwatchEventTarget#job_attempts}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#job_attempts CloudwatchEventTarget#job_attempts}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "jobAttempts", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? JobAttempts

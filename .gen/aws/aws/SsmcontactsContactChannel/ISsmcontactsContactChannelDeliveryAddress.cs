@@ -7,7 +7,7 @@ namespace aws.SsmcontactsContactChannel
     [JsiiInterface(nativeType: typeof(ISsmcontactsContactChannelDeliveryAddress), fullyQualifiedName: "aws.ssmcontactsContactChannel.SsmcontactsContactChannelDeliveryAddress")]
     public interface ISsmcontactsContactChannelDeliveryAddress
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmcontacts_contact_channel#simple_address SsmcontactsContactChannel#simple_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssmcontacts_contact_channel#simple_address SsmcontactsContactChannel#simple_address}.</summary>
         [JsiiProperty(name: "simpleAddress", typeJson: "{\"primitive\":\"string\"}")]
         string SimpleAddress
         {
@@ -21,7 +21,7 @@ namespace aws.SsmcontactsContactChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssmcontacts_contact_channel#simple_address SsmcontactsContactChannel#simple_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssmcontacts_contact_channel#simple_address SsmcontactsContactChannel#simple_address}.</summary>
             [JsiiProperty(name: "simpleAddress", typeJson: "{\"primitive\":\"string\"}")]
             public string SimpleAddress
             {

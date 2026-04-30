@@ -9,7 +9,7 @@ namespace aws.QuicksightDataSource
     {
         /// <summary>manifest_file_location block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#manifest_file_location QuicksightDataSource#manifest_file_location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#manifest_file_location QuicksightDataSource#manifest_file_location}
         /// </remarks>
         [JsiiProperty(name: "manifestFileLocation", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersS3ManifestFileLocation\"}")]
         aws.QuicksightDataSource.IQuicksightDataSourceParametersS3ManifestFileLocation ManifestFileLocation
@@ -17,7 +17,7 @@ namespace aws.QuicksightDataSource
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RoleArn
@@ -37,7 +37,7 @@ namespace aws.QuicksightDataSource
 
             /// <summary>manifest_file_location block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#manifest_file_location QuicksightDataSource#manifest_file_location}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#manifest_file_location QuicksightDataSource#manifest_file_location}
             /// </remarks>
             [JsiiProperty(name: "manifestFileLocation", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceParametersS3ManifestFileLocation\"}")]
             public aws.QuicksightDataSource.IQuicksightDataSourceParametersS3ManifestFileLocation ManifestFileLocation
@@ -45,7 +45,7 @@ namespace aws.QuicksightDataSource
                 get => GetInstanceProperty<aws.QuicksightDataSource.IQuicksightDataSourceParametersS3ManifestFileLocation>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RoleArn

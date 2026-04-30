@@ -7,7 +7,7 @@ namespace aws.LakeformationOptIn
     [JsiiByValue(fqn: "aws.lakeformationOptIn.LakeformationOptInResourceDataDataCellsFilter")]
     public class LakeformationOptInResourceDataDataCellsFilter : aws.LakeformationOptIn.ILakeformationOptInResourceDataDataCellsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_opt_in#database_name LakeformationOptIn#database_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_opt_in#database_name LakeformationOptIn#database_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DatabaseName
@@ -16,7 +16,7 @@ namespace aws.LakeformationOptIn
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_opt_in#name LakeformationOptIn#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_opt_in#name LakeformationOptIn#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -25,7 +25,7 @@ namespace aws.LakeformationOptIn
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_opt_in#table_catalog_id LakeformationOptIn#table_catalog_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_opt_in#table_catalog_id LakeformationOptIn#table_catalog_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tableCatalogId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TableCatalogId
@@ -34,7 +34,7 @@ namespace aws.LakeformationOptIn
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_opt_in#table_name LakeformationOptIn#table_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_opt_in#table_name LakeformationOptIn#table_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TableName

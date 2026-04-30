@@ -11,7 +11,7 @@ namespace aws.LightsailDistribution
     {
         /// <summary>The cache behavior of the distribution.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
         /// </remarks>
         [JsiiProperty(name: "behavior", typeJson: "{\"primitive\":\"string\"}")]
         public string Behavior

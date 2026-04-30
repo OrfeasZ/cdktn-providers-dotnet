@@ -7,14 +7,14 @@ namespace aws.LexIntent
     [JsiiInterface(nativeType: typeof(ILexIntentDialogCodeHook), fullyQualifiedName: "aws.lexIntent.LexIntentDialogCodeHook")]
     public interface ILexIntentDialogCodeHook
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#message_version LexIntent#message_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_intent#message_version LexIntent#message_version}.</summary>
         [JsiiProperty(name: "messageVersion", typeJson: "{\"primitive\":\"string\"}")]
         string MessageVersion
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#uri LexIntent#uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_intent#uri LexIntent#uri}.</summary>
         [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}")]
         string Uri
         {
@@ -28,14 +28,14 @@ namespace aws.LexIntent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#message_version LexIntent#message_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_intent#message_version LexIntent#message_version}.</summary>
             [JsiiProperty(name: "messageVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string MessageVersion
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#uri LexIntent#uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_intent#uri LexIntent#uri}.</summary>
             [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}")]
             public string Uri
             {

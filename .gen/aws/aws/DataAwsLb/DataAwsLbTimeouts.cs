@@ -7,7 +7,7 @@ namespace aws.DataAwsLb
     [JsiiByValue(fqn: "aws.dataAwsLb.DataAwsLbTimeouts")]
     public class DataAwsLbTimeouts : aws.DataAwsLb.IDataAwsLbTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lb#read DataAwsLb#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/lb#read DataAwsLb#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

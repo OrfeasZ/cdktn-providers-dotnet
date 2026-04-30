@@ -9,7 +9,7 @@ namespace aws.Sesv2ContactList
     [JsiiByValue(fqn: "aws.sesv2ContactList.Sesv2ContactListTopic")]
     public class Sesv2ContactListTopic : aws.Sesv2ContactList.ISesv2ContactListTopic
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_contact_list#default_subscription_status Sesv2ContactList#default_subscription_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_contact_list#default_subscription_status Sesv2ContactList#default_subscription_status}.</summary>
         [JsiiProperty(name: "defaultSubscriptionStatus", typeJson: "{\"primitive\":\"string\"}")]
         public string DefaultSubscriptionStatus
         {
@@ -17,7 +17,7 @@ namespace aws.Sesv2ContactList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_contact_list#display_name Sesv2ContactList#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_contact_list#display_name Sesv2ContactList#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace aws.Sesv2ContactList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_contact_list#topic_name Sesv2ContactList#topic_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_contact_list#topic_name Sesv2ContactList#topic_name}.</summary>
         [JsiiProperty(name: "topicName", typeJson: "{\"primitive\":\"string\"}")]
         public string TopicName
         {
@@ -33,7 +33,7 @@ namespace aws.Sesv2ContactList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_contact_list#description Sesv2ContactList#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_contact_list#description Sesv2ContactList#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description

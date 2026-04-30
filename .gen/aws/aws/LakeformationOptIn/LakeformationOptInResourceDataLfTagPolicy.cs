@@ -9,7 +9,7 @@ namespace aws.LakeformationOptIn
     [JsiiByValue(fqn: "aws.lakeformationOptIn.LakeformationOptInResourceDataLfTagPolicy")]
     public class LakeformationOptInResourceDataLfTagPolicy : aws.LakeformationOptIn.ILakeformationOptInResourceDataLfTagPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_opt_in#resource_type LakeformationOptIn#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_opt_in#resource_type LakeformationOptIn#resource_type}.</summary>
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceType
         {
@@ -17,7 +17,7 @@ namespace aws.LakeformationOptIn
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_opt_in#catalog_id LakeformationOptIn#catalog_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_opt_in#catalog_id LakeformationOptIn#catalog_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "catalogId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CatalogId
@@ -26,7 +26,7 @@ namespace aws.LakeformationOptIn
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_opt_in#expression LakeformationOptIn#expression}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_opt_in#expression LakeformationOptIn#expression}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expression", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Expression
@@ -35,7 +35,7 @@ namespace aws.LakeformationOptIn
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_opt_in#expression_name LakeformationOptIn#expression_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_opt_in#expression_name LakeformationOptIn#expression_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expressionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExpressionName

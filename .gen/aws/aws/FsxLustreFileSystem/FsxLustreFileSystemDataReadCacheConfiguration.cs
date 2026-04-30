@@ -9,7 +9,7 @@ namespace aws.FsxLustreFileSystem
     [JsiiByValue(fqn: "aws.fsxLustreFileSystem.FsxLustreFileSystemDataReadCacheConfiguration")]
     public class FsxLustreFileSystemDataReadCacheConfiguration : aws.FsxLustreFileSystem.IFsxLustreFileSystemDataReadCacheConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_lustre_file_system#sizing_mode FsxLustreFileSystem#sizing_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_lustre_file_system#sizing_mode FsxLustreFileSystem#sizing_mode}.</summary>
         [JsiiProperty(name: "sizingMode", typeJson: "{\"primitive\":\"string\"}")]
         public string SizingMode
         {
@@ -17,7 +17,7 @@ namespace aws.FsxLustreFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_lustre_file_system#size FsxLustreFileSystem#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_lustre_file_system#size FsxLustreFileSystem#size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Size

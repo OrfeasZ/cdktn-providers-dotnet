@@ -7,7 +7,7 @@ namespace aws.DataAwsEc2TransitGateway
     [JsiiByValue(fqn: "aws.dataAwsEc2TransitGateway.DataAwsEc2TransitGatewayTimeouts")]
     public class DataAwsEc2TransitGatewayTimeouts : aws.DataAwsEc2TransitGateway.IDataAwsEc2TransitGatewayTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_transit_gateway#read DataAwsEc2TransitGateway#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ec2_transit_gateway#read DataAwsEc2TransitGateway#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

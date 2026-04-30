@@ -7,7 +7,7 @@ namespace aws.SagemakerHub
     [JsiiInterface(nativeType: typeof(ISagemakerHubS3StorageConfig), fullyQualifiedName: "aws.sagemakerHub.SagemakerHubS3StorageConfig")]
     public interface ISagemakerHubS3StorageConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_hub#s3_output_path SagemakerHub#s3_output_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_hub#s3_output_path SagemakerHub#s3_output_path}.</summary>
         [JsiiProperty(name: "s3OutputPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? S3OutputPath
@@ -25,7 +25,7 @@ namespace aws.SagemakerHub
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_hub#s3_output_path SagemakerHub#s3_output_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_hub#s3_output_path SagemakerHub#s3_output_path}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "s3OutputPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? S3OutputPath

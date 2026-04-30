@@ -7,7 +7,7 @@ namespace aws.RdsCluster
     [JsiiByValue(fqn: "aws.rdsCluster.RdsClusterRestoreToPointInTime")]
     public class RdsClusterRestoreToPointInTime : aws.RdsCluster.IRdsClusterRestoreToPointInTime
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster#restore_to_time RdsCluster#restore_to_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster#restore_to_time RdsCluster#restore_to_time}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "restoreToTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RestoreToTime
@@ -16,7 +16,7 @@ namespace aws.RdsCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster#restore_type RdsCluster#restore_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster#restore_type RdsCluster#restore_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "restoreType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RestoreType
@@ -25,7 +25,7 @@ namespace aws.RdsCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster#source_cluster_identifier RdsCluster#source_cluster_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster#source_cluster_identifier RdsCluster#source_cluster_identifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceClusterIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceClusterIdentifier
@@ -34,7 +34,7 @@ namespace aws.RdsCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster#source_cluster_resource_id RdsCluster#source_cluster_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster#source_cluster_resource_id RdsCluster#source_cluster_resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceClusterResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceClusterResourceId
@@ -45,7 +45,7 @@ namespace aws.RdsCluster
 
         private object? _useLatestRestorableTime;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster#use_latest_restorable_time RdsCluster#use_latest_restorable_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster#use_latest_restorable_time RdsCluster#use_latest_restorable_time}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "useLatestRestorableTime", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? UseLatestRestorableTime

@@ -7,14 +7,14 @@ namespace aws.DynamodbTable
     [JsiiInterface(nativeType: typeof(IDynamodbTableGlobalSecondaryIndexKeySchema), fullyQualifiedName: "aws.dynamodbTable.DynamodbTableGlobalSecondaryIndexKeySchema")]
     public interface IDynamodbTableGlobalSecondaryIndexKeySchema
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}.</summary>
         [JsiiProperty(name: "attributeName", typeJson: "{\"primitive\":\"string\"}")]
         string AttributeName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#key_type DynamodbTable#key_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_table#key_type DynamodbTable#key_type}.</summary>
         [JsiiProperty(name: "keyType", typeJson: "{\"primitive\":\"string\"}")]
         string KeyType
         {
@@ -28,14 +28,14 @@ namespace aws.DynamodbTable
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}.</summary>
             [JsiiProperty(name: "attributeName", typeJson: "{\"primitive\":\"string\"}")]
             public string AttributeName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#key_type DynamodbTable#key_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_table#key_type DynamodbTable#key_type}.</summary>
             [JsiiProperty(name: "keyType", typeJson: "{\"primitive\":\"string\"}")]
             public string KeyType
             {

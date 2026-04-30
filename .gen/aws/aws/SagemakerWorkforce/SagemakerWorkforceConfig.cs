@@ -9,7 +9,7 @@ namespace aws.SagemakerWorkforce
     [JsiiByValue(fqn: "aws.sagemakerWorkforce.SagemakerWorkforceConfig")]
     public class SagemakerWorkforceConfig : aws.SagemakerWorkforce.ISagemakerWorkforceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workforce#workforce_name SagemakerWorkforce#workforce_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workforce#workforce_name SagemakerWorkforce#workforce_name}.</summary>
         [JsiiProperty(name: "workforceName", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkforceName
         {
@@ -19,7 +19,7 @@ namespace aws.SagemakerWorkforce
 
         /// <summary>cognito_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workforce#cognito_config SagemakerWorkforce#cognito_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workforce#cognito_config SagemakerWorkforce#cognito_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cognitoConfig", typeJson: "{\"fqn\":\"aws.sagemakerWorkforce.SagemakerWorkforceCognitoConfig\"}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace aws.SagemakerWorkforce
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workforce#id SagemakerWorkforce#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workforce#id SagemakerWorkforce#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace aws.SagemakerWorkforce
 
         /// <summary>oidc_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workforce#oidc_config SagemakerWorkforce#oidc_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workforce#oidc_config SagemakerWorkforce#oidc_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "oidcConfig", typeJson: "{\"fqn\":\"aws.sagemakerWorkforce.SagemakerWorkforceOidcConfig\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace aws.SagemakerWorkforce
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workforce#region SagemakerWorkforce#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workforce#region SagemakerWorkforce#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace aws.SagemakerWorkforce
 
         /// <summary>source_ip_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workforce#source_ip_config SagemakerWorkforce#source_ip_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workforce#source_ip_config SagemakerWorkforce#source_ip_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceIpConfig", typeJson: "{\"fqn\":\"aws.sagemakerWorkforce.SagemakerWorkforceSourceIpConfig\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace aws.SagemakerWorkforce
 
         /// <summary>workforce_vpc_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workforce#workforce_vpc_config SagemakerWorkforce#workforce_vpc_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workforce#workforce_vpc_config SagemakerWorkforce#workforce_vpc_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "workforceVpcConfig", typeJson: "{\"fqn\":\"aws.sagemakerWorkforce.SagemakerWorkforceWorkforceVpcConfig\"}", isOptional: true)]

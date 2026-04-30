@@ -7,7 +7,7 @@ namespace aws.DataAwsNetworkmanagerCoreNetwork
     [JsiiInterface(nativeType: typeof(IDataAwsNetworkmanagerCoreNetworkConfig), fullyQualifiedName: "aws.dataAwsNetworkmanagerCoreNetwork.DataAwsNetworkmanagerCoreNetworkConfig")]
     public interface IDataAwsNetworkmanagerCoreNetworkConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/networkmanager_core_network#core_network_id DataAwsNetworkmanagerCoreNetwork#core_network_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/networkmanager_core_network#core_network_id DataAwsNetworkmanagerCoreNetwork#core_network_id}.</summary>
         [JsiiProperty(name: "coreNetworkId", typeJson: "{\"primitive\":\"string\"}")]
         string CoreNetworkId
         {
@@ -21,7 +21,7 @@ namespace aws.DataAwsNetworkmanagerCoreNetwork
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/networkmanager_core_network#core_network_id DataAwsNetworkmanagerCoreNetwork#core_network_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/networkmanager_core_network#core_network_id DataAwsNetworkmanagerCoreNetwork#core_network_id}.</summary>
             [JsiiProperty(name: "coreNetworkId", typeJson: "{\"primitive\":\"string\"}")]
             public string CoreNetworkId
             {

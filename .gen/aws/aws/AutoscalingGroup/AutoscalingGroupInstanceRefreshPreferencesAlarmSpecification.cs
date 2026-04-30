@@ -7,7 +7,7 @@ namespace aws.AutoscalingGroup
     [JsiiByValue(fqn: "aws.autoscalingGroup.AutoscalingGroupInstanceRefreshPreferencesAlarmSpecification")]
     public class AutoscalingGroupInstanceRefreshPreferencesAlarmSpecification : aws.AutoscalingGroup.IAutoscalingGroupInstanceRefreshPreferencesAlarmSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#alarms AutoscalingGroup#alarms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_group#alarms AutoscalingGroup#alarms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "alarms", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Alarms

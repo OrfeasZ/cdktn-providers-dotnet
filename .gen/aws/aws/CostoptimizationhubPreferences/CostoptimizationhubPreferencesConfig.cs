@@ -7,7 +7,7 @@ namespace aws.CostoptimizationhubPreferences
     [JsiiByValue(fqn: "aws.costoptimizationhubPreferences.CostoptimizationhubPreferencesConfig")]
     public class CostoptimizationhubPreferencesConfig : aws.CostoptimizationhubPreferences.ICostoptimizationhubPreferencesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/costoptimizationhub_preferences#member_account_discount_visibility CostoptimizationhubPreferences#member_account_discount_visibility}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/costoptimizationhub_preferences#member_account_discount_visibility CostoptimizationhubPreferences#member_account_discount_visibility}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "memberAccountDiscountVisibility", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MemberAccountDiscountVisibility
@@ -16,7 +16,7 @@ namespace aws.CostoptimizationhubPreferences
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/costoptimizationhub_preferences#savings_estimation_mode CostoptimizationhubPreferences#savings_estimation_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/costoptimizationhub_preferences#savings_estimation_mode CostoptimizationhubPreferences#savings_estimation_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "savingsEstimationMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SavingsEstimationMode

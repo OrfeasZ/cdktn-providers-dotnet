@@ -9,7 +9,7 @@ namespace aws.QuicksightDashboard
     [JsiiByValue(fqn: "aws.quicksightDashboard.QuicksightDashboardConfig")]
     public class QuicksightDashboardConfig : aws.QuicksightDashboard.IQuicksightDashboardConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#dashboard_id QuicksightDashboard#dashboard_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#dashboard_id QuicksightDashboard#dashboard_id}.</summary>
         [JsiiProperty(name: "dashboardId", typeJson: "{\"primitive\":\"string\"}")]
         public string DashboardId
         {
@@ -17,7 +17,7 @@ namespace aws.QuicksightDashboard
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace aws.QuicksightDashboard
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#version_description QuicksightDashboard#version_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#version_description QuicksightDashboard#version_description}.</summary>
         [JsiiProperty(name: "versionDescription", typeJson: "{\"primitive\":\"string\"}")]
         public string VersionDescription
         {
@@ -33,7 +33,7 @@ namespace aws.QuicksightDashboard
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#aws_account_id QuicksightDashboard#aws_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#aws_account_id QuicksightDashboard#aws_account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "awsAccountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AwsAccountId
@@ -44,7 +44,7 @@ namespace aws.QuicksightDashboard
 
         /// <summary>dashboard_publish_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#dashboard_publish_options QuicksightDashboard#dashboard_publish_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#dashboard_publish_options QuicksightDashboard#dashboard_publish_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dashboardPublishOptions", typeJson: "{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptions\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace aws.QuicksightDashboard
 
         /// <summary>definition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#definition QuicksightDashboard#definition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#definition QuicksightDashboard#definition}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "definition", typeJson: "{\"primitive\":\"any\"}", isOptional: true)]
@@ -66,7 +66,7 @@ namespace aws.QuicksightDashboard
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#id QuicksightDashboard#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#id QuicksightDashboard#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -81,7 +81,7 @@ namespace aws.QuicksightDashboard
 
         /// <summary>parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#parameters QuicksightDashboard#parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#parameters QuicksightDashboard#parameters}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parameters", typeJson: "{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardParameters\"}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace aws.QuicksightDashboard
 
         /// <summary>permissions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#permissions QuicksightDashboard#permissions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#permissions QuicksightDashboard#permissions}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "permissions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardPermissions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -127,7 +127,7 @@ namespace aws.QuicksightDashboard
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#region QuicksightDashboard#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#region QuicksightDashboard#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -139,7 +139,7 @@ namespace aws.QuicksightDashboard
 
         /// <summary>source_entity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#source_entity QuicksightDashboard#source_entity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#source_entity QuicksightDashboard#source_entity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceEntity", typeJson: "{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardSourceEntity\"}", isOptional: true)]
@@ -149,7 +149,7 @@ namespace aws.QuicksightDashboard
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#tags QuicksightDashboard#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#tags QuicksightDashboard#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -158,7 +158,7 @@ namespace aws.QuicksightDashboard
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#tags_all QuicksightDashboard#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#tags_all QuicksightDashboard#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -167,7 +167,7 @@ namespace aws.QuicksightDashboard
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#theme_arn QuicksightDashboard#theme_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#theme_arn QuicksightDashboard#theme_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "themeArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ThemeArn
@@ -178,7 +178,7 @@ namespace aws.QuicksightDashboard
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#timeouts QuicksightDashboard#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#timeouts QuicksightDashboard#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardTimeouts\"}", isOptional: true)]

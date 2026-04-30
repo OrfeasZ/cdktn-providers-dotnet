@@ -9,7 +9,7 @@ namespace aws.M2Environment
     [JsiiByValue(fqn: "aws.m2Environment.M2EnvironmentStorageConfigurationFsx")]
     public class M2EnvironmentStorageConfigurationFsx : aws.M2Environment.IM2EnvironmentStorageConfigurationFsx
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/m2_environment#file_system_id M2Environment#file_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/m2_environment#file_system_id M2Environment#file_system_id}.</summary>
         [JsiiProperty(name: "fileSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public string FileSystemId
         {
@@ -17,7 +17,7 @@ namespace aws.M2Environment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/m2_environment#mount_point M2Environment#mount_point}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/m2_environment#mount_point M2Environment#mount_point}.</summary>
         [JsiiProperty(name: "mountPoint", typeJson: "{\"primitive\":\"string\"}")]
         public string MountPoint
         {

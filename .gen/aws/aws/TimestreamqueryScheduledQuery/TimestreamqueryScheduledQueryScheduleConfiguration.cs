@@ -9,7 +9,7 @@ namespace aws.TimestreamqueryScheduledQuery
     [JsiiByValue(fqn: "aws.timestreamqueryScheduledQuery.TimestreamqueryScheduledQueryScheduleConfiguration")]
     public class TimestreamqueryScheduledQueryScheduleConfiguration : aws.TimestreamqueryScheduledQuery.ITimestreamqueryScheduledQueryScheduleConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/timestreamquery_scheduled_query#schedule_expression TimestreamqueryScheduledQuery#schedule_expression}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/timestreamquery_scheduled_query#schedule_expression TimestreamqueryScheduledQuery#schedule_expression}.</summary>
         [JsiiProperty(name: "scheduleExpression", typeJson: "{\"primitive\":\"string\"}")]
         public string ScheduleExpression
         {

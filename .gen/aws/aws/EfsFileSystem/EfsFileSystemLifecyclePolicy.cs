@@ -7,7 +7,7 @@ namespace aws.EfsFileSystem
     [JsiiByValue(fqn: "aws.efsFileSystem.EfsFileSystemLifecyclePolicy")]
     public class EfsFileSystemLifecyclePolicy : aws.EfsFileSystem.IEfsFileSystemLifecyclePolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#transition_to_archive EfsFileSystem#transition_to_archive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_file_system#transition_to_archive EfsFileSystem#transition_to_archive}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "transitionToArchive", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TransitionToArchive
@@ -16,7 +16,7 @@ namespace aws.EfsFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#transition_to_ia EfsFileSystem#transition_to_ia}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_file_system#transition_to_ia EfsFileSystem#transition_to_ia}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "transitionToIa", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TransitionToIa
@@ -25,7 +25,7 @@ namespace aws.EfsFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system#transition_to_primary_storage_class EfsFileSystem#transition_to_primary_storage_class}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_file_system#transition_to_primary_storage_class EfsFileSystem#transition_to_primary_storage_class}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "transitionToPrimaryStorageClass", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TransitionToPrimaryStorageClass

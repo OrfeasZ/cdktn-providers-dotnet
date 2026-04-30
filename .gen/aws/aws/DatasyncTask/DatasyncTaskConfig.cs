@@ -9,7 +9,7 @@ namespace aws.DatasyncTask
     [JsiiByValue(fqn: "aws.datasyncTask.DatasyncTaskConfig")]
     public class DatasyncTaskConfig : aws.DatasyncTask.IDatasyncTaskConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#destination_location_arn DatasyncTask#destination_location_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#destination_location_arn DatasyncTask#destination_location_arn}.</summary>
         [JsiiProperty(name: "destinationLocationArn", typeJson: "{\"primitive\":\"string\"}")]
         public string DestinationLocationArn
         {
@@ -17,7 +17,7 @@ namespace aws.DatasyncTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#source_location_arn DatasyncTask#source_location_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#source_location_arn DatasyncTask#source_location_arn}.</summary>
         [JsiiProperty(name: "sourceLocationArn", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceLocationArn
         {
@@ -25,7 +25,7 @@ namespace aws.DatasyncTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#cloudwatch_log_group_arn DatasyncTask#cloudwatch_log_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#cloudwatch_log_group_arn DatasyncTask#cloudwatch_log_group_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cloudwatchLogGroupArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CloudwatchLogGroupArn
@@ -36,7 +36,7 @@ namespace aws.DatasyncTask
 
         /// <summary>excludes block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#excludes DatasyncTask#excludes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#excludes DatasyncTask#excludes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "excludes", typeJson: "{\"fqn\":\"aws.datasyncTask.DatasyncTaskExcludes\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace aws.DatasyncTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#id DatasyncTask#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#id DatasyncTask#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,7 +61,7 @@ namespace aws.DatasyncTask
 
         /// <summary>includes block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#includes DatasyncTask#includes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#includes DatasyncTask#includes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "includes", typeJson: "{\"fqn\":\"aws.datasyncTask.DatasyncTaskIncludes\"}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace aws.DatasyncTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#name DatasyncTask#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#name DatasyncTask#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -82,7 +82,7 @@ namespace aws.DatasyncTask
 
         /// <summary>options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#options DatasyncTask#options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#options DatasyncTask#options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "options", typeJson: "{\"fqn\":\"aws.datasyncTask.DatasyncTaskOptions\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace aws.DatasyncTask
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#region DatasyncTask#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#region DatasyncTask#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -106,7 +106,7 @@ namespace aws.DatasyncTask
 
         /// <summary>schedule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#schedule DatasyncTask#schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#schedule DatasyncTask#schedule}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "schedule", typeJson: "{\"fqn\":\"aws.datasyncTask.DatasyncTaskSchedule\"}", isOptional: true)]
@@ -116,7 +116,7 @@ namespace aws.DatasyncTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#tags DatasyncTask#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#tags DatasyncTask#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -125,7 +125,7 @@ namespace aws.DatasyncTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#tags_all DatasyncTask#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#tags_all DatasyncTask#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -134,7 +134,7 @@ namespace aws.DatasyncTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#task_mode DatasyncTask#task_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#task_mode DatasyncTask#task_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "taskMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TaskMode
@@ -145,7 +145,7 @@ namespace aws.DatasyncTask
 
         /// <summary>task_report_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#task_report_config DatasyncTask#task_report_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#task_report_config DatasyncTask#task_report_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taskReportConfig", typeJson: "{\"fqn\":\"aws.datasyncTask.DatasyncTaskTaskReportConfig\"}", isOptional: true)]
@@ -157,7 +157,7 @@ namespace aws.DatasyncTask
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#timeouts DatasyncTask#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#timeouts DatasyncTask#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.datasyncTask.DatasyncTaskTimeouts\"}", isOptional: true)]

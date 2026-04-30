@@ -9,7 +9,7 @@ namespace aws.NotificationscontactsEmailContact
     [JsiiByValue(fqn: "aws.notificationscontactsEmailContact.NotificationscontactsEmailContactConfig")]
     public class NotificationscontactsEmailContactConfig : aws.NotificationscontactsEmailContact.INotificationscontactsEmailContactConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notificationscontacts_email_contact#email_address NotificationscontactsEmailContact#email_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/notificationscontacts_email_contact#email_address NotificationscontactsEmailContact#email_address}.</summary>
         [JsiiProperty(name: "emailAddress", typeJson: "{\"primitive\":\"string\"}")]
         public string EmailAddress
         {
@@ -17,7 +17,7 @@ namespace aws.NotificationscontactsEmailContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notificationscontacts_email_contact#name NotificationscontactsEmailContact#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/notificationscontacts_email_contact#name NotificationscontactsEmailContact#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace aws.NotificationscontactsEmailContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notificationscontacts_email_contact#tags NotificationscontactsEmailContact#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/notificationscontacts_email_contact#tags NotificationscontactsEmailContact#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags

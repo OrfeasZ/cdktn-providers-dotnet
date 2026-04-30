@@ -7,7 +7,7 @@ namespace aws.DataAwsAlbTargetGroup
     [JsiiByValue(fqn: "aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroupTimeouts")]
     public class DataAwsAlbTargetGroupTimeouts : aws.DataAwsAlbTargetGroup.IDataAwsAlbTargetGroupTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/alb_target_group#read DataAwsAlbTargetGroup#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/alb_target_group#read DataAwsAlbTargetGroup#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

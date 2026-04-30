@@ -7,14 +7,14 @@ namespace aws.AuditmanagerAssessment
     [JsiiInterface(nativeType: typeof(IAuditmanagerAssessmentAssessmentReportsDestination), fullyQualifiedName: "aws.auditmanagerAssessment.AuditmanagerAssessmentAssessmentReportsDestination")]
     public interface IAuditmanagerAssessmentAssessmentReportsDestination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_assessment#destination AuditmanagerAssessment#destination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_assessment#destination AuditmanagerAssessment#destination}.</summary>
         [JsiiProperty(name: "destination", typeJson: "{\"primitive\":\"string\"}")]
         string Destination
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_assessment#destination_type AuditmanagerAssessment#destination_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_assessment#destination_type AuditmanagerAssessment#destination_type}.</summary>
         [JsiiProperty(name: "destinationType", typeJson: "{\"primitive\":\"string\"}")]
         string DestinationType
         {
@@ -28,14 +28,14 @@ namespace aws.AuditmanagerAssessment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_assessment#destination AuditmanagerAssessment#destination}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_assessment#destination AuditmanagerAssessment#destination}.</summary>
             [JsiiProperty(name: "destination", typeJson: "{\"primitive\":\"string\"}")]
             public string Destination
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_assessment#destination_type AuditmanagerAssessment#destination_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_assessment#destination_type AuditmanagerAssessment#destination_type}.</summary>
             [JsiiProperty(name: "destinationType", typeJson: "{\"primitive\":\"string\"}")]
             public string DestinationType
             {

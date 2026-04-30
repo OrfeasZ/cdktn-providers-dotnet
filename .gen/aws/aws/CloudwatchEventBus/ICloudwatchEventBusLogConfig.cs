@@ -7,7 +7,7 @@ namespace aws.CloudwatchEventBus
     [JsiiInterface(nativeType: typeof(ICloudwatchEventBusLogConfig), fullyQualifiedName: "aws.cloudwatchEventBus.CloudwatchEventBusLogConfig")]
     public interface ICloudwatchEventBusLogConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_bus#include_detail CloudwatchEventBus#include_detail}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_bus#include_detail CloudwatchEventBus#include_detail}.</summary>
         [JsiiProperty(name: "includeDetail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IncludeDetail
@@ -18,7 +18,7 @@ namespace aws.CloudwatchEventBus
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_bus#level CloudwatchEventBus#level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_bus#level CloudwatchEventBus#level}.</summary>
         [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Level
@@ -36,7 +36,7 @@ namespace aws.CloudwatchEventBus
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_bus#include_detail CloudwatchEventBus#include_detail}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_bus#include_detail CloudwatchEventBus#include_detail}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "includeDetail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IncludeDetail
@@ -44,7 +44,7 @@ namespace aws.CloudwatchEventBus
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_bus#level CloudwatchEventBus#level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_bus#level CloudwatchEventBus#level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Level

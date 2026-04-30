@@ -9,7 +9,7 @@ namespace aws.LambdaRuntimeManagementConfig
     [JsiiByValue(fqn: "aws.lambdaRuntimeManagementConfig.LambdaRuntimeManagementConfigConfig")]
     public class LambdaRuntimeManagementConfigConfig : aws.LambdaRuntimeManagementConfig.ILambdaRuntimeManagementConfigConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_runtime_management_config#function_name LambdaRuntimeManagementConfig#function_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_runtime_management_config#function_name LambdaRuntimeManagementConfig#function_name}.</summary>
         [JsiiProperty(name: "functionName", typeJson: "{\"primitive\":\"string\"}")]
         public string FunctionName
         {
@@ -17,7 +17,7 @@ namespace aws.LambdaRuntimeManagementConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_runtime_management_config#qualifier LambdaRuntimeManagementConfig#qualifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_runtime_management_config#qualifier LambdaRuntimeManagementConfig#qualifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "qualifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Qualifier
@@ -28,7 +28,7 @@ namespace aws.LambdaRuntimeManagementConfig
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_runtime_management_config#region LambdaRuntimeManagementConfig#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_runtime_management_config#region LambdaRuntimeManagementConfig#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace aws.LambdaRuntimeManagementConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_runtime_management_config#runtime_version_arn LambdaRuntimeManagementConfig#runtime_version_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_runtime_management_config#runtime_version_arn LambdaRuntimeManagementConfig#runtime_version_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "runtimeVersionArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RuntimeVersionArn
@@ -47,7 +47,7 @@ namespace aws.LambdaRuntimeManagementConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_runtime_management_config#update_runtime_on LambdaRuntimeManagementConfig#update_runtime_on}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_runtime_management_config#update_runtime_on LambdaRuntimeManagementConfig#update_runtime_on}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "updateRuntimeOn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UpdateRuntimeOn

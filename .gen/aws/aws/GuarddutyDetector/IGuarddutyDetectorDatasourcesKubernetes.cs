@@ -9,7 +9,7 @@ namespace aws.GuarddutyDetector
     {
         /// <summary>audit_logs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_detector#audit_logs GuarddutyDetector#audit_logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_detector#audit_logs GuarddutyDetector#audit_logs}
         /// </remarks>
         [JsiiProperty(name: "auditLogs", typeJson: "{\"fqn\":\"aws.guarddutyDetector.GuarddutyDetectorDatasourcesKubernetesAuditLogs\"}")]
         aws.GuarddutyDetector.IGuarddutyDetectorDatasourcesKubernetesAuditLogs AuditLogs
@@ -26,7 +26,7 @@ namespace aws.GuarddutyDetector
 
             /// <summary>audit_logs block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_detector#audit_logs GuarddutyDetector#audit_logs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_detector#audit_logs GuarddutyDetector#audit_logs}
             /// </remarks>
             [JsiiProperty(name: "auditLogs", typeJson: "{\"fqn\":\"aws.guarddutyDetector.GuarddutyDetectorDatasourcesKubernetesAuditLogs\"}")]
             public aws.GuarddutyDetector.IGuarddutyDetectorDatasourcesKubernetesAuditLogs AuditLogs

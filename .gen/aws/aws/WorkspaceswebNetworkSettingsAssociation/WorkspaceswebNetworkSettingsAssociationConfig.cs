@@ -9,7 +9,7 @@ namespace aws.WorkspaceswebNetworkSettingsAssociation
     [JsiiByValue(fqn: "aws.workspaceswebNetworkSettingsAssociation.WorkspaceswebNetworkSettingsAssociationConfig")]
     public class WorkspaceswebNetworkSettingsAssociationConfig : aws.WorkspaceswebNetworkSettingsAssociation.IWorkspaceswebNetworkSettingsAssociationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspacesweb_network_settings_association#network_settings_arn WorkspaceswebNetworkSettingsAssociation#network_settings_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/workspacesweb_network_settings_association#network_settings_arn WorkspaceswebNetworkSettingsAssociation#network_settings_arn}.</summary>
         [JsiiProperty(name: "networkSettingsArn", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkSettingsArn
         {
@@ -17,7 +17,7 @@ namespace aws.WorkspaceswebNetworkSettingsAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspacesweb_network_settings_association#portal_arn WorkspaceswebNetworkSettingsAssociation#portal_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/workspacesweb_network_settings_association#portal_arn WorkspaceswebNetworkSettingsAssociation#portal_arn}.</summary>
         [JsiiProperty(name: "portalArn", typeJson: "{\"primitive\":\"string\"}")]
         public string PortalArn
         {
@@ -27,7 +27,7 @@ namespace aws.WorkspaceswebNetworkSettingsAssociation
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspacesweb_network_settings_association#region WorkspaceswebNetworkSettingsAssociation#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/workspacesweb_network_settings_association#region WorkspaceswebNetworkSettingsAssociation#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

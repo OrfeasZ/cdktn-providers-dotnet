@@ -7,7 +7,7 @@ namespace aws.SpotInstanceRequest
     [JsiiByValue(fqn: "aws.spotInstanceRequest.SpotInstanceRequestCapacityReservationSpecification")]
     public class SpotInstanceRequestCapacityReservationSpecification : aws.SpotInstanceRequest.ISpotInstanceRequestCapacityReservationSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#capacity_reservation_preference SpotInstanceRequest#capacity_reservation_preference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#capacity_reservation_preference SpotInstanceRequest#capacity_reservation_preference}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "capacityReservationPreference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CapacityReservationPreference
@@ -18,7 +18,7 @@ namespace aws.SpotInstanceRequest
 
         /// <summary>capacity_reservation_target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#capacity_reservation_target SpotInstanceRequest#capacity_reservation_target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#capacity_reservation_target SpotInstanceRequest#capacity_reservation_target}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "capacityReservationTarget", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestCapacityReservationSpecificationCapacityReservationTarget\"}", isOptional: true)]

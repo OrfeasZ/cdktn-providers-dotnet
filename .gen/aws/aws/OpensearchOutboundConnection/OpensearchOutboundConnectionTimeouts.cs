@@ -7,7 +7,7 @@ namespace aws.OpensearchOutboundConnection
     [JsiiByValue(fqn: "aws.opensearchOutboundConnection.OpensearchOutboundConnectionTimeouts")]
     public class OpensearchOutboundConnectionTimeouts : aws.OpensearchOutboundConnection.IOpensearchOutboundConnectionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_outbound_connection#create OpensearchOutboundConnection#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_outbound_connection#create OpensearchOutboundConnection#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.OpensearchOutboundConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_outbound_connection#delete OpensearchOutboundConnection#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_outbound_connection#delete OpensearchOutboundConnection#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

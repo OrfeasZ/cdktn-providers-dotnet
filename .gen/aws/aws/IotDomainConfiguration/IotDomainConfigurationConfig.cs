@@ -9,7 +9,7 @@ namespace aws.IotDomainConfiguration
     [JsiiByValue(fqn: "aws.iotDomainConfiguration.IotDomainConfigurationConfig")]
     public class IotDomainConfigurationConfig : aws.IotDomainConfiguration.IIotDomainConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_domain_configuration#name IotDomainConfiguration#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_domain_configuration#name IotDomainConfiguration#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.IotDomainConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_domain_configuration#application_protocol IotDomainConfiguration#application_protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_domain_configuration#application_protocol IotDomainConfiguration#application_protocol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "applicationProtocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApplicationProtocol
@@ -26,7 +26,7 @@ namespace aws.IotDomainConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_domain_configuration#authentication_type IotDomainConfiguration#authentication_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_domain_configuration#authentication_type IotDomainConfiguration#authentication_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authenticationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AuthenticationType
@@ -37,7 +37,7 @@ namespace aws.IotDomainConfiguration
 
         /// <summary>authorizer_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_domain_configuration#authorizer_config IotDomainConfiguration#authorizer_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_domain_configuration#authorizer_config IotDomainConfiguration#authorizer_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authorizerConfig", typeJson: "{\"fqn\":\"aws.iotDomainConfiguration.IotDomainConfigurationAuthorizerConfig\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace aws.IotDomainConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_domain_configuration#domain_name IotDomainConfiguration#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_domain_configuration#domain_name IotDomainConfiguration#domain_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DomainName
@@ -56,7 +56,7 @@ namespace aws.IotDomainConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_domain_configuration#id IotDomainConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_domain_configuration#id IotDomainConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,7 +71,7 @@ namespace aws.IotDomainConfiguration
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_domain_configuration#region IotDomainConfiguration#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_domain_configuration#region IotDomainConfiguration#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace aws.IotDomainConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_domain_configuration#server_certificate_arns IotDomainConfiguration#server_certificate_arns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_domain_configuration#server_certificate_arns IotDomainConfiguration#server_certificate_arns}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serverCertificateArns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ServerCertificateArns
@@ -90,7 +90,7 @@ namespace aws.IotDomainConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_domain_configuration#service_type IotDomainConfiguration#service_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_domain_configuration#service_type IotDomainConfiguration#service_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serviceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServiceType
@@ -99,7 +99,7 @@ namespace aws.IotDomainConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_domain_configuration#status IotDomainConfiguration#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_domain_configuration#status IotDomainConfiguration#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status
@@ -108,7 +108,7 @@ namespace aws.IotDomainConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_domain_configuration#tags IotDomainConfiguration#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_domain_configuration#tags IotDomainConfiguration#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -117,7 +117,7 @@ namespace aws.IotDomainConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_domain_configuration#tags_all IotDomainConfiguration#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_domain_configuration#tags_all IotDomainConfiguration#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -128,7 +128,7 @@ namespace aws.IotDomainConfiguration
 
         /// <summary>tls_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_domain_configuration#tls_config IotDomainConfiguration#tls_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_domain_configuration#tls_config IotDomainConfiguration#tls_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tlsConfig", typeJson: "{\"fqn\":\"aws.iotDomainConfiguration.IotDomainConfigurationTlsConfig\"}", isOptional: true)]
@@ -138,7 +138,7 @@ namespace aws.IotDomainConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_domain_configuration#validation_certificate_arn IotDomainConfiguration#validation_certificate_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_domain_configuration#validation_certificate_arn IotDomainConfiguration#validation_certificate_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "validationCertificateArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ValidationCertificateArn

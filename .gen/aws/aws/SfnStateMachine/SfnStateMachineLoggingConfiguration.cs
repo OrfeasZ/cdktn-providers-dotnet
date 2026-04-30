@@ -9,7 +9,7 @@ namespace aws.SfnStateMachine
     {
         private object? _includeExecutionData;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#include_execution_data SfnStateMachine#include_execution_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#include_execution_data SfnStateMachine#include_execution_data}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeExecutionData", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeExecutionData
@@ -38,7 +38,7 @@ namespace aws.SfnStateMachine
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#level SfnStateMachine#level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#level SfnStateMachine#level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Level
@@ -47,7 +47,7 @@ namespace aws.SfnStateMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sfn_state_machine#log_destination SfnStateMachine#log_destination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sfn_state_machine#log_destination SfnStateMachine#log_destination}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logDestination", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogDestination

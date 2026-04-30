@@ -7,14 +7,14 @@ namespace aws.RbinRule
     [JsiiInterface(nativeType: typeof(IRbinRuleResourceTags), fullyQualifiedName: "aws.rbinRule.RbinRuleResourceTags")]
     public interface IRbinRuleResourceTags
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rbin_rule#resource_tag_key RbinRule#resource_tag_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rbin_rule#resource_tag_key RbinRule#resource_tag_key}.</summary>
         [JsiiProperty(name: "resourceTagKey", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceTagKey
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rbin_rule#resource_tag_value RbinRule#resource_tag_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rbin_rule#resource_tag_value RbinRule#resource_tag_value}.</summary>
         [JsiiProperty(name: "resourceTagValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceTagValue
@@ -32,14 +32,14 @@ namespace aws.RbinRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rbin_rule#resource_tag_key RbinRule#resource_tag_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rbin_rule#resource_tag_key RbinRule#resource_tag_key}.</summary>
             [JsiiProperty(name: "resourceTagKey", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceTagKey
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rbin_rule#resource_tag_value RbinRule#resource_tag_value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rbin_rule#resource_tag_value RbinRule#resource_tag_value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceTagValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceTagValue

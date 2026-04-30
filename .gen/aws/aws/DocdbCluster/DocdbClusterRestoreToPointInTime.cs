@@ -9,7 +9,7 @@ namespace aws.DocdbCluster
     [JsiiByValue(fqn: "aws.docdbCluster.DocdbClusterRestoreToPointInTime")]
     public class DocdbClusterRestoreToPointInTime : aws.DocdbCluster.IDocdbClusterRestoreToPointInTime
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/docdb_cluster#source_cluster_identifier DocdbCluster#source_cluster_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/docdb_cluster#source_cluster_identifier DocdbCluster#source_cluster_identifier}.</summary>
         [JsiiProperty(name: "sourceClusterIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceClusterIdentifier
         {
@@ -17,7 +17,7 @@ namespace aws.DocdbCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/docdb_cluster#restore_to_time DocdbCluster#restore_to_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/docdb_cluster#restore_to_time DocdbCluster#restore_to_time}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "restoreToTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RestoreToTime
@@ -26,7 +26,7 @@ namespace aws.DocdbCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/docdb_cluster#restore_type DocdbCluster#restore_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/docdb_cluster#restore_type DocdbCluster#restore_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "restoreType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RestoreType
@@ -37,7 +37,7 @@ namespace aws.DocdbCluster
 
         private object? _useLatestRestorableTime;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/docdb_cluster#use_latest_restorable_time DocdbCluster#use_latest_restorable_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/docdb_cluster#use_latest_restorable_time DocdbCluster#use_latest_restorable_time}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "useLatestRestorableTime", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? UseLatestRestorableTime

@@ -7,14 +7,14 @@ namespace aws.S3Bucket
     [JsiiInterface(nativeType: typeof(IS3BucketServerSideEncryptionConfigurationRuleApplyServerSideEncryptionByDefault), fullyQualifiedName: "aws.s3Bucket.S3BucketServerSideEncryptionConfigurationRuleApplyServerSideEncryptionByDefault")]
     public interface IS3BucketServerSideEncryptionConfigurationRuleApplyServerSideEncryptionByDefault
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}.</summary>
         [JsiiProperty(name: "sseAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
         string SseAlgorithm
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#kms_master_key_id S3Bucket#kms_master_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket#kms_master_key_id S3Bucket#kms_master_key_id}.</summary>
         [JsiiProperty(name: "kmsMasterKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KmsMasterKeyId
@@ -32,14 +32,14 @@ namespace aws.S3Bucket
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}.</summary>
             [JsiiProperty(name: "sseAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
             public string SseAlgorithm
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#kms_master_key_id S3Bucket#kms_master_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket#kms_master_key_id S3Bucket#kms_master_key_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "kmsMasterKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KmsMasterKeyId

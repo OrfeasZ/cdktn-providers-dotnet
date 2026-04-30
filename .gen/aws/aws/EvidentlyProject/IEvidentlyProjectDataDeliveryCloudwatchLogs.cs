@@ -7,7 +7,7 @@ namespace aws.EvidentlyProject
     [JsiiInterface(nativeType: typeof(IEvidentlyProjectDataDeliveryCloudwatchLogs), fullyQualifiedName: "aws.evidentlyProject.EvidentlyProjectDataDeliveryCloudwatchLogs")]
     public interface IEvidentlyProjectDataDeliveryCloudwatchLogs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_project#log_group EvidentlyProject#log_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/evidently_project#log_group EvidentlyProject#log_group}.</summary>
         [JsiiProperty(name: "logGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LogGroup
@@ -25,7 +25,7 @@ namespace aws.EvidentlyProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/evidently_project#log_group EvidentlyProject#log_group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/evidently_project#log_group EvidentlyProject#log_group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "logGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LogGroup

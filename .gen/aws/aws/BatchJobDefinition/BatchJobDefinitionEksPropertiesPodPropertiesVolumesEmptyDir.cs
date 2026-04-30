@@ -9,7 +9,7 @@ namespace aws.BatchJobDefinition
     [JsiiByValue(fqn: "aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesVolumesEmptyDir")]
     public class BatchJobDefinitionEksPropertiesPodPropertiesVolumesEmptyDir : aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodPropertiesVolumesEmptyDir
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#size_limit BatchJobDefinition#size_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_job_definition#size_limit BatchJobDefinition#size_limit}.</summary>
         [JsiiProperty(name: "sizeLimit", typeJson: "{\"primitive\":\"string\"}")]
         public string SizeLimit
         {
@@ -17,7 +17,7 @@ namespace aws.BatchJobDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#medium BatchJobDefinition#medium}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_job_definition#medium BatchJobDefinition#medium}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "medium", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Medium

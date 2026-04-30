@@ -7,14 +7,14 @@ namespace aws.BedrockagentFlow
     [JsiiInterface(nativeType: typeof(IBedrockagentFlowDefinitionConnectionConfigurationData), fullyQualifiedName: "aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfigurationData")]
     public interface IBedrockagentFlowDefinitionConnectionConfigurationData
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_flow#source_output BedrockagentFlow#source_output}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_flow#source_output BedrockagentFlow#source_output}.</summary>
         [JsiiProperty(name: "sourceOutput", typeJson: "{\"primitive\":\"string\"}")]
         string SourceOutput
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_flow#target_input BedrockagentFlow#target_input}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_flow#target_input BedrockagentFlow#target_input}.</summary>
         [JsiiProperty(name: "targetInput", typeJson: "{\"primitive\":\"string\"}")]
         string TargetInput
         {
@@ -28,14 +28,14 @@ namespace aws.BedrockagentFlow
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_flow#source_output BedrockagentFlow#source_output}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_flow#source_output BedrockagentFlow#source_output}.</summary>
             [JsiiProperty(name: "sourceOutput", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceOutput
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_flow#target_input BedrockagentFlow#target_input}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_flow#target_input BedrockagentFlow#target_input}.</summary>
             [JsiiProperty(name: "targetInput", typeJson: "{\"primitive\":\"string\"}")]
             public string TargetInput
             {

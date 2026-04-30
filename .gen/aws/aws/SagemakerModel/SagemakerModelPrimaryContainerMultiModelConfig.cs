@@ -7,7 +7,7 @@ namespace aws.SagemakerModel
     [JsiiByValue(fqn: "aws.sagemakerModel.SagemakerModelPrimaryContainerMultiModelConfig")]
     public class SagemakerModelPrimaryContainerMultiModelConfig : aws.SagemakerModel.ISagemakerModelPrimaryContainerMultiModelConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#model_cache_setting SagemakerModel#model_cache_setting}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#model_cache_setting SagemakerModel#model_cache_setting}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "modelCacheSetting", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ModelCacheSetting

@@ -11,7 +11,7 @@ namespace aws.MskServerlessCluster
     {
         /// <summary>iam block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_serverless_cluster#iam MskServerlessCluster#iam}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_serverless_cluster#iam MskServerlessCluster#iam}
         /// </remarks>
         [JsiiProperty(name: "iam", typeJson: "{\"fqn\":\"aws.mskServerlessCluster.MskServerlessClusterClientAuthenticationSaslIam\"}")]
         public aws.MskServerlessCluster.IMskServerlessClusterClientAuthenticationSaslIam Iam

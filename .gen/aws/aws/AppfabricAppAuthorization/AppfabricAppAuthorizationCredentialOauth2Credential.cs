@@ -9,7 +9,7 @@ namespace aws.AppfabricAppAuthorization
     [JsiiByValue(fqn: "aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialOauth2Credential")]
     public class AppfabricAppAuthorizationCredentialOauth2Credential : aws.AppfabricAppAuthorization.IAppfabricAppAuthorizationCredentialOauth2Credential
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appfabric_app_authorization#client_id AppfabricAppAuthorization#client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appfabric_app_authorization#client_id AppfabricAppAuthorization#client_id}.</summary>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientId
         {
@@ -17,7 +17,7 @@ namespace aws.AppfabricAppAuthorization
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appfabric_app_authorization#client_secret AppfabricAppAuthorization#client_secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appfabric_app_authorization#client_secret AppfabricAppAuthorization#client_secret}.</summary>
         [JsiiProperty(name: "clientSecret", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientSecret
         {

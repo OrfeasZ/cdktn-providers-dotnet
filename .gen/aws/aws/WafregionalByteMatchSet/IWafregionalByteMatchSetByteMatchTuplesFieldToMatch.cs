@@ -7,14 +7,14 @@ namespace aws.WafregionalByteMatchSet
     [JsiiInterface(nativeType: typeof(IWafregionalByteMatchSetByteMatchTuplesFieldToMatch), fullyQualifiedName: "aws.wafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuplesFieldToMatch")]
     public interface IWafregionalByteMatchSetByteMatchTuplesFieldToMatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_byte_match_set#type WafregionalByteMatchSet#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_byte_match_set#type WafregionalByteMatchSet#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_byte_match_set#data WafregionalByteMatchSet#data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_byte_match_set#data WafregionalByteMatchSet#data}.</summary>
         [JsiiProperty(name: "data", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Data
@@ -32,14 +32,14 @@ namespace aws.WafregionalByteMatchSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_byte_match_set#type WafregionalByteMatchSet#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_byte_match_set#type WafregionalByteMatchSet#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_byte_match_set#data WafregionalByteMatchSet#data}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_byte_match_set#data WafregionalByteMatchSet#data}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "data", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Data

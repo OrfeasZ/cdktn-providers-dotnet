@@ -11,7 +11,7 @@ namespace aws.SagemakerHyperParameterTuningJob
 
         /// <summary>hyperband_strategy_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hyperband_strategy_config SagemakerHyperParameterTuningJob#hyperband_strategy_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hyperband_strategy_config SagemakerHyperParameterTuningJob#hyperband_strategy_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hyperbandStrategyConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerHyperParameterTuningJob.SagemakerHyperParameterTuningJobConfigStrategyConfigHyperbandStrategyConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]

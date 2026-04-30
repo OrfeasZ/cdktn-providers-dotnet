@@ -7,7 +7,7 @@ namespace aws.OpensearchDomain
     [JsiiByValue(fqn: "aws.opensearchDomain.OpensearchDomainClusterConfigZoneAwarenessConfig")]
     public class OpensearchDomainClusterConfigZoneAwarenessConfig : aws.OpensearchDomain.IOpensearchDomainClusterConfigZoneAwarenessConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#availability_zone_count OpensearchDomain#availability_zone_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#availability_zone_count OpensearchDomain#availability_zone_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityZoneCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? AvailabilityZoneCount

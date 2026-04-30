@@ -9,7 +9,7 @@ namespace aws.Route53DomainsDomain
     [JsiiByValue(fqn: "aws.route53DomainsDomain.Route53DomainsDomainConfig")]
     public class Route53DomainsDomainConfig : aws.Route53DomainsDomain.IRoute53DomainsDomainConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_domain#domain_name Route53DomainsDomain#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_domain#domain_name Route53DomainsDomain#domain_name}.</summary>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainName
         {
@@ -21,7 +21,7 @@ namespace aws.Route53DomainsDomain
 
         /// <summary>admin_contact block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_domain#admin_contact Route53DomainsDomain#admin_contact}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_domain#admin_contact Route53DomainsDomain#admin_contact}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "adminContact", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainAdminContact\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -53,7 +53,7 @@ namespace aws.Route53DomainsDomain
 
         private object? _adminPrivacy;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_domain#admin_privacy Route53DomainsDomain#admin_privacy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_domain#admin_privacy Route53DomainsDomain#admin_privacy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "adminPrivacy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? AdminPrivacy
@@ -84,7 +84,7 @@ namespace aws.Route53DomainsDomain
 
         private object? _autoRenew;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_domain#auto_renew Route53DomainsDomain#auto_renew}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_domain#auto_renew Route53DomainsDomain#auto_renew}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "autoRenew", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? AutoRenew
@@ -115,7 +115,7 @@ namespace aws.Route53DomainsDomain
 
         private object? _billingContact;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_domain#billing_contact Route53DomainsDomain#billing_contact}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_domain#billing_contact Route53DomainsDomain#billing_contact}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "billingContact", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainBillingContact\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public object? BillingContact
@@ -146,7 +146,7 @@ namespace aws.Route53DomainsDomain
 
         private object? _billingPrivacy;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_domain#billing_privacy Route53DomainsDomain#billing_privacy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_domain#billing_privacy Route53DomainsDomain#billing_privacy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "billingPrivacy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? BillingPrivacy
@@ -175,7 +175,7 @@ namespace aws.Route53DomainsDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_domain#duration_in_years Route53DomainsDomain#duration_in_years}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_domain#duration_in_years Route53DomainsDomain#duration_in_years}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "durationInYears", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DurationInYears
@@ -186,7 +186,7 @@ namespace aws.Route53DomainsDomain
 
         private object? _nameServer;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_domain#name_server Route53DomainsDomain#name_server}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_domain#name_server Route53DomainsDomain#name_server}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nameServer", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainNameServer\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public object? NameServer
@@ -219,7 +219,7 @@ namespace aws.Route53DomainsDomain
 
         /// <summary>registrant_contact block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_domain#registrant_contact Route53DomainsDomain#registrant_contact}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_domain#registrant_contact Route53DomainsDomain#registrant_contact}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "registrantContact", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainRegistrantContact\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -251,7 +251,7 @@ namespace aws.Route53DomainsDomain
 
         private object? _registrantPrivacy;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_domain#registrant_privacy Route53DomainsDomain#registrant_privacy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_domain#registrant_privacy Route53DomainsDomain#registrant_privacy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "registrantPrivacy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? RegistrantPrivacy
@@ -280,7 +280,7 @@ namespace aws.Route53DomainsDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_domain#tags Route53DomainsDomain#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_domain#tags Route53DomainsDomain#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -293,7 +293,7 @@ namespace aws.Route53DomainsDomain
 
         /// <summary>tech_contact block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_domain#tech_contact Route53DomainsDomain#tech_contact}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_domain#tech_contact Route53DomainsDomain#tech_contact}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "techContact", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainTechContact\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -325,7 +325,7 @@ namespace aws.Route53DomainsDomain
 
         private object? _techPrivacy;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_domain#tech_privacy Route53DomainsDomain#tech_privacy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_domain#tech_privacy Route53DomainsDomain#tech_privacy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "techPrivacy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? TechPrivacy
@@ -356,7 +356,7 @@ namespace aws.Route53DomainsDomain
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_domain#timeouts Route53DomainsDomain#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_domain#timeouts Route53DomainsDomain#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainTimeouts\"}", isOptional: true)]
@@ -368,7 +368,7 @@ namespace aws.Route53DomainsDomain
 
         private object? _transferLock;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_domain#transfer_lock Route53DomainsDomain#transfer_lock}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_domain#transfer_lock Route53DomainsDomain#transfer_lock}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "transferLock", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? TransferLock

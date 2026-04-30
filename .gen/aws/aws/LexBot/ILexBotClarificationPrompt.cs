@@ -7,7 +7,7 @@ namespace aws.LexBot
     [JsiiInterface(nativeType: typeof(ILexBotClarificationPrompt), fullyQualifiedName: "aws.lexBot.LexBotClarificationPrompt")]
     public interface ILexBotClarificationPrompt
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot#max_attempts LexBot#max_attempts}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot#max_attempts LexBot#max_attempts}.</summary>
         [JsiiProperty(name: "maxAttempts", typeJson: "{\"primitive\":\"number\"}")]
         double MaxAttempts
         {
@@ -16,7 +16,7 @@ namespace aws.LexBot
 
         /// <summary>message block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot#message LexBot#message}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot#message LexBot#message}
         /// </remarks>
         [JsiiProperty(name: "message", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexBot.LexBotClarificationPromptMessage\"},\"kind\":\"array\"}}]}}")]
         object Message
@@ -24,7 +24,7 @@ namespace aws.LexBot
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot#response_card LexBot#response_card}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot#response_card LexBot#response_card}.</summary>
         [JsiiProperty(name: "responseCard", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResponseCard
@@ -42,7 +42,7 @@ namespace aws.LexBot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot#max_attempts LexBot#max_attempts}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot#max_attempts LexBot#max_attempts}.</summary>
             [JsiiProperty(name: "maxAttempts", typeJson: "{\"primitive\":\"number\"}")]
             public double MaxAttempts
             {
@@ -51,7 +51,7 @@ namespace aws.LexBot
 
             /// <summary>message block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot#message LexBot#message}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot#message LexBot#message}
             /// </remarks>
             [JsiiProperty(name: "message", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexBot.LexBotClarificationPromptMessage\"},\"kind\":\"array\"}}]}}")]
             public object Message
@@ -59,7 +59,7 @@ namespace aws.LexBot
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot#response_card LexBot#response_card}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot#response_card LexBot#response_card}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "responseCard", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResponseCard

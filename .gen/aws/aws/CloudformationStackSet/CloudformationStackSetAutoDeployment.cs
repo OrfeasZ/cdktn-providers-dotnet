@@ -7,7 +7,7 @@ namespace aws.CloudformationStackSet
     [JsiiByValue(fqn: "aws.cloudformationStackSet.CloudformationStackSetAutoDeployment")]
     public class CloudformationStackSetAutoDeployment : aws.CloudformationStackSet.ICloudformationStackSetAutoDeployment
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudformation_stack_set#depends_on_stack_sets CloudformationStackSet#depends_on_stack_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudformation_stack_set#depends_on_stack_sets CloudformationStackSet#depends_on_stack_sets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dependsOnStackSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DependsOnStackSets
@@ -18,7 +18,7 @@ namespace aws.CloudformationStackSet
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudformation_stack_set#enabled CloudformationStackSet#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudformation_stack_set#enabled CloudformationStackSet#enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Enabled
@@ -49,7 +49,7 @@ namespace aws.CloudformationStackSet
 
         private object? _retainStacksOnAccountRemoval;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudformation_stack_set#retain_stacks_on_account_removal CloudformationStackSet#retain_stacks_on_account_removal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudformation_stack_set#retain_stacks_on_account_removal CloudformationStackSet#retain_stacks_on_account_removal}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retainStacksOnAccountRemoval", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? RetainStacksOnAccountRemoval

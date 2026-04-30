@@ -9,7 +9,7 @@ namespace aws.CodecommitTrigger
     [JsiiByValue(fqn: "aws.codecommitTrigger.CodecommitTriggerConfig")]
     public class CodecommitTriggerConfig : aws.CodecommitTrigger.ICodecommitTriggerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecommit_trigger#repository_name CodecommitTrigger#repository_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecommit_trigger#repository_name CodecommitTrigger#repository_name}.</summary>
         [JsiiProperty(name: "repositoryName", typeJson: "{\"primitive\":\"string\"}")]
         public string RepositoryName
         {
@@ -21,7 +21,7 @@ namespace aws.CodecommitTrigger
 
         /// <summary>trigger block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecommit_trigger#trigger CodecommitTrigger#trigger}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecommit_trigger#trigger CodecommitTrigger#trigger}
         /// </remarks>
         [JsiiProperty(name: "trigger", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codecommitTrigger.CodecommitTriggerTrigger\"},\"kind\":\"array\"}}]}}")]
         public object Trigger
@@ -50,7 +50,7 @@ namespace aws.CodecommitTrigger
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecommit_trigger#id CodecommitTrigger#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecommit_trigger#id CodecommitTrigger#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace aws.CodecommitTrigger
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecommit_trigger#region CodecommitTrigger#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecommit_trigger#region CodecommitTrigger#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

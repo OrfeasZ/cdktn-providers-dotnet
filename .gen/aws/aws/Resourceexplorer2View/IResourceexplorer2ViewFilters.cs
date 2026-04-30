@@ -7,7 +7,7 @@ namespace aws.Resourceexplorer2View
     [JsiiInterface(nativeType: typeof(IResourceexplorer2ViewFilters), fullyQualifiedName: "aws.resourceexplorer2View.Resourceexplorer2ViewFilters")]
     public interface IResourceexplorer2ViewFilters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourceexplorer2_view#filter_string Resourceexplorer2View#filter_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/resourceexplorer2_view#filter_string Resourceexplorer2View#filter_string}.</summary>
         [JsiiProperty(name: "filterString", typeJson: "{\"primitive\":\"string\"}")]
         string FilterString
         {
@@ -21,7 +21,7 @@ namespace aws.Resourceexplorer2View
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourceexplorer2_view#filter_string Resourceexplorer2View#filter_string}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/resourceexplorer2_view#filter_string Resourceexplorer2View#filter_string}.</summary>
             [JsiiProperty(name: "filterString", typeJson: "{\"primitive\":\"string\"}")]
             public string FilterString
             {

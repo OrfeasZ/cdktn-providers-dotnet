@@ -9,7 +9,7 @@ namespace aws.OsisPipeline
     [JsiiByValue(fqn: "aws.osisPipeline.OsisPipelineVpcOptions")]
     public class OsisPipelineVpcOptions : aws.OsisPipeline.IOsisPipelineVpcOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/osis_pipeline#subnet_ids OsisPipeline#subnet_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/osis_pipeline#subnet_ids OsisPipeline#subnet_ids}.</summary>
         [JsiiProperty(name: "subnetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SubnetIds
         {
@@ -17,7 +17,7 @@ namespace aws.OsisPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/osis_pipeline#security_group_ids OsisPipeline#security_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/osis_pipeline#security_group_ids OsisPipeline#security_group_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SecurityGroupIds
@@ -26,7 +26,7 @@ namespace aws.OsisPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/osis_pipeline#vpc_endpoint_management OsisPipeline#vpc_endpoint_management}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/osis_pipeline#vpc_endpoint_management OsisPipeline#vpc_endpoint_management}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vpcEndpointManagement", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VpcEndpointManagement

@@ -9,7 +9,7 @@ namespace aws.SagemakerDevice
     [JsiiByValue(fqn: "aws.sagemakerDevice.SagemakerDeviceDevice")]
     public class SagemakerDeviceDevice : aws.SagemakerDevice.ISagemakerDeviceDevice
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_device#device_name SagemakerDevice#device_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_device#device_name SagemakerDevice#device_name}.</summary>
         [JsiiProperty(name: "deviceName", typeJson: "{\"primitive\":\"string\"}")]
         public string DeviceName
         {
@@ -17,7 +17,7 @@ namespace aws.SagemakerDevice
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_device#description SagemakerDevice#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_device#description SagemakerDevice#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -26,7 +26,7 @@ namespace aws.SagemakerDevice
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_device#iot_thing_name SagemakerDevice#iot_thing_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_device#iot_thing_name SagemakerDevice#iot_thing_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "iotThingName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IotThingName

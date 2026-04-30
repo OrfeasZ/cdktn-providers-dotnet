@@ -7,7 +7,7 @@ namespace aws.QuicksightTheme
     [JsiiInterface(nativeType: typeof(IQuicksightThemeConfigurationSheetTileLayoutMargin), fullyQualifiedName: "aws.quicksightTheme.QuicksightThemeConfigurationSheetTileLayoutMargin")]
     public interface IQuicksightThemeConfigurationSheetTileLayoutMargin
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#show QuicksightTheme#show}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_theme#show QuicksightTheme#show}.</summary>
         [JsiiProperty(name: "show", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? Show
@@ -25,7 +25,7 @@ namespace aws.QuicksightTheme
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#show QuicksightTheme#show}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_theme#show QuicksightTheme#show}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "show", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? Show

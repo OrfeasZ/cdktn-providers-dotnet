@@ -9,7 +9,7 @@ namespace aws.GlueClassifier
     [JsiiByValue(fqn: "aws.glueClassifier.GlueClassifierGrokClassifier")]
     public class GlueClassifierGrokClassifier : aws.GlueClassifier.IGlueClassifierGrokClassifier
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#classification GlueClassifier#classification}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_classifier#classification GlueClassifier#classification}.</summary>
         [JsiiProperty(name: "classification", typeJson: "{\"primitive\":\"string\"}")]
         public string Classification
         {
@@ -17,7 +17,7 @@ namespace aws.GlueClassifier
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#grok_pattern GlueClassifier#grok_pattern}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_classifier#grok_pattern GlueClassifier#grok_pattern}.</summary>
         [JsiiProperty(name: "grokPattern", typeJson: "{\"primitive\":\"string\"}")]
         public string GrokPattern
         {
@@ -25,7 +25,7 @@ namespace aws.GlueClassifier
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#custom_patterns GlueClassifier#custom_patterns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_classifier#custom_patterns GlueClassifier#custom_patterns}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customPatterns", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomPatterns

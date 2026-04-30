@@ -7,7 +7,7 @@ namespace aws.MedialiveMultiplexProgram
     [JsiiByValue(fqn: "aws.medialiveMultiplexProgram.MedialiveMultiplexProgramMultiplexProgramSettingsVideoSettingsStatmuxSettings")]
     public class MedialiveMultiplexProgramMultiplexProgramSettingsVideoSettingsStatmuxSettings : aws.MedialiveMultiplexProgram.IMedialiveMultiplexProgramMultiplexProgramSettingsVideoSettingsStatmuxSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_multiplex_program#maximum_bitrate MedialiveMultiplexProgram#maximum_bitrate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_multiplex_program#maximum_bitrate MedialiveMultiplexProgram#maximum_bitrate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maximumBitrate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaximumBitrate
@@ -16,7 +16,7 @@ namespace aws.MedialiveMultiplexProgram
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_multiplex_program#minimum_bitrate MedialiveMultiplexProgram#minimum_bitrate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_multiplex_program#minimum_bitrate MedialiveMultiplexProgram#minimum_bitrate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minimumBitrate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinimumBitrate
@@ -25,7 +25,7 @@ namespace aws.MedialiveMultiplexProgram
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_multiplex_program#priority MedialiveMultiplexProgram#priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_multiplex_program#priority MedialiveMultiplexProgram#priority}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Priority

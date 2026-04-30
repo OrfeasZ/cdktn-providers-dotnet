@@ -7,7 +7,7 @@ namespace aws.DynamodbTable
     [JsiiByValue(fqn: "aws.dynamodbTable.DynamodbTableTtl")]
     public class DynamodbTableTtl : aws.DynamodbTable.IDynamodbTableTtl
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AttributeName
@@ -18,7 +18,7 @@ namespace aws.DynamodbTable
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Enabled

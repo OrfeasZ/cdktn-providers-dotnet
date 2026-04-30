@@ -7,7 +7,7 @@ namespace aws.ConnectUser
     [JsiiByValue(fqn: "aws.connectUser.ConnectUserIdentityInfo")]
     public class ConnectUserIdentityInfo : aws.ConnectUser.IConnectUserIdentityInfo
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_user#email ConnectUser#email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_user#email ConnectUser#email}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Email
@@ -16,7 +16,7 @@ namespace aws.ConnectUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_user#first_name ConnectUser#first_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_user#first_name ConnectUser#first_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FirstName
@@ -25,7 +25,7 @@ namespace aws.ConnectUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_user#last_name ConnectUser#last_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_user#last_name ConnectUser#last_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LastName
@@ -34,7 +34,7 @@ namespace aws.ConnectUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_user#secondary_email ConnectUser#secondary_email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_user#secondary_email ConnectUser#secondary_email}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secondaryEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecondaryEmail

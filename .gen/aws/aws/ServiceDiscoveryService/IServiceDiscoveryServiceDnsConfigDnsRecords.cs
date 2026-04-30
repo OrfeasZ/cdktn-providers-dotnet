@@ -7,14 +7,14 @@ namespace aws.ServiceDiscoveryService
     [JsiiInterface(nativeType: typeof(IServiceDiscoveryServiceDnsConfigDnsRecords), fullyQualifiedName: "aws.serviceDiscoveryService.ServiceDiscoveryServiceDnsConfigDnsRecords")]
     public interface IServiceDiscoveryServiceDnsConfigDnsRecords
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/service_discovery_service#ttl ServiceDiscoveryService#ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/service_discovery_service#ttl ServiceDiscoveryService#ttl}.</summary>
         [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}")]
         double Ttl
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/service_discovery_service#type ServiceDiscoveryService#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/service_discovery_service#type ServiceDiscoveryService#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -28,14 +28,14 @@ namespace aws.ServiceDiscoveryService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/service_discovery_service#ttl ServiceDiscoveryService#ttl}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/service_discovery_service#ttl ServiceDiscoveryService#ttl}.</summary>
             [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}")]
             public double Ttl
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/service_discovery_service#type ServiceDiscoveryService#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/service_discovery_service#type ServiceDiscoveryService#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

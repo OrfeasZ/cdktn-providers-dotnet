@@ -5,7 +5,7 @@ namespace aws.VpcIpamPoolCidr
     /// <remarks>
     /// <h1><c>aws_vpc_ipam_pool_cidr</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_ipam_pool_cidr"><c>aws_vpc_ipam_pool_cidr</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_ipam_pool_cidr"><c>aws_vpc_ipam_pool_cidr</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

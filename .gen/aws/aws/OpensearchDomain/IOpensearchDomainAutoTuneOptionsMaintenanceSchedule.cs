@@ -7,7 +7,7 @@ namespace aws.OpensearchDomain
     [JsiiInterface(nativeType: typeof(IOpensearchDomainAutoTuneOptionsMaintenanceSchedule), fullyQualifiedName: "aws.opensearchDomain.OpensearchDomainAutoTuneOptionsMaintenanceSchedule")]
     public interface IOpensearchDomainAutoTuneOptionsMaintenanceSchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#cron_expression_for_recurrence OpensearchDomain#cron_expression_for_recurrence}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#cron_expression_for_recurrence OpensearchDomain#cron_expression_for_recurrence}.</summary>
         [JsiiProperty(name: "cronExpressionForRecurrence", typeJson: "{\"primitive\":\"string\"}")]
         string CronExpressionForRecurrence
         {
@@ -16,7 +16,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>duration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#duration OpensearchDomain#duration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#duration OpensearchDomain#duration}
         /// </remarks>
         [JsiiProperty(name: "duration", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainAutoTuneOptionsMaintenanceScheduleDuration\"}")]
         aws.OpensearchDomain.IOpensearchDomainAutoTuneOptionsMaintenanceScheduleDuration Duration
@@ -24,7 +24,7 @@ namespace aws.OpensearchDomain
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#start_at OpensearchDomain#start_at}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#start_at OpensearchDomain#start_at}.</summary>
         [JsiiProperty(name: "startAt", typeJson: "{\"primitive\":\"string\"}")]
         string StartAt
         {
@@ -38,7 +38,7 @@ namespace aws.OpensearchDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#cron_expression_for_recurrence OpensearchDomain#cron_expression_for_recurrence}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#cron_expression_for_recurrence OpensearchDomain#cron_expression_for_recurrence}.</summary>
             [JsiiProperty(name: "cronExpressionForRecurrence", typeJson: "{\"primitive\":\"string\"}")]
             public string CronExpressionForRecurrence
             {
@@ -47,7 +47,7 @@ namespace aws.OpensearchDomain
 
             /// <summary>duration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#duration OpensearchDomain#duration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#duration OpensearchDomain#duration}
             /// </remarks>
             [JsiiProperty(name: "duration", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainAutoTuneOptionsMaintenanceScheduleDuration\"}")]
             public aws.OpensearchDomain.IOpensearchDomainAutoTuneOptionsMaintenanceScheduleDuration Duration
@@ -55,7 +55,7 @@ namespace aws.OpensearchDomain
                 get => GetInstanceProperty<aws.OpensearchDomain.IOpensearchDomainAutoTuneOptionsMaintenanceScheduleDuration>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#start_at OpensearchDomain#start_at}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#start_at OpensearchDomain#start_at}.</summary>
             [JsiiProperty(name: "startAt", typeJson: "{\"primitive\":\"string\"}")]
             public string StartAt
             {

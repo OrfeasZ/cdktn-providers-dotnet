@@ -9,7 +9,7 @@ namespace aws.RedshiftScheduledAction
     [JsiiByValue(fqn: "aws.redshiftScheduledAction.RedshiftScheduledActionTargetActionResumeCluster")]
     public class RedshiftScheduledActionTargetActionResumeCluster : aws.RedshiftScheduledAction.IRedshiftScheduledActionTargetActionResumeCluster
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshift_scheduled_action#cluster_identifier RedshiftScheduledAction#cluster_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/redshift_scheduled_action#cluster_identifier RedshiftScheduledAction#cluster_identifier}.</summary>
         [JsiiProperty(name: "clusterIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterIdentifier
         {

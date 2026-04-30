@@ -7,7 +7,7 @@ namespace aws.SagemakerModel
     [JsiiInterface(nativeType: typeof(ISagemakerModelContainerModelDataSourceS3DataSourceModelAccessConfig), fullyQualifiedName: "aws.sagemakerModel.SagemakerModelContainerModelDataSourceS3DataSourceModelAccessConfig")]
     public interface ISagemakerModelContainerModelDataSourceS3DataSourceModelAccessConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#accept_eula SagemakerModel#accept_eula}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#accept_eula SagemakerModel#accept_eula}.</summary>
         [JsiiProperty(name: "acceptEula", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         object AcceptEula
         {
@@ -21,7 +21,7 @@ namespace aws.SagemakerModel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#accept_eula SagemakerModel#accept_eula}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#accept_eula SagemakerModel#accept_eula}.</summary>
             [JsiiProperty(name: "acceptEula", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
             public object AcceptEula
             {

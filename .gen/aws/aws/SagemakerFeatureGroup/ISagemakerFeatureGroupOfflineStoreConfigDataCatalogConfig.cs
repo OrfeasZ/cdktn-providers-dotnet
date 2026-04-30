@@ -7,7 +7,7 @@ namespace aws.SagemakerFeatureGroup
     [JsiiInterface(nativeType: typeof(ISagemakerFeatureGroupOfflineStoreConfigDataCatalogConfig), fullyQualifiedName: "aws.sagemakerFeatureGroup.SagemakerFeatureGroupOfflineStoreConfigDataCatalogConfig")]
     public interface ISagemakerFeatureGroupOfflineStoreConfigDataCatalogConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#catalog SagemakerFeatureGroup#catalog}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_feature_group#catalog SagemakerFeatureGroup#catalog}.</summary>
         [JsiiProperty(name: "catalog", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Catalog
@@ -18,7 +18,7 @@ namespace aws.SagemakerFeatureGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#database SagemakerFeatureGroup#database}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_feature_group#database SagemakerFeatureGroup#database}.</summary>
         [JsiiProperty(name: "database", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Database
@@ -29,7 +29,7 @@ namespace aws.SagemakerFeatureGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#table_name SagemakerFeatureGroup#table_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_feature_group#table_name SagemakerFeatureGroup#table_name}.</summary>
         [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TableName
@@ -47,7 +47,7 @@ namespace aws.SagemakerFeatureGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#catalog SagemakerFeatureGroup#catalog}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_feature_group#catalog SagemakerFeatureGroup#catalog}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "catalog", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Catalog
@@ -55,7 +55,7 @@ namespace aws.SagemakerFeatureGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#database SagemakerFeatureGroup#database}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_feature_group#database SagemakerFeatureGroup#database}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "database", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Database
@@ -63,7 +63,7 @@ namespace aws.SagemakerFeatureGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#table_name SagemakerFeatureGroup#table_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_feature_group#table_name SagemakerFeatureGroup#table_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TableName

@@ -9,7 +9,7 @@ namespace aws.AppstreamDirectoryConfig
     [JsiiByValue(fqn: "aws.appstreamDirectoryConfig.AppstreamDirectoryConfigConfig")]
     public class AppstreamDirectoryConfigConfig : aws.AppstreamDirectoryConfig.IAppstreamDirectoryConfigConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_directory_config#directory_name AppstreamDirectoryConfig#directory_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_directory_config#directory_name AppstreamDirectoryConfig#directory_name}.</summary>
         [JsiiProperty(name: "directoryName", typeJson: "{\"primitive\":\"string\"}")]
         public string DirectoryName
         {
@@ -17,7 +17,7 @@ namespace aws.AppstreamDirectoryConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_directory_config#organizational_unit_distinguished_names AppstreamDirectoryConfig#organizational_unit_distinguished_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_directory_config#organizational_unit_distinguished_names AppstreamDirectoryConfig#organizational_unit_distinguished_names}.</summary>
         [JsiiProperty(name: "organizationalUnitDistinguishedNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] OrganizationalUnitDistinguishedNames
         {
@@ -27,7 +27,7 @@ namespace aws.AppstreamDirectoryConfig
 
         /// <summary>service_account_credentials block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_directory_config#service_account_credentials AppstreamDirectoryConfig#service_account_credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_directory_config#service_account_credentials AppstreamDirectoryConfig#service_account_credentials}
         /// </remarks>
         [JsiiProperty(name: "serviceAccountCredentials", typeJson: "{\"fqn\":\"aws.appstreamDirectoryConfig.AppstreamDirectoryConfigServiceAccountCredentials\"}")]
         public aws.AppstreamDirectoryConfig.IAppstreamDirectoryConfigServiceAccountCredentials ServiceAccountCredentials
@@ -38,7 +38,7 @@ namespace aws.AppstreamDirectoryConfig
 
         /// <summary>certificate_based_auth_properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_directory_config#certificate_based_auth_properties AppstreamDirectoryConfig#certificate_based_auth_properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_directory_config#certificate_based_auth_properties AppstreamDirectoryConfig#certificate_based_auth_properties}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "certificateBasedAuthProperties", typeJson: "{\"fqn\":\"aws.appstreamDirectoryConfig.AppstreamDirectoryConfigCertificateBasedAuthProperties\"}", isOptional: true)]
@@ -48,7 +48,7 @@ namespace aws.AppstreamDirectoryConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_directory_config#id AppstreamDirectoryConfig#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_directory_config#id AppstreamDirectoryConfig#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,7 +63,7 @@ namespace aws.AppstreamDirectoryConfig
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_directory_config#region AppstreamDirectoryConfig#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_directory_config#region AppstreamDirectoryConfig#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

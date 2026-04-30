@@ -11,7 +11,7 @@ namespace aws.QuicksightTheme
 
         /// <summary>font_families block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#font_families QuicksightTheme#font_families}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_theme#font_families QuicksightTheme#font_families}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fontFamilies", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightTheme.QuicksightThemeConfigurationTypographyFontFamilies\"},\"kind\":\"array\"}}]}}", isOptional: true)]

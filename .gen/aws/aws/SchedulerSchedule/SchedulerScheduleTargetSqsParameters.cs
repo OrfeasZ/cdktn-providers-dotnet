@@ -7,7 +7,7 @@ namespace aws.SchedulerSchedule
     [JsiiByValue(fqn: "aws.schedulerSchedule.SchedulerScheduleTargetSqsParameters")]
     public class SchedulerScheduleTargetSqsParameters : aws.SchedulerSchedule.ISchedulerScheduleTargetSqsParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#message_group_id SchedulerSchedule#message_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/scheduler_schedule#message_group_id SchedulerSchedule#message_group_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "messageGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MessageGroupId

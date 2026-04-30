@@ -7,7 +7,7 @@ namespace aws.SagemakerWorkteam
     [JsiiInterface(nativeType: typeof(ISagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyConstraints), fullyQualifiedName: "aws.sagemakerWorkteam.SagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyConstraints")]
     public interface ISagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyConstraints
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workteam#source_ip SagemakerWorkteam#source_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workteam#source_ip SagemakerWorkteam#source_ip}.</summary>
         [JsiiProperty(name: "sourceIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceIp
@@ -18,7 +18,7 @@ namespace aws.SagemakerWorkteam
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workteam#vpc_source_ip SagemakerWorkteam#vpc_source_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workteam#vpc_source_ip SagemakerWorkteam#vpc_source_ip}.</summary>
         [JsiiProperty(name: "vpcSourceIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VpcSourceIp
@@ -36,7 +36,7 @@ namespace aws.SagemakerWorkteam
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workteam#source_ip SagemakerWorkteam#source_ip}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workteam#source_ip SagemakerWorkteam#source_ip}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceIp
@@ -44,7 +44,7 @@ namespace aws.SagemakerWorkteam
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workteam#vpc_source_ip SagemakerWorkteam#vpc_source_ip}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workteam#vpc_source_ip SagemakerWorkteam#vpc_source_ip}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vpcSourceIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VpcSourceIp

@@ -9,7 +9,7 @@ namespace aws.BudgetsBudget
     {
         private object? _includeCredit;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#include_credit BudgetsBudget#include_credit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget#include_credit BudgetsBudget#include_credit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeCredit", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeCredit
@@ -40,7 +40,7 @@ namespace aws.BudgetsBudget
 
         private object? _includeDiscount;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#include_discount BudgetsBudget#include_discount}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget#include_discount BudgetsBudget#include_discount}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeDiscount", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeDiscount
@@ -71,7 +71,7 @@ namespace aws.BudgetsBudget
 
         private object? _includeOtherSubscription;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#include_other_subscription BudgetsBudget#include_other_subscription}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget#include_other_subscription BudgetsBudget#include_other_subscription}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeOtherSubscription", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeOtherSubscription
@@ -102,7 +102,7 @@ namespace aws.BudgetsBudget
 
         private object? _includeRecurring;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#include_recurring BudgetsBudget#include_recurring}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget#include_recurring BudgetsBudget#include_recurring}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeRecurring", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeRecurring
@@ -133,7 +133,7 @@ namespace aws.BudgetsBudget
 
         private object? _includeRefund;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#include_refund BudgetsBudget#include_refund}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget#include_refund BudgetsBudget#include_refund}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeRefund", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeRefund
@@ -164,7 +164,7 @@ namespace aws.BudgetsBudget
 
         private object? _includeSubscription;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#include_subscription BudgetsBudget#include_subscription}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget#include_subscription BudgetsBudget#include_subscription}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeSubscription", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeSubscription
@@ -195,7 +195,7 @@ namespace aws.BudgetsBudget
 
         private object? _includeSupport;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#include_support BudgetsBudget#include_support}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget#include_support BudgetsBudget#include_support}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeSupport", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeSupport
@@ -226,7 +226,7 @@ namespace aws.BudgetsBudget
 
         private object? _includeTax;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#include_tax BudgetsBudget#include_tax}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget#include_tax BudgetsBudget#include_tax}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeTax", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeTax
@@ -257,7 +257,7 @@ namespace aws.BudgetsBudget
 
         private object? _includeUpfront;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#include_upfront BudgetsBudget#include_upfront}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget#include_upfront BudgetsBudget#include_upfront}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeUpfront", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeUpfront
@@ -288,7 +288,7 @@ namespace aws.BudgetsBudget
 
         private object? _useAmortized;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#use_amortized BudgetsBudget#use_amortized}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget#use_amortized BudgetsBudget#use_amortized}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "useAmortized", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? UseAmortized
@@ -319,7 +319,7 @@ namespace aws.BudgetsBudget
 
         private object? _useBlended;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget#use_blended BudgetsBudget#use_blended}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget#use_blended BudgetsBudget#use_blended}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "useBlended", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? UseBlended

@@ -7,7 +7,7 @@ namespace aws.PipesPipe
     [JsiiByValue(fqn: "aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersRetryStrategy")]
     public class PipesPipeTargetParametersBatchJobParametersRetryStrategy : aws.PipesPipe.IPipesPipeTargetParametersBatchJobParametersRetryStrategy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#attempts PipesPipe#attempts}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#attempts PipesPipe#attempts}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attempts", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Attempts

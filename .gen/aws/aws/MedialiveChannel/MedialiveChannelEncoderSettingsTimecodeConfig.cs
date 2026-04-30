@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     [JsiiByValue(fqn: "aws.medialiveChannel.MedialiveChannelEncoderSettingsTimecodeConfig")]
     public class MedialiveChannelEncoderSettingsTimecodeConfig : aws.MedialiveChannel.IMedialiveChannelEncoderSettingsTimecodeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#source MedialiveChannel#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#source MedialiveChannel#source}.</summary>
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
         public string Source
         {
@@ -17,7 +17,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#sync_threshold MedialiveChannel#sync_threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#sync_threshold MedialiveChannel#sync_threshold}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "syncThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SyncThreshold

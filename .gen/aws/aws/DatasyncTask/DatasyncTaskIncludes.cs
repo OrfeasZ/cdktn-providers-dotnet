@@ -7,7 +7,7 @@ namespace aws.DatasyncTask
     [JsiiByValue(fqn: "aws.datasyncTask.DatasyncTaskIncludes")]
     public class DatasyncTaskIncludes : aws.DatasyncTask.IDatasyncTaskIncludes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#filter_type DatasyncTask#filter_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#filter_type DatasyncTask#filter_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filterType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FilterType
@@ -16,7 +16,7 @@ namespace aws.DatasyncTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#value DatasyncTask#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#value DatasyncTask#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

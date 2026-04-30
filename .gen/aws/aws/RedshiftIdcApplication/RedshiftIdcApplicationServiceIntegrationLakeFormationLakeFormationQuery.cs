@@ -9,7 +9,7 @@ namespace aws.RedshiftIdcApplication
     [JsiiByValue(fqn: "aws.redshiftIdcApplication.RedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQuery")]
     public class RedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQuery : aws.RedshiftIdcApplication.IRedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQuery
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshift_idc_application#authorization RedshiftIdcApplication#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/redshift_idc_application#authorization RedshiftIdcApplication#authorization}.</summary>
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}")]
         public string Authorization
         {

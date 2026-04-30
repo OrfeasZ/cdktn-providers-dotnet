@@ -9,7 +9,7 @@ namespace aws.BatchJobDefinition
     [JsiiByValue(fqn: "aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesVolumesSecret")]
     public class BatchJobDefinitionEksPropertiesPodPropertiesVolumesSecret : aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodPropertiesVolumesSecret
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#secret_name BatchJobDefinition#secret_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_job_definition#secret_name BatchJobDefinition#secret_name}.</summary>
         [JsiiProperty(name: "secretName", typeJson: "{\"primitive\":\"string\"}")]
         public string SecretName
         {
@@ -19,7 +19,7 @@ namespace aws.BatchJobDefinition
 
         private object? _optional;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#optional BatchJobDefinition#optional}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_job_definition#optional BatchJobDefinition#optional}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "optional", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Optional

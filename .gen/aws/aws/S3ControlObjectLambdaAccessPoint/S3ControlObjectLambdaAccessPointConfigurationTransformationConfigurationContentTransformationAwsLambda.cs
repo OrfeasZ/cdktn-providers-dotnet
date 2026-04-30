@@ -9,7 +9,7 @@ namespace aws.S3ControlObjectLambdaAccessPoint
     [JsiiByValue(fqn: "aws.s3ControlObjectLambdaAccessPoint.S3ControlObjectLambdaAccessPointConfigurationTransformationConfigurationContentTransformationAwsLambda")]
     public class S3ControlObjectLambdaAccessPointConfigurationTransformationConfigurationContentTransformationAwsLambda : aws.S3ControlObjectLambdaAccessPoint.IS3ControlObjectLambdaAccessPointConfigurationTransformationConfigurationContentTransformationAwsLambda
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_object_lambda_access_point#function_arn S3ControlObjectLambdaAccessPoint#function_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_object_lambda_access_point#function_arn S3ControlObjectLambdaAccessPoint#function_arn}.</summary>
         [JsiiProperty(name: "functionArn", typeJson: "{\"primitive\":\"string\"}")]
         public string FunctionArn
         {
@@ -17,7 +17,7 @@ namespace aws.S3ControlObjectLambdaAccessPoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_object_lambda_access_point#function_payload S3ControlObjectLambdaAccessPoint#function_payload}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_object_lambda_access_point#function_payload S3ControlObjectLambdaAccessPoint#function_payload}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "functionPayload", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FunctionPayload

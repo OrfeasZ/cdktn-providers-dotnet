@@ -9,7 +9,7 @@ namespace aws.LexBotAlias
     [JsiiByValue(fqn: "aws.lexBotAlias.LexBotAliasConversationLogsLogSettings")]
     public class LexBotAliasConversationLogsLogSettings : aws.LexBotAlias.ILexBotAliasConversationLogsLogSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot_alias#destination LexBotAlias#destination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot_alias#destination LexBotAlias#destination}.</summary>
         [JsiiProperty(name: "destination", typeJson: "{\"primitive\":\"string\"}")]
         public string Destination
         {
@@ -17,7 +17,7 @@ namespace aws.LexBotAlias
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot_alias#log_type LexBotAlias#log_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot_alias#log_type LexBotAlias#log_type}.</summary>
         [JsiiProperty(name: "logType", typeJson: "{\"primitive\":\"string\"}")]
         public string LogType
         {
@@ -25,7 +25,7 @@ namespace aws.LexBotAlias
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot_alias#resource_arn LexBotAlias#resource_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot_alias#resource_arn LexBotAlias#resource_arn}.</summary>
         [JsiiProperty(name: "resourceArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceArn
         {
@@ -33,7 +33,7 @@ namespace aws.LexBotAlias
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot_alias#kms_key_arn LexBotAlias#kms_key_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot_alias#kms_key_arn LexBotAlias#kms_key_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyArn

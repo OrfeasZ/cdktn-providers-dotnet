@@ -9,7 +9,7 @@ namespace aws.AlbTargetGroup
     [JsiiByValue(fqn: "aws.albTargetGroup.AlbTargetGroupTargetFailover")]
     public class AlbTargetGroupTargetFailover : aws.AlbTargetGroup.IAlbTargetGroupTargetFailover
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#on_deregistration AlbTargetGroup#on_deregistration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#on_deregistration AlbTargetGroup#on_deregistration}.</summary>
         [JsiiProperty(name: "onDeregistration", typeJson: "{\"primitive\":\"string\"}")]
         public string OnDeregistration
         {
@@ -17,7 +17,7 @@ namespace aws.AlbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#on_unhealthy AlbTargetGroup#on_unhealthy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#on_unhealthy AlbTargetGroup#on_unhealthy}.</summary>
         [JsiiProperty(name: "onUnhealthy", typeJson: "{\"primitive\":\"string\"}")]
         public string OnUnhealthy
         {

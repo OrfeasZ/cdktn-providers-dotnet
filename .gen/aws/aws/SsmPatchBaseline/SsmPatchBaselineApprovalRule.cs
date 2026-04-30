@@ -13,7 +13,7 @@ namespace aws.SsmPatchBaseline
 
         /// <summary>patch_filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_patch_baseline#patch_filter SsmPatchBaseline#patch_filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssm_patch_baseline#patch_filter SsmPatchBaseline#patch_filter}
         /// </remarks>
         [JsiiProperty(name: "patchFilter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmPatchBaseline.SsmPatchBaselineApprovalRulePatchFilter\"},\"kind\":\"array\"}}]}}")]
         public object PatchFilter
@@ -42,7 +42,7 @@ namespace aws.SsmPatchBaseline
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_patch_baseline#approve_after_days SsmPatchBaseline#approve_after_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssm_patch_baseline#approve_after_days SsmPatchBaseline#approve_after_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "approveAfterDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ApproveAfterDays
@@ -51,7 +51,7 @@ namespace aws.SsmPatchBaseline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_patch_baseline#approve_until_date SsmPatchBaseline#approve_until_date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssm_patch_baseline#approve_until_date SsmPatchBaseline#approve_until_date}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "approveUntilDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApproveUntilDate
@@ -60,7 +60,7 @@ namespace aws.SsmPatchBaseline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_patch_baseline#compliance_level SsmPatchBaseline#compliance_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssm_patch_baseline#compliance_level SsmPatchBaseline#compliance_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "complianceLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ComplianceLevel
@@ -71,7 +71,7 @@ namespace aws.SsmPatchBaseline
 
         private object? _enableNonSecurity;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_patch_baseline#enable_non_security SsmPatchBaseline#enable_non_security}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssm_patch_baseline#enable_non_security SsmPatchBaseline#enable_non_security}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enableNonSecurity", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? EnableNonSecurity

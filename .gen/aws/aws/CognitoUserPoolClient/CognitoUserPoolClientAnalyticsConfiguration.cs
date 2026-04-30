@@ -7,7 +7,7 @@ namespace aws.CognitoUserPoolClient
     [JsiiByValue(fqn: "aws.cognitoUserPoolClient.CognitoUserPoolClientAnalyticsConfiguration")]
     public class CognitoUserPoolClientAnalyticsConfiguration : aws.CognitoUserPoolClient.ICognitoUserPoolClientAnalyticsConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool_client#application_arn CognitoUserPoolClient#application_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool_client#application_arn CognitoUserPoolClient#application_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "applicationArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApplicationArn
@@ -16,7 +16,7 @@ namespace aws.CognitoUserPoolClient
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool_client#application_id CognitoUserPoolClient#application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool_client#application_id CognitoUserPoolClient#application_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApplicationId
@@ -25,7 +25,7 @@ namespace aws.CognitoUserPoolClient
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool_client#external_id CognitoUserPoolClient#external_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool_client#external_id CognitoUserPoolClient#external_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "externalId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExternalId
@@ -34,7 +34,7 @@ namespace aws.CognitoUserPoolClient
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool_client#role_arn CognitoUserPoolClient#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool_client#role_arn CognitoUserPoolClient#role_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoleArn
@@ -45,7 +45,7 @@ namespace aws.CognitoUserPoolClient
 
         private object? _userDataShared;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool_client#user_data_shared CognitoUserPoolClient#user_data_shared}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool_client#user_data_shared CognitoUserPoolClient#user_data_shared}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "userDataShared", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? UserDataShared

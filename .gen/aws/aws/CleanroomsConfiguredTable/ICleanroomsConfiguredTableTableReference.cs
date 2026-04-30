@@ -7,14 +7,14 @@ namespace aws.CleanroomsConfiguredTable
     [JsiiInterface(nativeType: typeof(ICleanroomsConfiguredTableTableReference), fullyQualifiedName: "aws.cleanroomsConfiguredTable.CleanroomsConfiguredTableTableReference")]
     public interface ICleanroomsConfiguredTableTableReference
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cleanrooms_configured_table#database_name CleanroomsConfiguredTable#database_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cleanrooms_configured_table#database_name CleanroomsConfiguredTable#database_name}.</summary>
         [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cleanrooms_configured_table#table_name CleanroomsConfiguredTable#table_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cleanrooms_configured_table#table_name CleanroomsConfiguredTable#table_name}.</summary>
         [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}")]
         string TableName
         {
@@ -28,14 +28,14 @@ namespace aws.CleanroomsConfiguredTable
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cleanrooms_configured_table#database_name CleanroomsConfiguredTable#database_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cleanrooms_configured_table#database_name CleanroomsConfiguredTable#database_name}.</summary>
             [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cleanrooms_configured_table#table_name CleanroomsConfiguredTable#table_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cleanrooms_configured_table#table_name CleanroomsConfiguredTable#table_name}.</summary>
             [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}")]
             public string TableName
             {

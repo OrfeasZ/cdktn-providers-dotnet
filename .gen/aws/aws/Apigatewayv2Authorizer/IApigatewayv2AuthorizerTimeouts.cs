@@ -7,7 +7,7 @@ namespace aws.Apigatewayv2Authorizer
     [JsiiInterface(nativeType: typeof(IApigatewayv2AuthorizerTimeouts), fullyQualifiedName: "aws.apigatewayv2Authorizer.Apigatewayv2AuthorizerTimeouts")]
     public interface IApigatewayv2AuthorizerTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_authorizer#delete Apigatewayv2Authorizer#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_authorizer#delete Apigatewayv2Authorizer#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -25,7 +25,7 @@ namespace aws.Apigatewayv2Authorizer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_authorizer#delete Apigatewayv2Authorizer#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_authorizer#delete Apigatewayv2Authorizer#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete

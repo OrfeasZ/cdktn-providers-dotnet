@@ -7,7 +7,7 @@ namespace aws.ElastictranscoderPreset
     [JsiiByValue(fqn: "aws.elastictranscoderPreset.ElastictranscoderPresetAudioCodecOptions")]
     public class ElastictranscoderPresetAudioCodecOptions : aws.ElastictranscoderPreset.IElastictranscoderPresetAudioCodecOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#bit_depth ElastictranscoderPreset#bit_depth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elastictranscoder_preset#bit_depth ElastictranscoderPreset#bit_depth}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bitDepth", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BitDepth
@@ -16,7 +16,7 @@ namespace aws.ElastictranscoderPreset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#bit_order ElastictranscoderPreset#bit_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elastictranscoder_preset#bit_order ElastictranscoderPreset#bit_order}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bitOrder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BitOrder
@@ -25,7 +25,7 @@ namespace aws.ElastictranscoderPreset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#profile ElastictranscoderPreset#profile}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elastictranscoder_preset#profile ElastictranscoderPreset#profile}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "profile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Profile
@@ -34,7 +34,7 @@ namespace aws.ElastictranscoderPreset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#signed ElastictranscoderPreset#signed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elastictranscoder_preset#signed ElastictranscoderPreset#signed}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "signed", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Signed

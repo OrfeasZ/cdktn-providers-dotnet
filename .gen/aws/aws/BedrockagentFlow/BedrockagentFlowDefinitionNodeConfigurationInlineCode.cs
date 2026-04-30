@@ -9,7 +9,7 @@ namespace aws.BedrockagentFlow
     [JsiiByValue(fqn: "aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationInlineCode")]
     public class BedrockagentFlowDefinitionNodeConfigurationInlineCode : aws.BedrockagentFlow.IBedrockagentFlowDefinitionNodeConfigurationInlineCode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_flow#code BedrockagentFlow#code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_flow#code BedrockagentFlow#code}.</summary>
         [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"string\"}")]
         public string Code
         {
@@ -17,7 +17,7 @@ namespace aws.BedrockagentFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_flow#language BedrockagentFlow#language}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_flow#language BedrockagentFlow#language}.</summary>
         [JsiiProperty(name: "language", typeJson: "{\"primitive\":\"string\"}")]
         public string Language
         {

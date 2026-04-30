@@ -7,7 +7,7 @@ namespace aws.Codepipeline
     [JsiiByValue(fqn: "aws.codepipeline.CodepipelineStageOnFailureRetryConfiguration")]
     public class CodepipelineStageOnFailureRetryConfiguration : aws.Codepipeline.ICodepipelineStageOnFailureRetryConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#retry_mode Codepipeline#retry_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codepipeline#retry_mode Codepipeline#retry_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retryMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RetryMode

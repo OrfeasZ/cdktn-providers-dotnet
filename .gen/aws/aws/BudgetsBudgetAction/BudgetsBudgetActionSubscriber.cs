@@ -9,7 +9,7 @@ namespace aws.BudgetsBudgetAction
     [JsiiByValue(fqn: "aws.budgetsBudgetAction.BudgetsBudgetActionSubscriber")]
     public class BudgetsBudgetActionSubscriber : aws.BudgetsBudgetAction.IBudgetsBudgetActionSubscriber
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget_action#address BudgetsBudgetAction#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget_action#address BudgetsBudgetAction#address}.</summary>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
         public string Address
         {
@@ -17,7 +17,7 @@ namespace aws.BudgetsBudgetAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget_action#subscription_type BudgetsBudgetAction#subscription_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget_action#subscription_type BudgetsBudgetAction#subscription_type}.</summary>
         [JsiiProperty(name: "subscriptionType", typeJson: "{\"primitive\":\"string\"}")]
         public string SubscriptionType
         {

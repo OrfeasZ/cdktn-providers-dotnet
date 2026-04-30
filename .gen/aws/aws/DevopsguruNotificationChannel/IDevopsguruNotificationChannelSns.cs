@@ -7,7 +7,7 @@ namespace aws.DevopsguruNotificationChannel
     [JsiiInterface(nativeType: typeof(IDevopsguruNotificationChannelSns), fullyQualifiedName: "aws.devopsguruNotificationChannel.DevopsguruNotificationChannelSns")]
     public interface IDevopsguruNotificationChannelSns
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_notification_channel#topic_arn DevopsguruNotificationChannel#topic_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devopsguru_notification_channel#topic_arn DevopsguruNotificationChannel#topic_arn}.</summary>
         [JsiiProperty(name: "topicArn", typeJson: "{\"primitive\":\"string\"}")]
         string TopicArn
         {
@@ -21,7 +21,7 @@ namespace aws.DevopsguruNotificationChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_notification_channel#topic_arn DevopsguruNotificationChannel#topic_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devopsguru_notification_channel#topic_arn DevopsguruNotificationChannel#topic_arn}.</summary>
             [JsiiProperty(name: "topicArn", typeJson: "{\"primitive\":\"string\"}")]
             public string TopicArn
             {

@@ -9,7 +9,7 @@ namespace aws.AppsyncApi
     [JsiiByValue(fqn: "aws.appsyncApi.AppsyncApiEventConfigConnectionAuthMode")]
     public class AppsyncApiEventConfigConnectionAuthMode : aws.AppsyncApi.IAppsyncApiEventConfigConnectionAuthMode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}.</summary>
         [JsiiProperty(name: "authType", typeJson: "{\"primitive\":\"string\"}")]
         public string AuthType
         {

@@ -9,7 +9,7 @@ namespace aws.Wafv2WebAclRuleGroupAssociation
     {
         /// <summary>Identifiers of the address fields.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl_rule_group_association#identifiers Wafv2WebAclRuleGroupAssociation#identifiers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl_rule_group_association#identifiers Wafv2WebAclRuleGroupAssociation#identifiers}
         /// </remarks>
         [JsiiProperty(name: "identifiers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Identifiers
@@ -26,7 +26,7 @@ namespace aws.Wafv2WebAclRuleGroupAssociation
 
             /// <summary>Identifiers of the address fields.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl_rule_group_association#identifiers Wafv2WebAclRuleGroupAssociation#identifiers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl_rule_group_association#identifiers Wafv2WebAclRuleGroupAssociation#identifiers}
             /// </remarks>
             [JsiiProperty(name: "identifiers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Identifiers

@@ -5,7 +5,7 @@ namespace aws.DataAwsSubnets
     /// <remarks>
     /// <h1><c>data_aws_subnets</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/subnets"><c>data_aws_subnets</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/subnets"><c>data_aws_subnets</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

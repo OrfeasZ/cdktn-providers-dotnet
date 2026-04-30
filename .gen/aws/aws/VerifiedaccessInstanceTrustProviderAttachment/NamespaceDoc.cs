@@ -5,7 +5,7 @@ namespace aws.VerifiedaccessInstanceTrustProviderAttachment
     /// <remarks>
     /// <h1><c>aws_verifiedaccess_instance_trust_provider_attachment</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/verifiedaccess_instance_trust_provider_attachment"><c>aws_verifiedaccess_instance_trust_provider_attachment</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/verifiedaccess_instance_trust_provider_attachment"><c>aws_verifiedaccess_instance_trust_provider_attachment</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

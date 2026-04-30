@@ -9,7 +9,7 @@ namespace aws.S3Bucket
     [JsiiByValue(fqn: "aws.s3Bucket.S3BucketCorsRule")]
     public class S3BucketCorsRule : aws.S3Bucket.IS3BucketCorsRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#allowed_methods S3Bucket#allowed_methods}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket#allowed_methods S3Bucket#allowed_methods}.</summary>
         [JsiiProperty(name: "allowedMethods", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] AllowedMethods
         {
@@ -17,7 +17,7 @@ namespace aws.S3Bucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#allowed_origins S3Bucket#allowed_origins}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket#allowed_origins S3Bucket#allowed_origins}.</summary>
         [JsiiProperty(name: "allowedOrigins", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] AllowedOrigins
         {
@@ -25,7 +25,7 @@ namespace aws.S3Bucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#allowed_headers S3Bucket#allowed_headers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket#allowed_headers S3Bucket#allowed_headers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "allowedHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AllowedHeaders
@@ -34,7 +34,7 @@ namespace aws.S3Bucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#expose_headers S3Bucket#expose_headers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket#expose_headers S3Bucket#expose_headers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "exposeHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ExposeHeaders
@@ -43,7 +43,7 @@ namespace aws.S3Bucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#max_age_seconds S3Bucket#max_age_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket#max_age_seconds S3Bucket#max_age_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxAgeSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxAgeSeconds

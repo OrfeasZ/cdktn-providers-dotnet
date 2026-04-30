@@ -9,7 +9,7 @@ namespace aws.DataAwsVpcIpamPools
     [JsiiByValue(fqn: "aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsFilter")]
     public class DataAwsVpcIpamPoolsFilter : aws.DataAwsVpcIpamPools.IDataAwsVpcIpamPoolsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpc_ipam_pools#name DataAwsVpcIpamPools#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/vpc_ipam_pools#name DataAwsVpcIpamPools#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsVpcIpamPools
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpc_ipam_pools#values DataAwsVpcIpamPools#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/vpc_ipam_pools#values DataAwsVpcIpamPools#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

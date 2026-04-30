@@ -7,7 +7,7 @@ namespace aws.LocationTrackerAssociation
     [JsiiByValue(fqn: "aws.locationTrackerAssociation.LocationTrackerAssociationTimeouts")]
     public class LocationTrackerAssociationTimeouts : aws.LocationTrackerAssociation.ILocationTrackerAssociationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/location_tracker_association#create LocationTrackerAssociation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/location_tracker_association#create LocationTrackerAssociation#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.LocationTrackerAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/location_tracker_association#delete LocationTrackerAssociation#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/location_tracker_association#delete LocationTrackerAssociation#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

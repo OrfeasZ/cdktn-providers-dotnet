@@ -7,7 +7,7 @@ namespace aws.CodeartifactRepository
     [JsiiInterface(nativeType: typeof(ICodeartifactRepositoryExternalConnections), fullyQualifiedName: "aws.codeartifactRepository.CodeartifactRepositoryExternalConnections")]
     public interface ICodeartifactRepositoryExternalConnections
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codeartifact_repository#external_connection_name CodeartifactRepository#external_connection_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codeartifact_repository#external_connection_name CodeartifactRepository#external_connection_name}.</summary>
         [JsiiProperty(name: "externalConnectionName", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalConnectionName
         {
@@ -21,7 +21,7 @@ namespace aws.CodeartifactRepository
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codeartifact_repository#external_connection_name CodeartifactRepository#external_connection_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codeartifact_repository#external_connection_name CodeartifactRepository#external_connection_name}.</summary>
             [JsiiProperty(name: "externalConnectionName", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalConnectionName
             {

@@ -7,7 +7,7 @@ namespace aws.NetworkmanagerConnectPeer
     [JsiiByValue(fqn: "aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerBgpOptions")]
     public class NetworkmanagerConnectPeerBgpOptions : aws.NetworkmanagerConnectPeer.INetworkmanagerConnectPeerBgpOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_connect_peer#peer_asn NetworkmanagerConnectPeer#peer_asn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_connect_peer#peer_asn NetworkmanagerConnectPeer#peer_asn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "peerAsn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PeerAsn

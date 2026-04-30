@@ -7,21 +7,21 @@ namespace aws.CloudfrontDistribution
     [JsiiInterface(nativeType: typeof(ICloudfrontDistributionOrigin), fullyQualifiedName: "aws.cloudfrontDistribution.CloudfrontDistributionOrigin")]
     public interface ICloudfrontDistributionOrigin
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#domain_name CloudfrontDistribution#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#domain_name CloudfrontDistribution#domain_name}.</summary>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         string DomainName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#origin_id CloudfrontDistribution#origin_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#origin_id CloudfrontDistribution#origin_id}.</summary>
         [JsiiProperty(name: "originId", typeJson: "{\"primitive\":\"string\"}")]
         string OriginId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#connection_attempts CloudfrontDistribution#connection_attempts}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#connection_attempts CloudfrontDistribution#connection_attempts}.</summary>
         [JsiiProperty(name: "connectionAttempts", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ConnectionAttempts
@@ -32,7 +32,7 @@ namespace aws.CloudfrontDistribution
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#connection_timeout CloudfrontDistribution#connection_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#connection_timeout CloudfrontDistribution#connection_timeout}.</summary>
         [JsiiProperty(name: "connectionTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ConnectionTimeout
@@ -45,7 +45,7 @@ namespace aws.CloudfrontDistribution
 
         /// <summary>custom_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#custom_header CloudfrontDistribution#custom_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#custom_header CloudfrontDistribution#custom_header}
         /// </remarks>
         [JsiiProperty(name: "customHeader", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginCustomHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace aws.CloudfrontDistribution
 
         /// <summary>custom_origin_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#custom_origin_config CloudfrontDistribution#custom_origin_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#custom_origin_config CloudfrontDistribution#custom_origin_config}
         /// </remarks>
         [JsiiProperty(name: "customOriginConfig", typeJson: "{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginCustomOriginConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -71,7 +71,7 @@ namespace aws.CloudfrontDistribution
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#origin_access_control_id CloudfrontDistribution#origin_access_control_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#origin_access_control_id CloudfrontDistribution#origin_access_control_id}.</summary>
         [JsiiProperty(name: "originAccessControlId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OriginAccessControlId
@@ -82,7 +82,7 @@ namespace aws.CloudfrontDistribution
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#origin_path CloudfrontDistribution#origin_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#origin_path CloudfrontDistribution#origin_path}.</summary>
         [JsiiProperty(name: "originPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OriginPath
@@ -95,7 +95,7 @@ namespace aws.CloudfrontDistribution
 
         /// <summary>origin_shield block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#origin_shield CloudfrontDistribution#origin_shield}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#origin_shield CloudfrontDistribution#origin_shield}
         /// </remarks>
         [JsiiProperty(name: "originShield", typeJson: "{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginOriginShield\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -107,7 +107,7 @@ namespace aws.CloudfrontDistribution
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#response_completion_timeout CloudfrontDistribution#response_completion_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#response_completion_timeout CloudfrontDistribution#response_completion_timeout}.</summary>
         [JsiiProperty(name: "responseCompletionTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ResponseCompletionTimeout
@@ -120,7 +120,7 @@ namespace aws.CloudfrontDistribution
 
         /// <summary>s3_origin_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#s3_origin_config CloudfrontDistribution#s3_origin_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#s3_origin_config CloudfrontDistribution#s3_origin_config}
         /// </remarks>
         [JsiiProperty(name: "s3OriginConfig", typeJson: "{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginS3OriginConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -134,7 +134,7 @@ namespace aws.CloudfrontDistribution
 
         /// <summary>vpc_origin_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#vpc_origin_config CloudfrontDistribution#vpc_origin_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#vpc_origin_config CloudfrontDistribution#vpc_origin_config}
         /// </remarks>
         [JsiiProperty(name: "vpcOriginConfig", typeJson: "{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginVpcOriginConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -153,21 +153,21 @@ namespace aws.CloudfrontDistribution
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#domain_name CloudfrontDistribution#domain_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#domain_name CloudfrontDistribution#domain_name}.</summary>
             [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
             public string DomainName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#origin_id CloudfrontDistribution#origin_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#origin_id CloudfrontDistribution#origin_id}.</summary>
             [JsiiProperty(name: "originId", typeJson: "{\"primitive\":\"string\"}")]
             public string OriginId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#connection_attempts CloudfrontDistribution#connection_attempts}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#connection_attempts CloudfrontDistribution#connection_attempts}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "connectionAttempts", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ConnectionAttempts
@@ -175,7 +175,7 @@ namespace aws.CloudfrontDistribution
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#connection_timeout CloudfrontDistribution#connection_timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#connection_timeout CloudfrontDistribution#connection_timeout}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "connectionTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ConnectionTimeout
@@ -185,7 +185,7 @@ namespace aws.CloudfrontDistribution
 
             /// <summary>custom_header block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#custom_header CloudfrontDistribution#custom_header}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#custom_header CloudfrontDistribution#custom_header}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customHeader", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginCustomHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -196,7 +196,7 @@ namespace aws.CloudfrontDistribution
 
             /// <summary>custom_origin_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#custom_origin_config CloudfrontDistribution#custom_origin_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#custom_origin_config CloudfrontDistribution#custom_origin_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customOriginConfig", typeJson: "{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginCustomOriginConfig\"}", isOptional: true)]
@@ -205,7 +205,7 @@ namespace aws.CloudfrontDistribution
                 get => GetInstanceProperty<aws.CloudfrontDistribution.ICloudfrontDistributionOriginCustomOriginConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#origin_access_control_id CloudfrontDistribution#origin_access_control_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#origin_access_control_id CloudfrontDistribution#origin_access_control_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "originAccessControlId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OriginAccessControlId
@@ -213,7 +213,7 @@ namespace aws.CloudfrontDistribution
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#origin_path CloudfrontDistribution#origin_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#origin_path CloudfrontDistribution#origin_path}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "originPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OriginPath
@@ -223,7 +223,7 @@ namespace aws.CloudfrontDistribution
 
             /// <summary>origin_shield block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#origin_shield CloudfrontDistribution#origin_shield}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#origin_shield CloudfrontDistribution#origin_shield}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "originShield", typeJson: "{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginOriginShield\"}", isOptional: true)]
@@ -232,7 +232,7 @@ namespace aws.CloudfrontDistribution
                 get => GetInstanceProperty<aws.CloudfrontDistribution.ICloudfrontDistributionOriginOriginShield?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#response_completion_timeout CloudfrontDistribution#response_completion_timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#response_completion_timeout CloudfrontDistribution#response_completion_timeout}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "responseCompletionTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ResponseCompletionTimeout
@@ -242,7 +242,7 @@ namespace aws.CloudfrontDistribution
 
             /// <summary>s3_origin_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#s3_origin_config CloudfrontDistribution#s3_origin_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#s3_origin_config CloudfrontDistribution#s3_origin_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3OriginConfig", typeJson: "{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginS3OriginConfig\"}", isOptional: true)]
@@ -253,7 +253,7 @@ namespace aws.CloudfrontDistribution
 
             /// <summary>vpc_origin_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#vpc_origin_config CloudfrontDistribution#vpc_origin_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#vpc_origin_config CloudfrontDistribution#vpc_origin_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vpcOriginConfig", typeJson: "{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginVpcOriginConfig\"}", isOptional: true)]

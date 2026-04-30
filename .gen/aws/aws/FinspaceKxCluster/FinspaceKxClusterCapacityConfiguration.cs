@@ -9,7 +9,7 @@ namespace aws.FinspaceKxCluster
     [JsiiByValue(fqn: "aws.finspaceKxCluster.FinspaceKxClusterCapacityConfiguration")]
     public class FinspaceKxClusterCapacityConfiguration : aws.FinspaceKxCluster.IFinspaceKxClusterCapacityConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#node_count FinspaceKxCluster#node_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_cluster#node_count FinspaceKxCluster#node_count}.</summary>
         [JsiiProperty(name: "nodeCount", typeJson: "{\"primitive\":\"number\"}")]
         public double NodeCount
         {
@@ -17,7 +17,7 @@ namespace aws.FinspaceKxCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#node_type FinspaceKxCluster#node_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_cluster#node_type FinspaceKxCluster#node_type}.</summary>
         [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}")]
         public string NodeType
         {

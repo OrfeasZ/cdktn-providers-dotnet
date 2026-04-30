@@ -7,7 +7,7 @@ namespace aws.FmsPolicy
     [JsiiByValue(fqn: "aws.fmsPolicy.FmsPolicySecurityServicePolicyDataPolicyOptionThirdPartyFirewallPolicy")]
     public class FmsPolicySecurityServicePolicyDataPolicyOptionThirdPartyFirewallPolicy : aws.FmsPolicy.IFmsPolicySecurityServicePolicyDataPolicyOptionThirdPartyFirewallPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_policy#firewall_deployment_model FmsPolicy#firewall_deployment_model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fms_policy#firewall_deployment_model FmsPolicy#firewall_deployment_model}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "firewallDeploymentModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FirewallDeploymentModel

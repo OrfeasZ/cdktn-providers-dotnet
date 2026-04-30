@@ -9,7 +9,7 @@ namespace aws.FinspaceKxVolume
     [JsiiByValue(fqn: "aws.finspaceKxVolume.FinspaceKxVolumeNas1Configuration")]
     public class FinspaceKxVolumeNas1Configuration : aws.FinspaceKxVolume.IFinspaceKxVolumeNas1Configuration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_volume#size FinspaceKxVolume#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_volume#size FinspaceKxVolume#size}.</summary>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}")]
         public double Size
         {
@@ -17,7 +17,7 @@ namespace aws.FinspaceKxVolume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_volume#type FinspaceKxVolume#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_volume#type FinspaceKxVolume#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

@@ -9,7 +9,7 @@ namespace aws.LbTargetGroup
     [JsiiByValue(fqn: "aws.lbTargetGroup.LbTargetGroupTargetFailover")]
     public class LbTargetGroupTargetFailover : aws.LbTargetGroup.ILbTargetGroupTargetFailover
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#on_deregistration LbTargetGroup#on_deregistration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#on_deregistration LbTargetGroup#on_deregistration}.</summary>
         [JsiiProperty(name: "onDeregistration", typeJson: "{\"primitive\":\"string\"}")]
         public string OnDeregistration
         {
@@ -17,7 +17,7 @@ namespace aws.LbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#on_unhealthy LbTargetGroup#on_unhealthy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#on_unhealthy LbTargetGroup#on_unhealthy}.</summary>
         [JsiiProperty(name: "onUnhealthy", typeJson: "{\"primitive\":\"string\"}")]
         public string OnUnhealthy
         {

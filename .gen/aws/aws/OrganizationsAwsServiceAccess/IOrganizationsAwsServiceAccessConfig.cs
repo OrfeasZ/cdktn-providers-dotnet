@@ -7,7 +7,7 @@ namespace aws.OrganizationsAwsServiceAccess
     [JsiiInterface(nativeType: typeof(IOrganizationsAwsServiceAccessConfig), fullyQualifiedName: "aws.organizationsAwsServiceAccess.OrganizationsAwsServiceAccessConfig")]
     public interface IOrganizationsAwsServiceAccessConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/organizations_aws_service_access#service_principal OrganizationsAwsServiceAccess#service_principal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/organizations_aws_service_access#service_principal OrganizationsAwsServiceAccess#service_principal}.</summary>
         [JsiiProperty(name: "servicePrincipal", typeJson: "{\"primitive\":\"string\"}")]
         string ServicePrincipal
         {
@@ -21,7 +21,7 @@ namespace aws.OrganizationsAwsServiceAccess
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/organizations_aws_service_access#service_principal OrganizationsAwsServiceAccess#service_principal}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/organizations_aws_service_access#service_principal OrganizationsAwsServiceAccess#service_principal}.</summary>
             [JsiiProperty(name: "servicePrincipal", typeJson: "{\"primitive\":\"string\"}")]
             public string ServicePrincipal
             {

@@ -7,14 +7,14 @@ namespace aws.DataAwsIdentitystoreUser
     [JsiiInterface(nativeType: typeof(IDataAwsIdentitystoreUserAlternateIdentifierUniqueAttribute), fullyQualifiedName: "aws.dataAwsIdentitystoreUser.DataAwsIdentitystoreUserAlternateIdentifierUniqueAttribute")]
     public interface IDataAwsIdentitystoreUserAlternateIdentifierUniqueAttribute
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/identitystore_user#attribute_path DataAwsIdentitystoreUser#attribute_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/identitystore_user#attribute_path DataAwsIdentitystoreUser#attribute_path}.</summary>
         [JsiiProperty(name: "attributePath", typeJson: "{\"primitive\":\"string\"}")]
         string AttributePath
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/identitystore_user#attribute_value DataAwsIdentitystoreUser#attribute_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/identitystore_user#attribute_value DataAwsIdentitystoreUser#attribute_value}.</summary>
         [JsiiProperty(name: "attributeValue", typeJson: "{\"primitive\":\"string\"}")]
         string AttributeValue
         {
@@ -28,14 +28,14 @@ namespace aws.DataAwsIdentitystoreUser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/identitystore_user#attribute_path DataAwsIdentitystoreUser#attribute_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/identitystore_user#attribute_path DataAwsIdentitystoreUser#attribute_path}.</summary>
             [JsiiProperty(name: "attributePath", typeJson: "{\"primitive\":\"string\"}")]
             public string AttributePath
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/identitystore_user#attribute_value DataAwsIdentitystoreUser#attribute_value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/identitystore_user#attribute_value DataAwsIdentitystoreUser#attribute_value}.</summary>
             [JsiiProperty(name: "attributeValue", typeJson: "{\"primitive\":\"string\"}")]
             public string AttributeValue
             {

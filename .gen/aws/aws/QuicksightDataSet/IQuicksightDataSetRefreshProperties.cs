@@ -9,7 +9,7 @@ namespace aws.QuicksightDataSet
     {
         /// <summary>refresh_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#refresh_configuration QuicksightDataSet#refresh_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#refresh_configuration QuicksightDataSet#refresh_configuration}
         /// </remarks>
         [JsiiProperty(name: "refreshConfiguration", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetRefreshPropertiesRefreshConfiguration\"}")]
         aws.QuicksightDataSet.IQuicksightDataSetRefreshPropertiesRefreshConfiguration RefreshConfiguration
@@ -26,7 +26,7 @@ namespace aws.QuicksightDataSet
 
             /// <summary>refresh_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#refresh_configuration QuicksightDataSet#refresh_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#refresh_configuration QuicksightDataSet#refresh_configuration}
             /// </remarks>
             [JsiiProperty(name: "refreshConfiguration", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetRefreshPropertiesRefreshConfiguration\"}")]
             public aws.QuicksightDataSet.IQuicksightDataSetRefreshPropertiesRefreshConfiguration RefreshConfiguration

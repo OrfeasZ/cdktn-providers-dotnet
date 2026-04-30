@@ -9,7 +9,7 @@ namespace aws.ImagebuilderImageRecipe
     [JsiiByValue(fqn: "aws.imagebuilderImageRecipe.ImagebuilderImageRecipeComponentParameter")]
     public class ImagebuilderImageRecipeComponentParameter : aws.ImagebuilderImageRecipe.IImagebuilderImageRecipeComponentParameter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image_recipe#name ImagebuilderImageRecipe#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image_recipe#name ImagebuilderImageRecipe#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.ImagebuilderImageRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image_recipe#value ImagebuilderImageRecipe#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image_recipe#value ImagebuilderImageRecipe#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

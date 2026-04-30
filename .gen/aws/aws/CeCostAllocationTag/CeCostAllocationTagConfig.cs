@@ -9,7 +9,7 @@ namespace aws.CeCostAllocationTag
     [JsiiByValue(fqn: "aws.ceCostAllocationTag.CeCostAllocationTagConfig")]
     public class CeCostAllocationTagConfig : aws.CeCostAllocationTag.ICeCostAllocationTagConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_allocation_tag#status CeCostAllocationTag#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ce_cost_allocation_tag#status CeCostAllocationTag#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public string Status
         {
@@ -17,7 +17,7 @@ namespace aws.CeCostAllocationTag
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_allocation_tag#tag_key CeCostAllocationTag#tag_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ce_cost_allocation_tag#tag_key CeCostAllocationTag#tag_key}.</summary>
         [JsiiProperty(name: "tagKey", typeJson: "{\"primitive\":\"string\"}")]
         public string TagKey
         {
@@ -25,7 +25,7 @@ namespace aws.CeCostAllocationTag
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_allocation_tag#id CeCostAllocationTag#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ce_cost_allocation_tag#id CeCostAllocationTag#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

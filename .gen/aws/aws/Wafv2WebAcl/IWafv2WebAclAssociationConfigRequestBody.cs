@@ -9,7 +9,7 @@ namespace aws.Wafv2WebAcl
     {
         /// <summary>api_gateway block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#api_gateway Wafv2WebAcl#api_gateway}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl#api_gateway Wafv2WebAcl#api_gateway}
         /// </remarks>
         [JsiiProperty(name: "apiGateway", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclAssociationConfigRequestBodyApiGateway\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.Wafv2WebAcl
 
         /// <summary>app_runner_service block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#app_runner_service Wafv2WebAcl#app_runner_service}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl#app_runner_service Wafv2WebAcl#app_runner_service}
         /// </remarks>
         [JsiiProperty(name: "appRunnerService", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclAssociationConfigRequestBodyAppRunnerService\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.Wafv2WebAcl
 
         /// <summary>cloudfront block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#cloudfront Wafv2WebAcl#cloudfront}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl#cloudfront Wafv2WebAcl#cloudfront}
         /// </remarks>
         [JsiiProperty(name: "cloudfront", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclAssociationConfigRequestBodyCloudfront\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace aws.Wafv2WebAcl
 
         /// <summary>cognito_user_pool block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#cognito_user_pool Wafv2WebAcl#cognito_user_pool}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl#cognito_user_pool Wafv2WebAcl#cognito_user_pool}
         /// </remarks>
         [JsiiProperty(name: "cognitoUserPool", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclAssociationConfigRequestBodyCognitoUserPool\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace aws.Wafv2WebAcl
 
         /// <summary>verified_access_instance block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#verified_access_instance Wafv2WebAcl#verified_access_instance}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl#verified_access_instance Wafv2WebAcl#verified_access_instance}
         /// </remarks>
         [JsiiProperty(name: "verifiedAccessInstance", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclAssociationConfigRequestBodyVerifiedAccessInstance\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -86,7 +86,7 @@ namespace aws.Wafv2WebAcl
 
             /// <summary>api_gateway block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#api_gateway Wafv2WebAcl#api_gateway}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl#api_gateway Wafv2WebAcl#api_gateway}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "apiGateway", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclAssociationConfigRequestBodyApiGateway\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace aws.Wafv2WebAcl
 
             /// <summary>app_runner_service block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#app_runner_service Wafv2WebAcl#app_runner_service}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl#app_runner_service Wafv2WebAcl#app_runner_service}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "appRunnerService", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclAssociationConfigRequestBodyAppRunnerService\"}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace aws.Wafv2WebAcl
 
             /// <summary>cloudfront block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#cloudfront Wafv2WebAcl#cloudfront}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl#cloudfront Wafv2WebAcl#cloudfront}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudfront", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclAssociationConfigRequestBodyCloudfront\"}", isOptional: true)]
@@ -119,7 +119,7 @@ namespace aws.Wafv2WebAcl
 
             /// <summary>cognito_user_pool block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#cognito_user_pool Wafv2WebAcl#cognito_user_pool}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl#cognito_user_pool Wafv2WebAcl#cognito_user_pool}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cognitoUserPool", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclAssociationConfigRequestBodyCognitoUserPool\"}", isOptional: true)]
@@ -130,7 +130,7 @@ namespace aws.Wafv2WebAcl
 
             /// <summary>verified_access_instance block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#verified_access_instance Wafv2WebAcl#verified_access_instance}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl#verified_access_instance Wafv2WebAcl#verified_access_instance}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "verifiedAccessInstance", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclAssociationConfigRequestBodyVerifiedAccessInstance\"}", isOptional: true)]

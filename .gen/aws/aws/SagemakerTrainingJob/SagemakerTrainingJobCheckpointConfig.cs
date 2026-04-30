@@ -9,7 +9,7 @@ namespace aws.SagemakerTrainingJob
     [JsiiByValue(fqn: "aws.sagemakerTrainingJob.SagemakerTrainingJobCheckpointConfig")]
     public class SagemakerTrainingJobCheckpointConfig : aws.SagemakerTrainingJob.ISagemakerTrainingJobCheckpointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#s3_uri SagemakerTrainingJob#s3_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#s3_uri SagemakerTrainingJob#s3_uri}.</summary>
         [JsiiProperty(name: "s3Uri", typeJson: "{\"primitive\":\"string\"}")]
         public string S3Uri
         {
@@ -17,7 +17,7 @@ namespace aws.SagemakerTrainingJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#local_path SagemakerTrainingJob#local_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#local_path SagemakerTrainingJob#local_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "localPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LocalPath

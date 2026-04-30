@@ -9,7 +9,7 @@ namespace aws.WafregionalRule
     [JsiiByValue(fqn: "aws.wafregionalRule.WafregionalRulePredicate")]
     public class WafregionalRulePredicate : aws.WafregionalRule.IWafregionalRulePredicate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_rule#data_id WafregionalRule#data_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_rule#data_id WafregionalRule#data_id}.</summary>
         [JsiiProperty(name: "dataId", typeJson: "{\"primitive\":\"string\"}")]
         public string DataId
         {
@@ -19,7 +19,7 @@ namespace aws.WafregionalRule
 
         private object _negated;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_rule#negated WafregionalRule#negated}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_rule#negated WafregionalRule#negated}.</summary>
         [JsiiProperty(name: "negated", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object Negated
         {
@@ -47,7 +47,7 @@ namespace aws.WafregionalRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_rule#type WafregionalRule#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_rule#type WafregionalRule#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

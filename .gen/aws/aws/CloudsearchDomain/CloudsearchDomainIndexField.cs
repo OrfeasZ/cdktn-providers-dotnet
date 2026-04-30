@@ -9,7 +9,7 @@ namespace aws.CloudsearchDomain
     [JsiiByValue(fqn: "aws.cloudsearchDomain.CloudsearchDomainIndexField")]
     public class CloudsearchDomainIndexField : aws.CloudsearchDomain.ICloudsearchDomainIndexField
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#name CloudsearchDomain#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#name CloudsearchDomain#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.CloudsearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#type CloudsearchDomain#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#type CloudsearchDomain#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -25,7 +25,7 @@ namespace aws.CloudsearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#analysis_scheme CloudsearchDomain#analysis_scheme}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#analysis_scheme CloudsearchDomain#analysis_scheme}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "analysisScheme", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AnalysisScheme
@@ -34,7 +34,7 @@ namespace aws.CloudsearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#default_value CloudsearchDomain#default_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#default_value CloudsearchDomain#default_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultValue
@@ -45,7 +45,7 @@ namespace aws.CloudsearchDomain
 
         private object? _facet;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#facet CloudsearchDomain#facet}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#facet CloudsearchDomain#facet}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "facet", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Facet
@@ -76,7 +76,7 @@ namespace aws.CloudsearchDomain
 
         private object? _highlight;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#highlight CloudsearchDomain#highlight}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#highlight CloudsearchDomain#highlight}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "highlight", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Highlight
@@ -107,7 +107,7 @@ namespace aws.CloudsearchDomain
 
         private object? _return;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#return CloudsearchDomain#return}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#return CloudsearchDomain#return}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "return", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Return
@@ -138,7 +138,7 @@ namespace aws.CloudsearchDomain
 
         private object? _search;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#search CloudsearchDomain#search}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#search CloudsearchDomain#search}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "search", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Search
@@ -169,7 +169,7 @@ namespace aws.CloudsearchDomain
 
         private object? _sort;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#sort CloudsearchDomain#sort}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#sort CloudsearchDomain#sort}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sort", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Sort
@@ -198,7 +198,7 @@ namespace aws.CloudsearchDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#source_fields CloudsearchDomain#source_fields}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#source_fields CloudsearchDomain#source_fields}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceFields", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceFields

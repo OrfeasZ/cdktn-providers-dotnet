@@ -7,7 +7,7 @@ namespace aws.SesConfigurationSet
     [JsiiInterface(nativeType: typeof(ISesConfigurationSetDeliveryOptions), fullyQualifiedName: "aws.sesConfigurationSet.SesConfigurationSetDeliveryOptions")]
     public interface ISesConfigurationSetDeliveryOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#tls_policy SesConfigurationSet#tls_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ses_configuration_set#tls_policy SesConfigurationSet#tls_policy}.</summary>
         [JsiiProperty(name: "tlsPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TlsPolicy
@@ -25,7 +25,7 @@ namespace aws.SesConfigurationSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#tls_policy SesConfigurationSet#tls_policy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ses_configuration_set#tls_policy SesConfigurationSet#tls_policy}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tlsPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TlsPolicy

@@ -9,7 +9,7 @@ namespace aws.TimestreamwriteTable
     [JsiiByValue(fqn: "aws.timestreamwriteTable.TimestreamwriteTableSchemaCompositePartitionKey")]
     public class TimestreamwriteTableSchemaCompositePartitionKey : aws.TimestreamwriteTable.ITimestreamwriteTableSchemaCompositePartitionKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/timestreamwrite_table#type TimestreamwriteTable#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/timestreamwrite_table#type TimestreamwriteTable#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.TimestreamwriteTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/timestreamwrite_table#enforcement_in_record TimestreamwriteTable#enforcement_in_record}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/timestreamwrite_table#enforcement_in_record TimestreamwriteTable#enforcement_in_record}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enforcementInRecord", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EnforcementInRecord
@@ -26,7 +26,7 @@ namespace aws.TimestreamwriteTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/timestreamwrite_table#name TimestreamwriteTable#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/timestreamwrite_table#name TimestreamwriteTable#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name

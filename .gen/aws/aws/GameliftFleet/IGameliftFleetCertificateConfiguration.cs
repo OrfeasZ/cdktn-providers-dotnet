@@ -7,7 +7,7 @@ namespace aws.GameliftFleet
     [JsiiInterface(nativeType: typeof(IGameliftFleetCertificateConfiguration), fullyQualifiedName: "aws.gameliftFleet.GameliftFleetCertificateConfiguration")]
     public interface IGameliftFleetCertificateConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_fleet#certificate_type GameliftFleet#certificate_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_fleet#certificate_type GameliftFleet#certificate_type}.</summary>
         [JsiiProperty(name: "certificateType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CertificateType
@@ -25,7 +25,7 @@ namespace aws.GameliftFleet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_fleet#certificate_type GameliftFleet#certificate_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_fleet#certificate_type GameliftFleet#certificate_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "certificateType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CertificateType

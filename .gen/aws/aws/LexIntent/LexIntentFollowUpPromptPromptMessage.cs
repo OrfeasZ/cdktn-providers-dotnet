@@ -9,7 +9,7 @@ namespace aws.LexIntent
     [JsiiByValue(fqn: "aws.lexIntent.LexIntentFollowUpPromptPromptMessage")]
     public class LexIntentFollowUpPromptPromptMessage : aws.LexIntent.ILexIntentFollowUpPromptPromptMessage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#content LexIntent#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_intent#content LexIntent#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         public string Content
         {
@@ -17,7 +17,7 @@ namespace aws.LexIntent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#content_type LexIntent#content_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_intent#content_type LexIntent#content_type}.</summary>
         [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}")]
         public string ContentType
         {
@@ -25,7 +25,7 @@ namespace aws.LexIntent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#group_number LexIntent#group_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_intent#group_number LexIntent#group_number}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "groupNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? GroupNumber

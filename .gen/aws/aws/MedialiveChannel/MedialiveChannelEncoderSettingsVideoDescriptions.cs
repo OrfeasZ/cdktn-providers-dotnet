@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     [JsiiByValue(fqn: "aws.medialiveChannel.MedialiveChannelEncoderSettingsVideoDescriptions")]
     public class MedialiveChannelEncoderSettingsVideoDescriptions : aws.MedialiveChannel.IMedialiveChannelEncoderSettingsVideoDescriptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#name MedialiveChannel#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#name MedialiveChannel#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -19,7 +19,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>codec_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#codec_settings MedialiveChannel#codec_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#codec_settings MedialiveChannel#codec_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "codecSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettings\"}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#height MedialiveChannel#height}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#height MedialiveChannel#height}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "height", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Height
@@ -38,7 +38,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#respond_to_afd MedialiveChannel#respond_to_afd}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#respond_to_afd MedialiveChannel#respond_to_afd}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "respondToAfd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RespondToAfd
@@ -47,7 +47,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#scaling_behavior MedialiveChannel#scaling_behavior}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#scaling_behavior MedialiveChannel#scaling_behavior}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scalingBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ScalingBehavior
@@ -56,7 +56,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#sharpness MedialiveChannel#sharpness}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#sharpness MedialiveChannel#sharpness}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sharpness", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Sharpness
@@ -65,7 +65,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#width MedialiveChannel#width}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#width MedialiveChannel#width}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "width", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Width

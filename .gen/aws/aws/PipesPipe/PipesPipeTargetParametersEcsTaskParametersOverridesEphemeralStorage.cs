@@ -9,7 +9,7 @@ namespace aws.PipesPipe
     [JsiiByValue(fqn: "aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage")]
     public class PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage : aws.PipesPipe.IPipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#size_in_gib PipesPipe#size_in_gib}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#size_in_gib PipesPipe#size_in_gib}.</summary>
         [JsiiProperty(name: "sizeInGib", typeJson: "{\"primitive\":\"number\"}")]
         public double SizeInGib
         {

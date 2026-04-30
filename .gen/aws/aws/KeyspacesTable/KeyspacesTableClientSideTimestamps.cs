@@ -9,7 +9,7 @@ namespace aws.KeyspacesTable
     [JsiiByValue(fqn: "aws.keyspacesTable.KeyspacesTableClientSideTimestamps")]
     public class KeyspacesTableClientSideTimestamps : aws.KeyspacesTable.IKeyspacesTableClientSideTimestamps
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/keyspaces_table#status KeyspacesTable#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/keyspaces_table#status KeyspacesTable#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public string Status
         {

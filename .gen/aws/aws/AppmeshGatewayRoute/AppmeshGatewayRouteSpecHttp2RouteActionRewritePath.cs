@@ -9,7 +9,7 @@ namespace aws.AppmeshGatewayRoute
     [JsiiByValue(fqn: "aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttp2RouteActionRewritePath")]
     public class AppmeshGatewayRouteSpecHttp2RouteActionRewritePath : aws.AppmeshGatewayRoute.IAppmeshGatewayRouteSpecHttp2RouteActionRewritePath
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_gateway_route#exact AppmeshGatewayRoute#exact}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_gateway_route#exact AppmeshGatewayRoute#exact}.</summary>
         [JsiiProperty(name: "exact", typeJson: "{\"primitive\":\"string\"}")]
         public string Exact
         {

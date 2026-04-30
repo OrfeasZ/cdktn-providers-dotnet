@@ -5,7 +5,7 @@ namespace aws.DataAwsRoute53ResolverFirewallDomainList
     /// <remarks>
     /// <h1><c>data_aws_route53_resolver_firewall_domain_list</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/route53_resolver_firewall_domain_list"><c>data_aws_route53_resolver_firewall_domain_list</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/route53_resolver_firewall_domain_list"><c>data_aws_route53_resolver_firewall_domain_list</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

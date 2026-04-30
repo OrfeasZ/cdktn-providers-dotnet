@@ -7,7 +7,7 @@ namespace aws.SagemakerModel
     [JsiiInterface(nativeType: typeof(ISagemakerModelContainerImageConfigRepositoryAuthConfig), fullyQualifiedName: "aws.sagemakerModel.SagemakerModelContainerImageConfigRepositoryAuthConfig")]
     public interface ISagemakerModelContainerImageConfigRepositoryAuthConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#repository_credentials_provider_arn SagemakerModel#repository_credentials_provider_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#repository_credentials_provider_arn SagemakerModel#repository_credentials_provider_arn}.</summary>
         [JsiiProperty(name: "repositoryCredentialsProviderArn", typeJson: "{\"primitive\":\"string\"}")]
         string RepositoryCredentialsProviderArn
         {
@@ -21,7 +21,7 @@ namespace aws.SagemakerModel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#repository_credentials_provider_arn SagemakerModel#repository_credentials_provider_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#repository_credentials_provider_arn SagemakerModel#repository_credentials_provider_arn}.</summary>
             [JsiiProperty(name: "repositoryCredentialsProviderArn", typeJson: "{\"primitive\":\"string\"}")]
             public string RepositoryCredentialsProviderArn
             {

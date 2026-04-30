@@ -11,7 +11,7 @@ namespace aws.KinesisAnalyticsApplication
     {
         /// <summary>s3 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#s3 KinesisAnalyticsApplication#s3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_analytics_application#s3 KinesisAnalyticsApplication#s3}
         /// </remarks>
         [JsiiProperty(name: "s3", typeJson: "{\"fqn\":\"aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationReferenceDataSourcesS3\"}")]
         public aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationReferenceDataSourcesS3 S3
@@ -22,7 +22,7 @@ namespace aws.KinesisAnalyticsApplication
 
         /// <summary>schema block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#schema KinesisAnalyticsApplication#schema}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_analytics_application#schema KinesisAnalyticsApplication#schema}
         /// </remarks>
         [JsiiProperty(name: "schema", typeJson: "{\"fqn\":\"aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationReferenceDataSourcesSchema\"}")]
         public aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationReferenceDataSourcesSchema Schema
@@ -31,7 +31,7 @@ namespace aws.KinesisAnalyticsApplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#table_name KinesisAnalyticsApplication#table_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_analytics_application#table_name KinesisAnalyticsApplication#table_name}.</summary>
         [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}")]
         public string TableName
         {

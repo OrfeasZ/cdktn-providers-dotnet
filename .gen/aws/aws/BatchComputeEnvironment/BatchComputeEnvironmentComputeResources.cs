@@ -9,7 +9,7 @@ namespace aws.BatchComputeEnvironment
     [JsiiByValue(fqn: "aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResources")]
     public class BatchComputeEnvironmentComputeResources : aws.BatchComputeEnvironment.IBatchComputeEnvironmentComputeResources
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#max_vcpus BatchComputeEnvironment#max_vcpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#max_vcpus BatchComputeEnvironment#max_vcpus}.</summary>
         [JsiiProperty(name: "maxVcpus", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxVcpus
         {
@@ -17,7 +17,7 @@ namespace aws.BatchComputeEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#subnets BatchComputeEnvironment#subnets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#subnets BatchComputeEnvironment#subnets}.</summary>
         [JsiiProperty(name: "subnets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Subnets
         {
@@ -25,7 +25,7 @@ namespace aws.BatchComputeEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#type BatchComputeEnvironment#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#type BatchComputeEnvironment#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -33,7 +33,7 @@ namespace aws.BatchComputeEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#allocation_strategy BatchComputeEnvironment#allocation_strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#allocation_strategy BatchComputeEnvironment#allocation_strategy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "allocationStrategy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AllocationStrategy
@@ -42,7 +42,7 @@ namespace aws.BatchComputeEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#bid_percentage BatchComputeEnvironment#bid_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#bid_percentage BatchComputeEnvironment#bid_percentage}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bidPercentage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BidPercentage
@@ -51,7 +51,7 @@ namespace aws.BatchComputeEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#desired_vcpus BatchComputeEnvironment#desired_vcpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#desired_vcpus BatchComputeEnvironment#desired_vcpus}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "desiredVcpus", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DesiredVcpus
@@ -64,7 +64,7 @@ namespace aws.BatchComputeEnvironment
 
         /// <summary>ec2_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#ec2_configuration BatchComputeEnvironment#ec2_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#ec2_configuration BatchComputeEnvironment#ec2_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ec2Configuration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesEc2Configuration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace aws.BatchComputeEnvironment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#ec2_key_pair BatchComputeEnvironment#ec2_key_pair}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#ec2_key_pair BatchComputeEnvironment#ec2_key_pair}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ec2KeyPair", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ec2KeyPair
@@ -103,7 +103,7 @@ namespace aws.BatchComputeEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#image_id BatchComputeEnvironment#image_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#image_id BatchComputeEnvironment#image_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImageId
@@ -112,7 +112,7 @@ namespace aws.BatchComputeEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#instance_role BatchComputeEnvironment#instance_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#instance_role BatchComputeEnvironment#instance_role}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "instanceRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InstanceRole
@@ -121,7 +121,7 @@ namespace aws.BatchComputeEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#instance_type BatchComputeEnvironment#instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#instance_type BatchComputeEnvironment#instance_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "instanceType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? InstanceType
@@ -132,7 +132,7 @@ namespace aws.BatchComputeEnvironment
 
         /// <summary>launch_template block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#launch_template BatchComputeEnvironment#launch_template}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#launch_template BatchComputeEnvironment#launch_template}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "launchTemplate", typeJson: "{\"fqn\":\"aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesLaunchTemplate\"}", isOptional: true)]
@@ -142,7 +142,7 @@ namespace aws.BatchComputeEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#min_vcpus BatchComputeEnvironment#min_vcpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#min_vcpus BatchComputeEnvironment#min_vcpus}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minVcpus", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinVcpus
@@ -151,7 +151,7 @@ namespace aws.BatchComputeEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#placement_group BatchComputeEnvironment#placement_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#placement_group BatchComputeEnvironment#placement_group}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "placementGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PlacementGroup
@@ -160,7 +160,7 @@ namespace aws.BatchComputeEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#security_group_ids BatchComputeEnvironment#security_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#security_group_ids BatchComputeEnvironment#security_group_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SecurityGroupIds
@@ -169,7 +169,7 @@ namespace aws.BatchComputeEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#spot_iam_fleet_role BatchComputeEnvironment#spot_iam_fleet_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#spot_iam_fleet_role BatchComputeEnvironment#spot_iam_fleet_role}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "spotIamFleetRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SpotIamFleetRole
@@ -178,7 +178,7 @@ namespace aws.BatchComputeEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#tags BatchComputeEnvironment#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#tags BatchComputeEnvironment#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags

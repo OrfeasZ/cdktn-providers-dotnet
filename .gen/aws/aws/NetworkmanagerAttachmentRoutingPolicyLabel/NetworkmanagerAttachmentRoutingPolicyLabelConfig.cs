@@ -9,7 +9,7 @@ namespace aws.NetworkmanagerAttachmentRoutingPolicyLabel
     [JsiiByValue(fqn: "aws.networkmanagerAttachmentRoutingPolicyLabel.NetworkmanagerAttachmentRoutingPolicyLabelConfig")]
     public class NetworkmanagerAttachmentRoutingPolicyLabelConfig : aws.NetworkmanagerAttachmentRoutingPolicyLabel.INetworkmanagerAttachmentRoutingPolicyLabelConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_attachment_routing_policy_label#attachment_id NetworkmanagerAttachmentRoutingPolicyLabel#attachment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_attachment_routing_policy_label#attachment_id NetworkmanagerAttachmentRoutingPolicyLabel#attachment_id}.</summary>
         [JsiiProperty(name: "attachmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string AttachmentId
         {
@@ -17,7 +17,7 @@ namespace aws.NetworkmanagerAttachmentRoutingPolicyLabel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_attachment_routing_policy_label#core_network_id NetworkmanagerAttachmentRoutingPolicyLabel#core_network_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_attachment_routing_policy_label#core_network_id NetworkmanagerAttachmentRoutingPolicyLabel#core_network_id}.</summary>
         [JsiiProperty(name: "coreNetworkId", typeJson: "{\"primitive\":\"string\"}")]
         public string CoreNetworkId
         {
@@ -25,7 +25,7 @@ namespace aws.NetworkmanagerAttachmentRoutingPolicyLabel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_attachment_routing_policy_label#routing_policy_label NetworkmanagerAttachmentRoutingPolicyLabel#routing_policy_label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_attachment_routing_policy_label#routing_policy_label NetworkmanagerAttachmentRoutingPolicyLabel#routing_policy_label}.</summary>
         [JsiiProperty(name: "routingPolicyLabel", typeJson: "{\"primitive\":\"string\"}")]
         public string RoutingPolicyLabel
         {

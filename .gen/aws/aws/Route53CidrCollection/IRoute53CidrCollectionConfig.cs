@@ -7,7 +7,7 @@ namespace aws.Route53CidrCollection
     [JsiiInterface(nativeType: typeof(IRoute53CidrCollectionConfig), fullyQualifiedName: "aws.route53CidrCollection.Route53CidrCollectionConfig")]
     public interface IRoute53CidrCollectionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_cidr_collection#name Route53CidrCollection#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_cidr_collection#name Route53CidrCollection#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -21,7 +21,7 @@ namespace aws.Route53CidrCollection
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_cidr_collection#name Route53CidrCollection#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_cidr_collection#name Route53CidrCollection#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {

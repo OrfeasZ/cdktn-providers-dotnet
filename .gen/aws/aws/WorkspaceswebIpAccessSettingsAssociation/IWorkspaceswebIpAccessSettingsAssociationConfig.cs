@@ -7,14 +7,14 @@ namespace aws.WorkspaceswebIpAccessSettingsAssociation
     [JsiiInterface(nativeType: typeof(IWorkspaceswebIpAccessSettingsAssociationConfig), fullyQualifiedName: "aws.workspaceswebIpAccessSettingsAssociation.WorkspaceswebIpAccessSettingsAssociationConfig")]
     public interface IWorkspaceswebIpAccessSettingsAssociationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspacesweb_ip_access_settings_association#ip_access_settings_arn WorkspaceswebIpAccessSettingsAssociation#ip_access_settings_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/workspacesweb_ip_access_settings_association#ip_access_settings_arn WorkspaceswebIpAccessSettingsAssociation#ip_access_settings_arn}.</summary>
         [JsiiProperty(name: "ipAccessSettingsArn", typeJson: "{\"primitive\":\"string\"}")]
         string IpAccessSettingsArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspacesweb_ip_access_settings_association#portal_arn WorkspaceswebIpAccessSettingsAssociation#portal_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/workspacesweb_ip_access_settings_association#portal_arn WorkspaceswebIpAccessSettingsAssociation#portal_arn}.</summary>
         [JsiiProperty(name: "portalArn", typeJson: "{\"primitive\":\"string\"}")]
         string PortalArn
         {
@@ -23,7 +23,7 @@ namespace aws.WorkspaceswebIpAccessSettingsAssociation
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspacesweb_ip_access_settings_association#region WorkspaceswebIpAccessSettingsAssociation#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/workspacesweb_ip_access_settings_association#region WorkspaceswebIpAccessSettingsAssociation#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,14 +42,14 @@ namespace aws.WorkspaceswebIpAccessSettingsAssociation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspacesweb_ip_access_settings_association#ip_access_settings_arn WorkspaceswebIpAccessSettingsAssociation#ip_access_settings_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/workspacesweb_ip_access_settings_association#ip_access_settings_arn WorkspaceswebIpAccessSettingsAssociation#ip_access_settings_arn}.</summary>
             [JsiiProperty(name: "ipAccessSettingsArn", typeJson: "{\"primitive\":\"string\"}")]
             public string IpAccessSettingsArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspacesweb_ip_access_settings_association#portal_arn WorkspaceswebIpAccessSettingsAssociation#portal_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/workspacesweb_ip_access_settings_association#portal_arn WorkspaceswebIpAccessSettingsAssociation#portal_arn}.</summary>
             [JsiiProperty(name: "portalArn", typeJson: "{\"primitive\":\"string\"}")]
             public string PortalArn
             {
@@ -58,7 +58,7 @@ namespace aws.WorkspaceswebIpAccessSettingsAssociation
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspacesweb_ip_access_settings_association#region WorkspaceswebIpAccessSettingsAssociation#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/workspacesweb_ip_access_settings_association#region WorkspaceswebIpAccessSettingsAssociation#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

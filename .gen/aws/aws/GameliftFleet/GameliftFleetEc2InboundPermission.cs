@@ -9,7 +9,7 @@ namespace aws.GameliftFleet
     [JsiiByValue(fqn: "aws.gameliftFleet.GameliftFleetEc2InboundPermission")]
     public class GameliftFleetEc2InboundPermission : aws.GameliftFleet.IGameliftFleetEc2InboundPermission
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_fleet#from_port GameliftFleet#from_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_fleet#from_port GameliftFleet#from_port}.</summary>
         [JsiiProperty(name: "fromPort", typeJson: "{\"primitive\":\"number\"}")]
         public double FromPort
         {
@@ -17,7 +17,7 @@ namespace aws.GameliftFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_fleet#ip_range GameliftFleet#ip_range}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_fleet#ip_range GameliftFleet#ip_range}.</summary>
         [JsiiProperty(name: "ipRange", typeJson: "{\"primitive\":\"string\"}")]
         public string IpRange
         {
@@ -25,7 +25,7 @@ namespace aws.GameliftFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_fleet#protocol GameliftFleet#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_fleet#protocol GameliftFleet#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         public string Protocol
         {
@@ -33,7 +33,7 @@ namespace aws.GameliftFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_fleet#to_port GameliftFleet#to_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_fleet#to_port GameliftFleet#to_port}.</summary>
         [JsiiProperty(name: "toPort", typeJson: "{\"primitive\":\"number\"}")]
         public double ToPort
         {

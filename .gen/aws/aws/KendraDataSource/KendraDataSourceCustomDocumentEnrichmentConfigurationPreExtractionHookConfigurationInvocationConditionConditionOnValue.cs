@@ -7,7 +7,7 @@ namespace aws.KendraDataSource
     [JsiiByValue(fqn: "aws.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue")]
     public class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue : aws.KendraDataSource.IKendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dateValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DateValue
@@ -16,7 +16,7 @@ namespace aws.KendraDataSource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "longValue", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? LongValue
@@ -25,7 +25,7 @@ namespace aws.KendraDataSource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "stringListValue", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? StringListValue
@@ -34,7 +34,7 @@ namespace aws.KendraDataSource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "stringValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StringValue

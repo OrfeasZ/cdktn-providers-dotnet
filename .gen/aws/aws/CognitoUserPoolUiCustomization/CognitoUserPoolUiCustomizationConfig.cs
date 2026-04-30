@@ -9,7 +9,7 @@ namespace aws.CognitoUserPoolUiCustomization
     [JsiiByValue(fqn: "aws.cognitoUserPoolUiCustomization.CognitoUserPoolUiCustomizationConfig")]
     public class CognitoUserPoolUiCustomizationConfig : aws.CognitoUserPoolUiCustomization.ICognitoUserPoolUiCustomizationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool_ui_customization#user_pool_id CognitoUserPoolUiCustomization#user_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool_ui_customization#user_pool_id CognitoUserPoolUiCustomization#user_pool_id}.</summary>
         [JsiiProperty(name: "userPoolId", typeJson: "{\"primitive\":\"string\"}")]
         public string UserPoolId
         {
@@ -17,7 +17,7 @@ namespace aws.CognitoUserPoolUiCustomization
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool_ui_customization#client_id CognitoUserPoolUiCustomization#client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool_ui_customization#client_id CognitoUserPoolUiCustomization#client_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClientId
@@ -26,7 +26,7 @@ namespace aws.CognitoUserPoolUiCustomization
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool_ui_customization#css CognitoUserPoolUiCustomization#css}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool_ui_customization#css CognitoUserPoolUiCustomization#css}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "css", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Css
@@ -35,7 +35,7 @@ namespace aws.CognitoUserPoolUiCustomization
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool_ui_customization#id CognitoUserPoolUiCustomization#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool_ui_customization#id CognitoUserPoolUiCustomization#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace aws.CognitoUserPoolUiCustomization
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool_ui_customization#image_file CognitoUserPoolUiCustomization#image_file}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool_ui_customization#image_file CognitoUserPoolUiCustomization#image_file}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imageFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImageFile
@@ -59,7 +59,7 @@ namespace aws.CognitoUserPoolUiCustomization
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool_ui_customization#region CognitoUserPoolUiCustomization#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool_ui_customization#region CognitoUserPoolUiCustomization#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

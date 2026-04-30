@@ -7,7 +7,7 @@ namespace aws.AppflowFlow
     [JsiiInterface(nativeType: typeof(IAppflowFlowSourceFlowConfigIncrementalPullConfig), fullyQualifiedName: "aws.appflowFlow.AppflowFlowSourceFlowConfigIncrementalPullConfig")]
     public interface IAppflowFlowSourceFlowConfigIncrementalPullConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#datetime_type_field_name AppflowFlow#datetime_type_field_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#datetime_type_field_name AppflowFlow#datetime_type_field_name}.</summary>
         [JsiiProperty(name: "datetimeTypeFieldName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DatetimeTypeFieldName
@@ -25,7 +25,7 @@ namespace aws.AppflowFlow
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#datetime_type_field_name AppflowFlow#datetime_type_field_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#datetime_type_field_name AppflowFlow#datetime_type_field_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "datetimeTypeFieldName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DatetimeTypeFieldName

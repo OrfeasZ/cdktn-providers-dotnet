@@ -9,7 +9,7 @@ namespace aws.ChimeVoiceConnectorGroup
     [JsiiByValue(fqn: "aws.chimeVoiceConnectorGroup.ChimeVoiceConnectorGroupConnector")]
     public class ChimeVoiceConnectorGroupConnector : aws.ChimeVoiceConnectorGroup.IChimeVoiceConnectorGroupConnector
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/chime_voice_connector_group#priority ChimeVoiceConnectorGroup#priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/chime_voice_connector_group#priority ChimeVoiceConnectorGroup#priority}.</summary>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
         public double Priority
         {
@@ -17,7 +17,7 @@ namespace aws.ChimeVoiceConnectorGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/chime_voice_connector_group#voice_connector_id ChimeVoiceConnectorGroup#voice_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/chime_voice_connector_group#voice_connector_id ChimeVoiceConnectorGroup#voice_connector_id}.</summary>
         [JsiiProperty(name: "voiceConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         public string VoiceConnectorId
         {

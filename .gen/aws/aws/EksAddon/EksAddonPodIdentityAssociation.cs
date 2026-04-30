@@ -9,7 +9,7 @@ namespace aws.EksAddon
     [JsiiByValue(fqn: "aws.eksAddon.EksAddonPodIdentityAssociation")]
     public class EksAddonPodIdentityAssociation : aws.EksAddon.IEksAddonPodIdentityAssociation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_addon#role_arn EksAddon#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/eks_addon#role_arn EksAddon#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleArn
         {
@@ -17,7 +17,7 @@ namespace aws.EksAddon
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_addon#service_account EksAddon#service_account}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/eks_addon#service_account EksAddon#service_account}.</summary>
         [JsiiProperty(name: "serviceAccount", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceAccount
         {

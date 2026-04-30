@@ -11,7 +11,7 @@ namespace aws.DataexchangeEventAction
 
         /// <summary>revision_published block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dataexchange_event_action#revision_published DataexchangeEventAction#revision_published}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dataexchange_event_action#revision_published DataexchangeEventAction#revision_published}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "revisionPublished", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeEventAction.DataexchangeEventActionEventRevisionPublished\"},\"kind\":\"array\"}}]}}", isOptional: true)]

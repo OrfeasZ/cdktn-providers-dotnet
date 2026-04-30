@@ -7,14 +7,14 @@ namespace aws.CloudwatchMetricStream
     [JsiiInterface(nativeType: typeof(ICloudwatchMetricStreamStatisticsConfigurationIncludeMetric), fullyQualifiedName: "aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfigurationIncludeMetric")]
     public interface ICloudwatchMetricStreamStatisticsConfigurationIncludeMetric
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_metric_stream#metric_name CloudwatchMetricStream#metric_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_metric_stream#metric_name CloudwatchMetricStream#metric_name}.</summary>
         [JsiiProperty(name: "metricName", typeJson: "{\"primitive\":\"string\"}")]
         string MetricName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_metric_stream#namespace CloudwatchMetricStream#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_metric_stream#namespace CloudwatchMetricStream#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
@@ -28,14 +28,14 @@ namespace aws.CloudwatchMetricStream
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_metric_stream#metric_name CloudwatchMetricStream#metric_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_metric_stream#metric_name CloudwatchMetricStream#metric_name}.</summary>
             [JsiiProperty(name: "metricName", typeJson: "{\"primitive\":\"string\"}")]
             public string MetricName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_metric_stream#namespace CloudwatchMetricStream#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_metric_stream#namespace CloudwatchMetricStream#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {

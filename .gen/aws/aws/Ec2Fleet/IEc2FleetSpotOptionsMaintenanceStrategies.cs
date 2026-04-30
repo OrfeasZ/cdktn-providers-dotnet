@@ -9,7 +9,7 @@ namespace aws.Ec2Fleet
     {
         /// <summary>capacity_rebalance block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#capacity_rebalance Ec2Fleet#capacity_rebalance}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#capacity_rebalance Ec2Fleet#capacity_rebalance}
         /// </remarks>
         [JsiiProperty(name: "capacityRebalance", typeJson: "{\"fqn\":\"aws.ec2Fleet.Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.Ec2Fleet
 
             /// <summary>capacity_rebalance block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#capacity_rebalance Ec2Fleet#capacity_rebalance}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#capacity_rebalance Ec2Fleet#capacity_rebalance}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "capacityRebalance", typeJson: "{\"fqn\":\"aws.ec2Fleet.Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance\"}", isOptional: true)]

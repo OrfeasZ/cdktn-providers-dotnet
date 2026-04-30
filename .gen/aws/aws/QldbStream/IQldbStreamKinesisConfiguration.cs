@@ -7,14 +7,14 @@ namespace aws.QldbStream
     [JsiiInterface(nativeType: typeof(IQldbStreamKinesisConfiguration), fullyQualifiedName: "aws.qldbStream.QldbStreamKinesisConfiguration")]
     public interface IQldbStreamKinesisConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/qldb_stream#stream_arn QldbStream#stream_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/qldb_stream#stream_arn QldbStream#stream_arn}.</summary>
         [JsiiProperty(name: "streamArn", typeJson: "{\"primitive\":\"string\"}")]
         string StreamArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/qldb_stream#aggregation_enabled QldbStream#aggregation_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/qldb_stream#aggregation_enabled QldbStream#aggregation_enabled}.</summary>
         [JsiiProperty(name: "aggregationEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? AggregationEnabled
@@ -32,14 +32,14 @@ namespace aws.QldbStream
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/qldb_stream#stream_arn QldbStream#stream_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/qldb_stream#stream_arn QldbStream#stream_arn}.</summary>
             [JsiiProperty(name: "streamArn", typeJson: "{\"primitive\":\"string\"}")]
             public string StreamArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/qldb_stream#aggregation_enabled QldbStream#aggregation_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/qldb_stream#aggregation_enabled QldbStream#aggregation_enabled}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "aggregationEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? AggregationEnabled

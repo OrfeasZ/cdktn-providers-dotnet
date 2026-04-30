@@ -9,7 +9,7 @@ namespace aws.CodecatalystSourceRepository
     [JsiiByValue(fqn: "aws.codecatalystSourceRepository.CodecatalystSourceRepositoryConfig")]
     public class CodecatalystSourceRepositoryConfig : aws.CodecatalystSourceRepository.ICodecatalystSourceRepositoryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_source_repository#name CodecatalystSourceRepository#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_source_repository#name CodecatalystSourceRepository#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.CodecatalystSourceRepository
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_source_repository#project_name CodecatalystSourceRepository#project_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_source_repository#project_name CodecatalystSourceRepository#project_name}.</summary>
         [JsiiProperty(name: "projectName", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectName
         {
@@ -25,7 +25,7 @@ namespace aws.CodecatalystSourceRepository
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_source_repository#space_name CodecatalystSourceRepository#space_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_source_repository#space_name CodecatalystSourceRepository#space_name}.</summary>
         [JsiiProperty(name: "spaceName", typeJson: "{\"primitive\":\"string\"}")]
         public string SpaceName
         {
@@ -33,7 +33,7 @@ namespace aws.CodecatalystSourceRepository
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_source_repository#description CodecatalystSourceRepository#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_source_repository#description CodecatalystSourceRepository#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -42,7 +42,7 @@ namespace aws.CodecatalystSourceRepository
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_source_repository#id CodecatalystSourceRepository#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_source_repository#id CodecatalystSourceRepository#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ namespace aws.CodecatalystSourceRepository
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_source_repository#region CodecatalystSourceRepository#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_source_repository#region CodecatalystSourceRepository#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.CodecatalystSourceRepository
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codecatalyst_source_repository#timeouts CodecatalystSourceRepository#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codecatalyst_source_repository#timeouts CodecatalystSourceRepository#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.codecatalystSourceRepository.CodecatalystSourceRepositoryTimeouts\"}", isOptional: true)]

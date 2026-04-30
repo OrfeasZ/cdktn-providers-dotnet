@@ -7,14 +7,14 @@ namespace aws.MskconnectConnector
     [JsiiInterface(nativeType: typeof(IMskconnectConnectorPluginCustomPlugin), fullyQualifiedName: "aws.mskconnectConnector.MskconnectConnectorPluginCustomPlugin")]
     public interface IMskconnectConnectorPluginCustomPlugin
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#arn MskconnectConnector#arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_connector#arn MskconnectConnector#arn}.</summary>
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
         string Arn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#revision MskconnectConnector#revision}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_connector#revision MskconnectConnector#revision}.</summary>
         [JsiiProperty(name: "revision", typeJson: "{\"primitive\":\"number\"}")]
         double Revision
         {
@@ -28,14 +28,14 @@ namespace aws.MskconnectConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#arn MskconnectConnector#arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_connector#arn MskconnectConnector#arn}.</summary>
             [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
             public string Arn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#revision MskconnectConnector#revision}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_connector#revision MskconnectConnector#revision}.</summary>
             [JsiiProperty(name: "revision", typeJson: "{\"primitive\":\"number\"}")]
             public double Revision
             {

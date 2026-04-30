@@ -9,7 +9,7 @@ namespace aws.ConfigConfigurationAggregator
     [JsiiByValue(fqn: "aws.configConfigurationAggregator.ConfigConfigurationAggregatorOrganizationAggregationSource")]
     public class ConfigConfigurationAggregatorOrganizationAggregationSource : aws.ConfigConfigurationAggregator.IConfigConfigurationAggregatorOrganizationAggregationSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_configuration_aggregator#role_arn ConfigConfigurationAggregator#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_configuration_aggregator#role_arn ConfigConfigurationAggregator#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleArn
         {
@@ -19,7 +19,7 @@ namespace aws.ConfigConfigurationAggregator
 
         private object? _allRegions;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_configuration_aggregator#all_regions ConfigConfigurationAggregator#all_regions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_configuration_aggregator#all_regions ConfigConfigurationAggregator#all_regions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "allRegions", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? AllRegions
@@ -48,7 +48,7 @@ namespace aws.ConfigConfigurationAggregator
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_configuration_aggregator#regions ConfigConfigurationAggregator#regions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_configuration_aggregator#regions ConfigConfigurationAggregator#regions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "regions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Regions

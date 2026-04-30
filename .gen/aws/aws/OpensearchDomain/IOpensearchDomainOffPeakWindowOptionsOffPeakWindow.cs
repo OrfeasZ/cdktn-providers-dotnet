@@ -9,7 +9,7 @@ namespace aws.OpensearchDomain
     {
         /// <summary>window_start_time block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#window_start_time OpensearchDomain#window_start_time}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#window_start_time OpensearchDomain#window_start_time}
         /// </remarks>
         [JsiiProperty(name: "windowStartTime", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainOffPeakWindowOptionsOffPeakWindowWindowStartTime\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.OpensearchDomain
 
             /// <summary>window_start_time block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#window_start_time OpensearchDomain#window_start_time}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#window_start_time OpensearchDomain#window_start_time}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "windowStartTime", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainOffPeakWindowOptionsOffPeakWindowWindowStartTime\"}", isOptional: true)]

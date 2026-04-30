@@ -7,7 +7,7 @@ namespace aws.MskconnectWorkerConfiguration
     [JsiiByValue(fqn: "aws.mskconnectWorkerConfiguration.MskconnectWorkerConfigurationTimeouts")]
     public class MskconnectWorkerConfigurationTimeouts : aws.MskconnectWorkerConfiguration.IMskconnectWorkerConfigurationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_worker_configuration#delete MskconnectWorkerConfiguration#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_worker_configuration#delete MskconnectWorkerConfiguration#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

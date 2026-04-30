@@ -7,14 +7,14 @@ namespace aws.AuditmanagerAssessment
     [JsiiInterface(nativeType: typeof(IAuditmanagerAssessmentRoles), fullyQualifiedName: "aws.auditmanagerAssessment.AuditmanagerAssessmentRoles")]
     public interface IAuditmanagerAssessmentRoles
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_assessment#role_arn AuditmanagerAssessment#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_assessment#role_arn AuditmanagerAssessment#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         string RoleArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_assessment#role_type AuditmanagerAssessment#role_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_assessment#role_type AuditmanagerAssessment#role_type}.</summary>
         [JsiiProperty(name: "roleType", typeJson: "{\"primitive\":\"string\"}")]
         string RoleType
         {
@@ -28,14 +28,14 @@ namespace aws.AuditmanagerAssessment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_assessment#role_arn AuditmanagerAssessment#role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_assessment#role_arn AuditmanagerAssessment#role_arn}.</summary>
             [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
             public string RoleArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_assessment#role_type AuditmanagerAssessment#role_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_assessment#role_type AuditmanagerAssessment#role_type}.</summary>
             [JsiiProperty(name: "roleType", typeJson: "{\"primitive\":\"string\"}")]
             public string RoleType
             {

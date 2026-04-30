@@ -7,14 +7,14 @@ namespace aws.RbinRule
     [JsiiInterface(nativeType: typeof(IRbinRuleRetentionPeriod), fullyQualifiedName: "aws.rbinRule.RbinRuleRetentionPeriod")]
     public interface IRbinRuleRetentionPeriod
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rbin_rule#retention_period_unit RbinRule#retention_period_unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rbin_rule#retention_period_unit RbinRule#retention_period_unit}.</summary>
         [JsiiProperty(name: "retentionPeriodUnit", typeJson: "{\"primitive\":\"string\"}")]
         string RetentionPeriodUnit
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rbin_rule#retention_period_value RbinRule#retention_period_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rbin_rule#retention_period_value RbinRule#retention_period_value}.</summary>
         [JsiiProperty(name: "retentionPeriodValue", typeJson: "{\"primitive\":\"number\"}")]
         double RetentionPeriodValue
         {
@@ -28,14 +28,14 @@ namespace aws.RbinRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rbin_rule#retention_period_unit RbinRule#retention_period_unit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rbin_rule#retention_period_unit RbinRule#retention_period_unit}.</summary>
             [JsiiProperty(name: "retentionPeriodUnit", typeJson: "{\"primitive\":\"string\"}")]
             public string RetentionPeriodUnit
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rbin_rule#retention_period_value RbinRule#retention_period_value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rbin_rule#retention_period_value RbinRule#retention_period_value}.</summary>
             [JsiiProperty(name: "retentionPeriodValue", typeJson: "{\"primitive\":\"number\"}")]
             public double RetentionPeriodValue
             {

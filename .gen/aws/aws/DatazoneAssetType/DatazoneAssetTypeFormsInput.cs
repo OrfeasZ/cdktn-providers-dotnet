@@ -9,7 +9,7 @@ namespace aws.DatazoneAssetType
     [JsiiByValue(fqn: "aws.datazoneAssetType.DatazoneAssetTypeFormsInput")]
     public class DatazoneAssetTypeFormsInput : aws.DatazoneAssetType.IDatazoneAssetTypeFormsInput
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_asset_type#map_block_key DatazoneAssetType#map_block_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datazone_asset_type#map_block_key DatazoneAssetType#map_block_key}.</summary>
         [JsiiProperty(name: "mapBlockKey", typeJson: "{\"primitive\":\"string\"}")]
         public string MapBlockKey
         {
@@ -17,7 +17,7 @@ namespace aws.DatazoneAssetType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_asset_type#type_identifier DatazoneAssetType#type_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datazone_asset_type#type_identifier DatazoneAssetType#type_identifier}.</summary>
         [JsiiProperty(name: "typeIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string TypeIdentifier
         {
@@ -25,7 +25,7 @@ namespace aws.DatazoneAssetType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_asset_type#type_revision DatazoneAssetType#type_revision}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datazone_asset_type#type_revision DatazoneAssetType#type_revision}.</summary>
         [JsiiProperty(name: "typeRevision", typeJson: "{\"primitive\":\"string\"}")]
         public string TypeRevision
         {
@@ -35,7 +35,7 @@ namespace aws.DatazoneAssetType
 
         private object? _required;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_asset_type#required DatazoneAssetType#required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datazone_asset_type#required DatazoneAssetType#required}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "required", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Required

@@ -7,7 +7,7 @@ namespace aws.CloudwatchEventTarget
     [JsiiByValue(fqn: "aws.cloudwatchEventTarget.CloudwatchEventTargetKinesisTarget")]
     public class CloudwatchEventTargetKinesisTarget : aws.CloudwatchEventTarget.ICloudwatchEventTargetKinesisTarget
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#partition_key_path CloudwatchEventTarget#partition_key_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#partition_key_path CloudwatchEventTarget#partition_key_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "partitionKeyPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PartitionKeyPath

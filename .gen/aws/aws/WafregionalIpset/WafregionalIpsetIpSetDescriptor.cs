@@ -9,7 +9,7 @@ namespace aws.WafregionalIpset
     [JsiiByValue(fqn: "aws.wafregionalIpset.WafregionalIpsetIpSetDescriptor")]
     public class WafregionalIpsetIpSetDescriptor : aws.WafregionalIpset.IWafregionalIpsetIpSetDescriptor
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_ipset#type WafregionalIpset#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_ipset#type WafregionalIpset#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.WafregionalIpset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_ipset#value WafregionalIpset#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_ipset#value WafregionalIpset#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

@@ -7,14 +7,14 @@ namespace aws.ConfigOrganizationConformancePack
     [JsiiInterface(nativeType: typeof(IConfigOrganizationConformancePackInputParameter), fullyQualifiedName: "aws.configOrganizationConformancePack.ConfigOrganizationConformancePackInputParameter")]
     public interface IConfigOrganizationConformancePackInputParameter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_organization_conformance_pack#parameter_name ConfigOrganizationConformancePack#parameter_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_organization_conformance_pack#parameter_name ConfigOrganizationConformancePack#parameter_name}.</summary>
         [JsiiProperty(name: "parameterName", typeJson: "{\"primitive\":\"string\"}")]
         string ParameterName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_organization_conformance_pack#parameter_value ConfigOrganizationConformancePack#parameter_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_organization_conformance_pack#parameter_value ConfigOrganizationConformancePack#parameter_value}.</summary>
         [JsiiProperty(name: "parameterValue", typeJson: "{\"primitive\":\"string\"}")]
         string ParameterValue
         {
@@ -28,14 +28,14 @@ namespace aws.ConfigOrganizationConformancePack
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_organization_conformance_pack#parameter_name ConfigOrganizationConformancePack#parameter_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_organization_conformance_pack#parameter_name ConfigOrganizationConformancePack#parameter_name}.</summary>
             [JsiiProperty(name: "parameterName", typeJson: "{\"primitive\":\"string\"}")]
             public string ParameterName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_organization_conformance_pack#parameter_value ConfigOrganizationConformancePack#parameter_value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_organization_conformance_pack#parameter_value ConfigOrganizationConformancePack#parameter_value}.</summary>
             [JsiiProperty(name: "parameterValue", typeJson: "{\"primitive\":\"string\"}")]
             public string ParameterValue
             {

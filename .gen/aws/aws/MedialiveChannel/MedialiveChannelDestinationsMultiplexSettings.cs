@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     [JsiiByValue(fqn: "aws.medialiveChannel.MedialiveChannelDestinationsMultiplexSettings")]
     public class MedialiveChannelDestinationsMultiplexSettings : aws.MedialiveChannel.IMedialiveChannelDestinationsMultiplexSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#multiplex_id MedialiveChannel#multiplex_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#multiplex_id MedialiveChannel#multiplex_id}.</summary>
         [JsiiProperty(name: "multiplexId", typeJson: "{\"primitive\":\"string\"}")]
         public string MultiplexId
         {
@@ -17,7 +17,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#program_name MedialiveChannel#program_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#program_name MedialiveChannel#program_name}.</summary>
         [JsiiProperty(name: "programName", typeJson: "{\"primitive\":\"string\"}")]
         public string ProgramName
         {

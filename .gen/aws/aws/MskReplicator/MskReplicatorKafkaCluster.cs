@@ -11,7 +11,7 @@ namespace aws.MskReplicator
     {
         /// <summary>amazon_msk_cluster block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_replicator#amazon_msk_cluster MskReplicator#amazon_msk_cluster}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_replicator#amazon_msk_cluster MskReplicator#amazon_msk_cluster}
         /// </remarks>
         [JsiiProperty(name: "amazonMskCluster", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorKafkaClusterAmazonMskCluster\"}")]
         public aws.MskReplicator.IMskReplicatorKafkaClusterAmazonMskCluster AmazonMskCluster
@@ -22,7 +22,7 @@ namespace aws.MskReplicator
 
         /// <summary>vpc_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_replicator#vpc_config MskReplicator#vpc_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_replicator#vpc_config MskReplicator#vpc_config}
         /// </remarks>
         [JsiiProperty(name: "vpcConfig", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorKafkaClusterVpcConfig\"}")]
         public aws.MskReplicator.IMskReplicatorKafkaClusterVpcConfig VpcConfig

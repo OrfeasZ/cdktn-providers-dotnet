@@ -7,7 +7,7 @@ namespace aws.LakeformationResourceLfTags
     [JsiiByValue(fqn: "aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTimeouts")]
     public class LakeformationResourceLfTagsTimeouts : aws.LakeformationResourceLfTags.ILakeformationResourceLfTagsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_resource_lf_tags#create LakeformationResourceLfTags#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_resource_lf_tags#create LakeformationResourceLfTags#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.LakeformationResourceLfTags
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_resource_lf_tags#delete LakeformationResourceLfTags#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_resource_lf_tags#delete LakeformationResourceLfTags#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

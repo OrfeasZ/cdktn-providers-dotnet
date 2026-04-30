@@ -9,7 +9,7 @@ namespace aws.NetworkfirewallRuleGroup
     [JsiiByValue(fqn: "aws.networkfirewallRuleGroup.NetworkfirewallRuleGroupRuleGroupStatefulRuleOptions")]
     public class NetworkfirewallRuleGroupRuleGroupStatefulRuleOptions : aws.NetworkfirewallRuleGroup.INetworkfirewallRuleGroupRuleGroupStatefulRuleOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkfirewall_rule_group#rule_order NetworkfirewallRuleGroup#rule_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkfirewall_rule_group#rule_order NetworkfirewallRuleGroup#rule_order}.</summary>
         [JsiiProperty(name: "ruleOrder", typeJson: "{\"primitive\":\"string\"}")]
         public string RuleOrder
         {

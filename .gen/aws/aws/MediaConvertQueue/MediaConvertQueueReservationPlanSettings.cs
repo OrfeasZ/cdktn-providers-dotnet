@@ -9,7 +9,7 @@ namespace aws.MediaConvertQueue
     [JsiiByValue(fqn: "aws.mediaConvertQueue.MediaConvertQueueReservationPlanSettings")]
     public class MediaConvertQueueReservationPlanSettings : aws.MediaConvertQueue.IMediaConvertQueueReservationPlanSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/media_convert_queue#commitment MediaConvertQueue#commitment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/media_convert_queue#commitment MediaConvertQueue#commitment}.</summary>
         [JsiiProperty(name: "commitment", typeJson: "{\"primitive\":\"string\"}")]
         public string Commitment
         {
@@ -17,7 +17,7 @@ namespace aws.MediaConvertQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/media_convert_queue#renewal_type MediaConvertQueue#renewal_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/media_convert_queue#renewal_type MediaConvertQueue#renewal_type}.</summary>
         [JsiiProperty(name: "renewalType", typeJson: "{\"primitive\":\"string\"}")]
         public string RenewalType
         {
@@ -25,7 +25,7 @@ namespace aws.MediaConvertQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/media_convert_queue#reserved_slots MediaConvertQueue#reserved_slots}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/media_convert_queue#reserved_slots MediaConvertQueue#reserved_slots}.</summary>
         [JsiiProperty(name: "reservedSlots", typeJson: "{\"primitive\":\"number\"}")]
         public double ReservedSlots
         {

@@ -7,7 +7,7 @@ namespace aws.ElasticsearchDomainPolicy
     [JsiiByValue(fqn: "aws.elasticsearchDomainPolicy.ElasticsearchDomainPolicyTimeouts")]
     public class ElasticsearchDomainPolicyTimeouts : aws.ElasticsearchDomainPolicy.IElasticsearchDomainPolicyTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain_policy#delete ElasticsearchDomainPolicy#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticsearch_domain_policy#delete ElasticsearchDomainPolicy#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -16,7 +16,7 @@ namespace aws.ElasticsearchDomainPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain_policy#update ElasticsearchDomainPolicy#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticsearch_domain_policy#update ElasticsearchDomainPolicy#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

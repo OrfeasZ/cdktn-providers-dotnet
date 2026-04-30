@@ -9,7 +9,7 @@ namespace aws.GlueClassifier
     [JsiiByValue(fqn: "aws.glueClassifier.GlueClassifierXmlClassifier")]
     public class GlueClassifierXmlClassifier : aws.GlueClassifier.IGlueClassifierXmlClassifier
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#classification GlueClassifier#classification}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_classifier#classification GlueClassifier#classification}.</summary>
         [JsiiProperty(name: "classification", typeJson: "{\"primitive\":\"string\"}")]
         public string Classification
         {
@@ -17,7 +17,7 @@ namespace aws.GlueClassifier
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_classifier#row_tag GlueClassifier#row_tag}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_classifier#row_tag GlueClassifier#row_tag}.</summary>
         [JsiiProperty(name: "rowTag", typeJson: "{\"primitive\":\"string\"}")]
         public string RowTag
         {

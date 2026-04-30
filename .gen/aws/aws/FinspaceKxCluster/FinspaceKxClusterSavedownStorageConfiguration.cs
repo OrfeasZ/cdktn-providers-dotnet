@@ -7,7 +7,7 @@ namespace aws.FinspaceKxCluster
     [JsiiByValue(fqn: "aws.finspaceKxCluster.FinspaceKxClusterSavedownStorageConfiguration")]
     public class FinspaceKxClusterSavedownStorageConfiguration : aws.FinspaceKxCluster.IFinspaceKxClusterSavedownStorageConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#size FinspaceKxCluster#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_cluster#size FinspaceKxCluster#size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Size
@@ -16,7 +16,7 @@ namespace aws.FinspaceKxCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#type FinspaceKxCluster#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_cluster#type FinspaceKxCluster#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type
@@ -25,7 +25,7 @@ namespace aws.FinspaceKxCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#volume_name FinspaceKxCluster#volume_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_cluster#volume_name FinspaceKxCluster#volume_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "volumeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VolumeName

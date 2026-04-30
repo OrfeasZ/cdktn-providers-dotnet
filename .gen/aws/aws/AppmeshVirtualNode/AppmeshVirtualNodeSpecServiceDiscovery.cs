@@ -9,7 +9,7 @@ namespace aws.AppmeshVirtualNode
     {
         /// <summary>aws_cloud_map block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_node#aws_cloud_map AppmeshVirtualNode#aws_cloud_map}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_node#aws_cloud_map AppmeshVirtualNode#aws_cloud_map}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "awsCloudMap", typeJson: "{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecServiceDiscoveryAwsCloudMap\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.AppmeshVirtualNode
 
         /// <summary>dns block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_node#dns AppmeshVirtualNode#dns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_node#dns AppmeshVirtualNode#dns}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dns", typeJson: "{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecServiceDiscoveryDns\"}", isOptional: true)]

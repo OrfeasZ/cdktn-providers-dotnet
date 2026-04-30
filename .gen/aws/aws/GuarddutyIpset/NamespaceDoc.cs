@@ -5,7 +5,7 @@ namespace aws.GuarddutyIpset
     /// <remarks>
     /// <h1><c>aws_guardduty_ipset</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_ipset"><c>aws_guardduty_ipset</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_ipset"><c>aws_guardduty_ipset</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

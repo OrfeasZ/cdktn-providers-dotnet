@@ -9,7 +9,7 @@ namespace aws.NetworkmanagerConnection
     [JsiiByValue(fqn: "aws.networkmanagerConnection.NetworkmanagerConnectionConfig")]
     public class NetworkmanagerConnectionConfig : aws.NetworkmanagerConnection.INetworkmanagerConnectionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_connection#connected_device_id NetworkmanagerConnection#connected_device_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_connection#connected_device_id NetworkmanagerConnection#connected_device_id}.</summary>
         [JsiiProperty(name: "connectedDeviceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectedDeviceId
         {
@@ -17,7 +17,7 @@ namespace aws.NetworkmanagerConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_connection#device_id NetworkmanagerConnection#device_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_connection#device_id NetworkmanagerConnection#device_id}.</summary>
         [JsiiProperty(name: "deviceId", typeJson: "{\"primitive\":\"string\"}")]
         public string DeviceId
         {
@@ -25,7 +25,7 @@ namespace aws.NetworkmanagerConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_connection#global_network_id NetworkmanagerConnection#global_network_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_connection#global_network_id NetworkmanagerConnection#global_network_id}.</summary>
         [JsiiProperty(name: "globalNetworkId", typeJson: "{\"primitive\":\"string\"}")]
         public string GlobalNetworkId
         {
@@ -33,7 +33,7 @@ namespace aws.NetworkmanagerConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_connection#connected_link_id NetworkmanagerConnection#connected_link_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_connection#connected_link_id NetworkmanagerConnection#connected_link_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "connectedLinkId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConnectedLinkId
@@ -42,7 +42,7 @@ namespace aws.NetworkmanagerConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_connection#description NetworkmanagerConnection#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_connection#description NetworkmanagerConnection#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -51,7 +51,7 @@ namespace aws.NetworkmanagerConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_connection#id NetworkmanagerConnection#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_connection#id NetworkmanagerConnection#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace aws.NetworkmanagerConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_connection#link_id NetworkmanagerConnection#link_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_connection#link_id NetworkmanagerConnection#link_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "linkId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LinkId
@@ -73,7 +73,7 @@ namespace aws.NetworkmanagerConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_connection#tags NetworkmanagerConnection#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_connection#tags NetworkmanagerConnection#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -82,7 +82,7 @@ namespace aws.NetworkmanagerConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_connection#tags_all NetworkmanagerConnection#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_connection#tags_all NetworkmanagerConnection#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -93,7 +93,7 @@ namespace aws.NetworkmanagerConnection
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_connection#timeouts NetworkmanagerConnection#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_connection#timeouts NetworkmanagerConnection#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.networkmanagerConnection.NetworkmanagerConnectionTimeouts\"}", isOptional: true)]

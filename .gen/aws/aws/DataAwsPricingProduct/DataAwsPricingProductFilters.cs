@@ -9,7 +9,7 @@ namespace aws.DataAwsPricingProduct
     [JsiiByValue(fqn: "aws.dataAwsPricingProduct.DataAwsPricingProductFilters")]
     public class DataAwsPricingProductFilters : aws.DataAwsPricingProduct.IDataAwsPricingProductFilters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/pricing_product#field DataAwsPricingProduct#field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/pricing_product#field DataAwsPricingProduct#field}.</summary>
         [JsiiProperty(name: "field", typeJson: "{\"primitive\":\"string\"}")]
         public string Field
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsPricingProduct
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/pricing_product#value DataAwsPricingProduct#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/pricing_product#value DataAwsPricingProduct#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

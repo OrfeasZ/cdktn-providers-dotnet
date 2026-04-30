@@ -9,7 +9,7 @@ namespace aws.CloudformationType
     [JsiiByValue(fqn: "aws.cloudformationType.CloudformationTypeLoggingConfig")]
     public class CloudformationTypeLoggingConfig : aws.CloudformationType.ICloudformationTypeLoggingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudformation_type#log_group_name CloudformationType#log_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudformation_type#log_group_name CloudformationType#log_group_name}.</summary>
         [JsiiProperty(name: "logGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string LogGroupName
         {
@@ -17,7 +17,7 @@ namespace aws.CloudformationType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudformation_type#log_role_arn CloudformationType#log_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudformation_type#log_role_arn CloudformationType#log_role_arn}.</summary>
         [JsiiProperty(name: "logRoleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string LogRoleArn
         {

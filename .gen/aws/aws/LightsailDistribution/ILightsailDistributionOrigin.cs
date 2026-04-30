@@ -9,7 +9,7 @@ namespace aws.LightsailDistribution
     {
         /// <summary>The name of the origin resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_distribution#name LightsailDistribution#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_distribution#name LightsailDistribution#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -19,7 +19,7 @@ namespace aws.LightsailDistribution
 
         /// <summary>The AWS Region name of the origin resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_distribution#region_name LightsailDistribution#region_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_distribution#region_name LightsailDistribution#region_name}
         /// </remarks>
         [JsiiProperty(name: "regionName", typeJson: "{\"primitive\":\"string\"}")]
         string RegionName
@@ -29,7 +29,7 @@ namespace aws.LightsailDistribution
 
         /// <summary>The protocol that your Amazon Lightsail distribution uses when establishing a connection with your origin to pull content.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_distribution#protocol_policy LightsailDistribution#protocol_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_distribution#protocol_policy LightsailDistribution#protocol_policy}
         /// </remarks>
         [JsiiProperty(name: "protocolPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,7 +50,7 @@ namespace aws.LightsailDistribution
 
             /// <summary>The name of the origin resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_distribution#name LightsailDistribution#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_distribution#name LightsailDistribution#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -60,7 +60,7 @@ namespace aws.LightsailDistribution
 
             /// <summary>The AWS Region name of the origin resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_distribution#region_name LightsailDistribution#region_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_distribution#region_name LightsailDistribution#region_name}
             /// </remarks>
             [JsiiProperty(name: "regionName", typeJson: "{\"primitive\":\"string\"}")]
             public string RegionName
@@ -70,7 +70,7 @@ namespace aws.LightsailDistribution
 
             /// <summary>The protocol that your Amazon Lightsail distribution uses when establishing a connection with your origin to pull content.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_distribution#protocol_policy LightsailDistribution#protocol_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_distribution#protocol_policy LightsailDistribution#protocol_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "protocolPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

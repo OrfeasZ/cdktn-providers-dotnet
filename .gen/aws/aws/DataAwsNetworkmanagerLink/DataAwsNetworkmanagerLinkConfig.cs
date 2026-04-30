@@ -9,7 +9,7 @@ namespace aws.DataAwsNetworkmanagerLink
     [JsiiByValue(fqn: "aws.dataAwsNetworkmanagerLink.DataAwsNetworkmanagerLinkConfig")]
     public class DataAwsNetworkmanagerLinkConfig : aws.DataAwsNetworkmanagerLink.IDataAwsNetworkmanagerLinkConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/networkmanager_link#global_network_id DataAwsNetworkmanagerLink#global_network_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/networkmanager_link#global_network_id DataAwsNetworkmanagerLink#global_network_id}.</summary>
         [JsiiProperty(name: "globalNetworkId", typeJson: "{\"primitive\":\"string\"}")]
         public string GlobalNetworkId
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsNetworkmanagerLink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/networkmanager_link#link_id DataAwsNetworkmanagerLink#link_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/networkmanager_link#link_id DataAwsNetworkmanagerLink#link_id}.</summary>
         [JsiiProperty(name: "linkId", typeJson: "{\"primitive\":\"string\"}")]
         public string LinkId
         {
@@ -25,7 +25,7 @@ namespace aws.DataAwsNetworkmanagerLink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/networkmanager_link#id DataAwsNetworkmanagerLink#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/networkmanager_link#id DataAwsNetworkmanagerLink#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace aws.DataAwsNetworkmanagerLink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/networkmanager_link#tags DataAwsNetworkmanagerLink#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/networkmanager_link#tags DataAwsNetworkmanagerLink#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags

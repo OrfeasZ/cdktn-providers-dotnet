@@ -9,7 +9,7 @@ namespace aws.RolesanywhereTrustAnchor
     {
         /// <summary>source_data block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rolesanywhere_trust_anchor#source_data RolesanywhereTrustAnchor#source_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rolesanywhere_trust_anchor#source_data RolesanywhereTrustAnchor#source_data}
         /// </remarks>
         [JsiiProperty(name: "sourceData", typeJson: "{\"fqn\":\"aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorSourceSourceData\"}")]
         aws.RolesanywhereTrustAnchor.IRolesanywhereTrustAnchorSourceSourceData SourceData
@@ -17,7 +17,7 @@ namespace aws.RolesanywhereTrustAnchor
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rolesanywhere_trust_anchor#source_type RolesanywhereTrustAnchor#source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rolesanywhere_trust_anchor#source_type RolesanywhereTrustAnchor#source_type}.</summary>
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
         string SourceType
         {
@@ -33,7 +33,7 @@ namespace aws.RolesanywhereTrustAnchor
 
             /// <summary>source_data block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rolesanywhere_trust_anchor#source_data RolesanywhereTrustAnchor#source_data}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rolesanywhere_trust_anchor#source_data RolesanywhereTrustAnchor#source_data}
             /// </remarks>
             [JsiiProperty(name: "sourceData", typeJson: "{\"fqn\":\"aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorSourceSourceData\"}")]
             public aws.RolesanywhereTrustAnchor.IRolesanywhereTrustAnchorSourceSourceData SourceData
@@ -41,7 +41,7 @@ namespace aws.RolesanywhereTrustAnchor
                 get => GetInstanceProperty<aws.RolesanywhereTrustAnchor.IRolesanywhereTrustAnchorSourceSourceData>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rolesanywhere_trust_anchor#source_type RolesanywhereTrustAnchor#source_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rolesanywhere_trust_anchor#source_type RolesanywhereTrustAnchor#source_type}.</summary>
             [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceType
             {

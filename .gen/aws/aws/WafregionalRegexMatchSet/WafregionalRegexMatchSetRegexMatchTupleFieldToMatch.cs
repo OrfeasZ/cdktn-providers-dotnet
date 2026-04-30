@@ -9,7 +9,7 @@ namespace aws.WafregionalRegexMatchSet
     [JsiiByValue(fqn: "aws.wafregionalRegexMatchSet.WafregionalRegexMatchSetRegexMatchTupleFieldToMatch")]
     public class WafregionalRegexMatchSetRegexMatchTupleFieldToMatch : aws.WafregionalRegexMatchSet.IWafregionalRegexMatchSetRegexMatchTupleFieldToMatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_regex_match_set#type WafregionalRegexMatchSet#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_regex_match_set#type WafregionalRegexMatchSet#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.WafregionalRegexMatchSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_regex_match_set#data WafregionalRegexMatchSet#data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_regex_match_set#data WafregionalRegexMatchSet#data}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "data", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Data

@@ -7,21 +7,21 @@ namespace aws.SagemakerDomain
     [JsiiInterface(nativeType: typeof(ISagemakerDomainDefaultUserSettingsCodeEditorAppSettingsCustomImage), fullyQualifiedName: "aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsCustomImage")]
     public interface ISagemakerDomainDefaultUserSettingsCodeEditorAppSettingsCustomImage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#app_image_config_name SagemakerDomain#app_image_config_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#app_image_config_name SagemakerDomain#app_image_config_name}.</summary>
         [JsiiProperty(name: "appImageConfigName", typeJson: "{\"primitive\":\"string\"}")]
         string AppImageConfigName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#image_name SagemakerDomain#image_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#image_name SagemakerDomain#image_name}.</summary>
         [JsiiProperty(name: "imageName", typeJson: "{\"primitive\":\"string\"}")]
         string ImageName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#image_version_number SagemakerDomain#image_version_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#image_version_number SagemakerDomain#image_version_number}.</summary>
         [JsiiProperty(name: "imageVersionNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ImageVersionNumber
@@ -39,21 +39,21 @@ namespace aws.SagemakerDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#app_image_config_name SagemakerDomain#app_image_config_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#app_image_config_name SagemakerDomain#app_image_config_name}.</summary>
             [JsiiProperty(name: "appImageConfigName", typeJson: "{\"primitive\":\"string\"}")]
             public string AppImageConfigName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#image_name SagemakerDomain#image_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#image_name SagemakerDomain#image_name}.</summary>
             [JsiiProperty(name: "imageName", typeJson: "{\"primitive\":\"string\"}")]
             public string ImageName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#image_version_number SagemakerDomain#image_version_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#image_version_number SagemakerDomain#image_version_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "imageVersionNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ImageVersionNumber

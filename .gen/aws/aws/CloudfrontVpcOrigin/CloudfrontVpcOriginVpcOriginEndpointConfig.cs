@@ -9,7 +9,7 @@ namespace aws.CloudfrontVpcOrigin
     [JsiiByValue(fqn: "aws.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig")]
     public class CloudfrontVpcOriginVpcOriginEndpointConfig : aws.CloudfrontVpcOrigin.ICloudfrontVpcOriginVpcOriginEndpointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_vpc_origin#arn CloudfrontVpcOrigin#arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_vpc_origin#arn CloudfrontVpcOrigin#arn}.</summary>
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
         public string Arn
         {
@@ -17,7 +17,7 @@ namespace aws.CloudfrontVpcOrigin
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_vpc_origin#http_port CloudfrontVpcOrigin#http_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_vpc_origin#http_port CloudfrontVpcOrigin#http_port}.</summary>
         [JsiiProperty(name: "httpPort", typeJson: "{\"primitive\":\"number\"}")]
         public double HttpPort
         {
@@ -25,7 +25,7 @@ namespace aws.CloudfrontVpcOrigin
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_vpc_origin#https_port CloudfrontVpcOrigin#https_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_vpc_origin#https_port CloudfrontVpcOrigin#https_port}.</summary>
         [JsiiProperty(name: "httpsPort", typeJson: "{\"primitive\":\"number\"}")]
         public double HttpsPort
         {
@@ -33,7 +33,7 @@ namespace aws.CloudfrontVpcOrigin
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_vpc_origin#name CloudfrontVpcOrigin#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_vpc_origin#name CloudfrontVpcOrigin#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -41,7 +41,7 @@ namespace aws.CloudfrontVpcOrigin
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_vpc_origin#origin_protocol_policy CloudfrontVpcOrigin#origin_protocol_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_vpc_origin#origin_protocol_policy CloudfrontVpcOrigin#origin_protocol_policy}.</summary>
         [JsiiProperty(name: "originProtocolPolicy", typeJson: "{\"primitive\":\"string\"}")]
         public string OriginProtocolPolicy
         {
@@ -53,7 +53,7 @@ namespace aws.CloudfrontVpcOrigin
 
         /// <summary>origin_ssl_protocols block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_vpc_origin#origin_ssl_protocols CloudfrontVpcOrigin#origin_ssl_protocols}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_vpc_origin#origin_ssl_protocols CloudfrontVpcOrigin#origin_ssl_protocols}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "originSslProtocols", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfigOriginSslProtocols\"},\"kind\":\"array\"}}]}}", isOptional: true)]

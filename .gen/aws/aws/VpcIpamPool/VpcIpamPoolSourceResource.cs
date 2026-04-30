@@ -9,7 +9,7 @@ namespace aws.VpcIpamPool
     [JsiiByValue(fqn: "aws.vpcIpamPool.VpcIpamPoolSourceResource")]
     public class VpcIpamPoolSourceResource : aws.VpcIpamPool.IVpcIpamPoolSourceResource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_ipam_pool#resource_id VpcIpamPool#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_ipam_pool#resource_id VpcIpamPool#resource_id}.</summary>
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceId
         {
@@ -17,7 +17,7 @@ namespace aws.VpcIpamPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_ipam_pool#resource_owner VpcIpamPool#resource_owner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_ipam_pool#resource_owner VpcIpamPool#resource_owner}.</summary>
         [JsiiProperty(name: "resourceOwner", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceOwner
         {
@@ -25,7 +25,7 @@ namespace aws.VpcIpamPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_ipam_pool#resource_region VpcIpamPool#resource_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_ipam_pool#resource_region VpcIpamPool#resource_region}.</summary>
         [JsiiProperty(name: "resourceRegion", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceRegion
         {
@@ -33,7 +33,7 @@ namespace aws.VpcIpamPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_ipam_pool#resource_type VpcIpamPool#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_ipam_pool#resource_type VpcIpamPool#resource_type}.</summary>
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceType
         {

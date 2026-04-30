@@ -9,7 +9,7 @@ namespace aws.CloudfrontDistributionTenant
     [JsiiByValue(fqn: "aws.cloudfrontDistributionTenant.CloudfrontDistributionTenantParameter")]
     public class CloudfrontDistributionTenantParameter : aws.CloudfrontDistributionTenant.ICloudfrontDistributionTenantParameter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution_tenant#name CloudfrontDistributionTenant#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution_tenant#name CloudfrontDistributionTenant#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.CloudfrontDistributionTenant
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution_tenant#value CloudfrontDistributionTenant#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution_tenant#value CloudfrontDistributionTenant#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

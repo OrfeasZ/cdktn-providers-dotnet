@@ -11,7 +11,7 @@ namespace aws.AppmeshVirtualGateway
     {
         /// <summary>certificate block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_gateway#certificate AppmeshVirtualGateway#certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_gateway#certificate AppmeshVirtualGateway#certificate}
         /// </remarks>
         [JsiiProperty(name: "certificate", typeJson: "{\"fqn\":\"aws.appmeshVirtualGateway.AppmeshVirtualGatewaySpecListenerTlsCertificate\"}")]
         public aws.AppmeshVirtualGateway.IAppmeshVirtualGatewaySpecListenerTlsCertificate Certificate
@@ -20,7 +20,7 @@ namespace aws.AppmeshVirtualGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_gateway#mode AppmeshVirtualGateway#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_gateway#mode AppmeshVirtualGateway#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         public string Mode
         {
@@ -30,7 +30,7 @@ namespace aws.AppmeshVirtualGateway
 
         /// <summary>validation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_gateway#validation AppmeshVirtualGateway#validation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_gateway#validation AppmeshVirtualGateway#validation}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "validation", typeJson: "{\"fqn\":\"aws.appmeshVirtualGateway.AppmeshVirtualGatewaySpecListenerTlsValidation\"}", isOptional: true)]

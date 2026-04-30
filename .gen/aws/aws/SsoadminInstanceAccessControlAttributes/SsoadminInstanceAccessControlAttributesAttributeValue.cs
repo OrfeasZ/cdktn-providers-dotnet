@@ -9,7 +9,7 @@ namespace aws.SsoadminInstanceAccessControlAttributes
     [JsiiByValue(fqn: "aws.ssoadminInstanceAccessControlAttributes.SsoadminInstanceAccessControlAttributesAttributeValue")]
     public class SsoadminInstanceAccessControlAttributesAttributeValue : aws.SsoadminInstanceAccessControlAttributes.ISsoadminInstanceAccessControlAttributesAttributeValue
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssoadmin_instance_access_control_attributes#source SsoadminInstanceAccessControlAttributes#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssoadmin_instance_access_control_attributes#source SsoadminInstanceAccessControlAttributes#source}.</summary>
         [JsiiProperty(name: "source", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Source
         {

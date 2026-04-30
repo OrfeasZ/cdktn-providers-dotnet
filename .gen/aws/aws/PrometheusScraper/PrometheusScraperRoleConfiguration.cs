@@ -7,7 +7,7 @@ namespace aws.PrometheusScraper
     [JsiiByValue(fqn: "aws.prometheusScraper.PrometheusScraperRoleConfiguration")]
     public class PrometheusScraperRoleConfiguration : aws.PrometheusScraper.IPrometheusScraperRoleConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/prometheus_scraper#source_role_arn PrometheusScraper#source_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/prometheus_scraper#source_role_arn PrometheusScraper#source_role_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceRoleArn
@@ -16,7 +16,7 @@ namespace aws.PrometheusScraper
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/prometheus_scraper#target_role_arn PrometheusScraper#target_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/prometheus_scraper#target_role_arn PrometheusScraper#target_role_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetRoleArn

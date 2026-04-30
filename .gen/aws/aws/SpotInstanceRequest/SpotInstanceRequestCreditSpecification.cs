@@ -7,7 +7,7 @@ namespace aws.SpotInstanceRequest
     [JsiiByValue(fqn: "aws.spotInstanceRequest.SpotInstanceRequestCreditSpecification")]
     public class SpotInstanceRequestCreditSpecification : aws.SpotInstanceRequest.ISpotInstanceRequestCreditSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#cpu_credits SpotInstanceRequest#cpu_credits}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#cpu_credits SpotInstanceRequest#cpu_credits}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cpuCredits", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CpuCredits

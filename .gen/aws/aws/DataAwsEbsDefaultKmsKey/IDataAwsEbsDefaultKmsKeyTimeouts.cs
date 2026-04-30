@@ -7,7 +7,7 @@ namespace aws.DataAwsEbsDefaultKmsKey
     [JsiiInterface(nativeType: typeof(IDataAwsEbsDefaultKmsKeyTimeouts), fullyQualifiedName: "aws.dataAwsEbsDefaultKmsKey.DataAwsEbsDefaultKmsKeyTimeouts")]
     public interface IDataAwsEbsDefaultKmsKeyTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ebs_default_kms_key#read DataAwsEbsDefaultKmsKey#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ebs_default_kms_key#read DataAwsEbsDefaultKmsKey#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace aws.DataAwsEbsDefaultKmsKey
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ebs_default_kms_key#read DataAwsEbsDefaultKmsKey#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ebs_default_kms_key#read DataAwsEbsDefaultKmsKey#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

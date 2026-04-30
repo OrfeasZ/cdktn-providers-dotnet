@@ -7,7 +7,7 @@ namespace aws.AuditmanagerControl
     [JsiiByValue(fqn: "aws.auditmanagerControl.AuditmanagerControlControlMappingSourcesSourceKeyword")]
     public class AuditmanagerControlControlMappingSourcesSourceKeyword : aws.AuditmanagerControl.IAuditmanagerControlControlMappingSourcesSourceKeyword
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_control#keyword_input_type AuditmanagerControl#keyword_input_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_control#keyword_input_type AuditmanagerControl#keyword_input_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keywordInputType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeywordInputType
@@ -16,7 +16,7 @@ namespace aws.AuditmanagerControl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_control#keyword_value AuditmanagerControl#keyword_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_control#keyword_value AuditmanagerControl#keyword_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keywordValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeywordValue

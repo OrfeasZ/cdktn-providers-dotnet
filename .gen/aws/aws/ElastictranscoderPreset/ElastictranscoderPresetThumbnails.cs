@@ -7,7 +7,7 @@ namespace aws.ElastictranscoderPreset
     [JsiiByValue(fqn: "aws.elastictranscoderPreset.ElastictranscoderPresetThumbnails")]
     public class ElastictranscoderPresetThumbnails : aws.ElastictranscoderPreset.IElastictranscoderPresetThumbnails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#aspect_ratio ElastictranscoderPreset#aspect_ratio}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elastictranscoder_preset#aspect_ratio ElastictranscoderPreset#aspect_ratio}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "aspectRatio", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AspectRatio
@@ -16,7 +16,7 @@ namespace aws.ElastictranscoderPreset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#format ElastictranscoderPreset#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elastictranscoder_preset#format ElastictranscoderPreset#format}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Format
@@ -25,7 +25,7 @@ namespace aws.ElastictranscoderPreset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#interval ElastictranscoderPreset#interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elastictranscoder_preset#interval ElastictranscoderPreset#interval}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Interval
@@ -34,7 +34,7 @@ namespace aws.ElastictranscoderPreset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#max_height ElastictranscoderPreset#max_height}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elastictranscoder_preset#max_height ElastictranscoderPreset#max_height}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxHeight", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaxHeight
@@ -43,7 +43,7 @@ namespace aws.ElastictranscoderPreset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#max_width ElastictranscoderPreset#max_width}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elastictranscoder_preset#max_width ElastictranscoderPreset#max_width}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxWidth", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaxWidth
@@ -52,7 +52,7 @@ namespace aws.ElastictranscoderPreset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#padding_policy ElastictranscoderPreset#padding_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elastictranscoder_preset#padding_policy ElastictranscoderPreset#padding_policy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "paddingPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PaddingPolicy
@@ -61,7 +61,7 @@ namespace aws.ElastictranscoderPreset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#resolution ElastictranscoderPreset#resolution}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elastictranscoder_preset#resolution ElastictranscoderPreset#resolution}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resolution", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Resolution
@@ -70,7 +70,7 @@ namespace aws.ElastictranscoderPreset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_preset#sizing_policy ElastictranscoderPreset#sizing_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elastictranscoder_preset#sizing_policy ElastictranscoderPreset#sizing_policy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sizingPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SizingPolicy

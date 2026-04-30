@@ -9,7 +9,7 @@ namespace aws.DynamodbTable
     {
         /// <summary>csv block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#csv DynamodbTable#csv}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_table#csv DynamodbTable#csv}
         /// </remarks>
         [JsiiProperty(name: "csv", typeJson: "{\"fqn\":\"aws.dynamodbTable.DynamodbTableImportTableInputFormatOptionsCsv\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.DynamodbTable
 
             /// <summary>csv block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_table#csv DynamodbTable#csv}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_table#csv DynamodbTable#csv}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "csv", typeJson: "{\"fqn\":\"aws.dynamodbTable.DynamodbTableImportTableInputFormatOptionsCsv\"}", isOptional: true)]

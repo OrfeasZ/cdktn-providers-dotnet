@@ -9,7 +9,7 @@ namespace aws.S3Bucket
     [JsiiByValue(fqn: "aws.s3Bucket.S3BucketServerSideEncryptionConfigurationRuleApplyServerSideEncryptionByDefault")]
     public class S3BucketServerSideEncryptionConfigurationRuleApplyServerSideEncryptionByDefault : aws.S3Bucket.IS3BucketServerSideEncryptionConfigurationRuleApplyServerSideEncryptionByDefault
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}.</summary>
         [JsiiProperty(name: "sseAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
         public string SseAlgorithm
         {
@@ -17,7 +17,7 @@ namespace aws.S3Bucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#kms_master_key_id S3Bucket#kms_master_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket#kms_master_key_id S3Bucket#kms_master_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsMasterKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsMasterKeyId

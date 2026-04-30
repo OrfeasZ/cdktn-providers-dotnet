@@ -11,7 +11,7 @@ namespace aws.RekognitionStreamProcessor
     {
         /// <summary>The ID of a collection that contains faces that you want to search for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#collection_id RekognitionStreamProcessor#collection_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rekognition_stream_processor#collection_id RekognitionStreamProcessor#collection_id}
         /// </remarks>
         [JsiiProperty(name: "collectionId", typeJson: "{\"primitive\":\"string\"}")]
         public string CollectionId
@@ -22,7 +22,7 @@ namespace aws.RekognitionStreamProcessor
 
         /// <summary>Minimum face match confidence score that must be met to return a result for a recognized face.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#face_match_threshold RekognitionStreamProcessor#face_match_threshold}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rekognition_stream_processor#face_match_threshold RekognitionStreamProcessor#face_match_threshold}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "faceMatchThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.Route53RecordsExclusive
     [JsiiByValue(fqn: "aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetResourceRecords")]
     public class Route53RecordsExclusiveResourceRecordSetResourceRecords : aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetResourceRecords
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#value Route53RecordsExclusive#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_records_exclusive#value Route53RecordsExclusive#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

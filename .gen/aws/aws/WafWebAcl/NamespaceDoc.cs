@@ -5,7 +5,7 @@ namespace aws.WafWebAcl
     /// <remarks>
     /// <h1><c>aws_waf_web_acl</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_web_acl"><c>aws_waf_web_acl</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/waf_web_acl"><c>aws_waf_web_acl</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -7,7 +7,7 @@ namespace aws.SagemakerHumanTaskUi
     [JsiiInterface(nativeType: typeof(ISagemakerHumanTaskUiUiTemplate), fullyQualifiedName: "aws.sagemakerHumanTaskUi.SagemakerHumanTaskUiUiTemplate")]
     public interface ISagemakerHumanTaskUiUiTemplate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_human_task_ui#content SagemakerHumanTaskUi#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_human_task_ui#content SagemakerHumanTaskUi#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Content
@@ -25,7 +25,7 @@ namespace aws.SagemakerHumanTaskUi
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_human_task_ui#content SagemakerHumanTaskUi#content}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_human_task_ui#content SagemakerHumanTaskUi#content}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Content

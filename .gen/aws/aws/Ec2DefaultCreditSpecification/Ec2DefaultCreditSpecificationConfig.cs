@@ -9,7 +9,7 @@ namespace aws.Ec2DefaultCreditSpecification
     [JsiiByValue(fqn: "aws.ec2DefaultCreditSpecification.Ec2DefaultCreditSpecificationConfig")]
     public class Ec2DefaultCreditSpecificationConfig : aws.Ec2DefaultCreditSpecification.IEc2DefaultCreditSpecificationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_default_credit_specification#cpu_credits Ec2DefaultCreditSpecification#cpu_credits}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_default_credit_specification#cpu_credits Ec2DefaultCreditSpecification#cpu_credits}.</summary>
         [JsiiProperty(name: "cpuCredits", typeJson: "{\"primitive\":\"string\"}")]
         public string CpuCredits
         {
@@ -17,7 +17,7 @@ namespace aws.Ec2DefaultCreditSpecification
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_default_credit_specification#instance_family Ec2DefaultCreditSpecification#instance_family}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_default_credit_specification#instance_family Ec2DefaultCreditSpecification#instance_family}.</summary>
         [JsiiProperty(name: "instanceFamily", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceFamily
         {
@@ -27,7 +27,7 @@ namespace aws.Ec2DefaultCreditSpecification
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_default_credit_specification#region Ec2DefaultCreditSpecification#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_default_credit_specification#region Ec2DefaultCreditSpecification#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace aws.Ec2DefaultCreditSpecification
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_default_credit_specification#timeouts Ec2DefaultCreditSpecification#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_default_credit_specification#timeouts Ec2DefaultCreditSpecification#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.ec2DefaultCreditSpecification.Ec2DefaultCreditSpecificationTimeouts\"}", isOptional: true)]

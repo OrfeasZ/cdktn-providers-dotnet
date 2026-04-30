@@ -9,7 +9,7 @@ namespace aws.IotThingPrincipalAttachment
     [JsiiByValue(fqn: "aws.iotThingPrincipalAttachment.IotThingPrincipalAttachmentConfig")]
     public class IotThingPrincipalAttachmentConfig : aws.IotThingPrincipalAttachment.IIotThingPrincipalAttachmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_thing_principal_attachment#principal IotThingPrincipalAttachment#principal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_thing_principal_attachment#principal IotThingPrincipalAttachment#principal}.</summary>
         [JsiiProperty(name: "principal", typeJson: "{\"primitive\":\"string\"}")]
         public string Principal
         {
@@ -17,7 +17,7 @@ namespace aws.IotThingPrincipalAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_thing_principal_attachment#thing IotThingPrincipalAttachment#thing}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_thing_principal_attachment#thing IotThingPrincipalAttachment#thing}.</summary>
         [JsiiProperty(name: "thing", typeJson: "{\"primitive\":\"string\"}")]
         public string Thing
         {
@@ -25,7 +25,7 @@ namespace aws.IotThingPrincipalAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_thing_principal_attachment#id IotThingPrincipalAttachment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_thing_principal_attachment#id IotThingPrincipalAttachment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace aws.IotThingPrincipalAttachment
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_thing_principal_attachment#region IotThingPrincipalAttachment#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_thing_principal_attachment#region IotThingPrincipalAttachment#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace aws.IotThingPrincipalAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_thing_principal_attachment#thing_principal_type IotThingPrincipalAttachment#thing_principal_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_thing_principal_attachment#thing_principal_type IotThingPrincipalAttachment#thing_principal_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "thingPrincipalType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ThingPrincipalType

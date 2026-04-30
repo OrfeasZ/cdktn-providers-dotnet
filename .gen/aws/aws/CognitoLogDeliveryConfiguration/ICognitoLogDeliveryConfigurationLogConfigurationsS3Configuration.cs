@@ -7,7 +7,7 @@ namespace aws.CognitoLogDeliveryConfiguration
     [JsiiInterface(nativeType: typeof(ICognitoLogDeliveryConfigurationLogConfigurationsS3Configuration), fullyQualifiedName: "aws.cognitoLogDeliveryConfiguration.CognitoLogDeliveryConfigurationLogConfigurationsS3Configuration")]
     public interface ICognitoLogDeliveryConfigurationLogConfigurationsS3Configuration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_log_delivery_configuration#bucket_arn CognitoLogDeliveryConfiguration#bucket_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_log_delivery_configuration#bucket_arn CognitoLogDeliveryConfiguration#bucket_arn}.</summary>
         [JsiiProperty(name: "bucketArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BucketArn
@@ -25,7 +25,7 @@ namespace aws.CognitoLogDeliveryConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_log_delivery_configuration#bucket_arn CognitoLogDeliveryConfiguration#bucket_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_log_delivery_configuration#bucket_arn CognitoLogDeliveryConfiguration#bucket_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bucketArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BucketArn

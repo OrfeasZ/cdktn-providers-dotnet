@@ -9,7 +9,7 @@ namespace aws.SagemakerEndpoint
     [JsiiByValue(fqn: "aws.sagemakerEndpoint.SagemakerEndpointDeploymentConfigAutoRollbackConfigurationAlarms")]
     public class SagemakerEndpointDeploymentConfigAutoRollbackConfigurationAlarms : aws.SagemakerEndpoint.ISagemakerEndpointDeploymentConfigAutoRollbackConfigurationAlarms
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_endpoint#alarm_name SagemakerEndpoint#alarm_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_endpoint#alarm_name SagemakerEndpoint#alarm_name}.</summary>
         [JsiiProperty(name: "alarmName", typeJson: "{\"primitive\":\"string\"}")]
         public string AlarmName
         {

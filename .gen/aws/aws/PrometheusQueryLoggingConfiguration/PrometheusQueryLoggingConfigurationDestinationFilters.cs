@@ -9,7 +9,7 @@ namespace aws.PrometheusQueryLoggingConfiguration
     [JsiiByValue(fqn: "aws.prometheusQueryLoggingConfiguration.PrometheusQueryLoggingConfigurationDestinationFilters")]
     public class PrometheusQueryLoggingConfigurationDestinationFilters : aws.PrometheusQueryLoggingConfiguration.IPrometheusQueryLoggingConfigurationDestinationFilters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/prometheus_query_logging_configuration#qsp_threshold PrometheusQueryLoggingConfiguration#qsp_threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/prometheus_query_logging_configuration#qsp_threshold PrometheusQueryLoggingConfiguration#qsp_threshold}.</summary>
         [JsiiProperty(name: "qspThreshold", typeJson: "{\"primitive\":\"number\"}")]
         public double QspThreshold
         {

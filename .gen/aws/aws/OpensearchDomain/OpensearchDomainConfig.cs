@@ -9,7 +9,7 @@ namespace aws.OpensearchDomain
     [JsiiByValue(fqn: "aws.opensearchDomain.OpensearchDomainConfig")]
     public class OpensearchDomainConfig : aws.OpensearchDomain.IOpensearchDomainConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#domain_name OpensearchDomain#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#domain_name OpensearchDomain#domain_name}.</summary>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainName
         {
@@ -17,7 +17,7 @@ namespace aws.OpensearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#access_policies OpensearchDomain#access_policies}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#access_policies OpensearchDomain#access_policies}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessPolicies", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessPolicies
@@ -26,7 +26,7 @@ namespace aws.OpensearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#advanced_options OpensearchDomain#advanced_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#advanced_options OpensearchDomain#advanced_options}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "advancedOptions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? AdvancedOptions
@@ -37,7 +37,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>advanced_security_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#advanced_security_options OpensearchDomain#advanced_security_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#advanced_security_options OpensearchDomain#advanced_security_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "advancedSecurityOptions", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainAdvancedSecurityOptions\"}", isOptional: true)]
@@ -49,7 +49,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>aiml_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#aiml_options OpensearchDomain#aiml_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#aiml_options OpensearchDomain#aiml_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "aimlOptions", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainAimlOptions\"}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>auto_tune_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#auto_tune_options OpensearchDomain#auto_tune_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#auto_tune_options OpensearchDomain#auto_tune_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoTuneOptions", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainAutoTuneOptions\"}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>cluster_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#cluster_config OpensearchDomain#cluster_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#cluster_config OpensearchDomain#cluster_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clusterConfig", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainClusterConfig\"}", isOptional: true)]
@@ -85,7 +85,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>cognito_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#cognito_options OpensearchDomain#cognito_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#cognito_options OpensearchDomain#cognito_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cognitoOptions", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainCognitoOptions\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>deployment_strategy_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#deployment_strategy_options OpensearchDomain#deployment_strategy_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#deployment_strategy_options OpensearchDomain#deployment_strategy_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deploymentStrategyOptions", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainDeploymentStrategyOptions\"}", isOptional: true)]
@@ -109,7 +109,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>domain_endpoint_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#domain_endpoint_options OpensearchDomain#domain_endpoint_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#domain_endpoint_options OpensearchDomain#domain_endpoint_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "domainEndpointOptions", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainDomainEndpointOptions\"}", isOptional: true)]
@@ -121,7 +121,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>ebs_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#ebs_options OpensearchDomain#ebs_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#ebs_options OpensearchDomain#ebs_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ebsOptions", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainEbsOptions\"}", isOptional: true)]
@@ -133,7 +133,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>encrypt_at_rest block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#encrypt_at_rest OpensearchDomain#encrypt_at_rest}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#encrypt_at_rest OpensearchDomain#encrypt_at_rest}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptAtRest", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainEncryptAtRest\"}", isOptional: true)]
@@ -143,7 +143,7 @@ namespace aws.OpensearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#engine_version OpensearchDomain#engine_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#engine_version OpensearchDomain#engine_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "engineVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EngineVersion
@@ -152,7 +152,7 @@ namespace aws.OpensearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#id OpensearchDomain#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#id OpensearchDomain#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -167,7 +167,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>identity_center_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#identity_center_options OpensearchDomain#identity_center_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#identity_center_options OpensearchDomain#identity_center_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identityCenterOptions", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainIdentityCenterOptions\"}", isOptional: true)]
@@ -177,7 +177,7 @@ namespace aws.OpensearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#ip_address_type OpensearchDomain#ip_address_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#ip_address_type OpensearchDomain#ip_address_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipAddressType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpAddressType
@@ -190,7 +190,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>log_publishing_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#log_publishing_options OpensearchDomain#log_publishing_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#log_publishing_options OpensearchDomain#log_publishing_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logPublishingOptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchDomain.OpensearchDomainLogPublishingOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -222,7 +222,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>node_to_node_encryption block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#node_to_node_encryption OpensearchDomain#node_to_node_encryption}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#node_to_node_encryption OpensearchDomain#node_to_node_encryption}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nodeToNodeEncryption", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainNodeToNodeEncryption\"}", isOptional: true)]
@@ -234,7 +234,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>off_peak_window_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#off_peak_window_options OpensearchDomain#off_peak_window_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#off_peak_window_options OpensearchDomain#off_peak_window_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "offPeakWindowOptions", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainOffPeakWindowOptions\"}", isOptional: true)]
@@ -246,7 +246,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#region OpensearchDomain#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#region OpensearchDomain#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -258,7 +258,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>snapshot_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#snapshot_options OpensearchDomain#snapshot_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#snapshot_options OpensearchDomain#snapshot_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "snapshotOptions", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainSnapshotOptions\"}", isOptional: true)]
@@ -270,7 +270,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>software_update_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#software_update_options OpensearchDomain#software_update_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#software_update_options OpensearchDomain#software_update_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "softwareUpdateOptions", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainSoftwareUpdateOptions\"}", isOptional: true)]
@@ -280,7 +280,7 @@ namespace aws.OpensearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#tags OpensearchDomain#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#tags OpensearchDomain#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -289,7 +289,7 @@ namespace aws.OpensearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#tags_all OpensearchDomain#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#tags_all OpensearchDomain#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -300,7 +300,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#timeouts OpensearchDomain#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#timeouts OpensearchDomain#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainTimeouts\"}", isOptional: true)]
@@ -312,7 +312,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>vpc_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#vpc_options OpensearchDomain#vpc_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#vpc_options OpensearchDomain#vpc_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpcOptions", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainVpcOptions\"}", isOptional: true)]

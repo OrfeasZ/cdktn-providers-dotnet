@@ -9,7 +9,7 @@ namespace aws.FisExperimentTemplate
     [JsiiByValue(fqn: "aws.fisExperimentTemplate.FisExperimentTemplateTargetFilter")]
     public class FisExperimentTemplateTargetFilter : aws.FisExperimentTemplate.IFisExperimentTemplateTargetFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#path FisExperimentTemplate#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fis_experiment_template#path FisExperimentTemplate#path}.</summary>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
         public string Path
         {
@@ -17,7 +17,7 @@ namespace aws.FisExperimentTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#values FisExperimentTemplate#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fis_experiment_template#values FisExperimentTemplate#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

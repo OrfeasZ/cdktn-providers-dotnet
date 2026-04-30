@@ -7,7 +7,7 @@ namespace aws.RumAppMonitor
     [JsiiInterface(nativeType: typeof(IRumAppMonitorCustomEvents), fullyQualifiedName: "aws.rumAppMonitor.RumAppMonitorCustomEvents")]
     public interface IRumAppMonitorCustomEvents
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rum_app_monitor#status RumAppMonitor#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rum_app_monitor#status RumAppMonitor#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Status
@@ -25,7 +25,7 @@ namespace aws.RumAppMonitor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rum_app_monitor#status RumAppMonitor#status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rum_app_monitor#status RumAppMonitor#status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Status

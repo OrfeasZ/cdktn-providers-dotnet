@@ -11,7 +11,7 @@ namespace aws.Macie2ClassificationJob
 
         /// <summary>and block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/macie2_classification_job#and Macie2ClassificationJob#and}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/macie2_classification_job#and Macie2ClassificationJob#and}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "and", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.macie2ClassificationJob.Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAnd\"},\"kind\":\"array\"}}]}}", isOptional: true)]

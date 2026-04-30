@@ -7,14 +7,14 @@ namespace aws.CustomerprofilesDomain
     [JsiiInterface(nativeType: typeof(ICustomerprofilesDomainRuleBasedMatchingAttributeTypesSelector), fullyQualifiedName: "aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingAttributeTypesSelector")]
     public interface ICustomerprofilesDomainRuleBasedMatchingAttributeTypesSelector
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#attribute_matching_model CustomerprofilesDomain#attribute_matching_model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#attribute_matching_model CustomerprofilesDomain#attribute_matching_model}.</summary>
         [JsiiProperty(name: "attributeMatchingModel", typeJson: "{\"primitive\":\"string\"}")]
         string AttributeMatchingModel
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#address CustomerprofilesDomain#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#address CustomerprofilesDomain#address}.</summary>
         [JsiiProperty(name: "address", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Address
@@ -25,7 +25,7 @@ namespace aws.CustomerprofilesDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#email_address CustomerprofilesDomain#email_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#email_address CustomerprofilesDomain#email_address}.</summary>
         [JsiiProperty(name: "emailAddress", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? EmailAddress
@@ -36,7 +36,7 @@ namespace aws.CustomerprofilesDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#phone_number CustomerprofilesDomain#phone_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#phone_number CustomerprofilesDomain#phone_number}.</summary>
         [JsiiProperty(name: "phoneNumber", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? PhoneNumber
@@ -54,14 +54,14 @@ namespace aws.CustomerprofilesDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#attribute_matching_model CustomerprofilesDomain#attribute_matching_model}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#attribute_matching_model CustomerprofilesDomain#attribute_matching_model}.</summary>
             [JsiiProperty(name: "attributeMatchingModel", typeJson: "{\"primitive\":\"string\"}")]
             public string AttributeMatchingModel
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#address CustomerprofilesDomain#address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#address CustomerprofilesDomain#address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "address", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Address
@@ -69,7 +69,7 @@ namespace aws.CustomerprofilesDomain
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#email_address CustomerprofilesDomain#email_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#email_address CustomerprofilesDomain#email_address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "emailAddress", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? EmailAddress
@@ -77,7 +77,7 @@ namespace aws.CustomerprofilesDomain
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#phone_number CustomerprofilesDomain#phone_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#phone_number CustomerprofilesDomain#phone_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "phoneNumber", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? PhoneNumber

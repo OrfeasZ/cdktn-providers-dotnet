@@ -7,7 +7,7 @@ namespace aws.BedrockagentFlow
     [JsiiInterface(nativeType: typeof(IBedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationResource), fullyQualifiedName: "aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationResource")]
     public interface IBedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationResource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_flow#prompt_arn BedrockagentFlow#prompt_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_flow#prompt_arn BedrockagentFlow#prompt_arn}.</summary>
         [JsiiProperty(name: "promptArn", typeJson: "{\"primitive\":\"string\"}")]
         string PromptArn
         {
@@ -21,7 +21,7 @@ namespace aws.BedrockagentFlow
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_flow#prompt_arn BedrockagentFlow#prompt_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_flow#prompt_arn BedrockagentFlow#prompt_arn}.</summary>
             [JsiiProperty(name: "promptArn", typeJson: "{\"primitive\":\"string\"}")]
             public string PromptArn
             {

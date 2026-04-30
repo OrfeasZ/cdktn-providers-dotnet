@@ -9,7 +9,7 @@ namespace aws.AppflowFlow
     [JsiiByValue(fqn: "aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesCustomConnector")]
     public class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesCustomConnector : aws.AppflowFlow.IAppflowFlowDestinationFlowConfigDestinationConnectorPropertiesCustomConnector
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#entity_name AppflowFlow#entity_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#entity_name AppflowFlow#entity_name}.</summary>
         [JsiiProperty(name: "entityName", typeJson: "{\"primitive\":\"string\"}")]
         public string EntityName
         {
@@ -17,7 +17,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#custom_properties AppflowFlow#custom_properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#custom_properties AppflowFlow#custom_properties}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customProperties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? CustomProperties
@@ -28,7 +28,7 @@ namespace aws.AppflowFlow
 
         /// <summary>error_handling_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#error_handling_config AppflowFlow#error_handling_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#error_handling_config AppflowFlow#error_handling_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "errorHandlingConfig", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesCustomConnectorErrorHandlingConfig\"}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#id_field_names AppflowFlow#id_field_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#id_field_names AppflowFlow#id_field_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "idFieldNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IdFieldNames
@@ -47,7 +47,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#write_operation_type AppflowFlow#write_operation_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#write_operation_type AppflowFlow#write_operation_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "writeOperationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WriteOperationType

@@ -7,14 +7,14 @@ namespace aws.ImagebuilderImage
     [JsiiInterface(nativeType: typeof(IImagebuilderImageWorkflow), fullyQualifiedName: "aws.imagebuilderImage.ImagebuilderImageWorkflow")]
     public interface IImagebuilderImageWorkflow
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image#workflow_arn ImagebuilderImage#workflow_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image#workflow_arn ImagebuilderImage#workflow_arn}.</summary>
         [JsiiProperty(name: "workflowArn", typeJson: "{\"primitive\":\"string\"}")]
         string WorkflowArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image#on_failure ImagebuilderImage#on_failure}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image#on_failure ImagebuilderImage#on_failure}.</summary>
         [JsiiProperty(name: "onFailure", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OnFailure
@@ -25,7 +25,7 @@ namespace aws.ImagebuilderImage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image#parallel_group ImagebuilderImage#parallel_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image#parallel_group ImagebuilderImage#parallel_group}.</summary>
         [JsiiProperty(name: "parallelGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ParallelGroup
@@ -38,7 +38,7 @@ namespace aws.ImagebuilderImage
 
         /// <summary>parameter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image#parameter ImagebuilderImage#parameter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image#parameter ImagebuilderImage#parameter}
         /// </remarks>
         [JsiiProperty(name: "parameter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderImage.ImagebuilderImageWorkflowParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,14 +57,14 @@ namespace aws.ImagebuilderImage
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image#workflow_arn ImagebuilderImage#workflow_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image#workflow_arn ImagebuilderImage#workflow_arn}.</summary>
             [JsiiProperty(name: "workflowArn", typeJson: "{\"primitive\":\"string\"}")]
             public string WorkflowArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image#on_failure ImagebuilderImage#on_failure}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image#on_failure ImagebuilderImage#on_failure}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "onFailure", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OnFailure
@@ -72,7 +72,7 @@ namespace aws.ImagebuilderImage
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image#parallel_group ImagebuilderImage#parallel_group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image#parallel_group ImagebuilderImage#parallel_group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "parallelGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ParallelGroup
@@ -82,7 +82,7 @@ namespace aws.ImagebuilderImage
 
             /// <summary>parameter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image#parameter ImagebuilderImage#parameter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image#parameter ImagebuilderImage#parameter}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "parameter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderImage.ImagebuilderImageWorkflowParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]

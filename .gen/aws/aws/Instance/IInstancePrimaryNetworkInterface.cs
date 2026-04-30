@@ -7,7 +7,7 @@ namespace aws.Instance
     [JsiiInterface(nativeType: typeof(IInstancePrimaryNetworkInterface), fullyQualifiedName: "aws.instance.InstancePrimaryNetworkInterface")]
     public interface IInstancePrimaryNetworkInterface
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#network_interface_id Instance#network_interface_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/instance#network_interface_id Instance#network_interface_id}.</summary>
         [JsiiProperty(name: "networkInterfaceId", typeJson: "{\"primitive\":\"string\"}")]
         string NetworkInterfaceId
         {
@@ -21,7 +21,7 @@ namespace aws.Instance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#network_interface_id Instance#network_interface_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/instance#network_interface_id Instance#network_interface_id}.</summary>
             [JsiiProperty(name: "networkInterfaceId", typeJson: "{\"primitive\":\"string\"}")]
             public string NetworkInterfaceId
             {

@@ -7,7 +7,7 @@ namespace aws.IdentitystoreUser
     [JsiiByValue(fqn: "aws.identitystoreUser.IdentitystoreUserAddresses")]
     public class IdentitystoreUserAddresses : aws.IdentitystoreUser.IIdentitystoreUserAddresses
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#country IdentitystoreUser#country}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/identitystore_user#country IdentitystoreUser#country}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Country
@@ -16,7 +16,7 @@ namespace aws.IdentitystoreUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#formatted IdentitystoreUser#formatted}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/identitystore_user#formatted IdentitystoreUser#formatted}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "formatted", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Formatted
@@ -25,7 +25,7 @@ namespace aws.IdentitystoreUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#locality IdentitystoreUser#locality}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/identitystore_user#locality IdentitystoreUser#locality}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "locality", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Locality
@@ -34,7 +34,7 @@ namespace aws.IdentitystoreUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#postal_code IdentitystoreUser#postal_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/identitystore_user#postal_code IdentitystoreUser#postal_code}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "postalCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PostalCode
@@ -45,7 +45,7 @@ namespace aws.IdentitystoreUser
 
         private object? _primary;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "primary", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Primary
@@ -74,7 +74,7 @@ namespace aws.IdentitystoreUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#region IdentitystoreUser#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/identitystore_user#region IdentitystoreUser#region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Region
@@ -83,7 +83,7 @@ namespace aws.IdentitystoreUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#street_address IdentitystoreUser#street_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/identitystore_user#street_address IdentitystoreUser#street_address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "streetAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StreetAddress
@@ -92,7 +92,7 @@ namespace aws.IdentitystoreUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/identitystore_user#type IdentitystoreUser#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/identitystore_user#type IdentitystoreUser#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

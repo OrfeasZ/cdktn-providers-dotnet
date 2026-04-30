@@ -7,7 +7,7 @@ namespace aws.DbSnapshotCopy
     [JsiiInterface(nativeType: typeof(IDbSnapshotCopyTimeouts), fullyQualifiedName: "aws.dbSnapshotCopy.DbSnapshotCopyTimeouts")]
     public interface IDbSnapshotCopyTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_snapshot_copy#create DbSnapshotCopy#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_snapshot_copy#create DbSnapshotCopy#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -25,7 +25,7 @@ namespace aws.DbSnapshotCopy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_snapshot_copy#create DbSnapshotCopy#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_snapshot_copy#create DbSnapshotCopy#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create

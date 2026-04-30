@@ -9,7 +9,7 @@ namespace aws.Provider
     {
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#accessanalyzer AwsProvider#accessanalyzer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#accessanalyzer AwsProvider#accessanalyzer}
         /// </remarks>
         [JsiiProperty(name: "accessanalyzer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#account AwsProvider#account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#account AwsProvider#account}
         /// </remarks>
         [JsiiProperty(name: "account", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#acm AwsProvider#acm}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#acm AwsProvider#acm}
         /// </remarks>
         [JsiiProperty(name: "acm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#acmpca AwsProvider#acmpca}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#acmpca AwsProvider#acmpca}
         /// </remarks>
         [JsiiProperty(name: "acmpca", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#amg AwsProvider#amg}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#amg AwsProvider#amg}
         /// </remarks>
         [JsiiProperty(name: "amg", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +79,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#amp AwsProvider#amp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#amp AwsProvider#amp}
         /// </remarks>
         [JsiiProperty(name: "amp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,7 +93,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#amplify AwsProvider#amplify}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#amplify AwsProvider#amplify}
         /// </remarks>
         [JsiiProperty(name: "amplify", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -107,7 +107,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#apigateway AwsProvider#apigateway}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#apigateway AwsProvider#apigateway}
         /// </remarks>
         [JsiiProperty(name: "apigateway", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -121,7 +121,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#apigatewayv2 AwsProvider#apigatewayv2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#apigatewayv2 AwsProvider#apigatewayv2}
         /// </remarks>
         [JsiiProperty(name: "apigatewayv2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -135,7 +135,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appautoscaling AwsProvider#appautoscaling}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appautoscaling AwsProvider#appautoscaling}
         /// </remarks>
         [JsiiProperty(name: "appautoscaling", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -149,7 +149,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appconfig AwsProvider#appconfig}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appconfig AwsProvider#appconfig}
         /// </remarks>
         [JsiiProperty(name: "appconfig", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -163,7 +163,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appfabric AwsProvider#appfabric}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appfabric AwsProvider#appfabric}
         /// </remarks>
         [JsiiProperty(name: "appfabric", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -177,7 +177,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appflow AwsProvider#appflow}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appflow AwsProvider#appflow}
         /// </remarks>
         [JsiiProperty(name: "appflow", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -191,7 +191,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appintegrations AwsProvider#appintegrations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appintegrations AwsProvider#appintegrations}
         /// </remarks>
         [JsiiProperty(name: "appintegrations", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -205,7 +205,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appintegrationsservice AwsProvider#appintegrationsservice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appintegrationsservice AwsProvider#appintegrationsservice}
         /// </remarks>
         [JsiiProperty(name: "appintegrationsservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -219,7 +219,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#applicationautoscaling AwsProvider#applicationautoscaling}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#applicationautoscaling AwsProvider#applicationautoscaling}
         /// </remarks>
         [JsiiProperty(name: "applicationautoscaling", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -233,7 +233,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#applicationinsights AwsProvider#applicationinsights}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#applicationinsights AwsProvider#applicationinsights}
         /// </remarks>
         [JsiiProperty(name: "applicationinsights", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -247,7 +247,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#applicationsignals AwsProvider#applicationsignals}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#applicationsignals AwsProvider#applicationsignals}
         /// </remarks>
         [JsiiProperty(name: "applicationsignals", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -261,7 +261,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appmesh AwsProvider#appmesh}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appmesh AwsProvider#appmesh}
         /// </remarks>
         [JsiiProperty(name: "appmesh", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -275,7 +275,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appregistry AwsProvider#appregistry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appregistry AwsProvider#appregistry}
         /// </remarks>
         [JsiiProperty(name: "appregistry", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -289,7 +289,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#apprunner AwsProvider#apprunner}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#apprunner AwsProvider#apprunner}
         /// </remarks>
         [JsiiProperty(name: "apprunner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -303,7 +303,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appstream AwsProvider#appstream}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appstream AwsProvider#appstream}
         /// </remarks>
         [JsiiProperty(name: "appstream", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -317,7 +317,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appsync AwsProvider#appsync}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appsync AwsProvider#appsync}
         /// </remarks>
         [JsiiProperty(name: "appsync", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -331,7 +331,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#arcregionswitch AwsProvider#arcregionswitch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#arcregionswitch AwsProvider#arcregionswitch}
         /// </remarks>
         [JsiiProperty(name: "arcregionswitch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -345,7 +345,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#arczonalshift AwsProvider#arczonalshift}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#arczonalshift AwsProvider#arczonalshift}
         /// </remarks>
         [JsiiProperty(name: "arczonalshift", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -359,7 +359,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#athena AwsProvider#athena}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#athena AwsProvider#athena}
         /// </remarks>
         [JsiiProperty(name: "athena", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -373,7 +373,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#auditmanager AwsProvider#auditmanager}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#auditmanager AwsProvider#auditmanager}
         /// </remarks>
         [JsiiProperty(name: "auditmanager", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -387,7 +387,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#autoscaling AwsProvider#autoscaling}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#autoscaling AwsProvider#autoscaling}
         /// </remarks>
         [JsiiProperty(name: "autoscaling", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -401,7 +401,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#autoscalingplans AwsProvider#autoscalingplans}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#autoscalingplans AwsProvider#autoscalingplans}
         /// </remarks>
         [JsiiProperty(name: "autoscalingplans", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -415,7 +415,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#backup AwsProvider#backup}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#backup AwsProvider#backup}
         /// </remarks>
         [JsiiProperty(name: "backup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -429,7 +429,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#batch AwsProvider#batch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#batch AwsProvider#batch}
         /// </remarks>
         [JsiiProperty(name: "batch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -443,7 +443,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#bcmdataexports AwsProvider#bcmdataexports}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#bcmdataexports AwsProvider#bcmdataexports}
         /// </remarks>
         [JsiiProperty(name: "bcmdataexports", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -457,7 +457,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#beanstalk AwsProvider#beanstalk}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#beanstalk AwsProvider#beanstalk}
         /// </remarks>
         [JsiiProperty(name: "beanstalk", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -471,7 +471,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#bedrock AwsProvider#bedrock}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#bedrock AwsProvider#bedrock}
         /// </remarks>
         [JsiiProperty(name: "bedrock", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -485,7 +485,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#bedrockagent AwsProvider#bedrockagent}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#bedrockagent AwsProvider#bedrockagent}
         /// </remarks>
         [JsiiProperty(name: "bedrockagent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -499,7 +499,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#bedrockagentcore AwsProvider#bedrockagentcore}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#bedrockagentcore AwsProvider#bedrockagentcore}
         /// </remarks>
         [JsiiProperty(name: "bedrockagentcore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -513,7 +513,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#billing AwsProvider#billing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#billing AwsProvider#billing}
         /// </remarks>
         [JsiiProperty(name: "billing", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -527,7 +527,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#budgets AwsProvider#budgets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#budgets AwsProvider#budgets}
         /// </remarks>
         [JsiiProperty(name: "budgets", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -541,7 +541,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ce AwsProvider#ce}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ce AwsProvider#ce}
         /// </remarks>
         [JsiiProperty(name: "ce", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -555,7 +555,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#chatbot AwsProvider#chatbot}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#chatbot AwsProvider#chatbot}
         /// </remarks>
         [JsiiProperty(name: "chatbot", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -569,7 +569,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#chime AwsProvider#chime}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#chime AwsProvider#chime}
         /// </remarks>
         [JsiiProperty(name: "chime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -583,7 +583,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#chimesdkmediapipelines AwsProvider#chimesdkmediapipelines}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#chimesdkmediapipelines AwsProvider#chimesdkmediapipelines}
         /// </remarks>
         [JsiiProperty(name: "chimesdkmediapipelines", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -597,7 +597,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#chimesdkvoice AwsProvider#chimesdkvoice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#chimesdkvoice AwsProvider#chimesdkvoice}
         /// </remarks>
         [JsiiProperty(name: "chimesdkvoice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -611,7 +611,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cleanrooms AwsProvider#cleanrooms}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cleanrooms AwsProvider#cleanrooms}
         /// </remarks>
         [JsiiProperty(name: "cleanrooms", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -625,7 +625,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloud9 AwsProvider#cloud9}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloud9 AwsProvider#cloud9}
         /// </remarks>
         [JsiiProperty(name: "cloud9", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -639,7 +639,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudcontrol AwsProvider#cloudcontrol}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudcontrol AwsProvider#cloudcontrol}
         /// </remarks>
         [JsiiProperty(name: "cloudcontrol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -653,7 +653,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudcontrolapi AwsProvider#cloudcontrolapi}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudcontrolapi AwsProvider#cloudcontrolapi}
         /// </remarks>
         [JsiiProperty(name: "cloudcontrolapi", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -667,7 +667,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudformation AwsProvider#cloudformation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudformation AwsProvider#cloudformation}
         /// </remarks>
         [JsiiProperty(name: "cloudformation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -681,7 +681,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudfront AwsProvider#cloudfront}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudfront AwsProvider#cloudfront}
         /// </remarks>
         [JsiiProperty(name: "cloudfront", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -695,7 +695,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudfrontkeyvaluestore AwsProvider#cloudfrontkeyvaluestore}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudfrontkeyvaluestore AwsProvider#cloudfrontkeyvaluestore}
         /// </remarks>
         [JsiiProperty(name: "cloudfrontkeyvaluestore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -709,7 +709,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudhsm AwsProvider#cloudhsm}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudhsm AwsProvider#cloudhsm}
         /// </remarks>
         [JsiiProperty(name: "cloudhsm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -723,7 +723,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudhsmv2 AwsProvider#cloudhsmv2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudhsmv2 AwsProvider#cloudhsmv2}
         /// </remarks>
         [JsiiProperty(name: "cloudhsmv2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -737,7 +737,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudsearch AwsProvider#cloudsearch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudsearch AwsProvider#cloudsearch}
         /// </remarks>
         [JsiiProperty(name: "cloudsearch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -751,7 +751,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudtrail AwsProvider#cloudtrail}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudtrail AwsProvider#cloudtrail}
         /// </remarks>
         [JsiiProperty(name: "cloudtrail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -765,7 +765,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudwatch AwsProvider#cloudwatch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudwatch AwsProvider#cloudwatch}
         /// </remarks>
         [JsiiProperty(name: "cloudwatch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -779,7 +779,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudwatchevents AwsProvider#cloudwatchevents}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudwatchevents AwsProvider#cloudwatchevents}
         /// </remarks>
         [JsiiProperty(name: "cloudwatchevents", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -793,7 +793,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudwatchevidently AwsProvider#cloudwatchevidently}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudwatchevidently AwsProvider#cloudwatchevidently}
         /// </remarks>
         [JsiiProperty(name: "cloudwatchevidently", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -807,7 +807,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudwatchlog AwsProvider#cloudwatchlog}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudwatchlog AwsProvider#cloudwatchlog}
         /// </remarks>
         [JsiiProperty(name: "cloudwatchlog", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -821,7 +821,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudwatchlogs AwsProvider#cloudwatchlogs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudwatchlogs AwsProvider#cloudwatchlogs}
         /// </remarks>
         [JsiiProperty(name: "cloudwatchlogs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -835,7 +835,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudwatchobservabilityaccessmanager AwsProvider#cloudwatchobservabilityaccessmanager}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudwatchobservabilityaccessmanager AwsProvider#cloudwatchobservabilityaccessmanager}
         /// </remarks>
         [JsiiProperty(name: "cloudwatchobservabilityaccessmanager", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -849,7 +849,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudwatchrum AwsProvider#cloudwatchrum}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudwatchrum AwsProvider#cloudwatchrum}
         /// </remarks>
         [JsiiProperty(name: "cloudwatchrum", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -863,7 +863,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codeartifact AwsProvider#codeartifact}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codeartifact AwsProvider#codeartifact}
         /// </remarks>
         [JsiiProperty(name: "codeartifact", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -877,7 +877,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codebuild AwsProvider#codebuild}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codebuild AwsProvider#codebuild}
         /// </remarks>
         [JsiiProperty(name: "codebuild", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -891,7 +891,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codecatalyst AwsProvider#codecatalyst}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codecatalyst AwsProvider#codecatalyst}
         /// </remarks>
         [JsiiProperty(name: "codecatalyst", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -905,7 +905,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codecommit AwsProvider#codecommit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codecommit AwsProvider#codecommit}
         /// </remarks>
         [JsiiProperty(name: "codecommit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -919,7 +919,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codeconnections AwsProvider#codeconnections}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codeconnections AwsProvider#codeconnections}
         /// </remarks>
         [JsiiProperty(name: "codeconnections", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -933,7 +933,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codedeploy AwsProvider#codedeploy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codedeploy AwsProvider#codedeploy}
         /// </remarks>
         [JsiiProperty(name: "codedeploy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -947,7 +947,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codeguruprofiler AwsProvider#codeguruprofiler}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codeguruprofiler AwsProvider#codeguruprofiler}
         /// </remarks>
         [JsiiProperty(name: "codeguruprofiler", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -961,7 +961,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codegurureviewer AwsProvider#codegurureviewer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codegurureviewer AwsProvider#codegurureviewer}
         /// </remarks>
         [JsiiProperty(name: "codegurureviewer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -975,7 +975,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codepipeline AwsProvider#codepipeline}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codepipeline AwsProvider#codepipeline}
         /// </remarks>
         [JsiiProperty(name: "codepipeline", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -989,7 +989,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codestarconnections AwsProvider#codestarconnections}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codestarconnections AwsProvider#codestarconnections}
         /// </remarks>
         [JsiiProperty(name: "codestarconnections", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1003,7 +1003,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codestarnotifications AwsProvider#codestarnotifications}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codestarnotifications AwsProvider#codestarnotifications}
         /// </remarks>
         [JsiiProperty(name: "codestarnotifications", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1017,7 +1017,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cognitoidentity AwsProvider#cognitoidentity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cognitoidentity AwsProvider#cognitoidentity}
         /// </remarks>
         [JsiiProperty(name: "cognitoidentity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1031,7 +1031,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cognitoidentityprovider AwsProvider#cognitoidentityprovider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cognitoidentityprovider AwsProvider#cognitoidentityprovider}
         /// </remarks>
         [JsiiProperty(name: "cognitoidentityprovider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1045,7 +1045,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cognitoidp AwsProvider#cognitoidp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cognitoidp AwsProvider#cognitoidp}
         /// </remarks>
         [JsiiProperty(name: "cognitoidp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1059,7 +1059,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#comprehend AwsProvider#comprehend}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#comprehend AwsProvider#comprehend}
         /// </remarks>
         [JsiiProperty(name: "comprehend", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1073,7 +1073,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#computeoptimizer AwsProvider#computeoptimizer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#computeoptimizer AwsProvider#computeoptimizer}
         /// </remarks>
         [JsiiProperty(name: "computeoptimizer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1087,7 +1087,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#config AwsProvider#config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#config AwsProvider#config}
         /// </remarks>
         [JsiiProperty(name: "config", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1101,7 +1101,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#configservice AwsProvider#configservice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#configservice AwsProvider#configservice}
         /// </remarks>
         [JsiiProperty(name: "configservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1115,7 +1115,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#connect AwsProvider#connect}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#connect AwsProvider#connect}
         /// </remarks>
         [JsiiProperty(name: "connect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1129,7 +1129,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#connectcases AwsProvider#connectcases}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#connectcases AwsProvider#connectcases}
         /// </remarks>
         [JsiiProperty(name: "connectcases", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1143,7 +1143,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#controltower AwsProvider#controltower}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#controltower AwsProvider#controltower}
         /// </remarks>
         [JsiiProperty(name: "controltower", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1157,7 +1157,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#costandusagereportservice AwsProvider#costandusagereportservice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#costandusagereportservice AwsProvider#costandusagereportservice}
         /// </remarks>
         [JsiiProperty(name: "costandusagereportservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1171,7 +1171,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#costexplorer AwsProvider#costexplorer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#costexplorer AwsProvider#costexplorer}
         /// </remarks>
         [JsiiProperty(name: "costexplorer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1185,7 +1185,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#costoptimizationhub AwsProvider#costoptimizationhub}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#costoptimizationhub AwsProvider#costoptimizationhub}
         /// </remarks>
         [JsiiProperty(name: "costoptimizationhub", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1199,7 +1199,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cur AwsProvider#cur}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cur AwsProvider#cur}
         /// </remarks>
         [JsiiProperty(name: "cur", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1213,7 +1213,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#customerprofiles AwsProvider#customerprofiles}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#customerprofiles AwsProvider#customerprofiles}
         /// </remarks>
         [JsiiProperty(name: "customerprofiles", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1227,7 +1227,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#databasemigration AwsProvider#databasemigration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#databasemigration AwsProvider#databasemigration}
         /// </remarks>
         [JsiiProperty(name: "databasemigration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1241,7 +1241,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#databasemigrationservice AwsProvider#databasemigrationservice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#databasemigrationservice AwsProvider#databasemigrationservice}
         /// </remarks>
         [JsiiProperty(name: "databasemigrationservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1255,7 +1255,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#databrew AwsProvider#databrew}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#databrew AwsProvider#databrew}
         /// </remarks>
         [JsiiProperty(name: "databrew", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1269,7 +1269,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#dataexchange AwsProvider#dataexchange}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#dataexchange AwsProvider#dataexchange}
         /// </remarks>
         [JsiiProperty(name: "dataexchange", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1283,7 +1283,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#datapipeline AwsProvider#datapipeline}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#datapipeline AwsProvider#datapipeline}
         /// </remarks>
         [JsiiProperty(name: "datapipeline", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1297,7 +1297,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#datasync AwsProvider#datasync}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#datasync AwsProvider#datasync}
         /// </remarks>
         [JsiiProperty(name: "datasync", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1311,7 +1311,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#datazone AwsProvider#datazone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#datazone AwsProvider#datazone}
         /// </remarks>
         [JsiiProperty(name: "datazone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1325,7 +1325,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#dax AwsProvider#dax}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#dax AwsProvider#dax}
         /// </remarks>
         [JsiiProperty(name: "dax", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1339,7 +1339,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#deploy AwsProvider#deploy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#deploy AwsProvider#deploy}
         /// </remarks>
         [JsiiProperty(name: "deploy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1353,7 +1353,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#detective AwsProvider#detective}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#detective AwsProvider#detective}
         /// </remarks>
         [JsiiProperty(name: "detective", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1367,7 +1367,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#devicefarm AwsProvider#devicefarm}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#devicefarm AwsProvider#devicefarm}
         /// </remarks>
         [JsiiProperty(name: "devicefarm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1381,7 +1381,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#devopsguru AwsProvider#devopsguru}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#devopsguru AwsProvider#devopsguru}
         /// </remarks>
         [JsiiProperty(name: "devopsguru", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1395,7 +1395,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#directconnect AwsProvider#directconnect}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#directconnect AwsProvider#directconnect}
         /// </remarks>
         [JsiiProperty(name: "directconnect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1409,7 +1409,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#directoryservice AwsProvider#directoryservice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#directoryservice AwsProvider#directoryservice}
         /// </remarks>
         [JsiiProperty(name: "directoryservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1423,7 +1423,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#dlm AwsProvider#dlm}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#dlm AwsProvider#dlm}
         /// </remarks>
         [JsiiProperty(name: "dlm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1437,7 +1437,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#dms AwsProvider#dms}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#dms AwsProvider#dms}
         /// </remarks>
         [JsiiProperty(name: "dms", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1451,7 +1451,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#docdb AwsProvider#docdb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#docdb AwsProvider#docdb}
         /// </remarks>
         [JsiiProperty(name: "docdb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1465,7 +1465,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#docdbelastic AwsProvider#docdbelastic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#docdbelastic AwsProvider#docdbelastic}
         /// </remarks>
         [JsiiProperty(name: "docdbelastic", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1479,7 +1479,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#drs AwsProvider#drs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#drs AwsProvider#drs}
         /// </remarks>
         [JsiiProperty(name: "drs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1493,7 +1493,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ds AwsProvider#ds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ds AwsProvider#ds}
         /// </remarks>
         [JsiiProperty(name: "ds", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1507,7 +1507,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#dsql AwsProvider#dsql}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#dsql AwsProvider#dsql}
         /// </remarks>
         [JsiiProperty(name: "dsql", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1521,7 +1521,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#dynamodb AwsProvider#dynamodb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#dynamodb AwsProvider#dynamodb}
         /// </remarks>
         [JsiiProperty(name: "dynamodb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1535,7 +1535,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ec2 AwsProvider#ec2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ec2 AwsProvider#ec2}
         /// </remarks>
         [JsiiProperty(name: "ec2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1549,7 +1549,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ecr AwsProvider#ecr}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ecr AwsProvider#ecr}
         /// </remarks>
         [JsiiProperty(name: "ecr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1563,7 +1563,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ecrpublic AwsProvider#ecrpublic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ecrpublic AwsProvider#ecrpublic}
         /// </remarks>
         [JsiiProperty(name: "ecrpublic", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1577,7 +1577,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ecs AwsProvider#ecs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ecs AwsProvider#ecs}
         /// </remarks>
         [JsiiProperty(name: "ecs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1591,7 +1591,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#efs AwsProvider#efs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#efs AwsProvider#efs}
         /// </remarks>
         [JsiiProperty(name: "efs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1605,7 +1605,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#eks AwsProvider#eks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#eks AwsProvider#eks}
         /// </remarks>
         [JsiiProperty(name: "eks", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1619,7 +1619,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#elasticache AwsProvider#elasticache}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#elasticache AwsProvider#elasticache}
         /// </remarks>
         [JsiiProperty(name: "elasticache", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1633,7 +1633,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#elasticbeanstalk AwsProvider#elasticbeanstalk}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#elasticbeanstalk AwsProvider#elasticbeanstalk}
         /// </remarks>
         [JsiiProperty(name: "elasticbeanstalk", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1647,7 +1647,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#elasticloadbalancing AwsProvider#elasticloadbalancing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#elasticloadbalancing AwsProvider#elasticloadbalancing}
         /// </remarks>
         [JsiiProperty(name: "elasticloadbalancing", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1661,7 +1661,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#elasticloadbalancingv2 AwsProvider#elasticloadbalancingv2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#elasticloadbalancingv2 AwsProvider#elasticloadbalancingv2}
         /// </remarks>
         [JsiiProperty(name: "elasticloadbalancingv2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1675,7 +1675,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#elasticsearch AwsProvider#elasticsearch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#elasticsearch AwsProvider#elasticsearch}
         /// </remarks>
         [JsiiProperty(name: "elasticsearch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1689,7 +1689,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#elasticsearchservice AwsProvider#elasticsearchservice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#elasticsearchservice AwsProvider#elasticsearchservice}
         /// </remarks>
         [JsiiProperty(name: "elasticsearchservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1703,7 +1703,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#elastictranscoder AwsProvider#elastictranscoder}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#elastictranscoder AwsProvider#elastictranscoder}
         /// </remarks>
         [JsiiProperty(name: "elastictranscoder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1717,7 +1717,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#elb AwsProvider#elb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#elb AwsProvider#elb}
         /// </remarks>
         [JsiiProperty(name: "elb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1731,7 +1731,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#elbv2 AwsProvider#elbv2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#elbv2 AwsProvider#elbv2}
         /// </remarks>
         [JsiiProperty(name: "elbv2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1745,7 +1745,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#emr AwsProvider#emr}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#emr AwsProvider#emr}
         /// </remarks>
         [JsiiProperty(name: "emr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1759,7 +1759,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#emrcontainers AwsProvider#emrcontainers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#emrcontainers AwsProvider#emrcontainers}
         /// </remarks>
         [JsiiProperty(name: "emrcontainers", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1773,7 +1773,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#emrserverless AwsProvider#emrserverless}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#emrserverless AwsProvider#emrserverless}
         /// </remarks>
         [JsiiProperty(name: "emrserverless", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1787,7 +1787,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#es AwsProvider#es}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#es AwsProvider#es}
         /// </remarks>
         [JsiiProperty(name: "es", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1801,7 +1801,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#eventbridge AwsProvider#eventbridge}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#eventbridge AwsProvider#eventbridge}
         /// </remarks>
         [JsiiProperty(name: "eventbridge", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1815,7 +1815,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#events AwsProvider#events}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#events AwsProvider#events}
         /// </remarks>
         [JsiiProperty(name: "events", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1829,7 +1829,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#evidently AwsProvider#evidently}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#evidently AwsProvider#evidently}
         /// </remarks>
         [JsiiProperty(name: "evidently", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1843,7 +1843,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#evs AwsProvider#evs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#evs AwsProvider#evs}
         /// </remarks>
         [JsiiProperty(name: "evs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1857,7 +1857,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#finspace AwsProvider#finspace}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#finspace AwsProvider#finspace}
         /// </remarks>
         [JsiiProperty(name: "finspace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1871,7 +1871,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#firehose AwsProvider#firehose}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#firehose AwsProvider#firehose}
         /// </remarks>
         [JsiiProperty(name: "firehose", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1885,7 +1885,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#fis AwsProvider#fis}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#fis AwsProvider#fis}
         /// </remarks>
         [JsiiProperty(name: "fis", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1899,7 +1899,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#fms AwsProvider#fms}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#fms AwsProvider#fms}
         /// </remarks>
         [JsiiProperty(name: "fms", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1913,7 +1913,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#fsx AwsProvider#fsx}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#fsx AwsProvider#fsx}
         /// </remarks>
         [JsiiProperty(name: "fsx", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1927,7 +1927,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#gamelift AwsProvider#gamelift}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#gamelift AwsProvider#gamelift}
         /// </remarks>
         [JsiiProperty(name: "gamelift", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1941,7 +1941,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#glacier AwsProvider#glacier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#glacier AwsProvider#glacier}
         /// </remarks>
         [JsiiProperty(name: "glacier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1955,7 +1955,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#globalaccelerator AwsProvider#globalaccelerator}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#globalaccelerator AwsProvider#globalaccelerator}
         /// </remarks>
         [JsiiProperty(name: "globalaccelerator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1969,7 +1969,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#glue AwsProvider#glue}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#glue AwsProvider#glue}
         /// </remarks>
         [JsiiProperty(name: "glue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1983,7 +1983,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#gluedatabrew AwsProvider#gluedatabrew}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#gluedatabrew AwsProvider#gluedatabrew}
         /// </remarks>
         [JsiiProperty(name: "gluedatabrew", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1997,7 +1997,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#grafana AwsProvider#grafana}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#grafana AwsProvider#grafana}
         /// </remarks>
         [JsiiProperty(name: "grafana", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2011,7 +2011,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#greengrass AwsProvider#greengrass}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#greengrass AwsProvider#greengrass}
         /// </remarks>
         [JsiiProperty(name: "greengrass", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2025,7 +2025,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#groundstation AwsProvider#groundstation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#groundstation AwsProvider#groundstation}
         /// </remarks>
         [JsiiProperty(name: "groundstation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2039,7 +2039,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#guardduty AwsProvider#guardduty}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#guardduty AwsProvider#guardduty}
         /// </remarks>
         [JsiiProperty(name: "guardduty", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2053,7 +2053,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#healthlake AwsProvider#healthlake}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#healthlake AwsProvider#healthlake}
         /// </remarks>
         [JsiiProperty(name: "healthlake", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2067,7 +2067,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#iam AwsProvider#iam}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#iam AwsProvider#iam}
         /// </remarks>
         [JsiiProperty(name: "iam", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2081,7 +2081,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#identitystore AwsProvider#identitystore}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#identitystore AwsProvider#identitystore}
         /// </remarks>
         [JsiiProperty(name: "identitystore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2095,7 +2095,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#imagebuilder AwsProvider#imagebuilder}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#imagebuilder AwsProvider#imagebuilder}
         /// </remarks>
         [JsiiProperty(name: "imagebuilder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2109,7 +2109,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#inspector AwsProvider#inspector}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#inspector AwsProvider#inspector}
         /// </remarks>
         [JsiiProperty(name: "inspector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2123,7 +2123,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#inspector2 AwsProvider#inspector2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#inspector2 AwsProvider#inspector2}
         /// </remarks>
         [JsiiProperty(name: "inspector2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2137,7 +2137,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#inspectorv2 AwsProvider#inspectorv2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#inspectorv2 AwsProvider#inspectorv2}
         /// </remarks>
         [JsiiProperty(name: "inspectorv2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2151,7 +2151,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#internetmonitor AwsProvider#internetmonitor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#internetmonitor AwsProvider#internetmonitor}
         /// </remarks>
         [JsiiProperty(name: "internetmonitor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2165,7 +2165,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#invoicing AwsProvider#invoicing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#invoicing AwsProvider#invoicing}
         /// </remarks>
         [JsiiProperty(name: "invoicing", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2179,7 +2179,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#iot AwsProvider#iot}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#iot AwsProvider#iot}
         /// </remarks>
         [JsiiProperty(name: "iot", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2193,7 +2193,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ivs AwsProvider#ivs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ivs AwsProvider#ivs}
         /// </remarks>
         [JsiiProperty(name: "ivs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2207,7 +2207,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ivschat AwsProvider#ivschat}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ivschat AwsProvider#ivschat}
         /// </remarks>
         [JsiiProperty(name: "ivschat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2221,7 +2221,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#kafka AwsProvider#kafka}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#kafka AwsProvider#kafka}
         /// </remarks>
         [JsiiProperty(name: "kafka", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2235,7 +2235,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#kafkaconnect AwsProvider#kafkaconnect}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#kafkaconnect AwsProvider#kafkaconnect}
         /// </remarks>
         [JsiiProperty(name: "kafkaconnect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2249,7 +2249,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#kendra AwsProvider#kendra}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#kendra AwsProvider#kendra}
         /// </remarks>
         [JsiiProperty(name: "kendra", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2263,7 +2263,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#keyspaces AwsProvider#keyspaces}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#keyspaces AwsProvider#keyspaces}
         /// </remarks>
         [JsiiProperty(name: "keyspaces", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2277,7 +2277,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#kinesis AwsProvider#kinesis}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#kinesis AwsProvider#kinesis}
         /// </remarks>
         [JsiiProperty(name: "kinesis", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2291,7 +2291,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#kinesisanalytics AwsProvider#kinesisanalytics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#kinesisanalytics AwsProvider#kinesisanalytics}
         /// </remarks>
         [JsiiProperty(name: "kinesisanalytics", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2305,7 +2305,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#kinesisanalyticsv2 AwsProvider#kinesisanalyticsv2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#kinesisanalyticsv2 AwsProvider#kinesisanalyticsv2}
         /// </remarks>
         [JsiiProperty(name: "kinesisanalyticsv2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2319,7 +2319,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#kinesisvideo AwsProvider#kinesisvideo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#kinesisvideo AwsProvider#kinesisvideo}
         /// </remarks>
         [JsiiProperty(name: "kinesisvideo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2333,7 +2333,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#kms AwsProvider#kms}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#kms AwsProvider#kms}
         /// </remarks>
         [JsiiProperty(name: "kms", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2347,7 +2347,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#lakeformation AwsProvider#lakeformation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#lakeformation AwsProvider#lakeformation}
         /// </remarks>
         [JsiiProperty(name: "lakeformation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2361,7 +2361,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#lambda AwsProvider#lambda}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#lambda AwsProvider#lambda}
         /// </remarks>
         [JsiiProperty(name: "lambda", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2375,7 +2375,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#launchwizard AwsProvider#launchwizard}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#launchwizard AwsProvider#launchwizard}
         /// </remarks>
         [JsiiProperty(name: "launchwizard", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2389,7 +2389,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#lex AwsProvider#lex}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#lex AwsProvider#lex}
         /// </remarks>
         [JsiiProperty(name: "lex", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2403,7 +2403,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#lexmodelbuilding AwsProvider#lexmodelbuilding}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#lexmodelbuilding AwsProvider#lexmodelbuilding}
         /// </remarks>
         [JsiiProperty(name: "lexmodelbuilding", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2417,7 +2417,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#lexmodelbuildingservice AwsProvider#lexmodelbuildingservice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#lexmodelbuildingservice AwsProvider#lexmodelbuildingservice}
         /// </remarks>
         [JsiiProperty(name: "lexmodelbuildingservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2431,7 +2431,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#lexmodels AwsProvider#lexmodels}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#lexmodels AwsProvider#lexmodels}
         /// </remarks>
         [JsiiProperty(name: "lexmodels", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2445,7 +2445,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#lexmodelsv2 AwsProvider#lexmodelsv2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#lexmodelsv2 AwsProvider#lexmodelsv2}
         /// </remarks>
         [JsiiProperty(name: "lexmodelsv2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2459,7 +2459,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#lexv2models AwsProvider#lexv2models}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#lexv2models AwsProvider#lexv2models}
         /// </remarks>
         [JsiiProperty(name: "lexv2Models", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2473,7 +2473,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#licensemanager AwsProvider#licensemanager}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#licensemanager AwsProvider#licensemanager}
         /// </remarks>
         [JsiiProperty(name: "licensemanager", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2487,7 +2487,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#lightsail AwsProvider#lightsail}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#lightsail AwsProvider#lightsail}
         /// </remarks>
         [JsiiProperty(name: "lightsail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2501,7 +2501,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#location AwsProvider#location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#location AwsProvider#location}
         /// </remarks>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2515,7 +2515,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#locationservice AwsProvider#locationservice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#locationservice AwsProvider#locationservice}
         /// </remarks>
         [JsiiProperty(name: "locationservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2529,7 +2529,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#logs AwsProvider#logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#logs AwsProvider#logs}
         /// </remarks>
         [JsiiProperty(name: "logs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2543,7 +2543,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#m2 AwsProvider#m2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#m2 AwsProvider#m2}
         /// </remarks>
         [JsiiProperty(name: "m2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2557,7 +2557,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#macie2 AwsProvider#macie2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#macie2 AwsProvider#macie2}
         /// </remarks>
         [JsiiProperty(name: "macie2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2571,7 +2571,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#managedgrafana AwsProvider#managedgrafana}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#managedgrafana AwsProvider#managedgrafana}
         /// </remarks>
         [JsiiProperty(name: "managedgrafana", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2585,7 +2585,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mediaconnect AwsProvider#mediaconnect}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mediaconnect AwsProvider#mediaconnect}
         /// </remarks>
         [JsiiProperty(name: "mediaconnect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2599,7 +2599,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mediaconvert AwsProvider#mediaconvert}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mediaconvert AwsProvider#mediaconvert}
         /// </remarks>
         [JsiiProperty(name: "mediaconvert", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2613,7 +2613,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#medialive AwsProvider#medialive}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#medialive AwsProvider#medialive}
         /// </remarks>
         [JsiiProperty(name: "medialive", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2627,7 +2627,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mediapackage AwsProvider#mediapackage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mediapackage AwsProvider#mediapackage}
         /// </remarks>
         [JsiiProperty(name: "mediapackage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2641,7 +2641,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mediapackagev2 AwsProvider#mediapackagev2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mediapackagev2 AwsProvider#mediapackagev2}
         /// </remarks>
         [JsiiProperty(name: "mediapackagev2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2655,7 +2655,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mediapackagevod AwsProvider#mediapackagevod}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mediapackagevod AwsProvider#mediapackagevod}
         /// </remarks>
         [JsiiProperty(name: "mediapackagevod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2669,7 +2669,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mediastore AwsProvider#mediastore}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mediastore AwsProvider#mediastore}
         /// </remarks>
         [JsiiProperty(name: "mediastore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2683,7 +2683,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#memorydb AwsProvider#memorydb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#memorydb AwsProvider#memorydb}
         /// </remarks>
         [JsiiProperty(name: "memorydb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2697,7 +2697,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mgn AwsProvider#mgn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mgn AwsProvider#mgn}
         /// </remarks>
         [JsiiProperty(name: "mgn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2711,7 +2711,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mpa AwsProvider#mpa}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mpa AwsProvider#mpa}
         /// </remarks>
         [JsiiProperty(name: "mpa", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2725,7 +2725,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mq AwsProvider#mq}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mq AwsProvider#mq}
         /// </remarks>
         [JsiiProperty(name: "mq", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2739,7 +2739,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#msk AwsProvider#msk}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#msk AwsProvider#msk}
         /// </remarks>
         [JsiiProperty(name: "msk", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2753,7 +2753,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mwaa AwsProvider#mwaa}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mwaa AwsProvider#mwaa}
         /// </remarks>
         [JsiiProperty(name: "mwaa", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2767,7 +2767,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mwaaserverless AwsProvider#mwaaserverless}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mwaaserverless AwsProvider#mwaaserverless}
         /// </remarks>
         [JsiiProperty(name: "mwaaserverless", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2781,7 +2781,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#neptune AwsProvider#neptune}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#neptune AwsProvider#neptune}
         /// </remarks>
         [JsiiProperty(name: "neptune", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2795,7 +2795,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#neptunegraph AwsProvider#neptunegraph}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#neptunegraph AwsProvider#neptunegraph}
         /// </remarks>
         [JsiiProperty(name: "neptunegraph", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2809,7 +2809,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#networkfirewall AwsProvider#networkfirewall}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#networkfirewall AwsProvider#networkfirewall}
         /// </remarks>
         [JsiiProperty(name: "networkfirewall", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2823,7 +2823,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#networkflowmonitor AwsProvider#networkflowmonitor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#networkflowmonitor AwsProvider#networkflowmonitor}
         /// </remarks>
         [JsiiProperty(name: "networkflowmonitor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2837,7 +2837,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#networkmanager AwsProvider#networkmanager}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#networkmanager AwsProvider#networkmanager}
         /// </remarks>
         [JsiiProperty(name: "networkmanager", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2851,7 +2851,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#networkmonitor AwsProvider#networkmonitor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#networkmonitor AwsProvider#networkmonitor}
         /// </remarks>
         [JsiiProperty(name: "networkmonitor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2865,7 +2865,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#notifications AwsProvider#notifications}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#notifications AwsProvider#notifications}
         /// </remarks>
         [JsiiProperty(name: "notifications", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2879,7 +2879,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#notificationscontacts AwsProvider#notificationscontacts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#notificationscontacts AwsProvider#notificationscontacts}
         /// </remarks>
         [JsiiProperty(name: "notificationscontacts", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2893,7 +2893,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#oam AwsProvider#oam}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#oam AwsProvider#oam}
         /// </remarks>
         [JsiiProperty(name: "oam", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2907,7 +2907,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#observabilityadmin AwsProvider#observabilityadmin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#observabilityadmin AwsProvider#observabilityadmin}
         /// </remarks>
         [JsiiProperty(name: "observabilityadmin", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2921,7 +2921,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#odb AwsProvider#odb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#odb AwsProvider#odb}
         /// </remarks>
         [JsiiProperty(name: "odb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2935,7 +2935,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#opensearch AwsProvider#opensearch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#opensearch AwsProvider#opensearch}
         /// </remarks>
         [JsiiProperty(name: "opensearch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2949,7 +2949,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#opensearchingestion AwsProvider#opensearchingestion}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#opensearchingestion AwsProvider#opensearchingestion}
         /// </remarks>
         [JsiiProperty(name: "opensearchingestion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2963,7 +2963,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#opensearchserverless AwsProvider#opensearchserverless}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#opensearchserverless AwsProvider#opensearchserverless}
         /// </remarks>
         [JsiiProperty(name: "opensearchserverless", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2977,7 +2977,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#opensearchservice AwsProvider#opensearchservice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#opensearchservice AwsProvider#opensearchservice}
         /// </remarks>
         [JsiiProperty(name: "opensearchservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -2991,7 +2991,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#organizations AwsProvider#organizations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#organizations AwsProvider#organizations}
         /// </remarks>
         [JsiiProperty(name: "organizations", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3005,7 +3005,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#osis AwsProvider#osis}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#osis AwsProvider#osis}
         /// </remarks>
         [JsiiProperty(name: "osis", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3019,7 +3019,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#outposts AwsProvider#outposts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#outposts AwsProvider#outposts}
         /// </remarks>
         [JsiiProperty(name: "outposts", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3033,7 +3033,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#paymentcryptography AwsProvider#paymentcryptography}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#paymentcryptography AwsProvider#paymentcryptography}
         /// </remarks>
         [JsiiProperty(name: "paymentcryptography", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3047,7 +3047,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#pcaconnectorad AwsProvider#pcaconnectorad}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#pcaconnectorad AwsProvider#pcaconnectorad}
         /// </remarks>
         [JsiiProperty(name: "pcaconnectorad", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3061,7 +3061,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#pcs AwsProvider#pcs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#pcs AwsProvider#pcs}
         /// </remarks>
         [JsiiProperty(name: "pcs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3075,7 +3075,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#pinpoint AwsProvider#pinpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#pinpoint AwsProvider#pinpoint}
         /// </remarks>
         [JsiiProperty(name: "pinpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3089,7 +3089,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#pinpointsmsvoicev2 AwsProvider#pinpointsmsvoicev2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#pinpointsmsvoicev2 AwsProvider#pinpointsmsvoicev2}
         /// </remarks>
         [JsiiProperty(name: "pinpointsmsvoicev2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3103,7 +3103,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#pipes AwsProvider#pipes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#pipes AwsProvider#pipes}
         /// </remarks>
         [JsiiProperty(name: "pipes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3117,7 +3117,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#polly AwsProvider#polly}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#polly AwsProvider#polly}
         /// </remarks>
         [JsiiProperty(name: "polly", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3131,7 +3131,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#pricing AwsProvider#pricing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#pricing AwsProvider#pricing}
         /// </remarks>
         [JsiiProperty(name: "pricing", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3145,7 +3145,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#prometheus AwsProvider#prometheus}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#prometheus AwsProvider#prometheus}
         /// </remarks>
         [JsiiProperty(name: "prometheus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3159,7 +3159,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#prometheusservice AwsProvider#prometheusservice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#prometheusservice AwsProvider#prometheusservice}
         /// </remarks>
         [JsiiProperty(name: "prometheusservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3173,7 +3173,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#qbusiness AwsProvider#qbusiness}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#qbusiness AwsProvider#qbusiness}
         /// </remarks>
         [JsiiProperty(name: "qbusiness", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3187,7 +3187,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#qldb AwsProvider#qldb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#qldb AwsProvider#qldb}
         /// </remarks>
         [JsiiProperty(name: "qldb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3201,7 +3201,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#quicksight AwsProvider#quicksight}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#quicksight AwsProvider#quicksight}
         /// </remarks>
         [JsiiProperty(name: "quicksight", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3215,7 +3215,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ram AwsProvider#ram}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ram AwsProvider#ram}
         /// </remarks>
         [JsiiProperty(name: "ram", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3229,7 +3229,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#rbin AwsProvider#rbin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#rbin AwsProvider#rbin}
         /// </remarks>
         [JsiiProperty(name: "rbin", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3243,7 +3243,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#rds AwsProvider#rds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#rds AwsProvider#rds}
         /// </remarks>
         [JsiiProperty(name: "rds", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3257,7 +3257,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#rdsdata AwsProvider#rdsdata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#rdsdata AwsProvider#rdsdata}
         /// </remarks>
         [JsiiProperty(name: "rdsdata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3271,7 +3271,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#rdsdataservice AwsProvider#rdsdataservice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#rdsdataservice AwsProvider#rdsdataservice}
         /// </remarks>
         [JsiiProperty(name: "rdsdataservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3285,7 +3285,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#recyclebin AwsProvider#recyclebin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#recyclebin AwsProvider#recyclebin}
         /// </remarks>
         [JsiiProperty(name: "recyclebin", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3299,7 +3299,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#redshift AwsProvider#redshift}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#redshift AwsProvider#redshift}
         /// </remarks>
         [JsiiProperty(name: "redshift", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3313,7 +3313,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#redshiftdata AwsProvider#redshiftdata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#redshiftdata AwsProvider#redshiftdata}
         /// </remarks>
         [JsiiProperty(name: "redshiftdata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3327,7 +3327,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#redshiftdataapiservice AwsProvider#redshiftdataapiservice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#redshiftdataapiservice AwsProvider#redshiftdataapiservice}
         /// </remarks>
         [JsiiProperty(name: "redshiftdataapiservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3341,7 +3341,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#redshiftserverless AwsProvider#redshiftserverless}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#redshiftserverless AwsProvider#redshiftserverless}
         /// </remarks>
         [JsiiProperty(name: "redshiftserverless", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3355,7 +3355,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#rekognition AwsProvider#rekognition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#rekognition AwsProvider#rekognition}
         /// </remarks>
         [JsiiProperty(name: "rekognition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3369,7 +3369,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#resiliencehub AwsProvider#resiliencehub}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#resiliencehub AwsProvider#resiliencehub}
         /// </remarks>
         [JsiiProperty(name: "resiliencehub", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3383,7 +3383,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#resourceexplorer2 AwsProvider#resourceexplorer2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#resourceexplorer2 AwsProvider#resourceexplorer2}
         /// </remarks>
         [JsiiProperty(name: "resourceexplorer2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3397,7 +3397,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#resourcegroups AwsProvider#resourcegroups}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#resourcegroups AwsProvider#resourcegroups}
         /// </remarks>
         [JsiiProperty(name: "resourcegroups", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3411,7 +3411,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#resourcegroupstagging AwsProvider#resourcegroupstagging}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#resourcegroupstagging AwsProvider#resourcegroupstagging}
         /// </remarks>
         [JsiiProperty(name: "resourcegroupstagging", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3425,7 +3425,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#resourcegroupstaggingapi AwsProvider#resourcegroupstaggingapi}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#resourcegroupstaggingapi AwsProvider#resourcegroupstaggingapi}
         /// </remarks>
         [JsiiProperty(name: "resourcegroupstaggingapi", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3439,7 +3439,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#rolesanywhere AwsProvider#rolesanywhere}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#rolesanywhere AwsProvider#rolesanywhere}
         /// </remarks>
         [JsiiProperty(name: "rolesanywhere", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3453,7 +3453,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#route53 AwsProvider#route53}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#route53 AwsProvider#route53}
         /// </remarks>
         [JsiiProperty(name: "route53", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3467,7 +3467,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#route53domains AwsProvider#route53domains}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#route53domains AwsProvider#route53domains}
         /// </remarks>
         [JsiiProperty(name: "route53Domains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3481,7 +3481,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#route53profiles AwsProvider#route53profiles}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#route53profiles AwsProvider#route53profiles}
         /// </remarks>
         [JsiiProperty(name: "route53Profiles", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3495,7 +3495,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#route53recoverycontrolconfig AwsProvider#route53recoverycontrolconfig}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#route53recoverycontrolconfig AwsProvider#route53recoverycontrolconfig}
         /// </remarks>
         [JsiiProperty(name: "route53Recoverycontrolconfig", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3509,7 +3509,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#route53recoveryreadiness AwsProvider#route53recoveryreadiness}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#route53recoveryreadiness AwsProvider#route53recoveryreadiness}
         /// </remarks>
         [JsiiProperty(name: "route53Recoveryreadiness", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3523,7 +3523,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#route53resolver AwsProvider#route53resolver}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#route53resolver AwsProvider#route53resolver}
         /// </remarks>
         [JsiiProperty(name: "route53Resolver", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3537,7 +3537,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#rum AwsProvider#rum}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#rum AwsProvider#rum}
         /// </remarks>
         [JsiiProperty(name: "rum", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3551,7 +3551,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#s3 AwsProvider#s3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#s3 AwsProvider#s3}
         /// </remarks>
         [JsiiProperty(name: "s3", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3565,7 +3565,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#s3api AwsProvider#s3api}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#s3api AwsProvider#s3api}
         /// </remarks>
         [JsiiProperty(name: "s3Api", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3579,7 +3579,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#s3control AwsProvider#s3control}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#s3control AwsProvider#s3control}
         /// </remarks>
         [JsiiProperty(name: "s3Control", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3593,7 +3593,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#s3files AwsProvider#s3files}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#s3files AwsProvider#s3files}
         /// </remarks>
         [JsiiProperty(name: "s3Files", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3607,7 +3607,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#s3outposts AwsProvider#s3outposts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#s3outposts AwsProvider#s3outposts}
         /// </remarks>
         [JsiiProperty(name: "s3Outposts", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3621,7 +3621,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#s3tables AwsProvider#s3tables}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#s3tables AwsProvider#s3tables}
         /// </remarks>
         [JsiiProperty(name: "s3Tables", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3635,7 +3635,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#s3vectors AwsProvider#s3vectors}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#s3vectors AwsProvider#s3vectors}
         /// </remarks>
         [JsiiProperty(name: "s3Vectors", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3649,7 +3649,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#sagemaker AwsProvider#sagemaker}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#sagemaker AwsProvider#sagemaker}
         /// </remarks>
         [JsiiProperty(name: "sagemaker", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3663,7 +3663,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#savingsplans AwsProvider#savingsplans}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#savingsplans AwsProvider#savingsplans}
         /// </remarks>
         [JsiiProperty(name: "savingsplans", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3677,7 +3677,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#scheduler AwsProvider#scheduler}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#scheduler AwsProvider#scheduler}
         /// </remarks>
         [JsiiProperty(name: "scheduler", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3691,7 +3691,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#schemas AwsProvider#schemas}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#schemas AwsProvider#schemas}
         /// </remarks>
         [JsiiProperty(name: "schemas", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3705,7 +3705,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#secretsmanager AwsProvider#secretsmanager}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#secretsmanager AwsProvider#secretsmanager}
         /// </remarks>
         [JsiiProperty(name: "secretsmanager", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3719,7 +3719,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#securityhub AwsProvider#securityhub}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#securityhub AwsProvider#securityhub}
         /// </remarks>
         [JsiiProperty(name: "securityhub", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3733,7 +3733,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#securitylake AwsProvider#securitylake}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#securitylake AwsProvider#securitylake}
         /// </remarks>
         [JsiiProperty(name: "securitylake", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3747,7 +3747,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#serverlessapplicationrepository AwsProvider#serverlessapplicationrepository}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#serverlessapplicationrepository AwsProvider#serverlessapplicationrepository}
         /// </remarks>
         [JsiiProperty(name: "serverlessapplicationrepository", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3761,7 +3761,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#serverlessapprepo AwsProvider#serverlessapprepo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#serverlessapprepo AwsProvider#serverlessapprepo}
         /// </remarks>
         [JsiiProperty(name: "serverlessapprepo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3775,7 +3775,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#serverlessrepo AwsProvider#serverlessrepo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#serverlessrepo AwsProvider#serverlessrepo}
         /// </remarks>
         [JsiiProperty(name: "serverlessrepo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3789,7 +3789,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#servicecatalog AwsProvider#servicecatalog}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#servicecatalog AwsProvider#servicecatalog}
         /// </remarks>
         [JsiiProperty(name: "servicecatalog", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3803,7 +3803,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#servicecatalogappregistry AwsProvider#servicecatalogappregistry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#servicecatalogappregistry AwsProvider#servicecatalogappregistry}
         /// </remarks>
         [JsiiProperty(name: "servicecatalogappregistry", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3817,7 +3817,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#servicediscovery AwsProvider#servicediscovery}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#servicediscovery AwsProvider#servicediscovery}
         /// </remarks>
         [JsiiProperty(name: "servicediscovery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3831,7 +3831,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#servicequotas AwsProvider#servicequotas}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#servicequotas AwsProvider#servicequotas}
         /// </remarks>
         [JsiiProperty(name: "servicequotas", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3845,7 +3845,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ses AwsProvider#ses}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ses AwsProvider#ses}
         /// </remarks>
         [JsiiProperty(name: "ses", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3859,7 +3859,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#sesv2 AwsProvider#sesv2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#sesv2 AwsProvider#sesv2}
         /// </remarks>
         [JsiiProperty(name: "sesv2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3873,7 +3873,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#sfn AwsProvider#sfn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#sfn AwsProvider#sfn}
         /// </remarks>
         [JsiiProperty(name: "sfn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3887,7 +3887,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#shield AwsProvider#shield}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#shield AwsProvider#shield}
         /// </remarks>
         [JsiiProperty(name: "shield", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3901,7 +3901,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#signer AwsProvider#signer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#signer AwsProvider#signer}
         /// </remarks>
         [JsiiProperty(name: "signer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3915,7 +3915,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#sns AwsProvider#sns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#sns AwsProvider#sns}
         /// </remarks>
         [JsiiProperty(name: "sns", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3929,7 +3929,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#sqs AwsProvider#sqs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#sqs AwsProvider#sqs}
         /// </remarks>
         [JsiiProperty(name: "sqs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3943,7 +3943,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ssm AwsProvider#ssm}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ssm AwsProvider#ssm}
         /// </remarks>
         [JsiiProperty(name: "ssm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3957,7 +3957,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ssmcontacts AwsProvider#ssmcontacts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ssmcontacts AwsProvider#ssmcontacts}
         /// </remarks>
         [JsiiProperty(name: "ssmcontacts", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3971,7 +3971,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ssmincidents AwsProvider#ssmincidents}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ssmincidents AwsProvider#ssmincidents}
         /// </remarks>
         [JsiiProperty(name: "ssmincidents", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3985,7 +3985,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ssmquicksetup AwsProvider#ssmquicksetup}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ssmquicksetup AwsProvider#ssmquicksetup}
         /// </remarks>
         [JsiiProperty(name: "ssmquicksetup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -3999,7 +3999,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ssmsap AwsProvider#ssmsap}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ssmsap AwsProvider#ssmsap}
         /// </remarks>
         [JsiiProperty(name: "ssmsap", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4013,7 +4013,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#sso AwsProvider#sso}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#sso AwsProvider#sso}
         /// </remarks>
         [JsiiProperty(name: "sso", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4027,7 +4027,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ssoadmin AwsProvider#ssoadmin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ssoadmin AwsProvider#ssoadmin}
         /// </remarks>
         [JsiiProperty(name: "ssoadmin", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4041,7 +4041,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#stepfunctions AwsProvider#stepfunctions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#stepfunctions AwsProvider#stepfunctions}
         /// </remarks>
         [JsiiProperty(name: "stepfunctions", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4055,7 +4055,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#storagegateway AwsProvider#storagegateway}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#storagegateway AwsProvider#storagegateway}
         /// </remarks>
         [JsiiProperty(name: "storagegateway", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4069,7 +4069,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#sts AwsProvider#sts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#sts AwsProvider#sts}
         /// </remarks>
         [JsiiProperty(name: "sts", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4083,7 +4083,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#swf AwsProvider#swf}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#swf AwsProvider#swf}
         /// </remarks>
         [JsiiProperty(name: "swf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4097,7 +4097,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#synthetics AwsProvider#synthetics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#synthetics AwsProvider#synthetics}
         /// </remarks>
         [JsiiProperty(name: "synthetics", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4111,7 +4111,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#taxsettings AwsProvider#taxsettings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#taxsettings AwsProvider#taxsettings}
         /// </remarks>
         [JsiiProperty(name: "taxsettings", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4125,7 +4125,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#timestreaminfluxdb AwsProvider#timestreaminfluxdb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#timestreaminfluxdb AwsProvider#timestreaminfluxdb}
         /// </remarks>
         [JsiiProperty(name: "timestreaminfluxdb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4139,7 +4139,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#timestreamquery AwsProvider#timestreamquery}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#timestreamquery AwsProvider#timestreamquery}
         /// </remarks>
         [JsiiProperty(name: "timestreamquery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4153,7 +4153,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#timestreamwrite AwsProvider#timestreamwrite}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#timestreamwrite AwsProvider#timestreamwrite}
         /// </remarks>
         [JsiiProperty(name: "timestreamwrite", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4167,7 +4167,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#transcribe AwsProvider#transcribe}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#transcribe AwsProvider#transcribe}
         /// </remarks>
         [JsiiProperty(name: "transcribe", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4181,7 +4181,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#transcribeservice AwsProvider#transcribeservice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#transcribeservice AwsProvider#transcribeservice}
         /// </remarks>
         [JsiiProperty(name: "transcribeservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4195,7 +4195,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#transfer AwsProvider#transfer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#transfer AwsProvider#transfer}
         /// </remarks>
         [JsiiProperty(name: "transfer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4209,7 +4209,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#uxc AwsProvider#uxc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#uxc AwsProvider#uxc}
         /// </remarks>
         [JsiiProperty(name: "uxc", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4223,7 +4223,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#verifiedpermissions AwsProvider#verifiedpermissions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#verifiedpermissions AwsProvider#verifiedpermissions}
         /// </remarks>
         [JsiiProperty(name: "verifiedpermissions", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4237,7 +4237,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#vpclattice AwsProvider#vpclattice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#vpclattice AwsProvider#vpclattice}
         /// </remarks>
         [JsiiProperty(name: "vpclattice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4251,7 +4251,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#waf AwsProvider#waf}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#waf AwsProvider#waf}
         /// </remarks>
         [JsiiProperty(name: "waf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4265,7 +4265,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#wafregional AwsProvider#wafregional}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#wafregional AwsProvider#wafregional}
         /// </remarks>
         [JsiiProperty(name: "wafregional", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4279,7 +4279,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#wafv2 AwsProvider#wafv2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#wafv2 AwsProvider#wafv2}
         /// </remarks>
         [JsiiProperty(name: "wafv2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4293,7 +4293,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#wellarchitected AwsProvider#wellarchitected}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#wellarchitected AwsProvider#wellarchitected}
         /// </remarks>
         [JsiiProperty(name: "wellarchitected", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4307,7 +4307,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#workmail AwsProvider#workmail}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#workmail AwsProvider#workmail}
         /// </remarks>
         [JsiiProperty(name: "workmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4321,7 +4321,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#workspaces AwsProvider#workspaces}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#workspaces AwsProvider#workspaces}
         /// </remarks>
         [JsiiProperty(name: "workspaces", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4335,7 +4335,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#workspacesweb AwsProvider#workspacesweb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#workspacesweb AwsProvider#workspacesweb}
         /// </remarks>
         [JsiiProperty(name: "workspacesweb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4349,7 +4349,7 @@ namespace aws.Provider
 
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#xray AwsProvider#xray}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#xray AwsProvider#xray}
         /// </remarks>
         [JsiiProperty(name: "xray", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -4370,7 +4370,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#accessanalyzer AwsProvider#accessanalyzer}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#accessanalyzer AwsProvider#accessanalyzer}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accessanalyzer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4381,7 +4381,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#account AwsProvider#account}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#account AwsProvider#account}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "account", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4392,7 +4392,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#acm AwsProvider#acm}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#acm AwsProvider#acm}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "acm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4403,7 +4403,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#acmpca AwsProvider#acmpca}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#acmpca AwsProvider#acmpca}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "acmpca", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4414,7 +4414,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#amg AwsProvider#amg}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#amg AwsProvider#amg}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "amg", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4425,7 +4425,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#amp AwsProvider#amp}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#amp AwsProvider#amp}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "amp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4436,7 +4436,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#amplify AwsProvider#amplify}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#amplify AwsProvider#amplify}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "amplify", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4447,7 +4447,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#apigateway AwsProvider#apigateway}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#apigateway AwsProvider#apigateway}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "apigateway", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4458,7 +4458,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#apigatewayv2 AwsProvider#apigatewayv2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#apigatewayv2 AwsProvider#apigatewayv2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "apigatewayv2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4469,7 +4469,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appautoscaling AwsProvider#appautoscaling}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appautoscaling AwsProvider#appautoscaling}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "appautoscaling", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4480,7 +4480,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appconfig AwsProvider#appconfig}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appconfig AwsProvider#appconfig}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "appconfig", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4491,7 +4491,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appfabric AwsProvider#appfabric}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appfabric AwsProvider#appfabric}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "appfabric", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4502,7 +4502,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appflow AwsProvider#appflow}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appflow AwsProvider#appflow}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "appflow", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4513,7 +4513,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appintegrations AwsProvider#appintegrations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appintegrations AwsProvider#appintegrations}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "appintegrations", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4524,7 +4524,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appintegrationsservice AwsProvider#appintegrationsservice}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appintegrationsservice AwsProvider#appintegrationsservice}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "appintegrationsservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4535,7 +4535,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#applicationautoscaling AwsProvider#applicationautoscaling}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#applicationautoscaling AwsProvider#applicationautoscaling}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "applicationautoscaling", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4546,7 +4546,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#applicationinsights AwsProvider#applicationinsights}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#applicationinsights AwsProvider#applicationinsights}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "applicationinsights", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4557,7 +4557,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#applicationsignals AwsProvider#applicationsignals}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#applicationsignals AwsProvider#applicationsignals}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "applicationsignals", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4568,7 +4568,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appmesh AwsProvider#appmesh}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appmesh AwsProvider#appmesh}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "appmesh", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4579,7 +4579,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appregistry AwsProvider#appregistry}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appregistry AwsProvider#appregistry}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "appregistry", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4590,7 +4590,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#apprunner AwsProvider#apprunner}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#apprunner AwsProvider#apprunner}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "apprunner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4601,7 +4601,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appstream AwsProvider#appstream}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appstream AwsProvider#appstream}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "appstream", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4612,7 +4612,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#appsync AwsProvider#appsync}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#appsync AwsProvider#appsync}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "appsync", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4623,7 +4623,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#arcregionswitch AwsProvider#arcregionswitch}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#arcregionswitch AwsProvider#arcregionswitch}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "arcregionswitch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4634,7 +4634,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#arczonalshift AwsProvider#arczonalshift}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#arczonalshift AwsProvider#arczonalshift}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "arczonalshift", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4645,7 +4645,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#athena AwsProvider#athena}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#athena AwsProvider#athena}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "athena", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4656,7 +4656,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#auditmanager AwsProvider#auditmanager}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#auditmanager AwsProvider#auditmanager}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "auditmanager", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4667,7 +4667,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#autoscaling AwsProvider#autoscaling}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#autoscaling AwsProvider#autoscaling}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "autoscaling", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4678,7 +4678,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#autoscalingplans AwsProvider#autoscalingplans}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#autoscalingplans AwsProvider#autoscalingplans}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "autoscalingplans", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4689,7 +4689,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#backup AwsProvider#backup}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#backup AwsProvider#backup}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "backup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4700,7 +4700,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#batch AwsProvider#batch}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#batch AwsProvider#batch}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "batch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4711,7 +4711,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#bcmdataexports AwsProvider#bcmdataexports}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#bcmdataexports AwsProvider#bcmdataexports}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bcmdataexports", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4722,7 +4722,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#beanstalk AwsProvider#beanstalk}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#beanstalk AwsProvider#beanstalk}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "beanstalk", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4733,7 +4733,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#bedrock AwsProvider#bedrock}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#bedrock AwsProvider#bedrock}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bedrock", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4744,7 +4744,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#bedrockagent AwsProvider#bedrockagent}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#bedrockagent AwsProvider#bedrockagent}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bedrockagent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4755,7 +4755,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#bedrockagentcore AwsProvider#bedrockagentcore}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#bedrockagentcore AwsProvider#bedrockagentcore}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bedrockagentcore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4766,7 +4766,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#billing AwsProvider#billing}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#billing AwsProvider#billing}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "billing", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4777,7 +4777,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#budgets AwsProvider#budgets}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#budgets AwsProvider#budgets}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "budgets", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4788,7 +4788,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ce AwsProvider#ce}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ce AwsProvider#ce}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ce", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4799,7 +4799,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#chatbot AwsProvider#chatbot}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#chatbot AwsProvider#chatbot}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "chatbot", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4810,7 +4810,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#chime AwsProvider#chime}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#chime AwsProvider#chime}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "chime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4821,7 +4821,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#chimesdkmediapipelines AwsProvider#chimesdkmediapipelines}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#chimesdkmediapipelines AwsProvider#chimesdkmediapipelines}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "chimesdkmediapipelines", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4832,7 +4832,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#chimesdkvoice AwsProvider#chimesdkvoice}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#chimesdkvoice AwsProvider#chimesdkvoice}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "chimesdkvoice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4843,7 +4843,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cleanrooms AwsProvider#cleanrooms}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cleanrooms AwsProvider#cleanrooms}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cleanrooms", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4854,7 +4854,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloud9 AwsProvider#cloud9}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloud9 AwsProvider#cloud9}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloud9", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4865,7 +4865,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudcontrol AwsProvider#cloudcontrol}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudcontrol AwsProvider#cloudcontrol}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudcontrol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4876,7 +4876,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudcontrolapi AwsProvider#cloudcontrolapi}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudcontrolapi AwsProvider#cloudcontrolapi}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudcontrolapi", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4887,7 +4887,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudformation AwsProvider#cloudformation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudformation AwsProvider#cloudformation}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudformation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4898,7 +4898,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudfront AwsProvider#cloudfront}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudfront AwsProvider#cloudfront}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudfront", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4909,7 +4909,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudfrontkeyvaluestore AwsProvider#cloudfrontkeyvaluestore}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudfrontkeyvaluestore AwsProvider#cloudfrontkeyvaluestore}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudfrontkeyvaluestore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4920,7 +4920,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudhsm AwsProvider#cloudhsm}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudhsm AwsProvider#cloudhsm}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudhsm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4931,7 +4931,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudhsmv2 AwsProvider#cloudhsmv2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudhsmv2 AwsProvider#cloudhsmv2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudhsmv2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4942,7 +4942,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudsearch AwsProvider#cloudsearch}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudsearch AwsProvider#cloudsearch}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudsearch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4953,7 +4953,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudtrail AwsProvider#cloudtrail}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudtrail AwsProvider#cloudtrail}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudtrail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4964,7 +4964,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudwatch AwsProvider#cloudwatch}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudwatch AwsProvider#cloudwatch}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudwatch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4975,7 +4975,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudwatchevents AwsProvider#cloudwatchevents}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudwatchevents AwsProvider#cloudwatchevents}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudwatchevents", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4986,7 +4986,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudwatchevidently AwsProvider#cloudwatchevidently}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudwatchevidently AwsProvider#cloudwatchevidently}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudwatchevidently", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -4997,7 +4997,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudwatchlog AwsProvider#cloudwatchlog}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudwatchlog AwsProvider#cloudwatchlog}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudwatchlog", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5008,7 +5008,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudwatchlogs AwsProvider#cloudwatchlogs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudwatchlogs AwsProvider#cloudwatchlogs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudwatchlogs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5019,7 +5019,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudwatchobservabilityaccessmanager AwsProvider#cloudwatchobservabilityaccessmanager}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudwatchobservabilityaccessmanager AwsProvider#cloudwatchobservabilityaccessmanager}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudwatchobservabilityaccessmanager", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5030,7 +5030,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cloudwatchrum AwsProvider#cloudwatchrum}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cloudwatchrum AwsProvider#cloudwatchrum}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudwatchrum", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5041,7 +5041,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codeartifact AwsProvider#codeartifact}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codeartifact AwsProvider#codeartifact}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "codeartifact", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5052,7 +5052,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codebuild AwsProvider#codebuild}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codebuild AwsProvider#codebuild}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "codebuild", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5063,7 +5063,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codecatalyst AwsProvider#codecatalyst}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codecatalyst AwsProvider#codecatalyst}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "codecatalyst", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5074,7 +5074,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codecommit AwsProvider#codecommit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codecommit AwsProvider#codecommit}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "codecommit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5085,7 +5085,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codeconnections AwsProvider#codeconnections}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codeconnections AwsProvider#codeconnections}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "codeconnections", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5096,7 +5096,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codedeploy AwsProvider#codedeploy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codedeploy AwsProvider#codedeploy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "codedeploy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5107,7 +5107,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codeguruprofiler AwsProvider#codeguruprofiler}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codeguruprofiler AwsProvider#codeguruprofiler}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "codeguruprofiler", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5118,7 +5118,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codegurureviewer AwsProvider#codegurureviewer}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codegurureviewer AwsProvider#codegurureviewer}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "codegurureviewer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5129,7 +5129,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codepipeline AwsProvider#codepipeline}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codepipeline AwsProvider#codepipeline}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "codepipeline", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5140,7 +5140,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codestarconnections AwsProvider#codestarconnections}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codestarconnections AwsProvider#codestarconnections}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "codestarconnections", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5151,7 +5151,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#codestarnotifications AwsProvider#codestarnotifications}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#codestarnotifications AwsProvider#codestarnotifications}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "codestarnotifications", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5162,7 +5162,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cognitoidentity AwsProvider#cognitoidentity}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cognitoidentity AwsProvider#cognitoidentity}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cognitoidentity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5173,7 +5173,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cognitoidentityprovider AwsProvider#cognitoidentityprovider}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cognitoidentityprovider AwsProvider#cognitoidentityprovider}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cognitoidentityprovider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5184,7 +5184,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cognitoidp AwsProvider#cognitoidp}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cognitoidp AwsProvider#cognitoidp}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cognitoidp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5195,7 +5195,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#comprehend AwsProvider#comprehend}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#comprehend AwsProvider#comprehend}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "comprehend", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5206,7 +5206,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#computeoptimizer AwsProvider#computeoptimizer}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#computeoptimizer AwsProvider#computeoptimizer}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "computeoptimizer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5217,7 +5217,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#config AwsProvider#config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#config AwsProvider#config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "config", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5228,7 +5228,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#configservice AwsProvider#configservice}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#configservice AwsProvider#configservice}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "configservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5239,7 +5239,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#connect AwsProvider#connect}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#connect AwsProvider#connect}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5250,7 +5250,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#connectcases AwsProvider#connectcases}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#connectcases AwsProvider#connectcases}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connectcases", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5261,7 +5261,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#controltower AwsProvider#controltower}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#controltower AwsProvider#controltower}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "controltower", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5272,7 +5272,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#costandusagereportservice AwsProvider#costandusagereportservice}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#costandusagereportservice AwsProvider#costandusagereportservice}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "costandusagereportservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5283,7 +5283,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#costexplorer AwsProvider#costexplorer}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#costexplorer AwsProvider#costexplorer}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "costexplorer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5294,7 +5294,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#costoptimizationhub AwsProvider#costoptimizationhub}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#costoptimizationhub AwsProvider#costoptimizationhub}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "costoptimizationhub", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5305,7 +5305,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#cur AwsProvider#cur}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#cur AwsProvider#cur}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cur", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5316,7 +5316,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#customerprofiles AwsProvider#customerprofiles}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#customerprofiles AwsProvider#customerprofiles}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customerprofiles", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5327,7 +5327,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#databasemigration AwsProvider#databasemigration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#databasemigration AwsProvider#databasemigration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "databasemigration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5338,7 +5338,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#databasemigrationservice AwsProvider#databasemigrationservice}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#databasemigrationservice AwsProvider#databasemigrationservice}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "databasemigrationservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5349,7 +5349,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#databrew AwsProvider#databrew}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#databrew AwsProvider#databrew}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "databrew", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5360,7 +5360,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#dataexchange AwsProvider#dataexchange}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#dataexchange AwsProvider#dataexchange}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dataexchange", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5371,7 +5371,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#datapipeline AwsProvider#datapipeline}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#datapipeline AwsProvider#datapipeline}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "datapipeline", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5382,7 +5382,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#datasync AwsProvider#datasync}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#datasync AwsProvider#datasync}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "datasync", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5393,7 +5393,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#datazone AwsProvider#datazone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#datazone AwsProvider#datazone}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "datazone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5404,7 +5404,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#dax AwsProvider#dax}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#dax AwsProvider#dax}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dax", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5415,7 +5415,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#deploy AwsProvider#deploy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#deploy AwsProvider#deploy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "deploy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5426,7 +5426,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#detective AwsProvider#detective}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#detective AwsProvider#detective}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "detective", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5437,7 +5437,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#devicefarm AwsProvider#devicefarm}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#devicefarm AwsProvider#devicefarm}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "devicefarm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5448,7 +5448,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#devopsguru AwsProvider#devopsguru}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#devopsguru AwsProvider#devopsguru}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "devopsguru", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5459,7 +5459,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#directconnect AwsProvider#directconnect}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#directconnect AwsProvider#directconnect}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "directconnect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5470,7 +5470,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#directoryservice AwsProvider#directoryservice}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#directoryservice AwsProvider#directoryservice}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "directoryservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5481,7 +5481,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#dlm AwsProvider#dlm}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#dlm AwsProvider#dlm}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dlm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5492,7 +5492,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#dms AwsProvider#dms}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#dms AwsProvider#dms}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dms", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5503,7 +5503,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#docdb AwsProvider#docdb}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#docdb AwsProvider#docdb}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "docdb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5514,7 +5514,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#docdbelastic AwsProvider#docdbelastic}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#docdbelastic AwsProvider#docdbelastic}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "docdbelastic", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5525,7 +5525,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#drs AwsProvider#drs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#drs AwsProvider#drs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "drs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5536,7 +5536,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ds AwsProvider#ds}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ds AwsProvider#ds}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ds", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5547,7 +5547,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#dsql AwsProvider#dsql}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#dsql AwsProvider#dsql}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dsql", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5558,7 +5558,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#dynamodb AwsProvider#dynamodb}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#dynamodb AwsProvider#dynamodb}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dynamodb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5569,7 +5569,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ec2 AwsProvider#ec2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ec2 AwsProvider#ec2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ec2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5580,7 +5580,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ecr AwsProvider#ecr}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ecr AwsProvider#ecr}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ecr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5591,7 +5591,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ecrpublic AwsProvider#ecrpublic}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ecrpublic AwsProvider#ecrpublic}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ecrpublic", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5602,7 +5602,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ecs AwsProvider#ecs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ecs AwsProvider#ecs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ecs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5613,7 +5613,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#efs AwsProvider#efs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#efs AwsProvider#efs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "efs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5624,7 +5624,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#eks AwsProvider#eks}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#eks AwsProvider#eks}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "eks", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5635,7 +5635,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#elasticache AwsProvider#elasticache}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#elasticache AwsProvider#elasticache}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "elasticache", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5646,7 +5646,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#elasticbeanstalk AwsProvider#elasticbeanstalk}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#elasticbeanstalk AwsProvider#elasticbeanstalk}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "elasticbeanstalk", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5657,7 +5657,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#elasticloadbalancing AwsProvider#elasticloadbalancing}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#elasticloadbalancing AwsProvider#elasticloadbalancing}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "elasticloadbalancing", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5668,7 +5668,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#elasticloadbalancingv2 AwsProvider#elasticloadbalancingv2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#elasticloadbalancingv2 AwsProvider#elasticloadbalancingv2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "elasticloadbalancingv2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5679,7 +5679,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#elasticsearch AwsProvider#elasticsearch}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#elasticsearch AwsProvider#elasticsearch}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "elasticsearch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5690,7 +5690,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#elasticsearchservice AwsProvider#elasticsearchservice}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#elasticsearchservice AwsProvider#elasticsearchservice}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "elasticsearchservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5701,7 +5701,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#elastictranscoder AwsProvider#elastictranscoder}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#elastictranscoder AwsProvider#elastictranscoder}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "elastictranscoder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5712,7 +5712,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#elb AwsProvider#elb}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#elb AwsProvider#elb}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "elb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5723,7 +5723,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#elbv2 AwsProvider#elbv2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#elbv2 AwsProvider#elbv2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "elbv2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5734,7 +5734,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#emr AwsProvider#emr}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#emr AwsProvider#emr}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "emr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5745,7 +5745,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#emrcontainers AwsProvider#emrcontainers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#emrcontainers AwsProvider#emrcontainers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "emrcontainers", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5756,7 +5756,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#emrserverless AwsProvider#emrserverless}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#emrserverless AwsProvider#emrserverless}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "emrserverless", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5767,7 +5767,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#es AwsProvider#es}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#es AwsProvider#es}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "es", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5778,7 +5778,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#eventbridge AwsProvider#eventbridge}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#eventbridge AwsProvider#eventbridge}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "eventbridge", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5789,7 +5789,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#events AwsProvider#events}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#events AwsProvider#events}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "events", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5800,7 +5800,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#evidently AwsProvider#evidently}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#evidently AwsProvider#evidently}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "evidently", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5811,7 +5811,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#evs AwsProvider#evs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#evs AwsProvider#evs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "evs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5822,7 +5822,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#finspace AwsProvider#finspace}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#finspace AwsProvider#finspace}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "finspace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5833,7 +5833,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#firehose AwsProvider#firehose}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#firehose AwsProvider#firehose}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "firehose", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5844,7 +5844,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#fis AwsProvider#fis}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#fis AwsProvider#fis}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fis", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5855,7 +5855,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#fms AwsProvider#fms}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#fms AwsProvider#fms}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fms", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5866,7 +5866,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#fsx AwsProvider#fsx}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#fsx AwsProvider#fsx}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fsx", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5877,7 +5877,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#gamelift AwsProvider#gamelift}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#gamelift AwsProvider#gamelift}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "gamelift", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5888,7 +5888,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#glacier AwsProvider#glacier}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#glacier AwsProvider#glacier}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "glacier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5899,7 +5899,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#globalaccelerator AwsProvider#globalaccelerator}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#globalaccelerator AwsProvider#globalaccelerator}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "globalaccelerator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5910,7 +5910,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#glue AwsProvider#glue}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#glue AwsProvider#glue}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "glue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5921,7 +5921,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#gluedatabrew AwsProvider#gluedatabrew}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#gluedatabrew AwsProvider#gluedatabrew}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "gluedatabrew", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5932,7 +5932,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#grafana AwsProvider#grafana}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#grafana AwsProvider#grafana}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "grafana", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5943,7 +5943,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#greengrass AwsProvider#greengrass}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#greengrass AwsProvider#greengrass}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "greengrass", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5954,7 +5954,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#groundstation AwsProvider#groundstation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#groundstation AwsProvider#groundstation}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "groundstation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5965,7 +5965,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#guardduty AwsProvider#guardduty}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#guardduty AwsProvider#guardduty}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "guardduty", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5976,7 +5976,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#healthlake AwsProvider#healthlake}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#healthlake AwsProvider#healthlake}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "healthlake", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5987,7 +5987,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#iam AwsProvider#iam}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#iam AwsProvider#iam}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "iam", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -5998,7 +5998,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#identitystore AwsProvider#identitystore}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#identitystore AwsProvider#identitystore}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "identitystore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6009,7 +6009,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#imagebuilder AwsProvider#imagebuilder}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#imagebuilder AwsProvider#imagebuilder}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "imagebuilder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6020,7 +6020,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#inspector AwsProvider#inspector}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#inspector AwsProvider#inspector}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "inspector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6031,7 +6031,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#inspector2 AwsProvider#inspector2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#inspector2 AwsProvider#inspector2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "inspector2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6042,7 +6042,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#inspectorv2 AwsProvider#inspectorv2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#inspectorv2 AwsProvider#inspectorv2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "inspectorv2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6053,7 +6053,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#internetmonitor AwsProvider#internetmonitor}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#internetmonitor AwsProvider#internetmonitor}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "internetmonitor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6064,7 +6064,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#invoicing AwsProvider#invoicing}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#invoicing AwsProvider#invoicing}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "invoicing", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6075,7 +6075,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#iot AwsProvider#iot}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#iot AwsProvider#iot}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "iot", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6086,7 +6086,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ivs AwsProvider#ivs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ivs AwsProvider#ivs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ivs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6097,7 +6097,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ivschat AwsProvider#ivschat}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ivschat AwsProvider#ivschat}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ivschat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6108,7 +6108,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#kafka AwsProvider#kafka}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#kafka AwsProvider#kafka}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "kafka", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6119,7 +6119,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#kafkaconnect AwsProvider#kafkaconnect}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#kafkaconnect AwsProvider#kafkaconnect}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "kafkaconnect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6130,7 +6130,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#kendra AwsProvider#kendra}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#kendra AwsProvider#kendra}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "kendra", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6141,7 +6141,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#keyspaces AwsProvider#keyspaces}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#keyspaces AwsProvider#keyspaces}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "keyspaces", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6152,7 +6152,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#kinesis AwsProvider#kinesis}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#kinesis AwsProvider#kinesis}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "kinesis", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6163,7 +6163,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#kinesisanalytics AwsProvider#kinesisanalytics}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#kinesisanalytics AwsProvider#kinesisanalytics}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "kinesisanalytics", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6174,7 +6174,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#kinesisanalyticsv2 AwsProvider#kinesisanalyticsv2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#kinesisanalyticsv2 AwsProvider#kinesisanalyticsv2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "kinesisanalyticsv2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6185,7 +6185,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#kinesisvideo AwsProvider#kinesisvideo}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#kinesisvideo AwsProvider#kinesisvideo}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "kinesisvideo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6196,7 +6196,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#kms AwsProvider#kms}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#kms AwsProvider#kms}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "kms", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6207,7 +6207,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#lakeformation AwsProvider#lakeformation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#lakeformation AwsProvider#lakeformation}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lakeformation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6218,7 +6218,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#lambda AwsProvider#lambda}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#lambda AwsProvider#lambda}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lambda", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6229,7 +6229,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#launchwizard AwsProvider#launchwizard}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#launchwizard AwsProvider#launchwizard}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "launchwizard", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6240,7 +6240,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#lex AwsProvider#lex}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#lex AwsProvider#lex}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lex", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6251,7 +6251,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#lexmodelbuilding AwsProvider#lexmodelbuilding}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#lexmodelbuilding AwsProvider#lexmodelbuilding}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lexmodelbuilding", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6262,7 +6262,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#lexmodelbuildingservice AwsProvider#lexmodelbuildingservice}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#lexmodelbuildingservice AwsProvider#lexmodelbuildingservice}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lexmodelbuildingservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6273,7 +6273,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#lexmodels AwsProvider#lexmodels}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#lexmodels AwsProvider#lexmodels}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lexmodels", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6284,7 +6284,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#lexmodelsv2 AwsProvider#lexmodelsv2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#lexmodelsv2 AwsProvider#lexmodelsv2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lexmodelsv2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6295,7 +6295,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#lexv2models AwsProvider#lexv2models}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#lexv2models AwsProvider#lexv2models}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lexv2Models", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6306,7 +6306,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#licensemanager AwsProvider#licensemanager}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#licensemanager AwsProvider#licensemanager}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "licensemanager", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6317,7 +6317,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#lightsail AwsProvider#lightsail}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#lightsail AwsProvider#lightsail}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lightsail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6328,7 +6328,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#location AwsProvider#location}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#location AwsProvider#location}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6339,7 +6339,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#locationservice AwsProvider#locationservice}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#locationservice AwsProvider#locationservice}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "locationservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6350,7 +6350,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#logs AwsProvider#logs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#logs AwsProvider#logs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "logs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6361,7 +6361,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#m2 AwsProvider#m2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#m2 AwsProvider#m2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "m2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6372,7 +6372,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#macie2 AwsProvider#macie2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#macie2 AwsProvider#macie2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "macie2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6383,7 +6383,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#managedgrafana AwsProvider#managedgrafana}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#managedgrafana AwsProvider#managedgrafana}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "managedgrafana", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6394,7 +6394,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mediaconnect AwsProvider#mediaconnect}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mediaconnect AwsProvider#mediaconnect}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mediaconnect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6405,7 +6405,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mediaconvert AwsProvider#mediaconvert}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mediaconvert AwsProvider#mediaconvert}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mediaconvert", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6416,7 +6416,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#medialive AwsProvider#medialive}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#medialive AwsProvider#medialive}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "medialive", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6427,7 +6427,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mediapackage AwsProvider#mediapackage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mediapackage AwsProvider#mediapackage}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mediapackage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6438,7 +6438,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mediapackagev2 AwsProvider#mediapackagev2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mediapackagev2 AwsProvider#mediapackagev2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mediapackagev2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6449,7 +6449,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mediapackagevod AwsProvider#mediapackagevod}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mediapackagevod AwsProvider#mediapackagevod}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mediapackagevod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6460,7 +6460,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mediastore AwsProvider#mediastore}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mediastore AwsProvider#mediastore}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mediastore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6471,7 +6471,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#memorydb AwsProvider#memorydb}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#memorydb AwsProvider#memorydb}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "memorydb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6482,7 +6482,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mgn AwsProvider#mgn}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mgn AwsProvider#mgn}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mgn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6493,7 +6493,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mpa AwsProvider#mpa}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mpa AwsProvider#mpa}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mpa", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6504,7 +6504,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mq AwsProvider#mq}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mq AwsProvider#mq}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mq", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6515,7 +6515,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#msk AwsProvider#msk}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#msk AwsProvider#msk}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "msk", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6526,7 +6526,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mwaa AwsProvider#mwaa}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mwaa AwsProvider#mwaa}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mwaa", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6537,7 +6537,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#mwaaserverless AwsProvider#mwaaserverless}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#mwaaserverless AwsProvider#mwaaserverless}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mwaaserverless", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6548,7 +6548,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#neptune AwsProvider#neptune}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#neptune AwsProvider#neptune}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "neptune", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6559,7 +6559,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#neptunegraph AwsProvider#neptunegraph}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#neptunegraph AwsProvider#neptunegraph}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "neptunegraph", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6570,7 +6570,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#networkfirewall AwsProvider#networkfirewall}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#networkfirewall AwsProvider#networkfirewall}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "networkfirewall", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6581,7 +6581,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#networkflowmonitor AwsProvider#networkflowmonitor}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#networkflowmonitor AwsProvider#networkflowmonitor}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "networkflowmonitor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6592,7 +6592,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#networkmanager AwsProvider#networkmanager}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#networkmanager AwsProvider#networkmanager}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "networkmanager", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6603,7 +6603,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#networkmonitor AwsProvider#networkmonitor}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#networkmonitor AwsProvider#networkmonitor}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "networkmonitor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6614,7 +6614,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#notifications AwsProvider#notifications}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#notifications AwsProvider#notifications}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "notifications", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6625,7 +6625,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#notificationscontacts AwsProvider#notificationscontacts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#notificationscontacts AwsProvider#notificationscontacts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "notificationscontacts", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6636,7 +6636,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#oam AwsProvider#oam}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#oam AwsProvider#oam}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oam", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6647,7 +6647,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#observabilityadmin AwsProvider#observabilityadmin}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#observabilityadmin AwsProvider#observabilityadmin}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "observabilityadmin", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6658,7 +6658,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#odb AwsProvider#odb}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#odb AwsProvider#odb}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "odb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6669,7 +6669,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#opensearch AwsProvider#opensearch}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#opensearch AwsProvider#opensearch}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "opensearch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6680,7 +6680,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#opensearchingestion AwsProvider#opensearchingestion}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#opensearchingestion AwsProvider#opensearchingestion}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "opensearchingestion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6691,7 +6691,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#opensearchserverless AwsProvider#opensearchserverless}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#opensearchserverless AwsProvider#opensearchserverless}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "opensearchserverless", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6702,7 +6702,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#opensearchservice AwsProvider#opensearchservice}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#opensearchservice AwsProvider#opensearchservice}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "opensearchservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6713,7 +6713,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#organizations AwsProvider#organizations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#organizations AwsProvider#organizations}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "organizations", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6724,7 +6724,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#osis AwsProvider#osis}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#osis AwsProvider#osis}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "osis", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6735,7 +6735,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#outposts AwsProvider#outposts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#outposts AwsProvider#outposts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "outposts", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6746,7 +6746,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#paymentcryptography AwsProvider#paymentcryptography}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#paymentcryptography AwsProvider#paymentcryptography}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "paymentcryptography", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6757,7 +6757,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#pcaconnectorad AwsProvider#pcaconnectorad}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#pcaconnectorad AwsProvider#pcaconnectorad}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pcaconnectorad", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6768,7 +6768,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#pcs AwsProvider#pcs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#pcs AwsProvider#pcs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pcs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6779,7 +6779,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#pinpoint AwsProvider#pinpoint}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#pinpoint AwsProvider#pinpoint}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pinpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6790,7 +6790,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#pinpointsmsvoicev2 AwsProvider#pinpointsmsvoicev2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#pinpointsmsvoicev2 AwsProvider#pinpointsmsvoicev2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pinpointsmsvoicev2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6801,7 +6801,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#pipes AwsProvider#pipes}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#pipes AwsProvider#pipes}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pipes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6812,7 +6812,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#polly AwsProvider#polly}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#polly AwsProvider#polly}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "polly", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6823,7 +6823,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#pricing AwsProvider#pricing}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#pricing AwsProvider#pricing}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pricing", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6834,7 +6834,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#prometheus AwsProvider#prometheus}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#prometheus AwsProvider#prometheus}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "prometheus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6845,7 +6845,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#prometheusservice AwsProvider#prometheusservice}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#prometheusservice AwsProvider#prometheusservice}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "prometheusservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6856,7 +6856,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#qbusiness AwsProvider#qbusiness}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#qbusiness AwsProvider#qbusiness}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "qbusiness", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6867,7 +6867,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#qldb AwsProvider#qldb}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#qldb AwsProvider#qldb}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "qldb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6878,7 +6878,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#quicksight AwsProvider#quicksight}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#quicksight AwsProvider#quicksight}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "quicksight", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6889,7 +6889,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ram AwsProvider#ram}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ram AwsProvider#ram}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ram", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6900,7 +6900,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#rbin AwsProvider#rbin}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#rbin AwsProvider#rbin}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rbin", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6911,7 +6911,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#rds AwsProvider#rds}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#rds AwsProvider#rds}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rds", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6922,7 +6922,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#rdsdata AwsProvider#rdsdata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#rdsdata AwsProvider#rdsdata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rdsdata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6933,7 +6933,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#rdsdataservice AwsProvider#rdsdataservice}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#rdsdataservice AwsProvider#rdsdataservice}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rdsdataservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6944,7 +6944,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#recyclebin AwsProvider#recyclebin}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#recyclebin AwsProvider#recyclebin}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "recyclebin", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6955,7 +6955,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#redshift AwsProvider#redshift}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#redshift AwsProvider#redshift}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "redshift", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6966,7 +6966,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#redshiftdata AwsProvider#redshiftdata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#redshiftdata AwsProvider#redshiftdata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "redshiftdata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6977,7 +6977,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#redshiftdataapiservice AwsProvider#redshiftdataapiservice}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#redshiftdataapiservice AwsProvider#redshiftdataapiservice}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "redshiftdataapiservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6988,7 +6988,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#redshiftserverless AwsProvider#redshiftserverless}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#redshiftserverless AwsProvider#redshiftserverless}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "redshiftserverless", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -6999,7 +6999,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#rekognition AwsProvider#rekognition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#rekognition AwsProvider#rekognition}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rekognition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7010,7 +7010,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#resiliencehub AwsProvider#resiliencehub}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#resiliencehub AwsProvider#resiliencehub}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resiliencehub", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7021,7 +7021,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#resourceexplorer2 AwsProvider#resourceexplorer2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#resourceexplorer2 AwsProvider#resourceexplorer2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resourceexplorer2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7032,7 +7032,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#resourcegroups AwsProvider#resourcegroups}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#resourcegroups AwsProvider#resourcegroups}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resourcegroups", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7043,7 +7043,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#resourcegroupstagging AwsProvider#resourcegroupstagging}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#resourcegroupstagging AwsProvider#resourcegroupstagging}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resourcegroupstagging", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7054,7 +7054,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#resourcegroupstaggingapi AwsProvider#resourcegroupstaggingapi}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#resourcegroupstaggingapi AwsProvider#resourcegroupstaggingapi}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resourcegroupstaggingapi", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7065,7 +7065,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#rolesanywhere AwsProvider#rolesanywhere}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#rolesanywhere AwsProvider#rolesanywhere}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rolesanywhere", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7076,7 +7076,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#route53 AwsProvider#route53}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#route53 AwsProvider#route53}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "route53", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7087,7 +7087,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#route53domains AwsProvider#route53domains}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#route53domains AwsProvider#route53domains}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "route53Domains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7098,7 +7098,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#route53profiles AwsProvider#route53profiles}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#route53profiles AwsProvider#route53profiles}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "route53Profiles", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7109,7 +7109,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#route53recoverycontrolconfig AwsProvider#route53recoverycontrolconfig}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#route53recoverycontrolconfig AwsProvider#route53recoverycontrolconfig}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "route53Recoverycontrolconfig", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7120,7 +7120,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#route53recoveryreadiness AwsProvider#route53recoveryreadiness}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#route53recoveryreadiness AwsProvider#route53recoveryreadiness}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "route53Recoveryreadiness", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7131,7 +7131,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#route53resolver AwsProvider#route53resolver}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#route53resolver AwsProvider#route53resolver}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "route53Resolver", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7142,7 +7142,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#rum AwsProvider#rum}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#rum AwsProvider#rum}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rum", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7153,7 +7153,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#s3 AwsProvider#s3}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#s3 AwsProvider#s3}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7164,7 +7164,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#s3api AwsProvider#s3api}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#s3api AwsProvider#s3api}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3Api", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7175,7 +7175,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#s3control AwsProvider#s3control}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#s3control AwsProvider#s3control}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3Control", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7186,7 +7186,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#s3files AwsProvider#s3files}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#s3files AwsProvider#s3files}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3Files", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7197,7 +7197,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#s3outposts AwsProvider#s3outposts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#s3outposts AwsProvider#s3outposts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3Outposts", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7208,7 +7208,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#s3tables AwsProvider#s3tables}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#s3tables AwsProvider#s3tables}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3Tables", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7219,7 +7219,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#s3vectors AwsProvider#s3vectors}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#s3vectors AwsProvider#s3vectors}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3Vectors", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7230,7 +7230,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#sagemaker AwsProvider#sagemaker}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#sagemaker AwsProvider#sagemaker}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sagemaker", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7241,7 +7241,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#savingsplans AwsProvider#savingsplans}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#savingsplans AwsProvider#savingsplans}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "savingsplans", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7252,7 +7252,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#scheduler AwsProvider#scheduler}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#scheduler AwsProvider#scheduler}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "scheduler", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7263,7 +7263,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#schemas AwsProvider#schemas}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#schemas AwsProvider#schemas}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "schemas", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7274,7 +7274,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#secretsmanager AwsProvider#secretsmanager}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#secretsmanager AwsProvider#secretsmanager}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "secretsmanager", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7285,7 +7285,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#securityhub AwsProvider#securityhub}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#securityhub AwsProvider#securityhub}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "securityhub", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7296,7 +7296,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#securitylake AwsProvider#securitylake}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#securitylake AwsProvider#securitylake}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "securitylake", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7307,7 +7307,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#serverlessapplicationrepository AwsProvider#serverlessapplicationrepository}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#serverlessapplicationrepository AwsProvider#serverlessapplicationrepository}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "serverlessapplicationrepository", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7318,7 +7318,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#serverlessapprepo AwsProvider#serverlessapprepo}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#serverlessapprepo AwsProvider#serverlessapprepo}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "serverlessapprepo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7329,7 +7329,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#serverlessrepo AwsProvider#serverlessrepo}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#serverlessrepo AwsProvider#serverlessrepo}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "serverlessrepo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7340,7 +7340,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#servicecatalog AwsProvider#servicecatalog}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#servicecatalog AwsProvider#servicecatalog}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "servicecatalog", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7351,7 +7351,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#servicecatalogappregistry AwsProvider#servicecatalogappregistry}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#servicecatalogappregistry AwsProvider#servicecatalogappregistry}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "servicecatalogappregistry", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7362,7 +7362,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#servicediscovery AwsProvider#servicediscovery}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#servicediscovery AwsProvider#servicediscovery}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "servicediscovery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7373,7 +7373,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#servicequotas AwsProvider#servicequotas}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#servicequotas AwsProvider#servicequotas}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "servicequotas", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7384,7 +7384,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ses AwsProvider#ses}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ses AwsProvider#ses}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ses", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7395,7 +7395,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#sesv2 AwsProvider#sesv2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#sesv2 AwsProvider#sesv2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sesv2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7406,7 +7406,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#sfn AwsProvider#sfn}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#sfn AwsProvider#sfn}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sfn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7417,7 +7417,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#shield AwsProvider#shield}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#shield AwsProvider#shield}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "shield", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7428,7 +7428,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#signer AwsProvider#signer}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#signer AwsProvider#signer}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "signer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7439,7 +7439,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#sns AwsProvider#sns}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#sns AwsProvider#sns}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sns", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7450,7 +7450,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#sqs AwsProvider#sqs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#sqs AwsProvider#sqs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sqs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7461,7 +7461,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ssm AwsProvider#ssm}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ssm AwsProvider#ssm}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ssm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7472,7 +7472,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ssmcontacts AwsProvider#ssmcontacts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ssmcontacts AwsProvider#ssmcontacts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ssmcontacts", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7483,7 +7483,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ssmincidents AwsProvider#ssmincidents}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ssmincidents AwsProvider#ssmincidents}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ssmincidents", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7494,7 +7494,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ssmquicksetup AwsProvider#ssmquicksetup}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ssmquicksetup AwsProvider#ssmquicksetup}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ssmquicksetup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7505,7 +7505,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ssmsap AwsProvider#ssmsap}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ssmsap AwsProvider#ssmsap}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ssmsap", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7516,7 +7516,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#sso AwsProvider#sso}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#sso AwsProvider#sso}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sso", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7527,7 +7527,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#ssoadmin AwsProvider#ssoadmin}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#ssoadmin AwsProvider#ssoadmin}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ssoadmin", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7538,7 +7538,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#stepfunctions AwsProvider#stepfunctions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#stepfunctions AwsProvider#stepfunctions}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "stepfunctions", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7549,7 +7549,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#storagegateway AwsProvider#storagegateway}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#storagegateway AwsProvider#storagegateway}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "storagegateway", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7560,7 +7560,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#sts AwsProvider#sts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#sts AwsProvider#sts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sts", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7571,7 +7571,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#swf AwsProvider#swf}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#swf AwsProvider#swf}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "swf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7582,7 +7582,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#synthetics AwsProvider#synthetics}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#synthetics AwsProvider#synthetics}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "synthetics", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7593,7 +7593,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#taxsettings AwsProvider#taxsettings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#taxsettings AwsProvider#taxsettings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "taxsettings", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7604,7 +7604,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#timestreaminfluxdb AwsProvider#timestreaminfluxdb}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#timestreaminfluxdb AwsProvider#timestreaminfluxdb}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timestreaminfluxdb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7615,7 +7615,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#timestreamquery AwsProvider#timestreamquery}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#timestreamquery AwsProvider#timestreamquery}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timestreamquery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7626,7 +7626,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#timestreamwrite AwsProvider#timestreamwrite}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#timestreamwrite AwsProvider#timestreamwrite}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timestreamwrite", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7637,7 +7637,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#transcribe AwsProvider#transcribe}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#transcribe AwsProvider#transcribe}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "transcribe", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7648,7 +7648,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#transcribeservice AwsProvider#transcribeservice}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#transcribeservice AwsProvider#transcribeservice}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "transcribeservice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7659,7 +7659,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#transfer AwsProvider#transfer}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#transfer AwsProvider#transfer}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "transfer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7670,7 +7670,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#uxc AwsProvider#uxc}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#uxc AwsProvider#uxc}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "uxc", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7681,7 +7681,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#verifiedpermissions AwsProvider#verifiedpermissions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#verifiedpermissions AwsProvider#verifiedpermissions}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "verifiedpermissions", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7692,7 +7692,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#vpclattice AwsProvider#vpclattice}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#vpclattice AwsProvider#vpclattice}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vpclattice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7703,7 +7703,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#waf AwsProvider#waf}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#waf AwsProvider#waf}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "waf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7714,7 +7714,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#wafregional AwsProvider#wafregional}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#wafregional AwsProvider#wafregional}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "wafregional", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7725,7 +7725,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#wafv2 AwsProvider#wafv2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#wafv2 AwsProvider#wafv2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "wafv2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7736,7 +7736,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#wellarchitected AwsProvider#wellarchitected}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#wellarchitected AwsProvider#wellarchitected}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "wellarchitected", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7747,7 +7747,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#workmail AwsProvider#workmail}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#workmail AwsProvider#workmail}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "workmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7758,7 +7758,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#workspaces AwsProvider#workspaces}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#workspaces AwsProvider#workspaces}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "workspaces", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7769,7 +7769,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#workspacesweb AwsProvider#workspacesweb}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#workspacesweb AwsProvider#workspacesweb}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "workspacesweb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -7780,7 +7780,7 @@ namespace aws.Provider
 
             /// <summary>Use this to override the default service endpoint URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#xray AwsProvider#xray}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#xray AwsProvider#xray}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "xray", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

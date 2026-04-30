@@ -9,7 +9,7 @@ namespace aws.CloudfrontDistribution
     [JsiiByValue(fqn: "aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupMember")]
     public class CloudfrontDistributionOriginGroupMember : aws.CloudfrontDistribution.ICloudfrontDistributionOriginGroupMember
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#origin_id CloudfrontDistribution#origin_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#origin_id CloudfrontDistribution#origin_id}.</summary>
         [JsiiProperty(name: "originId", typeJson: "{\"primitive\":\"string\"}")]
         public string OriginId
         {

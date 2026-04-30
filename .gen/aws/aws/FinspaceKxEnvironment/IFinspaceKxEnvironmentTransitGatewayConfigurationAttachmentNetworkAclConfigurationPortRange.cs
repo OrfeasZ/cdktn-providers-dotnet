@@ -7,14 +7,14 @@ namespace aws.FinspaceKxEnvironment
     [JsiiInterface(nativeType: typeof(IFinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAclConfigurationPortRange), fullyQualifiedName: "aws.finspaceKxEnvironment.FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAclConfigurationPortRange")]
     public interface IFinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAclConfigurationPortRange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#from FinspaceKxEnvironment#from}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_environment#from FinspaceKxEnvironment#from}.</summary>
         [JsiiProperty(name: "from", typeJson: "{\"primitive\":\"number\"}")]
         double From
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#to FinspaceKxEnvironment#to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_environment#to FinspaceKxEnvironment#to}.</summary>
         [JsiiProperty(name: "to", typeJson: "{\"primitive\":\"number\"}")]
         double To
         {
@@ -28,14 +28,14 @@ namespace aws.FinspaceKxEnvironment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#from FinspaceKxEnvironment#from}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_environment#from FinspaceKxEnvironment#from}.</summary>
             [JsiiProperty(name: "from", typeJson: "{\"primitive\":\"number\"}")]
             public double From
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#to FinspaceKxEnvironment#to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_environment#to FinspaceKxEnvironment#to}.</summary>
             [JsiiProperty(name: "to", typeJson: "{\"primitive\":\"number\"}")]
             public double To
             {

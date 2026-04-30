@@ -9,7 +9,7 @@ namespace aws.CognitoUserPool
     [JsiiByValue(fqn: "aws.cognitoUserPool.CognitoUserPoolSmsConfiguration")]
     public class CognitoUserPoolSmsConfiguration : aws.CognitoUserPool.ICognitoUserPoolSmsConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool#external_id CognitoUserPool#external_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool#external_id CognitoUserPool#external_id}.</summary>
         [JsiiProperty(name: "externalId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalId
         {
@@ -17,7 +17,7 @@ namespace aws.CognitoUserPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool#sns_caller_arn CognitoUserPool#sns_caller_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool#sns_caller_arn CognitoUserPool#sns_caller_arn}.</summary>
         [JsiiProperty(name: "snsCallerArn", typeJson: "{\"primitive\":\"string\"}")]
         public string SnsCallerArn
         {
@@ -25,7 +25,7 @@ namespace aws.CognitoUserPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool#sns_region CognitoUserPool#sns_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool#sns_region CognitoUserPool#sns_region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "snsRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SnsRegion

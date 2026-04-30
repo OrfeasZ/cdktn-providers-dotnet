@@ -7,7 +7,7 @@ namespace aws.FlowLog
     [JsiiByValue(fqn: "aws.flowLog.FlowLogConfig")]
     public class FlowLogConfig : aws.FlowLog.IFlowLogConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/flow_log#deliver_cross_account_role FlowLog#deliver_cross_account_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/flow_log#deliver_cross_account_role FlowLog#deliver_cross_account_role}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deliverCrossAccountRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DeliverCrossAccountRole
@@ -18,7 +18,7 @@ namespace aws.FlowLog
 
         /// <summary>destination_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/flow_log#destination_options FlowLog#destination_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/flow_log#destination_options FlowLog#destination_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "destinationOptions", typeJson: "{\"fqn\":\"aws.flowLog.FlowLogDestinationOptions\"}", isOptional: true)]
@@ -28,7 +28,7 @@ namespace aws.FlowLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/flow_log#eni_id FlowLog#eni_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/flow_log#eni_id FlowLog#eni_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "eniId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EniId
@@ -37,7 +37,7 @@ namespace aws.FlowLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/flow_log#iam_role_arn FlowLog#iam_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/flow_log#iam_role_arn FlowLog#iam_role_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "iamRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IamRoleArn
@@ -46,7 +46,7 @@ namespace aws.FlowLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/flow_log#id FlowLog#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/flow_log#id FlowLog#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace aws.FlowLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/flow_log#log_destination FlowLog#log_destination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/flow_log#log_destination FlowLog#log_destination}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logDestination", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogDestination
@@ -68,7 +68,7 @@ namespace aws.FlowLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/flow_log#log_destination_type FlowLog#log_destination_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/flow_log#log_destination_type FlowLog#log_destination_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logDestinationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogDestinationType
@@ -77,7 +77,7 @@ namespace aws.FlowLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/flow_log#log_format FlowLog#log_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/flow_log#log_format FlowLog#log_format}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogFormat
@@ -86,7 +86,7 @@ namespace aws.FlowLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/flow_log#max_aggregation_interval FlowLog#max_aggregation_interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/flow_log#max_aggregation_interval FlowLog#max_aggregation_interval}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxAggregationInterval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxAggregationInterval
@@ -97,7 +97,7 @@ namespace aws.FlowLog
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/flow_log#region FlowLog#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/flow_log#region FlowLog#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace aws.FlowLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/flow_log#regional_nat_gateway_id FlowLog#regional_nat_gateway_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/flow_log#regional_nat_gateway_id FlowLog#regional_nat_gateway_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "regionalNatGatewayId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RegionalNatGatewayId
@@ -116,7 +116,7 @@ namespace aws.FlowLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/flow_log#subnet_id FlowLog#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/flow_log#subnet_id FlowLog#subnet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubnetId
@@ -125,7 +125,7 @@ namespace aws.FlowLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/flow_log#tags FlowLog#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/flow_log#tags FlowLog#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -134,7 +134,7 @@ namespace aws.FlowLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/flow_log#tags_all FlowLog#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/flow_log#tags_all FlowLog#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -143,7 +143,7 @@ namespace aws.FlowLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/flow_log#traffic_type FlowLog#traffic_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/flow_log#traffic_type FlowLog#traffic_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "trafficType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TrafficType
@@ -152,7 +152,7 @@ namespace aws.FlowLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/flow_log#transit_gateway_attachment_id FlowLog#transit_gateway_attachment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/flow_log#transit_gateway_attachment_id FlowLog#transit_gateway_attachment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "transitGatewayAttachmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TransitGatewayAttachmentId
@@ -161,7 +161,7 @@ namespace aws.FlowLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/flow_log#transit_gateway_id FlowLog#transit_gateway_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/flow_log#transit_gateway_id FlowLog#transit_gateway_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "transitGatewayId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TransitGatewayId
@@ -170,7 +170,7 @@ namespace aws.FlowLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/flow_log#vpc_id FlowLog#vpc_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/flow_log#vpc_id FlowLog#vpc_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VpcId

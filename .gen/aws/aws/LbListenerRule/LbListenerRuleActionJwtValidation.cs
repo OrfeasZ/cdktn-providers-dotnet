@@ -9,7 +9,7 @@ namespace aws.LbListenerRule
     [JsiiByValue(fqn: "aws.lbListenerRule.LbListenerRuleActionJwtValidation")]
     public class LbListenerRuleActionJwtValidation : aws.LbListenerRule.ILbListenerRuleActionJwtValidation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#issuer LbListenerRule#issuer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener_rule#issuer LbListenerRule#issuer}.</summary>
         [JsiiProperty(name: "issuer", typeJson: "{\"primitive\":\"string\"}")]
         public string Issuer
         {
@@ -17,7 +17,7 @@ namespace aws.LbListenerRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#jwks_endpoint LbListenerRule#jwks_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener_rule#jwks_endpoint LbListenerRule#jwks_endpoint}.</summary>
         [JsiiProperty(name: "jwksEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string JwksEndpoint
         {
@@ -29,7 +29,7 @@ namespace aws.LbListenerRule
 
         /// <summary>additional_claim block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#additional_claim LbListenerRule#additional_claim}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener_rule#additional_claim LbListenerRule#additional_claim}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "additionalClaim", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lbListenerRule.LbListenerRuleActionJwtValidationAdditionalClaim\"},\"kind\":\"array\"}}]}}", isOptional: true)]

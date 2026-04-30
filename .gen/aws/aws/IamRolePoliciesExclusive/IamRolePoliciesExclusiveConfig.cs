@@ -9,7 +9,7 @@ namespace aws.IamRolePoliciesExclusive
     [JsiiByValue(fqn: "aws.iamRolePoliciesExclusive.IamRolePoliciesExclusiveConfig")]
     public class IamRolePoliciesExclusiveConfig : aws.IamRolePoliciesExclusive.IIamRolePoliciesExclusiveConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_role_policies_exclusive#policy_names IamRolePoliciesExclusive#policy_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_role_policies_exclusive#policy_names IamRolePoliciesExclusive#policy_names}.</summary>
         [JsiiProperty(name: "policyNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] PolicyNames
         {
@@ -17,7 +17,7 @@ namespace aws.IamRolePoliciesExclusive
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_role_policies_exclusive#role_name IamRolePoliciesExclusive#role_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_role_policies_exclusive#role_name IamRolePoliciesExclusive#role_name}.</summary>
         [JsiiProperty(name: "roleName", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleName
         {

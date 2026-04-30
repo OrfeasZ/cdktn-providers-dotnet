@@ -7,7 +7,7 @@ namespace aws.LaunchTemplate
     [JsiiInterface(nativeType: typeof(ILaunchTemplateInstanceMarketOptions), fullyQualifiedName: "aws.launchTemplate.LaunchTemplateInstanceMarketOptions")]
     public interface ILaunchTemplateInstanceMarketOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#market_type LaunchTemplate#market_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#market_type LaunchTemplate#market_type}.</summary>
         [JsiiProperty(name: "marketType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MarketType
@@ -20,7 +20,7 @@ namespace aws.LaunchTemplate
 
         /// <summary>spot_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#spot_options LaunchTemplate#spot_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#spot_options LaunchTemplate#spot_options}
         /// </remarks>
         [JsiiProperty(name: "spotOptions", typeJson: "{\"fqn\":\"aws.launchTemplate.LaunchTemplateInstanceMarketOptionsSpotOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -39,7 +39,7 @@ namespace aws.LaunchTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#market_type LaunchTemplate#market_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#market_type LaunchTemplate#market_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "marketType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MarketType
@@ -49,7 +49,7 @@ namespace aws.LaunchTemplate
 
             /// <summary>spot_options block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#spot_options LaunchTemplate#spot_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#spot_options LaunchTemplate#spot_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "spotOptions", typeJson: "{\"fqn\":\"aws.launchTemplate.LaunchTemplateInstanceMarketOptionsSpotOptions\"}", isOptional: true)]

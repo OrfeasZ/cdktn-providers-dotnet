@@ -7,7 +7,7 @@ namespace aws.Ec2Fleet
     [JsiiInterface(nativeType: typeof(IEc2FleetOnDemandOptionsCapacityReservationOptions), fullyQualifiedName: "aws.ec2Fleet.Ec2FleetOnDemandOptionsCapacityReservationOptions")]
     public interface IEc2FleetOnDemandOptionsCapacityReservationOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#usage_strategy Ec2Fleet#usage_strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#usage_strategy Ec2Fleet#usage_strategy}.</summary>
         [JsiiProperty(name: "usageStrategy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UsageStrategy
@@ -25,7 +25,7 @@ namespace aws.Ec2Fleet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#usage_strategy Ec2Fleet#usage_strategy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#usage_strategy Ec2Fleet#usage_strategy}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "usageStrategy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UsageStrategy

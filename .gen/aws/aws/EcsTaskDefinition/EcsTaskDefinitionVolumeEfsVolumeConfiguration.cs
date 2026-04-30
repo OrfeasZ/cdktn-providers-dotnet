@@ -9,7 +9,7 @@ namespace aws.EcsTaskDefinition
     [JsiiByValue(fqn: "aws.ecsTaskDefinition.EcsTaskDefinitionVolumeEfsVolumeConfiguration")]
     public class EcsTaskDefinitionVolumeEfsVolumeConfiguration : aws.EcsTaskDefinition.IEcsTaskDefinitionVolumeEfsVolumeConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_definition#file_system_id EcsTaskDefinition#file_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_task_definition#file_system_id EcsTaskDefinition#file_system_id}.</summary>
         [JsiiProperty(name: "fileSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public string FileSystemId
         {
@@ -19,7 +19,7 @@ namespace aws.EcsTaskDefinition
 
         /// <summary>authorization_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_definition#authorization_config EcsTaskDefinition#authorization_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_task_definition#authorization_config EcsTaskDefinition#authorization_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authorizationConfig", typeJson: "{\"fqn\":\"aws.ecsTaskDefinition.EcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfig\"}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace aws.EcsTaskDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_definition#root_directory EcsTaskDefinition#root_directory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_task_definition#root_directory EcsTaskDefinition#root_directory}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rootDirectory", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RootDirectory
@@ -38,7 +38,7 @@ namespace aws.EcsTaskDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_definition#transit_encryption EcsTaskDefinition#transit_encryption}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_task_definition#transit_encryption EcsTaskDefinition#transit_encryption}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "transitEncryption", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TransitEncryption
@@ -47,7 +47,7 @@ namespace aws.EcsTaskDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_definition#transit_encryption_port EcsTaskDefinition#transit_encryption_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_task_definition#transit_encryption_port EcsTaskDefinition#transit_encryption_port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "transitEncryptionPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TransitEncryptionPort

@@ -7,7 +7,7 @@ namespace aws.CodebuildFleet
     [JsiiByValue(fqn: "aws.codebuildFleet.CodebuildFleetComputeConfiguration")]
     public class CodebuildFleetComputeConfiguration : aws.CodebuildFleet.ICodebuildFleetComputeConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#disk CodebuildFleet#disk}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#disk CodebuildFleet#disk}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "disk", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Disk
@@ -16,7 +16,7 @@ namespace aws.CodebuildFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#instance_type CodebuildFleet#instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#instance_type CodebuildFleet#instance_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InstanceType
@@ -25,7 +25,7 @@ namespace aws.CodebuildFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#machine_type CodebuildFleet#machine_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#machine_type CodebuildFleet#machine_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "machineType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MachineType
@@ -34,7 +34,7 @@ namespace aws.CodebuildFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#memory CodebuildFleet#memory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#memory CodebuildFleet#memory}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "memory", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Memory
@@ -43,7 +43,7 @@ namespace aws.CodebuildFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#vcpu CodebuildFleet#vcpu}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#vcpu CodebuildFleet#vcpu}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vcpu", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Vcpu

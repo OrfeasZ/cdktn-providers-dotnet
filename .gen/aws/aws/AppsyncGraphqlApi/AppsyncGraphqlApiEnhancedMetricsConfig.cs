@@ -9,7 +9,7 @@ namespace aws.AppsyncGraphqlApi
     [JsiiByValue(fqn: "aws.appsyncGraphqlApi.AppsyncGraphqlApiEnhancedMetricsConfig")]
     public class AppsyncGraphqlApiEnhancedMetricsConfig : aws.AppsyncGraphqlApi.IAppsyncGraphqlApiEnhancedMetricsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_graphql_api#data_source_level_metrics_behavior AppsyncGraphqlApi#data_source_level_metrics_behavior}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_graphql_api#data_source_level_metrics_behavior AppsyncGraphqlApi#data_source_level_metrics_behavior}.</summary>
         [JsiiProperty(name: "dataSourceLevelMetricsBehavior", typeJson: "{\"primitive\":\"string\"}")]
         public string DataSourceLevelMetricsBehavior
         {
@@ -17,7 +17,7 @@ namespace aws.AppsyncGraphqlApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_graphql_api#operation_level_metrics_config AppsyncGraphqlApi#operation_level_metrics_config}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_graphql_api#operation_level_metrics_config AppsyncGraphqlApi#operation_level_metrics_config}.</summary>
         [JsiiProperty(name: "operationLevelMetricsConfig", typeJson: "{\"primitive\":\"string\"}")]
         public string OperationLevelMetricsConfig
         {
@@ -25,7 +25,7 @@ namespace aws.AppsyncGraphqlApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_graphql_api#resolver_level_metrics_behavior AppsyncGraphqlApi#resolver_level_metrics_behavior}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_graphql_api#resolver_level_metrics_behavior AppsyncGraphqlApi#resolver_level_metrics_behavior}.</summary>
         [JsiiProperty(name: "resolverLevelMetricsBehavior", typeJson: "{\"primitive\":\"string\"}")]
         public string ResolverLevelMetricsBehavior
         {

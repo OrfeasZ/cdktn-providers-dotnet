@@ -11,7 +11,7 @@ namespace aws.AppmeshVirtualRouter
 
         /// <summary>listener block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_router#listener AppmeshVirtualRouter#listener}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_router#listener AppmeshVirtualRouter#listener}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "listener", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListener\"},\"kind\":\"array\"}}]}}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.Codepipeline
     [JsiiByValue(fqn: "aws.codepipeline.CodepipelineStageBeforeEntryConditionRuleRuleTypeId")]
     public class CodepipelineStageBeforeEntryConditionRuleRuleTypeId : aws.Codepipeline.ICodepipelineStageBeforeEntryConditionRuleRuleTypeId
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#category Codepipeline#category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codepipeline#category Codepipeline#category}.</summary>
         [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}")]
         public string Category
         {
@@ -17,7 +17,7 @@ namespace aws.Codepipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#provider Codepipeline#provider}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codepipeline#provider Codepipeline#provider}.</summary>
         [JsiiProperty(name: "provider", typeJson: "{\"primitive\":\"string\"}")]
         public string Provider
         {
@@ -25,7 +25,7 @@ namespace aws.Codepipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#owner Codepipeline#owner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codepipeline#owner Codepipeline#owner}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Owner
@@ -34,7 +34,7 @@ namespace aws.Codepipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#version Codepipeline#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codepipeline#version Codepipeline#version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Version

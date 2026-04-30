@@ -7,7 +7,7 @@ namespace aws.DataAwsInternetGateway
     [JsiiByValue(fqn: "aws.dataAwsInternetGateway.DataAwsInternetGatewayTimeouts")]
     public class DataAwsInternetGatewayTimeouts : aws.DataAwsInternetGateway.IDataAwsInternetGatewayTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/internet_gateway#read DataAwsInternetGateway#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/internet_gateway#read DataAwsInternetGateway#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

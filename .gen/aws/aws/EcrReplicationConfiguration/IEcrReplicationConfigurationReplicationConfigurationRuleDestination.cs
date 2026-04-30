@@ -7,14 +7,14 @@ namespace aws.EcrReplicationConfiguration
     [JsiiInterface(nativeType: typeof(IEcrReplicationConfigurationReplicationConfigurationRuleDestination), fullyQualifiedName: "aws.ecrReplicationConfiguration.EcrReplicationConfigurationReplicationConfigurationRuleDestination")]
     public interface IEcrReplicationConfigurationReplicationConfigurationRuleDestination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_replication_configuration#region EcrReplicationConfiguration#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_replication_configuration#region EcrReplicationConfiguration#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         string Region
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_replication_configuration#registry_id EcrReplicationConfiguration#registry_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_replication_configuration#registry_id EcrReplicationConfiguration#registry_id}.</summary>
         [JsiiProperty(name: "registryId", typeJson: "{\"primitive\":\"string\"}")]
         string RegistryId
         {
@@ -28,14 +28,14 @@ namespace aws.EcrReplicationConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_replication_configuration#region EcrReplicationConfiguration#region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_replication_configuration#region EcrReplicationConfiguration#region}.</summary>
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
             public string Region
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_replication_configuration#registry_id EcrReplicationConfiguration#registry_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_replication_configuration#registry_id EcrReplicationConfiguration#registry_id}.</summary>
             [JsiiProperty(name: "registryId", typeJson: "{\"primitive\":\"string\"}")]
             public string RegistryId
             {

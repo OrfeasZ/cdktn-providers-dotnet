@@ -9,7 +9,7 @@ namespace aws.BudgetsBudgetAction
     [JsiiByValue(fqn: "aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionIamActionDefinition")]
     public class BudgetsBudgetActionDefinitionIamActionDefinition : aws.BudgetsBudgetAction.IBudgetsBudgetActionDefinitionIamActionDefinition
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget_action#policy_arn BudgetsBudgetAction#policy_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget_action#policy_arn BudgetsBudgetAction#policy_arn}.</summary>
         [JsiiProperty(name: "policyArn", typeJson: "{\"primitive\":\"string\"}")]
         public string PolicyArn
         {
@@ -17,7 +17,7 @@ namespace aws.BudgetsBudgetAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget_action#groups BudgetsBudgetAction#groups}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget_action#groups BudgetsBudgetAction#groups}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "groups", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Groups
@@ -26,7 +26,7 @@ namespace aws.BudgetsBudgetAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget_action#roles BudgetsBudgetAction#roles}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget_action#roles BudgetsBudgetAction#roles}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "roles", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Roles
@@ -35,7 +35,7 @@ namespace aws.BudgetsBudgetAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget_action#users BudgetsBudgetAction#users}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget_action#users BudgetsBudgetAction#users}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "users", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Users

@@ -7,7 +7,7 @@ namespace aws.SpotFleetRequest
     [JsiiInterface(nativeType: typeof(ISpotFleetRequestSpotMaintenanceStrategiesCapacityRebalance), fullyQualifiedName: "aws.spotFleetRequest.SpotFleetRequestSpotMaintenanceStrategiesCapacityRebalance")]
     public interface ISpotFleetRequestSpotMaintenanceStrategiesCapacityRebalance
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_fleet_request#replacement_strategy SpotFleetRequest#replacement_strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_fleet_request#replacement_strategy SpotFleetRequest#replacement_strategy}.</summary>
         [JsiiProperty(name: "replacementStrategy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ReplacementStrategy
@@ -25,7 +25,7 @@ namespace aws.SpotFleetRequest
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_fleet_request#replacement_strategy SpotFleetRequest#replacement_strategy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_fleet_request#replacement_strategy SpotFleetRequest#replacement_strategy}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "replacementStrategy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ReplacementStrategy

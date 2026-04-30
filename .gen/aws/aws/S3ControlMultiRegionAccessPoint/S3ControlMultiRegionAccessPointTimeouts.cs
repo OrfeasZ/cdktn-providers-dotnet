@@ -7,7 +7,7 @@ namespace aws.S3ControlMultiRegionAccessPoint
     [JsiiByValue(fqn: "aws.s3ControlMultiRegionAccessPoint.S3ControlMultiRegionAccessPointTimeouts")]
     public class S3ControlMultiRegionAccessPointTimeouts : aws.S3ControlMultiRegionAccessPoint.IS3ControlMultiRegionAccessPointTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_multi_region_access_point#create S3ControlMultiRegionAccessPoint#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_multi_region_access_point#create S3ControlMultiRegionAccessPoint#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.S3ControlMultiRegionAccessPoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_multi_region_access_point#delete S3ControlMultiRegionAccessPoint#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_multi_region_access_point#delete S3ControlMultiRegionAccessPoint#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

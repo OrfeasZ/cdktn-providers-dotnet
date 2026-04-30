@@ -5,7 +5,7 @@ namespace aws.S3ControlAccessGrantsLocation
     /// <remarks>
     /// <h1><c>aws_s3control_access_grants_location</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_access_grants_location"><c>aws_s3control_access_grants_location</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_access_grants_location"><c>aws_s3control_access_grants_location</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

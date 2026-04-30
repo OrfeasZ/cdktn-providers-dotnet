@@ -9,7 +9,7 @@ namespace aws.RekognitionStreamProcessor
     {
         /// <summary>Height of the bounding box as a ratio of the overall image height.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#height RekognitionStreamProcessor#height}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rekognition_stream_processor#height RekognitionStreamProcessor#height}
         /// </remarks>
         [JsiiProperty(name: "height", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.RekognitionStreamProcessor
 
         /// <summary>Left coordinate of the bounding box as a ratio of overall image width.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#left RekognitionStreamProcessor#left}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rekognition_stream_processor#left RekognitionStreamProcessor#left}
         /// </remarks>
         [JsiiProperty(name: "left", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.RekognitionStreamProcessor
 
         /// <summary>Top coordinate of the bounding box as a ratio of overall image height.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#top RekognitionStreamProcessor#top}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rekognition_stream_processor#top RekognitionStreamProcessor#top}
         /// </remarks>
         [JsiiProperty(name: "top", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace aws.RekognitionStreamProcessor
 
         /// <summary>Width of the bounding box as a ratio of the overall image width.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#width RekognitionStreamProcessor#width}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rekognition_stream_processor#width RekognitionStreamProcessor#width}
         /// </remarks>
         [JsiiProperty(name: "width", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,7 +72,7 @@ namespace aws.RekognitionStreamProcessor
 
             /// <summary>Height of the bounding box as a ratio of the overall image height.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#height RekognitionStreamProcessor#height}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rekognition_stream_processor#height RekognitionStreamProcessor#height}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "height", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace aws.RekognitionStreamProcessor
 
             /// <summary>Left coordinate of the bounding box as a ratio of overall image width.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#left RekognitionStreamProcessor#left}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rekognition_stream_processor#left RekognitionStreamProcessor#left}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "left", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace aws.RekognitionStreamProcessor
 
             /// <summary>Top coordinate of the bounding box as a ratio of overall image height.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#top RekognitionStreamProcessor#top}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rekognition_stream_processor#top RekognitionStreamProcessor#top}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "top", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace aws.RekognitionStreamProcessor
 
             /// <summary>Width of the bounding box as a ratio of the overall image width.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#width RekognitionStreamProcessor#width}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rekognition_stream_processor#width RekognitionStreamProcessor#width}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "width", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

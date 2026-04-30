@@ -9,7 +9,7 @@ namespace aws.QuicksightAnalysis
     {
         /// <summary>source_template block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_analysis#source_template QuicksightAnalysis#source_template}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_analysis#source_template QuicksightAnalysis#source_template}
         /// </remarks>
         [JsiiProperty(name: "sourceTemplate", typeJson: "{\"fqn\":\"aws.quicksightAnalysis.QuicksightAnalysisSourceEntitySourceTemplate\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.QuicksightAnalysis
 
             /// <summary>source_template block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_analysis#source_template QuicksightAnalysis#source_template}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_analysis#source_template QuicksightAnalysis#source_template}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sourceTemplate", typeJson: "{\"fqn\":\"aws.quicksightAnalysis.QuicksightAnalysisSourceEntitySourceTemplate\"}", isOptional: true)]

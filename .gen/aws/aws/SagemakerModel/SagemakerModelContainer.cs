@@ -11,7 +11,7 @@ namespace aws.SagemakerModel
 
         /// <summary>additional_model_data_source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#additional_model_data_source SagemakerModel#additional_model_data_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#additional_model_data_source SagemakerModel#additional_model_data_source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "additionalModelDataSource", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace aws.SagemakerModel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#container_hostname SagemakerModel#container_hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#container_hostname SagemakerModel#container_hostname}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "containerHostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContainerHostname
@@ -50,7 +50,7 @@ namespace aws.SagemakerModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#environment SagemakerModel#environment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#environment SagemakerModel#environment}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "environment", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Environment
@@ -59,7 +59,7 @@ namespace aws.SagemakerModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#image SagemakerModel#image}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#image SagemakerModel#image}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Image
@@ -70,7 +70,7 @@ namespace aws.SagemakerModel
 
         /// <summary>image_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#image_config SagemakerModel#image_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#image_config SagemakerModel#image_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "imageConfig", typeJson: "{\"fqn\":\"aws.sagemakerModel.SagemakerModelContainerImageConfig\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace aws.SagemakerModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#inference_specification_name SagemakerModel#inference_specification_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#inference_specification_name SagemakerModel#inference_specification_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "inferenceSpecificationName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InferenceSpecificationName
@@ -89,7 +89,7 @@ namespace aws.SagemakerModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#mode SagemakerModel#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#mode SagemakerModel#mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Mode
@@ -100,7 +100,7 @@ namespace aws.SagemakerModel
 
         /// <summary>model_data_source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#model_data_source SagemakerModel#model_data_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#model_data_source SagemakerModel#model_data_source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "modelDataSource", typeJson: "{\"fqn\":\"aws.sagemakerModel.SagemakerModelContainerModelDataSource\"}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace aws.SagemakerModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#model_data_url SagemakerModel#model_data_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#model_data_url SagemakerModel#model_data_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "modelDataUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ModelDataUrl
@@ -119,7 +119,7 @@ namespace aws.SagemakerModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#model_package_name SagemakerModel#model_package_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#model_package_name SagemakerModel#model_package_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "modelPackageName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ModelPackageName
@@ -130,7 +130,7 @@ namespace aws.SagemakerModel
 
         /// <summary>multi_model_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#multi_model_config SagemakerModel#multi_model_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#multi_model_config SagemakerModel#multi_model_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "multiModelConfig", typeJson: "{\"fqn\":\"aws.sagemakerModel.SagemakerModelContainerMultiModelConfig\"}", isOptional: true)]

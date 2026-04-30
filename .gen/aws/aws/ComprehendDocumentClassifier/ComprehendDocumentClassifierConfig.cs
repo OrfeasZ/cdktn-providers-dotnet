@@ -9,7 +9,7 @@ namespace aws.ComprehendDocumentClassifier
     [JsiiByValue(fqn: "aws.comprehendDocumentClassifier.ComprehendDocumentClassifierConfig")]
     public class ComprehendDocumentClassifierConfig : aws.ComprehendDocumentClassifier.IComprehendDocumentClassifierConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/comprehend_document_classifier#data_access_role_arn ComprehendDocumentClassifier#data_access_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/comprehend_document_classifier#data_access_role_arn ComprehendDocumentClassifier#data_access_role_arn}.</summary>
         [JsiiProperty(name: "dataAccessRoleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string DataAccessRoleArn
         {
@@ -19,7 +19,7 @@ namespace aws.ComprehendDocumentClassifier
 
         /// <summary>input_data_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/comprehend_document_classifier#input_data_config ComprehendDocumentClassifier#input_data_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/comprehend_document_classifier#input_data_config ComprehendDocumentClassifier#input_data_config}
         /// </remarks>
         [JsiiProperty(name: "inputDataConfig", typeJson: "{\"fqn\":\"aws.comprehendDocumentClassifier.ComprehendDocumentClassifierInputDataConfig\"}")]
         public aws.ComprehendDocumentClassifier.IComprehendDocumentClassifierInputDataConfig InputDataConfig
@@ -28,7 +28,7 @@ namespace aws.ComprehendDocumentClassifier
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/comprehend_document_classifier#language_code ComprehendDocumentClassifier#language_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/comprehend_document_classifier#language_code ComprehendDocumentClassifier#language_code}.</summary>
         [JsiiProperty(name: "languageCode", typeJson: "{\"primitive\":\"string\"}")]
         public string LanguageCode
         {
@@ -36,7 +36,7 @@ namespace aws.ComprehendDocumentClassifier
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/comprehend_document_classifier#name ComprehendDocumentClassifier#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/comprehend_document_classifier#name ComprehendDocumentClassifier#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -44,7 +44,7 @@ namespace aws.ComprehendDocumentClassifier
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/comprehend_document_classifier#id ComprehendDocumentClassifier#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/comprehend_document_classifier#id ComprehendDocumentClassifier#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ namespace aws.ComprehendDocumentClassifier
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/comprehend_document_classifier#mode ComprehendDocumentClassifier#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/comprehend_document_classifier#mode ComprehendDocumentClassifier#mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Mode
@@ -66,7 +66,7 @@ namespace aws.ComprehendDocumentClassifier
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/comprehend_document_classifier#model_kms_key_id ComprehendDocumentClassifier#model_kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/comprehend_document_classifier#model_kms_key_id ComprehendDocumentClassifier#model_kms_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "modelKmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ModelKmsKeyId
@@ -77,7 +77,7 @@ namespace aws.ComprehendDocumentClassifier
 
         /// <summary>output_data_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/comprehend_document_classifier#output_data_config ComprehendDocumentClassifier#output_data_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/comprehend_document_classifier#output_data_config ComprehendDocumentClassifier#output_data_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "outputDataConfig", typeJson: "{\"fqn\":\"aws.comprehendDocumentClassifier.ComprehendDocumentClassifierOutputDataConfig\"}", isOptional: true)]
@@ -89,7 +89,7 @@ namespace aws.ComprehendDocumentClassifier
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/comprehend_document_classifier#region ComprehendDocumentClassifier#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/comprehend_document_classifier#region ComprehendDocumentClassifier#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace aws.ComprehendDocumentClassifier
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/comprehend_document_classifier#tags ComprehendDocumentClassifier#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/comprehend_document_classifier#tags ComprehendDocumentClassifier#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -108,7 +108,7 @@ namespace aws.ComprehendDocumentClassifier
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/comprehend_document_classifier#tags_all ComprehendDocumentClassifier#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/comprehend_document_classifier#tags_all ComprehendDocumentClassifier#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -119,7 +119,7 @@ namespace aws.ComprehendDocumentClassifier
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/comprehend_document_classifier#timeouts ComprehendDocumentClassifier#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/comprehend_document_classifier#timeouts ComprehendDocumentClassifier#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.comprehendDocumentClassifier.ComprehendDocumentClassifierTimeouts\"}", isOptional: true)]
@@ -129,7 +129,7 @@ namespace aws.ComprehendDocumentClassifier
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/comprehend_document_classifier#version_name ComprehendDocumentClassifier#version_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/comprehend_document_classifier#version_name ComprehendDocumentClassifier#version_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "versionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VersionName
@@ -138,7 +138,7 @@ namespace aws.ComprehendDocumentClassifier
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/comprehend_document_classifier#version_name_prefix ComprehendDocumentClassifier#version_name_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/comprehend_document_classifier#version_name_prefix ComprehendDocumentClassifier#version_name_prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "versionNamePrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VersionNamePrefix
@@ -147,7 +147,7 @@ namespace aws.ComprehendDocumentClassifier
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/comprehend_document_classifier#volume_kms_key_id ComprehendDocumentClassifier#volume_kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/comprehend_document_classifier#volume_kms_key_id ComprehendDocumentClassifier#volume_kms_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "volumeKmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VolumeKmsKeyId
@@ -158,7 +158,7 @@ namespace aws.ComprehendDocumentClassifier
 
         /// <summary>vpc_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/comprehend_document_classifier#vpc_config ComprehendDocumentClassifier#vpc_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/comprehend_document_classifier#vpc_config ComprehendDocumentClassifier#vpc_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpcConfig", typeJson: "{\"fqn\":\"aws.comprehendDocumentClassifier.ComprehendDocumentClassifierVpcConfig\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace aws.SagemakerAlgorithm
     [JsiiInterface(nativeType: typeof(ISagemakerAlgorithmInferenceSpecificationContainersModelInput), fullyQualifiedName: "aws.sagemakerAlgorithm.SagemakerAlgorithmInferenceSpecificationContainersModelInput")]
     public interface ISagemakerAlgorithmInferenceSpecificationContainersModelInput
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#data_input_config SagemakerAlgorithm#data_input_config}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#data_input_config SagemakerAlgorithm#data_input_config}.</summary>
         [JsiiProperty(name: "dataInputConfig", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DataInputConfig
@@ -25,7 +25,7 @@ namespace aws.SagemakerAlgorithm
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#data_input_config SagemakerAlgorithm#data_input_config}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#data_input_config SagemakerAlgorithm#data_input_config}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dataInputConfig", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DataInputConfig

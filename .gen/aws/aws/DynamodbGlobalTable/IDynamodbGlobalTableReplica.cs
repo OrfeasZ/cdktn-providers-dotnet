@@ -7,7 +7,7 @@ namespace aws.DynamodbGlobalTable
     [JsiiInterface(nativeType: typeof(IDynamodbGlobalTableReplica), fullyQualifiedName: "aws.dynamodbGlobalTable.DynamodbGlobalTableReplica")]
     public interface IDynamodbGlobalTableReplica
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_global_table#region_name DynamodbGlobalTable#region_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_global_table#region_name DynamodbGlobalTable#region_name}.</summary>
         [JsiiProperty(name: "regionName", typeJson: "{\"primitive\":\"string\"}")]
         string RegionName
         {
@@ -21,7 +21,7 @@ namespace aws.DynamodbGlobalTable
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_global_table#region_name DynamodbGlobalTable#region_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_global_table#region_name DynamodbGlobalTable#region_name}.</summary>
             [JsiiProperty(name: "regionName", typeJson: "{\"primitive\":\"string\"}")]
             public string RegionName
             {

@@ -13,7 +13,7 @@ namespace aws.VpclatticeListenerRule
 
         /// <summary>target_groups block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpclattice_listener_rule#target_groups VpclatticeListenerRule#target_groups}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpclattice_listener_rule#target_groups VpclatticeListenerRule#target_groups}
         /// </remarks>
         [JsiiProperty(name: "targetGroups", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpclatticeListenerRule.VpclatticeListenerRuleActionForwardTargetGroups\"},\"kind\":\"array\"}}]}}")]
         public object TargetGroups

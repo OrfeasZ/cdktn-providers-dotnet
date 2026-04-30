@@ -9,7 +9,7 @@ namespace aws.ApiGatewayIntegration
     [JsiiByValue(fqn: "aws.apiGatewayIntegration.ApiGatewayIntegrationConfig")]
     public class ApiGatewayIntegrationConfig : aws.ApiGatewayIntegration.IApiGatewayIntegrationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#http_method ApiGatewayIntegration#http_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#http_method ApiGatewayIntegration#http_method}.</summary>
         [JsiiProperty(name: "httpMethod", typeJson: "{\"primitive\":\"string\"}")]
         public string HttpMethod
         {
@@ -17,7 +17,7 @@ namespace aws.ApiGatewayIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#resource_id ApiGatewayIntegration#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#resource_id ApiGatewayIntegration#resource_id}.</summary>
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceId
         {
@@ -25,7 +25,7 @@ namespace aws.ApiGatewayIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#rest_api_id ApiGatewayIntegration#rest_api_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#rest_api_id ApiGatewayIntegration#rest_api_id}.</summary>
         [JsiiProperty(name: "restApiId", typeJson: "{\"primitive\":\"string\"}")]
         public string RestApiId
         {
@@ -33,7 +33,7 @@ namespace aws.ApiGatewayIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#type ApiGatewayIntegration#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#type ApiGatewayIntegration#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -41,7 +41,7 @@ namespace aws.ApiGatewayIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#cache_key_parameters ApiGatewayIntegration#cache_key_parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#cache_key_parameters ApiGatewayIntegration#cache_key_parameters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cacheKeyParameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? CacheKeyParameters
@@ -50,7 +50,7 @@ namespace aws.ApiGatewayIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#cache_namespace ApiGatewayIntegration#cache_namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#cache_namespace ApiGatewayIntegration#cache_namespace}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cacheNamespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CacheNamespace
@@ -59,7 +59,7 @@ namespace aws.ApiGatewayIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#connection_id ApiGatewayIntegration#connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#connection_id ApiGatewayIntegration#connection_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConnectionId
@@ -68,7 +68,7 @@ namespace aws.ApiGatewayIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#connection_type ApiGatewayIntegration#connection_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#connection_type ApiGatewayIntegration#connection_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "connectionType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConnectionType
@@ -77,7 +77,7 @@ namespace aws.ApiGatewayIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#content_handling ApiGatewayIntegration#content_handling}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#content_handling ApiGatewayIntegration#content_handling}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "contentHandling", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContentHandling
@@ -86,7 +86,7 @@ namespace aws.ApiGatewayIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#credentials ApiGatewayIntegration#credentials}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#credentials ApiGatewayIntegration#credentials}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "credentials", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Credentials
@@ -95,7 +95,7 @@ namespace aws.ApiGatewayIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#id ApiGatewayIntegration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#id ApiGatewayIntegration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -108,7 +108,7 @@ namespace aws.ApiGatewayIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#integration_http_method ApiGatewayIntegration#integration_http_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#integration_http_method ApiGatewayIntegration#integration_http_method}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "integrationHttpMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IntegrationHttpMethod
@@ -117,7 +117,7 @@ namespace aws.ApiGatewayIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#integration_target ApiGatewayIntegration#integration_target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#integration_target ApiGatewayIntegration#integration_target}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "integrationTarget", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IntegrationTarget
@@ -126,7 +126,7 @@ namespace aws.ApiGatewayIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#passthrough_behavior ApiGatewayIntegration#passthrough_behavior}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#passthrough_behavior ApiGatewayIntegration#passthrough_behavior}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "passthroughBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PassthroughBehavior
@@ -137,7 +137,7 @@ namespace aws.ApiGatewayIntegration
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#region ApiGatewayIntegration#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#region ApiGatewayIntegration#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -147,7 +147,7 @@ namespace aws.ApiGatewayIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#request_parameters ApiGatewayIntegration#request_parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#request_parameters ApiGatewayIntegration#request_parameters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "requestParameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? RequestParameters
@@ -156,7 +156,7 @@ namespace aws.ApiGatewayIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#request_templates ApiGatewayIntegration#request_templates}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#request_templates ApiGatewayIntegration#request_templates}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "requestTemplates", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? RequestTemplates
@@ -165,7 +165,7 @@ namespace aws.ApiGatewayIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#response_transfer_mode ApiGatewayIntegration#response_transfer_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#response_transfer_mode ApiGatewayIntegration#response_transfer_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "responseTransferMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResponseTransferMode
@@ -174,7 +174,7 @@ namespace aws.ApiGatewayIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#timeout_milliseconds ApiGatewayIntegration#timeout_milliseconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#timeout_milliseconds ApiGatewayIntegration#timeout_milliseconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutMilliseconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TimeoutMilliseconds
@@ -185,7 +185,7 @@ namespace aws.ApiGatewayIntegration
 
         /// <summary>tls_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#tls_config ApiGatewayIntegration#tls_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#tls_config ApiGatewayIntegration#tls_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tlsConfig", typeJson: "{\"fqn\":\"aws.apiGatewayIntegration.ApiGatewayIntegrationTlsConfig\"}", isOptional: true)]
@@ -195,7 +195,7 @@ namespace aws.ApiGatewayIntegration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_integration#uri ApiGatewayIntegration#uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_integration#uri ApiGatewayIntegration#uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Uri

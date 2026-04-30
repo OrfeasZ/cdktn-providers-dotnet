@@ -7,7 +7,7 @@ namespace aws.SecuritylakeDataLake
     [JsiiByValue(fqn: "aws.securitylakeDataLake.SecuritylakeDataLakeConfigurationLifecycleConfigurationTransition")]
     public class SecuritylakeDataLakeConfigurationLifecycleConfigurationTransition : aws.SecuritylakeDataLake.ISecuritylakeDataLakeConfigurationLifecycleConfigurationTransition
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_data_lake#days SecuritylakeDataLake#days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_data_lake#days SecuritylakeDataLake#days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Days
@@ -16,7 +16,7 @@ namespace aws.SecuritylakeDataLake
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_data_lake#storage_class SecuritylakeDataLake#storage_class}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_data_lake#storage_class SecuritylakeDataLake#storage_class}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageClass", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageClass

@@ -7,7 +7,7 @@ namespace aws.CognitoIdentityPool
     [JsiiByValue(fqn: "aws.cognitoIdentityPool.CognitoIdentityPoolCognitoIdentityProviders")]
     public class CognitoIdentityPoolCognitoIdentityProviders : aws.CognitoIdentityPool.ICognitoIdentityPoolCognitoIdentityProviders
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_identity_pool#client_id CognitoIdentityPool#client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_identity_pool#client_id CognitoIdentityPool#client_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClientId
@@ -16,7 +16,7 @@ namespace aws.CognitoIdentityPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_identity_pool#provider_name CognitoIdentityPool#provider_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_identity_pool#provider_name CognitoIdentityPool#provider_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "providerName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProviderName
@@ -27,7 +27,7 @@ namespace aws.CognitoIdentityPool
 
         private object? _serverSideTokenCheck;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_identity_pool#server_side_token_check CognitoIdentityPool#server_side_token_check}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_identity_pool#server_side_token_check CognitoIdentityPool#server_side_token_check}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serverSideTokenCheck", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? ServerSideTokenCheck

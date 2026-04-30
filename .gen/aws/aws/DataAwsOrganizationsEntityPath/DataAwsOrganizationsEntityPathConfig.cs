@@ -9,7 +9,7 @@ namespace aws.DataAwsOrganizationsEntityPath
     [JsiiByValue(fqn: "aws.dataAwsOrganizationsEntityPath.DataAwsOrganizationsEntityPathConfig")]
     public class DataAwsOrganizationsEntityPathConfig : aws.DataAwsOrganizationsEntityPath.IDataAwsOrganizationsEntityPathConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/organizations_entity_path#entity_id DataAwsOrganizationsEntityPath#entity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/organizations_entity_path#entity_id DataAwsOrganizationsEntityPath#entity_id}.</summary>
         [JsiiProperty(name: "entityId", typeJson: "{\"primitive\":\"string\"}")]
         public string EntityId
         {

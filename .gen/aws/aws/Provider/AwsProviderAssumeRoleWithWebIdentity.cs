@@ -11,7 +11,7 @@ namespace aws.Provider
         /// <remarks>
         /// Valid time units are ns, us (or µs), ms, s, h, or m.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#duration AwsProvider#duration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#duration AwsProvider#duration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace aws.Provider
 
         /// <summary>IAM Policy JSON describing further restricting permissions for the IAM Role being assumed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#policy AwsProvider#policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#policy AwsProvider#policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -35,7 +35,7 @@ namespace aws.Provider
 
         /// <summary>Amazon Resource Names (ARNs) of IAM Policies describing further restricting permissions for the IAM Role being assumed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#policy_arns AwsProvider#policy_arns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#policy_arns AwsProvider#policy_arns}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "policyArns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace aws.Provider
 
         /// <summary>Amazon Resource Name (ARN) of an IAM Role to assume prior to making API calls.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#role_arn AwsProvider#role_arn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#role_arn AwsProvider#role_arn}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace aws.Provider
 
         /// <summary>An identifier for the assumed role session.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#session_name AwsProvider#session_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#session_name AwsProvider#session_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sessionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.Provider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#web_identity_token AwsProvider#web_identity_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#web_identity_token AwsProvider#web_identity_token}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "webIdentityToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WebIdentityToken
@@ -78,7 +78,7 @@ namespace aws.Provider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs#web_identity_token_file AwsProvider#web_identity_token_file}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs#web_identity_token_file AwsProvider#web_identity_token_file}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "webIdentityTokenFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WebIdentityTokenFile

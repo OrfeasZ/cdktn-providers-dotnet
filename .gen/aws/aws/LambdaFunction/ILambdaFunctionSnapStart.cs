@@ -7,7 +7,7 @@ namespace aws.LambdaFunction
     [JsiiInterface(nativeType: typeof(ILambdaFunctionSnapStart), fullyQualifiedName: "aws.lambdaFunction.LambdaFunctionSnapStart")]
     public interface ILambdaFunctionSnapStart
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function#apply_on LambdaFunction#apply_on}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_function#apply_on LambdaFunction#apply_on}.</summary>
         [JsiiProperty(name: "applyOn", typeJson: "{\"primitive\":\"string\"}")]
         string ApplyOn
         {
@@ -21,7 +21,7 @@ namespace aws.LambdaFunction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function#apply_on LambdaFunction#apply_on}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_function#apply_on LambdaFunction#apply_on}.</summary>
             [JsiiProperty(name: "applyOn", typeJson: "{\"primitive\":\"string\"}")]
             public string ApplyOn
             {

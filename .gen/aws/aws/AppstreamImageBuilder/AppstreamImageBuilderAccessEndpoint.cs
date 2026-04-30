@@ -9,7 +9,7 @@ namespace aws.AppstreamImageBuilder
     [JsiiByValue(fqn: "aws.appstreamImageBuilder.AppstreamImageBuilderAccessEndpoint")]
     public class AppstreamImageBuilderAccessEndpoint : aws.AppstreamImageBuilder.IAppstreamImageBuilderAccessEndpoint
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_image_builder#endpoint_type AppstreamImageBuilder#endpoint_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_image_builder#endpoint_type AppstreamImageBuilder#endpoint_type}.</summary>
         [JsiiProperty(name: "endpointType", typeJson: "{\"primitive\":\"string\"}")]
         public string EndpointType
         {
@@ -17,7 +17,7 @@ namespace aws.AppstreamImageBuilder
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_image_builder#vpce_id AppstreamImageBuilder#vpce_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_image_builder#vpce_id AppstreamImageBuilder#vpce_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vpceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VpceId

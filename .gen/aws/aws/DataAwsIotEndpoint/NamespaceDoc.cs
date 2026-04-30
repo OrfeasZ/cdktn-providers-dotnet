@@ -5,7 +5,7 @@ namespace aws.DataAwsIotEndpoint
     /// <remarks>
     /// <h1><c>data_aws_iot_endpoint</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/iot_endpoint"><c>data_aws_iot_endpoint</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/iot_endpoint"><c>data_aws_iot_endpoint</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

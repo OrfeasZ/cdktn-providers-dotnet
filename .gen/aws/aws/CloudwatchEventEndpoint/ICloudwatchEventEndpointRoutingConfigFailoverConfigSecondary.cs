@@ -7,7 +7,7 @@ namespace aws.CloudwatchEventEndpoint
     [JsiiInterface(nativeType: typeof(ICloudwatchEventEndpointRoutingConfigFailoverConfigSecondary), fullyQualifiedName: "aws.cloudwatchEventEndpoint.CloudwatchEventEndpointRoutingConfigFailoverConfigSecondary")]
     public interface ICloudwatchEventEndpointRoutingConfigFailoverConfigSecondary
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_endpoint#route CloudwatchEventEndpoint#route}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_endpoint#route CloudwatchEventEndpoint#route}.</summary>
         [JsiiProperty(name: "route", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Route
@@ -25,7 +25,7 @@ namespace aws.CloudwatchEventEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_endpoint#route CloudwatchEventEndpoint#route}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_endpoint#route CloudwatchEventEndpoint#route}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "route", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Route

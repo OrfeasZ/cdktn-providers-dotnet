@@ -7,21 +7,21 @@ namespace aws.EfsAccessPoint
     [JsiiInterface(nativeType: typeof(IEfsAccessPointRootDirectoryCreationInfo), fullyQualifiedName: "aws.efsAccessPoint.EfsAccessPointRootDirectoryCreationInfo")]
     public interface IEfsAccessPointRootDirectoryCreationInfo
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_access_point#owner_gid EfsAccessPoint#owner_gid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_access_point#owner_gid EfsAccessPoint#owner_gid}.</summary>
         [JsiiProperty(name: "ownerGid", typeJson: "{\"primitive\":\"number\"}")]
         double OwnerGid
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_access_point#owner_uid EfsAccessPoint#owner_uid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_access_point#owner_uid EfsAccessPoint#owner_uid}.</summary>
         [JsiiProperty(name: "ownerUid", typeJson: "{\"primitive\":\"number\"}")]
         double OwnerUid
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_access_point#permissions EfsAccessPoint#permissions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_access_point#permissions EfsAccessPoint#permissions}.</summary>
         [JsiiProperty(name: "permissions", typeJson: "{\"primitive\":\"string\"}")]
         string Permissions
         {
@@ -35,21 +35,21 @@ namespace aws.EfsAccessPoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_access_point#owner_gid EfsAccessPoint#owner_gid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_access_point#owner_gid EfsAccessPoint#owner_gid}.</summary>
             [JsiiProperty(name: "ownerGid", typeJson: "{\"primitive\":\"number\"}")]
             public double OwnerGid
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_access_point#owner_uid EfsAccessPoint#owner_uid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_access_point#owner_uid EfsAccessPoint#owner_uid}.</summary>
             [JsiiProperty(name: "ownerUid", typeJson: "{\"primitive\":\"number\"}")]
             public double OwnerUid
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_access_point#permissions EfsAccessPoint#permissions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_access_point#permissions EfsAccessPoint#permissions}.</summary>
             [JsiiProperty(name: "permissions", typeJson: "{\"primitive\":\"string\"}")]
             public string Permissions
             {

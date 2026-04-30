@@ -9,7 +9,7 @@ namespace aws.CodeconnectionsHost
     [JsiiByValue(fqn: "aws.codeconnectionsHost.CodeconnectionsHostConfig")]
     public class CodeconnectionsHostConfig : aws.CodeconnectionsHost.ICodeconnectionsHostConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codeconnections_host#name CodeconnectionsHost#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codeconnections_host#name CodeconnectionsHost#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.CodeconnectionsHost
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codeconnections_host#provider_endpoint CodeconnectionsHost#provider_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codeconnections_host#provider_endpoint CodeconnectionsHost#provider_endpoint}.</summary>
         [JsiiProperty(name: "providerEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string ProviderEndpoint
         {
@@ -25,7 +25,7 @@ namespace aws.CodeconnectionsHost
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codeconnections_host#provider_type CodeconnectionsHost#provider_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codeconnections_host#provider_type CodeconnectionsHost#provider_type}.</summary>
         [JsiiProperty(name: "providerType", typeJson: "{\"primitive\":\"string\"}")]
         public string ProviderType
         {
@@ -35,7 +35,7 @@ namespace aws.CodeconnectionsHost
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codeconnections_host#region CodeconnectionsHost#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codeconnections_host#region CodeconnectionsHost#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace aws.CodeconnectionsHost
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codeconnections_host#tags CodeconnectionsHost#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codeconnections_host#tags CodeconnectionsHost#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -56,7 +56,7 @@ namespace aws.CodeconnectionsHost
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codeconnections_host#timeouts CodeconnectionsHost#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codeconnections_host#timeouts CodeconnectionsHost#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.codeconnectionsHost.CodeconnectionsHostTimeouts\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace aws.CodeconnectionsHost
 
         /// <summary>vpc_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codeconnections_host#vpc_configuration CodeconnectionsHost#vpc_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codeconnections_host#vpc_configuration CodeconnectionsHost#vpc_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpcConfiguration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codeconnectionsHost.CodeconnectionsHostVpcConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]

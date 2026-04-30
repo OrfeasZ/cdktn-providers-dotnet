@@ -7,7 +7,7 @@ namespace aws.TimestreamqueryScheduledQuery
     [JsiiInterface(nativeType: typeof(ITimestreamqueryScheduledQueryScheduleConfiguration), fullyQualifiedName: "aws.timestreamqueryScheduledQuery.TimestreamqueryScheduledQueryScheduleConfiguration")]
     public interface ITimestreamqueryScheduledQueryScheduleConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/timestreamquery_scheduled_query#schedule_expression TimestreamqueryScheduledQuery#schedule_expression}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/timestreamquery_scheduled_query#schedule_expression TimestreamqueryScheduledQuery#schedule_expression}.</summary>
         [JsiiProperty(name: "scheduleExpression", typeJson: "{\"primitive\":\"string\"}")]
         string ScheduleExpression
         {
@@ -21,7 +21,7 @@ namespace aws.TimestreamqueryScheduledQuery
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/timestreamquery_scheduled_query#schedule_expression TimestreamqueryScheduledQuery#schedule_expression}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/timestreamquery_scheduled_query#schedule_expression TimestreamqueryScheduledQuery#schedule_expression}.</summary>
             [JsiiProperty(name: "scheduleExpression", typeJson: "{\"primitive\":\"string\"}")]
             public string ScheduleExpression
             {

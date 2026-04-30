@@ -7,14 +7,14 @@ namespace aws.GuarddutyFilter
     [JsiiInterface(nativeType: typeof(IGuarddutyFilterFindingCriteriaCriterion), fullyQualifiedName: "aws.guarddutyFilter.GuarddutyFilterFindingCriteriaCriterion")]
     public interface IGuarddutyFilterFindingCriteriaCriterion
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_filter#field GuarddutyFilter#field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_filter#field GuarddutyFilter#field}.</summary>
         [JsiiProperty(name: "field", typeJson: "{\"primitive\":\"string\"}")]
         string Field
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_filter#equals GuarddutyFilter#equals}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_filter#equals GuarddutyFilter#equals}.</summary>
         [JsiiProperty(name: "equalTo", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? EqualTo
@@ -25,7 +25,7 @@ namespace aws.GuarddutyFilter
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_filter#greater_than GuarddutyFilter#greater_than}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_filter#greater_than GuarddutyFilter#greater_than}.</summary>
         [JsiiProperty(name: "greaterThan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GreaterThan
@@ -36,7 +36,7 @@ namespace aws.GuarddutyFilter
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_filter#greater_than_or_equal GuarddutyFilter#greater_than_or_equal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_filter#greater_than_or_equal GuarddutyFilter#greater_than_or_equal}.</summary>
         [JsiiProperty(name: "greaterThanOrEqual", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GreaterThanOrEqual
@@ -47,7 +47,7 @@ namespace aws.GuarddutyFilter
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_filter#less_than GuarddutyFilter#less_than}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_filter#less_than GuarddutyFilter#less_than}.</summary>
         [JsiiProperty(name: "lessThan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LessThan
@@ -58,7 +58,7 @@ namespace aws.GuarddutyFilter
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_filter#less_than_or_equal GuarddutyFilter#less_than_or_equal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_filter#less_than_or_equal GuarddutyFilter#less_than_or_equal}.</summary>
         [JsiiProperty(name: "lessThanOrEqual", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LessThanOrEqual
@@ -69,7 +69,7 @@ namespace aws.GuarddutyFilter
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_filter#matches GuarddutyFilter#matches}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_filter#matches GuarddutyFilter#matches}.</summary>
         [JsiiProperty(name: "matches", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Matches
@@ -80,7 +80,7 @@ namespace aws.GuarddutyFilter
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_filter#not_equals GuarddutyFilter#not_equals}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_filter#not_equals GuarddutyFilter#not_equals}.</summary>
         [JsiiProperty(name: "notEquals", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? NotEquals
@@ -91,7 +91,7 @@ namespace aws.GuarddutyFilter
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_filter#not_matches GuarddutyFilter#not_matches}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_filter#not_matches GuarddutyFilter#not_matches}.</summary>
         [JsiiProperty(name: "notMatches", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? NotMatches
@@ -109,14 +109,14 @@ namespace aws.GuarddutyFilter
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_filter#field GuarddutyFilter#field}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_filter#field GuarddutyFilter#field}.</summary>
             [JsiiProperty(name: "field", typeJson: "{\"primitive\":\"string\"}")]
             public string Field
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_filter#equals GuarddutyFilter#equals}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_filter#equals GuarddutyFilter#equals}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "equalTo", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? EqualTo
@@ -124,7 +124,7 @@ namespace aws.GuarddutyFilter
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_filter#greater_than GuarddutyFilter#greater_than}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_filter#greater_than GuarddutyFilter#greater_than}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "greaterThan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GreaterThan
@@ -132,7 +132,7 @@ namespace aws.GuarddutyFilter
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_filter#greater_than_or_equal GuarddutyFilter#greater_than_or_equal}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_filter#greater_than_or_equal GuarddutyFilter#greater_than_or_equal}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "greaterThanOrEqual", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GreaterThanOrEqual
@@ -140,7 +140,7 @@ namespace aws.GuarddutyFilter
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_filter#less_than GuarddutyFilter#less_than}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_filter#less_than GuarddutyFilter#less_than}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lessThan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LessThan
@@ -148,7 +148,7 @@ namespace aws.GuarddutyFilter
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_filter#less_than_or_equal GuarddutyFilter#less_than_or_equal}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_filter#less_than_or_equal GuarddutyFilter#less_than_or_equal}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lessThanOrEqual", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LessThanOrEqual
@@ -156,7 +156,7 @@ namespace aws.GuarddutyFilter
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_filter#matches GuarddutyFilter#matches}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_filter#matches GuarddutyFilter#matches}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "matches", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Matches
@@ -164,7 +164,7 @@ namespace aws.GuarddutyFilter
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_filter#not_equals GuarddutyFilter#not_equals}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_filter#not_equals GuarddutyFilter#not_equals}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "notEquals", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? NotEquals
@@ -172,7 +172,7 @@ namespace aws.GuarddutyFilter
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_filter#not_matches GuarddutyFilter#not_matches}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_filter#not_matches GuarddutyFilter#not_matches}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "notMatches", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? NotMatches

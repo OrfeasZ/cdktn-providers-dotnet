@@ -11,7 +11,7 @@ namespace aws.DataAwsEcrImages
     {
         /// <summary>Name of the repository.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ecr_images#repository_name DataAwsEcrImages#repository_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ecr_images#repository_name DataAwsEcrImages#repository_name}
         /// </remarks>
         [JsiiProperty(name: "repositoryName", typeJson: "{\"primitive\":\"string\"}")]
         public string RepositoryName
@@ -22,7 +22,7 @@ namespace aws.DataAwsEcrImages
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ecr_images#region DataAwsEcrImages#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ecr_images#region DataAwsEcrImages#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace aws.DataAwsEcrImages
 
         /// <summary>ID of the registry (AWS account ID).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ecr_images#registry_id DataAwsEcrImages#registry_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ecr_images#registry_id DataAwsEcrImages#registry_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "registryId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

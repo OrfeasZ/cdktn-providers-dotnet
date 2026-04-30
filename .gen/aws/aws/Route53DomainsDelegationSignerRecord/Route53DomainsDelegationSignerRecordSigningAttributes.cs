@@ -9,7 +9,7 @@ namespace aws.Route53DomainsDelegationSignerRecord
     [JsiiByValue(fqn: "aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecordSigningAttributes")]
     public class Route53DomainsDelegationSignerRecordSigningAttributes : aws.Route53DomainsDelegationSignerRecord.IRoute53DomainsDelegationSignerRecordSigningAttributes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_delegation_signer_record#algorithm Route53DomainsDelegationSignerRecord#algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_delegation_signer_record#algorithm Route53DomainsDelegationSignerRecord#algorithm}.</summary>
         [JsiiProperty(name: "algorithm", typeJson: "{\"primitive\":\"number\"}")]
         public double Algorithm
         {
@@ -17,7 +17,7 @@ namespace aws.Route53DomainsDelegationSignerRecord
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_delegation_signer_record#flags Route53DomainsDelegationSignerRecord#flags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_delegation_signer_record#flags Route53DomainsDelegationSignerRecord#flags}.</summary>
         [JsiiProperty(name: "flags", typeJson: "{\"primitive\":\"number\"}")]
         public double Flags
         {
@@ -25,7 +25,7 @@ namespace aws.Route53DomainsDelegationSignerRecord
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_delegation_signer_record#public_key Route53DomainsDelegationSignerRecord#public_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_delegation_signer_record#public_key Route53DomainsDelegationSignerRecord#public_key}.</summary>
         [JsiiProperty(name: "publicKey", typeJson: "{\"primitive\":\"string\"}")]
         public string PublicKey
         {

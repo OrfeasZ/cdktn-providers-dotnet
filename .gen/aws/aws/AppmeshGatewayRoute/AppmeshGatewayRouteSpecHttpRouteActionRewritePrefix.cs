@@ -7,7 +7,7 @@ namespace aws.AppmeshGatewayRoute
     [JsiiByValue(fqn: "aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttpRouteActionRewritePrefix")]
     public class AppmeshGatewayRouteSpecHttpRouteActionRewritePrefix : aws.AppmeshGatewayRoute.IAppmeshGatewayRouteSpecHttpRouteActionRewritePrefix
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_gateway_route#default_prefix AppmeshGatewayRoute#default_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_gateway_route#default_prefix AppmeshGatewayRoute#default_prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultPrefix
@@ -16,7 +16,7 @@ namespace aws.AppmeshGatewayRoute
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_gateway_route#value AppmeshGatewayRoute#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_gateway_route#value AppmeshGatewayRoute#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

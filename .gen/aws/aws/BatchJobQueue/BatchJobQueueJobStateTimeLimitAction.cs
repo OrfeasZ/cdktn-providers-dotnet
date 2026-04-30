@@ -9,7 +9,7 @@ namespace aws.BatchJobQueue
     [JsiiByValue(fqn: "aws.batchJobQueue.BatchJobQueueJobStateTimeLimitAction")]
     public class BatchJobQueueJobStateTimeLimitAction : aws.BatchJobQueue.IBatchJobQueueJobStateTimeLimitAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_queue#action BatchJobQueue#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_job_queue#action BatchJobQueue#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         public string Action
         {
@@ -17,7 +17,7 @@ namespace aws.BatchJobQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_queue#max_time_seconds BatchJobQueue#max_time_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_job_queue#max_time_seconds BatchJobQueue#max_time_seconds}.</summary>
         [JsiiProperty(name: "maxTimeSeconds", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxTimeSeconds
         {
@@ -25,7 +25,7 @@ namespace aws.BatchJobQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_queue#reason BatchJobQueue#reason}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_job_queue#reason BatchJobQueue#reason}.</summary>
         [JsiiProperty(name: "reason", typeJson: "{\"primitive\":\"string\"}")]
         public string Reason
         {
@@ -33,7 +33,7 @@ namespace aws.BatchJobQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_queue#state BatchJobQueue#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_job_queue#state BatchJobQueue#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public string State
         {

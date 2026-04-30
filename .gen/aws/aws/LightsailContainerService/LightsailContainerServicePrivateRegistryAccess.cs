@@ -9,7 +9,7 @@ namespace aws.LightsailContainerService
     {
         /// <summary>ecr_image_puller_role block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#ecr_image_puller_role LightsailContainerService#ecr_image_puller_role}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_container_service#ecr_image_puller_role LightsailContainerService#ecr_image_puller_role}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ecrImagePullerRole", typeJson: "{\"fqn\":\"aws.lightsailContainerService.LightsailContainerServicePrivateRegistryAccessEcrImagePullerRole\"}", isOptional: true)]

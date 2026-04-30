@@ -7,7 +7,7 @@ namespace aws.MqBroker
     [JsiiInterface(nativeType: typeof(IMqBrokerLogs), fullyQualifiedName: "aws.mqBroker.MqBrokerLogs")]
     public interface IMqBrokerLogs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mq_broker#audit MqBroker#audit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mq_broker#audit MqBroker#audit}.</summary>
         [JsiiProperty(name: "audit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Audit
@@ -18,7 +18,7 @@ namespace aws.MqBroker
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mq_broker#general MqBroker#general}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mq_broker#general MqBroker#general}.</summary>
         [JsiiProperty(name: "general", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? General
@@ -36,7 +36,7 @@ namespace aws.MqBroker
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mq_broker#audit MqBroker#audit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mq_broker#audit MqBroker#audit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "audit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Audit
@@ -44,7 +44,7 @@ namespace aws.MqBroker
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mq_broker#general MqBroker#general}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mq_broker#general MqBroker#general}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "general", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? General

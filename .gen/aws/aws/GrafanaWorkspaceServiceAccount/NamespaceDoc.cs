@@ -5,7 +5,7 @@ namespace aws.GrafanaWorkspaceServiceAccount
     /// <remarks>
     /// <h1><c>aws_grafana_workspace_service_account</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/grafana_workspace_service_account"><c>aws_grafana_workspace_service_account</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/grafana_workspace_service_account"><c>aws_grafana_workspace_service_account</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

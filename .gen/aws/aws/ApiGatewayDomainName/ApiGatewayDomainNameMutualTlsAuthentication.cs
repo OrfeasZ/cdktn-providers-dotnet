@@ -9,7 +9,7 @@ namespace aws.ApiGatewayDomainName
     [JsiiByValue(fqn: "aws.apiGatewayDomainName.ApiGatewayDomainNameMutualTlsAuthentication")]
     public class ApiGatewayDomainNameMutualTlsAuthentication : aws.ApiGatewayDomainName.IApiGatewayDomainNameMutualTlsAuthentication
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_domain_name#truststore_uri ApiGatewayDomainName#truststore_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_domain_name#truststore_uri ApiGatewayDomainName#truststore_uri}.</summary>
         [JsiiProperty(name: "truststoreUri", typeJson: "{\"primitive\":\"string\"}")]
         public string TruststoreUri
         {
@@ -17,7 +17,7 @@ namespace aws.ApiGatewayDomainName
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_domain_name#truststore_version ApiGatewayDomainName#truststore_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_domain_name#truststore_version ApiGatewayDomainName#truststore_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "truststoreVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TruststoreVersion

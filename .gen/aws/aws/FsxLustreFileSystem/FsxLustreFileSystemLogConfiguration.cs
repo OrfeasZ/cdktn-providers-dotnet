@@ -7,7 +7,7 @@ namespace aws.FsxLustreFileSystem
     [JsiiByValue(fqn: "aws.fsxLustreFileSystem.FsxLustreFileSystemLogConfiguration")]
     public class FsxLustreFileSystemLogConfiguration : aws.FsxLustreFileSystem.IFsxLustreFileSystemLogConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_lustre_file_system#destination FsxLustreFileSystem#destination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_lustre_file_system#destination FsxLustreFileSystem#destination}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "destination", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Destination
@@ -16,7 +16,7 @@ namespace aws.FsxLustreFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_lustre_file_system#level FsxLustreFileSystem#level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_lustre_file_system#level FsxLustreFileSystem#level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Level

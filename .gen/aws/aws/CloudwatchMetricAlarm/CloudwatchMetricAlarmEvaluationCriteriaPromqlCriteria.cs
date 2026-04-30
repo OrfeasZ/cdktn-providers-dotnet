@@ -9,7 +9,7 @@ namespace aws.CloudwatchMetricAlarm
     [JsiiByValue(fqn: "aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmEvaluationCriteriaPromqlCriteria")]
     public class CloudwatchMetricAlarmEvaluationCriteriaPromqlCriteria : aws.CloudwatchMetricAlarm.ICloudwatchMetricAlarmEvaluationCriteriaPromqlCriteria
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_metric_alarm#query CloudwatchMetricAlarm#query}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_metric_alarm#query CloudwatchMetricAlarm#query}.</summary>
         [JsiiProperty(name: "query", typeJson: "{\"primitive\":\"string\"}")]
         public string Query
         {
@@ -17,7 +17,7 @@ namespace aws.CloudwatchMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_metric_alarm#pending_period CloudwatchMetricAlarm#pending_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_metric_alarm#pending_period CloudwatchMetricAlarm#pending_period}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pendingPeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PendingPeriod
@@ -26,7 +26,7 @@ namespace aws.CloudwatchMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_metric_alarm#recovery_period CloudwatchMetricAlarm#recovery_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_metric_alarm#recovery_period CloudwatchMetricAlarm#recovery_period}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "recoveryPeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RecoveryPeriod

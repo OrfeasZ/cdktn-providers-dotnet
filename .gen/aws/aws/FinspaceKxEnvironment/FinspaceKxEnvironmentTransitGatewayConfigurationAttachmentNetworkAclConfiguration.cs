@@ -9,7 +9,7 @@ namespace aws.FinspaceKxEnvironment
     [JsiiByValue(fqn: "aws.finspaceKxEnvironment.FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAclConfiguration")]
     public class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAclConfiguration : aws.FinspaceKxEnvironment.IFinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAclConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#cidr_block FinspaceKxEnvironment#cidr_block}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_environment#cidr_block FinspaceKxEnvironment#cidr_block}.</summary>
         [JsiiProperty(name: "cidrBlock", typeJson: "{\"primitive\":\"string\"}")]
         public string CidrBlock
         {
@@ -17,7 +17,7 @@ namespace aws.FinspaceKxEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#protocol FinspaceKxEnvironment#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_environment#protocol FinspaceKxEnvironment#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         public string Protocol
         {
@@ -25,7 +25,7 @@ namespace aws.FinspaceKxEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#rule_action FinspaceKxEnvironment#rule_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_environment#rule_action FinspaceKxEnvironment#rule_action}.</summary>
         [JsiiProperty(name: "ruleAction", typeJson: "{\"primitive\":\"string\"}")]
         public string RuleAction
         {
@@ -33,7 +33,7 @@ namespace aws.FinspaceKxEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#rule_number FinspaceKxEnvironment#rule_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_environment#rule_number FinspaceKxEnvironment#rule_number}.</summary>
         [JsiiProperty(name: "ruleNumber", typeJson: "{\"primitive\":\"number\"}")]
         public double RuleNumber
         {
@@ -43,7 +43,7 @@ namespace aws.FinspaceKxEnvironment
 
         /// <summary>icmp_type_code block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#icmp_type_code FinspaceKxEnvironment#icmp_type_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_environment#icmp_type_code FinspaceKxEnvironment#icmp_type_code}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "icmpTypeCode", typeJson: "{\"fqn\":\"aws.finspaceKxEnvironment.FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAclConfigurationIcmpTypeCode\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace aws.FinspaceKxEnvironment
 
         /// <summary>port_range block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#port_range FinspaceKxEnvironment#port_range}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_environment#port_range FinspaceKxEnvironment#port_range}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "portRange", typeJson: "{\"fqn\":\"aws.finspaceKxEnvironment.FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAclConfigurationPortRange\"}", isOptional: true)]

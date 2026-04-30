@@ -7,7 +7,7 @@ namespace aws.LaunchTemplate
     [JsiiByValue(fqn: "aws.launchTemplate.LaunchTemplateInstanceRequirementsAcceleratorCount")]
     public class LaunchTemplateInstanceRequirementsAcceleratorCount : aws.LaunchTemplate.ILaunchTemplateInstanceRequirementsAcceleratorCount
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#max LaunchTemplate#max}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#max LaunchTemplate#max}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Max
@@ -16,7 +16,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#min LaunchTemplate#min}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#min LaunchTemplate#min}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Min

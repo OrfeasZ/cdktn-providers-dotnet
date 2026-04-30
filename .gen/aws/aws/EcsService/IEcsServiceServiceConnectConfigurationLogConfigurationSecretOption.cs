@@ -7,14 +7,14 @@ namespace aws.EcsService
     [JsiiInterface(nativeType: typeof(IEcsServiceServiceConnectConfigurationLogConfigurationSecretOption), fullyQualifiedName: "aws.ecsService.EcsServiceServiceConnectConfigurationLogConfigurationSecretOption")]
     public interface IEcsServiceServiceConnectConfigurationLogConfigurationSecretOption
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#name EcsService#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#name EcsService#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#value_from EcsService#value_from}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#value_from EcsService#value_from}.</summary>
         [JsiiProperty(name: "valueFrom", typeJson: "{\"primitive\":\"string\"}")]
         string ValueFrom
         {
@@ -28,14 +28,14 @@ namespace aws.EcsService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#name EcsService#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#name EcsService#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#value_from EcsService#value_from}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#value_from EcsService#value_from}.</summary>
             [JsiiProperty(name: "valueFrom", typeJson: "{\"primitive\":\"string\"}")]
             public string ValueFrom
             {

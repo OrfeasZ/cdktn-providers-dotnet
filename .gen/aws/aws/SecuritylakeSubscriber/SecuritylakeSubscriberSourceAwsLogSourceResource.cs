@@ -9,7 +9,7 @@ namespace aws.SecuritylakeSubscriber
     [JsiiByValue(fqn: "aws.securitylakeSubscriber.SecuritylakeSubscriberSourceAwsLogSourceResource")]
     public class SecuritylakeSubscriberSourceAwsLogSourceResource : aws.SecuritylakeSubscriber.ISecuritylakeSubscriberSourceAwsLogSourceResource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_subscriber#source_name SecuritylakeSubscriber#source_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_subscriber#source_name SecuritylakeSubscriber#source_name}.</summary>
         [JsiiProperty(name: "sourceName", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceName
         {
@@ -17,7 +17,7 @@ namespace aws.SecuritylakeSubscriber
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_subscriber#source_version SecuritylakeSubscriber#source_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_subscriber#source_version SecuritylakeSubscriber#source_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceVersion

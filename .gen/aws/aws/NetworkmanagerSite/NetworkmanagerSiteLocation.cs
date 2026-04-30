@@ -7,7 +7,7 @@ namespace aws.NetworkmanagerSite
     [JsiiByValue(fqn: "aws.networkmanagerSite.NetworkmanagerSiteLocation")]
     public class NetworkmanagerSiteLocation : aws.NetworkmanagerSite.INetworkmanagerSiteLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_site#address NetworkmanagerSite#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_site#address NetworkmanagerSite#address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Address
@@ -16,7 +16,7 @@ namespace aws.NetworkmanagerSite
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_site#latitude NetworkmanagerSite#latitude}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_site#latitude NetworkmanagerSite#latitude}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "latitude", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Latitude
@@ -25,7 +25,7 @@ namespace aws.NetworkmanagerSite
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_site#longitude NetworkmanagerSite#longitude}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_site#longitude NetworkmanagerSite#longitude}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "longitude", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Longitude

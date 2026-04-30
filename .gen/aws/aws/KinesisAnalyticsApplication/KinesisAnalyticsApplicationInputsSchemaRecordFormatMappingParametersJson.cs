@@ -9,7 +9,7 @@ namespace aws.KinesisAnalyticsApplication
     [JsiiByValue(fqn: "aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationInputsSchemaRecordFormatMappingParametersJson")]
     public class KinesisAnalyticsApplicationInputsSchemaRecordFormatMappingParametersJson : aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationInputsSchemaRecordFormatMappingParametersJson
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#record_row_path KinesisAnalyticsApplication#record_row_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_analytics_application#record_row_path KinesisAnalyticsApplication#record_row_path}.</summary>
         [JsiiProperty(name: "recordRowPath", typeJson: "{\"primitive\":\"string\"}")]
         public string RecordRowPath
         {

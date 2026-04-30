@@ -9,7 +9,7 @@ namespace aws.GuarddutyMemberDetectorFeature
     [JsiiByValue(fqn: "aws.guarddutyMemberDetectorFeature.GuarddutyMemberDetectorFeatureAdditionalConfiguration")]
     public class GuarddutyMemberDetectorFeatureAdditionalConfiguration : aws.GuarddutyMemberDetectorFeature.IGuarddutyMemberDetectorFeatureAdditionalConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_member_detector_feature#name GuarddutyMemberDetectorFeature#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_member_detector_feature#name GuarddutyMemberDetectorFeature#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.GuarddutyMemberDetectorFeature
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_member_detector_feature#status GuarddutyMemberDetectorFeature#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_member_detector_feature#status GuarddutyMemberDetectorFeature#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public string Status
         {

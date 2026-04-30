@@ -7,7 +7,7 @@ namespace aws.QuicksightDataSource
     [JsiiInterface(nativeType: typeof(IQuicksightDataSourceCredentials), fullyQualifiedName: "aws.quicksightDataSource.QuicksightDataSourceCredentials")]
     public interface IQuicksightDataSourceCredentials
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#copy_source_arn QuicksightDataSource#copy_source_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#copy_source_arn QuicksightDataSource#copy_source_arn}.</summary>
         [JsiiProperty(name: "copySourceArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CopySourceArn
@@ -20,7 +20,7 @@ namespace aws.QuicksightDataSource
 
         /// <summary>credential_pair block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#credential_pair QuicksightDataSource#credential_pair}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#credential_pair QuicksightDataSource#credential_pair}
         /// </remarks>
         [JsiiProperty(name: "credentialPair", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPair\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -32,7 +32,7 @@ namespace aws.QuicksightDataSource
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#secret_arn QuicksightDataSource#secret_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#secret_arn QuicksightDataSource#secret_arn}.</summary>
         [JsiiProperty(name: "secretArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SecretArn
@@ -50,7 +50,7 @@ namespace aws.QuicksightDataSource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#copy_source_arn QuicksightDataSource#copy_source_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#copy_source_arn QuicksightDataSource#copy_source_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "copySourceArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CopySourceArn
@@ -60,7 +60,7 @@ namespace aws.QuicksightDataSource
 
             /// <summary>credential_pair block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#credential_pair QuicksightDataSource#credential_pair}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#credential_pair QuicksightDataSource#credential_pair}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "credentialPair", typeJson: "{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPair\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.QuicksightDataSource
                 get => GetInstanceProperty<aws.QuicksightDataSource.IQuicksightDataSourceCredentialsCredentialPair?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#secret_arn QuicksightDataSource#secret_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#secret_arn QuicksightDataSource#secret_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "secretArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SecretArn

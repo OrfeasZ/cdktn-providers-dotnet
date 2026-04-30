@@ -7,7 +7,7 @@ namespace aws.ElasticacheUserGroupAssociation
     [JsiiByValue(fqn: "aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociationTimeouts")]
     public class ElasticacheUserGroupAssociationTimeouts : aws.ElasticacheUserGroupAssociation.IElasticacheUserGroupAssociationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_user_group_association#create ElasticacheUserGroupAssociation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_user_group_association#create ElasticacheUserGroupAssociation#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.ElasticacheUserGroupAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_user_group_association#delete ElasticacheUserGroupAssociation#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_user_group_association#delete ElasticacheUserGroupAssociation#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

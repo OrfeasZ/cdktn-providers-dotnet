@@ -7,7 +7,7 @@ namespace aws.AppsyncFunction
     [JsiiByValue(fqn: "aws.appsyncFunction.AppsyncFunctionSyncConfig")]
     public class AppsyncFunctionSyncConfig : aws.AppsyncFunction.IAppsyncFunctionSyncConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_function#conflict_detection AppsyncFunction#conflict_detection}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_function#conflict_detection AppsyncFunction#conflict_detection}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "conflictDetection", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConflictDetection
@@ -16,7 +16,7 @@ namespace aws.AppsyncFunction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_function#conflict_handler AppsyncFunction#conflict_handler}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_function#conflict_handler AppsyncFunction#conflict_handler}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "conflictHandler", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConflictHandler
@@ -27,7 +27,7 @@ namespace aws.AppsyncFunction
 
         /// <summary>lambda_conflict_handler_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_function#lambda_conflict_handler_config AppsyncFunction#lambda_conflict_handler_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_function#lambda_conflict_handler_config AppsyncFunction#lambda_conflict_handler_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lambdaConflictHandlerConfig", typeJson: "{\"fqn\":\"aws.appsyncFunction.AppsyncFunctionSyncConfigLambdaConflictHandlerConfig\"}", isOptional: true)]

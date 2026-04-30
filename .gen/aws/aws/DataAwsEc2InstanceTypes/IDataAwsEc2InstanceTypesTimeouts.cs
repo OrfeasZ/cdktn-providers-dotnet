@@ -7,7 +7,7 @@ namespace aws.DataAwsEc2InstanceTypes
     [JsiiInterface(nativeType: typeof(IDataAwsEc2InstanceTypesTimeouts), fullyQualifiedName: "aws.dataAwsEc2InstanceTypes.DataAwsEc2InstanceTypesTimeouts")]
     public interface IDataAwsEc2InstanceTypesTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_instance_types#read DataAwsEc2InstanceTypes#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ec2_instance_types#read DataAwsEc2InstanceTypes#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace aws.DataAwsEc2InstanceTypes
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_instance_types#read DataAwsEc2InstanceTypes#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ec2_instance_types#read DataAwsEc2InstanceTypes#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

@@ -7,7 +7,7 @@ namespace aws.DataAwsAvailabilityZones
     [JsiiInterface(nativeType: typeof(IDataAwsAvailabilityZonesTimeouts), fullyQualifiedName: "aws.dataAwsAvailabilityZones.DataAwsAvailabilityZonesTimeouts")]
     public interface IDataAwsAvailabilityZonesTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/availability_zones#read DataAwsAvailabilityZones#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/availability_zones#read DataAwsAvailabilityZones#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace aws.DataAwsAvailabilityZones
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/availability_zones#read DataAwsAvailabilityZones#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/availability_zones#read DataAwsAvailabilityZones#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

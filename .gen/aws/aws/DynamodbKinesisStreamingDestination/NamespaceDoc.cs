@@ -5,7 +5,7 @@ namespace aws.DynamodbKinesisStreamingDestination
     /// <remarks>
     /// <h1><c>aws_dynamodb_kinesis_streaming_destination</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_kinesis_streaming_destination"><c>aws_dynamodb_kinesis_streaming_destination</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_kinesis_streaming_destination"><c>aws_dynamodb_kinesis_streaming_destination</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

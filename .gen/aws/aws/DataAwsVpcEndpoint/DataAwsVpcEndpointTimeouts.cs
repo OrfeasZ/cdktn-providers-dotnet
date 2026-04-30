@@ -7,7 +7,7 @@ namespace aws.DataAwsVpcEndpoint
     [JsiiByValue(fqn: "aws.dataAwsVpcEndpoint.DataAwsVpcEndpointTimeouts")]
     public class DataAwsVpcEndpointTimeouts : aws.DataAwsVpcEndpoint.IDataAwsVpcEndpointTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpc_endpoint#read DataAwsVpcEndpoint#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/vpc_endpoint#read DataAwsVpcEndpoint#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

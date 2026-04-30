@@ -7,14 +7,14 @@ namespace aws.FinspaceKxEnvironment
     [JsiiInterface(nativeType: typeof(IFinspaceKxEnvironmentCustomDnsConfiguration), fullyQualifiedName: "aws.finspaceKxEnvironment.FinspaceKxEnvironmentCustomDnsConfiguration")]
     public interface IFinspaceKxEnvironmentCustomDnsConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#custom_dns_server_ip FinspaceKxEnvironment#custom_dns_server_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_environment#custom_dns_server_ip FinspaceKxEnvironment#custom_dns_server_ip}.</summary>
         [JsiiProperty(name: "customDnsServerIp", typeJson: "{\"primitive\":\"string\"}")]
         string CustomDnsServerIp
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#custom_dns_server_name FinspaceKxEnvironment#custom_dns_server_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_environment#custom_dns_server_name FinspaceKxEnvironment#custom_dns_server_name}.</summary>
         [JsiiProperty(name: "customDnsServerName", typeJson: "{\"primitive\":\"string\"}")]
         string CustomDnsServerName
         {
@@ -28,14 +28,14 @@ namespace aws.FinspaceKxEnvironment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#custom_dns_server_ip FinspaceKxEnvironment#custom_dns_server_ip}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_environment#custom_dns_server_ip FinspaceKxEnvironment#custom_dns_server_ip}.</summary>
             [JsiiProperty(name: "customDnsServerIp", typeJson: "{\"primitive\":\"string\"}")]
             public string CustomDnsServerIp
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#custom_dns_server_name FinspaceKxEnvironment#custom_dns_server_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_environment#custom_dns_server_name FinspaceKxEnvironment#custom_dns_server_name}.</summary>
             [JsiiProperty(name: "customDnsServerName", typeJson: "{\"primitive\":\"string\"}")]
             public string CustomDnsServerName
             {

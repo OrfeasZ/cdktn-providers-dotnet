@@ -9,7 +9,7 @@ namespace aws.TransferConnector
     [JsiiByValue(fqn: "aws.transferConnector.TransferConnectorConfig")]
     public class TransferConnectorConfig : aws.TransferConnector.ITransferConnectorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_connector#access_role TransferConnector#access_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_connector#access_role TransferConnector#access_role}.</summary>
         [JsiiProperty(name: "accessRole", typeJson: "{\"primitive\":\"string\"}")]
         public string AccessRole
         {
@@ -19,7 +19,7 @@ namespace aws.TransferConnector
 
         /// <summary>as2_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_connector#as2_config TransferConnector#as2_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_connector#as2_config TransferConnector#as2_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "as2Config", typeJson: "{\"fqn\":\"aws.transferConnector.TransferConnectorAs2Config\"}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.TransferConnector
 
         /// <summary>egress_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_connector#egress_config TransferConnector#egress_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_connector#egress_config TransferConnector#egress_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "egressConfig", typeJson: "{\"fqn\":\"aws.transferConnector.TransferConnectorEgressConfig\"}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace aws.TransferConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_connector#id TransferConnector#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_connector#id TransferConnector#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,7 +54,7 @@ namespace aws.TransferConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_connector#logging_role TransferConnector#logging_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_connector#logging_role TransferConnector#logging_role}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "loggingRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LoggingRole
@@ -65,7 +65,7 @@ namespace aws.TransferConnector
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_connector#region TransferConnector#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_connector#region TransferConnector#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace aws.TransferConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_connector#security_policy_name TransferConnector#security_policy_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_connector#security_policy_name TransferConnector#security_policy_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityPolicyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecurityPolicyName
@@ -86,7 +86,7 @@ namespace aws.TransferConnector
 
         /// <summary>sftp_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_connector#sftp_config TransferConnector#sftp_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_connector#sftp_config TransferConnector#sftp_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sftpConfig", typeJson: "{\"fqn\":\"aws.transferConnector.TransferConnectorSftpConfig\"}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace aws.TransferConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_connector#tags TransferConnector#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_connector#tags TransferConnector#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -105,7 +105,7 @@ namespace aws.TransferConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_connector#tags_all TransferConnector#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_connector#tags_all TransferConnector#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -116,7 +116,7 @@ namespace aws.TransferConnector
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_connector#timeouts TransferConnector#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_connector#timeouts TransferConnector#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.transferConnector.TransferConnectorTimeouts\"}", isOptional: true)]
@@ -126,7 +126,7 @@ namespace aws.TransferConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_connector#url TransferConnector#url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_connector#url TransferConnector#url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Url

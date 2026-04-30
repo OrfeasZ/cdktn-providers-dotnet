@@ -9,7 +9,7 @@ namespace aws.QuicksightDataSet
     {
         /// <summary>cast_column_type_operation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#cast_column_type_operation QuicksightDataSet#cast_column_type_operation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#cast_column_type_operation QuicksightDataSet#cast_column_type_operation}
         /// </remarks>
         [JsiiProperty(name: "castColumnTypeOperation", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperation\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.QuicksightDataSet
 
         /// <summary>create_columns_operation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#create_columns_operation QuicksightDataSet#create_columns_operation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#create_columns_operation QuicksightDataSet#create_columns_operation}
         /// </remarks>
         [JsiiProperty(name: "createColumnsOperation", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperation\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.QuicksightDataSet
 
         /// <summary>filter_operation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#filter_operation QuicksightDataSet#filter_operation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#filter_operation QuicksightDataSet#filter_operation}
         /// </remarks>
         [JsiiProperty(name: "filterOperation", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsFilterOperation\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace aws.QuicksightDataSet
 
         /// <summary>project_operation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#project_operation QuicksightDataSet#project_operation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#project_operation QuicksightDataSet#project_operation}
         /// </remarks>
         [JsiiProperty(name: "projectOperation", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsProjectOperation\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace aws.QuicksightDataSet
 
         /// <summary>rename_column_operation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#rename_column_operation QuicksightDataSet#rename_column_operation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#rename_column_operation QuicksightDataSet#rename_column_operation}
         /// </remarks>
         [JsiiProperty(name: "renameColumnOperation", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperation\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +79,7 @@ namespace aws.QuicksightDataSet
 
         /// <summary>tag_column_operation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#tag_column_operation QuicksightDataSet#tag_column_operation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#tag_column_operation QuicksightDataSet#tag_column_operation}
         /// </remarks>
         [JsiiProperty(name: "tagColumnOperation", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperation\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,7 +93,7 @@ namespace aws.QuicksightDataSet
 
         /// <summary>untag_column_operation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#untag_column_operation QuicksightDataSet#untag_column_operation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#untag_column_operation QuicksightDataSet#untag_column_operation}
         /// </remarks>
         [JsiiProperty(name: "untagColumnOperation", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsUntagColumnOperation\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -114,7 +114,7 @@ namespace aws.QuicksightDataSet
 
             /// <summary>cast_column_type_operation block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#cast_column_type_operation QuicksightDataSet#cast_column_type_operation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#cast_column_type_operation QuicksightDataSet#cast_column_type_operation}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "castColumnTypeOperation", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperation\"}", isOptional: true)]
@@ -125,7 +125,7 @@ namespace aws.QuicksightDataSet
 
             /// <summary>create_columns_operation block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#create_columns_operation QuicksightDataSet#create_columns_operation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#create_columns_operation QuicksightDataSet#create_columns_operation}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "createColumnsOperation", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperation\"}", isOptional: true)]
@@ -136,7 +136,7 @@ namespace aws.QuicksightDataSet
 
             /// <summary>filter_operation block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#filter_operation QuicksightDataSet#filter_operation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#filter_operation QuicksightDataSet#filter_operation}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "filterOperation", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsFilterOperation\"}", isOptional: true)]
@@ -147,7 +147,7 @@ namespace aws.QuicksightDataSet
 
             /// <summary>project_operation block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#project_operation QuicksightDataSet#project_operation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#project_operation QuicksightDataSet#project_operation}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectOperation", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsProjectOperation\"}", isOptional: true)]
@@ -158,7 +158,7 @@ namespace aws.QuicksightDataSet
 
             /// <summary>rename_column_operation block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#rename_column_operation QuicksightDataSet#rename_column_operation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#rename_column_operation QuicksightDataSet#rename_column_operation}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "renameColumnOperation", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperation\"}", isOptional: true)]
@@ -169,7 +169,7 @@ namespace aws.QuicksightDataSet
 
             /// <summary>tag_column_operation block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#tag_column_operation QuicksightDataSet#tag_column_operation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#tag_column_operation QuicksightDataSet#tag_column_operation}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tagColumnOperation", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperation\"}", isOptional: true)]
@@ -180,7 +180,7 @@ namespace aws.QuicksightDataSet
 
             /// <summary>untag_column_operation block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#untag_column_operation QuicksightDataSet#untag_column_operation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#untag_column_operation QuicksightDataSet#untag_column_operation}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "untagColumnOperation", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsUntagColumnOperation\"}", isOptional: true)]

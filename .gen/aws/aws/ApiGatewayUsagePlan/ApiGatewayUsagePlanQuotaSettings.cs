@@ -9,7 +9,7 @@ namespace aws.ApiGatewayUsagePlan
     [JsiiByValue(fqn: "aws.apiGatewayUsagePlan.ApiGatewayUsagePlanQuotaSettings")]
     public class ApiGatewayUsagePlanQuotaSettings : aws.ApiGatewayUsagePlan.IApiGatewayUsagePlanQuotaSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_usage_plan#limit ApiGatewayUsagePlan#limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_usage_plan#limit ApiGatewayUsagePlan#limit}.</summary>
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}")]
         public double Limit
         {
@@ -17,7 +17,7 @@ namespace aws.ApiGatewayUsagePlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_usage_plan#period ApiGatewayUsagePlan#period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_usage_plan#period ApiGatewayUsagePlan#period}.</summary>
         [JsiiProperty(name: "period", typeJson: "{\"primitive\":\"string\"}")]
         public string Period
         {
@@ -25,7 +25,7 @@ namespace aws.ApiGatewayUsagePlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/api_gateway_usage_plan#offset ApiGatewayUsagePlan#offset}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/api_gateway_usage_plan#offset ApiGatewayUsagePlan#offset}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "offset", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Offset

@@ -7,7 +7,7 @@ namespace aws.BatchComputeEnvironment
     [JsiiInterface(nativeType: typeof(IBatchComputeEnvironmentComputeResourcesLaunchTemplate), fullyQualifiedName: "aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesLaunchTemplate")]
     public interface IBatchComputeEnvironmentComputeResourcesLaunchTemplate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#launch_template_id BatchComputeEnvironment#launch_template_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#launch_template_id BatchComputeEnvironment#launch_template_id}.</summary>
         [JsiiProperty(name: "launchTemplateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LaunchTemplateId
@@ -18,7 +18,7 @@ namespace aws.BatchComputeEnvironment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#launch_template_name BatchComputeEnvironment#launch_template_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#launch_template_name BatchComputeEnvironment#launch_template_name}.</summary>
         [JsiiProperty(name: "launchTemplateName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LaunchTemplateName
@@ -29,7 +29,7 @@ namespace aws.BatchComputeEnvironment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#version BatchComputeEnvironment#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#version BatchComputeEnvironment#version}.</summary>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Version
@@ -47,7 +47,7 @@ namespace aws.BatchComputeEnvironment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#launch_template_id BatchComputeEnvironment#launch_template_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#launch_template_id BatchComputeEnvironment#launch_template_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "launchTemplateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LaunchTemplateId
@@ -55,7 +55,7 @@ namespace aws.BatchComputeEnvironment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#launch_template_name BatchComputeEnvironment#launch_template_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#launch_template_name BatchComputeEnvironment#launch_template_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "launchTemplateName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LaunchTemplateName
@@ -63,7 +63,7 @@ namespace aws.BatchComputeEnvironment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_compute_environment#version BatchComputeEnvironment#version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_compute_environment#version BatchComputeEnvironment#version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Version

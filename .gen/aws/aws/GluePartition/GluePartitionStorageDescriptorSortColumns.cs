@@ -9,7 +9,7 @@ namespace aws.GluePartition
     [JsiiByValue(fqn: "aws.gluePartition.GluePartitionStorageDescriptorSortColumns")]
     public class GluePartitionStorageDescriptorSortColumns : aws.GluePartition.IGluePartitionStorageDescriptorSortColumns
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_partition#column GluePartition#column}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_partition#column GluePartition#column}.</summary>
         [JsiiProperty(name: "column", typeJson: "{\"primitive\":\"string\"}")]
         public string Column
         {
@@ -17,7 +17,7 @@ namespace aws.GluePartition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_partition#sort_order GluePartition#sort_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_partition#sort_order GluePartition#sort_order}.</summary>
         [JsiiProperty(name: "sortOrder", typeJson: "{\"primitive\":\"number\"}")]
         public double SortOrder
         {

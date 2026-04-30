@@ -9,7 +9,7 @@ namespace aws.NetworkmanagerPrefixListAssociation
     [JsiiByValue(fqn: "aws.networkmanagerPrefixListAssociation.NetworkmanagerPrefixListAssociationConfig")]
     public class NetworkmanagerPrefixListAssociationConfig : aws.NetworkmanagerPrefixListAssociation.INetworkmanagerPrefixListAssociationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_prefix_list_association#core_network_id NetworkmanagerPrefixListAssociation#core_network_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_prefix_list_association#core_network_id NetworkmanagerPrefixListAssociation#core_network_id}.</summary>
         [JsiiProperty(name: "coreNetworkId", typeJson: "{\"primitive\":\"string\"}")]
         public string CoreNetworkId
         {
@@ -17,7 +17,7 @@ namespace aws.NetworkmanagerPrefixListAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_prefix_list_association#prefix_list_alias NetworkmanagerPrefixListAssociation#prefix_list_alias}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_prefix_list_association#prefix_list_alias NetworkmanagerPrefixListAssociation#prefix_list_alias}.</summary>
         [JsiiProperty(name: "prefixListAlias", typeJson: "{\"primitive\":\"string\"}")]
         public string PrefixListAlias
         {
@@ -25,7 +25,7 @@ namespace aws.NetworkmanagerPrefixListAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_prefix_list_association#prefix_list_arn NetworkmanagerPrefixListAssociation#prefix_list_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_prefix_list_association#prefix_list_arn NetworkmanagerPrefixListAssociation#prefix_list_arn}.</summary>
         [JsiiProperty(name: "prefixListArn", typeJson: "{\"primitive\":\"string\"}")]
         public string PrefixListArn
         {

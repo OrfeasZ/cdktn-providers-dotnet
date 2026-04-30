@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     {
         /// <summary>audio_hls_rendition_selection block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#audio_hls_rendition_selection MedialiveChannel#audio_hls_rendition_selection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#audio_hls_rendition_selection MedialiveChannel#audio_hls_rendition_selection}
         /// </remarks>
         [JsiiProperty(name: "audioHlsRenditionSelection", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsAudioSelectorSelectorSettingsAudioHlsRenditionSelection\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>audio_language_selection block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#audio_language_selection MedialiveChannel#audio_language_selection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#audio_language_selection MedialiveChannel#audio_language_selection}
         /// </remarks>
         [JsiiProperty(name: "audioLanguageSelection", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsAudioSelectorSelectorSettingsAudioLanguageSelection\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>audio_pid_selection block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#audio_pid_selection MedialiveChannel#audio_pid_selection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#audio_pid_selection MedialiveChannel#audio_pid_selection}
         /// </remarks>
         [JsiiProperty(name: "audioPidSelection", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsAudioSelectorSelectorSettingsAudioPidSelection\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>audio_track_selection block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#audio_track_selection MedialiveChannel#audio_track_selection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#audio_track_selection MedialiveChannel#audio_track_selection}
         /// </remarks>
         [JsiiProperty(name: "audioTrackSelection", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsAudioSelectorSelectorSettingsAudioTrackSelection\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,7 +72,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>audio_hls_rendition_selection block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#audio_hls_rendition_selection MedialiveChannel#audio_hls_rendition_selection}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#audio_hls_rendition_selection MedialiveChannel#audio_hls_rendition_selection}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "audioHlsRenditionSelection", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsAudioSelectorSelectorSettingsAudioHlsRenditionSelection\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>audio_language_selection block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#audio_language_selection MedialiveChannel#audio_language_selection}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#audio_language_selection MedialiveChannel#audio_language_selection}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "audioLanguageSelection", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsAudioSelectorSelectorSettingsAudioLanguageSelection\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>audio_pid_selection block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#audio_pid_selection MedialiveChannel#audio_pid_selection}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#audio_pid_selection MedialiveChannel#audio_pid_selection}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "audioPidSelection", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsAudioSelectorSelectorSettingsAudioPidSelection\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>audio_track_selection block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#audio_track_selection MedialiveChannel#audio_track_selection}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#audio_track_selection MedialiveChannel#audio_track_selection}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "audioTrackSelection", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsAudioSelectorSelectorSettingsAudioTrackSelection\"}", isOptional: true)]

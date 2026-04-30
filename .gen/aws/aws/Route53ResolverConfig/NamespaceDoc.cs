@@ -5,7 +5,7 @@ namespace aws.Route53ResolverConfig
     /// <remarks>
     /// <h1><c>aws_route53_resolver_config</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_resolver_config"><c>aws_route53_resolver_config</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_resolver_config"><c>aws_route53_resolver_config</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

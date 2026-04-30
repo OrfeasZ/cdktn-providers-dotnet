@@ -7,7 +7,7 @@ namespace aws.AppsyncChannelNamespace
     [JsiiInterface(nativeType: typeof(IAppsyncChannelNamespacePublishAuthMode), fullyQualifiedName: "aws.appsyncChannelNamespace.AppsyncChannelNamespacePublishAuthMode")]
     public interface IAppsyncChannelNamespacePublishAuthMode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_channel_namespace#auth_type AppsyncChannelNamespace#auth_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_channel_namespace#auth_type AppsyncChannelNamespace#auth_type}.</summary>
         [JsiiProperty(name: "authType", typeJson: "{\"primitive\":\"string\"}")]
         string AuthType
         {
@@ -21,7 +21,7 @@ namespace aws.AppsyncChannelNamespace
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_channel_namespace#auth_type AppsyncChannelNamespace#auth_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_channel_namespace#auth_type AppsyncChannelNamespace#auth_type}.</summary>
             [JsiiProperty(name: "authType", typeJson: "{\"primitive\":\"string\"}")]
             public string AuthType
             {

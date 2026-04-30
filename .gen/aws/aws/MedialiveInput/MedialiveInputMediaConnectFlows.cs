@@ -9,7 +9,7 @@ namespace aws.MedialiveInput
     [JsiiByValue(fqn: "aws.medialiveInput.MedialiveInputMediaConnectFlows")]
     public class MedialiveInputMediaConnectFlows : aws.MedialiveInput.IMedialiveInputMediaConnectFlows
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_input#flow_arn MedialiveInput#flow_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_input#flow_arn MedialiveInput#flow_arn}.</summary>
         [JsiiProperty(name: "flowArn", typeJson: "{\"primitive\":\"string\"}")]
         public string FlowArn
         {

@@ -9,7 +9,7 @@ namespace aws.MqBroker
     [JsiiByValue(fqn: "aws.mqBroker.MqBrokerMaintenanceWindowStartTime")]
     public class MqBrokerMaintenanceWindowStartTime : aws.MqBroker.IMqBrokerMaintenanceWindowStartTime
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mq_broker#day_of_week MqBroker#day_of_week}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mq_broker#day_of_week MqBroker#day_of_week}.</summary>
         [JsiiProperty(name: "dayOfWeek", typeJson: "{\"primitive\":\"string\"}")]
         public string DayOfWeek
         {
@@ -17,7 +17,7 @@ namespace aws.MqBroker
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mq_broker#time_of_day MqBroker#time_of_day}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mq_broker#time_of_day MqBroker#time_of_day}.</summary>
         [JsiiProperty(name: "timeOfDay", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeOfDay
         {
@@ -25,7 +25,7 @@ namespace aws.MqBroker
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mq_broker#time_zone MqBroker#time_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mq_broker#time_zone MqBroker#time_zone}.</summary>
         [JsiiProperty(name: "timeZone", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeZone
         {

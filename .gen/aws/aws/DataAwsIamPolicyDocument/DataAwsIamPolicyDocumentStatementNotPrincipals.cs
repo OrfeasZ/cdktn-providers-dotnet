@@ -9,7 +9,7 @@ namespace aws.DataAwsIamPolicyDocument
     [JsiiByValue(fqn: "aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocumentStatementNotPrincipals")]
     public class DataAwsIamPolicyDocumentStatementNotPrincipals : aws.DataAwsIamPolicyDocument.IDataAwsIamPolicyDocumentStatementNotPrincipals
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/iam_policy_document#identifiers DataAwsIamPolicyDocument#identifiers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/iam_policy_document#identifiers DataAwsIamPolicyDocument#identifiers}.</summary>
         [JsiiProperty(name: "identifiers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Identifiers
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsIamPolicyDocument
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/iam_policy_document#type DataAwsIamPolicyDocument#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/iam_policy_document#type DataAwsIamPolicyDocument#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

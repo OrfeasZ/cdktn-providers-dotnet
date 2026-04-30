@@ -9,7 +9,7 @@ namespace aws.CodeconnectionsHost
     [JsiiByValue(fqn: "aws.codeconnectionsHost.CodeconnectionsHostVpcConfiguration")]
     public class CodeconnectionsHostVpcConfiguration : aws.CodeconnectionsHost.ICodeconnectionsHostVpcConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codeconnections_host#security_group_ids CodeconnectionsHost#security_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codeconnections_host#security_group_ids CodeconnectionsHost#security_group_ids}.</summary>
         [JsiiProperty(name: "securityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SecurityGroupIds
         {
@@ -17,7 +17,7 @@ namespace aws.CodeconnectionsHost
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codeconnections_host#subnet_ids CodeconnectionsHost#subnet_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codeconnections_host#subnet_ids CodeconnectionsHost#subnet_ids}.</summary>
         [JsiiProperty(name: "subnetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SubnetIds
         {
@@ -25,7 +25,7 @@ namespace aws.CodeconnectionsHost
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codeconnections_host#vpc_id CodeconnectionsHost#vpc_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codeconnections_host#vpc_id CodeconnectionsHost#vpc_id}.</summary>
         [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}")]
         public string VpcId
         {
@@ -33,7 +33,7 @@ namespace aws.CodeconnectionsHost
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codeconnections_host#tls_certificate CodeconnectionsHost#tls_certificate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codeconnections_host#tls_certificate CodeconnectionsHost#tls_certificate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tlsCertificate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TlsCertificate

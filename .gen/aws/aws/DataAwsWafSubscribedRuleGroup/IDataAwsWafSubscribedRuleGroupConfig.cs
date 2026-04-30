@@ -7,7 +7,7 @@ namespace aws.DataAwsWafSubscribedRuleGroup
     [JsiiInterface(nativeType: typeof(IDataAwsWafSubscribedRuleGroupConfig), fullyQualifiedName: "aws.dataAwsWafSubscribedRuleGroup.DataAwsWafSubscribedRuleGroupConfig")]
     public interface IDataAwsWafSubscribedRuleGroupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/waf_subscribed_rule_group#id DataAwsWafSubscribedRuleGroup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/waf_subscribed_rule_group#id DataAwsWafSubscribedRuleGroup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace aws.DataAwsWafSubscribedRuleGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/waf_subscribed_rule_group#metric_name DataAwsWafSubscribedRuleGroup#metric_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/waf_subscribed_rule_group#metric_name DataAwsWafSubscribedRuleGroup#metric_name}.</summary>
         [JsiiProperty(name: "metricName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MetricName
@@ -33,7 +33,7 @@ namespace aws.DataAwsWafSubscribedRuleGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/waf_subscribed_rule_group#name DataAwsWafSubscribedRuleGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/waf_subscribed_rule_group#name DataAwsWafSubscribedRuleGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -51,7 +51,7 @@ namespace aws.DataAwsWafSubscribedRuleGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/waf_subscribed_rule_group#id DataAwsWafSubscribedRuleGroup#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/waf_subscribed_rule_group#id DataAwsWafSubscribedRuleGroup#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,7 +63,7 @@ namespace aws.DataAwsWafSubscribedRuleGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/waf_subscribed_rule_group#metric_name DataAwsWafSubscribedRuleGroup#metric_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/waf_subscribed_rule_group#metric_name DataAwsWafSubscribedRuleGroup#metric_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "metricName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MetricName
@@ -71,7 +71,7 @@ namespace aws.DataAwsWafSubscribedRuleGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/waf_subscribed_rule_group#name DataAwsWafSubscribedRuleGroup#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/waf_subscribed_rule_group#name DataAwsWafSubscribedRuleGroup#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name

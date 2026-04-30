@@ -9,7 +9,7 @@ namespace aws.SagemakerTrainingJob
     [JsiiByValue(fqn: "aws.sagemakerTrainingJob.SagemakerTrainingJobMlflowConfig")]
     public class SagemakerTrainingJobMlflowConfig : aws.SagemakerTrainingJob.ISagemakerTrainingJobMlflowConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#mlflow_resource_arn SagemakerTrainingJob#mlflow_resource_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#mlflow_resource_arn SagemakerTrainingJob#mlflow_resource_arn}.</summary>
         [JsiiProperty(name: "mlflowResourceArn", typeJson: "{\"primitive\":\"string\"}")]
         public string MlflowResourceArn
         {
@@ -17,7 +17,7 @@ namespace aws.SagemakerTrainingJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#mlflow_experiment_name SagemakerTrainingJob#mlflow_experiment_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#mlflow_experiment_name SagemakerTrainingJob#mlflow_experiment_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mlflowExperimentName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MlflowExperimentName
@@ -26,7 +26,7 @@ namespace aws.SagemakerTrainingJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#mlflow_run_name SagemakerTrainingJob#mlflow_run_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#mlflow_run_name SagemakerTrainingJob#mlflow_run_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mlflowRunName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MlflowRunName

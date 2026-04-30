@@ -7,7 +7,7 @@ namespace aws.EmrcontainersJobTemplate
     [JsiiByValue(fqn: "aws.emrcontainersJobTemplate.EmrcontainersJobTemplateTimeouts")]
     public class EmrcontainersJobTemplateTimeouts : aws.EmrcontainersJobTemplate.IEmrcontainersJobTemplateTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrcontainers_job_template#delete EmrcontainersJobTemplate#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrcontainers_job_template#delete EmrcontainersJobTemplate#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

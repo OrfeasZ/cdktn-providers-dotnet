@@ -7,7 +7,7 @@ namespace aws.DataAwsCustomerGateway
     [JsiiByValue(fqn: "aws.dataAwsCustomerGateway.DataAwsCustomerGatewayTimeouts")]
     public class DataAwsCustomerGatewayTimeouts : aws.DataAwsCustomerGateway.IDataAwsCustomerGatewayTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/customer_gateway#read DataAwsCustomerGateway#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/customer_gateway#read DataAwsCustomerGateway#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

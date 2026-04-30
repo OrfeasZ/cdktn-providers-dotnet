@@ -7,7 +7,7 @@ namespace aws.NetworkInterface
     [JsiiInterface(nativeType: typeof(INetworkInterfaceEnaSrdSpecification), fullyQualifiedName: "aws.networkInterface.NetworkInterfaceEnaSrdSpecification")]
     public interface INetworkInterfaceEnaSrdSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/network_interface#ena_srd_enabled NetworkInterface#ena_srd_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/network_interface#ena_srd_enabled NetworkInterface#ena_srd_enabled}.</summary>
         [JsiiProperty(name: "enaSrdEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? EnaSrdEnabled
@@ -20,7 +20,7 @@ namespace aws.NetworkInterface
 
         /// <summary>ena_srd_udp_specification block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/network_interface#ena_srd_udp_specification NetworkInterface#ena_srd_udp_specification}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/network_interface#ena_srd_udp_specification NetworkInterface#ena_srd_udp_specification}
         /// </remarks>
         [JsiiProperty(name: "enaSrdUdpSpecification", typeJson: "{\"fqn\":\"aws.networkInterface.NetworkInterfaceEnaSrdSpecificationEnaSrdUdpSpecification\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -39,7 +39,7 @@ namespace aws.NetworkInterface
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/network_interface#ena_srd_enabled NetworkInterface#ena_srd_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/network_interface#ena_srd_enabled NetworkInterface#ena_srd_enabled}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "enaSrdEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? EnaSrdEnabled
@@ -49,7 +49,7 @@ namespace aws.NetworkInterface
 
             /// <summary>ena_srd_udp_specification block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/network_interface#ena_srd_udp_specification NetworkInterface#ena_srd_udp_specification}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/network_interface#ena_srd_udp_specification NetworkInterface#ena_srd_udp_specification}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "enaSrdUdpSpecification", typeJson: "{\"fqn\":\"aws.networkInterface.NetworkInterfaceEnaSrdSpecificationEnaSrdUdpSpecification\"}", isOptional: true)]

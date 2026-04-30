@@ -7,7 +7,7 @@ namespace aws.EbsSnapshotImport
     [JsiiByValue(fqn: "aws.ebsSnapshotImport.EbsSnapshotImportClientData")]
     public class EbsSnapshotImportClientData : aws.EbsSnapshotImport.IEbsSnapshotImportClientData
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_snapshot_import#comment EbsSnapshotImport#comment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_snapshot_import#comment EbsSnapshotImport#comment}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Comment
@@ -16,7 +16,7 @@ namespace aws.EbsSnapshotImport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_snapshot_import#upload_end EbsSnapshotImport#upload_end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_snapshot_import#upload_end EbsSnapshotImport#upload_end}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "uploadEnd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UploadEnd
@@ -25,7 +25,7 @@ namespace aws.EbsSnapshotImport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_snapshot_import#upload_size EbsSnapshotImport#upload_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_snapshot_import#upload_size EbsSnapshotImport#upload_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "uploadSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? UploadSize
@@ -34,7 +34,7 @@ namespace aws.EbsSnapshotImport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_snapshot_import#upload_start EbsSnapshotImport#upload_start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_snapshot_import#upload_start EbsSnapshotImport#upload_start}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "uploadStart", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UploadStart

@@ -9,7 +9,7 @@ namespace aws.EmrInstanceFleet
     [JsiiByValue(fqn: "aws.emrInstanceFleet.EmrInstanceFleetLaunchSpecificationsOnDemandSpecification")]
     public class EmrInstanceFleetLaunchSpecificationsOnDemandSpecification : aws.EmrInstanceFleet.IEmrInstanceFleetLaunchSpecificationsOnDemandSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_fleet#allocation_strategy EmrInstanceFleet#allocation_strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_fleet#allocation_strategy EmrInstanceFleet#allocation_strategy}.</summary>
         [JsiiProperty(name: "allocationStrategy", typeJson: "{\"primitive\":\"string\"}")]
         public string AllocationStrategy
         {

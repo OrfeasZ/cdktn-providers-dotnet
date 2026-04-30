@@ -9,7 +9,7 @@ namespace aws.OsisPipeline
     [JsiiByValue(fqn: "aws.osisPipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestination")]
     public class OsisPipelineLogPublishingOptionsCloudwatchLogDestination : aws.OsisPipeline.IOsisPipelineLogPublishingOptionsCloudwatchLogDestination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/osis_pipeline#log_group OsisPipeline#log_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/osis_pipeline#log_group OsisPipeline#log_group}.</summary>
         [JsiiProperty(name: "logGroup", typeJson: "{\"primitive\":\"string\"}")]
         public string LogGroup
         {

@@ -7,7 +7,7 @@ namespace aws.AppmeshVirtualNode
     [JsiiInterface(nativeType: typeof(IAppmeshVirtualNodeSpecListenerTlsCertificateAcm), fullyQualifiedName: "aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerTlsCertificateAcm")]
     public interface IAppmeshVirtualNodeSpecListenerTlsCertificateAcm
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_node#certificate_arn AppmeshVirtualNode#certificate_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_node#certificate_arn AppmeshVirtualNode#certificate_arn}.</summary>
         [JsiiProperty(name: "certificateArn", typeJson: "{\"primitive\":\"string\"}")]
         string CertificateArn
         {
@@ -21,7 +21,7 @@ namespace aws.AppmeshVirtualNode
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_node#certificate_arn AppmeshVirtualNode#certificate_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_node#certificate_arn AppmeshVirtualNode#certificate_arn}.</summary>
             [JsiiProperty(name: "certificateArn", typeJson: "{\"primitive\":\"string\"}")]
             public string CertificateArn
             {

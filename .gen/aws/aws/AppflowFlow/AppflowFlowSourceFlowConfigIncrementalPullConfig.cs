@@ -7,7 +7,7 @@ namespace aws.AppflowFlow
     [JsiiByValue(fqn: "aws.appflowFlow.AppflowFlowSourceFlowConfigIncrementalPullConfig")]
     public class AppflowFlowSourceFlowConfigIncrementalPullConfig : aws.AppflowFlow.IAppflowFlowSourceFlowConfigIncrementalPullConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#datetime_type_field_name AppflowFlow#datetime_type_field_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#datetime_type_field_name AppflowFlow#datetime_type_field_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "datetimeTypeFieldName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DatetimeTypeFieldName

@@ -7,14 +7,14 @@ namespace aws.SyntheticsCanary
     [JsiiInterface(nativeType: typeof(ISyntheticsCanarySchedule), fullyQualifiedName: "aws.syntheticsCanary.SyntheticsCanarySchedule")]
     public interface ISyntheticsCanarySchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/synthetics_canary#expression SyntheticsCanary#expression}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/synthetics_canary#expression SyntheticsCanary#expression}.</summary>
         [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}")]
         string Expression
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/synthetics_canary#duration_in_seconds SyntheticsCanary#duration_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/synthetics_canary#duration_in_seconds SyntheticsCanary#duration_in_seconds}.</summary>
         [JsiiProperty(name: "durationInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? DurationInSeconds
@@ -27,7 +27,7 @@ namespace aws.SyntheticsCanary
 
         /// <summary>retry_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/synthetics_canary#retry_config SyntheticsCanary#retry_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/synthetics_canary#retry_config SyntheticsCanary#retry_config}
         /// </remarks>
         [JsiiProperty(name: "retryConfig", typeJson: "{\"fqn\":\"aws.syntheticsCanary.SyntheticsCanaryScheduleRetryConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -46,14 +46,14 @@ namespace aws.SyntheticsCanary
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/synthetics_canary#expression SyntheticsCanary#expression}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/synthetics_canary#expression SyntheticsCanary#expression}.</summary>
             [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}")]
             public string Expression
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/synthetics_canary#duration_in_seconds SyntheticsCanary#duration_in_seconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/synthetics_canary#duration_in_seconds SyntheticsCanary#duration_in_seconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "durationInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? DurationInSeconds
@@ -63,7 +63,7 @@ namespace aws.SyntheticsCanary
 
             /// <summary>retry_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/synthetics_canary#retry_config SyntheticsCanary#retry_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/synthetics_canary#retry_config SyntheticsCanary#retry_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "retryConfig", typeJson: "{\"fqn\":\"aws.syntheticsCanary.SyntheticsCanaryScheduleRetryConfig\"}", isOptional: true)]

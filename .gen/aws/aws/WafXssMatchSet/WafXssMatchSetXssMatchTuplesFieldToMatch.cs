@@ -9,7 +9,7 @@ namespace aws.WafXssMatchSet
     [JsiiByValue(fqn: "aws.wafXssMatchSet.WafXssMatchSetXssMatchTuplesFieldToMatch")]
     public class WafXssMatchSetXssMatchTuplesFieldToMatch : aws.WafXssMatchSet.IWafXssMatchSetXssMatchTuplesFieldToMatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_xss_match_set#type WafXssMatchSet#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/waf_xss_match_set#type WafXssMatchSet#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.WafXssMatchSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_xss_match_set#data WafXssMatchSet#data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/waf_xss_match_set#data WafXssMatchSet#data}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "data", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Data

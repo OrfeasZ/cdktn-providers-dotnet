@@ -5,7 +5,7 @@ namespace aws.DirectoryServiceSharedDirectory
     /// <remarks>
     /// <h1><c>aws_directory_service_shared_directory</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_shared_directory"><c>aws_directory_service_shared_directory</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/directory_service_shared_directory"><c>aws_directory_service_shared_directory</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

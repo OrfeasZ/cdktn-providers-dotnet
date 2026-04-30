@@ -7,7 +7,7 @@ namespace aws.NetworkmanagerAttachmentAccepter
     [JsiiInterface(nativeType: typeof(INetworkmanagerAttachmentAccepterTimeouts), fullyQualifiedName: "aws.networkmanagerAttachmentAccepter.NetworkmanagerAttachmentAccepterTimeouts")]
     public interface INetworkmanagerAttachmentAccepterTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_attachment_accepter#create NetworkmanagerAttachmentAccepter#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_attachment_accepter#create NetworkmanagerAttachmentAccepter#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -25,7 +25,7 @@ namespace aws.NetworkmanagerAttachmentAccepter
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_attachment_accepter#create NetworkmanagerAttachmentAccepter#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_attachment_accepter#create NetworkmanagerAttachmentAccepter#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create

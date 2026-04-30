@@ -7,14 +7,14 @@ namespace aws.TransferUser
     [JsiiInterface(nativeType: typeof(ITransferUserHomeDirectoryMappings), fullyQualifiedName: "aws.transferUser.TransferUserHomeDirectoryMappings")]
     public interface ITransferUserHomeDirectoryMappings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_user#entry TransferUser#entry}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_user#entry TransferUser#entry}.</summary>
         [JsiiProperty(name: "entry", typeJson: "{\"primitive\":\"string\"}")]
         string Entry
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_user#target TransferUser#target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_user#target TransferUser#target}.</summary>
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}")]
         string Target
         {
@@ -28,14 +28,14 @@ namespace aws.TransferUser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_user#entry TransferUser#entry}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_user#entry TransferUser#entry}.</summary>
             [JsiiProperty(name: "entry", typeJson: "{\"primitive\":\"string\"}")]
             public string Entry
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_user#target TransferUser#target}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_user#target TransferUser#target}.</summary>
             [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}")]
             public string Target
             {

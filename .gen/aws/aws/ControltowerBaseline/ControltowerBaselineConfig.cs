@@ -9,7 +9,7 @@ namespace aws.ControltowerBaseline
     [JsiiByValue(fqn: "aws.controltowerBaseline.ControltowerBaselineConfig")]
     public class ControltowerBaselineConfig : aws.ControltowerBaseline.IControltowerBaselineConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/controltower_baseline#baseline_identifier ControltowerBaseline#baseline_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/controltower_baseline#baseline_identifier ControltowerBaseline#baseline_identifier}.</summary>
         [JsiiProperty(name: "baselineIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string BaselineIdentifier
         {
@@ -17,7 +17,7 @@ namespace aws.ControltowerBaseline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/controltower_baseline#baseline_version ControltowerBaseline#baseline_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/controltower_baseline#baseline_version ControltowerBaseline#baseline_version}.</summary>
         [JsiiProperty(name: "baselineVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string BaselineVersion
         {
@@ -25,7 +25,7 @@ namespace aws.ControltowerBaseline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/controltower_baseline#target_identifier ControltowerBaseline#target_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/controltower_baseline#target_identifier ControltowerBaseline#target_identifier}.</summary>
         [JsiiProperty(name: "targetIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetIdentifier
         {
@@ -37,7 +37,7 @@ namespace aws.ControltowerBaseline
 
         /// <summary>parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/controltower_baseline#parameters ControltowerBaseline#parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/controltower_baseline#parameters ControltowerBaseline#parameters}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parameters", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.controltowerBaseline.ControltowerBaselineParameters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.ControltowerBaseline
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/controltower_baseline#region ControltowerBaseline#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/controltower_baseline#region ControltowerBaseline#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace aws.ControltowerBaseline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/controltower_baseline#tags ControltowerBaseline#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/controltower_baseline#tags ControltowerBaseline#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -90,7 +90,7 @@ namespace aws.ControltowerBaseline
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/controltower_baseline#timeouts ControltowerBaseline#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/controltower_baseline#timeouts ControltowerBaseline#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.controltowerBaseline.ControltowerBaselineTimeouts\"}", isOptional: true)]

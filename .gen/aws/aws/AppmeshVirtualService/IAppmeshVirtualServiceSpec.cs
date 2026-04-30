@@ -9,7 +9,7 @@ namespace aws.AppmeshVirtualService
     {
         /// <summary>provider block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_service#provider AppmeshVirtualService#provider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_service#provider AppmeshVirtualService#provider}
         /// </remarks>
         [JsiiProperty(name: "provider", typeJson: "{\"fqn\":\"aws.appmeshVirtualService.AppmeshVirtualServiceSpecProvider\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.AppmeshVirtualService
 
             /// <summary>provider block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_service#provider AppmeshVirtualService#provider}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_service#provider AppmeshVirtualService#provider}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provider", typeJson: "{\"fqn\":\"aws.appmeshVirtualService.AppmeshVirtualServiceSpecProvider\"}", isOptional: true)]

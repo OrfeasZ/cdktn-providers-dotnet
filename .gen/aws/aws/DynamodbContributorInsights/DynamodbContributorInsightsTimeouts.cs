@@ -7,7 +7,7 @@ namespace aws.DynamodbContributorInsights
     [JsiiByValue(fqn: "aws.dynamodbContributorInsights.DynamodbContributorInsightsTimeouts")]
     public class DynamodbContributorInsightsTimeouts : aws.DynamodbContributorInsights.IDynamodbContributorInsightsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_contributor_insights#create DynamodbContributorInsights#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_contributor_insights#create DynamodbContributorInsights#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.DynamodbContributorInsights
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_contributor_insights#delete DynamodbContributorInsights#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_contributor_insights#delete DynamodbContributorInsights#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

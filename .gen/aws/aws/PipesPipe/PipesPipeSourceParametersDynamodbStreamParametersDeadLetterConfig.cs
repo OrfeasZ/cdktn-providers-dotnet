@@ -7,7 +7,7 @@ namespace aws.PipesPipe
     [JsiiByValue(fqn: "aws.pipesPipe.PipesPipeSourceParametersDynamodbStreamParametersDeadLetterConfig")]
     public class PipesPipeSourceParametersDynamodbStreamParametersDeadLetterConfig : aws.PipesPipe.IPipesPipeSourceParametersDynamodbStreamParametersDeadLetterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#arn PipesPipe#arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#arn PipesPipe#arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Arn

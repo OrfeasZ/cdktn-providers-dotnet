@@ -7,7 +7,7 @@ namespace aws.EksAccessPolicyAssociation
     [JsiiByValue(fqn: "aws.eksAccessPolicyAssociation.EksAccessPolicyAssociationTimeouts")]
     public class EksAccessPolicyAssociationTimeouts : aws.EksAccessPolicyAssociation.IEksAccessPolicyAssociationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_access_policy_association#create EksAccessPolicyAssociation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/eks_access_policy_association#create EksAccessPolicyAssociation#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.EksAccessPolicyAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_access_policy_association#delete EksAccessPolicyAssociation#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/eks_access_policy_association#delete EksAccessPolicyAssociation#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

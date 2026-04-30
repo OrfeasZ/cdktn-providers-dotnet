@@ -9,7 +9,7 @@ namespace aws.VerifiedpermissionsSchema
     [JsiiByValue(fqn: "aws.verifiedpermissionsSchema.VerifiedpermissionsSchemaDefinition")]
     public class VerifiedpermissionsSchemaDefinition : aws.VerifiedpermissionsSchema.IVerifiedpermissionsSchemaDefinition
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/verifiedpermissions_schema#value VerifiedpermissionsSchema#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/verifiedpermissions_schema#value VerifiedpermissionsSchema#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

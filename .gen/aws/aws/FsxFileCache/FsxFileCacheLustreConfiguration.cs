@@ -9,7 +9,7 @@ namespace aws.FsxFileCache
     [JsiiByValue(fqn: "aws.fsxFileCache.FsxFileCacheLustreConfiguration")]
     public class FsxFileCacheLustreConfiguration : aws.FsxFileCache.IFsxFileCacheLustreConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_file_cache#deployment_type FsxFileCache#deployment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_file_cache#deployment_type FsxFileCache#deployment_type}.</summary>
         [JsiiProperty(name: "deploymentType", typeJson: "{\"primitive\":\"string\"}")]
         public string DeploymentType
         {
@@ -21,7 +21,7 @@ namespace aws.FsxFileCache
 
         /// <summary>metadata_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_file_cache#metadata_configuration FsxFileCache#metadata_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_file_cache#metadata_configuration FsxFileCache#metadata_configuration}
         /// </remarks>
         [JsiiProperty(name: "metadataConfiguration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxFileCache.FsxFileCacheLustreConfigurationMetadataConfiguration\"},\"kind\":\"array\"}}]}}")]
         public object MetadataConfiguration
@@ -50,7 +50,7 @@ namespace aws.FsxFileCache
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_file_cache#per_unit_storage_throughput FsxFileCache#per_unit_storage_throughput}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_file_cache#per_unit_storage_throughput FsxFileCache#per_unit_storage_throughput}.</summary>
         [JsiiProperty(name: "perUnitStorageThroughput", typeJson: "{\"primitive\":\"number\"}")]
         public double PerUnitStorageThroughput
         {
@@ -58,7 +58,7 @@ namespace aws.FsxFileCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_file_cache#weekly_maintenance_start_time FsxFileCache#weekly_maintenance_start_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_file_cache#weekly_maintenance_start_time FsxFileCache#weekly_maintenance_start_time}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "weeklyMaintenanceStartTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WeeklyMaintenanceStartTime

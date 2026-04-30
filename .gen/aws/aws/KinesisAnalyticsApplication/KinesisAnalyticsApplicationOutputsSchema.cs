@@ -9,7 +9,7 @@ namespace aws.KinesisAnalyticsApplication
     [JsiiByValue(fqn: "aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationOutputsSchema")]
     public class KinesisAnalyticsApplicationOutputsSchema : aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationOutputsSchema
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#record_format_type KinesisAnalyticsApplication#record_format_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_analytics_application#record_format_type KinesisAnalyticsApplication#record_format_type}.</summary>
         [JsiiProperty(name: "recordFormatType", typeJson: "{\"primitive\":\"string\"}")]
         public string RecordFormatType
         {

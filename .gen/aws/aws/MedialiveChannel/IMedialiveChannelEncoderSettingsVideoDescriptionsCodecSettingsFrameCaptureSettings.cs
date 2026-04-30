@@ -7,7 +7,7 @@ namespace aws.MedialiveChannel
     [JsiiInterface(nativeType: typeof(IMedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsFrameCaptureSettings), fullyQualifiedName: "aws.medialiveChannel.MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsFrameCaptureSettings")]
     public interface IMedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsFrameCaptureSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#capture_interval MedialiveChannel#capture_interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#capture_interval MedialiveChannel#capture_interval}.</summary>
         [JsiiProperty(name: "captureInterval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? CaptureInterval
@@ -18,7 +18,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#capture_interval_units MedialiveChannel#capture_interval_units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#capture_interval_units MedialiveChannel#capture_interval_units}.</summary>
         [JsiiProperty(name: "captureIntervalUnits", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CaptureIntervalUnits
@@ -36,7 +36,7 @@ namespace aws.MedialiveChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#capture_interval MedialiveChannel#capture_interval}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#capture_interval MedialiveChannel#capture_interval}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "captureInterval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? CaptureInterval
@@ -44,7 +44,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#capture_interval_units MedialiveChannel#capture_interval_units}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#capture_interval_units MedialiveChannel#capture_interval_units}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "captureIntervalUnits", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CaptureIntervalUnits

@@ -7,7 +7,7 @@ namespace aws.CognitoUserPool
     [JsiiByValue(fqn: "aws.cognitoUserPool.CognitoUserPoolSchemaNumberAttributeConstraints")]
     public class CognitoUserPoolSchemaNumberAttributeConstraints : aws.CognitoUserPool.ICognitoUserPoolSchemaNumberAttributeConstraints
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool#max_value CognitoUserPool#max_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool#max_value CognitoUserPool#max_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaxValue
@@ -16,7 +16,7 @@ namespace aws.CognitoUserPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool#min_value CognitoUserPool#min_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool#min_value CognitoUserPool#min_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MinValue

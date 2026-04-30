@@ -7,7 +7,7 @@ namespace aws.EfsBackupPolicy
     [JsiiInterface(nativeType: typeof(IEfsBackupPolicyBackupPolicy), fullyQualifiedName: "aws.efsBackupPolicy.EfsBackupPolicyBackupPolicy")]
     public interface IEfsBackupPolicyBackupPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_backup_policy#status EfsBackupPolicy#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_backup_policy#status EfsBackupPolicy#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         string Status
         {
@@ -21,7 +21,7 @@ namespace aws.EfsBackupPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_backup_policy#status EfsBackupPolicy#status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_backup_policy#status EfsBackupPolicy#status}.</summary>
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
             public string Status
             {

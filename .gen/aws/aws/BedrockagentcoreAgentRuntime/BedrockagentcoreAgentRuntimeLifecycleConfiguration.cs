@@ -7,7 +7,7 @@ namespace aws.BedrockagentcoreAgentRuntime
     [JsiiByValue(fqn: "aws.bedrockagentcoreAgentRuntime.BedrockagentcoreAgentRuntimeLifecycleConfiguration")]
     public class BedrockagentcoreAgentRuntimeLifecycleConfiguration : aws.BedrockagentcoreAgentRuntime.IBedrockagentcoreAgentRuntimeLifecycleConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagentcore_agent_runtime#idle_runtime_session_timeout BedrockagentcoreAgentRuntime#idle_runtime_session_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagentcore_agent_runtime#idle_runtime_session_timeout BedrockagentcoreAgentRuntime#idle_runtime_session_timeout}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "idleRuntimeSessionTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IdleRuntimeSessionTimeout
@@ -16,7 +16,7 @@ namespace aws.BedrockagentcoreAgentRuntime
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagentcore_agent_runtime#max_lifetime BedrockagentcoreAgentRuntime#max_lifetime}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagentcore_agent_runtime#max_lifetime BedrockagentcoreAgentRuntime#max_lifetime}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxLifetime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxLifetime

@@ -9,7 +9,7 @@ namespace aws.Codepipeline
     [JsiiByValue(fqn: "aws.codepipeline.CodepipelineArtifactStore")]
     public class CodepipelineArtifactStore : aws.Codepipeline.ICodepipelineArtifactStore
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#location Codepipeline#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codepipeline#location Codepipeline#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -17,7 +17,7 @@ namespace aws.Codepipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#type Codepipeline#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codepipeline#type Codepipeline#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -27,7 +27,7 @@ namespace aws.Codepipeline
 
         /// <summary>encryption_key block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#encryption_key Codepipeline#encryption_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codepipeline#encryption_key Codepipeline#encryption_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionKey", typeJson: "{\"fqn\":\"aws.codepipeline.CodepipelineArtifactStoreEncryptionKey\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace aws.Codepipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline#region Codepipeline#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codepipeline#region Codepipeline#region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Region

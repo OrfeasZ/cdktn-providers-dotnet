@@ -7,7 +7,7 @@ namespace aws.DevopsguruResourceCollection
     [JsiiInterface(nativeType: typeof(IDevopsguruResourceCollectionCloudformation), fullyQualifiedName: "aws.devopsguruResourceCollection.DevopsguruResourceCollectionCloudformation")]
     public interface IDevopsguruResourceCollectionCloudformation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_resource_collection#stack_names DevopsguruResourceCollection#stack_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devopsguru_resource_collection#stack_names DevopsguruResourceCollection#stack_names}.</summary>
         [JsiiProperty(name: "stackNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] StackNames
         {
@@ -21,7 +21,7 @@ namespace aws.DevopsguruResourceCollection
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_resource_collection#stack_names DevopsguruResourceCollection#stack_names}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devopsguru_resource_collection#stack_names DevopsguruResourceCollection#stack_names}.</summary>
             [JsiiProperty(name: "stackNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] StackNames
             {

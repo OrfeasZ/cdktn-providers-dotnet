@@ -9,7 +9,7 @@ namespace aws.GuarddutyDetector
     {
         /// <summary>kubernetes block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_detector#kubernetes GuarddutyDetector#kubernetes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_detector#kubernetes GuarddutyDetector#kubernetes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kubernetes", typeJson: "{\"fqn\":\"aws.guarddutyDetector.GuarddutyDetectorDatasourcesKubernetes\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.GuarddutyDetector
 
         /// <summary>malware_protection block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_detector#malware_protection GuarddutyDetector#malware_protection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_detector#malware_protection GuarddutyDetector#malware_protection}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "malwareProtection", typeJson: "{\"fqn\":\"aws.guarddutyDetector.GuarddutyDetectorDatasourcesMalwareProtection\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace aws.GuarddutyDetector
 
         /// <summary>s3_logs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_detector#s3_logs GuarddutyDetector#s3_logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_detector#s3_logs GuarddutyDetector#s3_logs}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3Logs", typeJson: "{\"fqn\":\"aws.guarddutyDetector.GuarddutyDetectorDatasourcesS3Logs\"}", isOptional: true)]
