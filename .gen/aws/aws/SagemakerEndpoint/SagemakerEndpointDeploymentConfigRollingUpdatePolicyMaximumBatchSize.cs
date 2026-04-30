@@ -9,7 +9,7 @@ namespace aws.SagemakerEndpoint
     [JsiiByValue(fqn: "aws.sagemakerEndpoint.SagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatchSize")]
     public class SagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatchSize : aws.SagemakerEndpoint.ISagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatchSize
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.SagemakerEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]
         public double Value
         {

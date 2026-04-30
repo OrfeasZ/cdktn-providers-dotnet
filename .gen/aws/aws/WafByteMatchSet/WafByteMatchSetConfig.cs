@@ -9,7 +9,7 @@ namespace aws.WafByteMatchSet
     [JsiiByValue(fqn: "aws.wafByteMatchSet.WafByteMatchSetConfig")]
     public class WafByteMatchSetConfig : aws.WafByteMatchSet.IWafByteMatchSetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_byte_match_set#name WafByteMatchSet#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/waf_byte_match_set#name WafByteMatchSet#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -21,7 +21,7 @@ namespace aws.WafByteMatchSet
 
         /// <summary>byte_match_tuples block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_byte_match_set#byte_match_tuples WafByteMatchSet#byte_match_tuples}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/waf_byte_match_set#byte_match_tuples WafByteMatchSet#byte_match_tuples}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "byteMatchTuples", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafByteMatchSet.WafByteMatchSetByteMatchTuples\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace aws.WafByteMatchSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_byte_match_set#id WafByteMatchSet#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/waf_byte_match_set#id WafByteMatchSet#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -7,7 +7,7 @@ namespace aws.DatasyncTask
     [JsiiInterface(nativeType: typeof(IDatasyncTaskTimeouts), fullyQualifiedName: "aws.datasyncTask.DatasyncTaskTimeouts")]
     public interface IDatasyncTaskTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#create DatasyncTask#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#create DatasyncTask#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -25,7 +25,7 @@ namespace aws.DatasyncTask
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#create DatasyncTask#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#create DatasyncTask#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create

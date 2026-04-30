@@ -7,7 +7,7 @@ namespace aws.GlobalacceleratorListener
     [JsiiByValue(fqn: "aws.globalacceleratorListener.GlobalacceleratorListenerPortRange")]
     public class GlobalacceleratorListenerPortRange : aws.GlobalacceleratorListener.IGlobalacceleratorListenerPortRange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/globalaccelerator_listener#from_port GlobalacceleratorListener#from_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/globalaccelerator_listener#from_port GlobalacceleratorListener#from_port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fromPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FromPort
@@ -16,7 +16,7 @@ namespace aws.GlobalacceleratorListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/globalaccelerator_listener#to_port GlobalacceleratorListener#to_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/globalaccelerator_listener#to_port GlobalacceleratorListener#to_port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "toPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ToPort

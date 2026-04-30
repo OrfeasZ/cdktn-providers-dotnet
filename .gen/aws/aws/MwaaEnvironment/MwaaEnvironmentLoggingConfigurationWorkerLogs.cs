@@ -9,7 +9,7 @@ namespace aws.MwaaEnvironment
     {
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Enabled
@@ -38,7 +38,7 @@ namespace aws.MwaaEnvironment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogLevel

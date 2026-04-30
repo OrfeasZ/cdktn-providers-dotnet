@@ -9,7 +9,7 @@ namespace aws.DirectoryServiceConditionalForwarder
     [JsiiByValue(fqn: "aws.directoryServiceConditionalForwarder.DirectoryServiceConditionalForwarderConfig")]
     public class DirectoryServiceConditionalForwarderConfig : aws.DirectoryServiceConditionalForwarder.IDirectoryServiceConditionalForwarderConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_conditional_forwarder#directory_id DirectoryServiceConditionalForwarder#directory_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/directory_service_conditional_forwarder#directory_id DirectoryServiceConditionalForwarder#directory_id}.</summary>
         [JsiiProperty(name: "directoryId", typeJson: "{\"primitive\":\"string\"}")]
         public string DirectoryId
         {
@@ -17,7 +17,7 @@ namespace aws.DirectoryServiceConditionalForwarder
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_conditional_forwarder#dns_ips DirectoryServiceConditionalForwarder#dns_ips}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/directory_service_conditional_forwarder#dns_ips DirectoryServiceConditionalForwarder#dns_ips}.</summary>
         [JsiiProperty(name: "dnsIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] DnsIps
         {
@@ -25,7 +25,7 @@ namespace aws.DirectoryServiceConditionalForwarder
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_conditional_forwarder#remote_domain_name DirectoryServiceConditionalForwarder#remote_domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/directory_service_conditional_forwarder#remote_domain_name DirectoryServiceConditionalForwarder#remote_domain_name}.</summary>
         [JsiiProperty(name: "remoteDomainName", typeJson: "{\"primitive\":\"string\"}")]
         public string RemoteDomainName
         {
@@ -33,7 +33,7 @@ namespace aws.DirectoryServiceConditionalForwarder
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_conditional_forwarder#id DirectoryServiceConditionalForwarder#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/directory_service_conditional_forwarder#id DirectoryServiceConditionalForwarder#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace aws.DirectoryServiceConditionalForwarder
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/directory_service_conditional_forwarder#region DirectoryServiceConditionalForwarder#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/directory_service_conditional_forwarder#region DirectoryServiceConditionalForwarder#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

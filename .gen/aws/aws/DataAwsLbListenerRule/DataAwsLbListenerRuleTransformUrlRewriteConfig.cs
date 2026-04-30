@@ -11,7 +11,7 @@ namespace aws.DataAwsLbListenerRule
 
         /// <summary>rewrite block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lb_listener_rule#rewrite DataAwsLbListenerRule#rewrite}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/lb_listener_rule#rewrite DataAwsLbListenerRule#rewrite}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rewrite", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleTransformUrlRewriteConfigRewrite\"},\"kind\":\"array\"}}]}}", isOptional: true)]

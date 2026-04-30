@@ -9,7 +9,7 @@ namespace aws.FsxOpenzfsVolume
     [JsiiByValue(fqn: "aws.fsxOpenzfsVolume.FsxOpenzfsVolumeOriginSnapshot")]
     public class FsxOpenzfsVolumeOriginSnapshot : aws.FsxOpenzfsVolume.IFsxOpenzfsVolumeOriginSnapshot
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_volume#copy_strategy FsxOpenzfsVolume#copy_strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_openzfs_volume#copy_strategy FsxOpenzfsVolume#copy_strategy}.</summary>
         [JsiiProperty(name: "copyStrategy", typeJson: "{\"primitive\":\"string\"}")]
         public string CopyStrategy
         {
@@ -17,7 +17,7 @@ namespace aws.FsxOpenzfsVolume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_volume#snapshot_arn FsxOpenzfsVolume#snapshot_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_openzfs_volume#snapshot_arn FsxOpenzfsVolume#snapshot_arn}.</summary>
         [JsiiProperty(name: "snapshotArn", typeJson: "{\"primitive\":\"string\"}")]
         public string SnapshotArn
         {

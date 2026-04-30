@@ -9,7 +9,7 @@ namespace aws.IvsRecordingConfiguration
     {
         /// <summary>s3 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ivs_recording_configuration#s3 IvsRecordingConfiguration#s3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ivs_recording_configuration#s3 IvsRecordingConfiguration#s3}
         /// </remarks>
         [JsiiProperty(name: "s3", typeJson: "{\"fqn\":\"aws.ivsRecordingConfiguration.IvsRecordingConfigurationDestinationConfigurationS3\"}")]
         aws.IvsRecordingConfiguration.IIvsRecordingConfigurationDestinationConfigurationS3 S3
@@ -26,7 +26,7 @@ namespace aws.IvsRecordingConfiguration
 
             /// <summary>s3 block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ivs_recording_configuration#s3 IvsRecordingConfiguration#s3}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ivs_recording_configuration#s3 IvsRecordingConfiguration#s3}
             /// </remarks>
             [JsiiProperty(name: "s3", typeJson: "{\"fqn\":\"aws.ivsRecordingConfiguration.IvsRecordingConfigurationDestinationConfigurationS3\"}")]
             public aws.IvsRecordingConfiguration.IIvsRecordingConfigurationDestinationConfigurationS3 S3

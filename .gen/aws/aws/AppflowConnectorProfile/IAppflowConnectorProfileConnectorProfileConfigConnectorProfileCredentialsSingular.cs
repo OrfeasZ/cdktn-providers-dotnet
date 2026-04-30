@@ -7,7 +7,7 @@ namespace aws.AppflowConnectorProfile
     [JsiiInterface(nativeType: typeof(IAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSingular), fullyQualifiedName: "aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSingular")]
     public interface IAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSingular
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#api_key AppflowConnectorProfile#api_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_connector_profile#api_key AppflowConnectorProfile#api_key}.</summary>
         [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}")]
         string ApiKey
         {
@@ -21,7 +21,7 @@ namespace aws.AppflowConnectorProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#api_key AppflowConnectorProfile#api_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_connector_profile#api_key AppflowConnectorProfile#api_key}.</summary>
             [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}")]
             public string ApiKey
             {

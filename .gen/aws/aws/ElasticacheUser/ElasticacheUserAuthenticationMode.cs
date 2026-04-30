@@ -9,7 +9,7 @@ namespace aws.ElasticacheUser
     [JsiiByValue(fqn: "aws.elasticacheUser.ElasticacheUserAuthenticationMode")]
     public class ElasticacheUserAuthenticationMode : aws.ElasticacheUser.IElasticacheUserAuthenticationMode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_user#type ElasticacheUser#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_user#type ElasticacheUser#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.ElasticacheUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_user#passwords ElasticacheUser#passwords}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_user#passwords ElasticacheUser#passwords}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "passwords", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Passwords

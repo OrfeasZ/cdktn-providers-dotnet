@@ -7,14 +7,14 @@ namespace aws.ImagebuilderContainerRecipe
     [JsiiInterface(nativeType: typeof(IImagebuilderContainerRecipeComponentParameter), fullyQualifiedName: "aws.imagebuilderContainerRecipe.ImagebuilderContainerRecipeComponentParameter")]
     public interface IImagebuilderContainerRecipeComponentParameter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_container_recipe#name ImagebuilderContainerRecipe#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_container_recipe#name ImagebuilderContainerRecipe#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_container_recipe#value ImagebuilderContainerRecipe#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_container_recipe#value ImagebuilderContainerRecipe#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -28,14 +28,14 @@ namespace aws.ImagebuilderContainerRecipe
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_container_recipe#name ImagebuilderContainerRecipe#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_container_recipe#name ImagebuilderContainerRecipe#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_container_recipe#value ImagebuilderContainerRecipe#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_container_recipe#value ImagebuilderContainerRecipe#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

@@ -7,7 +7,7 @@ namespace aws.CodedeployDeploymentGroup
     [JsiiByValue(fqn: "aws.codedeployDeploymentGroup.CodedeployDeploymentGroupOnPremisesInstanceTagFilter")]
     public class CodedeployDeploymentGroupOnPremisesInstanceTagFilter : aws.CodedeployDeploymentGroup.ICodedeployDeploymentGroupOnPremisesInstanceTagFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Key
@@ -16,7 +16,7 @@ namespace aws.CodedeployDeploymentGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type
@@ -25,7 +25,7 @@ namespace aws.CodedeployDeploymentGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

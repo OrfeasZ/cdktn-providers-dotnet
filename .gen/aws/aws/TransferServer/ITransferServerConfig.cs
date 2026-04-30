@@ -7,7 +7,7 @@ namespace aws.TransferServer
     [JsiiInterface(nativeType: typeof(ITransferServerConfig), fullyQualifiedName: "aws.transferServer.TransferServerConfig")]
     public interface ITransferServerConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#certificate TransferServer#certificate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#certificate TransferServer#certificate}.</summary>
         [JsiiProperty(name: "certificate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Certificate
@@ -18,7 +18,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#directory_id TransferServer#directory_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#directory_id TransferServer#directory_id}.</summary>
         [JsiiProperty(name: "directoryId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DirectoryId
@@ -29,7 +29,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#domain TransferServer#domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#domain TransferServer#domain}.</summary>
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Domain
@@ -42,7 +42,7 @@ namespace aws.TransferServer
 
         /// <summary>endpoint_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#endpoint_details TransferServer#endpoint_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#endpoint_details TransferServer#endpoint_details}
         /// </remarks>
         [JsiiProperty(name: "endpointDetails", typeJson: "{\"fqn\":\"aws.transferServer.TransferServerEndpointDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#endpoint_type TransferServer#endpoint_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#endpoint_type TransferServer#endpoint_type}.</summary>
         [JsiiProperty(name: "endpointType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EndpointType
@@ -65,7 +65,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#force_destroy TransferServer#force_destroy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#force_destroy TransferServer#force_destroy}.</summary>
         [JsiiProperty(name: "forceDestroy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? ForceDestroy
@@ -76,7 +76,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#function TransferServer#function}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#function TransferServer#function}.</summary>
         [JsiiProperty(name: "function", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Function
@@ -87,7 +87,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#host_key TransferServer#host_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#host_key TransferServer#host_key}.</summary>
         [JsiiProperty(name: "hostKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HostKey
@@ -98,7 +98,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#id TransferServer#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#id TransferServer#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -113,7 +113,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#identity_provider_type TransferServer#identity_provider_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#identity_provider_type TransferServer#identity_provider_type}.</summary>
         [JsiiProperty(name: "identityProviderType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IdentityProviderType
@@ -124,7 +124,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#invocation_role TransferServer#invocation_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#invocation_role TransferServer#invocation_role}.</summary>
         [JsiiProperty(name: "invocationRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InvocationRole
@@ -135,7 +135,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#logging_role TransferServer#logging_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#logging_role TransferServer#logging_role}.</summary>
         [JsiiProperty(name: "loggingRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LoggingRole
@@ -146,7 +146,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#post_authentication_login_banner TransferServer#post_authentication_login_banner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#post_authentication_login_banner TransferServer#post_authentication_login_banner}.</summary>
         [JsiiProperty(name: "postAuthenticationLoginBanner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PostAuthenticationLoginBanner
@@ -157,7 +157,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#pre_authentication_login_banner TransferServer#pre_authentication_login_banner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#pre_authentication_login_banner TransferServer#pre_authentication_login_banner}.</summary>
         [JsiiProperty(name: "preAuthenticationLoginBanner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PreAuthenticationLoginBanner
@@ -170,7 +170,7 @@ namespace aws.TransferServer
 
         /// <summary>protocol_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#protocol_details TransferServer#protocol_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#protocol_details TransferServer#protocol_details}
         /// </remarks>
         [JsiiProperty(name: "protocolDetails", typeJson: "{\"fqn\":\"aws.transferServer.TransferServerProtocolDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -182,7 +182,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#protocols TransferServer#protocols}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#protocols TransferServer#protocols}.</summary>
         [JsiiProperty(name: "protocols", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Protocols
@@ -195,7 +195,7 @@ namespace aws.TransferServer
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#region TransferServer#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#region TransferServer#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -209,7 +209,7 @@ namespace aws.TransferServer
 
         /// <summary>s3_storage_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#s3_storage_options TransferServer#s3_storage_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#s3_storage_options TransferServer#s3_storage_options}
         /// </remarks>
         [JsiiProperty(name: "s3StorageOptions", typeJson: "{\"fqn\":\"aws.transferServer.TransferServerS3StorageOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -221,7 +221,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#security_policy_name TransferServer#security_policy_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#security_policy_name TransferServer#security_policy_name}.</summary>
         [JsiiProperty(name: "securityPolicyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SecurityPolicyName
@@ -232,7 +232,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#sftp_authentication_methods TransferServer#sftp_authentication_methods}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#sftp_authentication_methods TransferServer#sftp_authentication_methods}.</summary>
         [JsiiProperty(name: "sftpAuthenticationMethods", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SftpAuthenticationMethods
@@ -245,7 +245,7 @@ namespace aws.TransferServer
 
         /// <summary>This is a set of arns of destinations that will receive structured logs from the transfer server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#structured_log_destinations TransferServer#structured_log_destinations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#structured_log_destinations TransferServer#structured_log_destinations}
         /// </remarks>
         [JsiiProperty(name: "structuredLogDestinations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -257,7 +257,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#tags TransferServer#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#tags TransferServer#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -268,7 +268,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#tags_all TransferServer#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#tags_all TransferServer#tags_all}.</summary>
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -279,7 +279,7 @@ namespace aws.TransferServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#url TransferServer#url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#url TransferServer#url}.</summary>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Url
@@ -292,7 +292,7 @@ namespace aws.TransferServer
 
         /// <summary>workflow_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#workflow_details TransferServer#workflow_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#workflow_details TransferServer#workflow_details}
         /// </remarks>
         [JsiiProperty(name: "workflowDetails", typeJson: "{\"fqn\":\"aws.transferServer.TransferServerWorkflowDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -311,7 +311,7 @@ namespace aws.TransferServer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#certificate TransferServer#certificate}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#certificate TransferServer#certificate}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "certificate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Certificate
@@ -319,7 +319,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#directory_id TransferServer#directory_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#directory_id TransferServer#directory_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "directoryId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DirectoryId
@@ -327,7 +327,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#domain TransferServer#domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#domain TransferServer#domain}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Domain
@@ -337,7 +337,7 @@ namespace aws.TransferServer
 
             /// <summary>endpoint_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#endpoint_details TransferServer#endpoint_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#endpoint_details TransferServer#endpoint_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "endpointDetails", typeJson: "{\"fqn\":\"aws.transferServer.TransferServerEndpointDetails\"}", isOptional: true)]
@@ -346,7 +346,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<aws.TransferServer.ITransferServerEndpointDetails?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#endpoint_type TransferServer#endpoint_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#endpoint_type TransferServer#endpoint_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "endpointType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EndpointType
@@ -354,7 +354,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#force_destroy TransferServer#force_destroy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#force_destroy TransferServer#force_destroy}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "forceDestroy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? ForceDestroy
@@ -362,7 +362,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#function TransferServer#function}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#function TransferServer#function}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "function", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Function
@@ -370,7 +370,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#host_key TransferServer#host_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#host_key TransferServer#host_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hostKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HostKey
@@ -378,7 +378,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#id TransferServer#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#id TransferServer#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -390,7 +390,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#identity_provider_type TransferServer#identity_provider_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#identity_provider_type TransferServer#identity_provider_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "identityProviderType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IdentityProviderType
@@ -398,7 +398,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#invocation_role TransferServer#invocation_role}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#invocation_role TransferServer#invocation_role}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "invocationRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InvocationRole
@@ -406,7 +406,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#logging_role TransferServer#logging_role}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#logging_role TransferServer#logging_role}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "loggingRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LoggingRole
@@ -414,7 +414,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#post_authentication_login_banner TransferServer#post_authentication_login_banner}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#post_authentication_login_banner TransferServer#post_authentication_login_banner}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "postAuthenticationLoginBanner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PostAuthenticationLoginBanner
@@ -422,7 +422,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#pre_authentication_login_banner TransferServer#pre_authentication_login_banner}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#pre_authentication_login_banner TransferServer#pre_authentication_login_banner}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "preAuthenticationLoginBanner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PreAuthenticationLoginBanner
@@ -432,7 +432,7 @@ namespace aws.TransferServer
 
             /// <summary>protocol_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#protocol_details TransferServer#protocol_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#protocol_details TransferServer#protocol_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "protocolDetails", typeJson: "{\"fqn\":\"aws.transferServer.TransferServerProtocolDetails\"}", isOptional: true)]
@@ -441,7 +441,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<aws.TransferServer.ITransferServerProtocolDetails?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#protocols TransferServer#protocols}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#protocols TransferServer#protocols}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "protocols", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Protocols
@@ -451,7 +451,7 @@ namespace aws.TransferServer
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#region TransferServer#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#region TransferServer#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -462,7 +462,7 @@ namespace aws.TransferServer
 
             /// <summary>s3_storage_options block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#s3_storage_options TransferServer#s3_storage_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#s3_storage_options TransferServer#s3_storage_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3StorageOptions", typeJson: "{\"fqn\":\"aws.transferServer.TransferServerS3StorageOptions\"}", isOptional: true)]
@@ -471,7 +471,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<aws.TransferServer.ITransferServerS3StorageOptions?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#security_policy_name TransferServer#security_policy_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#security_policy_name TransferServer#security_policy_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "securityPolicyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SecurityPolicyName
@@ -479,7 +479,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#sftp_authentication_methods TransferServer#sftp_authentication_methods}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#sftp_authentication_methods TransferServer#sftp_authentication_methods}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sftpAuthenticationMethods", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SftpAuthenticationMethods
@@ -489,7 +489,7 @@ namespace aws.TransferServer
 
             /// <summary>This is a set of arns of destinations that will receive structured logs from the transfer server.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#structured_log_destinations TransferServer#structured_log_destinations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#structured_log_destinations TransferServer#structured_log_destinations}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "structuredLogDestinations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -498,7 +498,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#tags TransferServer#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#tags TransferServer#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -506,7 +506,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#tags_all TransferServer#tags_all}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#tags_all TransferServer#tags_all}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -514,7 +514,7 @@ namespace aws.TransferServer
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#url TransferServer#url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#url TransferServer#url}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Url
@@ -524,7 +524,7 @@ namespace aws.TransferServer
 
             /// <summary>workflow_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#workflow_details TransferServer#workflow_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#workflow_details TransferServer#workflow_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "workflowDetails", typeJson: "{\"fqn\":\"aws.transferServer.TransferServerWorkflowDetails\"}", isOptional: true)]

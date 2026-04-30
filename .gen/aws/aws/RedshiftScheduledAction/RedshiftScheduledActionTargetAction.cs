@@ -9,7 +9,7 @@ namespace aws.RedshiftScheduledAction
     {
         /// <summary>pause_cluster block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshift_scheduled_action#pause_cluster RedshiftScheduledAction#pause_cluster}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/redshift_scheduled_action#pause_cluster RedshiftScheduledAction#pause_cluster}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pauseCluster", typeJson: "{\"fqn\":\"aws.redshiftScheduledAction.RedshiftScheduledActionTargetActionPauseCluster\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.RedshiftScheduledAction
 
         /// <summary>resize_cluster block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshift_scheduled_action#resize_cluster RedshiftScheduledAction#resize_cluster}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/redshift_scheduled_action#resize_cluster RedshiftScheduledAction#resize_cluster}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resizeCluster", typeJson: "{\"fqn\":\"aws.redshiftScheduledAction.RedshiftScheduledActionTargetActionResizeCluster\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace aws.RedshiftScheduledAction
 
         /// <summary>resume_cluster block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshift_scheduled_action#resume_cluster RedshiftScheduledAction#resume_cluster}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/redshift_scheduled_action#resume_cluster RedshiftScheduledAction#resume_cluster}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resumeCluster", typeJson: "{\"fqn\":\"aws.redshiftScheduledAction.RedshiftScheduledActionTargetActionResumeCluster\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.CognitoManagedUserPoolClient
     [JsiiByValue(fqn: "aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientRefreshTokenRotation")]
     public class CognitoManagedUserPoolClientRefreshTokenRotation : aws.CognitoManagedUserPoolClient.ICognitoManagedUserPoolClientRefreshTokenRotation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_managed_user_pool_client#feature CognitoManagedUserPoolClient#feature}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_managed_user_pool_client#feature CognitoManagedUserPoolClient#feature}.</summary>
         [JsiiProperty(name: "feature", typeJson: "{\"primitive\":\"string\"}")]
         public string Feature
         {
@@ -17,7 +17,7 @@ namespace aws.CognitoManagedUserPoolClient
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_managed_user_pool_client#retry_grace_period_seconds CognitoManagedUserPoolClient#retry_grace_period_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_managed_user_pool_client#retry_grace_period_seconds CognitoManagedUserPoolClient#retry_grace_period_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retryGracePeriodSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RetryGracePeriodSeconds

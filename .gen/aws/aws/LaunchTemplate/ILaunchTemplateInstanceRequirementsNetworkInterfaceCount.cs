@@ -7,7 +7,7 @@ namespace aws.LaunchTemplate
     [JsiiInterface(nativeType: typeof(ILaunchTemplateInstanceRequirementsNetworkInterfaceCount), fullyQualifiedName: "aws.launchTemplate.LaunchTemplateInstanceRequirementsNetworkInterfaceCount")]
     public interface ILaunchTemplateInstanceRequirementsNetworkInterfaceCount
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#max LaunchTemplate#max}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#max LaunchTemplate#max}.</summary>
         [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Max
@@ -18,7 +18,7 @@ namespace aws.LaunchTemplate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#min LaunchTemplate#min}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#min LaunchTemplate#min}.</summary>
         [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Min
@@ -36,7 +36,7 @@ namespace aws.LaunchTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#max LaunchTemplate#max}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#max LaunchTemplate#max}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Max
@@ -44,7 +44,7 @@ namespace aws.LaunchTemplate
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#min LaunchTemplate#min}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#min LaunchTemplate#min}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Min

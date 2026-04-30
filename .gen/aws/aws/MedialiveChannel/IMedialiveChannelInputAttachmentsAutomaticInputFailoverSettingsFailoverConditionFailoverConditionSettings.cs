@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     {
         /// <summary>audio_silence_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#audio_silence_settings MedialiveChannel#audio_silence_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#audio_silence_settings MedialiveChannel#audio_silence_settings}
         /// </remarks>
         [JsiiProperty(name: "audioSilenceSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsAutomaticInputFailoverSettingsFailoverConditionFailoverConditionSettingsAudioSilenceSettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>input_loss_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#input_loss_settings MedialiveChannel#input_loss_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#input_loss_settings MedialiveChannel#input_loss_settings}
         /// </remarks>
         [JsiiProperty(name: "inputLossSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsAutomaticInputFailoverSettingsFailoverConditionFailoverConditionSettingsInputLossSettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>video_black_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#video_black_settings MedialiveChannel#video_black_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#video_black_settings MedialiveChannel#video_black_settings}
         /// </remarks>
         [JsiiProperty(name: "videoBlackSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsAutomaticInputFailoverSettingsFailoverConditionFailoverConditionSettingsVideoBlackSettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>audio_silence_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#audio_silence_settings MedialiveChannel#audio_silence_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#audio_silence_settings MedialiveChannel#audio_silence_settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "audioSilenceSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsAutomaticInputFailoverSettingsFailoverConditionFailoverConditionSettingsAudioSilenceSettings\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>input_loss_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#input_loss_settings MedialiveChannel#input_loss_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#input_loss_settings MedialiveChannel#input_loss_settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "inputLossSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsAutomaticInputFailoverSettingsFailoverConditionFailoverConditionSettingsInputLossSettings\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>video_black_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#video_black_settings MedialiveChannel#video_black_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#video_black_settings MedialiveChannel#video_black_settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "videoBlackSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsAutomaticInputFailoverSettingsFailoverConditionFailoverConditionSettingsVideoBlackSettings\"}", isOptional: true)]

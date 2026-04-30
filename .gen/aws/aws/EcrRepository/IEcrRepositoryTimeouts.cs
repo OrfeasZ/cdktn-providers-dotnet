@@ -7,7 +7,7 @@ namespace aws.EcrRepository
     [JsiiInterface(nativeType: typeof(IEcrRepositoryTimeouts), fullyQualifiedName: "aws.ecrRepository.EcrRepositoryTimeouts")]
     public interface IEcrRepositoryTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#delete EcrRepository#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_repository#delete EcrRepository#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -25,7 +25,7 @@ namespace aws.EcrRepository
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#delete EcrRepository#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_repository#delete EcrRepository#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete

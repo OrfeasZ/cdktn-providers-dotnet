@@ -7,7 +7,7 @@ namespace aws.DataAwsEbsDefaultKmsKey
     [JsiiByValue(fqn: "aws.dataAwsEbsDefaultKmsKey.DataAwsEbsDefaultKmsKeyConfig")]
     public class DataAwsEbsDefaultKmsKeyConfig : aws.DataAwsEbsDefaultKmsKey.IDataAwsEbsDefaultKmsKeyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ebs_default_kms_key#id DataAwsEbsDefaultKmsKey#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ebs_default_kms_key#id DataAwsEbsDefaultKmsKey#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace aws.DataAwsEbsDefaultKmsKey
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ebs_default_kms_key#region DataAwsEbsDefaultKmsKey#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ebs_default_kms_key#region DataAwsEbsDefaultKmsKey#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace aws.DataAwsEbsDefaultKmsKey
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ebs_default_kms_key#timeouts DataAwsEbsDefaultKmsKey#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ebs_default_kms_key#timeouts DataAwsEbsDefaultKmsKey#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.dataAwsEbsDefaultKmsKey.DataAwsEbsDefaultKmsKeyTimeouts\"}", isOptional: true)]

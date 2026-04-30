@@ -11,7 +11,7 @@ namespace aws.S3FilesAccessPoint
     {
         /// <summary>POSIX group ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3files_access_point#gid S3FilesAccessPoint#gid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3files_access_point#gid S3FilesAccessPoint#gid}
         /// </remarks>
         [JsiiProperty(name: "gid", typeJson: "{\"primitive\":\"number\"}")]
         public double Gid
@@ -22,7 +22,7 @@ namespace aws.S3FilesAccessPoint
 
         /// <summary>POSIX user ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3files_access_point#uid S3FilesAccessPoint#uid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3files_access_point#uid S3FilesAccessPoint#uid}
         /// </remarks>
         [JsiiProperty(name: "uid", typeJson: "{\"primitive\":\"number\"}")]
         public double Uid
@@ -33,7 +33,7 @@ namespace aws.S3FilesAccessPoint
 
         /// <summary>Secondary POSIX group IDs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3files_access_point#secondary_gids S3FilesAccessPoint#secondary_gids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3files_access_point#secondary_gids S3FilesAccessPoint#secondary_gids}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secondaryGids", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]

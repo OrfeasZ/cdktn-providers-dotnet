@@ -7,7 +7,7 @@ namespace aws.SagemakerTrainingJob
     [JsiiInterface(nativeType: typeof(ISagemakerTrainingJobInfraCheckConfig), fullyQualifiedName: "aws.sagemakerTrainingJob.SagemakerTrainingJobInfraCheckConfig")]
     public interface ISagemakerTrainingJobInfraCheckConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#enable_infra_check SagemakerTrainingJob#enable_infra_check}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#enable_infra_check SagemakerTrainingJob#enable_infra_check}.</summary>
         [JsiiProperty(name: "enableInfraCheck", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? EnableInfraCheck
@@ -25,7 +25,7 @@ namespace aws.SagemakerTrainingJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#enable_infra_check SagemakerTrainingJob#enable_infra_check}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#enable_infra_check SagemakerTrainingJob#enable_infra_check}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "enableInfraCheck", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? EnableInfraCheck

@@ -7,21 +7,21 @@ namespace aws.IamGroupPolicy
     [JsiiInterface(nativeType: typeof(IIamGroupPolicyConfig), fullyQualifiedName: "aws.iamGroupPolicy.IamGroupPolicyConfig")]
     public interface IIamGroupPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_group_policy#group IamGroupPolicy#group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_group_policy#group IamGroupPolicy#group}.</summary>
         [JsiiProperty(name: "group", typeJson: "{\"primitive\":\"string\"}")]
         string Group
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_group_policy#policy IamGroupPolicy#policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_group_policy#policy IamGroupPolicy#policy}.</summary>
         [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}")]
         string Policy
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_group_policy#id IamGroupPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_group_policy#id IamGroupPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,7 +36,7 @@ namespace aws.IamGroupPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_group_policy#name IamGroupPolicy#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_group_policy#name IamGroupPolicy#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -47,7 +47,7 @@ namespace aws.IamGroupPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_group_policy#name_prefix IamGroupPolicy#name_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_group_policy#name_prefix IamGroupPolicy#name_prefix}.</summary>
         [JsiiProperty(name: "namePrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NamePrefix
@@ -65,21 +65,21 @@ namespace aws.IamGroupPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_group_policy#group IamGroupPolicy#group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_group_policy#group IamGroupPolicy#group}.</summary>
             [JsiiProperty(name: "group", typeJson: "{\"primitive\":\"string\"}")]
             public string Group
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_group_policy#policy IamGroupPolicy#policy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_group_policy#policy IamGroupPolicy#policy}.</summary>
             [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}")]
             public string Policy
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_group_policy#id IamGroupPolicy#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_group_policy#id IamGroupPolicy#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,7 +91,7 @@ namespace aws.IamGroupPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_group_policy#name IamGroupPolicy#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_group_policy#name IamGroupPolicy#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -99,7 +99,7 @@ namespace aws.IamGroupPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_group_policy#name_prefix IamGroupPolicy#name_prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_group_policy#name_prefix IamGroupPolicy#name_prefix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "namePrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NamePrefix

@@ -7,14 +7,14 @@ namespace aws.EcsService
     [JsiiInterface(nativeType: typeof(IEcsServiceLoadBalancer), fullyQualifiedName: "aws.ecsService.EcsServiceLoadBalancer")]
     public interface IEcsServiceLoadBalancer
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#container_name EcsService#container_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#container_name EcsService#container_name}.</summary>
         [JsiiProperty(name: "containerName", typeJson: "{\"primitive\":\"string\"}")]
         string ContainerName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#container_port EcsService#container_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#container_port EcsService#container_port}.</summary>
         [JsiiProperty(name: "containerPort", typeJson: "{\"primitive\":\"number\"}")]
         double ContainerPort
         {
@@ -23,7 +23,7 @@ namespace aws.EcsService
 
         /// <summary>advanced_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#advanced_configuration EcsService#advanced_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#advanced_configuration EcsService#advanced_configuration}
         /// </remarks>
         [JsiiProperty(name: "advancedConfiguration", typeJson: "{\"fqn\":\"aws.ecsService.EcsServiceLoadBalancerAdvancedConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace aws.EcsService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#elb_name EcsService#elb_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#elb_name EcsService#elb_name}.</summary>
         [JsiiProperty(name: "elbName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ElbName
@@ -46,7 +46,7 @@ namespace aws.EcsService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#target_group_arn EcsService#target_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#target_group_arn EcsService#target_group_arn}.</summary>
         [JsiiProperty(name: "targetGroupArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetGroupArn
@@ -64,14 +64,14 @@ namespace aws.EcsService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#container_name EcsService#container_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#container_name EcsService#container_name}.</summary>
             [JsiiProperty(name: "containerName", typeJson: "{\"primitive\":\"string\"}")]
             public string ContainerName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#container_port EcsService#container_port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#container_port EcsService#container_port}.</summary>
             [JsiiProperty(name: "containerPort", typeJson: "{\"primitive\":\"number\"}")]
             public double ContainerPort
             {
@@ -80,7 +80,7 @@ namespace aws.EcsService
 
             /// <summary>advanced_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#advanced_configuration EcsService#advanced_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#advanced_configuration EcsService#advanced_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "advancedConfiguration", typeJson: "{\"fqn\":\"aws.ecsService.EcsServiceLoadBalancerAdvancedConfiguration\"}", isOptional: true)]
@@ -89,7 +89,7 @@ namespace aws.EcsService
                 get => GetInstanceProperty<aws.EcsService.IEcsServiceLoadBalancerAdvancedConfiguration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#elb_name EcsService#elb_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#elb_name EcsService#elb_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "elbName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ElbName
@@ -97,7 +97,7 @@ namespace aws.EcsService
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#target_group_arn EcsService#target_group_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#target_group_arn EcsService#target_group_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetGroupArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetGroupArn

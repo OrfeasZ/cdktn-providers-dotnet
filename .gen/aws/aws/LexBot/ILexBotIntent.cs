@@ -7,14 +7,14 @@ namespace aws.LexBot
     [JsiiInterface(nativeType: typeof(ILexBotIntent), fullyQualifiedName: "aws.lexBot.LexBotIntent")]
     public interface ILexBotIntent
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot#intent_name LexBot#intent_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot#intent_name LexBot#intent_name}.</summary>
         [JsiiProperty(name: "intentName", typeJson: "{\"primitive\":\"string\"}")]
         string IntentName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot#intent_version LexBot#intent_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot#intent_version LexBot#intent_version}.</summary>
         [JsiiProperty(name: "intentVersion", typeJson: "{\"primitive\":\"string\"}")]
         string IntentVersion
         {
@@ -28,14 +28,14 @@ namespace aws.LexBot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot#intent_name LexBot#intent_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot#intent_name LexBot#intent_name}.</summary>
             [JsiiProperty(name: "intentName", typeJson: "{\"primitive\":\"string\"}")]
             public string IntentName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot#intent_version LexBot#intent_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot#intent_version LexBot#intent_version}.</summary>
             [JsiiProperty(name: "intentVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string IntentVersion
             {

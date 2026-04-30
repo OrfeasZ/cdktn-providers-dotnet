@@ -9,7 +9,7 @@ namespace aws.ChimeVoiceConnectorTerminationCredentials
     [JsiiByValue(fqn: "aws.chimeVoiceConnectorTerminationCredentials.ChimeVoiceConnectorTerminationCredentialsCredentials")]
     public class ChimeVoiceConnectorTerminationCredentialsCredentials : aws.ChimeVoiceConnectorTerminationCredentials.IChimeVoiceConnectorTerminationCredentialsCredentials
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/chime_voice_connector_termination_credentials#password ChimeVoiceConnectorTerminationCredentials#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/chime_voice_connector_termination_credentials#password ChimeVoiceConnectorTerminationCredentials#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         public string Password
         {
@@ -17,7 +17,7 @@ namespace aws.ChimeVoiceConnectorTerminationCredentials
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/chime_voice_connector_termination_credentials#username ChimeVoiceConnectorTerminationCredentials#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/chime_voice_connector_termination_credentials#username ChimeVoiceConnectorTerminationCredentials#username}.</summary>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         public string Username
         {

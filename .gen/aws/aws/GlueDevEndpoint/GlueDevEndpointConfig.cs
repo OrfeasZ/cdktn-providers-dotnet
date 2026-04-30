@@ -9,7 +9,7 @@ namespace aws.GlueDevEndpoint
     [JsiiByValue(fqn: "aws.glueDevEndpoint.GlueDevEndpointConfig")]
     public class GlueDevEndpointConfig : aws.GlueDevEndpoint.IGlueDevEndpointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_dev_endpoint#name GlueDevEndpoint#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_dev_endpoint#name GlueDevEndpoint#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.GlueDevEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_dev_endpoint#role_arn GlueDevEndpoint#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_dev_endpoint#role_arn GlueDevEndpoint#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleArn
         {
@@ -25,7 +25,7 @@ namespace aws.GlueDevEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_dev_endpoint#arguments GlueDevEndpoint#arguments}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_dev_endpoint#arguments GlueDevEndpoint#arguments}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "arguments", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Arguments
@@ -34,7 +34,7 @@ namespace aws.GlueDevEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_dev_endpoint#extra_jars_s3_path GlueDevEndpoint#extra_jars_s3_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_dev_endpoint#extra_jars_s3_path GlueDevEndpoint#extra_jars_s3_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "extraJarsS3Path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExtraJarsS3Path
@@ -43,7 +43,7 @@ namespace aws.GlueDevEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_dev_endpoint#extra_python_libs_s3_path GlueDevEndpoint#extra_python_libs_s3_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_dev_endpoint#extra_python_libs_s3_path GlueDevEndpoint#extra_python_libs_s3_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "extraPythonLibsS3Path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExtraPythonLibsS3Path
@@ -52,7 +52,7 @@ namespace aws.GlueDevEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_dev_endpoint#glue_version GlueDevEndpoint#glue_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_dev_endpoint#glue_version GlueDevEndpoint#glue_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "glueVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GlueVersion
@@ -61,7 +61,7 @@ namespace aws.GlueDevEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_dev_endpoint#id GlueDevEndpoint#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_dev_endpoint#id GlueDevEndpoint#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace aws.GlueDevEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_dev_endpoint#number_of_nodes GlueDevEndpoint#number_of_nodes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_dev_endpoint#number_of_nodes GlueDevEndpoint#number_of_nodes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "numberOfNodes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? NumberOfNodes
@@ -83,7 +83,7 @@ namespace aws.GlueDevEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_dev_endpoint#number_of_workers GlueDevEndpoint#number_of_workers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_dev_endpoint#number_of_workers GlueDevEndpoint#number_of_workers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "numberOfWorkers", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? NumberOfWorkers
@@ -92,7 +92,7 @@ namespace aws.GlueDevEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_dev_endpoint#public_key GlueDevEndpoint#public_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_dev_endpoint#public_key GlueDevEndpoint#public_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "publicKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PublicKey
@@ -101,7 +101,7 @@ namespace aws.GlueDevEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_dev_endpoint#public_keys GlueDevEndpoint#public_keys}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_dev_endpoint#public_keys GlueDevEndpoint#public_keys}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "publicKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? PublicKeys
@@ -112,7 +112,7 @@ namespace aws.GlueDevEndpoint
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_dev_endpoint#region GlueDevEndpoint#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_dev_endpoint#region GlueDevEndpoint#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -122,7 +122,7 @@ namespace aws.GlueDevEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_dev_endpoint#security_configuration GlueDevEndpoint#security_configuration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_dev_endpoint#security_configuration GlueDevEndpoint#security_configuration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityConfiguration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecurityConfiguration
@@ -131,7 +131,7 @@ namespace aws.GlueDevEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_dev_endpoint#security_group_ids GlueDevEndpoint#security_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_dev_endpoint#security_group_ids GlueDevEndpoint#security_group_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SecurityGroupIds
@@ -140,7 +140,7 @@ namespace aws.GlueDevEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_dev_endpoint#subnet_id GlueDevEndpoint#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_dev_endpoint#subnet_id GlueDevEndpoint#subnet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubnetId
@@ -149,7 +149,7 @@ namespace aws.GlueDevEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_dev_endpoint#tags GlueDevEndpoint#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_dev_endpoint#tags GlueDevEndpoint#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -158,7 +158,7 @@ namespace aws.GlueDevEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_dev_endpoint#tags_all GlueDevEndpoint#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_dev_endpoint#tags_all GlueDevEndpoint#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -167,7 +167,7 @@ namespace aws.GlueDevEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_dev_endpoint#worker_type GlueDevEndpoint#worker_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_dev_endpoint#worker_type GlueDevEndpoint#worker_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "workerType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WorkerType

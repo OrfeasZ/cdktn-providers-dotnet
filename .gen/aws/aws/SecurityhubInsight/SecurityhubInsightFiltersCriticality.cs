@@ -7,7 +7,7 @@ namespace aws.SecurityhubInsight
     [JsiiByValue(fqn: "aws.securityhubInsight.SecurityhubInsightFiltersCriticality")]
     public class SecurityhubInsightFiltersCriticality : aws.SecurityhubInsight.ISecurityhubInsightFiltersCriticality
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "eq", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Eq
@@ -16,7 +16,7 @@ namespace aws.SecurityhubInsight
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "gte", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Gte
@@ -25,7 +25,7 @@ namespace aws.SecurityhubInsight
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lte", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Lte

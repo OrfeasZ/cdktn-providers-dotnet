@@ -9,7 +9,7 @@ namespace aws.LakeformationResourceLfTags
     [JsiiByValue(fqn: "aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTable")]
     public class LakeformationResourceLfTagsTable : aws.LakeformationResourceLfTags.ILakeformationResourceLfTagsTable
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_resource_lf_tags#database_name LakeformationResourceLfTags#database_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_resource_lf_tags#database_name LakeformationResourceLfTags#database_name}.</summary>
         [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseName
         {
@@ -17,7 +17,7 @@ namespace aws.LakeformationResourceLfTags
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_resource_lf_tags#catalog_id LakeformationResourceLfTags#catalog_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_resource_lf_tags#catalog_id LakeformationResourceLfTags#catalog_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "catalogId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CatalogId
@@ -26,7 +26,7 @@ namespace aws.LakeformationResourceLfTags
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_resource_lf_tags#name LakeformationResourceLfTags#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_resource_lf_tags#name LakeformationResourceLfTags#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -37,7 +37,7 @@ namespace aws.LakeformationResourceLfTags
 
         private object? _wildcard;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_resource_lf_tags#wildcard LakeformationResourceLfTags#wildcard}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_resource_lf_tags#wildcard LakeformationResourceLfTags#wildcard}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "wildcard", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Wildcard

@@ -7,7 +7,7 @@ namespace aws.ConfigConfigRule
     [JsiiInterface(nativeType: typeof(IConfigConfigRuleSourceSourceDetail), fullyQualifiedName: "aws.configConfigRule.ConfigConfigRuleSourceSourceDetail")]
     public interface IConfigConfigRuleSourceSourceDetail
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#event_source ConfigConfigRule#event_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#event_source ConfigConfigRule#event_source}.</summary>
         [JsiiProperty(name: "eventSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EventSource
@@ -18,7 +18,7 @@ namespace aws.ConfigConfigRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#maximum_execution_frequency ConfigConfigRule#maximum_execution_frequency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#maximum_execution_frequency ConfigConfigRule#maximum_execution_frequency}.</summary>
         [JsiiProperty(name: "maximumExecutionFrequency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MaximumExecutionFrequency
@@ -29,7 +29,7 @@ namespace aws.ConfigConfigRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#message_type ConfigConfigRule#message_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#message_type ConfigConfigRule#message_type}.</summary>
         [JsiiProperty(name: "messageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MessageType
@@ -47,7 +47,7 @@ namespace aws.ConfigConfigRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#event_source ConfigConfigRule#event_source}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#event_source ConfigConfigRule#event_source}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "eventSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EventSource
@@ -55,7 +55,7 @@ namespace aws.ConfigConfigRule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#maximum_execution_frequency ConfigConfigRule#maximum_execution_frequency}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#maximum_execution_frequency ConfigConfigRule#maximum_execution_frequency}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maximumExecutionFrequency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MaximumExecutionFrequency
@@ -63,7 +63,7 @@ namespace aws.ConfigConfigRule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#message_type ConfigConfigRule#message_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#message_type ConfigConfigRule#message_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "messageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MessageType

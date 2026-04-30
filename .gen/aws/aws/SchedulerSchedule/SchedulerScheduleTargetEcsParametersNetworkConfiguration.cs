@@ -9,7 +9,7 @@ namespace aws.SchedulerSchedule
     [JsiiByValue(fqn: "aws.schedulerSchedule.SchedulerScheduleTargetEcsParametersNetworkConfiguration")]
     public class SchedulerScheduleTargetEcsParametersNetworkConfiguration : aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersNetworkConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#subnets SchedulerSchedule#subnets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/scheduler_schedule#subnets SchedulerSchedule#subnets}.</summary>
         [JsiiProperty(name: "subnets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Subnets
         {
@@ -19,7 +19,7 @@ namespace aws.SchedulerSchedule
 
         private object? _assignPublicIp;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#assign_public_ip SchedulerSchedule#assign_public_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/scheduler_schedule#assign_public_ip SchedulerSchedule#assign_public_ip}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "assignPublicIp", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? AssignPublicIp
@@ -48,7 +48,7 @@ namespace aws.SchedulerSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#security_groups SchedulerSchedule#security_groups}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/scheduler_schedule#security_groups SchedulerSchedule#security_groups}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityGroups", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SecurityGroups

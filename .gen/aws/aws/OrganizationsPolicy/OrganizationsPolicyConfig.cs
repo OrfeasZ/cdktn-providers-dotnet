@@ -9,7 +9,7 @@ namespace aws.OrganizationsPolicy
     [JsiiByValue(fqn: "aws.organizationsPolicy.OrganizationsPolicyConfig")]
     public class OrganizationsPolicyConfig : aws.OrganizationsPolicy.IOrganizationsPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/organizations_policy#content OrganizationsPolicy#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/organizations_policy#content OrganizationsPolicy#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         public string Content
         {
@@ -17,7 +17,7 @@ namespace aws.OrganizationsPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/organizations_policy#name OrganizationsPolicy#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/organizations_policy#name OrganizationsPolicy#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace aws.OrganizationsPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/organizations_policy#description OrganizationsPolicy#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/organizations_policy#description OrganizationsPolicy#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -34,7 +34,7 @@ namespace aws.OrganizationsPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/organizations_policy#id OrganizationsPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/organizations_policy#id OrganizationsPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,7 +49,7 @@ namespace aws.OrganizationsPolicy
 
         private object? _skipDestroy;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/organizations_policy#skip_destroy OrganizationsPolicy#skip_destroy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/organizations_policy#skip_destroy OrganizationsPolicy#skip_destroy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "skipDestroy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? SkipDestroy
@@ -78,7 +78,7 @@ namespace aws.OrganizationsPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/organizations_policy#tags OrganizationsPolicy#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/organizations_policy#tags OrganizationsPolicy#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -87,7 +87,7 @@ namespace aws.OrganizationsPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/organizations_policy#tags_all OrganizationsPolicy#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/organizations_policy#tags_all OrganizationsPolicy#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -96,7 +96,7 @@ namespace aws.OrganizationsPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/organizations_policy#type OrganizationsPolicy#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/organizations_policy#type OrganizationsPolicy#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

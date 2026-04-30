@@ -7,14 +7,14 @@ namespace aws.BedrockagentcoreBrowser
     [JsiiInterface(nativeType: typeof(IBedrockagentcoreBrowserRecordingS3Location), fullyQualifiedName: "aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserRecordingS3Location")]
     public interface IBedrockagentcoreBrowserRecordingS3Location
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagentcore_browser#bucket BedrockagentcoreBrowser#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagentcore_browser#bucket BedrockagentcoreBrowser#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         string Bucket
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagentcore_browser#prefix BedrockagentcoreBrowser#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagentcore_browser#prefix BedrockagentcoreBrowser#prefix}.</summary>
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
         string Prefix
         {
@@ -28,14 +28,14 @@ namespace aws.BedrockagentcoreBrowser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagentcore_browser#bucket BedrockagentcoreBrowser#bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagentcore_browser#bucket BedrockagentcoreBrowser#bucket}.</summary>
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
             public string Bucket
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagentcore_browser#prefix BedrockagentcoreBrowser#prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagentcore_browser#prefix BedrockagentcoreBrowser#prefix}.</summary>
             [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
             public string Prefix
             {

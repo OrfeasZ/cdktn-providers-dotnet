@@ -7,14 +7,14 @@ namespace aws.SsmMaintenanceWindowTarget
     [JsiiInterface(nativeType: typeof(ISsmMaintenanceWindowTargetTargets), fullyQualifiedName: "aws.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTargetTargets")]
     public interface ISsmMaintenanceWindowTargetTargets
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_maintenance_window_target#key SsmMaintenanceWindowTarget#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssm_maintenance_window_target#key SsmMaintenanceWindowTarget#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_maintenance_window_target#values SsmMaintenanceWindowTarget#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssm_maintenance_window_target#values SsmMaintenanceWindowTarget#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
@@ -28,14 +28,14 @@ namespace aws.SsmMaintenanceWindowTarget
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_maintenance_window_target#key SsmMaintenanceWindowTarget#key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssm_maintenance_window_target#key SsmMaintenanceWindowTarget#key}.</summary>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_maintenance_window_target#values SsmMaintenanceWindowTarget#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssm_maintenance_window_target#values SsmMaintenanceWindowTarget#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {

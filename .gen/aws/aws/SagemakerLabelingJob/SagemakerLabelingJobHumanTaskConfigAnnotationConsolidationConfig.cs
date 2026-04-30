@@ -9,7 +9,7 @@ namespace aws.SagemakerLabelingJob
     [JsiiByValue(fqn: "aws.sagemakerLabelingJob.SagemakerLabelingJobHumanTaskConfigAnnotationConsolidationConfig")]
     public class SagemakerLabelingJobHumanTaskConfigAnnotationConsolidationConfig : aws.SagemakerLabelingJob.ISagemakerLabelingJobHumanTaskConfigAnnotationConsolidationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_labeling_job#annotation_consolidation_lambda_arn SagemakerLabelingJob#annotation_consolidation_lambda_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_labeling_job#annotation_consolidation_lambda_arn SagemakerLabelingJob#annotation_consolidation_lambda_arn}.</summary>
         [JsiiProperty(name: "annotationConsolidationLambdaArn", typeJson: "{\"primitive\":\"string\"}")]
         public string AnnotationConsolidationLambdaArn
         {

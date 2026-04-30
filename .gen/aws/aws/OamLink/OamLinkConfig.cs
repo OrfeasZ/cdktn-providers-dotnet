@@ -9,7 +9,7 @@ namespace aws.OamLink
     [JsiiByValue(fqn: "aws.oamLink.OamLinkConfig")]
     public class OamLinkConfig : aws.OamLink.IOamLinkConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/oam_link#label_template OamLink#label_template}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/oam_link#label_template OamLink#label_template}.</summary>
         [JsiiProperty(name: "labelTemplate", typeJson: "{\"primitive\":\"string\"}")]
         public string LabelTemplate
         {
@@ -17,7 +17,7 @@ namespace aws.OamLink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/oam_link#resource_types OamLink#resource_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/oam_link#resource_types OamLink#resource_types}.</summary>
         [JsiiProperty(name: "resourceTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] ResourceTypes
         {
@@ -25,7 +25,7 @@ namespace aws.OamLink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/oam_link#sink_identifier OamLink#sink_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/oam_link#sink_identifier OamLink#sink_identifier}.</summary>
         [JsiiProperty(name: "sinkIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string SinkIdentifier
         {
@@ -33,7 +33,7 @@ namespace aws.OamLink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/oam_link#id OamLink#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/oam_link#id OamLink#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace aws.OamLink
 
         /// <summary>link_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/oam_link#link_configuration OamLink#link_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/oam_link#link_configuration OamLink#link_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "linkConfiguration", typeJson: "{\"fqn\":\"aws.oamLink.OamLinkLinkConfiguration\"}", isOptional: true)]
@@ -60,7 +60,7 @@ namespace aws.OamLink
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/oam_link#region OamLink#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/oam_link#region OamLink#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace aws.OamLink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/oam_link#tags OamLink#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/oam_link#tags OamLink#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -79,7 +79,7 @@ namespace aws.OamLink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/oam_link#tags_all OamLink#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/oam_link#tags_all OamLink#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -90,7 +90,7 @@ namespace aws.OamLink
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/oam_link#timeouts OamLink#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/oam_link#timeouts OamLink#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.oamLink.OamLinkTimeouts\"}", isOptional: true)]

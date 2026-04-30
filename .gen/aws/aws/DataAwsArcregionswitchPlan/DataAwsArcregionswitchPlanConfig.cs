@@ -9,7 +9,7 @@ namespace aws.DataAwsArcregionswitchPlan
     [JsiiByValue(fqn: "aws.dataAwsArcregionswitchPlan.DataAwsArcregionswitchPlanConfig")]
     public class DataAwsArcregionswitchPlanConfig : aws.DataAwsArcregionswitchPlan.IDataAwsArcregionswitchPlanConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/arcregionswitch_plan#arn DataAwsArcregionswitchPlan#arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/arcregionswitch_plan#arn DataAwsArcregionswitchPlan#arn}.</summary>
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
         public string Arn
         {
@@ -19,7 +19,7 @@ namespace aws.DataAwsArcregionswitchPlan
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/arcregionswitch_plan#region DataAwsArcregionswitchPlan#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/arcregionswitch_plan#region DataAwsArcregionswitchPlan#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

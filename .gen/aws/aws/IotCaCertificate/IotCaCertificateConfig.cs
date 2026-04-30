@@ -11,7 +11,7 @@ namespace aws.IotCaCertificate
     {
         private object _active;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_ca_certificate#active IotCaCertificate#active}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_ca_certificate#active IotCaCertificate#active}.</summary>
         [JsiiProperty(name: "active", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object Active
         {
@@ -41,7 +41,7 @@ namespace aws.IotCaCertificate
 
         private object _allowAutoRegistration;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_ca_certificate#allow_auto_registration IotCaCertificate#allow_auto_registration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_ca_certificate#allow_auto_registration IotCaCertificate#allow_auto_registration}.</summary>
         [JsiiProperty(name: "allowAutoRegistration", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object AllowAutoRegistration
         {
@@ -69,7 +69,7 @@ namespace aws.IotCaCertificate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_ca_certificate#ca_certificate_pem IotCaCertificate#ca_certificate_pem}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_ca_certificate#ca_certificate_pem IotCaCertificate#ca_certificate_pem}.</summary>
         [JsiiProperty(name: "caCertificatePem", typeJson: "{\"primitive\":\"string\"}")]
         public string CaCertificatePem
         {
@@ -77,7 +77,7 @@ namespace aws.IotCaCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_ca_certificate#certificate_mode IotCaCertificate#certificate_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_ca_certificate#certificate_mode IotCaCertificate#certificate_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateMode
@@ -86,7 +86,7 @@ namespace aws.IotCaCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_ca_certificate#id IotCaCertificate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_ca_certificate#id IotCaCertificate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -101,7 +101,7 @@ namespace aws.IotCaCertificate
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_ca_certificate#region IotCaCertificate#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_ca_certificate#region IotCaCertificate#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -113,7 +113,7 @@ namespace aws.IotCaCertificate
 
         /// <summary>registration_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_ca_certificate#registration_config IotCaCertificate#registration_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_ca_certificate#registration_config IotCaCertificate#registration_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "registrationConfig", typeJson: "{\"fqn\":\"aws.iotCaCertificate.IotCaCertificateRegistrationConfig\"}", isOptional: true)]
@@ -123,7 +123,7 @@ namespace aws.IotCaCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_ca_certificate#tags IotCaCertificate#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_ca_certificate#tags IotCaCertificate#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -132,7 +132,7 @@ namespace aws.IotCaCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_ca_certificate#tags_all IotCaCertificate#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_ca_certificate#tags_all IotCaCertificate#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -141,7 +141,7 @@ namespace aws.IotCaCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_ca_certificate#verification_certificate_pem IotCaCertificate#verification_certificate_pem}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_ca_certificate#verification_certificate_pem IotCaCertificate#verification_certificate_pem}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "verificationCertificatePem", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VerificationCertificatePem

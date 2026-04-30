@@ -7,7 +7,7 @@ namespace aws.EmrCluster
     [JsiiByValue(fqn: "aws.emrCluster.EmrClusterStep")]
     public class EmrClusterStep : aws.EmrCluster.IEmrClusterStep
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#action_on_failure EmrCluster#action_on_failure}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#action_on_failure EmrCluster#action_on_failure}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "actionOnFailure", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ActionOnFailure
@@ -18,7 +18,7 @@ namespace aws.EmrCluster
 
         private object? _hadoopJarStep;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#hadoop_jar_step EmrCluster#hadoop_jar_step}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#hadoop_jar_step EmrCluster#hadoop_jar_step}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hadoopJarStep", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrCluster.EmrClusterStepHadoopJarStep\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public object? HadoopJarStep
@@ -47,7 +47,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#name EmrCluster#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#name EmrCluster#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name

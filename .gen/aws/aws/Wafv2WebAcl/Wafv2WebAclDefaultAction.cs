@@ -9,7 +9,7 @@ namespace aws.Wafv2WebAcl
     {
         /// <summary>allow block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#allow Wafv2WebAcl#allow}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl#allow Wafv2WebAcl#allow}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allow", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclDefaultActionAllow\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.Wafv2WebAcl
 
         /// <summary>block block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl#block Wafv2WebAcl#block}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl#block Wafv2WebAcl#block}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "block", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclDefaultActionBlock\"}", isOptional: true)]

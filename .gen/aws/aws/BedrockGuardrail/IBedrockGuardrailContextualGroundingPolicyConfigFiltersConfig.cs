@@ -7,14 +7,14 @@ namespace aws.BedrockGuardrail
     [JsiiInterface(nativeType: typeof(IBedrockGuardrailContextualGroundingPolicyConfigFiltersConfig), fullyQualifiedName: "aws.bedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfigFiltersConfig")]
     public interface IBedrockGuardrailContextualGroundingPolicyConfigFiltersConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrock_guardrail#threshold BedrockGuardrail#threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrock_guardrail#threshold BedrockGuardrail#threshold}.</summary>
         [JsiiProperty(name: "threshold", typeJson: "{\"primitive\":\"number\"}")]
         double Threshold
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -28,14 +28,14 @@ namespace aws.BedrockGuardrail
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrock_guardrail#threshold BedrockGuardrail#threshold}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrock_guardrail#threshold BedrockGuardrail#threshold}.</summary>
             [JsiiProperty(name: "threshold", typeJson: "{\"primitive\":\"number\"}")]
             public double Threshold
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

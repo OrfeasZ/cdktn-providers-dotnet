@@ -7,21 +7,21 @@ namespace aws.QuicksightDataSet
     [JsiiInterface(nativeType: typeof(IQuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperation), fullyQualifiedName: "aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperation")]
     public interface IQuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}.</summary>
         [JsiiProperty(name: "columnName", typeJson: "{\"primitive\":\"string\"}")]
         string ColumnName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#new_column_type QuicksightDataSet#new_column_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#new_column_type QuicksightDataSet#new_column_type}.</summary>
         [JsiiProperty(name: "newColumnType", typeJson: "{\"primitive\":\"string\"}")]
         string NewColumnType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#format QuicksightDataSet#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#format QuicksightDataSet#format}.</summary>
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Format
@@ -39,21 +39,21 @@ namespace aws.QuicksightDataSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}.</summary>
             [JsiiProperty(name: "columnName", typeJson: "{\"primitive\":\"string\"}")]
             public string ColumnName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#new_column_type QuicksightDataSet#new_column_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#new_column_type QuicksightDataSet#new_column_type}.</summary>
             [JsiiProperty(name: "newColumnType", typeJson: "{\"primitive\":\"string\"}")]
             public string NewColumnType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#format QuicksightDataSet#format}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#format QuicksightDataSet#format}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Format

@@ -9,7 +9,7 @@ namespace aws.DevopsguruServiceIntegration
     {
         /// <summary>kms_server_side_encryption block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_service_integration#kms_server_side_encryption DevopsguruServiceIntegration#kms_server_side_encryption}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devopsguru_service_integration#kms_server_side_encryption DevopsguruServiceIntegration#kms_server_side_encryption}
         /// </remarks>
         [JsiiProperty(name: "kmsServerSideEncryption", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruServiceIntegration.DevopsguruServiceIntegrationKmsServerSideEncryption\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.DevopsguruServiceIntegration
 
         /// <summary>logs_anomaly_detection block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_service_integration#logs_anomaly_detection DevopsguruServiceIntegration#logs_anomaly_detection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devopsguru_service_integration#logs_anomaly_detection DevopsguruServiceIntegration#logs_anomaly_detection}
         /// </remarks>
         [JsiiProperty(name: "logsAnomalyDetection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruServiceIntegration.DevopsguruServiceIntegrationLogsAnomalyDetection\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.DevopsguruServiceIntegration
 
         /// <summary>ops_center block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_service_integration#ops_center DevopsguruServiceIntegration#ops_center}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devopsguru_service_integration#ops_center DevopsguruServiceIntegration#ops_center}
         /// </remarks>
         [JsiiProperty(name: "opsCenter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruServiceIntegration.DevopsguruServiceIntegrationOpsCenter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace aws.DevopsguruServiceIntegration
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_service_integration#region DevopsguruServiceIntegration#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devopsguru_service_integration#region DevopsguruServiceIntegration#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,7 +72,7 @@ namespace aws.DevopsguruServiceIntegration
 
             /// <summary>kms_server_side_encryption block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_service_integration#kms_server_side_encryption DevopsguruServiceIntegration#kms_server_side_encryption}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devopsguru_service_integration#kms_server_side_encryption DevopsguruServiceIntegration#kms_server_side_encryption}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "kmsServerSideEncryption", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruServiceIntegration.DevopsguruServiceIntegrationKmsServerSideEncryption\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace aws.DevopsguruServiceIntegration
 
             /// <summary>logs_anomaly_detection block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_service_integration#logs_anomaly_detection DevopsguruServiceIntegration#logs_anomaly_detection}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devopsguru_service_integration#logs_anomaly_detection DevopsguruServiceIntegration#logs_anomaly_detection}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "logsAnomalyDetection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruServiceIntegration.DevopsguruServiceIntegrationLogsAnomalyDetection\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace aws.DevopsguruServiceIntegration
 
             /// <summary>ops_center block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_service_integration#ops_center DevopsguruServiceIntegration#ops_center}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devopsguru_service_integration#ops_center DevopsguruServiceIntegration#ops_center}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "opsCenter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruServiceIntegration.DevopsguruServiceIntegrationOpsCenter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace aws.DevopsguruServiceIntegration
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_service_integration#region DevopsguruServiceIntegration#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devopsguru_service_integration#region DevopsguruServiceIntegration#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

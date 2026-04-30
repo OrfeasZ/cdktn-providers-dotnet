@@ -7,7 +7,7 @@ namespace aws.MskCluster
     [JsiiByValue(fqn: "aws.mskCluster.MskClusterTimeouts")]
     public class MskClusterTimeouts : aws.MskCluster.IMskClusterTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#create MskCluster#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#create MskCluster#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.MskCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#delete MskCluster#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#delete MskCluster#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace aws.MskCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#update MskCluster#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#update MskCluster#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

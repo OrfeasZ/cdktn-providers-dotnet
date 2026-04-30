@@ -7,7 +7,7 @@ namespace aws.AppstreamStack
     [JsiiByValue(fqn: "aws.appstreamStack.AppstreamStackStreamingExperienceSettings")]
     public class AppstreamStackStreamingExperienceSettings : aws.AppstreamStack.IAppstreamStackStreamingExperienceSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_stack#preferred_protocol AppstreamStack#preferred_protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_stack#preferred_protocol AppstreamStack#preferred_protocol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "preferredProtocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PreferredProtocol

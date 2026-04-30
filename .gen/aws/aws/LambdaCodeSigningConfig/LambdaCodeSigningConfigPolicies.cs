@@ -9,7 +9,7 @@ namespace aws.LambdaCodeSigningConfig
     [JsiiByValue(fqn: "aws.lambdaCodeSigningConfig.LambdaCodeSigningConfigPolicies")]
     public class LambdaCodeSigningConfigPolicies : aws.LambdaCodeSigningConfig.ILambdaCodeSigningConfigPolicies
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_code_signing_config#untrusted_artifact_on_deployment LambdaCodeSigningConfig#untrusted_artifact_on_deployment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_code_signing_config#untrusted_artifact_on_deployment LambdaCodeSigningConfig#untrusted_artifact_on_deployment}.</summary>
         [JsiiProperty(name: "untrustedArtifactOnDeployment", typeJson: "{\"primitive\":\"string\"}")]
         public string UntrustedArtifactOnDeployment
         {

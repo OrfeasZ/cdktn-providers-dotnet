@@ -7,7 +7,7 @@ namespace aws.ElastictranscoderPipeline
     [JsiiInterface(nativeType: typeof(IElastictranscoderPipelineThumbnailConfigPermissions), fullyQualifiedName: "aws.elastictranscoderPipeline.ElastictranscoderPipelineThumbnailConfigPermissions")]
     public interface IElastictranscoderPipelineThumbnailConfigPermissions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_pipeline#access ElastictranscoderPipeline#access}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elastictranscoder_pipeline#access ElastictranscoderPipeline#access}.</summary>
         [JsiiProperty(name: "access", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Access
@@ -18,7 +18,7 @@ namespace aws.ElastictranscoderPipeline
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_pipeline#grantee ElastictranscoderPipeline#grantee}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elastictranscoder_pipeline#grantee ElastictranscoderPipeline#grantee}.</summary>
         [JsiiProperty(name: "grantee", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Grantee
@@ -29,7 +29,7 @@ namespace aws.ElastictranscoderPipeline
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_pipeline#grantee_type ElastictranscoderPipeline#grantee_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elastictranscoder_pipeline#grantee_type ElastictranscoderPipeline#grantee_type}.</summary>
         [JsiiProperty(name: "granteeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GranteeType
@@ -47,7 +47,7 @@ namespace aws.ElastictranscoderPipeline
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_pipeline#access ElastictranscoderPipeline#access}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elastictranscoder_pipeline#access ElastictranscoderPipeline#access}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "access", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Access
@@ -55,7 +55,7 @@ namespace aws.ElastictranscoderPipeline
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_pipeline#grantee ElastictranscoderPipeline#grantee}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elastictranscoder_pipeline#grantee ElastictranscoderPipeline#grantee}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "grantee", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Grantee
@@ -63,7 +63,7 @@ namespace aws.ElastictranscoderPipeline
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elastictranscoder_pipeline#grantee_type ElastictranscoderPipeline#grantee_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elastictranscoder_pipeline#grantee_type ElastictranscoderPipeline#grantee_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "granteeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GranteeType

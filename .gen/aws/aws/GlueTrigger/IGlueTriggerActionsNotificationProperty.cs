@@ -7,7 +7,7 @@ namespace aws.GlueTrigger
     [JsiiInterface(nativeType: typeof(IGlueTriggerActionsNotificationProperty), fullyQualifiedName: "aws.glueTrigger.GlueTriggerActionsNotificationProperty")]
     public interface IGlueTriggerActionsNotificationProperty
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#notify_delay_after GlueTrigger#notify_delay_after}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_trigger#notify_delay_after GlueTrigger#notify_delay_after}.</summary>
         [JsiiProperty(name: "notifyDelayAfter", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? NotifyDelayAfter
@@ -25,7 +25,7 @@ namespace aws.GlueTrigger
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#notify_delay_after GlueTrigger#notify_delay_after}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_trigger#notify_delay_after GlueTrigger#notify_delay_after}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "notifyDelayAfter", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? NotifyDelayAfter

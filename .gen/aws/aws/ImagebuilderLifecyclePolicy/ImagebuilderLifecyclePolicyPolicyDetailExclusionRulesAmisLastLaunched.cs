@@ -9,7 +9,7 @@ namespace aws.ImagebuilderLifecyclePolicy
     [JsiiByValue(fqn: "aws.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLastLaunched")]
     public class ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLastLaunched : aws.ImagebuilderLifecyclePolicy.IImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLastLaunched
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_lifecycle_policy#unit ImagebuilderLifecyclePolicy#unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_lifecycle_policy#unit ImagebuilderLifecyclePolicy#unit}.</summary>
         [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}")]
         public string Unit
         {
@@ -17,7 +17,7 @@ namespace aws.ImagebuilderLifecyclePolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_lifecycle_policy#value ImagebuilderLifecyclePolicy#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_lifecycle_policy#value ImagebuilderLifecyclePolicy#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]
         public double Value
         {

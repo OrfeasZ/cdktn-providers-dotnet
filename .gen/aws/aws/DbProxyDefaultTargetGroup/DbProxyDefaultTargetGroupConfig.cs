@@ -9,7 +9,7 @@ namespace aws.DbProxyDefaultTargetGroup
     [JsiiByValue(fqn: "aws.dbProxyDefaultTargetGroup.DbProxyDefaultTargetGroupConfig")]
     public class DbProxyDefaultTargetGroupConfig : aws.DbProxyDefaultTargetGroup.IDbProxyDefaultTargetGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_proxy_default_target_group#db_proxy_name DbProxyDefaultTargetGroup#db_proxy_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_proxy_default_target_group#db_proxy_name DbProxyDefaultTargetGroup#db_proxy_name}.</summary>
         [JsiiProperty(name: "dbProxyName", typeJson: "{\"primitive\":\"string\"}")]
         public string DbProxyName
         {
@@ -19,7 +19,7 @@ namespace aws.DbProxyDefaultTargetGroup
 
         /// <summary>connection_pool_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_proxy_default_target_group#connection_pool_config DbProxyDefaultTargetGroup#connection_pool_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_proxy_default_target_group#connection_pool_config DbProxyDefaultTargetGroup#connection_pool_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connectionPoolConfig", typeJson: "{\"fqn\":\"aws.dbProxyDefaultTargetGroup.DbProxyDefaultTargetGroupConnectionPoolConfig\"}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace aws.DbProxyDefaultTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_proxy_default_target_group#id DbProxyDefaultTargetGroup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_proxy_default_target_group#id DbProxyDefaultTargetGroup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace aws.DbProxyDefaultTargetGroup
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_proxy_default_target_group#region DbProxyDefaultTargetGroup#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_proxy_default_target_group#region DbProxyDefaultTargetGroup#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace aws.DbProxyDefaultTargetGroup
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_proxy_default_target_group#timeouts DbProxyDefaultTargetGroup#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_proxy_default_target_group#timeouts DbProxyDefaultTargetGroup#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.dbProxyDefaultTargetGroup.DbProxyDefaultTargetGroupTimeouts\"}", isOptional: true)]

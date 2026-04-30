@@ -5,7 +5,7 @@ namespace aws.AppsyncSourceApiAssociation
     /// <remarks>
     /// <h1><c>aws_appsync_source_api_association</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_source_api_association"><c>aws_appsync_source_api_association</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_source_api_association"><c>aws_appsync_source_api_association</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

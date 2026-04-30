@@ -9,7 +9,7 @@ namespace aws.LightsailContainerService
     {
         /// <summary>certificate block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#certificate LightsailContainerService#certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_container_service#certificate LightsailContainerService#certificate}
         /// </remarks>
         [JsiiProperty(name: "certificate", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lightsailContainerService.LightsailContainerServicePublicDomainNamesCertificate\"},\"kind\":\"array\"}}]}}")]
         object Certificate
@@ -26,7 +26,7 @@ namespace aws.LightsailContainerService
 
             /// <summary>certificate block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#certificate LightsailContainerService#certificate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_container_service#certificate LightsailContainerService#certificate}
             /// </remarks>
             [JsiiProperty(name: "certificate", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lightsailContainerService.LightsailContainerServicePublicDomainNamesCertificate\"},\"kind\":\"array\"}}]}}")]
             public object Certificate

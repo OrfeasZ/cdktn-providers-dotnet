@@ -9,7 +9,7 @@ namespace aws.ControltowerControl
     [JsiiByValue(fqn: "aws.controltowerControl.ControltowerControlParameters")]
     public class ControltowerControlParameters : aws.ControltowerControl.IControltowerControlParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/controltower_control#key ControltowerControl#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/controltower_control#key ControltowerControl#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace aws.ControltowerControl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/controltower_control#value ControltowerControl#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/controltower_control#value ControltowerControl#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

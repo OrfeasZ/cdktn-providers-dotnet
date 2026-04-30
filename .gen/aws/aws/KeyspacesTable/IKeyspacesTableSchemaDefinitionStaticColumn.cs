@@ -7,7 +7,7 @@ namespace aws.KeyspacesTable
     [JsiiInterface(nativeType: typeof(IKeyspacesTableSchemaDefinitionStaticColumn), fullyQualifiedName: "aws.keyspacesTable.KeyspacesTableSchemaDefinitionStaticColumn")]
     public interface IKeyspacesTableSchemaDefinitionStaticColumn
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/keyspaces_table#name KeyspacesTable#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/keyspaces_table#name KeyspacesTable#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -21,7 +21,7 @@ namespace aws.KeyspacesTable
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/keyspaces_table#name KeyspacesTable#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/keyspaces_table#name KeyspacesTable#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {

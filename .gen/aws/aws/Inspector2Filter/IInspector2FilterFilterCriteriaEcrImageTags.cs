@@ -7,14 +7,14 @@ namespace aws.Inspector2Filter
     [JsiiInterface(nativeType: typeof(IInspector2FilterFilterCriteriaEcrImageTags), fullyQualifiedName: "aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageTags")]
     public interface IInspector2FilterFilterCriteriaEcrImageTags
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#comparison Inspector2Filter#comparison}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/inspector2_filter#comparison Inspector2Filter#comparison}.</summary>
         [JsiiProperty(name: "comparison", typeJson: "{\"primitive\":\"string\"}")]
         string Comparison
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#value Inspector2Filter#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/inspector2_filter#value Inspector2Filter#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -28,14 +28,14 @@ namespace aws.Inspector2Filter
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#comparison Inspector2Filter#comparison}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/inspector2_filter#comparison Inspector2Filter#comparison}.</summary>
             [JsiiProperty(name: "comparison", typeJson: "{\"primitive\":\"string\"}")]
             public string Comparison
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#value Inspector2Filter#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/inspector2_filter#value Inspector2Filter#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

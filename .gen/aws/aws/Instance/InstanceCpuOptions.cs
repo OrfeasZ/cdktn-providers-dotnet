@@ -7,7 +7,7 @@ namespace aws.Instance
     [JsiiByValue(fqn: "aws.instance.InstanceCpuOptions")]
     public class InstanceCpuOptions : aws.Instance.IInstanceCpuOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#amd_sev_snp Instance#amd_sev_snp}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/instance#amd_sev_snp Instance#amd_sev_snp}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "amdSevSnp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AmdSevSnp
@@ -16,7 +16,7 @@ namespace aws.Instance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#core_count Instance#core_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/instance#core_count Instance#core_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "coreCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? CoreCount
@@ -25,7 +25,7 @@ namespace aws.Instance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#nested_virtualization Instance#nested_virtualization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/instance#nested_virtualization Instance#nested_virtualization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nestedVirtualization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NestedVirtualization
@@ -34,7 +34,7 @@ namespace aws.Instance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#threads_per_core Instance#threads_per_core}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/instance#threads_per_core Instance#threads_per_core}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "threadsPerCore", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ThreadsPerCore

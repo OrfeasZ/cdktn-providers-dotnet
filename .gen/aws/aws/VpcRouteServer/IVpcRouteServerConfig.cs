@@ -7,14 +7,14 @@ namespace aws.VpcRouteServer
     [JsiiInterface(nativeType: typeof(IVpcRouteServerConfig), fullyQualifiedName: "aws.vpcRouteServer.VpcRouteServerConfig")]
     public interface IVpcRouteServerConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_route_server#amazon_side_asn VpcRouteServer#amazon_side_asn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_route_server#amazon_side_asn VpcRouteServer#amazon_side_asn}.</summary>
         [JsiiProperty(name: "amazonSideAsn", typeJson: "{\"primitive\":\"number\"}")]
         double AmazonSideAsn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_route_server#persist_routes VpcRouteServer#persist_routes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_route_server#persist_routes VpcRouteServer#persist_routes}.</summary>
         [JsiiProperty(name: "persistRoutes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PersistRoutes
@@ -25,7 +25,7 @@ namespace aws.VpcRouteServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_route_server#persist_routes_duration VpcRouteServer#persist_routes_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_route_server#persist_routes_duration VpcRouteServer#persist_routes_duration}.</summary>
         [JsiiProperty(name: "persistRoutesDuration", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? PersistRoutesDuration
@@ -38,7 +38,7 @@ namespace aws.VpcRouteServer
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_route_server#region VpcRouteServer#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_route_server#region VpcRouteServer#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,7 +50,7 @@ namespace aws.VpcRouteServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_route_server#sns_notifications_enabled VpcRouteServer#sns_notifications_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_route_server#sns_notifications_enabled VpcRouteServer#sns_notifications_enabled}.</summary>
         [JsiiProperty(name: "snsNotificationsEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? SnsNotificationsEnabled
@@ -61,7 +61,7 @@ namespace aws.VpcRouteServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_route_server#tags VpcRouteServer#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_route_server#tags VpcRouteServer#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -74,7 +74,7 @@ namespace aws.VpcRouteServer
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_route_server#timeouts VpcRouteServer#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_route_server#timeouts VpcRouteServer#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.vpcRouteServer.VpcRouteServerTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,14 +93,14 @@ namespace aws.VpcRouteServer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_route_server#amazon_side_asn VpcRouteServer#amazon_side_asn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_route_server#amazon_side_asn VpcRouteServer#amazon_side_asn}.</summary>
             [JsiiProperty(name: "amazonSideAsn", typeJson: "{\"primitive\":\"number\"}")]
             public double AmazonSideAsn
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_route_server#persist_routes VpcRouteServer#persist_routes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_route_server#persist_routes VpcRouteServer#persist_routes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "persistRoutes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PersistRoutes
@@ -108,7 +108,7 @@ namespace aws.VpcRouteServer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_route_server#persist_routes_duration VpcRouteServer#persist_routes_duration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_route_server#persist_routes_duration VpcRouteServer#persist_routes_duration}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "persistRoutesDuration", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? PersistRoutesDuration
@@ -118,7 +118,7 @@ namespace aws.VpcRouteServer
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_route_server#region VpcRouteServer#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_route_server#region VpcRouteServer#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -127,7 +127,7 @@ namespace aws.VpcRouteServer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_route_server#sns_notifications_enabled VpcRouteServer#sns_notifications_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_route_server#sns_notifications_enabled VpcRouteServer#sns_notifications_enabled}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "snsNotificationsEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? SnsNotificationsEnabled
@@ -135,7 +135,7 @@ namespace aws.VpcRouteServer
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_route_server#tags VpcRouteServer#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_route_server#tags VpcRouteServer#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -145,7 +145,7 @@ namespace aws.VpcRouteServer
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_route_server#timeouts VpcRouteServer#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_route_server#timeouts VpcRouteServer#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.vpcRouteServer.VpcRouteServerTimeouts\"}", isOptional: true)]

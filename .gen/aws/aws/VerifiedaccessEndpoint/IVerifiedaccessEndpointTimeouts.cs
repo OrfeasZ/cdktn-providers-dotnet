@@ -7,7 +7,7 @@ namespace aws.VerifiedaccessEndpoint
     [JsiiInterface(nativeType: typeof(IVerifiedaccessEndpointTimeouts), fullyQualifiedName: "aws.verifiedaccessEndpoint.VerifiedaccessEndpointTimeouts")]
     public interface IVerifiedaccessEndpointTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/verifiedaccess_endpoint#create VerifiedaccessEndpoint#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/verifiedaccess_endpoint#create VerifiedaccessEndpoint#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace aws.VerifiedaccessEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/verifiedaccess_endpoint#delete VerifiedaccessEndpoint#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/verifiedaccess_endpoint#delete VerifiedaccessEndpoint#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace aws.VerifiedaccessEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/verifiedaccess_endpoint#update VerifiedaccessEndpoint#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/verifiedaccess_endpoint#update VerifiedaccessEndpoint#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace aws.VerifiedaccessEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/verifiedaccess_endpoint#create VerifiedaccessEndpoint#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/verifiedaccess_endpoint#create VerifiedaccessEndpoint#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace aws.VerifiedaccessEndpoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/verifiedaccess_endpoint#delete VerifiedaccessEndpoint#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/verifiedaccess_endpoint#delete VerifiedaccessEndpoint#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace aws.VerifiedaccessEndpoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/verifiedaccess_endpoint#update VerifiedaccessEndpoint#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/verifiedaccess_endpoint#update VerifiedaccessEndpoint#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

@@ -7,7 +7,7 @@ namespace aws.LaunchTemplate
     [JsiiInterface(nativeType: typeof(ILaunchTemplateNetworkPerformanceOptions), fullyQualifiedName: "aws.launchTemplate.LaunchTemplateNetworkPerformanceOptions")]
     public interface ILaunchTemplateNetworkPerformanceOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#bandwidth_weighting LaunchTemplate#bandwidth_weighting}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#bandwidth_weighting LaunchTemplate#bandwidth_weighting}.</summary>
         [JsiiProperty(name: "bandwidthWeighting", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BandwidthWeighting
@@ -25,7 +25,7 @@ namespace aws.LaunchTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#bandwidth_weighting LaunchTemplate#bandwidth_weighting}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#bandwidth_weighting LaunchTemplate#bandwidth_weighting}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bandwidthWeighting", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BandwidthWeighting

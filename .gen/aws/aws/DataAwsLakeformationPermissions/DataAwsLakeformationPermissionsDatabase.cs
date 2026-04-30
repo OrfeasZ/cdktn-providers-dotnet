@@ -9,7 +9,7 @@ namespace aws.DataAwsLakeformationPermissions
     [JsiiByValue(fqn: "aws.dataAwsLakeformationPermissions.DataAwsLakeformationPermissionsDatabase")]
     public class DataAwsLakeformationPermissionsDatabase : aws.DataAwsLakeformationPermissions.IDataAwsLakeformationPermissionsDatabase
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lakeformation_permissions#name DataAwsLakeformationPermissions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/lakeformation_permissions#name DataAwsLakeformationPermissions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsLakeformationPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lakeformation_permissions#catalog_id DataAwsLakeformationPermissions#catalog_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/lakeformation_permissions#catalog_id DataAwsLakeformationPermissions#catalog_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "catalogId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CatalogId

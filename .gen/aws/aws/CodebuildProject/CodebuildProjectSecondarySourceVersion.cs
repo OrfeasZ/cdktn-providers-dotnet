@@ -9,7 +9,7 @@ namespace aws.CodebuildProject
     [JsiiByValue(fqn: "aws.codebuildProject.CodebuildProjectSecondarySourceVersion")]
     public class CodebuildProjectSecondarySourceVersion : aws.CodebuildProject.ICodebuildProjectSecondarySourceVersion
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#source_identifier CodebuildProject#source_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_project#source_identifier CodebuildProject#source_identifier}.</summary>
         [JsiiProperty(name: "sourceIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceIdentifier
         {
@@ -17,7 +17,7 @@ namespace aws.CodebuildProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#source_version CodebuildProject#source_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_project#source_version CodebuildProject#source_version}.</summary>
         [JsiiProperty(name: "sourceVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceVersion
         {

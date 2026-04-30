@@ -7,14 +7,14 @@ namespace aws.BudgetsBudgetAction
     [JsiiInterface(nativeType: typeof(IBudgetsBudgetActionSubscriber), fullyQualifiedName: "aws.budgetsBudgetAction.BudgetsBudgetActionSubscriber")]
     public interface IBudgetsBudgetActionSubscriber
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget_action#address BudgetsBudgetAction#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget_action#address BudgetsBudgetAction#address}.</summary>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
         string Address
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget_action#subscription_type BudgetsBudgetAction#subscription_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget_action#subscription_type BudgetsBudgetAction#subscription_type}.</summary>
         [JsiiProperty(name: "subscriptionType", typeJson: "{\"primitive\":\"string\"}")]
         string SubscriptionType
         {
@@ -28,14 +28,14 @@ namespace aws.BudgetsBudgetAction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget_action#address BudgetsBudgetAction#address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget_action#address BudgetsBudgetAction#address}.</summary>
             [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
             public string Address
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/budgets_budget_action#subscription_type BudgetsBudgetAction#subscription_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/budgets_budget_action#subscription_type BudgetsBudgetAction#subscription_type}.</summary>
             [JsiiProperty(name: "subscriptionType", typeJson: "{\"primitive\":\"string\"}")]
             public string SubscriptionType
             {

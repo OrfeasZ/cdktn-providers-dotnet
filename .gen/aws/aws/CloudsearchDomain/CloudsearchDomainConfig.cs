@@ -9,7 +9,7 @@ namespace aws.CloudsearchDomain
     [JsiiByValue(fqn: "aws.cloudsearchDomain.CloudsearchDomainConfig")]
     public class CloudsearchDomainConfig : aws.CloudsearchDomain.ICloudsearchDomainConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#name CloudsearchDomain#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#name CloudsearchDomain#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -19,7 +19,7 @@ namespace aws.CloudsearchDomain
 
         /// <summary>endpoint_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#endpoint_options CloudsearchDomain#endpoint_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#endpoint_options CloudsearchDomain#endpoint_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "endpointOptions", typeJson: "{\"fqn\":\"aws.cloudsearchDomain.CloudsearchDomainEndpointOptions\"}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace aws.CloudsearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#id CloudsearchDomain#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#id CloudsearchDomain#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace aws.CloudsearchDomain
 
         /// <summary>index_field block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#index_field CloudsearchDomain#index_field}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#index_field CloudsearchDomain#index_field}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "indexField", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudsearchDomain.CloudsearchDomainIndexField\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -78,7 +78,7 @@ namespace aws.CloudsearchDomain
 
         private object? _multiAz;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#multi_az CloudsearchDomain#multi_az}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#multi_az CloudsearchDomain#multi_az}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "multiAz", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? MultiAz
@@ -109,7 +109,7 @@ namespace aws.CloudsearchDomain
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#region CloudsearchDomain#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#region CloudsearchDomain#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -121,7 +121,7 @@ namespace aws.CloudsearchDomain
 
         /// <summary>scaling_parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#scaling_parameters CloudsearchDomain#scaling_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#scaling_parameters CloudsearchDomain#scaling_parameters}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scalingParameters", typeJson: "{\"fqn\":\"aws.cloudsearchDomain.CloudsearchDomainScalingParameters\"}", isOptional: true)]
@@ -133,7 +133,7 @@ namespace aws.CloudsearchDomain
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#timeouts CloudsearchDomain#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#timeouts CloudsearchDomain#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.cloudsearchDomain.CloudsearchDomainTimeouts\"}", isOptional: true)]

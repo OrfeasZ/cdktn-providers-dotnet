@@ -9,7 +9,7 @@ namespace aws.GameliftGameServerGroup
     [JsiiByValue(fqn: "aws.gameliftGameServerGroup.GameliftGameServerGroupConfig")]
     public class GameliftGameServerGroupConfig : aws.GameliftGameServerGroup.IGameliftGameServerGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_game_server_group#game_server_group_name GameliftGameServerGroup#game_server_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_game_server_group#game_server_group_name GameliftGameServerGroup#game_server_group_name}.</summary>
         [JsiiProperty(name: "gameServerGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string GameServerGroupName
         {
@@ -21,7 +21,7 @@ namespace aws.GameliftGameServerGroup
 
         /// <summary>instance_definition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_game_server_group#instance_definition GameliftGameServerGroup#instance_definition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_game_server_group#instance_definition GameliftGameServerGroup#instance_definition}
         /// </remarks>
         [JsiiProperty(name: "instanceDefinition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.gameliftGameServerGroup.GameliftGameServerGroupInstanceDefinition\"},\"kind\":\"array\"}}]}}")]
         public object InstanceDefinition
@@ -52,7 +52,7 @@ namespace aws.GameliftGameServerGroup
 
         /// <summary>launch_template block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_game_server_group#launch_template GameliftGameServerGroup#launch_template}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_game_server_group#launch_template GameliftGameServerGroup#launch_template}
         /// </remarks>
         [JsiiProperty(name: "launchTemplate", typeJson: "{\"fqn\":\"aws.gameliftGameServerGroup.GameliftGameServerGroupLaunchTemplate\"}")]
         public aws.GameliftGameServerGroup.IGameliftGameServerGroupLaunchTemplate LaunchTemplate
@@ -61,7 +61,7 @@ namespace aws.GameliftGameServerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_game_server_group#max_size GameliftGameServerGroup#max_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_game_server_group#max_size GameliftGameServerGroup#max_size}.</summary>
         [JsiiProperty(name: "maxSize", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxSize
         {
@@ -69,7 +69,7 @@ namespace aws.GameliftGameServerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_game_server_group#min_size GameliftGameServerGroup#min_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_game_server_group#min_size GameliftGameServerGroup#min_size}.</summary>
         [JsiiProperty(name: "minSize", typeJson: "{\"primitive\":\"number\"}")]
         public double MinSize
         {
@@ -77,7 +77,7 @@ namespace aws.GameliftGameServerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_game_server_group#role_arn GameliftGameServerGroup#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_game_server_group#role_arn GameliftGameServerGroup#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleArn
         {
@@ -87,7 +87,7 @@ namespace aws.GameliftGameServerGroup
 
         /// <summary>auto_scaling_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_game_server_group#auto_scaling_policy GameliftGameServerGroup#auto_scaling_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_game_server_group#auto_scaling_policy GameliftGameServerGroup#auto_scaling_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoScalingPolicy", typeJson: "{\"fqn\":\"aws.gameliftGameServerGroup.GameliftGameServerGroupAutoScalingPolicy\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace aws.GameliftGameServerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_game_server_group#balancing_strategy GameliftGameServerGroup#balancing_strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_game_server_group#balancing_strategy GameliftGameServerGroup#balancing_strategy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "balancingStrategy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BalancingStrategy
@@ -106,7 +106,7 @@ namespace aws.GameliftGameServerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_game_server_group#game_server_protection_policy GameliftGameServerGroup#game_server_protection_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_game_server_group#game_server_protection_policy GameliftGameServerGroup#game_server_protection_policy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "gameServerProtectionPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GameServerProtectionPolicy
@@ -115,7 +115,7 @@ namespace aws.GameliftGameServerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_game_server_group#id GameliftGameServerGroup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_game_server_group#id GameliftGameServerGroup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -130,7 +130,7 @@ namespace aws.GameliftGameServerGroup
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_game_server_group#region GameliftGameServerGroup#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_game_server_group#region GameliftGameServerGroup#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -140,7 +140,7 @@ namespace aws.GameliftGameServerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_game_server_group#tags GameliftGameServerGroup#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_game_server_group#tags GameliftGameServerGroup#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -149,7 +149,7 @@ namespace aws.GameliftGameServerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_game_server_group#tags_all GameliftGameServerGroup#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_game_server_group#tags_all GameliftGameServerGroup#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -160,7 +160,7 @@ namespace aws.GameliftGameServerGroup
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_game_server_group#timeouts GameliftGameServerGroup#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_game_server_group#timeouts GameliftGameServerGroup#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.gameliftGameServerGroup.GameliftGameServerGroupTimeouts\"}", isOptional: true)]
@@ -170,7 +170,7 @@ namespace aws.GameliftGameServerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/gamelift_game_server_group#vpc_subnets GameliftGameServerGroup#vpc_subnets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/gamelift_game_server_group#vpc_subnets GameliftGameServerGroup#vpc_subnets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vpcSubnets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? VpcSubnets

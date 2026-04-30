@@ -9,7 +9,7 @@ namespace aws.BedrockagentcoreGateway
     [JsiiByValue(fqn: "aws.bedrockagentcoreGateway.BedrockagentcoreGatewayInterceptorConfiguration")]
     public class BedrockagentcoreGatewayInterceptorConfiguration : aws.BedrockagentcoreGateway.IBedrockagentcoreGatewayInterceptorConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagentcore_gateway#interception_points BedrockagentcoreGateway#interception_points}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagentcore_gateway#interception_points BedrockagentcoreGateway#interception_points}.</summary>
         [JsiiProperty(name: "interceptionPoints", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] InterceptionPoints
         {
@@ -21,7 +21,7 @@ namespace aws.BedrockagentcoreGateway
 
         /// <summary>input_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagentcore_gateway#input_configuration BedrockagentcoreGateway#input_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagentcore_gateway#input_configuration BedrockagentcoreGateway#input_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inputConfiguration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreGateway.BedrockagentcoreGatewayInterceptorConfigurationInputConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace aws.BedrockagentcoreGateway
 
         /// <summary>interceptor block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagentcore_gateway#interceptor BedrockagentcoreGateway#interceptor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagentcore_gateway#interceptor BedrockagentcoreGateway#interceptor}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "interceptor", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreGateway.BedrockagentcoreGatewayInterceptorConfigurationInterceptor\"},\"kind\":\"array\"}}]}}", isOptional: true)]

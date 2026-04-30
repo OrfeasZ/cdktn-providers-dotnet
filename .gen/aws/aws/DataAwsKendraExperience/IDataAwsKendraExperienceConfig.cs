@@ -7,21 +7,21 @@ namespace aws.DataAwsKendraExperience
     [JsiiInterface(nativeType: typeof(IDataAwsKendraExperienceConfig), fullyQualifiedName: "aws.dataAwsKendraExperience.DataAwsKendraExperienceConfig")]
     public interface IDataAwsKendraExperienceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/kendra_experience#experience_id DataAwsKendraExperience#experience_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/kendra_experience#experience_id DataAwsKendraExperience#experience_id}.</summary>
         [JsiiProperty(name: "experienceId", typeJson: "{\"primitive\":\"string\"}")]
         string ExperienceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/kendra_experience#index_id DataAwsKendraExperience#index_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/kendra_experience#index_id DataAwsKendraExperience#index_id}.</summary>
         [JsiiProperty(name: "indexId", typeJson: "{\"primitive\":\"string\"}")]
         string IndexId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/kendra_experience#id DataAwsKendraExperience#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/kendra_experience#id DataAwsKendraExperience#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace aws.DataAwsKendraExperience
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/kendra_experience#region DataAwsKendraExperience#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/kendra_experience#region DataAwsKendraExperience#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,21 +57,21 @@ namespace aws.DataAwsKendraExperience
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/kendra_experience#experience_id DataAwsKendraExperience#experience_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/kendra_experience#experience_id DataAwsKendraExperience#experience_id}.</summary>
             [JsiiProperty(name: "experienceId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExperienceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/kendra_experience#index_id DataAwsKendraExperience#index_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/kendra_experience#index_id DataAwsKendraExperience#index_id}.</summary>
             [JsiiProperty(name: "indexId", typeJson: "{\"primitive\":\"string\"}")]
             public string IndexId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/kendra_experience#id DataAwsKendraExperience#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/kendra_experience#id DataAwsKendraExperience#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace aws.DataAwsKendraExperience
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/kendra_experience#region DataAwsKendraExperience#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/kendra_experience#region DataAwsKendraExperience#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

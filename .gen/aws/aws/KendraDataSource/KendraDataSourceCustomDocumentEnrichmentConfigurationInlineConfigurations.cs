@@ -9,7 +9,7 @@ namespace aws.KendraDataSource
     {
         /// <summary>condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#condition KendraDataSource#condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#condition KendraDataSource#condition}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "condition", typeJson: "{\"fqn\":\"aws.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsCondition\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.KendraDataSource
 
         private object? _documentContentDeletion;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#document_content_deletion KendraDataSource#document_content_deletion}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#document_content_deletion KendraDataSource#document_content_deletion}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "documentContentDeletion", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? DocumentContentDeletion
@@ -52,7 +52,7 @@ namespace aws.KendraDataSource
 
         /// <summary>target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#target KendraDataSource#target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#target KendraDataSource#target}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "target", typeJson: "{\"fqn\":\"aws.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget\"}", isOptional: true)]

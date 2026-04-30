@@ -9,7 +9,7 @@ namespace aws.MskconnectConnector
     {
         /// <summary>autoscaling block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#autoscaling MskconnectConnector#autoscaling}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_connector#autoscaling MskconnectConnector#autoscaling}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoscaling", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorCapacityAutoscaling\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.MskconnectConnector
 
         /// <summary>provisioned_capacity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#provisioned_capacity MskconnectConnector#provisioned_capacity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_connector#provisioned_capacity MskconnectConnector#provisioned_capacity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisionedCapacity", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorCapacityProvisionedCapacity\"}", isOptional: true)]

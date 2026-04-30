@@ -7,7 +7,7 @@ namespace aws.FmsPolicy
     [JsiiInterface(nativeType: typeof(IFmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySetLastEntryPortRange), fullyQualifiedName: "aws.fmsPolicy.FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySetLastEntryPortRange")]
     public interface IFmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySetLastEntryPortRange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_policy#from FmsPolicy#from}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fms_policy#from FmsPolicy#from}.</summary>
         [JsiiProperty(name: "from", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? From
@@ -18,7 +18,7 @@ namespace aws.FmsPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_policy#to FmsPolicy#to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fms_policy#to FmsPolicy#to}.</summary>
         [JsiiProperty(name: "to", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? To
@@ -36,7 +36,7 @@ namespace aws.FmsPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_policy#from FmsPolicy#from}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fms_policy#from FmsPolicy#from}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "from", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? From
@@ -44,7 +44,7 @@ namespace aws.FmsPolicy
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_policy#to FmsPolicy#to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fms_policy#to FmsPolicy#to}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "to", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? To

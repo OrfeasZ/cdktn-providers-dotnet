@@ -9,7 +9,7 @@ namespace aws.CloudwatchEventConnection
     {
         /// <summary>api_key block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_connection#api_key CloudwatchEventConnection#api_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_connection#api_key CloudwatchEventConnection#api_key}
         /// </remarks>
         [JsiiProperty(name: "apiKey", typeJson: "{\"fqn\":\"aws.cloudwatchEventConnection.CloudwatchEventConnectionAuthParametersApiKey\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.CloudwatchEventConnection
 
         /// <summary>basic block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_connection#basic CloudwatchEventConnection#basic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_connection#basic CloudwatchEventConnection#basic}
         /// </remarks>
         [JsiiProperty(name: "basic", typeJson: "{\"fqn\":\"aws.cloudwatchEventConnection.CloudwatchEventConnectionAuthParametersBasic\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.CloudwatchEventConnection
 
         /// <summary>connectivity_parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_connection#connectivity_parameters CloudwatchEventConnection#connectivity_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_connection#connectivity_parameters CloudwatchEventConnection#connectivity_parameters}
         /// </remarks>
         [JsiiProperty(name: "connectivityParameters", typeJson: "{\"fqn\":\"aws.cloudwatchEventConnection.CloudwatchEventConnectionAuthParametersConnectivityParameters\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace aws.CloudwatchEventConnection
 
         /// <summary>invocation_http_parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_connection#invocation_http_parameters CloudwatchEventConnection#invocation_http_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_connection#invocation_http_parameters CloudwatchEventConnection#invocation_http_parameters}
         /// </remarks>
         [JsiiProperty(name: "invocationHttpParameters", typeJson: "{\"fqn\":\"aws.cloudwatchEventConnection.CloudwatchEventConnectionAuthParametersInvocationHttpParameters\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace aws.CloudwatchEventConnection
 
         /// <summary>oauth block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_connection#oauth CloudwatchEventConnection#oauth}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_connection#oauth CloudwatchEventConnection#oauth}
         /// </remarks>
         [JsiiProperty(name: "oauth", typeJson: "{\"fqn\":\"aws.cloudwatchEventConnection.CloudwatchEventConnectionAuthParametersOauth\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -86,7 +86,7 @@ namespace aws.CloudwatchEventConnection
 
             /// <summary>api_key block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_connection#api_key CloudwatchEventConnection#api_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_connection#api_key CloudwatchEventConnection#api_key}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "apiKey", typeJson: "{\"fqn\":\"aws.cloudwatchEventConnection.CloudwatchEventConnectionAuthParametersApiKey\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace aws.CloudwatchEventConnection
 
             /// <summary>basic block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_connection#basic CloudwatchEventConnection#basic}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_connection#basic CloudwatchEventConnection#basic}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "basic", typeJson: "{\"fqn\":\"aws.cloudwatchEventConnection.CloudwatchEventConnectionAuthParametersBasic\"}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace aws.CloudwatchEventConnection
 
             /// <summary>connectivity_parameters block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_connection#connectivity_parameters CloudwatchEventConnection#connectivity_parameters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_connection#connectivity_parameters CloudwatchEventConnection#connectivity_parameters}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connectivityParameters", typeJson: "{\"fqn\":\"aws.cloudwatchEventConnection.CloudwatchEventConnectionAuthParametersConnectivityParameters\"}", isOptional: true)]
@@ -119,7 +119,7 @@ namespace aws.CloudwatchEventConnection
 
             /// <summary>invocation_http_parameters block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_connection#invocation_http_parameters CloudwatchEventConnection#invocation_http_parameters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_connection#invocation_http_parameters CloudwatchEventConnection#invocation_http_parameters}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "invocationHttpParameters", typeJson: "{\"fqn\":\"aws.cloudwatchEventConnection.CloudwatchEventConnectionAuthParametersInvocationHttpParameters\"}", isOptional: true)]
@@ -130,7 +130,7 @@ namespace aws.CloudwatchEventConnection
 
             /// <summary>oauth block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_connection#oauth CloudwatchEventConnection#oauth}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_connection#oauth CloudwatchEventConnection#oauth}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oauth", typeJson: "{\"fqn\":\"aws.cloudwatchEventConnection.CloudwatchEventConnectionAuthParametersOauth\"}", isOptional: true)]

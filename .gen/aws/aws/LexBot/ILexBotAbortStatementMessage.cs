@@ -7,21 +7,21 @@ namespace aws.LexBot
     [JsiiInterface(nativeType: typeof(ILexBotAbortStatementMessage), fullyQualifiedName: "aws.lexBot.LexBotAbortStatementMessage")]
     public interface ILexBotAbortStatementMessage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot#content LexBot#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot#content LexBot#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         string Content
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot#content_type LexBot#content_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot#content_type LexBot#content_type}.</summary>
         [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}")]
         string ContentType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot#group_number LexBot#group_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot#group_number LexBot#group_number}.</summary>
         [JsiiProperty(name: "groupNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? GroupNumber
@@ -39,21 +39,21 @@ namespace aws.LexBot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot#content LexBot#content}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot#content LexBot#content}.</summary>
             [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
             public string Content
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot#content_type LexBot#content_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot#content_type LexBot#content_type}.</summary>
             [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}")]
             public string ContentType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_bot#group_number LexBot#group_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_bot#group_number LexBot#group_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "groupNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? GroupNumber

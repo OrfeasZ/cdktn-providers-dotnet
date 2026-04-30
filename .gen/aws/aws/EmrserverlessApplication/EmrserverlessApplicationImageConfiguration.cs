@@ -9,7 +9,7 @@ namespace aws.EmrserverlessApplication
     [JsiiByValue(fqn: "aws.emrserverlessApplication.EmrserverlessApplicationImageConfiguration")]
     public class EmrserverlessApplicationImageConfiguration : aws.EmrserverlessApplication.IEmrserverlessApplicationImageConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrserverless_application#image_uri EmrserverlessApplication#image_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrserverless_application#image_uri EmrserverlessApplication#image_uri}.</summary>
         [JsiiProperty(name: "imageUri", typeJson: "{\"primitive\":\"string\"}")]
         public string ImageUri
         {

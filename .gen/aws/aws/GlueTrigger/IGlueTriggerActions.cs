@@ -7,7 +7,7 @@ namespace aws.GlueTrigger
     [JsiiInterface(nativeType: typeof(IGlueTriggerActions), fullyQualifiedName: "aws.glueTrigger.GlueTriggerActions")]
     public interface IGlueTriggerActions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#arguments GlueTrigger#arguments}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_trigger#arguments GlueTrigger#arguments}.</summary>
         [JsiiProperty(name: "arguments", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Arguments
@@ -18,7 +18,7 @@ namespace aws.GlueTrigger
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#crawler_name GlueTrigger#crawler_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_trigger#crawler_name GlueTrigger#crawler_name}.</summary>
         [JsiiProperty(name: "crawlerName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CrawlerName
@@ -29,7 +29,7 @@ namespace aws.GlueTrigger
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#job_name GlueTrigger#job_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_trigger#job_name GlueTrigger#job_name}.</summary>
         [JsiiProperty(name: "jobName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? JobName
@@ -42,7 +42,7 @@ namespace aws.GlueTrigger
 
         /// <summary>notification_property block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#notification_property GlueTrigger#notification_property}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_trigger#notification_property GlueTrigger#notification_property}
         /// </remarks>
         [JsiiProperty(name: "notificationProperty", typeJson: "{\"fqn\":\"aws.glueTrigger.GlueTriggerActionsNotificationProperty\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace aws.GlueTrigger
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#security_configuration GlueTrigger#security_configuration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_trigger#security_configuration GlueTrigger#security_configuration}.</summary>
         [JsiiProperty(name: "securityConfiguration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SecurityConfiguration
@@ -65,7 +65,7 @@ namespace aws.GlueTrigger
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#timeout GlueTrigger#timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_trigger#timeout GlueTrigger#timeout}.</summary>
         [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Timeout
@@ -83,7 +83,7 @@ namespace aws.GlueTrigger
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#arguments GlueTrigger#arguments}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_trigger#arguments GlueTrigger#arguments}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "arguments", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Arguments
@@ -91,7 +91,7 @@ namespace aws.GlueTrigger
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#crawler_name GlueTrigger#crawler_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_trigger#crawler_name GlueTrigger#crawler_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "crawlerName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CrawlerName
@@ -99,7 +99,7 @@ namespace aws.GlueTrigger
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#job_name GlueTrigger#job_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_trigger#job_name GlueTrigger#job_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "jobName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? JobName
@@ -109,7 +109,7 @@ namespace aws.GlueTrigger
 
             /// <summary>notification_property block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#notification_property GlueTrigger#notification_property}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_trigger#notification_property GlueTrigger#notification_property}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "notificationProperty", typeJson: "{\"fqn\":\"aws.glueTrigger.GlueTriggerActionsNotificationProperty\"}", isOptional: true)]
@@ -118,7 +118,7 @@ namespace aws.GlueTrigger
                 get => GetInstanceProperty<aws.GlueTrigger.IGlueTriggerActionsNotificationProperty?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#security_configuration GlueTrigger#security_configuration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_trigger#security_configuration GlueTrigger#security_configuration}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "securityConfiguration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SecurityConfiguration
@@ -126,7 +126,7 @@ namespace aws.GlueTrigger
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_trigger#timeout GlueTrigger#timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_trigger#timeout GlueTrigger#timeout}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Timeout

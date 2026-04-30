@@ -7,14 +7,14 @@ namespace aws.SagemakerModel
     [JsiiInterface(nativeType: typeof(ISagemakerModelVpcConfig), fullyQualifiedName: "aws.sagemakerModel.SagemakerModelVpcConfig")]
     public interface ISagemakerModelVpcConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#security_group_ids SagemakerModel#security_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#security_group_ids SagemakerModel#security_group_ids}.</summary>
         [JsiiProperty(name: "securityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] SecurityGroupIds
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#subnets SagemakerModel#subnets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#subnets SagemakerModel#subnets}.</summary>
         [JsiiProperty(name: "subnets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Subnets
         {
@@ -28,14 +28,14 @@ namespace aws.SagemakerModel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#security_group_ids SagemakerModel#security_group_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#security_group_ids SagemakerModel#security_group_ids}.</summary>
             [JsiiProperty(name: "securityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] SecurityGroupIds
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_model#subnets SagemakerModel#subnets}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_model#subnets SagemakerModel#subnets}.</summary>
             [JsiiProperty(name: "subnets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Subnets
             {

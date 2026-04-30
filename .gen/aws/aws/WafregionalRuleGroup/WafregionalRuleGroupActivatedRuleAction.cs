@@ -9,7 +9,7 @@ namespace aws.WafregionalRuleGroup
     [JsiiByValue(fqn: "aws.wafregionalRuleGroup.WafregionalRuleGroupActivatedRuleAction")]
     public class WafregionalRuleGroupActivatedRuleAction : aws.WafregionalRuleGroup.IWafregionalRuleGroupActivatedRuleAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_rule_group#type WafregionalRuleGroup#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_rule_group#type WafregionalRuleGroup#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

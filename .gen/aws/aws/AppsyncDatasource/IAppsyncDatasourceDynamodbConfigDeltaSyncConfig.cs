@@ -7,14 +7,14 @@ namespace aws.AppsyncDatasource
     [JsiiInterface(nativeType: typeof(IAppsyncDatasourceDynamodbConfigDeltaSyncConfig), fullyQualifiedName: "aws.appsyncDatasource.AppsyncDatasourceDynamodbConfigDeltaSyncConfig")]
     public interface IAppsyncDatasourceDynamodbConfigDeltaSyncConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#delta_sync_table_name AppsyncDatasource#delta_sync_table_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_datasource#delta_sync_table_name AppsyncDatasource#delta_sync_table_name}.</summary>
         [JsiiProperty(name: "deltaSyncTableName", typeJson: "{\"primitive\":\"string\"}")]
         string DeltaSyncTableName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#base_table_ttl AppsyncDatasource#base_table_ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_datasource#base_table_ttl AppsyncDatasource#base_table_ttl}.</summary>
         [JsiiProperty(name: "baseTableTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BaseTableTtl
@@ -25,7 +25,7 @@ namespace aws.AppsyncDatasource
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#delta_sync_table_ttl AppsyncDatasource#delta_sync_table_ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_datasource#delta_sync_table_ttl AppsyncDatasource#delta_sync_table_ttl}.</summary>
         [JsiiProperty(name: "deltaSyncTableTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? DeltaSyncTableTtl
@@ -43,14 +43,14 @@ namespace aws.AppsyncDatasource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#delta_sync_table_name AppsyncDatasource#delta_sync_table_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_datasource#delta_sync_table_name AppsyncDatasource#delta_sync_table_name}.</summary>
             [JsiiProperty(name: "deltaSyncTableName", typeJson: "{\"primitive\":\"string\"}")]
             public string DeltaSyncTableName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#base_table_ttl AppsyncDatasource#base_table_ttl}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_datasource#base_table_ttl AppsyncDatasource#base_table_ttl}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "baseTableTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BaseTableTtl
@@ -58,7 +58,7 @@ namespace aws.AppsyncDatasource
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_datasource#delta_sync_table_ttl AppsyncDatasource#delta_sync_table_ttl}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_datasource#delta_sync_table_ttl AppsyncDatasource#delta_sync_table_ttl}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "deltaSyncTableTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? DeltaSyncTableTtl

@@ -7,7 +7,7 @@ namespace aws.VpclatticeTargetGroupAttachment
     [JsiiByValue(fqn: "aws.vpclatticeTargetGroupAttachment.VpclatticeTargetGroupAttachmentTimeouts")]
     public class VpclatticeTargetGroupAttachmentTimeouts : aws.VpclatticeTargetGroupAttachment.IVpclatticeTargetGroupAttachmentTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpclattice_target_group_attachment#create VpclatticeTargetGroupAttachment#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpclattice_target_group_attachment#create VpclatticeTargetGroupAttachment#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.VpclatticeTargetGroupAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpclattice_target_group_attachment#delete VpclatticeTargetGroupAttachment#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpclattice_target_group_attachment#delete VpclatticeTargetGroupAttachment#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

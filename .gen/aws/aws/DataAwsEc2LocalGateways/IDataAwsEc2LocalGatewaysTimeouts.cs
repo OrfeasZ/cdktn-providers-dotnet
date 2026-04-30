@@ -7,7 +7,7 @@ namespace aws.DataAwsEc2LocalGateways
     [JsiiInterface(nativeType: typeof(IDataAwsEc2LocalGatewaysTimeouts), fullyQualifiedName: "aws.dataAwsEc2LocalGateways.DataAwsEc2LocalGatewaysTimeouts")]
     public interface IDataAwsEc2LocalGatewaysTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_local_gateways#read DataAwsEc2LocalGateways#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ec2_local_gateways#read DataAwsEc2LocalGateways#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace aws.DataAwsEc2LocalGateways
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_local_gateways#read DataAwsEc2LocalGateways#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ec2_local_gateways#read DataAwsEc2LocalGateways#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

@@ -7,14 +7,14 @@ namespace aws.Inspector2Filter
     [JsiiInterface(nativeType: typeof(IInspector2FilterFilterCriteriaVulnerablePackagesEpoch), fullyQualifiedName: "aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesEpoch")]
     public interface IInspector2FilterFilterCriteriaVulnerablePackagesEpoch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#lower_inclusive Inspector2Filter#lower_inclusive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/inspector2_filter#lower_inclusive Inspector2Filter#lower_inclusive}.</summary>
         [JsiiProperty(name: "lowerInclusive", typeJson: "{\"primitive\":\"number\"}")]
         double LowerInclusive
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#upper_inclusive Inspector2Filter#upper_inclusive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/inspector2_filter#upper_inclusive Inspector2Filter#upper_inclusive}.</summary>
         [JsiiProperty(name: "upperInclusive", typeJson: "{\"primitive\":\"number\"}")]
         double UpperInclusive
         {
@@ -28,14 +28,14 @@ namespace aws.Inspector2Filter
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#lower_inclusive Inspector2Filter#lower_inclusive}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/inspector2_filter#lower_inclusive Inspector2Filter#lower_inclusive}.</summary>
             [JsiiProperty(name: "lowerInclusive", typeJson: "{\"primitive\":\"number\"}")]
             public double LowerInclusive
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#upper_inclusive Inspector2Filter#upper_inclusive}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/inspector2_filter#upper_inclusive Inspector2Filter#upper_inclusive}.</summary>
             [JsiiProperty(name: "upperInclusive", typeJson: "{\"primitive\":\"number\"}")]
             public double UpperInclusive
             {

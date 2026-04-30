@@ -7,7 +7,7 @@ namespace aws.EmrcontainersJobTemplate
     [JsiiInterface(nativeType: typeof(IEmrcontainersJobTemplateJobTemplateDataJobDriverSparkSqlJobDriver), fullyQualifiedName: "aws.emrcontainersJobTemplate.EmrcontainersJobTemplateJobTemplateDataJobDriverSparkSqlJobDriver")]
     public interface IEmrcontainersJobTemplateJobTemplateDataJobDriverSparkSqlJobDriver
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrcontainers_job_template#entry_point EmrcontainersJobTemplate#entry_point}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrcontainers_job_template#entry_point EmrcontainersJobTemplate#entry_point}.</summary>
         [JsiiProperty(name: "entryPoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EntryPoint
@@ -18,7 +18,7 @@ namespace aws.EmrcontainersJobTemplate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrcontainers_job_template#spark_sql_parameters EmrcontainersJobTemplate#spark_sql_parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrcontainers_job_template#spark_sql_parameters EmrcontainersJobTemplate#spark_sql_parameters}.</summary>
         [JsiiProperty(name: "sparkSqlParameters", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SparkSqlParameters
@@ -36,7 +36,7 @@ namespace aws.EmrcontainersJobTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrcontainers_job_template#entry_point EmrcontainersJobTemplate#entry_point}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrcontainers_job_template#entry_point EmrcontainersJobTemplate#entry_point}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "entryPoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EntryPoint
@@ -44,7 +44,7 @@ namespace aws.EmrcontainersJobTemplate
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrcontainers_job_template#spark_sql_parameters EmrcontainersJobTemplate#spark_sql_parameters}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrcontainers_job_template#spark_sql_parameters EmrcontainersJobTemplate#spark_sql_parameters}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sparkSqlParameters", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SparkSqlParameters

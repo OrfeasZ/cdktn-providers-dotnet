@@ -7,7 +7,7 @@ namespace aws.AppflowConnectorProfile
     [JsiiInterface(nativeType: typeof(IAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsHoneycode), fullyQualifiedName: "aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsHoneycode")]
     public interface IAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsHoneycode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}.</summary>
         [JsiiProperty(name: "accessToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessToken
@@ -20,7 +20,7 @@ namespace aws.AppflowConnectorProfile
 
         /// <summary>oauth_request block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
         /// </remarks>
         [JsiiProperty(name: "oauthRequest", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequest\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -32,7 +32,7 @@ namespace aws.AppflowConnectorProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#refresh_token AppflowConnectorProfile#refresh_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_connector_profile#refresh_token AppflowConnectorProfile#refresh_token}.</summary>
         [JsiiProperty(name: "refreshToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RefreshToken
@@ -50,7 +50,7 @@ namespace aws.AppflowConnectorProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessToken
@@ -60,7 +60,7 @@ namespace aws.AppflowConnectorProfile
 
             /// <summary>oauth_request block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oauthRequest", typeJson: "{\"fqn\":\"aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequest\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.AppflowConnectorProfile
                 get => GetInstanceProperty<aws.AppflowConnectorProfile.IAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequest?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#refresh_token AppflowConnectorProfile#refresh_token}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_connector_profile#refresh_token AppflowConnectorProfile#refresh_token}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "refreshToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RefreshToken

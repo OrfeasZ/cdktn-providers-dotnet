@@ -9,7 +9,7 @@ namespace aws.DataAwsStoragegatewayLocalDisk
     [JsiiByValue(fqn: "aws.dataAwsStoragegatewayLocalDisk.DataAwsStoragegatewayLocalDiskConfig")]
     public class DataAwsStoragegatewayLocalDiskConfig : aws.DataAwsStoragegatewayLocalDisk.IDataAwsStoragegatewayLocalDiskConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/storagegateway_local_disk#gateway_arn DataAwsStoragegatewayLocalDisk#gateway_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/storagegateway_local_disk#gateway_arn DataAwsStoragegatewayLocalDisk#gateway_arn}.</summary>
         [JsiiProperty(name: "gatewayArn", typeJson: "{\"primitive\":\"string\"}")]
         public string GatewayArn
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsStoragegatewayLocalDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/storagegateway_local_disk#disk_node DataAwsStoragegatewayLocalDisk#disk_node}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/storagegateway_local_disk#disk_node DataAwsStoragegatewayLocalDisk#disk_node}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "diskNode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DiskNode
@@ -26,7 +26,7 @@ namespace aws.DataAwsStoragegatewayLocalDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/storagegateway_local_disk#disk_path DataAwsStoragegatewayLocalDisk#disk_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/storagegateway_local_disk#disk_path DataAwsStoragegatewayLocalDisk#disk_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "diskPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DiskPath
@@ -35,7 +35,7 @@ namespace aws.DataAwsStoragegatewayLocalDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/storagegateway_local_disk#id DataAwsStoragegatewayLocalDisk#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/storagegateway_local_disk#id DataAwsStoragegatewayLocalDisk#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,7 +50,7 @@ namespace aws.DataAwsStoragegatewayLocalDisk
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/storagegateway_local_disk#region DataAwsStoragegatewayLocalDisk#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/storagegateway_local_disk#region DataAwsStoragegatewayLocalDisk#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

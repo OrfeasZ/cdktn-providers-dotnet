@@ -7,7 +7,7 @@ namespace aws.ServicecatalogBudgetResourceAssociation
     [JsiiByValue(fqn: "aws.servicecatalogBudgetResourceAssociation.ServicecatalogBudgetResourceAssociationTimeouts")]
     public class ServicecatalogBudgetResourceAssociationTimeouts : aws.ServicecatalogBudgetResourceAssociation.IServicecatalogBudgetResourceAssociationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/servicecatalog_budget_resource_association#create ServicecatalogBudgetResourceAssociation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/servicecatalog_budget_resource_association#create ServicecatalogBudgetResourceAssociation#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.ServicecatalogBudgetResourceAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/servicecatalog_budget_resource_association#delete ServicecatalogBudgetResourceAssociation#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/servicecatalog_budget_resource_association#delete ServicecatalogBudgetResourceAssociation#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace aws.ServicecatalogBudgetResourceAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/servicecatalog_budget_resource_association#read ServicecatalogBudgetResourceAssociation#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/servicecatalog_budget_resource_association#read ServicecatalogBudgetResourceAssociation#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

@@ -9,7 +9,7 @@ namespace aws.DevicefarmNetworkProfile
     [JsiiByValue(fqn: "aws.devicefarmNetworkProfile.DevicefarmNetworkProfileConfig")]
     public class DevicefarmNetworkProfileConfig : aws.DevicefarmNetworkProfile.IDevicefarmNetworkProfileConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_network_profile#name DevicefarmNetworkProfile#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_network_profile#name DevicefarmNetworkProfile#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DevicefarmNetworkProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_network_profile#project_arn DevicefarmNetworkProfile#project_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_network_profile#project_arn DevicefarmNetworkProfile#project_arn}.</summary>
         [JsiiProperty(name: "projectArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectArn
         {
@@ -25,7 +25,7 @@ namespace aws.DevicefarmNetworkProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_network_profile#description DevicefarmNetworkProfile#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_network_profile#description DevicefarmNetworkProfile#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -34,7 +34,7 @@ namespace aws.DevicefarmNetworkProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_network_profile#downlink_bandwidth_bits DevicefarmNetworkProfile#downlink_bandwidth_bits}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_network_profile#downlink_bandwidth_bits DevicefarmNetworkProfile#downlink_bandwidth_bits}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "downlinkBandwidthBits", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DownlinkBandwidthBits
@@ -43,7 +43,7 @@ namespace aws.DevicefarmNetworkProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_network_profile#downlink_delay_ms DevicefarmNetworkProfile#downlink_delay_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_network_profile#downlink_delay_ms DevicefarmNetworkProfile#downlink_delay_ms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "downlinkDelayMs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DownlinkDelayMs
@@ -52,7 +52,7 @@ namespace aws.DevicefarmNetworkProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_network_profile#downlink_jitter_ms DevicefarmNetworkProfile#downlink_jitter_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_network_profile#downlink_jitter_ms DevicefarmNetworkProfile#downlink_jitter_ms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "downlinkJitterMs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DownlinkJitterMs
@@ -61,7 +61,7 @@ namespace aws.DevicefarmNetworkProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_network_profile#downlink_loss_percent DevicefarmNetworkProfile#downlink_loss_percent}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_network_profile#downlink_loss_percent DevicefarmNetworkProfile#downlink_loss_percent}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "downlinkLossPercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DownlinkLossPercent
@@ -70,7 +70,7 @@ namespace aws.DevicefarmNetworkProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_network_profile#id DevicefarmNetworkProfile#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_network_profile#id DevicefarmNetworkProfile#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace aws.DevicefarmNetworkProfile
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_network_profile#region DevicefarmNetworkProfile#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_network_profile#region DevicefarmNetworkProfile#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace aws.DevicefarmNetworkProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_network_profile#tags DevicefarmNetworkProfile#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_network_profile#tags DevicefarmNetworkProfile#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -104,7 +104,7 @@ namespace aws.DevicefarmNetworkProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_network_profile#tags_all DevicefarmNetworkProfile#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_network_profile#tags_all DevicefarmNetworkProfile#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -113,7 +113,7 @@ namespace aws.DevicefarmNetworkProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_network_profile#type DevicefarmNetworkProfile#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_network_profile#type DevicefarmNetworkProfile#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type
@@ -122,7 +122,7 @@ namespace aws.DevicefarmNetworkProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_network_profile#uplink_bandwidth_bits DevicefarmNetworkProfile#uplink_bandwidth_bits}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_network_profile#uplink_bandwidth_bits DevicefarmNetworkProfile#uplink_bandwidth_bits}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "uplinkBandwidthBits", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? UplinkBandwidthBits
@@ -131,7 +131,7 @@ namespace aws.DevicefarmNetworkProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_network_profile#uplink_delay_ms DevicefarmNetworkProfile#uplink_delay_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_network_profile#uplink_delay_ms DevicefarmNetworkProfile#uplink_delay_ms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "uplinkDelayMs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? UplinkDelayMs
@@ -140,7 +140,7 @@ namespace aws.DevicefarmNetworkProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_network_profile#uplink_jitter_ms DevicefarmNetworkProfile#uplink_jitter_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_network_profile#uplink_jitter_ms DevicefarmNetworkProfile#uplink_jitter_ms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "uplinkJitterMs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? UplinkJitterMs
@@ -149,7 +149,7 @@ namespace aws.DevicefarmNetworkProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_network_profile#uplink_loss_percent DevicefarmNetworkProfile#uplink_loss_percent}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_network_profile#uplink_loss_percent DevicefarmNetworkProfile#uplink_loss_percent}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "uplinkLossPercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? UplinkLossPercent

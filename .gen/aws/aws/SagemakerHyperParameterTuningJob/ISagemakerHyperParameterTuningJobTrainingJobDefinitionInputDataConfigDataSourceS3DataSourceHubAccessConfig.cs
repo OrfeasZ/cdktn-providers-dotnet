@@ -7,7 +7,7 @@ namespace aws.SagemakerHyperParameterTuningJob
     [JsiiInterface(nativeType: typeof(ISagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfig), fullyQualifiedName: "aws.sagemakerHyperParameterTuningJob.SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfig")]
     public interface ISagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hub_content_arn SagemakerHyperParameterTuningJob#hub_content_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hub_content_arn SagemakerHyperParameterTuningJob#hub_content_arn}.</summary>
         [JsiiProperty(name: "hubContentArn", typeJson: "{\"primitive\":\"string\"}")]
         string HubContentArn
         {
@@ -21,7 +21,7 @@ namespace aws.SagemakerHyperParameterTuningJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hub_content_arn SagemakerHyperParameterTuningJob#hub_content_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hub_content_arn SagemakerHyperParameterTuningJob#hub_content_arn}.</summary>
             [JsiiProperty(name: "hubContentArn", typeJson: "{\"primitive\":\"string\"}")]
             public string HubContentArn
             {

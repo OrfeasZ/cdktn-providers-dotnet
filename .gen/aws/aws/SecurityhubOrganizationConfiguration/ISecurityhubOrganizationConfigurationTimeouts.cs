@@ -7,7 +7,7 @@ namespace aws.SecurityhubOrganizationConfiguration
     [JsiiInterface(nativeType: typeof(ISecurityhubOrganizationConfigurationTimeouts), fullyQualifiedName: "aws.securityhubOrganizationConfiguration.SecurityhubOrganizationConfigurationTimeouts")]
     public interface ISecurityhubOrganizationConfigurationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_organization_configuration#create SecurityhubOrganizationConfiguration#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_organization_configuration#create SecurityhubOrganizationConfiguration#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace aws.SecurityhubOrganizationConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_organization_configuration#delete SecurityhubOrganizationConfiguration#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_organization_configuration#delete SecurityhubOrganizationConfiguration#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace aws.SecurityhubOrganizationConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_organization_configuration#update SecurityhubOrganizationConfiguration#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_organization_configuration#update SecurityhubOrganizationConfiguration#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace aws.SecurityhubOrganizationConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_organization_configuration#create SecurityhubOrganizationConfiguration#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_organization_configuration#create SecurityhubOrganizationConfiguration#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace aws.SecurityhubOrganizationConfiguration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_organization_configuration#delete SecurityhubOrganizationConfiguration#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_organization_configuration#delete SecurityhubOrganizationConfiguration#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace aws.SecurityhubOrganizationConfiguration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_organization_configuration#update SecurityhubOrganizationConfiguration#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_organization_configuration#update SecurityhubOrganizationConfiguration#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

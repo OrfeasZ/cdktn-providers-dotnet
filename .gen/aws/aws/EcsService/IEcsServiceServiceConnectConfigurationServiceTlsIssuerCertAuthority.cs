@@ -7,7 +7,7 @@ namespace aws.EcsService
     [JsiiInterface(nativeType: typeof(IEcsServiceServiceConnectConfigurationServiceTlsIssuerCertAuthority), fullyQualifiedName: "aws.ecsService.EcsServiceServiceConnectConfigurationServiceTlsIssuerCertAuthority")]
     public interface IEcsServiceServiceConnectConfigurationServiceTlsIssuerCertAuthority
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#aws_pca_authority_arn EcsService#aws_pca_authority_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#aws_pca_authority_arn EcsService#aws_pca_authority_arn}.</summary>
         [JsiiProperty(name: "awsPcaAuthorityArn", typeJson: "{\"primitive\":\"string\"}")]
         string AwsPcaAuthorityArn
         {
@@ -21,7 +21,7 @@ namespace aws.EcsService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#aws_pca_authority_arn EcsService#aws_pca_authority_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#aws_pca_authority_arn EcsService#aws_pca_authority_arn}.</summary>
             [JsiiProperty(name: "awsPcaAuthorityArn", typeJson: "{\"primitive\":\"string\"}")]
             public string AwsPcaAuthorityArn
             {

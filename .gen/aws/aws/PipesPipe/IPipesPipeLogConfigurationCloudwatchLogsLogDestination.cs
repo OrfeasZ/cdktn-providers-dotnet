@@ -7,7 +7,7 @@ namespace aws.PipesPipe
     [JsiiInterface(nativeType: typeof(IPipesPipeLogConfigurationCloudwatchLogsLogDestination), fullyQualifiedName: "aws.pipesPipe.PipesPipeLogConfigurationCloudwatchLogsLogDestination")]
     public interface IPipesPipeLogConfigurationCloudwatchLogsLogDestination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#log_group_arn PipesPipe#log_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#log_group_arn PipesPipe#log_group_arn}.</summary>
         [JsiiProperty(name: "logGroupArn", typeJson: "{\"primitive\":\"string\"}")]
         string LogGroupArn
         {
@@ -21,7 +21,7 @@ namespace aws.PipesPipe
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#log_group_arn PipesPipe#log_group_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#log_group_arn PipesPipe#log_group_arn}.</summary>
             [JsiiProperty(name: "logGroupArn", typeJson: "{\"primitive\":\"string\"}")]
             public string LogGroupArn
             {

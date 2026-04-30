@@ -7,7 +7,7 @@ namespace aws.CloudsearchDomain
     [JsiiInterface(nativeType: typeof(ICloudsearchDomainScalingParameters), fullyQualifiedName: "aws.cloudsearchDomain.CloudsearchDomainScalingParameters")]
     public interface ICloudsearchDomainScalingParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#desired_instance_type CloudsearchDomain#desired_instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#desired_instance_type CloudsearchDomain#desired_instance_type}.</summary>
         [JsiiProperty(name: "desiredInstanceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DesiredInstanceType
@@ -18,7 +18,7 @@ namespace aws.CloudsearchDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#desired_partition_count CloudsearchDomain#desired_partition_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#desired_partition_count CloudsearchDomain#desired_partition_count}.</summary>
         [JsiiProperty(name: "desiredPartitionCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? DesiredPartitionCount
@@ -29,7 +29,7 @@ namespace aws.CloudsearchDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#desired_replication_count CloudsearchDomain#desired_replication_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#desired_replication_count CloudsearchDomain#desired_replication_count}.</summary>
         [JsiiProperty(name: "desiredReplicationCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? DesiredReplicationCount
@@ -47,7 +47,7 @@ namespace aws.CloudsearchDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#desired_instance_type CloudsearchDomain#desired_instance_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#desired_instance_type CloudsearchDomain#desired_instance_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "desiredInstanceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DesiredInstanceType
@@ -55,7 +55,7 @@ namespace aws.CloudsearchDomain
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#desired_partition_count CloudsearchDomain#desired_partition_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#desired_partition_count CloudsearchDomain#desired_partition_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "desiredPartitionCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? DesiredPartitionCount
@@ -63,7 +63,7 @@ namespace aws.CloudsearchDomain
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudsearch_domain#desired_replication_count CloudsearchDomain#desired_replication_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudsearch_domain#desired_replication_count CloudsearchDomain#desired_replication_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "desiredReplicationCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? DesiredReplicationCount

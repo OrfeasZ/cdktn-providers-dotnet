@@ -9,7 +9,7 @@ namespace aws.AppmeshVirtualService
     {
         /// <summary>virtual_node block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_service#virtual_node AppmeshVirtualService#virtual_node}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_service#virtual_node AppmeshVirtualService#virtual_node}
         /// </remarks>
         [JsiiProperty(name: "virtualNode", typeJson: "{\"fqn\":\"aws.appmeshVirtualService.AppmeshVirtualServiceSpecProviderVirtualNode\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.AppmeshVirtualService
 
         /// <summary>virtual_router block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_service#virtual_router AppmeshVirtualService#virtual_router}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_service#virtual_router AppmeshVirtualService#virtual_router}
         /// </remarks>
         [JsiiProperty(name: "virtualRouter", typeJson: "{\"fqn\":\"aws.appmeshVirtualService.AppmeshVirtualServiceSpecProviderVirtualRouter\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace aws.AppmeshVirtualService
 
             /// <summary>virtual_node block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_service#virtual_node AppmeshVirtualService#virtual_node}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_service#virtual_node AppmeshVirtualService#virtual_node}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "virtualNode", typeJson: "{\"fqn\":\"aws.appmeshVirtualService.AppmeshVirtualServiceSpecProviderVirtualNode\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace aws.AppmeshVirtualService
 
             /// <summary>virtual_router block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_service#virtual_router AppmeshVirtualService#virtual_router}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_service#virtual_router AppmeshVirtualService#virtual_router}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "virtualRouter", typeJson: "{\"fqn\":\"aws.appmeshVirtualService.AppmeshVirtualServiceSpecProviderVirtualRouter\"}", isOptional: true)]

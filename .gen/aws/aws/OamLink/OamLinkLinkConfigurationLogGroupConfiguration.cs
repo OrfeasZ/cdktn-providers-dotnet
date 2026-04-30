@@ -9,7 +9,7 @@ namespace aws.OamLink
     [JsiiByValue(fqn: "aws.oamLink.OamLinkLinkConfigurationLogGroupConfiguration")]
     public class OamLinkLinkConfigurationLogGroupConfiguration : aws.OamLink.IOamLinkLinkConfigurationLogGroupConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/oam_link#filter OamLink#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/oam_link#filter OamLink#filter}.</summary>
         [JsiiProperty(name: "filter", typeJson: "{\"primitive\":\"string\"}")]
         public string Filter
         {

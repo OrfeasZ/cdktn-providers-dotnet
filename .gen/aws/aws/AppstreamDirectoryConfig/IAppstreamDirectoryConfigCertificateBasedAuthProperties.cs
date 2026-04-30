@@ -7,7 +7,7 @@ namespace aws.AppstreamDirectoryConfig
     [JsiiInterface(nativeType: typeof(IAppstreamDirectoryConfigCertificateBasedAuthProperties), fullyQualifiedName: "aws.appstreamDirectoryConfig.AppstreamDirectoryConfigCertificateBasedAuthProperties")]
     public interface IAppstreamDirectoryConfigCertificateBasedAuthProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_directory_config#certificate_authority_arn AppstreamDirectoryConfig#certificate_authority_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_directory_config#certificate_authority_arn AppstreamDirectoryConfig#certificate_authority_arn}.</summary>
         [JsiiProperty(name: "certificateAuthorityArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CertificateAuthorityArn
@@ -18,7 +18,7 @@ namespace aws.AppstreamDirectoryConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_directory_config#status AppstreamDirectoryConfig#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_directory_config#status AppstreamDirectoryConfig#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Status
@@ -36,7 +36,7 @@ namespace aws.AppstreamDirectoryConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_directory_config#certificate_authority_arn AppstreamDirectoryConfig#certificate_authority_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_directory_config#certificate_authority_arn AppstreamDirectoryConfig#certificate_authority_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "certificateAuthorityArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CertificateAuthorityArn
@@ -44,7 +44,7 @@ namespace aws.AppstreamDirectoryConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_directory_config#status AppstreamDirectoryConfig#status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_directory_config#status AppstreamDirectoryConfig#status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Status

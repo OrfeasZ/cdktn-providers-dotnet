@@ -7,14 +7,14 @@ namespace aws.SagemakerWorkforce
     [JsiiInterface(nativeType: typeof(ISagemakerWorkforceCognitoConfig), fullyQualifiedName: "aws.sagemakerWorkforce.SagemakerWorkforceCognitoConfig")]
     public interface ISagemakerWorkforceCognitoConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workforce#client_id SagemakerWorkforce#client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workforce#client_id SagemakerWorkforce#client_id}.</summary>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         string ClientId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workforce#user_pool SagemakerWorkforce#user_pool}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workforce#user_pool SagemakerWorkforce#user_pool}.</summary>
         [JsiiProperty(name: "userPool", typeJson: "{\"primitive\":\"string\"}")]
         string UserPool
         {
@@ -28,14 +28,14 @@ namespace aws.SagemakerWorkforce
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workforce#client_id SagemakerWorkforce#client_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workforce#client_id SagemakerWorkforce#client_id}.</summary>
             [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
             public string ClientId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workforce#user_pool SagemakerWorkforce#user_pool}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workforce#user_pool SagemakerWorkforce#user_pool}.</summary>
             [JsiiProperty(name: "userPool", typeJson: "{\"primitive\":\"string\"}")]
             public string UserPool
             {

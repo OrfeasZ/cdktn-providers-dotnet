@@ -9,7 +9,7 @@ namespace aws.DataAwsEcrpublicImages
     {
         /// <summary>Image digest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ecrpublic_images#image_digest DataAwsEcrpublicImages#image_digest}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ecrpublic_images#image_digest DataAwsEcrpublicImages#image_digest}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "imageDigest", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.DataAwsEcrpublicImages
 
         /// <summary>Image tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ecrpublic_images#image_tag DataAwsEcrpublicImages#image_tag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ecrpublic_images#image_tag DataAwsEcrpublicImages#image_tag}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "imageTag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

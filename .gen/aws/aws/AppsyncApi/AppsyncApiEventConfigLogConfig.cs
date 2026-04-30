@@ -9,7 +9,7 @@ namespace aws.AppsyncApi
     [JsiiByValue(fqn: "aws.appsyncApi.AppsyncApiEventConfigLogConfig")]
     public class AppsyncApiEventConfigLogConfig : aws.AppsyncApi.IAppsyncApiEventConfigLogConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_api#cloudwatch_logs_role_arn AppsyncApi#cloudwatch_logs_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_api#cloudwatch_logs_role_arn AppsyncApi#cloudwatch_logs_role_arn}.</summary>
         [JsiiProperty(name: "cloudwatchLogsRoleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string CloudwatchLogsRoleArn
         {
@@ -17,7 +17,7 @@ namespace aws.AppsyncApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_api#log_level AppsyncApi#log_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_api#log_level AppsyncApi#log_level}.</summary>
         [JsiiProperty(name: "logLevel", typeJson: "{\"primitive\":\"string\"}")]
         public string LogLevel
         {

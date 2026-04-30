@@ -9,7 +9,7 @@ namespace aws.S3BucketVersioning
     [JsiiByValue(fqn: "aws.s3BucketVersioning.S3BucketVersioningVersioningConfiguration")]
     public class S3BucketVersioningVersioningConfiguration : aws.S3BucketVersioning.IS3BucketVersioningVersioningConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_versioning#status S3BucketVersioningA#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_versioning#status S3BucketVersioningA#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public string Status
         {
@@ -17,7 +17,7 @@ namespace aws.S3BucketVersioning
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_versioning#mfa_delete S3BucketVersioningA#mfa_delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_versioning#mfa_delete S3BucketVersioningA#mfa_delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mfaDelete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MfaDelete

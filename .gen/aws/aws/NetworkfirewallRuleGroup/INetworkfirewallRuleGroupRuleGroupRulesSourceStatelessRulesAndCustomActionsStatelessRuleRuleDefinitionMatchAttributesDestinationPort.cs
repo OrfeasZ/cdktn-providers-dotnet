@@ -7,14 +7,14 @@ namespace aws.NetworkfirewallRuleGroup
     [JsiiInterface(nativeType: typeof(INetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRuleRuleDefinitionMatchAttributesDestinationPort), fullyQualifiedName: "aws.networkfirewallRuleGroup.NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRuleRuleDefinitionMatchAttributesDestinationPort")]
     public interface INetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRuleRuleDefinitionMatchAttributesDestinationPort
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkfirewall_rule_group#from_port NetworkfirewallRuleGroup#from_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkfirewall_rule_group#from_port NetworkfirewallRuleGroup#from_port}.</summary>
         [JsiiProperty(name: "fromPort", typeJson: "{\"primitive\":\"number\"}")]
         double FromPort
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkfirewall_rule_group#to_port NetworkfirewallRuleGroup#to_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkfirewall_rule_group#to_port NetworkfirewallRuleGroup#to_port}.</summary>
         [JsiiProperty(name: "toPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ToPort
@@ -32,14 +32,14 @@ namespace aws.NetworkfirewallRuleGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkfirewall_rule_group#from_port NetworkfirewallRuleGroup#from_port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkfirewall_rule_group#from_port NetworkfirewallRuleGroup#from_port}.</summary>
             [JsiiProperty(name: "fromPort", typeJson: "{\"primitive\":\"number\"}")]
             public double FromPort
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkfirewall_rule_group#to_port NetworkfirewallRuleGroup#to_port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkfirewall_rule_group#to_port NetworkfirewallRuleGroup#to_port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "toPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ToPort

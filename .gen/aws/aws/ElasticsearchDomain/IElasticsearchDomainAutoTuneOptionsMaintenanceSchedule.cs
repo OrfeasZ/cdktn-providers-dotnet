@@ -7,7 +7,7 @@ namespace aws.ElasticsearchDomain
     [JsiiInterface(nativeType: typeof(IElasticsearchDomainAutoTuneOptionsMaintenanceSchedule), fullyQualifiedName: "aws.elasticsearchDomain.ElasticsearchDomainAutoTuneOptionsMaintenanceSchedule")]
     public interface IElasticsearchDomainAutoTuneOptionsMaintenanceSchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#cron_expression_for_recurrence ElasticsearchDomain#cron_expression_for_recurrence}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticsearch_domain#cron_expression_for_recurrence ElasticsearchDomain#cron_expression_for_recurrence}.</summary>
         [JsiiProperty(name: "cronExpressionForRecurrence", typeJson: "{\"primitive\":\"string\"}")]
         string CronExpressionForRecurrence
         {
@@ -16,7 +16,7 @@ namespace aws.ElasticsearchDomain
 
         /// <summary>duration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#duration ElasticsearchDomain#duration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticsearch_domain#duration ElasticsearchDomain#duration}
         /// </remarks>
         [JsiiProperty(name: "duration", typeJson: "{\"fqn\":\"aws.elasticsearchDomain.ElasticsearchDomainAutoTuneOptionsMaintenanceScheduleDuration\"}")]
         aws.ElasticsearchDomain.IElasticsearchDomainAutoTuneOptionsMaintenanceScheduleDuration Duration
@@ -24,7 +24,7 @@ namespace aws.ElasticsearchDomain
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#start_at ElasticsearchDomain#start_at}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticsearch_domain#start_at ElasticsearchDomain#start_at}.</summary>
         [JsiiProperty(name: "startAt", typeJson: "{\"primitive\":\"string\"}")]
         string StartAt
         {
@@ -38,7 +38,7 @@ namespace aws.ElasticsearchDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#cron_expression_for_recurrence ElasticsearchDomain#cron_expression_for_recurrence}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticsearch_domain#cron_expression_for_recurrence ElasticsearchDomain#cron_expression_for_recurrence}.</summary>
             [JsiiProperty(name: "cronExpressionForRecurrence", typeJson: "{\"primitive\":\"string\"}")]
             public string CronExpressionForRecurrence
             {
@@ -47,7 +47,7 @@ namespace aws.ElasticsearchDomain
 
             /// <summary>duration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#duration ElasticsearchDomain#duration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticsearch_domain#duration ElasticsearchDomain#duration}
             /// </remarks>
             [JsiiProperty(name: "duration", typeJson: "{\"fqn\":\"aws.elasticsearchDomain.ElasticsearchDomainAutoTuneOptionsMaintenanceScheduleDuration\"}")]
             public aws.ElasticsearchDomain.IElasticsearchDomainAutoTuneOptionsMaintenanceScheduleDuration Duration
@@ -55,7 +55,7 @@ namespace aws.ElasticsearchDomain
                 get => GetInstanceProperty<aws.ElasticsearchDomain.IElasticsearchDomainAutoTuneOptionsMaintenanceScheduleDuration>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#start_at ElasticsearchDomain#start_at}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticsearch_domain#start_at ElasticsearchDomain#start_at}.</summary>
             [JsiiProperty(name: "startAt", typeJson: "{\"primitive\":\"string\"}")]
             public string StartAt
             {

@@ -9,7 +9,7 @@ namespace aws.IotTopicRule
     [JsiiByValue(fqn: "aws.iotTopicRule.IotTopicRuleErrorActionFirehose")]
     public class IotTopicRuleErrorActionFirehose : aws.IotTopicRule.IIotTopicRuleErrorActionFirehose
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#delivery_stream_name IotTopicRule#delivery_stream_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#delivery_stream_name IotTopicRule#delivery_stream_name}.</summary>
         [JsiiProperty(name: "deliveryStreamName", typeJson: "{\"primitive\":\"string\"}")]
         public string DeliveryStreamName
         {
@@ -17,7 +17,7 @@ namespace aws.IotTopicRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#role_arn IotTopicRule#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#role_arn IotTopicRule#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleArn
         {
@@ -27,7 +27,7 @@ namespace aws.IotTopicRule
 
         private object? _batchMode;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#batch_mode IotTopicRule#batch_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#batch_mode IotTopicRule#batch_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "batchMode", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? BatchMode
@@ -56,7 +56,7 @@ namespace aws.IotTopicRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#separator IotTopicRule#separator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#separator IotTopicRule#separator}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "separator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Separator

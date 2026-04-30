@@ -13,7 +13,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>channel_mappings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#channel_mappings MedialiveChannel#channel_mappings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#channel_mappings MedialiveChannel#channel_mappings}
         /// </remarks>
         [JsiiProperty(name: "channelMappings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptionsRemixSettingsChannelMappings\"},\"kind\":\"array\"}}]}}")]
         public object ChannelMappings
@@ -42,7 +42,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#channels_in MedialiveChannel#channels_in}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#channels_in MedialiveChannel#channels_in}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "channelsIn", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ChannelsIn
@@ -51,7 +51,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#channels_out MedialiveChannel#channels_out}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#channels_out MedialiveChannel#channels_out}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "channelsOut", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ChannelsOut

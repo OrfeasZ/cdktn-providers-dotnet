@@ -7,7 +7,7 @@ namespace aws.DocdbClusterSnapshot
     [JsiiInterface(nativeType: typeof(IDocdbClusterSnapshotTimeouts), fullyQualifiedName: "aws.docdbClusterSnapshot.DocdbClusterSnapshotTimeouts")]
     public interface IDocdbClusterSnapshotTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/docdb_cluster_snapshot#create DocdbClusterSnapshot#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/docdb_cluster_snapshot#create DocdbClusterSnapshot#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -25,7 +25,7 @@ namespace aws.DocdbClusterSnapshot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/docdb_cluster_snapshot#create DocdbClusterSnapshot#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/docdb_cluster_snapshot#create DocdbClusterSnapshot#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create

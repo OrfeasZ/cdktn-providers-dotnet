@@ -9,7 +9,7 @@ namespace aws.MskCluster
     {
         /// <summary>cloudwatch_logs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#cloudwatch_logs MskCluster#cloudwatch_logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#cloudwatch_logs MskCluster#cloudwatch_logs}
         /// </remarks>
         [JsiiProperty(name: "cloudwatchLogs", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterLoggingInfoBrokerLogsCloudwatchLogs\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.MskCluster
 
         /// <summary>firehose block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#firehose MskCluster#firehose}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#firehose MskCluster#firehose}
         /// </remarks>
         [JsiiProperty(name: "firehose", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterLoggingInfoBrokerLogsFirehose\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.MskCluster
 
         /// <summary>s3 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#s3 MskCluster#s3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#s3 MskCluster#s3}
         /// </remarks>
         [JsiiProperty(name: "s3", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterLoggingInfoBrokerLogsS3\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace aws.MskCluster
 
             /// <summary>cloudwatch_logs block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#cloudwatch_logs MskCluster#cloudwatch_logs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#cloudwatch_logs MskCluster#cloudwatch_logs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudwatchLogs", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterLoggingInfoBrokerLogsCloudwatchLogs\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.MskCluster
 
             /// <summary>firehose block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#firehose MskCluster#firehose}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#firehose MskCluster#firehose}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "firehose", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterLoggingInfoBrokerLogsFirehose\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace aws.MskCluster
 
             /// <summary>s3 block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#s3 MskCluster#s3}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#s3 MskCluster#s3}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterLoggingInfoBrokerLogsS3\"}", isOptional: true)]

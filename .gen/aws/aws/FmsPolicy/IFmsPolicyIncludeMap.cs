@@ -7,7 +7,7 @@ namespace aws.FmsPolicy
     [JsiiInterface(nativeType: typeof(IFmsPolicyIncludeMap), fullyQualifiedName: "aws.fmsPolicy.FmsPolicyIncludeMap")]
     public interface IFmsPolicyIncludeMap
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_policy#account FmsPolicy#account}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fms_policy#account FmsPolicy#account}.</summary>
         [JsiiProperty(name: "account", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Account
@@ -18,7 +18,7 @@ namespace aws.FmsPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_policy#orgunit FmsPolicy#orgunit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fms_policy#orgunit FmsPolicy#orgunit}.</summary>
         [JsiiProperty(name: "orgunit", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Orgunit
@@ -36,7 +36,7 @@ namespace aws.FmsPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_policy#account FmsPolicy#account}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fms_policy#account FmsPolicy#account}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "account", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Account
@@ -44,7 +44,7 @@ namespace aws.FmsPolicy
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_policy#orgunit FmsPolicy#orgunit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fms_policy#orgunit FmsPolicy#orgunit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "orgunit", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Orgunit

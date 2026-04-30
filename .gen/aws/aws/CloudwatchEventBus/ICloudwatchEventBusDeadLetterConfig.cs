@@ -7,7 +7,7 @@ namespace aws.CloudwatchEventBus
     [JsiiInterface(nativeType: typeof(ICloudwatchEventBusDeadLetterConfig), fullyQualifiedName: "aws.cloudwatchEventBus.CloudwatchEventBusDeadLetterConfig")]
     public interface ICloudwatchEventBusDeadLetterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_bus#arn CloudwatchEventBus#arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_bus#arn CloudwatchEventBus#arn}.</summary>
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Arn
@@ -25,7 +25,7 @@ namespace aws.CloudwatchEventBus
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_bus#arn CloudwatchEventBus#arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_bus#arn CloudwatchEventBus#arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Arn

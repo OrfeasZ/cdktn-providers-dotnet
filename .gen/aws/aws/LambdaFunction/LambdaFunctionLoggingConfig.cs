@@ -9,7 +9,7 @@ namespace aws.LambdaFunction
     [JsiiByValue(fqn: "aws.lambdaFunction.LambdaFunctionLoggingConfig")]
     public class LambdaFunctionLoggingConfig : aws.LambdaFunction.ILambdaFunctionLoggingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function#log_format LambdaFunction#log_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_function#log_format LambdaFunction#log_format}.</summary>
         [JsiiProperty(name: "logFormat", typeJson: "{\"primitive\":\"string\"}")]
         public string LogFormat
         {
@@ -17,7 +17,7 @@ namespace aws.LambdaFunction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function#application_log_level LambdaFunction#application_log_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_function#application_log_level LambdaFunction#application_log_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "applicationLogLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApplicationLogLevel
@@ -26,7 +26,7 @@ namespace aws.LambdaFunction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function#log_group LambdaFunction#log_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_function#log_group LambdaFunction#log_group}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogGroup
@@ -35,7 +35,7 @@ namespace aws.LambdaFunction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function#system_log_level LambdaFunction#system_log_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_function#system_log_level LambdaFunction#system_log_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "systemLogLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SystemLogLevel

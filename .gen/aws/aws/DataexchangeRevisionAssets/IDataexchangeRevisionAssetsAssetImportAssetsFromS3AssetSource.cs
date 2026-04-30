@@ -7,14 +7,14 @@ namespace aws.DataexchangeRevisionAssets
     [JsiiInterface(nativeType: typeof(IDataexchangeRevisionAssetsAssetImportAssetsFromS3AssetSource), fullyQualifiedName: "aws.dataexchangeRevisionAssets.DataexchangeRevisionAssetsAssetImportAssetsFromS3AssetSource")]
     public interface IDataexchangeRevisionAssetsAssetImportAssetsFromS3AssetSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dataexchange_revision_assets#bucket DataexchangeRevisionAssets#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dataexchange_revision_assets#bucket DataexchangeRevisionAssets#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         string Bucket
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dataexchange_revision_assets#key DataexchangeRevisionAssets#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dataexchange_revision_assets#key DataexchangeRevisionAssets#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
         {
@@ -28,14 +28,14 @@ namespace aws.DataexchangeRevisionAssets
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dataexchange_revision_assets#bucket DataexchangeRevisionAssets#bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dataexchange_revision_assets#bucket DataexchangeRevisionAssets#bucket}.</summary>
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
             public string Bucket
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dataexchange_revision_assets#key DataexchangeRevisionAssets#key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dataexchange_revision_assets#key DataexchangeRevisionAssets#key}.</summary>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key
             {

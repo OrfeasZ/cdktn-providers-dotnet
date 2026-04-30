@@ -7,28 +7,28 @@ namespace aws.EmrStudioSessionMapping
     [JsiiInterface(nativeType: typeof(IEmrStudioSessionMappingConfig), fullyQualifiedName: "aws.emrStudioSessionMapping.EmrStudioSessionMappingConfig")]
     public interface IEmrStudioSessionMappingConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_studio_session_mapping#identity_type EmrStudioSessionMapping#identity_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_studio_session_mapping#identity_type EmrStudioSessionMapping#identity_type}.</summary>
         [JsiiProperty(name: "identityType", typeJson: "{\"primitive\":\"string\"}")]
         string IdentityType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_studio_session_mapping#session_policy_arn EmrStudioSessionMapping#session_policy_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_studio_session_mapping#session_policy_arn EmrStudioSessionMapping#session_policy_arn}.</summary>
         [JsiiProperty(name: "sessionPolicyArn", typeJson: "{\"primitive\":\"string\"}")]
         string SessionPolicyArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_studio_session_mapping#studio_id EmrStudioSessionMapping#studio_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_studio_session_mapping#studio_id EmrStudioSessionMapping#studio_id}.</summary>
         [JsiiProperty(name: "studioId", typeJson: "{\"primitive\":\"string\"}")]
         string StudioId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_studio_session_mapping#id EmrStudioSessionMapping#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_studio_session_mapping#id EmrStudioSessionMapping#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,7 +43,7 @@ namespace aws.EmrStudioSessionMapping
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_studio_session_mapping#identity_id EmrStudioSessionMapping#identity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_studio_session_mapping#identity_id EmrStudioSessionMapping#identity_id}.</summary>
         [JsiiProperty(name: "identityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IdentityId
@@ -54,7 +54,7 @@ namespace aws.EmrStudioSessionMapping
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_studio_session_mapping#identity_name EmrStudioSessionMapping#identity_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_studio_session_mapping#identity_name EmrStudioSessionMapping#identity_name}.</summary>
         [JsiiProperty(name: "identityName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IdentityName
@@ -67,7 +67,7 @@ namespace aws.EmrStudioSessionMapping
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_studio_session_mapping#region EmrStudioSessionMapping#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_studio_session_mapping#region EmrStudioSessionMapping#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -86,28 +86,28 @@ namespace aws.EmrStudioSessionMapping
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_studio_session_mapping#identity_type EmrStudioSessionMapping#identity_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_studio_session_mapping#identity_type EmrStudioSessionMapping#identity_type}.</summary>
             [JsiiProperty(name: "identityType", typeJson: "{\"primitive\":\"string\"}")]
             public string IdentityType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_studio_session_mapping#session_policy_arn EmrStudioSessionMapping#session_policy_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_studio_session_mapping#session_policy_arn EmrStudioSessionMapping#session_policy_arn}.</summary>
             [JsiiProperty(name: "sessionPolicyArn", typeJson: "{\"primitive\":\"string\"}")]
             public string SessionPolicyArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_studio_session_mapping#studio_id EmrStudioSessionMapping#studio_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_studio_session_mapping#studio_id EmrStudioSessionMapping#studio_id}.</summary>
             [JsiiProperty(name: "studioId", typeJson: "{\"primitive\":\"string\"}")]
             public string StudioId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_studio_session_mapping#id EmrStudioSessionMapping#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_studio_session_mapping#id EmrStudioSessionMapping#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -119,7 +119,7 @@ namespace aws.EmrStudioSessionMapping
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_studio_session_mapping#identity_id EmrStudioSessionMapping#identity_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_studio_session_mapping#identity_id EmrStudioSessionMapping#identity_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "identityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IdentityId
@@ -127,7 +127,7 @@ namespace aws.EmrStudioSessionMapping
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_studio_session_mapping#identity_name EmrStudioSessionMapping#identity_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_studio_session_mapping#identity_name EmrStudioSessionMapping#identity_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "identityName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IdentityName
@@ -137,7 +137,7 @@ namespace aws.EmrStudioSessionMapping
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_studio_session_mapping#region EmrStudioSessionMapping#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_studio_session_mapping#region EmrStudioSessionMapping#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

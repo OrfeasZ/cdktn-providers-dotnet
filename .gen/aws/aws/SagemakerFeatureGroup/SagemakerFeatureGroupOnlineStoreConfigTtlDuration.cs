@@ -7,7 +7,7 @@ namespace aws.SagemakerFeatureGroup
     [JsiiByValue(fqn: "aws.sagemakerFeatureGroup.SagemakerFeatureGroupOnlineStoreConfigTtlDuration")]
     public class SagemakerFeatureGroupOnlineStoreConfigTtlDuration : aws.SagemakerFeatureGroup.ISagemakerFeatureGroupOnlineStoreConfigTtlDuration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#unit SagemakerFeatureGroup#unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_feature_group#unit SagemakerFeatureGroup#unit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Unit
@@ -16,7 +16,7 @@ namespace aws.SagemakerFeatureGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#value SagemakerFeatureGroup#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_feature_group#value SagemakerFeatureGroup#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Value

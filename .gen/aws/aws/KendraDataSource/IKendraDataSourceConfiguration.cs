@@ -9,7 +9,7 @@ namespace aws.KendraDataSource
     {
         /// <summary>s3_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#s3_configuration KendraDataSource#s3_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#s3_configuration KendraDataSource#s3_configuration}
         /// </remarks>
         [JsiiProperty(name: "s3Configuration", typeJson: "{\"fqn\":\"aws.kendraDataSource.KendraDataSourceConfigurationS3Configuration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.KendraDataSource
 
         /// <summary>template_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#template_configuration KendraDataSource#template_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#template_configuration KendraDataSource#template_configuration}
         /// </remarks>
         [JsiiProperty(name: "templateConfiguration", typeJson: "{\"fqn\":\"aws.kendraDataSource.KendraDataSourceConfigurationTemplateConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.KendraDataSource
 
         /// <summary>web_crawler_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#web_crawler_configuration KendraDataSource#web_crawler_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#web_crawler_configuration KendraDataSource#web_crawler_configuration}
         /// </remarks>
         [JsiiProperty(name: "webCrawlerConfiguration", typeJson: "{\"fqn\":\"aws.kendraDataSource.KendraDataSourceConfigurationWebCrawlerConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace aws.KendraDataSource
 
             /// <summary>s3_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#s3_configuration KendraDataSource#s3_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#s3_configuration KendraDataSource#s3_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3Configuration", typeJson: "{\"fqn\":\"aws.kendraDataSource.KendraDataSourceConfigurationS3Configuration\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.KendraDataSource
 
             /// <summary>template_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#template_configuration KendraDataSource#template_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#template_configuration KendraDataSource#template_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "templateConfiguration", typeJson: "{\"fqn\":\"aws.kendraDataSource.KendraDataSourceConfigurationTemplateConfiguration\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace aws.KendraDataSource
 
             /// <summary>web_crawler_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#web_crawler_configuration KendraDataSource#web_crawler_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#web_crawler_configuration KendraDataSource#web_crawler_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "webCrawlerConfiguration", typeJson: "{\"fqn\":\"aws.kendraDataSource.KendraDataSourceConfigurationWebCrawlerConfiguration\"}", isOptional: true)]

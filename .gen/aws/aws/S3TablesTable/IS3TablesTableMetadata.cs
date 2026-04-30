@@ -9,7 +9,7 @@ namespace aws.S3TablesTable
     {
         /// <summary>iceberg block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table#iceberg S3TablesTable#iceberg}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3tables_table#iceberg S3TablesTable#iceberg}
         /// </remarks>
         [JsiiProperty(name: "iceberg", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3TablesTable.S3TablesTableMetadataIceberg\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.S3TablesTable
 
             /// <summary>iceberg block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table#iceberg S3TablesTable#iceberg}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3tables_table#iceberg S3TablesTable#iceberg}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "iceberg", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3TablesTable.S3TablesTableMetadataIceberg\"},\"kind\":\"array\"}}]}}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace aws.OpensearchPackageAssociation
     [JsiiByValue(fqn: "aws.opensearchPackageAssociation.OpensearchPackageAssociationTimeouts")]
     public class OpensearchPackageAssociationTimeouts : aws.OpensearchPackageAssociation.IOpensearchPackageAssociationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_package_association#create OpensearchPackageAssociation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_package_association#create OpensearchPackageAssociation#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.OpensearchPackageAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_package_association#delete OpensearchPackageAssociation#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_package_association#delete OpensearchPackageAssociation#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

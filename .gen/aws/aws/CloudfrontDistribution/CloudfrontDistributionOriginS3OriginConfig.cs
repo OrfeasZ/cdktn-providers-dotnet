@@ -9,7 +9,7 @@ namespace aws.CloudfrontDistribution
     [JsiiByValue(fqn: "aws.cloudfrontDistribution.CloudfrontDistributionOriginS3OriginConfig")]
     public class CloudfrontDistributionOriginS3OriginConfig : aws.CloudfrontDistribution.ICloudfrontDistributionOriginS3OriginConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#origin_access_identity CloudfrontDistribution#origin_access_identity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#origin_access_identity CloudfrontDistribution#origin_access_identity}.</summary>
         [JsiiProperty(name: "originAccessIdentity", typeJson: "{\"primitive\":\"string\"}")]
         public string OriginAccessIdentity
         {

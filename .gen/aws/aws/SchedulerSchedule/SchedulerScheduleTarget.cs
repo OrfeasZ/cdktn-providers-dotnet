@@ -9,7 +9,7 @@ namespace aws.SchedulerSchedule
     [JsiiByValue(fqn: "aws.schedulerSchedule.SchedulerScheduleTarget")]
     public class SchedulerScheduleTarget : aws.SchedulerSchedule.ISchedulerScheduleTarget
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}.</summary>
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
         public string Arn
         {
@@ -17,7 +17,7 @@ namespace aws.SchedulerSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#role_arn SchedulerSchedule#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/scheduler_schedule#role_arn SchedulerSchedule#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleArn
         {
@@ -27,7 +27,7 @@ namespace aws.SchedulerSchedule
 
         /// <summary>dead_letter_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#dead_letter_config SchedulerSchedule#dead_letter_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/scheduler_schedule#dead_letter_config SchedulerSchedule#dead_letter_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deadLetterConfig", typeJson: "{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetDeadLetterConfig\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace aws.SchedulerSchedule
 
         /// <summary>ecs_parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#ecs_parameters SchedulerSchedule#ecs_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/scheduler_schedule#ecs_parameters SchedulerSchedule#ecs_parameters}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ecsParameters", typeJson: "{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetEcsParameters\"}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace aws.SchedulerSchedule
 
         /// <summary>eventbridge_parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#eventbridge_parameters SchedulerSchedule#eventbridge_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/scheduler_schedule#eventbridge_parameters SchedulerSchedule#eventbridge_parameters}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eventbridgeParameters", typeJson: "{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetEventbridgeParameters\"}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace aws.SchedulerSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#input SchedulerSchedule#input}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/scheduler_schedule#input SchedulerSchedule#input}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "input", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Input
@@ -72,7 +72,7 @@ namespace aws.SchedulerSchedule
 
         /// <summary>kinesis_parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#kinesis_parameters SchedulerSchedule#kinesis_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/scheduler_schedule#kinesis_parameters SchedulerSchedule#kinesis_parameters}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kinesisParameters", typeJson: "{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetKinesisParameters\"}", isOptional: true)]
@@ -84,7 +84,7 @@ namespace aws.SchedulerSchedule
 
         /// <summary>retry_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#retry_policy SchedulerSchedule#retry_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/scheduler_schedule#retry_policy SchedulerSchedule#retry_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retryPolicy", typeJson: "{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetRetryPolicy\"}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace aws.SchedulerSchedule
 
         /// <summary>sagemaker_pipeline_parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#sagemaker_pipeline_parameters SchedulerSchedule#sagemaker_pipeline_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/scheduler_schedule#sagemaker_pipeline_parameters SchedulerSchedule#sagemaker_pipeline_parameters}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sagemakerPipelineParameters", typeJson: "{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetSagemakerPipelineParameters\"}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace aws.SchedulerSchedule
 
         /// <summary>sqs_parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/scheduler_schedule#sqs_parameters SchedulerSchedule#sqs_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/scheduler_schedule#sqs_parameters SchedulerSchedule#sqs_parameters}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sqsParameters", typeJson: "{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetSqsParameters\"}", isOptional: true)]

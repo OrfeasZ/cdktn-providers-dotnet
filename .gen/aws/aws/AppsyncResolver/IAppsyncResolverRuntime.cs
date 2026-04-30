@@ -7,14 +7,14 @@ namespace aws.AppsyncResolver
     [JsiiInterface(nativeType: typeof(IAppsyncResolverRuntime), fullyQualifiedName: "aws.appsyncResolver.AppsyncResolverRuntime")]
     public interface IAppsyncResolverRuntime
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#name AppsyncResolver#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_resolver#name AppsyncResolver#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#runtime_version AppsyncResolver#runtime_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_resolver#runtime_version AppsyncResolver#runtime_version}.</summary>
         [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}")]
         string RuntimeVersion
         {
@@ -28,14 +28,14 @@ namespace aws.AppsyncResolver
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#name AppsyncResolver#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_resolver#name AppsyncResolver#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#runtime_version AppsyncResolver#runtime_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_resolver#runtime_version AppsyncResolver#runtime_version}.</summary>
             [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string RuntimeVersion
             {

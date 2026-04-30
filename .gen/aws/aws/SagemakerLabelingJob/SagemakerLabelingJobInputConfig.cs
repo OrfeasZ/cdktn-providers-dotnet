@@ -11,7 +11,7 @@ namespace aws.SagemakerLabelingJob
 
         /// <summary>data_attributes block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_labeling_job#data_attributes SagemakerLabelingJob#data_attributes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_labeling_job#data_attributes SagemakerLabelingJob#data_attributes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataAttributes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerLabelingJob.SagemakerLabelingJobInputConfigDataAttributes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace aws.SagemakerLabelingJob
 
         /// <summary>data_source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_labeling_job#data_source SagemakerLabelingJob#data_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_labeling_job#data_source SagemakerLabelingJob#data_source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataSource", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerLabelingJob.SagemakerLabelingJobInputConfigDataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]

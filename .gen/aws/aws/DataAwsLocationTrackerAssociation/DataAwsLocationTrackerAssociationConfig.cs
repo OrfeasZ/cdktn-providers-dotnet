@@ -9,7 +9,7 @@ namespace aws.DataAwsLocationTrackerAssociation
     [JsiiByValue(fqn: "aws.dataAwsLocationTrackerAssociation.DataAwsLocationTrackerAssociationConfig")]
     public class DataAwsLocationTrackerAssociationConfig : aws.DataAwsLocationTrackerAssociation.IDataAwsLocationTrackerAssociationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/location_tracker_association#consumer_arn DataAwsLocationTrackerAssociation#consumer_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/location_tracker_association#consumer_arn DataAwsLocationTrackerAssociation#consumer_arn}.</summary>
         [JsiiProperty(name: "consumerArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ConsumerArn
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsLocationTrackerAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/location_tracker_association#tracker_name DataAwsLocationTrackerAssociation#tracker_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/location_tracker_association#tracker_name DataAwsLocationTrackerAssociation#tracker_name}.</summary>
         [JsiiProperty(name: "trackerName", typeJson: "{\"primitive\":\"string\"}")]
         public string TrackerName
         {
@@ -25,7 +25,7 @@ namespace aws.DataAwsLocationTrackerAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/location_tracker_association#id DataAwsLocationTrackerAssociation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/location_tracker_association#id DataAwsLocationTrackerAssociation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace aws.DataAwsLocationTrackerAssociation
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/location_tracker_association#region DataAwsLocationTrackerAssociation#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/location_tracker_association#region DataAwsLocationTrackerAssociation#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

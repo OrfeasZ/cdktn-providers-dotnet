@@ -9,7 +9,7 @@ namespace aws.QuicksightDataSet
     [JsiiByValue(fqn: "aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSql")]
     public class QuicksightDataSetPhysicalTableMapCustomSql : aws.QuicksightDataSet.IQuicksightDataSetPhysicalTableMapCustomSql
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#data_source_arn QuicksightDataSet#data_source_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#data_source_arn QuicksightDataSet#data_source_arn}.</summary>
         [JsiiProperty(name: "dataSourceArn", typeJson: "{\"primitive\":\"string\"}")]
         public string DataSourceArn
         {
@@ -17,7 +17,7 @@ namespace aws.QuicksightDataSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#name QuicksightDataSet#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#name QuicksightDataSet#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace aws.QuicksightDataSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#sql_query QuicksightDataSet#sql_query}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#sql_query QuicksightDataSet#sql_query}.</summary>
         [JsiiProperty(name: "sqlQuery", typeJson: "{\"primitive\":\"string\"}")]
         public string SqlQuery
         {
@@ -37,7 +37,7 @@ namespace aws.QuicksightDataSet
 
         /// <summary>columns block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#columns QuicksightDataSet#columns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#columns QuicksightDataSet#columns}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "columns", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSqlColumns\"},\"kind\":\"array\"}}]}}", isOptional: true)]

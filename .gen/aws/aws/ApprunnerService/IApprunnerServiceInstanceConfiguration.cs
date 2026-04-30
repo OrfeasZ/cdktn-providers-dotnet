@@ -7,7 +7,7 @@ namespace aws.ApprunnerService
     [JsiiInterface(nativeType: typeof(IApprunnerServiceInstanceConfiguration), fullyQualifiedName: "aws.apprunnerService.ApprunnerServiceInstanceConfiguration")]
     public interface IApprunnerServiceInstanceConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#cpu ApprunnerService#cpu}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#cpu ApprunnerService#cpu}.</summary>
         [JsiiProperty(name: "cpu", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Cpu
@@ -18,7 +18,7 @@ namespace aws.ApprunnerService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#instance_role_arn ApprunnerService#instance_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#instance_role_arn ApprunnerService#instance_role_arn}.</summary>
         [JsiiProperty(name: "instanceRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InstanceRoleArn
@@ -29,7 +29,7 @@ namespace aws.ApprunnerService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#memory ApprunnerService#memory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#memory ApprunnerService#memory}.</summary>
         [JsiiProperty(name: "memory", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Memory
@@ -47,7 +47,7 @@ namespace aws.ApprunnerService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#cpu ApprunnerService#cpu}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#cpu ApprunnerService#cpu}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "cpu", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Cpu
@@ -55,7 +55,7 @@ namespace aws.ApprunnerService
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#instance_role_arn ApprunnerService#instance_role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#instance_role_arn ApprunnerService#instance_role_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instanceRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InstanceRoleArn
@@ -63,7 +63,7 @@ namespace aws.ApprunnerService
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#memory ApprunnerService#memory}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#memory ApprunnerService#memory}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "memory", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Memory

@@ -9,7 +9,7 @@ namespace aws.SagemakerEndpointConfiguration
     [JsiiByValue(fqn: "aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationProductionVariantsServerlessConfig")]
     public class SagemakerEndpointConfigurationProductionVariantsServerlessConfig : aws.SagemakerEndpointConfiguration.ISagemakerEndpointConfigurationProductionVariantsServerlessConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_endpoint_configuration#max_concurrency SagemakerEndpointConfiguration#max_concurrency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_endpoint_configuration#max_concurrency SagemakerEndpointConfiguration#max_concurrency}.</summary>
         [JsiiProperty(name: "maxConcurrency", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxConcurrency
         {
@@ -17,7 +17,7 @@ namespace aws.SagemakerEndpointConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_endpoint_configuration#memory_size_in_mb SagemakerEndpointConfiguration#memory_size_in_mb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_endpoint_configuration#memory_size_in_mb SagemakerEndpointConfiguration#memory_size_in_mb}.</summary>
         [JsiiProperty(name: "memorySizeInMb", typeJson: "{\"primitive\":\"number\"}")]
         public double MemorySizeInMb
         {
@@ -25,7 +25,7 @@ namespace aws.SagemakerEndpointConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_endpoint_configuration#provisioned_concurrency SagemakerEndpointConfiguration#provisioned_concurrency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_endpoint_configuration#provisioned_concurrency SagemakerEndpointConfiguration#provisioned_concurrency}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "provisionedConcurrency", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ProvisionedConcurrency

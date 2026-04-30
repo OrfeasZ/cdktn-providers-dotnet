@@ -7,28 +7,28 @@ namespace aws.ConnectQueue
     [JsiiInterface(nativeType: typeof(IConnectQueueConfig), fullyQualifiedName: "aws.connectQueue.ConnectQueueConfig")]
     public interface IConnectQueueConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#hours_of_operation_id ConnectQueue#hours_of_operation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#hours_of_operation_id ConnectQueue#hours_of_operation_id}.</summary>
         [JsiiProperty(name: "hoursOfOperationId", typeJson: "{\"primitive\":\"string\"}")]
         string HoursOfOperationId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#instance_id ConnectQueue#instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#instance_id ConnectQueue#instance_id}.</summary>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         string InstanceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#name ConnectQueue#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#name ConnectQueue#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#description ConnectQueue#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#description ConnectQueue#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -39,7 +39,7 @@ namespace aws.ConnectQueue
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#id ConnectQueue#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#id ConnectQueue#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,7 +54,7 @@ namespace aws.ConnectQueue
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#max_contacts ConnectQueue#max_contacts}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#max_contacts ConnectQueue#max_contacts}.</summary>
         [JsiiProperty(name: "maxContacts", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxContacts
@@ -67,7 +67,7 @@ namespace aws.ConnectQueue
 
         /// <summary>outbound_caller_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#outbound_caller_config ConnectQueue#outbound_caller_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#outbound_caller_config ConnectQueue#outbound_caller_config}
         /// </remarks>
         [JsiiProperty(name: "outboundCallerConfig", typeJson: "{\"fqn\":\"aws.connectQueue.ConnectQueueOutboundCallerConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +79,7 @@ namespace aws.ConnectQueue
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#quick_connect_ids ConnectQueue#quick_connect_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#quick_connect_ids ConnectQueue#quick_connect_ids}.</summary>
         [JsiiProperty(name: "quickConnectIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? QuickConnectIds
@@ -92,7 +92,7 @@ namespace aws.ConnectQueue
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#region ConnectQueue#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#region ConnectQueue#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -104,7 +104,7 @@ namespace aws.ConnectQueue
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#status ConnectQueue#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#status ConnectQueue#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Status
@@ -115,7 +115,7 @@ namespace aws.ConnectQueue
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#tags ConnectQueue#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#tags ConnectQueue#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -126,7 +126,7 @@ namespace aws.ConnectQueue
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#tags_all ConnectQueue#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#tags_all ConnectQueue#tags_all}.</summary>
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -144,28 +144,28 @@ namespace aws.ConnectQueue
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#hours_of_operation_id ConnectQueue#hours_of_operation_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#hours_of_operation_id ConnectQueue#hours_of_operation_id}.</summary>
             [JsiiProperty(name: "hoursOfOperationId", typeJson: "{\"primitive\":\"string\"}")]
             public string HoursOfOperationId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#instance_id ConnectQueue#instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#instance_id ConnectQueue#instance_id}.</summary>
             [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string InstanceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#name ConnectQueue#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#name ConnectQueue#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#description ConnectQueue#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#description ConnectQueue#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -173,7 +173,7 @@ namespace aws.ConnectQueue
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#id ConnectQueue#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#id ConnectQueue#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -185,7 +185,7 @@ namespace aws.ConnectQueue
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#max_contacts ConnectQueue#max_contacts}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#max_contacts ConnectQueue#max_contacts}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxContacts", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxContacts
@@ -195,7 +195,7 @@ namespace aws.ConnectQueue
 
             /// <summary>outbound_caller_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#outbound_caller_config ConnectQueue#outbound_caller_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#outbound_caller_config ConnectQueue#outbound_caller_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "outboundCallerConfig", typeJson: "{\"fqn\":\"aws.connectQueue.ConnectQueueOutboundCallerConfig\"}", isOptional: true)]
@@ -204,7 +204,7 @@ namespace aws.ConnectQueue
                 get => GetInstanceProperty<aws.ConnectQueue.IConnectQueueOutboundCallerConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#quick_connect_ids ConnectQueue#quick_connect_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#quick_connect_ids ConnectQueue#quick_connect_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "quickConnectIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? QuickConnectIds
@@ -214,7 +214,7 @@ namespace aws.ConnectQueue
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#region ConnectQueue#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#region ConnectQueue#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -223,7 +223,7 @@ namespace aws.ConnectQueue
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#status ConnectQueue#status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#status ConnectQueue#status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Status
@@ -231,7 +231,7 @@ namespace aws.ConnectQueue
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#tags ConnectQueue#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#tags ConnectQueue#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -239,7 +239,7 @@ namespace aws.ConnectQueue
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_queue#tags_all ConnectQueue#tags_all}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_queue#tags_all ConnectQueue#tags_all}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? TagsAll

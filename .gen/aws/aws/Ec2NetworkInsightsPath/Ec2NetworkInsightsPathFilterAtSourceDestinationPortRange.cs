@@ -7,7 +7,7 @@ namespace aws.Ec2NetworkInsightsPath
     [JsiiByValue(fqn: "aws.ec2NetworkInsightsPath.Ec2NetworkInsightsPathFilterAtSourceDestinationPortRange")]
     public class Ec2NetworkInsightsPathFilterAtSourceDestinationPortRange : aws.Ec2NetworkInsightsPath.IEc2NetworkInsightsPathFilterAtSourceDestinationPortRange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_network_insights_path#from_port Ec2NetworkInsightsPath#from_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_network_insights_path#from_port Ec2NetworkInsightsPath#from_port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fromPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FromPort
@@ -16,7 +16,7 @@ namespace aws.Ec2NetworkInsightsPath
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_network_insights_path#to_port Ec2NetworkInsightsPath#to_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_network_insights_path#to_port Ec2NetworkInsightsPath#to_port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "toPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ToPort

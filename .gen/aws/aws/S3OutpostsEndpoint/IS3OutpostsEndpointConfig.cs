@@ -7,28 +7,28 @@ namespace aws.S3OutpostsEndpoint
     [JsiiInterface(nativeType: typeof(IS3OutpostsEndpointConfig), fullyQualifiedName: "aws.s3OutpostsEndpoint.S3OutpostsEndpointConfig")]
     public interface IS3OutpostsEndpointConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3outposts_endpoint#outpost_id S3OutpostsEndpoint#outpost_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3outposts_endpoint#outpost_id S3OutpostsEndpoint#outpost_id}.</summary>
         [JsiiProperty(name: "outpostId", typeJson: "{\"primitive\":\"string\"}")]
         string OutpostId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3outposts_endpoint#security_group_id S3OutpostsEndpoint#security_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3outposts_endpoint#security_group_id S3OutpostsEndpoint#security_group_id}.</summary>
         [JsiiProperty(name: "securityGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string SecurityGroupId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3outposts_endpoint#subnet_id S3OutpostsEndpoint#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3outposts_endpoint#subnet_id S3OutpostsEndpoint#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         string SubnetId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3outposts_endpoint#access_type S3OutpostsEndpoint#access_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3outposts_endpoint#access_type S3OutpostsEndpoint#access_type}.</summary>
         [JsiiProperty(name: "accessType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessType
@@ -39,7 +39,7 @@ namespace aws.S3OutpostsEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3outposts_endpoint#customer_owned_ipv4_pool S3OutpostsEndpoint#customer_owned_ipv4_pool}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3outposts_endpoint#customer_owned_ipv4_pool S3OutpostsEndpoint#customer_owned_ipv4_pool}.</summary>
         [JsiiProperty(name: "customerOwnedIpv4Pool", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CustomerOwnedIpv4Pool
@@ -50,7 +50,7 @@ namespace aws.S3OutpostsEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3outposts_endpoint#id S3OutpostsEndpoint#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3outposts_endpoint#id S3OutpostsEndpoint#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,7 +67,7 @@ namespace aws.S3OutpostsEndpoint
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3outposts_endpoint#region S3OutpostsEndpoint#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3outposts_endpoint#region S3OutpostsEndpoint#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -86,28 +86,28 @@ namespace aws.S3OutpostsEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3outposts_endpoint#outpost_id S3OutpostsEndpoint#outpost_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3outposts_endpoint#outpost_id S3OutpostsEndpoint#outpost_id}.</summary>
             [JsiiProperty(name: "outpostId", typeJson: "{\"primitive\":\"string\"}")]
             public string OutpostId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3outposts_endpoint#security_group_id S3OutpostsEndpoint#security_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3outposts_endpoint#security_group_id S3OutpostsEndpoint#security_group_id}.</summary>
             [JsiiProperty(name: "securityGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string SecurityGroupId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3outposts_endpoint#subnet_id S3OutpostsEndpoint#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3outposts_endpoint#subnet_id S3OutpostsEndpoint#subnet_id}.</summary>
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubnetId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3outposts_endpoint#access_type S3OutpostsEndpoint#access_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3outposts_endpoint#access_type S3OutpostsEndpoint#access_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessType
@@ -115,7 +115,7 @@ namespace aws.S3OutpostsEndpoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3outposts_endpoint#customer_owned_ipv4_pool S3OutpostsEndpoint#customer_owned_ipv4_pool}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3outposts_endpoint#customer_owned_ipv4_pool S3OutpostsEndpoint#customer_owned_ipv4_pool}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "customerOwnedIpv4Pool", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CustomerOwnedIpv4Pool
@@ -123,7 +123,7 @@ namespace aws.S3OutpostsEndpoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3outposts_endpoint#id S3OutpostsEndpoint#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3outposts_endpoint#id S3OutpostsEndpoint#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -137,7 +137,7 @@ namespace aws.S3OutpostsEndpoint
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3outposts_endpoint#region S3OutpostsEndpoint#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3outposts_endpoint#region S3OutpostsEndpoint#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

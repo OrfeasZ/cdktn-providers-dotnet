@@ -9,7 +9,7 @@ namespace aws.CeCostCategory
     {
         /// <summary>cost_category block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
         /// </remarks>
         [JsiiProperty(name: "costCategory", typeJson: "{\"fqn\":\"aws.ceCostCategory.CeCostCategoryRuleRuleOrAndCostCategory\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.CeCostCategory
 
         /// <summary>dimension block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
         /// </remarks>
         [JsiiProperty(name: "dimension", typeJson: "{\"fqn\":\"aws.ceCostCategory.CeCostCategoryRuleRuleOrAndDimension\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.CeCostCategory
 
         /// <summary>tags block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"fqn\":\"aws.ceCostCategory.CeCostCategoryRuleRuleOrAndTags\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace aws.CeCostCategory
 
             /// <summary>cost_category block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "costCategory", typeJson: "{\"fqn\":\"aws.ceCostCategory.CeCostCategoryRuleRuleOrAndCostCategory\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.CeCostCategory
 
             /// <summary>dimension block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dimension", typeJson: "{\"fqn\":\"aws.ceCostCategory.CeCostCategoryRuleRuleOrAndDimension\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace aws.CeCostCategory
 
             /// <summary>tags block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"fqn\":\"aws.ceCostCategory.CeCostCategoryRuleRuleOrAndTags\"}", isOptional: true)]

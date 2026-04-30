@@ -9,7 +9,7 @@ namespace aws.AppsyncGraphqlApi
     [JsiiByValue(fqn: "aws.appsyncGraphqlApi.AppsyncGraphqlApiLogConfig")]
     public class AppsyncGraphqlApiLogConfig : aws.AppsyncGraphqlApi.IAppsyncGraphqlApiLogConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_graphql_api#cloudwatch_logs_role_arn AppsyncGraphqlApi#cloudwatch_logs_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_graphql_api#cloudwatch_logs_role_arn AppsyncGraphqlApi#cloudwatch_logs_role_arn}.</summary>
         [JsiiProperty(name: "cloudwatchLogsRoleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string CloudwatchLogsRoleArn
         {
@@ -17,7 +17,7 @@ namespace aws.AppsyncGraphqlApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_graphql_api#field_log_level AppsyncGraphqlApi#field_log_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_graphql_api#field_log_level AppsyncGraphqlApi#field_log_level}.</summary>
         [JsiiProperty(name: "fieldLogLevel", typeJson: "{\"primitive\":\"string\"}")]
         public string FieldLogLevel
         {
@@ -27,7 +27,7 @@ namespace aws.AppsyncGraphqlApi
 
         private object? _excludeVerboseContent;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_graphql_api#exclude_verbose_content AppsyncGraphqlApi#exclude_verbose_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_graphql_api#exclude_verbose_content AppsyncGraphqlApi#exclude_verbose_content}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "excludeVerboseContent", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? ExcludeVerboseContent

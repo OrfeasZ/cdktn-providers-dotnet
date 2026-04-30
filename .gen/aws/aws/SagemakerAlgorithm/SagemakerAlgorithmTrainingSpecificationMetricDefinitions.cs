@@ -9,7 +9,7 @@ namespace aws.SagemakerAlgorithm
     [JsiiByValue(fqn: "aws.sagemakerAlgorithm.SagemakerAlgorithmTrainingSpecificationMetricDefinitions")]
     public class SagemakerAlgorithmTrainingSpecificationMetricDefinitions : aws.SagemakerAlgorithm.ISagemakerAlgorithmTrainingSpecificationMetricDefinitions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#name SagemakerAlgorithm#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#name SagemakerAlgorithm#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.SagemakerAlgorithm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#regex SagemakerAlgorithm#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#regex SagemakerAlgorithm#regex}.</summary>
         [JsiiProperty(name: "regex", typeJson: "{\"primitive\":\"string\"}")]
         public string Regex
         {

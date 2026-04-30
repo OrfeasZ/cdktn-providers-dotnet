@@ -9,7 +9,7 @@ namespace aws.RbinRule
     [JsiiByValue(fqn: "aws.rbinRule.RbinRuleExcludeResourceTags")]
     public class RbinRuleExcludeResourceTags : aws.RbinRule.IRbinRuleExcludeResourceTags
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rbin_rule#resource_tag_key RbinRule#resource_tag_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rbin_rule#resource_tag_key RbinRule#resource_tag_key}.</summary>
         [JsiiProperty(name: "resourceTagKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceTagKey
         {
@@ -17,7 +17,7 @@ namespace aws.RbinRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rbin_rule#resource_tag_value RbinRule#resource_tag_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rbin_rule#resource_tag_value RbinRule#resource_tag_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTagValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTagValue

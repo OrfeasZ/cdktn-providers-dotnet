@@ -7,21 +7,21 @@ namespace aws.EmrInstanceGroup
     [JsiiInterface(nativeType: typeof(IEmrInstanceGroupConfig), fullyQualifiedName: "aws.emrInstanceGroup.EmrInstanceGroupConfig")]
     public interface IEmrInstanceGroupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#cluster_id EmrInstanceGroup#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#cluster_id EmrInstanceGroup#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         string ClusterId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#instance_type EmrInstanceGroup#instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#instance_type EmrInstanceGroup#instance_type}.</summary>
         [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}")]
         string InstanceType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#autoscaling_policy EmrInstanceGroup#autoscaling_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#autoscaling_policy EmrInstanceGroup#autoscaling_policy}.</summary>
         [JsiiProperty(name: "autoscalingPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AutoscalingPolicy
@@ -32,7 +32,7 @@ namespace aws.EmrInstanceGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#bid_price EmrInstanceGroup#bid_price}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#bid_price EmrInstanceGroup#bid_price}.</summary>
         [JsiiProperty(name: "bidPrice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BidPrice
@@ -43,7 +43,7 @@ namespace aws.EmrInstanceGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#configurations_json EmrInstanceGroup#configurations_json}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#configurations_json EmrInstanceGroup#configurations_json}.</summary>
         [JsiiProperty(name: "configurationsJson", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ConfigurationsJson
@@ -56,7 +56,7 @@ namespace aws.EmrInstanceGroup
 
         /// <summary>ebs_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#ebs_config EmrInstanceGroup#ebs_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#ebs_config EmrInstanceGroup#ebs_config}
         /// </remarks>
         [JsiiProperty(name: "ebsConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrInstanceGroup.EmrInstanceGroupEbsConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,7 +68,7 @@ namespace aws.EmrInstanceGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#ebs_optimized EmrInstanceGroup#ebs_optimized}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#ebs_optimized EmrInstanceGroup#ebs_optimized}.</summary>
         [JsiiProperty(name: "ebsOptimized", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? EbsOptimized
@@ -79,7 +79,7 @@ namespace aws.EmrInstanceGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#id EmrInstanceGroup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#id EmrInstanceGroup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -94,7 +94,7 @@ namespace aws.EmrInstanceGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#instance_count EmrInstanceGroup#instance_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#instance_count EmrInstanceGroup#instance_count}.</summary>
         [JsiiProperty(name: "instanceCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InstanceCount
@@ -105,7 +105,7 @@ namespace aws.EmrInstanceGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#name EmrInstanceGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#name EmrInstanceGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -118,7 +118,7 @@ namespace aws.EmrInstanceGroup
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#region EmrInstanceGroup#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#region EmrInstanceGroup#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -137,21 +137,21 @@ namespace aws.EmrInstanceGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#cluster_id EmrInstanceGroup#cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#cluster_id EmrInstanceGroup#cluster_id}.</summary>
             [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
             public string ClusterId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#instance_type EmrInstanceGroup#instance_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#instance_type EmrInstanceGroup#instance_type}.</summary>
             [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}")]
             public string InstanceType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#autoscaling_policy EmrInstanceGroup#autoscaling_policy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#autoscaling_policy EmrInstanceGroup#autoscaling_policy}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autoscalingPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AutoscalingPolicy
@@ -159,7 +159,7 @@ namespace aws.EmrInstanceGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#bid_price EmrInstanceGroup#bid_price}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#bid_price EmrInstanceGroup#bid_price}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bidPrice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BidPrice
@@ -167,7 +167,7 @@ namespace aws.EmrInstanceGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#configurations_json EmrInstanceGroup#configurations_json}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#configurations_json EmrInstanceGroup#configurations_json}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "configurationsJson", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ConfigurationsJson
@@ -177,7 +177,7 @@ namespace aws.EmrInstanceGroup
 
             /// <summary>ebs_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#ebs_config EmrInstanceGroup#ebs_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#ebs_config EmrInstanceGroup#ebs_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ebsConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrInstanceGroup.EmrInstanceGroupEbsConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -186,7 +186,7 @@ namespace aws.EmrInstanceGroup
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#ebs_optimized EmrInstanceGroup#ebs_optimized}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#ebs_optimized EmrInstanceGroup#ebs_optimized}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ebsOptimized", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? EbsOptimized
@@ -194,7 +194,7 @@ namespace aws.EmrInstanceGroup
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#id EmrInstanceGroup#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#id EmrInstanceGroup#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -206,7 +206,7 @@ namespace aws.EmrInstanceGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#instance_count EmrInstanceGroup#instance_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#instance_count EmrInstanceGroup#instance_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instanceCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InstanceCount
@@ -214,7 +214,7 @@ namespace aws.EmrInstanceGroup
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#name EmrInstanceGroup#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#name EmrInstanceGroup#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -224,7 +224,7 @@ namespace aws.EmrInstanceGroup
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_instance_group#region EmrInstanceGroup#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_instance_group#region EmrInstanceGroup#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

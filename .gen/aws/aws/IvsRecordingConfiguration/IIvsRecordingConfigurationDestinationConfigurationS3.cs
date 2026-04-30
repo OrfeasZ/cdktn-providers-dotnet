@@ -7,7 +7,7 @@ namespace aws.IvsRecordingConfiguration
     [JsiiInterface(nativeType: typeof(IIvsRecordingConfigurationDestinationConfigurationS3), fullyQualifiedName: "aws.ivsRecordingConfiguration.IvsRecordingConfigurationDestinationConfigurationS3")]
     public interface IIvsRecordingConfigurationDestinationConfigurationS3
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ivs_recording_configuration#bucket_name IvsRecordingConfiguration#bucket_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ivs_recording_configuration#bucket_name IvsRecordingConfiguration#bucket_name}.</summary>
         [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
         string BucketName
         {
@@ -21,7 +21,7 @@ namespace aws.IvsRecordingConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ivs_recording_configuration#bucket_name IvsRecordingConfiguration#bucket_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ivs_recording_configuration#bucket_name IvsRecordingConfiguration#bucket_name}.</summary>
             [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
             public string BucketName
             {

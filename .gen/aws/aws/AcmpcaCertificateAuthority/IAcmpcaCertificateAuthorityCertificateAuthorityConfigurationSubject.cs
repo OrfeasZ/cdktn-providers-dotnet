@@ -7,7 +7,7 @@ namespace aws.AcmpcaCertificateAuthority
     [JsiiInterface(nativeType: typeof(IAcmpcaCertificateAuthorityCertificateAuthorityConfigurationSubject), fullyQualifiedName: "aws.acmpcaCertificateAuthority.AcmpcaCertificateAuthorityCertificateAuthorityConfigurationSubject")]
     public interface IAcmpcaCertificateAuthorityCertificateAuthorityConfigurationSubject
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#common_name AcmpcaCertificateAuthority#common_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#common_name AcmpcaCertificateAuthority#common_name}.</summary>
         [JsiiProperty(name: "commonName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CommonName
@@ -18,7 +18,7 @@ namespace aws.AcmpcaCertificateAuthority
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#country AcmpcaCertificateAuthority#country}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#country AcmpcaCertificateAuthority#country}.</summary>
         [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Country
@@ -29,7 +29,7 @@ namespace aws.AcmpcaCertificateAuthority
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#distinguished_name_qualifier AcmpcaCertificateAuthority#distinguished_name_qualifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#distinguished_name_qualifier AcmpcaCertificateAuthority#distinguished_name_qualifier}.</summary>
         [JsiiProperty(name: "distinguishedNameQualifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DistinguishedNameQualifier
@@ -40,7 +40,7 @@ namespace aws.AcmpcaCertificateAuthority
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#generation_qualifier AcmpcaCertificateAuthority#generation_qualifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#generation_qualifier AcmpcaCertificateAuthority#generation_qualifier}.</summary>
         [JsiiProperty(name: "generationQualifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GenerationQualifier
@@ -51,7 +51,7 @@ namespace aws.AcmpcaCertificateAuthority
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#given_name AcmpcaCertificateAuthority#given_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#given_name AcmpcaCertificateAuthority#given_name}.</summary>
         [JsiiProperty(name: "givenName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GivenName
@@ -62,7 +62,7 @@ namespace aws.AcmpcaCertificateAuthority
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#initials AcmpcaCertificateAuthority#initials}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#initials AcmpcaCertificateAuthority#initials}.</summary>
         [JsiiProperty(name: "initials", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Initials
@@ -73,7 +73,7 @@ namespace aws.AcmpcaCertificateAuthority
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#locality AcmpcaCertificateAuthority#locality}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#locality AcmpcaCertificateAuthority#locality}.</summary>
         [JsiiProperty(name: "locality", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Locality
@@ -84,7 +84,7 @@ namespace aws.AcmpcaCertificateAuthority
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#organization AcmpcaCertificateAuthority#organization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#organization AcmpcaCertificateAuthority#organization}.</summary>
         [JsiiProperty(name: "organization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Organization
@@ -95,7 +95,7 @@ namespace aws.AcmpcaCertificateAuthority
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#organizational_unit AcmpcaCertificateAuthority#organizational_unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#organizational_unit AcmpcaCertificateAuthority#organizational_unit}.</summary>
         [JsiiProperty(name: "organizationalUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OrganizationalUnit
@@ -106,7 +106,7 @@ namespace aws.AcmpcaCertificateAuthority
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#pseudonym AcmpcaCertificateAuthority#pseudonym}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#pseudonym AcmpcaCertificateAuthority#pseudonym}.</summary>
         [JsiiProperty(name: "pseudonym", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Pseudonym
@@ -117,7 +117,7 @@ namespace aws.AcmpcaCertificateAuthority
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#state AcmpcaCertificateAuthority#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#state AcmpcaCertificateAuthority#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -128,7 +128,7 @@ namespace aws.AcmpcaCertificateAuthority
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#surname AcmpcaCertificateAuthority#surname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#surname AcmpcaCertificateAuthority#surname}.</summary>
         [JsiiProperty(name: "surname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Surname
@@ -139,7 +139,7 @@ namespace aws.AcmpcaCertificateAuthority
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#title AcmpcaCertificateAuthority#title}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#title AcmpcaCertificateAuthority#title}.</summary>
         [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Title
@@ -157,7 +157,7 @@ namespace aws.AcmpcaCertificateAuthority
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#common_name AcmpcaCertificateAuthority#common_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#common_name AcmpcaCertificateAuthority#common_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "commonName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CommonName
@@ -165,7 +165,7 @@ namespace aws.AcmpcaCertificateAuthority
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#country AcmpcaCertificateAuthority#country}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#country AcmpcaCertificateAuthority#country}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Country
@@ -173,7 +173,7 @@ namespace aws.AcmpcaCertificateAuthority
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#distinguished_name_qualifier AcmpcaCertificateAuthority#distinguished_name_qualifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#distinguished_name_qualifier AcmpcaCertificateAuthority#distinguished_name_qualifier}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "distinguishedNameQualifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DistinguishedNameQualifier
@@ -181,7 +181,7 @@ namespace aws.AcmpcaCertificateAuthority
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#generation_qualifier AcmpcaCertificateAuthority#generation_qualifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#generation_qualifier AcmpcaCertificateAuthority#generation_qualifier}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "generationQualifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GenerationQualifier
@@ -189,7 +189,7 @@ namespace aws.AcmpcaCertificateAuthority
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#given_name AcmpcaCertificateAuthority#given_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#given_name AcmpcaCertificateAuthority#given_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "givenName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GivenName
@@ -197,7 +197,7 @@ namespace aws.AcmpcaCertificateAuthority
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#initials AcmpcaCertificateAuthority#initials}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#initials AcmpcaCertificateAuthority#initials}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "initials", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Initials
@@ -205,7 +205,7 @@ namespace aws.AcmpcaCertificateAuthority
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#locality AcmpcaCertificateAuthority#locality}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#locality AcmpcaCertificateAuthority#locality}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "locality", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Locality
@@ -213,7 +213,7 @@ namespace aws.AcmpcaCertificateAuthority
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#organization AcmpcaCertificateAuthority#organization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#organization AcmpcaCertificateAuthority#organization}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "organization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Organization
@@ -221,7 +221,7 @@ namespace aws.AcmpcaCertificateAuthority
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#organizational_unit AcmpcaCertificateAuthority#organizational_unit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#organizational_unit AcmpcaCertificateAuthority#organizational_unit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "organizationalUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OrganizationalUnit
@@ -229,7 +229,7 @@ namespace aws.AcmpcaCertificateAuthority
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#pseudonym AcmpcaCertificateAuthority#pseudonym}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#pseudonym AcmpcaCertificateAuthority#pseudonym}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "pseudonym", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Pseudonym
@@ -237,7 +237,7 @@ namespace aws.AcmpcaCertificateAuthority
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#state AcmpcaCertificateAuthority#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#state AcmpcaCertificateAuthority#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State
@@ -245,7 +245,7 @@ namespace aws.AcmpcaCertificateAuthority
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#surname AcmpcaCertificateAuthority#surname}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#surname AcmpcaCertificateAuthority#surname}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "surname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Surname
@@ -253,7 +253,7 @@ namespace aws.AcmpcaCertificateAuthority
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#title AcmpcaCertificateAuthority#title}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#title AcmpcaCertificateAuthority#title}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Title

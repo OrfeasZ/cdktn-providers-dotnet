@@ -9,7 +9,7 @@ namespace aws.CloudfrontKeyGroup
     [JsiiByValue(fqn: "aws.cloudfrontKeyGroup.CloudfrontKeyGroupConfig")]
     public class CloudfrontKeyGroupConfig : aws.CloudfrontKeyGroup.ICloudfrontKeyGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_key_group#items CloudfrontKeyGroup#items}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_key_group#items CloudfrontKeyGroup#items}.</summary>
         [JsiiProperty(name: "items", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Items
         {
@@ -17,7 +17,7 @@ namespace aws.CloudfrontKeyGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_key_group#name CloudfrontKeyGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_key_group#name CloudfrontKeyGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace aws.CloudfrontKeyGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_key_group#comment CloudfrontKeyGroup#comment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_key_group#comment CloudfrontKeyGroup#comment}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Comment
@@ -34,7 +34,7 @@ namespace aws.CloudfrontKeyGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_key_group#id CloudfrontKeyGroup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_key_group#id CloudfrontKeyGroup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

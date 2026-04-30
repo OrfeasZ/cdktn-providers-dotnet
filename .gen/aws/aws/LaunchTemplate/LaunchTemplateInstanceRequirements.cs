@@ -11,7 +11,7 @@ namespace aws.LaunchTemplate
     {
         /// <summary>memory_mib block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#memory_mib LaunchTemplate#memory_mib}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#memory_mib LaunchTemplate#memory_mib}
         /// </remarks>
         [JsiiProperty(name: "memoryMib", typeJson: "{\"fqn\":\"aws.launchTemplate.LaunchTemplateInstanceRequirementsMemoryMib\"}")]
         public aws.LaunchTemplate.ILaunchTemplateInstanceRequirementsMemoryMib MemoryMib
@@ -22,7 +22,7 @@ namespace aws.LaunchTemplate
 
         /// <summary>vcpu_count block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#vcpu_count LaunchTemplate#vcpu_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#vcpu_count LaunchTemplate#vcpu_count}
         /// </remarks>
         [JsiiProperty(name: "vcpuCount", typeJson: "{\"fqn\":\"aws.launchTemplate.LaunchTemplateInstanceRequirementsVcpuCount\"}")]
         public aws.LaunchTemplate.ILaunchTemplateInstanceRequirementsVcpuCount VcpuCount
@@ -33,7 +33,7 @@ namespace aws.LaunchTemplate
 
         /// <summary>accelerator_count block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#accelerator_count LaunchTemplate#accelerator_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#accelerator_count LaunchTemplate#accelerator_count}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "acceleratorCount", typeJson: "{\"fqn\":\"aws.launchTemplate.LaunchTemplateInstanceRequirementsAcceleratorCount\"}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#accelerator_manufacturers LaunchTemplate#accelerator_manufacturers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#accelerator_manufacturers LaunchTemplate#accelerator_manufacturers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "acceleratorManufacturers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AcceleratorManufacturers
@@ -52,7 +52,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#accelerator_names LaunchTemplate#accelerator_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#accelerator_names LaunchTemplate#accelerator_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "acceleratorNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AcceleratorNames
@@ -63,7 +63,7 @@ namespace aws.LaunchTemplate
 
         /// <summary>accelerator_total_memory_mib block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#accelerator_total_memory_mib LaunchTemplate#accelerator_total_memory_mib}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#accelerator_total_memory_mib LaunchTemplate#accelerator_total_memory_mib}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "acceleratorTotalMemoryMib", typeJson: "{\"fqn\":\"aws.launchTemplate.LaunchTemplateInstanceRequirementsAcceleratorTotalMemoryMib\"}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#accelerator_types LaunchTemplate#accelerator_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#accelerator_types LaunchTemplate#accelerator_types}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "acceleratorTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AcceleratorTypes
@@ -82,7 +82,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#allowed_instance_types LaunchTemplate#allowed_instance_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#allowed_instance_types LaunchTemplate#allowed_instance_types}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "allowedInstanceTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AllowedInstanceTypes
@@ -91,7 +91,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#bare_metal LaunchTemplate#bare_metal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#bare_metal LaunchTemplate#bare_metal}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bareMetal", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BareMetal
@@ -102,7 +102,7 @@ namespace aws.LaunchTemplate
 
         /// <summary>baseline_ebs_bandwidth_mbps block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#baseline_ebs_bandwidth_mbps LaunchTemplate#baseline_ebs_bandwidth_mbps}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#baseline_ebs_bandwidth_mbps LaunchTemplate#baseline_ebs_bandwidth_mbps}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "baselineEbsBandwidthMbps", typeJson: "{\"fqn\":\"aws.launchTemplate.LaunchTemplateInstanceRequirementsBaselineEbsBandwidthMbps\"}", isOptional: true)]
@@ -112,7 +112,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#burstable_performance LaunchTemplate#burstable_performance}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#burstable_performance LaunchTemplate#burstable_performance}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "burstablePerformance", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BurstablePerformance
@@ -121,7 +121,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#cpu_manufacturers LaunchTemplate#cpu_manufacturers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#cpu_manufacturers LaunchTemplate#cpu_manufacturers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cpuManufacturers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? CpuManufacturers
@@ -130,7 +130,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#excluded_instance_types LaunchTemplate#excluded_instance_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#excluded_instance_types LaunchTemplate#excluded_instance_types}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "excludedInstanceTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ExcludedInstanceTypes
@@ -139,7 +139,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#instance_generations LaunchTemplate#instance_generations}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#instance_generations LaunchTemplate#instance_generations}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "instanceGenerations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? InstanceGenerations
@@ -148,7 +148,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#local_storage LaunchTemplate#local_storage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#local_storage LaunchTemplate#local_storage}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "localStorage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LocalStorage
@@ -157,7 +157,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#local_storage_types LaunchTemplate#local_storage_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#local_storage_types LaunchTemplate#local_storage_types}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "localStorageTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? LocalStorageTypes
@@ -166,7 +166,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#max_spot_price_as_percentage_of_optimal_on_demand_price LaunchTemplate#max_spot_price_as_percentage_of_optimal_on_demand_price}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#max_spot_price_as_percentage_of_optimal_on_demand_price LaunchTemplate#max_spot_price_as_percentage_of_optimal_on_demand_price}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxSpotPriceAsPercentageOfOptimalOnDemandPrice", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxSpotPriceAsPercentageOfOptimalOnDemandPrice
@@ -177,7 +177,7 @@ namespace aws.LaunchTemplate
 
         /// <summary>memory_gib_per_vcpu block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#memory_gib_per_vcpu LaunchTemplate#memory_gib_per_vcpu}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#memory_gib_per_vcpu LaunchTemplate#memory_gib_per_vcpu}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "memoryGibPerVcpu", typeJson: "{\"fqn\":\"aws.launchTemplate.LaunchTemplateInstanceRequirementsMemoryGibPerVcpu\"}", isOptional: true)]
@@ -189,7 +189,7 @@ namespace aws.LaunchTemplate
 
         /// <summary>network_bandwidth_gbps block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#network_bandwidth_gbps LaunchTemplate#network_bandwidth_gbps}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#network_bandwidth_gbps LaunchTemplate#network_bandwidth_gbps}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkBandwidthGbps", typeJson: "{\"fqn\":\"aws.launchTemplate.LaunchTemplateInstanceRequirementsNetworkBandwidthGbps\"}", isOptional: true)]
@@ -201,7 +201,7 @@ namespace aws.LaunchTemplate
 
         /// <summary>network_interface_count block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#network_interface_count LaunchTemplate#network_interface_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#network_interface_count LaunchTemplate#network_interface_count}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkInterfaceCount", typeJson: "{\"fqn\":\"aws.launchTemplate.LaunchTemplateInstanceRequirementsNetworkInterfaceCount\"}", isOptional: true)]
@@ -211,7 +211,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#on_demand_max_price_percentage_over_lowest_price LaunchTemplate#on_demand_max_price_percentage_over_lowest_price}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#on_demand_max_price_percentage_over_lowest_price LaunchTemplate#on_demand_max_price_percentage_over_lowest_price}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "onDemandMaxPricePercentageOverLowestPrice", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? OnDemandMaxPricePercentageOverLowestPrice
@@ -222,7 +222,7 @@ namespace aws.LaunchTemplate
 
         private object? _requireHibernateSupport;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#require_hibernate_support LaunchTemplate#require_hibernate_support}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#require_hibernate_support LaunchTemplate#require_hibernate_support}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "requireHibernateSupport", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? RequireHibernateSupport
@@ -251,7 +251,7 @@ namespace aws.LaunchTemplate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#spot_max_price_percentage_over_lowest_price LaunchTemplate#spot_max_price_percentage_over_lowest_price}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#spot_max_price_percentage_over_lowest_price LaunchTemplate#spot_max_price_percentage_over_lowest_price}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "spotMaxPricePercentageOverLowestPrice", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SpotMaxPricePercentageOverLowestPrice
@@ -262,7 +262,7 @@ namespace aws.LaunchTemplate
 
         /// <summary>total_local_storage_gb block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#total_local_storage_gb LaunchTemplate#total_local_storage_gb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#total_local_storage_gb LaunchTemplate#total_local_storage_gb}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "totalLocalStorageGb", typeJson: "{\"fqn\":\"aws.launchTemplate.LaunchTemplateInstanceRequirementsTotalLocalStorageGb\"}", isOptional: true)]

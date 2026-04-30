@@ -7,7 +7,7 @@ namespace aws.CodedeployDeploymentGroup
     [JsiiInterface(nativeType: typeof(ICodedeployDeploymentGroupEc2TagSetEc2TagFilter), fullyQualifiedName: "aws.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSetEc2TagFilter")]
     public interface ICodedeployDeploymentGroupEc2TagSetEc2TagFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Key
@@ -18,7 +18,7 @@ namespace aws.CodedeployDeploymentGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
@@ -29,7 +29,7 @@ namespace aws.CodedeployDeploymentGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Value
@@ -47,7 +47,7 @@ namespace aws.CodedeployDeploymentGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Key
@@ -55,7 +55,7 @@ namespace aws.CodedeployDeploymentGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type
@@ -63,7 +63,7 @@ namespace aws.CodedeployDeploymentGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Value

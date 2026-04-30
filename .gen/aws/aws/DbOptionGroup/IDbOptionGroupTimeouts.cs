@@ -7,7 +7,7 @@ namespace aws.DbOptionGroup
     [JsiiInterface(nativeType: typeof(IDbOptionGroupTimeouts), fullyQualifiedName: "aws.dbOptionGroup.DbOptionGroupTimeouts")]
     public interface IDbOptionGroupTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_option_group#delete DbOptionGroup#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_option_group#delete DbOptionGroup#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -25,7 +25,7 @@ namespace aws.DbOptionGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_option_group#delete DbOptionGroup#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_option_group#delete DbOptionGroup#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete

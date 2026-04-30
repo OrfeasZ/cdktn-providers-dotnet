@@ -7,7 +7,7 @@ namespace aws.CeCostCategory
     [JsiiInterface(nativeType: typeof(ICeCostCategorySplitChargeRuleParameter), fullyQualifiedName: "aws.ceCostCategory.CeCostCategorySplitChargeRuleParameter")]
     public interface ICeCostCategorySplitChargeRuleParameter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_category#type CeCostCategory#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ce_cost_category#type CeCostCategory#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
@@ -18,7 +18,7 @@ namespace aws.CeCostCategory
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_category#values CeCostCategory#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ce_cost_category#values CeCostCategory#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Values
@@ -36,7 +36,7 @@ namespace aws.CeCostCategory
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_category#type CeCostCategory#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ce_cost_category#type CeCostCategory#type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type
@@ -44,7 +44,7 @@ namespace aws.CeCostCategory
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ce_cost_category#values CeCostCategory#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ce_cost_category#values CeCostCategory#values}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Values

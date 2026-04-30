@@ -9,7 +9,7 @@ namespace aws.DataAwsTimestreamwriteTable
     [JsiiByValue(fqn: "aws.dataAwsTimestreamwriteTable.DataAwsTimestreamwriteTableConfig")]
     public class DataAwsTimestreamwriteTableConfig : aws.DataAwsTimestreamwriteTable.IDataAwsTimestreamwriteTableConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/timestreamwrite_table#database_name DataAwsTimestreamwriteTable#database_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/timestreamwrite_table#database_name DataAwsTimestreamwriteTable#database_name}.</summary>
         [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseName
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsTimestreamwriteTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/timestreamwrite_table#name DataAwsTimestreamwriteTable#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/timestreamwrite_table#name DataAwsTimestreamwriteTable#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -27,7 +27,7 @@ namespace aws.DataAwsTimestreamwriteTable
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/timestreamwrite_table#region DataAwsTimestreamwriteTable#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/timestreamwrite_table#region DataAwsTimestreamwriteTable#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

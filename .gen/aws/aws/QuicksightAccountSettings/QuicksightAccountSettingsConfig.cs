@@ -7,7 +7,7 @@ namespace aws.QuicksightAccountSettings
     [JsiiByValue(fqn: "aws.quicksightAccountSettings.QuicksightAccountSettingsConfig")]
     public class QuicksightAccountSettingsConfig : aws.QuicksightAccountSettings.IQuicksightAccountSettingsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_account_settings#aws_account_id QuicksightAccountSettings#aws_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_account_settings#aws_account_id QuicksightAccountSettings#aws_account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "awsAccountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AwsAccountId
@@ -16,7 +16,7 @@ namespace aws.QuicksightAccountSettings
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_account_settings#default_namespace QuicksightAccountSettings#default_namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_account_settings#default_namespace QuicksightAccountSettings#default_namespace}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultNamespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultNamespace
@@ -27,7 +27,7 @@ namespace aws.QuicksightAccountSettings
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_account_settings#region QuicksightAccountSettings#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_account_settings#region QuicksightAccountSettings#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace aws.QuicksightAccountSettings
 
         private object? _terminationProtectionEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_account_settings#termination_protection_enabled QuicksightAccountSettings#termination_protection_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_account_settings#termination_protection_enabled QuicksightAccountSettings#termination_protection_enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "terminationProtectionEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? TerminationProtectionEnabled
@@ -70,7 +70,7 @@ namespace aws.QuicksightAccountSettings
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_account_settings#timeouts QuicksightAccountSettings#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_account_settings#timeouts QuicksightAccountSettings#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.quicksightAccountSettings.QuicksightAccountSettingsTimeouts\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace aws.GlueCatalogTableOptimizer
     [JsiiByValue(fqn: "aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizerConfigurationOrphanFileDeletionConfigurationIcebergConfiguration")]
     public class GlueCatalogTableOptimizerConfigurationOrphanFileDeletionConfigurationIcebergConfiguration : aws.GlueCatalogTableOptimizer.IGlueCatalogTableOptimizerConfigurationOrphanFileDeletionConfigurationIcebergConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table_optimizer#location GlueCatalogTableOptimizer#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table_optimizer#location GlueCatalogTableOptimizer#location}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Location
@@ -16,7 +16,7 @@ namespace aws.GlueCatalogTableOptimizer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table_optimizer#orphan_file_retention_period_in_days GlueCatalogTableOptimizer#orphan_file_retention_period_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table_optimizer#orphan_file_retention_period_in_days GlueCatalogTableOptimizer#orphan_file_retention_period_in_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "orphanFileRetentionPeriodInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? OrphanFileRetentionPeriodInDays
@@ -25,7 +25,7 @@ namespace aws.GlueCatalogTableOptimizer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table_optimizer#run_rate_in_hours GlueCatalogTableOptimizer#run_rate_in_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table_optimizer#run_rate_in_hours GlueCatalogTableOptimizer#run_rate_in_hours}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "runRateInHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RunRateInHours

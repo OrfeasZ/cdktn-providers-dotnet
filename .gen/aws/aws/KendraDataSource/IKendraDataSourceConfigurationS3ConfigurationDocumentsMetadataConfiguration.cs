@@ -7,7 +7,7 @@ namespace aws.KendraDataSource
     [JsiiInterface(nativeType: typeof(IKendraDataSourceConfigurationS3ConfigurationDocumentsMetadataConfiguration), fullyQualifiedName: "aws.kendraDataSource.KendraDataSourceConfigurationS3ConfigurationDocumentsMetadataConfiguration")]
     public interface IKendraDataSourceConfigurationS3ConfigurationDocumentsMetadataConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#s3_prefix KendraDataSource#s3_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#s3_prefix KendraDataSource#s3_prefix}.</summary>
         [JsiiProperty(name: "s3Prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? S3Prefix
@@ -25,7 +25,7 @@ namespace aws.KendraDataSource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#s3_prefix KendraDataSource#s3_prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#s3_prefix KendraDataSource#s3_prefix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "s3Prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? S3Prefix

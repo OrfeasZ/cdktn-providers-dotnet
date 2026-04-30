@@ -9,7 +9,7 @@ namespace aws.CognitoRiskConfiguration
     {
         /// <summary>high_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_risk_configuration#high_action CognitoRiskConfiguration#high_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_risk_configuration#high_action CognitoRiskConfiguration#high_action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "highAction", typeJson: "{\"fqn\":\"aws.cognitoRiskConfiguration.CognitoRiskConfigurationAccountTakeoverRiskConfigurationActionsHighAction\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.CognitoRiskConfiguration
 
         /// <summary>low_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_risk_configuration#low_action CognitoRiskConfiguration#low_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_risk_configuration#low_action CognitoRiskConfiguration#low_action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lowAction", typeJson: "{\"fqn\":\"aws.cognitoRiskConfiguration.CognitoRiskConfigurationAccountTakeoverRiskConfigurationActionsLowAction\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace aws.CognitoRiskConfiguration
 
         /// <summary>medium_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_risk_configuration#medium_action CognitoRiskConfiguration#medium_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_risk_configuration#medium_action CognitoRiskConfiguration#medium_action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mediumAction", typeJson: "{\"fqn\":\"aws.cognitoRiskConfiguration.CognitoRiskConfigurationAccountTakeoverRiskConfigurationActionsMediumAction\"}", isOptional: true)]

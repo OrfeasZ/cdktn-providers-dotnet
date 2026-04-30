@@ -7,7 +7,7 @@ namespace aws.AcmCertificate
     [JsiiByValue(fqn: "aws.acmCertificate.AcmCertificateConfig")]
     public class AcmCertificateConfig : aws.AcmCertificate.IAcmCertificateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate#certificate_authority_arn AcmCertificate#certificate_authority_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acm_certificate#certificate_authority_arn AcmCertificate#certificate_authority_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateAuthorityArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateAuthorityArn
@@ -16,7 +16,7 @@ namespace aws.AcmCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate#certificate_body AcmCertificate#certificate_body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acm_certificate#certificate_body AcmCertificate#certificate_body}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateBody", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateBody
@@ -25,7 +25,7 @@ namespace aws.AcmCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate#certificate_chain AcmCertificate#certificate_chain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acm_certificate#certificate_chain AcmCertificate#certificate_chain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateChain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateChain
@@ -34,7 +34,7 @@ namespace aws.AcmCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate#domain_name AcmCertificate#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acm_certificate#domain_name AcmCertificate#domain_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DomainName
@@ -43,7 +43,7 @@ namespace aws.AcmCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate#early_renewal_duration AcmCertificate#early_renewal_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acm_certificate#early_renewal_duration AcmCertificate#early_renewal_duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "earlyRenewalDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EarlyRenewalDuration
@@ -52,7 +52,7 @@ namespace aws.AcmCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate#id AcmCertificate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acm_certificate#id AcmCertificate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace aws.AcmCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate#key_algorithm AcmCertificate#key_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acm_certificate#key_algorithm AcmCertificate#key_algorithm}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyAlgorithm
@@ -76,7 +76,7 @@ namespace aws.AcmCertificate
 
         /// <summary>options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate#options AcmCertificate#options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acm_certificate#options AcmCertificate#options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "options", typeJson: "{\"fqn\":\"aws.acmCertificate.AcmCertificateOptions\"}", isOptional: true)]
@@ -86,7 +86,7 @@ namespace aws.AcmCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate#private_key AcmCertificate#private_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acm_certificate#private_key AcmCertificate#private_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivateKey
@@ -97,7 +97,7 @@ namespace aws.AcmCertificate
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate#region AcmCertificate#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acm_certificate#region AcmCertificate#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace aws.AcmCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate#subject_alternative_names AcmCertificate#subject_alternative_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acm_certificate#subject_alternative_names AcmCertificate#subject_alternative_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subjectAlternativeNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SubjectAlternativeNames
@@ -116,7 +116,7 @@ namespace aws.AcmCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate#tags AcmCertificate#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acm_certificate#tags AcmCertificate#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -125,7 +125,7 @@ namespace aws.AcmCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate#tags_all AcmCertificate#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acm_certificate#tags_all AcmCertificate#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -134,7 +134,7 @@ namespace aws.AcmCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate#validation_method AcmCertificate#validation_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acm_certificate#validation_method AcmCertificate#validation_method}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "validationMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ValidationMethod
@@ -147,7 +147,7 @@ namespace aws.AcmCertificate
 
         /// <summary>validation_option block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acm_certificate#validation_option AcmCertificate#validation_option}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acm_certificate#validation_option AcmCertificate#validation_option}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "validationOption", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.acmCertificate.AcmCertificateValidationOption\"},\"kind\":\"array\"}}]}}", isOptional: true)]

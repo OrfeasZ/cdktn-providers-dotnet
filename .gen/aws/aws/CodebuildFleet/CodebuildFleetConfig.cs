@@ -9,7 +9,7 @@ namespace aws.CodebuildFleet
     [JsiiByValue(fqn: "aws.codebuildFleet.CodebuildFleetConfig")]
     public class CodebuildFleetConfig : aws.CodebuildFleet.ICodebuildFleetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#base_capacity CodebuildFleet#base_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#base_capacity CodebuildFleet#base_capacity}.</summary>
         [JsiiProperty(name: "baseCapacity", typeJson: "{\"primitive\":\"number\"}")]
         public double BaseCapacity
         {
@@ -17,7 +17,7 @@ namespace aws.CodebuildFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#compute_type CodebuildFleet#compute_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#compute_type CodebuildFleet#compute_type}.</summary>
         [JsiiProperty(name: "computeType", typeJson: "{\"primitive\":\"string\"}")]
         public string ComputeType
         {
@@ -25,7 +25,7 @@ namespace aws.CodebuildFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#environment_type CodebuildFleet#environment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#environment_type CodebuildFleet#environment_type}.</summary>
         [JsiiProperty(name: "environmentType", typeJson: "{\"primitive\":\"string\"}")]
         public string EnvironmentType
         {
@@ -33,7 +33,7 @@ namespace aws.CodebuildFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#name CodebuildFleet#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#name CodebuildFleet#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -43,7 +43,7 @@ namespace aws.CodebuildFleet
 
         /// <summary>compute_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#compute_configuration CodebuildFleet#compute_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#compute_configuration CodebuildFleet#compute_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "computeConfiguration", typeJson: "{\"fqn\":\"aws.codebuildFleet.CodebuildFleetComputeConfiguration\"}", isOptional: true)]
@@ -53,7 +53,7 @@ namespace aws.CodebuildFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#fleet_service_role CodebuildFleet#fleet_service_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#fleet_service_role CodebuildFleet#fleet_service_role}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fleetServiceRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FleetServiceRole
@@ -62,7 +62,7 @@ namespace aws.CodebuildFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#image_id CodebuildFleet#image_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#image_id CodebuildFleet#image_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImageId
@@ -71,7 +71,7 @@ namespace aws.CodebuildFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#overflow_behavior CodebuildFleet#overflow_behavior}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#overflow_behavior CodebuildFleet#overflow_behavior}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "overflowBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OverflowBehavior
@@ -82,7 +82,7 @@ namespace aws.CodebuildFleet
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#region CodebuildFleet#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#region CodebuildFleet#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace aws.CodebuildFleet
 
         /// <summary>scaling_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#scaling_configuration CodebuildFleet#scaling_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#scaling_configuration CodebuildFleet#scaling_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scalingConfiguration", typeJson: "{\"fqn\":\"aws.codebuildFleet.CodebuildFleetScalingConfiguration\"}", isOptional: true)]
@@ -104,7 +104,7 @@ namespace aws.CodebuildFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#tags CodebuildFleet#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#tags CodebuildFleet#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -113,7 +113,7 @@ namespace aws.CodebuildFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#tags_all CodebuildFleet#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#tags_all CodebuildFleet#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -126,7 +126,7 @@ namespace aws.CodebuildFleet
 
         /// <summary>vpc_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_fleet#vpc_config CodebuildFleet#vpc_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_fleet#vpc_config CodebuildFleet#vpc_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpcConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codebuildFleet.CodebuildFleetVpcConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]

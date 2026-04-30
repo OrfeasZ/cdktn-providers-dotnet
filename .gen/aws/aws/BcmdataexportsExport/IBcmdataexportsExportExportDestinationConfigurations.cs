@@ -9,7 +9,7 @@ namespace aws.BcmdataexportsExport
     {
         /// <summary>s3_destination block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bcmdataexports_export#s3_destination BcmdataexportsExport#s3_destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bcmdataexports_export#s3_destination BcmdataexportsExport#s3_destination}
         /// </remarks>
         [JsiiProperty(name: "s3Destination", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3Destination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.BcmdataexportsExport
 
             /// <summary>s3_destination block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bcmdataexports_export#s3_destination BcmdataexportsExport#s3_destination}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bcmdataexports_export#s3_destination BcmdataexportsExport#s3_destination}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3Destination", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3Destination\"},\"kind\":\"array\"}}]}}", isOptional: true)]

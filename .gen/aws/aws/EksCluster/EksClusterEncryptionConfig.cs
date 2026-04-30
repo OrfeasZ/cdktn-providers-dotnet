@@ -11,7 +11,7 @@ namespace aws.EksCluster
     {
         /// <summary>provider block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_cluster#provider EksCluster#provider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/eks_cluster#provider EksCluster#provider}
         /// </remarks>
         [JsiiProperty(name: "provider", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterEncryptionConfigProvider\"}")]
         public aws.EksCluster.IEksClusterEncryptionConfigProvider Provider
@@ -20,7 +20,7 @@ namespace aws.EksCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_cluster#resources EksCluster#resources}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/eks_cluster#resources EksCluster#resources}.</summary>
         [JsiiProperty(name: "resources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Resources
         {

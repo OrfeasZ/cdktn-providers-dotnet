@@ -7,7 +7,7 @@ namespace aws.AppautoscalingScheduledAction
     [JsiiByValue(fqn: "aws.appautoscalingScheduledAction.AppautoscalingScheduledActionScalableTargetAction")]
     public class AppautoscalingScheduledActionScalableTargetAction : aws.AppautoscalingScheduledAction.IAppautoscalingScheduledActionScalableTargetAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appautoscaling_scheduled_action#max_capacity AppautoscalingScheduledAction#max_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appautoscaling_scheduled_action#max_capacity AppautoscalingScheduledAction#max_capacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxCapacity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaxCapacity
@@ -16,7 +16,7 @@ namespace aws.AppautoscalingScheduledAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appautoscaling_scheduled_action#min_capacity AppautoscalingScheduledAction#min_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appautoscaling_scheduled_action#min_capacity AppautoscalingScheduledAction#min_capacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minCapacity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MinCapacity

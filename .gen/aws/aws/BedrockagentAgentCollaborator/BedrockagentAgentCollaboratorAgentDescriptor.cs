@@ -9,7 +9,7 @@ namespace aws.BedrockagentAgentCollaborator
     [JsiiByValue(fqn: "aws.bedrockagentAgentCollaborator.BedrockagentAgentCollaboratorAgentDescriptor")]
     public class BedrockagentAgentCollaboratorAgentDescriptor : aws.BedrockagentAgentCollaborator.IBedrockagentAgentCollaboratorAgentDescriptor
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_agent_collaborator#alias_arn BedrockagentAgentCollaborator#alias_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_agent_collaborator#alias_arn BedrockagentAgentCollaborator#alias_arn}.</summary>
         [JsiiProperty(name: "aliasArn", typeJson: "{\"primitive\":\"string\"}")]
         public string AliasArn
         {

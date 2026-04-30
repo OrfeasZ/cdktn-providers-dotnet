@@ -9,7 +9,7 @@ namespace aws.DataAwsNetworkAcls
     [JsiiByValue(fqn: "aws.dataAwsNetworkAcls.DataAwsNetworkAclsFilter")]
     public class DataAwsNetworkAclsFilter : aws.DataAwsNetworkAcls.IDataAwsNetworkAclsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/network_acls#name DataAwsNetworkAcls#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/network_acls#name DataAwsNetworkAcls#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsNetworkAcls
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/network_acls#values DataAwsNetworkAcls#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/network_acls#values DataAwsNetworkAcls#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

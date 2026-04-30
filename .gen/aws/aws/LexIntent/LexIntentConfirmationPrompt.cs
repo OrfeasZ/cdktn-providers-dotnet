@@ -9,7 +9,7 @@ namespace aws.LexIntent
     [JsiiByValue(fqn: "aws.lexIntent.LexIntentConfirmationPrompt")]
     public class LexIntentConfirmationPrompt : aws.LexIntent.ILexIntentConfirmationPrompt
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#max_attempts LexIntent#max_attempts}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_intent#max_attempts LexIntent#max_attempts}.</summary>
         [JsiiProperty(name: "maxAttempts", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxAttempts
         {
@@ -21,7 +21,7 @@ namespace aws.LexIntent
 
         /// <summary>message block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#message LexIntent#message}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_intent#message LexIntent#message}
         /// </remarks>
         [JsiiProperty(name: "message", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexIntent.LexIntentConfirmationPromptMessage\"},\"kind\":\"array\"}}]}}")]
         public object Message
@@ -50,7 +50,7 @@ namespace aws.LexIntent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lex_intent#response_card LexIntent#response_card}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lex_intent#response_card LexIntent#response_card}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "responseCard", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResponseCard

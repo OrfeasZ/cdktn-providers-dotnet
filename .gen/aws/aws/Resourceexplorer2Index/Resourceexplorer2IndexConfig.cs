@@ -9,7 +9,7 @@ namespace aws.Resourceexplorer2Index
     [JsiiByValue(fqn: "aws.resourceexplorer2Index.Resourceexplorer2IndexConfig")]
     public class Resourceexplorer2IndexConfig : aws.Resourceexplorer2Index.IResourceexplorer2IndexConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -19,7 +19,7 @@ namespace aws.Resourceexplorer2Index
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourceexplorer2_index#region Resourceexplorer2Index#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/resourceexplorer2_index#region Resourceexplorer2Index#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace aws.Resourceexplorer2Index
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -40,7 +40,7 @@ namespace aws.Resourceexplorer2Index
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourceexplorer2_index#timeouts Resourceexplorer2Index#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/resourceexplorer2_index#timeouts Resourceexplorer2Index#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.resourceexplorer2Index.Resourceexplorer2IndexTimeouts\"}", isOptional: true)]

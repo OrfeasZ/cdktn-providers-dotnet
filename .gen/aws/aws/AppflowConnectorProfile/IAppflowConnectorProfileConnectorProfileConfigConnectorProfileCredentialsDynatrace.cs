@@ -7,7 +7,7 @@ namespace aws.AppflowConnectorProfile
     [JsiiInterface(nativeType: typeof(IAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsDynatrace), fullyQualifiedName: "aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsDynatrace")]
     public interface IAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsDynatrace
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#api_token AppflowConnectorProfile#api_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_connector_profile#api_token AppflowConnectorProfile#api_token}.</summary>
         [JsiiProperty(name: "apiToken", typeJson: "{\"primitive\":\"string\"}")]
         string ApiToken
         {
@@ -21,7 +21,7 @@ namespace aws.AppflowConnectorProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#api_token AppflowConnectorProfile#api_token}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_connector_profile#api_token AppflowConnectorProfile#api_token}.</summary>
             [JsiiProperty(name: "apiToken", typeJson: "{\"primitive\":\"string\"}")]
             public string ApiToken
             {

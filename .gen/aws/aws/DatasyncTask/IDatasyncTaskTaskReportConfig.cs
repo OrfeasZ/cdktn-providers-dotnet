@@ -9,7 +9,7 @@ namespace aws.DatasyncTask
     {
         /// <summary>s3_destination block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#s3_destination DatasyncTask#s3_destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#s3_destination DatasyncTask#s3_destination}
         /// </remarks>
         [JsiiProperty(name: "s3Destination", typeJson: "{\"fqn\":\"aws.datasyncTask.DatasyncTaskTaskReportConfigS3Destination\"}")]
         aws.DatasyncTask.IDatasyncTaskTaskReportConfigS3Destination S3Destination
@@ -17,7 +17,7 @@ namespace aws.DatasyncTask
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#output_type DatasyncTask#output_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#output_type DatasyncTask#output_type}.</summary>
         [JsiiProperty(name: "outputType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OutputType
@@ -28,7 +28,7 @@ namespace aws.DatasyncTask
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#report_level DatasyncTask#report_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#report_level DatasyncTask#report_level}.</summary>
         [JsiiProperty(name: "reportLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ReportLevel
@@ -41,7 +41,7 @@ namespace aws.DatasyncTask
 
         /// <summary>report_overrides block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#report_overrides DatasyncTask#report_overrides}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#report_overrides DatasyncTask#report_overrides}
         /// </remarks>
         [JsiiProperty(name: "reportOverrides", typeJson: "{\"fqn\":\"aws.datasyncTask.DatasyncTaskTaskReportConfigReportOverrides\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -53,7 +53,7 @@ namespace aws.DatasyncTask
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#s3_object_versioning DatasyncTask#s3_object_versioning}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#s3_object_versioning DatasyncTask#s3_object_versioning}.</summary>
         [JsiiProperty(name: "s3ObjectVersioning", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? S3ObjectVersioning
@@ -73,7 +73,7 @@ namespace aws.DatasyncTask
 
             /// <summary>s3_destination block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#s3_destination DatasyncTask#s3_destination}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#s3_destination DatasyncTask#s3_destination}
             /// </remarks>
             [JsiiProperty(name: "s3Destination", typeJson: "{\"fqn\":\"aws.datasyncTask.DatasyncTaskTaskReportConfigS3Destination\"}")]
             public aws.DatasyncTask.IDatasyncTaskTaskReportConfigS3Destination S3Destination
@@ -81,7 +81,7 @@ namespace aws.DatasyncTask
                 get => GetInstanceProperty<aws.DatasyncTask.IDatasyncTaskTaskReportConfigS3Destination>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#output_type DatasyncTask#output_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#output_type DatasyncTask#output_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "outputType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OutputType
@@ -89,7 +89,7 @@ namespace aws.DatasyncTask
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#report_level DatasyncTask#report_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#report_level DatasyncTask#report_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "reportLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ReportLevel
@@ -99,7 +99,7 @@ namespace aws.DatasyncTask
 
             /// <summary>report_overrides block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#report_overrides DatasyncTask#report_overrides}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#report_overrides DatasyncTask#report_overrides}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "reportOverrides", typeJson: "{\"fqn\":\"aws.datasyncTask.DatasyncTaskTaskReportConfigReportOverrides\"}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace aws.DatasyncTask
                 get => GetInstanceProperty<aws.DatasyncTask.IDatasyncTaskTaskReportConfigReportOverrides?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_task#s3_object_versioning DatasyncTask#s3_object_versioning}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_task#s3_object_versioning DatasyncTask#s3_object_versioning}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "s3ObjectVersioning", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? S3ObjectVersioning

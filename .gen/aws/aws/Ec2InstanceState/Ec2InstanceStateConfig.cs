@@ -9,7 +9,7 @@ namespace aws.Ec2InstanceState
     [JsiiByValue(fqn: "aws.ec2InstanceState.Ec2InstanceStateConfig")]
     public class Ec2InstanceStateConfig : aws.Ec2InstanceState.IEc2InstanceStateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_instance_state#instance_id Ec2InstanceState#instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_instance_state#instance_id Ec2InstanceState#instance_id}.</summary>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceId
         {
@@ -17,7 +17,7 @@ namespace aws.Ec2InstanceState
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_instance_state#state Ec2InstanceState#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_instance_state#state Ec2InstanceState#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public string State
         {
@@ -27,7 +27,7 @@ namespace aws.Ec2InstanceState
 
         private object? _force;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_instance_state#force Ec2InstanceState#force}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_instance_state#force Ec2InstanceState#force}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "force", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Force
@@ -56,7 +56,7 @@ namespace aws.Ec2InstanceState
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_instance_state#id Ec2InstanceState#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_instance_state#id Ec2InstanceState#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,7 +71,7 @@ namespace aws.Ec2InstanceState
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_instance_state#region Ec2InstanceState#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_instance_state#region Ec2InstanceState#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace aws.Ec2InstanceState
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_instance_state#timeouts Ec2InstanceState#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_instance_state#timeouts Ec2InstanceState#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.ec2InstanceState.Ec2InstanceStateTimeouts\"}", isOptional: true)]

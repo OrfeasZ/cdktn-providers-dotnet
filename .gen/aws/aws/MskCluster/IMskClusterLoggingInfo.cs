@@ -9,7 +9,7 @@ namespace aws.MskCluster
     {
         /// <summary>broker_logs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#broker_logs MskCluster#broker_logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#broker_logs MskCluster#broker_logs}
         /// </remarks>
         [JsiiProperty(name: "brokerLogs", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterLoggingInfoBrokerLogs\"}")]
         aws.MskCluster.IMskClusterLoggingInfoBrokerLogs BrokerLogs
@@ -26,7 +26,7 @@ namespace aws.MskCluster
 
             /// <summary>broker_logs block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#broker_logs MskCluster#broker_logs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#broker_logs MskCluster#broker_logs}
             /// </remarks>
             [JsiiProperty(name: "brokerLogs", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterLoggingInfoBrokerLogs\"}")]
             public aws.MskCluster.IMskClusterLoggingInfoBrokerLogs BrokerLogs

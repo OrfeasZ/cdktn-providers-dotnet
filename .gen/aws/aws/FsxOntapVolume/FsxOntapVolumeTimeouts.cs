@@ -7,7 +7,7 @@ namespace aws.FsxOntapVolume
     [JsiiByValue(fqn: "aws.fsxOntapVolume.FsxOntapVolumeTimeouts")]
     public class FsxOntapVolumeTimeouts : aws.FsxOntapVolume.IFsxOntapVolumeTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_ontap_volume#create FsxOntapVolume#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_ontap_volume#create FsxOntapVolume#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.FsxOntapVolume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_ontap_volume#delete FsxOntapVolume#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_ontap_volume#delete FsxOntapVolume#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace aws.FsxOntapVolume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_ontap_volume#update FsxOntapVolume#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_ontap_volume#update FsxOntapVolume#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

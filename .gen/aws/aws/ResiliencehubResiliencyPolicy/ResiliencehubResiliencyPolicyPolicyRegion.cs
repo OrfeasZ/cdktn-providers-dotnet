@@ -9,7 +9,7 @@ namespace aws.ResiliencehubResiliencyPolicy
     {
         /// <summary>Recovery Point Objective (RPO) as a Go duration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resiliencehub_resiliency_policy#rpo ResiliencehubResiliencyPolicy#rpo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/resiliencehub_resiliency_policy#rpo ResiliencehubResiliencyPolicy#rpo}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rpo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.ResiliencehubResiliencyPolicy
 
         /// <summary>Recovery Time Objective (RTO) as a Go duration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resiliencehub_resiliency_policy#rto ResiliencehubResiliencyPolicy#rto}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/resiliencehub_resiliency_policy#rto ResiliencehubResiliencyPolicy#rto}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rto", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

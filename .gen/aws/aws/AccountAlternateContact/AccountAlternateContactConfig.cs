@@ -9,7 +9,7 @@ namespace aws.AccountAlternateContact
     [JsiiByValue(fqn: "aws.accountAlternateContact.AccountAlternateContactConfig")]
     public class AccountAlternateContactConfig : aws.AccountAlternateContact.IAccountAlternateContactConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_alternate_contact#alternate_contact_type AccountAlternateContact#alternate_contact_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_alternate_contact#alternate_contact_type AccountAlternateContact#alternate_contact_type}.</summary>
         [JsiiProperty(name: "alternateContactType", typeJson: "{\"primitive\":\"string\"}")]
         public string AlternateContactType
         {
@@ -17,7 +17,7 @@ namespace aws.AccountAlternateContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_alternate_contact#email_address AccountAlternateContact#email_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_alternate_contact#email_address AccountAlternateContact#email_address}.</summary>
         [JsiiProperty(name: "emailAddress", typeJson: "{\"primitive\":\"string\"}")]
         public string EmailAddress
         {
@@ -25,7 +25,7 @@ namespace aws.AccountAlternateContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_alternate_contact#name AccountAlternateContact#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_alternate_contact#name AccountAlternateContact#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace aws.AccountAlternateContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_alternate_contact#phone_number AccountAlternateContact#phone_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_alternate_contact#phone_number AccountAlternateContact#phone_number}.</summary>
         [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}")]
         public string PhoneNumber
         {
@@ -41,7 +41,7 @@ namespace aws.AccountAlternateContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_alternate_contact#title AccountAlternateContact#title}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_alternate_contact#title AccountAlternateContact#title}.</summary>
         [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}")]
         public string Title
         {
@@ -49,7 +49,7 @@ namespace aws.AccountAlternateContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_alternate_contact#account_id AccountAlternateContact#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_alternate_contact#account_id AccountAlternateContact#account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountId
@@ -58,7 +58,7 @@ namespace aws.AccountAlternateContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_alternate_contact#id AccountAlternateContact#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_alternate_contact#id AccountAlternateContact#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace aws.AccountAlternateContact
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_alternate_contact#timeouts AccountAlternateContact#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_alternate_contact#timeouts AccountAlternateContact#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.accountAlternateContact.AccountAlternateContactTimeouts\"}", isOptional: true)]

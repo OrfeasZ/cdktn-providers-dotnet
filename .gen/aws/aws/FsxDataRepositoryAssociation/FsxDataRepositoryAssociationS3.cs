@@ -9,7 +9,7 @@ namespace aws.FsxDataRepositoryAssociation
     {
         /// <summary>auto_export_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_data_repository_association#auto_export_policy FsxDataRepositoryAssociation#auto_export_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_data_repository_association#auto_export_policy FsxDataRepositoryAssociation#auto_export_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoExportPolicy", typeJson: "{\"fqn\":\"aws.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationS3AutoExportPolicy\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.FsxDataRepositoryAssociation
 
         /// <summary>auto_import_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_data_repository_association#auto_import_policy FsxDataRepositoryAssociation#auto_import_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_data_repository_association#auto_import_policy FsxDataRepositoryAssociation#auto_import_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoImportPolicy", typeJson: "{\"fqn\":\"aws.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationS3AutoImportPolicy\"}", isOptional: true)]

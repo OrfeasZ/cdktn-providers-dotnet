@@ -9,7 +9,7 @@ namespace aws.Sesv2ContactList
     [JsiiByValue(fqn: "aws.sesv2ContactList.Sesv2ContactListConfig")]
     public class Sesv2ContactListConfig : aws.Sesv2ContactList.ISesv2ContactListConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_contact_list#contact_list_name Sesv2ContactList#contact_list_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_contact_list#contact_list_name Sesv2ContactList#contact_list_name}.</summary>
         [JsiiProperty(name: "contactListName", typeJson: "{\"primitive\":\"string\"}")]
         public string ContactListName
         {
@@ -17,7 +17,7 @@ namespace aws.Sesv2ContactList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_contact_list#description Sesv2ContactList#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_contact_list#description Sesv2ContactList#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -26,7 +26,7 @@ namespace aws.Sesv2ContactList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_contact_list#id Sesv2ContactList#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_contact_list#id Sesv2ContactList#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ namespace aws.Sesv2ContactList
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_contact_list#region Sesv2ContactList#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_contact_list#region Sesv2ContactList#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace aws.Sesv2ContactList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_contact_list#tags Sesv2ContactList#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_contact_list#tags Sesv2ContactList#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -60,7 +60,7 @@ namespace aws.Sesv2ContactList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_contact_list#tags_all Sesv2ContactList#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_contact_list#tags_all Sesv2ContactList#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -73,7 +73,7 @@ namespace aws.Sesv2ContactList
 
         /// <summary>topic block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_contact_list#topic Sesv2ContactList#topic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_contact_list#topic Sesv2ContactList#topic}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "topic", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesv2ContactList.Sesv2ContactListTopic\"},\"kind\":\"array\"}}]}}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace aws.ConnectInstanceStorageConfig
     {
         /// <summary>encryption_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_instance_storage_config#encryption_config ConnectInstanceStorageConfig#encryption_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_instance_storage_config#encryption_config ConnectInstanceStorageConfig#encryption_config}
         /// </remarks>
         [JsiiProperty(name: "encryptionConfig", typeJson: "{\"fqn\":\"aws.connectInstanceStorageConfig.ConnectInstanceStorageConfigStorageConfigKinesisVideoStreamConfigEncryptionConfig\"}")]
         public aws.ConnectInstanceStorageConfig.IConnectInstanceStorageConfigStorageConfigKinesisVideoStreamConfigEncryptionConfig EncryptionConfig
@@ -20,7 +20,7 @@ namespace aws.ConnectInstanceStorageConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_instance_storage_config#prefix ConnectInstanceStorageConfig#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_instance_storage_config#prefix ConnectInstanceStorageConfig#prefix}.</summary>
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
         public string Prefix
         {
@@ -28,7 +28,7 @@ namespace aws.ConnectInstanceStorageConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_instance_storage_config#retention_period_hours ConnectInstanceStorageConfig#retention_period_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_instance_storage_config#retention_period_hours ConnectInstanceStorageConfig#retention_period_hours}.</summary>
         [JsiiProperty(name: "retentionPeriodHours", typeJson: "{\"primitive\":\"number\"}")]
         public double RetentionPeriodHours
         {

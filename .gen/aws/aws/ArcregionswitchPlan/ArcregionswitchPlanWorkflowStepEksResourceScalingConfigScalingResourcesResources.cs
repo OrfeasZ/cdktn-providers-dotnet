@@ -9,7 +9,7 @@ namespace aws.ArcregionswitchPlan
     [JsiiByValue(fqn: "aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepEksResourceScalingConfigScalingResourcesResources")]
     public class ArcregionswitchPlanWorkflowStepEksResourceScalingConfigScalingResourcesResources : aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepEksResourceScalingConfigScalingResourcesResources
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/arcregionswitch_plan#name ArcregionswitchPlan#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/arcregionswitch_plan#name ArcregionswitchPlan#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.ArcregionswitchPlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/arcregionswitch_plan#namespace ArcregionswitchPlan#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/arcregionswitch_plan#namespace ArcregionswitchPlan#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -25,7 +25,7 @@ namespace aws.ArcregionswitchPlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/arcregionswitch_plan#resource_name ArcregionswitchPlan#resource_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/arcregionswitch_plan#resource_name ArcregionswitchPlan#resource_name}.</summary>
         [JsiiProperty(name: "resourceName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceName
         {
@@ -33,7 +33,7 @@ namespace aws.ArcregionswitchPlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/arcregionswitch_plan#hpa_name ArcregionswitchPlan#hpa_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/arcregionswitch_plan#hpa_name ArcregionswitchPlan#hpa_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hpaName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HpaName

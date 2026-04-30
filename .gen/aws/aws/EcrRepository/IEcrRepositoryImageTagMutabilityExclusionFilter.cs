@@ -7,14 +7,14 @@ namespace aws.EcrRepository
     [JsiiInterface(nativeType: typeof(IEcrRepositoryImageTagMutabilityExclusionFilter), fullyQualifiedName: "aws.ecrRepository.EcrRepositoryImageTagMutabilityExclusionFilter")]
     public interface IEcrRepositoryImageTagMutabilityExclusionFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#filter EcrRepository#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_repository#filter EcrRepository#filter}.</summary>
         [JsiiProperty(name: "filter", typeJson: "{\"primitive\":\"string\"}")]
         string Filter
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#filter_type EcrRepository#filter_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_repository#filter_type EcrRepository#filter_type}.</summary>
         [JsiiProperty(name: "filterType", typeJson: "{\"primitive\":\"string\"}")]
         string FilterType
         {
@@ -28,14 +28,14 @@ namespace aws.EcrRepository
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#filter EcrRepository#filter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_repository#filter EcrRepository#filter}.</summary>
             [JsiiProperty(name: "filter", typeJson: "{\"primitive\":\"string\"}")]
             public string Filter
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#filter_type EcrRepository#filter_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_repository#filter_type EcrRepository#filter_type}.</summary>
             [JsiiProperty(name: "filterType", typeJson: "{\"primitive\":\"string\"}")]
             public string FilterType
             {

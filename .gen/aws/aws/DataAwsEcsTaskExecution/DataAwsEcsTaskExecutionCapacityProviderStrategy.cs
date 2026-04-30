@@ -9,7 +9,7 @@ namespace aws.DataAwsEcsTaskExecution
     [JsiiByValue(fqn: "aws.dataAwsEcsTaskExecution.DataAwsEcsTaskExecutionCapacityProviderStrategy")]
     public class DataAwsEcsTaskExecutionCapacityProviderStrategy : aws.DataAwsEcsTaskExecution.IDataAwsEcsTaskExecutionCapacityProviderStrategy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ecs_task_execution#capacity_provider DataAwsEcsTaskExecution#capacity_provider}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ecs_task_execution#capacity_provider DataAwsEcsTaskExecution#capacity_provider}.</summary>
         [JsiiProperty(name: "capacityProvider", typeJson: "{\"primitive\":\"string\"}")]
         public string CapacityProvider
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsEcsTaskExecution
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ecs_task_execution#base DataAwsEcsTaskExecution#base}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ecs_task_execution#base DataAwsEcsTaskExecution#base}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "base", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Base
@@ -26,7 +26,7 @@ namespace aws.DataAwsEcsTaskExecution
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ecs_task_execution#weight DataAwsEcsTaskExecution#weight}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ecs_task_execution#weight DataAwsEcsTaskExecution#weight}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Weight

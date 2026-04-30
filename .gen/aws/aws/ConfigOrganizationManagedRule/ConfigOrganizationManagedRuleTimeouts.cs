@@ -7,7 +7,7 @@ namespace aws.ConfigOrganizationManagedRule
     [JsiiByValue(fqn: "aws.configOrganizationManagedRule.ConfigOrganizationManagedRuleTimeouts")]
     public class ConfigOrganizationManagedRuleTimeouts : aws.ConfigOrganizationManagedRule.IConfigOrganizationManagedRuleTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_organization_managed_rule#create ConfigOrganizationManagedRule#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_organization_managed_rule#create ConfigOrganizationManagedRule#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.ConfigOrganizationManagedRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_organization_managed_rule#delete ConfigOrganizationManagedRule#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_organization_managed_rule#delete ConfigOrganizationManagedRule#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace aws.ConfigOrganizationManagedRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_organization_managed_rule#update ConfigOrganizationManagedRule#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_organization_managed_rule#update ConfigOrganizationManagedRule#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

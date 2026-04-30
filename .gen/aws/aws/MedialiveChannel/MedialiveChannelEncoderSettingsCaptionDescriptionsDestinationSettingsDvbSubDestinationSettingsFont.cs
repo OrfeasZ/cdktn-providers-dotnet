@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     [JsiiByValue(fqn: "aws.medialiveChannel.MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettingsDvbSubDestinationSettingsFont")]
     public class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettingsDvbSubDestinationSettingsFont : aws.MedialiveChannel.IMedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettingsDvbSubDestinationSettingsFont
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#uri MedialiveChannel#uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#uri MedialiveChannel#uri}.</summary>
         [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}")]
         public string Uri
         {
@@ -17,7 +17,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#password_param MedialiveChannel#password_param}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#password_param MedialiveChannel#password_param}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "passwordParam", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PasswordParam
@@ -26,7 +26,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#username MedialiveChannel#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#username MedialiveChannel#username}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Username

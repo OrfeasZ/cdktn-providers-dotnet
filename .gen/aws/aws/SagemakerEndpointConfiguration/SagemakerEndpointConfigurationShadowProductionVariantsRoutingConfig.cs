@@ -9,7 +9,7 @@ namespace aws.SagemakerEndpointConfiguration
     [JsiiByValue(fqn: "aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationShadowProductionVariantsRoutingConfig")]
     public class SagemakerEndpointConfigurationShadowProductionVariantsRoutingConfig : aws.SagemakerEndpointConfiguration.ISagemakerEndpointConfigurationShadowProductionVariantsRoutingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_endpoint_configuration#routing_strategy SagemakerEndpointConfiguration#routing_strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_endpoint_configuration#routing_strategy SagemakerEndpointConfiguration#routing_strategy}.</summary>
         [JsiiProperty(name: "routingStrategy", typeJson: "{\"primitive\":\"string\"}")]
         public string RoutingStrategy
         {

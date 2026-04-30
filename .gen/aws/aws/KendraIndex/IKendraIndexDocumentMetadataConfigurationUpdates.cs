@@ -7,14 +7,14 @@ namespace aws.KendraIndex
     [JsiiInterface(nativeType: typeof(IKendraIndexDocumentMetadataConfigurationUpdates), fullyQualifiedName: "aws.kendraIndex.KendraIndexDocumentMetadataConfigurationUpdates")]
     public interface IKendraIndexDocumentMetadataConfigurationUpdates
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#name KendraIndex#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_index#name KendraIndex#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#type KendraIndex#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_index#type KendraIndex#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -23,7 +23,7 @@ namespace aws.KendraIndex
 
         /// <summary>relevance block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#relevance KendraIndex#relevance}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_index#relevance KendraIndex#relevance}
         /// </remarks>
         [JsiiProperty(name: "relevance", typeJson: "{\"fqn\":\"aws.kendraIndex.KendraIndexDocumentMetadataConfigurationUpdatesRelevance\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.KendraIndex
 
         /// <summary>search block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#search KendraIndex#search}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_index#search KendraIndex#search}
         /// </remarks>
         [JsiiProperty(name: "search", typeJson: "{\"fqn\":\"aws.kendraIndex.KendraIndexDocumentMetadataConfigurationUpdatesSearch\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -56,14 +56,14 @@ namespace aws.KendraIndex
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#name KendraIndex#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_index#name KendraIndex#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#type KendraIndex#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_index#type KendraIndex#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
@@ -72,7 +72,7 @@ namespace aws.KendraIndex
 
             /// <summary>relevance block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#relevance KendraIndex#relevance}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_index#relevance KendraIndex#relevance}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "relevance", typeJson: "{\"fqn\":\"aws.kendraIndex.KendraIndexDocumentMetadataConfigurationUpdatesRelevance\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace aws.KendraIndex
 
             /// <summary>search block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#search KendraIndex#search}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_index#search KendraIndex#search}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "search", typeJson: "{\"fqn\":\"aws.kendraIndex.KendraIndexDocumentMetadataConfigurationUpdatesSearch\"}", isOptional: true)]

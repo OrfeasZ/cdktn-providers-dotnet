@@ -7,7 +7,7 @@ namespace aws.EcsService
     [JsiiInterface(nativeType: typeof(IEcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesHeaderValue), fullyQualifiedName: "aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesHeaderValue")]
     public interface IEcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesHeaderValue
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#exact EcsService#exact}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#exact EcsService#exact}.</summary>
         [JsiiProperty(name: "exact", typeJson: "{\"primitive\":\"string\"}")]
         string Exact
         {
@@ -21,7 +21,7 @@ namespace aws.EcsService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#exact EcsService#exact}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#exact EcsService#exact}.</summary>
             [JsiiProperty(name: "exact", typeJson: "{\"primitive\":\"string\"}")]
             public string Exact
             {

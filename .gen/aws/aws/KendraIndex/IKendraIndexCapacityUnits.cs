@@ -7,7 +7,7 @@ namespace aws.KendraIndex
     [JsiiInterface(nativeType: typeof(IKendraIndexCapacityUnits), fullyQualifiedName: "aws.kendraIndex.KendraIndexCapacityUnits")]
     public interface IKendraIndexCapacityUnits
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#query_capacity_units KendraIndex#query_capacity_units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_index#query_capacity_units KendraIndex#query_capacity_units}.</summary>
         [JsiiProperty(name: "queryCapacityUnits", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? QueryCapacityUnits
@@ -18,7 +18,7 @@ namespace aws.KendraIndex
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#storage_capacity_units KendraIndex#storage_capacity_units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_index#storage_capacity_units KendraIndex#storage_capacity_units}.</summary>
         [JsiiProperty(name: "storageCapacityUnits", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? StorageCapacityUnits
@@ -36,7 +36,7 @@ namespace aws.KendraIndex
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#query_capacity_units KendraIndex#query_capacity_units}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_index#query_capacity_units KendraIndex#query_capacity_units}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "queryCapacityUnits", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? QueryCapacityUnits
@@ -44,7 +44,7 @@ namespace aws.KendraIndex
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_index#storage_capacity_units KendraIndex#storage_capacity_units}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_index#storage_capacity_units KendraIndex#storage_capacity_units}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "storageCapacityUnits", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? StorageCapacityUnits

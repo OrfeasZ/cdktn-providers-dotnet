@@ -7,21 +7,21 @@ namespace aws.ConfigConfigRule
     [JsiiInterface(nativeType: typeof(IConfigConfigRuleSourceCustomPolicyDetails), fullyQualifiedName: "aws.configConfigRule.ConfigConfigRuleSourceCustomPolicyDetails")]
     public interface IConfigConfigRuleSourceCustomPolicyDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#policy_runtime ConfigConfigRule#policy_runtime}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#policy_runtime ConfigConfigRule#policy_runtime}.</summary>
         [JsiiProperty(name: "policyRuntime", typeJson: "{\"primitive\":\"string\"}")]
         string PolicyRuntime
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#policy_text ConfigConfigRule#policy_text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#policy_text ConfigConfigRule#policy_text}.</summary>
         [JsiiProperty(name: "policyText", typeJson: "{\"primitive\":\"string\"}")]
         string PolicyText
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#enable_debug_log_delivery ConfigConfigRule#enable_debug_log_delivery}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#enable_debug_log_delivery ConfigConfigRule#enable_debug_log_delivery}.</summary>
         [JsiiProperty(name: "enableDebugLogDelivery", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? EnableDebugLogDelivery
@@ -39,21 +39,21 @@ namespace aws.ConfigConfigRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#policy_runtime ConfigConfigRule#policy_runtime}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#policy_runtime ConfigConfigRule#policy_runtime}.</summary>
             [JsiiProperty(name: "policyRuntime", typeJson: "{\"primitive\":\"string\"}")]
             public string PolicyRuntime
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#policy_text ConfigConfigRule#policy_text}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#policy_text ConfigConfigRule#policy_text}.</summary>
             [JsiiProperty(name: "policyText", typeJson: "{\"primitive\":\"string\"}")]
             public string PolicyText
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#enable_debug_log_delivery ConfigConfigRule#enable_debug_log_delivery}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#enable_debug_log_delivery ConfigConfigRule#enable_debug_log_delivery}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "enableDebugLogDelivery", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? EnableDebugLogDelivery

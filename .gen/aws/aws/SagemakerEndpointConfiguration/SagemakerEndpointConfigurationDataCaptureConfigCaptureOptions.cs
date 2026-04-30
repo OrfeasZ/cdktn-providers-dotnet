@@ -9,7 +9,7 @@ namespace aws.SagemakerEndpointConfiguration
     [JsiiByValue(fqn: "aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationDataCaptureConfigCaptureOptions")]
     public class SagemakerEndpointConfigurationDataCaptureConfigCaptureOptions : aws.SagemakerEndpointConfiguration.ISagemakerEndpointConfigurationDataCaptureConfigCaptureOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_endpoint_configuration#capture_mode SagemakerEndpointConfiguration#capture_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_endpoint_configuration#capture_mode SagemakerEndpointConfiguration#capture_mode}.</summary>
         [JsiiProperty(name: "captureMode", typeJson: "{\"primitive\":\"string\"}")]
         public string CaptureMode
         {

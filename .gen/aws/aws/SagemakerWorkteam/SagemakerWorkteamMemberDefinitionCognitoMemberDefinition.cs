@@ -9,7 +9,7 @@ namespace aws.SagemakerWorkteam
     [JsiiByValue(fqn: "aws.sagemakerWorkteam.SagemakerWorkteamMemberDefinitionCognitoMemberDefinition")]
     public class SagemakerWorkteamMemberDefinitionCognitoMemberDefinition : aws.SagemakerWorkteam.ISagemakerWorkteamMemberDefinitionCognitoMemberDefinition
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workteam#client_id SagemakerWorkteam#client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workteam#client_id SagemakerWorkteam#client_id}.</summary>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientId
         {
@@ -17,7 +17,7 @@ namespace aws.SagemakerWorkteam
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workteam#user_group SagemakerWorkteam#user_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workteam#user_group SagemakerWorkteam#user_group}.</summary>
         [JsiiProperty(name: "userGroup", typeJson: "{\"primitive\":\"string\"}")]
         public string UserGroup
         {
@@ -25,7 +25,7 @@ namespace aws.SagemakerWorkteam
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workteam#user_pool SagemakerWorkteam#user_pool}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workteam#user_pool SagemakerWorkteam#user_pool}.</summary>
         [JsiiProperty(name: "userPool", typeJson: "{\"primitive\":\"string\"}")]
         public string UserPool
         {

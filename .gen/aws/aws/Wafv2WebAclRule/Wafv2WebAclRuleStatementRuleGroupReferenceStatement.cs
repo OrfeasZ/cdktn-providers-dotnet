@@ -11,7 +11,7 @@ namespace aws.Wafv2WebAclRule
     {
         /// <summary>ARN of the RuleGroup (20-2048 characters).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl_rule#arn Wafv2WebAclRuleA#arn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl_rule#arn Wafv2WebAclRuleA#arn}
         /// </remarks>
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
         public string Arn
@@ -24,7 +24,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>excluded_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl_rule#excluded_rule Wafv2WebAclRuleA#excluded_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl_rule#excluded_rule Wafv2WebAclRuleA#excluded_rule}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "excludedRule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRuleGroupReferenceStatementExcludedRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>rule_action_override block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl_rule#rule_action_override Wafv2WebAclRuleA#rule_action_override}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl_rule#rule_action_override Wafv2WebAclRuleA#rule_action_override}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ruleActionOverride", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRuleGroupReferenceStatementRuleActionOverride\"},\"kind\":\"array\"}}]}}", isOptional: true)]

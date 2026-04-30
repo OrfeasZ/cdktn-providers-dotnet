@@ -7,14 +7,14 @@ namespace aws.QuicksightDashboard
     [JsiiInterface(nativeType: typeof(IQuicksightDashboardSourceEntitySourceTemplateDataSetReferences), fullyQualifiedName: "aws.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplateDataSetReferences")]
     public interface IQuicksightDashboardSourceEntitySourceTemplateDataSetReferences
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#data_set_arn QuicksightDashboard#data_set_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#data_set_arn QuicksightDashboard#data_set_arn}.</summary>
         [JsiiProperty(name: "dataSetArn", typeJson: "{\"primitive\":\"string\"}")]
         string DataSetArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#data_set_placeholder QuicksightDashboard#data_set_placeholder}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#data_set_placeholder QuicksightDashboard#data_set_placeholder}.</summary>
         [JsiiProperty(name: "dataSetPlaceholder", typeJson: "{\"primitive\":\"string\"}")]
         string DataSetPlaceholder
         {
@@ -28,14 +28,14 @@ namespace aws.QuicksightDashboard
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#data_set_arn QuicksightDashboard#data_set_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#data_set_arn QuicksightDashboard#data_set_arn}.</summary>
             [JsiiProperty(name: "dataSetArn", typeJson: "{\"primitive\":\"string\"}")]
             public string DataSetArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#data_set_placeholder QuicksightDashboard#data_set_placeholder}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#data_set_placeholder QuicksightDashboard#data_set_placeholder}.</summary>
             [JsiiProperty(name: "dataSetPlaceholder", typeJson: "{\"primitive\":\"string\"}")]
             public string DataSetPlaceholder
             {

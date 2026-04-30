@@ -5,7 +5,7 @@ namespace aws.CloudtrailEventDataStore
     /// <remarks>
     /// <h1><c>aws_cloudtrail_event_data_store</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudtrail_event_data_store"><c>aws_cloudtrail_event_data_store</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudtrail_event_data_store"><c>aws_cloudtrail_event_data_store</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -9,7 +9,7 @@ namespace aws.MedialiveInput
     [JsiiByValue(fqn: "aws.medialiveInput.MedialiveInputVpc")]
     public class MedialiveInputVpc : aws.MedialiveInput.IMedialiveInputVpc
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_input#subnet_ids MedialiveInput#subnet_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_input#subnet_ids MedialiveInput#subnet_ids}.</summary>
         [JsiiProperty(name: "subnetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SubnetIds
         {
@@ -17,7 +17,7 @@ namespace aws.MedialiveInput
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_input#security_group_ids MedialiveInput#security_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_input#security_group_ids MedialiveInput#security_group_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SecurityGroupIds

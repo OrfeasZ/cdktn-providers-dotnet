@@ -9,7 +9,7 @@ namespace aws.GlueJob
     [JsiiByValue(fqn: "aws.glueJob.GlueJobCommand")]
     public class GlueJobCommand : aws.GlueJob.IGlueJobCommand
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_job#script_location GlueJob#script_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_job#script_location GlueJob#script_location}.</summary>
         [JsiiProperty(name: "scriptLocation", typeJson: "{\"primitive\":\"string\"}")]
         public string ScriptLocation
         {
@@ -17,7 +17,7 @@ namespace aws.GlueJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_job#name GlueJob#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_job#name GlueJob#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -26,7 +26,7 @@ namespace aws.GlueJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_job#python_version GlueJob#python_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_job#python_version GlueJob#python_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pythonVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PythonVersion
@@ -35,7 +35,7 @@ namespace aws.GlueJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_job#runtime GlueJob#runtime}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_job#runtime GlueJob#runtime}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "runtime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Runtime

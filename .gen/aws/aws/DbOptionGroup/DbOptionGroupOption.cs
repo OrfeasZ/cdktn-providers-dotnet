@@ -9,7 +9,7 @@ namespace aws.DbOptionGroup
     [JsiiByValue(fqn: "aws.dbOptionGroup.DbOptionGroupOption")]
     public class DbOptionGroupOption : aws.DbOptionGroup.IDbOptionGroupOption
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_option_group#option_name DbOptionGroup#option_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_option_group#option_name DbOptionGroup#option_name}.</summary>
         [JsiiProperty(name: "optionName", typeJson: "{\"primitive\":\"string\"}")]
         public string OptionName
         {
@@ -17,7 +17,7 @@ namespace aws.DbOptionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_option_group#db_security_group_memberships DbOptionGroup#db_security_group_memberships}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_option_group#db_security_group_memberships DbOptionGroup#db_security_group_memberships}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dbSecurityGroupMemberships", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DbSecurityGroupMemberships
@@ -30,7 +30,7 @@ namespace aws.DbOptionGroup
 
         /// <summary>option_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_option_group#option_settings DbOptionGroup#option_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_option_group#option_settings DbOptionGroup#option_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "optionSettings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dbOptionGroup.DbOptionGroupOptionOptionSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -60,7 +60,7 @@ namespace aws.DbOptionGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_option_group#port DbOptionGroup#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_option_group#port DbOptionGroup#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Port
@@ -69,7 +69,7 @@ namespace aws.DbOptionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_option_group#version DbOptionGroup#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_option_group#version DbOptionGroup#version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Version
@@ -78,7 +78,7 @@ namespace aws.DbOptionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_option_group#vpc_security_group_memberships DbOptionGroup#vpc_security_group_memberships}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_option_group#vpc_security_group_memberships DbOptionGroup#vpc_security_group_memberships}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vpcSecurityGroupMemberships", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? VpcSecurityGroupMemberships

@@ -11,7 +11,7 @@ namespace aws.SecurityhubAutomationRule
 
         /// <summary>date_range block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_automation_rule#date_range SecurityhubAutomationRule#date_range}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_automation_rule#date_range SecurityhubAutomationRule#date_range}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dateRange", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaLastObservedAtDateRange\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace aws.SecurityhubAutomationRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_automation_rule#end SecurityhubAutomationRule#end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_automation_rule#end SecurityhubAutomationRule#end}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? End
@@ -50,7 +50,7 @@ namespace aws.SecurityhubAutomationRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_automation_rule#start SecurityhubAutomationRule#start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_automation_rule#start SecurityhubAutomationRule#start}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Start

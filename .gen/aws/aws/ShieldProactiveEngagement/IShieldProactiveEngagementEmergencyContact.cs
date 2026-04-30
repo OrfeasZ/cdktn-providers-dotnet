@@ -7,14 +7,14 @@ namespace aws.ShieldProactiveEngagement
     [JsiiInterface(nativeType: typeof(IShieldProactiveEngagementEmergencyContact), fullyQualifiedName: "aws.shieldProactiveEngagement.ShieldProactiveEngagementEmergencyContact")]
     public interface IShieldProactiveEngagementEmergencyContact
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/shield_proactive_engagement#email_address ShieldProactiveEngagement#email_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/shield_proactive_engagement#email_address ShieldProactiveEngagement#email_address}.</summary>
         [JsiiProperty(name: "emailAddress", typeJson: "{\"primitive\":\"string\"}")]
         string EmailAddress
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/shield_proactive_engagement#contact_notes ShieldProactiveEngagement#contact_notes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/shield_proactive_engagement#contact_notes ShieldProactiveEngagement#contact_notes}.</summary>
         [JsiiProperty(name: "contactNotes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ContactNotes
@@ -25,7 +25,7 @@ namespace aws.ShieldProactiveEngagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/shield_proactive_engagement#phone_number ShieldProactiveEngagement#phone_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/shield_proactive_engagement#phone_number ShieldProactiveEngagement#phone_number}.</summary>
         [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PhoneNumber
@@ -43,14 +43,14 @@ namespace aws.ShieldProactiveEngagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/shield_proactive_engagement#email_address ShieldProactiveEngagement#email_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/shield_proactive_engagement#email_address ShieldProactiveEngagement#email_address}.</summary>
             [JsiiProperty(name: "emailAddress", typeJson: "{\"primitive\":\"string\"}")]
             public string EmailAddress
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/shield_proactive_engagement#contact_notes ShieldProactiveEngagement#contact_notes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/shield_proactive_engagement#contact_notes ShieldProactiveEngagement#contact_notes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "contactNotes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ContactNotes
@@ -58,7 +58,7 @@ namespace aws.ShieldProactiveEngagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/shield_proactive_engagement#phone_number ShieldProactiveEngagement#phone_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/shield_proactive_engagement#phone_number ShieldProactiveEngagement#phone_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PhoneNumber

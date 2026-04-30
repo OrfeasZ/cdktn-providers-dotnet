@@ -7,7 +7,7 @@ namespace aws.VpcEndpoint
     [JsiiByValue(fqn: "aws.vpcEndpoint.VpcEndpointDnsOptions")]
     public class VpcEndpointDnsOptions : aws.VpcEndpoint.IVpcEndpointDnsOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_endpoint#dns_record_ip_type VpcEndpoint#dns_record_ip_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_endpoint#dns_record_ip_type VpcEndpoint#dns_record_ip_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dnsRecordIpType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DnsRecordIpType
@@ -18,7 +18,7 @@ namespace aws.VpcEndpoint
 
         private object? _privateDnsOnlyForInboundResolverEndpoint;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_endpoint#private_dns_only_for_inbound_resolver_endpoint VpcEndpoint#private_dns_only_for_inbound_resolver_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_endpoint#private_dns_only_for_inbound_resolver_endpoint VpcEndpoint#private_dns_only_for_inbound_resolver_endpoint}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateDnsOnlyForInboundResolverEndpoint", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? PrivateDnsOnlyForInboundResolverEndpoint
@@ -47,7 +47,7 @@ namespace aws.VpcEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_endpoint#private_dns_preference VpcEndpoint#private_dns_preference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_endpoint#private_dns_preference VpcEndpoint#private_dns_preference}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateDnsPreference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivateDnsPreference
@@ -56,7 +56,7 @@ namespace aws.VpcEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_endpoint#private_dns_specified_domains VpcEndpoint#private_dns_specified_domains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_endpoint#private_dns_specified_domains VpcEndpoint#private_dns_specified_domains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateDnsSpecifiedDomains", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? PrivateDnsSpecifiedDomains

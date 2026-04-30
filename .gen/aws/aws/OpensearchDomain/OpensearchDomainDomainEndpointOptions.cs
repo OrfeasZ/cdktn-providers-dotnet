@@ -7,7 +7,7 @@ namespace aws.OpensearchDomain
     [JsiiByValue(fqn: "aws.opensearchDomain.OpensearchDomainDomainEndpointOptions")]
     public class OpensearchDomainDomainEndpointOptions : aws.OpensearchDomain.IOpensearchDomainDomainEndpointOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#custom_endpoint OpensearchDomain#custom_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#custom_endpoint OpensearchDomain#custom_endpoint}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customEndpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomEndpoint
@@ -16,7 +16,7 @@ namespace aws.OpensearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#custom_endpoint_certificate_arn OpensearchDomain#custom_endpoint_certificate_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#custom_endpoint_certificate_arn OpensearchDomain#custom_endpoint_certificate_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customEndpointCertificateArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomEndpointCertificateArn
@@ -27,7 +27,7 @@ namespace aws.OpensearchDomain
 
         private object? _customEndpointEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#custom_endpoint_enabled OpensearchDomain#custom_endpoint_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#custom_endpoint_enabled OpensearchDomain#custom_endpoint_enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customEndpointEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? CustomEndpointEnabled
@@ -58,7 +58,7 @@ namespace aws.OpensearchDomain
 
         private object? _enforceHttps;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#enforce_https OpensearchDomain#enforce_https}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#enforce_https OpensearchDomain#enforce_https}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enforceHttps", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? EnforceHttps
@@ -87,7 +87,7 @@ namespace aws.OpensearchDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_domain#tls_security_policy OpensearchDomain#tls_security_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_domain#tls_security_policy OpensearchDomain#tls_security_policy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tlsSecurityPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TlsSecurityPolicy

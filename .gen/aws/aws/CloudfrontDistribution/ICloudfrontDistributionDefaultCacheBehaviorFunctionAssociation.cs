@@ -7,14 +7,14 @@ namespace aws.CloudfrontDistribution
     [JsiiInterface(nativeType: typeof(ICloudfrontDistributionDefaultCacheBehaviorFunctionAssociation), fullyQualifiedName: "aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorFunctionAssociation")]
     public interface ICloudfrontDistributionDefaultCacheBehaviorFunctionAssociation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#event_type CloudfrontDistribution#event_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#event_type CloudfrontDistribution#event_type}.</summary>
         [JsiiProperty(name: "eventType", typeJson: "{\"primitive\":\"string\"}")]
         string EventType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#function_arn CloudfrontDistribution#function_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#function_arn CloudfrontDistribution#function_arn}.</summary>
         [JsiiProperty(name: "functionArn", typeJson: "{\"primitive\":\"string\"}")]
         string FunctionArn
         {
@@ -28,14 +28,14 @@ namespace aws.CloudfrontDistribution
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#event_type CloudfrontDistribution#event_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#event_type CloudfrontDistribution#event_type}.</summary>
             [JsiiProperty(name: "eventType", typeJson: "{\"primitive\":\"string\"}")]
             public string EventType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#function_arn CloudfrontDistribution#function_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#function_arn CloudfrontDistribution#function_arn}.</summary>
             [JsiiProperty(name: "functionArn", typeJson: "{\"primitive\":\"string\"}")]
             public string FunctionArn
             {

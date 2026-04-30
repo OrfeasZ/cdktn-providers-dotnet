@@ -9,7 +9,7 @@ namespace aws.CognitoRiskConfiguration
     [JsiiByValue(fqn: "aws.cognitoRiskConfiguration.CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationActions")]
     public class CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationActions : aws.CognitoRiskConfiguration.ICognitoRiskConfigurationCompromisedCredentialsRiskConfigurationActions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_risk_configuration#event_action CognitoRiskConfiguration#event_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_risk_configuration#event_action CognitoRiskConfiguration#event_action}.</summary>
         [JsiiProperty(name: "eventAction", typeJson: "{\"primitive\":\"string\"}")]
         public string EventAction
         {

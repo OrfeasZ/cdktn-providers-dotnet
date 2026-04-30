@@ -9,7 +9,7 @@ namespace aws.FsxOpenzfsFileSystem
     [JsiiByValue(fqn: "aws.fsxOpenzfsFileSystem.FsxOpenzfsFileSystemRootVolumeConfigurationNfsExportsClientConfigurations")]
     public class FsxOpenzfsFileSystemRootVolumeConfigurationNfsExportsClientConfigurations : aws.FsxOpenzfsFileSystem.IFsxOpenzfsFileSystemRootVolumeConfigurationNfsExportsClientConfigurations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_file_system#clients FsxOpenzfsFileSystem#clients}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_openzfs_file_system#clients FsxOpenzfsFileSystem#clients}.</summary>
         [JsiiProperty(name: "clients", typeJson: "{\"primitive\":\"string\"}")]
         public string Clients
         {
@@ -17,7 +17,7 @@ namespace aws.FsxOpenzfsFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_file_system#options FsxOpenzfsFileSystem#options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_openzfs_file_system#options FsxOpenzfsFileSystem#options}.</summary>
         [JsiiProperty(name: "options", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Options
         {

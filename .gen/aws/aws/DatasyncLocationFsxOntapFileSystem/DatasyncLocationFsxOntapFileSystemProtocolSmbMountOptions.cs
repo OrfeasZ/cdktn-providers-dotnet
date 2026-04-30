@@ -7,7 +7,7 @@ namespace aws.DatasyncLocationFsxOntapFileSystem
     [JsiiByValue(fqn: "aws.datasyncLocationFsxOntapFileSystem.DatasyncLocationFsxOntapFileSystemProtocolSmbMountOptions")]
     public class DatasyncLocationFsxOntapFileSystemProtocolSmbMountOptions : aws.DatasyncLocationFsxOntapFileSystem.IDatasyncLocationFsxOntapFileSystemProtocolSmbMountOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_fsx_ontap_file_system#version DatasyncLocationFsxOntapFileSystem#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_location_fsx_ontap_file_system#version DatasyncLocationFsxOntapFileSystem#version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Version

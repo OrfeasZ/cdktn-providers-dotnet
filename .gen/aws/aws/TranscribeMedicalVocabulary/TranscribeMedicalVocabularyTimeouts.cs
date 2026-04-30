@@ -7,7 +7,7 @@ namespace aws.TranscribeMedicalVocabulary
     [JsiiByValue(fqn: "aws.transcribeMedicalVocabulary.TranscribeMedicalVocabularyTimeouts")]
     public class TranscribeMedicalVocabularyTimeouts : aws.TranscribeMedicalVocabulary.ITranscribeMedicalVocabularyTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transcribe_medical_vocabulary#create TranscribeMedicalVocabulary#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transcribe_medical_vocabulary#create TranscribeMedicalVocabulary#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.TranscribeMedicalVocabulary
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transcribe_medical_vocabulary#delete TranscribeMedicalVocabulary#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transcribe_medical_vocabulary#delete TranscribeMedicalVocabulary#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace aws.TranscribeMedicalVocabulary
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transcribe_medical_vocabulary#update TranscribeMedicalVocabulary#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transcribe_medical_vocabulary#update TranscribeMedicalVocabulary#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

@@ -9,7 +9,7 @@ namespace aws.EmrserverlessApplication
     [JsiiByValue(fqn: "aws.emrserverlessApplication.EmrserverlessApplicationMaximumCapacity")]
     public class EmrserverlessApplicationMaximumCapacity : aws.EmrserverlessApplication.IEmrserverlessApplicationMaximumCapacity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrserverless_application#cpu EmrserverlessApplication#cpu}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrserverless_application#cpu EmrserverlessApplication#cpu}.</summary>
         [JsiiProperty(name: "cpu", typeJson: "{\"primitive\":\"string\"}")]
         public string Cpu
         {
@@ -17,7 +17,7 @@ namespace aws.EmrserverlessApplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrserverless_application#memory EmrserverlessApplication#memory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrserverless_application#memory EmrserverlessApplication#memory}.</summary>
         [JsiiProperty(name: "memory", typeJson: "{\"primitive\":\"string\"}")]
         public string Memory
         {
@@ -25,7 +25,7 @@ namespace aws.EmrserverlessApplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrserverless_application#disk EmrserverlessApplication#disk}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrserverless_application#disk EmrserverlessApplication#disk}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "disk", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Disk

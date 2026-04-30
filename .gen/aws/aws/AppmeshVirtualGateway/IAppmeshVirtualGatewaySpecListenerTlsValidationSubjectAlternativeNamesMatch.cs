@@ -7,7 +7,7 @@ namespace aws.AppmeshVirtualGateway
     [JsiiInterface(nativeType: typeof(IAppmeshVirtualGatewaySpecListenerTlsValidationSubjectAlternativeNamesMatch), fullyQualifiedName: "aws.appmeshVirtualGateway.AppmeshVirtualGatewaySpecListenerTlsValidationSubjectAlternativeNamesMatch")]
     public interface IAppmeshVirtualGatewaySpecListenerTlsValidationSubjectAlternativeNamesMatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_gateway#exact AppmeshVirtualGateway#exact}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_gateway#exact AppmeshVirtualGateway#exact}.</summary>
         [JsiiProperty(name: "exact", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Exact
         {
@@ -21,7 +21,7 @@ namespace aws.AppmeshVirtualGateway
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_gateway#exact AppmeshVirtualGateway#exact}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_gateway#exact AppmeshVirtualGateway#exact}.</summary>
             [JsiiProperty(name: "exact", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Exact
             {

@@ -7,7 +7,7 @@ namespace aws.BedrockGuardrail
     [JsiiInterface(nativeType: typeof(IBedrockGuardrailTopicPolicyConfigTierConfig), fullyQualifiedName: "aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigTierConfig")]
     public interface IBedrockGuardrailTopicPolicyConfigTierConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrock_guardrail#tier_name BedrockGuardrail#tier_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrock_guardrail#tier_name BedrockGuardrail#tier_name}.</summary>
         [JsiiProperty(name: "tierName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TierName
@@ -25,7 +25,7 @@ namespace aws.BedrockGuardrail
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrock_guardrail#tier_name BedrockGuardrail#tier_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrock_guardrail#tier_name BedrockGuardrail#tier_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tierName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TierName

@@ -7,14 +7,14 @@ namespace aws.IotProvisioningTemplate
     [JsiiInterface(nativeType: typeof(IIotProvisioningTemplatePreProvisioningHook), fullyQualifiedName: "aws.iotProvisioningTemplate.IotProvisioningTemplatePreProvisioningHook")]
     public interface IIotProvisioningTemplatePreProvisioningHook
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_provisioning_template#target_arn IotProvisioningTemplate#target_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_provisioning_template#target_arn IotProvisioningTemplate#target_arn}.</summary>
         [JsiiProperty(name: "targetArn", typeJson: "{\"primitive\":\"string\"}")]
         string TargetArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_provisioning_template#payload_version IotProvisioningTemplate#payload_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_provisioning_template#payload_version IotProvisioningTemplate#payload_version}.</summary>
         [JsiiProperty(name: "payloadVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PayloadVersion
@@ -32,14 +32,14 @@ namespace aws.IotProvisioningTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_provisioning_template#target_arn IotProvisioningTemplate#target_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_provisioning_template#target_arn IotProvisioningTemplate#target_arn}.</summary>
             [JsiiProperty(name: "targetArn", typeJson: "{\"primitive\":\"string\"}")]
             public string TargetArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_provisioning_template#payload_version IotProvisioningTemplate#payload_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_provisioning_template#payload_version IotProvisioningTemplate#payload_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "payloadVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PayloadVersion

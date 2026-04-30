@@ -9,7 +9,7 @@ namespace aws.AppflowConnectorProfile
     [JsiiByValue(fqn: "aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSingular")]
     public class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSingular : aws.AppflowConnectorProfile.IAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSingular
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#api_key AppflowConnectorProfile#api_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_connector_profile#api_key AppflowConnectorProfile#api_key}.</summary>
         [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiKey
         {

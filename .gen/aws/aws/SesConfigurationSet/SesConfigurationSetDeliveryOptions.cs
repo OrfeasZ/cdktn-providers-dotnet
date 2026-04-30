@@ -7,7 +7,7 @@ namespace aws.SesConfigurationSet
     [JsiiByValue(fqn: "aws.sesConfigurationSet.SesConfigurationSetDeliveryOptions")]
     public class SesConfigurationSetDeliveryOptions : aws.SesConfigurationSet.ISesConfigurationSetDeliveryOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#tls_policy SesConfigurationSet#tls_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ses_configuration_set#tls_policy SesConfigurationSet#tls_policy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tlsPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TlsPolicy

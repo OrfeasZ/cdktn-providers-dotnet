@@ -9,7 +9,7 @@ namespace aws.SsoadminApplication
     [JsiiByValue(fqn: "aws.ssoadminApplication.SsoadminApplicationPortalOptionsSignInOptions")]
     public class SsoadminApplicationPortalOptionsSignInOptions : aws.SsoadminApplication.ISsoadminApplicationPortalOptionsSignInOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssoadmin_application#origin SsoadminApplication#origin}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssoadmin_application#origin SsoadminApplication#origin}.</summary>
         [JsiiProperty(name: "origin", typeJson: "{\"primitive\":\"string\"}")]
         public string Origin
         {
@@ -17,7 +17,7 @@ namespace aws.SsoadminApplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssoadmin_application#application_url SsoadminApplication#application_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssoadmin_application#application_url SsoadminApplication#application_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "applicationUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApplicationUrl

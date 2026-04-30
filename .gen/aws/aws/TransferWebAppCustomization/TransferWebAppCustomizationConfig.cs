@@ -9,7 +9,7 @@ namespace aws.TransferWebAppCustomization
     [JsiiByValue(fqn: "aws.transferWebAppCustomization.TransferWebAppCustomizationConfig")]
     public class TransferWebAppCustomizationConfig : aws.TransferWebAppCustomization.ITransferWebAppCustomizationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_web_app_customization#web_app_id TransferWebAppCustomization#web_app_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_web_app_customization#web_app_id TransferWebAppCustomization#web_app_id}.</summary>
         [JsiiProperty(name: "webAppId", typeJson: "{\"primitive\":\"string\"}")]
         public string WebAppId
         {
@@ -17,7 +17,7 @@ namespace aws.TransferWebAppCustomization
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_web_app_customization#favicon_file TransferWebAppCustomization#favicon_file}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_web_app_customization#favicon_file TransferWebAppCustomization#favicon_file}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "faviconFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FaviconFile
@@ -26,7 +26,7 @@ namespace aws.TransferWebAppCustomization
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_web_app_customization#logo_file TransferWebAppCustomization#logo_file}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_web_app_customization#logo_file TransferWebAppCustomization#logo_file}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logoFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogoFile
@@ -37,7 +37,7 @@ namespace aws.TransferWebAppCustomization
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_web_app_customization#region TransferWebAppCustomization#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_web_app_customization#region TransferWebAppCustomization#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace aws.TransferWebAppCustomization
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_web_app_customization#title TransferWebAppCustomization#title}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_web_app_customization#title TransferWebAppCustomization#title}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Title

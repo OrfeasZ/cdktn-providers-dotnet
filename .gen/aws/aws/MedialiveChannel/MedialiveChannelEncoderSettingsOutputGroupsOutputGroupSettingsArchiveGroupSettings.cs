@@ -11,7 +11,7 @@ namespace aws.MedialiveChannel
     {
         /// <summary>destination block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#destination MedialiveChannel#destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#destination MedialiveChannel#destination}
         /// </remarks>
         [JsiiProperty(name: "destination", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestination\"}")]
         public aws.MedialiveChannel.IMedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestination Destination
@@ -22,7 +22,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>archive_cdn_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#archive_cdn_settings MedialiveChannel#archive_cdn_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#archive_cdn_settings MedialiveChannel#archive_cdn_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "archiveCdnSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsArchiveCdnSettings\"}", isOptional: true)]
@@ -32,7 +32,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#rollover_interval MedialiveChannel#rollover_interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#rollover_interval MedialiveChannel#rollover_interval}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rolloverInterval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RolloverInterval

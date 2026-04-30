@@ -7,14 +7,14 @@ namespace aws.Alb
     [JsiiInterface(nativeType: typeof(IAlbSubnetMapping), fullyQualifiedName: "aws.alb.AlbSubnetMapping")]
     public interface IAlbSubnetMapping
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb#subnet_id Alb#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb#subnet_id Alb#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         string SubnetId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb#allocation_id Alb#allocation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb#allocation_id Alb#allocation_id}.</summary>
         [JsiiProperty(name: "allocationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AllocationId
@@ -25,7 +25,7 @@ namespace aws.Alb
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb#ipv6_address Alb#ipv6_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb#ipv6_address Alb#ipv6_address}.</summary>
         [JsiiProperty(name: "ipv6Address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Ipv6Address
@@ -36,7 +36,7 @@ namespace aws.Alb
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb#private_ipv4_address Alb#private_ipv4_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb#private_ipv4_address Alb#private_ipv4_address}.</summary>
         [JsiiProperty(name: "privateIpv4Address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PrivateIpv4Address
@@ -54,14 +54,14 @@ namespace aws.Alb
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb#subnet_id Alb#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb#subnet_id Alb#subnet_id}.</summary>
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubnetId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb#allocation_id Alb#allocation_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb#allocation_id Alb#allocation_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "allocationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AllocationId
@@ -69,7 +69,7 @@ namespace aws.Alb
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb#ipv6_address Alb#ipv6_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb#ipv6_address Alb#ipv6_address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipv6Address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Ipv6Address
@@ -77,7 +77,7 @@ namespace aws.Alb
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb#private_ipv4_address Alb#private_ipv4_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb#private_ipv4_address Alb#private_ipv4_address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "privateIpv4Address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PrivateIpv4Address

@@ -9,7 +9,7 @@ namespace aws.CloudfrontConnectionFunction
     [JsiiByValue(fqn: "aws.cloudfrontConnectionFunction.CloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAssociation")]
     public class CloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAssociation : aws.CloudfrontConnectionFunction.ICloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAssociation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_connection_function#key_value_store_arn CloudfrontConnectionFunction#key_value_store_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_connection_function#key_value_store_arn CloudfrontConnectionFunction#key_value_store_arn}.</summary>
         [JsiiProperty(name: "keyValueStoreArn", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyValueStoreArn
         {

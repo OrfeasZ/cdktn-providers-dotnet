@@ -9,7 +9,7 @@ namespace aws.AutoscalingGroup
     [JsiiByValue(fqn: "aws.autoscalingGroup.AutoscalingGroupInstanceMaintenancePolicy")]
     public class AutoscalingGroupInstanceMaintenancePolicy : aws.AutoscalingGroup.IAutoscalingGroupInstanceMaintenancePolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#max_healthy_percentage AutoscalingGroup#max_healthy_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_group#max_healthy_percentage AutoscalingGroup#max_healthy_percentage}.</summary>
         [JsiiProperty(name: "maxHealthyPercentage", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxHealthyPercentage
         {
@@ -17,7 +17,7 @@ namespace aws.AutoscalingGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#min_healthy_percentage AutoscalingGroup#min_healthy_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_group#min_healthy_percentage AutoscalingGroup#min_healthy_percentage}.</summary>
         [JsiiProperty(name: "minHealthyPercentage", typeJson: "{\"primitive\":\"number\"}")]
         public double MinHealthyPercentage
         {

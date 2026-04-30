@@ -7,7 +7,7 @@ namespace aws.S3ControlAccessGrant
     [JsiiInterface(nativeType: typeof(IS3ControlAccessGrantAccessGrantsLocationConfiguration), fullyQualifiedName: "aws.s3ControlAccessGrant.S3ControlAccessGrantAccessGrantsLocationConfiguration")]
     public interface IS3ControlAccessGrantAccessGrantsLocationConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_access_grant#s3_sub_prefix S3ControlAccessGrant#s3_sub_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_access_grant#s3_sub_prefix S3ControlAccessGrant#s3_sub_prefix}.</summary>
         [JsiiProperty(name: "s3SubPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? S3SubPrefix
@@ -25,7 +25,7 @@ namespace aws.S3ControlAccessGrant
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_access_grant#s3_sub_prefix S3ControlAccessGrant#s3_sub_prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_access_grant#s3_sub_prefix S3ControlAccessGrant#s3_sub_prefix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "s3SubPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? S3SubPrefix

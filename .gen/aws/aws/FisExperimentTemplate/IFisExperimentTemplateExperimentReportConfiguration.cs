@@ -9,7 +9,7 @@ namespace aws.FisExperimentTemplate
     {
         /// <summary>data_sources block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#data_sources FisExperimentTemplate#data_sources}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fis_experiment_template#data_sources FisExperimentTemplate#data_sources}
         /// </remarks>
         [JsiiProperty(name: "dataSources", typeJson: "{\"fqn\":\"aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSources\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.FisExperimentTemplate
 
         /// <summary>outputs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#outputs FisExperimentTemplate#outputs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fis_experiment_template#outputs FisExperimentTemplate#outputs}
         /// </remarks>
         [JsiiProperty(name: "outputs", typeJson: "{\"fqn\":\"aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputs\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace aws.FisExperimentTemplate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#post_experiment_duration FisExperimentTemplate#post_experiment_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fis_experiment_template#post_experiment_duration FisExperimentTemplate#post_experiment_duration}.</summary>
         [JsiiProperty(name: "postExperimentDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PostExperimentDuration
@@ -46,7 +46,7 @@ namespace aws.FisExperimentTemplate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#pre_experiment_duration FisExperimentTemplate#pre_experiment_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fis_experiment_template#pre_experiment_duration FisExperimentTemplate#pre_experiment_duration}.</summary>
         [JsiiProperty(name: "preExperimentDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PreExperimentDuration
@@ -66,7 +66,7 @@ namespace aws.FisExperimentTemplate
 
             /// <summary>data_sources block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#data_sources FisExperimentTemplate#data_sources}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fis_experiment_template#data_sources FisExperimentTemplate#data_sources}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dataSources", typeJson: "{\"fqn\":\"aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSources\"}", isOptional: true)]
@@ -77,7 +77,7 @@ namespace aws.FisExperimentTemplate
 
             /// <summary>outputs block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#outputs FisExperimentTemplate#outputs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fis_experiment_template#outputs FisExperimentTemplate#outputs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "outputs", typeJson: "{\"fqn\":\"aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputs\"}", isOptional: true)]
@@ -86,7 +86,7 @@ namespace aws.FisExperimentTemplate
                 get => GetInstanceProperty<aws.FisExperimentTemplate.IFisExperimentTemplateExperimentReportConfigurationOutputs?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#post_experiment_duration FisExperimentTemplate#post_experiment_duration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fis_experiment_template#post_experiment_duration FisExperimentTemplate#post_experiment_duration}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "postExperimentDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PostExperimentDuration
@@ -94,7 +94,7 @@ namespace aws.FisExperimentTemplate
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#pre_experiment_duration FisExperimentTemplate#pre_experiment_duration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fis_experiment_template#pre_experiment_duration FisExperimentTemplate#pre_experiment_duration}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "preExperimentDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PreExperimentDuration

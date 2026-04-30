@@ -7,7 +7,7 @@ namespace aws.S3BucketAcl
     [JsiiInterface(nativeType: typeof(IS3BucketAclAccessControlPolicyGrant), fullyQualifiedName: "aws.s3BucketAcl.S3BucketAclAccessControlPolicyGrant")]
     public interface IS3BucketAclAccessControlPolicyGrant
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_acl#permission S3BucketAcl#permission}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_acl#permission S3BucketAcl#permission}.</summary>
         [JsiiProperty(name: "permission", typeJson: "{\"primitive\":\"string\"}")]
         string Permission
         {
@@ -16,7 +16,7 @@ namespace aws.S3BucketAcl
 
         /// <summary>grantee block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_acl#grantee S3BucketAcl#grantee}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_acl#grantee S3BucketAcl#grantee}
         /// </remarks>
         [JsiiProperty(name: "grantee", typeJson: "{\"fqn\":\"aws.s3BucketAcl.S3BucketAclAccessControlPolicyGrantGrantee\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace aws.S3BucketAcl
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_acl#permission S3BucketAcl#permission}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_acl#permission S3BucketAcl#permission}.</summary>
             [JsiiProperty(name: "permission", typeJson: "{\"primitive\":\"string\"}")]
             public string Permission
             {
@@ -44,7 +44,7 @@ namespace aws.S3BucketAcl
 
             /// <summary>grantee block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_acl#grantee S3BucketAcl#grantee}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_acl#grantee S3BucketAcl#grantee}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "grantee", typeJson: "{\"fqn\":\"aws.s3BucketAcl.S3BucketAclAccessControlPolicyGrantGrantee\"}", isOptional: true)]

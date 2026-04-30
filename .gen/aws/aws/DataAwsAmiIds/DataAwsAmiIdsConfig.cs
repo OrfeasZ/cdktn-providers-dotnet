@@ -9,7 +9,7 @@ namespace aws.DataAwsAmiIds
     [JsiiByValue(fqn: "aws.dataAwsAmiIds.DataAwsAmiIdsConfig")]
     public class DataAwsAmiIdsConfig : aws.DataAwsAmiIds.IDataAwsAmiIdsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ami_ids#owners DataAwsAmiIds#owners}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ami_ids#owners DataAwsAmiIds#owners}.</summary>
         [JsiiProperty(name: "owners", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Owners
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsAmiIds
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ami_ids#executable_users DataAwsAmiIds#executable_users}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ami_ids#executable_users DataAwsAmiIds#executable_users}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "executableUsers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ExecutableUsers
@@ -30,7 +30,7 @@ namespace aws.DataAwsAmiIds
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ami_ids#filter DataAwsAmiIds#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ami_ids#filter DataAwsAmiIds#filter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsAmiIds.DataAwsAmiIdsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -60,7 +60,7 @@ namespace aws.DataAwsAmiIds
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ami_ids#id DataAwsAmiIds#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ami_ids#id DataAwsAmiIds#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,7 +75,7 @@ namespace aws.DataAwsAmiIds
 
         private object? _includeDeprecated;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ami_ids#include_deprecated DataAwsAmiIds#include_deprecated}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ami_ids#include_deprecated DataAwsAmiIds#include_deprecated}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeDeprecated", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeDeprecated
@@ -104,7 +104,7 @@ namespace aws.DataAwsAmiIds
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ami_ids#name_regex DataAwsAmiIds#name_regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ami_ids#name_regex DataAwsAmiIds#name_regex}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nameRegex", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NameRegex
@@ -115,7 +115,7 @@ namespace aws.DataAwsAmiIds
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ami_ids#region DataAwsAmiIds#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ami_ids#region DataAwsAmiIds#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -127,7 +127,7 @@ namespace aws.DataAwsAmiIds
 
         private object? _sortAscending;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ami_ids#sort_ascending DataAwsAmiIds#sort_ascending}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ami_ids#sort_ascending DataAwsAmiIds#sort_ascending}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sortAscending", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? SortAscending
@@ -158,7 +158,7 @@ namespace aws.DataAwsAmiIds
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ami_ids#timeouts DataAwsAmiIds#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ami_ids#timeouts DataAwsAmiIds#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.dataAwsAmiIds.DataAwsAmiIdsTimeouts\"}", isOptional: true)]

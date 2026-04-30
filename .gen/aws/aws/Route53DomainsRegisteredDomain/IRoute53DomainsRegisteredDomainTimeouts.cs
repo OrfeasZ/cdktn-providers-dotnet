@@ -7,7 +7,7 @@ namespace aws.Route53DomainsRegisteredDomain
     [JsiiInterface(nativeType: typeof(IRoute53DomainsRegisteredDomainTimeouts), fullyQualifiedName: "aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainTimeouts")]
     public interface IRoute53DomainsRegisteredDomainTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_registered_domain#create Route53DomainsRegisteredDomain#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_registered_domain#create Route53DomainsRegisteredDomain#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace aws.Route53DomainsRegisteredDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_registered_domain#update Route53DomainsRegisteredDomain#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_registered_domain#update Route53DomainsRegisteredDomain#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -36,7 +36,7 @@ namespace aws.Route53DomainsRegisteredDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_registered_domain#create Route53DomainsRegisteredDomain#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_registered_domain#create Route53DomainsRegisteredDomain#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -44,7 +44,7 @@ namespace aws.Route53DomainsRegisteredDomain
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53domains_registered_domain#update Route53DomainsRegisteredDomain#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53domains_registered_domain#update Route53DomainsRegisteredDomain#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

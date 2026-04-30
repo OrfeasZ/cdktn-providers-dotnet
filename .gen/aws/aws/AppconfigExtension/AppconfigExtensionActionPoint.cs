@@ -13,7 +13,7 @@ namespace aws.AppconfigExtension
 
         /// <summary>action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_extension#action AppconfigExtension#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_extension#action AppconfigExtension#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appconfigExtension.AppconfigExtensionActionPointAction\"},\"kind\":\"array\"}}]}}")]
         public object Action
@@ -42,7 +42,7 @@ namespace aws.AppconfigExtension
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_extension#point AppconfigExtension#point}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_extension#point AppconfigExtension#point}.</summary>
         [JsiiProperty(name: "point", typeJson: "{\"primitive\":\"string\"}")]
         public string Point
         {

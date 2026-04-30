@@ -7,7 +7,7 @@ namespace aws.CognitoRiskConfiguration
     [JsiiByValue(fqn: "aws.cognitoRiskConfiguration.CognitoRiskConfigurationRiskExceptionConfiguration")]
     public class CognitoRiskConfigurationRiskExceptionConfiguration : aws.CognitoRiskConfiguration.ICognitoRiskConfigurationRiskExceptionConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_risk_configuration#blocked_ip_range_list CognitoRiskConfiguration#blocked_ip_range_list}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_risk_configuration#blocked_ip_range_list CognitoRiskConfiguration#blocked_ip_range_list}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "blockedIpRangeList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? BlockedIpRangeList
@@ -16,7 +16,7 @@ namespace aws.CognitoRiskConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_risk_configuration#skipped_ip_range_list CognitoRiskConfiguration#skipped_ip_range_list}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_risk_configuration#skipped_ip_range_list CognitoRiskConfiguration#skipped_ip_range_list}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "skippedIpRangeList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SkippedIpRangeList

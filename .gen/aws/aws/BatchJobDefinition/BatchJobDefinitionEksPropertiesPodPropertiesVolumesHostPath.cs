@@ -9,7 +9,7 @@ namespace aws.BatchJobDefinition
     [JsiiByValue(fqn: "aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPath")]
     public class BatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPath : aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPath
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#path BatchJobDefinition#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_job_definition#path BatchJobDefinition#path}.</summary>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
         public string Path
         {

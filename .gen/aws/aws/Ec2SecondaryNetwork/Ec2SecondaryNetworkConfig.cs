@@ -9,7 +9,7 @@ namespace aws.Ec2SecondaryNetwork
     [JsiiByValue(fqn: "aws.ec2SecondaryNetwork.Ec2SecondaryNetworkConfig")]
     public class Ec2SecondaryNetworkConfig : aws.Ec2SecondaryNetwork.IEc2SecondaryNetworkConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_secondary_network#ipv4_cidr_block Ec2SecondaryNetwork#ipv4_cidr_block}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_secondary_network#ipv4_cidr_block Ec2SecondaryNetwork#ipv4_cidr_block}.</summary>
         [JsiiProperty(name: "ipv4CidrBlock", typeJson: "{\"primitive\":\"string\"}")]
         public string Ipv4CidrBlock
         {
@@ -17,7 +17,7 @@ namespace aws.Ec2SecondaryNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_secondary_network#network_type Ec2SecondaryNetwork#network_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_secondary_network#network_type Ec2SecondaryNetwork#network_type}.</summary>
         [JsiiProperty(name: "networkType", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkType
         {
@@ -27,7 +27,7 @@ namespace aws.Ec2SecondaryNetwork
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_secondary_network#region Ec2SecondaryNetwork#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_secondary_network#region Ec2SecondaryNetwork#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace aws.Ec2SecondaryNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_secondary_network#tags Ec2SecondaryNetwork#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_secondary_network#tags Ec2SecondaryNetwork#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -48,7 +48,7 @@ namespace aws.Ec2SecondaryNetwork
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_secondary_network#timeouts Ec2SecondaryNetwork#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_secondary_network#timeouts Ec2SecondaryNetwork#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.ec2SecondaryNetwork.Ec2SecondaryNetworkTimeouts\"}", isOptional: true)]

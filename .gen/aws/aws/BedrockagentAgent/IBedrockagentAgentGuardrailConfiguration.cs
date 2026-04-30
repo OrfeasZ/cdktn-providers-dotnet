@@ -7,7 +7,7 @@ namespace aws.BedrockagentAgent
     [JsiiInterface(nativeType: typeof(IBedrockagentAgentGuardrailConfiguration), fullyQualifiedName: "aws.bedrockagentAgent.BedrockagentAgentGuardrailConfiguration")]
     public interface IBedrockagentAgentGuardrailConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_agent#guardrail_identifier BedrockagentAgent#guardrail_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_agent#guardrail_identifier BedrockagentAgent#guardrail_identifier}.</summary>
         [JsiiProperty(name: "guardrailIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GuardrailIdentifier
@@ -18,7 +18,7 @@ namespace aws.BedrockagentAgent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_agent#guardrail_version BedrockagentAgent#guardrail_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_agent#guardrail_version BedrockagentAgent#guardrail_version}.</summary>
         [JsiiProperty(name: "guardrailVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GuardrailVersion
@@ -36,7 +36,7 @@ namespace aws.BedrockagentAgent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_agent#guardrail_identifier BedrockagentAgent#guardrail_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_agent#guardrail_identifier BedrockagentAgent#guardrail_identifier}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "guardrailIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GuardrailIdentifier
@@ -44,7 +44,7 @@ namespace aws.BedrockagentAgent
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_agent#guardrail_version BedrockagentAgent#guardrail_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_agent#guardrail_version BedrockagentAgent#guardrail_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "guardrailVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GuardrailVersion

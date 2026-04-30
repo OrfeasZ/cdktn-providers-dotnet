@@ -7,21 +7,21 @@ namespace aws.MedialiveChannel
     [JsiiInterface(nativeType: typeof(IMedialiveChannelEncoderSettingsCaptionDescriptions), fullyQualifiedName: "aws.medialiveChannel.MedialiveChannelEncoderSettingsCaptionDescriptions")]
     public interface IMedialiveChannelEncoderSettingsCaptionDescriptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#caption_selector_name MedialiveChannel#caption_selector_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#caption_selector_name MedialiveChannel#caption_selector_name}.</summary>
         [JsiiProperty(name: "captionSelectorName", typeJson: "{\"primitive\":\"string\"}")]
         string CaptionSelectorName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#name MedialiveChannel#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#name MedialiveChannel#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#accessibility MedialiveChannel#accessibility}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#accessibility MedialiveChannel#accessibility}.</summary>
         [JsiiProperty(name: "accessibility", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Accessibility
@@ -34,7 +34,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>destination_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#destination_settings MedialiveChannel#destination_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#destination_settings MedialiveChannel#destination_settings}
         /// </remarks>
         [JsiiProperty(name: "destinationSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -46,7 +46,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#language_code MedialiveChannel#language_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#language_code MedialiveChannel#language_code}.</summary>
         [JsiiProperty(name: "languageCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LanguageCode
@@ -57,7 +57,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#language_description MedialiveChannel#language_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#language_description MedialiveChannel#language_description}.</summary>
         [JsiiProperty(name: "languageDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LanguageDescription
@@ -75,21 +75,21 @@ namespace aws.MedialiveChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#caption_selector_name MedialiveChannel#caption_selector_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#caption_selector_name MedialiveChannel#caption_selector_name}.</summary>
             [JsiiProperty(name: "captionSelectorName", typeJson: "{\"primitive\":\"string\"}")]
             public string CaptionSelectorName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#name MedialiveChannel#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#name MedialiveChannel#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#accessibility MedialiveChannel#accessibility}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#accessibility MedialiveChannel#accessibility}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessibility", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Accessibility
@@ -99,7 +99,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>destination_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#destination_settings MedialiveChannel#destination_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#destination_settings MedialiveChannel#destination_settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "destinationSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettings\"}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<aws.MedialiveChannel.IMedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettings?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#language_code MedialiveChannel#language_code}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#language_code MedialiveChannel#language_code}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "languageCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LanguageCode
@@ -116,7 +116,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#language_description MedialiveChannel#language_description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#language_description MedialiveChannel#language_description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "languageDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LanguageDescription

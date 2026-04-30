@@ -7,7 +7,7 @@ namespace aws.LambdaEventSourceMapping
     [JsiiInterface(nativeType: typeof(ILambdaEventSourceMappingDestinationConfigOnFailure), fullyQualifiedName: "aws.lambdaEventSourceMapping.LambdaEventSourceMappingDestinationConfigOnFailure")]
     public interface ILambdaEventSourceMappingDestinationConfigOnFailure
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_event_source_mapping#destination_arn LambdaEventSourceMapping#destination_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_event_source_mapping#destination_arn LambdaEventSourceMapping#destination_arn}.</summary>
         [JsiiProperty(name: "destinationArn", typeJson: "{\"primitive\":\"string\"}")]
         string DestinationArn
         {
@@ -21,7 +21,7 @@ namespace aws.LambdaEventSourceMapping
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_event_source_mapping#destination_arn LambdaEventSourceMapping#destination_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_event_source_mapping#destination_arn LambdaEventSourceMapping#destination_arn}.</summary>
             [JsiiProperty(name: "destinationArn", typeJson: "{\"primitive\":\"string\"}")]
             public string DestinationArn
             {

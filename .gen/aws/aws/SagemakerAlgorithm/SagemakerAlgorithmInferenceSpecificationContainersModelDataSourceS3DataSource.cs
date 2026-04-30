@@ -9,7 +9,7 @@ namespace aws.SagemakerAlgorithm
     [JsiiByValue(fqn: "aws.sagemakerAlgorithm.SagemakerAlgorithmInferenceSpecificationContainersModelDataSourceS3DataSource")]
     public class SagemakerAlgorithmInferenceSpecificationContainersModelDataSourceS3DataSource : aws.SagemakerAlgorithm.ISagemakerAlgorithmInferenceSpecificationContainersModelDataSourceS3DataSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#compression_type SagemakerAlgorithm#compression_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#compression_type SagemakerAlgorithm#compression_type}.</summary>
         [JsiiProperty(name: "compressionType", typeJson: "{\"primitive\":\"string\"}")]
         public string CompressionType
         {
@@ -17,7 +17,7 @@ namespace aws.SagemakerAlgorithm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#s3_data_type SagemakerAlgorithm#s3_data_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#s3_data_type SagemakerAlgorithm#s3_data_type}.</summary>
         [JsiiProperty(name: "s3DataType", typeJson: "{\"primitive\":\"string\"}")]
         public string S3DataType
         {
@@ -25,7 +25,7 @@ namespace aws.SagemakerAlgorithm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#s3_uri SagemakerAlgorithm#s3_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#s3_uri SagemakerAlgorithm#s3_uri}.</summary>
         [JsiiProperty(name: "s3Uri", typeJson: "{\"primitive\":\"string\"}")]
         public string S3Uri
         {
@@ -33,7 +33,7 @@ namespace aws.SagemakerAlgorithm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#etag SagemakerAlgorithm#etag}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#etag SagemakerAlgorithm#etag}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "etag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Etag
@@ -46,7 +46,7 @@ namespace aws.SagemakerAlgorithm
 
         /// <summary>hub_access_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#hub_access_config SagemakerAlgorithm#hub_access_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#hub_access_config SagemakerAlgorithm#hub_access_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hubAccessConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerAlgorithm.SagemakerAlgorithmInferenceSpecificationContainersModelDataSourceS3DataSourceHubAccessConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -76,7 +76,7 @@ namespace aws.SagemakerAlgorithm
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#manifest_etag SagemakerAlgorithm#manifest_etag}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#manifest_etag SagemakerAlgorithm#manifest_etag}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "manifestEtag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ManifestEtag
@@ -85,7 +85,7 @@ namespace aws.SagemakerAlgorithm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#manifest_s3_uri SagemakerAlgorithm#manifest_s3_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#manifest_s3_uri SagemakerAlgorithm#manifest_s3_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "manifestS3Uri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ManifestS3Uri
@@ -98,7 +98,7 @@ namespace aws.SagemakerAlgorithm
 
         /// <summary>model_access_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#model_access_config SagemakerAlgorithm#model_access_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#model_access_config SagemakerAlgorithm#model_access_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "modelAccessConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerAlgorithm.SagemakerAlgorithmInferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]

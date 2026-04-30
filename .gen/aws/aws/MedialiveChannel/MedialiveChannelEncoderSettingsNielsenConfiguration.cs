@@ -7,7 +7,7 @@ namespace aws.MedialiveChannel
     [JsiiByValue(fqn: "aws.medialiveChannel.MedialiveChannelEncoderSettingsNielsenConfiguration")]
     public class MedialiveChannelEncoderSettingsNielsenConfiguration : aws.MedialiveChannel.IMedialiveChannelEncoderSettingsNielsenConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#distributor_id MedialiveChannel#distributor_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#distributor_id MedialiveChannel#distributor_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "distributorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DistributorId
@@ -16,7 +16,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#nielsen_pcm_to_id3_tagging MedialiveChannel#nielsen_pcm_to_id3_tagging}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#nielsen_pcm_to_id3_tagging MedialiveChannel#nielsen_pcm_to_id3_tagging}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nielsenPcmToId3Tagging", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NielsenPcmToId3Tagging

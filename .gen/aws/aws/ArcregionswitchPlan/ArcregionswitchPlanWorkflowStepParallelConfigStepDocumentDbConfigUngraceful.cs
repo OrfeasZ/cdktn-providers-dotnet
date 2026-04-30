@@ -9,7 +9,7 @@ namespace aws.ArcregionswitchPlan
     [JsiiByValue(fqn: "aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepParallelConfigStepDocumentDbConfigUngraceful")]
     public class ArcregionswitchPlanWorkflowStepParallelConfigStepDocumentDbConfigUngraceful : aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepParallelConfigStepDocumentDbConfigUngraceful
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/arcregionswitch_plan#ungraceful ArcregionswitchPlan#ungraceful}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/arcregionswitch_plan#ungraceful ArcregionswitchPlan#ungraceful}.</summary>
         [JsiiProperty(name: "ungraceful", typeJson: "{\"primitive\":\"string\"}")]
         public string Ungraceful
         {

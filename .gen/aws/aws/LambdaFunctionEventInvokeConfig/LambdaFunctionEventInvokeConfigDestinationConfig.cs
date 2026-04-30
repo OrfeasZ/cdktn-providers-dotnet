@@ -9,7 +9,7 @@ namespace aws.LambdaFunctionEventInvokeConfig
     {
         /// <summary>on_failure block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function_event_invoke_config#on_failure LambdaFunctionEventInvokeConfig#on_failure}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_function_event_invoke_config#on_failure LambdaFunctionEventInvokeConfig#on_failure}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "onFailure", typeJson: "{\"fqn\":\"aws.lambdaFunctionEventInvokeConfig.LambdaFunctionEventInvokeConfigDestinationConfigOnFailure\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.LambdaFunctionEventInvokeConfig
 
         /// <summary>on_success block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function_event_invoke_config#on_success LambdaFunctionEventInvokeConfig#on_success}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_function_event_invoke_config#on_success LambdaFunctionEventInvokeConfig#on_success}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "onSuccess", typeJson: "{\"fqn\":\"aws.lambdaFunctionEventInvokeConfig.LambdaFunctionEventInvokeConfigDestinationConfigOnSuccess\"}", isOptional: true)]

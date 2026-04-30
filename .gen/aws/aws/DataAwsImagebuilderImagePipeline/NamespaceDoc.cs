@@ -5,7 +5,7 @@ namespace aws.DataAwsImagebuilderImagePipeline
     /// <remarks>
     /// <h1><c>data_aws_imagebuilder_image_pipeline</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/imagebuilder_image_pipeline"><c>data_aws_imagebuilder_image_pipeline</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/imagebuilder_image_pipeline"><c>data_aws_imagebuilder_image_pipeline</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

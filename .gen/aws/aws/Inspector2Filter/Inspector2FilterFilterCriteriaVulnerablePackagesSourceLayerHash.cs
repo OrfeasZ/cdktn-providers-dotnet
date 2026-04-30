@@ -9,7 +9,7 @@ namespace aws.Inspector2Filter
     [JsiiByValue(fqn: "aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHash")]
     public class Inspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHash : aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHash
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#comparison Inspector2Filter#comparison}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/inspector2_filter#comparison Inspector2Filter#comparison}.</summary>
         [JsiiProperty(name: "comparison", typeJson: "{\"primitive\":\"string\"}")]
         public string Comparison
         {
@@ -17,7 +17,7 @@ namespace aws.Inspector2Filter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/inspector2_filter#value Inspector2Filter#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/inspector2_filter#value Inspector2Filter#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

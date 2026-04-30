@@ -9,7 +9,7 @@ namespace aws.SagemakerTrainingJob
     {
         /// <summary>Name or ARN of a SageMaker algorithm resource. Exactly one of `algorithm_name` or `training_image` must be set.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#algorithm_name SagemakerTrainingJob#algorithm_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#algorithm_name SagemakerTrainingJob#algorithm_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "algorithmName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace aws.SagemakerTrainingJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#container_arguments SagemakerTrainingJob#container_arguments}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#container_arguments SagemakerTrainingJob#container_arguments}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "containerArguments", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ContainerArguments
@@ -28,7 +28,7 @@ namespace aws.SagemakerTrainingJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#container_entrypoint SagemakerTrainingJob#container_entrypoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#container_entrypoint SagemakerTrainingJob#container_entrypoint}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "containerEntrypoint", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ContainerEntrypoint
@@ -43,7 +43,7 @@ namespace aws.SagemakerTrainingJob
         /// <remarks>
         /// SageMaker enables this automatically for built-in algorithms, supported prebuilt images, and jobs with explicit <c>metric_definitions</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#enable_sagemaker_metrics_time_series SagemakerTrainingJob#enable_sagemaker_metrics_time_series}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#enable_sagemaker_metrics_time_series SagemakerTrainingJob#enable_sagemaker_metrics_time_series}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableSagemakerMetricsTimeSeries", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -77,7 +77,7 @@ namespace aws.SagemakerTrainingJob
 
         /// <summary>metric_definitions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#metric_definitions SagemakerTrainingJob#metric_definitions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#metric_definitions SagemakerTrainingJob#metric_definitions}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metricDefinitions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerTrainingJob.SagemakerTrainingJobAlgorithmSpecificationMetricDefinitions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -111,7 +111,7 @@ namespace aws.SagemakerTrainingJob
         /// <remarks>
         /// Exactly one of <c>algorithm_name</c> or <c>training_image</c> must be set. Use <c>metric_definitions</c> only when you need to extract custom metrics from your own training container logs.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#training_image SagemakerTrainingJob#training_image}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#training_image SagemakerTrainingJob#training_image}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trainingImage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -125,7 +125,7 @@ namespace aws.SagemakerTrainingJob
 
         /// <summary>training_image_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#training_image_config SagemakerTrainingJob#training_image_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#training_image_config SagemakerTrainingJob#training_image_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trainingImageConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerTrainingJob.SagemakerTrainingJobAlgorithmSpecificationTrainingImageConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -155,7 +155,7 @@ namespace aws.SagemakerTrainingJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#training_input_mode SagemakerTrainingJob#training_input_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#training_input_mode SagemakerTrainingJob#training_input_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "trainingInputMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TrainingInputMode

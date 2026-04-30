@@ -9,7 +9,7 @@ namespace aws.GlueUserDefinedFunction
     [JsiiByValue(fqn: "aws.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUris")]
     public class GlueUserDefinedFunctionResourceUris : aws.GlueUserDefinedFunction.IGlueUserDefinedFunctionResourceUris
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_user_defined_function#resource_type GlueUserDefinedFunction#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_user_defined_function#resource_type GlueUserDefinedFunction#resource_type}.</summary>
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceType
         {
@@ -17,7 +17,7 @@ namespace aws.GlueUserDefinedFunction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_user_defined_function#uri GlueUserDefinedFunction#uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_user_defined_function#uri GlueUserDefinedFunction#uri}.</summary>
         [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}")]
         public string Uri
         {

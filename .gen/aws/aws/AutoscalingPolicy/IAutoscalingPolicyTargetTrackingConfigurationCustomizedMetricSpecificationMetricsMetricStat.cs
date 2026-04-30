@@ -9,7 +9,7 @@ namespace aws.AutoscalingPolicy
     {
         /// <summary>metric block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_policy#metric AutoscalingPolicy#metric}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_policy#metric AutoscalingPolicy#metric}
         /// </remarks>
         [JsiiProperty(name: "metric", typeJson: "{\"fqn\":\"aws.autoscalingPolicy.AutoscalingPolicyTargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatMetric\"}")]
         aws.AutoscalingPolicy.IAutoscalingPolicyTargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatMetric Metric
@@ -17,14 +17,14 @@ namespace aws.AutoscalingPolicy
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_policy#stat AutoscalingPolicy#stat}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_policy#stat AutoscalingPolicy#stat}.</summary>
         [JsiiProperty(name: "stat", typeJson: "{\"primitive\":\"string\"}")]
         string Stat
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_policy#period AutoscalingPolicy#period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_policy#period AutoscalingPolicy#period}.</summary>
         [JsiiProperty(name: "period", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Period
@@ -35,7 +35,7 @@ namespace aws.AutoscalingPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_policy#unit AutoscalingPolicy#unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_policy#unit AutoscalingPolicy#unit}.</summary>
         [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Unit
@@ -55,7 +55,7 @@ namespace aws.AutoscalingPolicy
 
             /// <summary>metric block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_policy#metric AutoscalingPolicy#metric}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_policy#metric AutoscalingPolicy#metric}
             /// </remarks>
             [JsiiProperty(name: "metric", typeJson: "{\"fqn\":\"aws.autoscalingPolicy.AutoscalingPolicyTargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatMetric\"}")]
             public aws.AutoscalingPolicy.IAutoscalingPolicyTargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatMetric Metric
@@ -63,14 +63,14 @@ namespace aws.AutoscalingPolicy
                 get => GetInstanceProperty<aws.AutoscalingPolicy.IAutoscalingPolicyTargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatMetric>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_policy#stat AutoscalingPolicy#stat}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_policy#stat AutoscalingPolicy#stat}.</summary>
             [JsiiProperty(name: "stat", typeJson: "{\"primitive\":\"string\"}")]
             public string Stat
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_policy#period AutoscalingPolicy#period}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_policy#period AutoscalingPolicy#period}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "period", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Period
@@ -78,7 +78,7 @@ namespace aws.AutoscalingPolicy
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_policy#unit AutoscalingPolicy#unit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_policy#unit AutoscalingPolicy#unit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Unit

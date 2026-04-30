@@ -11,7 +11,7 @@ namespace aws.DataAwsLbListenerRule
 
         /// <summary>action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lb_listener_rule#action DataAwsLbListenerRule#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/lb_listener_rule#action DataAwsLbListenerRule#action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "action", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace aws.DataAwsLbListenerRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lb_listener_rule#arn DataAwsLbListenerRule#arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/lb_listener_rule#arn DataAwsLbListenerRule#arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Arn
@@ -54,7 +54,7 @@ namespace aws.DataAwsLbListenerRule
 
         /// <summary>condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lb_listener_rule#condition DataAwsLbListenerRule#condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/lb_listener_rule#condition DataAwsLbListenerRule#condition}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "condition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -84,7 +84,7 @@ namespace aws.DataAwsLbListenerRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lb_listener_rule#listener_arn DataAwsLbListenerRule#listener_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/lb_listener_rule#listener_arn DataAwsLbListenerRule#listener_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "listenerArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ListenerArn
@@ -93,7 +93,7 @@ namespace aws.DataAwsLbListenerRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lb_listener_rule#priority DataAwsLbListenerRule#priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/lb_listener_rule#priority DataAwsLbListenerRule#priority}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Priority
@@ -104,7 +104,7 @@ namespace aws.DataAwsLbListenerRule
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lb_listener_rule#region DataAwsLbListenerRule#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/lb_listener_rule#region DataAwsLbListenerRule#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -118,7 +118,7 @@ namespace aws.DataAwsLbListenerRule
 
         /// <summary>transform block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/lb_listener_rule#transform DataAwsLbListenerRule#transform}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/lb_listener_rule#transform DataAwsLbListenerRule#transform}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transform", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleTransform\"},\"kind\":\"array\"}}]}}", isOptional: true)]

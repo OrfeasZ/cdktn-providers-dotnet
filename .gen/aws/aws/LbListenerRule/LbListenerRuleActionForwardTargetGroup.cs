@@ -9,7 +9,7 @@ namespace aws.LbListenerRule
     [JsiiByValue(fqn: "aws.lbListenerRule.LbListenerRuleActionForwardTargetGroup")]
     public class LbListenerRuleActionForwardTargetGroup : aws.LbListenerRule.ILbListenerRuleActionForwardTargetGroup
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#arn LbListenerRule#arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener_rule#arn LbListenerRule#arn}.</summary>
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
         public string Arn
         {
@@ -17,7 +17,7 @@ namespace aws.LbListenerRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener_rule#weight LbListenerRule#weight}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener_rule#weight LbListenerRule#weight}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Weight

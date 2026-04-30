@@ -7,7 +7,7 @@ namespace aws.WorkspaceswebTrustStore
     [JsiiInterface(nativeType: typeof(IWorkspaceswebTrustStoreCertificate), fullyQualifiedName: "aws.workspaceswebTrustStore.WorkspaceswebTrustStoreCertificate")]
     public interface IWorkspaceswebTrustStoreCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspacesweb_trust_store#body WorkspaceswebTrustStore#body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/workspacesweb_trust_store#body WorkspaceswebTrustStore#body}.</summary>
         [JsiiProperty(name: "body", typeJson: "{\"primitive\":\"string\"}")]
         string Body
         {
@@ -21,7 +21,7 @@ namespace aws.WorkspaceswebTrustStore
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspacesweb_trust_store#body WorkspaceswebTrustStore#body}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/workspacesweb_trust_store#body WorkspaceswebTrustStore#body}.</summary>
             [JsiiProperty(name: "body", typeJson: "{\"primitive\":\"string\"}")]
             public string Body
             {

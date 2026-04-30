@@ -9,7 +9,7 @@ namespace aws.RdsClusterRoleAssociation
     [JsiiByValue(fqn: "aws.rdsClusterRoleAssociation.RdsClusterRoleAssociationConfig")]
     public class RdsClusterRoleAssociationConfig : aws.RdsClusterRoleAssociation.IRdsClusterRoleAssociationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster_role_association#db_cluster_identifier RdsClusterRoleAssociation#db_cluster_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster_role_association#db_cluster_identifier RdsClusterRoleAssociation#db_cluster_identifier}.</summary>
         [JsiiProperty(name: "dbClusterIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string DbClusterIdentifier
         {
@@ -17,7 +17,7 @@ namespace aws.RdsClusterRoleAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster_role_association#role_arn RdsClusterRoleAssociation#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster_role_association#role_arn RdsClusterRoleAssociation#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleArn
         {
@@ -25,7 +25,7 @@ namespace aws.RdsClusterRoleAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster_role_association#feature_name RdsClusterRoleAssociation#feature_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster_role_association#feature_name RdsClusterRoleAssociation#feature_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "featureName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FeatureName
@@ -34,7 +34,7 @@ namespace aws.RdsClusterRoleAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster_role_association#id RdsClusterRoleAssociation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster_role_association#id RdsClusterRoleAssociation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,7 +49,7 @@ namespace aws.RdsClusterRoleAssociation
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster_role_association#region RdsClusterRoleAssociation#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster_role_association#region RdsClusterRoleAssociation#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace aws.RdsClusterRoleAssociation
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster_role_association#timeouts RdsClusterRoleAssociation#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster_role_association#timeouts RdsClusterRoleAssociation#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.rdsClusterRoleAssociation.RdsClusterRoleAssociationTimeouts\"}", isOptional: true)]

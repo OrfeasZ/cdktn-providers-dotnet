@@ -7,7 +7,7 @@ namespace aws.ArcregionswitchPlan
     [JsiiInterface(nativeType: typeof(IArcregionswitchPlanWorkflowStepEksResourceScalingConfigScalingResources), fullyQualifiedName: "aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepEksResourceScalingConfigScalingResources")]
     public interface IArcregionswitchPlanWorkflowStepEksResourceScalingConfigScalingResources
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/arcregionswitch_plan#namespace ArcregionswitchPlan#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/arcregionswitch_plan#namespace ArcregionswitchPlan#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
@@ -16,7 +16,7 @@ namespace aws.ArcregionswitchPlan
 
         /// <summary>resources block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/arcregionswitch_plan#resources ArcregionswitchPlan#resources}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/arcregionswitch_plan#resources ArcregionswitchPlan#resources}
         /// </remarks>
         [JsiiProperty(name: "resources", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepEksResourceScalingConfigScalingResourcesResources\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace aws.ArcregionswitchPlan
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/arcregionswitch_plan#namespace ArcregionswitchPlan#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/arcregionswitch_plan#namespace ArcregionswitchPlan#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {
@@ -44,7 +44,7 @@ namespace aws.ArcregionswitchPlan
 
             /// <summary>resources block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/arcregionswitch_plan#resources ArcregionswitchPlan#resources}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/arcregionswitch_plan#resources ArcregionswitchPlan#resources}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resources", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepEksResourceScalingConfigScalingResourcesResources\"},\"kind\":\"array\"}}]}}", isOptional: true)]

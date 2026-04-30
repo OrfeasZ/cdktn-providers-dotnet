@@ -9,7 +9,7 @@ namespace aws.Lexv2ModelsIntent
     [JsiiByValue(fqn: "aws.lexv2ModelsIntent.Lexv2ModelsIntentConfig")]
     public class Lexv2ModelsIntentConfig : aws.Lexv2ModelsIntent.ILexv2ModelsIntentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#bot_id Lexv2ModelsIntent#bot_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#bot_id Lexv2ModelsIntent#bot_id}.</summary>
         [JsiiProperty(name: "botId", typeJson: "{\"primitive\":\"string\"}")]
         public string BotId
         {
@@ -17,7 +17,7 @@ namespace aws.Lexv2ModelsIntent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#bot_version Lexv2ModelsIntent#bot_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#bot_version Lexv2ModelsIntent#bot_version}.</summary>
         [JsiiProperty(name: "botVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string BotVersion
         {
@@ -25,7 +25,7 @@ namespace aws.Lexv2ModelsIntent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#locale_id Lexv2ModelsIntent#locale_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#locale_id Lexv2ModelsIntent#locale_id}.</summary>
         [JsiiProperty(name: "localeId", typeJson: "{\"primitive\":\"string\"}")]
         public string LocaleId
         {
@@ -33,7 +33,7 @@ namespace aws.Lexv2ModelsIntent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#name Lexv2ModelsIntent#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#name Lexv2ModelsIntent#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -45,7 +45,7 @@ namespace aws.Lexv2ModelsIntent
 
         /// <summary>closing_setting block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#closing_setting Lexv2ModelsIntent#closing_setting}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#closing_setting Lexv2ModelsIntent#closing_setting}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "closingSetting", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentClosingSetting\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace aws.Lexv2ModelsIntent
 
         /// <summary>confirmation_setting block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#confirmation_setting Lexv2ModelsIntent#confirmation_setting}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#confirmation_setting Lexv2ModelsIntent#confirmation_setting}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "confirmationSetting", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentConfirmationSetting\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -109,7 +109,7 @@ namespace aws.Lexv2ModelsIntent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#description Lexv2ModelsIntent#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#description Lexv2ModelsIntent#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -122,7 +122,7 @@ namespace aws.Lexv2ModelsIntent
 
         /// <summary>dialog_code_hook block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#dialog_code_hook Lexv2ModelsIntent#dialog_code_hook}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#dialog_code_hook Lexv2ModelsIntent#dialog_code_hook}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dialogCodeHook", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentDialogCodeHook\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -156,7 +156,7 @@ namespace aws.Lexv2ModelsIntent
 
         /// <summary>fulfillment_code_hook block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#fulfillment_code_hook Lexv2ModelsIntent#fulfillment_code_hook}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#fulfillment_code_hook Lexv2ModelsIntent#fulfillment_code_hook}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fulfillmentCodeHook", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentFulfillmentCodeHook\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -190,7 +190,7 @@ namespace aws.Lexv2ModelsIntent
 
         /// <summary>initial_response_setting block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#initial_response_setting Lexv2ModelsIntent#initial_response_setting}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#initial_response_setting Lexv2ModelsIntent#initial_response_setting}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "initialResponseSetting", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentInitialResponseSetting\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -224,7 +224,7 @@ namespace aws.Lexv2ModelsIntent
 
         /// <summary>input_context block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#input_context Lexv2ModelsIntent#input_context}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#input_context Lexv2ModelsIntent#input_context}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inputContext", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentInputContext\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -258,7 +258,7 @@ namespace aws.Lexv2ModelsIntent
 
         /// <summary>kendra_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#kendra_configuration Lexv2ModelsIntent#kendra_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#kendra_configuration Lexv2ModelsIntent#kendra_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kendraConfiguration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentKendraConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -292,7 +292,7 @@ namespace aws.Lexv2ModelsIntent
 
         /// <summary>output_context block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#output_context Lexv2ModelsIntent#output_context}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#output_context Lexv2ModelsIntent#output_context}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "outputContext", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentOutputContext\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -322,7 +322,7 @@ namespace aws.Lexv2ModelsIntent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#parent_intent_signature Lexv2ModelsIntent#parent_intent_signature}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#parent_intent_signature Lexv2ModelsIntent#parent_intent_signature}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parentIntentSignature", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ParentIntentSignature
@@ -335,7 +335,7 @@ namespace aws.Lexv2ModelsIntent
 
         /// <summary>qna_intent_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#qna_intent_configuration Lexv2ModelsIntent#qna_intent_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#qna_intent_configuration Lexv2ModelsIntent#qna_intent_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "qnaIntentConfiguration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentQnaIntentConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -367,7 +367,7 @@ namespace aws.Lexv2ModelsIntent
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#region Lexv2ModelsIntent#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#region Lexv2ModelsIntent#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -381,7 +381,7 @@ namespace aws.Lexv2ModelsIntent
 
         /// <summary>sample_utterance block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#sample_utterance Lexv2ModelsIntent#sample_utterance}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#sample_utterance Lexv2ModelsIntent#sample_utterance}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sampleUtterance", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentSampleUtterance\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -415,7 +415,7 @@ namespace aws.Lexv2ModelsIntent
 
         /// <summary>slot_priority block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#slot_priority Lexv2ModelsIntent#slot_priority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#slot_priority Lexv2ModelsIntent#slot_priority}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "slotPriority", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentSlotPriority\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -447,7 +447,7 @@ namespace aws.Lexv2ModelsIntent
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#timeouts Lexv2ModelsIntent#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#timeouts Lexv2ModelsIntent#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentTimeouts\"}", isOptional: true)]

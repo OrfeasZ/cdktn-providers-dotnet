@@ -9,7 +9,7 @@ namespace aws.CognitoRiskConfiguration
     [JsiiByValue(fqn: "aws.cognitoRiskConfiguration.CognitoRiskConfigurationAccountTakeoverRiskConfigurationNotifyConfigurationNoActionEmail")]
     public class CognitoRiskConfigurationAccountTakeoverRiskConfigurationNotifyConfigurationNoActionEmail : aws.CognitoRiskConfiguration.ICognitoRiskConfigurationAccountTakeoverRiskConfigurationNotifyConfigurationNoActionEmail
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_risk_configuration#html_body CognitoRiskConfiguration#html_body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_risk_configuration#html_body CognitoRiskConfiguration#html_body}.</summary>
         [JsiiProperty(name: "htmlBody", typeJson: "{\"primitive\":\"string\"}")]
         public string HtmlBody
         {
@@ -17,7 +17,7 @@ namespace aws.CognitoRiskConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_risk_configuration#subject CognitoRiskConfiguration#subject}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_risk_configuration#subject CognitoRiskConfiguration#subject}.</summary>
         [JsiiProperty(name: "subject", typeJson: "{\"primitive\":\"string\"}")]
         public string Subject
         {
@@ -25,7 +25,7 @@ namespace aws.CognitoRiskConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_risk_configuration#text_body CognitoRiskConfiguration#text_body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_risk_configuration#text_body CognitoRiskConfiguration#text_body}.</summary>
         [JsiiProperty(name: "textBody", typeJson: "{\"primitive\":\"string\"}")]
         public string TextBody
         {

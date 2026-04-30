@@ -9,7 +9,7 @@ namespace aws.Instance
     [JsiiByValue(fqn: "aws.instance.InstanceSecondaryNetworkInterface")]
     public class InstanceSecondaryNetworkInterface : aws.Instance.IInstanceSecondaryNetworkInterface
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#network_card_index Instance#network_card_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/instance#network_card_index Instance#network_card_index}.</summary>
         [JsiiProperty(name: "networkCardIndex", typeJson: "{\"primitive\":\"number\"}")]
         public double NetworkCardIndex
         {
@@ -17,7 +17,7 @@ namespace aws.Instance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#secondary_subnet_id Instance#secondary_subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/instance#secondary_subnet_id Instance#secondary_subnet_id}.</summary>
         [JsiiProperty(name: "secondarySubnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecondarySubnetId
         {
@@ -27,7 +27,7 @@ namespace aws.Instance
 
         private object? _deleteOnTermination;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#delete_on_termination Instance#delete_on_termination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/instance#delete_on_termination Instance#delete_on_termination}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deleteOnTermination", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? DeleteOnTermination
@@ -56,7 +56,7 @@ namespace aws.Instance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#device_index Instance#device_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/instance#device_index Instance#device_index}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deviceIndex", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DeviceIndex
@@ -65,7 +65,7 @@ namespace aws.Instance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#interface_type Instance#interface_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/instance#interface_type Instance#interface_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "interfaceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InterfaceType
@@ -74,7 +74,7 @@ namespace aws.Instance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/instance#private_ip_address_count Instance#private_ip_address_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/instance#private_ip_address_count Instance#private_ip_address_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateIpAddressCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PrivateIpAddressCount

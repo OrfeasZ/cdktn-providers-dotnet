@@ -9,7 +9,7 @@ namespace aws.DataAwsEbsSnapshot
     [JsiiByValue(fqn: "aws.dataAwsEbsSnapshot.DataAwsEbsSnapshotFilter")]
     public class DataAwsEbsSnapshotFilter : aws.DataAwsEbsSnapshot.IDataAwsEbsSnapshotFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ebs_snapshot#name DataAwsEbsSnapshot#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ebs_snapshot#name DataAwsEbsSnapshot#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsEbsSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ebs_snapshot#values DataAwsEbsSnapshot#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ebs_snapshot#values DataAwsEbsSnapshot#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

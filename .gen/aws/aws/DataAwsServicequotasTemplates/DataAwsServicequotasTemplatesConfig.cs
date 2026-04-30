@@ -7,7 +7,7 @@ namespace aws.DataAwsServicequotasTemplates
     [JsiiByValue(fqn: "aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplatesConfig")]
     public class DataAwsServicequotasTemplatesConfig : aws.DataAwsServicequotasTemplates.IDataAwsServicequotasTemplatesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/servicequotas_templates#aws_region DataAwsServicequotasTemplates#aws_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/servicequotas_templates#aws_region DataAwsServicequotasTemplates#aws_region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "awsRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AwsRegion
@@ -16,7 +16,7 @@ namespace aws.DataAwsServicequotasTemplates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/servicequotas_templates#region DataAwsServicequotasTemplates#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/servicequotas_templates#region DataAwsServicequotasTemplates#region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Region

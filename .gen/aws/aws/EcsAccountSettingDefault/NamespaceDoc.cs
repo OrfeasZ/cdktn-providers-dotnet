@@ -5,7 +5,7 @@ namespace aws.EcsAccountSettingDefault
     /// <remarks>
     /// <h1><c>aws_ecs_account_setting_default</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_account_setting_default"><c>aws_ecs_account_setting_default</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_account_setting_default"><c>aws_ecs_account_setting_default</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

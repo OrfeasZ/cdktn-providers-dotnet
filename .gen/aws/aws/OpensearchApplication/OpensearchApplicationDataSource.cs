@@ -7,7 +7,7 @@ namespace aws.OpensearchApplication
     [JsiiByValue(fqn: "aws.opensearchApplication.OpensearchApplicationDataSource")]
     public class OpensearchApplicationDataSource : aws.OpensearchApplication.IOpensearchApplicationDataSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_application#data_source_arn OpensearchApplication#data_source_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_application#data_source_arn OpensearchApplication#data_source_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dataSourceArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DataSourceArn
@@ -16,7 +16,7 @@ namespace aws.OpensearchApplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_application#data_source_description OpensearchApplication#data_source_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_application#data_source_description OpensearchApplication#data_source_description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dataSourceDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DataSourceDescription

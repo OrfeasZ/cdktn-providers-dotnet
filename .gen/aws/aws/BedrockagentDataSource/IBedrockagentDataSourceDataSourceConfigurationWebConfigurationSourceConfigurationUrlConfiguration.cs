@@ -9,7 +9,7 @@ namespace aws.BedrockagentDataSource
     {
         /// <summary>seed_urls block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_data_source#seed_urls BedrockagentDataSource#seed_urls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_data_source#seed_urls BedrockagentDataSource#seed_urls}
         /// </remarks>
         [JsiiProperty(name: "seedUrls", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentDataSource.BedrockagentDataSourceDataSourceConfigurationWebConfigurationSourceConfigurationUrlConfigurationSeedUrls\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.BedrockagentDataSource
 
             /// <summary>seed_urls block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_data_source#seed_urls BedrockagentDataSource#seed_urls}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_data_source#seed_urls BedrockagentDataSource#seed_urls}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "seedUrls", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentDataSource.BedrockagentDataSourceDataSourceConfigurationWebConfigurationSourceConfigurationUrlConfigurationSeedUrls\"},\"kind\":\"array\"}}]}}", isOptional: true)]

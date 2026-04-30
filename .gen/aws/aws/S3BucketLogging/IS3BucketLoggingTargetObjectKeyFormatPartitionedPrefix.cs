@@ -7,7 +7,7 @@ namespace aws.S3BucketLogging
     [JsiiInterface(nativeType: typeof(IS3BucketLoggingTargetObjectKeyFormatPartitionedPrefix), fullyQualifiedName: "aws.s3BucketLogging.S3BucketLoggingTargetObjectKeyFormatPartitionedPrefix")]
     public interface IS3BucketLoggingTargetObjectKeyFormatPartitionedPrefix
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_logging#partition_date_source S3BucketLoggingA#partition_date_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_logging#partition_date_source S3BucketLoggingA#partition_date_source}.</summary>
         [JsiiProperty(name: "partitionDateSource", typeJson: "{\"primitive\":\"string\"}")]
         string PartitionDateSource
         {
@@ -21,7 +21,7 @@ namespace aws.S3BucketLogging
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_logging#partition_date_source S3BucketLoggingA#partition_date_source}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_logging#partition_date_source S3BucketLoggingA#partition_date_source}.</summary>
             [JsiiProperty(name: "partitionDateSource", typeJson: "{\"primitive\":\"string\"}")]
             public string PartitionDateSource
             {

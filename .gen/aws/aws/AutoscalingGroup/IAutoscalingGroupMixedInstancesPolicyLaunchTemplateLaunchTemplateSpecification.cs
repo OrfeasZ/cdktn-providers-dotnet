@@ -7,7 +7,7 @@ namespace aws.AutoscalingGroup
     [JsiiInterface(nativeType: typeof(IAutoscalingGroupMixedInstancesPolicyLaunchTemplateLaunchTemplateSpecification), fullyQualifiedName: "aws.autoscalingGroup.AutoscalingGroupMixedInstancesPolicyLaunchTemplateLaunchTemplateSpecification")]
     public interface IAutoscalingGroupMixedInstancesPolicyLaunchTemplateLaunchTemplateSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#launch_template_id AutoscalingGroup#launch_template_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_group#launch_template_id AutoscalingGroup#launch_template_id}.</summary>
         [JsiiProperty(name: "launchTemplateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LaunchTemplateId
@@ -18,7 +18,7 @@ namespace aws.AutoscalingGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#launch_template_name AutoscalingGroup#launch_template_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_group#launch_template_name AutoscalingGroup#launch_template_name}.</summary>
         [JsiiProperty(name: "launchTemplateName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LaunchTemplateName
@@ -29,7 +29,7 @@ namespace aws.AutoscalingGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#version AutoscalingGroup#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_group#version AutoscalingGroup#version}.</summary>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Version
@@ -47,7 +47,7 @@ namespace aws.AutoscalingGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#launch_template_id AutoscalingGroup#launch_template_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_group#launch_template_id AutoscalingGroup#launch_template_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "launchTemplateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LaunchTemplateId
@@ -55,7 +55,7 @@ namespace aws.AutoscalingGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#launch_template_name AutoscalingGroup#launch_template_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_group#launch_template_name AutoscalingGroup#launch_template_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "launchTemplateName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LaunchTemplateName
@@ -63,7 +63,7 @@ namespace aws.AutoscalingGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#version AutoscalingGroup#version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_group#version AutoscalingGroup#version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Version

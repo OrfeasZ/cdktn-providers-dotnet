@@ -11,7 +11,7 @@ namespace aws.MskCluster
     {
         /// <summary>broker_node_group_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#broker_node_group_info MskCluster#broker_node_group_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#broker_node_group_info MskCluster#broker_node_group_info}
         /// </remarks>
         [JsiiProperty(name: "brokerNodeGroupInfo", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterBrokerNodeGroupInfo\"}")]
         public aws.MskCluster.IMskClusterBrokerNodeGroupInfo BrokerNodeGroupInfo
@@ -20,7 +20,7 @@ namespace aws.MskCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#cluster_name MskCluster#cluster_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#cluster_name MskCluster#cluster_name}.</summary>
         [JsiiProperty(name: "clusterName", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterName
         {
@@ -28,7 +28,7 @@ namespace aws.MskCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#kafka_version MskCluster#kafka_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#kafka_version MskCluster#kafka_version}.</summary>
         [JsiiProperty(name: "kafkaVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string KafkaVersion
         {
@@ -36,7 +36,7 @@ namespace aws.MskCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#number_of_broker_nodes MskCluster#number_of_broker_nodes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#number_of_broker_nodes MskCluster#number_of_broker_nodes}.</summary>
         [JsiiProperty(name: "numberOfBrokerNodes", typeJson: "{\"primitive\":\"number\"}")]
         public double NumberOfBrokerNodes
         {
@@ -46,7 +46,7 @@ namespace aws.MskCluster
 
         /// <summary>client_authentication block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#client_authentication MskCluster#client_authentication}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#client_authentication MskCluster#client_authentication}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientAuthentication", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterClientAuthentication\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace aws.MskCluster
 
         /// <summary>configuration_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#configuration_info MskCluster#configuration_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#configuration_info MskCluster#configuration_info}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configurationInfo", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterConfigurationInfo\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace aws.MskCluster
 
         /// <summary>encryption_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#encryption_info MskCluster#encryption_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#encryption_info MskCluster#encryption_info}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionInfo", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterEncryptionInfo\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace aws.MskCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#enhanced_monitoring MskCluster#enhanced_monitoring}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#enhanced_monitoring MskCluster#enhanced_monitoring}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enhancedMonitoring", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EnhancedMonitoring
@@ -89,7 +89,7 @@ namespace aws.MskCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#id MskCluster#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#id MskCluster#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -104,7 +104,7 @@ namespace aws.MskCluster
 
         /// <summary>logging_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#logging_info MskCluster#logging_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#logging_info MskCluster#logging_info}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loggingInfo", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterLoggingInfo\"}", isOptional: true)]
@@ -116,7 +116,7 @@ namespace aws.MskCluster
 
         /// <summary>open_monitoring block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#open_monitoring MskCluster#open_monitoring}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#open_monitoring MskCluster#open_monitoring}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "openMonitoring", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterOpenMonitoring\"}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace aws.MskCluster
 
         /// <summary>rebalancing block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#rebalancing MskCluster#rebalancing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#rebalancing MskCluster#rebalancing}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rebalancing", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterRebalancing\"}", isOptional: true)]
@@ -140,7 +140,7 @@ namespace aws.MskCluster
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#region MskCluster#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#region MskCluster#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -150,7 +150,7 @@ namespace aws.MskCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#storage_mode MskCluster#storage_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#storage_mode MskCluster#storage_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageMode
@@ -159,7 +159,7 @@ namespace aws.MskCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#tags MskCluster#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#tags MskCluster#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -168,7 +168,7 @@ namespace aws.MskCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#tags_all MskCluster#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#tags_all MskCluster#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -179,7 +179,7 @@ namespace aws.MskCluster
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#timeouts MskCluster#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#timeouts MskCluster#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterTimeouts\"}", isOptional: true)]

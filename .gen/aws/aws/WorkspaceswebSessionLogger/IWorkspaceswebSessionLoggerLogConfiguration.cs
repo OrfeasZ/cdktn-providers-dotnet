@@ -9,7 +9,7 @@ namespace aws.WorkspaceswebSessionLogger
     {
         /// <summary>s3 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspacesweb_session_logger#s3 WorkspaceswebSessionLogger#s3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/workspacesweb_session_logger#s3 WorkspaceswebSessionLogger#s3}
         /// </remarks>
         [JsiiProperty(name: "s3", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerLogConfigurationS3\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.WorkspaceswebSessionLogger
 
             /// <summary>s3 block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspacesweb_session_logger#s3 WorkspaceswebSessionLogger#s3}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/workspacesweb_session_logger#s3 WorkspaceswebSessionLogger#s3}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerLogConfigurationS3\"},\"kind\":\"array\"}}]}}", isOptional: true)]

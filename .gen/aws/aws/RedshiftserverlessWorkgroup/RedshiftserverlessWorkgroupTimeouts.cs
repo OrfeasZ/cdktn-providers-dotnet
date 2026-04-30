@@ -7,7 +7,7 @@ namespace aws.RedshiftserverlessWorkgroup
     [JsiiByValue(fqn: "aws.redshiftserverlessWorkgroup.RedshiftserverlessWorkgroupTimeouts")]
     public class RedshiftserverlessWorkgroupTimeouts : aws.RedshiftserverlessWorkgroup.IRedshiftserverlessWorkgroupTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshiftserverless_workgroup#create RedshiftserverlessWorkgroup#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/redshiftserverless_workgroup#create RedshiftserverlessWorkgroup#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.RedshiftserverlessWorkgroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshiftserverless_workgroup#delete RedshiftserverlessWorkgroup#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/redshiftserverless_workgroup#delete RedshiftserverlessWorkgroup#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace aws.RedshiftserverlessWorkgroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshiftserverless_workgroup#update RedshiftserverlessWorkgroup#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/redshiftserverless_workgroup#update RedshiftserverlessWorkgroup#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

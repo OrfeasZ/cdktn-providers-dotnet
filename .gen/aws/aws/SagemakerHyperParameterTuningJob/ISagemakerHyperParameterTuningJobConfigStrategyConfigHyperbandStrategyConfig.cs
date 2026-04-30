@@ -7,7 +7,7 @@ namespace aws.SagemakerHyperParameterTuningJob
     [JsiiInterface(nativeType: typeof(ISagemakerHyperParameterTuningJobConfigStrategyConfigHyperbandStrategyConfig), fullyQualifiedName: "aws.sagemakerHyperParameterTuningJob.SagemakerHyperParameterTuningJobConfigStrategyConfigHyperbandStrategyConfig")]
     public interface ISagemakerHyperParameterTuningJobConfigStrategyConfigHyperbandStrategyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_resource SagemakerHyperParameterTuningJob#max_resource}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_resource SagemakerHyperParameterTuningJob#max_resource}.</summary>
         [JsiiProperty(name: "maxResource", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxResource
@@ -18,7 +18,7 @@ namespace aws.SagemakerHyperParameterTuningJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_hyper_parameter_tuning_job#min_resource SagemakerHyperParameterTuningJob#min_resource}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_hyper_parameter_tuning_job#min_resource SagemakerHyperParameterTuningJob#min_resource}.</summary>
         [JsiiProperty(name: "minResource", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MinResource
@@ -36,7 +36,7 @@ namespace aws.SagemakerHyperParameterTuningJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_resource SagemakerHyperParameterTuningJob#max_resource}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_resource SagemakerHyperParameterTuningJob#max_resource}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxResource", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxResource
@@ -44,7 +44,7 @@ namespace aws.SagemakerHyperParameterTuningJob
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_hyper_parameter_tuning_job#min_resource SagemakerHyperParameterTuningJob#min_resource}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_hyper_parameter_tuning_job#min_resource SagemakerHyperParameterTuningJob#min_resource}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "minResource", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MinResource

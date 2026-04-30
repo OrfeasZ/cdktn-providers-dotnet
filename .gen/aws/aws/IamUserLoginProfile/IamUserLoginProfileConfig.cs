@@ -9,7 +9,7 @@ namespace aws.IamUserLoginProfile
     [JsiiByValue(fqn: "aws.iamUserLoginProfile.IamUserLoginProfileConfig")]
     public class IamUserLoginProfileConfig : aws.IamUserLoginProfile.IIamUserLoginProfileConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_user_login_profile#user IamUserLoginProfile#user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_user_login_profile#user IamUserLoginProfile#user}.</summary>
         [JsiiProperty(name: "user", typeJson: "{\"primitive\":\"string\"}")]
         public string User
         {
@@ -17,7 +17,7 @@ namespace aws.IamUserLoginProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_user_login_profile#id IamUserLoginProfile#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_user_login_profile#id IamUserLoginProfile#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ namespace aws.IamUserLoginProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_user_login_profile#password_length IamUserLoginProfile#password_length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_user_login_profile#password_length IamUserLoginProfile#password_length}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "passwordLength", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PasswordLength
@@ -41,7 +41,7 @@ namespace aws.IamUserLoginProfile
 
         private object? _passwordResetRequired;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_user_login_profile#password_reset_required IamUserLoginProfile#password_reset_required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_user_login_profile#password_reset_required IamUserLoginProfile#password_reset_required}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "passwordResetRequired", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? PasswordResetRequired
@@ -70,7 +70,7 @@ namespace aws.IamUserLoginProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_user_login_profile#pgp_key IamUserLoginProfile#pgp_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_user_login_profile#pgp_key IamUserLoginProfile#pgp_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pgpKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PgpKey

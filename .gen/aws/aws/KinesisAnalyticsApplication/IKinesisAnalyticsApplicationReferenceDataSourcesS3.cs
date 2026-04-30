@@ -7,21 +7,21 @@ namespace aws.KinesisAnalyticsApplication
     [JsiiInterface(nativeType: typeof(IKinesisAnalyticsApplicationReferenceDataSourcesS3), fullyQualifiedName: "aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationReferenceDataSourcesS3")]
     public interface IKinesisAnalyticsApplicationReferenceDataSourcesS3
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#bucket_arn KinesisAnalyticsApplication#bucket_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_analytics_application#bucket_arn KinesisAnalyticsApplication#bucket_arn}.</summary>
         [JsiiProperty(name: "bucketArn", typeJson: "{\"primitive\":\"string\"}")]
         string BucketArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#file_key KinesisAnalyticsApplication#file_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_analytics_application#file_key KinesisAnalyticsApplication#file_key}.</summary>
         [JsiiProperty(name: "fileKey", typeJson: "{\"primitive\":\"string\"}")]
         string FileKey
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#role_arn KinesisAnalyticsApplication#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_analytics_application#role_arn KinesisAnalyticsApplication#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         string RoleArn
         {
@@ -35,21 +35,21 @@ namespace aws.KinesisAnalyticsApplication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#bucket_arn KinesisAnalyticsApplication#bucket_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_analytics_application#bucket_arn KinesisAnalyticsApplication#bucket_arn}.</summary>
             [JsiiProperty(name: "bucketArn", typeJson: "{\"primitive\":\"string\"}")]
             public string BucketArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#file_key KinesisAnalyticsApplication#file_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_analytics_application#file_key KinesisAnalyticsApplication#file_key}.</summary>
             [JsiiProperty(name: "fileKey", typeJson: "{\"primitive\":\"string\"}")]
             public string FileKey
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_analytics_application#role_arn KinesisAnalyticsApplication#role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_analytics_application#role_arn KinesisAnalyticsApplication#role_arn}.</summary>
             [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
             public string RoleArn
             {

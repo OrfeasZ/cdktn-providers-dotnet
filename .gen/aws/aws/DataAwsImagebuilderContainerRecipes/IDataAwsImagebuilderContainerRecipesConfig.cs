@@ -9,7 +9,7 @@ namespace aws.DataAwsImagebuilderContainerRecipes
     {
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/imagebuilder_container_recipes#filter DataAwsImagebuilderContainerRecipes#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/imagebuilder_container_recipes#filter DataAwsImagebuilderContainerRecipes#filter}
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsImagebuilderContainerRecipes.DataAwsImagebuilderContainerRecipesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace aws.DataAwsImagebuilderContainerRecipes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/imagebuilder_container_recipes#id DataAwsImagebuilderContainerRecipes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/imagebuilder_container_recipes#id DataAwsImagebuilderContainerRecipes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,7 +36,7 @@ namespace aws.DataAwsImagebuilderContainerRecipes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/imagebuilder_container_recipes#owner DataAwsImagebuilderContainerRecipes#owner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/imagebuilder_container_recipes#owner DataAwsImagebuilderContainerRecipes#owner}.</summary>
         [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Owner
@@ -49,7 +49,7 @@ namespace aws.DataAwsImagebuilderContainerRecipes
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/imagebuilder_container_recipes#region DataAwsImagebuilderContainerRecipes#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/imagebuilder_container_recipes#region DataAwsImagebuilderContainerRecipes#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -70,7 +70,7 @@ namespace aws.DataAwsImagebuilderContainerRecipes
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/imagebuilder_container_recipes#filter DataAwsImagebuilderContainerRecipes#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/imagebuilder_container_recipes#filter DataAwsImagebuilderContainerRecipes#filter}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsImagebuilderContainerRecipes.DataAwsImagebuilderContainerRecipesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace aws.DataAwsImagebuilderContainerRecipes
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/imagebuilder_container_recipes#id DataAwsImagebuilderContainerRecipes#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/imagebuilder_container_recipes#id DataAwsImagebuilderContainerRecipes#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,7 +91,7 @@ namespace aws.DataAwsImagebuilderContainerRecipes
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/imagebuilder_container_recipes#owner DataAwsImagebuilderContainerRecipes#owner}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/imagebuilder_container_recipes#owner DataAwsImagebuilderContainerRecipes#owner}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Owner
@@ -101,7 +101,7 @@ namespace aws.DataAwsImagebuilderContainerRecipes
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/imagebuilder_container_recipes#region DataAwsImagebuilderContainerRecipes#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/imagebuilder_container_recipes#region DataAwsImagebuilderContainerRecipes#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

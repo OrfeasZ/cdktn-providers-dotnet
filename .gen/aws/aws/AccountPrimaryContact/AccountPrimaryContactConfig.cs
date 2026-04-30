@@ -9,7 +9,7 @@ namespace aws.AccountPrimaryContact
     [JsiiByValue(fqn: "aws.accountPrimaryContact.AccountPrimaryContactConfig")]
     public class AccountPrimaryContactConfig : aws.AccountPrimaryContact.IAccountPrimaryContactConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_primary_contact#address_line_1 AccountPrimaryContact#address_line_1}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_primary_contact#address_line_1 AccountPrimaryContact#address_line_1}.</summary>
         [JsiiProperty(name: "addressLine1", typeJson: "{\"primitive\":\"string\"}")]
         public string AddressLine1
         {
@@ -17,7 +17,7 @@ namespace aws.AccountPrimaryContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_primary_contact#city AccountPrimaryContact#city}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_primary_contact#city AccountPrimaryContact#city}.</summary>
         [JsiiProperty(name: "city", typeJson: "{\"primitive\":\"string\"}")]
         public string City
         {
@@ -25,7 +25,7 @@ namespace aws.AccountPrimaryContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_primary_contact#country_code AccountPrimaryContact#country_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_primary_contact#country_code AccountPrimaryContact#country_code}.</summary>
         [JsiiProperty(name: "countryCode", typeJson: "{\"primitive\":\"string\"}")]
         public string CountryCode
         {
@@ -33,7 +33,7 @@ namespace aws.AccountPrimaryContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_primary_contact#full_name AccountPrimaryContact#full_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_primary_contact#full_name AccountPrimaryContact#full_name}.</summary>
         [JsiiProperty(name: "fullName", typeJson: "{\"primitive\":\"string\"}")]
         public string FullName
         {
@@ -41,7 +41,7 @@ namespace aws.AccountPrimaryContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_primary_contact#phone_number AccountPrimaryContact#phone_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_primary_contact#phone_number AccountPrimaryContact#phone_number}.</summary>
         [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}")]
         public string PhoneNumber
         {
@@ -49,7 +49,7 @@ namespace aws.AccountPrimaryContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_primary_contact#postal_code AccountPrimaryContact#postal_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_primary_contact#postal_code AccountPrimaryContact#postal_code}.</summary>
         [JsiiProperty(name: "postalCode", typeJson: "{\"primitive\":\"string\"}")]
         public string PostalCode
         {
@@ -57,7 +57,7 @@ namespace aws.AccountPrimaryContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_primary_contact#account_id AccountPrimaryContact#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_primary_contact#account_id AccountPrimaryContact#account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountId
@@ -66,7 +66,7 @@ namespace aws.AccountPrimaryContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_primary_contact#address_line_2 AccountPrimaryContact#address_line_2}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_primary_contact#address_line_2 AccountPrimaryContact#address_line_2}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "addressLine2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AddressLine2
@@ -75,7 +75,7 @@ namespace aws.AccountPrimaryContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_primary_contact#address_line_3 AccountPrimaryContact#address_line_3}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_primary_contact#address_line_3 AccountPrimaryContact#address_line_3}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "addressLine3", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AddressLine3
@@ -84,7 +84,7 @@ namespace aws.AccountPrimaryContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_primary_contact#company_name AccountPrimaryContact#company_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_primary_contact#company_name AccountPrimaryContact#company_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "companyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompanyName
@@ -93,7 +93,7 @@ namespace aws.AccountPrimaryContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_primary_contact#district_or_county AccountPrimaryContact#district_or_county}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_primary_contact#district_or_county AccountPrimaryContact#district_or_county}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "districtOrCounty", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DistrictOrCounty
@@ -102,7 +102,7 @@ namespace aws.AccountPrimaryContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_primary_contact#id AccountPrimaryContact#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_primary_contact#id AccountPrimaryContact#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -115,7 +115,7 @@ namespace aws.AccountPrimaryContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_primary_contact#state_or_region AccountPrimaryContact#state_or_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_primary_contact#state_or_region AccountPrimaryContact#state_or_region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "stateOrRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StateOrRegion
@@ -124,7 +124,7 @@ namespace aws.AccountPrimaryContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/account_primary_contact#website_url AccountPrimaryContact#website_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/account_primary_contact#website_url AccountPrimaryContact#website_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "websiteUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WebsiteUrl

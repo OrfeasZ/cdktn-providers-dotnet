@@ -7,21 +7,21 @@ namespace aws.SsmPatchBaseline
     [JsiiInterface(nativeType: typeof(ISsmPatchBaselineSource), fullyQualifiedName: "aws.ssmPatchBaseline.SsmPatchBaselineSource")]
     public interface ISsmPatchBaselineSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_patch_baseline#configuration SsmPatchBaseline#configuration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssm_patch_baseline#configuration SsmPatchBaseline#configuration}.</summary>
         [JsiiProperty(name: "configuration", typeJson: "{\"primitive\":\"string\"}")]
         string Configuration
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_patch_baseline#name SsmPatchBaseline#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssm_patch_baseline#name SsmPatchBaseline#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_patch_baseline#products SsmPatchBaseline#products}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssm_patch_baseline#products SsmPatchBaseline#products}.</summary>
         [JsiiProperty(name: "products", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Products
         {
@@ -35,21 +35,21 @@ namespace aws.SsmPatchBaseline
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_patch_baseline#configuration SsmPatchBaseline#configuration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssm_patch_baseline#configuration SsmPatchBaseline#configuration}.</summary>
             [JsiiProperty(name: "configuration", typeJson: "{\"primitive\":\"string\"}")]
             public string Configuration
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_patch_baseline#name SsmPatchBaseline#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssm_patch_baseline#name SsmPatchBaseline#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_patch_baseline#products SsmPatchBaseline#products}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssm_patch_baseline#products SsmPatchBaseline#products}.</summary>
             [JsiiProperty(name: "products", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Products
             {

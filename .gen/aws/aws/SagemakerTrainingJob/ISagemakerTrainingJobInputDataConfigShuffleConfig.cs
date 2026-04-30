@@ -7,7 +7,7 @@ namespace aws.SagemakerTrainingJob
     [JsiiInterface(nativeType: typeof(ISagemakerTrainingJobInputDataConfigShuffleConfig), fullyQualifiedName: "aws.sagemakerTrainingJob.SagemakerTrainingJobInputDataConfigShuffleConfig")]
     public interface ISagemakerTrainingJobInputDataConfigShuffleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#seed SagemakerTrainingJob#seed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#seed SagemakerTrainingJob#seed}.</summary>
         [JsiiProperty(name: "seed", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Seed
@@ -25,7 +25,7 @@ namespace aws.SagemakerTrainingJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#seed SagemakerTrainingJob#seed}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#seed SagemakerTrainingJob#seed}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "seed", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Seed

@@ -7,7 +7,7 @@ namespace aws.ImagebuilderDistributionConfiguration
     [JsiiByValue(fqn: "aws.imagebuilderDistributionConfiguration.ImagebuilderDistributionConfigurationDistributionFastLaunchConfigurationSnapshotConfiguration")]
     public class ImagebuilderDistributionConfigurationDistributionFastLaunchConfigurationSnapshotConfiguration : aws.ImagebuilderDistributionConfiguration.IImagebuilderDistributionConfigurationDistributionFastLaunchConfigurationSnapshotConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_distribution_configuration#target_resource_count ImagebuilderDistributionConfiguration#target_resource_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_distribution_configuration#target_resource_count ImagebuilderDistributionConfiguration#target_resource_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetResourceCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TargetResourceCount

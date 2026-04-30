@@ -9,7 +9,7 @@ namespace aws.PipesPipe
     [JsiiByValue(fqn: "aws.pipesPipe.PipesPipeTargetParametersSagemakerPipelineParametersPipelineParameter")]
     public class PipesPipeTargetParametersSagemakerPipelineParametersPipelineParameter : aws.PipesPipe.IPipesPipeTargetParametersSagemakerPipelineParametersPipelineParameter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#name PipesPipe#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#name PipesPipe#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.PipesPipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#value PipesPipe#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#value PipesPipe#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

@@ -11,7 +11,7 @@ namespace aws.MedialiveChannel
     {
         /// <summary>container_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#container_settings MedialiveChannel#container_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#container_settings MedialiveChannel#container_settings}
         /// </remarks>
         [JsiiProperty(name: "containerSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettings\"}")]
         public aws.MedialiveChannel.IMedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettings ContainerSettings
@@ -22,7 +22,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>destination block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#destination MedialiveChannel#destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#destination MedialiveChannel#destination}
         /// </remarks>
         [JsiiProperty(name: "destination", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsDestination\"}")]
         public aws.MedialiveChannel.IMedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsDestination Destination
@@ -31,7 +31,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#buffer_msec MedialiveChannel#buffer_msec}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#buffer_msec MedialiveChannel#buffer_msec}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bufferMsec", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BufferMsec
@@ -42,7 +42,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>fec_output_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#fec_output_settings MedialiveChannel#fec_output_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#fec_output_settings MedialiveChannel#fec_output_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fecOutputSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsFecOutputSettings\"}", isOptional: true)]

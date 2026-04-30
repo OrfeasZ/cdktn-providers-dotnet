@@ -7,14 +7,14 @@ namespace aws.AppstreamStack
     [JsiiInterface(nativeType: typeof(IAppstreamStackStorageConnectors), fullyQualifiedName: "aws.appstreamStack.AppstreamStackStorageConnectors")]
     public interface IAppstreamStackStorageConnectors
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_stack#connector_type AppstreamStack#connector_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_stack#connector_type AppstreamStack#connector_type}.</summary>
         [JsiiProperty(name: "connectorType", typeJson: "{\"primitive\":\"string\"}")]
         string ConnectorType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_stack#domains AppstreamStack#domains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_stack#domains AppstreamStack#domains}.</summary>
         [JsiiProperty(name: "domains", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Domains
@@ -25,7 +25,7 @@ namespace aws.AppstreamStack
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_stack#resource_identifier AppstreamStack#resource_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_stack#resource_identifier AppstreamStack#resource_identifier}.</summary>
         [JsiiProperty(name: "resourceIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceIdentifier
@@ -43,14 +43,14 @@ namespace aws.AppstreamStack
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_stack#connector_type AppstreamStack#connector_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_stack#connector_type AppstreamStack#connector_type}.</summary>
             [JsiiProperty(name: "connectorType", typeJson: "{\"primitive\":\"string\"}")]
             public string ConnectorType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_stack#domains AppstreamStack#domains}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_stack#domains AppstreamStack#domains}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "domains", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Domains
@@ -58,7 +58,7 @@ namespace aws.AppstreamStack
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_stack#resource_identifier AppstreamStack#resource_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_stack#resource_identifier AppstreamStack#resource_identifier}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceIdentifier

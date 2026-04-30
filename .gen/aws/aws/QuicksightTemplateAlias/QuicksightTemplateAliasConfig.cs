@@ -9,7 +9,7 @@ namespace aws.QuicksightTemplateAlias
     [JsiiByValue(fqn: "aws.quicksightTemplateAlias.QuicksightTemplateAliasConfig")]
     public class QuicksightTemplateAliasConfig : aws.QuicksightTemplateAlias.IQuicksightTemplateAliasConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_template_alias#alias_name QuicksightTemplateAlias#alias_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_template_alias#alias_name QuicksightTemplateAlias#alias_name}.</summary>
         [JsiiProperty(name: "aliasName", typeJson: "{\"primitive\":\"string\"}")]
         public string AliasName
         {
@@ -17,7 +17,7 @@ namespace aws.QuicksightTemplateAlias
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_template_alias#template_id QuicksightTemplateAlias#template_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_template_alias#template_id QuicksightTemplateAlias#template_id}.</summary>
         [JsiiProperty(name: "templateId", typeJson: "{\"primitive\":\"string\"}")]
         public string TemplateId
         {
@@ -25,7 +25,7 @@ namespace aws.QuicksightTemplateAlias
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_template_alias#template_version_number QuicksightTemplateAlias#template_version_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_template_alias#template_version_number QuicksightTemplateAlias#template_version_number}.</summary>
         [JsiiProperty(name: "templateVersionNumber", typeJson: "{\"primitive\":\"number\"}")]
         public double TemplateVersionNumber
         {
@@ -33,7 +33,7 @@ namespace aws.QuicksightTemplateAlias
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_template_alias#aws_account_id QuicksightTemplateAlias#aws_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_template_alias#aws_account_id QuicksightTemplateAlias#aws_account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "awsAccountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AwsAccountId
@@ -44,7 +44,7 @@ namespace aws.QuicksightTemplateAlias
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_template_alias#region QuicksightTemplateAlias#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_template_alias#region QuicksightTemplateAlias#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

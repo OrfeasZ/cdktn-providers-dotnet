@@ -7,28 +7,28 @@ namespace aws.EmrCluster
     [JsiiInterface(nativeType: typeof(IEmrClusterConfig), fullyQualifiedName: "aws.emrCluster.EmrClusterConfig")]
     public interface IEmrClusterConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#name EmrCluster#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#name EmrCluster#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#release_label EmrCluster#release_label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#release_label EmrCluster#release_label}.</summary>
         [JsiiProperty(name: "releaseLabel", typeJson: "{\"primitive\":\"string\"}")]
         string ReleaseLabel
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#service_role EmrCluster#service_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#service_role EmrCluster#service_role}.</summary>
         [JsiiProperty(name: "serviceRole", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceRole
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#additional_info EmrCluster#additional_info}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#additional_info EmrCluster#additional_info}.</summary>
         [JsiiProperty(name: "additionalInfo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AdditionalInfo
@@ -39,7 +39,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#applications EmrCluster#applications}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#applications EmrCluster#applications}.</summary>
         [JsiiProperty(name: "applications", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Applications
@@ -50,7 +50,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#autoscaling_role EmrCluster#autoscaling_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#autoscaling_role EmrCluster#autoscaling_role}.</summary>
         [JsiiProperty(name: "autoscalingRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AutoscalingRole
@@ -63,7 +63,7 @@ namespace aws.EmrCluster
 
         /// <summary>auto_termination_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#auto_termination_policy EmrCluster#auto_termination_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#auto_termination_policy EmrCluster#auto_termination_policy}
         /// </remarks>
         [JsiiProperty(name: "autoTerminationPolicy", typeJson: "{\"fqn\":\"aws.emrCluster.EmrClusterAutoTerminationPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -77,7 +77,7 @@ namespace aws.EmrCluster
 
         /// <summary>bootstrap_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#bootstrap_action EmrCluster#bootstrap_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#bootstrap_action EmrCluster#bootstrap_action}
         /// </remarks>
         [JsiiProperty(name: "bootstrapAction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrCluster.EmrClusterBootstrapAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -89,7 +89,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#configurations EmrCluster#configurations}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#configurations EmrCluster#configurations}.</summary>
         [JsiiProperty(name: "configurations", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Configurations
@@ -100,7 +100,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#configurations_json EmrCluster#configurations_json}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#configurations_json EmrCluster#configurations_json}.</summary>
         [JsiiProperty(name: "configurationsJson", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ConfigurationsJson
@@ -113,7 +113,7 @@ namespace aws.EmrCluster
 
         /// <summary>core_instance_fleet block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#core_instance_fleet EmrCluster#core_instance_fleet}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#core_instance_fleet EmrCluster#core_instance_fleet}
         /// </remarks>
         [JsiiProperty(name: "coreInstanceFleet", typeJson: "{\"fqn\":\"aws.emrCluster.EmrClusterCoreInstanceFleet\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -127,7 +127,7 @@ namespace aws.EmrCluster
 
         /// <summary>core_instance_group block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#core_instance_group EmrCluster#core_instance_group}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#core_instance_group EmrCluster#core_instance_group}
         /// </remarks>
         [JsiiProperty(name: "coreInstanceGroup", typeJson: "{\"fqn\":\"aws.emrCluster.EmrClusterCoreInstanceGroup\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -139,7 +139,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#custom_ami_id EmrCluster#custom_ami_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#custom_ami_id EmrCluster#custom_ami_id}.</summary>
         [JsiiProperty(name: "customAmiId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CustomAmiId
@@ -150,7 +150,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#ebs_root_volume_size EmrCluster#ebs_root_volume_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#ebs_root_volume_size EmrCluster#ebs_root_volume_size}.</summary>
         [JsiiProperty(name: "ebsRootVolumeSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? EbsRootVolumeSize
@@ -163,7 +163,7 @@ namespace aws.EmrCluster
 
         /// <summary>ec2_attributes block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#ec2_attributes EmrCluster#ec2_attributes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#ec2_attributes EmrCluster#ec2_attributes}
         /// </remarks>
         [JsiiProperty(name: "ec2Attributes", typeJson: "{\"fqn\":\"aws.emrCluster.EmrClusterEc2Attributes\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -175,7 +175,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#id EmrCluster#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#id EmrCluster#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -190,7 +190,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#keep_job_flow_alive_when_no_steps EmrCluster#keep_job_flow_alive_when_no_steps}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#keep_job_flow_alive_when_no_steps EmrCluster#keep_job_flow_alive_when_no_steps}.</summary>
         [JsiiProperty(name: "keepJobFlowAliveWhenNoSteps", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? KeepJobFlowAliveWhenNoSteps
@@ -203,7 +203,7 @@ namespace aws.EmrCluster
 
         /// <summary>kerberos_attributes block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#kerberos_attributes EmrCluster#kerberos_attributes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#kerberos_attributes EmrCluster#kerberos_attributes}
         /// </remarks>
         [JsiiProperty(name: "kerberosAttributes", typeJson: "{\"fqn\":\"aws.emrCluster.EmrClusterKerberosAttributes\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -215,7 +215,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#list_steps_states EmrCluster#list_steps_states}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#list_steps_states EmrCluster#list_steps_states}.</summary>
         [JsiiProperty(name: "listStepsStates", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ListStepsStates
@@ -226,7 +226,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#log_encryption_kms_key_id EmrCluster#log_encryption_kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#log_encryption_kms_key_id EmrCluster#log_encryption_kms_key_id}.</summary>
         [JsiiProperty(name: "logEncryptionKmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LogEncryptionKmsKeyId
@@ -237,7 +237,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#log_uri EmrCluster#log_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#log_uri EmrCluster#log_uri}.</summary>
         [JsiiProperty(name: "logUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LogUri
@@ -250,7 +250,7 @@ namespace aws.EmrCluster
 
         /// <summary>master_instance_fleet block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#master_instance_fleet EmrCluster#master_instance_fleet}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#master_instance_fleet EmrCluster#master_instance_fleet}
         /// </remarks>
         [JsiiProperty(name: "masterInstanceFleet", typeJson: "{\"fqn\":\"aws.emrCluster.EmrClusterMasterInstanceFleet\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -264,7 +264,7 @@ namespace aws.EmrCluster
 
         /// <summary>master_instance_group block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#master_instance_group EmrCluster#master_instance_group}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#master_instance_group EmrCluster#master_instance_group}
         /// </remarks>
         [JsiiProperty(name: "masterInstanceGroup", typeJson: "{\"fqn\":\"aws.emrCluster.EmrClusterMasterInstanceGroup\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -276,7 +276,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#os_release_label EmrCluster#os_release_label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#os_release_label EmrCluster#os_release_label}.</summary>
         [JsiiProperty(name: "osReleaseLabel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OsReleaseLabel
@@ -287,7 +287,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#placement_group_config EmrCluster#placement_group_config}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#placement_group_config EmrCluster#placement_group_config}.</summary>
         [JsiiProperty(name: "placementGroupConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrCluster.EmrClusterPlacementGroupConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? PlacementGroupConfig
@@ -300,7 +300,7 @@ namespace aws.EmrCluster
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#region EmrCluster#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#region EmrCluster#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -312,7 +312,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#scale_down_behavior EmrCluster#scale_down_behavior}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#scale_down_behavior EmrCluster#scale_down_behavior}.</summary>
         [JsiiProperty(name: "scaleDownBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ScaleDownBehavior
@@ -323,7 +323,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#security_configuration EmrCluster#security_configuration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#security_configuration EmrCluster#security_configuration}.</summary>
         [JsiiProperty(name: "securityConfiguration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SecurityConfiguration
@@ -334,7 +334,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#step EmrCluster#step}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#step EmrCluster#step}.</summary>
         [JsiiProperty(name: "step", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrCluster.EmrClusterStep\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? Step
@@ -345,7 +345,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#step_concurrency_level EmrCluster#step_concurrency_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#step_concurrency_level EmrCluster#step_concurrency_level}.</summary>
         [JsiiProperty(name: "stepConcurrencyLevel", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? StepConcurrencyLevel
@@ -356,7 +356,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#tags EmrCluster#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#tags EmrCluster#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -367,7 +367,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#tags_all EmrCluster#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#tags_all EmrCluster#tags_all}.</summary>
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -378,7 +378,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#termination_protection EmrCluster#termination_protection}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#termination_protection EmrCluster#termination_protection}.</summary>
         [JsiiProperty(name: "terminationProtection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? TerminationProtection
@@ -389,7 +389,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#unhealthy_node_replacement EmrCluster#unhealthy_node_replacement}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#unhealthy_node_replacement EmrCluster#unhealthy_node_replacement}.</summary>
         [JsiiProperty(name: "unhealthyNodeReplacement", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? UnhealthyNodeReplacement
@@ -400,7 +400,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#visible_to_all_users EmrCluster#visible_to_all_users}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#visible_to_all_users EmrCluster#visible_to_all_users}.</summary>
         [JsiiProperty(name: "visibleToAllUsers", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? VisibleToAllUsers
@@ -418,28 +418,28 @@ namespace aws.EmrCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#name EmrCluster#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#name EmrCluster#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#release_label EmrCluster#release_label}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#release_label EmrCluster#release_label}.</summary>
             [JsiiProperty(name: "releaseLabel", typeJson: "{\"primitive\":\"string\"}")]
             public string ReleaseLabel
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#service_role EmrCluster#service_role}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#service_role EmrCluster#service_role}.</summary>
             [JsiiProperty(name: "serviceRole", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceRole
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#additional_info EmrCluster#additional_info}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#additional_info EmrCluster#additional_info}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "additionalInfo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AdditionalInfo
@@ -447,7 +447,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#applications EmrCluster#applications}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#applications EmrCluster#applications}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "applications", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Applications
@@ -455,7 +455,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#autoscaling_role EmrCluster#autoscaling_role}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#autoscaling_role EmrCluster#autoscaling_role}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autoscalingRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AutoscalingRole
@@ -465,7 +465,7 @@ namespace aws.EmrCluster
 
             /// <summary>auto_termination_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#auto_termination_policy EmrCluster#auto_termination_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#auto_termination_policy EmrCluster#auto_termination_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "autoTerminationPolicy", typeJson: "{\"fqn\":\"aws.emrCluster.EmrClusterAutoTerminationPolicy\"}", isOptional: true)]
@@ -476,7 +476,7 @@ namespace aws.EmrCluster
 
             /// <summary>bootstrap_action block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#bootstrap_action EmrCluster#bootstrap_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#bootstrap_action EmrCluster#bootstrap_action}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bootstrapAction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrCluster.EmrClusterBootstrapAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -485,7 +485,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#configurations EmrCluster#configurations}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#configurations EmrCluster#configurations}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "configurations", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Configurations
@@ -493,7 +493,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#configurations_json EmrCluster#configurations_json}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#configurations_json EmrCluster#configurations_json}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "configurationsJson", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ConfigurationsJson
@@ -503,7 +503,7 @@ namespace aws.EmrCluster
 
             /// <summary>core_instance_fleet block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#core_instance_fleet EmrCluster#core_instance_fleet}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#core_instance_fleet EmrCluster#core_instance_fleet}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "coreInstanceFleet", typeJson: "{\"fqn\":\"aws.emrCluster.EmrClusterCoreInstanceFleet\"}", isOptional: true)]
@@ -514,7 +514,7 @@ namespace aws.EmrCluster
 
             /// <summary>core_instance_group block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#core_instance_group EmrCluster#core_instance_group}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#core_instance_group EmrCluster#core_instance_group}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "coreInstanceGroup", typeJson: "{\"fqn\":\"aws.emrCluster.EmrClusterCoreInstanceGroup\"}", isOptional: true)]
@@ -523,7 +523,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<aws.EmrCluster.IEmrClusterCoreInstanceGroup?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#custom_ami_id EmrCluster#custom_ami_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#custom_ami_id EmrCluster#custom_ami_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "customAmiId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CustomAmiId
@@ -531,7 +531,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#ebs_root_volume_size EmrCluster#ebs_root_volume_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#ebs_root_volume_size EmrCluster#ebs_root_volume_size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ebsRootVolumeSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? EbsRootVolumeSize
@@ -541,7 +541,7 @@ namespace aws.EmrCluster
 
             /// <summary>ec2_attributes block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#ec2_attributes EmrCluster#ec2_attributes}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#ec2_attributes EmrCluster#ec2_attributes}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ec2Attributes", typeJson: "{\"fqn\":\"aws.emrCluster.EmrClusterEc2Attributes\"}", isOptional: true)]
@@ -550,7 +550,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<aws.EmrCluster.IEmrClusterEc2Attributes?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#id EmrCluster#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#id EmrCluster#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -562,7 +562,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#keep_job_flow_alive_when_no_steps EmrCluster#keep_job_flow_alive_when_no_steps}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#keep_job_flow_alive_when_no_steps EmrCluster#keep_job_flow_alive_when_no_steps}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "keepJobFlowAliveWhenNoSteps", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? KeepJobFlowAliveWhenNoSteps
@@ -572,7 +572,7 @@ namespace aws.EmrCluster
 
             /// <summary>kerberos_attributes block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#kerberos_attributes EmrCluster#kerberos_attributes}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#kerberos_attributes EmrCluster#kerberos_attributes}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "kerberosAttributes", typeJson: "{\"fqn\":\"aws.emrCluster.EmrClusterKerberosAttributes\"}", isOptional: true)]
@@ -581,7 +581,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<aws.EmrCluster.IEmrClusterKerberosAttributes?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#list_steps_states EmrCluster#list_steps_states}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#list_steps_states EmrCluster#list_steps_states}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "listStepsStates", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ListStepsStates
@@ -589,7 +589,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#log_encryption_kms_key_id EmrCluster#log_encryption_kms_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#log_encryption_kms_key_id EmrCluster#log_encryption_kms_key_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "logEncryptionKmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LogEncryptionKmsKeyId
@@ -597,7 +597,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#log_uri EmrCluster#log_uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#log_uri EmrCluster#log_uri}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "logUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LogUri
@@ -607,7 +607,7 @@ namespace aws.EmrCluster
 
             /// <summary>master_instance_fleet block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#master_instance_fleet EmrCluster#master_instance_fleet}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#master_instance_fleet EmrCluster#master_instance_fleet}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "masterInstanceFleet", typeJson: "{\"fqn\":\"aws.emrCluster.EmrClusterMasterInstanceFleet\"}", isOptional: true)]
@@ -618,7 +618,7 @@ namespace aws.EmrCluster
 
             /// <summary>master_instance_group block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#master_instance_group EmrCluster#master_instance_group}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#master_instance_group EmrCluster#master_instance_group}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "masterInstanceGroup", typeJson: "{\"fqn\":\"aws.emrCluster.EmrClusterMasterInstanceGroup\"}", isOptional: true)]
@@ -627,7 +627,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<aws.EmrCluster.IEmrClusterMasterInstanceGroup?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#os_release_label EmrCluster#os_release_label}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#os_release_label EmrCluster#os_release_label}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "osReleaseLabel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OsReleaseLabel
@@ -635,7 +635,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#placement_group_config EmrCluster#placement_group_config}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#placement_group_config EmrCluster#placement_group_config}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "placementGroupConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrCluster.EmrClusterPlacementGroupConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
             public object? PlacementGroupConfig
@@ -645,7 +645,7 @@ namespace aws.EmrCluster
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#region EmrCluster#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#region EmrCluster#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -654,7 +654,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#scale_down_behavior EmrCluster#scale_down_behavior}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#scale_down_behavior EmrCluster#scale_down_behavior}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scaleDownBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ScaleDownBehavior
@@ -662,7 +662,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#security_configuration EmrCluster#security_configuration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#security_configuration EmrCluster#security_configuration}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "securityConfiguration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SecurityConfiguration
@@ -670,7 +670,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#step EmrCluster#step}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#step EmrCluster#step}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "step", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrCluster.EmrClusterStep\"},\"kind\":\"array\"}}]}}", isOptional: true)]
             public object? Step
@@ -678,7 +678,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#step_concurrency_level EmrCluster#step_concurrency_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#step_concurrency_level EmrCluster#step_concurrency_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "stepConcurrencyLevel", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? StepConcurrencyLevel
@@ -686,7 +686,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#tags EmrCluster#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#tags EmrCluster#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -694,7 +694,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#tags_all EmrCluster#tags_all}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#tags_all EmrCluster#tags_all}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -702,7 +702,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#termination_protection EmrCluster#termination_protection}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#termination_protection EmrCluster#termination_protection}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "terminationProtection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? TerminationProtection
@@ -710,7 +710,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#unhealthy_node_replacement EmrCluster#unhealthy_node_replacement}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#unhealthy_node_replacement EmrCluster#unhealthy_node_replacement}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "unhealthyNodeReplacement", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? UnhealthyNodeReplacement
@@ -718,7 +718,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#visible_to_all_users EmrCluster#visible_to_all_users}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#visible_to_all_users EmrCluster#visible_to_all_users}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "visibleToAllUsers", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? VisibleToAllUsers

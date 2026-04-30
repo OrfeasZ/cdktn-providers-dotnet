@@ -7,7 +7,7 @@ namespace aws.CodepipelineWebhook
     [JsiiInterface(nativeType: typeof(ICodepipelineWebhookAuthenticationConfiguration), fullyQualifiedName: "aws.codepipelineWebhook.CodepipelineWebhookAuthenticationConfiguration")]
     public interface ICodepipelineWebhookAuthenticationConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline_webhook#allowed_ip_range CodepipelineWebhook#allowed_ip_range}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codepipeline_webhook#allowed_ip_range CodepipelineWebhook#allowed_ip_range}.</summary>
         [JsiiProperty(name: "allowedIpRange", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AllowedIpRange
@@ -18,7 +18,7 @@ namespace aws.CodepipelineWebhook
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline_webhook#secret_token CodepipelineWebhook#secret_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codepipeline_webhook#secret_token CodepipelineWebhook#secret_token}.</summary>
         [JsiiProperty(name: "secretToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SecretToken
@@ -36,7 +36,7 @@ namespace aws.CodepipelineWebhook
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline_webhook#allowed_ip_range CodepipelineWebhook#allowed_ip_range}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codepipeline_webhook#allowed_ip_range CodepipelineWebhook#allowed_ip_range}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "allowedIpRange", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AllowedIpRange
@@ -44,7 +44,7 @@ namespace aws.CodepipelineWebhook
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codepipeline_webhook#secret_token CodepipelineWebhook#secret_token}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codepipeline_webhook#secret_token CodepipelineWebhook#secret_token}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "secretToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SecretToken

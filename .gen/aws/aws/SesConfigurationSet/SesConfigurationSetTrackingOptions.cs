@@ -7,7 +7,7 @@ namespace aws.SesConfigurationSet
     [JsiiByValue(fqn: "aws.sesConfigurationSet.SesConfigurationSetTrackingOptions")]
     public class SesConfigurationSetTrackingOptions : aws.SesConfigurationSet.ISesConfigurationSetTrackingOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#custom_redirect_domain SesConfigurationSet#custom_redirect_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ses_configuration_set#custom_redirect_domain SesConfigurationSet#custom_redirect_domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customRedirectDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomRedirectDomain

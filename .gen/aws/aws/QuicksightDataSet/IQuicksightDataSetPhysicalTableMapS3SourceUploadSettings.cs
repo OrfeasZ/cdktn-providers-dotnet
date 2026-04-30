@@ -7,7 +7,7 @@ namespace aws.QuicksightDataSet
     [JsiiInterface(nativeType: typeof(IQuicksightDataSetPhysicalTableMapS3SourceUploadSettings), fullyQualifiedName: "aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapS3SourceUploadSettings")]
     public interface IQuicksightDataSetPhysicalTableMapS3SourceUploadSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#contains_header QuicksightDataSet#contains_header}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#contains_header QuicksightDataSet#contains_header}.</summary>
         [JsiiProperty(name: "containsHeader", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? ContainsHeader
@@ -18,7 +18,7 @@ namespace aws.QuicksightDataSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#delimiter QuicksightDataSet#delimiter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#delimiter QuicksightDataSet#delimiter}.</summary>
         [JsiiProperty(name: "delimiter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delimiter
@@ -29,7 +29,7 @@ namespace aws.QuicksightDataSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#format QuicksightDataSet#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#format QuicksightDataSet#format}.</summary>
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Format
@@ -40,7 +40,7 @@ namespace aws.QuicksightDataSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#start_from_row QuicksightDataSet#start_from_row}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#start_from_row QuicksightDataSet#start_from_row}.</summary>
         [JsiiProperty(name: "startFromRow", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? StartFromRow
@@ -51,7 +51,7 @@ namespace aws.QuicksightDataSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#text_qualifier QuicksightDataSet#text_qualifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#text_qualifier QuicksightDataSet#text_qualifier}.</summary>
         [JsiiProperty(name: "textQualifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TextQualifier
@@ -69,7 +69,7 @@ namespace aws.QuicksightDataSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#contains_header QuicksightDataSet#contains_header}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#contains_header QuicksightDataSet#contains_header}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "containsHeader", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? ContainsHeader
@@ -77,7 +77,7 @@ namespace aws.QuicksightDataSet
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#delimiter QuicksightDataSet#delimiter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#delimiter QuicksightDataSet#delimiter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delimiter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delimiter
@@ -85,7 +85,7 @@ namespace aws.QuicksightDataSet
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#format QuicksightDataSet#format}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#format QuicksightDataSet#format}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Format
@@ -93,7 +93,7 @@ namespace aws.QuicksightDataSet
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#start_from_row QuicksightDataSet#start_from_row}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#start_from_row QuicksightDataSet#start_from_row}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "startFromRow", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? StartFromRow
@@ -101,7 +101,7 @@ namespace aws.QuicksightDataSet
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#text_qualifier QuicksightDataSet#text_qualifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#text_qualifier QuicksightDataSet#text_qualifier}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "textQualifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TextQualifier

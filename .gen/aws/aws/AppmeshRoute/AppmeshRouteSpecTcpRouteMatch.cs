@@ -7,7 +7,7 @@ namespace aws.AppmeshRoute
     [JsiiByValue(fqn: "aws.appmeshRoute.AppmeshRouteSpecTcpRouteMatch")]
     public class AppmeshRouteSpecTcpRouteMatch : aws.AppmeshRoute.IAppmeshRouteSpecTcpRouteMatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#port AppmeshRoute#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#port AppmeshRoute#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Port

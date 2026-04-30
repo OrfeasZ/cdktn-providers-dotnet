@@ -9,7 +9,7 @@ namespace aws.CleanroomsMembership
     [JsiiByValue(fqn: "aws.cleanroomsMembership.CleanroomsMembershipConfig")]
     public class CleanroomsMembershipConfig : aws.CleanroomsMembership.ICleanroomsMembershipConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cleanrooms_membership#collaboration_id CleanroomsMembership#collaboration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cleanrooms_membership#collaboration_id CleanroomsMembership#collaboration_id}.</summary>
         [JsiiProperty(name: "collaborationId", typeJson: "{\"primitive\":\"string\"}")]
         public string CollaborationId
         {
@@ -17,7 +17,7 @@ namespace aws.CleanroomsMembership
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cleanrooms_membership#query_log_status CleanroomsMembership#query_log_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cleanrooms_membership#query_log_status CleanroomsMembership#query_log_status}.</summary>
         [JsiiProperty(name: "queryLogStatus", typeJson: "{\"primitive\":\"string\"}")]
         public string QueryLogStatus
         {
@@ -29,7 +29,7 @@ namespace aws.CleanroomsMembership
 
         /// <summary>default_result_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cleanrooms_membership#default_result_configuration CleanroomsMembership#default_result_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cleanrooms_membership#default_result_configuration CleanroomsMembership#default_result_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultResultConfiguration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -63,7 +63,7 @@ namespace aws.CleanroomsMembership
 
         /// <summary>payment_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cleanrooms_membership#payment_configuration CleanroomsMembership#payment_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cleanrooms_membership#payment_configuration CleanroomsMembership#payment_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "paymentConfiguration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cleanroomsMembership.CleanroomsMembershipPaymentConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace aws.CleanroomsMembership
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cleanrooms_membership#region CleanroomsMembership#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cleanrooms_membership#region CleanroomsMembership#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace aws.CleanroomsMembership
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cleanrooms_membership#tags CleanroomsMembership#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cleanrooms_membership#tags CleanroomsMembership#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags

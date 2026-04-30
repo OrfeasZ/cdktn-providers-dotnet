@@ -9,7 +9,7 @@ namespace aws.AppmeshVirtualGateway
     [JsiiByValue(fqn: "aws.appmeshVirtualGateway.AppmeshVirtualGatewaySpecListenerPortMapping")]
     public class AppmeshVirtualGatewaySpecListenerPortMapping : aws.AppmeshVirtualGateway.IAppmeshVirtualGatewaySpecListenerPortMapping
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_gateway#port AppmeshVirtualGateway#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_gateway#port AppmeshVirtualGateway#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         public double Port
         {
@@ -17,7 +17,7 @@ namespace aws.AppmeshVirtualGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_gateway#protocol AppmeshVirtualGateway#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_gateway#protocol AppmeshVirtualGateway#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         public string Protocol
         {

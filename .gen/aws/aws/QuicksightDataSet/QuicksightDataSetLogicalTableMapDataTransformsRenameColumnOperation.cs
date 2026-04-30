@@ -9,7 +9,7 @@ namespace aws.QuicksightDataSet
     [JsiiByValue(fqn: "aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperation")]
     public class QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperation : aws.QuicksightDataSet.IQuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}.</summary>
         [JsiiProperty(name: "columnName", typeJson: "{\"primitive\":\"string\"}")]
         public string ColumnName
         {
@@ -17,7 +17,7 @@ namespace aws.QuicksightDataSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#new_column_name QuicksightDataSet#new_column_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#new_column_name QuicksightDataSet#new_column_name}.</summary>
         [JsiiProperty(name: "newColumnName", typeJson: "{\"primitive\":\"string\"}")]
         public string NewColumnName
         {

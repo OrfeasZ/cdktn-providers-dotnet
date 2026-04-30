@@ -7,7 +7,7 @@ namespace aws.ServicecatalogServiceAction
     [JsiiByValue(fqn: "aws.servicecatalogServiceAction.ServicecatalogServiceActionTimeouts")]
     public class ServicecatalogServiceActionTimeouts : aws.ServicecatalogServiceAction.IServicecatalogServiceActionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/servicecatalog_service_action#create ServicecatalogServiceAction#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/servicecatalog_service_action#create ServicecatalogServiceAction#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.ServicecatalogServiceAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/servicecatalog_service_action#delete ServicecatalogServiceAction#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/servicecatalog_service_action#delete ServicecatalogServiceAction#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace aws.ServicecatalogServiceAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/servicecatalog_service_action#read ServicecatalogServiceAction#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/servicecatalog_service_action#read ServicecatalogServiceAction#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read
@@ -34,7 +34,7 @@ namespace aws.ServicecatalogServiceAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/servicecatalog_service_action#update ServicecatalogServiceAction#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/servicecatalog_service_action#update ServicecatalogServiceAction#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

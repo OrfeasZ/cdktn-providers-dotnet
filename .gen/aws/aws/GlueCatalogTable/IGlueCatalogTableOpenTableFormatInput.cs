@@ -9,7 +9,7 @@ namespace aws.GlueCatalogTable
     {
         /// <summary>iceberg_input block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#iceberg_input GlueCatalogTable#iceberg_input}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#iceberg_input GlueCatalogTable#iceberg_input}
         /// </remarks>
         [JsiiProperty(name: "icebergInput", typeJson: "{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTableOpenTableFormatInputIcebergInput\"}")]
         aws.GlueCatalogTable.IGlueCatalogTableOpenTableFormatInputIcebergInput IcebergInput
@@ -26,7 +26,7 @@ namespace aws.GlueCatalogTable
 
             /// <summary>iceberg_input block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#iceberg_input GlueCatalogTable#iceberg_input}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#iceberg_input GlueCatalogTable#iceberg_input}
             /// </remarks>
             [JsiiProperty(name: "icebergInput", typeJson: "{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTableOpenTableFormatInputIcebergInput\"}")]
             public aws.GlueCatalogTable.IGlueCatalogTableOpenTableFormatInputIcebergInput IcebergInput

@@ -7,7 +7,7 @@ namespace aws.DataAwsCeTags
     [JsiiInterface(nativeType: typeof(IDataAwsCeTagsSortBy), fullyQualifiedName: "aws.dataAwsCeTags.DataAwsCeTagsSortBy")]
     public interface IDataAwsCeTagsSortBy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ce_tags#key DataAwsCeTags#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ce_tags#key DataAwsCeTags#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Key
@@ -18,7 +18,7 @@ namespace aws.DataAwsCeTags
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ce_tags#sort_order DataAwsCeTags#sort_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ce_tags#sort_order DataAwsCeTags#sort_order}.</summary>
         [JsiiProperty(name: "sortOrder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SortOrder
@@ -36,7 +36,7 @@ namespace aws.DataAwsCeTags
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ce_tags#key DataAwsCeTags#key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ce_tags#key DataAwsCeTags#key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Key
@@ -44,7 +44,7 @@ namespace aws.DataAwsCeTags
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ce_tags#sort_order DataAwsCeTags#sort_order}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ce_tags#sort_order DataAwsCeTags#sort_order}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sortOrder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SortOrder

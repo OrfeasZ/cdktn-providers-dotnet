@@ -9,7 +9,7 @@ namespace aws.MskClusterPolicy
     [JsiiByValue(fqn: "aws.mskClusterPolicy.MskClusterPolicyConfig")]
     public class MskClusterPolicyConfig : aws.MskClusterPolicy.IMskClusterPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster_policy#cluster_arn MskClusterPolicy#cluster_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster_policy#cluster_arn MskClusterPolicy#cluster_arn}.</summary>
         [JsiiProperty(name: "clusterArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterArn
         {
@@ -17,7 +17,7 @@ namespace aws.MskClusterPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster_policy#policy MskClusterPolicy#policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster_policy#policy MskClusterPolicy#policy}.</summary>
         [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}")]
         public string Policy
         {
@@ -25,7 +25,7 @@ namespace aws.MskClusterPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster_policy#id MskClusterPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster_policy#id MskClusterPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace aws.MskClusterPolicy
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster_policy#region MskClusterPolicy#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster_policy#region MskClusterPolicy#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

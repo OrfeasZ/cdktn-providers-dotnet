@@ -9,7 +9,7 @@ namespace aws.EksCapability
     [JsiiByValue(fqn: "aws.eksCapability.EksCapabilityConfigurationArgoCdAwsIdc")]
     public class EksCapabilityConfigurationArgoCdAwsIdc : aws.EksCapability.IEksCapabilityConfigurationArgoCdAwsIdc
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_capability#idc_instance_arn EksCapability#idc_instance_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/eks_capability#idc_instance_arn EksCapability#idc_instance_arn}.</summary>
         [JsiiProperty(name: "idcInstanceArn", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcInstanceArn
         {
@@ -17,7 +17,7 @@ namespace aws.EksCapability
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_capability#idc_region EksCapability#idc_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/eks_capability#idc_region EksCapability#idc_region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "idcRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IdcRegion

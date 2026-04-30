@@ -9,7 +9,7 @@ namespace aws.WafregionalByteMatchSet
     [JsiiByValue(fqn: "aws.wafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuplesFieldToMatch")]
     public class WafregionalByteMatchSetByteMatchTuplesFieldToMatch : aws.WafregionalByteMatchSet.IWafregionalByteMatchSetByteMatchTuplesFieldToMatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_byte_match_set#type WafregionalByteMatchSet#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_byte_match_set#type WafregionalByteMatchSet#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.WafregionalByteMatchSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_byte_match_set#data WafregionalByteMatchSet#data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_byte_match_set#data WafregionalByteMatchSet#data}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "data", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Data

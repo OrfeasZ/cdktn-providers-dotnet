@@ -7,7 +7,7 @@ namespace aws.QuicksightDataSet
     [JsiiInterface(nativeType: typeof(IQuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTagsColumnDescription), fullyQualifiedName: "aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTagsColumnDescription")]
     public interface IQuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTagsColumnDescription
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#text QuicksightDataSet#text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#text QuicksightDataSet#text}.</summary>
         [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Text
@@ -25,7 +25,7 @@ namespace aws.QuicksightDataSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#text QuicksightDataSet#text}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#text QuicksightDataSet#text}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Text

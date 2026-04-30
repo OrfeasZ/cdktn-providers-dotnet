@@ -9,7 +9,7 @@ namespace aws.Lexv2ModelsSlot
     [JsiiByValue(fqn: "aws.lexv2ModelsSlot.Lexv2ModelsSlotConfig")]
     public class Lexv2ModelsSlotConfig : aws.Lexv2ModelsSlot.ILexv2ModelsSlotConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#bot_id Lexv2ModelsSlot#bot_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot#bot_id Lexv2ModelsSlot#bot_id}.</summary>
         [JsiiProperty(name: "botId", typeJson: "{\"primitive\":\"string\"}")]
         public string BotId
         {
@@ -17,7 +17,7 @@ namespace aws.Lexv2ModelsSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#bot_version Lexv2ModelsSlot#bot_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot#bot_version Lexv2ModelsSlot#bot_version}.</summary>
         [JsiiProperty(name: "botVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string BotVersion
         {
@@ -25,7 +25,7 @@ namespace aws.Lexv2ModelsSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#intent_id Lexv2ModelsSlot#intent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot#intent_id Lexv2ModelsSlot#intent_id}.</summary>
         [JsiiProperty(name: "intentId", typeJson: "{\"primitive\":\"string\"}")]
         public string IntentId
         {
@@ -33,7 +33,7 @@ namespace aws.Lexv2ModelsSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#locale_id Lexv2ModelsSlot#locale_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot#locale_id Lexv2ModelsSlot#locale_id}.</summary>
         [JsiiProperty(name: "localeId", typeJson: "{\"primitive\":\"string\"}")]
         public string LocaleId
         {
@@ -41,7 +41,7 @@ namespace aws.Lexv2ModelsSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#name Lexv2ModelsSlot#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot#name Lexv2ModelsSlot#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -49,7 +49,7 @@ namespace aws.Lexv2ModelsSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#description Lexv2ModelsSlot#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot#description Lexv2ModelsSlot#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -62,7 +62,7 @@ namespace aws.Lexv2ModelsSlot
 
         /// <summary>multiple_values_setting block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#multiple_values_setting Lexv2ModelsSlot#multiple_values_setting}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot#multiple_values_setting Lexv2ModelsSlot#multiple_values_setting}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "multipleValuesSetting", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlot.Lexv2ModelsSlotMultipleValuesSetting\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace aws.Lexv2ModelsSlot
 
         /// <summary>obfuscation_setting block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#obfuscation_setting Lexv2ModelsSlot#obfuscation_setting}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot#obfuscation_setting Lexv2ModelsSlot#obfuscation_setting}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "obfuscationSetting", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlot.Lexv2ModelsSlotObfuscationSetting\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace aws.Lexv2ModelsSlot
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#region Lexv2ModelsSlot#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot#region Lexv2ModelsSlot#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -138,7 +138,7 @@ namespace aws.Lexv2ModelsSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#slot_type_id Lexv2ModelsSlot#slot_type_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot#slot_type_id Lexv2ModelsSlot#slot_type_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "slotTypeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SlotTypeId
@@ -151,7 +151,7 @@ namespace aws.Lexv2ModelsSlot
 
         /// <summary>sub_slot_setting block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#sub_slot_setting Lexv2ModelsSlot#sub_slot_setting}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot#sub_slot_setting Lexv2ModelsSlot#sub_slot_setting}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subSlotSetting", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlot.Lexv2ModelsSlotSubSlotSetting\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -183,7 +183,7 @@ namespace aws.Lexv2ModelsSlot
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#timeouts Lexv2ModelsSlot#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot#timeouts Lexv2ModelsSlot#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.lexv2ModelsSlot.Lexv2ModelsSlotTimeouts\"}", isOptional: true)]
@@ -197,7 +197,7 @@ namespace aws.Lexv2ModelsSlot
 
         /// <summary>value_elicitation_setting block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#value_elicitation_setting Lexv2ModelsSlot#value_elicitation_setting}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot#value_elicitation_setting Lexv2ModelsSlot#value_elicitation_setting}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "valueElicitationSetting", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlot.Lexv2ModelsSlotValueElicitationSetting\"},\"kind\":\"array\"}}]}}", isOptional: true)]

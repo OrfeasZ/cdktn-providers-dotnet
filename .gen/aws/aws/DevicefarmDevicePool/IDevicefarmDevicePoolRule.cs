@@ -7,7 +7,7 @@ namespace aws.DevicefarmDevicePool
     [JsiiInterface(nativeType: typeof(IDevicefarmDevicePoolRule), fullyQualifiedName: "aws.devicefarmDevicePool.DevicefarmDevicePoolRule")]
     public interface IDevicefarmDevicePoolRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_device_pool#attribute DevicefarmDevicePool#attribute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_device_pool#attribute DevicefarmDevicePool#attribute}.</summary>
         [JsiiProperty(name: "attribute", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Attribute
@@ -18,7 +18,7 @@ namespace aws.DevicefarmDevicePool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_device_pool#operator DevicefarmDevicePool#operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_device_pool#operator DevicefarmDevicePool#operator}.</summary>
         [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Operator
@@ -29,7 +29,7 @@ namespace aws.DevicefarmDevicePool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_device_pool#value DevicefarmDevicePool#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_device_pool#value DevicefarmDevicePool#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Value
@@ -47,7 +47,7 @@ namespace aws.DevicefarmDevicePool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_device_pool#attribute DevicefarmDevicePool#attribute}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_device_pool#attribute DevicefarmDevicePool#attribute}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attribute", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Attribute
@@ -55,7 +55,7 @@ namespace aws.DevicefarmDevicePool
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_device_pool#operator DevicefarmDevicePool#operator}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_device_pool#operator DevicefarmDevicePool#operator}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Operator
@@ -63,7 +63,7 @@ namespace aws.DevicefarmDevicePool
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devicefarm_device_pool#value DevicefarmDevicePool#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devicefarm_device_pool#value DevicefarmDevicePool#value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Value

@@ -7,14 +7,14 @@ namespace aws.CloudwatchEventTarget
     [JsiiInterface(nativeType: typeof(ICloudwatchEventTargetRunCommandTargets), fullyQualifiedName: "aws.cloudwatchEventTarget.CloudwatchEventTargetRunCommandTargets")]
     public interface ICloudwatchEventTargetRunCommandTargets
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#key CloudwatchEventTarget#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#key CloudwatchEventTarget#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#values CloudwatchEventTarget#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#values CloudwatchEventTarget#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
@@ -28,14 +28,14 @@ namespace aws.CloudwatchEventTarget
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#key CloudwatchEventTarget#key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#key CloudwatchEventTarget#key}.</summary>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#values CloudwatchEventTarget#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#values CloudwatchEventTarget#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {

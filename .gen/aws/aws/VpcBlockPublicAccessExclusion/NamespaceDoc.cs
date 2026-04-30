@@ -5,7 +5,7 @@ namespace aws.VpcBlockPublicAccessExclusion
     /// <remarks>
     /// <h1><c>aws_vpc_block_public_access_exclusion</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_block_public_access_exclusion"><c>aws_vpc_block_public_access_exclusion</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_block_public_access_exclusion"><c>aws_vpc_block_public_access_exclusion</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

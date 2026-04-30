@@ -9,7 +9,7 @@ namespace aws.Lexv2ModelsIntent
     [JsiiByValue(fqn: "aws.lexv2ModelsIntent.Lexv2ModelsIntentKendraConfiguration")]
     public class Lexv2ModelsIntentKendraConfiguration : aws.Lexv2ModelsIntent.ILexv2ModelsIntentKendraConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#kendra_index Lexv2ModelsIntent#kendra_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#kendra_index Lexv2ModelsIntent#kendra_index}.</summary>
         [JsiiProperty(name: "kendraIndex", typeJson: "{\"primitive\":\"string\"}")]
         public string KendraIndex
         {
@@ -17,7 +17,7 @@ namespace aws.Lexv2ModelsIntent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#query_filter_string Lexv2ModelsIntent#query_filter_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#query_filter_string Lexv2ModelsIntent#query_filter_string}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "queryFilterString", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? QueryFilterString
@@ -28,7 +28,7 @@ namespace aws.Lexv2ModelsIntent
 
         private object? _queryFilterStringEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#query_filter_string_enabled Lexv2ModelsIntent#query_filter_string_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#query_filter_string_enabled Lexv2ModelsIntent#query_filter_string_enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "queryFilterStringEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? QueryFilterStringEnabled

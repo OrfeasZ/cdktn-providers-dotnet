@@ -7,7 +7,7 @@ namespace aws.DbProxy
     [JsiiByValue(fqn: "aws.dbProxy.DbProxyAuth")]
     public class DbProxyAuth : aws.DbProxy.IDbProxyAuth
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_proxy#auth_scheme DbProxy#auth_scheme}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_proxy#auth_scheme DbProxy#auth_scheme}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authScheme", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AuthScheme
@@ -16,7 +16,7 @@ namespace aws.DbProxy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_proxy#client_password_auth_type DbProxy#client_password_auth_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_proxy#client_password_auth_type DbProxy#client_password_auth_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clientPasswordAuthType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClientPasswordAuthType
@@ -25,7 +25,7 @@ namespace aws.DbProxy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_proxy#description DbProxy#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_proxy#description DbProxy#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -34,7 +34,7 @@ namespace aws.DbProxy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_proxy#iam_auth DbProxy#iam_auth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_proxy#iam_auth DbProxy#iam_auth}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "iamAuth", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IamAuth
@@ -43,7 +43,7 @@ namespace aws.DbProxy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_proxy#secret_arn DbProxy#secret_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_proxy#secret_arn DbProxy#secret_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secretArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecretArn
@@ -52,7 +52,7 @@ namespace aws.DbProxy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/db_proxy#username DbProxy#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/db_proxy#username DbProxy#username}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Username

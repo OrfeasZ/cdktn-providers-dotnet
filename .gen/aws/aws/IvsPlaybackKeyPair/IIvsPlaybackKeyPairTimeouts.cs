@@ -7,7 +7,7 @@ namespace aws.IvsPlaybackKeyPair
     [JsiiInterface(nativeType: typeof(IIvsPlaybackKeyPairTimeouts), fullyQualifiedName: "aws.ivsPlaybackKeyPair.IvsPlaybackKeyPairTimeouts")]
     public interface IIvsPlaybackKeyPairTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ivs_playback_key_pair#create IvsPlaybackKeyPair#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ivs_playback_key_pair#create IvsPlaybackKeyPair#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace aws.IvsPlaybackKeyPair
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ivs_playback_key_pair#delete IvsPlaybackKeyPair#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ivs_playback_key_pair#delete IvsPlaybackKeyPair#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -36,7 +36,7 @@ namespace aws.IvsPlaybackKeyPair
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ivs_playback_key_pair#create IvsPlaybackKeyPair#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ivs_playback_key_pair#create IvsPlaybackKeyPair#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -44,7 +44,7 @@ namespace aws.IvsPlaybackKeyPair
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ivs_playback_key_pair#delete IvsPlaybackKeyPair#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ivs_playback_key_pair#delete IvsPlaybackKeyPair#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete

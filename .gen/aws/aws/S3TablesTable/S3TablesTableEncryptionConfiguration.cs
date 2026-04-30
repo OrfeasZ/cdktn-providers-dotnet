@@ -7,7 +7,7 @@ namespace aws.S3TablesTable
     [JsiiByValue(fqn: "aws.s3TablesTable.S3TablesTableEncryptionConfiguration")]
     public class S3TablesTableEncryptionConfiguration : aws.S3TablesTable.IS3TablesTableEncryptionConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table#kms_key_arn S3TablesTable#kms_key_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3tables_table#kms_key_arn S3TablesTable#kms_key_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyArn
@@ -16,7 +16,7 @@ namespace aws.S3TablesTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table#sse_algorithm S3TablesTable#sse_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3tables_table#sse_algorithm S3TablesTable#sse_algorithm}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sseAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SseAlgorithm

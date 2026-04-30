@@ -7,7 +7,7 @@ namespace aws.EksCapability
     [JsiiInterface(nativeType: typeof(IEksCapabilityConfigurationArgoCdNetworkAccess), fullyQualifiedName: "aws.eksCapability.EksCapabilityConfigurationArgoCdNetworkAccess")]
     public interface IEksCapabilityConfigurationArgoCdNetworkAccess
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_capability#vpce_ids EksCapability#vpce_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/eks_capability#vpce_ids EksCapability#vpce_ids}.</summary>
         [JsiiProperty(name: "vpceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? VpceIds
@@ -25,7 +25,7 @@ namespace aws.EksCapability
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_capability#vpce_ids EksCapability#vpce_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/eks_capability#vpce_ids EksCapability#vpce_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vpceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? VpceIds

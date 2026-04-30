@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     [JsiiByValue(fqn: "aws.medialiveChannel.MedialiveChannelDestinationsMediaPackageSettings")]
     public class MedialiveChannelDestinationsMediaPackageSettings : aws.MedialiveChannel.IMedialiveChannelDestinationsMediaPackageSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#channel_id MedialiveChannel#channel_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#channel_id MedialiveChannel#channel_id}.</summary>
         [JsiiProperty(name: "channelId", typeJson: "{\"primitive\":\"string\"}")]
         public string ChannelId
         {

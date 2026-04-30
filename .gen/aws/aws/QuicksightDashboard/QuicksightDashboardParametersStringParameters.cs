@@ -9,7 +9,7 @@ namespace aws.QuicksightDashboard
     [JsiiByValue(fqn: "aws.quicksightDashboard.QuicksightDashboardParametersStringParameters")]
     public class QuicksightDashboardParametersStringParameters : aws.QuicksightDashboard.IQuicksightDashboardParametersStringParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.QuicksightDashboard
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

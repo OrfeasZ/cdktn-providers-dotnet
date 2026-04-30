@@ -9,7 +9,7 @@ namespace aws.AppmeshGatewayRoute
     [JsiiByValue(fqn: "aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttpRouteMatchHeader")]
     public class AppmeshGatewayRouteSpecHttpRouteMatchHeader : aws.AppmeshGatewayRoute.IAppmeshGatewayRouteSpecHttpRouteMatchHeader
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_gateway_route#name AppmeshGatewayRoute#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_gateway_route#name AppmeshGatewayRoute#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -19,7 +19,7 @@ namespace aws.AppmeshGatewayRoute
 
         private object? _invert;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_gateway_route#invert AppmeshGatewayRoute#invert}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_gateway_route#invert AppmeshGatewayRoute#invert}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "invert", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Invert
@@ -50,7 +50,7 @@ namespace aws.AppmeshGatewayRoute
 
         /// <summary>match block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_gateway_route#match AppmeshGatewayRoute#match}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_gateway_route#match AppmeshGatewayRoute#match}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "match", typeJson: "{\"fqn\":\"aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttpRouteMatchHeaderMatch\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.DaxParameterGroup
     [JsiiByValue(fqn: "aws.daxParameterGroup.DaxParameterGroupParameters")]
     public class DaxParameterGroupParameters : aws.DaxParameterGroup.IDaxParameterGroupParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dax_parameter_group#name DaxParameterGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dax_parameter_group#name DaxParameterGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DaxParameterGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dax_parameter_group#value DaxParameterGroup#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dax_parameter_group#value DaxParameterGroup#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

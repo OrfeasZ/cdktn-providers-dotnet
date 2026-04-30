@@ -7,7 +7,7 @@ namespace aws.AppmeshVirtualNode
     [JsiiInterface(nativeType: typeof(IAppmeshVirtualNodeSpecListenerConnectionPoolTcp), fullyQualifiedName: "aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerConnectionPoolTcp")]
     public interface IAppmeshVirtualNodeSpecListenerConnectionPoolTcp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_node#max_connections AppmeshVirtualNode#max_connections}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_node#max_connections AppmeshVirtualNode#max_connections}.</summary>
         [JsiiProperty(name: "maxConnections", typeJson: "{\"primitive\":\"number\"}")]
         double MaxConnections
         {
@@ -21,7 +21,7 @@ namespace aws.AppmeshVirtualNode
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_node#max_connections AppmeshVirtualNode#max_connections}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_node#max_connections AppmeshVirtualNode#max_connections}.</summary>
             [JsiiProperty(name: "maxConnections", typeJson: "{\"primitive\":\"number\"}")]
             public double MaxConnections
             {

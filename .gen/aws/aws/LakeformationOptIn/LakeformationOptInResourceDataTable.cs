@@ -9,7 +9,7 @@ namespace aws.LakeformationOptIn
     [JsiiByValue(fqn: "aws.lakeformationOptIn.LakeformationOptInResourceDataTable")]
     public class LakeformationOptInResourceDataTable : aws.LakeformationOptIn.ILakeformationOptInResourceDataTable
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_opt_in#database_name LakeformationOptIn#database_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_opt_in#database_name LakeformationOptIn#database_name}.</summary>
         [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseName
         {
@@ -17,7 +17,7 @@ namespace aws.LakeformationOptIn
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_opt_in#catalog_id LakeformationOptIn#catalog_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_opt_in#catalog_id LakeformationOptIn#catalog_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "catalogId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CatalogId
@@ -26,7 +26,7 @@ namespace aws.LakeformationOptIn
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_opt_in#name LakeformationOptIn#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_opt_in#name LakeformationOptIn#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -37,7 +37,7 @@ namespace aws.LakeformationOptIn
 
         private object? _wildcard;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lakeformation_opt_in#wildcard LakeformationOptIn#wildcard}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lakeformation_opt_in#wildcard LakeformationOptIn#wildcard}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "wildcard", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Wildcard

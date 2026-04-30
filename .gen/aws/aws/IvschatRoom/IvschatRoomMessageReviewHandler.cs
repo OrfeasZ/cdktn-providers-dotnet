@@ -7,7 +7,7 @@ namespace aws.IvschatRoom
     [JsiiByValue(fqn: "aws.ivschatRoom.IvschatRoomMessageReviewHandler")]
     public class IvschatRoomMessageReviewHandler : aws.IvschatRoom.IIvschatRoomMessageReviewHandler
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ivschat_room#fallback_result IvschatRoom#fallback_result}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ivschat_room#fallback_result IvschatRoom#fallback_result}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fallbackResult", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FallbackResult
@@ -16,7 +16,7 @@ namespace aws.IvschatRoom
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ivschat_room#uri IvschatRoom#uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ivschat_room#uri IvschatRoom#uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Uri

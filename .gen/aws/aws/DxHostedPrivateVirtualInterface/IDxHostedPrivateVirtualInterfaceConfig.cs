@@ -7,49 +7,49 @@ namespace aws.DxHostedPrivateVirtualInterface
     [JsiiInterface(nativeType: typeof(IDxHostedPrivateVirtualInterfaceConfig), fullyQualifiedName: "aws.dxHostedPrivateVirtualInterface.DxHostedPrivateVirtualInterfaceConfig")]
     public interface IDxHostedPrivateVirtualInterfaceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#address_family DxHostedPrivateVirtualInterface#address_family}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#address_family DxHostedPrivateVirtualInterface#address_family}.</summary>
         [JsiiProperty(name: "addressFamily", typeJson: "{\"primitive\":\"string\"}")]
         string AddressFamily
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#bgp_asn DxHostedPrivateVirtualInterface#bgp_asn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#bgp_asn DxHostedPrivateVirtualInterface#bgp_asn}.</summary>
         [JsiiProperty(name: "bgpAsn", typeJson: "{\"primitive\":\"number\"}")]
         double BgpAsn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#connection_id DxHostedPrivateVirtualInterface#connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#connection_id DxHostedPrivateVirtualInterface#connection_id}.</summary>
         [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}")]
         string ConnectionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#name DxHostedPrivateVirtualInterface#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#name DxHostedPrivateVirtualInterface#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#owner_account_id DxHostedPrivateVirtualInterface#owner_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#owner_account_id DxHostedPrivateVirtualInterface#owner_account_id}.</summary>
         [JsiiProperty(name: "ownerAccountId", typeJson: "{\"primitive\":\"string\"}")]
         string OwnerAccountId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#vlan DxHostedPrivateVirtualInterface#vlan}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#vlan DxHostedPrivateVirtualInterface#vlan}.</summary>
         [JsiiProperty(name: "vlan", typeJson: "{\"primitive\":\"number\"}")]
         double Vlan
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#amazon_address DxHostedPrivateVirtualInterface#amazon_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#amazon_address DxHostedPrivateVirtualInterface#amazon_address}.</summary>
         [JsiiProperty(name: "amazonAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AmazonAddress
@@ -60,7 +60,7 @@ namespace aws.DxHostedPrivateVirtualInterface
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#bgp_auth_key DxHostedPrivateVirtualInterface#bgp_auth_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#bgp_auth_key DxHostedPrivateVirtualInterface#bgp_auth_key}.</summary>
         [JsiiProperty(name: "bgpAuthKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BgpAuthKey
@@ -71,7 +71,7 @@ namespace aws.DxHostedPrivateVirtualInterface
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#customer_address DxHostedPrivateVirtualInterface#customer_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#customer_address DxHostedPrivateVirtualInterface#customer_address}.</summary>
         [JsiiProperty(name: "customerAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CustomerAddress
@@ -82,7 +82,7 @@ namespace aws.DxHostedPrivateVirtualInterface
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#id DxHostedPrivateVirtualInterface#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#id DxHostedPrivateVirtualInterface#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -97,7 +97,7 @@ namespace aws.DxHostedPrivateVirtualInterface
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#mtu DxHostedPrivateVirtualInterface#mtu}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#mtu DxHostedPrivateVirtualInterface#mtu}.</summary>
         [JsiiProperty(name: "mtu", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Mtu
@@ -110,7 +110,7 @@ namespace aws.DxHostedPrivateVirtualInterface
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#region DxHostedPrivateVirtualInterface#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#region DxHostedPrivateVirtualInterface#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -124,7 +124,7 @@ namespace aws.DxHostedPrivateVirtualInterface
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#timeouts DxHostedPrivateVirtualInterface#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#timeouts DxHostedPrivateVirtualInterface#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.dxHostedPrivateVirtualInterface.DxHostedPrivateVirtualInterfaceTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -143,49 +143,49 @@ namespace aws.DxHostedPrivateVirtualInterface
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#address_family DxHostedPrivateVirtualInterface#address_family}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#address_family DxHostedPrivateVirtualInterface#address_family}.</summary>
             [JsiiProperty(name: "addressFamily", typeJson: "{\"primitive\":\"string\"}")]
             public string AddressFamily
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#bgp_asn DxHostedPrivateVirtualInterface#bgp_asn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#bgp_asn DxHostedPrivateVirtualInterface#bgp_asn}.</summary>
             [JsiiProperty(name: "bgpAsn", typeJson: "{\"primitive\":\"number\"}")]
             public double BgpAsn
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#connection_id DxHostedPrivateVirtualInterface#connection_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#connection_id DxHostedPrivateVirtualInterface#connection_id}.</summary>
             [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}")]
             public string ConnectionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#name DxHostedPrivateVirtualInterface#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#name DxHostedPrivateVirtualInterface#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#owner_account_id DxHostedPrivateVirtualInterface#owner_account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#owner_account_id DxHostedPrivateVirtualInterface#owner_account_id}.</summary>
             [JsiiProperty(name: "ownerAccountId", typeJson: "{\"primitive\":\"string\"}")]
             public string OwnerAccountId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#vlan DxHostedPrivateVirtualInterface#vlan}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#vlan DxHostedPrivateVirtualInterface#vlan}.</summary>
             [JsiiProperty(name: "vlan", typeJson: "{\"primitive\":\"number\"}")]
             public double Vlan
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#amazon_address DxHostedPrivateVirtualInterface#amazon_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#amazon_address DxHostedPrivateVirtualInterface#amazon_address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "amazonAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AmazonAddress
@@ -193,7 +193,7 @@ namespace aws.DxHostedPrivateVirtualInterface
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#bgp_auth_key DxHostedPrivateVirtualInterface#bgp_auth_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#bgp_auth_key DxHostedPrivateVirtualInterface#bgp_auth_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bgpAuthKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BgpAuthKey
@@ -201,7 +201,7 @@ namespace aws.DxHostedPrivateVirtualInterface
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#customer_address DxHostedPrivateVirtualInterface#customer_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#customer_address DxHostedPrivateVirtualInterface#customer_address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "customerAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CustomerAddress
@@ -209,7 +209,7 @@ namespace aws.DxHostedPrivateVirtualInterface
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#id DxHostedPrivateVirtualInterface#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#id DxHostedPrivateVirtualInterface#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -221,7 +221,7 @@ namespace aws.DxHostedPrivateVirtualInterface
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#mtu DxHostedPrivateVirtualInterface#mtu}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#mtu DxHostedPrivateVirtualInterface#mtu}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mtu", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Mtu
@@ -231,7 +231,7 @@ namespace aws.DxHostedPrivateVirtualInterface
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#region DxHostedPrivateVirtualInterface#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#region DxHostedPrivateVirtualInterface#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -242,7 +242,7 @@ namespace aws.DxHostedPrivateVirtualInterface
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_hosted_private_virtual_interface#timeouts DxHostedPrivateVirtualInterface#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_hosted_private_virtual_interface#timeouts DxHostedPrivateVirtualInterface#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.dxHostedPrivateVirtualInterface.DxHostedPrivateVirtualInterfaceTimeouts\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace aws.CodedeployDeploymentConfig
     [JsiiByValue(fqn: "aws.codedeployDeploymentConfig.CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanary")]
     public class CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanary : aws.CodedeployDeploymentConfig.ICodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanary
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codedeploy_deployment_config#interval CodedeployDeploymentConfig#interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codedeploy_deployment_config#interval CodedeployDeploymentConfig#interval}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Interval
@@ -16,7 +16,7 @@ namespace aws.CodedeployDeploymentConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codedeploy_deployment_config#percentage CodedeployDeploymentConfig#percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codedeploy_deployment_config#percentage CodedeployDeploymentConfig#percentage}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "percentage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Percentage

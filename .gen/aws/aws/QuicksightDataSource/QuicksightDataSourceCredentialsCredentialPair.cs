@@ -9,7 +9,7 @@ namespace aws.QuicksightDataSource
     [JsiiByValue(fqn: "aws.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPair")]
     public class QuicksightDataSourceCredentialsCredentialPair : aws.QuicksightDataSource.IQuicksightDataSourceCredentialsCredentialPair
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#password QuicksightDataSource#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#password QuicksightDataSource#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         public string Password
         {
@@ -17,7 +17,7 @@ namespace aws.QuicksightDataSource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#username QuicksightDataSource#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#username QuicksightDataSource#username}.</summary>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         public string Username
         {

@@ -7,7 +7,7 @@ namespace aws.CloudfrontResponseHeadersPolicy
     [JsiiByValue(fqn: "aws.cloudfrontResponseHeadersPolicy.CloudfrontResponseHeadersPolicyCorsConfigAccessControlAllowHeaders")]
     public class CloudfrontResponseHeadersPolicyCorsConfigAccessControlAllowHeaders : aws.CloudfrontResponseHeadersPolicy.ICloudfrontResponseHeadersPolicyCorsConfigAccessControlAllowHeaders
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_response_headers_policy#items CloudfrontResponseHeadersPolicy#items}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_response_headers_policy#items CloudfrontResponseHeadersPolicy#items}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "items", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Items

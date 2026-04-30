@@ -9,7 +9,7 @@ namespace aws.PrometheusScraper
     [JsiiByValue(fqn: "aws.prometheusScraper.PrometheusScraperDestinationAmp")]
     public class PrometheusScraperDestinationAmp : aws.PrometheusScraper.IPrometheusScraperDestinationAmp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/prometheus_scraper#workspace_arn PrometheusScraper#workspace_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/prometheus_scraper#workspace_arn PrometheusScraper#workspace_arn}.</summary>
         [JsiiProperty(name: "workspaceArn", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkspaceArn
         {

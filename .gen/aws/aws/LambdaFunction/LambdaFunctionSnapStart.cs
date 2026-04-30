@@ -9,7 +9,7 @@ namespace aws.LambdaFunction
     [JsiiByValue(fqn: "aws.lambdaFunction.LambdaFunctionSnapStart")]
     public class LambdaFunctionSnapStart : aws.LambdaFunction.ILambdaFunctionSnapStart
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function#apply_on LambdaFunction#apply_on}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_function#apply_on LambdaFunction#apply_on}.</summary>
         [JsiiProperty(name: "applyOn", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplyOn
         {

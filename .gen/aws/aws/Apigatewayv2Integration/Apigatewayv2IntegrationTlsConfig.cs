@@ -7,7 +7,7 @@ namespace aws.Apigatewayv2Integration
     [JsiiByValue(fqn: "aws.apigatewayv2Integration.Apigatewayv2IntegrationTlsConfig")]
     public class Apigatewayv2IntegrationTlsConfig : aws.Apigatewayv2Integration.IApigatewayv2IntegrationTlsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_integration#server_name_to_verify Apigatewayv2Integration#server_name_to_verify}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_integration#server_name_to_verify Apigatewayv2Integration#server_name_to_verify}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serverNameToVerify", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServerNameToVerify

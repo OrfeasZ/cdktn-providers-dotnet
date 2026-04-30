@@ -9,7 +9,7 @@ namespace aws.DataAwsSsoadminPermissionSets
     [JsiiByValue(fqn: "aws.dataAwsSsoadminPermissionSets.DataAwsSsoadminPermissionSetsConfig")]
     public class DataAwsSsoadminPermissionSetsConfig : aws.DataAwsSsoadminPermissionSets.IDataAwsSsoadminPermissionSetsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ssoadmin_permission_sets#instance_arn DataAwsSsoadminPermissionSets#instance_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ssoadmin_permission_sets#instance_arn DataAwsSsoadminPermissionSets#instance_arn}.</summary>
         [JsiiProperty(name: "instanceArn", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceArn
         {
@@ -19,7 +19,7 @@ namespace aws.DataAwsSsoadminPermissionSets
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ssoadmin_permission_sets#region DataAwsSsoadminPermissionSets#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ssoadmin_permission_sets#region DataAwsSsoadminPermissionSets#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

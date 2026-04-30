@@ -9,7 +9,7 @@ namespace aws.CognitoIdentityProvider
     [JsiiByValue(fqn: "aws.cognitoIdentityProvider.CognitoIdentityProviderConfig")]
     public class CognitoIdentityProviderConfig : aws.CognitoIdentityProvider.ICognitoIdentityProviderConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_identity_provider#provider_details CognitoIdentityProvider#provider_details}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_identity_provider#provider_details CognitoIdentityProvider#provider_details}.</summary>
         [JsiiProperty(name: "providerDetails", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, string> ProviderDetails
         {
@@ -17,7 +17,7 @@ namespace aws.CognitoIdentityProvider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_identity_provider#provider_name CognitoIdentityProvider#provider_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_identity_provider#provider_name CognitoIdentityProvider#provider_name}.</summary>
         [JsiiProperty(name: "providerName", typeJson: "{\"primitive\":\"string\"}")]
         public string ProviderName
         {
@@ -25,7 +25,7 @@ namespace aws.CognitoIdentityProvider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_identity_provider#provider_type CognitoIdentityProvider#provider_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_identity_provider#provider_type CognitoIdentityProvider#provider_type}.</summary>
         [JsiiProperty(name: "providerType", typeJson: "{\"primitive\":\"string\"}")]
         public string ProviderType
         {
@@ -33,7 +33,7 @@ namespace aws.CognitoIdentityProvider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_identity_provider#user_pool_id CognitoIdentityProvider#user_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_identity_provider#user_pool_id CognitoIdentityProvider#user_pool_id}.</summary>
         [JsiiProperty(name: "userPoolId", typeJson: "{\"primitive\":\"string\"}")]
         public string UserPoolId
         {
@@ -41,7 +41,7 @@ namespace aws.CognitoIdentityProvider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_identity_provider#attribute_mapping CognitoIdentityProvider#attribute_mapping}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_identity_provider#attribute_mapping CognitoIdentityProvider#attribute_mapping}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeMapping", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? AttributeMapping
@@ -50,7 +50,7 @@ namespace aws.CognitoIdentityProvider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_identity_provider#id CognitoIdentityProvider#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_identity_provider#id CognitoIdentityProvider#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,7 +63,7 @@ namespace aws.CognitoIdentityProvider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_identity_provider#idp_identifiers CognitoIdentityProvider#idp_identifiers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_identity_provider#idp_identifiers CognitoIdentityProvider#idp_identifiers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "idpIdentifiers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IdpIdentifiers
@@ -74,7 +74,7 @@ namespace aws.CognitoIdentityProvider
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_identity_provider#region CognitoIdentityProvider#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_identity_provider#region CognitoIdentityProvider#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

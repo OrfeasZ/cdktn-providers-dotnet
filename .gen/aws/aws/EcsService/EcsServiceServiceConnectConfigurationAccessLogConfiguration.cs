@@ -9,7 +9,7 @@ namespace aws.EcsService
     [JsiiByValue(fqn: "aws.ecsService.EcsServiceServiceConnectConfigurationAccessLogConfiguration")]
     public class EcsServiceServiceConnectConfigurationAccessLogConfiguration : aws.EcsService.IEcsServiceServiceConnectConfigurationAccessLogConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#format EcsService#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#format EcsService#format}.</summary>
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}")]
         public string Format
         {
@@ -17,7 +17,7 @@ namespace aws.EcsService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#include_query_parameters EcsService#include_query_parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#include_query_parameters EcsService#include_query_parameters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeQueryParameters", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IncludeQueryParameters

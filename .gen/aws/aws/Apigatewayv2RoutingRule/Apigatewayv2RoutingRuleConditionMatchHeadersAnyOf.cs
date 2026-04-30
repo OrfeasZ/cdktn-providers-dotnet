@@ -9,7 +9,7 @@ namespace aws.Apigatewayv2RoutingRule
     [JsiiByValue(fqn: "aws.apigatewayv2RoutingRule.Apigatewayv2RoutingRuleConditionMatchHeadersAnyOf")]
     public class Apigatewayv2RoutingRuleConditionMatchHeadersAnyOf : aws.Apigatewayv2RoutingRule.IApigatewayv2RoutingRuleConditionMatchHeadersAnyOf
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_routing_rule#header Apigatewayv2RoutingRule#header}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_routing_rule#header Apigatewayv2RoutingRule#header}.</summary>
         [JsiiProperty(name: "header", typeJson: "{\"primitive\":\"string\"}")]
         public string Header
         {
@@ -17,7 +17,7 @@ namespace aws.Apigatewayv2RoutingRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_routing_rule#value_glob Apigatewayv2RoutingRule#value_glob}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_routing_rule#value_glob Apigatewayv2RoutingRule#value_glob}.</summary>
         [JsiiProperty(name: "valueGlob", typeJson: "{\"primitive\":\"string\"}")]
         public string ValueGlob
         {

@@ -9,7 +9,7 @@ namespace aws.CloudfrontDistributionTenant
     [JsiiByValue(fqn: "aws.cloudfrontDistributionTenant.CloudfrontDistributionTenantDomain")]
     public class CloudfrontDistributionTenantDomain : aws.CloudfrontDistributionTenant.ICloudfrontDistributionTenantDomain
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution_tenant#domain CloudfrontDistributionTenant#domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution_tenant#domain CloudfrontDistributionTenant#domain}.</summary>
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
         public string Domain
         {

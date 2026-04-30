@@ -7,21 +7,21 @@ namespace aws.EcsService
     [JsiiInterface(nativeType: typeof(IEcsServiceVpcLatticeConfigurations), fullyQualifiedName: "aws.ecsService.EcsServiceVpcLatticeConfigurations")]
     public interface IEcsServiceVpcLatticeConfigurations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#port_name EcsService#port_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#port_name EcsService#port_name}.</summary>
         [JsiiProperty(name: "portName", typeJson: "{\"primitive\":\"string\"}")]
         string PortName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#role_arn EcsService#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#role_arn EcsService#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         string RoleArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#target_group_arn EcsService#target_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#target_group_arn EcsService#target_group_arn}.</summary>
         [JsiiProperty(name: "targetGroupArn", typeJson: "{\"primitive\":\"string\"}")]
         string TargetGroupArn
         {
@@ -35,21 +35,21 @@ namespace aws.EcsService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#port_name EcsService#port_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#port_name EcsService#port_name}.</summary>
             [JsiiProperty(name: "portName", typeJson: "{\"primitive\":\"string\"}")]
             public string PortName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#role_arn EcsService#role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#role_arn EcsService#role_arn}.</summary>
             [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
             public string RoleArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#target_group_arn EcsService#target_group_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#target_group_arn EcsService#target_group_arn}.</summary>
             [JsiiProperty(name: "targetGroupArn", typeJson: "{\"primitive\":\"string\"}")]
             public string TargetGroupArn
             {

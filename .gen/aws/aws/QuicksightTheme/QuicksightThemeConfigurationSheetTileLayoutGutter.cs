@@ -9,7 +9,7 @@ namespace aws.QuicksightTheme
     {
         private object? _show;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#show QuicksightTheme#show}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_theme#show QuicksightTheme#show}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "show", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Show

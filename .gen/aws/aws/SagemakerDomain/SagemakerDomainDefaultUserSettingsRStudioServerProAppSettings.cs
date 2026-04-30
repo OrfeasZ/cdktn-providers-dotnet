@@ -7,7 +7,7 @@ namespace aws.SagemakerDomain
     [JsiiByValue(fqn: "aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsRStudioServerProAppSettings")]
     public class SagemakerDomainDefaultUserSettingsRStudioServerProAppSettings : aws.SagemakerDomain.ISagemakerDomainDefaultUserSettingsRStudioServerProAppSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#access_status SagemakerDomain#access_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#access_status SagemakerDomain#access_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessStatus
@@ -16,7 +16,7 @@ namespace aws.SagemakerDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#user_group SagemakerDomain#user_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#user_group SagemakerDomain#user_group}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "userGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UserGroup

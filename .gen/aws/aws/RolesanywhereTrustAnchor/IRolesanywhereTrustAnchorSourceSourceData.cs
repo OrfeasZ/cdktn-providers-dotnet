@@ -7,7 +7,7 @@ namespace aws.RolesanywhereTrustAnchor
     [JsiiInterface(nativeType: typeof(IRolesanywhereTrustAnchorSourceSourceData), fullyQualifiedName: "aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorSourceSourceData")]
     public interface IRolesanywhereTrustAnchorSourceSourceData
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rolesanywhere_trust_anchor#acm_pca_arn RolesanywhereTrustAnchor#acm_pca_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rolesanywhere_trust_anchor#acm_pca_arn RolesanywhereTrustAnchor#acm_pca_arn}.</summary>
         [JsiiProperty(name: "acmPcaArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AcmPcaArn
@@ -18,7 +18,7 @@ namespace aws.RolesanywhereTrustAnchor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rolesanywhere_trust_anchor#x509_certificate_data RolesanywhereTrustAnchor#x509_certificate_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rolesanywhere_trust_anchor#x509_certificate_data RolesanywhereTrustAnchor#x509_certificate_data}.</summary>
         [JsiiProperty(name: "x509CertificateData", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? X509CertificateData
@@ -36,7 +36,7 @@ namespace aws.RolesanywhereTrustAnchor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rolesanywhere_trust_anchor#acm_pca_arn RolesanywhereTrustAnchor#acm_pca_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rolesanywhere_trust_anchor#acm_pca_arn RolesanywhereTrustAnchor#acm_pca_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "acmPcaArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AcmPcaArn
@@ -44,7 +44,7 @@ namespace aws.RolesanywhereTrustAnchor
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rolesanywhere_trust_anchor#x509_certificate_data RolesanywhereTrustAnchor#x509_certificate_data}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rolesanywhere_trust_anchor#x509_certificate_data RolesanywhereTrustAnchor#x509_certificate_data}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "x509CertificateData", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? X509CertificateData

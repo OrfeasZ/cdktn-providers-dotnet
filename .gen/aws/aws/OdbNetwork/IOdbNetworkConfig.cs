@@ -11,7 +11,7 @@ namespace aws.OdbNetwork
         /// <remarks>
         /// Changing this will force terraform to create new resource.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#availability_zone_id OdbNetwork#availability_zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#availability_zone_id OdbNetwork#availability_zone_id}
         /// </remarks>
         [JsiiProperty(name: "availabilityZoneId", typeJson: "{\"primitive\":\"string\"}")]
         string AvailabilityZoneId
@@ -35,7 +35,7 @@ namespace aws.OdbNetwork
         /// <description>240.0.0.0 - 255.255.255.255</description>
         /// </list>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#backup_subnet_cidr OdbNetwork#backup_subnet_cidr}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#backup_subnet_cidr OdbNetwork#backup_subnet_cidr}
         /// </remarks>
         [JsiiProperty(name: "backupSubnetCidr", typeJson: "{\"primitive\":\"string\"}")]
         string BackupSubnetCidr
@@ -59,7 +59,7 @@ namespace aws.OdbNetwork
         /// <description>240.0.0.0 - 255.255.255.255</description>
         /// </list>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#client_subnet_cidr OdbNetwork#client_subnet_cidr}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#client_subnet_cidr OdbNetwork#client_subnet_cidr}
         /// </remarks>
         [JsiiProperty(name: "clientSubnetCidr", typeJson: "{\"primitive\":\"string\"}")]
         string ClientSubnetCidr
@@ -69,7 +69,7 @@ namespace aws.OdbNetwork
 
         /// <summary>The user-friendly name for the odb network. Changing this will force terraform to create a new resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#display_name OdbNetwork#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#display_name OdbNetwork#display_name}
         /// </remarks>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
@@ -79,7 +79,7 @@ namespace aws.OdbNetwork
 
         /// <summary>Specifies the configuration for Amazon S3 access from the ODB network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#s3_access OdbNetwork#s3_access}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#s3_access OdbNetwork#s3_access}
         /// </remarks>
         [JsiiProperty(name: "s3Access", typeJson: "{\"primitive\":\"string\"}")]
         string S3Access
@@ -89,7 +89,7 @@ namespace aws.OdbNetwork
 
         /// <summary>Specifies the configuration for Zero-ETL access from the ODB network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#zero_etl_access OdbNetwork#zero_etl_access}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#zero_etl_access OdbNetwork#zero_etl_access}
         /// </remarks>
         [JsiiProperty(name: "zeroEtlAccess", typeJson: "{\"primitive\":\"string\"}")]
         string ZeroEtlAccess
@@ -101,7 +101,7 @@ namespace aws.OdbNetwork
         /// <remarks>
         /// Changing this will force terraform to create new resource
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#availability_zone OdbNetwork#availability_zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#availability_zone OdbNetwork#availability_zone}
         /// </remarks>
         [JsiiProperty(name: "availabilityZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -115,7 +115,7 @@ namespace aws.OdbNetwork
 
         /// <summary>The list of regions enabled for cross-region restore in the ODB network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#cross_region_s3_restore_sources_access OdbNetwork#cross_region_s3_restore_sources_access}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#cross_region_s3_restore_sources_access OdbNetwork#cross_region_s3_restore_sources_access}
         /// </remarks>
         [JsiiProperty(name: "crossRegionS3RestoreSourcesAccess", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -129,7 +129,7 @@ namespace aws.OdbNetwork
 
         /// <summary>The name of the custom domain that the network is located. custom_domain_name and default_dns_prefix both can't be given.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#custom_domain_name OdbNetwork#custom_domain_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#custom_domain_name OdbNetwork#custom_domain_name}
         /// </remarks>
         [JsiiProperty(name: "customDomainName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -143,7 +143,7 @@ namespace aws.OdbNetwork
 
         /// <summary>The default DNS prefix for the network resource. Changing this will force terraform to create new resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#default_dns_prefix OdbNetwork#default_dns_prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#default_dns_prefix OdbNetwork#default_dns_prefix}
         /// </remarks>
         [JsiiProperty(name: "defaultDnsPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -157,7 +157,7 @@ namespace aws.OdbNetwork
 
         /// <summary>If set to true deletes associated OCI resources. Default false.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#delete_associated_resources OdbNetwork#delete_associated_resources}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#delete_associated_resources OdbNetwork#delete_associated_resources}
         /// </remarks>
         [JsiiProperty(name: "deleteAssociatedResources", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -171,7 +171,7 @@ namespace aws.OdbNetwork
 
         /// <summary>Specifies the configuration for Amazon KMS access from the ODB network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#kms_access OdbNetwork#kms_access}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#kms_access OdbNetwork#kms_access}
         /// </remarks>
         [JsiiProperty(name: "kmsAccess", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -185,7 +185,7 @@ namespace aws.OdbNetwork
 
         /// <summary>Specifies the endpoint policy for Amazon KMS access from the ODB network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#kms_policy_document OdbNetwork#kms_policy_document}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#kms_policy_document OdbNetwork#kms_policy_document}
         /// </remarks>
         [JsiiProperty(name: "kmsPolicyDocument", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -199,7 +199,7 @@ namespace aws.OdbNetwork
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#region OdbNetwork#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#region OdbNetwork#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -213,7 +213,7 @@ namespace aws.OdbNetwork
 
         /// <summary>Specifies the endpoint policy for Amazon S3 access from the ODB network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#s3_policy_document OdbNetwork#s3_policy_document}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#s3_policy_document OdbNetwork#s3_policy_document}
         /// </remarks>
         [JsiiProperty(name: "s3PolicyDocument", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -227,7 +227,7 @@ namespace aws.OdbNetwork
 
         /// <summary>Specifies the configuration for Amazon STS access from the ODB network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#sts_access OdbNetwork#sts_access}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#sts_access OdbNetwork#sts_access}
         /// </remarks>
         [JsiiProperty(name: "stsAccess", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -241,7 +241,7 @@ namespace aws.OdbNetwork
 
         /// <summary>Specifies the endpoint policy for Amazon STS access from the ODB network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#sts_policy_document OdbNetwork#sts_policy_document}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#sts_policy_document OdbNetwork#sts_policy_document}
         /// </remarks>
         [JsiiProperty(name: "stsPolicyDocument", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -253,7 +253,7 @@ namespace aws.OdbNetwork
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#tags OdbNetwork#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#tags OdbNetwork#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -266,7 +266,7 @@ namespace aws.OdbNetwork
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#timeouts OdbNetwork#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#timeouts OdbNetwork#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.odbNetwork.OdbNetworkTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -289,7 +289,7 @@ namespace aws.OdbNetwork
             /// <remarks>
             /// Changing this will force terraform to create new resource.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#availability_zone_id OdbNetwork#availability_zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#availability_zone_id OdbNetwork#availability_zone_id}
             /// </remarks>
             [JsiiProperty(name: "availabilityZoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string AvailabilityZoneId
@@ -313,7 +313,7 @@ namespace aws.OdbNetwork
             /// <description>240.0.0.0 - 255.255.255.255</description>
             /// </list>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#backup_subnet_cidr OdbNetwork#backup_subnet_cidr}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#backup_subnet_cidr OdbNetwork#backup_subnet_cidr}
             /// </remarks>
             [JsiiProperty(name: "backupSubnetCidr", typeJson: "{\"primitive\":\"string\"}")]
             public string BackupSubnetCidr
@@ -337,7 +337,7 @@ namespace aws.OdbNetwork
             /// <description>240.0.0.0 - 255.255.255.255</description>
             /// </list>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#client_subnet_cidr OdbNetwork#client_subnet_cidr}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#client_subnet_cidr OdbNetwork#client_subnet_cidr}
             /// </remarks>
             [JsiiProperty(name: "clientSubnetCidr", typeJson: "{\"primitive\":\"string\"}")]
             public string ClientSubnetCidr
@@ -347,7 +347,7 @@ namespace aws.OdbNetwork
 
             /// <summary>The user-friendly name for the odb network. Changing this will force terraform to create a new resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#display_name OdbNetwork#display_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#display_name OdbNetwork#display_name}
             /// </remarks>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
@@ -357,7 +357,7 @@ namespace aws.OdbNetwork
 
             /// <summary>Specifies the configuration for Amazon S3 access from the ODB network.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#s3_access OdbNetwork#s3_access}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#s3_access OdbNetwork#s3_access}
             /// </remarks>
             [JsiiProperty(name: "s3Access", typeJson: "{\"primitive\":\"string\"}")]
             public string S3Access
@@ -367,7 +367,7 @@ namespace aws.OdbNetwork
 
             /// <summary>Specifies the configuration for Zero-ETL access from the ODB network.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#zero_etl_access OdbNetwork#zero_etl_access}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#zero_etl_access OdbNetwork#zero_etl_access}
             /// </remarks>
             [JsiiProperty(name: "zeroEtlAccess", typeJson: "{\"primitive\":\"string\"}")]
             public string ZeroEtlAccess
@@ -379,7 +379,7 @@ namespace aws.OdbNetwork
             /// <remarks>
             /// Changing this will force terraform to create new resource
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#availability_zone OdbNetwork#availability_zone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#availability_zone OdbNetwork#availability_zone}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "availabilityZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -390,7 +390,7 @@ namespace aws.OdbNetwork
 
             /// <summary>The list of regions enabled for cross-region restore in the ODB network.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#cross_region_s3_restore_sources_access OdbNetwork#cross_region_s3_restore_sources_access}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#cross_region_s3_restore_sources_access OdbNetwork#cross_region_s3_restore_sources_access}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "crossRegionS3RestoreSourcesAccess", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -401,7 +401,7 @@ namespace aws.OdbNetwork
 
             /// <summary>The name of the custom domain that the network is located. custom_domain_name and default_dns_prefix both can't be given.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#custom_domain_name OdbNetwork#custom_domain_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#custom_domain_name OdbNetwork#custom_domain_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customDomainName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -412,7 +412,7 @@ namespace aws.OdbNetwork
 
             /// <summary>The default DNS prefix for the network resource. Changing this will force terraform to create new resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#default_dns_prefix OdbNetwork#default_dns_prefix}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#default_dns_prefix OdbNetwork#default_dns_prefix}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "defaultDnsPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -423,7 +423,7 @@ namespace aws.OdbNetwork
 
             /// <summary>If set to true deletes associated OCI resources. Default false.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#delete_associated_resources OdbNetwork#delete_associated_resources}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#delete_associated_resources OdbNetwork#delete_associated_resources}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "deleteAssociatedResources", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -434,7 +434,7 @@ namespace aws.OdbNetwork
 
             /// <summary>Specifies the configuration for Amazon KMS access from the ODB network.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#kms_access OdbNetwork#kms_access}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#kms_access OdbNetwork#kms_access}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "kmsAccess", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -445,7 +445,7 @@ namespace aws.OdbNetwork
 
             /// <summary>Specifies the endpoint policy for Amazon KMS access from the ODB network.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#kms_policy_document OdbNetwork#kms_policy_document}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#kms_policy_document OdbNetwork#kms_policy_document}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "kmsPolicyDocument", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -456,7 +456,7 @@ namespace aws.OdbNetwork
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#region OdbNetwork#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#region OdbNetwork#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -467,7 +467,7 @@ namespace aws.OdbNetwork
 
             /// <summary>Specifies the endpoint policy for Amazon S3 access from the ODB network.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#s3_policy_document OdbNetwork#s3_policy_document}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#s3_policy_document OdbNetwork#s3_policy_document}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3PolicyDocument", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -478,7 +478,7 @@ namespace aws.OdbNetwork
 
             /// <summary>Specifies the configuration for Amazon STS access from the ODB network.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#sts_access OdbNetwork#sts_access}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#sts_access OdbNetwork#sts_access}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "stsAccess", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -489,7 +489,7 @@ namespace aws.OdbNetwork
 
             /// <summary>Specifies the endpoint policy for Amazon STS access from the ODB network.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#sts_policy_document OdbNetwork#sts_policy_document}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#sts_policy_document OdbNetwork#sts_policy_document}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "stsPolicyDocument", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -498,7 +498,7 @@ namespace aws.OdbNetwork
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#tags OdbNetwork#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#tags OdbNetwork#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -508,7 +508,7 @@ namespace aws.OdbNetwork
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/odb_network#timeouts OdbNetwork#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/odb_network#timeouts OdbNetwork#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.odbNetwork.OdbNetworkTimeouts\"}", isOptional: true)]

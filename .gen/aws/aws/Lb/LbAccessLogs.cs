@@ -9,7 +9,7 @@ namespace aws.Lb
     [JsiiByValue(fqn: "aws.lb.LbAccessLogs")]
     public class LbAccessLogs : aws.Lb.ILbAccessLogs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb#bucket Lb#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb#bucket Lb#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
         {
@@ -19,7 +19,7 @@ namespace aws.Lb
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb#enabled Lb#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb#enabled Lb#enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Enabled
@@ -48,7 +48,7 @@ namespace aws.Lb
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb#prefix Lb#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb#prefix Lb#prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Prefix

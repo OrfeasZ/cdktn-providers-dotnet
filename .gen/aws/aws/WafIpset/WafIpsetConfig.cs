@@ -9,7 +9,7 @@ namespace aws.WafIpset
     [JsiiByValue(fqn: "aws.wafIpset.WafIpsetConfig")]
     public class WafIpsetConfig : aws.WafIpset.IWafIpsetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_ipset#name WafIpset#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/waf_ipset#name WafIpset#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.WafIpset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_ipset#id WafIpset#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/waf_ipset#id WafIpset#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,7 +34,7 @@ namespace aws.WafIpset
 
         /// <summary>ip_set_descriptors block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_ipset#ip_set_descriptors WafIpset#ip_set_descriptors}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/waf_ipset#ip_set_descriptors WafIpset#ip_set_descriptors}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipSetDescriptors", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafIpset.WafIpsetIpSetDescriptors\"},\"kind\":\"array\"}}]}}", isOptional: true)]

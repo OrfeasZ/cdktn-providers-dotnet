@@ -7,7 +7,7 @@ namespace aws.ChimesdkvoiceGlobalSettings
     [JsiiByValue(fqn: "aws.chimesdkvoiceGlobalSettings.ChimesdkvoiceGlobalSettingsVoiceConnector")]
     public class ChimesdkvoiceGlobalSettingsVoiceConnector : aws.ChimesdkvoiceGlobalSettings.IChimesdkvoiceGlobalSettingsVoiceConnector
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/chimesdkvoice_global_settings#cdr_bucket ChimesdkvoiceGlobalSettings#cdr_bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/chimesdkvoice_global_settings#cdr_bucket ChimesdkvoiceGlobalSettings#cdr_bucket}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cdrBucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CdrBucket

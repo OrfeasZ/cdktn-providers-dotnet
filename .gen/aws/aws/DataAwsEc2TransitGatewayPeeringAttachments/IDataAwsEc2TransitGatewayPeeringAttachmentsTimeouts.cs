@@ -7,7 +7,7 @@ namespace aws.DataAwsEc2TransitGatewayPeeringAttachments
     [JsiiInterface(nativeType: typeof(IDataAwsEc2TransitGatewayPeeringAttachmentsTimeouts), fullyQualifiedName: "aws.dataAwsEc2TransitGatewayPeeringAttachments.DataAwsEc2TransitGatewayPeeringAttachmentsTimeouts")]
     public interface IDataAwsEc2TransitGatewayPeeringAttachmentsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_transit_gateway_peering_attachments#read DataAwsEc2TransitGatewayPeeringAttachments#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ec2_transit_gateway_peering_attachments#read DataAwsEc2TransitGatewayPeeringAttachments#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace aws.DataAwsEc2TransitGatewayPeeringAttachments
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_transit_gateway_peering_attachments#read DataAwsEc2TransitGatewayPeeringAttachments#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ec2_transit_gateway_peering_attachments#read DataAwsEc2TransitGatewayPeeringAttachments#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

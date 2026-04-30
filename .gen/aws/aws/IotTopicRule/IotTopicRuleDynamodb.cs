@@ -9,7 +9,7 @@ namespace aws.IotTopicRule
     [JsiiByValue(fqn: "aws.iotTopicRule.IotTopicRuleDynamodb")]
     public class IotTopicRuleDynamodb : aws.IotTopicRule.IIotTopicRuleDynamodb
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#hash_key_field IotTopicRule#hash_key_field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#hash_key_field IotTopicRule#hash_key_field}.</summary>
         [JsiiProperty(name: "hashKeyField", typeJson: "{\"primitive\":\"string\"}")]
         public string HashKeyField
         {
@@ -17,7 +17,7 @@ namespace aws.IotTopicRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#hash_key_value IotTopicRule#hash_key_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#hash_key_value IotTopicRule#hash_key_value}.</summary>
         [JsiiProperty(name: "hashKeyValue", typeJson: "{\"primitive\":\"string\"}")]
         public string HashKeyValue
         {
@@ -25,7 +25,7 @@ namespace aws.IotTopicRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#role_arn IotTopicRule#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#role_arn IotTopicRule#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleArn
         {
@@ -33,7 +33,7 @@ namespace aws.IotTopicRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#table_name IotTopicRule#table_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#table_name IotTopicRule#table_name}.</summary>
         [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}")]
         public string TableName
         {
@@ -41,7 +41,7 @@ namespace aws.IotTopicRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#hash_key_type IotTopicRule#hash_key_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#hash_key_type IotTopicRule#hash_key_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hashKeyType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HashKeyType
@@ -50,7 +50,7 @@ namespace aws.IotTopicRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#operation IotTopicRule#operation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#operation IotTopicRule#operation}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Operation
@@ -59,7 +59,7 @@ namespace aws.IotTopicRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#payload_field IotTopicRule#payload_field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#payload_field IotTopicRule#payload_field}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "payloadField", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PayloadField
@@ -68,7 +68,7 @@ namespace aws.IotTopicRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#range_key_field IotTopicRule#range_key_field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#range_key_field IotTopicRule#range_key_field}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rangeKeyField", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RangeKeyField
@@ -77,7 +77,7 @@ namespace aws.IotTopicRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#range_key_type IotTopicRule#range_key_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#range_key_type IotTopicRule#range_key_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rangeKeyType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RangeKeyType
@@ -86,7 +86,7 @@ namespace aws.IotTopicRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#range_key_value IotTopicRule#range_key_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#range_key_value IotTopicRule#range_key_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rangeKeyValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RangeKeyValue

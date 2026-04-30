@@ -9,7 +9,7 @@ namespace aws.FisExperimentTemplate
     [JsiiByValue(fqn: "aws.fisExperimentTemplate.FisExperimentTemplateLogConfigurationS3Configuration")]
     public class FisExperimentTemplateLogConfigurationS3Configuration : aws.FisExperimentTemplate.IFisExperimentTemplateLogConfigurationS3Configuration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#bucket_name FisExperimentTemplate#bucket_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fis_experiment_template#bucket_name FisExperimentTemplate#bucket_name}.</summary>
         [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
         public string BucketName
         {
@@ -17,7 +17,7 @@ namespace aws.FisExperimentTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#prefix FisExperimentTemplate#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fis_experiment_template#prefix FisExperimentTemplate#prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Prefix

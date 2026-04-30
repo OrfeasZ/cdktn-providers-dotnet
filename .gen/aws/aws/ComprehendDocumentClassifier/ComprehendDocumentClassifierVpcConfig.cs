@@ -9,7 +9,7 @@ namespace aws.ComprehendDocumentClassifier
     [JsiiByValue(fqn: "aws.comprehendDocumentClassifier.ComprehendDocumentClassifierVpcConfig")]
     public class ComprehendDocumentClassifierVpcConfig : aws.ComprehendDocumentClassifier.IComprehendDocumentClassifierVpcConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/comprehend_document_classifier#security_group_ids ComprehendDocumentClassifier#security_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/comprehend_document_classifier#security_group_ids ComprehendDocumentClassifier#security_group_ids}.</summary>
         [JsiiProperty(name: "securityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SecurityGroupIds
         {
@@ -17,7 +17,7 @@ namespace aws.ComprehendDocumentClassifier
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/comprehend_document_classifier#subnets ComprehendDocumentClassifier#subnets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/comprehend_document_classifier#subnets ComprehendDocumentClassifier#subnets}.</summary>
         [JsiiProperty(name: "subnets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Subnets
         {

@@ -7,7 +7,7 @@ namespace aws.FinspaceKxEnvironment
     [JsiiByValue(fqn: "aws.finspaceKxEnvironment.FinspaceKxEnvironmentTimeouts")]
     public class FinspaceKxEnvironmentTimeouts : aws.FinspaceKxEnvironment.IFinspaceKxEnvironmentTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#create FinspaceKxEnvironment#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_environment#create FinspaceKxEnvironment#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.FinspaceKxEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#delete FinspaceKxEnvironment#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_environment#delete FinspaceKxEnvironment#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace aws.FinspaceKxEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_environment#update FinspaceKxEnvironment#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_environment#update FinspaceKxEnvironment#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

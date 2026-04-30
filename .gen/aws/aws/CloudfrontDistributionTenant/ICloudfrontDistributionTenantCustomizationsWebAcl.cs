@@ -7,7 +7,7 @@ namespace aws.CloudfrontDistributionTenant
     [JsiiInterface(nativeType: typeof(ICloudfrontDistributionTenantCustomizationsWebAcl), fullyQualifiedName: "aws.cloudfrontDistributionTenant.CloudfrontDistributionTenantCustomizationsWebAcl")]
     public interface ICloudfrontDistributionTenantCustomizationsWebAcl
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution_tenant#action CloudfrontDistributionTenant#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution_tenant#action CloudfrontDistributionTenant#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Action
@@ -18,7 +18,7 @@ namespace aws.CloudfrontDistributionTenant
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution_tenant#arn CloudfrontDistributionTenant#arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution_tenant#arn CloudfrontDistributionTenant#arn}.</summary>
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Arn
@@ -36,7 +36,7 @@ namespace aws.CloudfrontDistributionTenant
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution_tenant#action CloudfrontDistributionTenant#action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution_tenant#action CloudfrontDistributionTenant#action}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Action
@@ -44,7 +44,7 @@ namespace aws.CloudfrontDistributionTenant
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution_tenant#arn CloudfrontDistributionTenant#arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution_tenant#arn CloudfrontDistributionTenant#arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Arn

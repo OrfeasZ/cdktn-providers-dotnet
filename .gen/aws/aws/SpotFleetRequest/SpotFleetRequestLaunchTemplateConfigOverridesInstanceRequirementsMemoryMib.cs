@@ -7,7 +7,7 @@ namespace aws.SpotFleetRequest
     [JsiiByValue(fqn: "aws.spotFleetRequest.SpotFleetRequestLaunchTemplateConfigOverridesInstanceRequirementsMemoryMib")]
     public class SpotFleetRequestLaunchTemplateConfigOverridesInstanceRequirementsMemoryMib : aws.SpotFleetRequest.ISpotFleetRequestLaunchTemplateConfigOverridesInstanceRequirementsMemoryMib
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_fleet_request#max SpotFleetRequest#max}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_fleet_request#max SpotFleetRequest#max}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Max
@@ -16,7 +16,7 @@ namespace aws.SpotFleetRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_fleet_request#min SpotFleetRequest#min}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_fleet_request#min SpotFleetRequest#min}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Min

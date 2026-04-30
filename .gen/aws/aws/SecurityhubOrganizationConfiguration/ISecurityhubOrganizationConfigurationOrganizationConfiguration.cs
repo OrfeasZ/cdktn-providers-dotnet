@@ -7,7 +7,7 @@ namespace aws.SecurityhubOrganizationConfiguration
     [JsiiInterface(nativeType: typeof(ISecurityhubOrganizationConfigurationOrganizationConfiguration), fullyQualifiedName: "aws.securityhubOrganizationConfiguration.SecurityhubOrganizationConfigurationOrganizationConfiguration")]
     public interface ISecurityhubOrganizationConfigurationOrganizationConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_organization_configuration#configuration_type SecurityhubOrganizationConfiguration#configuration_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_organization_configuration#configuration_type SecurityhubOrganizationConfiguration#configuration_type}.</summary>
         [JsiiProperty(name: "configurationType", typeJson: "{\"primitive\":\"string\"}")]
         string ConfigurationType
         {
@@ -21,7 +21,7 @@ namespace aws.SecurityhubOrganizationConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_organization_configuration#configuration_type SecurityhubOrganizationConfiguration#configuration_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_organization_configuration#configuration_type SecurityhubOrganizationConfiguration#configuration_type}.</summary>
             [JsiiProperty(name: "configurationType", typeJson: "{\"primitive\":\"string\"}")]
             public string ConfigurationType
             {

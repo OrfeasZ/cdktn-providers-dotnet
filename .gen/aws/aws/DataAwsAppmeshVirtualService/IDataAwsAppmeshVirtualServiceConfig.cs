@@ -7,21 +7,21 @@ namespace aws.DataAwsAppmeshVirtualService
     [JsiiInterface(nativeType: typeof(IDataAwsAppmeshVirtualServiceConfig), fullyQualifiedName: "aws.dataAwsAppmeshVirtualService.DataAwsAppmeshVirtualServiceConfig")]
     public interface IDataAwsAppmeshVirtualServiceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/appmesh_virtual_service#mesh_name DataAwsAppmeshVirtualService#mesh_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/appmesh_virtual_service#mesh_name DataAwsAppmeshVirtualService#mesh_name}.</summary>
         [JsiiProperty(name: "meshName", typeJson: "{\"primitive\":\"string\"}")]
         string MeshName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/appmesh_virtual_service#name DataAwsAppmeshVirtualService#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/appmesh_virtual_service#name DataAwsAppmeshVirtualService#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/appmesh_virtual_service#id DataAwsAppmeshVirtualService#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/appmesh_virtual_service#id DataAwsAppmeshVirtualService#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,7 +36,7 @@ namespace aws.DataAwsAppmeshVirtualService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/appmesh_virtual_service#mesh_owner DataAwsAppmeshVirtualService#mesh_owner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/appmesh_virtual_service#mesh_owner DataAwsAppmeshVirtualService#mesh_owner}.</summary>
         [JsiiProperty(name: "meshOwner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MeshOwner
@@ -49,7 +49,7 @@ namespace aws.DataAwsAppmeshVirtualService
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/appmesh_virtual_service#region DataAwsAppmeshVirtualService#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/appmesh_virtual_service#region DataAwsAppmeshVirtualService#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace aws.DataAwsAppmeshVirtualService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/appmesh_virtual_service#tags DataAwsAppmeshVirtualService#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/appmesh_virtual_service#tags DataAwsAppmeshVirtualService#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -79,21 +79,21 @@ namespace aws.DataAwsAppmeshVirtualService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/appmesh_virtual_service#mesh_name DataAwsAppmeshVirtualService#mesh_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/appmesh_virtual_service#mesh_name DataAwsAppmeshVirtualService#mesh_name}.</summary>
             [JsiiProperty(name: "meshName", typeJson: "{\"primitive\":\"string\"}")]
             public string MeshName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/appmesh_virtual_service#name DataAwsAppmeshVirtualService#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/appmesh_virtual_service#name DataAwsAppmeshVirtualService#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/appmesh_virtual_service#id DataAwsAppmeshVirtualService#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/appmesh_virtual_service#id DataAwsAppmeshVirtualService#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -105,7 +105,7 @@ namespace aws.DataAwsAppmeshVirtualService
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/appmesh_virtual_service#mesh_owner DataAwsAppmeshVirtualService#mesh_owner}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/appmesh_virtual_service#mesh_owner DataAwsAppmeshVirtualService#mesh_owner}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "meshOwner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MeshOwner
@@ -115,7 +115,7 @@ namespace aws.DataAwsAppmeshVirtualService
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/appmesh_virtual_service#region DataAwsAppmeshVirtualService#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/appmesh_virtual_service#region DataAwsAppmeshVirtualService#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -124,7 +124,7 @@ namespace aws.DataAwsAppmeshVirtualService
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/appmesh_virtual_service#tags DataAwsAppmeshVirtualService#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/appmesh_virtual_service#tags DataAwsAppmeshVirtualService#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags

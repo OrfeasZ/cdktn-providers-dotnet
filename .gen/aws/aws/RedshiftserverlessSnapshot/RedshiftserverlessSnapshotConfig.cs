@@ -9,7 +9,7 @@ namespace aws.RedshiftserverlessSnapshot
     [JsiiByValue(fqn: "aws.redshiftserverlessSnapshot.RedshiftserverlessSnapshotConfig")]
     public class RedshiftserverlessSnapshotConfig : aws.RedshiftserverlessSnapshot.IRedshiftserverlessSnapshotConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshiftserverless_snapshot#namespace_name RedshiftserverlessSnapshot#namespace_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/redshiftserverless_snapshot#namespace_name RedshiftserverlessSnapshot#namespace_name}.</summary>
         [JsiiProperty(name: "namespaceName", typeJson: "{\"primitive\":\"string\"}")]
         public string NamespaceName
         {
@@ -17,7 +17,7 @@ namespace aws.RedshiftserverlessSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshiftserverless_snapshot#snapshot_name RedshiftserverlessSnapshot#snapshot_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/redshiftserverless_snapshot#snapshot_name RedshiftserverlessSnapshot#snapshot_name}.</summary>
         [JsiiProperty(name: "snapshotName", typeJson: "{\"primitive\":\"string\"}")]
         public string SnapshotName
         {
@@ -25,7 +25,7 @@ namespace aws.RedshiftserverlessSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshiftserverless_snapshot#id RedshiftserverlessSnapshot#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/redshiftserverless_snapshot#id RedshiftserverlessSnapshot#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace aws.RedshiftserverlessSnapshot
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshiftserverless_snapshot#region RedshiftserverlessSnapshot#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/redshiftserverless_snapshot#region RedshiftserverlessSnapshot#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace aws.RedshiftserverlessSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshiftserverless_snapshot#retention_period RedshiftserverlessSnapshot#retention_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/redshiftserverless_snapshot#retention_period RedshiftserverlessSnapshot#retention_period}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retentionPeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RetentionPeriod

@@ -7,14 +7,14 @@ namespace aws.WafregionalSizeConstraintSet
     [JsiiInterface(nativeType: typeof(IWafregionalSizeConstraintSetSizeConstraintsFieldToMatch), fullyQualifiedName: "aws.wafregionalSizeConstraintSet.WafregionalSizeConstraintSetSizeConstraintsFieldToMatch")]
     public interface IWafregionalSizeConstraintSetSizeConstraintsFieldToMatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_size_constraint_set#type WafregionalSizeConstraintSet#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_size_constraint_set#type WafregionalSizeConstraintSet#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_size_constraint_set#data WafregionalSizeConstraintSet#data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_size_constraint_set#data WafregionalSizeConstraintSet#data}.</summary>
         [JsiiProperty(name: "data", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Data
@@ -32,14 +32,14 @@ namespace aws.WafregionalSizeConstraintSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_size_constraint_set#type WafregionalSizeConstraintSet#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_size_constraint_set#type WafregionalSizeConstraintSet#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_size_constraint_set#data WafregionalSizeConstraintSet#data}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_size_constraint_set#data WafregionalSizeConstraintSet#data}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "data", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Data

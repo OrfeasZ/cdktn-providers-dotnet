@@ -9,7 +9,7 @@ namespace aws.CloudwatchEventTarget
     [JsiiByValue(fqn: "aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetPlacementConstraint")]
     public class CloudwatchEventTargetEcsTargetPlacementConstraint : aws.CloudwatchEventTarget.ICloudwatchEventTargetEcsTargetPlacementConstraint
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#type CloudwatchEventTarget#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#type CloudwatchEventTarget#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.CloudwatchEventTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#expression CloudwatchEventTarget#expression}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#expression CloudwatchEventTarget#expression}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Expression

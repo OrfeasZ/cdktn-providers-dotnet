@@ -7,7 +7,7 @@ namespace aws.DataAwsServicecatalogPortfolio
     [JsiiInterface(nativeType: typeof(IDataAwsServicecatalogPortfolioTimeouts), fullyQualifiedName: "aws.dataAwsServicecatalogPortfolio.DataAwsServicecatalogPortfolioTimeouts")]
     public interface IDataAwsServicecatalogPortfolioTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/servicecatalog_portfolio#read DataAwsServicecatalogPortfolio#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/servicecatalog_portfolio#read DataAwsServicecatalogPortfolio#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace aws.DataAwsServicecatalogPortfolio
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/servicecatalog_portfolio#read DataAwsServicecatalogPortfolio#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/servicecatalog_portfolio#read DataAwsServicecatalogPortfolio#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

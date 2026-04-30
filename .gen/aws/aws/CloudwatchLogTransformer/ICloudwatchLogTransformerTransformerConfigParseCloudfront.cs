@@ -7,7 +7,7 @@ namespace aws.CloudwatchLogTransformer
     [JsiiInterface(nativeType: typeof(ICloudwatchLogTransformerTransformerConfigParseCloudfront), fullyQualifiedName: "aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseCloudfront")]
     public interface ICloudwatchLogTransformerTransformerConfigParseCloudfront
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}.</summary>
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Source
@@ -25,7 +25,7 @@ namespace aws.CloudwatchLogTransformer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Source

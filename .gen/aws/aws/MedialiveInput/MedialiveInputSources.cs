@@ -9,7 +9,7 @@ namespace aws.MedialiveInput
     [JsiiByValue(fqn: "aws.medialiveInput.MedialiveInputSources")]
     public class MedialiveInputSources : aws.MedialiveInput.IMedialiveInputSources
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_input#password_param MedialiveInput#password_param}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_input#password_param MedialiveInput#password_param}.</summary>
         [JsiiProperty(name: "passwordParam", typeJson: "{\"primitive\":\"string\"}")]
         public string PasswordParam
         {
@@ -17,7 +17,7 @@ namespace aws.MedialiveInput
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_input#url MedialiveInput#url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_input#url MedialiveInput#url}.</summary>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         public string Url
         {
@@ -25,7 +25,7 @@ namespace aws.MedialiveInput
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_input#username MedialiveInput#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_input#username MedialiveInput#username}.</summary>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         public string Username
         {

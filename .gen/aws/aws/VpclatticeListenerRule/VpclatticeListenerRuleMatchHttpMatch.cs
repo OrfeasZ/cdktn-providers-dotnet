@@ -11,7 +11,7 @@ namespace aws.VpclatticeListenerRule
 
         /// <summary>header_matches block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpclattice_listener_rule#header_matches VpclatticeListenerRule#header_matches}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpclattice_listener_rule#header_matches VpclatticeListenerRule#header_matches}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "headerMatches", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchHeaderMatches\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace aws.VpclatticeListenerRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpclattice_listener_rule#method VpclatticeListenerRule#method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpclattice_listener_rule#method VpclatticeListenerRule#method}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "method", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Method
@@ -52,7 +52,7 @@ namespace aws.VpclatticeListenerRule
 
         /// <summary>path_match block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpclattice_listener_rule#path_match VpclatticeListenerRule#path_match}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpclattice_listener_rule#path_match VpclatticeListenerRule#path_match}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pathMatch", typeJson: "{\"fqn\":\"aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchPathMatch\"}", isOptional: true)]

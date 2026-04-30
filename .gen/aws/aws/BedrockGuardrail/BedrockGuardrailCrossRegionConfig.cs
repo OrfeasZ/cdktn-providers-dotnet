@@ -9,7 +9,7 @@ namespace aws.BedrockGuardrail
     [JsiiByValue(fqn: "aws.bedrockGuardrail.BedrockGuardrailCrossRegionConfig")]
     public class BedrockGuardrailCrossRegionConfig : aws.BedrockGuardrail.IBedrockGuardrailCrossRegionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrock_guardrail#guardrail_profile_identifier BedrockGuardrail#guardrail_profile_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrock_guardrail#guardrail_profile_identifier BedrockGuardrail#guardrail_profile_identifier}.</summary>
         [JsiiProperty(name: "guardrailProfileIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string GuardrailProfileIdentifier
         {

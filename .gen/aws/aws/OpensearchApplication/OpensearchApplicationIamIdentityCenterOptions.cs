@@ -9,7 +9,7 @@ namespace aws.OpensearchApplication
     {
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_application#enabled OpensearchApplication#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_application#enabled OpensearchApplication#enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Enabled
@@ -38,7 +38,7 @@ namespace aws.OpensearchApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_application#iam_identity_center_instance_arn OpensearchApplication#iam_identity_center_instance_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_application#iam_identity_center_instance_arn OpensearchApplication#iam_identity_center_instance_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "iamIdentityCenterInstanceArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IamIdentityCenterInstanceArn
@@ -47,7 +47,7 @@ namespace aws.OpensearchApplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_application#iam_role_for_identity_center_application_arn OpensearchApplication#iam_role_for_identity_center_application_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_application#iam_role_for_identity_center_application_arn OpensearchApplication#iam_role_for_identity_center_application_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "iamRoleForIdentityCenterApplicationArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IamRoleForIdentityCenterApplicationArn

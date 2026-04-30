@@ -7,7 +7,7 @@ namespace aws.DataexchangeEventAction
     [JsiiByValue(fqn: "aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3Encryption")]
     public class DataexchangeEventActionActionExportRevisionToS3Encryption : aws.DataexchangeEventAction.IDataexchangeEventActionActionExportRevisionToS3Encryption
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dataexchange_event_action#kms_key_arn DataexchangeEventAction#kms_key_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dataexchange_event_action#kms_key_arn DataexchangeEventAction#kms_key_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyArn
@@ -16,7 +16,7 @@ namespace aws.DataexchangeEventAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dataexchange_event_action#type DataexchangeEventAction#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dataexchange_event_action#type DataexchangeEventAction#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

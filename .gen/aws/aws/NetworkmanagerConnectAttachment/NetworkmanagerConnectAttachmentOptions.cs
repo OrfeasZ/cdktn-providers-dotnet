@@ -7,7 +7,7 @@ namespace aws.NetworkmanagerConnectAttachment
     [JsiiByValue(fqn: "aws.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentOptions")]
     public class NetworkmanagerConnectAttachmentOptions : aws.NetworkmanagerConnectAttachment.INetworkmanagerConnectAttachmentOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_connect_attachment#protocol NetworkmanagerConnectAttachment#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_connect_attachment#protocol NetworkmanagerConnectAttachment#protocol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Protocol

@@ -7,7 +7,7 @@ namespace aws.AuditmanagerFramework
     [JsiiInterface(nativeType: typeof(IAuditmanagerFrameworkControlSets), fullyQualifiedName: "aws.auditmanagerFramework.AuditmanagerFrameworkControlSets")]
     public interface IAuditmanagerFrameworkControlSets
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_framework#name AuditmanagerFramework#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_framework#name AuditmanagerFramework#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -16,7 +16,7 @@ namespace aws.AuditmanagerFramework
 
         /// <summary>controls block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_framework#controls AuditmanagerFramework#controls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_framework#controls AuditmanagerFramework#controls}
         /// </remarks>
         [JsiiProperty(name: "controls", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerFramework.AuditmanagerFrameworkControlSetsControls\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace aws.AuditmanagerFramework
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_framework#name AuditmanagerFramework#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_framework#name AuditmanagerFramework#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
@@ -44,7 +44,7 @@ namespace aws.AuditmanagerFramework
 
             /// <summary>controls block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_framework#controls AuditmanagerFramework#controls}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_framework#controls AuditmanagerFramework#controls}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "controls", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerFramework.AuditmanagerFrameworkControlSetsControls\"},\"kind\":\"array\"}}]}}", isOptional: true)]

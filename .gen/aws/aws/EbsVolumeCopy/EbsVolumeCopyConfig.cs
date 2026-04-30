@@ -9,7 +9,7 @@ namespace aws.EbsVolumeCopy
     [JsiiByValue(fqn: "aws.ebsVolumeCopy.EbsVolumeCopyConfig")]
     public class EbsVolumeCopyConfig : aws.EbsVolumeCopy.IEbsVolumeCopyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_volume_copy#source_volume_id EbsVolumeCopy#source_volume_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_volume_copy#source_volume_id EbsVolumeCopy#source_volume_id}.</summary>
         [JsiiProperty(name: "sourceVolumeId", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceVolumeId
         {
@@ -17,7 +17,7 @@ namespace aws.EbsVolumeCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_volume_copy#iops EbsVolumeCopy#iops}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_volume_copy#iops EbsVolumeCopy#iops}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "iops", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Iops
@@ -28,7 +28,7 @@ namespace aws.EbsVolumeCopy
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_volume_copy#region EbsVolumeCopy#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_volume_copy#region EbsVolumeCopy#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace aws.EbsVolumeCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_volume_copy#size EbsVolumeCopy#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_volume_copy#size EbsVolumeCopy#size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Size
@@ -47,7 +47,7 @@ namespace aws.EbsVolumeCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_volume_copy#tags EbsVolumeCopy#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_volume_copy#tags EbsVolumeCopy#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -56,7 +56,7 @@ namespace aws.EbsVolumeCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_volume_copy#throughput EbsVolumeCopy#throughput}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_volume_copy#throughput EbsVolumeCopy#throughput}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "throughput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Throughput
@@ -67,7 +67,7 @@ namespace aws.EbsVolumeCopy
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_volume_copy#timeouts EbsVolumeCopy#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_volume_copy#timeouts EbsVolumeCopy#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.ebsVolumeCopy.EbsVolumeCopyTimeouts\"}", isOptional: true)]
@@ -77,7 +77,7 @@ namespace aws.EbsVolumeCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_volume_copy#volume_type EbsVolumeCopy#volume_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_volume_copy#volume_type EbsVolumeCopy#volume_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "volumeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VolumeType

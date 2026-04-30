@@ -7,7 +7,7 @@ namespace aws.DataAwsS3ControlAccessPoints
     [JsiiByValue(fqn: "aws.dataAwsS3ControlAccessPoints.DataAwsS3ControlAccessPointsConfig")]
     public class DataAwsS3ControlAccessPointsConfig : aws.DataAwsS3ControlAccessPoints.IDataAwsS3ControlAccessPointsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3control_access_points#account_id DataAwsS3ControlAccessPoints#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3control_access_points#account_id DataAwsS3ControlAccessPoints#account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountId
@@ -16,7 +16,7 @@ namespace aws.DataAwsS3ControlAccessPoints
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3control_access_points#bucket DataAwsS3ControlAccessPoints#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3control_access_points#bucket DataAwsS3ControlAccessPoints#bucket}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Bucket
@@ -25,7 +25,7 @@ namespace aws.DataAwsS3ControlAccessPoints
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3control_access_points#data_source_id DataAwsS3ControlAccessPoints#data_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3control_access_points#data_source_id DataAwsS3ControlAccessPoints#data_source_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dataSourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DataSourceId
@@ -34,7 +34,7 @@ namespace aws.DataAwsS3ControlAccessPoints
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3control_access_points#data_source_type DataAwsS3ControlAccessPoints#data_source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3control_access_points#data_source_type DataAwsS3ControlAccessPoints#data_source_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dataSourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DataSourceType
@@ -45,7 +45,7 @@ namespace aws.DataAwsS3ControlAccessPoints
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3control_access_points#region DataAwsS3ControlAccessPoints#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3control_access_points#region DataAwsS3ControlAccessPoints#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

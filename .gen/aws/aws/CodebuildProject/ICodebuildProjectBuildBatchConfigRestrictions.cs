@@ -7,7 +7,7 @@ namespace aws.CodebuildProject
     [JsiiInterface(nativeType: typeof(ICodebuildProjectBuildBatchConfigRestrictions), fullyQualifiedName: "aws.codebuildProject.CodebuildProjectBuildBatchConfigRestrictions")]
     public interface ICodebuildProjectBuildBatchConfigRestrictions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#compute_types_allowed CodebuildProject#compute_types_allowed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_project#compute_types_allowed CodebuildProject#compute_types_allowed}.</summary>
         [JsiiProperty(name: "computeTypesAllowed", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ComputeTypesAllowed
@@ -18,7 +18,7 @@ namespace aws.CodebuildProject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#maximum_builds_allowed CodebuildProject#maximum_builds_allowed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_project#maximum_builds_allowed CodebuildProject#maximum_builds_allowed}.</summary>
         [JsiiProperty(name: "maximumBuildsAllowed", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaximumBuildsAllowed
@@ -36,7 +36,7 @@ namespace aws.CodebuildProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#compute_types_allowed CodebuildProject#compute_types_allowed}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_project#compute_types_allowed CodebuildProject#compute_types_allowed}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "computeTypesAllowed", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ComputeTypesAllowed
@@ -44,7 +44,7 @@ namespace aws.CodebuildProject
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#maximum_builds_allowed CodebuildProject#maximum_builds_allowed}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_project#maximum_builds_allowed CodebuildProject#maximum_builds_allowed}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maximumBuildsAllowed", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaximumBuildsAllowed

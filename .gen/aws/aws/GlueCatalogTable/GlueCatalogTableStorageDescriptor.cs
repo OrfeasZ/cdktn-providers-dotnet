@@ -7,7 +7,7 @@ namespace aws.GlueCatalogTable
     [JsiiByValue(fqn: "aws.glueCatalogTable.GlueCatalogTableStorageDescriptor")]
     public class GlueCatalogTableStorageDescriptor : aws.GlueCatalogTable.IGlueCatalogTableStorageDescriptor
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#additional_locations GlueCatalogTable#additional_locations}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#additional_locations GlueCatalogTable#additional_locations}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "additionalLocations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AdditionalLocations
@@ -16,7 +16,7 @@ namespace aws.GlueCatalogTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#bucket_columns GlueCatalogTable#bucket_columns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#bucket_columns GlueCatalogTable#bucket_columns}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bucketColumns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? BucketColumns
@@ -29,7 +29,7 @@ namespace aws.GlueCatalogTable
 
         /// <summary>columns block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#columns GlueCatalogTable#columns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#columns GlueCatalogTable#columns}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "columns", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTableStorageDescriptorColumns\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace aws.GlueCatalogTable
 
         private object? _compressed;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#compressed GlueCatalogTable#compressed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#compressed GlueCatalogTable#compressed}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compressed", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Compressed
@@ -90,7 +90,7 @@ namespace aws.GlueCatalogTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#input_format GlueCatalogTable#input_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#input_format GlueCatalogTable#input_format}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "inputFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InputFormat
@@ -99,7 +99,7 @@ namespace aws.GlueCatalogTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#location GlueCatalogTable#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#location GlueCatalogTable#location}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Location
@@ -108,7 +108,7 @@ namespace aws.GlueCatalogTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#number_of_buckets GlueCatalogTable#number_of_buckets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#number_of_buckets GlueCatalogTable#number_of_buckets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "numberOfBuckets", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? NumberOfBuckets
@@ -117,7 +117,7 @@ namespace aws.GlueCatalogTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#output_format GlueCatalogTable#output_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#output_format GlueCatalogTable#output_format}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "outputFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OutputFormat
@@ -126,7 +126,7 @@ namespace aws.GlueCatalogTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#parameters GlueCatalogTable#parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#parameters GlueCatalogTable#parameters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Parameters
@@ -137,7 +137,7 @@ namespace aws.GlueCatalogTable
 
         /// <summary>schema_reference block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#schema_reference GlueCatalogTable#schema_reference}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#schema_reference GlueCatalogTable#schema_reference}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "schemaReference", typeJson: "{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSchemaReference\"}", isOptional: true)]
@@ -149,7 +149,7 @@ namespace aws.GlueCatalogTable
 
         /// <summary>ser_de_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#ser_de_info GlueCatalogTable#ser_de_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#ser_de_info GlueCatalogTable#ser_de_info}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serDeInfo", typeJson: "{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSerDeInfo\"}", isOptional: true)]
@@ -161,7 +161,7 @@ namespace aws.GlueCatalogTable
 
         /// <summary>skewed_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#skewed_info GlueCatalogTable#skewed_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#skewed_info GlueCatalogTable#skewed_info}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "skewedInfo", typeJson: "{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSkewedInfo\"}", isOptional: true)]
@@ -175,7 +175,7 @@ namespace aws.GlueCatalogTable
 
         /// <summary>sort_columns block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#sort_columns GlueCatalogTable#sort_columns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#sort_columns GlueCatalogTable#sort_columns}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sortColumns", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSortColumns\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -207,7 +207,7 @@ namespace aws.GlueCatalogTable
 
         private object? _storedAsSubDirectories;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#stored_as_sub_directories GlueCatalogTable#stored_as_sub_directories}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#stored_as_sub_directories GlueCatalogTable#stored_as_sub_directories}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storedAsSubDirectories", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? StoredAsSubDirectories

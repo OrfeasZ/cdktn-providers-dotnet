@@ -9,7 +9,7 @@ namespace aws.AppsyncFunction
     [JsiiByValue(fqn: "aws.appsyncFunction.AppsyncFunctionRuntime")]
     public class AppsyncFunctionRuntime : aws.AppsyncFunction.IAppsyncFunctionRuntime
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_function#name AppsyncFunction#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_function#name AppsyncFunction#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.AppsyncFunction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_function#runtime_version AppsyncFunction#runtime_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_function#runtime_version AppsyncFunction#runtime_version}.</summary>
         [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string RuntimeVersion
         {

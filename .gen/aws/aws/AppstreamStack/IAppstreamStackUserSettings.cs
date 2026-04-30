@@ -7,14 +7,14 @@ namespace aws.AppstreamStack
     [JsiiInterface(nativeType: typeof(IAppstreamStackUserSettings), fullyQualifiedName: "aws.appstreamStack.AppstreamStackUserSettings")]
     public interface IAppstreamStackUserSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_stack#action AppstreamStack#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_stack#action AppstreamStack#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         string Action
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_stack#permission AppstreamStack#permission}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_stack#permission AppstreamStack#permission}.</summary>
         [JsiiProperty(name: "permission", typeJson: "{\"primitive\":\"string\"}")]
         string Permission
         {
@@ -28,14 +28,14 @@ namespace aws.AppstreamStack
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_stack#action AppstreamStack#action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_stack#action AppstreamStack#action}.</summary>
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
             public string Action
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_stack#permission AppstreamStack#permission}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_stack#permission AppstreamStack#permission}.</summary>
             [JsiiProperty(name: "permission", typeJson: "{\"primitive\":\"string\"}")]
             public string Permission
             {

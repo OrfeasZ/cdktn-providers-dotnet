@@ -7,14 +7,14 @@ namespace aws.EbsSnapshotImport
     [JsiiInterface(nativeType: typeof(IEbsSnapshotImportDiskContainer), fullyQualifiedName: "aws.ebsSnapshotImport.EbsSnapshotImportDiskContainer")]
     public interface IEbsSnapshotImportDiskContainer
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_snapshot_import#format EbsSnapshotImport#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_snapshot_import#format EbsSnapshotImport#format}.</summary>
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}")]
         string Format
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_snapshot_import#description EbsSnapshotImport#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_snapshot_import#description EbsSnapshotImport#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -25,7 +25,7 @@ namespace aws.EbsSnapshotImport
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_snapshot_import#url EbsSnapshotImport#url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_snapshot_import#url EbsSnapshotImport#url}.</summary>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Url
@@ -38,7 +38,7 @@ namespace aws.EbsSnapshotImport
 
         /// <summary>user_bucket block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_snapshot_import#user_bucket EbsSnapshotImport#user_bucket}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_snapshot_import#user_bucket EbsSnapshotImport#user_bucket}
         /// </remarks>
         [JsiiProperty(name: "userBucket", typeJson: "{\"fqn\":\"aws.ebsSnapshotImport.EbsSnapshotImportDiskContainerUserBucket\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,14 +57,14 @@ namespace aws.EbsSnapshotImport
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_snapshot_import#format EbsSnapshotImport#format}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_snapshot_import#format EbsSnapshotImport#format}.</summary>
             [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}")]
             public string Format
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_snapshot_import#description EbsSnapshotImport#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_snapshot_import#description EbsSnapshotImport#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -72,7 +72,7 @@ namespace aws.EbsSnapshotImport
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_snapshot_import#url EbsSnapshotImport#url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_snapshot_import#url EbsSnapshotImport#url}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Url
@@ -82,7 +82,7 @@ namespace aws.EbsSnapshotImport
 
             /// <summary>user_bucket block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_snapshot_import#user_bucket EbsSnapshotImport#user_bucket}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_snapshot_import#user_bucket EbsSnapshotImport#user_bucket}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "userBucket", typeJson: "{\"fqn\":\"aws.ebsSnapshotImport.EbsSnapshotImportDiskContainerUserBucket\"}", isOptional: true)]

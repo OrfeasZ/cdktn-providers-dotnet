@@ -7,7 +7,7 @@ namespace aws.SagemakerTrainingJob
     [JsiiInterface(nativeType: typeof(ISagemakerTrainingJobResourceConfigInstancePlacementConfigPlacementSpecifications), fullyQualifiedName: "aws.sagemakerTrainingJob.SagemakerTrainingJobResourceConfigInstancePlacementConfigPlacementSpecifications")]
     public interface ISagemakerTrainingJobResourceConfigInstancePlacementConfigPlacementSpecifications
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#instance_count SagemakerTrainingJob#instance_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#instance_count SagemakerTrainingJob#instance_count}.</summary>
         [JsiiProperty(name: "instanceCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InstanceCount
@@ -18,7 +18,7 @@ namespace aws.SagemakerTrainingJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#ultra_server_id SagemakerTrainingJob#ultra_server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#ultra_server_id SagemakerTrainingJob#ultra_server_id}.</summary>
         [JsiiProperty(name: "ultraServerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UltraServerId
@@ -36,7 +36,7 @@ namespace aws.SagemakerTrainingJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#instance_count SagemakerTrainingJob#instance_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#instance_count SagemakerTrainingJob#instance_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instanceCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InstanceCount
@@ -44,7 +44,7 @@ namespace aws.SagemakerTrainingJob
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#ultra_server_id SagemakerTrainingJob#ultra_server_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#ultra_server_id SagemakerTrainingJob#ultra_server_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ultraServerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UltraServerId

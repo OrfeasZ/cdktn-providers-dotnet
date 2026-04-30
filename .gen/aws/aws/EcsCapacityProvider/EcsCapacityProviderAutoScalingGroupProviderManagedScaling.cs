@@ -7,7 +7,7 @@ namespace aws.EcsCapacityProvider
     [JsiiByValue(fqn: "aws.ecsCapacityProvider.EcsCapacityProviderAutoScalingGroupProviderManagedScaling")]
     public class EcsCapacityProviderAutoScalingGroupProviderManagedScaling : aws.EcsCapacityProvider.IEcsCapacityProviderAutoScalingGroupProviderManagedScaling
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_capacity_provider#instance_warmup_period EcsCapacityProvider#instance_warmup_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_capacity_provider#instance_warmup_period EcsCapacityProvider#instance_warmup_period}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "instanceWarmupPeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? InstanceWarmupPeriod
@@ -16,7 +16,7 @@ namespace aws.EcsCapacityProvider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_capacity_provider#maximum_scaling_step_size EcsCapacityProvider#maximum_scaling_step_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_capacity_provider#maximum_scaling_step_size EcsCapacityProvider#maximum_scaling_step_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maximumScalingStepSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaximumScalingStepSize
@@ -25,7 +25,7 @@ namespace aws.EcsCapacityProvider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_capacity_provider#minimum_scaling_step_size EcsCapacityProvider#minimum_scaling_step_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_capacity_provider#minimum_scaling_step_size EcsCapacityProvider#minimum_scaling_step_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minimumScalingStepSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinimumScalingStepSize
@@ -34,7 +34,7 @@ namespace aws.EcsCapacityProvider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_capacity_provider#status EcsCapacityProvider#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_capacity_provider#status EcsCapacityProvider#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status
@@ -43,7 +43,7 @@ namespace aws.EcsCapacityProvider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_capacity_provider#target_capacity EcsCapacityProvider#target_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_capacity_provider#target_capacity EcsCapacityProvider#target_capacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetCapacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TargetCapacity

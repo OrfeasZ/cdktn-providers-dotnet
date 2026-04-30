@@ -9,7 +9,7 @@ namespace aws.DataAwsEbsVolumes
     [JsiiByValue(fqn: "aws.dataAwsEbsVolumes.DataAwsEbsVolumesFilter")]
     public class DataAwsEbsVolumesFilter : aws.DataAwsEbsVolumes.IDataAwsEbsVolumesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ebs_volumes#name DataAwsEbsVolumes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ebs_volumes#name DataAwsEbsVolumes#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsEbsVolumes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ebs_volumes#values DataAwsEbsVolumes#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ebs_volumes#values DataAwsEbsVolumes#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

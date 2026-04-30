@@ -9,7 +9,7 @@ namespace aws.Lexv2ModelsIntent
     [JsiiByValue(fqn: "aws.lexv2ModelsIntent.Lexv2ModelsIntentSampleUtterance")]
     public class Lexv2ModelsIntentSampleUtterance : aws.Lexv2ModelsIntent.ILexv2ModelsIntentSampleUtterance
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#utterance Lexv2ModelsIntent#utterance}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#utterance Lexv2ModelsIntent#utterance}.</summary>
         [JsiiProperty(name: "utterance", typeJson: "{\"primitive\":\"string\"}")]
         public string Utterance
         {

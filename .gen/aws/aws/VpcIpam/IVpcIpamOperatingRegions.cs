@@ -7,7 +7,7 @@ namespace aws.VpcIpam
     [JsiiInterface(nativeType: typeof(IVpcIpamOperatingRegions), fullyQualifiedName: "aws.vpcIpam.VpcIpamOperatingRegions")]
     public interface IVpcIpamOperatingRegions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_ipam#region_name VpcIpam#region_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_ipam#region_name VpcIpam#region_name}.</summary>
         [JsiiProperty(name: "regionName", typeJson: "{\"primitive\":\"string\"}")]
         string RegionName
         {
@@ -21,7 +21,7 @@ namespace aws.VpcIpam
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_ipam#region_name VpcIpam#region_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_ipam#region_name VpcIpam#region_name}.</summary>
             [JsiiProperty(name: "regionName", typeJson: "{\"primitive\":\"string\"}")]
             public string RegionName
             {

@@ -11,7 +11,7 @@ namespace aws.DatasyncLocationEfs
     {
         /// <summary>ec2_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_efs#ec2_config DatasyncLocationEfs#ec2_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_location_efs#ec2_config DatasyncLocationEfs#ec2_config}
         /// </remarks>
         [JsiiProperty(name: "ec2Config", typeJson: "{\"fqn\":\"aws.datasyncLocationEfs.DatasyncLocationEfsEc2Config\"}")]
         public aws.DatasyncLocationEfs.IDatasyncLocationEfsEc2Config Ec2Config
@@ -20,7 +20,7 @@ namespace aws.DatasyncLocationEfs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_efs#efs_file_system_arn DatasyncLocationEfs#efs_file_system_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_location_efs#efs_file_system_arn DatasyncLocationEfs#efs_file_system_arn}.</summary>
         [JsiiProperty(name: "efsFileSystemArn", typeJson: "{\"primitive\":\"string\"}")]
         public string EfsFileSystemArn
         {
@@ -28,7 +28,7 @@ namespace aws.DatasyncLocationEfs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_efs#access_point_arn DatasyncLocationEfs#access_point_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_location_efs#access_point_arn DatasyncLocationEfs#access_point_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessPointArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessPointArn
@@ -37,7 +37,7 @@ namespace aws.DatasyncLocationEfs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_efs#file_system_access_role_arn DatasyncLocationEfs#file_system_access_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_location_efs#file_system_access_role_arn DatasyncLocationEfs#file_system_access_role_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fileSystemAccessRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FileSystemAccessRoleArn
@@ -46,7 +46,7 @@ namespace aws.DatasyncLocationEfs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_efs#id DatasyncLocationEfs#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_location_efs#id DatasyncLocationEfs#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace aws.DatasyncLocationEfs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_efs#in_transit_encryption DatasyncLocationEfs#in_transit_encryption}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_location_efs#in_transit_encryption DatasyncLocationEfs#in_transit_encryption}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "inTransitEncryption", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InTransitEncryption
@@ -70,7 +70,7 @@ namespace aws.DatasyncLocationEfs
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_efs#region DatasyncLocationEfs#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_location_efs#region DatasyncLocationEfs#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace aws.DatasyncLocationEfs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_efs#subdirectory DatasyncLocationEfs#subdirectory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_location_efs#subdirectory DatasyncLocationEfs#subdirectory}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subdirectory", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Subdirectory
@@ -89,7 +89,7 @@ namespace aws.DatasyncLocationEfs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_efs#tags DatasyncLocationEfs#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_location_efs#tags DatasyncLocationEfs#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -98,7 +98,7 @@ namespace aws.DatasyncLocationEfs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_efs#tags_all DatasyncLocationEfs#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_location_efs#tags_all DatasyncLocationEfs#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll

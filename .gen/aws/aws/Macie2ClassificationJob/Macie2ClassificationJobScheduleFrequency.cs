@@ -9,7 +9,7 @@ namespace aws.Macie2ClassificationJob
     {
         private object? _dailySchedule;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/macie2_classification_job#daily_schedule Macie2ClassificationJob#daily_schedule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/macie2_classification_job#daily_schedule Macie2ClassificationJob#daily_schedule}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dailySchedule", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? DailySchedule
@@ -38,7 +38,7 @@ namespace aws.Macie2ClassificationJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/macie2_classification_job#monthly_schedule Macie2ClassificationJob#monthly_schedule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/macie2_classification_job#monthly_schedule Macie2ClassificationJob#monthly_schedule}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "monthlySchedule", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MonthlySchedule
@@ -47,7 +47,7 @@ namespace aws.Macie2ClassificationJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/macie2_classification_job#weekly_schedule Macie2ClassificationJob#weekly_schedule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/macie2_classification_job#weekly_schedule Macie2ClassificationJob#weekly_schedule}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "weeklySchedule", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WeeklySchedule

@@ -7,7 +7,7 @@ namespace aws.EcsTaskDefinition
     [JsiiByValue(fqn: "aws.ecsTaskDefinition.EcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfig")]
     public class EcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfig : aws.EcsTaskDefinition.IEcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_definition#access_point_id EcsTaskDefinition#access_point_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_task_definition#access_point_id EcsTaskDefinition#access_point_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessPointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessPointId
@@ -16,7 +16,7 @@ namespace aws.EcsTaskDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_definition#iam EcsTaskDefinition#iam}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_task_definition#iam EcsTaskDefinition#iam}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "iam", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Iam

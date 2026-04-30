@@ -7,7 +7,7 @@ namespace aws.MedialiveChannel
     [JsiiByValue(fqn: "aws.medialiveChannel.MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettingsDvbSubDestinationSettings")]
     public class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettingsDvbSubDestinationSettings : aws.MedialiveChannel.IMedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettingsDvbSubDestinationSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#alignment MedialiveChannel#alignment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#alignment MedialiveChannel#alignment}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "alignment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Alignment
@@ -16,7 +16,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#background_color MedialiveChannel#background_color}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#background_color MedialiveChannel#background_color}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backgroundColor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BackgroundColor
@@ -25,7 +25,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#background_opacity MedialiveChannel#background_opacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#background_opacity MedialiveChannel#background_opacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backgroundOpacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BackgroundOpacity
@@ -36,7 +36,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>font block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#font MedialiveChannel#font}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#font MedialiveChannel#font}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "font", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettingsDvbSubDestinationSettingsFont\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#font_color MedialiveChannel#font_color}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#font_color MedialiveChannel#font_color}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fontColor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FontColor
@@ -55,7 +55,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#font_opacity MedialiveChannel#font_opacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#font_opacity MedialiveChannel#font_opacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fontOpacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FontOpacity
@@ -64,7 +64,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#font_resolution MedialiveChannel#font_resolution}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#font_resolution MedialiveChannel#font_resolution}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fontResolution", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FontResolution
@@ -73,7 +73,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#font_size MedialiveChannel#font_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#font_size MedialiveChannel#font_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fontSize", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FontSize
@@ -82,7 +82,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#outline_color MedialiveChannel#outline_color}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#outline_color MedialiveChannel#outline_color}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "outlineColor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OutlineColor
@@ -91,7 +91,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#outline_size MedialiveChannel#outline_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#outline_size MedialiveChannel#outline_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "outlineSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? OutlineSize
@@ -100,7 +100,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#shadow_color MedialiveChannel#shadow_color}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#shadow_color MedialiveChannel#shadow_color}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shadowColor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ShadowColor
@@ -109,7 +109,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#shadow_opacity MedialiveChannel#shadow_opacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#shadow_opacity MedialiveChannel#shadow_opacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shadowOpacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ShadowOpacity
@@ -118,7 +118,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#shadow_x_offset MedialiveChannel#shadow_x_offset}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#shadow_x_offset MedialiveChannel#shadow_x_offset}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shadowXOffset", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ShadowXOffset
@@ -127,7 +127,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#shadow_y_offset MedialiveChannel#shadow_y_offset}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#shadow_y_offset MedialiveChannel#shadow_y_offset}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shadowYOffset", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ShadowYOffset
@@ -136,7 +136,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#teletext_grid_control MedialiveChannel#teletext_grid_control}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#teletext_grid_control MedialiveChannel#teletext_grid_control}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "teletextGridControl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TeletextGridControl
@@ -145,7 +145,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#x_position MedialiveChannel#x_position}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#x_position MedialiveChannel#x_position}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xPosition", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? XPosition
@@ -154,7 +154,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#y_position MedialiveChannel#y_position}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#y_position MedialiveChannel#y_position}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "yPosition", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? YPosition

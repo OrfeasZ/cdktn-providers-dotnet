@@ -11,7 +11,7 @@ namespace aws.CustomerprofilesDomain
     {
         private object _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#enabled CustomerprofilesDomain#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#enabled CustomerprofilesDomain#enabled}.</summary>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object Enabled
         {
@@ -41,7 +41,7 @@ namespace aws.CustomerprofilesDomain
 
         /// <summary>conflict_resolution block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#conflict_resolution CustomerprofilesDomain#conflict_resolution}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#conflict_resolution CustomerprofilesDomain#conflict_resolution}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "conflictResolution", typeJson: "{\"fqn\":\"aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMergingConflictResolution\"}", isOptional: true)]
@@ -53,7 +53,7 @@ namespace aws.CustomerprofilesDomain
 
         /// <summary>consolidation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#consolidation CustomerprofilesDomain#consolidation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#consolidation CustomerprofilesDomain#consolidation}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "consolidation", typeJson: "{\"fqn\":\"aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMergingConsolidation\"}", isOptional: true)]
@@ -63,7 +63,7 @@ namespace aws.CustomerprofilesDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_domain#min_allowed_confidence_score_for_merging CustomerprofilesDomain#min_allowed_confidence_score_for_merging}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_domain#min_allowed_confidence_score_for_merging CustomerprofilesDomain#min_allowed_confidence_score_for_merging}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minAllowedConfidenceScoreForMerging", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinAllowedConfidenceScoreForMerging

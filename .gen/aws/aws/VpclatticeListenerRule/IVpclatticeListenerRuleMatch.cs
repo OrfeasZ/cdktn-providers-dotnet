@@ -9,7 +9,7 @@ namespace aws.VpclatticeListenerRule
     {
         /// <summary>http_match block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpclattice_listener_rule#http_match VpclatticeListenerRule#http_match}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpclattice_listener_rule#http_match VpclatticeListenerRule#http_match}
         /// </remarks>
         [JsiiProperty(name: "httpMatch", typeJson: "{\"fqn\":\"aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatch\"}")]
         aws.VpclatticeListenerRule.IVpclatticeListenerRuleMatchHttpMatch HttpMatch
@@ -26,7 +26,7 @@ namespace aws.VpclatticeListenerRule
 
             /// <summary>http_match block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpclattice_listener_rule#http_match VpclatticeListenerRule#http_match}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpclattice_listener_rule#http_match VpclatticeListenerRule#http_match}
             /// </remarks>
             [JsiiProperty(name: "httpMatch", typeJson: "{\"fqn\":\"aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatch\"}")]
             public aws.VpclatticeListenerRule.IVpclatticeListenerRuleMatchHttpMatch HttpMatch

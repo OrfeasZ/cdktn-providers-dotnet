@@ -7,7 +7,7 @@ namespace aws.AppmeshVirtualNode
     [JsiiInterface(nativeType: typeof(IAppmeshVirtualNodeSpecListenerConnectionPoolGrpc), fullyQualifiedName: "aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerConnectionPoolGrpc")]
     public interface IAppmeshVirtualNodeSpecListenerConnectionPoolGrpc
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_node#max_requests AppmeshVirtualNode#max_requests}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_node#max_requests AppmeshVirtualNode#max_requests}.</summary>
         [JsiiProperty(name: "maxRequests", typeJson: "{\"primitive\":\"number\"}")]
         double MaxRequests
         {
@@ -21,7 +21,7 @@ namespace aws.AppmeshVirtualNode
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_node#max_requests AppmeshVirtualNode#max_requests}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_node#max_requests AppmeshVirtualNode#max_requests}.</summary>
             [JsiiProperty(name: "maxRequests", typeJson: "{\"primitive\":\"number\"}")]
             public double MaxRequests
             {

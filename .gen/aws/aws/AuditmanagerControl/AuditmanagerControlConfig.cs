@@ -9,7 +9,7 @@ namespace aws.AuditmanagerControl
     [JsiiByValue(fqn: "aws.auditmanagerControl.AuditmanagerControlConfig")]
     public class AuditmanagerControlConfig : aws.AuditmanagerControl.IAuditmanagerControlConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_control#name AuditmanagerControl#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_control#name AuditmanagerControl#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.AuditmanagerControl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_control#action_plan_instructions AuditmanagerControl#action_plan_instructions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_control#action_plan_instructions AuditmanagerControl#action_plan_instructions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "actionPlanInstructions", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ActionPlanInstructions
@@ -26,7 +26,7 @@ namespace aws.AuditmanagerControl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_control#action_plan_title AuditmanagerControl#action_plan_title}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_control#action_plan_title AuditmanagerControl#action_plan_title}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "actionPlanTitle", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ActionPlanTitle
@@ -39,7 +39,7 @@ namespace aws.AuditmanagerControl
 
         /// <summary>control_mapping_sources block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_control#control_mapping_sources AuditmanagerControl#control_mapping_sources}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_control#control_mapping_sources AuditmanagerControl#control_mapping_sources}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "controlMappingSources", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerControl.AuditmanagerControlControlMappingSources\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.AuditmanagerControl
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_control#description AuditmanagerControl#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_control#description AuditmanagerControl#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -80,7 +80,7 @@ namespace aws.AuditmanagerControl
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_control#region AuditmanagerControl#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_control#region AuditmanagerControl#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -90,7 +90,7 @@ namespace aws.AuditmanagerControl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_control#tags AuditmanagerControl#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_control#tags AuditmanagerControl#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -99,7 +99,7 @@ namespace aws.AuditmanagerControl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_control#testing_information AuditmanagerControl#testing_information}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_control#testing_information AuditmanagerControl#testing_information}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "testingInformation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TestingInformation

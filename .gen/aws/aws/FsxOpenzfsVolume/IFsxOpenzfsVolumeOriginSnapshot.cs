@@ -7,14 +7,14 @@ namespace aws.FsxOpenzfsVolume
     [JsiiInterface(nativeType: typeof(IFsxOpenzfsVolumeOriginSnapshot), fullyQualifiedName: "aws.fsxOpenzfsVolume.FsxOpenzfsVolumeOriginSnapshot")]
     public interface IFsxOpenzfsVolumeOriginSnapshot
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_volume#copy_strategy FsxOpenzfsVolume#copy_strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_openzfs_volume#copy_strategy FsxOpenzfsVolume#copy_strategy}.</summary>
         [JsiiProperty(name: "copyStrategy", typeJson: "{\"primitive\":\"string\"}")]
         string CopyStrategy
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_volume#snapshot_arn FsxOpenzfsVolume#snapshot_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_openzfs_volume#snapshot_arn FsxOpenzfsVolume#snapshot_arn}.</summary>
         [JsiiProperty(name: "snapshotArn", typeJson: "{\"primitive\":\"string\"}")]
         string SnapshotArn
         {
@@ -28,14 +28,14 @@ namespace aws.FsxOpenzfsVolume
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_volume#copy_strategy FsxOpenzfsVolume#copy_strategy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_openzfs_volume#copy_strategy FsxOpenzfsVolume#copy_strategy}.</summary>
             [JsiiProperty(name: "copyStrategy", typeJson: "{\"primitive\":\"string\"}")]
             public string CopyStrategy
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_volume#snapshot_arn FsxOpenzfsVolume#snapshot_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_openzfs_volume#snapshot_arn FsxOpenzfsVolume#snapshot_arn}.</summary>
             [JsiiProperty(name: "snapshotArn", typeJson: "{\"primitive\":\"string\"}")]
             public string SnapshotArn
             {

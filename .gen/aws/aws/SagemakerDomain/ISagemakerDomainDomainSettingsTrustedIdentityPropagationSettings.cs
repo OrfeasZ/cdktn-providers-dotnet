@@ -7,7 +7,7 @@ namespace aws.SagemakerDomain
     [JsiiInterface(nativeType: typeof(ISagemakerDomainDomainSettingsTrustedIdentityPropagationSettings), fullyQualifiedName: "aws.sagemakerDomain.SagemakerDomainDomainSettingsTrustedIdentityPropagationSettings")]
     public interface ISagemakerDomainDomainSettingsTrustedIdentityPropagationSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#status SagemakerDomain#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#status SagemakerDomain#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         string Status
         {
@@ -21,7 +21,7 @@ namespace aws.SagemakerDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#status SagemakerDomain#status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#status SagemakerDomain#status}.</summary>
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
             public string Status
             {

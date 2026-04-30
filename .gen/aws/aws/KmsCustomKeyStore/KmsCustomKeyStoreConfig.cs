@@ -9,7 +9,7 @@ namespace aws.KmsCustomKeyStore
     [JsiiByValue(fqn: "aws.kmsCustomKeyStore.KmsCustomKeyStoreConfig")]
     public class KmsCustomKeyStoreConfig : aws.KmsCustomKeyStore.IKmsCustomKeyStoreConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kms_custom_key_store#custom_key_store_name KmsCustomKeyStore#custom_key_store_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kms_custom_key_store#custom_key_store_name KmsCustomKeyStore#custom_key_store_name}.</summary>
         [JsiiProperty(name: "customKeyStoreName", typeJson: "{\"primitive\":\"string\"}")]
         public string CustomKeyStoreName
         {
@@ -17,7 +17,7 @@ namespace aws.KmsCustomKeyStore
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kms_custom_key_store#cloud_hsm_cluster_id KmsCustomKeyStore#cloud_hsm_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kms_custom_key_store#cloud_hsm_cluster_id KmsCustomKeyStore#cloud_hsm_cluster_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cloudHsmClusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CloudHsmClusterId
@@ -26,7 +26,7 @@ namespace aws.KmsCustomKeyStore
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kms_custom_key_store#custom_key_store_type KmsCustomKeyStore#custom_key_store_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kms_custom_key_store#custom_key_store_type KmsCustomKeyStore#custom_key_store_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customKeyStoreType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomKeyStoreType
@@ -35,7 +35,7 @@ namespace aws.KmsCustomKeyStore
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kms_custom_key_store#id KmsCustomKeyStore#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kms_custom_key_store#id KmsCustomKeyStore#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace aws.KmsCustomKeyStore
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kms_custom_key_store#key_store_password KmsCustomKeyStore#key_store_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kms_custom_key_store#key_store_password KmsCustomKeyStore#key_store_password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyStorePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyStorePassword
@@ -59,7 +59,7 @@ namespace aws.KmsCustomKeyStore
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kms_custom_key_store#region KmsCustomKeyStore#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kms_custom_key_store#region KmsCustomKeyStore#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace aws.KmsCustomKeyStore
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kms_custom_key_store#timeouts KmsCustomKeyStore#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kms_custom_key_store#timeouts KmsCustomKeyStore#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.kmsCustomKeyStore.KmsCustomKeyStoreTimeouts\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace aws.KmsCustomKeyStore
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kms_custom_key_store#trust_anchor_certificate KmsCustomKeyStore#trust_anchor_certificate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kms_custom_key_store#trust_anchor_certificate KmsCustomKeyStore#trust_anchor_certificate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "trustAnchorCertificate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TrustAnchorCertificate
@@ -92,7 +92,7 @@ namespace aws.KmsCustomKeyStore
 
         /// <summary>xks_proxy_authentication_credential block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kms_custom_key_store#xks_proxy_authentication_credential KmsCustomKeyStore#xks_proxy_authentication_credential}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kms_custom_key_store#xks_proxy_authentication_credential KmsCustomKeyStore#xks_proxy_authentication_credential}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "xksProxyAuthenticationCredential", typeJson: "{\"fqn\":\"aws.kmsCustomKeyStore.KmsCustomKeyStoreXksProxyAuthenticationCredential\"}", isOptional: true)]
@@ -102,7 +102,7 @@ namespace aws.KmsCustomKeyStore
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kms_custom_key_store#xks_proxy_connectivity KmsCustomKeyStore#xks_proxy_connectivity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kms_custom_key_store#xks_proxy_connectivity KmsCustomKeyStore#xks_proxy_connectivity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xksProxyConnectivity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? XksProxyConnectivity
@@ -111,7 +111,7 @@ namespace aws.KmsCustomKeyStore
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kms_custom_key_store#xks_proxy_uri_endpoint KmsCustomKeyStore#xks_proxy_uri_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kms_custom_key_store#xks_proxy_uri_endpoint KmsCustomKeyStore#xks_proxy_uri_endpoint}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xksProxyUriEndpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? XksProxyUriEndpoint
@@ -120,7 +120,7 @@ namespace aws.KmsCustomKeyStore
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kms_custom_key_store#xks_proxy_uri_path KmsCustomKeyStore#xks_proxy_uri_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kms_custom_key_store#xks_proxy_uri_path KmsCustomKeyStore#xks_proxy_uri_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xksProxyUriPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? XksProxyUriPath
@@ -129,7 +129,7 @@ namespace aws.KmsCustomKeyStore
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kms_custom_key_store#xks_proxy_vpc_endpoint_service_name KmsCustomKeyStore#xks_proxy_vpc_endpoint_service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kms_custom_key_store#xks_proxy_vpc_endpoint_service_name KmsCustomKeyStore#xks_proxy_vpc_endpoint_service_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xksProxyVpcEndpointServiceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? XksProxyVpcEndpointServiceName

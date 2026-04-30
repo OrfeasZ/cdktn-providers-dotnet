@@ -9,7 +9,7 @@ namespace aws.ConfigConfigRule
     [JsiiByValue(fqn: "aws.configConfigRule.ConfigConfigRuleSourceCustomPolicyDetails")]
     public class ConfigConfigRuleSourceCustomPolicyDetails : aws.ConfigConfigRule.IConfigConfigRuleSourceCustomPolicyDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#policy_runtime ConfigConfigRule#policy_runtime}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#policy_runtime ConfigConfigRule#policy_runtime}.</summary>
         [JsiiProperty(name: "policyRuntime", typeJson: "{\"primitive\":\"string\"}")]
         public string PolicyRuntime
         {
@@ -17,7 +17,7 @@ namespace aws.ConfigConfigRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#policy_text ConfigConfigRule#policy_text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#policy_text ConfigConfigRule#policy_text}.</summary>
         [JsiiProperty(name: "policyText", typeJson: "{\"primitive\":\"string\"}")]
         public string PolicyText
         {
@@ -27,7 +27,7 @@ namespace aws.ConfigConfigRule
 
         private object? _enableDebugLogDelivery;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#enable_debug_log_delivery ConfigConfigRule#enable_debug_log_delivery}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#enable_debug_log_delivery ConfigConfigRule#enable_debug_log_delivery}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enableDebugLogDelivery", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? EnableDebugLogDelivery

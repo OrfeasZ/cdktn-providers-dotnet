@@ -7,14 +7,14 @@ namespace aws.PipesPipe
     [JsiiInterface(nativeType: typeof(IPipesPipeSourceParametersManagedStreamingKafkaParameters), fullyQualifiedName: "aws.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParameters")]
     public interface IPipesPipeSourceParametersManagedStreamingKafkaParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#topic_name PipesPipe#topic_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#topic_name PipesPipe#topic_name}.</summary>
         [JsiiProperty(name: "topicName", typeJson: "{\"primitive\":\"string\"}")]
         string TopicName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.</summary>
         [JsiiProperty(name: "batchSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BatchSize
@@ -25,7 +25,7 @@ namespace aws.PipesPipe
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#consumer_group_id PipesPipe#consumer_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#consumer_group_id PipesPipe#consumer_group_id}.</summary>
         [JsiiProperty(name: "consumerGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ConsumerGroupId
@@ -38,7 +38,7 @@ namespace aws.PipesPipe
 
         /// <summary>credentials block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}
         /// </remarks>
         [JsiiProperty(name: "credentials", typeJson: "{\"fqn\":\"aws.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParametersCredentials\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,7 +50,7 @@ namespace aws.PipesPipe
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.</summary>
         [JsiiProperty(name: "maximumBatchingWindowInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaximumBatchingWindowInSeconds
@@ -61,7 +61,7 @@ namespace aws.PipesPipe
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}.</summary>
         [JsiiProperty(name: "startingPosition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? StartingPosition
@@ -79,14 +79,14 @@ namespace aws.PipesPipe
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#topic_name PipesPipe#topic_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#topic_name PipesPipe#topic_name}.</summary>
             [JsiiProperty(name: "topicName", typeJson: "{\"primitive\":\"string\"}")]
             public string TopicName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "batchSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BatchSize
@@ -94,7 +94,7 @@ namespace aws.PipesPipe
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#consumer_group_id PipesPipe#consumer_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#consumer_group_id PipesPipe#consumer_group_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "consumerGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ConsumerGroupId
@@ -104,7 +104,7 @@ namespace aws.PipesPipe
 
             /// <summary>credentials block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "credentials", typeJson: "{\"fqn\":\"aws.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParametersCredentials\"}", isOptional: true)]
@@ -113,7 +113,7 @@ namespace aws.PipesPipe
                 get => GetInstanceProperty<aws.PipesPipe.IPipesPipeSourceParametersManagedStreamingKafkaParametersCredentials?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maximumBatchingWindowInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaximumBatchingWindowInSeconds
@@ -121,7 +121,7 @@ namespace aws.PipesPipe
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "startingPosition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? StartingPosition

@@ -7,7 +7,7 @@ namespace aws.ArcregionswitchPlan
     [JsiiInterface(nativeType: typeof(IArcregionswitchPlanWorkflowStepParallelConfigStepDocumentDbConfigUngraceful), fullyQualifiedName: "aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepParallelConfigStepDocumentDbConfigUngraceful")]
     public interface IArcregionswitchPlanWorkflowStepParallelConfigStepDocumentDbConfigUngraceful
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/arcregionswitch_plan#ungraceful ArcregionswitchPlan#ungraceful}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/arcregionswitch_plan#ungraceful ArcregionswitchPlan#ungraceful}.</summary>
         [JsiiProperty(name: "ungraceful", typeJson: "{\"primitive\":\"string\"}")]
         string Ungraceful
         {
@@ -21,7 +21,7 @@ namespace aws.ArcregionswitchPlan
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/arcregionswitch_plan#ungraceful ArcregionswitchPlan#ungraceful}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/arcregionswitch_plan#ungraceful ArcregionswitchPlan#ungraceful}.</summary>
             [JsiiProperty(name: "ungraceful", typeJson: "{\"primitive\":\"string\"}")]
             public string Ungraceful
             {

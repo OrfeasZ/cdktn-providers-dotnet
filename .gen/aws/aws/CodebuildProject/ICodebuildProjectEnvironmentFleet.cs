@@ -7,7 +7,7 @@ namespace aws.CodebuildProject
     [JsiiInterface(nativeType: typeof(ICodebuildProjectEnvironmentFleet), fullyQualifiedName: "aws.codebuildProject.CodebuildProjectEnvironmentFleet")]
     public interface ICodebuildProjectEnvironmentFleet
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#fleet_arn CodebuildProject#fleet_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_project#fleet_arn CodebuildProject#fleet_arn}.</summary>
         [JsiiProperty(name: "fleetArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FleetArn
@@ -25,7 +25,7 @@ namespace aws.CodebuildProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#fleet_arn CodebuildProject#fleet_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_project#fleet_arn CodebuildProject#fleet_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fleetArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FleetArn

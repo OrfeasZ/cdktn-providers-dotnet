@@ -7,14 +7,14 @@ namespace aws.Apigatewayv2Stage
     [JsiiInterface(nativeType: typeof(IApigatewayv2StageAccessLogSettings), fullyQualifiedName: "aws.apigatewayv2Stage.Apigatewayv2StageAccessLogSettings")]
     public interface IApigatewayv2StageAccessLogSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_stage#destination_arn Apigatewayv2Stage#destination_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_stage#destination_arn Apigatewayv2Stage#destination_arn}.</summary>
         [JsiiProperty(name: "destinationArn", typeJson: "{\"primitive\":\"string\"}")]
         string DestinationArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_stage#format Apigatewayv2Stage#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_stage#format Apigatewayv2Stage#format}.</summary>
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}")]
         string Format
         {
@@ -28,14 +28,14 @@ namespace aws.Apigatewayv2Stage
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_stage#destination_arn Apigatewayv2Stage#destination_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_stage#destination_arn Apigatewayv2Stage#destination_arn}.</summary>
             [JsiiProperty(name: "destinationArn", typeJson: "{\"primitive\":\"string\"}")]
             public string DestinationArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_stage#format Apigatewayv2Stage#format}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_stage#format Apigatewayv2Stage#format}.</summary>
             [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}")]
             public string Format
             {

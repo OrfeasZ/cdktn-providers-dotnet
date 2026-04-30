@@ -7,21 +7,21 @@ namespace aws.DataAwsWafv2RegexPatternSet
     [JsiiInterface(nativeType: typeof(IDataAwsWafv2RegexPatternSetConfig), fullyQualifiedName: "aws.dataAwsWafv2RegexPatternSet.DataAwsWafv2RegexPatternSetConfig")]
     public interface IDataAwsWafv2RegexPatternSetConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/wafv2_regex_pattern_set#name DataAwsWafv2RegexPatternSet#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/wafv2_regex_pattern_set#name DataAwsWafv2RegexPatternSet#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/wafv2_regex_pattern_set#scope DataAwsWafv2RegexPatternSet#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/wafv2_regex_pattern_set#scope DataAwsWafv2RegexPatternSet#scope}.</summary>
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}")]
         string Scope
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/wafv2_regex_pattern_set#id DataAwsWafv2RegexPatternSet#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/wafv2_regex_pattern_set#id DataAwsWafv2RegexPatternSet#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace aws.DataAwsWafv2RegexPatternSet
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/wafv2_regex_pattern_set#region DataAwsWafv2RegexPatternSet#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/wafv2_regex_pattern_set#region DataAwsWafv2RegexPatternSet#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,21 +57,21 @@ namespace aws.DataAwsWafv2RegexPatternSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/wafv2_regex_pattern_set#name DataAwsWafv2RegexPatternSet#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/wafv2_regex_pattern_set#name DataAwsWafv2RegexPatternSet#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/wafv2_regex_pattern_set#scope DataAwsWafv2RegexPatternSet#scope}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/wafv2_regex_pattern_set#scope DataAwsWafv2RegexPatternSet#scope}.</summary>
             [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}")]
             public string Scope
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/wafv2_regex_pattern_set#id DataAwsWafv2RegexPatternSet#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/wafv2_regex_pattern_set#id DataAwsWafv2RegexPatternSet#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace aws.DataAwsWafv2RegexPatternSet
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/wafv2_regex_pattern_set#region DataAwsWafv2RegexPatternSet#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/wafv2_regex_pattern_set#region DataAwsWafv2RegexPatternSet#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

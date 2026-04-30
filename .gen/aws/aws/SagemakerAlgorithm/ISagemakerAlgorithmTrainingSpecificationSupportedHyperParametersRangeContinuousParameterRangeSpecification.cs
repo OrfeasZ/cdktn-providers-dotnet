@@ -7,14 +7,14 @@ namespace aws.SagemakerAlgorithm
     [JsiiInterface(nativeType: typeof(ISagemakerAlgorithmTrainingSpecificationSupportedHyperParametersRangeContinuousParameterRangeSpecification), fullyQualifiedName: "aws.sagemakerAlgorithm.SagemakerAlgorithmTrainingSpecificationSupportedHyperParametersRangeContinuousParameterRangeSpecification")]
     public interface ISagemakerAlgorithmTrainingSpecificationSupportedHyperParametersRangeContinuousParameterRangeSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#max_value SagemakerAlgorithm#max_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#max_value SagemakerAlgorithm#max_value}.</summary>
         [JsiiProperty(name: "maxValue", typeJson: "{\"primitive\":\"string\"}")]
         string MaxValue
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#min_value SagemakerAlgorithm#min_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#min_value SagemakerAlgorithm#min_value}.</summary>
         [JsiiProperty(name: "minValue", typeJson: "{\"primitive\":\"string\"}")]
         string MinValue
         {
@@ -28,14 +28,14 @@ namespace aws.SagemakerAlgorithm
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#max_value SagemakerAlgorithm#max_value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#max_value SagemakerAlgorithm#max_value}.</summary>
             [JsiiProperty(name: "maxValue", typeJson: "{\"primitive\":\"string\"}")]
             public string MaxValue
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#min_value SagemakerAlgorithm#min_value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#min_value SagemakerAlgorithm#min_value}.</summary>
             [JsiiProperty(name: "minValue", typeJson: "{\"primitive\":\"string\"}")]
             public string MinValue
             {

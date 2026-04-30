@@ -9,7 +9,7 @@ namespace aws.DataexchangeEventAction
     [JsiiByValue(fqn: "aws.dataexchangeEventAction.DataexchangeEventActionEventRevisionPublished")]
     public class DataexchangeEventActionEventRevisionPublished : aws.DataexchangeEventAction.IDataexchangeEventActionEventRevisionPublished
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dataexchange_event_action#data_set_id DataexchangeEventAction#data_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dataexchange_event_action#data_set_id DataexchangeEventAction#data_set_id}.</summary>
         [JsiiProperty(name: "dataSetId", typeJson: "{\"primitive\":\"string\"}")]
         public string DataSetId
         {

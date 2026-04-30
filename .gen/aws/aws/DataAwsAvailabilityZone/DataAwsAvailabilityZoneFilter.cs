@@ -9,7 +9,7 @@ namespace aws.DataAwsAvailabilityZone
     [JsiiByValue(fqn: "aws.dataAwsAvailabilityZone.DataAwsAvailabilityZoneFilter")]
     public class DataAwsAvailabilityZoneFilter : aws.DataAwsAvailabilityZone.IDataAwsAvailabilityZoneFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/availability_zone#name DataAwsAvailabilityZone#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/availability_zone#name DataAwsAvailabilityZone#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsAvailabilityZone
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/availability_zone#values DataAwsAvailabilityZone#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/availability_zone#values DataAwsAvailabilityZone#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

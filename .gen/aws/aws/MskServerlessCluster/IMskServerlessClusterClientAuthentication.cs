@@ -9,7 +9,7 @@ namespace aws.MskServerlessCluster
     {
         /// <summary>sasl block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_serverless_cluster#sasl MskServerlessCluster#sasl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_serverless_cluster#sasl MskServerlessCluster#sasl}
         /// </remarks>
         [JsiiProperty(name: "sasl", typeJson: "{\"fqn\":\"aws.mskServerlessCluster.MskServerlessClusterClientAuthenticationSasl\"}")]
         aws.MskServerlessCluster.IMskServerlessClusterClientAuthenticationSasl Sasl
@@ -26,7 +26,7 @@ namespace aws.MskServerlessCluster
 
             /// <summary>sasl block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_serverless_cluster#sasl MskServerlessCluster#sasl}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_serverless_cluster#sasl MskServerlessCluster#sasl}
             /// </remarks>
             [JsiiProperty(name: "sasl", typeJson: "{\"fqn\":\"aws.mskServerlessCluster.MskServerlessClusterClientAuthenticationSasl\"}")]
             public aws.MskServerlessCluster.IMskServerlessClusterClientAuthenticationSasl Sasl

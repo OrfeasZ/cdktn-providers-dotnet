@@ -9,7 +9,7 @@ namespace aws.S3Bucket
     [JsiiByValue(fqn: "aws.s3Bucket.S3BucketReplicationConfiguration")]
     public class S3BucketReplicationConfiguration : aws.S3Bucket.IS3BucketReplicationConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#role S3Bucket#role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket#role S3Bucket#role}.</summary>
         [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}")]
         public string Role
         {
@@ -21,7 +21,7 @@ namespace aws.S3Bucket
 
         /// <summary>rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket#rules S3Bucket#rules}
         /// </remarks>
         [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3Bucket.S3BucketReplicationConfigurationRules\"},\"kind\":\"array\"}}]}}")]
         public object Rules

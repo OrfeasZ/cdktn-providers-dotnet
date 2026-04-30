@@ -9,7 +9,7 @@ namespace aws.IamRolePolicyAttachmentsExclusive
     [JsiiByValue(fqn: "aws.iamRolePolicyAttachmentsExclusive.IamRolePolicyAttachmentsExclusiveConfig")]
     public class IamRolePolicyAttachmentsExclusiveConfig : aws.IamRolePolicyAttachmentsExclusive.IIamRolePolicyAttachmentsExclusiveConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_role_policy_attachments_exclusive#policy_arns IamRolePolicyAttachmentsExclusive#policy_arns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_role_policy_attachments_exclusive#policy_arns IamRolePolicyAttachmentsExclusive#policy_arns}.</summary>
         [JsiiProperty(name: "policyArns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] PolicyArns
         {
@@ -17,7 +17,7 @@ namespace aws.IamRolePolicyAttachmentsExclusive
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_role_policy_attachments_exclusive#role_name IamRolePolicyAttachmentsExclusive#role_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_role_policy_attachments_exclusive#role_name IamRolePolicyAttachmentsExclusive#role_name}.</summary>
         [JsiiProperty(name: "roleName", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleName
         {

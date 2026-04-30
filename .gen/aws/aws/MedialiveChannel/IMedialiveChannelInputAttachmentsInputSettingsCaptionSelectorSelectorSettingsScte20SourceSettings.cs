@@ -7,7 +7,7 @@ namespace aws.MedialiveChannel
     [JsiiInterface(nativeType: typeof(IMedialiveChannelInputAttachmentsInputSettingsCaptionSelectorSelectorSettingsScte20SourceSettings), fullyQualifiedName: "aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsCaptionSelectorSelectorSettingsScte20SourceSettings")]
     public interface IMedialiveChannelInputAttachmentsInputSettingsCaptionSelectorSelectorSettingsScte20SourceSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#convert_608_to_708 MedialiveChannel#convert_608_to_708}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#convert_608_to_708 MedialiveChannel#convert_608_to_708}.</summary>
         [JsiiProperty(name: "convert608To708", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Convert608To708
@@ -18,7 +18,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#source_608_channel_number MedialiveChannel#source_608_channel_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#source_608_channel_number MedialiveChannel#source_608_channel_number}.</summary>
         [JsiiProperty(name: "source608ChannelNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Source608ChannelNumber
@@ -36,7 +36,7 @@ namespace aws.MedialiveChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#convert_608_to_708 MedialiveChannel#convert_608_to_708}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#convert_608_to_708 MedialiveChannel#convert_608_to_708}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "convert608To708", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Convert608To708
@@ -44,7 +44,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#source_608_channel_number MedialiveChannel#source_608_channel_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#source_608_channel_number MedialiveChannel#source_608_channel_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "source608ChannelNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Source608ChannelNumber

@@ -9,7 +9,7 @@ namespace aws.AppflowConnectorProfile
     [JsiiByValue(fqn: "aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesServiceNow")]
     public class AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesServiceNow : aws.AppflowConnectorProfile.IAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesServiceNow
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}.</summary>
         [JsiiProperty(name: "instanceUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceUrl
         {

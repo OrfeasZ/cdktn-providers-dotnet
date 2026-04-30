@@ -7,7 +7,7 @@ namespace aws.EksCluster
     [JsiiByValue(fqn: "aws.eksCluster.EksClusterAccessConfig")]
     public class EksClusterAccessConfig : aws.EksCluster.IEksClusterAccessConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_cluster#authentication_mode EksCluster#authentication_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/eks_cluster#authentication_mode EksCluster#authentication_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authenticationMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AuthenticationMode
@@ -18,7 +18,7 @@ namespace aws.EksCluster
 
         private object? _bootstrapClusterCreatorAdminPermissions;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_cluster#bootstrap_cluster_creator_admin_permissions EksCluster#bootstrap_cluster_creator_admin_permissions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/eks_cluster#bootstrap_cluster_creator_admin_permissions EksCluster#bootstrap_cluster_creator_admin_permissions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bootstrapClusterCreatorAdminPermissions", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? BootstrapClusterCreatorAdminPermissions

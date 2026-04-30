@@ -7,7 +7,7 @@ namespace aws.LbTargetGroup
     [JsiiInterface(nativeType: typeof(ILbTargetGroupHealthCheck), fullyQualifiedName: "aws.lbTargetGroup.LbTargetGroupHealthCheck")]
     public interface ILbTargetGroupHealthCheck
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#enabled LbTargetGroup#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#enabled LbTargetGroup#enabled}.</summary>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? Enabled
@@ -18,7 +18,7 @@ namespace aws.LbTargetGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#healthy_threshold LbTargetGroup#healthy_threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#healthy_threshold LbTargetGroup#healthy_threshold}.</summary>
         [JsiiProperty(name: "healthyThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? HealthyThreshold
@@ -29,7 +29,7 @@ namespace aws.LbTargetGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#interval LbTargetGroup#interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#interval LbTargetGroup#interval}.</summary>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Interval
@@ -40,7 +40,7 @@ namespace aws.LbTargetGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#matcher LbTargetGroup#matcher}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#matcher LbTargetGroup#matcher}.</summary>
         [JsiiProperty(name: "matcher", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Matcher
@@ -51,7 +51,7 @@ namespace aws.LbTargetGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#path LbTargetGroup#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#path LbTargetGroup#path}.</summary>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Path
@@ -62,7 +62,7 @@ namespace aws.LbTargetGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#port LbTargetGroup#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#port LbTargetGroup#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Port
@@ -73,7 +73,7 @@ namespace aws.LbTargetGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#protocol LbTargetGroup#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#protocol LbTargetGroup#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Protocol
@@ -84,7 +84,7 @@ namespace aws.LbTargetGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#timeout LbTargetGroup#timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#timeout LbTargetGroup#timeout}.</summary>
         [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Timeout
@@ -95,7 +95,7 @@ namespace aws.LbTargetGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#unhealthy_threshold LbTargetGroup#unhealthy_threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#unhealthy_threshold LbTargetGroup#unhealthy_threshold}.</summary>
         [JsiiProperty(name: "unhealthyThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? UnhealthyThreshold
@@ -113,7 +113,7 @@ namespace aws.LbTargetGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#enabled LbTargetGroup#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#enabled LbTargetGroup#enabled}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? Enabled
@@ -121,7 +121,7 @@ namespace aws.LbTargetGroup
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#healthy_threshold LbTargetGroup#healthy_threshold}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#healthy_threshold LbTargetGroup#healthy_threshold}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "healthyThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? HealthyThreshold
@@ -129,7 +129,7 @@ namespace aws.LbTargetGroup
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#interval LbTargetGroup#interval}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#interval LbTargetGroup#interval}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Interval
@@ -137,7 +137,7 @@ namespace aws.LbTargetGroup
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#matcher LbTargetGroup#matcher}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#matcher LbTargetGroup#matcher}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "matcher", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Matcher
@@ -145,7 +145,7 @@ namespace aws.LbTargetGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#path LbTargetGroup#path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#path LbTargetGroup#path}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Path
@@ -153,7 +153,7 @@ namespace aws.LbTargetGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#port LbTargetGroup#port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#port LbTargetGroup#port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Port
@@ -161,7 +161,7 @@ namespace aws.LbTargetGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#protocol LbTargetGroup#protocol}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#protocol LbTargetGroup#protocol}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Protocol
@@ -169,7 +169,7 @@ namespace aws.LbTargetGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#timeout LbTargetGroup#timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#timeout LbTargetGroup#timeout}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Timeout
@@ -177,7 +177,7 @@ namespace aws.LbTargetGroup
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#unhealthy_threshold LbTargetGroup#unhealthy_threshold}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#unhealthy_threshold LbTargetGroup#unhealthy_threshold}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "unhealthyThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? UnhealthyThreshold

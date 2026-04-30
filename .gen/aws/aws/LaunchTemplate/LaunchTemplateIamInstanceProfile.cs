@@ -7,7 +7,7 @@ namespace aws.LaunchTemplate
     [JsiiByValue(fqn: "aws.launchTemplate.LaunchTemplateIamInstanceProfile")]
     public class LaunchTemplateIamInstanceProfile : aws.LaunchTemplate.ILaunchTemplateIamInstanceProfile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#arn LaunchTemplate#arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#arn LaunchTemplate#arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Arn
@@ -16,7 +16,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#name LaunchTemplate#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#name LaunchTemplate#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name

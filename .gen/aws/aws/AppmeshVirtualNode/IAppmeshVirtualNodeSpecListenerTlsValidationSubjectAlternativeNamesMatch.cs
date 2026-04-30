@@ -7,7 +7,7 @@ namespace aws.AppmeshVirtualNode
     [JsiiInterface(nativeType: typeof(IAppmeshVirtualNodeSpecListenerTlsValidationSubjectAlternativeNamesMatch), fullyQualifiedName: "aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerTlsValidationSubjectAlternativeNamesMatch")]
     public interface IAppmeshVirtualNodeSpecListenerTlsValidationSubjectAlternativeNamesMatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_node#exact AppmeshVirtualNode#exact}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_node#exact AppmeshVirtualNode#exact}.</summary>
         [JsiiProperty(name: "exact", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Exact
         {
@@ -21,7 +21,7 @@ namespace aws.AppmeshVirtualNode
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_node#exact AppmeshVirtualNode#exact}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_node#exact AppmeshVirtualNode#exact}.</summary>
             [JsiiProperty(name: "exact", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Exact
             {

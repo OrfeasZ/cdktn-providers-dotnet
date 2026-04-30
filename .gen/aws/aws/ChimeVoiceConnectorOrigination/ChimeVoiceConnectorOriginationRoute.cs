@@ -9,7 +9,7 @@ namespace aws.ChimeVoiceConnectorOrigination
     [JsiiByValue(fqn: "aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOriginationRoute")]
     public class ChimeVoiceConnectorOriginationRoute : aws.ChimeVoiceConnectorOrigination.IChimeVoiceConnectorOriginationRoute
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/chime_voice_connector_origination#host ChimeVoiceConnectorOrigination#host}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/chime_voice_connector_origination#host ChimeVoiceConnectorOrigination#host}.</summary>
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
         public string Host
         {
@@ -17,7 +17,7 @@ namespace aws.ChimeVoiceConnectorOrigination
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/chime_voice_connector_origination#priority ChimeVoiceConnectorOrigination#priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/chime_voice_connector_origination#priority ChimeVoiceConnectorOrigination#priority}.</summary>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
         public double Priority
         {
@@ -25,7 +25,7 @@ namespace aws.ChimeVoiceConnectorOrigination
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/chime_voice_connector_origination#protocol ChimeVoiceConnectorOrigination#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/chime_voice_connector_origination#protocol ChimeVoiceConnectorOrigination#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         public string Protocol
         {
@@ -33,7 +33,7 @@ namespace aws.ChimeVoiceConnectorOrigination
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/chime_voice_connector_origination#weight ChimeVoiceConnectorOrigination#weight}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/chime_voice_connector_origination#weight ChimeVoiceConnectorOrigination#weight}.</summary>
         [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}")]
         public double Weight
         {
@@ -41,7 +41,7 @@ namespace aws.ChimeVoiceConnectorOrigination
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/chime_voice_connector_origination#port ChimeVoiceConnectorOrigination#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/chime_voice_connector_origination#port ChimeVoiceConnectorOrigination#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Port

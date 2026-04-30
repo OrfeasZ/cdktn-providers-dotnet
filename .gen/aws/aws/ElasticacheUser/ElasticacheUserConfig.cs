@@ -9,7 +9,7 @@ namespace aws.ElasticacheUser
     [JsiiByValue(fqn: "aws.elasticacheUser.ElasticacheUserConfig")]
     public class ElasticacheUserConfig : aws.ElasticacheUser.IElasticacheUserConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_user#access_string ElasticacheUser#access_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_user#access_string ElasticacheUser#access_string}.</summary>
         [JsiiProperty(name: "accessString", typeJson: "{\"primitive\":\"string\"}")]
         public string AccessString
         {
@@ -17,7 +17,7 @@ namespace aws.ElasticacheUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_user#engine ElasticacheUser#engine}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_user#engine ElasticacheUser#engine}.</summary>
         [JsiiProperty(name: "engine", typeJson: "{\"primitive\":\"string\"}")]
         public string Engine
         {
@@ -25,7 +25,7 @@ namespace aws.ElasticacheUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_user#user_id ElasticacheUser#user_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_user#user_id ElasticacheUser#user_id}.</summary>
         [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}")]
         public string UserId
         {
@@ -33,7 +33,7 @@ namespace aws.ElasticacheUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_user#user_name ElasticacheUser#user_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_user#user_name ElasticacheUser#user_name}.</summary>
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}")]
         public string UserName
         {
@@ -43,7 +43,7 @@ namespace aws.ElasticacheUser
 
         /// <summary>authentication_mode block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_user#authentication_mode ElasticacheUser#authentication_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_user#authentication_mode ElasticacheUser#authentication_mode}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authenticationMode", typeJson: "{\"fqn\":\"aws.elasticacheUser.ElasticacheUserAuthenticationMode\"}", isOptional: true)]
@@ -53,7 +53,7 @@ namespace aws.ElasticacheUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_user#id ElasticacheUser#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_user#id ElasticacheUser#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,7 +68,7 @@ namespace aws.ElasticacheUser
 
         private object? _noPasswordRequired;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_user#no_password_required ElasticacheUser#no_password_required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_user#no_password_required ElasticacheUser#no_password_required}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "noPasswordRequired", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? NoPasswordRequired
@@ -97,7 +97,7 @@ namespace aws.ElasticacheUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_user#passwords ElasticacheUser#passwords}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_user#passwords ElasticacheUser#passwords}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "passwords", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Passwords
@@ -106,7 +106,7 @@ namespace aws.ElasticacheUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_user#passwords_wo ElasticacheUser#passwords_wo}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_user#passwords_wo ElasticacheUser#passwords_wo}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "passwordsWo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PasswordsWo
@@ -115,7 +115,7 @@ namespace aws.ElasticacheUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_user#passwords_wo_version ElasticacheUser#passwords_wo_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_user#passwords_wo_version ElasticacheUser#passwords_wo_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "passwordsWoVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PasswordsWoVersion
@@ -126,7 +126,7 @@ namespace aws.ElasticacheUser
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_user#region ElasticacheUser#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_user#region ElasticacheUser#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -136,7 +136,7 @@ namespace aws.ElasticacheUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_user#tags ElasticacheUser#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_user#tags ElasticacheUser#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -145,7 +145,7 @@ namespace aws.ElasticacheUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_user#tags_all ElasticacheUser#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_user#tags_all ElasticacheUser#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -156,7 +156,7 @@ namespace aws.ElasticacheUser
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticache_user#timeouts ElasticacheUser#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticache_user#timeouts ElasticacheUser#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.elasticacheUser.ElasticacheUserTimeouts\"}", isOptional: true)]

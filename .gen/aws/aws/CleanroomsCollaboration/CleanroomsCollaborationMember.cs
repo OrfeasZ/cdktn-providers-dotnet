@@ -9,7 +9,7 @@ namespace aws.CleanroomsCollaboration
     [JsiiByValue(fqn: "aws.cleanroomsCollaboration.CleanroomsCollaborationMember")]
     public class CleanroomsCollaborationMember : aws.CleanroomsCollaboration.ICleanroomsCollaborationMember
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cleanrooms_collaboration#account_id CleanroomsCollaboration#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cleanrooms_collaboration#account_id CleanroomsCollaboration#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -17,7 +17,7 @@ namespace aws.CleanroomsCollaboration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cleanrooms_collaboration#display_name CleanroomsCollaboration#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cleanrooms_collaboration#display_name CleanroomsCollaboration#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace aws.CleanroomsCollaboration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cleanrooms_collaboration#member_abilities CleanroomsCollaboration#member_abilities}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cleanrooms_collaboration#member_abilities CleanroomsCollaboration#member_abilities}.</summary>
         [JsiiProperty(name: "memberAbilities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] MemberAbilities
         {

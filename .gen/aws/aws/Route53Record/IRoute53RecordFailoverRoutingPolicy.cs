@@ -7,7 +7,7 @@ namespace aws.Route53Record
     [JsiiInterface(nativeType: typeof(IRoute53RecordFailoverRoutingPolicy), fullyQualifiedName: "aws.route53Record.Route53RecordFailoverRoutingPolicy")]
     public interface IRoute53RecordFailoverRoutingPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_record#type Route53Record#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_record#type Route53Record#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -21,7 +21,7 @@ namespace aws.Route53Record
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_record#type Route53Record#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_record#type Route53Record#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

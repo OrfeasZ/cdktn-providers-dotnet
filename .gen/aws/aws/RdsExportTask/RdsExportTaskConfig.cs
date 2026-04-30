@@ -9,7 +9,7 @@ namespace aws.RdsExportTask
     [JsiiByValue(fqn: "aws.rdsExportTask.RdsExportTaskConfig")]
     public class RdsExportTaskConfig : aws.RdsExportTask.IRdsExportTaskConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_export_task#export_task_identifier RdsExportTask#export_task_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_export_task#export_task_identifier RdsExportTask#export_task_identifier}.</summary>
         [JsiiProperty(name: "exportTaskIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string ExportTaskIdentifier
         {
@@ -17,7 +17,7 @@ namespace aws.RdsExportTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_export_task#iam_role_arn RdsExportTask#iam_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_export_task#iam_role_arn RdsExportTask#iam_role_arn}.</summary>
         [JsiiProperty(name: "iamRoleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string IamRoleArn
         {
@@ -25,7 +25,7 @@ namespace aws.RdsExportTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_export_task#kms_key_id RdsExportTask#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_export_task#kms_key_id RdsExportTask#kms_key_id}.</summary>
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public string KmsKeyId
         {
@@ -33,7 +33,7 @@ namespace aws.RdsExportTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_export_task#s3_bucket_name RdsExportTask#s3_bucket_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_export_task#s3_bucket_name RdsExportTask#s3_bucket_name}.</summary>
         [JsiiProperty(name: "s3BucketName", typeJson: "{\"primitive\":\"string\"}")]
         public string S3BucketName
         {
@@ -41,7 +41,7 @@ namespace aws.RdsExportTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_export_task#source_arn RdsExportTask#source_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_export_task#source_arn RdsExportTask#source_arn}.</summary>
         [JsiiProperty(name: "sourceArn", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceArn
         {
@@ -49,7 +49,7 @@ namespace aws.RdsExportTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_export_task#export_only RdsExportTask#export_only}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_export_task#export_only RdsExportTask#export_only}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "exportOnly", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ExportOnly
@@ -60,7 +60,7 @@ namespace aws.RdsExportTask
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_export_task#region RdsExportTask#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_export_task#region RdsExportTask#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace aws.RdsExportTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_export_task#s3_prefix RdsExportTask#s3_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_export_task#s3_prefix RdsExportTask#s3_prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "s3Prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? S3Prefix
@@ -81,7 +81,7 @@ namespace aws.RdsExportTask
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_export_task#timeouts RdsExportTask#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_export_task#timeouts RdsExportTask#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.rdsExportTask.RdsExportTaskTimeouts\"}", isOptional: true)]

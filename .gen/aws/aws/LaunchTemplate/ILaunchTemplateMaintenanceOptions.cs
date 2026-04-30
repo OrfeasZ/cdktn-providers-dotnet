@@ -7,7 +7,7 @@ namespace aws.LaunchTemplate
     [JsiiInterface(nativeType: typeof(ILaunchTemplateMaintenanceOptions), fullyQualifiedName: "aws.launchTemplate.LaunchTemplateMaintenanceOptions")]
     public interface ILaunchTemplateMaintenanceOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#auto_recovery LaunchTemplate#auto_recovery}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#auto_recovery LaunchTemplate#auto_recovery}.</summary>
         [JsiiProperty(name: "autoRecovery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AutoRecovery
@@ -25,7 +25,7 @@ namespace aws.LaunchTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#auto_recovery LaunchTemplate#auto_recovery}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#auto_recovery LaunchTemplate#auto_recovery}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autoRecovery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AutoRecovery

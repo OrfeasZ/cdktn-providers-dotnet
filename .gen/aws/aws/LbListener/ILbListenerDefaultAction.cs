@@ -7,7 +7,7 @@ namespace aws.LbListener
     [JsiiInterface(nativeType: typeof(ILbListenerDefaultAction), fullyQualifiedName: "aws.lbListener.LbListenerDefaultAction")]
     public interface ILbListenerDefaultAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#type LbListener#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#type LbListener#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -16,7 +16,7 @@ namespace aws.LbListener
 
         /// <summary>authenticate_cognito block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#authenticate_cognito LbListener#authenticate_cognito}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#authenticate_cognito LbListener#authenticate_cognito}
         /// </remarks>
         [JsiiProperty(name: "authenticateCognito", typeJson: "{\"fqn\":\"aws.lbListener.LbListenerDefaultActionAuthenticateCognito\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.LbListener
 
         /// <summary>authenticate_oidc block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#authenticate_oidc LbListener#authenticate_oidc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#authenticate_oidc LbListener#authenticate_oidc}
         /// </remarks>
         [JsiiProperty(name: "authenticateOidc", typeJson: "{\"fqn\":\"aws.lbListener.LbListenerDefaultActionAuthenticateOidc\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace aws.LbListener
 
         /// <summary>fixed_response block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#fixed_response LbListener#fixed_response}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#fixed_response LbListener#fixed_response}
         /// </remarks>
         [JsiiProperty(name: "fixedResponse", typeJson: "{\"fqn\":\"aws.lbListener.LbListenerDefaultActionFixedResponse\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace aws.LbListener
 
         /// <summary>forward block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#forward LbListener#forward}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#forward LbListener#forward}
         /// </remarks>
         [JsiiProperty(name: "forward", typeJson: "{\"fqn\":\"aws.lbListener.LbListenerDefaultActionForward\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,7 +72,7 @@ namespace aws.LbListener
 
         /// <summary>jwt_validation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#jwt_validation LbListener#jwt_validation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#jwt_validation LbListener#jwt_validation}
         /// </remarks>
         [JsiiProperty(name: "jwtValidation", typeJson: "{\"fqn\":\"aws.lbListener.LbListenerDefaultActionJwtValidation\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -84,7 +84,7 @@ namespace aws.LbListener
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#order LbListener#order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#order LbListener#order}.</summary>
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Order
@@ -97,7 +97,7 @@ namespace aws.LbListener
 
         /// <summary>redirect block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#redirect LbListener#redirect}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#redirect LbListener#redirect}
         /// </remarks>
         [JsiiProperty(name: "redirect", typeJson: "{\"fqn\":\"aws.lbListener.LbListenerDefaultActionRedirect\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -109,7 +109,7 @@ namespace aws.LbListener
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#target_group_arn LbListener#target_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#target_group_arn LbListener#target_group_arn}.</summary>
         [JsiiProperty(name: "targetGroupArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetGroupArn
@@ -127,7 +127,7 @@ namespace aws.LbListener
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#type LbListener#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#type LbListener#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
@@ -136,7 +136,7 @@ namespace aws.LbListener
 
             /// <summary>authenticate_cognito block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#authenticate_cognito LbListener#authenticate_cognito}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#authenticate_cognito LbListener#authenticate_cognito}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "authenticateCognito", typeJson: "{\"fqn\":\"aws.lbListener.LbListenerDefaultActionAuthenticateCognito\"}", isOptional: true)]
@@ -147,7 +147,7 @@ namespace aws.LbListener
 
             /// <summary>authenticate_oidc block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#authenticate_oidc LbListener#authenticate_oidc}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#authenticate_oidc LbListener#authenticate_oidc}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "authenticateOidc", typeJson: "{\"fqn\":\"aws.lbListener.LbListenerDefaultActionAuthenticateOidc\"}", isOptional: true)]
@@ -158,7 +158,7 @@ namespace aws.LbListener
 
             /// <summary>fixed_response block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#fixed_response LbListener#fixed_response}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#fixed_response LbListener#fixed_response}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fixedResponse", typeJson: "{\"fqn\":\"aws.lbListener.LbListenerDefaultActionFixedResponse\"}", isOptional: true)]
@@ -169,7 +169,7 @@ namespace aws.LbListener
 
             /// <summary>forward block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#forward LbListener#forward}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#forward LbListener#forward}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "forward", typeJson: "{\"fqn\":\"aws.lbListener.LbListenerDefaultActionForward\"}", isOptional: true)]
@@ -180,7 +180,7 @@ namespace aws.LbListener
 
             /// <summary>jwt_validation block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#jwt_validation LbListener#jwt_validation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#jwt_validation LbListener#jwt_validation}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "jwtValidation", typeJson: "{\"fqn\":\"aws.lbListener.LbListenerDefaultActionJwtValidation\"}", isOptional: true)]
@@ -189,7 +189,7 @@ namespace aws.LbListener
                 get => GetInstanceProperty<aws.LbListener.ILbListenerDefaultActionJwtValidation?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#order LbListener#order}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#order LbListener#order}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Order
@@ -199,7 +199,7 @@ namespace aws.LbListener
 
             /// <summary>redirect block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#redirect LbListener#redirect}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#redirect LbListener#redirect}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "redirect", typeJson: "{\"fqn\":\"aws.lbListener.LbListenerDefaultActionRedirect\"}", isOptional: true)]
@@ -208,7 +208,7 @@ namespace aws.LbListener
                 get => GetInstanceProperty<aws.LbListener.ILbListenerDefaultActionRedirect?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#target_group_arn LbListener#target_group_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#target_group_arn LbListener#target_group_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetGroupArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetGroupArn

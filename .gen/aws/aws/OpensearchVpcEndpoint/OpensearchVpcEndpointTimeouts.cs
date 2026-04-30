@@ -7,7 +7,7 @@ namespace aws.OpensearchVpcEndpoint
     [JsiiByValue(fqn: "aws.opensearchVpcEndpoint.OpensearchVpcEndpointTimeouts")]
     public class OpensearchVpcEndpointTimeouts : aws.OpensearchVpcEndpoint.IOpensearchVpcEndpointTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_vpc_endpoint#create OpensearchVpcEndpoint#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_vpc_endpoint#create OpensearchVpcEndpoint#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.OpensearchVpcEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_vpc_endpoint#delete OpensearchVpcEndpoint#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_vpc_endpoint#delete OpensearchVpcEndpoint#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace aws.OpensearchVpcEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_vpc_endpoint#update OpensearchVpcEndpoint#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_vpc_endpoint#update OpensearchVpcEndpoint#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

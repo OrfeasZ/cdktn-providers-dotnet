@@ -9,7 +9,7 @@ namespace aws.BedrockagentKnowledgeBase
     [JsiiByValue(fqn: "aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseStorageConfigurationRdsConfigurationFieldMapping")]
     public class BedrockagentKnowledgeBaseStorageConfigurationRdsConfigurationFieldMapping : aws.BedrockagentKnowledgeBase.IBedrockagentKnowledgeBaseStorageConfigurationRdsConfigurationFieldMapping
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_knowledge_base#metadata_field BedrockagentKnowledgeBase#metadata_field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_knowledge_base#metadata_field BedrockagentKnowledgeBase#metadata_field}.</summary>
         [JsiiProperty(name: "metadataField", typeJson: "{\"primitive\":\"string\"}")]
         public string MetadataField
         {
@@ -17,7 +17,7 @@ namespace aws.BedrockagentKnowledgeBase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_knowledge_base#primary_key_field BedrockagentKnowledgeBase#primary_key_field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_knowledge_base#primary_key_field BedrockagentKnowledgeBase#primary_key_field}.</summary>
         [JsiiProperty(name: "primaryKeyField", typeJson: "{\"primitive\":\"string\"}")]
         public string PrimaryKeyField
         {
@@ -25,7 +25,7 @@ namespace aws.BedrockagentKnowledgeBase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_knowledge_base#text_field BedrockagentKnowledgeBase#text_field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_knowledge_base#text_field BedrockagentKnowledgeBase#text_field}.</summary>
         [JsiiProperty(name: "textField", typeJson: "{\"primitive\":\"string\"}")]
         public string TextField
         {
@@ -33,7 +33,7 @@ namespace aws.BedrockagentKnowledgeBase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_knowledge_base#vector_field BedrockagentKnowledgeBase#vector_field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_knowledge_base#vector_field BedrockagentKnowledgeBase#vector_field}.</summary>
         [JsiiProperty(name: "vectorField", typeJson: "{\"primitive\":\"string\"}")]
         public string VectorField
         {
@@ -41,7 +41,7 @@ namespace aws.BedrockagentKnowledgeBase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_knowledge_base#custom_metadata_field BedrockagentKnowledgeBase#custom_metadata_field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_knowledge_base#custom_metadata_field BedrockagentKnowledgeBase#custom_metadata_field}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customMetadataField", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomMetadataField

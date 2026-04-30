@@ -11,7 +11,7 @@ namespace aws.TransferWebApp
 
         /// <summary>identity_center_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_web_app#identity_center_config TransferWebApp#identity_center_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_web_app#identity_center_config TransferWebApp#identity_center_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identityCenterConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppIdentityProviderDetailsIdentityCenterConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]

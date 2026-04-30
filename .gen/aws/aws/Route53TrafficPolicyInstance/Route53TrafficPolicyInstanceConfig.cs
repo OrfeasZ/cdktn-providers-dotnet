@@ -9,7 +9,7 @@ namespace aws.Route53TrafficPolicyInstance
     [JsiiByValue(fqn: "aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig")]
     public class Route53TrafficPolicyInstanceConfig : aws.Route53TrafficPolicyInstance.IRoute53TrafficPolicyInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_traffic_policy_instance#hosted_zone_id Route53TrafficPolicyInstance#hosted_zone_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_traffic_policy_instance#hosted_zone_id Route53TrafficPolicyInstance#hosted_zone_id}.</summary>
         [JsiiProperty(name: "hostedZoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string HostedZoneId
         {
@@ -17,7 +17,7 @@ namespace aws.Route53TrafficPolicyInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_traffic_policy_instance#name Route53TrafficPolicyInstance#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_traffic_policy_instance#name Route53TrafficPolicyInstance#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace aws.Route53TrafficPolicyInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_traffic_policy_instance#traffic_policy_id Route53TrafficPolicyInstance#traffic_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_traffic_policy_instance#traffic_policy_id Route53TrafficPolicyInstance#traffic_policy_id}.</summary>
         [JsiiProperty(name: "trafficPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string TrafficPolicyId
         {
@@ -33,7 +33,7 @@ namespace aws.Route53TrafficPolicyInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_traffic_policy_instance#traffic_policy_version Route53TrafficPolicyInstance#traffic_policy_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_traffic_policy_instance#traffic_policy_version Route53TrafficPolicyInstance#traffic_policy_version}.</summary>
         [JsiiProperty(name: "trafficPolicyVersion", typeJson: "{\"primitive\":\"number\"}")]
         public double TrafficPolicyVersion
         {
@@ -41,7 +41,7 @@ namespace aws.Route53TrafficPolicyInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_traffic_policy_instance#ttl Route53TrafficPolicyInstance#ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_traffic_policy_instance#ttl Route53TrafficPolicyInstance#ttl}.</summary>
         [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}")]
         public double Ttl
         {
@@ -49,7 +49,7 @@ namespace aws.Route53TrafficPolicyInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_traffic_policy_instance#id Route53TrafficPolicyInstance#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_traffic_policy_instance#id Route53TrafficPolicyInstance#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

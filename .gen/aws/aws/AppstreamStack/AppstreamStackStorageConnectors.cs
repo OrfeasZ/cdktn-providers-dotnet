@@ -9,7 +9,7 @@ namespace aws.AppstreamStack
     [JsiiByValue(fqn: "aws.appstreamStack.AppstreamStackStorageConnectors")]
     public class AppstreamStackStorageConnectors : aws.AppstreamStack.IAppstreamStackStorageConnectors
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_stack#connector_type AppstreamStack#connector_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_stack#connector_type AppstreamStack#connector_type}.</summary>
         [JsiiProperty(name: "connectorType", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectorType
         {
@@ -17,7 +17,7 @@ namespace aws.AppstreamStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_stack#domains AppstreamStack#domains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_stack#domains AppstreamStack#domains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "domains", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Domains
@@ -26,7 +26,7 @@ namespace aws.AppstreamStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_stack#resource_identifier AppstreamStack#resource_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_stack#resource_identifier AppstreamStack#resource_identifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceIdentifier

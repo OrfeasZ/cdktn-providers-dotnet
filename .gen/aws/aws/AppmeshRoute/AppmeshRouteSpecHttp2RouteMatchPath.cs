@@ -7,7 +7,7 @@ namespace aws.AppmeshRoute
     [JsiiByValue(fqn: "aws.appmeshRoute.AppmeshRouteSpecHttp2RouteMatchPath")]
     public class AppmeshRouteSpecHttp2RouteMatchPath : aws.AppmeshRoute.IAppmeshRouteSpecHttp2RouteMatchPath
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#exact AppmeshRoute#exact}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#exact AppmeshRoute#exact}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "exact", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Exact
@@ -16,7 +16,7 @@ namespace aws.AppmeshRoute
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#regex AppmeshRoute#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#regex AppmeshRoute#regex}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "regex", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Regex

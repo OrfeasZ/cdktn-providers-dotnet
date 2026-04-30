@@ -9,7 +9,7 @@ namespace aws.AppflowFlow
     [JsiiByValue(fqn: "aws.appflowFlow.AppflowFlowTriggerConfigTriggerPropertiesScheduled")]
     public class AppflowFlowTriggerConfigTriggerPropertiesScheduled : aws.AppflowFlow.IAppflowFlowTriggerConfigTriggerPropertiesScheduled
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#schedule_expression AppflowFlow#schedule_expression}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#schedule_expression AppflowFlow#schedule_expression}.</summary>
         [JsiiProperty(name: "scheduleExpression", typeJson: "{\"primitive\":\"string\"}")]
         public string ScheduleExpression
         {
@@ -17,7 +17,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#data_pull_mode AppflowFlow#data_pull_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#data_pull_mode AppflowFlow#data_pull_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dataPullMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DataPullMode
@@ -26,7 +26,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#first_execution_from AppflowFlow#first_execution_from}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#first_execution_from AppflowFlow#first_execution_from}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "firstExecutionFrom", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FirstExecutionFrom
@@ -35,7 +35,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#schedule_end_time AppflowFlow#schedule_end_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#schedule_end_time AppflowFlow#schedule_end_time}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scheduleEndTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ScheduleEndTime
@@ -44,7 +44,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#schedule_offset AppflowFlow#schedule_offset}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#schedule_offset AppflowFlow#schedule_offset}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scheduleOffset", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ScheduleOffset
@@ -53,7 +53,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#schedule_start_time AppflowFlow#schedule_start_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#schedule_start_time AppflowFlow#schedule_start_time}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scheduleStartTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ScheduleStartTime
@@ -62,7 +62,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#timezone AppflowFlow#timezone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#timezone AppflowFlow#timezone}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timezone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Timezone

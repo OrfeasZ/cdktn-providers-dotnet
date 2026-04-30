@@ -9,7 +9,7 @@ namespace aws.DxPublicVirtualInterface
     [JsiiByValue(fqn: "aws.dxPublicVirtualInterface.DxPublicVirtualInterfaceConfig")]
     public class DxPublicVirtualInterfaceConfig : aws.DxPublicVirtualInterface.IDxPublicVirtualInterfaceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_public_virtual_interface#address_family DxPublicVirtualInterface#address_family}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_public_virtual_interface#address_family DxPublicVirtualInterface#address_family}.</summary>
         [JsiiProperty(name: "addressFamily", typeJson: "{\"primitive\":\"string\"}")]
         public string AddressFamily
         {
@@ -17,7 +17,7 @@ namespace aws.DxPublicVirtualInterface
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_public_virtual_interface#bgp_asn DxPublicVirtualInterface#bgp_asn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_public_virtual_interface#bgp_asn DxPublicVirtualInterface#bgp_asn}.</summary>
         [JsiiProperty(name: "bgpAsn", typeJson: "{\"primitive\":\"number\"}")]
         public double BgpAsn
         {
@@ -25,7 +25,7 @@ namespace aws.DxPublicVirtualInterface
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_public_virtual_interface#connection_id DxPublicVirtualInterface#connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_public_virtual_interface#connection_id DxPublicVirtualInterface#connection_id}.</summary>
         [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectionId
         {
@@ -33,7 +33,7 @@ namespace aws.DxPublicVirtualInterface
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_public_virtual_interface#name DxPublicVirtualInterface#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_public_virtual_interface#name DxPublicVirtualInterface#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -41,7 +41,7 @@ namespace aws.DxPublicVirtualInterface
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_public_virtual_interface#route_filter_prefixes DxPublicVirtualInterface#route_filter_prefixes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_public_virtual_interface#route_filter_prefixes DxPublicVirtualInterface#route_filter_prefixes}.</summary>
         [JsiiProperty(name: "routeFilterPrefixes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] RouteFilterPrefixes
         {
@@ -49,7 +49,7 @@ namespace aws.DxPublicVirtualInterface
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_public_virtual_interface#vlan DxPublicVirtualInterface#vlan}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_public_virtual_interface#vlan DxPublicVirtualInterface#vlan}.</summary>
         [JsiiProperty(name: "vlan", typeJson: "{\"primitive\":\"number\"}")]
         public double Vlan
         {
@@ -57,7 +57,7 @@ namespace aws.DxPublicVirtualInterface
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_public_virtual_interface#amazon_address DxPublicVirtualInterface#amazon_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_public_virtual_interface#amazon_address DxPublicVirtualInterface#amazon_address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "amazonAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AmazonAddress
@@ -66,7 +66,7 @@ namespace aws.DxPublicVirtualInterface
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_public_virtual_interface#bgp_auth_key DxPublicVirtualInterface#bgp_auth_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_public_virtual_interface#bgp_auth_key DxPublicVirtualInterface#bgp_auth_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bgpAuthKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BgpAuthKey
@@ -75,7 +75,7 @@ namespace aws.DxPublicVirtualInterface
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_public_virtual_interface#customer_address DxPublicVirtualInterface#customer_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_public_virtual_interface#customer_address DxPublicVirtualInterface#customer_address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customerAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomerAddress
@@ -84,7 +84,7 @@ namespace aws.DxPublicVirtualInterface
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_public_virtual_interface#id DxPublicVirtualInterface#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_public_virtual_interface#id DxPublicVirtualInterface#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -99,7 +99,7 @@ namespace aws.DxPublicVirtualInterface
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_public_virtual_interface#region DxPublicVirtualInterface#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_public_virtual_interface#region DxPublicVirtualInterface#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -109,7 +109,7 @@ namespace aws.DxPublicVirtualInterface
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_public_virtual_interface#tags DxPublicVirtualInterface#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_public_virtual_interface#tags DxPublicVirtualInterface#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -118,7 +118,7 @@ namespace aws.DxPublicVirtualInterface
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_public_virtual_interface#tags_all DxPublicVirtualInterface#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_public_virtual_interface#tags_all DxPublicVirtualInterface#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -129,7 +129,7 @@ namespace aws.DxPublicVirtualInterface
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dx_public_virtual_interface#timeouts DxPublicVirtualInterface#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dx_public_virtual_interface#timeouts DxPublicVirtualInterface#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.dxPublicVirtualInterface.DxPublicVirtualInterfaceTimeouts\"}", isOptional: true)]

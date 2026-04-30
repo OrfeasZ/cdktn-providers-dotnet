@@ -13,7 +13,7 @@ namespace aws.LbListener
 
         /// <summary>default_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#default_action LbListener#default_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#default_action LbListener#default_action}
         /// </remarks>
         [JsiiProperty(name: "defaultAction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lbListener.LbListenerDefaultAction\"},\"kind\":\"array\"}}]}}")]
         public object DefaultAction
@@ -42,7 +42,7 @@ namespace aws.LbListener
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#load_balancer_arn LbListener#load_balancer_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#load_balancer_arn LbListener#load_balancer_arn}.</summary>
         [JsiiProperty(name: "loadBalancerArn", typeJson: "{\"primitive\":\"string\"}")]
         public string LoadBalancerArn
         {
@@ -50,7 +50,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#alpn_policy LbListener#alpn_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#alpn_policy LbListener#alpn_policy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "alpnPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AlpnPolicy
@@ -59,7 +59,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#certificate_arn LbListener#certificate_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#certificate_arn LbListener#certificate_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateArn
@@ -68,7 +68,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#id LbListener#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#id LbListener#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace aws.LbListener
 
         /// <summary>mutual_authentication block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#mutual_authentication LbListener#mutual_authentication}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#mutual_authentication LbListener#mutual_authentication}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mutualAuthentication", typeJson: "{\"fqn\":\"aws.lbListener.LbListenerMutualAuthentication\"}", isOptional: true)]
@@ -93,7 +93,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#port LbListener#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#port LbListener#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Port
@@ -102,7 +102,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#protocol LbListener#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#protocol LbListener#protocol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Protocol
@@ -113,7 +113,7 @@ namespace aws.LbListener
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#region LbListener#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#region LbListener#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -123,7 +123,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_header_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_header_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpRequestXAmznMtlsClientcertHeaderName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingHttpRequestXAmznMtlsClientcertHeaderName
@@ -132,7 +132,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_issuer_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_issuer_header_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_issuer_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_issuer_header_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpRequestXAmznMtlsClientcertIssuerHeaderName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingHttpRequestXAmznMtlsClientcertIssuerHeaderName
@@ -141,7 +141,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_leaf_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_leaf_header_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_leaf_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_leaf_header_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpRequestXAmznMtlsClientcertLeafHeaderName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingHttpRequestXAmznMtlsClientcertLeafHeaderName
@@ -150,7 +150,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_serial_number_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_serial_number_header_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_serial_number_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_serial_number_header_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpRequestXAmznMtlsClientcertSerialNumberHeaderName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingHttpRequestXAmznMtlsClientcertSerialNumberHeaderName
@@ -159,7 +159,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_subject_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_subject_header_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_subject_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_subject_header_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpRequestXAmznMtlsClientcertSubjectHeaderName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingHttpRequestXAmznMtlsClientcertSubjectHeaderName
@@ -168,7 +168,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_validity_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_validity_header_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_validity_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_validity_header_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpRequestXAmznMtlsClientcertValidityHeaderName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingHttpRequestXAmznMtlsClientcertValidityHeaderName
@@ -177,7 +177,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#routing_http_request_x_amzn_tls_cipher_suite_header_name LbListener#routing_http_request_x_amzn_tls_cipher_suite_header_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#routing_http_request_x_amzn_tls_cipher_suite_header_name LbListener#routing_http_request_x_amzn_tls_cipher_suite_header_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpRequestXAmznTlsCipherSuiteHeaderName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingHttpRequestXAmznTlsCipherSuiteHeaderName
@@ -186,7 +186,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#routing_http_request_x_amzn_tls_version_header_name LbListener#routing_http_request_x_amzn_tls_version_header_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#routing_http_request_x_amzn_tls_version_header_name LbListener#routing_http_request_x_amzn_tls_version_header_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpRequestXAmznTlsVersionHeaderName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingHttpRequestXAmznTlsVersionHeaderName
@@ -195,7 +195,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#routing_http_response_access_control_allow_credentials_header_value LbListener#routing_http_response_access_control_allow_credentials_header_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#routing_http_response_access_control_allow_credentials_header_value LbListener#routing_http_response_access_control_allow_credentials_header_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpResponseAccessControlAllowCredentialsHeaderValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingHttpResponseAccessControlAllowCredentialsHeaderValue
@@ -204,7 +204,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#routing_http_response_access_control_allow_headers_header_value LbListener#routing_http_response_access_control_allow_headers_header_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#routing_http_response_access_control_allow_headers_header_value LbListener#routing_http_response_access_control_allow_headers_header_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpResponseAccessControlAllowHeadersHeaderValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingHttpResponseAccessControlAllowHeadersHeaderValue
@@ -213,7 +213,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#routing_http_response_access_control_allow_methods_header_value LbListener#routing_http_response_access_control_allow_methods_header_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#routing_http_response_access_control_allow_methods_header_value LbListener#routing_http_response_access_control_allow_methods_header_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpResponseAccessControlAllowMethodsHeaderValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingHttpResponseAccessControlAllowMethodsHeaderValue
@@ -222,7 +222,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#routing_http_response_access_control_allow_origin_header_value LbListener#routing_http_response_access_control_allow_origin_header_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#routing_http_response_access_control_allow_origin_header_value LbListener#routing_http_response_access_control_allow_origin_header_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpResponseAccessControlAllowOriginHeaderValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingHttpResponseAccessControlAllowOriginHeaderValue
@@ -231,7 +231,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#routing_http_response_access_control_expose_headers_header_value LbListener#routing_http_response_access_control_expose_headers_header_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#routing_http_response_access_control_expose_headers_header_value LbListener#routing_http_response_access_control_expose_headers_header_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpResponseAccessControlExposeHeadersHeaderValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingHttpResponseAccessControlExposeHeadersHeaderValue
@@ -240,7 +240,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#routing_http_response_access_control_max_age_header_value LbListener#routing_http_response_access_control_max_age_header_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#routing_http_response_access_control_max_age_header_value LbListener#routing_http_response_access_control_max_age_header_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpResponseAccessControlMaxAgeHeaderValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingHttpResponseAccessControlMaxAgeHeaderValue
@@ -249,7 +249,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#routing_http_response_content_security_policy_header_value LbListener#routing_http_response_content_security_policy_header_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#routing_http_response_content_security_policy_header_value LbListener#routing_http_response_content_security_policy_header_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpResponseContentSecurityPolicyHeaderValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingHttpResponseContentSecurityPolicyHeaderValue
@@ -260,7 +260,7 @@ namespace aws.LbListener
 
         private object? _routingHttpResponseServerEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#routing_http_response_server_enabled LbListener#routing_http_response_server_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#routing_http_response_server_enabled LbListener#routing_http_response_server_enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpResponseServerEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? RoutingHttpResponseServerEnabled
@@ -289,7 +289,7 @@ namespace aws.LbListener
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#routing_http_response_strict_transport_security_header_value LbListener#routing_http_response_strict_transport_security_header_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#routing_http_response_strict_transport_security_header_value LbListener#routing_http_response_strict_transport_security_header_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpResponseStrictTransportSecurityHeaderValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingHttpResponseStrictTransportSecurityHeaderValue
@@ -298,7 +298,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#routing_http_response_x_content_type_options_header_value LbListener#routing_http_response_x_content_type_options_header_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#routing_http_response_x_content_type_options_header_value LbListener#routing_http_response_x_content_type_options_header_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpResponseXContentTypeOptionsHeaderValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingHttpResponseXContentTypeOptionsHeaderValue
@@ -307,7 +307,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#routing_http_response_x_frame_options_header_value LbListener#routing_http_response_x_frame_options_header_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#routing_http_response_x_frame_options_header_value LbListener#routing_http_response_x_frame_options_header_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpResponseXFrameOptionsHeaderValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingHttpResponseXFrameOptionsHeaderValue
@@ -316,7 +316,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#ssl_policy LbListener#ssl_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#ssl_policy LbListener#ssl_policy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sslPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SslPolicy
@@ -325,7 +325,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#tags LbListener#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#tags LbListener#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -334,7 +334,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#tags_all LbListener#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#tags_all LbListener#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -343,7 +343,7 @@ namespace aws.LbListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#tcp_idle_timeout_seconds LbListener#tcp_idle_timeout_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#tcp_idle_timeout_seconds LbListener#tcp_idle_timeout_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tcpIdleTimeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TcpIdleTimeoutSeconds
@@ -354,7 +354,7 @@ namespace aws.LbListener
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_listener#timeouts LbListener#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_listener#timeouts LbListener#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.lbListener.LbListenerTimeouts\"}", isOptional: true)]

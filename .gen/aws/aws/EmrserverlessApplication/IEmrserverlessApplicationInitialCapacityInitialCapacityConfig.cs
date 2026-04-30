@@ -7,7 +7,7 @@ namespace aws.EmrserverlessApplication
     [JsiiInterface(nativeType: typeof(IEmrserverlessApplicationInitialCapacityInitialCapacityConfig), fullyQualifiedName: "aws.emrserverlessApplication.EmrserverlessApplicationInitialCapacityInitialCapacityConfig")]
     public interface IEmrserverlessApplicationInitialCapacityInitialCapacityConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrserverless_application#worker_count EmrserverlessApplication#worker_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrserverless_application#worker_count EmrserverlessApplication#worker_count}.</summary>
         [JsiiProperty(name: "workerCount", typeJson: "{\"primitive\":\"number\"}")]
         double WorkerCount
         {
@@ -16,7 +16,7 @@ namespace aws.EmrserverlessApplication
 
         /// <summary>worker_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrserverless_application#worker_configuration EmrserverlessApplication#worker_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrserverless_application#worker_configuration EmrserverlessApplication#worker_configuration}
         /// </remarks>
         [JsiiProperty(name: "workerConfiguration", typeJson: "{\"fqn\":\"aws.emrserverlessApplication.EmrserverlessApplicationInitialCapacityInitialCapacityConfigWorkerConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace aws.EmrserverlessApplication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrserverless_application#worker_count EmrserverlessApplication#worker_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrserverless_application#worker_count EmrserverlessApplication#worker_count}.</summary>
             [JsiiProperty(name: "workerCount", typeJson: "{\"primitive\":\"number\"}")]
             public double WorkerCount
             {
@@ -44,7 +44,7 @@ namespace aws.EmrserverlessApplication
 
             /// <summary>worker_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrserverless_application#worker_configuration EmrserverlessApplication#worker_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrserverless_application#worker_configuration EmrserverlessApplication#worker_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "workerConfiguration", typeJson: "{\"fqn\":\"aws.emrserverlessApplication.EmrserverlessApplicationInitialCapacityInitialCapacityConfigWorkerConfiguration\"}", isOptional: true)]

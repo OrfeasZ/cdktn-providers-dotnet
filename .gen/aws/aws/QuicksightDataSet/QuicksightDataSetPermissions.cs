@@ -9,7 +9,7 @@ namespace aws.QuicksightDataSet
     [JsiiByValue(fqn: "aws.quicksightDataSet.QuicksightDataSetPermissions")]
     public class QuicksightDataSetPermissions : aws.QuicksightDataSet.IQuicksightDataSetPermissions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#actions QuicksightDataSet#actions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#actions QuicksightDataSet#actions}.</summary>
         [JsiiProperty(name: "actions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Actions
         {
@@ -17,7 +17,7 @@ namespace aws.QuicksightDataSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#principal QuicksightDataSet#principal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#principal QuicksightDataSet#principal}.</summary>
         [JsiiProperty(name: "principal", typeJson: "{\"primitive\":\"string\"}")]
         public string Principal
         {

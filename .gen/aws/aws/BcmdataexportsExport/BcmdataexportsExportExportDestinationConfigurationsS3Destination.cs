@@ -9,7 +9,7 @@ namespace aws.BcmdataexportsExport
     [JsiiByValue(fqn: "aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3Destination")]
     public class BcmdataexportsExportExportDestinationConfigurationsS3Destination : aws.BcmdataexportsExport.IBcmdataexportsExportExportDestinationConfigurationsS3Destination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bcmdataexports_export#s3_bucket BcmdataexportsExport#s3_bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bcmdataexports_export#s3_bucket BcmdataexportsExport#s3_bucket}.</summary>
         [JsiiProperty(name: "s3Bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string S3Bucket
         {
@@ -17,7 +17,7 @@ namespace aws.BcmdataexportsExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bcmdataexports_export#s3_prefix BcmdataexportsExport#s3_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bcmdataexports_export#s3_prefix BcmdataexportsExport#s3_prefix}.</summary>
         [JsiiProperty(name: "s3Prefix", typeJson: "{\"primitive\":\"string\"}")]
         public string S3Prefix
         {
@@ -25,7 +25,7 @@ namespace aws.BcmdataexportsExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bcmdataexports_export#s3_region BcmdataexportsExport#s3_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bcmdataexports_export#s3_region BcmdataexportsExport#s3_region}.</summary>
         [JsiiProperty(name: "s3Region", typeJson: "{\"primitive\":\"string\"}")]
         public string S3Region
         {
@@ -37,7 +37,7 @@ namespace aws.BcmdataexportsExport
 
         /// <summary>s3_output_configurations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bcmdataexports_export#s3_output_configurations BcmdataexportsExport#s3_output_configurations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bcmdataexports_export#s3_output_configurations BcmdataexportsExport#s3_output_configurations}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3OutputConfigurations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]

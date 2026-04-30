@@ -9,7 +9,7 @@ namespace aws.Apigatewayv2ApiMapping
     [JsiiByValue(fqn: "aws.apigatewayv2ApiMapping.Apigatewayv2ApiMappingConfig")]
     public class Apigatewayv2ApiMappingConfig : aws.Apigatewayv2ApiMapping.IApigatewayv2ApiMappingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_api_mapping#api_id Apigatewayv2ApiMapping#api_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_api_mapping#api_id Apigatewayv2ApiMapping#api_id}.</summary>
         [JsiiProperty(name: "apiId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiId
         {
@@ -17,7 +17,7 @@ namespace aws.Apigatewayv2ApiMapping
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_api_mapping#domain_name Apigatewayv2ApiMapping#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_api_mapping#domain_name Apigatewayv2ApiMapping#domain_name}.</summary>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainName
         {
@@ -25,7 +25,7 @@ namespace aws.Apigatewayv2ApiMapping
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_api_mapping#stage Apigatewayv2ApiMapping#stage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_api_mapping#stage Apigatewayv2ApiMapping#stage}.</summary>
         [JsiiProperty(name: "stage", typeJson: "{\"primitive\":\"string\"}")]
         public string Stage
         {
@@ -33,7 +33,7 @@ namespace aws.Apigatewayv2ApiMapping
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_api_mapping#api_mapping_key Apigatewayv2ApiMapping#api_mapping_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_api_mapping#api_mapping_key Apigatewayv2ApiMapping#api_mapping_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "apiMappingKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApiMappingKey
@@ -42,7 +42,7 @@ namespace aws.Apigatewayv2ApiMapping
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_api_mapping#id Apigatewayv2ApiMapping#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_api_mapping#id Apigatewayv2ApiMapping#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ namespace aws.Apigatewayv2ApiMapping
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apigatewayv2_api_mapping#region Apigatewayv2ApiMapping#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apigatewayv2_api_mapping#region Apigatewayv2ApiMapping#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.OsisPipeline
     [JsiiByValue(fqn: "aws.osisPipeline.OsisPipelineConfig")]
     public class OsisPipelineConfig : aws.OsisPipeline.IOsisPipelineConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/osis_pipeline#max_units OsisPipeline#max_units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/osis_pipeline#max_units OsisPipeline#max_units}.</summary>
         [JsiiProperty(name: "maxUnits", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxUnits
         {
@@ -17,7 +17,7 @@ namespace aws.OsisPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/osis_pipeline#min_units OsisPipeline#min_units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/osis_pipeline#min_units OsisPipeline#min_units}.</summary>
         [JsiiProperty(name: "minUnits", typeJson: "{\"primitive\":\"number\"}")]
         public double MinUnits
         {
@@ -25,7 +25,7 @@ namespace aws.OsisPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/osis_pipeline#pipeline_configuration_body OsisPipeline#pipeline_configuration_body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/osis_pipeline#pipeline_configuration_body OsisPipeline#pipeline_configuration_body}.</summary>
         [JsiiProperty(name: "pipelineConfigurationBody", typeJson: "{\"primitive\":\"string\"}")]
         public string PipelineConfigurationBody
         {
@@ -33,7 +33,7 @@ namespace aws.OsisPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/osis_pipeline#pipeline_name OsisPipeline#pipeline_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/osis_pipeline#pipeline_name OsisPipeline#pipeline_name}.</summary>
         [JsiiProperty(name: "pipelineName", typeJson: "{\"primitive\":\"string\"}")]
         public string PipelineName
         {
@@ -45,7 +45,7 @@ namespace aws.OsisPipeline
 
         /// <summary>buffer_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/osis_pipeline#buffer_options OsisPipeline#buffer_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/osis_pipeline#buffer_options OsisPipeline#buffer_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bufferOptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.osisPipeline.OsisPipelineBufferOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace aws.OsisPipeline
 
         /// <summary>encryption_at_rest_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/osis_pipeline#encryption_at_rest_options OsisPipeline#encryption_at_rest_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/osis_pipeline#encryption_at_rest_options OsisPipeline#encryption_at_rest_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionAtRestOptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.osisPipeline.OsisPipelineEncryptionAtRestOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -113,7 +113,7 @@ namespace aws.OsisPipeline
 
         /// <summary>log_publishing_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/osis_pipeline#log_publishing_options OsisPipeline#log_publishing_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/osis_pipeline#log_publishing_options OsisPipeline#log_publishing_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logPublishingOptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.osisPipeline.OsisPipelineLogPublishingOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -143,7 +143,7 @@ namespace aws.OsisPipeline
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/osis_pipeline#pipeline_role_arn OsisPipeline#pipeline_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/osis_pipeline#pipeline_role_arn OsisPipeline#pipeline_role_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pipelineRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PipelineRoleArn
@@ -154,7 +154,7 @@ namespace aws.OsisPipeline
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/osis_pipeline#region OsisPipeline#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/osis_pipeline#region OsisPipeline#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -164,7 +164,7 @@ namespace aws.OsisPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/osis_pipeline#tags OsisPipeline#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/osis_pipeline#tags OsisPipeline#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -175,7 +175,7 @@ namespace aws.OsisPipeline
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/osis_pipeline#timeouts OsisPipeline#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/osis_pipeline#timeouts OsisPipeline#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.osisPipeline.OsisPipelineTimeouts\"}", isOptional: true)]
@@ -189,7 +189,7 @@ namespace aws.OsisPipeline
 
         /// <summary>vpc_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/osis_pipeline#vpc_options OsisPipeline#vpc_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/osis_pipeline#vpc_options OsisPipeline#vpc_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpcOptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.osisPipeline.OsisPipelineVpcOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]

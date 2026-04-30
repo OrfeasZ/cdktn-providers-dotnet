@@ -7,7 +7,7 @@ namespace aws.ConnectInstanceStorageConfig
     [JsiiInterface(nativeType: typeof(IConnectInstanceStorageConfigStorageConfigKinesisStreamConfig), fullyQualifiedName: "aws.connectInstanceStorageConfig.ConnectInstanceStorageConfigStorageConfigKinesisStreamConfig")]
     public interface IConnectInstanceStorageConfigStorageConfigKinesisStreamConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_instance_storage_config#stream_arn ConnectInstanceStorageConfig#stream_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_instance_storage_config#stream_arn ConnectInstanceStorageConfig#stream_arn}.</summary>
         [JsiiProperty(name: "streamArn", typeJson: "{\"primitive\":\"string\"}")]
         string StreamArn
         {
@@ -21,7 +21,7 @@ namespace aws.ConnectInstanceStorageConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_instance_storage_config#stream_arn ConnectInstanceStorageConfig#stream_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_instance_storage_config#stream_arn ConnectInstanceStorageConfig#stream_arn}.</summary>
             [JsiiProperty(name: "streamArn", typeJson: "{\"primitive\":\"string\"}")]
             public string StreamArn
             {

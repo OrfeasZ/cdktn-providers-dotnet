@@ -7,7 +7,7 @@ namespace aws.NetworkmanagerDevice
     [JsiiByValue(fqn: "aws.networkmanagerDevice.NetworkmanagerDeviceAwsLocation")]
     public class NetworkmanagerDeviceAwsLocation : aws.NetworkmanagerDevice.INetworkmanagerDeviceAwsLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_device#subnet_arn NetworkmanagerDevice#subnet_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_device#subnet_arn NetworkmanagerDevice#subnet_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subnetArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubnetArn
@@ -16,7 +16,7 @@ namespace aws.NetworkmanagerDevice
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkmanager_device#zone NetworkmanagerDevice#zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkmanager_device#zone NetworkmanagerDevice#zone}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Zone

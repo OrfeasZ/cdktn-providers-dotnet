@@ -9,7 +9,7 @@ namespace aws.EcrRepository
     [JsiiByValue(fqn: "aws.ecrRepository.EcrRepositoryConfig")]
     public class EcrRepositoryConfig : aws.EcrRepository.IEcrRepositoryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#name EcrRepository#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_repository#name EcrRepository#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -21,7 +21,7 @@ namespace aws.EcrRepository
 
         /// <summary>encryption_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#encryption_configuration EcrRepository#encryption_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_repository#encryption_configuration EcrRepository#encryption_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionConfiguration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrRepository.EcrRepositoryEncryptionConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -53,7 +53,7 @@ namespace aws.EcrRepository
 
         private object? _forceDelete;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#force_delete EcrRepository#force_delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_repository#force_delete EcrRepository#force_delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "forceDelete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? ForceDelete
@@ -82,7 +82,7 @@ namespace aws.EcrRepository
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#id EcrRepository#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_repository#id EcrRepository#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -97,7 +97,7 @@ namespace aws.EcrRepository
 
         /// <summary>image_scanning_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#image_scanning_configuration EcrRepository#image_scanning_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_repository#image_scanning_configuration EcrRepository#image_scanning_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "imageScanningConfiguration", typeJson: "{\"fqn\":\"aws.ecrRepository.EcrRepositoryImageScanningConfiguration\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace aws.EcrRepository
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#image_tag_mutability EcrRepository#image_tag_mutability}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_repository#image_tag_mutability EcrRepository#image_tag_mutability}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imageTagMutability", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImageTagMutability
@@ -120,7 +120,7 @@ namespace aws.EcrRepository
 
         /// <summary>image_tag_mutability_exclusion_filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#image_tag_mutability_exclusion_filter EcrRepository#image_tag_mutability_exclusion_filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_repository#image_tag_mutability_exclusion_filter EcrRepository#image_tag_mutability_exclusion_filter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "imageTagMutabilityExclusionFilter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrRepository.EcrRepositoryImageTagMutabilityExclusionFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -152,7 +152,7 @@ namespace aws.EcrRepository
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#region EcrRepository#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_repository#region EcrRepository#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -162,7 +162,7 @@ namespace aws.EcrRepository
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#tags EcrRepository#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_repository#tags EcrRepository#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -171,7 +171,7 @@ namespace aws.EcrRepository
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#tags_all EcrRepository#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_repository#tags_all EcrRepository#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -182,7 +182,7 @@ namespace aws.EcrRepository
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_repository#timeouts EcrRepository#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_repository#timeouts EcrRepository#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.ecrRepository.EcrRepositoryTimeouts\"}", isOptional: true)]

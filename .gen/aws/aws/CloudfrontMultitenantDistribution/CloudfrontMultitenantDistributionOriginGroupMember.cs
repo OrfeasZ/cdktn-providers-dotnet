@@ -9,7 +9,7 @@ namespace aws.CloudfrontMultitenantDistribution
     [JsiiByValue(fqn: "aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionOriginGroupMember")]
     public class CloudfrontMultitenantDistributionOriginGroupMember : aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionOriginGroupMember
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_multitenant_distribution#origin_id CloudfrontMultitenantDistribution#origin_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_multitenant_distribution#origin_id CloudfrontMultitenantDistribution#origin_id}.</summary>
         [JsiiProperty(name: "originId", typeJson: "{\"primitive\":\"string\"}")]
         public string OriginId
         {

@@ -7,21 +7,21 @@ namespace aws.EmrCluster
     [JsiiInterface(nativeType: typeof(IEmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfig), fullyQualifiedName: "aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfig")]
     public interface IEmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#size EmrCluster#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#size EmrCluster#size}.</summary>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}")]
         double Size
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#type EmrCluster#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#type EmrCluster#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#iops EmrCluster#iops}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#iops EmrCluster#iops}.</summary>
         [JsiiProperty(name: "iops", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Iops
@@ -32,7 +32,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#volumes_per_instance EmrCluster#volumes_per_instance}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#volumes_per_instance EmrCluster#volumes_per_instance}.</summary>
         [JsiiProperty(name: "volumesPerInstance", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? VolumesPerInstance
@@ -50,21 +50,21 @@ namespace aws.EmrCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#size EmrCluster#size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#size EmrCluster#size}.</summary>
             [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}")]
             public double Size
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#type EmrCluster#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#type EmrCluster#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#iops EmrCluster#iops}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#iops EmrCluster#iops}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "iops", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Iops
@@ -72,7 +72,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#volumes_per_instance EmrCluster#volumes_per_instance}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#volumes_per_instance EmrCluster#volumes_per_instance}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "volumesPerInstance", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? VolumesPerInstance

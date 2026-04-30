@@ -7,7 +7,7 @@ namespace aws.EcsCapacityProvider
     [JsiiInterface(nativeType: typeof(IEcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateStorageConfiguration), fullyQualifiedName: "aws.ecsCapacityProvider.EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateStorageConfiguration")]
     public interface IEcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateStorageConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_capacity_provider#storage_size_gib EcsCapacityProvider#storage_size_gib}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_capacity_provider#storage_size_gib EcsCapacityProvider#storage_size_gib}.</summary>
         [JsiiProperty(name: "storageSizeGib", typeJson: "{\"primitive\":\"number\"}")]
         double StorageSizeGib
         {
@@ -21,7 +21,7 @@ namespace aws.EcsCapacityProvider
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_capacity_provider#storage_size_gib EcsCapacityProvider#storage_size_gib}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_capacity_provider#storage_size_gib EcsCapacityProvider#storage_size_gib}.</summary>
             [JsiiProperty(name: "storageSizeGib", typeJson: "{\"primitive\":\"number\"}")]
             public double StorageSizeGib
             {

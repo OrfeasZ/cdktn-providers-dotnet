@@ -9,7 +9,7 @@ namespace aws.NetworkfirewallFirewallPolicy
     {
         /// <summary>flow_timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkfirewall_firewall_policy#flow_timeouts NetworkfirewallFirewallPolicy#flow_timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkfirewall_firewall_policy#flow_timeouts NetworkfirewallFirewallPolicy#flow_timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "flowTimeouts", typeJson: "{\"fqn\":\"aws.networkfirewallFirewallPolicy.NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptionsFlowTimeouts\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace aws.NetworkfirewallFirewallPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkfirewall_firewall_policy#rule_order NetworkfirewallFirewallPolicy#rule_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkfirewall_firewall_policy#rule_order NetworkfirewallFirewallPolicy#rule_order}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ruleOrder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RuleOrder
@@ -28,7 +28,7 @@ namespace aws.NetworkfirewallFirewallPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkfirewall_firewall_policy#stream_exception_policy NetworkfirewallFirewallPolicy#stream_exception_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkfirewall_firewall_policy#stream_exception_policy NetworkfirewallFirewallPolicy#stream_exception_policy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "streamExceptionPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StreamExceptionPolicy

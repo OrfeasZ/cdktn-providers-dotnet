@@ -7,7 +7,7 @@ namespace aws.LaunchTemplate
     [JsiiByValue(fqn: "aws.launchTemplate.LaunchTemplateTagSpecifications")]
     public class LaunchTemplateTagSpecifications : aws.LaunchTemplate.ILaunchTemplateTagSpecifications
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#resource_type LaunchTemplate#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#resource_type LaunchTemplate#resource_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceType
@@ -16,7 +16,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#tags LaunchTemplate#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#tags LaunchTemplate#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags

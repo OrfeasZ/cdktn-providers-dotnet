@@ -7,7 +7,7 @@ namespace aws.ImagebuilderImage
     [JsiiInterface(nativeType: typeof(IImagebuilderImageLoggingConfiguration), fullyQualifiedName: "aws.imagebuilderImage.ImagebuilderImageLoggingConfiguration")]
     public interface IImagebuilderImageLoggingConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image#log_group_name ImagebuilderImage#log_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image#log_group_name ImagebuilderImage#log_group_name}.</summary>
         [JsiiProperty(name: "logGroupName", typeJson: "{\"primitive\":\"string\"}")]
         string LogGroupName
         {
@@ -21,7 +21,7 @@ namespace aws.ImagebuilderImage
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image#log_group_name ImagebuilderImage#log_group_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image#log_group_name ImagebuilderImage#log_group_name}.</summary>
             [JsiiProperty(name: "logGroupName", typeJson: "{\"primitive\":\"string\"}")]
             public string LogGroupName
             {

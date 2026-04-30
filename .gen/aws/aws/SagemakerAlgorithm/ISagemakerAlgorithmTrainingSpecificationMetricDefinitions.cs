@@ -7,14 +7,14 @@ namespace aws.SagemakerAlgorithm
     [JsiiInterface(nativeType: typeof(ISagemakerAlgorithmTrainingSpecificationMetricDefinitions), fullyQualifiedName: "aws.sagemakerAlgorithm.SagemakerAlgorithmTrainingSpecificationMetricDefinitions")]
     public interface ISagemakerAlgorithmTrainingSpecificationMetricDefinitions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#name SagemakerAlgorithm#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#name SagemakerAlgorithm#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#regex SagemakerAlgorithm#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#regex SagemakerAlgorithm#regex}.</summary>
         [JsiiProperty(name: "regex", typeJson: "{\"primitive\":\"string\"}")]
         string Regex
         {
@@ -28,14 +28,14 @@ namespace aws.SagemakerAlgorithm
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#name SagemakerAlgorithm#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#name SagemakerAlgorithm#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#regex SagemakerAlgorithm#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#regex SagemakerAlgorithm#regex}.</summary>
             [JsiiProperty(name: "regex", typeJson: "{\"primitive\":\"string\"}")]
             public string Regex
             {

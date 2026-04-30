@@ -7,7 +7,7 @@ namespace aws.Ec2ImageBlockPublicAccess
     [JsiiInterface(nativeType: typeof(IEc2ImageBlockPublicAccessTimeouts), fullyQualifiedName: "aws.ec2ImageBlockPublicAccess.Ec2ImageBlockPublicAccessTimeouts")]
     public interface IEc2ImageBlockPublicAccessTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_image_block_public_access#update Ec2ImageBlockPublicAccess#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_image_block_public_access#update Ec2ImageBlockPublicAccess#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -25,7 +25,7 @@ namespace aws.Ec2ImageBlockPublicAccess
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_image_block_public_access#update Ec2ImageBlockPublicAccess#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_image_block_public_access#update Ec2ImageBlockPublicAccess#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

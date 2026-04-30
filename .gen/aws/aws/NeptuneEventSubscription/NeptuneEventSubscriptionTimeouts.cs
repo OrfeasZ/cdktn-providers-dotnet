@@ -7,7 +7,7 @@ namespace aws.NeptuneEventSubscription
     [JsiiByValue(fqn: "aws.neptuneEventSubscription.NeptuneEventSubscriptionTimeouts")]
     public class NeptuneEventSubscriptionTimeouts : aws.NeptuneEventSubscription.INeptuneEventSubscriptionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/neptune_event_subscription#create NeptuneEventSubscription#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/neptune_event_subscription#create NeptuneEventSubscription#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.NeptuneEventSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/neptune_event_subscription#delete NeptuneEventSubscription#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/neptune_event_subscription#delete NeptuneEventSubscription#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace aws.NeptuneEventSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/neptune_event_subscription#update NeptuneEventSubscription#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/neptune_event_subscription#update NeptuneEventSubscription#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

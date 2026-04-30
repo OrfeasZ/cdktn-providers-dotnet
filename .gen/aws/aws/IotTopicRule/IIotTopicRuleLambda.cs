@@ -7,7 +7,7 @@ namespace aws.IotTopicRule
     [JsiiInterface(nativeType: typeof(IIotTopicRuleLambda), fullyQualifiedName: "aws.iotTopicRule.IotTopicRuleLambda")]
     public interface IIotTopicRuleLambda
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#function_arn IotTopicRule#function_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#function_arn IotTopicRule#function_arn}.</summary>
         [JsiiProperty(name: "functionArn", typeJson: "{\"primitive\":\"string\"}")]
         string FunctionArn
         {
@@ -21,7 +21,7 @@ namespace aws.IotTopicRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#function_arn IotTopicRule#function_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#function_arn IotTopicRule#function_arn}.</summary>
             [JsiiProperty(name: "functionArn", typeJson: "{\"primitive\":\"string\"}")]
             public string FunctionArn
             {

@@ -9,7 +9,7 @@ namespace aws.SagemakerAlgorithm
     [JsiiByValue(fqn: "aws.sagemakerAlgorithm.SagemakerAlgorithmValidationSpecification")]
     public class SagemakerAlgorithmValidationSpecification : aws.SagemakerAlgorithm.ISagemakerAlgorithmValidationSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#validation_role SagemakerAlgorithm#validation_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#validation_role SagemakerAlgorithm#validation_role}.</summary>
         [JsiiProperty(name: "validationRole", typeJson: "{\"primitive\":\"string\"}")]
         public string ValidationRole
         {
@@ -21,7 +21,7 @@ namespace aws.SagemakerAlgorithm
 
         /// <summary>validation_profiles block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_algorithm#validation_profiles SagemakerAlgorithm#validation_profiles}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_algorithm#validation_profiles SagemakerAlgorithm#validation_profiles}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "validationProfiles", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerAlgorithm.SagemakerAlgorithmValidationSpecificationValidationProfiles\"},\"kind\":\"array\"}}]}}", isOptional: true)]

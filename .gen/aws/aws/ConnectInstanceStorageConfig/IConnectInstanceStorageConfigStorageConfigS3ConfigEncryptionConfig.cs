@@ -7,14 +7,14 @@ namespace aws.ConnectInstanceStorageConfig
     [JsiiInterface(nativeType: typeof(IConnectInstanceStorageConfigStorageConfigS3ConfigEncryptionConfig), fullyQualifiedName: "aws.connectInstanceStorageConfig.ConnectInstanceStorageConfigStorageConfigS3ConfigEncryptionConfig")]
     public interface IConnectInstanceStorageConfigStorageConfigS3ConfigEncryptionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_instance_storage_config#encryption_type ConnectInstanceStorageConfig#encryption_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_instance_storage_config#encryption_type ConnectInstanceStorageConfig#encryption_type}.</summary>
         [JsiiProperty(name: "encryptionType", typeJson: "{\"primitive\":\"string\"}")]
         string EncryptionType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_instance_storage_config#key_id ConnectInstanceStorageConfig#key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_instance_storage_config#key_id ConnectInstanceStorageConfig#key_id}.</summary>
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
         string KeyId
         {
@@ -28,14 +28,14 @@ namespace aws.ConnectInstanceStorageConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_instance_storage_config#encryption_type ConnectInstanceStorageConfig#encryption_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_instance_storage_config#encryption_type ConnectInstanceStorageConfig#encryption_type}.</summary>
             [JsiiProperty(name: "encryptionType", typeJson: "{\"primitive\":\"string\"}")]
             public string EncryptionType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_instance_storage_config#key_id ConnectInstanceStorageConfig#key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_instance_storage_config#key_id ConnectInstanceStorageConfig#key_id}.</summary>
             [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
             public string KeyId
             {

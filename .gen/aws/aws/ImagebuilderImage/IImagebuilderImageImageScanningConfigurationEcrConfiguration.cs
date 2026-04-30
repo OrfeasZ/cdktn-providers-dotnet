@@ -7,7 +7,7 @@ namespace aws.ImagebuilderImage
     [JsiiInterface(nativeType: typeof(IImagebuilderImageImageScanningConfigurationEcrConfiguration), fullyQualifiedName: "aws.imagebuilderImage.ImagebuilderImageImageScanningConfigurationEcrConfiguration")]
     public interface IImagebuilderImageImageScanningConfigurationEcrConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image#container_tags ImagebuilderImage#container_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image#container_tags ImagebuilderImage#container_tags}.</summary>
         [JsiiProperty(name: "containerTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ContainerTags
@@ -18,7 +18,7 @@ namespace aws.ImagebuilderImage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image#repository_name ImagebuilderImage#repository_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image#repository_name ImagebuilderImage#repository_name}.</summary>
         [JsiiProperty(name: "repositoryName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RepositoryName
@@ -36,7 +36,7 @@ namespace aws.ImagebuilderImage
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image#container_tags ImagebuilderImage#container_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image#container_tags ImagebuilderImage#container_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "containerTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ContainerTags
@@ -44,7 +44,7 @@ namespace aws.ImagebuilderImage
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image#repository_name ImagebuilderImage#repository_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image#repository_name ImagebuilderImage#repository_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "repositoryName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RepositoryName

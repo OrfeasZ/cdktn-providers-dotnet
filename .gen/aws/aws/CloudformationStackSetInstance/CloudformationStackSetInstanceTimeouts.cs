@@ -7,7 +7,7 @@ namespace aws.CloudformationStackSetInstance
     [JsiiByValue(fqn: "aws.cloudformationStackSetInstance.CloudformationStackSetInstanceTimeouts")]
     public class CloudformationStackSetInstanceTimeouts : aws.CloudformationStackSetInstance.ICloudformationStackSetInstanceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudformation_stack_set_instance#create CloudformationStackSetInstance#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudformation_stack_set_instance#create CloudformationStackSetInstance#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.CloudformationStackSetInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudformation_stack_set_instance#delete CloudformationStackSetInstance#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudformation_stack_set_instance#delete CloudformationStackSetInstance#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace aws.CloudformationStackSetInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudformation_stack_set_instance#update CloudformationStackSetInstance#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudformation_stack_set_instance#update CloudformationStackSetInstance#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

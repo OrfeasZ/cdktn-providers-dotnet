@@ -9,7 +9,7 @@ namespace aws.CloudwatchEventEndpoint
     [JsiiByValue(fqn: "aws.cloudwatchEventEndpoint.CloudwatchEventEndpointEventBus")]
     public class CloudwatchEventEndpointEventBus : aws.CloudwatchEventEndpoint.ICloudwatchEventEndpointEventBus
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_endpoint#event_bus_arn CloudwatchEventEndpoint#event_bus_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_endpoint#event_bus_arn CloudwatchEventEndpoint#event_bus_arn}.</summary>
         [JsiiProperty(name: "eventBusArn", typeJson: "{\"primitive\":\"string\"}")]
         public string EventBusArn
         {

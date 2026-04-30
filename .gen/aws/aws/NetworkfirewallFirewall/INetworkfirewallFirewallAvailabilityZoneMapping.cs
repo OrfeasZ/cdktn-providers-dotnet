@@ -7,7 +7,7 @@ namespace aws.NetworkfirewallFirewall
     [JsiiInterface(nativeType: typeof(INetworkfirewallFirewallAvailabilityZoneMapping), fullyQualifiedName: "aws.networkfirewallFirewall.NetworkfirewallFirewallAvailabilityZoneMapping")]
     public interface INetworkfirewallFirewallAvailabilityZoneMapping
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkfirewall_firewall#availability_zone_id NetworkfirewallFirewall#availability_zone_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkfirewall_firewall#availability_zone_id NetworkfirewallFirewall#availability_zone_id}.</summary>
         [JsiiProperty(name: "availabilityZoneId", typeJson: "{\"primitive\":\"string\"}")]
         string AvailabilityZoneId
         {
@@ -21,7 +21,7 @@ namespace aws.NetworkfirewallFirewall
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkfirewall_firewall#availability_zone_id NetworkfirewallFirewall#availability_zone_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkfirewall_firewall#availability_zone_id NetworkfirewallFirewall#availability_zone_id}.</summary>
             [JsiiProperty(name: "availabilityZoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string AvailabilityZoneId
             {

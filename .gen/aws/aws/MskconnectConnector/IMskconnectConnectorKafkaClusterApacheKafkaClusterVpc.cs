@@ -7,14 +7,14 @@ namespace aws.MskconnectConnector
     [JsiiInterface(nativeType: typeof(IMskconnectConnectorKafkaClusterApacheKafkaClusterVpc), fullyQualifiedName: "aws.mskconnectConnector.MskconnectConnectorKafkaClusterApacheKafkaClusterVpc")]
     public interface IMskconnectConnectorKafkaClusterApacheKafkaClusterVpc
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#security_groups MskconnectConnector#security_groups}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_connector#security_groups MskconnectConnector#security_groups}.</summary>
         [JsiiProperty(name: "securityGroups", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] SecurityGroups
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#subnets MskconnectConnector#subnets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_connector#subnets MskconnectConnector#subnets}.</summary>
         [JsiiProperty(name: "subnets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Subnets
         {
@@ -28,14 +28,14 @@ namespace aws.MskconnectConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#security_groups MskconnectConnector#security_groups}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_connector#security_groups MskconnectConnector#security_groups}.</summary>
             [JsiiProperty(name: "securityGroups", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] SecurityGroups
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#subnets MskconnectConnector#subnets}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_connector#subnets MskconnectConnector#subnets}.</summary>
             [JsiiProperty(name: "subnets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Subnets
             {

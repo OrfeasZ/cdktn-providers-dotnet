@@ -7,7 +7,7 @@ namespace aws.DatasyncLocationHdfs
     [JsiiInterface(nativeType: typeof(IDatasyncLocationHdfsQopConfiguration), fullyQualifiedName: "aws.datasyncLocationHdfs.DatasyncLocationHdfsQopConfiguration")]
     public interface IDatasyncLocationHdfsQopConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_hdfs#data_transfer_protection DatasyncLocationHdfs#data_transfer_protection}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_location_hdfs#data_transfer_protection DatasyncLocationHdfs#data_transfer_protection}.</summary>
         [JsiiProperty(name: "dataTransferProtection", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DataTransferProtection
@@ -18,7 +18,7 @@ namespace aws.DatasyncLocationHdfs
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_hdfs#rpc_protection DatasyncLocationHdfs#rpc_protection}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_location_hdfs#rpc_protection DatasyncLocationHdfs#rpc_protection}.</summary>
         [JsiiProperty(name: "rpcProtection", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RpcProtection
@@ -36,7 +36,7 @@ namespace aws.DatasyncLocationHdfs
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_hdfs#data_transfer_protection DatasyncLocationHdfs#data_transfer_protection}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_location_hdfs#data_transfer_protection DatasyncLocationHdfs#data_transfer_protection}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dataTransferProtection", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DataTransferProtection
@@ -44,7 +44,7 @@ namespace aws.DatasyncLocationHdfs
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_hdfs#rpc_protection DatasyncLocationHdfs#rpc_protection}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_location_hdfs#rpc_protection DatasyncLocationHdfs#rpc_protection}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "rpcProtection", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RpcProtection

@@ -7,7 +7,7 @@ namespace aws.SagemakerFeatureGroup
     [JsiiInterface(nativeType: typeof(ISagemakerFeatureGroupOnlineStoreConfigTtlDuration), fullyQualifiedName: "aws.sagemakerFeatureGroup.SagemakerFeatureGroupOnlineStoreConfigTtlDuration")]
     public interface ISagemakerFeatureGroupOnlineStoreConfigTtlDuration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#unit SagemakerFeatureGroup#unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_feature_group#unit SagemakerFeatureGroup#unit}.</summary>
         [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Unit
@@ -18,7 +18,7 @@ namespace aws.SagemakerFeatureGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#value SagemakerFeatureGroup#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_feature_group#value SagemakerFeatureGroup#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Value
@@ -36,7 +36,7 @@ namespace aws.SagemakerFeatureGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#unit SagemakerFeatureGroup#unit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_feature_group#unit SagemakerFeatureGroup#unit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Unit
@@ -44,7 +44,7 @@ namespace aws.SagemakerFeatureGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#value SagemakerFeatureGroup#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_feature_group#value SagemakerFeatureGroup#value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Value

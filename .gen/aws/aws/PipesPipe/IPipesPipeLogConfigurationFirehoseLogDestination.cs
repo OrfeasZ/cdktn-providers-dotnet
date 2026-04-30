@@ -7,7 +7,7 @@ namespace aws.PipesPipe
     [JsiiInterface(nativeType: typeof(IPipesPipeLogConfigurationFirehoseLogDestination), fullyQualifiedName: "aws.pipesPipe.PipesPipeLogConfigurationFirehoseLogDestination")]
     public interface IPipesPipeLogConfigurationFirehoseLogDestination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#delivery_stream_arn PipesPipe#delivery_stream_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#delivery_stream_arn PipesPipe#delivery_stream_arn}.</summary>
         [JsiiProperty(name: "deliveryStreamArn", typeJson: "{\"primitive\":\"string\"}")]
         string DeliveryStreamArn
         {
@@ -21,7 +21,7 @@ namespace aws.PipesPipe
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#delivery_stream_arn PipesPipe#delivery_stream_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#delivery_stream_arn PipesPipe#delivery_stream_arn}.</summary>
             [JsiiProperty(name: "deliveryStreamArn", typeJson: "{\"primitive\":\"string\"}")]
             public string DeliveryStreamArn
             {

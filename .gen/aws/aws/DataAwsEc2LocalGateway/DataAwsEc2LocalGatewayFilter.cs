@@ -9,7 +9,7 @@ namespace aws.DataAwsEc2LocalGateway
     [JsiiByValue(fqn: "aws.dataAwsEc2LocalGateway.DataAwsEc2LocalGatewayFilter")]
     public class DataAwsEc2LocalGatewayFilter : aws.DataAwsEc2LocalGateway.IDataAwsEc2LocalGatewayFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_local_gateway#name DataAwsEc2LocalGateway#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ec2_local_gateway#name DataAwsEc2LocalGateway#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsEc2LocalGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_local_gateway#values DataAwsEc2LocalGateway#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ec2_local_gateway#values DataAwsEc2LocalGateway#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

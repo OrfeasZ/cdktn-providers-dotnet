@@ -11,7 +11,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>challenge block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl_rule#challenge Wafv2WebAclRuleA#challenge}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl_rule#challenge Wafv2WebAclRuleA#challenge}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "challenge", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupConfigsAwsManagedRulesAntiDdosRuleSetClientSideActionConfigChallenge\"},\"kind\":\"array\"}}]}}", isOptional: true)]

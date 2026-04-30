@@ -9,7 +9,7 @@ namespace aws.ApprunnerService
     {
         private object? _isPubliclyAccessible;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#is_publicly_accessible ApprunnerService#is_publicly_accessible}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#is_publicly_accessible ApprunnerService#is_publicly_accessible}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "isPubliclyAccessible", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IsPubliclyAccessible

@@ -9,7 +9,7 @@ namespace aws.TimestreamwriteTable
     {
         /// <summary>composite_partition_key block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/timestreamwrite_table#composite_partition_key TimestreamwriteTable#composite_partition_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/timestreamwrite_table#composite_partition_key TimestreamwriteTable#composite_partition_key}
         /// </remarks>
         [JsiiProperty(name: "compositePartitionKey", typeJson: "{\"fqn\":\"aws.timestreamwriteTable.TimestreamwriteTableSchemaCompositePartitionKey\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.TimestreamwriteTable
 
             /// <summary>composite_partition_key block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/timestreamwrite_table#composite_partition_key TimestreamwriteTable#composite_partition_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/timestreamwrite_table#composite_partition_key TimestreamwriteTable#composite_partition_key}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "compositePartitionKey", typeJson: "{\"fqn\":\"aws.timestreamwriteTable.TimestreamwriteTableSchemaCompositePartitionKey\"}", isOptional: true)]

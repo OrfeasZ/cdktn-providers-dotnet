@@ -7,7 +7,7 @@ namespace aws.EcsCapacityProvider
     [JsiiInterface(nativeType: typeof(IEcsCapacityProviderManagedInstancesProviderInfrastructureOptimization), fullyQualifiedName: "aws.ecsCapacityProvider.EcsCapacityProviderManagedInstancesProviderInfrastructureOptimization")]
     public interface IEcsCapacityProviderManagedInstancesProviderInfrastructureOptimization
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_capacity_provider#scale_in_after EcsCapacityProvider#scale_in_after}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_capacity_provider#scale_in_after EcsCapacityProvider#scale_in_after}.</summary>
         [JsiiProperty(name: "scaleInAfter", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ScaleInAfter
@@ -25,7 +25,7 @@ namespace aws.EcsCapacityProvider
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_capacity_provider#scale_in_after EcsCapacityProvider#scale_in_after}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_capacity_provider#scale_in_after EcsCapacityProvider#scale_in_after}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scaleInAfter", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ScaleInAfter

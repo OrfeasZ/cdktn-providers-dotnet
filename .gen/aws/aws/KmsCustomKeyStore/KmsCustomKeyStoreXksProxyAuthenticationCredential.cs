@@ -9,7 +9,7 @@ namespace aws.KmsCustomKeyStore
     [JsiiByValue(fqn: "aws.kmsCustomKeyStore.KmsCustomKeyStoreXksProxyAuthenticationCredential")]
     public class KmsCustomKeyStoreXksProxyAuthenticationCredential : aws.KmsCustomKeyStore.IKmsCustomKeyStoreXksProxyAuthenticationCredential
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kms_custom_key_store#access_key_id KmsCustomKeyStore#access_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kms_custom_key_store#access_key_id KmsCustomKeyStore#access_key_id}.</summary>
         [JsiiProperty(name: "accessKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccessKeyId
         {
@@ -17,7 +17,7 @@ namespace aws.KmsCustomKeyStore
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kms_custom_key_store#raw_secret_access_key KmsCustomKeyStore#raw_secret_access_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kms_custom_key_store#raw_secret_access_key KmsCustomKeyStore#raw_secret_access_key}.</summary>
         [JsiiProperty(name: "rawSecretAccessKey", typeJson: "{\"primitive\":\"string\"}")]
         public string RawSecretAccessKey
         {

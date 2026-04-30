@@ -7,35 +7,35 @@ namespace aws.RdsCluster
     [JsiiInterface(nativeType: typeof(IRdsClusterS3Import), fullyQualifiedName: "aws.rdsCluster.RdsClusterS3Import")]
     public interface IRdsClusterS3Import
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster#bucket_name RdsCluster#bucket_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster#bucket_name RdsCluster#bucket_name}.</summary>
         [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
         string BucketName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster#ingestion_role RdsCluster#ingestion_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster#ingestion_role RdsCluster#ingestion_role}.</summary>
         [JsiiProperty(name: "ingestionRole", typeJson: "{\"primitive\":\"string\"}")]
         string IngestionRole
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster#source_engine RdsCluster#source_engine}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster#source_engine RdsCluster#source_engine}.</summary>
         [JsiiProperty(name: "sourceEngine", typeJson: "{\"primitive\":\"string\"}")]
         string SourceEngine
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster#source_engine_version RdsCluster#source_engine_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster#source_engine_version RdsCluster#source_engine_version}.</summary>
         [JsiiProperty(name: "sourceEngineVersion", typeJson: "{\"primitive\":\"string\"}")]
         string SourceEngineVersion
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster#bucket_prefix RdsCluster#bucket_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster#bucket_prefix RdsCluster#bucket_prefix}.</summary>
         [JsiiProperty(name: "bucketPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BucketPrefix
@@ -53,35 +53,35 @@ namespace aws.RdsCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster#bucket_name RdsCluster#bucket_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster#bucket_name RdsCluster#bucket_name}.</summary>
             [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
             public string BucketName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster#ingestion_role RdsCluster#ingestion_role}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster#ingestion_role RdsCluster#ingestion_role}.</summary>
             [JsiiProperty(name: "ingestionRole", typeJson: "{\"primitive\":\"string\"}")]
             public string IngestionRole
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster#source_engine RdsCluster#source_engine}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster#source_engine RdsCluster#source_engine}.</summary>
             [JsiiProperty(name: "sourceEngine", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceEngine
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster#source_engine_version RdsCluster#source_engine_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster#source_engine_version RdsCluster#source_engine_version}.</summary>
             [JsiiProperty(name: "sourceEngineVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceEngineVersion
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rds_cluster#bucket_prefix RdsCluster#bucket_prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rds_cluster#bucket_prefix RdsCluster#bucket_prefix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bucketPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BucketPrefix

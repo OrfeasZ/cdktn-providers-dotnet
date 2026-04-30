@@ -7,21 +7,21 @@ namespace aws.FsxWindowsFileSystem
     [JsiiInterface(nativeType: typeof(IFsxWindowsFileSystemSelfManagedActiveDirectory), fullyQualifiedName: "aws.fsxWindowsFileSystem.FsxWindowsFileSystemSelfManagedActiveDirectory")]
     public interface IFsxWindowsFileSystemSelfManagedActiveDirectory
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_windows_file_system#dns_ips FsxWindowsFileSystem#dns_ips}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_windows_file_system#dns_ips FsxWindowsFileSystem#dns_ips}.</summary>
         [JsiiProperty(name: "dnsIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] DnsIps
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_windows_file_system#domain_name FsxWindowsFileSystem#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_windows_file_system#domain_name FsxWindowsFileSystem#domain_name}.</summary>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         string DomainName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_windows_file_system#domain_join_service_account_secret FsxWindowsFileSystem#domain_join_service_account_secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_windows_file_system#domain_join_service_account_secret FsxWindowsFileSystem#domain_join_service_account_secret}.</summary>
         [JsiiProperty(name: "domainJoinServiceAccountSecret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DomainJoinServiceAccountSecret
@@ -32,7 +32,7 @@ namespace aws.FsxWindowsFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_windows_file_system#file_system_administrators_group FsxWindowsFileSystem#file_system_administrators_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_windows_file_system#file_system_administrators_group FsxWindowsFileSystem#file_system_administrators_group}.</summary>
         [JsiiProperty(name: "fileSystemAdministratorsGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FileSystemAdministratorsGroup
@@ -43,7 +43,7 @@ namespace aws.FsxWindowsFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_windows_file_system#organizational_unit_distinguished_name FsxWindowsFileSystem#organizational_unit_distinguished_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_windows_file_system#organizational_unit_distinguished_name FsxWindowsFileSystem#organizational_unit_distinguished_name}.</summary>
         [JsiiProperty(name: "organizationalUnitDistinguishedName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OrganizationalUnitDistinguishedName
@@ -54,7 +54,7 @@ namespace aws.FsxWindowsFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_windows_file_system#password FsxWindowsFileSystem#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_windows_file_system#password FsxWindowsFileSystem#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Password
@@ -65,7 +65,7 @@ namespace aws.FsxWindowsFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_windows_file_system#username FsxWindowsFileSystem#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_windows_file_system#username FsxWindowsFileSystem#username}.</summary>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Username
@@ -83,21 +83,21 @@ namespace aws.FsxWindowsFileSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_windows_file_system#dns_ips FsxWindowsFileSystem#dns_ips}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_windows_file_system#dns_ips FsxWindowsFileSystem#dns_ips}.</summary>
             [JsiiProperty(name: "dnsIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] DnsIps
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_windows_file_system#domain_name FsxWindowsFileSystem#domain_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_windows_file_system#domain_name FsxWindowsFileSystem#domain_name}.</summary>
             [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
             public string DomainName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_windows_file_system#domain_join_service_account_secret FsxWindowsFileSystem#domain_join_service_account_secret}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_windows_file_system#domain_join_service_account_secret FsxWindowsFileSystem#domain_join_service_account_secret}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "domainJoinServiceAccountSecret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DomainJoinServiceAccountSecret
@@ -105,7 +105,7 @@ namespace aws.FsxWindowsFileSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_windows_file_system#file_system_administrators_group FsxWindowsFileSystem#file_system_administrators_group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_windows_file_system#file_system_administrators_group FsxWindowsFileSystem#file_system_administrators_group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fileSystemAdministratorsGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FileSystemAdministratorsGroup
@@ -113,7 +113,7 @@ namespace aws.FsxWindowsFileSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_windows_file_system#organizational_unit_distinguished_name FsxWindowsFileSystem#organizational_unit_distinguished_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_windows_file_system#organizational_unit_distinguished_name FsxWindowsFileSystem#organizational_unit_distinguished_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "organizationalUnitDistinguishedName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OrganizationalUnitDistinguishedName
@@ -121,7 +121,7 @@ namespace aws.FsxWindowsFileSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_windows_file_system#password FsxWindowsFileSystem#password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_windows_file_system#password FsxWindowsFileSystem#password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Password
@@ -129,7 +129,7 @@ namespace aws.FsxWindowsFileSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_windows_file_system#username FsxWindowsFileSystem#username}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_windows_file_system#username FsxWindowsFileSystem#username}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Username

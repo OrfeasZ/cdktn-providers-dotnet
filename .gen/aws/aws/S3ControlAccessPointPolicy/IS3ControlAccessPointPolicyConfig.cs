@@ -7,21 +7,21 @@ namespace aws.S3ControlAccessPointPolicy
     [JsiiInterface(nativeType: typeof(IS3ControlAccessPointPolicyConfig), fullyQualifiedName: "aws.s3ControlAccessPointPolicy.S3ControlAccessPointPolicyConfig")]
     public interface IS3ControlAccessPointPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_access_point_policy#access_point_arn S3ControlAccessPointPolicy#access_point_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_access_point_policy#access_point_arn S3ControlAccessPointPolicy#access_point_arn}.</summary>
         [JsiiProperty(name: "accessPointArn", typeJson: "{\"primitive\":\"string\"}")]
         string AccessPointArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_access_point_policy#policy S3ControlAccessPointPolicy#policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_access_point_policy#policy S3ControlAccessPointPolicy#policy}.</summary>
         [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}")]
         string Policy
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_access_point_policy#id S3ControlAccessPointPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_access_point_policy#id S3ControlAccessPointPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace aws.S3ControlAccessPointPolicy
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_access_point_policy#region S3ControlAccessPointPolicy#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_access_point_policy#region S3ControlAccessPointPolicy#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,21 +57,21 @@ namespace aws.S3ControlAccessPointPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_access_point_policy#access_point_arn S3ControlAccessPointPolicy#access_point_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_access_point_policy#access_point_arn S3ControlAccessPointPolicy#access_point_arn}.</summary>
             [JsiiProperty(name: "accessPointArn", typeJson: "{\"primitive\":\"string\"}")]
             public string AccessPointArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_access_point_policy#policy S3ControlAccessPointPolicy#policy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_access_point_policy#policy S3ControlAccessPointPolicy#policy}.</summary>
             [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}")]
             public string Policy
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_access_point_policy#id S3ControlAccessPointPolicy#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_access_point_policy#id S3ControlAccessPointPolicy#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace aws.S3ControlAccessPointPolicy
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3control_access_point_policy#region S3ControlAccessPointPolicy#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3control_access_point_policy#region S3ControlAccessPointPolicy#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

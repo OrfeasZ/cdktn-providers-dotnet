@@ -7,7 +7,7 @@ namespace aws.KeyspacesTable
     [JsiiByValue(fqn: "aws.keyspacesTable.KeyspacesTableEncryptionSpecification")]
     public class KeyspacesTableEncryptionSpecification : aws.KeyspacesTable.IKeyspacesTableEncryptionSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/keyspaces_table#kms_key_identifier KeyspacesTable#kms_key_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/keyspaces_table#kms_key_identifier KeyspacesTable#kms_key_identifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyIdentifier
@@ -16,7 +16,7 @@ namespace aws.KeyspacesTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/keyspaces_table#type KeyspacesTable#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/keyspaces_table#type KeyspacesTable#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

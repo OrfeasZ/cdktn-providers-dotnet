@@ -9,7 +9,7 @@ namespace aws.AppconfigDeployment
     [JsiiByValue(fqn: "aws.appconfigDeployment.AppconfigDeploymentConfig")]
     public class AppconfigDeploymentConfig : aws.AppconfigDeployment.IAppconfigDeploymentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_deployment#application_id AppconfigDeployment#application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_deployment#application_id AppconfigDeployment#application_id}.</summary>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationId
         {
@@ -17,7 +17,7 @@ namespace aws.AppconfigDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_deployment#configuration_profile_id AppconfigDeployment#configuration_profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_deployment#configuration_profile_id AppconfigDeployment#configuration_profile_id}.</summary>
         [JsiiProperty(name: "configurationProfileId", typeJson: "{\"primitive\":\"string\"}")]
         public string ConfigurationProfileId
         {
@@ -25,7 +25,7 @@ namespace aws.AppconfigDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_deployment#configuration_version AppconfigDeployment#configuration_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_deployment#configuration_version AppconfigDeployment#configuration_version}.</summary>
         [JsiiProperty(name: "configurationVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string ConfigurationVersion
         {
@@ -33,7 +33,7 @@ namespace aws.AppconfigDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_deployment#deployment_strategy_id AppconfigDeployment#deployment_strategy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_deployment#deployment_strategy_id AppconfigDeployment#deployment_strategy_id}.</summary>
         [JsiiProperty(name: "deploymentStrategyId", typeJson: "{\"primitive\":\"string\"}")]
         public string DeploymentStrategyId
         {
@@ -41,7 +41,7 @@ namespace aws.AppconfigDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_deployment#environment_id AppconfigDeployment#environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_deployment#environment_id AppconfigDeployment#environment_id}.</summary>
         [JsiiProperty(name: "environmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string EnvironmentId
         {
@@ -49,7 +49,7 @@ namespace aws.AppconfigDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_deployment#description AppconfigDeployment#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_deployment#description AppconfigDeployment#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -58,7 +58,7 @@ namespace aws.AppconfigDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_deployment#id AppconfigDeployment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_deployment#id AppconfigDeployment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,7 +71,7 @@ namespace aws.AppconfigDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_deployment#kms_key_identifier AppconfigDeployment#kms_key_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_deployment#kms_key_identifier AppconfigDeployment#kms_key_identifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyIdentifier
@@ -82,7 +82,7 @@ namespace aws.AppconfigDeployment
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_deployment#region AppconfigDeployment#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_deployment#region AppconfigDeployment#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace aws.AppconfigDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_deployment#tags AppconfigDeployment#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_deployment#tags AppconfigDeployment#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -101,7 +101,7 @@ namespace aws.AppconfigDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_deployment#tags_all AppconfigDeployment#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_deployment#tags_all AppconfigDeployment#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll

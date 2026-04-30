@@ -9,7 +9,7 @@ namespace aws.EksCluster
     {
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_cluster#enabled EksCluster#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/eks_cluster#enabled EksCluster#enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Enabled
@@ -38,7 +38,7 @@ namespace aws.EksCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_cluster#node_pools EksCluster#node_pools}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/eks_cluster#node_pools EksCluster#node_pools}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nodePools", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NodePools
@@ -47,7 +47,7 @@ namespace aws.EksCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/eks_cluster#node_role_arn EksCluster#node_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/eks_cluster#node_role_arn EksCluster#node_role_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nodeRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NodeRoleArn

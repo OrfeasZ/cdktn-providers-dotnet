@@ -7,7 +7,7 @@ namespace aws.ServicecatalogOrganizationsAccess
     [JsiiByValue(fqn: "aws.servicecatalogOrganizationsAccess.ServicecatalogOrganizationsAccessTimeouts")]
     public class ServicecatalogOrganizationsAccessTimeouts : aws.ServicecatalogOrganizationsAccess.IServicecatalogOrganizationsAccessTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/servicecatalog_organizations_access#read ServicecatalogOrganizationsAccess#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/servicecatalog_organizations_access#read ServicecatalogOrganizationsAccess#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

@@ -9,7 +9,7 @@ namespace aws.DatasyncLocationNfs
     [JsiiByValue(fqn: "aws.datasyncLocationNfs.DatasyncLocationNfsOnPremConfig")]
     public class DatasyncLocationNfsOnPremConfig : aws.DatasyncLocationNfs.IDatasyncLocationNfsOnPremConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_nfs#agent_arns DatasyncLocationNfs#agent_arns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_location_nfs#agent_arns DatasyncLocationNfs#agent_arns}.</summary>
         [JsiiProperty(name: "agentArns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] AgentArns
         {

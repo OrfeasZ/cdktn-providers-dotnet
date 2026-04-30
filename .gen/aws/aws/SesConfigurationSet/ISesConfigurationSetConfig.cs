@@ -7,7 +7,7 @@ namespace aws.SesConfigurationSet
     [JsiiInterface(nativeType: typeof(ISesConfigurationSetConfig), fullyQualifiedName: "aws.sesConfigurationSet.SesConfigurationSetConfig")]
     public interface ISesConfigurationSetConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#name SesConfigurationSet#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ses_configuration_set#name SesConfigurationSet#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -16,7 +16,7 @@ namespace aws.SesConfigurationSet
 
         /// <summary>delivery_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#delivery_options SesConfigurationSet#delivery_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ses_configuration_set#delivery_options SesConfigurationSet#delivery_options}
         /// </remarks>
         [JsiiProperty(name: "deliveryOptions", typeJson: "{\"fqn\":\"aws.sesConfigurationSet.SesConfigurationSetDeliveryOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,7 +28,7 @@ namespace aws.SesConfigurationSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#id SesConfigurationSet#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ses_configuration_set#id SesConfigurationSet#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,7 +45,7 @@ namespace aws.SesConfigurationSet
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#region SesConfigurationSet#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ses_configuration_set#region SesConfigurationSet#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,7 +57,7 @@ namespace aws.SesConfigurationSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#reputation_metrics_enabled SesConfigurationSet#reputation_metrics_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ses_configuration_set#reputation_metrics_enabled SesConfigurationSet#reputation_metrics_enabled}.</summary>
         [JsiiProperty(name: "reputationMetricsEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? ReputationMetricsEnabled
@@ -68,7 +68,7 @@ namespace aws.SesConfigurationSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#sending_enabled SesConfigurationSet#sending_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ses_configuration_set#sending_enabled SesConfigurationSet#sending_enabled}.</summary>
         [JsiiProperty(name: "sendingEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? SendingEnabled
@@ -81,7 +81,7 @@ namespace aws.SesConfigurationSet
 
         /// <summary>tracking_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#tracking_options SesConfigurationSet#tracking_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ses_configuration_set#tracking_options SesConfigurationSet#tracking_options}
         /// </remarks>
         [JsiiProperty(name: "trackingOptions", typeJson: "{\"fqn\":\"aws.sesConfigurationSet.SesConfigurationSetTrackingOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -100,7 +100,7 @@ namespace aws.SesConfigurationSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#name SesConfigurationSet#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ses_configuration_set#name SesConfigurationSet#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
@@ -109,7 +109,7 @@ namespace aws.SesConfigurationSet
 
             /// <summary>delivery_options block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#delivery_options SesConfigurationSet#delivery_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ses_configuration_set#delivery_options SesConfigurationSet#delivery_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "deliveryOptions", typeJson: "{\"fqn\":\"aws.sesConfigurationSet.SesConfigurationSetDeliveryOptions\"}", isOptional: true)]
@@ -118,7 +118,7 @@ namespace aws.SesConfigurationSet
                 get => GetInstanceProperty<aws.SesConfigurationSet.ISesConfigurationSetDeliveryOptions?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#id SesConfigurationSet#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ses_configuration_set#id SesConfigurationSet#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -132,7 +132,7 @@ namespace aws.SesConfigurationSet
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#region SesConfigurationSet#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ses_configuration_set#region SesConfigurationSet#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -141,7 +141,7 @@ namespace aws.SesConfigurationSet
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#reputation_metrics_enabled SesConfigurationSet#reputation_metrics_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ses_configuration_set#reputation_metrics_enabled SesConfigurationSet#reputation_metrics_enabled}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "reputationMetricsEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? ReputationMetricsEnabled
@@ -149,7 +149,7 @@ namespace aws.SesConfigurationSet
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#sending_enabled SesConfigurationSet#sending_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ses_configuration_set#sending_enabled SesConfigurationSet#sending_enabled}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sendingEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? SendingEnabled
@@ -159,7 +159,7 @@ namespace aws.SesConfigurationSet
 
             /// <summary>tracking_options block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ses_configuration_set#tracking_options SesConfigurationSet#tracking_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ses_configuration_set#tracking_options SesConfigurationSet#tracking_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "trackingOptions", typeJson: "{\"fqn\":\"aws.sesConfigurationSet.SesConfigurationSetTrackingOptions\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.CloudfrontDistribution
     [JsiiByValue(fqn: "aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorLambdaFunctionAssociation")]
     public class CloudfrontDistributionDefaultCacheBehaviorLambdaFunctionAssociation : aws.CloudfrontDistribution.ICloudfrontDistributionDefaultCacheBehaviorLambdaFunctionAssociation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#event_type CloudfrontDistribution#event_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#event_type CloudfrontDistribution#event_type}.</summary>
         [JsiiProperty(name: "eventType", typeJson: "{\"primitive\":\"string\"}")]
         public string EventType
         {
@@ -17,7 +17,7 @@ namespace aws.CloudfrontDistribution
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#lambda_arn CloudfrontDistribution#lambda_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#lambda_arn CloudfrontDistribution#lambda_arn}.</summary>
         [JsiiProperty(name: "lambdaArn", typeJson: "{\"primitive\":\"string\"}")]
         public string LambdaArn
         {
@@ -27,7 +27,7 @@ namespace aws.CloudfrontDistribution
 
         private object? _includeBody;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_distribution#include_body CloudfrontDistribution#include_body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_distribution#include_body CloudfrontDistribution#include_body}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeBody", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeBody

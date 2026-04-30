@@ -13,7 +13,7 @@ namespace aws.AlbListener
 
         /// <summary>target_group block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener#target_group AlbListener#target_group}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_listener#target_group AlbListener#target_group}
         /// </remarks>
         [JsiiProperty(name: "targetGroup", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.albListener.AlbListenerDefaultActionForwardTargetGroup\"},\"kind\":\"array\"}}]}}")]
         public object TargetGroup
@@ -44,7 +44,7 @@ namespace aws.AlbListener
 
         /// <summary>stickiness block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener#stickiness AlbListener#stickiness}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_listener#stickiness AlbListener#stickiness}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stickiness", typeJson: "{\"fqn\":\"aws.albListener.AlbListenerDefaultActionForwardStickiness\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.DynamodbGlobalSecondaryIndex
     [JsiiByValue(fqn: "aws.dynamodbGlobalSecondaryIndex.DynamodbGlobalSecondaryIndexKeySchema")]
     public class DynamodbGlobalSecondaryIndexKeySchema : aws.DynamodbGlobalSecondaryIndex.IDynamodbGlobalSecondaryIndexKeySchema
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_global_secondary_index#attribute_name DynamodbGlobalSecondaryIndex#attribute_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_global_secondary_index#attribute_name DynamodbGlobalSecondaryIndex#attribute_name}.</summary>
         [JsiiProperty(name: "attributeName", typeJson: "{\"primitive\":\"string\"}")]
         public string AttributeName
         {
@@ -17,7 +17,7 @@ namespace aws.DynamodbGlobalSecondaryIndex
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_global_secondary_index#attribute_type DynamodbGlobalSecondaryIndex#attribute_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_global_secondary_index#attribute_type DynamodbGlobalSecondaryIndex#attribute_type}.</summary>
         [JsiiProperty(name: "attributeType", typeJson: "{\"primitive\":\"string\"}")]
         public string AttributeType
         {
@@ -25,7 +25,7 @@ namespace aws.DynamodbGlobalSecondaryIndex
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_global_secondary_index#key_type DynamodbGlobalSecondaryIndex#key_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_global_secondary_index#key_type DynamodbGlobalSecondaryIndex#key_type}.</summary>
         [JsiiProperty(name: "keyType", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyType
         {

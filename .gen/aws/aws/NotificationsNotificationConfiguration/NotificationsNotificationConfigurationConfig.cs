@@ -9,7 +9,7 @@ namespace aws.NotificationsNotificationConfiguration
     [JsiiByValue(fqn: "aws.notificationsNotificationConfiguration.NotificationsNotificationConfigurationConfig")]
     public class NotificationsNotificationConfigurationConfig : aws.NotificationsNotificationConfiguration.INotificationsNotificationConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_notification_configuration#description NotificationsNotificationConfiguration#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/notifications_notification_configuration#description NotificationsNotificationConfiguration#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public string Description
         {
@@ -17,7 +17,7 @@ namespace aws.NotificationsNotificationConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_notification_configuration#name NotificationsNotificationConfiguration#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/notifications_notification_configuration#name NotificationsNotificationConfiguration#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace aws.NotificationsNotificationConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_notification_configuration#aggregation_duration NotificationsNotificationConfiguration#aggregation_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/notifications_notification_configuration#aggregation_duration NotificationsNotificationConfiguration#aggregation_duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "aggregationDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AggregationDuration
@@ -34,7 +34,7 @@ namespace aws.NotificationsNotificationConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notifications_notification_configuration#tags NotificationsNotificationConfiguration#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/notifications_notification_configuration#tags NotificationsNotificationConfiguration#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags

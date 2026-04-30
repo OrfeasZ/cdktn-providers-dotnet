@@ -11,7 +11,7 @@ namespace aws.Wafv2WebAclRule
     {
         /// <summary>Area within the portion of a web request that you want AWS WAF to search for SearchString.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl_rule#positional_constraint Wafv2WebAclRuleA#positional_constraint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl_rule#positional_constraint Wafv2WebAclRuleA#positional_constraint}
         /// </remarks>
         [JsiiProperty(name: "positionalConstraint", typeJson: "{\"primitive\":\"string\"}")]
         public string PositionalConstraint
@@ -22,7 +22,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>String value to search for within the request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl_rule#search_string Wafv2WebAclRuleA#search_string}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl_rule#search_string Wafv2WebAclRuleA#search_string}
         /// </remarks>
         [JsiiProperty(name: "searchString", typeJson: "{\"primitive\":\"string\"}")]
         public string SearchString
@@ -35,7 +35,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>field_to_match block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl_rule#field_to_match Wafv2WebAclRuleA#field_to_match}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl_rule#field_to_match Wafv2WebAclRuleA#field_to_match}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fieldToMatch", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementByteMatchStatementFieldToMatch\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>text_transformation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl_rule#text_transformation Wafv2WebAclRuleA#text_transformation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl_rule#text_transformation Wafv2WebAclRuleA#text_transformation}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "textTransformation", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementByteMatchStatementTextTransformation\"},\"kind\":\"array\"}}]}}", isOptional: true)]

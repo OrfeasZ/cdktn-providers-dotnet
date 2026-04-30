@@ -9,7 +9,7 @@ namespace aws.AppmeshGatewayRoute
     [JsiiByValue(fqn: "aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttp2RouteActionTargetVirtualService")]
     public class AppmeshGatewayRouteSpecHttp2RouteActionTargetVirtualService : aws.AppmeshGatewayRoute.IAppmeshGatewayRouteSpecHttp2RouteActionTargetVirtualService
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_gateway_route#virtual_service_name AppmeshGatewayRoute#virtual_service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_gateway_route#virtual_service_name AppmeshGatewayRoute#virtual_service_name}.</summary>
         [JsiiProperty(name: "virtualServiceName", typeJson: "{\"primitive\":\"string\"}")]
         public string VirtualServiceName
         {

@@ -7,7 +7,7 @@ namespace aws.FsxOpenzfsSnapshot
     [JsiiByValue(fqn: "aws.fsxOpenzfsSnapshot.FsxOpenzfsSnapshotTimeouts")]
     public class FsxOpenzfsSnapshotTimeouts : aws.FsxOpenzfsSnapshot.IFsxOpenzfsSnapshotTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_snapshot#create FsxOpenzfsSnapshot#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_openzfs_snapshot#create FsxOpenzfsSnapshot#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.FsxOpenzfsSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_snapshot#delete FsxOpenzfsSnapshot#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_openzfs_snapshot#delete FsxOpenzfsSnapshot#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace aws.FsxOpenzfsSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_snapshot#read FsxOpenzfsSnapshot#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_openzfs_snapshot#read FsxOpenzfsSnapshot#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read
@@ -34,7 +34,7 @@ namespace aws.FsxOpenzfsSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_openzfs_snapshot#update FsxOpenzfsSnapshot#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_openzfs_snapshot#update FsxOpenzfsSnapshot#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

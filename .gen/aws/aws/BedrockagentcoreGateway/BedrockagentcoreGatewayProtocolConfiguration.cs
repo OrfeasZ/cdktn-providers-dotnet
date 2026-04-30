@@ -11,7 +11,7 @@ namespace aws.BedrockagentcoreGateway
 
         /// <summary>mcp block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagentcore_gateway#mcp BedrockagentcoreGateway#mcp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagentcore_gateway#mcp BedrockagentcoreGateway#mcp}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mcp", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreGateway.BedrockagentcoreGatewayProtocolConfigurationMcp\"},\"kind\":\"array\"}}]}}", isOptional: true)]

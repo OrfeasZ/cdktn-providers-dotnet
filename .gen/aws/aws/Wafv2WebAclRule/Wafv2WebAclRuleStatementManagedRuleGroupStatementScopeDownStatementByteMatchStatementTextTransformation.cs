@@ -9,7 +9,7 @@ namespace aws.Wafv2WebAclRule
     [JsiiByValue(fqn: "aws.wafv2WebAclRule.Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementByteMatchStatementTextTransformation")]
     public class Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementByteMatchStatementTextTransformation : aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementByteMatchStatementTextTransformation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl_rule#priority Wafv2WebAclRuleA#priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl_rule#priority Wafv2WebAclRuleA#priority}.</summary>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
         public double Priority
         {
@@ -17,7 +17,7 @@ namespace aws.Wafv2WebAclRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_web_acl_rule#type Wafv2WebAclRuleA#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_web_acl_rule#type Wafv2WebAclRuleA#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

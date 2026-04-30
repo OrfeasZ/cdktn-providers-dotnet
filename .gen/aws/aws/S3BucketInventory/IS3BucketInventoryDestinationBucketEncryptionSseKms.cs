@@ -7,7 +7,7 @@ namespace aws.S3BucketInventory
     [JsiiInterface(nativeType: typeof(IS3BucketInventoryDestinationBucketEncryptionSseKms), fullyQualifiedName: "aws.s3BucketInventory.S3BucketInventoryDestinationBucketEncryptionSseKms")]
     public interface IS3BucketInventoryDestinationBucketEncryptionSseKms
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_inventory#key_id S3BucketInventory#key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_inventory#key_id S3BucketInventory#key_id}.</summary>
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
         string KeyId
         {
@@ -21,7 +21,7 @@ namespace aws.S3BucketInventory
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_inventory#key_id S3BucketInventory#key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_inventory#key_id S3BucketInventory#key_id}.</summary>
             [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
             public string KeyId
             {

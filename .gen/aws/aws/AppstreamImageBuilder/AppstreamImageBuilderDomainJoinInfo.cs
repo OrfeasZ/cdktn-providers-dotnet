@@ -7,7 +7,7 @@ namespace aws.AppstreamImageBuilder
     [JsiiByValue(fqn: "aws.appstreamImageBuilder.AppstreamImageBuilderDomainJoinInfo")]
     public class AppstreamImageBuilderDomainJoinInfo : aws.AppstreamImageBuilder.IAppstreamImageBuilderDomainJoinInfo
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_image_builder#directory_name AppstreamImageBuilder#directory_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_image_builder#directory_name AppstreamImageBuilder#directory_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "directoryName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DirectoryName
@@ -16,7 +16,7 @@ namespace aws.AppstreamImageBuilder
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appstream_image_builder#organizational_unit_distinguished_name AppstreamImageBuilder#organizational_unit_distinguished_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appstream_image_builder#organizational_unit_distinguished_name AppstreamImageBuilder#organizational_unit_distinguished_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "organizationalUnitDistinguishedName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OrganizationalUnitDistinguishedName

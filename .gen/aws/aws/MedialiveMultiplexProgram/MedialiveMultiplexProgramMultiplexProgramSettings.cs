@@ -9,7 +9,7 @@ namespace aws.MedialiveMultiplexProgram
     [JsiiByValue(fqn: "aws.medialiveMultiplexProgram.MedialiveMultiplexProgramMultiplexProgramSettings")]
     public class MedialiveMultiplexProgramMultiplexProgramSettings : aws.MedialiveMultiplexProgram.IMedialiveMultiplexProgramMultiplexProgramSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_multiplex_program#preferred_channel_pipeline MedialiveMultiplexProgram#preferred_channel_pipeline}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_multiplex_program#preferred_channel_pipeline MedialiveMultiplexProgram#preferred_channel_pipeline}.</summary>
         [JsiiProperty(name: "preferredChannelPipeline", typeJson: "{\"primitive\":\"string\"}")]
         public string PreferredChannelPipeline
         {
@@ -17,7 +17,7 @@ namespace aws.MedialiveMultiplexProgram
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_multiplex_program#program_number MedialiveMultiplexProgram#program_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_multiplex_program#program_number MedialiveMultiplexProgram#program_number}.</summary>
         [JsiiProperty(name: "programNumber", typeJson: "{\"primitive\":\"number\"}")]
         public double ProgramNumber
         {
@@ -29,7 +29,7 @@ namespace aws.MedialiveMultiplexProgram
 
         /// <summary>service_descriptor block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_multiplex_program#service_descriptor MedialiveMultiplexProgram#service_descriptor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_multiplex_program#service_descriptor MedialiveMultiplexProgram#service_descriptor}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serviceDescriptor", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveMultiplexProgram.MedialiveMultiplexProgramMultiplexProgramSettingsServiceDescriptor\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -63,7 +63,7 @@ namespace aws.MedialiveMultiplexProgram
 
         /// <summary>video_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_multiplex_program#video_settings MedialiveMultiplexProgram#video_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_multiplex_program#video_settings MedialiveMultiplexProgram#video_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "videoSettings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveMultiplexProgram.MedialiveMultiplexProgramMultiplexProgramSettingsVideoSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]

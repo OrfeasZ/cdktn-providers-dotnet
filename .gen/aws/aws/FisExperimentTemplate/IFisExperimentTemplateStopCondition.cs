@@ -7,14 +7,14 @@ namespace aws.FisExperimentTemplate
     [JsiiInterface(nativeType: typeof(IFisExperimentTemplateStopCondition), fullyQualifiedName: "aws.fisExperimentTemplate.FisExperimentTemplateStopCondition")]
     public interface IFisExperimentTemplateStopCondition
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#source FisExperimentTemplate#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fis_experiment_template#source FisExperimentTemplate#source}.</summary>
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
         string Source
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#value FisExperimentTemplate#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fis_experiment_template#value FisExperimentTemplate#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Value
@@ -32,14 +32,14 @@ namespace aws.FisExperimentTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#source FisExperimentTemplate#source}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fis_experiment_template#source FisExperimentTemplate#source}.</summary>
             [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
             public string Source
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#value FisExperimentTemplate#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fis_experiment_template#value FisExperimentTemplate#value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Value

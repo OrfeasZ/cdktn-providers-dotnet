@@ -9,7 +9,7 @@ namespace aws.DetectiveMember
     [JsiiByValue(fqn: "aws.detectiveMember.DetectiveMemberConfig")]
     public class DetectiveMemberConfig : aws.DetectiveMember.IDetectiveMemberConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/detective_member#account_id DetectiveMember#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/detective_member#account_id DetectiveMember#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -17,7 +17,7 @@ namespace aws.DetectiveMember
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/detective_member#email_address DetectiveMember#email_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/detective_member#email_address DetectiveMember#email_address}.</summary>
         [JsiiProperty(name: "emailAddress", typeJson: "{\"primitive\":\"string\"}")]
         public string EmailAddress
         {
@@ -25,7 +25,7 @@ namespace aws.DetectiveMember
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/detective_member#graph_arn DetectiveMember#graph_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/detective_member#graph_arn DetectiveMember#graph_arn}.</summary>
         [JsiiProperty(name: "graphArn", typeJson: "{\"primitive\":\"string\"}")]
         public string GraphArn
         {
@@ -35,7 +35,7 @@ namespace aws.DetectiveMember
 
         private object? _disableEmailNotification;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/detective_member#disable_email_notification DetectiveMember#disable_email_notification}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/detective_member#disable_email_notification DetectiveMember#disable_email_notification}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "disableEmailNotification", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? DisableEmailNotification
@@ -64,7 +64,7 @@ namespace aws.DetectiveMember
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/detective_member#id DetectiveMember#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/detective_member#id DetectiveMember#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,7 +77,7 @@ namespace aws.DetectiveMember
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/detective_member#message DetectiveMember#message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/detective_member#message DetectiveMember#message}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "message", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Message
@@ -88,7 +88,7 @@ namespace aws.DetectiveMember
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/detective_member#region DetectiveMember#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/detective_member#region DetectiveMember#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

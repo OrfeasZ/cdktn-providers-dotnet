@@ -7,7 +7,7 @@ namespace aws.LambdaEventSourceMapping
     [JsiiInterface(nativeType: typeof(ILambdaEventSourceMappingMetricsConfig), fullyQualifiedName: "aws.lambdaEventSourceMapping.LambdaEventSourceMappingMetricsConfig")]
     public interface ILambdaEventSourceMappingMetricsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_event_source_mapping#metrics LambdaEventSourceMapping#metrics}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_event_source_mapping#metrics LambdaEventSourceMapping#metrics}.</summary>
         [JsiiProperty(name: "metrics", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Metrics
         {
@@ -21,7 +21,7 @@ namespace aws.LambdaEventSourceMapping
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_event_source_mapping#metrics LambdaEventSourceMapping#metrics}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_event_source_mapping#metrics LambdaEventSourceMapping#metrics}.</summary>
             [JsiiProperty(name: "metrics", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Metrics
             {

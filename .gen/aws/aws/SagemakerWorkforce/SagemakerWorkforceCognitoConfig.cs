@@ -9,7 +9,7 @@ namespace aws.SagemakerWorkforce
     [JsiiByValue(fqn: "aws.sagemakerWorkforce.SagemakerWorkforceCognitoConfig")]
     public class SagemakerWorkforceCognitoConfig : aws.SagemakerWorkforce.ISagemakerWorkforceCognitoConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workforce#client_id SagemakerWorkforce#client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workforce#client_id SagemakerWorkforce#client_id}.</summary>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientId
         {
@@ -17,7 +17,7 @@ namespace aws.SagemakerWorkforce
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workforce#user_pool SagemakerWorkforce#user_pool}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workforce#user_pool SagemakerWorkforce#user_pool}.</summary>
         [JsiiProperty(name: "userPool", typeJson: "{\"primitive\":\"string\"}")]
         public string UserPool
         {

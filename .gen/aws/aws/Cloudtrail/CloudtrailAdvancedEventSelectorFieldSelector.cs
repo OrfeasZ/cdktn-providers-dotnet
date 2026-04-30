@@ -9,7 +9,7 @@ namespace aws.Cloudtrail
     [JsiiByValue(fqn: "aws.cloudtrail.CloudtrailAdvancedEventSelectorFieldSelector")]
     public class CloudtrailAdvancedEventSelectorFieldSelector : aws.Cloudtrail.ICloudtrailAdvancedEventSelectorFieldSelector
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudtrail#field Cloudtrail#field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudtrail#field Cloudtrail#field}.</summary>
         [JsiiProperty(name: "field", typeJson: "{\"primitive\":\"string\"}")]
         public string Field
         {
@@ -17,7 +17,7 @@ namespace aws.Cloudtrail
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudtrail#ends_with Cloudtrail#ends_with}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudtrail#ends_with Cloudtrail#ends_with}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "endsWith", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? EndsWith
@@ -26,7 +26,7 @@ namespace aws.Cloudtrail
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudtrail#equals Cloudtrail#equals}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudtrail#equals Cloudtrail#equals}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "equalTo", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? EqualTo
@@ -35,7 +35,7 @@ namespace aws.Cloudtrail
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudtrail#not_ends_with Cloudtrail#not_ends_with}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudtrail#not_ends_with Cloudtrail#not_ends_with}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "notEndsWith", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NotEndsWith
@@ -44,7 +44,7 @@ namespace aws.Cloudtrail
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudtrail#not_equals Cloudtrail#not_equals}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudtrail#not_equals Cloudtrail#not_equals}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "notEquals", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NotEquals
@@ -53,7 +53,7 @@ namespace aws.Cloudtrail
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudtrail#not_starts_with Cloudtrail#not_starts_with}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudtrail#not_starts_with Cloudtrail#not_starts_with}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "notStartsWith", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NotStartsWith
@@ -62,7 +62,7 @@ namespace aws.Cloudtrail
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudtrail#starts_with Cloudtrail#starts_with}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudtrail#starts_with Cloudtrail#starts_with}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "startsWith", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? StartsWith

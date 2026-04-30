@@ -7,7 +7,7 @@ namespace aws.DataAwsRouteTable
     [JsiiByValue(fqn: "aws.dataAwsRouteTable.DataAwsRouteTableTimeouts")]
     public class DataAwsRouteTableTimeouts : aws.DataAwsRouteTable.IDataAwsRouteTableTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/route_table#read DataAwsRouteTable#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/route_table#read DataAwsRouteTable#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

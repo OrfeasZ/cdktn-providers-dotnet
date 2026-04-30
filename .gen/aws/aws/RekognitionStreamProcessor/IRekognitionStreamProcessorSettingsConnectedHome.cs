@@ -9,7 +9,7 @@ namespace aws.RekognitionStreamProcessor
     {
         /// <summary>Specifies what you want to detect in the video, such as people, packages, or pets.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#labels RekognitionStreamProcessor#labels}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rekognition_stream_processor#labels RekognitionStreamProcessor#labels}
         /// </remarks>
         [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.RekognitionStreamProcessor
 
         /// <summary>The minimum confidence required to label an object in the video.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#min_confidence RekognitionStreamProcessor#min_confidence}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rekognition_stream_processor#min_confidence RekognitionStreamProcessor#min_confidence}
         /// </remarks>
         [JsiiProperty(name: "minConfidence", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace aws.RekognitionStreamProcessor
 
             /// <summary>Specifies what you want to detect in the video, such as people, packages, or pets.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#labels RekognitionStreamProcessor#labels}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rekognition_stream_processor#labels RekognitionStreamProcessor#labels}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace aws.RekognitionStreamProcessor
 
             /// <summary>The minimum confidence required to label an object in the video.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#min_confidence RekognitionStreamProcessor#min_confidence}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rekognition_stream_processor#min_confidence RekognitionStreamProcessor#min_confidence}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "minConfidence", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

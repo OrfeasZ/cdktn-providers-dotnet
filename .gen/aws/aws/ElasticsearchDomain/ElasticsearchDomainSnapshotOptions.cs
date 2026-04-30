@@ -9,7 +9,7 @@ namespace aws.ElasticsearchDomain
     [JsiiByValue(fqn: "aws.elasticsearchDomain.ElasticsearchDomainSnapshotOptions")]
     public class ElasticsearchDomainSnapshotOptions : aws.ElasticsearchDomain.IElasticsearchDomainSnapshotOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#automated_snapshot_start_hour ElasticsearchDomain#automated_snapshot_start_hour}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticsearch_domain#automated_snapshot_start_hour ElasticsearchDomain#automated_snapshot_start_hour}.</summary>
         [JsiiProperty(name: "automatedSnapshotStartHour", typeJson: "{\"primitive\":\"number\"}")]
         public double AutomatedSnapshotStartHour
         {

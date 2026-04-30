@@ -7,7 +7,7 @@ namespace aws.DataAwsEbsEncryptionByDefault
     [JsiiByValue(fqn: "aws.dataAwsEbsEncryptionByDefault.DataAwsEbsEncryptionByDefaultTimeouts")]
     public class DataAwsEbsEncryptionByDefaultTimeouts : aws.DataAwsEbsEncryptionByDefault.IDataAwsEbsEncryptionByDefaultTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ebs_encryption_by_default#read DataAwsEbsEncryptionByDefault#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ebs_encryption_by_default#read DataAwsEbsEncryptionByDefault#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

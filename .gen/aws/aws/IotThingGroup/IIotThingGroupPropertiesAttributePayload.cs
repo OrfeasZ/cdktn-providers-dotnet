@@ -7,7 +7,7 @@ namespace aws.IotThingGroup
     [JsiiInterface(nativeType: typeof(IIotThingGroupPropertiesAttributePayload), fullyQualifiedName: "aws.iotThingGroup.IotThingGroupPropertiesAttributePayload")]
     public interface IIotThingGroupPropertiesAttributePayload
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_thing_group#attributes IotThingGroup#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_thing_group#attributes IotThingGroup#attributes}.</summary>
         [JsiiProperty(name: "attributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Attributes
@@ -25,7 +25,7 @@ namespace aws.IotThingGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_thing_group#attributes IotThingGroup#attributes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_thing_group#attributes IotThingGroup#attributes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Attributes

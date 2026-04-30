@@ -7,7 +7,7 @@ namespace aws.Lexv2ModelsSlotType
     [JsiiInterface(nativeType: typeof(ILexv2ModelsSlotTypeSlotTypeValuesSampleValue), fullyQualifiedName: "aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeSlotTypeValuesSampleValue")]
     public interface ILexv2ModelsSlotTypeSlotTypeValuesSampleValue
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot_type#value Lexv2ModelsSlotType#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot_type#value Lexv2ModelsSlotType#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -21,7 +21,7 @@ namespace aws.Lexv2ModelsSlotType
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot_type#value Lexv2ModelsSlotType#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot_type#value Lexv2ModelsSlotType#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

@@ -9,7 +9,7 @@ namespace aws.WorkspacesIpGroup
     [JsiiByValue(fqn: "aws.workspacesIpGroup.WorkspacesIpGroupRules")]
     public class WorkspacesIpGroupRules : aws.WorkspacesIpGroup.IWorkspacesIpGroupRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspaces_ip_group#source WorkspacesIpGroup#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/workspaces_ip_group#source WorkspacesIpGroup#source}.</summary>
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
         public string Source
         {
@@ -17,7 +17,7 @@ namespace aws.WorkspacesIpGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/workspaces_ip_group#description WorkspacesIpGroup#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/workspaces_ip_group#description WorkspacesIpGroup#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description

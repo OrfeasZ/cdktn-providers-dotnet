@@ -7,7 +7,7 @@ namespace aws.MemorydbSnapshot
     [JsiiByValue(fqn: "aws.memorydbSnapshot.MemorydbSnapshotTimeouts")]
     public class MemorydbSnapshotTimeouts : aws.MemorydbSnapshot.IMemorydbSnapshotTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/memorydb_snapshot#create MemorydbSnapshot#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/memorydb_snapshot#create MemorydbSnapshot#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.MemorydbSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/memorydb_snapshot#delete MemorydbSnapshot#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/memorydb_snapshot#delete MemorydbSnapshot#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

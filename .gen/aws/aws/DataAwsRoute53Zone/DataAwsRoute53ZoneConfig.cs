@@ -9,7 +9,7 @@ namespace aws.DataAwsRoute53Zone
     {
         private object? _enableAcceleratedRecovery;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/route53_zone#enable_accelerated_recovery DataAwsRoute53Zone#enable_accelerated_recovery}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/route53_zone#enable_accelerated_recovery DataAwsRoute53Zone#enable_accelerated_recovery}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enableAcceleratedRecovery", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? EnableAcceleratedRecovery
@@ -38,7 +38,7 @@ namespace aws.DataAwsRoute53Zone
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/route53_zone#id DataAwsRoute53Zone#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/route53_zone#id DataAwsRoute53Zone#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace aws.DataAwsRoute53Zone
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/route53_zone#name DataAwsRoute53Zone#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/route53_zone#name DataAwsRoute53Zone#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -62,7 +62,7 @@ namespace aws.DataAwsRoute53Zone
 
         private object? _privateZone;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/route53_zone#private_zone DataAwsRoute53Zone#private_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/route53_zone#private_zone DataAwsRoute53Zone#private_zone}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateZone", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? PrivateZone
@@ -91,7 +91,7 @@ namespace aws.DataAwsRoute53Zone
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/route53_zone#tags DataAwsRoute53Zone#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/route53_zone#tags DataAwsRoute53Zone#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -100,7 +100,7 @@ namespace aws.DataAwsRoute53Zone
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/route53_zone#vpc_id DataAwsRoute53Zone#vpc_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/route53_zone#vpc_id DataAwsRoute53Zone#vpc_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VpcId
@@ -109,7 +109,7 @@ namespace aws.DataAwsRoute53Zone
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/route53_zone#zone_id DataAwsRoute53Zone#zone_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/route53_zone#zone_id DataAwsRoute53Zone#zone_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ZoneId

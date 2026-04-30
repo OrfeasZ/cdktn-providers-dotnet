@@ -9,7 +9,7 @@ namespace aws.PipesPipe
     [JsiiByValue(fqn: "aws.pipesPipe.PipesPipeSourceParametersRabbitmqBrokerParametersCredentials")]
     public class PipesPipeSourceParametersRabbitmqBrokerParametersCredentials : aws.PipesPipe.IPipesPipeSourceParametersRabbitmqBrokerParametersCredentials
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}.</summary>
         [JsiiProperty(name: "basicAuth", typeJson: "{\"primitive\":\"string\"}")]
         public string BasicAuth
         {

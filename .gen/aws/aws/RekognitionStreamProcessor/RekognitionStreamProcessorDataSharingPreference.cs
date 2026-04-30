@@ -13,7 +13,7 @@ namespace aws.RekognitionStreamProcessor
 
         /// <summary>Do you want to share data with Rekognition to improve model performance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/rekognition_stream_processor#opt_in RekognitionStreamProcessor#opt_in}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/rekognition_stream_processor#opt_in RekognitionStreamProcessor#opt_in}
         /// </remarks>
         [JsiiProperty(name: "optIn", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object OptIn

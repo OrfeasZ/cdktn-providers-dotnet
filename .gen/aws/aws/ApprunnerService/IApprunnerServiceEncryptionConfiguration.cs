@@ -7,7 +7,7 @@ namespace aws.ApprunnerService
     [JsiiInterface(nativeType: typeof(IApprunnerServiceEncryptionConfiguration), fullyQualifiedName: "aws.apprunnerService.ApprunnerServiceEncryptionConfiguration")]
     public interface IApprunnerServiceEncryptionConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#kms_key ApprunnerService#kms_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#kms_key ApprunnerService#kms_key}.</summary>
         [JsiiProperty(name: "kmsKey", typeJson: "{\"primitive\":\"string\"}")]
         string KmsKey
         {
@@ -21,7 +21,7 @@ namespace aws.ApprunnerService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#kms_key ApprunnerService#kms_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#kms_key ApprunnerService#kms_key}.</summary>
             [JsiiProperty(name: "kmsKey", typeJson: "{\"primitive\":\"string\"}")]
             public string KmsKey
             {

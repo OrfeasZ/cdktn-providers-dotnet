@@ -9,7 +9,7 @@ namespace aws.AppsyncResolver
     [JsiiByValue(fqn: "aws.appsyncResolver.AppsyncResolverRuntime")]
     public class AppsyncResolverRuntime : aws.AppsyncResolver.IAppsyncResolverRuntime
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#name AppsyncResolver#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_resolver#name AppsyncResolver#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.AppsyncResolver
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appsync_resolver#runtime_version AppsyncResolver#runtime_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appsync_resolver#runtime_version AppsyncResolver#runtime_version}.</summary>
         [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string RuntimeVersion
         {

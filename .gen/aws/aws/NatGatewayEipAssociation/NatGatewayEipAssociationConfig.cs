@@ -9,7 +9,7 @@ namespace aws.NatGatewayEipAssociation
     [JsiiByValue(fqn: "aws.natGatewayEipAssociation.NatGatewayEipAssociationConfig")]
     public class NatGatewayEipAssociationConfig : aws.NatGatewayEipAssociation.INatGatewayEipAssociationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/nat_gateway_eip_association#allocation_id NatGatewayEipAssociation#allocation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/nat_gateway_eip_association#allocation_id NatGatewayEipAssociation#allocation_id}.</summary>
         [JsiiProperty(name: "allocationId", typeJson: "{\"primitive\":\"string\"}")]
         public string AllocationId
         {
@@ -17,7 +17,7 @@ namespace aws.NatGatewayEipAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/nat_gateway_eip_association#nat_gateway_id NatGatewayEipAssociation#nat_gateway_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/nat_gateway_eip_association#nat_gateway_id NatGatewayEipAssociation#nat_gateway_id}.</summary>
         [JsiiProperty(name: "natGatewayId", typeJson: "{\"primitive\":\"string\"}")]
         public string NatGatewayId
         {
@@ -27,7 +27,7 @@ namespace aws.NatGatewayEipAssociation
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/nat_gateway_eip_association#region NatGatewayEipAssociation#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/nat_gateway_eip_association#region NatGatewayEipAssociation#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace aws.NatGatewayEipAssociation
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/nat_gateway_eip_association#timeouts NatGatewayEipAssociation#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/nat_gateway_eip_association#timeouts NatGatewayEipAssociation#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.natGatewayEipAssociation.NatGatewayEipAssociationTimeouts\"}", isOptional: true)]

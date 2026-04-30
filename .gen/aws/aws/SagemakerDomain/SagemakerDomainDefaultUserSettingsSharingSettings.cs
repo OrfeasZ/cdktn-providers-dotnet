@@ -7,7 +7,7 @@ namespace aws.SagemakerDomain
     [JsiiByValue(fqn: "aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsSharingSettings")]
     public class SagemakerDomainDefaultUserSettingsSharingSettings : aws.SagemakerDomain.ISagemakerDomainDefaultUserSettingsSharingSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#notebook_output_option SagemakerDomain#notebook_output_option}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#notebook_output_option SagemakerDomain#notebook_output_option}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "notebookOutputOption", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NotebookOutputOption
@@ -16,7 +16,7 @@ namespace aws.SagemakerDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#s3_kms_key_id SagemakerDomain#s3_kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#s3_kms_key_id SagemakerDomain#s3_kms_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "s3KmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? S3KmsKeyId
@@ -25,7 +25,7 @@ namespace aws.SagemakerDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_domain#s3_output_path SagemakerDomain#s3_output_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_domain#s3_output_path SagemakerDomain#s3_output_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "s3OutputPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? S3OutputPath

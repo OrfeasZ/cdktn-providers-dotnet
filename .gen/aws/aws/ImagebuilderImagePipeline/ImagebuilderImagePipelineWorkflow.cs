@@ -9,7 +9,7 @@ namespace aws.ImagebuilderImagePipeline
     [JsiiByValue(fqn: "aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflow")]
     public class ImagebuilderImagePipelineWorkflow : aws.ImagebuilderImagePipeline.IImagebuilderImagePipelineWorkflow
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image_pipeline#workflow_arn ImagebuilderImagePipeline#workflow_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image_pipeline#workflow_arn ImagebuilderImagePipeline#workflow_arn}.</summary>
         [JsiiProperty(name: "workflowArn", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkflowArn
         {
@@ -17,7 +17,7 @@ namespace aws.ImagebuilderImagePipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image_pipeline#on_failure ImagebuilderImagePipeline#on_failure}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image_pipeline#on_failure ImagebuilderImagePipeline#on_failure}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "onFailure", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OnFailure
@@ -26,7 +26,7 @@ namespace aws.ImagebuilderImagePipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image_pipeline#parallel_group ImagebuilderImagePipeline#parallel_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image_pipeline#parallel_group ImagebuilderImagePipeline#parallel_group}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parallelGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ParallelGroup
@@ -39,7 +39,7 @@ namespace aws.ImagebuilderImagePipeline
 
         /// <summary>parameter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image_pipeline#parameter ImagebuilderImagePipeline#parameter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image_pipeline#parameter ImagebuilderImagePipeline#parameter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parameter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflowParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]

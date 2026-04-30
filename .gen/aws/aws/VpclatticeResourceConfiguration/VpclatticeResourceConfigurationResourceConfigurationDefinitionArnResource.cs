@@ -9,7 +9,7 @@ namespace aws.VpclatticeResourceConfiguration
     [JsiiByValue(fqn: "aws.vpclatticeResourceConfiguration.VpclatticeResourceConfigurationResourceConfigurationDefinitionArnResource")]
     public class VpclatticeResourceConfigurationResourceConfigurationDefinitionArnResource : aws.VpclatticeResourceConfiguration.IVpclatticeResourceConfigurationResourceConfigurationDefinitionArnResource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpclattice_resource_configuration#arn VpclatticeResourceConfiguration#arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpclattice_resource_configuration#arn VpclatticeResourceConfiguration#arn}.</summary>
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
         public string Arn
         {

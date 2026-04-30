@@ -7,7 +7,7 @@ namespace aws.SyntheticsCanary
     [JsiiInterface(nativeType: typeof(ISyntheticsCanaryVpcConfig), fullyQualifiedName: "aws.syntheticsCanary.SyntheticsCanaryVpcConfig")]
     public interface ISyntheticsCanaryVpcConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/synthetics_canary#ipv6_allowed_for_dual_stack SyntheticsCanary#ipv6_allowed_for_dual_stack}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/synthetics_canary#ipv6_allowed_for_dual_stack SyntheticsCanary#ipv6_allowed_for_dual_stack}.</summary>
         [JsiiProperty(name: "ipv6AllowedForDualStack", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? Ipv6AllowedForDualStack
@@ -18,7 +18,7 @@ namespace aws.SyntheticsCanary
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/synthetics_canary#security_group_ids SyntheticsCanary#security_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/synthetics_canary#security_group_ids SyntheticsCanary#security_group_ids}.</summary>
         [JsiiProperty(name: "securityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SecurityGroupIds
@@ -29,7 +29,7 @@ namespace aws.SyntheticsCanary
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/synthetics_canary#subnet_ids SyntheticsCanary#subnet_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/synthetics_canary#subnet_ids SyntheticsCanary#subnet_ids}.</summary>
         [JsiiProperty(name: "subnetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SubnetIds
@@ -47,7 +47,7 @@ namespace aws.SyntheticsCanary
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/synthetics_canary#ipv6_allowed_for_dual_stack SyntheticsCanary#ipv6_allowed_for_dual_stack}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/synthetics_canary#ipv6_allowed_for_dual_stack SyntheticsCanary#ipv6_allowed_for_dual_stack}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipv6AllowedForDualStack", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? Ipv6AllowedForDualStack
@@ -55,7 +55,7 @@ namespace aws.SyntheticsCanary
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/synthetics_canary#security_group_ids SyntheticsCanary#security_group_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/synthetics_canary#security_group_ids SyntheticsCanary#security_group_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "securityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SecurityGroupIds
@@ -63,7 +63,7 @@ namespace aws.SyntheticsCanary
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/synthetics_canary#subnet_ids SyntheticsCanary#subnet_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/synthetics_canary#subnet_ids SyntheticsCanary#subnet_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subnetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SubnetIds

@@ -9,7 +9,7 @@ namespace aws.DataAwsSavingsplansSavingsPlan
     {
         /// <summary>The ID of the Savings Plan.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/savingsplans_savings_plan#savings_plan_id DataAwsSavingsplansSavingsPlan#savings_plan_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/savingsplans_savings_plan#savings_plan_id DataAwsSavingsplansSavingsPlan#savings_plan_id}
         /// </remarks>
         [JsiiProperty(name: "savingsPlanId", typeJson: "{\"primitive\":\"string\"}")]
         string SavingsPlanId
@@ -26,7 +26,7 @@ namespace aws.DataAwsSavingsplansSavingsPlan
 
             /// <summary>The ID of the Savings Plan.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/savingsplans_savings_plan#savings_plan_id DataAwsSavingsplansSavingsPlan#savings_plan_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/savingsplans_savings_plan#savings_plan_id DataAwsSavingsplansSavingsPlan#savings_plan_id}
             /// </remarks>
             [JsiiProperty(name: "savingsPlanId", typeJson: "{\"primitive\":\"string\"}")]
             public string SavingsPlanId

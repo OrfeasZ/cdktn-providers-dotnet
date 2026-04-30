@@ -7,7 +7,7 @@ namespace aws.NetworkfirewallFirewallPolicy
     [JsiiInterface(nativeType: typeof(INetworkfirewallFirewallPolicyFirewallPolicyStatefulRuleGroupReferenceOverride), fullyQualifiedName: "aws.networkfirewallFirewallPolicy.NetworkfirewallFirewallPolicyFirewallPolicyStatefulRuleGroupReferenceOverride")]
     public interface INetworkfirewallFirewallPolicyFirewallPolicyStatefulRuleGroupReferenceOverride
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkfirewall_firewall_policy#action NetworkfirewallFirewallPolicy#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkfirewall_firewall_policy#action NetworkfirewallFirewallPolicy#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Action
@@ -25,7 +25,7 @@ namespace aws.NetworkfirewallFirewallPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkfirewall_firewall_policy#action NetworkfirewallFirewallPolicy#action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkfirewall_firewall_policy#action NetworkfirewallFirewallPolicy#action}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Action

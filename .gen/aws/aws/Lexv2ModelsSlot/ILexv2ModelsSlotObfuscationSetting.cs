@@ -7,7 +7,7 @@ namespace aws.Lexv2ModelsSlot
     [JsiiInterface(nativeType: typeof(ILexv2ModelsSlotObfuscationSetting), fullyQualifiedName: "aws.lexv2ModelsSlot.Lexv2ModelsSlotObfuscationSetting")]
     public interface ILexv2ModelsSlotObfuscationSetting
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#obfuscation_setting_type Lexv2ModelsSlot#obfuscation_setting_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot#obfuscation_setting_type Lexv2ModelsSlot#obfuscation_setting_type}.</summary>
         [JsiiProperty(name: "obfuscationSettingType", typeJson: "{\"primitive\":\"string\"}")]
         string ObfuscationSettingType
         {
@@ -21,7 +21,7 @@ namespace aws.Lexv2ModelsSlot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#obfuscation_setting_type Lexv2ModelsSlot#obfuscation_setting_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot#obfuscation_setting_type Lexv2ModelsSlot#obfuscation_setting_type}.</summary>
             [JsiiProperty(name: "obfuscationSettingType", typeJson: "{\"primitive\":\"string\"}")]
             public string ObfuscationSettingType
             {

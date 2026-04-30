@@ -7,7 +7,7 @@ namespace aws.CloudfrontOriginRequestPolicy
     [JsiiByValue(fqn: "aws.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyHeadersConfig")]
     public class CloudfrontOriginRequestPolicyHeadersConfig : aws.CloudfrontOriginRequestPolicy.ICloudfrontOriginRequestPolicyHeadersConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_origin_request_policy#header_behavior CloudfrontOriginRequestPolicy#header_behavior}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_origin_request_policy#header_behavior CloudfrontOriginRequestPolicy#header_behavior}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "headerBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HeaderBehavior
@@ -18,7 +18,7 @@ namespace aws.CloudfrontOriginRequestPolicy
 
         /// <summary>headers block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_origin_request_policy#headers CloudfrontOriginRequestPolicy#headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_origin_request_policy#headers CloudfrontOriginRequestPolicy#headers}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "headers", typeJson: "{\"fqn\":\"aws.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyHeadersConfigHeaders\"}", isOptional: true)]

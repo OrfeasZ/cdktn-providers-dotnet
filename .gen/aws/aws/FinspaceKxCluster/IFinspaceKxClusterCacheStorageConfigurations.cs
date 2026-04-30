@@ -7,14 +7,14 @@ namespace aws.FinspaceKxCluster
     [JsiiInterface(nativeType: typeof(IFinspaceKxClusterCacheStorageConfigurations), fullyQualifiedName: "aws.finspaceKxCluster.FinspaceKxClusterCacheStorageConfigurations")]
     public interface IFinspaceKxClusterCacheStorageConfigurations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#size FinspaceKxCluster#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_cluster#size FinspaceKxCluster#size}.</summary>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}")]
         double Size
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#type FinspaceKxCluster#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_cluster#type FinspaceKxCluster#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -28,14 +28,14 @@ namespace aws.FinspaceKxCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#size FinspaceKxCluster#size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_cluster#size FinspaceKxCluster#size}.</summary>
             [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}")]
             public double Size
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#type FinspaceKxCluster#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_cluster#type FinspaceKxCluster#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

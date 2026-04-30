@@ -7,14 +7,14 @@ namespace aws.KendraDataSource
     [JsiiInterface(nativeType: typeof(IKendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration), fullyQualifiedName: "aws.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration")]
     public interface IKendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}.</summary>
         [JsiiProperty(name: "lambdaArn", typeJson: "{\"primitive\":\"string\"}")]
         string LambdaArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}.</summary>
         [JsiiProperty(name: "s3Bucket", typeJson: "{\"primitive\":\"string\"}")]
         string S3Bucket
         {
@@ -23,7 +23,7 @@ namespace aws.KendraDataSource
 
         /// <summary>invocation_condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}
         /// </remarks>
         [JsiiProperty(name: "invocationCondition", typeJson: "{\"fqn\":\"aws.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,14 +42,14 @@ namespace aws.KendraDataSource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}.</summary>
             [JsiiProperty(name: "lambdaArn", typeJson: "{\"primitive\":\"string\"}")]
             public string LambdaArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}.</summary>
             [JsiiProperty(name: "s3Bucket", typeJson: "{\"primitive\":\"string\"}")]
             public string S3Bucket
             {
@@ -58,7 +58,7 @@ namespace aws.KendraDataSource
 
             /// <summary>invocation_condition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "invocationCondition", typeJson: "{\"fqn\":\"aws.kendraDataSource.KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition\"}", isOptional: true)]

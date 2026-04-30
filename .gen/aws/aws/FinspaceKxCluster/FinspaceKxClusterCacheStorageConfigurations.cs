@@ -9,7 +9,7 @@ namespace aws.FinspaceKxCluster
     [JsiiByValue(fqn: "aws.finspaceKxCluster.FinspaceKxClusterCacheStorageConfigurations")]
     public class FinspaceKxClusterCacheStorageConfigurations : aws.FinspaceKxCluster.IFinspaceKxClusterCacheStorageConfigurations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#size FinspaceKxCluster#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_cluster#size FinspaceKxCluster#size}.</summary>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}")]
         public double Size
         {
@@ -17,7 +17,7 @@ namespace aws.FinspaceKxCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#type FinspaceKxCluster#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_cluster#type FinspaceKxCluster#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

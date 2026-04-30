@@ -9,7 +9,7 @@ namespace aws.QuicksightDataSource
     [JsiiByValue(fqn: "aws.quicksightDataSource.QuicksightDataSourceParametersTwitter")]
     public class QuicksightDataSourceParametersTwitter : aws.QuicksightDataSource.IQuicksightDataSourceParametersTwitter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#max_rows QuicksightDataSource#max_rows}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#max_rows QuicksightDataSource#max_rows}.</summary>
         [JsiiProperty(name: "maxRows", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxRows
         {
@@ -17,7 +17,7 @@ namespace aws.QuicksightDataSource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#query QuicksightDataSource#query}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#query QuicksightDataSource#query}.</summary>
         [JsiiProperty(name: "query", typeJson: "{\"primitive\":\"string\"}")]
         public string Query
         {

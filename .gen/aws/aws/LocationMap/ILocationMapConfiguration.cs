@@ -7,7 +7,7 @@ namespace aws.LocationMap
     [JsiiInterface(nativeType: typeof(ILocationMapConfiguration), fullyQualifiedName: "aws.locationMap.LocationMapConfiguration")]
     public interface ILocationMapConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/location_map#style LocationMap#style}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/location_map#style LocationMap#style}.</summary>
         [JsiiProperty(name: "style", typeJson: "{\"primitive\":\"string\"}")]
         string Style
         {
@@ -21,7 +21,7 @@ namespace aws.LocationMap
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/location_map#style LocationMap#style}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/location_map#style LocationMap#style}.</summary>
             [JsiiProperty(name: "style", typeJson: "{\"primitive\":\"string\"}")]
             public string Style
             {

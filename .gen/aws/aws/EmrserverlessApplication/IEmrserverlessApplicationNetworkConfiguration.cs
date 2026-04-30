@@ -7,7 +7,7 @@ namespace aws.EmrserverlessApplication
     [JsiiInterface(nativeType: typeof(IEmrserverlessApplicationNetworkConfiguration), fullyQualifiedName: "aws.emrserverlessApplication.EmrserverlessApplicationNetworkConfiguration")]
     public interface IEmrserverlessApplicationNetworkConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrserverless_application#security_group_ids EmrserverlessApplication#security_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrserverless_application#security_group_ids EmrserverlessApplication#security_group_ids}.</summary>
         [JsiiProperty(name: "securityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SecurityGroupIds
@@ -18,7 +18,7 @@ namespace aws.EmrserverlessApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrserverless_application#subnet_ids EmrserverlessApplication#subnet_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrserverless_application#subnet_ids EmrserverlessApplication#subnet_ids}.</summary>
         [JsiiProperty(name: "subnetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SubnetIds
@@ -36,7 +36,7 @@ namespace aws.EmrserverlessApplication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrserverless_application#security_group_ids EmrserverlessApplication#security_group_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrserverless_application#security_group_ids EmrserverlessApplication#security_group_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "securityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SecurityGroupIds
@@ -44,7 +44,7 @@ namespace aws.EmrserverlessApplication
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emrserverless_application#subnet_ids EmrserverlessApplication#subnet_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emrserverless_application#subnet_ids EmrserverlessApplication#subnet_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subnetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SubnetIds

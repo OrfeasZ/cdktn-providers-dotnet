@@ -7,7 +7,7 @@ namespace aws.Route53RecordsExclusive
     [JsiiInterface(nativeType: typeof(IRoute53RecordsExclusiveResourceRecordSetGeolocation), fullyQualifiedName: "aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetGeolocation")]
     public interface IRoute53RecordsExclusiveResourceRecordSetGeolocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#continent_code Route53RecordsExclusive#continent_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_records_exclusive#continent_code Route53RecordsExclusive#continent_code}.</summary>
         [JsiiProperty(name: "continentCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ContinentCode
@@ -18,7 +18,7 @@ namespace aws.Route53RecordsExclusive
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#country_code Route53RecordsExclusive#country_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_records_exclusive#country_code Route53RecordsExclusive#country_code}.</summary>
         [JsiiProperty(name: "countryCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CountryCode
@@ -29,7 +29,7 @@ namespace aws.Route53RecordsExclusive
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#subdivision_code Route53RecordsExclusive#subdivision_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_records_exclusive#subdivision_code Route53RecordsExclusive#subdivision_code}.</summary>
         [JsiiProperty(name: "subdivisionCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SubdivisionCode
@@ -47,7 +47,7 @@ namespace aws.Route53RecordsExclusive
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#continent_code Route53RecordsExclusive#continent_code}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_records_exclusive#continent_code Route53RecordsExclusive#continent_code}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "continentCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ContinentCode
@@ -55,7 +55,7 @@ namespace aws.Route53RecordsExclusive
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#country_code Route53RecordsExclusive#country_code}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_records_exclusive#country_code Route53RecordsExclusive#country_code}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "countryCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CountryCode
@@ -63,7 +63,7 @@ namespace aws.Route53RecordsExclusive
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_records_exclusive#subdivision_code Route53RecordsExclusive#subdivision_code}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_records_exclusive#subdivision_code Route53RecordsExclusive#subdivision_code}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subdivisionCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SubdivisionCode

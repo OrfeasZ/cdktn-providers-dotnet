@@ -9,7 +9,7 @@ namespace aws.DataAwsQuicksightTheme
     [JsiiByValue(fqn: "aws.dataAwsQuicksightTheme.DataAwsQuicksightThemeConfig")]
     public class DataAwsQuicksightThemeConfig : aws.DataAwsQuicksightTheme.IDataAwsQuicksightThemeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/quicksight_theme#theme_id DataAwsQuicksightTheme#theme_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/quicksight_theme#theme_id DataAwsQuicksightTheme#theme_id}.</summary>
         [JsiiProperty(name: "themeId", typeJson: "{\"primitive\":\"string\"}")]
         public string ThemeId
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsQuicksightTheme
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/quicksight_theme#aws_account_id DataAwsQuicksightTheme#aws_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/quicksight_theme#aws_account_id DataAwsQuicksightTheme#aws_account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "awsAccountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AwsAccountId
@@ -26,7 +26,7 @@ namespace aws.DataAwsQuicksightTheme
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/quicksight_theme#id DataAwsQuicksightTheme#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/quicksight_theme#id DataAwsQuicksightTheme#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ namespace aws.DataAwsQuicksightTheme
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/quicksight_theme#region DataAwsQuicksightTheme#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/quicksight_theme#region DataAwsQuicksightTheme#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace aws.DataAwsQuicksightTheme
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/quicksight_theme#tags DataAwsQuicksightTheme#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/quicksight_theme#tags DataAwsQuicksightTheme#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags

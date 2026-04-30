@@ -7,7 +7,7 @@ namespace aws.DataexchangeRevisionAssets
     [JsiiInterface(nativeType: typeof(IDataexchangeRevisionAssetsAssetImportAssetsFromSignedUrl), fullyQualifiedName: "aws.dataexchangeRevisionAssets.DataexchangeRevisionAssetsAssetImportAssetsFromSignedUrl")]
     public interface IDataexchangeRevisionAssetsAssetImportAssetsFromSignedUrl
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dataexchange_revision_assets#filename DataexchangeRevisionAssets#filename}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dataexchange_revision_assets#filename DataexchangeRevisionAssets#filename}.</summary>
         [JsiiProperty(name: "filename", typeJson: "{\"primitive\":\"string\"}")]
         string Filename
         {
@@ -21,7 +21,7 @@ namespace aws.DataexchangeRevisionAssets
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dataexchange_revision_assets#filename DataexchangeRevisionAssets#filename}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dataexchange_revision_assets#filename DataexchangeRevisionAssets#filename}.</summary>
             [JsiiProperty(name: "filename", typeJson: "{\"primitive\":\"string\"}")]
             public string Filename
             {

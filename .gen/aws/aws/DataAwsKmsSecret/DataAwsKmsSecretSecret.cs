@@ -9,7 +9,7 @@ namespace aws.DataAwsKmsSecret
     [JsiiByValue(fqn: "aws.dataAwsKmsSecret.DataAwsKmsSecretSecret")]
     public class DataAwsKmsSecretSecret : aws.DataAwsKmsSecret.IDataAwsKmsSecretSecret
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/kms_secret#name DataAwsKmsSecret#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/kms_secret#name DataAwsKmsSecret#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsKmsSecret
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/kms_secret#payload DataAwsKmsSecret#payload}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/kms_secret#payload DataAwsKmsSecret#payload}.</summary>
         [JsiiProperty(name: "payload", typeJson: "{\"primitive\":\"string\"}")]
         public string Payload
         {
@@ -25,7 +25,7 @@ namespace aws.DataAwsKmsSecret
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/kms_secret#context DataAwsKmsSecret#context}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/kms_secret#context DataAwsKmsSecret#context}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "context", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Context
@@ -34,7 +34,7 @@ namespace aws.DataAwsKmsSecret
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/kms_secret#grant_tokens DataAwsKmsSecret#grant_tokens}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/kms_secret#grant_tokens DataAwsKmsSecret#grant_tokens}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "grantTokens", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? GrantTokens

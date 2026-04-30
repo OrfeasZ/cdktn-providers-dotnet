@@ -7,7 +7,7 @@ namespace aws.DataAwsEc2ManagedPrefixList
     [JsiiInterface(nativeType: typeof(IDataAwsEc2ManagedPrefixListTimeouts), fullyQualifiedName: "aws.dataAwsEc2ManagedPrefixList.DataAwsEc2ManagedPrefixListTimeouts")]
     public interface IDataAwsEc2ManagedPrefixListTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_managed_prefix_list#read DataAwsEc2ManagedPrefixList#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ec2_managed_prefix_list#read DataAwsEc2ManagedPrefixList#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace aws.DataAwsEc2ManagedPrefixList
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_managed_prefix_list#read DataAwsEc2ManagedPrefixList#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ec2_managed_prefix_list#read DataAwsEc2ManagedPrefixList#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

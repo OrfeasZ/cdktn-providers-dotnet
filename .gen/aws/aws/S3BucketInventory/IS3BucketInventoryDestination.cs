@@ -9,7 +9,7 @@ namespace aws.S3BucketInventory
     {
         /// <summary>bucket block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_inventory#bucket S3BucketInventory#bucket}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_inventory#bucket S3BucketInventory#bucket}
         /// </remarks>
         [JsiiProperty(name: "bucket", typeJson: "{\"fqn\":\"aws.s3BucketInventory.S3BucketInventoryDestinationBucket\"}")]
         aws.S3BucketInventory.IS3BucketInventoryDestinationBucket Bucket
@@ -26,7 +26,7 @@ namespace aws.S3BucketInventory
 
             /// <summary>bucket block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_inventory#bucket S3BucketInventory#bucket}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_inventory#bucket S3BucketInventory#bucket}
             /// </remarks>
             [JsiiProperty(name: "bucket", typeJson: "{\"fqn\":\"aws.s3BucketInventory.S3BucketInventoryDestinationBucket\"}")]
             public aws.S3BucketInventory.IS3BucketInventoryDestinationBucket Bucket

@@ -7,7 +7,7 @@ namespace aws.DatazoneEnvironmentProfile
     [JsiiInterface(nativeType: typeof(IDatazoneEnvironmentProfileUserParameters), fullyQualifiedName: "aws.datazoneEnvironmentProfile.DatazoneEnvironmentProfileUserParameters")]
     public interface IDatazoneEnvironmentProfileUserParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment_profile#name DatazoneEnvironmentProfile#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datazone_environment_profile#name DatazoneEnvironmentProfile#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -18,7 +18,7 @@ namespace aws.DatazoneEnvironmentProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment_profile#value DatazoneEnvironmentProfile#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datazone_environment_profile#value DatazoneEnvironmentProfile#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Value
@@ -36,7 +36,7 @@ namespace aws.DatazoneEnvironmentProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment_profile#name DatazoneEnvironmentProfile#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datazone_environment_profile#name DatazoneEnvironmentProfile#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -44,7 +44,7 @@ namespace aws.DatazoneEnvironmentProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datazone_environment_profile#value DatazoneEnvironmentProfile#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datazone_environment_profile#value DatazoneEnvironmentProfile#value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Value

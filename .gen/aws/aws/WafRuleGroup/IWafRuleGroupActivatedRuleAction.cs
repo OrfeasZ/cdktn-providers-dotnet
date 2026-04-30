@@ -7,7 +7,7 @@ namespace aws.WafRuleGroup
     [JsiiInterface(nativeType: typeof(IWafRuleGroupActivatedRuleAction), fullyQualifiedName: "aws.wafRuleGroup.WafRuleGroupActivatedRuleAction")]
     public interface IWafRuleGroupActivatedRuleAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_rule_group#type WafRuleGroup#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/waf_rule_group#type WafRuleGroup#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -21,7 +21,7 @@ namespace aws.WafRuleGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_rule_group#type WafRuleGroup#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/waf_rule_group#type WafRuleGroup#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

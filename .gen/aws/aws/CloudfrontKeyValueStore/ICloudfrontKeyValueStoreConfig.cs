@@ -7,14 +7,14 @@ namespace aws.CloudfrontKeyValueStore
     [JsiiInterface(nativeType: typeof(ICloudfrontKeyValueStoreConfig), fullyQualifiedName: "aws.cloudfrontKeyValueStore.CloudfrontKeyValueStoreConfig")]
     public interface ICloudfrontKeyValueStoreConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_key_value_store#name CloudfrontKeyValueStore#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_key_value_store#name CloudfrontKeyValueStore#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_key_value_store#comment CloudfrontKeyValueStore#comment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_key_value_store#comment CloudfrontKeyValueStore#comment}.</summary>
         [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Comment
@@ -27,7 +27,7 @@ namespace aws.CloudfrontKeyValueStore
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_key_value_store#timeouts CloudfrontKeyValueStore#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_key_value_store#timeouts CloudfrontKeyValueStore#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.cloudfrontKeyValueStore.CloudfrontKeyValueStoreTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -46,14 +46,14 @@ namespace aws.CloudfrontKeyValueStore
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_key_value_store#name CloudfrontKeyValueStore#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_key_value_store#name CloudfrontKeyValueStore#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_key_value_store#comment CloudfrontKeyValueStore#comment}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_key_value_store#comment CloudfrontKeyValueStore#comment}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Comment
@@ -63,7 +63,7 @@ namespace aws.CloudfrontKeyValueStore
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_key_value_store#timeouts CloudfrontKeyValueStore#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_key_value_store#timeouts CloudfrontKeyValueStore#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.cloudfrontKeyValueStore.CloudfrontKeyValueStoreTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.BedrockGuardrail
     [JsiiByValue(fqn: "aws.bedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfigFiltersConfig")]
     public class BedrockGuardrailContextualGroundingPolicyConfigFiltersConfig : aws.BedrockGuardrail.IBedrockGuardrailContextualGroundingPolicyConfigFiltersConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrock_guardrail#threshold BedrockGuardrail#threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrock_guardrail#threshold BedrockGuardrail#threshold}.</summary>
         [JsiiProperty(name: "threshold", typeJson: "{\"primitive\":\"number\"}")]
         public double Threshold
         {
@@ -17,7 +17,7 @@ namespace aws.BedrockGuardrail
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

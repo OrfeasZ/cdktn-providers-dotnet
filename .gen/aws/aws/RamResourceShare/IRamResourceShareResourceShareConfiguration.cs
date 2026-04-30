@@ -7,7 +7,7 @@ namespace aws.RamResourceShare
     [JsiiInterface(nativeType: typeof(IRamResourceShareResourceShareConfiguration), fullyQualifiedName: "aws.ramResourceShare.RamResourceShareResourceShareConfiguration")]
     public interface IRamResourceShareResourceShareConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ram_resource_share#retain_sharing_on_account_leave_organization RamResourceShare#retain_sharing_on_account_leave_organization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ram_resource_share#retain_sharing_on_account_leave_organization RamResourceShare#retain_sharing_on_account_leave_organization}.</summary>
         [JsiiProperty(name: "retainSharingOnAccountLeaveOrganization", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? RetainSharingOnAccountLeaveOrganization
@@ -25,7 +25,7 @@ namespace aws.RamResourceShare
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ram_resource_share#retain_sharing_on_account_leave_organization RamResourceShare#retain_sharing_on_account_leave_organization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ram_resource_share#retain_sharing_on_account_leave_organization RamResourceShare#retain_sharing_on_account_leave_organization}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "retainSharingOnAccountLeaveOrganization", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? RetainSharingOnAccountLeaveOrganization

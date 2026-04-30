@@ -9,7 +9,7 @@ namespace aws.MskCluster
     {
         /// <summary>client_authentication block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_cluster#client_authentication MskCluster#client_authentication}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_cluster#client_authentication MskCluster#client_authentication}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientAuthentication", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthentication\"}", isOptional: true)]

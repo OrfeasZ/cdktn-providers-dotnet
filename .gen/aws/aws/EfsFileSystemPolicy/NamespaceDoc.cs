@@ -5,7 +5,7 @@ namespace aws.EfsFileSystemPolicy
     /// <remarks>
     /// <h1><c>aws_efs_file_system_policy</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_file_system_policy"><c>aws_efs_file_system_policy</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_file_system_policy"><c>aws_efs_file_system_policy</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

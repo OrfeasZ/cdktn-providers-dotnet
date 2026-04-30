@@ -11,7 +11,7 @@ namespace aws.CloudfrontMultitenantDistribution
 
         /// <summary>string_schema block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_multitenant_distribution#string_schema CloudfrontMultitenantDistribution#string_schema}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_multitenant_distribution#string_schema CloudfrontMultitenantDistribution#string_schema}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stringSchema", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionTenantConfigParameterDefinitionDefinitionStringSchema\"},\"kind\":\"array\"}}]}}", isOptional: true)]

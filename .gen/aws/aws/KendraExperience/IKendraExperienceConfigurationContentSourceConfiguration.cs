@@ -7,7 +7,7 @@ namespace aws.KendraExperience
     [JsiiInterface(nativeType: typeof(IKendraExperienceConfigurationContentSourceConfiguration), fullyQualifiedName: "aws.kendraExperience.KendraExperienceConfigurationContentSourceConfiguration")]
     public interface IKendraExperienceConfigurationContentSourceConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_experience#data_source_ids KendraExperience#data_source_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_experience#data_source_ids KendraExperience#data_source_ids}.</summary>
         [JsiiProperty(name: "dataSourceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? DataSourceIds
@@ -18,7 +18,7 @@ namespace aws.KendraExperience
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_experience#direct_put_content KendraExperience#direct_put_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_experience#direct_put_content KendraExperience#direct_put_content}.</summary>
         [JsiiProperty(name: "directPutContent", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? DirectPutContent
@@ -29,7 +29,7 @@ namespace aws.KendraExperience
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_experience#faq_ids KendraExperience#faq_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_experience#faq_ids KendraExperience#faq_ids}.</summary>
         [JsiiProperty(name: "faqIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? FaqIds
@@ -47,7 +47,7 @@ namespace aws.KendraExperience
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_experience#data_source_ids KendraExperience#data_source_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_experience#data_source_ids KendraExperience#data_source_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dataSourceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? DataSourceIds
@@ -55,7 +55,7 @@ namespace aws.KendraExperience
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_experience#direct_put_content KendraExperience#direct_put_content}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_experience#direct_put_content KendraExperience#direct_put_content}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "directPutContent", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? DirectPutContent
@@ -63,7 +63,7 @@ namespace aws.KendraExperience
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_experience#faq_ids KendraExperience#faq_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_experience#faq_ids KendraExperience#faq_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "faqIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? FaqIds

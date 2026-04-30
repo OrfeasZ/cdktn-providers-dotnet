@@ -7,7 +7,7 @@ namespace aws.MskconnectConnector
     [JsiiInterface(nativeType: typeof(IMskconnectConnectorKafkaClusterClientAuthentication), fullyQualifiedName: "aws.mskconnectConnector.MskconnectConnectorKafkaClusterClientAuthentication")]
     public interface IMskconnectConnectorKafkaClusterClientAuthentication
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#authentication_type MskconnectConnector#authentication_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_connector#authentication_type MskconnectConnector#authentication_type}.</summary>
         [JsiiProperty(name: "authenticationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AuthenticationType
@@ -25,7 +25,7 @@ namespace aws.MskconnectConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#authentication_type MskconnectConnector#authentication_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_connector#authentication_type MskconnectConnector#authentication_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authenticationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AuthenticationType

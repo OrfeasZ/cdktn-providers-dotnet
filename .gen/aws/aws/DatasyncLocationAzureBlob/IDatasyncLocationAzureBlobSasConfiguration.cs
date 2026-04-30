@@ -7,7 +7,7 @@ namespace aws.DatasyncLocationAzureBlob
     [JsiiInterface(nativeType: typeof(IDatasyncLocationAzureBlobSasConfiguration), fullyQualifiedName: "aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlobSasConfiguration")]
     public interface IDatasyncLocationAzureBlobSasConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_azure_blob#token DatasyncLocationAzureBlob#token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_location_azure_blob#token DatasyncLocationAzureBlob#token}.</summary>
         [JsiiProperty(name: "token", typeJson: "{\"primitive\":\"string\"}")]
         string Token
         {
@@ -21,7 +21,7 @@ namespace aws.DatasyncLocationAzureBlob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/datasync_location_azure_blob#token DatasyncLocationAzureBlob#token}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/datasync_location_azure_blob#token DatasyncLocationAzureBlob#token}.</summary>
             [JsiiProperty(name: "token", typeJson: "{\"primitive\":\"string\"}")]
             public string Token
             {

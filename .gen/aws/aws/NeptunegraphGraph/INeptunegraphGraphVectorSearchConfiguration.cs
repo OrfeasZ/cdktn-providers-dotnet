@@ -9,7 +9,7 @@ namespace aws.NeptunegraphGraph
     {
         /// <summary>Specifies the number of dimensions for vector embeddings.  Value must be between 1 and 65,535.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/neptunegraph_graph#vector_search_dimension NeptunegraphGraph#vector_search_dimension}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/neptunegraph_graph#vector_search_dimension NeptunegraphGraph#vector_search_dimension}
         /// </remarks>
         [JsiiProperty(name: "vectorSearchDimension", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.NeptunegraphGraph
 
             /// <summary>Specifies the number of dimensions for vector embeddings.  Value must be between 1 and 65,535.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/neptunegraph_graph#vector_search_dimension NeptunegraphGraph#vector_search_dimension}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/neptunegraph_graph#vector_search_dimension NeptunegraphGraph#vector_search_dimension}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vectorSearchDimension", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

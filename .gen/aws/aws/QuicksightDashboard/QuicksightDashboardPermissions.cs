@@ -9,7 +9,7 @@ namespace aws.QuicksightDashboard
     [JsiiByValue(fqn: "aws.quicksightDashboard.QuicksightDashboardPermissions")]
     public class QuicksightDashboardPermissions : aws.QuicksightDashboard.IQuicksightDashboardPermissions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#actions QuicksightDashboard#actions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#actions QuicksightDashboard#actions}.</summary>
         [JsiiProperty(name: "actions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Actions
         {
@@ -17,7 +17,7 @@ namespace aws.QuicksightDashboard
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#principal QuicksightDashboard#principal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#principal QuicksightDashboard#principal}.</summary>
         [JsiiProperty(name: "principal", typeJson: "{\"primitive\":\"string\"}")]
         public string Principal
         {

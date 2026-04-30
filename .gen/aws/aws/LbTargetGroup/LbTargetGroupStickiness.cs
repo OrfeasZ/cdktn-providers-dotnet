@@ -9,7 +9,7 @@ namespace aws.LbTargetGroup
     [JsiiByValue(fqn: "aws.lbTargetGroup.LbTargetGroupStickiness")]
     public class LbTargetGroupStickiness : aws.LbTargetGroup.ILbTargetGroupStickiness
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#type LbTargetGroup#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#type LbTargetGroup#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.LbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#cookie_duration LbTargetGroup#cookie_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#cookie_duration LbTargetGroup#cookie_duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cookieDuration", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? CookieDuration
@@ -26,7 +26,7 @@ namespace aws.LbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#cookie_name LbTargetGroup#cookie_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#cookie_name LbTargetGroup#cookie_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cookieName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CookieName
@@ -37,7 +37,7 @@ namespace aws.LbTargetGroup
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lb_target_group#enabled LbTargetGroup#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lb_target_group#enabled LbTargetGroup#enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Enabled

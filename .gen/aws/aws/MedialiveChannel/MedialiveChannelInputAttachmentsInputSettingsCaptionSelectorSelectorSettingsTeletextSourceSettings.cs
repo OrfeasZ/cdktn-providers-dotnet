@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     {
         /// <summary>output_rectangle block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#output_rectangle MedialiveChannel#output_rectangle}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#output_rectangle MedialiveChannel#output_rectangle}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "outputRectangle", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsCaptionSelectorSelectorSettingsTeletextSourceSettingsOutputRectangle\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#page_number MedialiveChannel#page_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#page_number MedialiveChannel#page_number}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pageNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PageNumber

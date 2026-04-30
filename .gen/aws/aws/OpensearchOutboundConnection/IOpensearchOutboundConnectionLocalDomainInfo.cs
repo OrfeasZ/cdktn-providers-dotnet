@@ -7,21 +7,21 @@ namespace aws.OpensearchOutboundConnection
     [JsiiInterface(nativeType: typeof(IOpensearchOutboundConnectionLocalDomainInfo), fullyQualifiedName: "aws.opensearchOutboundConnection.OpensearchOutboundConnectionLocalDomainInfo")]
     public interface IOpensearchOutboundConnectionLocalDomainInfo
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_outbound_connection#domain_name OpensearchOutboundConnection#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_outbound_connection#domain_name OpensearchOutboundConnection#domain_name}.</summary>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         string DomainName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_outbound_connection#owner_id OpensearchOutboundConnection#owner_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_outbound_connection#owner_id OpensearchOutboundConnection#owner_id}.</summary>
         [JsiiProperty(name: "ownerId", typeJson: "{\"primitive\":\"string\"}")]
         string OwnerId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_outbound_connection#region OpensearchOutboundConnection#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_outbound_connection#region OpensearchOutboundConnection#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         string Region
         {
@@ -35,21 +35,21 @@ namespace aws.OpensearchOutboundConnection
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_outbound_connection#domain_name OpensearchOutboundConnection#domain_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_outbound_connection#domain_name OpensearchOutboundConnection#domain_name}.</summary>
             [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
             public string DomainName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_outbound_connection#owner_id OpensearchOutboundConnection#owner_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_outbound_connection#owner_id OpensearchOutboundConnection#owner_id}.</summary>
             [JsiiProperty(name: "ownerId", typeJson: "{\"primitive\":\"string\"}")]
             public string OwnerId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_outbound_connection#region OpensearchOutboundConnection#region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_outbound_connection#region OpensearchOutboundConnection#region}.</summary>
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
             public string Region
             {

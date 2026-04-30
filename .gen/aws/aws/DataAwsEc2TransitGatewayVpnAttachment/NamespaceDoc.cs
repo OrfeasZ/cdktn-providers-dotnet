@@ -5,7 +5,7 @@ namespace aws.DataAwsEc2TransitGatewayVpnAttachment
     /// <remarks>
     /// <h1><c>data_aws_ec2_transit_gateway_vpn_attachment</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_transit_gateway_vpn_attachment"><c>data_aws_ec2_transit_gateway_vpn_attachment</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ec2_transit_gateway_vpn_attachment"><c>data_aws_ec2_transit_gateway_vpn_attachment</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

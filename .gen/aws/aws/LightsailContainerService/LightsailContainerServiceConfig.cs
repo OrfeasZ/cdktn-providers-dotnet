@@ -9,7 +9,7 @@ namespace aws.LightsailContainerService
     [JsiiByValue(fqn: "aws.lightsailContainerService.LightsailContainerServiceConfig")]
     public class LightsailContainerServiceConfig : aws.LightsailContainerService.ILightsailContainerServiceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#name LightsailContainerService#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_container_service#name LightsailContainerService#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.LightsailContainerService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#power LightsailContainerService#power}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_container_service#power LightsailContainerService#power}.</summary>
         [JsiiProperty(name: "power", typeJson: "{\"primitive\":\"string\"}")]
         public string Power
         {
@@ -25,7 +25,7 @@ namespace aws.LightsailContainerService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#scale LightsailContainerService#scale}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_container_service#scale LightsailContainerService#scale}.</summary>
         [JsiiProperty(name: "scale", typeJson: "{\"primitive\":\"number\"}")]
         public double Scale
         {
@@ -33,7 +33,7 @@ namespace aws.LightsailContainerService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#id LightsailContainerService#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_container_service#id LightsailContainerService#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace aws.LightsailContainerService
 
         private object? _isDisabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#is_disabled LightsailContainerService#is_disabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_container_service#is_disabled LightsailContainerService#is_disabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "isDisabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IsDisabled
@@ -79,7 +79,7 @@ namespace aws.LightsailContainerService
 
         /// <summary>private_registry_access block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#private_registry_access LightsailContainerService#private_registry_access}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_container_service#private_registry_access LightsailContainerService#private_registry_access}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateRegistryAccess", typeJson: "{\"fqn\":\"aws.lightsailContainerService.LightsailContainerServicePrivateRegistryAccess\"}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace aws.LightsailContainerService
 
         /// <summary>public_domain_names block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#public_domain_names LightsailContainerService#public_domain_names}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_container_service#public_domain_names LightsailContainerService#public_domain_names}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publicDomainNames", typeJson: "{\"fqn\":\"aws.lightsailContainerService.LightsailContainerServicePublicDomainNames\"}", isOptional: true)]
@@ -103,7 +103,7 @@ namespace aws.LightsailContainerService
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#region LightsailContainerService#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_container_service#region LightsailContainerService#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -113,7 +113,7 @@ namespace aws.LightsailContainerService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#tags LightsailContainerService#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_container_service#tags LightsailContainerService#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -122,7 +122,7 @@ namespace aws.LightsailContainerService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#tags_all LightsailContainerService#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_container_service#tags_all LightsailContainerService#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -133,7 +133,7 @@ namespace aws.LightsailContainerService
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lightsail_container_service#timeouts LightsailContainerService#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lightsail_container_service#timeouts LightsailContainerService#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.lightsailContainerService.LightsailContainerServiceTimeouts\"}", isOptional: true)]

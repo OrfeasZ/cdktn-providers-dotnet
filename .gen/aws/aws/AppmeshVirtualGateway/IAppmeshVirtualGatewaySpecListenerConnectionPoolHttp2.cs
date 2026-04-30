@@ -7,7 +7,7 @@ namespace aws.AppmeshVirtualGateway
     [JsiiInterface(nativeType: typeof(IAppmeshVirtualGatewaySpecListenerConnectionPoolHttp2), fullyQualifiedName: "aws.appmeshVirtualGateway.AppmeshVirtualGatewaySpecListenerConnectionPoolHttp2")]
     public interface IAppmeshVirtualGatewaySpecListenerConnectionPoolHttp2
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_gateway#max_requests AppmeshVirtualGateway#max_requests}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_gateway#max_requests AppmeshVirtualGateway#max_requests}.</summary>
         [JsiiProperty(name: "maxRequests", typeJson: "{\"primitive\":\"number\"}")]
         double MaxRequests
         {
@@ -21,7 +21,7 @@ namespace aws.AppmeshVirtualGateway
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_gateway#max_requests AppmeshVirtualGateway#max_requests}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_gateway#max_requests AppmeshVirtualGateway#max_requests}.</summary>
             [JsiiProperty(name: "maxRequests", typeJson: "{\"primitive\":\"number\"}")]
             public double MaxRequests
             {

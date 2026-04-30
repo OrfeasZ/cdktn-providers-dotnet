@@ -11,7 +11,7 @@ namespace aws.WafByteMatchSet
     {
         /// <summary>field_to_match block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_byte_match_set#field_to_match WafByteMatchSet#field_to_match}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/waf_byte_match_set#field_to_match WafByteMatchSet#field_to_match}
         /// </remarks>
         [JsiiProperty(name: "fieldToMatch", typeJson: "{\"fqn\":\"aws.wafByteMatchSet.WafByteMatchSetByteMatchTuplesFieldToMatch\"}")]
         public aws.WafByteMatchSet.IWafByteMatchSetByteMatchTuplesFieldToMatch FieldToMatch
@@ -20,7 +20,7 @@ namespace aws.WafByteMatchSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_byte_match_set#positional_constraint WafByteMatchSet#positional_constraint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/waf_byte_match_set#positional_constraint WafByteMatchSet#positional_constraint}.</summary>
         [JsiiProperty(name: "positionalConstraint", typeJson: "{\"primitive\":\"string\"}")]
         public string PositionalConstraint
         {
@@ -28,7 +28,7 @@ namespace aws.WafByteMatchSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_byte_match_set#text_transformation WafByteMatchSet#text_transformation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/waf_byte_match_set#text_transformation WafByteMatchSet#text_transformation}.</summary>
         [JsiiProperty(name: "textTransformation", typeJson: "{\"primitive\":\"string\"}")]
         public string TextTransformation
         {
@@ -36,7 +36,7 @@ namespace aws.WafByteMatchSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/waf_byte_match_set#target_string WafByteMatchSet#target_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/waf_byte_match_set#target_string WafByteMatchSet#target_string}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetString", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetString

@@ -9,7 +9,7 @@ namespace aws.SignerSigningProfile
     [JsiiByValue(fqn: "aws.signerSigningProfile.SignerSigningProfileSigningMaterial")]
     public class SignerSigningProfileSigningMaterial : aws.SignerSigningProfile.ISignerSigningProfileSigningMaterial
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/signer_signing_profile#certificate_arn SignerSigningProfile#certificate_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/signer_signing_profile#certificate_arn SignerSigningProfile#certificate_arn}.</summary>
         [JsiiProperty(name: "certificateArn", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateArn
         {

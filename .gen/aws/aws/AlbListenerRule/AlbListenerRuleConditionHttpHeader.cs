@@ -9,7 +9,7 @@ namespace aws.AlbListenerRule
     [JsiiByValue(fqn: "aws.albListenerRule.AlbListenerRuleConditionHttpHeader")]
     public class AlbListenerRuleConditionHttpHeader : aws.AlbListenerRule.IAlbListenerRuleConditionHttpHeader
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener_rule#http_header_name AlbListenerRule#http_header_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_listener_rule#http_header_name AlbListenerRule#http_header_name}.</summary>
         [JsiiProperty(name: "httpHeaderName", typeJson: "{\"primitive\":\"string\"}")]
         public string HttpHeaderName
         {
@@ -17,7 +17,7 @@ namespace aws.AlbListenerRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener_rule#regex_values AlbListenerRule#regex_values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_listener_rule#regex_values AlbListenerRule#regex_values}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "regexValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? RegexValues
@@ -26,7 +26,7 @@ namespace aws.AlbListenerRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener_rule#values AlbListenerRule#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_listener_rule#values AlbListenerRule#values}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Values

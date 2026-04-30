@@ -7,14 +7,14 @@ namespace aws.DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnit
     [JsiiInterface(nativeType: typeof(IDataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnitsConfig), fullyQualifiedName: "aws.dataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits.DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnitsConfig")]
     public interface IDataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnitsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/organizations_organizational_unit_descendant_organizational_units#parent_id DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits#parent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/organizations_organizational_unit_descendant_organizational_units#parent_id DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits#parent_id}.</summary>
         [JsiiProperty(name: "parentId", typeJson: "{\"primitive\":\"string\"}")]
         string ParentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/organizations_organizational_unit_descendant_organizational_units#id DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/organizations_organizational_unit_descendant_organizational_units#id DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace aws.DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnit
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/organizations_organizational_unit_descendant_organizational_units#parent_id DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits#parent_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/organizations_organizational_unit_descendant_organizational_units#parent_id DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits#parent_id}.</summary>
             [JsiiProperty(name: "parentId", typeJson: "{\"primitive\":\"string\"}")]
             public string ParentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/organizations_organizational_unit_descendant_organizational_units#id DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/organizations_organizational_unit_descendant_organizational_units#id DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

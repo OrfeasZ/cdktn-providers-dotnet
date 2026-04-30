@@ -9,7 +9,7 @@ namespace aws.QuicksightRefreshSchedule
     [JsiiByValue(fqn: "aws.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleScheduleFrequency")]
     public class QuicksightRefreshScheduleScheduleScheduleFrequency : aws.QuicksightRefreshSchedule.IQuicksightRefreshScheduleScheduleScheduleFrequency
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_refresh_schedule#interval QuicksightRefreshSchedule#interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_refresh_schedule#interval QuicksightRefreshSchedule#interval}.</summary>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
         public string Interval
         {
@@ -21,7 +21,7 @@ namespace aws.QuicksightRefreshSchedule
 
         /// <summary>refresh_on_day block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_refresh_schedule#refresh_on_day QuicksightRefreshSchedule#refresh_on_day}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_refresh_schedule#refresh_on_day QuicksightRefreshSchedule#refresh_on_day}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "refreshOnDay", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleScheduleFrequencyRefreshOnDay\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace aws.QuicksightRefreshSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_refresh_schedule#time_of_the_day QuicksightRefreshSchedule#time_of_the_day}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_refresh_schedule#time_of_the_day QuicksightRefreshSchedule#time_of_the_day}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeOfTheDay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeOfTheDay
@@ -60,7 +60,7 @@ namespace aws.QuicksightRefreshSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_refresh_schedule#timezone QuicksightRefreshSchedule#timezone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_refresh_schedule#timezone QuicksightRefreshSchedule#timezone}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timezone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Timezone

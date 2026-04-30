@@ -7,14 +7,14 @@ namespace aws.NetworkflowmonitorMonitor
     [JsiiInterface(nativeType: typeof(INetworkflowmonitorMonitorLocalResource), fullyQualifiedName: "aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorLocalResource")]
     public interface INetworkflowmonitorMonitorLocalResource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkflowmonitor_monitor#identifier NetworkflowmonitorMonitor#identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkflowmonitor_monitor#identifier NetworkflowmonitorMonitor#identifier}.</summary>
         [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
         string Identifier
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkflowmonitor_monitor#type NetworkflowmonitorMonitor#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkflowmonitor_monitor#type NetworkflowmonitorMonitor#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -28,14 +28,14 @@ namespace aws.NetworkflowmonitorMonitor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkflowmonitor_monitor#identifier NetworkflowmonitorMonitor#identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkflowmonitor_monitor#identifier NetworkflowmonitorMonitor#identifier}.</summary>
             [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
             public string Identifier
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkflowmonitor_monitor#type NetworkflowmonitorMonitor#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkflowmonitor_monitor#type NetworkflowmonitorMonitor#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

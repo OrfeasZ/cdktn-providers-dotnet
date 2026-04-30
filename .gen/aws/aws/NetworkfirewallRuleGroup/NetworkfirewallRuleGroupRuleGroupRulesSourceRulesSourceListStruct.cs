@@ -9,7 +9,7 @@ namespace aws.NetworkfirewallRuleGroup
     [JsiiByValue(fqn: "aws.networkfirewallRuleGroup.NetworkfirewallRuleGroupRuleGroupRulesSourceRulesSourceListStruct")]
     public class NetworkfirewallRuleGroupRuleGroupRulesSourceRulesSourceListStruct : aws.NetworkfirewallRuleGroup.INetworkfirewallRuleGroupRuleGroupRulesSourceRulesSourceListStruct
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkfirewall_rule_group#generated_rules_type NetworkfirewallRuleGroup#generated_rules_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkfirewall_rule_group#generated_rules_type NetworkfirewallRuleGroup#generated_rules_type}.</summary>
         [JsiiProperty(name: "generatedRulesType", typeJson: "{\"primitive\":\"string\"}")]
         public string GeneratedRulesType
         {
@@ -17,7 +17,7 @@ namespace aws.NetworkfirewallRuleGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkfirewall_rule_group#targets NetworkfirewallRuleGroup#targets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkfirewall_rule_group#targets NetworkfirewallRuleGroup#targets}.</summary>
         [JsiiProperty(name: "targets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Targets
         {
@@ -25,7 +25,7 @@ namespace aws.NetworkfirewallRuleGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkfirewall_rule_group#target_types NetworkfirewallRuleGroup#target_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkfirewall_rule_group#target_types NetworkfirewallRuleGroup#target_types}.</summary>
         [JsiiProperty(name: "targetTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] TargetTypes
         {

@@ -7,7 +7,7 @@ namespace aws.KendraDataSource
     [JsiiInterface(nativeType: typeof(IKendraDataSourceConfigurationTemplateConfiguration), fullyQualifiedName: "aws.kendraDataSource.KendraDataSourceConfigurationTemplateConfiguration")]
     public interface IKendraDataSourceConfigurationTemplateConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#template KendraDataSource#template}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#template KendraDataSource#template}.</summary>
         [JsiiProperty(name: "template", typeJson: "{\"primitive\":\"string\"}")]
         string Template
         {
@@ -21,7 +21,7 @@ namespace aws.KendraDataSource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#template KendraDataSource#template}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#template KendraDataSource#template}.</summary>
             [JsiiProperty(name: "template", typeJson: "{\"primitive\":\"string\"}")]
             public string Template
             {

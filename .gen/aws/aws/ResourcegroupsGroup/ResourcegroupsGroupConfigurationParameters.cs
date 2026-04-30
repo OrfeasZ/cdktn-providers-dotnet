@@ -9,7 +9,7 @@ namespace aws.ResourcegroupsGroup
     [JsiiByValue(fqn: "aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationParameters")]
     public class ResourcegroupsGroupConfigurationParameters : aws.ResourcegroupsGroup.IResourcegroupsGroupConfigurationParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourcegroups_group#name ResourcegroupsGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/resourcegroups_group#name ResourcegroupsGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.ResourcegroupsGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourcegroups_group#values ResourcegroupsGroup#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/resourcegroups_group#values ResourcegroupsGroup#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

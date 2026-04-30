@@ -9,7 +9,7 @@ namespace aws.DataAwsConnectBotAssociation
     [JsiiByValue(fqn: "aws.dataAwsConnectBotAssociation.DataAwsConnectBotAssociationLexBot")]
     public class DataAwsConnectBotAssociationLexBot : aws.DataAwsConnectBotAssociation.IDataAwsConnectBotAssociationLexBot
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/connect_bot_association#name DataAwsConnectBotAssociation#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/connect_bot_association#name DataAwsConnectBotAssociation#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsConnectBotAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/connect_bot_association#lex_region DataAwsConnectBotAssociation#lex_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/connect_bot_association#lex_region DataAwsConnectBotAssociation#lex_region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lexRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LexRegion

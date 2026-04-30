@@ -7,14 +7,14 @@ namespace aws.SecuritylakeSubscriber
     [JsiiInterface(nativeType: typeof(ISecuritylakeSubscriberSubscriberIdentity), fullyQualifiedName: "aws.securitylakeSubscriber.SecuritylakeSubscriberSubscriberIdentity")]
     public interface ISecuritylakeSubscriberSubscriberIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_subscriber#external_id SecuritylakeSubscriber#external_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_subscriber#external_id SecuritylakeSubscriber#external_id}.</summary>
         [JsiiProperty(name: "externalId", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_subscriber#principal SecuritylakeSubscriber#principal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_subscriber#principal SecuritylakeSubscriber#principal}.</summary>
         [JsiiProperty(name: "principal", typeJson: "{\"primitive\":\"string\"}")]
         string Principal
         {
@@ -28,14 +28,14 @@ namespace aws.SecuritylakeSubscriber
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_subscriber#external_id SecuritylakeSubscriber#external_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_subscriber#external_id SecuritylakeSubscriber#external_id}.</summary>
             [JsiiProperty(name: "externalId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_subscriber#principal SecuritylakeSubscriber#principal}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_subscriber#principal SecuritylakeSubscriber#principal}.</summary>
             [JsiiProperty(name: "principal", typeJson: "{\"primitive\":\"string\"}")]
             public string Principal
             {

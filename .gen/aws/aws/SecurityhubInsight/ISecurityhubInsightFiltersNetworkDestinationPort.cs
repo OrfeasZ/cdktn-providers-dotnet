@@ -7,7 +7,7 @@ namespace aws.SecurityhubInsight
     [JsiiInterface(nativeType: typeof(ISecurityhubInsightFiltersNetworkDestinationPort), fullyQualifiedName: "aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationPort")]
     public interface ISecurityhubInsightFiltersNetworkDestinationPort
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}.</summary>
         [JsiiProperty(name: "eq", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Eq
@@ -18,7 +18,7 @@ namespace aws.SecurityhubInsight
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}.</summary>
         [JsiiProperty(name: "gte", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Gte
@@ -29,7 +29,7 @@ namespace aws.SecurityhubInsight
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}.</summary>
         [JsiiProperty(name: "lte", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Lte
@@ -47,7 +47,7 @@ namespace aws.SecurityhubInsight
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "eq", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Eq
@@ -55,7 +55,7 @@ namespace aws.SecurityhubInsight
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "gte", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Gte
@@ -63,7 +63,7 @@ namespace aws.SecurityhubInsight
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lte", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Lte

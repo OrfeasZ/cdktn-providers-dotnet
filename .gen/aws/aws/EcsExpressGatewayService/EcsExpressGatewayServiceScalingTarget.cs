@@ -7,7 +7,7 @@ namespace aws.EcsExpressGatewayService
     [JsiiByValue(fqn: "aws.ecsExpressGatewayService.EcsExpressGatewayServiceScalingTarget")]
     public class EcsExpressGatewayServiceScalingTarget : aws.EcsExpressGatewayService.IEcsExpressGatewayServiceScalingTarget
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_express_gateway_service#auto_scaling_metric EcsExpressGatewayService#auto_scaling_metric}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_express_gateway_service#auto_scaling_metric EcsExpressGatewayService#auto_scaling_metric}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "autoScalingMetric", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AutoScalingMetric
@@ -16,7 +16,7 @@ namespace aws.EcsExpressGatewayService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_express_gateway_service#auto_scaling_target_value EcsExpressGatewayService#auto_scaling_target_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_express_gateway_service#auto_scaling_target_value EcsExpressGatewayService#auto_scaling_target_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "autoScalingTargetValue", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? AutoScalingTargetValue
@@ -25,7 +25,7 @@ namespace aws.EcsExpressGatewayService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_express_gateway_service#max_task_count EcsExpressGatewayService#max_task_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_express_gateway_service#max_task_count EcsExpressGatewayService#max_task_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxTaskCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxTaskCount
@@ -34,7 +34,7 @@ namespace aws.EcsExpressGatewayService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_express_gateway_service#min_task_count EcsExpressGatewayService#min_task_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_express_gateway_service#min_task_count EcsExpressGatewayService#min_task_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minTaskCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinTaskCount

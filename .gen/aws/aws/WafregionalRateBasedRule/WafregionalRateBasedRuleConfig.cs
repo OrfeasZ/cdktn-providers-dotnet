@@ -9,7 +9,7 @@ namespace aws.WafregionalRateBasedRule
     [JsiiByValue(fqn: "aws.wafregionalRateBasedRule.WafregionalRateBasedRuleConfig")]
     public class WafregionalRateBasedRuleConfig : aws.WafregionalRateBasedRule.IWafregionalRateBasedRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_rate_based_rule#metric_name WafregionalRateBasedRule#metric_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_rate_based_rule#metric_name WafregionalRateBasedRule#metric_name}.</summary>
         [JsiiProperty(name: "metricName", typeJson: "{\"primitive\":\"string\"}")]
         public string MetricName
         {
@@ -17,7 +17,7 @@ namespace aws.WafregionalRateBasedRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_rate_based_rule#name WafregionalRateBasedRule#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_rate_based_rule#name WafregionalRateBasedRule#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace aws.WafregionalRateBasedRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_rate_based_rule#rate_key WafregionalRateBasedRule#rate_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_rate_based_rule#rate_key WafregionalRateBasedRule#rate_key}.</summary>
         [JsiiProperty(name: "rateKey", typeJson: "{\"primitive\":\"string\"}")]
         public string RateKey
         {
@@ -33,7 +33,7 @@ namespace aws.WafregionalRateBasedRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_rate_based_rule#rate_limit WafregionalRateBasedRule#rate_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_rate_based_rule#rate_limit WafregionalRateBasedRule#rate_limit}.</summary>
         [JsiiProperty(name: "rateLimit", typeJson: "{\"primitive\":\"number\"}")]
         public double RateLimit
         {
@@ -41,7 +41,7 @@ namespace aws.WafregionalRateBasedRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_rate_based_rule#id WafregionalRateBasedRule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_rate_based_rule#id WafregionalRateBasedRule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace aws.WafregionalRateBasedRule
 
         /// <summary>predicate block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_rate_based_rule#predicate WafregionalRateBasedRule#predicate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_rate_based_rule#predicate WafregionalRateBasedRule#predicate}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "predicate", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalRateBasedRule.WafregionalRateBasedRulePredicate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -90,7 +90,7 @@ namespace aws.WafregionalRateBasedRule
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_rate_based_rule#region WafregionalRateBasedRule#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_rate_based_rule#region WafregionalRateBasedRule#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -100,7 +100,7 @@ namespace aws.WafregionalRateBasedRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_rate_based_rule#tags WafregionalRateBasedRule#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_rate_based_rule#tags WafregionalRateBasedRule#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -109,7 +109,7 @@ namespace aws.WafregionalRateBasedRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_rate_based_rule#tags_all WafregionalRateBasedRule#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_rate_based_rule#tags_all WafregionalRateBasedRule#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll

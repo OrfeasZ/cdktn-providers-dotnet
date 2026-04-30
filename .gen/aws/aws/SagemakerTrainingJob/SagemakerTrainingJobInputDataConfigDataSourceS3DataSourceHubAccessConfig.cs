@@ -9,7 +9,7 @@ namespace aws.SagemakerTrainingJob
     [JsiiByValue(fqn: "aws.sagemakerTrainingJob.SagemakerTrainingJobInputDataConfigDataSourceS3DataSourceHubAccessConfig")]
     public class SagemakerTrainingJobInputDataConfigDataSourceS3DataSourceHubAccessConfig : aws.SagemakerTrainingJob.ISagemakerTrainingJobInputDataConfigDataSourceS3DataSourceHubAccessConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_training_job#hub_content_arn SagemakerTrainingJob#hub_content_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_training_job#hub_content_arn SagemakerTrainingJob#hub_content_arn}.</summary>
         [JsiiProperty(name: "hubContentArn", typeJson: "{\"primitive\":\"string\"}")]
         public string HubContentArn
         {

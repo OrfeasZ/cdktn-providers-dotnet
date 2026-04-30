@@ -11,7 +11,7 @@ namespace aws.Lexv2ModelsIntent
     {
         private object _allowAudioInput;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#allow_audio_input Lexv2ModelsIntent#allow_audio_input}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#allow_audio_input Lexv2ModelsIntent#allow_audio_input}.</summary>
         [JsiiProperty(name: "allowAudioInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object AllowAudioInput
         {
@@ -41,7 +41,7 @@ namespace aws.Lexv2ModelsIntent
 
         private object _allowDtmfInput;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_intent#allow_dtmf_input Lexv2ModelsIntent#allow_dtmf_input}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_intent#allow_dtmf_input Lexv2ModelsIntent#allow_dtmf_input}.</summary>
         [JsiiProperty(name: "allowDtmfInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object AllowDtmfInput
         {

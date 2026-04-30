@@ -7,7 +7,7 @@ namespace aws.Alb
     [JsiiInterface(nativeType: typeof(IAlbMinimumLoadBalancerCapacity), fullyQualifiedName: "aws.alb.AlbMinimumLoadBalancerCapacity")]
     public interface IAlbMinimumLoadBalancerCapacity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb#capacity_units Alb#capacity_units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb#capacity_units Alb#capacity_units}.</summary>
         [JsiiProperty(name: "capacityUnits", typeJson: "{\"primitive\":\"number\"}")]
         double CapacityUnits
         {
@@ -21,7 +21,7 @@ namespace aws.Alb
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb#capacity_units Alb#capacity_units}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb#capacity_units Alb#capacity_units}.</summary>
             [JsiiProperty(name: "capacityUnits", typeJson: "{\"primitive\":\"number\"}")]
             public double CapacityUnits
             {

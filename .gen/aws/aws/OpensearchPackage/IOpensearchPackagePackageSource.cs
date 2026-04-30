@@ -7,14 +7,14 @@ namespace aws.OpensearchPackage
     [JsiiInterface(nativeType: typeof(IOpensearchPackagePackageSource), fullyQualifiedName: "aws.opensearchPackage.OpensearchPackagePackageSource")]
     public interface IOpensearchPackagePackageSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_package#s3_bucket_name OpensearchPackage#s3_bucket_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_package#s3_bucket_name OpensearchPackage#s3_bucket_name}.</summary>
         [JsiiProperty(name: "s3BucketName", typeJson: "{\"primitive\":\"string\"}")]
         string S3BucketName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_package#s3_key OpensearchPackage#s3_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_package#s3_key OpensearchPackage#s3_key}.</summary>
         [JsiiProperty(name: "s3Key", typeJson: "{\"primitive\":\"string\"}")]
         string S3Key
         {
@@ -28,14 +28,14 @@ namespace aws.OpensearchPackage
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_package#s3_bucket_name OpensearchPackage#s3_bucket_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_package#s3_bucket_name OpensearchPackage#s3_bucket_name}.</summary>
             [JsiiProperty(name: "s3BucketName", typeJson: "{\"primitive\":\"string\"}")]
             public string S3BucketName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/opensearch_package#s3_key OpensearchPackage#s3_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/opensearch_package#s3_key OpensearchPackage#s3_key}.</summary>
             [JsiiProperty(name: "s3Key", typeJson: "{\"primitive\":\"string\"}")]
             public string S3Key
             {

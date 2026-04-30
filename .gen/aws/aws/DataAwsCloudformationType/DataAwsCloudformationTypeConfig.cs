@@ -7,7 +7,7 @@ namespace aws.DataAwsCloudformationType
     [JsiiByValue(fqn: "aws.dataAwsCloudformationType.DataAwsCloudformationTypeConfig")]
     public class DataAwsCloudformationTypeConfig : aws.DataAwsCloudformationType.IDataAwsCloudformationTypeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/cloudformation_type#arn DataAwsCloudformationType#arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/cloudformation_type#arn DataAwsCloudformationType#arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Arn
@@ -16,7 +16,7 @@ namespace aws.DataAwsCloudformationType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/cloudformation_type#id DataAwsCloudformationType#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/cloudformation_type#id DataAwsCloudformationType#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,7 +31,7 @@ namespace aws.DataAwsCloudformationType
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/cloudformation_type#region DataAwsCloudformationType#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/cloudformation_type#region DataAwsCloudformationType#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace aws.DataAwsCloudformationType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/cloudformation_type#type DataAwsCloudformationType#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/cloudformation_type#type DataAwsCloudformationType#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type
@@ -50,7 +50,7 @@ namespace aws.DataAwsCloudformationType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/cloudformation_type#type_name DataAwsCloudformationType#type_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/cloudformation_type#type_name DataAwsCloudformationType#type_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "typeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TypeName
@@ -59,7 +59,7 @@ namespace aws.DataAwsCloudformationType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/cloudformation_type#version_id DataAwsCloudformationType#version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/cloudformation_type#version_id DataAwsCloudformationType#version_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "versionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VersionId

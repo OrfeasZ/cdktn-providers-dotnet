@@ -9,7 +9,7 @@ namespace aws.QuicksightDataSource
     [JsiiByValue(fqn: "aws.quicksightDataSource.QuicksightDataSourceParametersS3ManifestFileLocation")]
     public class QuicksightDataSourceParametersS3ManifestFileLocation : aws.QuicksightDataSource.IQuicksightDataSourceParametersS3ManifestFileLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#bucket QuicksightDataSource#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#bucket QuicksightDataSource#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
         {
@@ -17,7 +17,7 @@ namespace aws.QuicksightDataSource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#key QuicksightDataSource#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#key QuicksightDataSource#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {

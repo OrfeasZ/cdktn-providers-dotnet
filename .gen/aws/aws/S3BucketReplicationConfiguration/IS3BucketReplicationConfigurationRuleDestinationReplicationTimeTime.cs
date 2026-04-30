@@ -7,7 +7,7 @@ namespace aws.S3BucketReplicationConfiguration
     [JsiiInterface(nativeType: typeof(IS3BucketReplicationConfigurationRuleDestinationReplicationTimeTime), fullyQualifiedName: "aws.s3BucketReplicationConfiguration.S3BucketReplicationConfigurationRuleDestinationReplicationTimeTime")]
     public interface IS3BucketReplicationConfigurationRuleDestinationReplicationTimeTime
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_replication_configuration#minutes S3BucketReplicationConfigurationA#minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_replication_configuration#minutes S3BucketReplicationConfigurationA#minutes}.</summary>
         [JsiiProperty(name: "minutes", typeJson: "{\"primitive\":\"number\"}")]
         double Minutes
         {
@@ -21,7 +21,7 @@ namespace aws.S3BucketReplicationConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_replication_configuration#minutes S3BucketReplicationConfigurationA#minutes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_replication_configuration#minutes S3BucketReplicationConfigurationA#minutes}.</summary>
             [JsiiProperty(name: "minutes", typeJson: "{\"primitive\":\"number\"}")]
             public double Minutes
             {

@@ -7,7 +7,7 @@ namespace aws.Alb
     [JsiiInterface(nativeType: typeof(IAlbIpamPools), fullyQualifiedName: "aws.alb.AlbIpamPools")]
     public interface IAlbIpamPools
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb#ipv4_ipam_pool_id Alb#ipv4_ipam_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb#ipv4_ipam_pool_id Alb#ipv4_ipam_pool_id}.</summary>
         [JsiiProperty(name: "ipv4IpamPoolId", typeJson: "{\"primitive\":\"string\"}")]
         string Ipv4IpamPoolId
         {
@@ -21,7 +21,7 @@ namespace aws.Alb
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb#ipv4_ipam_pool_id Alb#ipv4_ipam_pool_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb#ipv4_ipam_pool_id Alb#ipv4_ipam_pool_id}.</summary>
             [JsiiProperty(name: "ipv4IpamPoolId", typeJson: "{\"primitive\":\"string\"}")]
             public string Ipv4IpamPoolId
             {

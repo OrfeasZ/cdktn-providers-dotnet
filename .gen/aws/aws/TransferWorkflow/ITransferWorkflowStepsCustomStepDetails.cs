@@ -7,7 +7,7 @@ namespace aws.TransferWorkflow
     [JsiiInterface(nativeType: typeof(ITransferWorkflowStepsCustomStepDetails), fullyQualifiedName: "aws.transferWorkflow.TransferWorkflowStepsCustomStepDetails")]
     public interface ITransferWorkflowStepsCustomStepDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_workflow#name TransferWorkflow#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_workflow#name TransferWorkflow#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -18,7 +18,7 @@ namespace aws.TransferWorkflow
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}.</summary>
         [JsiiProperty(name: "sourceFileLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceFileLocation
@@ -29,7 +29,7 @@ namespace aws.TransferWorkflow
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_workflow#target TransferWorkflow#target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_workflow#target TransferWorkflow#target}.</summary>
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Target
@@ -40,7 +40,7 @@ namespace aws.TransferWorkflow
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}.</summary>
         [JsiiProperty(name: "timeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TimeoutSeconds
@@ -58,7 +58,7 @@ namespace aws.TransferWorkflow
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_workflow#name TransferWorkflow#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_workflow#name TransferWorkflow#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -66,7 +66,7 @@ namespace aws.TransferWorkflow
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceFileLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceFileLocation
@@ -74,7 +74,7 @@ namespace aws.TransferWorkflow
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_workflow#target TransferWorkflow#target}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_workflow#target TransferWorkflow#target}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Target
@@ -82,7 +82,7 @@ namespace aws.TransferWorkflow
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TimeoutSeconds

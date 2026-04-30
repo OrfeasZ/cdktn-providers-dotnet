@@ -7,7 +7,7 @@ namespace aws.S3AccessPoint
     [JsiiInterface(nativeType: typeof(IS3AccessPointVpcConfiguration), fullyQualifiedName: "aws.s3AccessPoint.S3AccessPointVpcConfiguration")]
     public interface IS3AccessPointVpcConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_access_point#vpc_id S3AccessPoint#vpc_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_access_point#vpc_id S3AccessPoint#vpc_id}.</summary>
         [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}")]
         string VpcId
         {
@@ -21,7 +21,7 @@ namespace aws.S3AccessPoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_access_point#vpc_id S3AccessPoint#vpc_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_access_point#vpc_id S3AccessPoint#vpc_id}.</summary>
             [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}")]
             public string VpcId
             {

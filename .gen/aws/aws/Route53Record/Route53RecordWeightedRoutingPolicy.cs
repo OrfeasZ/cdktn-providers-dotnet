@@ -9,7 +9,7 @@ namespace aws.Route53Record
     [JsiiByValue(fqn: "aws.route53Record.Route53RecordWeightedRoutingPolicy")]
     public class Route53RecordWeightedRoutingPolicy : aws.Route53Record.IRoute53RecordWeightedRoutingPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_record#weight Route53Record#weight}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_record#weight Route53Record#weight}.</summary>
         [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}")]
         public double Weight
         {

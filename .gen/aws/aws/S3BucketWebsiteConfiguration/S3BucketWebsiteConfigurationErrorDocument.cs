@@ -9,7 +9,7 @@ namespace aws.S3BucketWebsiteConfiguration
     [JsiiByValue(fqn: "aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfigurationErrorDocument")]
     public class S3BucketWebsiteConfigurationErrorDocument : aws.S3BucketWebsiteConfiguration.IS3BucketWebsiteConfigurationErrorDocument
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_website_configuration#key S3BucketWebsiteConfiguration#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_website_configuration#key S3BucketWebsiteConfiguration#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {

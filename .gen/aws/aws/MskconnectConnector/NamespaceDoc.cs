@@ -5,7 +5,7 @@ namespace aws.MskconnectConnector
     /// <remarks>
     /// <h1><c>aws_mskconnect_connector</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector"><c>aws_mskconnect_connector</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_connector"><c>aws_mskconnect_connector</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

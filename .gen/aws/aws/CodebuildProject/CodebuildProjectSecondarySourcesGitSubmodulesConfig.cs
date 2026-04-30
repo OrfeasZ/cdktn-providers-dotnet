@@ -11,7 +11,7 @@ namespace aws.CodebuildProject
     {
         private object _fetchSubmodules;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_project#fetch_submodules CodebuildProject#fetch_submodules}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_project#fetch_submodules CodebuildProject#fetch_submodules}.</summary>
         [JsiiProperty(name: "fetchSubmodules", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object FetchSubmodules
         {

@@ -7,21 +7,21 @@ namespace aws.GlueCrawler
     [JsiiInterface(nativeType: typeof(IGlueCrawlerJdbcTarget), fullyQualifiedName: "aws.glueCrawler.GlueCrawlerJdbcTarget")]
     public interface IGlueCrawlerJdbcTarget
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}.</summary>
         [JsiiProperty(name: "connectionName", typeJson: "{\"primitive\":\"string\"}")]
         string ConnectionName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#path GlueCrawler#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_crawler#path GlueCrawler#path}.</summary>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
         string Path
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#enable_additional_metadata GlueCrawler#enable_additional_metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_crawler#enable_additional_metadata GlueCrawler#enable_additional_metadata}.</summary>
         [JsiiProperty(name: "enableAdditionalMetadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? EnableAdditionalMetadata
@@ -32,7 +32,7 @@ namespace aws.GlueCrawler
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}.</summary>
         [JsiiProperty(name: "exclusions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Exclusions
@@ -50,21 +50,21 @@ namespace aws.GlueCrawler
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}.</summary>
             [JsiiProperty(name: "connectionName", typeJson: "{\"primitive\":\"string\"}")]
             public string ConnectionName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#path GlueCrawler#path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_crawler#path GlueCrawler#path}.</summary>
             [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
             public string Path
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#enable_additional_metadata GlueCrawler#enable_additional_metadata}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_crawler#enable_additional_metadata GlueCrawler#enable_additional_metadata}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "enableAdditionalMetadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? EnableAdditionalMetadata
@@ -72,7 +72,7 @@ namespace aws.GlueCrawler
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "exclusions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Exclusions

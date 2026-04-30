@@ -7,7 +7,7 @@ namespace aws.Route53DelegationSet
     [JsiiByValue(fqn: "aws.route53DelegationSet.Route53DelegationSetConfig")]
     public class Route53DelegationSetConfig : aws.Route53DelegationSet.IRoute53DelegationSetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_delegation_set#id Route53DelegationSet#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_delegation_set#id Route53DelegationSet#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -20,7 +20,7 @@ namespace aws.Route53DelegationSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_delegation_set#reference_name Route53DelegationSet#reference_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_delegation_set#reference_name Route53DelegationSet#reference_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "referenceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ReferenceName

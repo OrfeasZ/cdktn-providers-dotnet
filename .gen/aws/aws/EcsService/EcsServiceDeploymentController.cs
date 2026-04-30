@@ -7,7 +7,7 @@ namespace aws.EcsService
     [JsiiByValue(fqn: "aws.ecsService.EcsServiceDeploymentController")]
     public class EcsServiceDeploymentController : aws.EcsService.IEcsServiceDeploymentController
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_service#type EcsService#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_service#type EcsService#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

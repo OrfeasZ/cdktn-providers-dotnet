@@ -7,7 +7,7 @@ namespace aws.SagemakerHyperParameterTuningJob
     [JsiiInterface(nativeType: typeof(ISagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaConvergenceDetected), fullyQualifiedName: "aws.sagemakerHyperParameterTuningJob.SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaConvergenceDetected")]
     public interface ISagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaConvergenceDetected
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_hyper_parameter_tuning_job#complete_on_convergence SagemakerHyperParameterTuningJob#complete_on_convergence}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_hyper_parameter_tuning_job#complete_on_convergence SagemakerHyperParameterTuningJob#complete_on_convergence}.</summary>
         [JsiiProperty(name: "completeOnConvergence", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompleteOnConvergence
@@ -25,7 +25,7 @@ namespace aws.SagemakerHyperParameterTuningJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_hyper_parameter_tuning_job#complete_on_convergence SagemakerHyperParameterTuningJob#complete_on_convergence}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_hyper_parameter_tuning_job#complete_on_convergence SagemakerHyperParameterTuningJob#complete_on_convergence}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "completeOnConvergence", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompleteOnConvergence

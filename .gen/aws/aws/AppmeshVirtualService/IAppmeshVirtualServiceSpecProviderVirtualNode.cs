@@ -7,7 +7,7 @@ namespace aws.AppmeshVirtualService
     [JsiiInterface(nativeType: typeof(IAppmeshVirtualServiceSpecProviderVirtualNode), fullyQualifiedName: "aws.appmeshVirtualService.AppmeshVirtualServiceSpecProviderVirtualNode")]
     public interface IAppmeshVirtualServiceSpecProviderVirtualNode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_service#virtual_node_name AppmeshVirtualService#virtual_node_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_service#virtual_node_name AppmeshVirtualService#virtual_node_name}.</summary>
         [JsiiProperty(name: "virtualNodeName", typeJson: "{\"primitive\":\"string\"}")]
         string VirtualNodeName
         {
@@ -21,7 +21,7 @@ namespace aws.AppmeshVirtualService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_service#virtual_node_name AppmeshVirtualService#virtual_node_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_service#virtual_node_name AppmeshVirtualService#virtual_node_name}.</summary>
             [JsiiProperty(name: "virtualNodeName", typeJson: "{\"primitive\":\"string\"}")]
             public string VirtualNodeName
             {

@@ -7,7 +7,7 @@ namespace aws.NetworkflowmonitorScope
     [JsiiInterface(nativeType: typeof(INetworkflowmonitorScopeTargetTargetIdentifierTargetId), fullyQualifiedName: "aws.networkflowmonitorScope.NetworkflowmonitorScopeTargetTargetIdentifierTargetId")]
     public interface INetworkflowmonitorScopeTargetTargetIdentifierTargetId
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkflowmonitor_scope#account_id NetworkflowmonitorScope#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkflowmonitor_scope#account_id NetworkflowmonitorScope#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
         {
@@ -21,7 +21,7 @@ namespace aws.NetworkflowmonitorScope
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkflowmonitor_scope#account_id NetworkflowmonitorScope#account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkflowmonitor_scope#account_id NetworkflowmonitorScope#account_id}.</summary>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
             {

@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     {
         /// <summary>m2ts_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#m2ts_settings MedialiveChannel#m2ts_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#m2ts_settings MedialiveChannel#m2ts_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "m2TsSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2TsSettings\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>raw_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#raw_settings MedialiveChannel#raw_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#raw_settings MedialiveChannel#raw_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rawSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsRawSettings\"}", isOptional: true)]

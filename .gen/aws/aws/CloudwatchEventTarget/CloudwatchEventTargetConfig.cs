@@ -9,7 +9,7 @@ namespace aws.CloudwatchEventTarget
     [JsiiByValue(fqn: "aws.cloudwatchEventTarget.CloudwatchEventTargetConfig")]
     public class CloudwatchEventTargetConfig : aws.CloudwatchEventTarget.ICloudwatchEventTargetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#arn CloudwatchEventTarget#arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#arn CloudwatchEventTarget#arn}.</summary>
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
         public string Arn
         {
@@ -17,7 +17,7 @@ namespace aws.CloudwatchEventTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#rule CloudwatchEventTarget#rule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#rule CloudwatchEventTarget#rule}.</summary>
         [JsiiProperty(name: "rule", typeJson: "{\"primitive\":\"string\"}")]
         public string Rule
         {
@@ -27,7 +27,7 @@ namespace aws.CloudwatchEventTarget
 
         /// <summary>appsync_target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#appsync_target CloudwatchEventTarget#appsync_target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#appsync_target CloudwatchEventTarget#appsync_target}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "appsyncTarget", typeJson: "{\"fqn\":\"aws.cloudwatchEventTarget.CloudwatchEventTargetAppsyncTarget\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace aws.CloudwatchEventTarget
 
         /// <summary>batch_target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#batch_target CloudwatchEventTarget#batch_target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#batch_target CloudwatchEventTarget#batch_target}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "batchTarget", typeJson: "{\"fqn\":\"aws.cloudwatchEventTarget.CloudwatchEventTargetBatchTarget\"}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace aws.CloudwatchEventTarget
 
         /// <summary>dead_letter_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#dead_letter_config CloudwatchEventTarget#dead_letter_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#dead_letter_config CloudwatchEventTarget#dead_letter_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deadLetterConfig", typeJson: "{\"fqn\":\"aws.cloudwatchEventTarget.CloudwatchEventTargetDeadLetterConfig\"}", isOptional: true)]
@@ -63,7 +63,7 @@ namespace aws.CloudwatchEventTarget
 
         /// <summary>ecs_target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#ecs_target CloudwatchEventTarget#ecs_target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#ecs_target CloudwatchEventTarget#ecs_target}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ecsTarget", typeJson: "{\"fqn\":\"aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTarget\"}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace aws.CloudwatchEventTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#event_bus_name CloudwatchEventTarget#event_bus_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#event_bus_name CloudwatchEventTarget#event_bus_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "eventBusName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EventBusName
@@ -84,7 +84,7 @@ namespace aws.CloudwatchEventTarget
 
         private object? _forceDestroy;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#force_destroy CloudwatchEventTarget#force_destroy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#force_destroy CloudwatchEventTarget#force_destroy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "forceDestroy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? ForceDestroy
@@ -115,7 +115,7 @@ namespace aws.CloudwatchEventTarget
 
         /// <summary>http_target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#http_target CloudwatchEventTarget#http_target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#http_target CloudwatchEventTarget#http_target}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpTarget", typeJson: "{\"fqn\":\"aws.cloudwatchEventTarget.CloudwatchEventTargetHttpTarget\"}", isOptional: true)]
@@ -125,7 +125,7 @@ namespace aws.CloudwatchEventTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#id CloudwatchEventTarget#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#id CloudwatchEventTarget#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -138,7 +138,7 @@ namespace aws.CloudwatchEventTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#input CloudwatchEventTarget#input}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#input CloudwatchEventTarget#input}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "input", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Input
@@ -147,7 +147,7 @@ namespace aws.CloudwatchEventTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#input_path CloudwatchEventTarget#input_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#input_path CloudwatchEventTarget#input_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "inputPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InputPath
@@ -158,7 +158,7 @@ namespace aws.CloudwatchEventTarget
 
         /// <summary>input_transformer block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#input_transformer CloudwatchEventTarget#input_transformer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#input_transformer CloudwatchEventTarget#input_transformer}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inputTransformer", typeJson: "{\"fqn\":\"aws.cloudwatchEventTarget.CloudwatchEventTargetInputTransformer\"}", isOptional: true)]
@@ -170,7 +170,7 @@ namespace aws.CloudwatchEventTarget
 
         /// <summary>kinesis_target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#kinesis_target CloudwatchEventTarget#kinesis_target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#kinesis_target CloudwatchEventTarget#kinesis_target}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kinesisTarget", typeJson: "{\"fqn\":\"aws.cloudwatchEventTarget.CloudwatchEventTargetKinesisTarget\"}", isOptional: true)]
@@ -182,7 +182,7 @@ namespace aws.CloudwatchEventTarget
 
         /// <summary>redshift_target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#redshift_target CloudwatchEventTarget#redshift_target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#redshift_target CloudwatchEventTarget#redshift_target}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "redshiftTarget", typeJson: "{\"fqn\":\"aws.cloudwatchEventTarget.CloudwatchEventTargetRedshiftTarget\"}", isOptional: true)]
@@ -194,7 +194,7 @@ namespace aws.CloudwatchEventTarget
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#region CloudwatchEventTarget#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#region CloudwatchEventTarget#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -206,7 +206,7 @@ namespace aws.CloudwatchEventTarget
 
         /// <summary>retry_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#retry_policy CloudwatchEventTarget#retry_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#retry_policy CloudwatchEventTarget#retry_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retryPolicy", typeJson: "{\"fqn\":\"aws.cloudwatchEventTarget.CloudwatchEventTargetRetryPolicy\"}", isOptional: true)]
@@ -216,7 +216,7 @@ namespace aws.CloudwatchEventTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#role_arn CloudwatchEventTarget#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#role_arn CloudwatchEventTarget#role_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoleArn
@@ -229,7 +229,7 @@ namespace aws.CloudwatchEventTarget
 
         /// <summary>run_command_targets block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#run_command_targets CloudwatchEventTarget#run_command_targets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#run_command_targets CloudwatchEventTarget#run_command_targets}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "runCommandTargets", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchEventTarget.CloudwatchEventTargetRunCommandTargets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -261,7 +261,7 @@ namespace aws.CloudwatchEventTarget
 
         /// <summary>sagemaker_pipeline_target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#sagemaker_pipeline_target CloudwatchEventTarget#sagemaker_pipeline_target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#sagemaker_pipeline_target CloudwatchEventTarget#sagemaker_pipeline_target}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sagemakerPipelineTarget", typeJson: "{\"fqn\":\"aws.cloudwatchEventTarget.CloudwatchEventTargetSagemakerPipelineTarget\"}", isOptional: true)]
@@ -273,7 +273,7 @@ namespace aws.CloudwatchEventTarget
 
         /// <summary>sqs_target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#sqs_target CloudwatchEventTarget#sqs_target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#sqs_target CloudwatchEventTarget#sqs_target}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sqsTarget", typeJson: "{\"fqn\":\"aws.cloudwatchEventTarget.CloudwatchEventTargetSqsTarget\"}", isOptional: true)]
@@ -283,7 +283,7 @@ namespace aws.CloudwatchEventTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_event_target#target_id CloudwatchEventTarget#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_event_target#target_id CloudwatchEventTarget#target_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetId

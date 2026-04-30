@@ -9,7 +9,7 @@ namespace aws.AppconfigHostedConfigurationVersion
     [JsiiByValue(fqn: "aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersionConfig")]
     public class AppconfigHostedConfigurationVersionConfig : aws.AppconfigHostedConfigurationVersion.IAppconfigHostedConfigurationVersionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_hosted_configuration_version#application_id AppconfigHostedConfigurationVersion#application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_hosted_configuration_version#application_id AppconfigHostedConfigurationVersion#application_id}.</summary>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationId
         {
@@ -17,7 +17,7 @@ namespace aws.AppconfigHostedConfigurationVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_hosted_configuration_version#configuration_profile_id AppconfigHostedConfigurationVersion#configuration_profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_hosted_configuration_version#configuration_profile_id AppconfigHostedConfigurationVersion#configuration_profile_id}.</summary>
         [JsiiProperty(name: "configurationProfileId", typeJson: "{\"primitive\":\"string\"}")]
         public string ConfigurationProfileId
         {
@@ -25,7 +25,7 @@ namespace aws.AppconfigHostedConfigurationVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_hosted_configuration_version#content AppconfigHostedConfigurationVersion#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_hosted_configuration_version#content AppconfigHostedConfigurationVersion#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         public string Content
         {
@@ -33,7 +33,7 @@ namespace aws.AppconfigHostedConfigurationVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_hosted_configuration_version#content_type AppconfigHostedConfigurationVersion#content_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_hosted_configuration_version#content_type AppconfigHostedConfigurationVersion#content_type}.</summary>
         [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}")]
         public string ContentType
         {
@@ -41,7 +41,7 @@ namespace aws.AppconfigHostedConfigurationVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_hosted_configuration_version#description AppconfigHostedConfigurationVersion#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_hosted_configuration_version#description AppconfigHostedConfigurationVersion#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -50,7 +50,7 @@ namespace aws.AppconfigHostedConfigurationVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_hosted_configuration_version#id AppconfigHostedConfigurationVersion#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_hosted_configuration_version#id AppconfigHostedConfigurationVersion#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace aws.AppconfigHostedConfigurationVersion
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appconfig_hosted_configuration_version#region AppconfigHostedConfigurationVersion#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appconfig_hosted_configuration_version#region AppconfigHostedConfigurationVersion#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace aws.AuditmanagerAssessment
     [JsiiInterface(nativeType: typeof(IAuditmanagerAssessmentScopeAwsServices), fullyQualifiedName: "aws.auditmanagerAssessment.AuditmanagerAssessmentScopeAwsServices")]
     public interface IAuditmanagerAssessmentScopeAwsServices
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_assessment#service_name AuditmanagerAssessment#service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_assessment#service_name AuditmanagerAssessment#service_name}.</summary>
         [JsiiProperty(name: "serviceName", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceName
         {
@@ -21,7 +21,7 @@ namespace aws.AuditmanagerAssessment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/auditmanager_assessment#service_name AuditmanagerAssessment#service_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/auditmanager_assessment#service_name AuditmanagerAssessment#service_name}.</summary>
             [JsiiProperty(name: "serviceName", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceName
             {

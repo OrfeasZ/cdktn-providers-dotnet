@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     [JsiiByValue(fqn: "aws.medialiveChannel.MedialiveChannelMaintenance")]
     public class MedialiveChannelMaintenance : aws.MedialiveChannel.IMedialiveChannelMaintenance
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#maintenance_day MedialiveChannel#maintenance_day}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#maintenance_day MedialiveChannel#maintenance_day}.</summary>
         [JsiiProperty(name: "maintenanceDay", typeJson: "{\"primitive\":\"string\"}")]
         public string MaintenanceDay
         {
@@ -17,7 +17,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#maintenance_start_time MedialiveChannel#maintenance_start_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#maintenance_start_time MedialiveChannel#maintenance_start_time}.</summary>
         [JsiiProperty(name: "maintenanceStartTime", typeJson: "{\"primitive\":\"string\"}")]
         public string MaintenanceStartTime
         {

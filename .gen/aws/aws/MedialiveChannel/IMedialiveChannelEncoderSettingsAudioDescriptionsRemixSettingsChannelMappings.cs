@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     {
         /// <summary>input_channel_levels block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#input_channel_levels MedialiveChannel#input_channel_levels}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#input_channel_levels MedialiveChannel#input_channel_levels}
         /// </remarks>
         [JsiiProperty(name: "inputChannelLevels", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptionsRemixSettingsChannelMappingsInputChannelLevels\"},\"kind\":\"array\"}}]}}")]
         object InputChannelLevels
@@ -17,7 +17,7 @@ namespace aws.MedialiveChannel
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#output_channel MedialiveChannel#output_channel}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#output_channel MedialiveChannel#output_channel}.</summary>
         [JsiiProperty(name: "outputChannel", typeJson: "{\"primitive\":\"number\"}")]
         double OutputChannel
         {
@@ -33,7 +33,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>input_channel_levels block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#input_channel_levels MedialiveChannel#input_channel_levels}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#input_channel_levels MedialiveChannel#input_channel_levels}
             /// </remarks>
             [JsiiProperty(name: "inputChannelLevels", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptionsRemixSettingsChannelMappingsInputChannelLevels\"},\"kind\":\"array\"}}]}}")]
             public object InputChannelLevels
@@ -41,7 +41,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#output_channel MedialiveChannel#output_channel}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#output_channel MedialiveChannel#output_channel}.</summary>
             [JsiiProperty(name: "outputChannel", typeJson: "{\"primitive\":\"number\"}")]
             public double OutputChannel
             {

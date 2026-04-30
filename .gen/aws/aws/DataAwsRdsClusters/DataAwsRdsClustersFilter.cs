@@ -9,7 +9,7 @@ namespace aws.DataAwsRdsClusters
     [JsiiByValue(fqn: "aws.dataAwsRdsClusters.DataAwsRdsClustersFilter")]
     public class DataAwsRdsClustersFilter : aws.DataAwsRdsClusters.IDataAwsRdsClustersFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/rds_clusters#name DataAwsRdsClusters#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/rds_clusters#name DataAwsRdsClusters#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsRdsClusters
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/rds_clusters#values DataAwsRdsClusters#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/rds_clusters#values DataAwsRdsClusters#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

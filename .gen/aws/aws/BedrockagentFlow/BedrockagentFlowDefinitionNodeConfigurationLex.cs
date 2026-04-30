@@ -9,7 +9,7 @@ namespace aws.BedrockagentFlow
     [JsiiByValue(fqn: "aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationLex")]
     public class BedrockagentFlowDefinitionNodeConfigurationLex : aws.BedrockagentFlow.IBedrockagentFlowDefinitionNodeConfigurationLex
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_flow#bot_alias_arn BedrockagentFlow#bot_alias_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_flow#bot_alias_arn BedrockagentFlow#bot_alias_arn}.</summary>
         [JsiiProperty(name: "botAliasArn", typeJson: "{\"primitive\":\"string\"}")]
         public string BotAliasArn
         {
@@ -17,7 +17,7 @@ namespace aws.BedrockagentFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_flow#locale_id BedrockagentFlow#locale_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_flow#locale_id BedrockagentFlow#locale_id}.</summary>
         [JsiiProperty(name: "localeId", typeJson: "{\"primitive\":\"string\"}")]
         public string LocaleId
         {

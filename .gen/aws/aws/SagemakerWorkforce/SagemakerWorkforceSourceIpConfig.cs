@@ -9,7 +9,7 @@ namespace aws.SagemakerWorkforce
     [JsiiByValue(fqn: "aws.sagemakerWorkforce.SagemakerWorkforceSourceIpConfig")]
     public class SagemakerWorkforceSourceIpConfig : aws.SagemakerWorkforce.ISagemakerWorkforceSourceIpConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_workforce#cidrs SagemakerWorkforce#cidrs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_workforce#cidrs SagemakerWorkforce#cidrs}.</summary>
         [JsiiProperty(name: "cidrs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Cidrs
         {

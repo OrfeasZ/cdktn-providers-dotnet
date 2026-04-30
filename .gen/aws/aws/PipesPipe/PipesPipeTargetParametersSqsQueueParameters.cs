@@ -7,7 +7,7 @@ namespace aws.PipesPipe
     [JsiiByValue(fqn: "aws.pipesPipe.PipesPipeTargetParametersSqsQueueParameters")]
     public class PipesPipeTargetParametersSqsQueueParameters : aws.PipesPipe.IPipesPipeTargetParametersSqsQueueParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#message_deduplication_id PipesPipe#message_deduplication_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#message_deduplication_id PipesPipe#message_deduplication_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "messageDeduplicationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MessageDeduplicationId
@@ -16,7 +16,7 @@ namespace aws.PipesPipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pipes_pipe#message_group_id PipesPipe#message_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pipes_pipe#message_group_id PipesPipe#message_group_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "messageGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MessageGroupId

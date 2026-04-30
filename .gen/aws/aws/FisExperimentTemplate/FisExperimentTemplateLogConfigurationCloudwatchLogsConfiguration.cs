@@ -9,7 +9,7 @@ namespace aws.FisExperimentTemplate
     [JsiiByValue(fqn: "aws.fisExperimentTemplate.FisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration")]
     public class FisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration : aws.FisExperimentTemplate.IFisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fis_experiment_template#log_group_arn FisExperimentTemplate#log_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fis_experiment_template#log_group_arn FisExperimentTemplate#log_group_arn}.</summary>
         [JsiiProperty(name: "logGroupArn", typeJson: "{\"primitive\":\"string\"}")]
         public string LogGroupArn
         {

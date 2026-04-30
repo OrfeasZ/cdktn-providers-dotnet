@@ -7,7 +7,7 @@ namespace aws.KeyspacesKeyspace
     [JsiiByValue(fqn: "aws.keyspacesKeyspace.KeyspacesKeyspaceReplicationSpecification")]
     public class KeyspacesKeyspaceReplicationSpecification : aws.KeyspacesKeyspace.IKeyspacesKeyspaceReplicationSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/keyspaces_keyspace#region_list KeyspacesKeyspace#region_list}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/keyspaces_keyspace#region_list KeyspacesKeyspace#region_list}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "regionList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? RegionList
@@ -16,7 +16,7 @@ namespace aws.KeyspacesKeyspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/keyspaces_keyspace#replication_strategy KeyspacesKeyspace#replication_strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/keyspaces_keyspace#replication_strategy KeyspacesKeyspace#replication_strategy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "replicationStrategy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ReplicationStrategy

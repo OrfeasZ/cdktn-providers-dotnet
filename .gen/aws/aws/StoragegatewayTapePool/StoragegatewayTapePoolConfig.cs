@@ -9,7 +9,7 @@ namespace aws.StoragegatewayTapePool
     [JsiiByValue(fqn: "aws.storagegatewayTapePool.StoragegatewayTapePoolConfig")]
     public class StoragegatewayTapePoolConfig : aws.StoragegatewayTapePool.IStoragegatewayTapePoolConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/storagegateway_tape_pool#pool_name StoragegatewayTapePool#pool_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/storagegateway_tape_pool#pool_name StoragegatewayTapePool#pool_name}.</summary>
         [JsiiProperty(name: "poolName", typeJson: "{\"primitive\":\"string\"}")]
         public string PoolName
         {
@@ -17,7 +17,7 @@ namespace aws.StoragegatewayTapePool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/storagegateway_tape_pool#storage_class StoragegatewayTapePool#storage_class}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/storagegateway_tape_pool#storage_class StoragegatewayTapePool#storage_class}.</summary>
         [JsiiProperty(name: "storageClass", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageClass
         {
@@ -25,7 +25,7 @@ namespace aws.StoragegatewayTapePool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/storagegateway_tape_pool#id StoragegatewayTapePool#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/storagegateway_tape_pool#id StoragegatewayTapePool#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace aws.StoragegatewayTapePool
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/storagegateway_tape_pool#region StoragegatewayTapePool#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/storagegateway_tape_pool#region StoragegatewayTapePool#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace aws.StoragegatewayTapePool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/storagegateway_tape_pool#retention_lock_time_in_days StoragegatewayTapePool#retention_lock_time_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/storagegateway_tape_pool#retention_lock_time_in_days StoragegatewayTapePool#retention_lock_time_in_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retentionLockTimeInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RetentionLockTimeInDays
@@ -59,7 +59,7 @@ namespace aws.StoragegatewayTapePool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/storagegateway_tape_pool#retention_lock_type StoragegatewayTapePool#retention_lock_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/storagegateway_tape_pool#retention_lock_type StoragegatewayTapePool#retention_lock_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retentionLockType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RetentionLockType
@@ -68,7 +68,7 @@ namespace aws.StoragegatewayTapePool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/storagegateway_tape_pool#tags StoragegatewayTapePool#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/storagegateway_tape_pool#tags StoragegatewayTapePool#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -77,7 +77,7 @@ namespace aws.StoragegatewayTapePool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/storagegateway_tape_pool#tags_all StoragegatewayTapePool#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/storagegateway_tape_pool#tags_all StoragegatewayTapePool#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll

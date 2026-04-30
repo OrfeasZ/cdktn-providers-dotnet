@@ -7,14 +7,14 @@ namespace aws.ResourcegroupsGroup
     [JsiiInterface(nativeType: typeof(IResourcegroupsGroupResourceQuery), fullyQualifiedName: "aws.resourcegroupsGroup.ResourcegroupsGroupResourceQuery")]
     public interface IResourcegroupsGroupResourceQuery
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourcegroups_group#query ResourcegroupsGroup#query}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/resourcegroups_group#query ResourcegroupsGroup#query}.</summary>
         [JsiiProperty(name: "query", typeJson: "{\"primitive\":\"string\"}")]
         string Query
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourcegroups_group#type ResourcegroupsGroup#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/resourcegroups_group#type ResourcegroupsGroup#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
@@ -32,14 +32,14 @@ namespace aws.ResourcegroupsGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourcegroups_group#query ResourcegroupsGroup#query}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/resourcegroups_group#query ResourcegroupsGroup#query}.</summary>
             [JsiiProperty(name: "query", typeJson: "{\"primitive\":\"string\"}")]
             public string Query
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/resourcegroups_group#type ResourcegroupsGroup#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/resourcegroups_group#type ResourcegroupsGroup#type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type

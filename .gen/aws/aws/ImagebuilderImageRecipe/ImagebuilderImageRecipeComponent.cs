@@ -9,7 +9,7 @@ namespace aws.ImagebuilderImageRecipe
     [JsiiByValue(fqn: "aws.imagebuilderImageRecipe.ImagebuilderImageRecipeComponent")]
     public class ImagebuilderImageRecipeComponent : aws.ImagebuilderImageRecipe.IImagebuilderImageRecipeComponent
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image_recipe#component_arn ImagebuilderImageRecipe#component_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image_recipe#component_arn ImagebuilderImageRecipe#component_arn}.</summary>
         [JsiiProperty(name: "componentArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ComponentArn
         {
@@ -21,7 +21,7 @@ namespace aws.ImagebuilderImageRecipe
 
         /// <summary>parameter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/imagebuilder_image_recipe#parameter ImagebuilderImageRecipe#parameter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/imagebuilder_image_recipe#parameter ImagebuilderImageRecipe#parameter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parameter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderImageRecipe.ImagebuilderImageRecipeComponentParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]

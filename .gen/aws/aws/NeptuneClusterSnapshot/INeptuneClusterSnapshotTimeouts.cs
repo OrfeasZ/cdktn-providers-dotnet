@@ -7,7 +7,7 @@ namespace aws.NeptuneClusterSnapshot
     [JsiiInterface(nativeType: typeof(INeptuneClusterSnapshotTimeouts), fullyQualifiedName: "aws.neptuneClusterSnapshot.NeptuneClusterSnapshotTimeouts")]
     public interface INeptuneClusterSnapshotTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/neptune_cluster_snapshot#create NeptuneClusterSnapshot#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/neptune_cluster_snapshot#create NeptuneClusterSnapshot#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -25,7 +25,7 @@ namespace aws.NeptuneClusterSnapshot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/neptune_cluster_snapshot#create NeptuneClusterSnapshot#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/neptune_cluster_snapshot#create NeptuneClusterSnapshot#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create

@@ -7,7 +7,7 @@ namespace aws.QuicksightDataSource
     [JsiiInterface(nativeType: typeof(IQuicksightDataSourceParametersAwsIotAnalytics), fullyQualifiedName: "aws.quicksightDataSource.QuicksightDataSourceParametersAwsIotAnalytics")]
     public interface IQuicksightDataSourceParametersAwsIotAnalytics
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#data_set_name QuicksightDataSource#data_set_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#data_set_name QuicksightDataSource#data_set_name}.</summary>
         [JsiiProperty(name: "dataSetName", typeJson: "{\"primitive\":\"string\"}")]
         string DataSetName
         {
@@ -21,7 +21,7 @@ namespace aws.QuicksightDataSource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#data_set_name QuicksightDataSource#data_set_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#data_set_name QuicksightDataSource#data_set_name}.</summary>
             [JsiiProperty(name: "dataSetName", typeJson: "{\"primitive\":\"string\"}")]
             public string DataSetName
             {

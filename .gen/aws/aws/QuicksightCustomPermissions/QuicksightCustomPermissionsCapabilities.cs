@@ -7,7 +7,7 @@ namespace aws.QuicksightCustomPermissions
     [JsiiByValue(fqn: "aws.quicksightCustomPermissions.QuicksightCustomPermissionsCapabilities")]
     public class QuicksightCustomPermissionsCapabilities : aws.QuicksightCustomPermissions.IQuicksightCustomPermissionsCapabilities
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#add_or_run_anomaly_detection_for_analyses QuicksightCustomPermissions#add_or_run_anomaly_detection_for_analyses}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#add_or_run_anomaly_detection_for_analyses QuicksightCustomPermissions#add_or_run_anomaly_detection_for_analyses}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "addOrRunAnomalyDetectionForAnalyses", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AddOrRunAnomalyDetectionForAnalyses
@@ -16,7 +16,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#create_and_update_dashboard_email_reports QuicksightCustomPermissions#create_and_update_dashboard_email_reports}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#create_and_update_dashboard_email_reports QuicksightCustomPermissions#create_and_update_dashboard_email_reports}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "createAndUpdateDashboardEmailReports", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CreateAndUpdateDashboardEmailReports
@@ -25,7 +25,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#create_and_update_datasets QuicksightCustomPermissions#create_and_update_datasets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#create_and_update_datasets QuicksightCustomPermissions#create_and_update_datasets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "createAndUpdateDatasets", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CreateAndUpdateDatasets
@@ -34,7 +34,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#create_and_update_data_sources QuicksightCustomPermissions#create_and_update_data_sources}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#create_and_update_data_sources QuicksightCustomPermissions#create_and_update_data_sources}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "createAndUpdateDataSources", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CreateAndUpdateDataSources
@@ -43,7 +43,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#create_and_update_themes QuicksightCustomPermissions#create_and_update_themes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#create_and_update_themes QuicksightCustomPermissions#create_and_update_themes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "createAndUpdateThemes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CreateAndUpdateThemes
@@ -52,7 +52,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#create_and_update_threshold_alerts QuicksightCustomPermissions#create_and_update_threshold_alerts}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#create_and_update_threshold_alerts QuicksightCustomPermissions#create_and_update_threshold_alerts}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "createAndUpdateThresholdAlerts", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CreateAndUpdateThresholdAlerts
@@ -61,7 +61,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#create_shared_folders QuicksightCustomPermissions#create_shared_folders}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#create_shared_folders QuicksightCustomPermissions#create_shared_folders}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "createSharedFolders", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CreateSharedFolders
@@ -70,7 +70,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#create_spice_dataset QuicksightCustomPermissions#create_spice_dataset}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#create_spice_dataset QuicksightCustomPermissions#create_spice_dataset}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "createSpiceDataset", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CreateSpiceDataset
@@ -79,7 +79,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#export_to_csv QuicksightCustomPermissions#export_to_csv}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#export_to_csv QuicksightCustomPermissions#export_to_csv}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "exportToCsv", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExportToCsv
@@ -88,7 +88,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#export_to_csv_in_scheduled_reports QuicksightCustomPermissions#export_to_csv_in_scheduled_reports}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#export_to_csv_in_scheduled_reports QuicksightCustomPermissions#export_to_csv_in_scheduled_reports}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "exportToCsvInScheduledReports", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExportToCsvInScheduledReports
@@ -97,7 +97,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#export_to_excel QuicksightCustomPermissions#export_to_excel}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#export_to_excel QuicksightCustomPermissions#export_to_excel}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "exportToExcel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExportToExcel
@@ -106,7 +106,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#export_to_excel_in_scheduled_reports QuicksightCustomPermissions#export_to_excel_in_scheduled_reports}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#export_to_excel_in_scheduled_reports QuicksightCustomPermissions#export_to_excel_in_scheduled_reports}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "exportToExcelInScheduledReports", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExportToExcelInScheduledReports
@@ -115,7 +115,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#export_to_pdf QuicksightCustomPermissions#export_to_pdf}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#export_to_pdf QuicksightCustomPermissions#export_to_pdf}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "exportToPdf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExportToPdf
@@ -124,7 +124,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#export_to_pdf_in_scheduled_reports QuicksightCustomPermissions#export_to_pdf_in_scheduled_reports}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#export_to_pdf_in_scheduled_reports QuicksightCustomPermissions#export_to_pdf_in_scheduled_reports}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "exportToPdfInScheduledReports", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExportToPdfInScheduledReports
@@ -133,7 +133,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#include_content_in_scheduled_reports_email QuicksightCustomPermissions#include_content_in_scheduled_reports_email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#include_content_in_scheduled_reports_email QuicksightCustomPermissions#include_content_in_scheduled_reports_email}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeContentInScheduledReportsEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IncludeContentInScheduledReportsEmail
@@ -142,7 +142,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#print_reports QuicksightCustomPermissions#print_reports}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#print_reports QuicksightCustomPermissions#print_reports}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "printReports", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrintReports
@@ -151,7 +151,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#rename_shared_folders QuicksightCustomPermissions#rename_shared_folders}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#rename_shared_folders QuicksightCustomPermissions#rename_shared_folders}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "renameSharedFolders", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RenameSharedFolders
@@ -160,7 +160,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#share_analyses QuicksightCustomPermissions#share_analyses}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#share_analyses QuicksightCustomPermissions#share_analyses}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shareAnalyses", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ShareAnalyses
@@ -169,7 +169,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#share_dashboards QuicksightCustomPermissions#share_dashboards}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#share_dashboards QuicksightCustomPermissions#share_dashboards}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shareDashboards", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ShareDashboards
@@ -178,7 +178,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#share_datasets QuicksightCustomPermissions#share_datasets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#share_datasets QuicksightCustomPermissions#share_datasets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shareDatasets", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ShareDatasets
@@ -187,7 +187,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#share_data_sources QuicksightCustomPermissions#share_data_sources}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#share_data_sources QuicksightCustomPermissions#share_data_sources}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shareDataSources", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ShareDataSources
@@ -196,7 +196,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#subscribe_dashboard_email_reports QuicksightCustomPermissions#subscribe_dashboard_email_reports}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#subscribe_dashboard_email_reports QuicksightCustomPermissions#subscribe_dashboard_email_reports}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subscribeDashboardEmailReports", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubscribeDashboardEmailReports
@@ -205,7 +205,7 @@ namespace aws.QuicksightCustomPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_custom_permissions#view_account_spice_capacity QuicksightCustomPermissions#view_account_spice_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_custom_permissions#view_account_spice_capacity QuicksightCustomPermissions#view_account_spice_capacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "viewAccountSpiceCapacity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ViewAccountSpiceCapacity

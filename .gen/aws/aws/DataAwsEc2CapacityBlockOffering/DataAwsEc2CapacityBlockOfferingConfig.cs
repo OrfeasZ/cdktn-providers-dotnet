@@ -9,7 +9,7 @@ namespace aws.DataAwsEc2CapacityBlockOffering
     [JsiiByValue(fqn: "aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOfferingConfig")]
     public class DataAwsEc2CapacityBlockOfferingConfig : aws.DataAwsEc2CapacityBlockOffering.IDataAwsEc2CapacityBlockOfferingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_capacity_block_offering#capacity_duration_hours DataAwsEc2CapacityBlockOffering#capacity_duration_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ec2_capacity_block_offering#capacity_duration_hours DataAwsEc2CapacityBlockOffering#capacity_duration_hours}.</summary>
         [JsiiProperty(name: "capacityDurationHours", typeJson: "{\"primitive\":\"number\"}")]
         public double CapacityDurationHours
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsEc2CapacityBlockOffering
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_capacity_block_offering#instance_count DataAwsEc2CapacityBlockOffering#instance_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ec2_capacity_block_offering#instance_count DataAwsEc2CapacityBlockOffering#instance_count}.</summary>
         [JsiiProperty(name: "instanceCount", typeJson: "{\"primitive\":\"number\"}")]
         public double InstanceCount
         {
@@ -25,7 +25,7 @@ namespace aws.DataAwsEc2CapacityBlockOffering
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_capacity_block_offering#instance_type DataAwsEc2CapacityBlockOffering#instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ec2_capacity_block_offering#instance_type DataAwsEc2CapacityBlockOffering#instance_type}.</summary>
         [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceType
         {
@@ -33,7 +33,7 @@ namespace aws.DataAwsEc2CapacityBlockOffering
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_capacity_block_offering#end_date_range DataAwsEc2CapacityBlockOffering#end_date_range}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ec2_capacity_block_offering#end_date_range DataAwsEc2CapacityBlockOffering#end_date_range}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "endDateRange", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EndDateRange
@@ -44,7 +44,7 @@ namespace aws.DataAwsEc2CapacityBlockOffering
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_capacity_block_offering#region DataAwsEc2CapacityBlockOffering#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ec2_capacity_block_offering#region DataAwsEc2CapacityBlockOffering#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace aws.DataAwsEc2CapacityBlockOffering
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ec2_capacity_block_offering#start_date_range DataAwsEc2CapacityBlockOffering#start_date_range}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ec2_capacity_block_offering#start_date_range DataAwsEc2CapacityBlockOffering#start_date_range}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "startDateRange", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StartDateRange

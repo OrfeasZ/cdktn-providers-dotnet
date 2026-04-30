@@ -7,7 +7,7 @@ namespace aws.ApprunnerService
     [JsiiInterface(nativeType: typeof(IApprunnerServiceSourceConfigurationCodeRepositoryCodeConfiguration), fullyQualifiedName: "aws.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfiguration")]
     public interface IApprunnerServiceSourceConfigurationCodeRepositoryCodeConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#configuration_source ApprunnerService#configuration_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#configuration_source ApprunnerService#configuration_source}.</summary>
         [JsiiProperty(name: "configurationSource", typeJson: "{\"primitive\":\"string\"}")]
         string ConfigurationSource
         {
@@ -16,7 +16,7 @@ namespace aws.ApprunnerService
 
         /// <summary>code_configuration_values block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#code_configuration_values ApprunnerService#code_configuration_values}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#code_configuration_values ApprunnerService#code_configuration_values}
         /// </remarks>
         [JsiiProperty(name: "codeConfigurationValues", typeJson: "{\"fqn\":\"aws.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValues\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace aws.ApprunnerService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#configuration_source ApprunnerService#configuration_source}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#configuration_source ApprunnerService#configuration_source}.</summary>
             [JsiiProperty(name: "configurationSource", typeJson: "{\"primitive\":\"string\"}")]
             public string ConfigurationSource
             {
@@ -44,7 +44,7 @@ namespace aws.ApprunnerService
 
             /// <summary>code_configuration_values block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_service#code_configuration_values ApprunnerService#code_configuration_values}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_service#code_configuration_values ApprunnerService#code_configuration_values}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "codeConfigurationValues", typeJson: "{\"fqn\":\"aws.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValues\"}", isOptional: true)]

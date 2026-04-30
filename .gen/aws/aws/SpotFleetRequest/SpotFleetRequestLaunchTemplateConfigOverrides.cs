@@ -7,7 +7,7 @@ namespace aws.SpotFleetRequest
     [JsiiByValue(fqn: "aws.spotFleetRequest.SpotFleetRequestLaunchTemplateConfigOverrides")]
     public class SpotFleetRequestLaunchTemplateConfigOverrides : aws.SpotFleetRequest.ISpotFleetRequestLaunchTemplateConfigOverrides
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_fleet_request#availability_zone SpotFleetRequest#availability_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_fleet_request#availability_zone SpotFleetRequest#availability_zone}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AvailabilityZone
@@ -18,7 +18,7 @@ namespace aws.SpotFleetRequest
 
         /// <summary>instance_requirements block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_fleet_request#instance_requirements SpotFleetRequest#instance_requirements}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_fleet_request#instance_requirements SpotFleetRequest#instance_requirements}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "instanceRequirements", typeJson: "{\"fqn\":\"aws.spotFleetRequest.SpotFleetRequestLaunchTemplateConfigOverridesInstanceRequirements\"}", isOptional: true)]
@@ -28,7 +28,7 @@ namespace aws.SpotFleetRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_fleet_request#instance_type SpotFleetRequest#instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_fleet_request#instance_type SpotFleetRequest#instance_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InstanceType
@@ -37,7 +37,7 @@ namespace aws.SpotFleetRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_fleet_request#priority SpotFleetRequest#priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_fleet_request#priority SpotFleetRequest#priority}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Priority
@@ -46,7 +46,7 @@ namespace aws.SpotFleetRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_fleet_request#spot_price SpotFleetRequest#spot_price}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_fleet_request#spot_price SpotFleetRequest#spot_price}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "spotPrice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SpotPrice
@@ -55,7 +55,7 @@ namespace aws.SpotFleetRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_fleet_request#subnet_id SpotFleetRequest#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_fleet_request#subnet_id SpotFleetRequest#subnet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubnetId
@@ -64,7 +64,7 @@ namespace aws.SpotFleetRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_fleet_request#weighted_capacity SpotFleetRequest#weighted_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_fleet_request#weighted_capacity SpotFleetRequest#weighted_capacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "weightedCapacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? WeightedCapacity

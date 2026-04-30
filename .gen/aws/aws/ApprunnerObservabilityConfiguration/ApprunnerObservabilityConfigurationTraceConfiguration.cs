@@ -7,7 +7,7 @@ namespace aws.ApprunnerObservabilityConfiguration
     [JsiiByValue(fqn: "aws.apprunnerObservabilityConfiguration.ApprunnerObservabilityConfigurationTraceConfiguration")]
     public class ApprunnerObservabilityConfigurationTraceConfiguration : aws.ApprunnerObservabilityConfiguration.IApprunnerObservabilityConfigurationTraceConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/apprunner_observability_configuration#vendor ApprunnerObservabilityConfiguration#vendor}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/apprunner_observability_configuration#vendor ApprunnerObservabilityConfiguration#vendor}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vendor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Vendor

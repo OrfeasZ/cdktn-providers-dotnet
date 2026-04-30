@@ -7,7 +7,7 @@ namespace aws.AthenaDatabase
     [JsiiInterface(nativeType: typeof(IAthenaDatabaseConfig), fullyQualifiedName: "aws.athenaDatabase.AthenaDatabaseConfig")]
     public interface IAthenaDatabaseConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#name AthenaDatabase#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#name AthenaDatabase#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -16,7 +16,7 @@ namespace aws.AthenaDatabase
 
         /// <summary>acl_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#acl_configuration AthenaDatabase#acl_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#acl_configuration AthenaDatabase#acl_configuration}
         /// </remarks>
         [JsiiProperty(name: "aclConfiguration", typeJson: "{\"fqn\":\"aws.athenaDatabase.AthenaDatabaseAclConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,7 +28,7 @@ namespace aws.AthenaDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#bucket AthenaDatabase#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#bucket AthenaDatabase#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Bucket
@@ -39,7 +39,7 @@ namespace aws.AthenaDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#comment AthenaDatabase#comment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#comment AthenaDatabase#comment}.</summary>
         [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Comment
@@ -52,7 +52,7 @@ namespace aws.AthenaDatabase
 
         /// <summary>encryption_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#encryption_configuration AthenaDatabase#encryption_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#encryption_configuration AthenaDatabase#encryption_configuration}
         /// </remarks>
         [JsiiProperty(name: "encryptionConfiguration", typeJson: "{\"fqn\":\"aws.athenaDatabase.AthenaDatabaseEncryptionConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -64,7 +64,7 @@ namespace aws.AthenaDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#expected_bucket_owner AthenaDatabase#expected_bucket_owner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#expected_bucket_owner AthenaDatabase#expected_bucket_owner}.</summary>
         [JsiiProperty(name: "expectedBucketOwner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ExpectedBucketOwner
@@ -75,7 +75,7 @@ namespace aws.AthenaDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#force_destroy AthenaDatabase#force_destroy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#force_destroy AthenaDatabase#force_destroy}.</summary>
         [JsiiProperty(name: "forceDestroy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? ForceDestroy
@@ -86,7 +86,7 @@ namespace aws.AthenaDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#id AthenaDatabase#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#id AthenaDatabase#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -101,7 +101,7 @@ namespace aws.AthenaDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#properties AthenaDatabase#properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#properties AthenaDatabase#properties}.</summary>
         [JsiiProperty(name: "properties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Properties
@@ -114,7 +114,7 @@ namespace aws.AthenaDatabase
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#region AthenaDatabase#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#region AthenaDatabase#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -126,7 +126,7 @@ namespace aws.AthenaDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#workgroup AthenaDatabase#workgroup}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#workgroup AthenaDatabase#workgroup}.</summary>
         [JsiiProperty(name: "workgroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Workgroup
@@ -144,7 +144,7 @@ namespace aws.AthenaDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#name AthenaDatabase#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#name AthenaDatabase#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
@@ -153,7 +153,7 @@ namespace aws.AthenaDatabase
 
             /// <summary>acl_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#acl_configuration AthenaDatabase#acl_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#acl_configuration AthenaDatabase#acl_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "aclConfiguration", typeJson: "{\"fqn\":\"aws.athenaDatabase.AthenaDatabaseAclConfiguration\"}", isOptional: true)]
@@ -162,7 +162,7 @@ namespace aws.AthenaDatabase
                 get => GetInstanceProperty<aws.AthenaDatabase.IAthenaDatabaseAclConfiguration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#bucket AthenaDatabase#bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#bucket AthenaDatabase#bucket}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Bucket
@@ -170,7 +170,7 @@ namespace aws.AthenaDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#comment AthenaDatabase#comment}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#comment AthenaDatabase#comment}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Comment
@@ -180,7 +180,7 @@ namespace aws.AthenaDatabase
 
             /// <summary>encryption_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#encryption_configuration AthenaDatabase#encryption_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#encryption_configuration AthenaDatabase#encryption_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "encryptionConfiguration", typeJson: "{\"fqn\":\"aws.athenaDatabase.AthenaDatabaseEncryptionConfiguration\"}", isOptional: true)]
@@ -189,7 +189,7 @@ namespace aws.AthenaDatabase
                 get => GetInstanceProperty<aws.AthenaDatabase.IAthenaDatabaseEncryptionConfiguration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#expected_bucket_owner AthenaDatabase#expected_bucket_owner}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#expected_bucket_owner AthenaDatabase#expected_bucket_owner}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "expectedBucketOwner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ExpectedBucketOwner
@@ -197,7 +197,7 @@ namespace aws.AthenaDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#force_destroy AthenaDatabase#force_destroy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#force_destroy AthenaDatabase#force_destroy}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "forceDestroy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? ForceDestroy
@@ -205,7 +205,7 @@ namespace aws.AthenaDatabase
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#id AthenaDatabase#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#id AthenaDatabase#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -217,7 +217,7 @@ namespace aws.AthenaDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#properties AthenaDatabase#properties}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#properties AthenaDatabase#properties}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "properties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Properties
@@ -227,7 +227,7 @@ namespace aws.AthenaDatabase
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#region AthenaDatabase#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#region AthenaDatabase#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -236,7 +236,7 @@ namespace aws.AthenaDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_database#workgroup AthenaDatabase#workgroup}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_database#workgroup AthenaDatabase#workgroup}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "workgroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Workgroup

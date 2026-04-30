@@ -9,7 +9,7 @@ namespace aws.TransferConnector
     {
         /// <summary>vpc_lattice block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_connector#vpc_lattice TransferConnector#vpc_lattice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_connector#vpc_lattice TransferConnector#vpc_lattice}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpcLattice", typeJson: "{\"fqn\":\"aws.transferConnector.TransferConnectorEgressConfigVpcLattice\"}", isOptional: true)]

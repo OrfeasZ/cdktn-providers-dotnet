@@ -7,7 +7,7 @@ namespace aws.GlueCrawler
     [JsiiByValue(fqn: "aws.glueCrawler.GlueCrawlerLakeFormationConfiguration")]
     public class GlueCrawlerLakeFormationConfiguration : aws.GlueCrawler.IGlueCrawlerLakeFormationConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#account_id GlueCrawler#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_crawler#account_id GlueCrawler#account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountId
@@ -18,7 +18,7 @@ namespace aws.GlueCrawler
 
         private object? _useLakeFormationCredentials;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_crawler#use_lake_formation_credentials GlueCrawler#use_lake_formation_credentials}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_crawler#use_lake_formation_credentials GlueCrawler#use_lake_formation_credentials}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "useLakeFormationCredentials", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? UseLakeFormationCredentials

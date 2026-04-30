@@ -7,7 +7,7 @@ namespace aws.LaunchTemplate
     [JsiiByValue(fqn: "aws.launchTemplate.LaunchTemplateBlockDeviceMappingsEbs")]
     public class LaunchTemplateBlockDeviceMappingsEbs : aws.LaunchTemplate.ILaunchTemplateBlockDeviceMappingsEbs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#delete_on_termination LaunchTemplate#delete_on_termination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#delete_on_termination LaunchTemplate#delete_on_termination}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deleteOnTermination", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DeleteOnTermination
@@ -16,7 +16,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#encrypted LaunchTemplate#encrypted}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#encrypted LaunchTemplate#encrypted}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "encrypted", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Encrypted
@@ -25,7 +25,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#iops LaunchTemplate#iops}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#iops LaunchTemplate#iops}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "iops", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Iops
@@ -34,7 +34,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#kms_key_id LaunchTemplate#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#kms_key_id LaunchTemplate#kms_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyId
@@ -43,7 +43,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#snapshot_id LaunchTemplate#snapshot_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#snapshot_id LaunchTemplate#snapshot_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "snapshotId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SnapshotId
@@ -52,7 +52,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#throughput LaunchTemplate#throughput}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#throughput LaunchTemplate#throughput}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "throughput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Throughput
@@ -61,7 +61,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#volume_initialization_rate LaunchTemplate#volume_initialization_rate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#volume_initialization_rate LaunchTemplate#volume_initialization_rate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "volumeInitializationRate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? VolumeInitializationRate
@@ -70,7 +70,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#volume_size LaunchTemplate#volume_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#volume_size LaunchTemplate#volume_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "volumeSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? VolumeSize
@@ -79,7 +79,7 @@ namespace aws.LaunchTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/launch_template#volume_type LaunchTemplate#volume_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/launch_template#volume_type LaunchTemplate#volume_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "volumeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VolumeType

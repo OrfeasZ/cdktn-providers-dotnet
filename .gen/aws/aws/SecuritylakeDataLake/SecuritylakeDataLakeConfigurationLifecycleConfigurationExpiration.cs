@@ -7,7 +7,7 @@ namespace aws.SecuritylakeDataLake
     [JsiiByValue(fqn: "aws.securitylakeDataLake.SecuritylakeDataLakeConfigurationLifecycleConfigurationExpiration")]
     public class SecuritylakeDataLakeConfigurationLifecycleConfigurationExpiration : aws.SecuritylakeDataLake.ISecuritylakeDataLakeConfigurationLifecycleConfigurationExpiration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_data_lake#days SecuritylakeDataLake#days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_data_lake#days SecuritylakeDataLake#days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Days

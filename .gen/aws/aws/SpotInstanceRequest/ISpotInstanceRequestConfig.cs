@@ -7,7 +7,7 @@ namespace aws.SpotInstanceRequest
     [JsiiInterface(nativeType: typeof(ISpotInstanceRequestConfig), fullyQualifiedName: "aws.spotInstanceRequest.SpotInstanceRequestConfig")]
     public interface ISpotInstanceRequestConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#ami SpotInstanceRequest#ami}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#ami SpotInstanceRequest#ami}.</summary>
         [JsiiProperty(name: "ami", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Ami
@@ -18,7 +18,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#associate_public_ip_address SpotInstanceRequest#associate_public_ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#associate_public_ip_address SpotInstanceRequest#associate_public_ip_address}.</summary>
         [JsiiProperty(name: "associatePublicIpAddress", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? AssociatePublicIpAddress
@@ -29,7 +29,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#availability_zone SpotInstanceRequest#availability_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#availability_zone SpotInstanceRequest#availability_zone}.</summary>
         [JsiiProperty(name: "availabilityZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AvailabilityZone
@@ -42,7 +42,7 @@ namespace aws.SpotInstanceRequest
 
         /// <summary>capacity_reservation_specification block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#capacity_reservation_specification SpotInstanceRequest#capacity_reservation_specification}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#capacity_reservation_specification SpotInstanceRequest#capacity_reservation_specification}
         /// </remarks>
         [JsiiProperty(name: "capacityReservationSpecification", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestCapacityReservationSpecification\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -56,7 +56,7 @@ namespace aws.SpotInstanceRequest
 
         /// <summary>cpu_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#cpu_options SpotInstanceRequest#cpu_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#cpu_options SpotInstanceRequest#cpu_options}
         /// </remarks>
         [JsiiProperty(name: "cpuOptions", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestCpuOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -70,7 +70,7 @@ namespace aws.SpotInstanceRequest
 
         /// <summary>credit_specification block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#credit_specification SpotInstanceRequest#credit_specification}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#credit_specification SpotInstanceRequest#credit_specification}
         /// </remarks>
         [JsiiProperty(name: "creditSpecification", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestCreditSpecification\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -82,7 +82,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#disable_api_stop SpotInstanceRequest#disable_api_stop}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#disable_api_stop SpotInstanceRequest#disable_api_stop}.</summary>
         [JsiiProperty(name: "disableApiStop", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? DisableApiStop
@@ -93,7 +93,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#disable_api_termination SpotInstanceRequest#disable_api_termination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#disable_api_termination SpotInstanceRequest#disable_api_termination}.</summary>
         [JsiiProperty(name: "disableApiTermination", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? DisableApiTermination
@@ -106,7 +106,7 @@ namespace aws.SpotInstanceRequest
 
         /// <summary>ebs_block_device block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#ebs_block_device SpotInstanceRequest#ebs_block_device}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#ebs_block_device SpotInstanceRequest#ebs_block_device}
         /// </remarks>
         [JsiiProperty(name: "ebsBlockDevice", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestEbsBlockDevice\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -118,7 +118,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#ebs_optimized SpotInstanceRequest#ebs_optimized}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#ebs_optimized SpotInstanceRequest#ebs_optimized}.</summary>
         [JsiiProperty(name: "ebsOptimized", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? EbsOptimized
@@ -129,7 +129,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#enable_primary_ipv6 SpotInstanceRequest#enable_primary_ipv6}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#enable_primary_ipv6 SpotInstanceRequest#enable_primary_ipv6}.</summary>
         [JsiiProperty(name: "enablePrimaryIpv6", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? EnablePrimaryIpv6
@@ -142,7 +142,7 @@ namespace aws.SpotInstanceRequest
 
         /// <summary>enclave_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#enclave_options SpotInstanceRequest#enclave_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#enclave_options SpotInstanceRequest#enclave_options}
         /// </remarks>
         [JsiiProperty(name: "enclaveOptions", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestEnclaveOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -156,7 +156,7 @@ namespace aws.SpotInstanceRequest
 
         /// <summary>ephemeral_block_device block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#ephemeral_block_device SpotInstanceRequest#ephemeral_block_device}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#ephemeral_block_device SpotInstanceRequest#ephemeral_block_device}
         /// </remarks>
         [JsiiProperty(name: "ephemeralBlockDevice", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestEphemeralBlockDevice\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -168,7 +168,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#get_password_data SpotInstanceRequest#get_password_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#get_password_data SpotInstanceRequest#get_password_data}.</summary>
         [JsiiProperty(name: "fetchPasswordData", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? FetchPasswordData
@@ -179,7 +179,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#force_destroy SpotInstanceRequest#force_destroy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#force_destroy SpotInstanceRequest#force_destroy}.</summary>
         [JsiiProperty(name: "forceDestroy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? ForceDestroy
@@ -190,7 +190,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#hibernation SpotInstanceRequest#hibernation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#hibernation SpotInstanceRequest#hibernation}.</summary>
         [JsiiProperty(name: "hibernation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? Hibernation
@@ -201,7 +201,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#host_id SpotInstanceRequest#host_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#host_id SpotInstanceRequest#host_id}.</summary>
         [JsiiProperty(name: "hostId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HostId
@@ -212,7 +212,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#host_resource_group_arn SpotInstanceRequest#host_resource_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#host_resource_group_arn SpotInstanceRequest#host_resource_group_arn}.</summary>
         [JsiiProperty(name: "hostResourceGroupArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HostResourceGroupArn
@@ -223,7 +223,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#iam_instance_profile SpotInstanceRequest#iam_instance_profile}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#iam_instance_profile SpotInstanceRequest#iam_instance_profile}.</summary>
         [JsiiProperty(name: "iamInstanceProfile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IamInstanceProfile
@@ -234,7 +234,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#id SpotInstanceRequest#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#id SpotInstanceRequest#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -249,7 +249,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#instance_initiated_shutdown_behavior SpotInstanceRequest#instance_initiated_shutdown_behavior}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#instance_initiated_shutdown_behavior SpotInstanceRequest#instance_initiated_shutdown_behavior}.</summary>
         [JsiiProperty(name: "instanceInitiatedShutdownBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InstanceInitiatedShutdownBehavior
@@ -260,7 +260,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#instance_interruption_behavior SpotInstanceRequest#instance_interruption_behavior}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#instance_interruption_behavior SpotInstanceRequest#instance_interruption_behavior}.</summary>
         [JsiiProperty(name: "instanceInterruptionBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InstanceInterruptionBehavior
@@ -271,7 +271,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#instance_type SpotInstanceRequest#instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#instance_type SpotInstanceRequest#instance_type}.</summary>
         [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InstanceType
@@ -282,7 +282,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#ipv6_address_count SpotInstanceRequest#ipv6_address_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#ipv6_address_count SpotInstanceRequest#ipv6_address_count}.</summary>
         [JsiiProperty(name: "ipv6AddressCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Ipv6AddressCount
@@ -293,7 +293,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#ipv6_addresses SpotInstanceRequest#ipv6_addresses}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#ipv6_addresses SpotInstanceRequest#ipv6_addresses}.</summary>
         [JsiiProperty(name: "ipv6Addresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Ipv6Addresses
@@ -304,7 +304,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#key_name SpotInstanceRequest#key_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#key_name SpotInstanceRequest#key_name}.</summary>
         [JsiiProperty(name: "keyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KeyName
@@ -315,7 +315,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#launch_group SpotInstanceRequest#launch_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#launch_group SpotInstanceRequest#launch_group}.</summary>
         [JsiiProperty(name: "launchGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LaunchGroup
@@ -328,7 +328,7 @@ namespace aws.SpotInstanceRequest
 
         /// <summary>launch_template block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#launch_template SpotInstanceRequest#launch_template}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#launch_template SpotInstanceRequest#launch_template}
         /// </remarks>
         [JsiiProperty(name: "launchTemplate", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestLaunchTemplate\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -342,7 +342,7 @@ namespace aws.SpotInstanceRequest
 
         /// <summary>maintenance_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#maintenance_options SpotInstanceRequest#maintenance_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#maintenance_options SpotInstanceRequest#maintenance_options}
         /// </remarks>
         [JsiiProperty(name: "maintenanceOptions", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestMaintenanceOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -356,7 +356,7 @@ namespace aws.SpotInstanceRequest
 
         /// <summary>metadata_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#metadata_options SpotInstanceRequest#metadata_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#metadata_options SpotInstanceRequest#metadata_options}
         /// </remarks>
         [JsiiProperty(name: "metadataOptions", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestMetadataOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -368,7 +368,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#monitoring SpotInstanceRequest#monitoring}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#monitoring SpotInstanceRequest#monitoring}.</summary>
         [JsiiProperty(name: "monitoring", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? Monitoring
@@ -381,7 +381,7 @@ namespace aws.SpotInstanceRequest
 
         /// <summary>network_interface block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#network_interface SpotInstanceRequest#network_interface}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#network_interface SpotInstanceRequest#network_interface}
         /// </remarks>
         [JsiiProperty(name: "networkInterface", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestNetworkInterface\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -393,7 +393,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#placement_group SpotInstanceRequest#placement_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#placement_group SpotInstanceRequest#placement_group}.</summary>
         [JsiiProperty(name: "placementGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PlacementGroup
@@ -404,7 +404,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#placement_group_id SpotInstanceRequest#placement_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#placement_group_id SpotInstanceRequest#placement_group_id}.</summary>
         [JsiiProperty(name: "placementGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PlacementGroupId
@@ -415,7 +415,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#placement_partition_number SpotInstanceRequest#placement_partition_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#placement_partition_number SpotInstanceRequest#placement_partition_number}.</summary>
         [JsiiProperty(name: "placementPartitionNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? PlacementPartitionNumber
@@ -428,7 +428,7 @@ namespace aws.SpotInstanceRequest
 
         /// <summary>private_dns_name_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#private_dns_name_options SpotInstanceRequest#private_dns_name_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#private_dns_name_options SpotInstanceRequest#private_dns_name_options}
         /// </remarks>
         [JsiiProperty(name: "privateDnsNameOptions", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestPrivateDnsNameOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -440,7 +440,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#private_ip SpotInstanceRequest#private_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#private_ip SpotInstanceRequest#private_ip}.</summary>
         [JsiiProperty(name: "privateIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PrivateIp
@@ -453,7 +453,7 @@ namespace aws.SpotInstanceRequest
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#region SpotInstanceRequest#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#region SpotInstanceRequest#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -467,7 +467,7 @@ namespace aws.SpotInstanceRequest
 
         /// <summary>root_block_device block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#root_block_device SpotInstanceRequest#root_block_device}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#root_block_device SpotInstanceRequest#root_block_device}
         /// </remarks>
         [JsiiProperty(name: "rootBlockDevice", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestRootBlockDevice\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -481,7 +481,7 @@ namespace aws.SpotInstanceRequest
 
         /// <summary>secondary_network_interface block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#secondary_network_interface SpotInstanceRequest#secondary_network_interface}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#secondary_network_interface SpotInstanceRequest#secondary_network_interface}
         /// </remarks>
         [JsiiProperty(name: "secondaryNetworkInterface", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestSecondaryNetworkInterface\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -493,7 +493,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#secondary_private_ips SpotInstanceRequest#secondary_private_ips}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#secondary_private_ips SpotInstanceRequest#secondary_private_ips}.</summary>
         [JsiiProperty(name: "secondaryPrivateIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SecondaryPrivateIps
@@ -504,7 +504,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#security_groups SpotInstanceRequest#security_groups}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#security_groups SpotInstanceRequest#security_groups}.</summary>
         [JsiiProperty(name: "securityGroups", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SecurityGroups
@@ -515,7 +515,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#source_dest_check SpotInstanceRequest#source_dest_check}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#source_dest_check SpotInstanceRequest#source_dest_check}.</summary>
         [JsiiProperty(name: "sourceDestCheck", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? SourceDestCheck
@@ -526,7 +526,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#spot_price SpotInstanceRequest#spot_price}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#spot_price SpotInstanceRequest#spot_price}.</summary>
         [JsiiProperty(name: "spotPrice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SpotPrice
@@ -537,7 +537,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#spot_type SpotInstanceRequest#spot_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#spot_type SpotInstanceRequest#spot_type}.</summary>
         [JsiiProperty(name: "spotType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SpotType
@@ -548,7 +548,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#subnet_id SpotInstanceRequest#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#subnet_id SpotInstanceRequest#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SubnetId
@@ -559,7 +559,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#tags SpotInstanceRequest#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#tags SpotInstanceRequest#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -570,7 +570,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#tags_all SpotInstanceRequest#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#tags_all SpotInstanceRequest#tags_all}.</summary>
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -581,7 +581,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#tenancy SpotInstanceRequest#tenancy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#tenancy SpotInstanceRequest#tenancy}.</summary>
         [JsiiProperty(name: "tenancy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Tenancy
@@ -594,7 +594,7 @@ namespace aws.SpotInstanceRequest
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#timeouts SpotInstanceRequest#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#timeouts SpotInstanceRequest#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -606,7 +606,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#user_data SpotInstanceRequest#user_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#user_data SpotInstanceRequest#user_data}.</summary>
         [JsiiProperty(name: "userData", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UserData
@@ -617,7 +617,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#user_data_base64 SpotInstanceRequest#user_data_base64}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#user_data_base64 SpotInstanceRequest#user_data_base64}.</summary>
         [JsiiProperty(name: "userDataBase64", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UserDataBase64
@@ -628,7 +628,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#user_data_replace_on_change SpotInstanceRequest#user_data_replace_on_change}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#user_data_replace_on_change SpotInstanceRequest#user_data_replace_on_change}.</summary>
         [JsiiProperty(name: "userDataReplaceOnChange", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? UserDataReplaceOnChange
@@ -639,7 +639,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#valid_from SpotInstanceRequest#valid_from}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#valid_from SpotInstanceRequest#valid_from}.</summary>
         [JsiiProperty(name: "validFrom", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ValidFrom
@@ -650,7 +650,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#valid_until SpotInstanceRequest#valid_until}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#valid_until SpotInstanceRequest#valid_until}.</summary>
         [JsiiProperty(name: "validUntil", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ValidUntil
@@ -661,7 +661,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#volume_tags SpotInstanceRequest#volume_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#volume_tags SpotInstanceRequest#volume_tags}.</summary>
         [JsiiProperty(name: "volumeTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? VolumeTags
@@ -672,7 +672,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#vpc_security_group_ids SpotInstanceRequest#vpc_security_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#vpc_security_group_ids SpotInstanceRequest#vpc_security_group_ids}.</summary>
         [JsiiProperty(name: "vpcSecurityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? VpcSecurityGroupIds
@@ -683,7 +683,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#wait_for_fulfillment SpotInstanceRequest#wait_for_fulfillment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#wait_for_fulfillment SpotInstanceRequest#wait_for_fulfillment}.</summary>
         [JsiiProperty(name: "waitForFulfillment", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? WaitForFulfillment
@@ -701,7 +701,7 @@ namespace aws.SpotInstanceRequest
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#ami SpotInstanceRequest#ami}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#ami SpotInstanceRequest#ami}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ami", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Ami
@@ -709,7 +709,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#associate_public_ip_address SpotInstanceRequest#associate_public_ip_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#associate_public_ip_address SpotInstanceRequest#associate_public_ip_address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "associatePublicIpAddress", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? AssociatePublicIpAddress
@@ -717,7 +717,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#availability_zone SpotInstanceRequest#availability_zone}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#availability_zone SpotInstanceRequest#availability_zone}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "availabilityZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AvailabilityZone
@@ -727,7 +727,7 @@ namespace aws.SpotInstanceRequest
 
             /// <summary>capacity_reservation_specification block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#capacity_reservation_specification SpotInstanceRequest#capacity_reservation_specification}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#capacity_reservation_specification SpotInstanceRequest#capacity_reservation_specification}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "capacityReservationSpecification", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestCapacityReservationSpecification\"}", isOptional: true)]
@@ -738,7 +738,7 @@ namespace aws.SpotInstanceRequest
 
             /// <summary>cpu_options block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#cpu_options SpotInstanceRequest#cpu_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#cpu_options SpotInstanceRequest#cpu_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cpuOptions", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestCpuOptions\"}", isOptional: true)]
@@ -749,7 +749,7 @@ namespace aws.SpotInstanceRequest
 
             /// <summary>credit_specification block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#credit_specification SpotInstanceRequest#credit_specification}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#credit_specification SpotInstanceRequest#credit_specification}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "creditSpecification", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestCreditSpecification\"}", isOptional: true)]
@@ -758,7 +758,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<aws.SpotInstanceRequest.ISpotInstanceRequestCreditSpecification?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#disable_api_stop SpotInstanceRequest#disable_api_stop}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#disable_api_stop SpotInstanceRequest#disable_api_stop}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "disableApiStop", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? DisableApiStop
@@ -766,7 +766,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#disable_api_termination SpotInstanceRequest#disable_api_termination}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#disable_api_termination SpotInstanceRequest#disable_api_termination}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "disableApiTermination", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? DisableApiTermination
@@ -776,7 +776,7 @@ namespace aws.SpotInstanceRequest
 
             /// <summary>ebs_block_device block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#ebs_block_device SpotInstanceRequest#ebs_block_device}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#ebs_block_device SpotInstanceRequest#ebs_block_device}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ebsBlockDevice", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestEbsBlockDevice\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -785,7 +785,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#ebs_optimized SpotInstanceRequest#ebs_optimized}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#ebs_optimized SpotInstanceRequest#ebs_optimized}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ebsOptimized", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? EbsOptimized
@@ -793,7 +793,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#enable_primary_ipv6 SpotInstanceRequest#enable_primary_ipv6}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#enable_primary_ipv6 SpotInstanceRequest#enable_primary_ipv6}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "enablePrimaryIpv6", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? EnablePrimaryIpv6
@@ -803,7 +803,7 @@ namespace aws.SpotInstanceRequest
 
             /// <summary>enclave_options block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#enclave_options SpotInstanceRequest#enclave_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#enclave_options SpotInstanceRequest#enclave_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "enclaveOptions", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestEnclaveOptions\"}", isOptional: true)]
@@ -814,7 +814,7 @@ namespace aws.SpotInstanceRequest
 
             /// <summary>ephemeral_block_device block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#ephemeral_block_device SpotInstanceRequest#ephemeral_block_device}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#ephemeral_block_device SpotInstanceRequest#ephemeral_block_device}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ephemeralBlockDevice", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestEphemeralBlockDevice\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -823,7 +823,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#get_password_data SpotInstanceRequest#get_password_data}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#get_password_data SpotInstanceRequest#get_password_data}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fetchPasswordData", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? FetchPasswordData
@@ -831,7 +831,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#force_destroy SpotInstanceRequest#force_destroy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#force_destroy SpotInstanceRequest#force_destroy}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "forceDestroy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? ForceDestroy
@@ -839,7 +839,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#hibernation SpotInstanceRequest#hibernation}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#hibernation SpotInstanceRequest#hibernation}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hibernation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? Hibernation
@@ -847,7 +847,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#host_id SpotInstanceRequest#host_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#host_id SpotInstanceRequest#host_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hostId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HostId
@@ -855,7 +855,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#host_resource_group_arn SpotInstanceRequest#host_resource_group_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#host_resource_group_arn SpotInstanceRequest#host_resource_group_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hostResourceGroupArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HostResourceGroupArn
@@ -863,7 +863,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#iam_instance_profile SpotInstanceRequest#iam_instance_profile}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#iam_instance_profile SpotInstanceRequest#iam_instance_profile}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "iamInstanceProfile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IamInstanceProfile
@@ -871,7 +871,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#id SpotInstanceRequest#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#id SpotInstanceRequest#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -883,7 +883,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#instance_initiated_shutdown_behavior SpotInstanceRequest#instance_initiated_shutdown_behavior}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#instance_initiated_shutdown_behavior SpotInstanceRequest#instance_initiated_shutdown_behavior}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instanceInitiatedShutdownBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InstanceInitiatedShutdownBehavior
@@ -891,7 +891,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#instance_interruption_behavior SpotInstanceRequest#instance_interruption_behavior}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#instance_interruption_behavior SpotInstanceRequest#instance_interruption_behavior}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instanceInterruptionBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InstanceInterruptionBehavior
@@ -899,7 +899,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#instance_type SpotInstanceRequest#instance_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#instance_type SpotInstanceRequest#instance_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InstanceType
@@ -907,7 +907,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#ipv6_address_count SpotInstanceRequest#ipv6_address_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#ipv6_address_count SpotInstanceRequest#ipv6_address_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipv6AddressCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Ipv6AddressCount
@@ -915,7 +915,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#ipv6_addresses SpotInstanceRequest#ipv6_addresses}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#ipv6_addresses SpotInstanceRequest#ipv6_addresses}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipv6Addresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Ipv6Addresses
@@ -923,7 +923,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#key_name SpotInstanceRequest#key_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#key_name SpotInstanceRequest#key_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "keyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KeyName
@@ -931,7 +931,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#launch_group SpotInstanceRequest#launch_group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#launch_group SpotInstanceRequest#launch_group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "launchGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LaunchGroup
@@ -941,7 +941,7 @@ namespace aws.SpotInstanceRequest
 
             /// <summary>launch_template block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#launch_template SpotInstanceRequest#launch_template}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#launch_template SpotInstanceRequest#launch_template}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "launchTemplate", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestLaunchTemplate\"}", isOptional: true)]
@@ -952,7 +952,7 @@ namespace aws.SpotInstanceRequest
 
             /// <summary>maintenance_options block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#maintenance_options SpotInstanceRequest#maintenance_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#maintenance_options SpotInstanceRequest#maintenance_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maintenanceOptions", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestMaintenanceOptions\"}", isOptional: true)]
@@ -963,7 +963,7 @@ namespace aws.SpotInstanceRequest
 
             /// <summary>metadata_options block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#metadata_options SpotInstanceRequest#metadata_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#metadata_options SpotInstanceRequest#metadata_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadataOptions", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestMetadataOptions\"}", isOptional: true)]
@@ -972,7 +972,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<aws.SpotInstanceRequest.ISpotInstanceRequestMetadataOptions?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#monitoring SpotInstanceRequest#monitoring}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#monitoring SpotInstanceRequest#monitoring}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "monitoring", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? Monitoring
@@ -982,7 +982,7 @@ namespace aws.SpotInstanceRequest
 
             /// <summary>network_interface block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#network_interface SpotInstanceRequest#network_interface}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#network_interface SpotInstanceRequest#network_interface}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "networkInterface", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestNetworkInterface\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -991,7 +991,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#placement_group SpotInstanceRequest#placement_group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#placement_group SpotInstanceRequest#placement_group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "placementGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PlacementGroup
@@ -999,7 +999,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#placement_group_id SpotInstanceRequest#placement_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#placement_group_id SpotInstanceRequest#placement_group_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "placementGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PlacementGroupId
@@ -1007,7 +1007,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#placement_partition_number SpotInstanceRequest#placement_partition_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#placement_partition_number SpotInstanceRequest#placement_partition_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "placementPartitionNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? PlacementPartitionNumber
@@ -1017,7 +1017,7 @@ namespace aws.SpotInstanceRequest
 
             /// <summary>private_dns_name_options block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#private_dns_name_options SpotInstanceRequest#private_dns_name_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#private_dns_name_options SpotInstanceRequest#private_dns_name_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "privateDnsNameOptions", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestPrivateDnsNameOptions\"}", isOptional: true)]
@@ -1026,7 +1026,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<aws.SpotInstanceRequest.ISpotInstanceRequestPrivateDnsNameOptions?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#private_ip SpotInstanceRequest#private_ip}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#private_ip SpotInstanceRequest#private_ip}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "privateIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PrivateIp
@@ -1036,7 +1036,7 @@ namespace aws.SpotInstanceRequest
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#region SpotInstanceRequest#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#region SpotInstanceRequest#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1047,7 +1047,7 @@ namespace aws.SpotInstanceRequest
 
             /// <summary>root_block_device block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#root_block_device SpotInstanceRequest#root_block_device}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#root_block_device SpotInstanceRequest#root_block_device}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rootBlockDevice", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestRootBlockDevice\"}", isOptional: true)]
@@ -1058,7 +1058,7 @@ namespace aws.SpotInstanceRequest
 
             /// <summary>secondary_network_interface block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#secondary_network_interface SpotInstanceRequest#secondary_network_interface}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#secondary_network_interface SpotInstanceRequest#secondary_network_interface}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "secondaryNetworkInterface", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestSecondaryNetworkInterface\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -1067,7 +1067,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#secondary_private_ips SpotInstanceRequest#secondary_private_ips}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#secondary_private_ips SpotInstanceRequest#secondary_private_ips}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "secondaryPrivateIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SecondaryPrivateIps
@@ -1075,7 +1075,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#security_groups SpotInstanceRequest#security_groups}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#security_groups SpotInstanceRequest#security_groups}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "securityGroups", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SecurityGroups
@@ -1083,7 +1083,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#source_dest_check SpotInstanceRequest#source_dest_check}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#source_dest_check SpotInstanceRequest#source_dest_check}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceDestCheck", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? SourceDestCheck
@@ -1091,7 +1091,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#spot_price SpotInstanceRequest#spot_price}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#spot_price SpotInstanceRequest#spot_price}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "spotPrice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SpotPrice
@@ -1099,7 +1099,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#spot_type SpotInstanceRequest#spot_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#spot_type SpotInstanceRequest#spot_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "spotType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SpotType
@@ -1107,7 +1107,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#subnet_id SpotInstanceRequest#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#subnet_id SpotInstanceRequest#subnet_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SubnetId
@@ -1115,7 +1115,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#tags SpotInstanceRequest#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#tags SpotInstanceRequest#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -1123,7 +1123,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#tags_all SpotInstanceRequest#tags_all}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#tags_all SpotInstanceRequest#tags_all}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -1131,7 +1131,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#tenancy SpotInstanceRequest#tenancy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#tenancy SpotInstanceRequest#tenancy}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tenancy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Tenancy
@@ -1141,7 +1141,7 @@ namespace aws.SpotInstanceRequest
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#timeouts SpotInstanceRequest#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#timeouts SpotInstanceRequest#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestTimeouts\"}", isOptional: true)]
@@ -1150,7 +1150,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<aws.SpotInstanceRequest.ISpotInstanceRequestTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#user_data SpotInstanceRequest#user_data}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#user_data SpotInstanceRequest#user_data}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "userData", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UserData
@@ -1158,7 +1158,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#user_data_base64 SpotInstanceRequest#user_data_base64}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#user_data_base64 SpotInstanceRequest#user_data_base64}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "userDataBase64", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UserDataBase64
@@ -1166,7 +1166,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#user_data_replace_on_change SpotInstanceRequest#user_data_replace_on_change}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#user_data_replace_on_change SpotInstanceRequest#user_data_replace_on_change}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "userDataReplaceOnChange", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? UserDataReplaceOnChange
@@ -1174,7 +1174,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#valid_from SpotInstanceRequest#valid_from}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#valid_from SpotInstanceRequest#valid_from}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "validFrom", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ValidFrom
@@ -1182,7 +1182,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#valid_until SpotInstanceRequest#valid_until}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#valid_until SpotInstanceRequest#valid_until}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "validUntil", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ValidUntil
@@ -1190,7 +1190,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#volume_tags SpotInstanceRequest#volume_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#volume_tags SpotInstanceRequest#volume_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "volumeTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? VolumeTags
@@ -1198,7 +1198,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#vpc_security_group_ids SpotInstanceRequest#vpc_security_group_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#vpc_security_group_ids SpotInstanceRequest#vpc_security_group_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vpcSecurityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? VpcSecurityGroupIds
@@ -1206,7 +1206,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/spot_instance_request#wait_for_fulfillment SpotInstanceRequest#wait_for_fulfillment}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/spot_instance_request#wait_for_fulfillment SpotInstanceRequest#wait_for_fulfillment}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "waitForFulfillment", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? WaitForFulfillment

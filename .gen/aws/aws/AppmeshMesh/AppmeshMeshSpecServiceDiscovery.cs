@@ -7,7 +7,7 @@ namespace aws.AppmeshMesh
     [JsiiByValue(fqn: "aws.appmeshMesh.AppmeshMeshSpecServiceDiscovery")]
     public class AppmeshMeshSpecServiceDiscovery : aws.AppmeshMesh.IAppmeshMeshSpecServiceDiscovery
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_mesh#ip_preference AppmeshMesh#ip_preference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_mesh#ip_preference AppmeshMesh#ip_preference}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipPreference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpPreference

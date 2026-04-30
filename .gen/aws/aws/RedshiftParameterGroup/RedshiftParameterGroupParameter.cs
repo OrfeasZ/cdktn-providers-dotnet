@@ -9,7 +9,7 @@ namespace aws.RedshiftParameterGroup
     [JsiiByValue(fqn: "aws.redshiftParameterGroup.RedshiftParameterGroupParameter")]
     public class RedshiftParameterGroupParameter : aws.RedshiftParameterGroup.IRedshiftParameterGroupParameter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshift_parameter_group#name RedshiftParameterGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/redshift_parameter_group#name RedshiftParameterGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.RedshiftParameterGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshift_parameter_group#value RedshiftParameterGroup#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/redshift_parameter_group#value RedshiftParameterGroup#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

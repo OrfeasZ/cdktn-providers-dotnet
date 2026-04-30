@@ -7,14 +7,14 @@ namespace aws.DevopsguruResourceCollection
     [JsiiInterface(nativeType: typeof(IDevopsguruResourceCollectionTags), fullyQualifiedName: "aws.devopsguruResourceCollection.DevopsguruResourceCollectionTags")]
     public interface IDevopsguruResourceCollectionTags
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_resource_collection#app_boundary_key DevopsguruResourceCollection#app_boundary_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devopsguru_resource_collection#app_boundary_key DevopsguruResourceCollection#app_boundary_key}.</summary>
         [JsiiProperty(name: "appBoundaryKey", typeJson: "{\"primitive\":\"string\"}")]
         string AppBoundaryKey
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_resource_collection#tag_values DevopsguruResourceCollection#tag_values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devopsguru_resource_collection#tag_values DevopsguruResourceCollection#tag_values}.</summary>
         [JsiiProperty(name: "tagValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] TagValues
         {
@@ -28,14 +28,14 @@ namespace aws.DevopsguruResourceCollection
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_resource_collection#app_boundary_key DevopsguruResourceCollection#app_boundary_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devopsguru_resource_collection#app_boundary_key DevopsguruResourceCollection#app_boundary_key}.</summary>
             [JsiiProperty(name: "appBoundaryKey", typeJson: "{\"primitive\":\"string\"}")]
             public string AppBoundaryKey
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/devopsguru_resource_collection#tag_values DevopsguruResourceCollection#tag_values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/devopsguru_resource_collection#tag_values DevopsguruResourceCollection#tag_values}.</summary>
             [JsiiProperty(name: "tagValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] TagValues
             {

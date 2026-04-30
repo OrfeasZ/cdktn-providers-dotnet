@@ -9,7 +9,7 @@ namespace aws.SsmPatchBaseline
     [JsiiByValue(fqn: "aws.ssmPatchBaseline.SsmPatchBaselineApprovalRulePatchFilter")]
     public class SsmPatchBaselineApprovalRulePatchFilter : aws.SsmPatchBaseline.ISsmPatchBaselineApprovalRulePatchFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_patch_baseline#key SsmPatchBaseline#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssm_patch_baseline#key SsmPatchBaseline#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace aws.SsmPatchBaseline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ssm_patch_baseline#values SsmPatchBaseline#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ssm_patch_baseline#values SsmPatchBaseline#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

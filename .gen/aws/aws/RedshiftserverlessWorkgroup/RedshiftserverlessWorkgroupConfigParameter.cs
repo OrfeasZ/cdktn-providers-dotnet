@@ -9,7 +9,7 @@ namespace aws.RedshiftserverlessWorkgroup
     [JsiiByValue(fqn: "aws.redshiftserverlessWorkgroup.RedshiftserverlessWorkgroupConfigParameter")]
     public class RedshiftserverlessWorkgroupConfigParameter : aws.RedshiftserverlessWorkgroup.IRedshiftserverlessWorkgroupConfigParameter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshiftserverless_workgroup#parameter_key RedshiftserverlessWorkgroup#parameter_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/redshiftserverless_workgroup#parameter_key RedshiftserverlessWorkgroup#parameter_key}.</summary>
         [JsiiProperty(name: "parameterKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ParameterKey
         {
@@ -17,7 +17,7 @@ namespace aws.RedshiftserverlessWorkgroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshiftserverless_workgroup#parameter_value RedshiftserverlessWorkgroup#parameter_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/redshiftserverless_workgroup#parameter_value RedshiftserverlessWorkgroup#parameter_value}.</summary>
         [JsiiProperty(name: "parameterValue", typeJson: "{\"primitive\":\"string\"}")]
         public string ParameterValue
         {

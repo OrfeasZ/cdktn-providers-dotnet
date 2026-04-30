@@ -7,7 +7,7 @@ namespace aws.ElasticsearchDomain
     [JsiiByValue(fqn: "aws.elasticsearchDomain.ElasticsearchDomainAdvancedSecurityOptionsMasterUserOptions")]
     public class ElasticsearchDomainAdvancedSecurityOptionsMasterUserOptions : aws.ElasticsearchDomain.IElasticsearchDomainAdvancedSecurityOptionsMasterUserOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#master_user_arn ElasticsearchDomain#master_user_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticsearch_domain#master_user_arn ElasticsearchDomain#master_user_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "masterUserArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MasterUserArn
@@ -16,7 +16,7 @@ namespace aws.ElasticsearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#master_user_name ElasticsearchDomain#master_user_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticsearch_domain#master_user_name ElasticsearchDomain#master_user_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "masterUserName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MasterUserName
@@ -25,7 +25,7 @@ namespace aws.ElasticsearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/elasticsearch_domain#master_user_password ElasticsearchDomain#master_user_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/elasticsearch_domain#master_user_password ElasticsearchDomain#master_user_password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "masterUserPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MasterUserPassword

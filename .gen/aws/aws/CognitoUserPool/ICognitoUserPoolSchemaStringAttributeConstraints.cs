@@ -7,7 +7,7 @@ namespace aws.CognitoUserPool
     [JsiiInterface(nativeType: typeof(ICognitoUserPoolSchemaStringAttributeConstraints), fullyQualifiedName: "aws.cognitoUserPool.CognitoUserPoolSchemaStringAttributeConstraints")]
     public interface ICognitoUserPoolSchemaStringAttributeConstraints
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool#max_length CognitoUserPool#max_length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool#max_length CognitoUserPool#max_length}.</summary>
         [JsiiProperty(name: "maxLength", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MaxLength
@@ -18,7 +18,7 @@ namespace aws.CognitoUserPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool#min_length CognitoUserPool#min_length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool#min_length CognitoUserPool#min_length}.</summary>
         [JsiiProperty(name: "minLength", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MinLength
@@ -36,7 +36,7 @@ namespace aws.CognitoUserPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool#max_length CognitoUserPool#max_length}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool#max_length CognitoUserPool#max_length}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxLength", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MaxLength
@@ -44,7 +44,7 @@ namespace aws.CognitoUserPool
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cognito_user_pool#min_length CognitoUserPool#min_length}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cognito_user_pool#min_length CognitoUserPool#min_length}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "minLength", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MinLength

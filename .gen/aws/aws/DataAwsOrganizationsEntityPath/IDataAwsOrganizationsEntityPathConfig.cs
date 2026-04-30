@@ -7,7 +7,7 @@ namespace aws.DataAwsOrganizationsEntityPath
     [JsiiInterface(nativeType: typeof(IDataAwsOrganizationsEntityPathConfig), fullyQualifiedName: "aws.dataAwsOrganizationsEntityPath.DataAwsOrganizationsEntityPathConfig")]
     public interface IDataAwsOrganizationsEntityPathConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/organizations_entity_path#entity_id DataAwsOrganizationsEntityPath#entity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/organizations_entity_path#entity_id DataAwsOrganizationsEntityPath#entity_id}.</summary>
         [JsiiProperty(name: "entityId", typeJson: "{\"primitive\":\"string\"}")]
         string EntityId
         {
@@ -21,7 +21,7 @@ namespace aws.DataAwsOrganizationsEntityPath
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/organizations_entity_path#entity_id DataAwsOrganizationsEntityPath#entity_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/organizations_entity_path#entity_id DataAwsOrganizationsEntityPath#entity_id}.</summary>
             [JsiiProperty(name: "entityId", typeJson: "{\"primitive\":\"string\"}")]
             public string EntityId
             {

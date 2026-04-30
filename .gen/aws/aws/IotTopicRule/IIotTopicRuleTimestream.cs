@@ -7,7 +7,7 @@ namespace aws.IotTopicRule
     [JsiiInterface(nativeType: typeof(IIotTopicRuleTimestream), fullyQualifiedName: "aws.iotTopicRule.IotTopicRuleTimestream")]
     public interface IIotTopicRuleTimestream
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#database_name IotTopicRule#database_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#database_name IotTopicRule#database_name}.</summary>
         [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseName
         {
@@ -16,7 +16,7 @@ namespace aws.IotTopicRule
 
         /// <summary>dimension block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#dimension IotTopicRule#dimension}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#dimension IotTopicRule#dimension}
         /// </remarks>
         [JsiiProperty(name: "dimension", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleTimestreamDimension\"},\"kind\":\"array\"}}]}}")]
         object Dimension
@@ -24,14 +24,14 @@ namespace aws.IotTopicRule
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#role_arn IotTopicRule#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#role_arn IotTopicRule#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         string RoleArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#table_name IotTopicRule#table_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#table_name IotTopicRule#table_name}.</summary>
         [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}")]
         string TableName
         {
@@ -40,7 +40,7 @@ namespace aws.IotTopicRule
 
         /// <summary>timestamp block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#timestamp IotTopicRule#timestamp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#timestamp IotTopicRule#timestamp}
         /// </remarks>
         [JsiiProperty(name: "timestamp", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleTimestreamTimestamp\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace aws.IotTopicRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#database_name IotTopicRule#database_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#database_name IotTopicRule#database_name}.</summary>
             [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseName
             {
@@ -68,7 +68,7 @@ namespace aws.IotTopicRule
 
             /// <summary>dimension block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#dimension IotTopicRule#dimension}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#dimension IotTopicRule#dimension}
             /// </remarks>
             [JsiiProperty(name: "dimension", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleTimestreamDimension\"},\"kind\":\"array\"}}]}}")]
             public object Dimension
@@ -76,14 +76,14 @@ namespace aws.IotTopicRule
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#role_arn IotTopicRule#role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#role_arn IotTopicRule#role_arn}.</summary>
             [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
             public string RoleArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#table_name IotTopicRule#table_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#table_name IotTopicRule#table_name}.</summary>
             [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}")]
             public string TableName
             {
@@ -92,7 +92,7 @@ namespace aws.IotTopicRule
 
             /// <summary>timestamp block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#timestamp IotTopicRule#timestamp}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#timestamp IotTopicRule#timestamp}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timestamp", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleTimestreamTimestamp\"}", isOptional: true)]

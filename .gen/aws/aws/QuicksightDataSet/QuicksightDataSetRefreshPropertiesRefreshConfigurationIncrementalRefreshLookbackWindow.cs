@@ -9,7 +9,7 @@ namespace aws.QuicksightDataSet
     [JsiiByValue(fqn: "aws.quicksightDataSet.QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshLookbackWindow")]
     public class QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshLookbackWindow : aws.QuicksightDataSet.IQuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshLookbackWindow
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}.</summary>
         [JsiiProperty(name: "columnName", typeJson: "{\"primitive\":\"string\"}")]
         public string ColumnName
         {
@@ -17,7 +17,7 @@ namespace aws.QuicksightDataSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#size QuicksightDataSet#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#size QuicksightDataSet#size}.</summary>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}")]
         public double Size
         {
@@ -25,7 +25,7 @@ namespace aws.QuicksightDataSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#size_unit QuicksightDataSet#size_unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#size_unit QuicksightDataSet#size_unit}.</summary>
         [JsiiProperty(name: "sizeUnit", typeJson: "{\"primitive\":\"string\"}")]
         public string SizeUnit
         {

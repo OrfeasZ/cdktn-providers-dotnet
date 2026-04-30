@@ -9,7 +9,7 @@ namespace aws.AppmeshVirtualNode
     [JsiiByValue(fqn: "aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerConnectionPoolHttp")]
     public class AppmeshVirtualNodeSpecListenerConnectionPoolHttp : aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerConnectionPoolHttp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_node#max_connections AppmeshVirtualNode#max_connections}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_node#max_connections AppmeshVirtualNode#max_connections}.</summary>
         [JsiiProperty(name: "maxConnections", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxConnections
         {
@@ -17,7 +17,7 @@ namespace aws.AppmeshVirtualNode
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_node#max_pending_requests AppmeshVirtualNode#max_pending_requests}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_node#max_pending_requests AppmeshVirtualNode#max_pending_requests}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxPendingRequests", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxPendingRequests

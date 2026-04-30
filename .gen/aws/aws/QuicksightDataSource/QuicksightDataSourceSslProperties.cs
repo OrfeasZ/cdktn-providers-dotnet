@@ -11,7 +11,7 @@ namespace aws.QuicksightDataSource
     {
         private object _disableSsl;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#disable_ssl QuicksightDataSource#disable_ssl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#disable_ssl QuicksightDataSource#disable_ssl}.</summary>
         [JsiiProperty(name: "disableSsl", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object DisableSsl
         {

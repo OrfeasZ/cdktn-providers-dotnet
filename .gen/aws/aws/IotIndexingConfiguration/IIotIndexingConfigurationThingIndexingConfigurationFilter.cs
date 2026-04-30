@@ -7,7 +7,7 @@ namespace aws.IotIndexingConfiguration
     [JsiiInterface(nativeType: typeof(IIotIndexingConfigurationThingIndexingConfigurationFilter), fullyQualifiedName: "aws.iotIndexingConfiguration.IotIndexingConfigurationThingIndexingConfigurationFilter")]
     public interface IIotIndexingConfigurationThingIndexingConfigurationFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_indexing_configuration#named_shadow_names IotIndexingConfiguration#named_shadow_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_indexing_configuration#named_shadow_names IotIndexingConfiguration#named_shadow_names}.</summary>
         [JsiiProperty(name: "namedShadowNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? NamedShadowNames
@@ -25,7 +25,7 @@ namespace aws.IotIndexingConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_indexing_configuration#named_shadow_names IotIndexingConfiguration#named_shadow_names}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_indexing_configuration#named_shadow_names IotIndexingConfiguration#named_shadow_names}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "namedShadowNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? NamedShadowNames

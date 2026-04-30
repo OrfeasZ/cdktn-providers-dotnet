@@ -7,7 +7,7 @@ namespace aws.ServicecatalogProvisionedProduct
     [JsiiByValue(fqn: "aws.servicecatalogProvisionedProduct.ServicecatalogProvisionedProductTimeouts")]
     public class ServicecatalogProvisionedProductTimeouts : aws.ServicecatalogProvisionedProduct.IServicecatalogProvisionedProductTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/servicecatalog_provisioned_product#create ServicecatalogProvisionedProduct#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/servicecatalog_provisioned_product#create ServicecatalogProvisionedProduct#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.ServicecatalogProvisionedProduct
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/servicecatalog_provisioned_product#delete ServicecatalogProvisionedProduct#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/servicecatalog_provisioned_product#delete ServicecatalogProvisionedProduct#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace aws.ServicecatalogProvisionedProduct
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/servicecatalog_provisioned_product#read ServicecatalogProvisionedProduct#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/servicecatalog_provisioned_product#read ServicecatalogProvisionedProduct#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read
@@ -34,7 +34,7 @@ namespace aws.ServicecatalogProvisionedProduct
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/servicecatalog_provisioned_product#update ServicecatalogProvisionedProduct#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/servicecatalog_provisioned_product#update ServicecatalogProvisionedProduct#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

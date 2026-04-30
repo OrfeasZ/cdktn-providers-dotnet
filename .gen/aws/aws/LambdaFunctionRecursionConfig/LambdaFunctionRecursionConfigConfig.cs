@@ -9,7 +9,7 @@ namespace aws.LambdaFunctionRecursionConfig
     [JsiiByValue(fqn: "aws.lambdaFunctionRecursionConfig.LambdaFunctionRecursionConfigConfig")]
     public class LambdaFunctionRecursionConfigConfig : aws.LambdaFunctionRecursionConfig.ILambdaFunctionRecursionConfigConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function_recursion_config#function_name LambdaFunctionRecursionConfig#function_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_function_recursion_config#function_name LambdaFunctionRecursionConfig#function_name}.</summary>
         [JsiiProperty(name: "functionName", typeJson: "{\"primitive\":\"string\"}")]
         public string FunctionName
         {
@@ -17,7 +17,7 @@ namespace aws.LambdaFunctionRecursionConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function_recursion_config#recursive_loop LambdaFunctionRecursionConfig#recursive_loop}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_function_recursion_config#recursive_loop LambdaFunctionRecursionConfig#recursive_loop}.</summary>
         [JsiiProperty(name: "recursiveLoop", typeJson: "{\"primitive\":\"string\"}")]
         public string RecursiveLoop
         {
@@ -27,7 +27,7 @@ namespace aws.LambdaFunctionRecursionConfig
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_function_recursion_config#region LambdaFunctionRecursionConfig#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_function_recursion_config#region LambdaFunctionRecursionConfig#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.AutoscalingGroup
     {
         /// <summary>instance_requirements block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#instance_requirements AutoscalingGroup#instance_requirements}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_group#instance_requirements AutoscalingGroup#instance_requirements}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "instanceRequirements", typeJson: "{\"fqn\":\"aws.autoscalingGroup.AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirements\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace aws.AutoscalingGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#instance_type AutoscalingGroup#instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_group#instance_type AutoscalingGroup#instance_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InstanceType
@@ -30,7 +30,7 @@ namespace aws.AutoscalingGroup
 
         /// <summary>launch_template_specification block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#launch_template_specification AutoscalingGroup#launch_template_specification}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_group#launch_template_specification AutoscalingGroup#launch_template_specification}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "launchTemplateSpecification", typeJson: "{\"fqn\":\"aws.autoscalingGroup.AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideLaunchTemplateSpecification\"}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace aws.AutoscalingGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_group#weighted_capacity AutoscalingGroup#weighted_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_group#weighted_capacity AutoscalingGroup#weighted_capacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "weightedCapacity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WeightedCapacity

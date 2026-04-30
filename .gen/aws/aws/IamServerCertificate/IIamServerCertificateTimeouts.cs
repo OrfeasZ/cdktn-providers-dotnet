@@ -7,7 +7,7 @@ namespace aws.IamServerCertificate
     [JsiiInterface(nativeType: typeof(IIamServerCertificateTimeouts), fullyQualifiedName: "aws.iamServerCertificate.IamServerCertificateTimeouts")]
     public interface IIamServerCertificateTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_server_certificate#delete IamServerCertificate#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_server_certificate#delete IamServerCertificate#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -25,7 +25,7 @@ namespace aws.IamServerCertificate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iam_server_certificate#delete IamServerCertificate#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iam_server_certificate#delete IamServerCertificate#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete

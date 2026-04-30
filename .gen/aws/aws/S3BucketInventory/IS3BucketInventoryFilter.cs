@@ -7,7 +7,7 @@ namespace aws.S3BucketInventory
     [JsiiInterface(nativeType: typeof(IS3BucketInventoryFilter), fullyQualifiedName: "aws.s3BucketInventory.S3BucketInventoryFilter")]
     public interface IS3BucketInventoryFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_inventory#prefix S3BucketInventory#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_inventory#prefix S3BucketInventory#prefix}.</summary>
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Prefix
@@ -25,7 +25,7 @@ namespace aws.S3BucketInventory
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_inventory#prefix S3BucketInventory#prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_inventory#prefix S3BucketInventory#prefix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Prefix

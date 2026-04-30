@@ -7,7 +7,7 @@ namespace aws.FsxOntapFileSystem
     [JsiiInterface(nativeType: typeof(IFsxOntapFileSystemDiskIopsConfiguration), fullyQualifiedName: "aws.fsxOntapFileSystem.FsxOntapFileSystemDiskIopsConfiguration")]
     public interface IFsxOntapFileSystemDiskIopsConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_ontap_file_system#iops FsxOntapFileSystem#iops}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_ontap_file_system#iops FsxOntapFileSystem#iops}.</summary>
         [JsiiProperty(name: "iops", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Iops
@@ -18,7 +18,7 @@ namespace aws.FsxOntapFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_ontap_file_system#mode FsxOntapFileSystem#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_ontap_file_system#mode FsxOntapFileSystem#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Mode
@@ -36,7 +36,7 @@ namespace aws.FsxOntapFileSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_ontap_file_system#iops FsxOntapFileSystem#iops}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_ontap_file_system#iops FsxOntapFileSystem#iops}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "iops", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Iops
@@ -44,7 +44,7 @@ namespace aws.FsxOntapFileSystem
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fsx_ontap_file_system#mode FsxOntapFileSystem#mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fsx_ontap_file_system#mode FsxOntapFileSystem#mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Mode

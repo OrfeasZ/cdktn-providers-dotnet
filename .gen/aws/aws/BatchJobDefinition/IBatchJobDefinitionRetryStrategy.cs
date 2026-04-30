@@ -7,7 +7,7 @@ namespace aws.BatchJobDefinition
     [JsiiInterface(nativeType: typeof(IBatchJobDefinitionRetryStrategy), fullyQualifiedName: "aws.batchJobDefinition.BatchJobDefinitionRetryStrategy")]
     public interface IBatchJobDefinitionRetryStrategy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#attempts BatchJobDefinition#attempts}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_job_definition#attempts BatchJobDefinition#attempts}.</summary>
         [JsiiProperty(name: "attempts", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Attempts
@@ -20,7 +20,7 @@ namespace aws.BatchJobDefinition
 
         /// <summary>evaluate_on_exit block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#evaluate_on_exit BatchJobDefinition#evaluate_on_exit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_job_definition#evaluate_on_exit BatchJobDefinition#evaluate_on_exit}
         /// </remarks>
         [JsiiProperty(name: "evaluateOnExit", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionRetryStrategyEvaluateOnExit\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -39,7 +39,7 @@ namespace aws.BatchJobDefinition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#attempts BatchJobDefinition#attempts}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_job_definition#attempts BatchJobDefinition#attempts}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attempts", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Attempts
@@ -49,7 +49,7 @@ namespace aws.BatchJobDefinition
 
             /// <summary>evaluate_on_exit block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/batch_job_definition#evaluate_on_exit BatchJobDefinition#evaluate_on_exit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/batch_job_definition#evaluate_on_exit BatchJobDefinition#evaluate_on_exit}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "evaluateOnExit", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionRetryStrategyEvaluateOnExit\"},\"kind\":\"array\"}}]}}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.AutoscalingPolicy
     [JsiiByValue(fqn: "aws.autoscalingPolicy.AutoscalingPolicyTargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatMetric")]
     public class AutoscalingPolicyTargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatMetric : aws.AutoscalingPolicy.IAutoscalingPolicyTargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatMetric
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_policy#metric_name AutoscalingPolicy#metric_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_policy#metric_name AutoscalingPolicy#metric_name}.</summary>
         [JsiiProperty(name: "metricName", typeJson: "{\"primitive\":\"string\"}")]
         public string MetricName
         {
@@ -17,7 +17,7 @@ namespace aws.AutoscalingPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_policy#namespace AutoscalingPolicy#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_policy#namespace AutoscalingPolicy#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -29,7 +29,7 @@ namespace aws.AutoscalingPolicy
 
         /// <summary>dimensions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/autoscaling_policy#dimensions AutoscalingPolicy#dimensions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/autoscaling_policy#dimensions AutoscalingPolicy#dimensions}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dimensions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.autoscalingPolicy.AutoscalingPolicyTargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatMetricDimensions\"},\"kind\":\"array\"}}]}}", isOptional: true)]

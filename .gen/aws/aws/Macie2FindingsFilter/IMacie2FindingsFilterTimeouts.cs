@@ -7,7 +7,7 @@ namespace aws.Macie2FindingsFilter
     [JsiiInterface(nativeType: typeof(IMacie2FindingsFilterTimeouts), fullyQualifiedName: "aws.macie2FindingsFilter.Macie2FindingsFilterTimeouts")]
     public interface IMacie2FindingsFilterTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/macie2_findings_filter#create Macie2FindingsFilter#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/macie2_findings_filter#create Macie2FindingsFilter#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -25,7 +25,7 @@ namespace aws.Macie2FindingsFilter
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/macie2_findings_filter#create Macie2FindingsFilter#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/macie2_findings_filter#create Macie2FindingsFilter#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create

@@ -7,7 +7,7 @@ namespace aws.Lexv2ModelsSlot
     [JsiiInterface(nativeType: typeof(ILexv2ModelsSlotMultipleValuesSetting), fullyQualifiedName: "aws.lexv2ModelsSlot.Lexv2ModelsSlotMultipleValuesSetting")]
     public interface ILexv2ModelsSlotMultipleValuesSetting
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#allow_multiple_values Lexv2ModelsSlot#allow_multiple_values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot#allow_multiple_values Lexv2ModelsSlot#allow_multiple_values}.</summary>
         [JsiiProperty(name: "allowMultipleValues", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? AllowMultipleValues
@@ -25,7 +25,7 @@ namespace aws.Lexv2ModelsSlot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lexv2models_slot#allow_multiple_values Lexv2ModelsSlot#allow_multiple_values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lexv2models_slot#allow_multiple_values Lexv2ModelsSlot#allow_multiple_values}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "allowMultipleValues", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? AllowMultipleValues

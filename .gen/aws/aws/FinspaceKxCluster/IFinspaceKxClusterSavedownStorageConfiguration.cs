@@ -7,7 +7,7 @@ namespace aws.FinspaceKxCluster
     [JsiiInterface(nativeType: typeof(IFinspaceKxClusterSavedownStorageConfiguration), fullyQualifiedName: "aws.finspaceKxCluster.FinspaceKxClusterSavedownStorageConfiguration")]
     public interface IFinspaceKxClusterSavedownStorageConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#size FinspaceKxCluster#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_cluster#size FinspaceKxCluster#size}.</summary>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Size
@@ -18,7 +18,7 @@ namespace aws.FinspaceKxCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#type FinspaceKxCluster#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_cluster#type FinspaceKxCluster#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
@@ -29,7 +29,7 @@ namespace aws.FinspaceKxCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#volume_name FinspaceKxCluster#volume_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_cluster#volume_name FinspaceKxCluster#volume_name}.</summary>
         [JsiiProperty(name: "volumeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VolumeName
@@ -47,7 +47,7 @@ namespace aws.FinspaceKxCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#size FinspaceKxCluster#size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_cluster#size FinspaceKxCluster#size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Size
@@ -55,7 +55,7 @@ namespace aws.FinspaceKxCluster
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#type FinspaceKxCluster#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_cluster#type FinspaceKxCluster#type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type
@@ -63,7 +63,7 @@ namespace aws.FinspaceKxCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/finspace_kx_cluster#volume_name FinspaceKxCluster#volume_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/finspace_kx_cluster#volume_name FinspaceKxCluster#volume_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "volumeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VolumeName

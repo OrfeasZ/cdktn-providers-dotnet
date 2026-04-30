@@ -9,7 +9,7 @@ namespace aws.AlbListener
     [JsiiByValue(fqn: "aws.albListener.AlbListenerDefaultActionForwardStickiness")]
     public class AlbListenerDefaultActionForwardStickiness : aws.AlbListener.IAlbListenerDefaultActionForwardStickiness
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener#duration AlbListener#duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_listener#duration AlbListener#duration}.</summary>
         [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"number\"}")]
         public double Duration
         {
@@ -19,7 +19,7 @@ namespace aws.AlbListener
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_listener#enabled AlbListener#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_listener#enabled AlbListener#enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Enabled

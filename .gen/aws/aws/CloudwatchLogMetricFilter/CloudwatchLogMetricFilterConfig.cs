@@ -9,7 +9,7 @@ namespace aws.CloudwatchLogMetricFilter
     [JsiiByValue(fqn: "aws.cloudwatchLogMetricFilter.CloudwatchLogMetricFilterConfig")]
     public class CloudwatchLogMetricFilterConfig : aws.CloudwatchLogMetricFilter.ICloudwatchLogMetricFilterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_log_metric_filter#log_group_name CloudwatchLogMetricFilter#log_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_log_metric_filter#log_group_name CloudwatchLogMetricFilter#log_group_name}.</summary>
         [JsiiProperty(name: "logGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string LogGroupName
         {
@@ -19,7 +19,7 @@ namespace aws.CloudwatchLogMetricFilter
 
         /// <summary>metric_transformation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_log_metric_filter#metric_transformation CloudwatchLogMetricFilter#metric_transformation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_log_metric_filter#metric_transformation CloudwatchLogMetricFilter#metric_transformation}
         /// </remarks>
         [JsiiProperty(name: "metricTransformation", typeJson: "{\"fqn\":\"aws.cloudwatchLogMetricFilter.CloudwatchLogMetricFilterMetricTransformation\"}")]
         public aws.CloudwatchLogMetricFilter.ICloudwatchLogMetricFilterMetricTransformation MetricTransformation
@@ -28,7 +28,7 @@ namespace aws.CloudwatchLogMetricFilter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_log_metric_filter#name CloudwatchLogMetricFilter#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_log_metric_filter#name CloudwatchLogMetricFilter#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -36,7 +36,7 @@ namespace aws.CloudwatchLogMetricFilter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_log_metric_filter#pattern CloudwatchLogMetricFilter#pattern}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_log_metric_filter#pattern CloudwatchLogMetricFilter#pattern}.</summary>
         [JsiiProperty(name: "pattern", typeJson: "{\"primitive\":\"string\"}")]
         public string Pattern
         {
@@ -46,7 +46,7 @@ namespace aws.CloudwatchLogMetricFilter
 
         private object? _applyOnTransformedLogs;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_log_metric_filter#apply_on_transformed_logs CloudwatchLogMetricFilter#apply_on_transformed_logs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_log_metric_filter#apply_on_transformed_logs CloudwatchLogMetricFilter#apply_on_transformed_logs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "applyOnTransformedLogs", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? ApplyOnTransformedLogs
@@ -75,7 +75,7 @@ namespace aws.CloudwatchLogMetricFilter
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_log_metric_filter#id CloudwatchLogMetricFilter#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_log_metric_filter#id CloudwatchLogMetricFilter#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -90,7 +90,7 @@ namespace aws.CloudwatchLogMetricFilter
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_log_metric_filter#region CloudwatchLogMetricFilter#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_log_metric_filter#region CloudwatchLogMetricFilter#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

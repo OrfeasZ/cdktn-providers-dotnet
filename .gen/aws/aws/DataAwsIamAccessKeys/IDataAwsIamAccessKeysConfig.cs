@@ -7,14 +7,14 @@ namespace aws.DataAwsIamAccessKeys
     [JsiiInterface(nativeType: typeof(IDataAwsIamAccessKeysConfig), fullyQualifiedName: "aws.dataAwsIamAccessKeys.DataAwsIamAccessKeysConfig")]
     public interface IDataAwsIamAccessKeysConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/iam_access_keys#user DataAwsIamAccessKeys#user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/iam_access_keys#user DataAwsIamAccessKeys#user}.</summary>
         [JsiiProperty(name: "user", typeJson: "{\"primitive\":\"string\"}")]
         string User
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/iam_access_keys#id DataAwsIamAccessKeys#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/iam_access_keys#id DataAwsIamAccessKeys#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace aws.DataAwsIamAccessKeys
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/iam_access_keys#user DataAwsIamAccessKeys#user}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/iam_access_keys#user DataAwsIamAccessKeys#user}.</summary>
             [JsiiProperty(name: "user", typeJson: "{\"primitive\":\"string\"}")]
             public string User
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/iam_access_keys#id DataAwsIamAccessKeys#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/iam_access_keys#id DataAwsIamAccessKeys#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -7,21 +7,21 @@ namespace aws.QuicksightDataSource
     [JsiiInterface(nativeType: typeof(IQuicksightDataSourceParametersDatabricks), fullyQualifiedName: "aws.quicksightDataSource.QuicksightDataSourceParametersDatabricks")]
     public interface IQuicksightDataSourceParametersDatabricks
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}.</summary>
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
         string Host
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         double Port
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#sql_endpoint_path QuicksightDataSource#sql_endpoint_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#sql_endpoint_path QuicksightDataSource#sql_endpoint_path}.</summary>
         [JsiiProperty(name: "sqlEndpointPath", typeJson: "{\"primitive\":\"string\"}")]
         string SqlEndpointPath
         {
@@ -35,21 +35,21 @@ namespace aws.QuicksightDataSource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}.</summary>
             [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
             public string Host
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}.</summary>
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
             public double Port
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_source#sql_endpoint_path QuicksightDataSource#sql_endpoint_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_source#sql_endpoint_path QuicksightDataSource#sql_endpoint_path}.</summary>
             [JsiiProperty(name: "sqlEndpointPath", typeJson: "{\"primitive\":\"string\"}")]
             public string SqlEndpointPath
             {

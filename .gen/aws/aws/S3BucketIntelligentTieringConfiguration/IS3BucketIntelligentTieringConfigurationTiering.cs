@@ -7,14 +7,14 @@ namespace aws.S3BucketIntelligentTieringConfiguration
     [JsiiInterface(nativeType: typeof(IS3BucketIntelligentTieringConfigurationTiering), fullyQualifiedName: "aws.s3BucketIntelligentTieringConfiguration.S3BucketIntelligentTieringConfigurationTiering")]
     public interface IS3BucketIntelligentTieringConfigurationTiering
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_intelligent_tiering_configuration#access_tier S3BucketIntelligentTieringConfiguration#access_tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_intelligent_tiering_configuration#access_tier S3BucketIntelligentTieringConfiguration#access_tier}.</summary>
         [JsiiProperty(name: "accessTier", typeJson: "{\"primitive\":\"string\"}")]
         string AccessTier
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_intelligent_tiering_configuration#days S3BucketIntelligentTieringConfiguration#days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_intelligent_tiering_configuration#days S3BucketIntelligentTieringConfiguration#days}.</summary>
         [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}")]
         double Days
         {
@@ -28,14 +28,14 @@ namespace aws.S3BucketIntelligentTieringConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_intelligent_tiering_configuration#access_tier S3BucketIntelligentTieringConfiguration#access_tier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_intelligent_tiering_configuration#access_tier S3BucketIntelligentTieringConfiguration#access_tier}.</summary>
             [JsiiProperty(name: "accessTier", typeJson: "{\"primitive\":\"string\"}")]
             public string AccessTier
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_intelligent_tiering_configuration#days S3BucketIntelligentTieringConfiguration#days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_intelligent_tiering_configuration#days S3BucketIntelligentTieringConfiguration#days}.</summary>
             [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}")]
             public double Days
             {

@@ -9,7 +9,7 @@ namespace aws.GuarddutyMember
     [JsiiByValue(fqn: "aws.guarddutyMember.GuarddutyMemberConfig")]
     public class GuarddutyMemberConfig : aws.GuarddutyMember.IGuarddutyMemberConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_member#account_id GuarddutyMember#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_member#account_id GuarddutyMember#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -17,7 +17,7 @@ namespace aws.GuarddutyMember
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_member#detector_id GuarddutyMember#detector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_member#detector_id GuarddutyMember#detector_id}.</summary>
         [JsiiProperty(name: "detectorId", typeJson: "{\"primitive\":\"string\"}")]
         public string DetectorId
         {
@@ -25,7 +25,7 @@ namespace aws.GuarddutyMember
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_member#email GuarddutyMember#email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_member#email GuarddutyMember#email}.</summary>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
         public string Email
         {
@@ -35,7 +35,7 @@ namespace aws.GuarddutyMember
 
         private object? _disableEmailNotification;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_member#disable_email_notification GuarddutyMember#disable_email_notification}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_member#disable_email_notification GuarddutyMember#disable_email_notification}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "disableEmailNotification", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? DisableEmailNotification
@@ -64,7 +64,7 @@ namespace aws.GuarddutyMember
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_member#id GuarddutyMember#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_member#id GuarddutyMember#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,7 +77,7 @@ namespace aws.GuarddutyMember
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_member#invitation_message GuarddutyMember#invitation_message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_member#invitation_message GuarddutyMember#invitation_message}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "invitationMessage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InvitationMessage
@@ -88,7 +88,7 @@ namespace aws.GuarddutyMember
 
         private object? _invite;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_member#invite GuarddutyMember#invite}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_member#invite GuarddutyMember#invite}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "invite", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Invite
@@ -119,7 +119,7 @@ namespace aws.GuarddutyMember
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_member#region GuarddutyMember#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_member#region GuarddutyMember#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -131,7 +131,7 @@ namespace aws.GuarddutyMember
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_member#timeouts GuarddutyMember#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_member#timeouts GuarddutyMember#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.guarddutyMember.GuarddutyMemberTimeouts\"}", isOptional: true)]

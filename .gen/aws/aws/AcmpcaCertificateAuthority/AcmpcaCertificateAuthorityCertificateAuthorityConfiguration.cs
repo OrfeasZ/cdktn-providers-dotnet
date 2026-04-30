@@ -9,7 +9,7 @@ namespace aws.AcmpcaCertificateAuthority
     [JsiiByValue(fqn: "aws.acmpcaCertificateAuthority.AcmpcaCertificateAuthorityCertificateAuthorityConfiguration")]
     public class AcmpcaCertificateAuthorityCertificateAuthorityConfiguration : aws.AcmpcaCertificateAuthority.IAcmpcaCertificateAuthorityCertificateAuthorityConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#key_algorithm AcmpcaCertificateAuthority#key_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#key_algorithm AcmpcaCertificateAuthority#key_algorithm}.</summary>
         [JsiiProperty(name: "keyAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyAlgorithm
         {
@@ -17,7 +17,7 @@ namespace aws.AcmpcaCertificateAuthority
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#signing_algorithm AcmpcaCertificateAuthority#signing_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#signing_algorithm AcmpcaCertificateAuthority#signing_algorithm}.</summary>
         [JsiiProperty(name: "signingAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
         public string SigningAlgorithm
         {
@@ -27,7 +27,7 @@ namespace aws.AcmpcaCertificateAuthority
 
         /// <summary>subject block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/acmpca_certificate_authority#subject AcmpcaCertificateAuthority#subject}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/acmpca_certificate_authority#subject AcmpcaCertificateAuthority#subject}
         /// </remarks>
         [JsiiProperty(name: "subject", typeJson: "{\"fqn\":\"aws.acmpcaCertificateAuthority.AcmpcaCertificateAuthorityCertificateAuthorityConfigurationSubject\"}")]
         public aws.AcmpcaCertificateAuthority.IAcmpcaCertificateAuthorityCertificateAuthorityConfigurationSubject Subject

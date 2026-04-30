@@ -9,7 +9,7 @@ namespace aws.CloudwatchQueryDefinition
     [JsiiByValue(fqn: "aws.cloudwatchQueryDefinition.CloudwatchQueryDefinitionConfig")]
     public class CloudwatchQueryDefinitionConfig : aws.CloudwatchQueryDefinition.ICloudwatchQueryDefinitionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_query_definition#name CloudwatchQueryDefinition#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_query_definition#name CloudwatchQueryDefinition#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.CloudwatchQueryDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_query_definition#query_string CloudwatchQueryDefinition#query_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_query_definition#query_string CloudwatchQueryDefinition#query_string}.</summary>
         [JsiiProperty(name: "queryString", typeJson: "{\"primitive\":\"string\"}")]
         public string QueryString
         {
@@ -25,7 +25,7 @@ namespace aws.CloudwatchQueryDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_query_definition#id CloudwatchQueryDefinition#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_query_definition#id CloudwatchQueryDefinition#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace aws.CloudwatchQueryDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_query_definition#log_group_names CloudwatchQueryDefinition#log_group_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_query_definition#log_group_names CloudwatchQueryDefinition#log_group_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logGroupNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? LogGroupNames
@@ -49,7 +49,7 @@ namespace aws.CloudwatchQueryDefinition
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_query_definition#region CloudwatchQueryDefinition#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_query_definition#region CloudwatchQueryDefinition#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

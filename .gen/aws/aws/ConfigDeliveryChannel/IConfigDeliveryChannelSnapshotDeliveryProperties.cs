@@ -7,7 +7,7 @@ namespace aws.ConfigDeliveryChannel
     [JsiiInterface(nativeType: typeof(IConfigDeliveryChannelSnapshotDeliveryProperties), fullyQualifiedName: "aws.configDeliveryChannel.ConfigDeliveryChannelSnapshotDeliveryProperties")]
     public interface IConfigDeliveryChannelSnapshotDeliveryProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_delivery_channel#delivery_frequency ConfigDeliveryChannel#delivery_frequency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_delivery_channel#delivery_frequency ConfigDeliveryChannel#delivery_frequency}.</summary>
         [JsiiProperty(name: "deliveryFrequency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DeliveryFrequency
@@ -25,7 +25,7 @@ namespace aws.ConfigDeliveryChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_delivery_channel#delivery_frequency ConfigDeliveryChannel#delivery_frequency}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_delivery_channel#delivery_frequency ConfigDeliveryChannel#delivery_frequency}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "deliveryFrequency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DeliveryFrequency

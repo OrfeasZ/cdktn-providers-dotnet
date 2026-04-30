@@ -7,7 +7,7 @@ namespace aws.SagemakerFeatureGroup
     [JsiiByValue(fqn: "aws.sagemakerFeatureGroup.SagemakerFeatureGroupOfflineStoreConfigDataCatalogConfig")]
     public class SagemakerFeatureGroupOfflineStoreConfigDataCatalogConfig : aws.SagemakerFeatureGroup.ISagemakerFeatureGroupOfflineStoreConfigDataCatalogConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#catalog SagemakerFeatureGroup#catalog}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_feature_group#catalog SagemakerFeatureGroup#catalog}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "catalog", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Catalog
@@ -16,7 +16,7 @@ namespace aws.SagemakerFeatureGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#database SagemakerFeatureGroup#database}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_feature_group#database SagemakerFeatureGroup#database}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "database", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Database
@@ -25,7 +25,7 @@ namespace aws.SagemakerFeatureGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_feature_group#table_name SagemakerFeatureGroup#table_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_feature_group#table_name SagemakerFeatureGroup#table_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TableName

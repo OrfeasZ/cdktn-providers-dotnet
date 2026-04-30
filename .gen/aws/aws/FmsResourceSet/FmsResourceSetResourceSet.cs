@@ -9,7 +9,7 @@ namespace aws.FmsResourceSet
     [JsiiByValue(fqn: "aws.fmsResourceSet.FmsResourceSetResourceSet")]
     public class FmsResourceSetResourceSet : aws.FmsResourceSet.IFmsResourceSetResourceSet
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_resource_set#name FmsResourceSet#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fms_resource_set#name FmsResourceSet#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.FmsResourceSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_resource_set#description FmsResourceSet#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fms_resource_set#description FmsResourceSet#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -26,7 +26,7 @@ namespace aws.FmsResourceSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_resource_set#resource_set_status FmsResourceSet#resource_set_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fms_resource_set#resource_set_status FmsResourceSet#resource_set_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceSetStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceSetStatus
@@ -35,7 +35,7 @@ namespace aws.FmsResourceSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_resource_set#resource_type_list FmsResourceSet#resource_type_list}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fms_resource_set#resource_type_list FmsResourceSet#resource_type_list}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ResourceTypeList
@@ -44,7 +44,7 @@ namespace aws.FmsResourceSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_resource_set#update_token FmsResourceSet#update_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fms_resource_set#update_token FmsResourceSet#update_token}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "updateToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UpdateToken

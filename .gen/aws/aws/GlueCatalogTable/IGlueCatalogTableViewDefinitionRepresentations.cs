@@ -7,7 +7,7 @@ namespace aws.GlueCatalogTable
     [JsiiInterface(nativeType: typeof(IGlueCatalogTableViewDefinitionRepresentations), fullyQualifiedName: "aws.glueCatalogTable.GlueCatalogTableViewDefinitionRepresentations")]
     public interface IGlueCatalogTableViewDefinitionRepresentations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#dialect GlueCatalogTable#dialect}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#dialect GlueCatalogTable#dialect}.</summary>
         [JsiiProperty(name: "dialect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Dialect
@@ -18,7 +18,7 @@ namespace aws.GlueCatalogTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#dialect_version GlueCatalogTable#dialect_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#dialect_version GlueCatalogTable#dialect_version}.</summary>
         [JsiiProperty(name: "dialectVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DialectVersion
@@ -29,7 +29,7 @@ namespace aws.GlueCatalogTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#validation_connection GlueCatalogTable#validation_connection}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#validation_connection GlueCatalogTable#validation_connection}.</summary>
         [JsiiProperty(name: "validationConnection", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ValidationConnection
@@ -40,7 +40,7 @@ namespace aws.GlueCatalogTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#view_expanded_text GlueCatalogTable#view_expanded_text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#view_expanded_text GlueCatalogTable#view_expanded_text}.</summary>
         [JsiiProperty(name: "viewExpandedText", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ViewExpandedText
@@ -51,7 +51,7 @@ namespace aws.GlueCatalogTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#view_original_text GlueCatalogTable#view_original_text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#view_original_text GlueCatalogTable#view_original_text}.</summary>
         [JsiiProperty(name: "viewOriginalText", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ViewOriginalText
@@ -69,7 +69,7 @@ namespace aws.GlueCatalogTable
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#dialect GlueCatalogTable#dialect}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#dialect GlueCatalogTable#dialect}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dialect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Dialect
@@ -77,7 +77,7 @@ namespace aws.GlueCatalogTable
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#dialect_version GlueCatalogTable#dialect_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#dialect_version GlueCatalogTable#dialect_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dialectVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DialectVersion
@@ -85,7 +85,7 @@ namespace aws.GlueCatalogTable
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#validation_connection GlueCatalogTable#validation_connection}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#validation_connection GlueCatalogTable#validation_connection}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "validationConnection", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ValidationConnection
@@ -93,7 +93,7 @@ namespace aws.GlueCatalogTable
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#view_expanded_text GlueCatalogTable#view_expanded_text}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#view_expanded_text GlueCatalogTable#view_expanded_text}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "viewExpandedText", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ViewExpandedText
@@ -101,7 +101,7 @@ namespace aws.GlueCatalogTable
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/glue_catalog_table#view_original_text GlueCatalogTable#view_original_text}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_catalog_table#view_original_text GlueCatalogTable#view_original_text}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "viewOriginalText", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ViewOriginalText

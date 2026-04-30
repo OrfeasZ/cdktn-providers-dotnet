@@ -9,7 +9,7 @@ namespace aws.DynamodbContributorInsights
     [JsiiByValue(fqn: "aws.dynamodbContributorInsights.DynamodbContributorInsightsConfig")]
     public class DynamodbContributorInsightsConfig : aws.DynamodbContributorInsights.IDynamodbContributorInsightsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_contributor_insights#table_name DynamodbContributorInsights#table_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_contributor_insights#table_name DynamodbContributorInsights#table_name}.</summary>
         [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}")]
         public string TableName
         {
@@ -17,7 +17,7 @@ namespace aws.DynamodbContributorInsights
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_contributor_insights#id DynamodbContributorInsights#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_contributor_insights#id DynamodbContributorInsights#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ namespace aws.DynamodbContributorInsights
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_contributor_insights#index_name DynamodbContributorInsights#index_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_contributor_insights#index_name DynamodbContributorInsights#index_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "indexName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IndexName
@@ -39,7 +39,7 @@ namespace aws.DynamodbContributorInsights
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_contributor_insights#mode DynamodbContributorInsights#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_contributor_insights#mode DynamodbContributorInsights#mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Mode
@@ -50,7 +50,7 @@ namespace aws.DynamodbContributorInsights
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_contributor_insights#region DynamodbContributorInsights#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_contributor_insights#region DynamodbContributorInsights#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace aws.DynamodbContributorInsights
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dynamodb_contributor_insights#timeouts DynamodbContributorInsights#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dynamodb_contributor_insights#timeouts DynamodbContributorInsights#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.dynamodbContributorInsights.DynamodbContributorInsightsTimeouts\"}", isOptional: true)]

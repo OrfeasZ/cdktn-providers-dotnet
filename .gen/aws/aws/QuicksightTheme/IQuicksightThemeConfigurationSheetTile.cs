@@ -9,7 +9,7 @@ namespace aws.QuicksightTheme
     {
         /// <summary>border block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#border QuicksightTheme#border}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_theme#border QuicksightTheme#border}
         /// </remarks>
         [JsiiProperty(name: "border", typeJson: "{\"fqn\":\"aws.quicksightTheme.QuicksightThemeConfigurationSheetTileBorder\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.QuicksightTheme
 
             /// <summary>border block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#border QuicksightTheme#border}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_theme#border QuicksightTheme#border}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "border", typeJson: "{\"fqn\":\"aws.quicksightTheme.QuicksightThemeConfigurationSheetTileBorder\"}", isOptional: true)]

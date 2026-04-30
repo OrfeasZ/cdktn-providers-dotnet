@@ -9,7 +9,7 @@ namespace aws.CloudwatchMetricAlarm
     {
         /// <summary>promql_criteria block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_metric_alarm#promql_criteria CloudwatchMetricAlarm#promql_criteria}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_metric_alarm#promql_criteria CloudwatchMetricAlarm#promql_criteria}
         /// </remarks>
         [JsiiProperty(name: "promqlCriteria", typeJson: "{\"fqn\":\"aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmEvaluationCriteriaPromqlCriteria\"}")]
         aws.CloudwatchMetricAlarm.ICloudwatchMetricAlarmEvaluationCriteriaPromqlCriteria PromqlCriteria
@@ -26,7 +26,7 @@ namespace aws.CloudwatchMetricAlarm
 
             /// <summary>promql_criteria block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudwatch_metric_alarm#promql_criteria CloudwatchMetricAlarm#promql_criteria}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudwatch_metric_alarm#promql_criteria CloudwatchMetricAlarm#promql_criteria}
             /// </remarks>
             [JsiiProperty(name: "promqlCriteria", typeJson: "{\"fqn\":\"aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmEvaluationCriteriaPromqlCriteria\"}")]
             public aws.CloudwatchMetricAlarm.ICloudwatchMetricAlarmEvaluationCriteriaPromqlCriteria PromqlCriteria

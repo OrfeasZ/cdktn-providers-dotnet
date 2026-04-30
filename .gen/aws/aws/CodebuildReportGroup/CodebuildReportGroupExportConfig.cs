@@ -9,7 +9,7 @@ namespace aws.CodebuildReportGroup
     [JsiiByValue(fqn: "aws.codebuildReportGroup.CodebuildReportGroupExportConfig")]
     public class CodebuildReportGroupExportConfig : aws.CodebuildReportGroup.ICodebuildReportGroupExportConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_report_group#type CodebuildReportGroup#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_report_group#type CodebuildReportGroup#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -19,7 +19,7 @@ namespace aws.CodebuildReportGroup
 
         /// <summary>s3_destination block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/codebuild_report_group#s3_destination CodebuildReportGroup#s3_destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/codebuild_report_group#s3_destination CodebuildReportGroup#s3_destination}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3Destination", typeJson: "{\"fqn\":\"aws.codebuildReportGroup.CodebuildReportGroupExportConfigS3Destination\"}", isOptional: true)]

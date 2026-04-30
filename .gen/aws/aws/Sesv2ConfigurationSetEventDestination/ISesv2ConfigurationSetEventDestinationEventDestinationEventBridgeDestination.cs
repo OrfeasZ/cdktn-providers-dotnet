@@ -7,7 +7,7 @@ namespace aws.Sesv2ConfigurationSetEventDestination
     [JsiiInterface(nativeType: typeof(ISesv2ConfigurationSetEventDestinationEventDestinationEventBridgeDestination), fullyQualifiedName: "aws.sesv2ConfigurationSetEventDestination.Sesv2ConfigurationSetEventDestinationEventDestinationEventBridgeDestination")]
     public interface ISesv2ConfigurationSetEventDestinationEventDestinationEventBridgeDestination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_configuration_set_event_destination#event_bus_arn Sesv2ConfigurationSetEventDestination#event_bus_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_configuration_set_event_destination#event_bus_arn Sesv2ConfigurationSetEventDestination#event_bus_arn}.</summary>
         [JsiiProperty(name: "eventBusArn", typeJson: "{\"primitive\":\"string\"}")]
         string EventBusArn
         {
@@ -21,7 +21,7 @@ namespace aws.Sesv2ConfigurationSetEventDestination
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_configuration_set_event_destination#event_bus_arn Sesv2ConfigurationSetEventDestination#event_bus_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_configuration_set_event_destination#event_bus_arn Sesv2ConfigurationSetEventDestination#event_bus_arn}.</summary>
             [JsiiProperty(name: "eventBusArn", typeJson: "{\"primitive\":\"string\"}")]
             public string EventBusArn
             {

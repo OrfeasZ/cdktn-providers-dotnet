@@ -9,7 +9,7 @@ namespace aws.Alb
     [JsiiByValue(fqn: "aws.alb.AlbIpamPools")]
     public class AlbIpamPools : aws.Alb.IAlbIpamPools
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb#ipv4_ipam_pool_id Alb#ipv4_ipam_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb#ipv4_ipam_pool_id Alb#ipv4_ipam_pool_id}.</summary>
         [JsiiProperty(name: "ipv4IpamPoolId", typeJson: "{\"primitive\":\"string\"}")]
         public string Ipv4IpamPoolId
         {

@@ -9,7 +9,7 @@ namespace aws.VpcRouteServerPeer
     [JsiiByValue(fqn: "aws.vpcRouteServerPeer.VpcRouteServerPeerBgpOptions")]
     public class VpcRouteServerPeerBgpOptions : aws.VpcRouteServerPeer.IVpcRouteServerPeerBgpOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_route_server_peer#peer_asn VpcRouteServerPeer#peer_asn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_route_server_peer#peer_asn VpcRouteServerPeer#peer_asn}.</summary>
         [JsiiProperty(name: "peerAsn", typeJson: "{\"primitive\":\"number\"}")]
         public double PeerAsn
         {
@@ -17,7 +17,7 @@ namespace aws.VpcRouteServerPeer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_route_server_peer#peer_liveness_detection VpcRouteServerPeer#peer_liveness_detection}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_route_server_peer#peer_liveness_detection VpcRouteServerPeer#peer_liveness_detection}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "peerLivenessDetection", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PeerLivenessDetection

@@ -7,7 +7,7 @@ namespace aws.DataAwsVpnGateway
     [JsiiByValue(fqn: "aws.dataAwsVpnGateway.DataAwsVpnGatewayConfig")]
     public class DataAwsVpnGatewayConfig : aws.DataAwsVpnGateway.IDataAwsVpnGatewayConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpn_gateway#amazon_side_asn DataAwsVpnGateway#amazon_side_asn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/vpn_gateway#amazon_side_asn DataAwsVpnGateway#amazon_side_asn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "amazonSideAsn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AmazonSideAsn
@@ -16,7 +16,7 @@ namespace aws.DataAwsVpnGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpn_gateway#attached_vpc_id DataAwsVpnGateway#attached_vpc_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/vpn_gateway#attached_vpc_id DataAwsVpnGateway#attached_vpc_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attachedVpcId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AttachedVpcId
@@ -25,7 +25,7 @@ namespace aws.DataAwsVpnGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpn_gateway#availability_zone DataAwsVpnGateway#availability_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/vpn_gateway#availability_zone DataAwsVpnGateway#availability_zone}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AvailabilityZone
@@ -38,7 +38,7 @@ namespace aws.DataAwsVpnGateway
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpn_gateway#filter DataAwsVpnGateway#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/vpn_gateway#filter DataAwsVpnGateway#filter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsVpnGateway.DataAwsVpnGatewayFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace aws.DataAwsVpnGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpn_gateway#id DataAwsVpnGateway#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/vpn_gateway#id DataAwsVpnGateway#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace aws.DataAwsVpnGateway
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpn_gateway#region DataAwsVpnGateway#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/vpn_gateway#region DataAwsVpnGateway#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -93,7 +93,7 @@ namespace aws.DataAwsVpnGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpn_gateway#state DataAwsVpnGateway#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/vpn_gateway#state DataAwsVpnGateway#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -102,7 +102,7 @@ namespace aws.DataAwsVpnGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpn_gateway#tags DataAwsVpnGateway#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/vpn_gateway#tags DataAwsVpnGateway#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -113,7 +113,7 @@ namespace aws.DataAwsVpnGateway
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpn_gateway#timeouts DataAwsVpnGateway#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/vpn_gateway#timeouts DataAwsVpnGateway#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.dataAwsVpnGateway.DataAwsVpnGatewayTimeouts\"}", isOptional: true)]

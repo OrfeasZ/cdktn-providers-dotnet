@@ -9,7 +9,7 @@ namespace aws.PrometheusWorkspace
     [JsiiByValue(fqn: "aws.prometheusWorkspace.PrometheusWorkspaceLoggingConfiguration")]
     public class PrometheusWorkspaceLoggingConfiguration : aws.PrometheusWorkspace.IPrometheusWorkspaceLoggingConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/prometheus_workspace#log_group_arn PrometheusWorkspace#log_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/prometheus_workspace#log_group_arn PrometheusWorkspace#log_group_arn}.</summary>
         [JsiiProperty(name: "logGroupArn", typeJson: "{\"primitive\":\"string\"}")]
         public string LogGroupArn
         {

@@ -7,14 +7,14 @@ namespace aws.CustomerprofilesProfile
     [JsiiInterface(nativeType: typeof(ICustomerprofilesProfileConfig), fullyQualifiedName: "aws.customerprofilesProfile.CustomerprofilesProfileConfig")]
     public interface ICustomerprofilesProfileConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#domain_name CustomerprofilesProfile#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#domain_name CustomerprofilesProfile#domain_name}.</summary>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         string DomainName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#account_number CustomerprofilesProfile#account_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#account_number CustomerprofilesProfile#account_number}.</summary>
         [JsiiProperty(name: "accountNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccountNumber
@@ -25,7 +25,7 @@ namespace aws.CustomerprofilesProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#additional_information CustomerprofilesProfile#additional_information}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#additional_information CustomerprofilesProfile#additional_information}.</summary>
         [JsiiProperty(name: "additionalInformation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AdditionalInformation
@@ -38,7 +38,7 @@ namespace aws.CustomerprofilesProfile
 
         /// <summary>address block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#address CustomerprofilesProfile#address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#address CustomerprofilesProfile#address}
         /// </remarks>
         [JsiiProperty(name: "address", typeJson: "{\"fqn\":\"aws.customerprofilesProfile.CustomerprofilesProfileAddress\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,7 +50,7 @@ namespace aws.CustomerprofilesProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#attributes CustomerprofilesProfile#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#attributes CustomerprofilesProfile#attributes}.</summary>
         [JsiiProperty(name: "attributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Attributes
@@ -63,7 +63,7 @@ namespace aws.CustomerprofilesProfile
 
         /// <summary>billing_address block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#billing_address CustomerprofilesProfile#billing_address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#billing_address CustomerprofilesProfile#billing_address}
         /// </remarks>
         [JsiiProperty(name: "billingAddress", typeJson: "{\"fqn\":\"aws.customerprofilesProfile.CustomerprofilesProfileBillingAddress\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,7 +75,7 @@ namespace aws.CustomerprofilesProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#birth_date CustomerprofilesProfile#birth_date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#birth_date CustomerprofilesProfile#birth_date}.</summary>
         [JsiiProperty(name: "birthDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BirthDate
@@ -86,7 +86,7 @@ namespace aws.CustomerprofilesProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#business_email_address CustomerprofilesProfile#business_email_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#business_email_address CustomerprofilesProfile#business_email_address}.</summary>
         [JsiiProperty(name: "businessEmailAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BusinessEmailAddress
@@ -97,7 +97,7 @@ namespace aws.CustomerprofilesProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#business_name CustomerprofilesProfile#business_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#business_name CustomerprofilesProfile#business_name}.</summary>
         [JsiiProperty(name: "businessName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BusinessName
@@ -108,7 +108,7 @@ namespace aws.CustomerprofilesProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#business_phone_number CustomerprofilesProfile#business_phone_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#business_phone_number CustomerprofilesProfile#business_phone_number}.</summary>
         [JsiiProperty(name: "businessPhoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BusinessPhoneNumber
@@ -119,7 +119,7 @@ namespace aws.CustomerprofilesProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#email_address CustomerprofilesProfile#email_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#email_address CustomerprofilesProfile#email_address}.</summary>
         [JsiiProperty(name: "emailAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EmailAddress
@@ -130,7 +130,7 @@ namespace aws.CustomerprofilesProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#first_name CustomerprofilesProfile#first_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#first_name CustomerprofilesProfile#first_name}.</summary>
         [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FirstName
@@ -141,7 +141,7 @@ namespace aws.CustomerprofilesProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#gender_string CustomerprofilesProfile#gender_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#gender_string CustomerprofilesProfile#gender_string}.</summary>
         [JsiiProperty(name: "genderString", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GenderString
@@ -152,7 +152,7 @@ namespace aws.CustomerprofilesProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#home_phone_number CustomerprofilesProfile#home_phone_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#home_phone_number CustomerprofilesProfile#home_phone_number}.</summary>
         [JsiiProperty(name: "homePhoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HomePhoneNumber
@@ -163,7 +163,7 @@ namespace aws.CustomerprofilesProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#id CustomerprofilesProfile#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#id CustomerprofilesProfile#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -178,7 +178,7 @@ namespace aws.CustomerprofilesProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#last_name CustomerprofilesProfile#last_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#last_name CustomerprofilesProfile#last_name}.</summary>
         [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LastName
@@ -191,7 +191,7 @@ namespace aws.CustomerprofilesProfile
 
         /// <summary>mailing_address block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#mailing_address CustomerprofilesProfile#mailing_address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#mailing_address CustomerprofilesProfile#mailing_address}
         /// </remarks>
         [JsiiProperty(name: "mailingAddress", typeJson: "{\"fqn\":\"aws.customerprofilesProfile.CustomerprofilesProfileMailingAddress\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -203,7 +203,7 @@ namespace aws.CustomerprofilesProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#middle_name CustomerprofilesProfile#middle_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#middle_name CustomerprofilesProfile#middle_name}.</summary>
         [JsiiProperty(name: "middleName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MiddleName
@@ -214,7 +214,7 @@ namespace aws.CustomerprofilesProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#mobile_phone_number CustomerprofilesProfile#mobile_phone_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#mobile_phone_number CustomerprofilesProfile#mobile_phone_number}.</summary>
         [JsiiProperty(name: "mobilePhoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MobilePhoneNumber
@@ -225,7 +225,7 @@ namespace aws.CustomerprofilesProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#party_type_string CustomerprofilesProfile#party_type_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#party_type_string CustomerprofilesProfile#party_type_string}.</summary>
         [JsiiProperty(name: "partyTypeString", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PartyTypeString
@@ -236,7 +236,7 @@ namespace aws.CustomerprofilesProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#personal_email_address CustomerprofilesProfile#personal_email_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#personal_email_address CustomerprofilesProfile#personal_email_address}.</summary>
         [JsiiProperty(name: "personalEmailAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PersonalEmailAddress
@@ -247,7 +247,7 @@ namespace aws.CustomerprofilesProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#phone_number CustomerprofilesProfile#phone_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#phone_number CustomerprofilesProfile#phone_number}.</summary>
         [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PhoneNumber
@@ -260,7 +260,7 @@ namespace aws.CustomerprofilesProfile
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#region CustomerprofilesProfile#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#region CustomerprofilesProfile#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -274,7 +274,7 @@ namespace aws.CustomerprofilesProfile
 
         /// <summary>shipping_address block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#shipping_address CustomerprofilesProfile#shipping_address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#shipping_address CustomerprofilesProfile#shipping_address}
         /// </remarks>
         [JsiiProperty(name: "shippingAddress", typeJson: "{\"fqn\":\"aws.customerprofilesProfile.CustomerprofilesProfileShippingAddress\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -293,14 +293,14 @@ namespace aws.CustomerprofilesProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#domain_name CustomerprofilesProfile#domain_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#domain_name CustomerprofilesProfile#domain_name}.</summary>
             [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
             public string DomainName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#account_number CustomerprofilesProfile#account_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#account_number CustomerprofilesProfile#account_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accountNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccountNumber
@@ -308,7 +308,7 @@ namespace aws.CustomerprofilesProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#additional_information CustomerprofilesProfile#additional_information}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#additional_information CustomerprofilesProfile#additional_information}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "additionalInformation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AdditionalInformation
@@ -318,7 +318,7 @@ namespace aws.CustomerprofilesProfile
 
             /// <summary>address block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#address CustomerprofilesProfile#address}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#address CustomerprofilesProfile#address}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "address", typeJson: "{\"fqn\":\"aws.customerprofilesProfile.CustomerprofilesProfileAddress\"}", isOptional: true)]
@@ -327,7 +327,7 @@ namespace aws.CustomerprofilesProfile
                 get => GetInstanceProperty<aws.CustomerprofilesProfile.ICustomerprofilesProfileAddress?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#attributes CustomerprofilesProfile#attributes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#attributes CustomerprofilesProfile#attributes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Attributes
@@ -337,7 +337,7 @@ namespace aws.CustomerprofilesProfile
 
             /// <summary>billing_address block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#billing_address CustomerprofilesProfile#billing_address}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#billing_address CustomerprofilesProfile#billing_address}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "billingAddress", typeJson: "{\"fqn\":\"aws.customerprofilesProfile.CustomerprofilesProfileBillingAddress\"}", isOptional: true)]
@@ -346,7 +346,7 @@ namespace aws.CustomerprofilesProfile
                 get => GetInstanceProperty<aws.CustomerprofilesProfile.ICustomerprofilesProfileBillingAddress?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#birth_date CustomerprofilesProfile#birth_date}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#birth_date CustomerprofilesProfile#birth_date}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "birthDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BirthDate
@@ -354,7 +354,7 @@ namespace aws.CustomerprofilesProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#business_email_address CustomerprofilesProfile#business_email_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#business_email_address CustomerprofilesProfile#business_email_address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "businessEmailAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BusinessEmailAddress
@@ -362,7 +362,7 @@ namespace aws.CustomerprofilesProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#business_name CustomerprofilesProfile#business_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#business_name CustomerprofilesProfile#business_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "businessName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BusinessName
@@ -370,7 +370,7 @@ namespace aws.CustomerprofilesProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#business_phone_number CustomerprofilesProfile#business_phone_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#business_phone_number CustomerprofilesProfile#business_phone_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "businessPhoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BusinessPhoneNumber
@@ -378,7 +378,7 @@ namespace aws.CustomerprofilesProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#email_address CustomerprofilesProfile#email_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#email_address CustomerprofilesProfile#email_address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "emailAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EmailAddress
@@ -386,7 +386,7 @@ namespace aws.CustomerprofilesProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#first_name CustomerprofilesProfile#first_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#first_name CustomerprofilesProfile#first_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FirstName
@@ -394,7 +394,7 @@ namespace aws.CustomerprofilesProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#gender_string CustomerprofilesProfile#gender_string}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#gender_string CustomerprofilesProfile#gender_string}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "genderString", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GenderString
@@ -402,7 +402,7 @@ namespace aws.CustomerprofilesProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#home_phone_number CustomerprofilesProfile#home_phone_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#home_phone_number CustomerprofilesProfile#home_phone_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "homePhoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HomePhoneNumber
@@ -410,7 +410,7 @@ namespace aws.CustomerprofilesProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#id CustomerprofilesProfile#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#id CustomerprofilesProfile#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -422,7 +422,7 @@ namespace aws.CustomerprofilesProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#last_name CustomerprofilesProfile#last_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#last_name CustomerprofilesProfile#last_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LastName
@@ -432,7 +432,7 @@ namespace aws.CustomerprofilesProfile
 
             /// <summary>mailing_address block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#mailing_address CustomerprofilesProfile#mailing_address}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#mailing_address CustomerprofilesProfile#mailing_address}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mailingAddress", typeJson: "{\"fqn\":\"aws.customerprofilesProfile.CustomerprofilesProfileMailingAddress\"}", isOptional: true)]
@@ -441,7 +441,7 @@ namespace aws.CustomerprofilesProfile
                 get => GetInstanceProperty<aws.CustomerprofilesProfile.ICustomerprofilesProfileMailingAddress?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#middle_name CustomerprofilesProfile#middle_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#middle_name CustomerprofilesProfile#middle_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "middleName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MiddleName
@@ -449,7 +449,7 @@ namespace aws.CustomerprofilesProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#mobile_phone_number CustomerprofilesProfile#mobile_phone_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#mobile_phone_number CustomerprofilesProfile#mobile_phone_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mobilePhoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MobilePhoneNumber
@@ -457,7 +457,7 @@ namespace aws.CustomerprofilesProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#party_type_string CustomerprofilesProfile#party_type_string}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#party_type_string CustomerprofilesProfile#party_type_string}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "partyTypeString", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PartyTypeString
@@ -465,7 +465,7 @@ namespace aws.CustomerprofilesProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#personal_email_address CustomerprofilesProfile#personal_email_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#personal_email_address CustomerprofilesProfile#personal_email_address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "personalEmailAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PersonalEmailAddress
@@ -473,7 +473,7 @@ namespace aws.CustomerprofilesProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#phone_number CustomerprofilesProfile#phone_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#phone_number CustomerprofilesProfile#phone_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PhoneNumber
@@ -483,7 +483,7 @@ namespace aws.CustomerprofilesProfile
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#region CustomerprofilesProfile#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#region CustomerprofilesProfile#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -494,7 +494,7 @@ namespace aws.CustomerprofilesProfile
 
             /// <summary>shipping_address block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/customerprofiles_profile#shipping_address CustomerprofilesProfile#shipping_address}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/customerprofiles_profile#shipping_address CustomerprofilesProfile#shipping_address}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "shippingAddress", typeJson: "{\"fqn\":\"aws.customerprofilesProfile.CustomerprofilesProfileShippingAddress\"}", isOptional: true)]

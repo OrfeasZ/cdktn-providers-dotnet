@@ -9,7 +9,7 @@ namespace aws.AppmeshVirtualNode
     [JsiiByValue(fqn: "aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerTlsCertificateAcm")]
     public class AppmeshVirtualNodeSpecListenerTlsCertificateAcm : aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerTlsCertificateAcm
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_node#certificate_arn AppmeshVirtualNode#certificate_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_node#certificate_arn AppmeshVirtualNode#certificate_arn}.</summary>
         [JsiiProperty(name: "certificateArn", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateArn
         {

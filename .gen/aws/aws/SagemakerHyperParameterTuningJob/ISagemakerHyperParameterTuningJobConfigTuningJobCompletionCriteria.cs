@@ -9,7 +9,7 @@ namespace aws.SagemakerHyperParameterTuningJob
     {
         /// <summary>best_objective_not_improving block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_hyper_parameter_tuning_job#best_objective_not_improving SagemakerHyperParameterTuningJob#best_objective_not_improving}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_hyper_parameter_tuning_job#best_objective_not_improving SagemakerHyperParameterTuningJob#best_objective_not_improving}
         /// </remarks>
         [JsiiProperty(name: "bestObjectiveNotImproving", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerHyperParameterTuningJob.SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaBestObjectiveNotImproving\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.SagemakerHyperParameterTuningJob
 
         /// <summary>convergence_detected block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_hyper_parameter_tuning_job#convergence_detected SagemakerHyperParameterTuningJob#convergence_detected}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_hyper_parameter_tuning_job#convergence_detected SagemakerHyperParameterTuningJob#convergence_detected}
         /// </remarks>
         [JsiiProperty(name: "convergenceDetected", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerHyperParameterTuningJob.SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaConvergenceDetected\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace aws.SagemakerHyperParameterTuningJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_hyper_parameter_tuning_job#target_objective_metric_value SagemakerHyperParameterTuningJob#target_objective_metric_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_hyper_parameter_tuning_job#target_objective_metric_value SagemakerHyperParameterTuningJob#target_objective_metric_value}.</summary>
         [JsiiProperty(name: "targetObjectiveMetricValue", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TargetObjectiveMetricValue
@@ -55,7 +55,7 @@ namespace aws.SagemakerHyperParameterTuningJob
 
             /// <summary>best_objective_not_improving block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_hyper_parameter_tuning_job#best_objective_not_improving SagemakerHyperParameterTuningJob#best_objective_not_improving}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_hyper_parameter_tuning_job#best_objective_not_improving SagemakerHyperParameterTuningJob#best_objective_not_improving}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bestObjectiveNotImproving", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerHyperParameterTuningJob.SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaBestObjectiveNotImproving\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -66,7 +66,7 @@ namespace aws.SagemakerHyperParameterTuningJob
 
             /// <summary>convergence_detected block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_hyper_parameter_tuning_job#convergence_detected SagemakerHyperParameterTuningJob#convergence_detected}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_hyper_parameter_tuning_job#convergence_detected SagemakerHyperParameterTuningJob#convergence_detected}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "convergenceDetected", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerHyperParameterTuningJob.SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaConvergenceDetected\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace aws.SagemakerHyperParameterTuningJob
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_hyper_parameter_tuning_job#target_objective_metric_value SagemakerHyperParameterTuningJob#target_objective_metric_value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_hyper_parameter_tuning_job#target_objective_metric_value SagemakerHyperParameterTuningJob#target_objective_metric_value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetObjectiveMetricValue", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TargetObjectiveMetricValue

@@ -11,7 +11,7 @@ namespace aws.SavingsplansSavingsPlan
     {
         /// <summary>The hourly commitment, in USD.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/savingsplans_savings_plan#commitment SavingsplansSavingsPlan#commitment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/savingsplans_savings_plan#commitment SavingsplansSavingsPlan#commitment}
         /// </remarks>
         [JsiiProperty(name: "commitment", typeJson: "{\"primitive\":\"string\"}")]
         public string Commitment
@@ -22,7 +22,7 @@ namespace aws.SavingsplansSavingsPlan
 
         /// <summary>The unique ID of a Savings Plan offering.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/savingsplans_savings_plan#savings_plan_offering_id SavingsplansSavingsPlan#savings_plan_offering_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/savingsplans_savings_plan#savings_plan_offering_id SavingsplansSavingsPlan#savings_plan_offering_id}
         /// </remarks>
         [JsiiProperty(name: "savingsPlanOfferingId", typeJson: "{\"primitive\":\"string\"}")]
         public string SavingsPlanOfferingId
@@ -33,7 +33,7 @@ namespace aws.SavingsplansSavingsPlan
 
         /// <summary>The time at which to purchase the Savings Plan, in UTC format (YYYY-MM-DDTHH:MM:SSZ).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/savingsplans_savings_plan#purchase_time SavingsplansSavingsPlan#purchase_time}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/savingsplans_savings_plan#purchase_time SavingsplansSavingsPlan#purchase_time}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "purchaseTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace aws.SavingsplansSavingsPlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/savingsplans_savings_plan#tags SavingsplansSavingsPlan#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/savingsplans_savings_plan#tags SavingsplansSavingsPlan#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -54,7 +54,7 @@ namespace aws.SavingsplansSavingsPlan
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/savingsplans_savings_plan#timeouts SavingsplansSavingsPlan#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/savingsplans_savings_plan#timeouts SavingsplansSavingsPlan#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.savingsplansSavingsPlan.SavingsplansSavingsPlanTimeouts\"}", isOptional: true)]
@@ -66,7 +66,7 @@ namespace aws.SavingsplansSavingsPlan
 
         /// <summary>The up-front payment amount.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/savingsplans_savings_plan#upfront_payment_amount SavingsplansSavingsPlan#upfront_payment_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/savingsplans_savings_plan#upfront_payment_amount SavingsplansSavingsPlan#upfront_payment_amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "upfrontPaymentAmount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.AppfabricIngestion
     [JsiiByValue(fqn: "aws.appfabricIngestion.AppfabricIngestionConfig")]
     public class AppfabricIngestionConfig : aws.AppfabricIngestion.IAppfabricIngestionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appfabric_ingestion#app AppfabricIngestion#app}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appfabric_ingestion#app AppfabricIngestion#app}.</summary>
         [JsiiProperty(name: "app", typeJson: "{\"primitive\":\"string\"}")]
         public string App
         {
@@ -17,7 +17,7 @@ namespace aws.AppfabricIngestion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appfabric_ingestion#app_bundle_arn AppfabricIngestion#app_bundle_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appfabric_ingestion#app_bundle_arn AppfabricIngestion#app_bundle_arn}.</summary>
         [JsiiProperty(name: "appBundleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string AppBundleArn
         {
@@ -25,7 +25,7 @@ namespace aws.AppfabricIngestion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appfabric_ingestion#ingestion_type AppfabricIngestion#ingestion_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appfabric_ingestion#ingestion_type AppfabricIngestion#ingestion_type}.</summary>
         [JsiiProperty(name: "ingestionType", typeJson: "{\"primitive\":\"string\"}")]
         public string IngestionType
         {
@@ -33,7 +33,7 @@ namespace aws.AppfabricIngestion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appfabric_ingestion#tenant_id AppfabricIngestion#tenant_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appfabric_ingestion#tenant_id AppfabricIngestion#tenant_id}.</summary>
         [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}")]
         public string TenantId
         {
@@ -43,7 +43,7 @@ namespace aws.AppfabricIngestion
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appfabric_ingestion#region AppfabricIngestion#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appfabric_ingestion#region AppfabricIngestion#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -53,7 +53,7 @@ namespace aws.AppfabricIngestion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appfabric_ingestion#tags AppfabricIngestion#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appfabric_ingestion#tags AppfabricIngestion#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags

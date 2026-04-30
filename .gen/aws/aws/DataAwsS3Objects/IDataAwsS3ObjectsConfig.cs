@@ -7,14 +7,14 @@ namespace aws.DataAwsS3Objects
     [JsiiInterface(nativeType: typeof(IDataAwsS3ObjectsConfig), fullyQualifiedName: "aws.dataAwsS3Objects.DataAwsS3ObjectsConfig")]
     public interface IDataAwsS3ObjectsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#bucket DataAwsS3Objects#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#bucket DataAwsS3Objects#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         string Bucket
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#delimiter DataAwsS3Objects#delimiter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#delimiter DataAwsS3Objects#delimiter}.</summary>
         [JsiiProperty(name: "delimiter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delimiter
@@ -25,7 +25,7 @@ namespace aws.DataAwsS3Objects
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#encoding_type DataAwsS3Objects#encoding_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#encoding_type DataAwsS3Objects#encoding_type}.</summary>
         [JsiiProperty(name: "encodingType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EncodingType
@@ -36,7 +36,7 @@ namespace aws.DataAwsS3Objects
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#fetch_owner DataAwsS3Objects#fetch_owner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#fetch_owner DataAwsS3Objects#fetch_owner}.</summary>
         [JsiiProperty(name: "fetchOwner", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? FetchOwner
@@ -47,7 +47,7 @@ namespace aws.DataAwsS3Objects
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#id DataAwsS3Objects#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#id DataAwsS3Objects#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -62,7 +62,7 @@ namespace aws.DataAwsS3Objects
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#max_keys DataAwsS3Objects#max_keys}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#max_keys DataAwsS3Objects#max_keys}.</summary>
         [JsiiProperty(name: "maxKeys", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxKeys
@@ -73,7 +73,7 @@ namespace aws.DataAwsS3Objects
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#prefix DataAwsS3Objects#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#prefix DataAwsS3Objects#prefix}.</summary>
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Prefix
@@ -86,7 +86,7 @@ namespace aws.DataAwsS3Objects
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#region DataAwsS3Objects#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#region DataAwsS3Objects#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -98,7 +98,7 @@ namespace aws.DataAwsS3Objects
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#request_payer DataAwsS3Objects#request_payer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#request_payer DataAwsS3Objects#request_payer}.</summary>
         [JsiiProperty(name: "requestPayer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RequestPayer
@@ -109,7 +109,7 @@ namespace aws.DataAwsS3Objects
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#start_after DataAwsS3Objects#start_after}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#start_after DataAwsS3Objects#start_after}.</summary>
         [JsiiProperty(name: "startAfter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? StartAfter
@@ -127,14 +127,14 @@ namespace aws.DataAwsS3Objects
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#bucket DataAwsS3Objects#bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#bucket DataAwsS3Objects#bucket}.</summary>
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
             public string Bucket
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#delimiter DataAwsS3Objects#delimiter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#delimiter DataAwsS3Objects#delimiter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delimiter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delimiter
@@ -142,7 +142,7 @@ namespace aws.DataAwsS3Objects
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#encoding_type DataAwsS3Objects#encoding_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#encoding_type DataAwsS3Objects#encoding_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "encodingType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EncodingType
@@ -150,7 +150,7 @@ namespace aws.DataAwsS3Objects
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#fetch_owner DataAwsS3Objects#fetch_owner}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#fetch_owner DataAwsS3Objects#fetch_owner}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fetchOwner", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? FetchOwner
@@ -158,7 +158,7 @@ namespace aws.DataAwsS3Objects
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#id DataAwsS3Objects#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#id DataAwsS3Objects#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -170,7 +170,7 @@ namespace aws.DataAwsS3Objects
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#max_keys DataAwsS3Objects#max_keys}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#max_keys DataAwsS3Objects#max_keys}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxKeys", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxKeys
@@ -178,7 +178,7 @@ namespace aws.DataAwsS3Objects
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#prefix DataAwsS3Objects#prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#prefix DataAwsS3Objects#prefix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Prefix
@@ -188,7 +188,7 @@ namespace aws.DataAwsS3Objects
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#region DataAwsS3Objects#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#region DataAwsS3Objects#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -197,7 +197,7 @@ namespace aws.DataAwsS3Objects
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#request_payer DataAwsS3Objects#request_payer}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#request_payer DataAwsS3Objects#request_payer}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "requestPayer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RequestPayer
@@ -205,7 +205,7 @@ namespace aws.DataAwsS3Objects
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/s3_objects#start_after DataAwsS3Objects#start_after}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/s3_objects#start_after DataAwsS3Objects#start_after}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "startAfter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? StartAfter

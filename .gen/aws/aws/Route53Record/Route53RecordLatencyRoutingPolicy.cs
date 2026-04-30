@@ -9,7 +9,7 @@ namespace aws.Route53Record
     [JsiiByValue(fqn: "aws.route53Record.Route53RecordLatencyRoutingPolicy")]
     public class Route53RecordLatencyRoutingPolicy : aws.Route53Record.IRoute53RecordLatencyRoutingPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/route53_record#region Route53Record#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/route53_record#region Route53Record#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public string Region
         {

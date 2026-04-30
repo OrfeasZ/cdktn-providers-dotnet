@@ -9,7 +9,7 @@ namespace aws.AthenaCapacityReservation
     [JsiiByValue(fqn: "aws.athenaCapacityReservation.AthenaCapacityReservationConfig")]
     public class AthenaCapacityReservationConfig : aws.AthenaCapacityReservation.IAthenaCapacityReservationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_capacity_reservation#name AthenaCapacityReservation#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_capacity_reservation#name AthenaCapacityReservation#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.AthenaCapacityReservation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_capacity_reservation#target_dpus AthenaCapacityReservation#target_dpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_capacity_reservation#target_dpus AthenaCapacityReservation#target_dpus}.</summary>
         [JsiiProperty(name: "targetDpus", typeJson: "{\"primitive\":\"number\"}")]
         public double TargetDpus
         {
@@ -27,7 +27,7 @@ namespace aws.AthenaCapacityReservation
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_capacity_reservation#region AthenaCapacityReservation#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_capacity_reservation#region AthenaCapacityReservation#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace aws.AthenaCapacityReservation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_capacity_reservation#tags AthenaCapacityReservation#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_capacity_reservation#tags AthenaCapacityReservation#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -48,7 +48,7 @@ namespace aws.AthenaCapacityReservation
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/athena_capacity_reservation#timeouts AthenaCapacityReservation#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/athena_capacity_reservation#timeouts AthenaCapacityReservation#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.athenaCapacityReservation.AthenaCapacityReservationTimeouts\"}", isOptional: true)]

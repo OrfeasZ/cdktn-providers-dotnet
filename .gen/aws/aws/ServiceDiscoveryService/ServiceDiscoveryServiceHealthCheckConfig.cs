@@ -7,7 +7,7 @@ namespace aws.ServiceDiscoveryService
     [JsiiByValue(fqn: "aws.serviceDiscoveryService.ServiceDiscoveryServiceHealthCheckConfig")]
     public class ServiceDiscoveryServiceHealthCheckConfig : aws.ServiceDiscoveryService.IServiceDiscoveryServiceHealthCheckConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/service_discovery_service#failure_threshold ServiceDiscoveryService#failure_threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/service_discovery_service#failure_threshold ServiceDiscoveryService#failure_threshold}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "failureThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FailureThreshold
@@ -16,7 +16,7 @@ namespace aws.ServiceDiscoveryService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/service_discovery_service#resource_path ServiceDiscoveryService#resource_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/service_discovery_service#resource_path ServiceDiscoveryService#resource_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourcePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourcePath
@@ -25,7 +25,7 @@ namespace aws.ServiceDiscoveryService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/service_discovery_service#type ServiceDiscoveryService#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/service_discovery_service#type ServiceDiscoveryService#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

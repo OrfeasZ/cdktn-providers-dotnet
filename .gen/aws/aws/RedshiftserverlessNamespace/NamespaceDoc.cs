@@ -5,7 +5,7 @@ namespace aws.RedshiftserverlessNamespace
     /// <remarks>
     /// <h1><c>aws_redshiftserverless_namespace</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/redshiftserverless_namespace"><c>aws_redshiftserverless_namespace</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/redshiftserverless_namespace"><c>aws_redshiftserverless_namespace</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

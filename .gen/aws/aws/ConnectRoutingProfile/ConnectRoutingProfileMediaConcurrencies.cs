@@ -9,7 +9,7 @@ namespace aws.ConnectRoutingProfile
     [JsiiByValue(fqn: "aws.connectRoutingProfile.ConnectRoutingProfileMediaConcurrencies")]
     public class ConnectRoutingProfileMediaConcurrencies : aws.ConnectRoutingProfile.IConnectRoutingProfileMediaConcurrencies
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_routing_profile#channel ConnectRoutingProfile#channel}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_routing_profile#channel ConnectRoutingProfile#channel}.</summary>
         [JsiiProperty(name: "channel", typeJson: "{\"primitive\":\"string\"}")]
         public string Channel
         {
@@ -17,7 +17,7 @@ namespace aws.ConnectRoutingProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_routing_profile#concurrency ConnectRoutingProfile#concurrency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_routing_profile#concurrency ConnectRoutingProfile#concurrency}.</summary>
         [JsiiProperty(name: "concurrency", typeJson: "{\"primitive\":\"number\"}")]
         public double Concurrency
         {
@@ -27,7 +27,7 @@ namespace aws.ConnectRoutingProfile
 
         /// <summary>cross_channel_behavior block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/connect_routing_profile#cross_channel_behavior ConnectRoutingProfile#cross_channel_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/connect_routing_profile#cross_channel_behavior ConnectRoutingProfile#cross_channel_behavior}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "crossChannelBehavior", typeJson: "{\"fqn\":\"aws.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesCrossChannelBehavior\"}", isOptional: true)]

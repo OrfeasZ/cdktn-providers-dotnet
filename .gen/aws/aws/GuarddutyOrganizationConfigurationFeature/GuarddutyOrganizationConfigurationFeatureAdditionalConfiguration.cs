@@ -9,7 +9,7 @@ namespace aws.GuarddutyOrganizationConfigurationFeature
     [JsiiByValue(fqn: "aws.guarddutyOrganizationConfigurationFeature.GuarddutyOrganizationConfigurationFeatureAdditionalConfiguration")]
     public class GuarddutyOrganizationConfigurationFeatureAdditionalConfiguration : aws.GuarddutyOrganizationConfigurationFeature.IGuarddutyOrganizationConfigurationFeatureAdditionalConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_organization_configuration_feature#auto_enable GuarddutyOrganizationConfigurationFeature#auto_enable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_organization_configuration_feature#auto_enable GuarddutyOrganizationConfigurationFeature#auto_enable}.</summary>
         [JsiiProperty(name: "autoEnable", typeJson: "{\"primitive\":\"string\"}")]
         public string AutoEnable
         {
@@ -17,7 +17,7 @@ namespace aws.GuarddutyOrganizationConfigurationFeature
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/guardduty_organization_configuration_feature#name GuarddutyOrganizationConfigurationFeature#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/guardduty_organization_configuration_feature#name GuarddutyOrganizationConfigurationFeature#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

@@ -9,7 +9,7 @@ namespace aws.AppflowFlow
     {
         /// <summary>scheduled block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#scheduled AppflowFlow#scheduled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#scheduled AppflowFlow#scheduled}
         /// </remarks>
         [JsiiProperty(name: "scheduled", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowTriggerConfigTriggerPropertiesScheduled\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.AppflowFlow
 
             /// <summary>scheduled block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#scheduled AppflowFlow#scheduled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#scheduled AppflowFlow#scheduled}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "scheduled", typeJson: "{\"fqn\":\"aws.appflowFlow.AppflowFlowTriggerConfigTriggerPropertiesScheduled\"}", isOptional: true)]

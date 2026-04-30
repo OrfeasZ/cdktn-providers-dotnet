@@ -9,7 +9,7 @@ namespace aws.SecurityhubAutomationRule
     [JsiiByValue(fqn: "aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaTitle")]
     public class SecurityhubAutomationRuleCriteriaTitle : aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleCriteriaTitle
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}.</summary>
         [JsiiProperty(name: "comparison", typeJson: "{\"primitive\":\"string\"}")]
         public string Comparison
         {
@@ -17,7 +17,7 @@ namespace aws.SecurityhubAutomationRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

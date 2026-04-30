@@ -9,7 +9,7 @@ namespace aws.AlbTargetGroup
     {
         private object? _connectionTermination;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#connection_termination AlbTargetGroup#connection_termination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#connection_termination AlbTargetGroup#connection_termination}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "connectionTermination", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? ConnectionTermination
@@ -38,7 +38,7 @@ namespace aws.AlbTargetGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#deregistration_delay AlbTargetGroup#deregistration_delay}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#deregistration_delay AlbTargetGroup#deregistration_delay}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deregistrationDelay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DeregistrationDelay
@@ -49,7 +49,7 @@ namespace aws.AlbTargetGroup
 
         /// <summary>health_check block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#health_check AlbTargetGroup#health_check}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#health_check AlbTargetGroup#health_check}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "healthCheck", typeJson: "{\"fqn\":\"aws.albTargetGroup.AlbTargetGroupHealthCheck\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace aws.AlbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#id AlbTargetGroup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#id AlbTargetGroup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ namespace aws.AlbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#ip_address_type AlbTargetGroup#ip_address_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#ip_address_type AlbTargetGroup#ip_address_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipAddressType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpAddressType
@@ -83,7 +83,7 @@ namespace aws.AlbTargetGroup
 
         private object? _lambdaMultiValueHeadersEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#lambda_multi_value_headers_enabled AlbTargetGroup#lambda_multi_value_headers_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#lambda_multi_value_headers_enabled AlbTargetGroup#lambda_multi_value_headers_enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lambdaMultiValueHeadersEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? LambdaMultiValueHeadersEnabled
@@ -112,7 +112,7 @@ namespace aws.AlbTargetGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#load_balancing_algorithm_type AlbTargetGroup#load_balancing_algorithm_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#load_balancing_algorithm_type AlbTargetGroup#load_balancing_algorithm_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "loadBalancingAlgorithmType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LoadBalancingAlgorithmType
@@ -121,7 +121,7 @@ namespace aws.AlbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#load_balancing_anomaly_mitigation AlbTargetGroup#load_balancing_anomaly_mitigation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#load_balancing_anomaly_mitigation AlbTargetGroup#load_balancing_anomaly_mitigation}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "loadBalancingAnomalyMitigation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LoadBalancingAnomalyMitigation
@@ -130,7 +130,7 @@ namespace aws.AlbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#load_balancing_cross_zone_enabled AlbTargetGroup#load_balancing_cross_zone_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#load_balancing_cross_zone_enabled AlbTargetGroup#load_balancing_cross_zone_enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "loadBalancingCrossZoneEnabled", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LoadBalancingCrossZoneEnabled
@@ -139,7 +139,7 @@ namespace aws.AlbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#name AlbTargetGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#name AlbTargetGroup#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -148,7 +148,7 @@ namespace aws.AlbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#name_prefix AlbTargetGroup#name_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#name_prefix AlbTargetGroup#name_prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "namePrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NamePrefix
@@ -157,7 +157,7 @@ namespace aws.AlbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#port AlbTargetGroup#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#port AlbTargetGroup#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Port
@@ -166,7 +166,7 @@ namespace aws.AlbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#preserve_client_ip AlbTargetGroup#preserve_client_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#preserve_client_ip AlbTargetGroup#preserve_client_ip}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "preserveClientIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PreserveClientIp
@@ -175,7 +175,7 @@ namespace aws.AlbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#protocol AlbTargetGroup#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#protocol AlbTargetGroup#protocol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Protocol
@@ -184,7 +184,7 @@ namespace aws.AlbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#protocol_version AlbTargetGroup#protocol_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#protocol_version AlbTargetGroup#protocol_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "protocolVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProtocolVersion
@@ -195,7 +195,7 @@ namespace aws.AlbTargetGroup
 
         private object? _proxyProtocolV2;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#proxy_protocol_v2 AlbTargetGroup#proxy_protocol_v2}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#proxy_protocol_v2 AlbTargetGroup#proxy_protocol_v2}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "proxyProtocolV2", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? ProxyProtocolV2
@@ -226,7 +226,7 @@ namespace aws.AlbTargetGroup
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#region AlbTargetGroup#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#region AlbTargetGroup#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -236,7 +236,7 @@ namespace aws.AlbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#slow_start AlbTargetGroup#slow_start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#slow_start AlbTargetGroup#slow_start}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "slowStart", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SlowStart
@@ -247,7 +247,7 @@ namespace aws.AlbTargetGroup
 
         /// <summary>stickiness block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#stickiness AlbTargetGroup#stickiness}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#stickiness AlbTargetGroup#stickiness}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stickiness", typeJson: "{\"fqn\":\"aws.albTargetGroup.AlbTargetGroupStickiness\"}", isOptional: true)]
@@ -257,7 +257,7 @@ namespace aws.AlbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#tags AlbTargetGroup#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#tags AlbTargetGroup#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -266,7 +266,7 @@ namespace aws.AlbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#tags_all AlbTargetGroup#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#tags_all AlbTargetGroup#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -275,7 +275,7 @@ namespace aws.AlbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#target_control_port AlbTargetGroup#target_control_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#target_control_port AlbTargetGroup#target_control_port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetControlPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TargetControlPort
@@ -288,7 +288,7 @@ namespace aws.AlbTargetGroup
 
         /// <summary>target_failover block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#target_failover AlbTargetGroup#target_failover}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#target_failover AlbTargetGroup#target_failover}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetFailover", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.albTargetGroup.AlbTargetGroupTargetFailover\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -320,7 +320,7 @@ namespace aws.AlbTargetGroup
 
         /// <summary>target_group_health block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#target_group_health AlbTargetGroup#target_group_health}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#target_group_health AlbTargetGroup#target_group_health}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetGroupHealth", typeJson: "{\"fqn\":\"aws.albTargetGroup.AlbTargetGroupTargetGroupHealth\"}", isOptional: true)]
@@ -334,7 +334,7 @@ namespace aws.AlbTargetGroup
 
         /// <summary>target_health_state block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#target_health_state AlbTargetGroup#target_health_state}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#target_health_state AlbTargetGroup#target_health_state}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetHealthState", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.albTargetGroup.AlbTargetGroupTargetHealthState\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -364,7 +364,7 @@ namespace aws.AlbTargetGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#target_type AlbTargetGroup#target_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#target_type AlbTargetGroup#target_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetType
@@ -373,7 +373,7 @@ namespace aws.AlbTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/alb_target_group#vpc_id AlbTargetGroup#vpc_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/alb_target_group#vpc_id AlbTargetGroup#vpc_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VpcId

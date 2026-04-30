@@ -9,7 +9,7 @@ namespace aws.NetworkflowmonitorScope
     [JsiiByValue(fqn: "aws.networkflowmonitorScope.NetworkflowmonitorScopeTargetTargetIdentifier")]
     public class NetworkflowmonitorScopeTargetTargetIdentifier : aws.NetworkflowmonitorScope.INetworkflowmonitorScopeTargetTargetIdentifier
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkflowmonitor_scope#target_type NetworkflowmonitorScope#target_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkflowmonitor_scope#target_type NetworkflowmonitorScope#target_type}.</summary>
         [JsiiProperty(name: "targetType", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetType
         {
@@ -21,7 +21,7 @@ namespace aws.NetworkflowmonitorScope
 
         /// <summary>target_id block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/networkflowmonitor_scope#target_id NetworkflowmonitorScope#target_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/networkflowmonitor_scope#target_id NetworkflowmonitorScope#target_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetId", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkflowmonitorScope.NetworkflowmonitorScopeTargetTargetIdentifierTargetId\"},\"kind\":\"array\"}}]}}", isOptional: true)]

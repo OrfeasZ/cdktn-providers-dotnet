@@ -7,14 +7,14 @@ namespace aws.S3BucketVersioning
     [JsiiInterface(nativeType: typeof(IS3BucketVersioningVersioningConfiguration), fullyQualifiedName: "aws.s3BucketVersioning.S3BucketVersioningVersioningConfiguration")]
     public interface IS3BucketVersioningVersioningConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_versioning#status S3BucketVersioningA#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_versioning#status S3BucketVersioningA#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         string Status
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_versioning#mfa_delete S3BucketVersioningA#mfa_delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_versioning#mfa_delete S3BucketVersioningA#mfa_delete}.</summary>
         [JsiiProperty(name: "mfaDelete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MfaDelete
@@ -32,14 +32,14 @@ namespace aws.S3BucketVersioning
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_versioning#status S3BucketVersioningA#status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_versioning#status S3BucketVersioningA#status}.</summary>
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
             public string Status
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_versioning#mfa_delete S3BucketVersioningA#mfa_delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_versioning#mfa_delete S3BucketVersioningA#mfa_delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mfaDelete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MfaDelete

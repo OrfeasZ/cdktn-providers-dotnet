@@ -9,7 +9,7 @@ namespace aws.QuicksightDataSet
     [JsiiByValue(fqn: "aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsUntagColumnOperation")]
     public class QuicksightDataSetLogicalTableMapDataTransformsUntagColumnOperation : aws.QuicksightDataSet.IQuicksightDataSetLogicalTableMapDataTransformsUntagColumnOperation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}.</summary>
         [JsiiProperty(name: "columnName", typeJson: "{\"primitive\":\"string\"}")]
         public string ColumnName
         {
@@ -17,7 +17,7 @@ namespace aws.QuicksightDataSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#tag_names QuicksightDataSet#tag_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#tag_names QuicksightDataSet#tag_names}.</summary>
         [JsiiProperty(name: "tagNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] TagNames
         {

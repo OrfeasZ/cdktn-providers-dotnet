@@ -7,7 +7,7 @@ namespace aws.S3TablesTableBucket
     [JsiiInterface(nativeType: typeof(IS3TablesTableBucketMaintenanceConfiguration), fullyQualifiedName: "aws.s3TablesTableBucket.S3TablesTableBucketMaintenanceConfiguration")]
     public interface IS3TablesTableBucketMaintenanceConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table_bucket#iceberg_unreferenced_file_removal S3TablesTableBucket#iceberg_unreferenced_file_removal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3tables_table_bucket#iceberg_unreferenced_file_removal S3TablesTableBucket#iceberg_unreferenced_file_removal}.</summary>
         [JsiiProperty(name: "icebergUnreferencedFileRemoval", typeJson: "{\"fqn\":\"aws.s3TablesTableBucket.S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemoval\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         aws.S3TablesTableBucket.IS3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemoval? IcebergUnreferencedFileRemoval
@@ -25,7 +25,7 @@ namespace aws.S3TablesTableBucket
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table_bucket#iceberg_unreferenced_file_removal S3TablesTableBucket#iceberg_unreferenced_file_removal}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3tables_table_bucket#iceberg_unreferenced_file_removal S3TablesTableBucket#iceberg_unreferenced_file_removal}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "icebergUnreferencedFileRemoval", typeJson: "{\"fqn\":\"aws.s3TablesTableBucket.S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemoval\"}", isOptional: true)]
             public aws.S3TablesTableBucket.IS3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemoval? IcebergUnreferencedFileRemoval

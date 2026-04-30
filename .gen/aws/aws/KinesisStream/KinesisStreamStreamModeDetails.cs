@@ -9,7 +9,7 @@ namespace aws.KinesisStream
     [JsiiByValue(fqn: "aws.kinesisStream.KinesisStreamStreamModeDetails")]
     public class KinesisStreamStreamModeDetails : aws.KinesisStream.IKinesisStreamStreamModeDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_stream#stream_mode KinesisStream#stream_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_stream#stream_mode KinesisStream#stream_mode}.</summary>
         [JsiiProperty(name: "streamMode", typeJson: "{\"primitive\":\"string\"}")]
         public string StreamMode
         {

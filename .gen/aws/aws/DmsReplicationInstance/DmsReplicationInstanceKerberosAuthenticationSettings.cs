@@ -9,7 +9,7 @@ namespace aws.DmsReplicationInstance
     [JsiiByValue(fqn: "aws.dmsReplicationInstance.DmsReplicationInstanceKerberosAuthenticationSettings")]
     public class DmsReplicationInstanceKerberosAuthenticationSettings : aws.DmsReplicationInstance.IDmsReplicationInstanceKerberosAuthenticationSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_instance#key_cache_secret_iam_arn DmsReplicationInstance#key_cache_secret_iam_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_instance#key_cache_secret_iam_arn DmsReplicationInstance#key_cache_secret_iam_arn}.</summary>
         [JsiiProperty(name: "keyCacheSecretIamArn", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyCacheSecretIamArn
         {
@@ -17,7 +17,7 @@ namespace aws.DmsReplicationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_instance#key_cache_secret_id DmsReplicationInstance#key_cache_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_instance#key_cache_secret_id DmsReplicationInstance#key_cache_secret_id}.</summary>
         [JsiiProperty(name: "keyCacheSecretId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyCacheSecretId
         {
@@ -25,7 +25,7 @@ namespace aws.DmsReplicationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/dms_replication_instance#krb5_file_contents DmsReplicationInstance#krb5_file_contents}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/dms_replication_instance#krb5_file_contents DmsReplicationInstance#krb5_file_contents}.</summary>
         [JsiiProperty(name: "krb5FileContents", typeJson: "{\"primitive\":\"string\"}")]
         public string Krb5FileContents
         {

@@ -9,7 +9,7 @@ namespace aws.QuicksightDataSet
     [JsiiByValue(fqn: "aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperation")]
     public class QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperation : aws.QuicksightDataSet.IQuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}.</summary>
         [JsiiProperty(name: "columnName", typeJson: "{\"primitive\":\"string\"}")]
         public string ColumnName
         {
@@ -17,7 +17,7 @@ namespace aws.QuicksightDataSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#new_column_type QuicksightDataSet#new_column_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#new_column_type QuicksightDataSet#new_column_type}.</summary>
         [JsiiProperty(name: "newColumnType", typeJson: "{\"primitive\":\"string\"}")]
         public string NewColumnType
         {
@@ -25,7 +25,7 @@ namespace aws.QuicksightDataSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#format QuicksightDataSet#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#format QuicksightDataSet#format}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Format

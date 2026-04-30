@@ -7,14 +7,14 @@ namespace aws.KeyspacesTable
     [JsiiInterface(nativeType: typeof(IKeyspacesTableSchemaDefinitionClusteringKey), fullyQualifiedName: "aws.keyspacesTable.KeyspacesTableSchemaDefinitionClusteringKey")]
     public interface IKeyspacesTableSchemaDefinitionClusteringKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/keyspaces_table#name KeyspacesTable#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/keyspaces_table#name KeyspacesTable#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/keyspaces_table#order_by KeyspacesTable#order_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/keyspaces_table#order_by KeyspacesTable#order_by}.</summary>
         [JsiiProperty(name: "orderBy", typeJson: "{\"primitive\":\"string\"}")]
         string OrderBy
         {
@@ -28,14 +28,14 @@ namespace aws.KeyspacesTable
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/keyspaces_table#name KeyspacesTable#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/keyspaces_table#name KeyspacesTable#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/keyspaces_table#order_by KeyspacesTable#order_by}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/keyspaces_table#order_by KeyspacesTable#order_by}.</summary>
             [JsiiProperty(name: "orderBy", typeJson: "{\"primitive\":\"string\"}")]
             public string OrderBy
             {

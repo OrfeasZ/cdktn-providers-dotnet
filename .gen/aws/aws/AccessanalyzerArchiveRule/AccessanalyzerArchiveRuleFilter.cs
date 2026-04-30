@@ -9,7 +9,7 @@ namespace aws.AccessanalyzerArchiveRule
     [JsiiByValue(fqn: "aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRuleFilter")]
     public class AccessanalyzerArchiveRuleFilter : aws.AccessanalyzerArchiveRule.IAccessanalyzerArchiveRuleFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/accessanalyzer_archive_rule#criteria AccessanalyzerArchiveRule#criteria}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/accessanalyzer_archive_rule#criteria AccessanalyzerArchiveRule#criteria}.</summary>
         [JsiiProperty(name: "criteria", typeJson: "{\"primitive\":\"string\"}")]
         public string Criteria
         {
@@ -17,7 +17,7 @@ namespace aws.AccessanalyzerArchiveRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/accessanalyzer_archive_rule#contains AccessanalyzerArchiveRule#contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/accessanalyzer_archive_rule#contains AccessanalyzerArchiveRule#contains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "contains", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Contains
@@ -26,7 +26,7 @@ namespace aws.AccessanalyzerArchiveRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/accessanalyzer_archive_rule#eq AccessanalyzerArchiveRule#eq}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/accessanalyzer_archive_rule#eq AccessanalyzerArchiveRule#eq}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "eq", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Eq
@@ -35,7 +35,7 @@ namespace aws.AccessanalyzerArchiveRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/accessanalyzer_archive_rule#exists AccessanalyzerArchiveRule#exists}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/accessanalyzer_archive_rule#exists AccessanalyzerArchiveRule#exists}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "exists", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Exists
@@ -44,7 +44,7 @@ namespace aws.AccessanalyzerArchiveRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/accessanalyzer_archive_rule#neq AccessanalyzerArchiveRule#neq}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/accessanalyzer_archive_rule#neq AccessanalyzerArchiveRule#neq}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "neq", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Neq

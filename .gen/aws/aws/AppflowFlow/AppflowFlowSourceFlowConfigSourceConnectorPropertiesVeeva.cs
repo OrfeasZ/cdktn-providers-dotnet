@@ -9,7 +9,7 @@ namespace aws.AppflowFlow
     [JsiiByValue(fqn: "aws.appflowFlow.AppflowFlowSourceFlowConfigSourceConnectorPropertiesVeeva")]
     public class AppflowFlowSourceFlowConfigSourceConnectorPropertiesVeeva : aws.AppflowFlow.IAppflowFlowSourceFlowConfigSourceConnectorPropertiesVeeva
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#object AppflowFlow#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#object AppflowFlow#object}.</summary>
         [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
         public string Object
         {
@@ -17,7 +17,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#document_type AppflowFlow#document_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#document_type AppflowFlow#document_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "documentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DocumentType
@@ -28,7 +28,7 @@ namespace aws.AppflowFlow
 
         private object? _includeAllVersions;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#include_all_versions AppflowFlow#include_all_versions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#include_all_versions AppflowFlow#include_all_versions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeAllVersions", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeAllVersions
@@ -59,7 +59,7 @@ namespace aws.AppflowFlow
 
         private object? _includeRenditions;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#include_renditions AppflowFlow#include_renditions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#include_renditions AppflowFlow#include_renditions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeRenditions", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeRenditions
@@ -90,7 +90,7 @@ namespace aws.AppflowFlow
 
         private object? _includeSourceFiles;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#include_source_files AppflowFlow#include_source_files}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#include_source_files AppflowFlow#include_source_files}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeSourceFiles", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeSourceFiles

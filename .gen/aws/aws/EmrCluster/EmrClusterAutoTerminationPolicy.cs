@@ -7,7 +7,7 @@ namespace aws.EmrCluster
     [JsiiByValue(fqn: "aws.emrCluster.EmrClusterAutoTerminationPolicy")]
     public class EmrClusterAutoTerminationPolicy : aws.EmrCluster.IEmrClusterAutoTerminationPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/emr_cluster#idle_timeout EmrCluster#idle_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/emr_cluster#idle_timeout EmrCluster#idle_timeout}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "idleTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IdleTimeout

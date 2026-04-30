@@ -7,7 +7,7 @@ namespace aws.AppmeshRoute
     [JsiiInterface(nativeType: typeof(IAppmeshRouteSpecGrpcRouteRetryPolicy), fullyQualifiedName: "aws.appmeshRoute.AppmeshRouteSpecGrpcRouteRetryPolicy")]
     public interface IAppmeshRouteSpecGrpcRouteRetryPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#max_retries AppmeshRoute#max_retries}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#max_retries AppmeshRoute#max_retries}.</summary>
         [JsiiProperty(name: "maxRetries", typeJson: "{\"primitive\":\"number\"}")]
         double MaxRetries
         {
@@ -16,7 +16,7 @@ namespace aws.AppmeshRoute
 
         /// <summary>per_retry_timeout block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#per_retry_timeout AppmeshRoute#per_retry_timeout}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#per_retry_timeout AppmeshRoute#per_retry_timeout}
         /// </remarks>
         [JsiiProperty(name: "perRetryTimeout", typeJson: "{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecGrpcRouteRetryPolicyPerRetryTimeout\"}")]
         aws.AppmeshRoute.IAppmeshRouteSpecGrpcRouteRetryPolicyPerRetryTimeout PerRetryTimeout
@@ -24,7 +24,7 @@ namespace aws.AppmeshRoute
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#grpc_retry_events AppmeshRoute#grpc_retry_events}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#grpc_retry_events AppmeshRoute#grpc_retry_events}.</summary>
         [JsiiProperty(name: "grpcRetryEvents", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? GrpcRetryEvents
@@ -35,7 +35,7 @@ namespace aws.AppmeshRoute
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#http_retry_events AppmeshRoute#http_retry_events}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#http_retry_events AppmeshRoute#http_retry_events}.</summary>
         [JsiiProperty(name: "httpRetryEvents", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? HttpRetryEvents
@@ -46,7 +46,7 @@ namespace aws.AppmeshRoute
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#tcp_retry_events AppmeshRoute#tcp_retry_events}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#tcp_retry_events AppmeshRoute#tcp_retry_events}.</summary>
         [JsiiProperty(name: "tcpRetryEvents", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? TcpRetryEvents
@@ -64,7 +64,7 @@ namespace aws.AppmeshRoute
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#max_retries AppmeshRoute#max_retries}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#max_retries AppmeshRoute#max_retries}.</summary>
             [JsiiProperty(name: "maxRetries", typeJson: "{\"primitive\":\"number\"}")]
             public double MaxRetries
             {
@@ -73,7 +73,7 @@ namespace aws.AppmeshRoute
 
             /// <summary>per_retry_timeout block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#per_retry_timeout AppmeshRoute#per_retry_timeout}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#per_retry_timeout AppmeshRoute#per_retry_timeout}
             /// </remarks>
             [JsiiProperty(name: "perRetryTimeout", typeJson: "{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecGrpcRouteRetryPolicyPerRetryTimeout\"}")]
             public aws.AppmeshRoute.IAppmeshRouteSpecGrpcRouteRetryPolicyPerRetryTimeout PerRetryTimeout
@@ -81,7 +81,7 @@ namespace aws.AppmeshRoute
                 get => GetInstanceProperty<aws.AppmeshRoute.IAppmeshRouteSpecGrpcRouteRetryPolicyPerRetryTimeout>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#grpc_retry_events AppmeshRoute#grpc_retry_events}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#grpc_retry_events AppmeshRoute#grpc_retry_events}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "grpcRetryEvents", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? GrpcRetryEvents
@@ -89,7 +89,7 @@ namespace aws.AppmeshRoute
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#http_retry_events AppmeshRoute#http_retry_events}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#http_retry_events AppmeshRoute#http_retry_events}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "httpRetryEvents", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? HttpRetryEvents
@@ -97,7 +97,7 @@ namespace aws.AppmeshRoute
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_route#tcp_retry_events AppmeshRoute#tcp_retry_events}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_route#tcp_retry_events AppmeshRoute#tcp_retry_events}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tcpRetryEvents", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? TcpRetryEvents

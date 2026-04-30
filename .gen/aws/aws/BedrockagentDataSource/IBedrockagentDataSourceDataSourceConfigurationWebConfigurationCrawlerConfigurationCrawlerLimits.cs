@@ -7,7 +7,7 @@ namespace aws.BedrockagentDataSource
     [JsiiInterface(nativeType: typeof(IBedrockagentDataSourceDataSourceConfigurationWebConfigurationCrawlerConfigurationCrawlerLimits), fullyQualifiedName: "aws.bedrockagentDataSource.BedrockagentDataSourceDataSourceConfigurationWebConfigurationCrawlerConfigurationCrawlerLimits")]
     public interface IBedrockagentDataSourceDataSourceConfigurationWebConfigurationCrawlerConfigurationCrawlerLimits
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_data_source#max_pages BedrockagentDataSource#max_pages}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_data_source#max_pages BedrockagentDataSource#max_pages}.</summary>
         [JsiiProperty(name: "maxPages", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxPages
@@ -18,7 +18,7 @@ namespace aws.BedrockagentDataSource
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_data_source#rate_limit BedrockagentDataSource#rate_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_data_source#rate_limit BedrockagentDataSource#rate_limit}.</summary>
         [JsiiProperty(name: "rateLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RateLimit
@@ -36,7 +36,7 @@ namespace aws.BedrockagentDataSource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_data_source#max_pages BedrockagentDataSource#max_pages}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_data_source#max_pages BedrockagentDataSource#max_pages}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxPages", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxPages
@@ -44,7 +44,7 @@ namespace aws.BedrockagentDataSource
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_data_source#rate_limit BedrockagentDataSource#rate_limit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_data_source#rate_limit BedrockagentDataSource#rate_limit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "rateLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RateLimit

@@ -11,7 +11,7 @@ namespace aws.SagemakerSpace
     {
         /// <summary>default_resource_spec block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#default_resource_spec SagemakerSpace#default_resource_spec}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_space#default_resource_spec SagemakerSpace#default_resource_spec}
         /// </remarks>
         [JsiiProperty(name: "defaultResourceSpec", typeJson: "{\"fqn\":\"aws.sagemakerSpace.SagemakerSpaceSpaceSettingsCodeEditorAppSettingsDefaultResourceSpec\"}")]
         public aws.SagemakerSpace.ISagemakerSpaceSpaceSettingsCodeEditorAppSettingsDefaultResourceSpec DefaultResourceSpec
@@ -22,7 +22,7 @@ namespace aws.SagemakerSpace
 
         /// <summary>app_lifecycle_management block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#app_lifecycle_management SagemakerSpace#app_lifecycle_management}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_space#app_lifecycle_management SagemakerSpace#app_lifecycle_management}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "appLifecycleManagement", typeJson: "{\"fqn\":\"aws.sagemakerSpace.SagemakerSpaceSpaceSettingsCodeEditorAppSettingsAppLifecycleManagement\"}", isOptional: true)]

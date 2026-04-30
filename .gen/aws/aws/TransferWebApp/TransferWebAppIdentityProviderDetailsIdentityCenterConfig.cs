@@ -7,7 +7,7 @@ namespace aws.TransferWebApp
     [JsiiByValue(fqn: "aws.transferWebApp.TransferWebAppIdentityProviderDetailsIdentityCenterConfig")]
     public class TransferWebAppIdentityProviderDetailsIdentityCenterConfig : aws.TransferWebApp.ITransferWebAppIdentityProviderDetailsIdentityCenterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_web_app#instance_arn TransferWebApp#instance_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_web_app#instance_arn TransferWebApp#instance_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "instanceArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InstanceArn
@@ -16,7 +16,7 @@ namespace aws.TransferWebApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_web_app#role TransferWebApp#role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_web_app#role TransferWebApp#role}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Role

@@ -7,7 +7,7 @@ namespace aws.DataAwsAlbListener
     [JsiiByValue(fqn: "aws.dataAwsAlbListener.DataAwsAlbListenerTimeouts")]
     public class DataAwsAlbListenerTimeouts : aws.DataAwsAlbListener.IDataAwsAlbListenerTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/alb_listener#read DataAwsAlbListener#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/alb_listener#read DataAwsAlbListener#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

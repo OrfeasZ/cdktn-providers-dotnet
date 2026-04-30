@@ -7,7 +7,7 @@ namespace aws.VpcIpamPoolCidr
     [JsiiByValue(fqn: "aws.vpcIpamPoolCidr.VpcIpamPoolCidrTimeouts")]
     public class VpcIpamPoolCidrTimeouts : aws.VpcIpamPoolCidr.IVpcIpamPoolCidrTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_ipam_pool_cidr#create VpcIpamPoolCidr#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_ipam_pool_cidr#create VpcIpamPoolCidr#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.VpcIpamPoolCidr
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_ipam_pool_cidr#delete VpcIpamPoolCidr#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_ipam_pool_cidr#delete VpcIpamPoolCidr#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

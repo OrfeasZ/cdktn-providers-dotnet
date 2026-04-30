@@ -9,7 +9,7 @@ namespace aws.LambdaEventSourceMapping
     [JsiiByValue(fqn: "aws.lambdaEventSourceMapping.LambdaEventSourceMappingSourceAccessConfiguration")]
     public class LambdaEventSourceMappingSourceAccessConfiguration : aws.LambdaEventSourceMapping.ILambdaEventSourceMappingSourceAccessConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_event_source_mapping#type LambdaEventSourceMapping#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_event_source_mapping#type LambdaEventSourceMapping#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace aws.LambdaEventSourceMapping
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/lambda_event_source_mapping#uri LambdaEventSourceMapping#uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/lambda_event_source_mapping#uri LambdaEventSourceMapping#uri}.</summary>
         [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}")]
         public string Uri
         {

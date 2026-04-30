@@ -9,7 +9,7 @@ namespace aws.AppflowFlow
     [JsiiByValue(fqn: "aws.appflowFlow.AppflowFlowSourceFlowConfigSourceConnectorPropertiesSalesforce")]
     public class AppflowFlowSourceFlowConfigSourceConnectorPropertiesSalesforce : aws.AppflowFlow.IAppflowFlowSourceFlowConfigSourceConnectorPropertiesSalesforce
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#object AppflowFlow#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#object AppflowFlow#object}.</summary>
         [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
         public string Object
         {
@@ -17,7 +17,7 @@ namespace aws.AppflowFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#data_transfer_api AppflowFlow#data_transfer_api}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#data_transfer_api AppflowFlow#data_transfer_api}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dataTransferApi", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DataTransferApi
@@ -28,7 +28,7 @@ namespace aws.AppflowFlow
 
         private object? _enableDynamicFieldUpdate;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#enable_dynamic_field_update AppflowFlow#enable_dynamic_field_update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#enable_dynamic_field_update AppflowFlow#enable_dynamic_field_update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enableDynamicFieldUpdate", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? EnableDynamicFieldUpdate
@@ -59,7 +59,7 @@ namespace aws.AppflowFlow
 
         private object? _includeDeletedRecords;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appflow_flow#include_deleted_records AppflowFlow#include_deleted_records}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appflow_flow#include_deleted_records AppflowFlow#include_deleted_records}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeDeletedRecords", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeDeletedRecords

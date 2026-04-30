@@ -7,7 +7,7 @@ namespace aws.ArcregionswitchPlan
     [JsiiInterface(nativeType: typeof(IArcregionswitchPlanWorkflow), fullyQualifiedName: "aws.arcregionswitchPlan.ArcregionswitchPlanWorkflow")]
     public interface IArcregionswitchPlanWorkflow
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/arcregionswitch_plan#workflow_target_action ArcregionswitchPlan#workflow_target_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/arcregionswitch_plan#workflow_target_action ArcregionswitchPlan#workflow_target_action}.</summary>
         [JsiiProperty(name: "workflowTargetAction", typeJson: "{\"primitive\":\"string\"}")]
         string WorkflowTargetAction
         {
@@ -16,7 +16,7 @@ namespace aws.ArcregionswitchPlan
 
         /// <summary>step block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/arcregionswitch_plan#step ArcregionswitchPlan#step}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/arcregionswitch_plan#step ArcregionswitchPlan#step}
         /// </remarks>
         [JsiiProperty(name: "step", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStep\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,7 +28,7 @@ namespace aws.ArcregionswitchPlan
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/arcregionswitch_plan#workflow_description ArcregionswitchPlan#workflow_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/arcregionswitch_plan#workflow_description ArcregionswitchPlan#workflow_description}.</summary>
         [JsiiProperty(name: "workflowDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? WorkflowDescription
@@ -39,7 +39,7 @@ namespace aws.ArcregionswitchPlan
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/arcregionswitch_plan#workflow_target_region ArcregionswitchPlan#workflow_target_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/arcregionswitch_plan#workflow_target_region ArcregionswitchPlan#workflow_target_region}.</summary>
         [JsiiProperty(name: "workflowTargetRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? WorkflowTargetRegion
@@ -57,7 +57,7 @@ namespace aws.ArcregionswitchPlan
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/arcregionswitch_plan#workflow_target_action ArcregionswitchPlan#workflow_target_action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/arcregionswitch_plan#workflow_target_action ArcregionswitchPlan#workflow_target_action}.</summary>
             [JsiiProperty(name: "workflowTargetAction", typeJson: "{\"primitive\":\"string\"}")]
             public string WorkflowTargetAction
             {
@@ -66,7 +66,7 @@ namespace aws.ArcregionswitchPlan
 
             /// <summary>step block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/arcregionswitch_plan#step ArcregionswitchPlan#step}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/arcregionswitch_plan#step ArcregionswitchPlan#step}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "step", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStep\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace aws.ArcregionswitchPlan
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/arcregionswitch_plan#workflow_description ArcregionswitchPlan#workflow_description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/arcregionswitch_plan#workflow_description ArcregionswitchPlan#workflow_description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "workflowDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? WorkflowDescription
@@ -83,7 +83,7 @@ namespace aws.ArcregionswitchPlan
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/arcregionswitch_plan#workflow_target_region ArcregionswitchPlan#workflow_target_region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/arcregionswitch_plan#workflow_target_region ArcregionswitchPlan#workflow_target_region}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "workflowTargetRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? WorkflowTargetRegion

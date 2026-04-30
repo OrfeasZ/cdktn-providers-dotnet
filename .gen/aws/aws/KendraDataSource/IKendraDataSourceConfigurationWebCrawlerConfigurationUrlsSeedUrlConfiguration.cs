@@ -7,14 +7,14 @@ namespace aws.KendraDataSource
     [JsiiInterface(nativeType: typeof(IKendraDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration), fullyQualifiedName: "aws.kendraDataSource.KendraDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration")]
     public interface IKendraDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#seed_urls KendraDataSource#seed_urls}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#seed_urls KendraDataSource#seed_urls}.</summary>
         [JsiiProperty(name: "seedUrls", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] SeedUrls
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#web_crawler_mode KendraDataSource#web_crawler_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#web_crawler_mode KendraDataSource#web_crawler_mode}.</summary>
         [JsiiProperty(name: "webCrawlerMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? WebCrawlerMode
@@ -32,14 +32,14 @@ namespace aws.KendraDataSource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#seed_urls KendraDataSource#seed_urls}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#seed_urls KendraDataSource#seed_urls}.</summary>
             [JsiiProperty(name: "seedUrls", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] SeedUrls
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kendra_data_source#web_crawler_mode KendraDataSource#web_crawler_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kendra_data_source#web_crawler_mode KendraDataSource#web_crawler_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "webCrawlerMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? WebCrawlerMode

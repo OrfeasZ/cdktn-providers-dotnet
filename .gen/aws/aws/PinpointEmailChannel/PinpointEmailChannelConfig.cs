@@ -9,7 +9,7 @@ namespace aws.PinpointEmailChannel
     [JsiiByValue(fqn: "aws.pinpointEmailChannel.PinpointEmailChannelConfig")]
     public class PinpointEmailChannelConfig : aws.PinpointEmailChannel.IPinpointEmailChannelConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pinpoint_email_channel#application_id PinpointEmailChannel#application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pinpoint_email_channel#application_id PinpointEmailChannel#application_id}.</summary>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationId
         {
@@ -17,7 +17,7 @@ namespace aws.PinpointEmailChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pinpoint_email_channel#from_address PinpointEmailChannel#from_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pinpoint_email_channel#from_address PinpointEmailChannel#from_address}.</summary>
         [JsiiProperty(name: "fromAddress", typeJson: "{\"primitive\":\"string\"}")]
         public string FromAddress
         {
@@ -25,7 +25,7 @@ namespace aws.PinpointEmailChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pinpoint_email_channel#identity PinpointEmailChannel#identity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pinpoint_email_channel#identity PinpointEmailChannel#identity}.</summary>
         [JsiiProperty(name: "identity", typeJson: "{\"primitive\":\"string\"}")]
         public string Identity
         {
@@ -33,7 +33,7 @@ namespace aws.PinpointEmailChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pinpoint_email_channel#configuration_set PinpointEmailChannel#configuration_set}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pinpoint_email_channel#configuration_set PinpointEmailChannel#configuration_set}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "configurationSet", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConfigurationSet
@@ -44,7 +44,7 @@ namespace aws.PinpointEmailChannel
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pinpoint_email_channel#enabled PinpointEmailChannel#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pinpoint_email_channel#enabled PinpointEmailChannel#enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Enabled
@@ -73,7 +73,7 @@ namespace aws.PinpointEmailChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pinpoint_email_channel#id PinpointEmailChannel#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pinpoint_email_channel#id PinpointEmailChannel#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -86,7 +86,7 @@ namespace aws.PinpointEmailChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pinpoint_email_channel#orchestration_sending_role_arn PinpointEmailChannel#orchestration_sending_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pinpoint_email_channel#orchestration_sending_role_arn PinpointEmailChannel#orchestration_sending_role_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "orchestrationSendingRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OrchestrationSendingRoleArn
@@ -97,7 +97,7 @@ namespace aws.PinpointEmailChannel
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pinpoint_email_channel#region PinpointEmailChannel#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pinpoint_email_channel#region PinpointEmailChannel#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace aws.PinpointEmailChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/pinpoint_email_channel#role_arn PinpointEmailChannel#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/pinpoint_email_channel#role_arn PinpointEmailChannel#role_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoleArn

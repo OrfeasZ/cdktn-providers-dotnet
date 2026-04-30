@@ -9,7 +9,7 @@ namespace aws.EfsBackupPolicy
     [JsiiByValue(fqn: "aws.efsBackupPolicy.EfsBackupPolicyBackupPolicy")]
     public class EfsBackupPolicyBackupPolicy : aws.EfsBackupPolicy.IEfsBackupPolicyBackupPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/efs_backup_policy#status EfsBackupPolicy#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/efs_backup_policy#status EfsBackupPolicy#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public string Status
         {

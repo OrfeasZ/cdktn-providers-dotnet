@@ -9,7 +9,7 @@ namespace aws.SagemakerSpace
     [JsiiByValue(fqn: "aws.sagemakerSpace.SagemakerSpaceSpaceSettingsCustomFileSystemEfsFileSystem")]
     public class SagemakerSpaceSpaceSettingsCustomFileSystemEfsFileSystem : aws.SagemakerSpace.ISagemakerSpaceSpaceSettingsCustomFileSystemEfsFileSystem
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sagemaker_space#file_system_id SagemakerSpace#file_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sagemaker_space#file_system_id SagemakerSpace#file_system_id}.</summary>
         [JsiiProperty(name: "fileSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public string FileSystemId
         {

@@ -7,7 +7,7 @@ namespace aws.DataAwsCloudfrontResponseHeadersPolicy
     [JsiiByValue(fqn: "aws.dataAwsCloudfrontResponseHeadersPolicy.DataAwsCloudfrontResponseHeadersPolicyConfig")]
     public class DataAwsCloudfrontResponseHeadersPolicyConfig : aws.DataAwsCloudfrontResponseHeadersPolicy.IDataAwsCloudfrontResponseHeadersPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/cloudfront_response_headers_policy#id DataAwsCloudfrontResponseHeadersPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/cloudfront_response_headers_policy#id DataAwsCloudfrontResponseHeadersPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -20,7 +20,7 @@ namespace aws.DataAwsCloudfrontResponseHeadersPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/cloudfront_response_headers_policy#name DataAwsCloudfrontResponseHeadersPolicy#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/cloudfront_response_headers_policy#name DataAwsCloudfrontResponseHeadersPolicy#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name

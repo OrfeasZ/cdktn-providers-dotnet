@@ -7,7 +7,7 @@ namespace aws.KinesisFirehoseDeliveryStream
     [JsiiInterface(nativeType: typeof(IKinesisFirehoseDeliveryStreamOpensearchConfigurationDocumentIdOptions), fullyQualifiedName: "aws.kinesisFirehoseDeliveryStream.KinesisFirehoseDeliveryStreamOpensearchConfigurationDocumentIdOptions")]
     public interface IKinesisFirehoseDeliveryStreamOpensearchConfigurationDocumentIdOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_firehose_delivery_stream#default_document_id_format KinesisFirehoseDeliveryStream#default_document_id_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_firehose_delivery_stream#default_document_id_format KinesisFirehoseDeliveryStream#default_document_id_format}.</summary>
         [JsiiProperty(name: "defaultDocumentIdFormat", typeJson: "{\"primitive\":\"string\"}")]
         string DefaultDocumentIdFormat
         {
@@ -21,7 +21,7 @@ namespace aws.KinesisFirehoseDeliveryStream
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/kinesis_firehose_delivery_stream#default_document_id_format KinesisFirehoseDeliveryStream#default_document_id_format}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/kinesis_firehose_delivery_stream#default_document_id_format KinesisFirehoseDeliveryStream#default_document_id_format}.</summary>
             [JsiiProperty(name: "defaultDocumentIdFormat", typeJson: "{\"primitive\":\"string\"}")]
             public string DefaultDocumentIdFormat
             {

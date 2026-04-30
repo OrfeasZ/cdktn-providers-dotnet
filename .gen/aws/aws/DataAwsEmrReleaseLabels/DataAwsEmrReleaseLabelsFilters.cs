@@ -7,7 +7,7 @@ namespace aws.DataAwsEmrReleaseLabels
     [JsiiByValue(fqn: "aws.dataAwsEmrReleaseLabels.DataAwsEmrReleaseLabelsFilters")]
     public class DataAwsEmrReleaseLabelsFilters : aws.DataAwsEmrReleaseLabels.IDataAwsEmrReleaseLabelsFilters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/emr_release_labels#application DataAwsEmrReleaseLabels#application}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/emr_release_labels#application DataAwsEmrReleaseLabels#application}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "application", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Application
@@ -16,7 +16,7 @@ namespace aws.DataAwsEmrReleaseLabels
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/emr_release_labels#prefix DataAwsEmrReleaseLabels#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/emr_release_labels#prefix DataAwsEmrReleaseLabels#prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Prefix

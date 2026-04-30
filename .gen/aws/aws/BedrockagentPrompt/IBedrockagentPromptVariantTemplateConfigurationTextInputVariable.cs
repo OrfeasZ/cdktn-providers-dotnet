@@ -7,7 +7,7 @@ namespace aws.BedrockagentPrompt
     [JsiiInterface(nativeType: typeof(IBedrockagentPromptVariantTemplateConfigurationTextInputVariable), fullyQualifiedName: "aws.bedrockagentPrompt.BedrockagentPromptVariantTemplateConfigurationTextInputVariable")]
     public interface IBedrockagentPromptVariantTemplateConfigurationTextInputVariable
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_prompt#name BedrockagentPrompt#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_prompt#name BedrockagentPrompt#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -21,7 +21,7 @@ namespace aws.BedrockagentPrompt
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrockagent_prompt#name BedrockagentPrompt#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrockagent_prompt#name BedrockagentPrompt#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {

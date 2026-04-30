@@ -7,7 +7,7 @@ namespace aws.S3BucketReplicationConfiguration
     [JsiiInterface(nativeType: typeof(IS3BucketReplicationConfigurationRuleDestinationAccessControlTranslation), fullyQualifiedName: "aws.s3BucketReplicationConfiguration.S3BucketReplicationConfigurationRuleDestinationAccessControlTranslation")]
     public interface IS3BucketReplicationConfigurationRuleDestinationAccessControlTranslation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_replication_configuration#owner S3BucketReplicationConfigurationA#owner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_replication_configuration#owner S3BucketReplicationConfigurationA#owner}.</summary>
         [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}")]
         string Owner
         {
@@ -21,7 +21,7 @@ namespace aws.S3BucketReplicationConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3_bucket_replication_configuration#owner S3BucketReplicationConfigurationA#owner}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3_bucket_replication_configuration#owner S3BucketReplicationConfigurationA#owner}.</summary>
             [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}")]
             public string Owner
             {

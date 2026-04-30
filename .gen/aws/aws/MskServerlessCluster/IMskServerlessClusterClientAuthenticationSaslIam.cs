@@ -7,7 +7,7 @@ namespace aws.MskServerlessCluster
     [JsiiInterface(nativeType: typeof(IMskServerlessClusterClientAuthenticationSaslIam), fullyQualifiedName: "aws.mskServerlessCluster.MskServerlessClusterClientAuthenticationSaslIam")]
     public interface IMskServerlessClusterClientAuthenticationSaslIam
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_serverless_cluster#enabled MskServerlessCluster#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_serverless_cluster#enabled MskServerlessCluster#enabled}.</summary>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         object Enabled
         {
@@ -21,7 +21,7 @@ namespace aws.MskServerlessCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/msk_serverless_cluster#enabled MskServerlessCluster#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/msk_serverless_cluster#enabled MskServerlessCluster#enabled}.</summary>
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
             public object Enabled
             {

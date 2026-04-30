@@ -7,14 +7,14 @@ namespace aws.SecurityhubInsight
     [JsiiInterface(nativeType: typeof(ISecurityhubInsightFiltersNetworkDirection), fullyQualifiedName: "aws.securityhubInsight.SecurityhubInsightFiltersNetworkDirection")]
     public interface ISecurityhubInsightFiltersNetworkDirection
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}.</summary>
         [JsiiProperty(name: "comparison", typeJson: "{\"primitive\":\"string\"}")]
         string Comparison
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -28,14 +28,14 @@ namespace aws.SecurityhubInsight
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}.</summary>
             [JsiiProperty(name: "comparison", typeJson: "{\"primitive\":\"string\"}")]
             public string Comparison
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

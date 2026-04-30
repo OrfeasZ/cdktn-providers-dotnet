@@ -7,7 +7,7 @@ namespace aws.MedialiveChannel
     [JsiiByValue(fqn: "aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsWavSettings")]
     public class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsWavSettings : aws.MedialiveChannel.IMedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsWavSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#bit_depth MedialiveChannel#bit_depth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#bit_depth MedialiveChannel#bit_depth}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bitDepth", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BitDepth
@@ -16,7 +16,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#coding_mode MedialiveChannel#coding_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#coding_mode MedialiveChannel#coding_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "codingMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CodingMode
@@ -25,7 +25,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/medialive_channel#sample_rate MedialiveChannel#sample_rate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/medialive_channel#sample_rate MedialiveChannel#sample_rate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sampleRate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SampleRate

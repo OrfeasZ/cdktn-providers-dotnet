@@ -7,14 +7,14 @@ namespace aws.Ec2ManagedPrefixList
     [JsiiInterface(nativeType: typeof(IEc2ManagedPrefixListEntry), fullyQualifiedName: "aws.ec2ManagedPrefixList.Ec2ManagedPrefixListEntry")]
     public interface IEc2ManagedPrefixListEntry
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_managed_prefix_list#cidr Ec2ManagedPrefixList#cidr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_managed_prefix_list#cidr Ec2ManagedPrefixList#cidr}.</summary>
         [JsiiProperty(name: "cidr", typeJson: "{\"primitive\":\"string\"}")]
         string Cidr
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_managed_prefix_list#description Ec2ManagedPrefixList#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_managed_prefix_list#description Ec2ManagedPrefixList#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -32,14 +32,14 @@ namespace aws.Ec2ManagedPrefixList
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_managed_prefix_list#cidr Ec2ManagedPrefixList#cidr}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_managed_prefix_list#cidr Ec2ManagedPrefixList#cidr}.</summary>
             [JsiiProperty(name: "cidr", typeJson: "{\"primitive\":\"string\"}")]
             public string Cidr
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_managed_prefix_list#description Ec2ManagedPrefixList#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_managed_prefix_list#description Ec2ManagedPrefixList#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description

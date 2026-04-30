@@ -7,14 +7,14 @@ namespace aws.SecuritylakeCustomLogSource
     [JsiiInterface(nativeType: typeof(ISecuritylakeCustomLogSourceConfigurationProviderIdentity), fullyQualifiedName: "aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationProviderIdentity")]
     public interface ISecuritylakeCustomLogSourceConfigurationProviderIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_custom_log_source#external_id SecuritylakeCustomLogSource#external_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_custom_log_source#external_id SecuritylakeCustomLogSource#external_id}.</summary>
         [JsiiProperty(name: "externalId", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_custom_log_source#principal SecuritylakeCustomLogSource#principal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_custom_log_source#principal SecuritylakeCustomLogSource#principal}.</summary>
         [JsiiProperty(name: "principal", typeJson: "{\"primitive\":\"string\"}")]
         string Principal
         {
@@ -28,14 +28,14 @@ namespace aws.SecuritylakeCustomLogSource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_custom_log_source#external_id SecuritylakeCustomLogSource#external_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_custom_log_source#external_id SecuritylakeCustomLogSource#external_id}.</summary>
             [JsiiProperty(name: "externalId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securitylake_custom_log_source#principal SecuritylakeCustomLogSource#principal}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securitylake_custom_log_source#principal SecuritylakeCustomLogSource#principal}.</summary>
             [JsiiProperty(name: "principal", typeJson: "{\"primitive\":\"string\"}")]
             public string Principal
             {

@@ -9,7 +9,7 @@ namespace aws.TransferServer
     {
         /// <summary>on_partial_upload block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#on_partial_upload TransferServer#on_partial_upload}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#on_partial_upload TransferServer#on_partial_upload}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "onPartialUpload", typeJson: "{\"fqn\":\"aws.transferServer.TransferServerWorkflowDetailsOnPartialUpload\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.TransferServer
 
         /// <summary>on_upload block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_server#on_upload TransferServer#on_upload}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_server#on_upload TransferServer#on_upload}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "onUpload", typeJson: "{\"fqn\":\"aws.transferServer.TransferServerWorkflowDetailsOnUpload\"}", isOptional: true)]

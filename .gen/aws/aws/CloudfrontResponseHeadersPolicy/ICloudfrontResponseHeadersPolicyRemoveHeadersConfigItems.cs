@@ -7,7 +7,7 @@ namespace aws.CloudfrontResponseHeadersPolicy
     [JsiiInterface(nativeType: typeof(ICloudfrontResponseHeadersPolicyRemoveHeadersConfigItems), fullyQualifiedName: "aws.cloudfrontResponseHeadersPolicy.CloudfrontResponseHeadersPolicyRemoveHeadersConfigItems")]
     public interface ICloudfrontResponseHeadersPolicyRemoveHeadersConfigItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_response_headers_policy#header CloudfrontResponseHeadersPolicy#header}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_response_headers_policy#header CloudfrontResponseHeadersPolicy#header}.</summary>
         [JsiiProperty(name: "header", typeJson: "{\"primitive\":\"string\"}")]
         string Header
         {
@@ -21,7 +21,7 @@ namespace aws.CloudfrontResponseHeadersPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/cloudfront_response_headers_policy#header CloudfrontResponseHeadersPolicy#header}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/cloudfront_response_headers_policy#header CloudfrontResponseHeadersPolicy#header}.</summary>
             [JsiiProperty(name: "header", typeJson: "{\"primitive\":\"string\"}")]
             public string Header
             {

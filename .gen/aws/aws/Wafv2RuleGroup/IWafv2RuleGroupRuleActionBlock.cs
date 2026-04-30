@@ -9,7 +9,7 @@ namespace aws.Wafv2RuleGroup
     {
         /// <summary>custom_response block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_rule_group#custom_response Wafv2RuleGroup#custom_response}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_rule_group#custom_response Wafv2RuleGroup#custom_response}
         /// </remarks>
         [JsiiProperty(name: "customResponse", typeJson: "{\"fqn\":\"aws.wafv2RuleGroup.Wafv2RuleGroupRuleActionBlockCustomResponse\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.Wafv2RuleGroup
 
             /// <summary>custom_response block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafv2_rule_group#custom_response Wafv2RuleGroup#custom_response}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafv2_rule_group#custom_response Wafv2RuleGroup#custom_response}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customResponse", typeJson: "{\"fqn\":\"aws.wafv2RuleGroup.Wafv2RuleGroupRuleActionBlockCustomResponse\"}", isOptional: true)]

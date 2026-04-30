@@ -9,7 +9,7 @@ namespace aws.Sesv2EmailIdentityPolicy
     [JsiiByValue(fqn: "aws.sesv2EmailIdentityPolicy.Sesv2EmailIdentityPolicyConfig")]
     public class Sesv2EmailIdentityPolicyConfig : aws.Sesv2EmailIdentityPolicy.ISesv2EmailIdentityPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_email_identity_policy#email_identity Sesv2EmailIdentityPolicy#email_identity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_email_identity_policy#email_identity Sesv2EmailIdentityPolicy#email_identity}.</summary>
         [JsiiProperty(name: "emailIdentity", typeJson: "{\"primitive\":\"string\"}")]
         public string EmailIdentity
         {
@@ -17,7 +17,7 @@ namespace aws.Sesv2EmailIdentityPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_email_identity_policy#policy Sesv2EmailIdentityPolicy#policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_email_identity_policy#policy Sesv2EmailIdentityPolicy#policy}.</summary>
         [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}")]
         public string Policy
         {
@@ -25,7 +25,7 @@ namespace aws.Sesv2EmailIdentityPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_email_identity_policy#policy_name Sesv2EmailIdentityPolicy#policy_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_email_identity_policy#policy_name Sesv2EmailIdentityPolicy#policy_name}.</summary>
         [JsiiProperty(name: "policyName", typeJson: "{\"primitive\":\"string\"}")]
         public string PolicyName
         {
@@ -33,7 +33,7 @@ namespace aws.Sesv2EmailIdentityPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_email_identity_policy#id Sesv2EmailIdentityPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_email_identity_policy#id Sesv2EmailIdentityPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace aws.Sesv2EmailIdentityPolicy
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sesv2_email_identity_policy#region Sesv2EmailIdentityPolicy#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sesv2_email_identity_policy#region Sesv2EmailIdentityPolicy#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

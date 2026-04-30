@@ -9,7 +9,7 @@ namespace aws.BedrockCustomModel
     [JsiiByValue(fqn: "aws.bedrockCustomModel.BedrockCustomModelTrainingDataConfig")]
     public class BedrockCustomModelTrainingDataConfig : aws.BedrockCustomModel.IBedrockCustomModelTrainingDataConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/bedrock_custom_model#s3_uri BedrockCustomModel#s3_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/bedrock_custom_model#s3_uri BedrockCustomModel#s3_uri}.</summary>
         [JsiiProperty(name: "s3Uri", typeJson: "{\"primitive\":\"string\"}")]
         public string S3Uri
         {

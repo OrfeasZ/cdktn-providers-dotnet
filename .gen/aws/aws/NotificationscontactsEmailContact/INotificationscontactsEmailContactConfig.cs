@@ -7,21 +7,21 @@ namespace aws.NotificationscontactsEmailContact
     [JsiiInterface(nativeType: typeof(INotificationscontactsEmailContactConfig), fullyQualifiedName: "aws.notificationscontactsEmailContact.NotificationscontactsEmailContactConfig")]
     public interface INotificationscontactsEmailContactConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notificationscontacts_email_contact#email_address NotificationscontactsEmailContact#email_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/notificationscontacts_email_contact#email_address NotificationscontactsEmailContact#email_address}.</summary>
         [JsiiProperty(name: "emailAddress", typeJson: "{\"primitive\":\"string\"}")]
         string EmailAddress
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notificationscontacts_email_contact#name NotificationscontactsEmailContact#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/notificationscontacts_email_contact#name NotificationscontactsEmailContact#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notificationscontacts_email_contact#tags NotificationscontactsEmailContact#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/notificationscontacts_email_contact#tags NotificationscontactsEmailContact#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -39,21 +39,21 @@ namespace aws.NotificationscontactsEmailContact
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notificationscontacts_email_contact#email_address NotificationscontactsEmailContact#email_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/notificationscontacts_email_contact#email_address NotificationscontactsEmailContact#email_address}.</summary>
             [JsiiProperty(name: "emailAddress", typeJson: "{\"primitive\":\"string\"}")]
             public string EmailAddress
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notificationscontacts_email_contact#name NotificationscontactsEmailContact#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/notificationscontacts_email_contact#name NotificationscontactsEmailContact#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/notificationscontacts_email_contact#tags NotificationscontactsEmailContact#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/notificationscontacts_email_contact#tags NotificationscontactsEmailContact#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags

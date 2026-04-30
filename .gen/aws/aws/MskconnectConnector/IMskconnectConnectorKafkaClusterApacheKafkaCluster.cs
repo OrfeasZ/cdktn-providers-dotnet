@@ -7,7 +7,7 @@ namespace aws.MskconnectConnector
     [JsiiInterface(nativeType: typeof(IMskconnectConnectorKafkaClusterApacheKafkaCluster), fullyQualifiedName: "aws.mskconnectConnector.MskconnectConnectorKafkaClusterApacheKafkaCluster")]
     public interface IMskconnectConnectorKafkaClusterApacheKafkaCluster
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#bootstrap_servers MskconnectConnector#bootstrap_servers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_connector#bootstrap_servers MskconnectConnector#bootstrap_servers}.</summary>
         [JsiiProperty(name: "bootstrapServers", typeJson: "{\"primitive\":\"string\"}")]
         string BootstrapServers
         {
@@ -16,7 +16,7 @@ namespace aws.MskconnectConnector
 
         /// <summary>vpc block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#vpc MskconnectConnector#vpc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_connector#vpc MskconnectConnector#vpc}
         /// </remarks>
         [JsiiProperty(name: "vpc", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorKafkaClusterApacheKafkaClusterVpc\"}")]
         aws.MskconnectConnector.IMskconnectConnectorKafkaClusterApacheKafkaClusterVpc Vpc
@@ -31,7 +31,7 @@ namespace aws.MskconnectConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#bootstrap_servers MskconnectConnector#bootstrap_servers}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_connector#bootstrap_servers MskconnectConnector#bootstrap_servers}.</summary>
             [JsiiProperty(name: "bootstrapServers", typeJson: "{\"primitive\":\"string\"}")]
             public string BootstrapServers
             {
@@ -40,7 +40,7 @@ namespace aws.MskconnectConnector
 
             /// <summary>vpc block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/mskconnect_connector#vpc MskconnectConnector#vpc}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/mskconnect_connector#vpc MskconnectConnector#vpc}
             /// </remarks>
             [JsiiProperty(name: "vpc", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorKafkaClusterApacheKafkaClusterVpc\"}")]
             public aws.MskconnectConnector.IMskconnectConnectorKafkaClusterApacheKafkaClusterVpc Vpc

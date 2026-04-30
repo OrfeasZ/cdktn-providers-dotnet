@@ -7,7 +7,7 @@ namespace aws.Ec2Fleet
     [JsiiInterface(nativeType: typeof(IEc2FleetSpotOptions), fullyQualifiedName: "aws.ec2Fleet.Ec2FleetSpotOptions")]
     public interface IEc2FleetSpotOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#allocation_strategy Ec2Fleet#allocation_strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#allocation_strategy Ec2Fleet#allocation_strategy}.</summary>
         [JsiiProperty(name: "allocationStrategy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AllocationStrategy
@@ -18,7 +18,7 @@ namespace aws.Ec2Fleet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#instance_interruption_behavior Ec2Fleet#instance_interruption_behavior}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#instance_interruption_behavior Ec2Fleet#instance_interruption_behavior}.</summary>
         [JsiiProperty(name: "instanceInterruptionBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InstanceInterruptionBehavior
@@ -29,7 +29,7 @@ namespace aws.Ec2Fleet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#instance_pools_to_use_count Ec2Fleet#instance_pools_to_use_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#instance_pools_to_use_count Ec2Fleet#instance_pools_to_use_count}.</summary>
         [JsiiProperty(name: "instancePoolsToUseCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InstancePoolsToUseCount
@@ -42,7 +42,7 @@ namespace aws.Ec2Fleet
 
         /// <summary>maintenance_strategies block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#maintenance_strategies Ec2Fleet#maintenance_strategies}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#maintenance_strategies Ec2Fleet#maintenance_strategies}
         /// </remarks>
         [JsiiProperty(name: "maintenanceStrategies", typeJson: "{\"fqn\":\"aws.ec2Fleet.Ec2FleetSpotOptionsMaintenanceStrategies\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace aws.Ec2Fleet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#max_total_price Ec2Fleet#max_total_price}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#max_total_price Ec2Fleet#max_total_price}.</summary>
         [JsiiProperty(name: "maxTotalPrice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MaxTotalPrice
@@ -65,7 +65,7 @@ namespace aws.Ec2Fleet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#min_target_capacity Ec2Fleet#min_target_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#min_target_capacity Ec2Fleet#min_target_capacity}.</summary>
         [JsiiProperty(name: "minTargetCapacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MinTargetCapacity
@@ -76,7 +76,7 @@ namespace aws.Ec2Fleet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#single_availability_zone Ec2Fleet#single_availability_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#single_availability_zone Ec2Fleet#single_availability_zone}.</summary>
         [JsiiProperty(name: "singleAvailabilityZone", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? SingleAvailabilityZone
@@ -87,7 +87,7 @@ namespace aws.Ec2Fleet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#single_instance_type Ec2Fleet#single_instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#single_instance_type Ec2Fleet#single_instance_type}.</summary>
         [JsiiProperty(name: "singleInstanceType", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? SingleInstanceType
@@ -105,7 +105,7 @@ namespace aws.Ec2Fleet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#allocation_strategy Ec2Fleet#allocation_strategy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#allocation_strategy Ec2Fleet#allocation_strategy}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "allocationStrategy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AllocationStrategy
@@ -113,7 +113,7 @@ namespace aws.Ec2Fleet
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#instance_interruption_behavior Ec2Fleet#instance_interruption_behavior}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#instance_interruption_behavior Ec2Fleet#instance_interruption_behavior}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instanceInterruptionBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InstanceInterruptionBehavior
@@ -121,7 +121,7 @@ namespace aws.Ec2Fleet
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#instance_pools_to_use_count Ec2Fleet#instance_pools_to_use_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#instance_pools_to_use_count Ec2Fleet#instance_pools_to_use_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instancePoolsToUseCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InstancePoolsToUseCount
@@ -131,7 +131,7 @@ namespace aws.Ec2Fleet
 
             /// <summary>maintenance_strategies block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#maintenance_strategies Ec2Fleet#maintenance_strategies}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#maintenance_strategies Ec2Fleet#maintenance_strategies}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maintenanceStrategies", typeJson: "{\"fqn\":\"aws.ec2Fleet.Ec2FleetSpotOptionsMaintenanceStrategies\"}", isOptional: true)]
@@ -140,7 +140,7 @@ namespace aws.Ec2Fleet
                 get => GetInstanceProperty<aws.Ec2Fleet.IEc2FleetSpotOptionsMaintenanceStrategies?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#max_total_price Ec2Fleet#max_total_price}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#max_total_price Ec2Fleet#max_total_price}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxTotalPrice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MaxTotalPrice
@@ -148,7 +148,7 @@ namespace aws.Ec2Fleet
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#min_target_capacity Ec2Fleet#min_target_capacity}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#min_target_capacity Ec2Fleet#min_target_capacity}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "minTargetCapacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MinTargetCapacity
@@ -156,7 +156,7 @@ namespace aws.Ec2Fleet
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#single_availability_zone Ec2Fleet#single_availability_zone}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#single_availability_zone Ec2Fleet#single_availability_zone}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "singleAvailabilityZone", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? SingleAvailabilityZone
@@ -164,7 +164,7 @@ namespace aws.Ec2Fleet
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ec2_fleet#single_instance_type Ec2Fleet#single_instance_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ec2_fleet#single_instance_type Ec2Fleet#single_instance_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "singleInstanceType", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? SingleInstanceType

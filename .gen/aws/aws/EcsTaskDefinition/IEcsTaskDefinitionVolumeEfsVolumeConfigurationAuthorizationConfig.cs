@@ -7,7 +7,7 @@ namespace aws.EcsTaskDefinition
     [JsiiInterface(nativeType: typeof(IEcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfig), fullyQualifiedName: "aws.ecsTaskDefinition.EcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfig")]
     public interface IEcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_definition#access_point_id EcsTaskDefinition#access_point_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_task_definition#access_point_id EcsTaskDefinition#access_point_id}.</summary>
         [JsiiProperty(name: "accessPointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessPointId
@@ -18,7 +18,7 @@ namespace aws.EcsTaskDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_definition#iam EcsTaskDefinition#iam}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_task_definition#iam EcsTaskDefinition#iam}.</summary>
         [JsiiProperty(name: "iam", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Iam
@@ -36,7 +36,7 @@ namespace aws.EcsTaskDefinition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_definition#access_point_id EcsTaskDefinition#access_point_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_task_definition#access_point_id EcsTaskDefinition#access_point_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessPointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessPointId
@@ -44,7 +44,7 @@ namespace aws.EcsTaskDefinition
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_definition#iam EcsTaskDefinition#iam}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_task_definition#iam EcsTaskDefinition#iam}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "iam", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Iam

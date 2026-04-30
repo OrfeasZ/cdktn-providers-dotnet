@@ -9,7 +9,7 @@ namespace aws.EcsTaskSet
     [JsiiByValue(fqn: "aws.ecsTaskSet.EcsTaskSetLoadBalancer")]
     public class EcsTaskSetLoadBalancer : aws.EcsTaskSet.IEcsTaskSetLoadBalancer
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_set#container_name EcsTaskSet#container_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_task_set#container_name EcsTaskSet#container_name}.</summary>
         [JsiiProperty(name: "containerName", typeJson: "{\"primitive\":\"string\"}")]
         public string ContainerName
         {
@@ -17,7 +17,7 @@ namespace aws.EcsTaskSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_set#container_port EcsTaskSet#container_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_task_set#container_port EcsTaskSet#container_port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "containerPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ContainerPort
@@ -26,7 +26,7 @@ namespace aws.EcsTaskSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_set#load_balancer_name EcsTaskSet#load_balancer_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_task_set#load_balancer_name EcsTaskSet#load_balancer_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "loadBalancerName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LoadBalancerName
@@ -35,7 +35,7 @@ namespace aws.EcsTaskSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_task_set#target_group_arn EcsTaskSet#target_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_task_set#target_group_arn EcsTaskSet#target_group_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetGroupArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetGroupArn

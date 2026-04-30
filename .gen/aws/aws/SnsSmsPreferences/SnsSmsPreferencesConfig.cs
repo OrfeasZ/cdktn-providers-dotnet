@@ -7,7 +7,7 @@ namespace aws.SnsSmsPreferences
     [JsiiByValue(fqn: "aws.snsSmsPreferences.SnsSmsPreferencesConfig")]
     public class SnsSmsPreferencesConfig : aws.SnsSmsPreferences.ISnsSmsPreferencesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sns_sms_preferences#default_sender_id SnsSmsPreferences#default_sender_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sns_sms_preferences#default_sender_id SnsSmsPreferences#default_sender_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultSenderId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultSenderId
@@ -16,7 +16,7 @@ namespace aws.SnsSmsPreferences
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sns_sms_preferences#default_sms_type SnsSmsPreferences#default_sms_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sns_sms_preferences#default_sms_type SnsSmsPreferences#default_sms_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultSmsType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultSmsType
@@ -25,7 +25,7 @@ namespace aws.SnsSmsPreferences
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sns_sms_preferences#delivery_status_iam_role_arn SnsSmsPreferences#delivery_status_iam_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sns_sms_preferences#delivery_status_iam_role_arn SnsSmsPreferences#delivery_status_iam_role_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deliveryStatusIamRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DeliveryStatusIamRoleArn
@@ -34,7 +34,7 @@ namespace aws.SnsSmsPreferences
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sns_sms_preferences#delivery_status_success_sampling_rate SnsSmsPreferences#delivery_status_success_sampling_rate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sns_sms_preferences#delivery_status_success_sampling_rate SnsSmsPreferences#delivery_status_success_sampling_rate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deliveryStatusSuccessSamplingRate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DeliveryStatusSuccessSamplingRate
@@ -43,7 +43,7 @@ namespace aws.SnsSmsPreferences
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sns_sms_preferences#id SnsSmsPreferences#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sns_sms_preferences#id SnsSmsPreferences#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,7 +56,7 @@ namespace aws.SnsSmsPreferences
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sns_sms_preferences#monthly_spend_limit SnsSmsPreferences#monthly_spend_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sns_sms_preferences#monthly_spend_limit SnsSmsPreferences#monthly_spend_limit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "monthlySpendLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MonthlySpendLimit
@@ -67,7 +67,7 @@ namespace aws.SnsSmsPreferences
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sns_sms_preferences#region SnsSmsPreferences#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sns_sms_preferences#region SnsSmsPreferences#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -77,7 +77,7 @@ namespace aws.SnsSmsPreferences
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/sns_sms_preferences#usage_report_s3_bucket SnsSmsPreferences#usage_report_s3_bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/sns_sms_preferences#usage_report_s3_bucket SnsSmsPreferences#usage_report_s3_bucket}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "usageReportS3Bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UsageReportS3Bucket

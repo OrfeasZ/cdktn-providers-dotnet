@@ -7,14 +7,14 @@ namespace aws.TransferAccess
     [JsiiInterface(nativeType: typeof(ITransferAccessHomeDirectoryMappings), fullyQualifiedName: "aws.transferAccess.TransferAccessHomeDirectoryMappings")]
     public interface ITransferAccessHomeDirectoryMappings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_access#entry TransferAccess#entry}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_access#entry TransferAccess#entry}.</summary>
         [JsiiProperty(name: "entry", typeJson: "{\"primitive\":\"string\"}")]
         string Entry
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_access#target TransferAccess#target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_access#target TransferAccess#target}.</summary>
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}")]
         string Target
         {
@@ -28,14 +28,14 @@ namespace aws.TransferAccess
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_access#entry TransferAccess#entry}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_access#entry TransferAccess#entry}.</summary>
             [JsiiProperty(name: "entry", typeJson: "{\"primitive\":\"string\"}")]
             public string Entry
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/transfer_access#target TransferAccess#target}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/transfer_access#target TransferAccess#target}.</summary>
             [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}")]
             public string Target
             {

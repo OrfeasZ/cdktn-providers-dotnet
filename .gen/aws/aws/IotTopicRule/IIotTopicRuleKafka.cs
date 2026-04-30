@@ -7,21 +7,21 @@ namespace aws.IotTopicRule
     [JsiiInterface(nativeType: typeof(IIotTopicRuleKafka), fullyQualifiedName: "aws.iotTopicRule.IotTopicRuleKafka")]
     public interface IIotTopicRuleKafka
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#client_properties IotTopicRule#client_properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#client_properties IotTopicRule#client_properties}.</summary>
         [JsiiProperty(name: "clientProperties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         System.Collections.Generic.IDictionary<string, string> ClientProperties
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#destination_arn IotTopicRule#destination_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#destination_arn IotTopicRule#destination_arn}.</summary>
         [JsiiProperty(name: "destinationArn", typeJson: "{\"primitive\":\"string\"}")]
         string DestinationArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#topic IotTopicRule#topic}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#topic IotTopicRule#topic}.</summary>
         [JsiiProperty(name: "topic", typeJson: "{\"primitive\":\"string\"}")]
         string Topic
         {
@@ -30,7 +30,7 @@ namespace aws.IotTopicRule
 
         /// <summary>header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#header IotTopicRule#header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#header IotTopicRule#header}
         /// </remarks>
         [JsiiProperty(name: "header", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleKafkaHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,7 +42,7 @@ namespace aws.IotTopicRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#key IotTopicRule#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#key IotTopicRule#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Key
@@ -53,7 +53,7 @@ namespace aws.IotTopicRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#partition IotTopicRule#partition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#partition IotTopicRule#partition}.</summary>
         [JsiiProperty(name: "partition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Partition
@@ -71,21 +71,21 @@ namespace aws.IotTopicRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#client_properties IotTopicRule#client_properties}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#client_properties IotTopicRule#client_properties}.</summary>
             [JsiiProperty(name: "clientProperties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
             public System.Collections.Generic.IDictionary<string, string> ClientProperties
             {
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#destination_arn IotTopicRule#destination_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#destination_arn IotTopicRule#destination_arn}.</summary>
             [JsiiProperty(name: "destinationArn", typeJson: "{\"primitive\":\"string\"}")]
             public string DestinationArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#topic IotTopicRule#topic}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#topic IotTopicRule#topic}.</summary>
             [JsiiProperty(name: "topic", typeJson: "{\"primitive\":\"string\"}")]
             public string Topic
             {
@@ -94,7 +94,7 @@ namespace aws.IotTopicRule
 
             /// <summary>header block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#header IotTopicRule#header}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#header IotTopicRule#header}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "header", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleKafkaHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -103,7 +103,7 @@ namespace aws.IotTopicRule
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#key IotTopicRule#key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#key IotTopicRule#key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Key
@@ -111,7 +111,7 @@ namespace aws.IotTopicRule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/iot_topic_rule#partition IotTopicRule#partition}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/iot_topic_rule#partition IotTopicRule#partition}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "partition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Partition

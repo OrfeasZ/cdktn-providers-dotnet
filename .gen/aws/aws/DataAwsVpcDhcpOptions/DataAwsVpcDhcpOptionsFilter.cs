@@ -9,7 +9,7 @@ namespace aws.DataAwsVpcDhcpOptions
     [JsiiByValue(fqn: "aws.dataAwsVpcDhcpOptions.DataAwsVpcDhcpOptionsFilter")]
     public class DataAwsVpcDhcpOptionsFilter : aws.DataAwsVpcDhcpOptions.IDataAwsVpcDhcpOptionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpc_dhcp_options#name DataAwsVpcDhcpOptions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/vpc_dhcp_options#name DataAwsVpcDhcpOptions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsVpcDhcpOptions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/vpc_dhcp_options#values DataAwsVpcDhcpOptions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/vpc_dhcp_options#values DataAwsVpcDhcpOptions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

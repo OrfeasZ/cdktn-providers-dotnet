@@ -9,7 +9,7 @@ namespace aws.WafregionalWebAcl
     {
         /// <summary>field_to_match block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_web_acl#field_to_match WafregionalWebAcl#field_to_match}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_web_acl#field_to_match WafregionalWebAcl#field_to_match}
         /// </remarks>
         [JsiiProperty(name: "fieldToMatch", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalWebAcl.WafregionalWebAclLoggingConfigurationRedactedFieldsFieldToMatch\"},\"kind\":\"array\"}}]}}")]
         object FieldToMatch
@@ -26,7 +26,7 @@ namespace aws.WafregionalWebAcl
 
             /// <summary>field_to_match block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/wafregional_web_acl#field_to_match WafregionalWebAcl#field_to_match}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/wafregional_web_acl#field_to_match WafregionalWebAcl#field_to_match}
             /// </remarks>
             [JsiiProperty(name: "fieldToMatch", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalWebAcl.WafregionalWebAclLoggingConfigurationRedactedFieldsFieldToMatch\"},\"kind\":\"array\"}}]}}")]
             public object FieldToMatch

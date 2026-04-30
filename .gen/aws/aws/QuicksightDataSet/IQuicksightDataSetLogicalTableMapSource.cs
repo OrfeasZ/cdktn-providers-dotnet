@@ -7,7 +7,7 @@ namespace aws.QuicksightDataSet
     [JsiiInterface(nativeType: typeof(IQuicksightDataSetLogicalTableMapSource), fullyQualifiedName: "aws.quicksightDataSet.QuicksightDataSetLogicalTableMapSource")]
     public interface IQuicksightDataSetLogicalTableMapSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#data_set_arn QuicksightDataSet#data_set_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#data_set_arn QuicksightDataSet#data_set_arn}.</summary>
         [JsiiProperty(name: "dataSetArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DataSetArn
@@ -20,7 +20,7 @@ namespace aws.QuicksightDataSet
 
         /// <summary>join_instruction block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#join_instruction QuicksightDataSet#join_instruction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#join_instruction QuicksightDataSet#join_instruction}
         /// </remarks>
         [JsiiProperty(name: "joinInstruction", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapSourceJoinInstruction\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -32,7 +32,7 @@ namespace aws.QuicksightDataSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#physical_table_id QuicksightDataSet#physical_table_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#physical_table_id QuicksightDataSet#physical_table_id}.</summary>
         [JsiiProperty(name: "physicalTableId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PhysicalTableId
@@ -50,7 +50,7 @@ namespace aws.QuicksightDataSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#data_set_arn QuicksightDataSet#data_set_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#data_set_arn QuicksightDataSet#data_set_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dataSetArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DataSetArn
@@ -60,7 +60,7 @@ namespace aws.QuicksightDataSet
 
             /// <summary>join_instruction block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#join_instruction QuicksightDataSet#join_instruction}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#join_instruction QuicksightDataSet#join_instruction}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "joinInstruction", typeJson: "{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapSourceJoinInstruction\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.QuicksightDataSet
                 get => GetInstanceProperty<aws.QuicksightDataSet.IQuicksightDataSetLogicalTableMapSourceJoinInstruction?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_data_set#physical_table_id QuicksightDataSet#physical_table_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_data_set#physical_table_id QuicksightDataSet#physical_table_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "physicalTableId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PhysicalTableId

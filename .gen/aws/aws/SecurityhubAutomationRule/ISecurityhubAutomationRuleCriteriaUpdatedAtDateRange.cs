@@ -7,14 +7,14 @@ namespace aws.SecurityhubAutomationRule
     [JsiiInterface(nativeType: typeof(ISecurityhubAutomationRuleCriteriaUpdatedAtDateRange), fullyQualifiedName: "aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUpdatedAtDateRange")]
     public interface ISecurityhubAutomationRuleCriteriaUpdatedAtDateRange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_automation_rule#unit SecurityhubAutomationRule#unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_automation_rule#unit SecurityhubAutomationRule#unit}.</summary>
         [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}")]
         string Unit
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]
         double Value
         {
@@ -28,14 +28,14 @@ namespace aws.SecurityhubAutomationRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_automation_rule#unit SecurityhubAutomationRule#unit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_automation_rule#unit SecurityhubAutomationRule#unit}.</summary>
             [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}")]
             public string Unit
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]
             public double Value
             {

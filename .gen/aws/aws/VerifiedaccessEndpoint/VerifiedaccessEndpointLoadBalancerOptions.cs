@@ -7,7 +7,7 @@ namespace aws.VerifiedaccessEndpoint
     [JsiiByValue(fqn: "aws.verifiedaccessEndpoint.VerifiedaccessEndpointLoadBalancerOptions")]
     public class VerifiedaccessEndpointLoadBalancerOptions : aws.VerifiedaccessEndpoint.IVerifiedaccessEndpointLoadBalancerOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/verifiedaccess_endpoint#load_balancer_arn VerifiedaccessEndpoint#load_balancer_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/verifiedaccess_endpoint#load_balancer_arn VerifiedaccessEndpoint#load_balancer_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "loadBalancerArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LoadBalancerArn
@@ -16,7 +16,7 @@ namespace aws.VerifiedaccessEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/verifiedaccess_endpoint#port VerifiedaccessEndpoint#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/verifiedaccess_endpoint#port VerifiedaccessEndpoint#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Port
@@ -29,7 +29,7 @@ namespace aws.VerifiedaccessEndpoint
 
         /// <summary>port_range block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/verifiedaccess_endpoint#port_range VerifiedaccessEndpoint#port_range}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/verifiedaccess_endpoint#port_range VerifiedaccessEndpoint#port_range}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "portRange", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.verifiedaccessEndpoint.VerifiedaccessEndpointLoadBalancerOptionsPortRange\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace aws.VerifiedaccessEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/verifiedaccess_endpoint#protocol VerifiedaccessEndpoint#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/verifiedaccess_endpoint#protocol VerifiedaccessEndpoint#protocol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Protocol
@@ -68,7 +68,7 @@ namespace aws.VerifiedaccessEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/verifiedaccess_endpoint#subnet_ids VerifiedaccessEndpoint#subnet_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/verifiedaccess_endpoint#subnet_ids VerifiedaccessEndpoint#subnet_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subnetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SubnetIds

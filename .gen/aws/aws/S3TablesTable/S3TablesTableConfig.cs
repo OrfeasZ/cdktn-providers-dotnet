@@ -9,7 +9,7 @@ namespace aws.S3TablesTable
     [JsiiByValue(fqn: "aws.s3TablesTable.S3TablesTableConfig")]
     public class S3TablesTableConfig : aws.S3TablesTable.IS3TablesTableConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table#format S3TablesTable#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3tables_table#format S3TablesTable#format}.</summary>
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}")]
         public string Format
         {
@@ -17,7 +17,7 @@ namespace aws.S3TablesTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table#name S3TablesTable#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3tables_table#name S3TablesTable#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace aws.S3TablesTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table#namespace S3TablesTable#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3tables_table#namespace S3TablesTable#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -33,7 +33,7 @@ namespace aws.S3TablesTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table#table_bucket_arn S3TablesTable#table_bucket_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3tables_table#table_bucket_arn S3TablesTable#table_bucket_arn}.</summary>
         [JsiiProperty(name: "tableBucketArn", typeJson: "{\"primitive\":\"string\"}")]
         public string TableBucketArn
         {
@@ -41,7 +41,7 @@ namespace aws.S3TablesTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table#encryption_configuration S3TablesTable#encryption_configuration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3tables_table#encryption_configuration S3TablesTable#encryption_configuration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionConfiguration", typeJson: "{\"fqn\":\"aws.s3TablesTable.S3TablesTableEncryptionConfiguration\"}", isOptional: true)]
         public aws.S3TablesTable.IS3TablesTableEncryptionConfiguration? EncryptionConfiguration
@@ -50,7 +50,7 @@ namespace aws.S3TablesTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table#maintenance_configuration S3TablesTable#maintenance_configuration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3tables_table#maintenance_configuration S3TablesTable#maintenance_configuration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceConfiguration", typeJson: "{\"fqn\":\"aws.s3TablesTable.S3TablesTableMaintenanceConfiguration\"}", isOptional: true)]
         public aws.S3TablesTable.IS3TablesTableMaintenanceConfiguration? MaintenanceConfiguration
@@ -63,7 +63,7 @@ namespace aws.S3TablesTable
 
         /// <summary>metadata block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table#metadata S3TablesTable#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3tables_table#metadata S3TablesTable#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3TablesTable.S3TablesTableMetadata\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace aws.S3TablesTable
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table#region S3TablesTable#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3tables_table#region S3TablesTable#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace aws.S3TablesTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/s3tables_table#tags S3TablesTable#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/s3tables_table#tags S3TablesTable#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags

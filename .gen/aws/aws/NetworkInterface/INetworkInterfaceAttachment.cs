@@ -7,21 +7,21 @@ namespace aws.NetworkInterface
     [JsiiInterface(nativeType: typeof(INetworkInterfaceAttachment), fullyQualifiedName: "aws.networkInterface.NetworkInterfaceAttachment")]
     public interface INetworkInterfaceAttachment
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/network_interface#device_index NetworkInterface#device_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/network_interface#device_index NetworkInterface#device_index}.</summary>
         [JsiiProperty(name: "deviceIndex", typeJson: "{\"primitive\":\"number\"}")]
         double DeviceIndex
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/network_interface#instance NetworkInterface#instance}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/network_interface#instance NetworkInterface#instance}.</summary>
         [JsiiProperty(name: "instance", typeJson: "{\"primitive\":\"string\"}")]
         string Instance
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/network_interface#network_card_index NetworkInterface#network_card_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/network_interface#network_card_index NetworkInterface#network_card_index}.</summary>
         [JsiiProperty(name: "networkCardIndex", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? NetworkCardIndex
@@ -39,21 +39,21 @@ namespace aws.NetworkInterface
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/network_interface#device_index NetworkInterface#device_index}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/network_interface#device_index NetworkInterface#device_index}.</summary>
             [JsiiProperty(name: "deviceIndex", typeJson: "{\"primitive\":\"number\"}")]
             public double DeviceIndex
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/network_interface#instance NetworkInterface#instance}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/network_interface#instance NetworkInterface#instance}.</summary>
             [JsiiProperty(name: "instance", typeJson: "{\"primitive\":\"string\"}")]
             public string Instance
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/network_interface#network_card_index NetworkInterface#network_card_index}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/network_interface#network_card_index NetworkInterface#network_card_index}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "networkCardIndex", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? NetworkCardIndex

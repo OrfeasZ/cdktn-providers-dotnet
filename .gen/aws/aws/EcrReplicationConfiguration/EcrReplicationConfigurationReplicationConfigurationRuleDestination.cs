@@ -9,7 +9,7 @@ namespace aws.EcrReplicationConfiguration
     [JsiiByValue(fqn: "aws.ecrReplicationConfiguration.EcrReplicationConfigurationReplicationConfigurationRuleDestination")]
     public class EcrReplicationConfigurationReplicationConfigurationRuleDestination : aws.EcrReplicationConfiguration.IEcrReplicationConfigurationReplicationConfigurationRuleDestination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_replication_configuration#region EcrReplicationConfiguration#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_replication_configuration#region EcrReplicationConfiguration#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public string Region
         {
@@ -17,7 +17,7 @@ namespace aws.EcrReplicationConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecr_replication_configuration#registry_id EcrReplicationConfiguration#registry_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecr_replication_configuration#registry_id EcrReplicationConfiguration#registry_id}.</summary>
         [JsiiProperty(name: "registryId", typeJson: "{\"primitive\":\"string\"}")]
         public string RegistryId
         {

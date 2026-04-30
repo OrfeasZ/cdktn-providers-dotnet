@@ -9,7 +9,7 @@ namespace aws.QuicksightTheme
     [JsiiByValue(fqn: "aws.quicksightTheme.QuicksightThemePermissions")]
     public class QuicksightThemePermissions : aws.QuicksightTheme.IQuicksightThemePermissions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#actions QuicksightTheme#actions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_theme#actions QuicksightTheme#actions}.</summary>
         [JsiiProperty(name: "actions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Actions
         {
@@ -17,7 +17,7 @@ namespace aws.QuicksightTheme
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_theme#principal QuicksightTheme#principal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_theme#principal QuicksightTheme#principal}.</summary>
         [JsiiProperty(name: "principal", typeJson: "{\"primitive\":\"string\"}")]
         public string Principal
         {

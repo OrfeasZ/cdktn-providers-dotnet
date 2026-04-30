@@ -7,7 +7,7 @@ namespace aws.VpcIpamResourceDiscovery
     [JsiiInterface(nativeType: typeof(IVpcIpamResourceDiscoveryOrganizationalUnitExclusion), fullyQualifiedName: "aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscoveryOrganizationalUnitExclusion")]
     public interface IVpcIpamResourceDiscoveryOrganizationalUnitExclusion
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_ipam_resource_discovery#organizations_entity_path VpcIpamResourceDiscovery#organizations_entity_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_ipam_resource_discovery#organizations_entity_path VpcIpamResourceDiscovery#organizations_entity_path}.</summary>
         [JsiiProperty(name: "organizationsEntityPath", typeJson: "{\"primitive\":\"string\"}")]
         string OrganizationsEntityPath
         {
@@ -21,7 +21,7 @@ namespace aws.VpcIpamResourceDiscovery
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/vpc_ipam_resource_discovery#organizations_entity_path VpcIpamResourceDiscovery#organizations_entity_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/vpc_ipam_resource_discovery#organizations_entity_path VpcIpamResourceDiscovery#organizations_entity_path}.</summary>
             [JsiiProperty(name: "organizationsEntityPath", typeJson: "{\"primitive\":\"string\"}")]
             public string OrganizationsEntityPath
             {

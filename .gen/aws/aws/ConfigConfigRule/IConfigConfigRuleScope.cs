@@ -7,7 +7,7 @@ namespace aws.ConfigConfigRule
     [JsiiInterface(nativeType: typeof(IConfigConfigRuleScope), fullyQualifiedName: "aws.configConfigRule.ConfigConfigRuleScope")]
     public interface IConfigConfigRuleScope
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#compliance_resource_id ConfigConfigRule#compliance_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#compliance_resource_id ConfigConfigRule#compliance_resource_id}.</summary>
         [JsiiProperty(name: "complianceResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ComplianceResourceId
@@ -18,7 +18,7 @@ namespace aws.ConfigConfigRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#compliance_resource_types ConfigConfigRule#compliance_resource_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#compliance_resource_types ConfigConfigRule#compliance_resource_types}.</summary>
         [JsiiProperty(name: "complianceResourceTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ComplianceResourceTypes
@@ -29,7 +29,7 @@ namespace aws.ConfigConfigRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#tag_key ConfigConfigRule#tag_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#tag_key ConfigConfigRule#tag_key}.</summary>
         [JsiiProperty(name: "tagKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TagKey
@@ -40,7 +40,7 @@ namespace aws.ConfigConfigRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#tag_value ConfigConfigRule#tag_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#tag_value ConfigConfigRule#tag_value}.</summary>
         [JsiiProperty(name: "tagValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TagValue
@@ -58,7 +58,7 @@ namespace aws.ConfigConfigRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#compliance_resource_id ConfigConfigRule#compliance_resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#compliance_resource_id ConfigConfigRule#compliance_resource_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "complianceResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ComplianceResourceId
@@ -66,7 +66,7 @@ namespace aws.ConfigConfigRule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#compliance_resource_types ConfigConfigRule#compliance_resource_types}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#compliance_resource_types ConfigConfigRule#compliance_resource_types}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "complianceResourceTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ComplianceResourceTypes
@@ -74,7 +74,7 @@ namespace aws.ConfigConfigRule
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#tag_key ConfigConfigRule#tag_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#tag_key ConfigConfigRule#tag_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tagKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TagKey
@@ -82,7 +82,7 @@ namespace aws.ConfigConfigRule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/config_config_rule#tag_value ConfigConfigRule#tag_value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/config_config_rule#tag_value ConfigConfigRule#tag_value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tagValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TagValue

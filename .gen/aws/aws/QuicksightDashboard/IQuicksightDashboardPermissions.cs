@@ -7,14 +7,14 @@ namespace aws.QuicksightDashboard
     [JsiiInterface(nativeType: typeof(IQuicksightDashboardPermissions), fullyQualifiedName: "aws.quicksightDashboard.QuicksightDashboardPermissions")]
     public interface IQuicksightDashboardPermissions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#actions QuicksightDashboard#actions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#actions QuicksightDashboard#actions}.</summary>
         [JsiiProperty(name: "actions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Actions
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#principal QuicksightDashboard#principal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#principal QuicksightDashboard#principal}.</summary>
         [JsiiProperty(name: "principal", typeJson: "{\"primitive\":\"string\"}")]
         string Principal
         {
@@ -28,14 +28,14 @@ namespace aws.QuicksightDashboard
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#actions QuicksightDashboard#actions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#actions QuicksightDashboard#actions}.</summary>
             [JsiiProperty(name: "actions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Actions
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/quicksight_dashboard#principal QuicksightDashboard#principal}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/quicksight_dashboard#principal QuicksightDashboard#principal}.</summary>
             [JsiiProperty(name: "principal", typeJson: "{\"primitive\":\"string\"}")]
             public string Principal
             {

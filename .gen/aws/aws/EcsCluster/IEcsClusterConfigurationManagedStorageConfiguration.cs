@@ -7,7 +7,7 @@ namespace aws.EcsCluster
     [JsiiInterface(nativeType: typeof(IEcsClusterConfigurationManagedStorageConfiguration), fullyQualifiedName: "aws.ecsCluster.EcsClusterConfigurationManagedStorageConfiguration")]
     public interface IEcsClusterConfigurationManagedStorageConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_cluster#fargate_ephemeral_storage_kms_key_id EcsCluster#fargate_ephemeral_storage_kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_cluster#fargate_ephemeral_storage_kms_key_id EcsCluster#fargate_ephemeral_storage_kms_key_id}.</summary>
         [JsiiProperty(name: "fargateEphemeralStorageKmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FargateEphemeralStorageKmsKeyId
@@ -18,7 +18,7 @@ namespace aws.EcsCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_cluster#kms_key_id EcsCluster#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_cluster#kms_key_id EcsCluster#kms_key_id}.</summary>
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KmsKeyId
@@ -36,7 +36,7 @@ namespace aws.EcsCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_cluster#fargate_ephemeral_storage_kms_key_id EcsCluster#fargate_ephemeral_storage_kms_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_cluster#fargate_ephemeral_storage_kms_key_id EcsCluster#fargate_ephemeral_storage_kms_key_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fargateEphemeralStorageKmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FargateEphemeralStorageKmsKeyId
@@ -44,7 +44,7 @@ namespace aws.EcsCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ecs_cluster#kms_key_id EcsCluster#kms_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ecs_cluster#kms_key_id EcsCluster#kms_key_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KmsKeyId

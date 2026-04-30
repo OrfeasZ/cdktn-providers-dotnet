@@ -9,7 +9,7 @@ namespace aws.DataAwsIpRanges
     [JsiiByValue(fqn: "aws.dataAwsIpRanges.DataAwsIpRangesConfig")]
     public class DataAwsIpRangesConfig : aws.DataAwsIpRanges.IDataAwsIpRangesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ip_ranges#services DataAwsIpRanges#services}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ip_ranges#services DataAwsIpRanges#services}.</summary>
         [JsiiProperty(name: "services", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Services
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsIpRanges
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ip_ranges#id DataAwsIpRanges#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ip_ranges#id DataAwsIpRanges#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ namespace aws.DataAwsIpRanges
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ip_ranges#regions DataAwsIpRanges#regions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ip_ranges#regions DataAwsIpRanges#regions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "regions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Regions
@@ -39,7 +39,7 @@ namespace aws.DataAwsIpRanges
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/ip_ranges#url DataAwsIpRanges#url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/ip_ranges#url DataAwsIpRanges#url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Url

@@ -9,7 +9,7 @@ namespace aws.AppmeshVirtualNode
     {
         /// <summary>tls block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/appmesh_virtual_node#tls AppmeshVirtualNode#tls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/appmesh_virtual_node#tls AppmeshVirtualNode#tls}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tls", typeJson: "{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTls\"}", isOptional: true)]

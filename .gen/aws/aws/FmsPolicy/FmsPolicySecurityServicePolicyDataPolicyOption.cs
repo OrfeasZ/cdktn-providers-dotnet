@@ -9,7 +9,7 @@ namespace aws.FmsPolicy
     {
         /// <summary>network_acl_common_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_policy#network_acl_common_policy FmsPolicy#network_acl_common_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fms_policy#network_acl_common_policy FmsPolicy#network_acl_common_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkAclCommonPolicy", typeJson: "{\"fqn\":\"aws.fmsPolicy.FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicy\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.FmsPolicy
 
         /// <summary>network_firewall_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_policy#network_firewall_policy FmsPolicy#network_firewall_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fms_policy#network_firewall_policy FmsPolicy#network_firewall_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkFirewallPolicy", typeJson: "{\"fqn\":\"aws.fmsPolicy.FmsPolicySecurityServicePolicyDataPolicyOptionNetworkFirewallPolicy\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace aws.FmsPolicy
 
         /// <summary>third_party_firewall_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/fms_policy#third_party_firewall_policy FmsPolicy#third_party_firewall_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/fms_policy#third_party_firewall_policy FmsPolicy#third_party_firewall_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "thirdPartyFirewallPolicy", typeJson: "{\"fqn\":\"aws.fmsPolicy.FmsPolicySecurityServicePolicyDataPolicyOptionThirdPartyFirewallPolicy\"}", isOptional: true)]

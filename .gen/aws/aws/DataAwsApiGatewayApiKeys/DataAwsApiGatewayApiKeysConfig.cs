@@ -7,7 +7,7 @@ namespace aws.DataAwsApiGatewayApiKeys
     [JsiiByValue(fqn: "aws.dataAwsApiGatewayApiKeys.DataAwsApiGatewayApiKeysConfig")]
     public class DataAwsApiGatewayApiKeysConfig : aws.DataAwsApiGatewayApiKeys.IDataAwsApiGatewayApiKeysConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/api_gateway_api_keys#customer_id DataAwsApiGatewayApiKeys#customer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/api_gateway_api_keys#customer_id DataAwsApiGatewayApiKeys#customer_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomerId
@@ -18,7 +18,7 @@ namespace aws.DataAwsApiGatewayApiKeys
 
         private object? _includeValues;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/api_gateway_api_keys#include_values DataAwsApiGatewayApiKeys#include_values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/api_gateway_api_keys#include_values DataAwsApiGatewayApiKeys#include_values}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includeValues", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeValues
@@ -49,7 +49,7 @@ namespace aws.DataAwsApiGatewayApiKeys
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/data-sources/api_gateway_api_keys#region DataAwsApiGatewayApiKeys#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/data-sources/api_gateway_api_keys#region DataAwsApiGatewayApiKeys#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

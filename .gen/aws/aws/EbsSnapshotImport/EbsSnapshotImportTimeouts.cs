@@ -7,7 +7,7 @@ namespace aws.EbsSnapshotImport
     [JsiiByValue(fqn: "aws.ebsSnapshotImport.EbsSnapshotImportTimeouts")]
     public class EbsSnapshotImportTimeouts : aws.EbsSnapshotImport.IEbsSnapshotImportTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_snapshot_import#create EbsSnapshotImport#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_snapshot_import#create EbsSnapshotImport#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.EbsSnapshotImport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.42.0/docs/resources/ebs_snapshot_import#delete EbsSnapshotImport#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/ebs_snapshot_import#delete EbsSnapshotImport#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
