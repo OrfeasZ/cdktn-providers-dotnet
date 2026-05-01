@@ -7,7 +7,7 @@ namespace cloudflare.DataCloudflareAiSearchToken
     [JsiiByValue(fqn: "cloudflare.dataCloudflareAiSearchToken.DataCloudflareAiSearchTokenConfig")]
     public class DataCloudflareAiSearchTokenConfig : cloudflare.DataCloudflareAiSearchToken.IDataCloudflareAiSearchTokenConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/ai_search_token#account_id DataCloudflareAiSearchToken#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/ai_search_token#account_id DataCloudflareAiSearchToken#account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountId
@@ -16,7 +16,7 @@ namespace cloudflare.DataCloudflareAiSearchToken
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/ai_search_token#filter DataCloudflareAiSearchToken#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/ai_search_token#filter DataCloudflareAiSearchToken#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAiSearchToken.DataCloudflareAiSearchTokenFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareAiSearchToken.IDataCloudflareAiSearchTokenFilter? Filter
@@ -25,7 +25,7 @@ namespace cloudflare.DataCloudflareAiSearchToken
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/ai_search_token#id DataCloudflareAiSearchToken#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/ai_search_token#id DataCloudflareAiSearchToken#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

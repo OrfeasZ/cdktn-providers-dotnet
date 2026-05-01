@@ -7,7 +7,7 @@ namespace cloudflare.DataCloudflareAiSearchTokens
     [JsiiByValue(fqn: "cloudflare.dataCloudflareAiSearchTokens.DataCloudflareAiSearchTokensConfig")]
     public class DataCloudflareAiSearchTokensConfig : cloudflare.DataCloudflareAiSearchTokens.IDataCloudflareAiSearchTokensConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/ai_search_tokens#account_id DataCloudflareAiSearchTokens#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/ai_search_tokens#account_id DataCloudflareAiSearchTokens#account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountId
@@ -18,7 +18,7 @@ namespace cloudflare.DataCloudflareAiSearchTokens
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/ai_search_tokens#max_items DataCloudflareAiSearchTokens#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/ai_search_tokens#max_items DataCloudflareAiSearchTokens#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -30,7 +30,7 @@ namespace cloudflare.DataCloudflareAiSearchTokens
 
         /// <summary>Filter tokens whose name contains this string (case-insensitive).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/ai_search_tokens#search DataCloudflareAiSearchTokens#search}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/ai_search_tokens#search DataCloudflareAiSearchTokens#search}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "search", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

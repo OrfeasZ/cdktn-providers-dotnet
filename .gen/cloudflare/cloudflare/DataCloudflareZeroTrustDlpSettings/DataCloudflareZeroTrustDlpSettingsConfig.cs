@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareZeroTrustDlpSettings
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustDlpSettings.DataCloudflareZeroTrustDlpSettingsConfig")]
     public class DataCloudflareZeroTrustDlpSettingsConfig : cloudflare.DataCloudflareZeroTrustDlpSettings.IDataCloudflareZeroTrustDlpSettingsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_dlp_settings#account_id DataCloudflareZeroTrustDlpSettings#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zero_trust_dlp_settings#account_id DataCloudflareZeroTrustDlpSettings#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {

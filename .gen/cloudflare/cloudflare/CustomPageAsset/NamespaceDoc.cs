@@ -5,7 +5,7 @@ namespace cloudflare.CustomPageAsset
     /// <remarks>
     /// <h1><c>cloudflare_custom_page_asset</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/custom_page_asset"><c>cloudflare_custom_page_asset</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/custom_page_asset"><c>cloudflare_custom_page_asset</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

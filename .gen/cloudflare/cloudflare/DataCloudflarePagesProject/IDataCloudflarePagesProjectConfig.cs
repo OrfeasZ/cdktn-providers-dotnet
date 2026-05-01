@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflarePagesProject
     {
         /// <summary>Name of the project.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/pages_project#project_name DataCloudflarePagesProject#project_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/pages_project#project_name DataCloudflarePagesProject#project_name}
         /// </remarks>
         [JsiiProperty(name: "projectName", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectName
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflarePagesProject
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/pages_project#account_id DataCloudflarePagesProject#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/pages_project#account_id DataCloudflarePagesProject#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace cloudflare.DataCloudflarePagesProject
 
             /// <summary>Name of the project.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/pages_project#project_name DataCloudflarePagesProject#project_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/pages_project#project_name DataCloudflarePagesProject#project_name}
             /// </remarks>
             [JsiiProperty(name: "projectName", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectName
@@ -50,7 +50,7 @@ namespace cloudflare.DataCloudflarePagesProject
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/pages_project#account_id DataCloudflarePagesProject#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/pages_project#account_id DataCloudflarePagesProject#account_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

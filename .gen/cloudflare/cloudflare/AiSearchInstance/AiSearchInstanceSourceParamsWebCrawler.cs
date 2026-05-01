@@ -7,7 +7,7 @@ namespace cloudflare.AiSearchInstance
     [JsiiByValue(fqn: "cloudflare.aiSearchInstance.AiSearchInstanceSourceParamsWebCrawler")]
     public class AiSearchInstanceSourceParamsWebCrawler : cloudflare.AiSearchInstance.IAiSearchInstanceSourceParamsWebCrawler
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_instance#crawl_options AiSearchInstance#crawl_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ai_search_instance#crawl_options AiSearchInstance#crawl_options}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "crawlOptions", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceSourceParamsWebCrawlerCrawlOptions\"}", isOptional: true)]
         public cloudflare.AiSearchInstance.IAiSearchInstanceSourceParamsWebCrawlerCrawlOptions? CrawlOptions
@@ -16,7 +16,7 @@ namespace cloudflare.AiSearchInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_instance#parse_options AiSearchInstance#parse_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ai_search_instance#parse_options AiSearchInstance#parse_options}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parseOptions", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceSourceParamsWebCrawlerParseOptions\"}", isOptional: true)]
         public cloudflare.AiSearchInstance.IAiSearchInstanceSourceParamsWebCrawlerParseOptions? ParseOptions
@@ -27,7 +27,7 @@ namespace cloudflare.AiSearchInstance
 
         /// <summary>Available values: "sitemap", "feed-rss", "crawl".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_instance#parse_type AiSearchInstance#parse_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ai_search_instance#parse_type AiSearchInstance#parse_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parseType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace cloudflare.AiSearchInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_search_instance#store_options AiSearchInstance#store_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ai_search_instance#store_options AiSearchInstance#store_options}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storeOptions", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceSourceParamsWebCrawlerStoreOptions\"}", isOptional: true)]
         public cloudflare.AiSearchInstance.IAiSearchInstanceSourceParamsWebCrawlerStoreOptions? StoreOptions

@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareAccountMember
     {
         /// <summary>Account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/account_member#account_id DataCloudflareAccountMember#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/account_member#account_id DataCloudflareAccountMember#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareAccountMember
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/account_member#filter DataCloudflareAccountMember#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/account_member#filter DataCloudflareAccountMember#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAccountMember.DataCloudflareAccountMemberFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareAccountMember.IDataCloudflareAccountMemberFilter? Filter
@@ -30,7 +30,7 @@ namespace cloudflare.DataCloudflareAccountMember
 
         /// <summary>Membership identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/account_member#member_id DataCloudflareAccountMember#member_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/account_member#member_id DataCloudflareAccountMember#member_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "memberId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

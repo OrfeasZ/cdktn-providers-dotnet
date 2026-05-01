@@ -9,7 +9,7 @@ namespace cloudflare.PipelineSink
     {
         /// <summary>Cloudflare Account ID for the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#access_key_id PipelineSink#access_key_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#access_key_id PipelineSink#access_key_id}
         /// </remarks>
         [JsiiProperty(name: "accessKeyId", typeJson: "{\"primitive\":\"string\"}")]
         string AccessKeyId
@@ -19,7 +19,7 @@ namespace cloudflare.PipelineSink
 
         /// <summary>Cloudflare Account ID for the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#secret_access_key PipelineSink#secret_access_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#secret_access_key PipelineSink#secret_access_key}
         /// </remarks>
         [JsiiProperty(name: "secretAccessKey", typeJson: "{\"primitive\":\"string\"}")]
         string SecretAccessKey
@@ -36,7 +36,7 @@ namespace cloudflare.PipelineSink
 
             /// <summary>Cloudflare Account ID for the bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#access_key_id PipelineSink#access_key_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#access_key_id PipelineSink#access_key_id}
             /// </remarks>
             [JsiiProperty(name: "accessKeyId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccessKeyId
@@ -46,7 +46,7 @@ namespace cloudflare.PipelineSink
 
             /// <summary>Cloudflare Account ID for the bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#secret_access_key PipelineSink#secret_access_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#secret_access_key PipelineSink#secret_access_key}
             /// </remarks>
             [JsiiProperty(name: "secretAccessKey", typeJson: "{\"primitive\":\"string\"}")]
             public string SecretAccessKey

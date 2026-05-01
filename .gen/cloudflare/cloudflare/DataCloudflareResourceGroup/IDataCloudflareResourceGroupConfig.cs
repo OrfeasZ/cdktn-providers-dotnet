@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareResourceGroup
     {
         /// <summary>Resource Group identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/resource_group#resource_group_id DataCloudflareResourceGroup#resource_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/resource_group#resource_group_id DataCloudflareResourceGroup#resource_group_id}
         /// </remarks>
         [JsiiProperty(name: "resourceGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceGroupId
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareResourceGroup
 
         /// <summary>Account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/resource_group#account_id DataCloudflareResourceGroup#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/resource_group#account_id DataCloudflareResourceGroup#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace cloudflare.DataCloudflareResourceGroup
 
             /// <summary>Resource Group identifier tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/resource_group#resource_group_id DataCloudflareResourceGroup#resource_group_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/resource_group#resource_group_id DataCloudflareResourceGroup#resource_group_id}
             /// </remarks>
             [JsiiProperty(name: "resourceGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceGroupId
@@ -50,7 +50,7 @@ namespace cloudflare.DataCloudflareResourceGroup
 
             /// <summary>Account identifier tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/resource_group#account_id DataCloudflareResourceGroup#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/resource_group#account_id DataCloudflareResourceGroup#account_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

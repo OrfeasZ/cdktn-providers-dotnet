@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareApiShieldSchema
     [JsiiByValue(fqn: "cloudflare.dataCloudflareApiShieldSchema.DataCloudflareApiShieldSchemaConfig")]
     public class DataCloudflareApiShieldSchemaConfig : cloudflare.DataCloudflareApiShieldSchema.IDataCloudflareApiShieldSchemaConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_schema#schema_id DataCloudflareApiShieldSchema#schema_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/api_shield_schema#schema_id DataCloudflareApiShieldSchema#schema_id}.</summary>
         [JsiiProperty(name: "schemaId", typeJson: "{\"primitive\":\"string\"}")]
         public string SchemaId
         {
@@ -21,7 +21,7 @@ namespace cloudflare.DataCloudflareApiShieldSchema
 
         /// <summary>Omit the source-files of schemas and only retrieve their meta-data.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_schema#omit_source DataCloudflareApiShieldSchema#omit_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/api_shield_schema#omit_source DataCloudflareApiShieldSchema#omit_source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "omitSource", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -53,7 +53,7 @@ namespace cloudflare.DataCloudflareApiShieldSchema
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/api_shield_schema#zone_id DataCloudflareApiShieldSchema#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/api_shield_schema#zone_id DataCloudflareApiShieldSchema#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

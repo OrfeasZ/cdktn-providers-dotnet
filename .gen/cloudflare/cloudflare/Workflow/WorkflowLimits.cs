@@ -7,7 +7,7 @@ namespace cloudflare.Workflow
     [JsiiByValue(fqn: "cloudflare.workflow.WorkflowLimits")]
     public class WorkflowLimits : cloudflare.Workflow.IWorkflowLimits
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/workflow#steps Workflow#steps}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workflow#steps Workflow#steps}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "steps", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Steps

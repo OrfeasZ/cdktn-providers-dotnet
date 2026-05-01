@@ -9,7 +9,7 @@ namespace cloudflare.KeylessCertificate
     {
         /// <summary>The zone's SSL certificate or SSL certificate and intermediate(s).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/keyless_certificate#certificate KeylessCertificate#certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/keyless_certificate#certificate KeylessCertificate#certificate}
         /// </remarks>
         [JsiiProperty(name: "certificate", typeJson: "{\"primitive\":\"string\"}")]
         string Certificate
@@ -19,7 +19,7 @@ namespace cloudflare.KeylessCertificate
 
         /// <summary>The keyless SSL name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/keyless_certificate#host KeylessCertificate#host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/keyless_certificate#host KeylessCertificate#host}
         /// </remarks>
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
         string Host
@@ -32,7 +32,7 @@ namespace cloudflare.KeylessCertificate
         /// An optimal bundle uses the shortest chain and newest intermediates. And the force bundle verifies the chain, but does not otherwise modify it.
         /// Available values: "ubiquitous", "optimal", "force".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/keyless_certificate#bundle_method KeylessCertificate#bundle_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/keyless_certificate#bundle_method KeylessCertificate#bundle_method}
         /// </remarks>
         [JsiiProperty(name: "bundleMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -46,7 +46,7 @@ namespace cloudflare.KeylessCertificate
 
         /// <summary>Whether or not the Keyless SSL is on or off.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/keyless_certificate#enabled KeylessCertificate#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/keyless_certificate#enabled KeylessCertificate#enabled}
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -60,7 +60,7 @@ namespace cloudflare.KeylessCertificate
 
         /// <summary>The keyless SSL name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/keyless_certificate#name KeylessCertificate#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/keyless_certificate#name KeylessCertificate#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -74,7 +74,7 @@ namespace cloudflare.KeylessCertificate
 
         /// <summary>The keyless SSL port used to communicate between Cloudflare and the client's Keyless SSL server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/keyless_certificate#port KeylessCertificate#port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/keyless_certificate#port KeylessCertificate#port}
         /// </remarks>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -88,7 +88,7 @@ namespace cloudflare.KeylessCertificate
 
         /// <summary>Configuration for using Keyless SSL through a Cloudflare Tunnel.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/keyless_certificate#tunnel KeylessCertificate#tunnel}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/keyless_certificate#tunnel KeylessCertificate#tunnel}
         /// </remarks>
         [JsiiProperty(name: "tunnel", typeJson: "{\"fqn\":\"cloudflare.keylessCertificate.KeylessCertificateTunnel\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -102,7 +102,7 @@ namespace cloudflare.KeylessCertificate
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/keyless_certificate#zone_id KeylessCertificate#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/keyless_certificate#zone_id KeylessCertificate#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -123,7 +123,7 @@ namespace cloudflare.KeylessCertificate
 
             /// <summary>The zone's SSL certificate or SSL certificate and intermediate(s).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/keyless_certificate#certificate KeylessCertificate#certificate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/keyless_certificate#certificate KeylessCertificate#certificate}
             /// </remarks>
             [JsiiProperty(name: "certificate", typeJson: "{\"primitive\":\"string\"}")]
             public string Certificate
@@ -133,7 +133,7 @@ namespace cloudflare.KeylessCertificate
 
             /// <summary>The keyless SSL name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/keyless_certificate#host KeylessCertificate#host}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/keyless_certificate#host KeylessCertificate#host}
             /// </remarks>
             [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
             public string Host
@@ -146,7 +146,7 @@ namespace cloudflare.KeylessCertificate
             /// An optimal bundle uses the shortest chain and newest intermediates. And the force bundle verifies the chain, but does not otherwise modify it.
             /// Available values: "ubiquitous", "optimal", "force".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/keyless_certificate#bundle_method KeylessCertificate#bundle_method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/keyless_certificate#bundle_method KeylessCertificate#bundle_method}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bundleMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -157,7 +157,7 @@ namespace cloudflare.KeylessCertificate
 
             /// <summary>Whether or not the Keyless SSL is on or off.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/keyless_certificate#enabled KeylessCertificate#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/keyless_certificate#enabled KeylessCertificate#enabled}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -168,7 +168,7 @@ namespace cloudflare.KeylessCertificate
 
             /// <summary>The keyless SSL name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/keyless_certificate#name KeylessCertificate#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/keyless_certificate#name KeylessCertificate#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -179,7 +179,7 @@ namespace cloudflare.KeylessCertificate
 
             /// <summary>The keyless SSL port used to communicate between Cloudflare and the client's Keyless SSL server.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/keyless_certificate#port KeylessCertificate#port}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/keyless_certificate#port KeylessCertificate#port}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -190,7 +190,7 @@ namespace cloudflare.KeylessCertificate
 
             /// <summary>Configuration for using Keyless SSL through a Cloudflare Tunnel.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/keyless_certificate#tunnel KeylessCertificate#tunnel}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/keyless_certificate#tunnel KeylessCertificate#tunnel}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tunnel", typeJson: "{\"fqn\":\"cloudflare.keylessCertificate.KeylessCertificateTunnel\"}", isOptional: true)]
@@ -201,7 +201,7 @@ namespace cloudflare.KeylessCertificate
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/keyless_certificate#zone_id KeylessCertificate#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/keyless_certificate#zone_id KeylessCertificate#zone_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

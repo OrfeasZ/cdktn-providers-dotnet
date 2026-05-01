@@ -11,7 +11,7 @@ namespace cloudflare.ByoIpPrefix
     {
         /// <summary>Autonomous System Number (ASN) the prefix will be advertised under.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/byo_ip_prefix#asn ByoIpPrefix#asn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/byo_ip_prefix#asn ByoIpPrefix#asn}
         /// </remarks>
         [JsiiProperty(name: "asn", typeJson: "{\"primitive\":\"number\"}")]
         public double Asn
@@ -22,7 +22,7 @@ namespace cloudflare.ByoIpPrefix
 
         /// <summary>IP Prefix in Classless Inter-Domain Routing format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/byo_ip_prefix#cidr ByoIpPrefix#cidr}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/byo_ip_prefix#cidr ByoIpPrefix#cidr}
         /// </remarks>
         [JsiiProperty(name: "cidr", typeJson: "{\"primitive\":\"string\"}")]
         public string Cidr
@@ -33,7 +33,7 @@ namespace cloudflare.ByoIpPrefix
 
         /// <summary>Identifier of a Cloudflare account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/byo_ip_prefix#account_id ByoIpPrefix#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/byo_ip_prefix#account_id ByoIpPrefix#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace cloudflare.ByoIpPrefix
 
         /// <summary>Whether Cloudflare is allowed to generate the LOA document on behalf of the prefix owner.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/byo_ip_prefix#delegate_loa_creation ByoIpPrefix#delegate_loa_creation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/byo_ip_prefix#delegate_loa_creation ByoIpPrefix#delegate_loa_creation}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "delegateLoaCreation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace cloudflare.ByoIpPrefix
 
         /// <summary>Description of the prefix.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/byo_ip_prefix#description ByoIpPrefix#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/byo_ip_prefix#description ByoIpPrefix#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace cloudflare.ByoIpPrefix
 
         /// <summary>Identifier for the uploaded LOA document.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/byo_ip_prefix#loa_document_id ByoIpPrefix#loa_document_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/byo_ip_prefix#loa_document_id ByoIpPrefix#loa_document_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loaDocumentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

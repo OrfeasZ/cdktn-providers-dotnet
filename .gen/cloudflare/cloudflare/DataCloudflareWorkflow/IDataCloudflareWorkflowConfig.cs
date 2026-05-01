@@ -7,7 +7,7 @@ namespace cloudflare.DataCloudflareWorkflow
     [JsiiInterface(nativeType: typeof(IDataCloudflareWorkflowConfig), fullyQualifiedName: "cloudflare.dataCloudflareWorkflow.DataCloudflareWorkflowConfig")]
     public interface IDataCloudflareWorkflowConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/workflow#account_id DataCloudflareWorkflow#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/workflow#account_id DataCloudflareWorkflow#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccountId
@@ -18,7 +18,7 @@ namespace cloudflare.DataCloudflareWorkflow
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/workflow#filter DataCloudflareWorkflow#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/workflow#filter DataCloudflareWorkflow#filter}.</summary>
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkflow.DataCloudflareWorkflowFilter\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.DataCloudflareWorkflow.IDataCloudflareWorkflowFilter? Filter
@@ -29,7 +29,7 @@ namespace cloudflare.DataCloudflareWorkflow
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/workflow#workflow_name DataCloudflareWorkflow#workflow_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/workflow#workflow_name DataCloudflareWorkflow#workflow_name}.</summary>
         [JsiiProperty(name: "workflowName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? WorkflowName
@@ -47,7 +47,7 @@ namespace cloudflare.DataCloudflareWorkflow
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/workflow#account_id DataCloudflareWorkflow#account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/workflow#account_id DataCloudflareWorkflow#account_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccountId
@@ -55,7 +55,7 @@ namespace cloudflare.DataCloudflareWorkflow
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/workflow#filter DataCloudflareWorkflow#filter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/workflow#filter DataCloudflareWorkflow#filter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkflow.DataCloudflareWorkflowFilter\"}", isOptional: true)]
             public cloudflare.DataCloudflareWorkflow.IDataCloudflareWorkflowFilter? Filter
@@ -63,7 +63,7 @@ namespace cloudflare.DataCloudflareWorkflow
                 get => GetInstanceProperty<cloudflare.DataCloudflareWorkflow.IDataCloudflareWorkflowFilter?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/workflow#workflow_name DataCloudflareWorkflow#workflow_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/workflow#workflow_name DataCloudflareWorkflow#workflow_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "workflowName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? WorkflowName

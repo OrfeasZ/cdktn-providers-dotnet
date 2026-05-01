@@ -7,7 +7,7 @@ namespace cloudflare.DataCloudflareZoneLockdown
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZoneLockdown.DataCloudflareZoneLockdownConfig")]
     public class DataCloudflareZoneLockdownConfig : cloudflare.DataCloudflareZoneLockdown.IDataCloudflareZoneLockdownConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zone_lockdown#filter DataCloudflareZoneLockdown#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zone_lockdown#filter DataCloudflareZoneLockdown#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZoneLockdown.DataCloudflareZoneLockdownFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareZoneLockdown.IDataCloudflareZoneLockdownFilter? Filter
@@ -18,7 +18,7 @@ namespace cloudflare.DataCloudflareZoneLockdown
 
         /// <summary>The unique identifier of the Zone Lockdown rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zone_lockdown#lock_downs_id DataCloudflareZoneLockdown#lock_downs_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zone_lockdown#lock_downs_id DataCloudflareZoneLockdown#lock_downs_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lockDownsId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -30,7 +30,7 @@ namespace cloudflare.DataCloudflareZoneLockdown
 
         /// <summary>Defines an identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zone_lockdown#zone_id DataCloudflareZoneLockdown#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zone_lockdown#zone_id DataCloudflareZoneLockdown#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

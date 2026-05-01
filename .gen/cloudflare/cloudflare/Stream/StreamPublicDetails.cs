@@ -7,7 +7,7 @@ namespace cloudflare.Stream
     [JsiiByValue(fqn: "cloudflare.stream.StreamPublicDetails")]
     public class StreamPublicDetails : cloudflare.Stream.IStreamPublicDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#channel_link Stream#channel_link}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream#channel_link Stream#channel_link}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "channelLink", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ChannelLink
@@ -16,7 +16,7 @@ namespace cloudflare.Stream
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#logo Stream#logo}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream#logo Stream#logo}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Logo
@@ -25,7 +25,7 @@ namespace cloudflare.Stream
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#share_link Stream#share_link}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream#share_link Stream#share_link}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shareLink", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ShareLink
@@ -34,7 +34,7 @@ namespace cloudflare.Stream
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#title Stream#title}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream#title Stream#title}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Title

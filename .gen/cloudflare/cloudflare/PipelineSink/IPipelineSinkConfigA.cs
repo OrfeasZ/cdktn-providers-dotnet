@@ -9,7 +9,7 @@ namespace cloudflare.PipelineSink
     {
         /// <summary>Cloudflare Account ID for the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#account_id PipelineSink#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#account_id PipelineSink#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.PipelineSink
 
         /// <summary>R2 Bucket to write to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#bucket PipelineSink#bucket}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#bucket PipelineSink#bucket}
         /// </remarks>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         string Bucket
@@ -27,7 +27,7 @@ namespace cloudflare.PipelineSink
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#credentials PipelineSink#credentials}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#credentials PipelineSink#credentials}.</summary>
         [JsiiProperty(name: "credentials", typeJson: "{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkConfigCredentials\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.PipelineSink.IPipelineSinkConfigCredentials? Credentials
@@ -40,7 +40,7 @@ namespace cloudflare.PipelineSink
 
         /// <summary>Controls filename prefix/suffix and strategy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#file_naming PipelineSink#file_naming}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#file_naming PipelineSink#file_naming}
         /// </remarks>
         [JsiiProperty(name: "fileNaming", typeJson: "{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkConfigFileNaming\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace cloudflare.PipelineSink
 
         /// <summary>Jurisdiction this bucket is hosted in.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#jurisdiction PipelineSink#jurisdiction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#jurisdiction PipelineSink#jurisdiction}
         /// </remarks>
         [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,7 +68,7 @@ namespace cloudflare.PipelineSink
 
         /// <summary>Table namespace.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#namespace PipelineSink#namespace}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#namespace PipelineSink#namespace}
         /// </remarks>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -82,7 +82,7 @@ namespace cloudflare.PipelineSink
 
         /// <summary>Data-layout partitioning for sinks.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#partitioning PipelineSink#partitioning}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#partitioning PipelineSink#partitioning}
         /// </remarks>
         [JsiiProperty(name: "partitioning", typeJson: "{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkConfigPartitioning\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -96,7 +96,7 @@ namespace cloudflare.PipelineSink
 
         /// <summary>Subpath within the bucket to write to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#path PipelineSink#path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#path PipelineSink#path}
         /// </remarks>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -110,7 +110,7 @@ namespace cloudflare.PipelineSink
 
         /// <summary>Rolling policy for file sinks (when &amp; why to close a file and open a new one).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#rolling_policy PipelineSink#rolling_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#rolling_policy PipelineSink#rolling_policy}
         /// </remarks>
         [JsiiProperty(name: "rollingPolicy", typeJson: "{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkConfigRollingPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -124,7 +124,7 @@ namespace cloudflare.PipelineSink
 
         /// <summary>Table name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#table_name PipelineSink#table_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#table_name PipelineSink#table_name}
         /// </remarks>
         [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -138,7 +138,7 @@ namespace cloudflare.PipelineSink
 
         /// <summary>Authentication token.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#token PipelineSink#token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#token PipelineSink#token}
         /// </remarks>
         [JsiiProperty(name: "token", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -159,7 +159,7 @@ namespace cloudflare.PipelineSink
 
             /// <summary>Cloudflare Account ID for the bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#account_id PipelineSink#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#account_id PipelineSink#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -169,7 +169,7 @@ namespace cloudflare.PipelineSink
 
             /// <summary>R2 Bucket to write to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#bucket PipelineSink#bucket}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#bucket PipelineSink#bucket}
             /// </remarks>
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
             public string Bucket
@@ -177,7 +177,7 @@ namespace cloudflare.PipelineSink
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#credentials PipelineSink#credentials}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#credentials PipelineSink#credentials}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "credentials", typeJson: "{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkConfigCredentials\"}", isOptional: true)]
             public cloudflare.PipelineSink.IPipelineSinkConfigCredentials? Credentials
@@ -187,7 +187,7 @@ namespace cloudflare.PipelineSink
 
             /// <summary>Controls filename prefix/suffix and strategy.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#file_naming PipelineSink#file_naming}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#file_naming PipelineSink#file_naming}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fileNaming", typeJson: "{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkConfigFileNaming\"}", isOptional: true)]
@@ -198,7 +198,7 @@ namespace cloudflare.PipelineSink
 
             /// <summary>Jurisdiction this bucket is hosted in.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#jurisdiction PipelineSink#jurisdiction}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#jurisdiction PipelineSink#jurisdiction}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -209,7 +209,7 @@ namespace cloudflare.PipelineSink
 
             /// <summary>Table namespace.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#namespace PipelineSink#namespace}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#namespace PipelineSink#namespace}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -220,7 +220,7 @@ namespace cloudflare.PipelineSink
 
             /// <summary>Data-layout partitioning for sinks.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#partitioning PipelineSink#partitioning}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#partitioning PipelineSink#partitioning}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "partitioning", typeJson: "{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkConfigPartitioning\"}", isOptional: true)]
@@ -231,7 +231,7 @@ namespace cloudflare.PipelineSink
 
             /// <summary>Subpath within the bucket to write to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#path PipelineSink#path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#path PipelineSink#path}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -242,7 +242,7 @@ namespace cloudflare.PipelineSink
 
             /// <summary>Rolling policy for file sinks (when &amp; why to close a file and open a new one).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#rolling_policy PipelineSink#rolling_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#rolling_policy PipelineSink#rolling_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rollingPolicy", typeJson: "{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkConfigRollingPolicy\"}", isOptional: true)]
@@ -253,7 +253,7 @@ namespace cloudflare.PipelineSink
 
             /// <summary>Table name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#table_name PipelineSink#table_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#table_name PipelineSink#table_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -264,7 +264,7 @@ namespace cloudflare.PipelineSink
 
             /// <summary>Authentication token.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#token PipelineSink#token}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#token PipelineSink#token}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "token", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

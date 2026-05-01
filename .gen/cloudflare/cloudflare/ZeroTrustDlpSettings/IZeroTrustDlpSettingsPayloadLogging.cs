@@ -17,7 +17,7 @@ namespace cloudflare.ZeroTrustDlpSettings
         /// Available values: "full", "partial", "clear", "default".</description>
         /// </list>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dlp_settings#masking_level ZeroTrustDlpSettings#masking_level}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_dlp_settings#masking_level ZeroTrustDlpSettings#masking_level}
         /// </remarks>
         [JsiiProperty(name: "maskingLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace cloudflare.ZeroTrustDlpSettings
         /// <description>Omit or set to null to leave unchanged (PATCH) or reset to disabled (PUT).</description>
         /// </list>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dlp_settings#public_key ZeroTrustDlpSettings#public_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_dlp_settings#public_key ZeroTrustDlpSettings#public_key}
         /// </remarks>
         [JsiiProperty(name: "publicKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,7 +66,7 @@ namespace cloudflare.ZeroTrustDlpSettings
             /// Available values: "full", "partial", "clear", "default".</description>
             /// </list>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dlp_settings#masking_level ZeroTrustDlpSettings#masking_level}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_dlp_settings#masking_level ZeroTrustDlpSettings#masking_level}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maskingLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace cloudflare.ZeroTrustDlpSettings
             /// <description>Omit or set to null to leave unchanged (PATCH) or reset to disabled (PUT).</description>
             /// </list>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/zero_trust_dlp_settings#public_key ZeroTrustDlpSettings#public_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_dlp_settings#public_key ZeroTrustDlpSettings#public_key}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "publicKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace cloudflare.NotificationPolicyWebhooks
         /// <remarks>
         /// This will be included in the request body when you receive a webhook notification.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/notification_policy_webhooks#name NotificationPolicyWebhooks#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/notification_policy_webhooks#name NotificationPolicyWebhooks#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -21,7 +21,7 @@ namespace cloudflare.NotificationPolicyWebhooks
 
         /// <summary>The POST endpoint to call when dispatching a notification.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/notification_policy_webhooks#url NotificationPolicyWebhooks#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/notification_policy_webhooks#url NotificationPolicyWebhooks#url}
         /// </remarks>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         string Url
@@ -31,7 +31,7 @@ namespace cloudflare.NotificationPolicyWebhooks
 
         /// <summary>The account id.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/notification_policy_webhooks#account_id NotificationPolicyWebhooks#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/notification_policy_webhooks#account_id NotificationPolicyWebhooks#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -47,7 +47,7 @@ namespace cloudflare.NotificationPolicyWebhooks
         /// <remarks>
         /// Secrets are not returned in any API response body.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/notification_policy_webhooks#secret NotificationPolicyWebhooks#secret}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/notification_policy_webhooks#secret NotificationPolicyWebhooks#secret}
         /// </remarks>
         [JsiiProperty(name: "secret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -70,7 +70,7 @@ namespace cloudflare.NotificationPolicyWebhooks
             /// <remarks>
             /// This will be included in the request body when you receive a webhook notification.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/notification_policy_webhooks#name NotificationPolicyWebhooks#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/notification_policy_webhooks#name NotificationPolicyWebhooks#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -80,7 +80,7 @@ namespace cloudflare.NotificationPolicyWebhooks
 
             /// <summary>The POST endpoint to call when dispatching a notification.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/notification_policy_webhooks#url NotificationPolicyWebhooks#url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/notification_policy_webhooks#url NotificationPolicyWebhooks#url}
             /// </remarks>
             [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
             public string Url
@@ -90,7 +90,7 @@ namespace cloudflare.NotificationPolicyWebhooks
 
             /// <summary>The account id.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/notification_policy_webhooks#account_id NotificationPolicyWebhooks#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/notification_policy_webhooks#account_id NotificationPolicyWebhooks#account_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -103,7 +103,7 @@ namespace cloudflare.NotificationPolicyWebhooks
             /// <remarks>
             /// Secrets are not returned in any API response body.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/notification_policy_webhooks#secret NotificationPolicyWebhooks#secret}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/notification_policy_webhooks#secret NotificationPolicyWebhooks#secret}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "secret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

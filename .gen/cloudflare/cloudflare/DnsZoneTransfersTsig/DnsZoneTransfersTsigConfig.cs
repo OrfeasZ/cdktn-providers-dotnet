@@ -11,7 +11,7 @@ namespace cloudflare.DnsZoneTransfersTsig
     {
         /// <summary>TSIG algorithm.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_zone_transfers_tsig#algo DnsZoneTransfersTsig#algo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_zone_transfers_tsig#algo DnsZoneTransfersTsig#algo}
         /// </remarks>
         [JsiiProperty(name: "algo", typeJson: "{\"primitive\":\"string\"}")]
         public string Algo
@@ -22,7 +22,7 @@ namespace cloudflare.DnsZoneTransfersTsig
 
         /// <summary>TSIG key name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_zone_transfers_tsig#name DnsZoneTransfersTsig#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_zone_transfers_tsig#name DnsZoneTransfersTsig#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -33,7 +33,7 @@ namespace cloudflare.DnsZoneTransfersTsig
 
         /// <summary>TSIG secret.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_zone_transfers_tsig#secret DnsZoneTransfersTsig#secret}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_zone_transfers_tsig#secret DnsZoneTransfersTsig#secret}
         /// </remarks>
         [JsiiProperty(name: "secret", typeJson: "{\"primitive\":\"string\"}")]
         public string Secret
@@ -42,7 +42,7 @@ namespace cloudflare.DnsZoneTransfersTsig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_zone_transfers_tsig#account_id DnsZoneTransfersTsig#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_zone_transfers_tsig#account_id DnsZoneTransfersTsig#account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountId

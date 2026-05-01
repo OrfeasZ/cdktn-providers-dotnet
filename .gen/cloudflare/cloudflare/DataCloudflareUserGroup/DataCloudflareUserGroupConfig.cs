@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareUserGroup
     {
         /// <summary>Account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/user_group#account_id DataCloudflareUserGroup#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/user_group#account_id DataCloudflareUserGroup#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -20,7 +20,7 @@ namespace cloudflare.DataCloudflareUserGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/user_group#filter DataCloudflareUserGroup#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/user_group#filter DataCloudflareUserGroup#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareUserGroup.DataCloudflareUserGroupFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareUserGroup.IDataCloudflareUserGroupFilter? Filter
@@ -31,7 +31,7 @@ namespace cloudflare.DataCloudflareUserGroup
 
         /// <summary>User Group identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/user_group#user_group_id DataCloudflareUserGroup#user_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/user_group#user_group_id DataCloudflareUserGroup#user_group_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareTurnstileWidget
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/turnstile_widget#account_id DataCloudflareTurnstileWidget#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/turnstile_widget#account_id DataCloudflareTurnstileWidget#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareTurnstileWidget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/turnstile_widget#filter DataCloudflareTurnstileWidget#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/turnstile_widget#filter DataCloudflareTurnstileWidget#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareTurnstileWidget.DataCloudflareTurnstileWidgetFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareTurnstileWidget.IDataCloudflareTurnstileWidgetFilter? Filter
@@ -30,7 +30,7 @@ namespace cloudflare.DataCloudflareTurnstileWidget
 
         /// <summary>Widget item identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/turnstile_widget#sitekey DataCloudflareTurnstileWidget#sitekey}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/turnstile_widget#sitekey DataCloudflareTurnstileWidget#sitekey}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sitekey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

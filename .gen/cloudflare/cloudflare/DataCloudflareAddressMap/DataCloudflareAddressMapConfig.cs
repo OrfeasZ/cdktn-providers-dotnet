@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareAddressMap
     {
         /// <summary>Identifier of an Address Map.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/address_map#address_map_id DataCloudflareAddressMap#address_map_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/address_map#address_map_id DataCloudflareAddressMap#address_map_id}
         /// </remarks>
         [JsiiProperty(name: "addressMapId", typeJson: "{\"primitive\":\"string\"}")]
         public string AddressMapId
@@ -22,7 +22,7 @@ namespace cloudflare.DataCloudflareAddressMap
 
         /// <summary>Identifier of a Cloudflare account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/address_map#account_id DataCloudflareAddressMap#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/address_map#account_id DataCloudflareAddressMap#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

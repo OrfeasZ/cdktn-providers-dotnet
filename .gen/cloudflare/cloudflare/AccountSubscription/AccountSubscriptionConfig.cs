@@ -9,7 +9,7 @@ namespace cloudflare.AccountSubscription
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_subscription#account_id AccountSubscription#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/account_subscription#account_id AccountSubscription#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace cloudflare.AccountSubscription
 
         /// <summary>How often the subscription is renewed automatically. Available values: "weekly", "monthly", "quarterly", "yearly".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_subscription#frequency AccountSubscription#frequency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/account_subscription#frequency AccountSubscription#frequency}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "frequency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace cloudflare.AccountSubscription
 
         /// <summary>The rate plan applied to the subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/account_subscription#rate_plan AccountSubscription#rate_plan}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/account_subscription#rate_plan AccountSubscription#rate_plan}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ratePlan", typeJson: "{\"fqn\":\"cloudflare.accountSubscription.AccountSubscriptionRatePlan\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareTokenValidationConfig
     {
         /// <summary>UUID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/token_validation_config#config_id DataCloudflareTokenValidationConfig#config_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/token_validation_config#config_id DataCloudflareTokenValidationConfig#config_id}
         /// </remarks>
         [JsiiProperty(name: "configId", typeJson: "{\"primitive\":\"string\"}")]
         public string ConfigId
@@ -22,7 +22,7 @@ namespace cloudflare.DataCloudflareTokenValidationConfig
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/token_validation_config#zone_id DataCloudflareTokenValidationConfig#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/token_validation_config#zone_id DataCloudflareTokenValidationConfig#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace cloudflare.Stream
     [JsiiInterface(nativeType: typeof(IStreamPublicDetails), fullyQualifiedName: "cloudflare.stream.StreamPublicDetails")]
     public interface IStreamPublicDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#channel_link Stream#channel_link}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream#channel_link Stream#channel_link}.</summary>
         [JsiiProperty(name: "channelLink", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ChannelLink
@@ -18,7 +18,7 @@ namespace cloudflare.Stream
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#logo Stream#logo}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream#logo Stream#logo}.</summary>
         [JsiiProperty(name: "logo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Logo
@@ -29,7 +29,7 @@ namespace cloudflare.Stream
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#share_link Stream#share_link}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream#share_link Stream#share_link}.</summary>
         [JsiiProperty(name: "shareLink", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ShareLink
@@ -40,7 +40,7 @@ namespace cloudflare.Stream
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#title Stream#title}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream#title Stream#title}.</summary>
         [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Title
@@ -58,7 +58,7 @@ namespace cloudflare.Stream
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#channel_link Stream#channel_link}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream#channel_link Stream#channel_link}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "channelLink", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ChannelLink
@@ -66,7 +66,7 @@ namespace cloudflare.Stream
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#logo Stream#logo}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream#logo Stream#logo}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "logo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Logo
@@ -74,7 +74,7 @@ namespace cloudflare.Stream
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#share_link Stream#share_link}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream#share_link Stream#share_link}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "shareLink", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ShareLink
@@ -82,7 +82,7 @@ namespace cloudflare.Stream
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/stream#title Stream#title}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream#title Stream#title}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Title

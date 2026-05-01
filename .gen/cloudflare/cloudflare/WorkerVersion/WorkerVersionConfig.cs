@@ -11,7 +11,7 @@ namespace cloudflare.WorkerVersion
     {
         /// <summary>Identifier for the Worker, which can be ID or name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#worker_id WorkerVersion#worker_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/worker_version#worker_id WorkerVersion#worker_id}
         /// </remarks>
         [JsiiProperty(name: "workerId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkerId
@@ -22,7 +22,7 @@ namespace cloudflare.WorkerVersion
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#account_id WorkerVersion#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/worker_version#account_id WorkerVersion#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace cloudflare.WorkerVersion
 
         /// <summary>Metadata about the version.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#annotations WorkerVersion#annotations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/worker_version#annotations WorkerVersion#annotations}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "annotations", typeJson: "{\"fqn\":\"cloudflare.workerVersion.WorkerVersionAnnotations\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace cloudflare.WorkerVersion
         /// <a href="https://developers.cloudflare.com/workers/static-assets/redirects/"><c>_redirects</c></a> files should be
         /// included as modules named <c>_headers</c> and <c>_redirects</c> with content type <c>text/plain</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#assets WorkerVersion#assets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/worker_version#assets WorkerVersion#assets}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "assets", typeJson: "{\"fqn\":\"cloudflare.workerVersion.WorkerVersionAssets\"}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace cloudflare.WorkerVersion
 
         /// <summary>List of bindings attached to a Worker. You can find more about bindings on our docs: https://developers.cloudflare.com/workers/configuration/multipart-upload-metadata/#bindings.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#bindings WorkerVersion#bindings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/worker_version#bindings WorkerVersion#bindings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bindings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionBindings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -98,7 +98,7 @@ namespace cloudflare.WorkerVersion
         /// <remarks>
         /// Backwards incompatible fixes to the runtime following this date will not affect this Worker.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#compatibility_date WorkerVersion#compatibility_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/worker_version#compatibility_date WorkerVersion#compatibility_date}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "compatibilityDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -112,7 +112,7 @@ namespace cloudflare.WorkerVersion
         /// <remarks>
         /// Used to enable upcoming features or opt in or out of specific changes not included in a <c>compatibility_date</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#compatibility_flags WorkerVersion#compatibility_flags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/worker_version#compatibility_flags WorkerVersion#compatibility_flags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "compatibilityFlags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace cloudflare.WorkerVersion
         /// <remarks>
         /// Containers can only be attached to Durable Object classes of this Worker script.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#containers WorkerVersion#containers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/worker_version#containers WorkerVersion#containers}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "containers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionContainers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -160,7 +160,7 @@ namespace cloudflare.WorkerVersion
 
         /// <summary>Resource limits enforced at runtime.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#limits WorkerVersion#limits}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/worker_version#limits WorkerVersion#limits}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "limits", typeJson: "{\"fqn\":\"cloudflare.workerVersion.WorkerVersionLimits\"}", isOptional: true)]
@@ -172,7 +172,7 @@ namespace cloudflare.WorkerVersion
 
         /// <summary>The name of the main module in the `modules` array (e.g. the name of the module that exports a `fetch` handler).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#main_module WorkerVersion#main_module}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/worker_version#main_module WorkerVersion#main_module}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mainModule", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -184,7 +184,7 @@ namespace cloudflare.WorkerVersion
 
         /// <summary>Migrations for Durable Objects associated with the version. Migrations are applied when the version is deployed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#migrations WorkerVersion#migrations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/worker_version#migrations WorkerVersion#migrations}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "migrations", typeJson: "{\"fqn\":\"cloudflare.workerVersion.WorkerVersionMigrations\"}", isOptional: true)]
@@ -203,7 +203,7 @@ namespace cloudflare.WorkerVersion
         /// <a href="https://developers.cloudflare.com/workers/static-assets/">Static Assets</a>. <c>_headers</c> and <c>_redirects</c> files should be
         /// included as modules named <c>_headers</c> and <c>_redirects</c> with content type <c>text/plain</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#modules WorkerVersion#modules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/worker_version#modules WorkerVersion#modules}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "modules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionModules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -235,7 +235,7 @@ namespace cloudflare.WorkerVersion
 
         /// <summary>Configuration for [Smart Placement](https://developers.cloudflare.com/workers/configuration/smart-placement). Specify mode='smart' for Smart Placement, or one of region/hostname/host.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#placement WorkerVersion#placement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/worker_version#placement WorkerVersion#placement}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "placement", typeJson: "{\"fqn\":\"cloudflare.workerVersion.WorkerVersionPlacement\"}", isOptional: true)]
@@ -247,7 +247,7 @@ namespace cloudflare.WorkerVersion
 
         /// <summary>Usage model for the version. Available values: "standard", "bundled", "unbound".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/worker_version#usage_model WorkerVersion#usage_model}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/worker_version#usage_model WorkerVersion#usage_model}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "usageModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

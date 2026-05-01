@@ -5,7 +5,7 @@ namespace cloudflare.DataCloudflarePipelineSink
     /// <remarks>
     /// <h1><c>data_cloudflare_pipeline_sink</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/pipeline_sink"><c>data_cloudflare_pipeline_sink</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/pipeline_sink"><c>data_cloudflare_pipeline_sink</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

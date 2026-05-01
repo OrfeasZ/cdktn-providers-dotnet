@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflarePageShieldScripts
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/page_shield_scripts#script_id DataCloudflarePageShieldScripts#script_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/page_shield_scripts#script_id DataCloudflarePageShieldScripts#script_id}
         /// </remarks>
         [JsiiProperty(name: "scriptId", typeJson: "{\"primitive\":\"string\"}")]
         public string ScriptId
@@ -22,7 +22,7 @@ namespace cloudflare.DataCloudflarePageShieldScripts
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/page_shield_scripts#zone_id DataCloudflarePageShieldScripts#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/page_shield_scripts#zone_id DataCloudflarePageShieldScripts#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
