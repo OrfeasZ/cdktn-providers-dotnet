@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareWeb3Hostname
     {
         /// <summary>Specify the identifier of the hostname.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/web3_hostname#identifier DataCloudflareWeb3Hostname#identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/web3_hostname#identifier DataCloudflareWeb3Hostname#identifier}
         /// </remarks>
         [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
         public string Identifier
@@ -22,7 +22,7 @@ namespace cloudflare.DataCloudflareWeb3Hostname
 
         /// <summary>Specify the identifier of the hostname.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/web3_hostname#zone_id DataCloudflareWeb3Hostname#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/web3_hostname#zone_id DataCloudflareWeb3Hostname#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

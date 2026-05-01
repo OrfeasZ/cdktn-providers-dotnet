@@ -11,7 +11,7 @@ namespace cloudflare.DnsZoneTransfersIncoming
     {
         /// <summary>Zone name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_zone_transfers_incoming#name DnsZoneTransfersIncoming#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_zone_transfers_incoming#name DnsZoneTransfersIncoming#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace cloudflare.DnsZoneTransfersIncoming
 
         /// <summary>A list of peer tags.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_zone_transfers_incoming#peers DnsZoneTransfersIncoming#peers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_zone_transfers_incoming#peers DnsZoneTransfersIncoming#peers}
         /// </remarks>
         [JsiiProperty(name: "peers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Peers
@@ -33,7 +33,7 @@ namespace cloudflare.DnsZoneTransfersIncoming
 
         /// <summary>How often should a secondary zone auto refresh regardless of DNS NOTIFY. Not applicable for primary zones.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_zone_transfers_incoming#auto_refresh_seconds DnsZoneTransfersIncoming#auto_refresh_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_zone_transfers_incoming#auto_refresh_seconds DnsZoneTransfersIncoming#auto_refresh_seconds}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoRefreshSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace cloudflare.DnsZoneTransfersIncoming
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_zone_transfers_incoming#zone_id DnsZoneTransfersIncoming#zone_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_zone_transfers_incoming#zone_id DnsZoneTransfersIncoming#zone_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ZoneId

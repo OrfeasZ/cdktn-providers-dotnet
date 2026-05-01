@@ -7,7 +7,7 @@ namespace cloudflare.DataCloudflareZeroTrustDeviceDefaultProfileCertificates
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustDeviceDefaultProfileCertificates.DataCloudflareZeroTrustDeviceDefaultProfileCertificatesConfig")]
     public class DataCloudflareZeroTrustDeviceDefaultProfileCertificatesConfig : cloudflare.DataCloudflareZeroTrustDeviceDefaultProfileCertificates.IDataCloudflareZeroTrustDeviceDefaultProfileCertificatesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_device_default_profile_certificates#zone_id DataCloudflareZeroTrustDeviceDefaultProfileCertificates#zone_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zero_trust_device_default_profile_certificates#zone_id DataCloudflareZeroTrustDeviceDefaultProfileCertificates#zone_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ZoneId

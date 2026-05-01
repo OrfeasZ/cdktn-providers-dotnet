@@ -13,7 +13,7 @@ namespace cloudflare.RegionalHostname
         /// <remarks>
         /// Wildcards are supported for one level, e.g <c>*.example.com</c>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/regional_hostname#hostname RegionalHostname#hostname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/regional_hostname#hostname RegionalHostname#hostname}
         /// </remarks>
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
         public string Hostname
@@ -24,7 +24,7 @@ namespace cloudflare.RegionalHostname
 
         /// <summary>Identifying key for the region.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/regional_hostname#region_key RegionalHostname#region_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/regional_hostname#region_key RegionalHostname#region_key}
         /// </remarks>
         [JsiiProperty(name: "regionKey", typeJson: "{\"primitive\":\"string\"}")]
         public string RegionKey
@@ -35,7 +35,7 @@ namespace cloudflare.RegionalHostname
 
         /// <summary>Configure which routing method to use for the regional hostname.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/regional_hostname#routing RegionalHostname#routing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/regional_hostname#routing RegionalHostname#routing}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "routing", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace cloudflare.RegionalHostname
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/regional_hostname#zone_id RegionalHostname#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/regional_hostname#zone_id RegionalHostname#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

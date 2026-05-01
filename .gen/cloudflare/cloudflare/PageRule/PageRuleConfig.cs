@@ -9,7 +9,7 @@ namespace cloudflare.PageRule
     [JsiiByValue(fqn: "cloudflare.pageRule.PageRuleConfig")]
     public class PageRuleConfig : cloudflare.PageRule.IPageRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#actions PageRule#actions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/page_rule#actions PageRule#actions}.</summary>
         [JsiiProperty(name: "actions", typeJson: "{\"fqn\":\"cloudflare.pageRule.PageRuleActions\"}")]
         public cloudflare.PageRule.IPageRuleActions Actions
         {
@@ -17,7 +17,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#target PageRule#target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/page_rule#target PageRule#target}.</summary>
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}")]
         public string Target
         {
@@ -32,7 +32,7 @@ namespace cloudflare.PageRule
         /// specific Page Rule to take precedence (rule B: <c>/images/special/*</c>),
         /// specify a higher priority for rule B so it overrides rule A.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#priority PageRule#priority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/page_rule#priority PageRule#priority}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -44,7 +44,7 @@ namespace cloudflare.PageRule
 
         /// <summary>The status of the Page Rule. Available values: "active", "disabled".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#status PageRule#status}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/page_rule#status PageRule#status}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace cloudflare.PageRule
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/page_rule#zone_id PageRule#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/page_rule#zone_id PageRule#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

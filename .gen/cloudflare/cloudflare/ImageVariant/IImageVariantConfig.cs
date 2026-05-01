@@ -7,7 +7,7 @@ namespace cloudflare.ImageVariant
     [JsiiInterface(nativeType: typeof(IImageVariantConfig), fullyQualifiedName: "cloudflare.imageVariant.ImageVariantConfig")]
     public interface IImageVariantConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/image_variant#id ImageVariant#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/image_variant#id ImageVariant#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -20,7 +20,7 @@ namespace cloudflare.ImageVariant
 
         /// <summary>Allows you to define image resizing sizes for different use cases.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/image_variant#options ImageVariant#options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/image_variant#options ImageVariant#options}
         /// </remarks>
         [JsiiProperty(name: "options", typeJson: "{\"fqn\":\"cloudflare.imageVariant.ImageVariantOptions\"}")]
         cloudflare.ImageVariant.IImageVariantOptions Options
@@ -30,7 +30,7 @@ namespace cloudflare.ImageVariant
 
         /// <summary>Account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/image_variant#account_id ImageVariant#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/image_variant#account_id ImageVariant#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace cloudflare.ImageVariant
 
         /// <summary>Indicates whether the variant can access an image without a signature, regardless of image access control.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/image_variant#never_require_signed_urls ImageVariant#never_require_signed_urls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/image_variant#never_require_signed_urls ImageVariant#never_require_signed_urls}
         /// </remarks>
         [JsiiProperty(name: "neverRequireSignedUrls", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,7 +63,7 @@ namespace cloudflare.ImageVariant
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/image_variant#id ImageVariant#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/image_variant#id ImageVariant#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -76,7 +76,7 @@ namespace cloudflare.ImageVariant
 
             /// <summary>Allows you to define image resizing sizes for different use cases.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/image_variant#options ImageVariant#options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/image_variant#options ImageVariant#options}
             /// </remarks>
             [JsiiProperty(name: "options", typeJson: "{\"fqn\":\"cloudflare.imageVariant.ImageVariantOptions\"}")]
             public cloudflare.ImageVariant.IImageVariantOptions Options
@@ -86,7 +86,7 @@ namespace cloudflare.ImageVariant
 
             /// <summary>Account identifier tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/image_variant#account_id ImageVariant#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/image_variant#account_id ImageVariant#account_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace cloudflare.ImageVariant
 
             /// <summary>Indicates whether the variant can access an image without a signature, regardless of image access control.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/image_variant#never_require_signed_urls ImageVariant#never_require_signed_urls}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/image_variant#never_require_signed_urls ImageVariant#never_require_signed_urls}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "neverRequireSignedUrls", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

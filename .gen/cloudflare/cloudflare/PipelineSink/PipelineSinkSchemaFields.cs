@@ -11,7 +11,7 @@ namespace cloudflare.PipelineSink
     {
         /// <summary>Available values: "int32", "int64", "float32", "float64", "bool", "string", "binary", "timestamp", "json".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#type PipelineSink#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#type PipelineSink#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -20,7 +20,7 @@ namespace cloudflare.PipelineSink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#metadata_key PipelineSink#metadata_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#metadata_key PipelineSink#metadata_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metadataKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MetadataKey
@@ -29,7 +29,7 @@ namespace cloudflare.PipelineSink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#name PipelineSink#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#name PipelineSink#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -40,7 +40,7 @@ namespace cloudflare.PipelineSink
 
         private object? _required;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#required PipelineSink#required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#required PipelineSink#required}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "required", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Required
@@ -69,7 +69,7 @@ namespace cloudflare.PipelineSink
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#sql_name PipelineSink#sql_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#sql_name PipelineSink#sql_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sqlName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SqlName
@@ -80,7 +80,7 @@ namespace cloudflare.PipelineSink
 
         /// <summary>Available values: "second", "millisecond", "microsecond", "nanosecond".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/pipeline_sink#unit PipelineSink#unit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pipeline_sink#unit PipelineSink#unit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

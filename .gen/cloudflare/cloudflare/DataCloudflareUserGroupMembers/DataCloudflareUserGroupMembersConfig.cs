@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareUserGroupMembers
     {
         /// <summary>Account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/user_group_members#account_id DataCloudflareUserGroupMembers#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/user_group_members#account_id DataCloudflareUserGroupMembers#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.DataCloudflareUserGroupMembers
 
         /// <summary>User Group identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/user_group_members#user_group_id DataCloudflareUserGroupMembers#user_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/user_group_members#user_group_id DataCloudflareUserGroupMembers#user_group_id}
         /// </remarks>
         [JsiiProperty(name: "userGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string UserGroupId
@@ -33,7 +33,7 @@ namespace cloudflare.DataCloudflareUserGroupMembers
 
         /// <summary>The sort order of returned user group members by email. Available values: "asc", "desc".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/user_group_members#direction DataCloudflareUserGroupMembers#direction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/user_group_members#direction DataCloudflareUserGroupMembers#direction}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace cloudflare.DataCloudflareUserGroupMembers
 
         /// <summary>A string used for filtering members by partial email match.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/user_group_members#fuzzy_email DataCloudflareUserGroupMembers#fuzzy_email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/user_group_members#fuzzy_email DataCloudflareUserGroupMembers#fuzzy_email}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fuzzyEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

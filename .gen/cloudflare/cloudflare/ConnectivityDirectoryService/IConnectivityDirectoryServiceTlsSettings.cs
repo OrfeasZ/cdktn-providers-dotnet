@@ -15,7 +15,7 @@ namespace cloudflare.ConnectivityDirectoryService
         /// <description><c>"disabled"</c> — do not verify the server certificate at all</description>
         /// </list>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/connectivity_directory_service#cert_verification_mode ConnectivityDirectoryService#cert_verification_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/connectivity_directory_service#cert_verification_mode ConnectivityDirectoryService#cert_verification_mode}
         /// </remarks>
         [JsiiProperty(name: "certVerificationMode", typeJson: "{\"primitive\":\"string\"}")]
         string CertVerificationMode
@@ -38,7 +38,7 @@ namespace cloudflare.ConnectivityDirectoryService
             /// <description><c>"disabled"</c> — do not verify the server certificate at all</description>
             /// </list>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/connectivity_directory_service#cert_verification_mode ConnectivityDirectoryService#cert_verification_mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/connectivity_directory_service#cert_verification_mode ConnectivityDirectoryService#cert_verification_mode}
             /// </remarks>
             [JsiiProperty(name: "certVerificationMode", typeJson: "{\"primitive\":\"string\"}")]
             public string CertVerificationMode

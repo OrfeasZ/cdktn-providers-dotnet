@@ -9,7 +9,7 @@ namespace cloudflare.DnsFirewall
     {
         /// <summary>DNS Firewall cluster name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#name DnsFirewall#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#name DnsFirewall#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -17,7 +17,7 @@ namespace cloudflare.DnsFirewall
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#upstream_ips DnsFirewall#upstream_ips}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#upstream_ips DnsFirewall#upstream_ips}.</summary>
         [JsiiProperty(name: "upstreamIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] UpstreamIps
         {
@@ -26,7 +26,7 @@ namespace cloudflare.DnsFirewall
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#account_id DnsFirewall#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#account_id DnsFirewall#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace cloudflare.DnsFirewall
 
         /// <summary>Attack mitigation settings.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#attack_mitigation DnsFirewall#attack_mitigation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#attack_mitigation DnsFirewall#attack_mitigation}
         /// </remarks>
         [JsiiProperty(name: "attackMitigation", typeJson: "{\"fqn\":\"cloudflare.dnsFirewall.DnsFirewallAttackMitigation\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace cloudflare.DnsFirewall
 
         /// <summary>Whether to refuse to answer queries for the ANY type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#deprecate_any_requests DnsFirewall#deprecate_any_requests}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#deprecate_any_requests DnsFirewall#deprecate_any_requests}
         /// </remarks>
         [JsiiProperty(name: "deprecateAnyRequests", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,7 +68,7 @@ namespace cloudflare.DnsFirewall
 
         /// <summary>Whether to forward client IP (resolver) subnet if no EDNS Client Subnet is sent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#ecs_fallback DnsFirewall#ecs_fallback}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#ecs_fallback DnsFirewall#ecs_fallback}
         /// </remarks>
         [JsiiProperty(name: "ecsFallback", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -90,7 +90,7 @@ namespace cloudflare.DnsFirewall
         /// Cloudflare returns to clients. Cloudflare will always forward the TTL
         /// value received from upstream nameservers.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#maximum_cache_ttl DnsFirewall#maximum_cache_ttl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#maximum_cache_ttl DnsFirewall#maximum_cache_ttl}
         /// </remarks>
         [JsiiProperty(name: "maximumCacheTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -117,7 +117,7 @@ namespace cloudflare.DnsFirewall
         /// responses may be removed earlier for capacity or other operational
         /// reasons.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#minimum_cache_ttl DnsFirewall#minimum_cache_ttl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#minimum_cache_ttl DnsFirewall#minimum_cache_ttl}
         /// </remarks>
         [JsiiProperty(name: "minimumCacheTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -135,7 +135,7 @@ namespace cloudflare.DnsFirewall
         /// Cloudflare returns to clients. Cloudflare will always forward the TTL
         /// value received from upstream nameservers.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#negative_cache_ttl DnsFirewall#negative_cache_ttl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#negative_cache_ttl DnsFirewall#negative_cache_ttl}
         /// </remarks>
         [JsiiProperty(name: "negativeCacheTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -149,7 +149,7 @@ namespace cloudflare.DnsFirewall
 
         /// <summary>Ratelimit in queries per second per datacenter (applies to DNS queries sent to the upstream nameservers configured on the cluster).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#ratelimit DnsFirewall#ratelimit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#ratelimit DnsFirewall#ratelimit}
         /// </remarks>
         [JsiiProperty(name: "ratelimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -163,7 +163,7 @@ namespace cloudflare.DnsFirewall
 
         /// <summary>Number of retries for fetching DNS responses from upstream nameservers (not counting the initial attempt).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#retries DnsFirewall#retries}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#retries DnsFirewall#retries}
         /// </remarks>
         [JsiiProperty(name: "retries", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -184,7 +184,7 @@ namespace cloudflare.DnsFirewall
 
             /// <summary>DNS Firewall cluster name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#name DnsFirewall#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#name DnsFirewall#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -192,7 +192,7 @@ namespace cloudflare.DnsFirewall
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#upstream_ips DnsFirewall#upstream_ips}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#upstream_ips DnsFirewall#upstream_ips}.</summary>
             [JsiiProperty(name: "upstreamIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] UpstreamIps
             {
@@ -201,7 +201,7 @@ namespace cloudflare.DnsFirewall
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#account_id DnsFirewall#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#account_id DnsFirewall#account_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -212,7 +212,7 @@ namespace cloudflare.DnsFirewall
 
             /// <summary>Attack mitigation settings.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#attack_mitigation DnsFirewall#attack_mitigation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#attack_mitigation DnsFirewall#attack_mitigation}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "attackMitigation", typeJson: "{\"fqn\":\"cloudflare.dnsFirewall.DnsFirewallAttackMitigation\"}", isOptional: true)]
@@ -223,7 +223,7 @@ namespace cloudflare.DnsFirewall
 
             /// <summary>Whether to refuse to answer queries for the ANY type.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#deprecate_any_requests DnsFirewall#deprecate_any_requests}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#deprecate_any_requests DnsFirewall#deprecate_any_requests}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "deprecateAnyRequests", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -234,7 +234,7 @@ namespace cloudflare.DnsFirewall
 
             /// <summary>Whether to forward client IP (resolver) subnet if no EDNS Client Subnet is sent.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#ecs_fallback DnsFirewall#ecs_fallback}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#ecs_fallback DnsFirewall#ecs_fallback}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ecsFallback", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -253,7 +253,7 @@ namespace cloudflare.DnsFirewall
             /// Cloudflare returns to clients. Cloudflare will always forward the TTL
             /// value received from upstream nameservers.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#maximum_cache_ttl DnsFirewall#maximum_cache_ttl}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#maximum_cache_ttl DnsFirewall#maximum_cache_ttl}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maximumCacheTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -277,7 +277,7 @@ namespace cloudflare.DnsFirewall
             /// responses may be removed earlier for capacity or other operational
             /// reasons.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#minimum_cache_ttl DnsFirewall#minimum_cache_ttl}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#minimum_cache_ttl DnsFirewall#minimum_cache_ttl}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "minimumCacheTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -292,7 +292,7 @@ namespace cloudflare.DnsFirewall
             /// Cloudflare returns to clients. Cloudflare will always forward the TTL
             /// value received from upstream nameservers.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#negative_cache_ttl DnsFirewall#negative_cache_ttl}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#negative_cache_ttl DnsFirewall#negative_cache_ttl}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "negativeCacheTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -303,7 +303,7 @@ namespace cloudflare.DnsFirewall
 
             /// <summary>Ratelimit in queries per second per datacenter (applies to DNS queries sent to the upstream nameservers configured on the cluster).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#ratelimit DnsFirewall#ratelimit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#ratelimit DnsFirewall#ratelimit}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ratelimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -314,7 +314,7 @@ namespace cloudflare.DnsFirewall
 
             /// <summary>Number of retries for fetching DNS responses from upstream nameservers (not counting the initial attempt).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/dns_firewall#retries DnsFirewall#retries}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/dns_firewall#retries DnsFirewall#retries}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "retries", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

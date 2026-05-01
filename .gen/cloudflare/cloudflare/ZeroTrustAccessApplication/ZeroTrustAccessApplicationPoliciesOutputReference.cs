@@ -87,6 +87,12 @@ namespace cloudflare.ZeroTrustAccessApplication
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putMfaConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesMfaConfig\"}}]")]
+        public virtual void PutMfaConfig(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesMfaConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesMfaConfig)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putRequire", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesRequire\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRequire(object @value)
         {
@@ -140,6 +146,12 @@ namespace cloudflare.ZeroTrustAccessApplication
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetMfaConfig")]
+        public virtual void ResetMfaConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetName")]
         public virtual void ResetName()
         {
@@ -174,6 +186,12 @@ namespace cloudflare.ZeroTrustAccessApplication
         public virtual cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesIncludeList Include
         {
             get => GetInstanceProperty<cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesIncludeList>()!;
+        }
+
+        [JsiiProperty(name: "mfaConfig", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesMfaConfigOutputReference\"}")]
+        public virtual cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesMfaConfigOutputReference MfaConfig
+        {
+            get => GetInstanceProperty<cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesMfaConfigOutputReference>()!;
         }
 
         [JsiiProperty(name: "require", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesRequireList\"}")]
@@ -213,6 +231,13 @@ namespace cloudflare.ZeroTrustAccessApplication
         [JsiiOptional]
         [JsiiProperty(name: "includeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesInclude\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IncludeInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "mfaConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesMfaConfig\"}]}}", isOptional: true)]
+        public virtual object? MfaConfigInput
         {
             get => GetInstanceProperty<object?>();
         }

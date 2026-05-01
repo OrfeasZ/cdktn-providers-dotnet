@@ -7,7 +7,7 @@ namespace cloudflare.DataCloudflareZeroTrustDeviceDefaultProfileLocalDomainFallb
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustDeviceDefaultProfileLocalDomainFallback.DataCloudflareZeroTrustDeviceDefaultProfileLocalDomainFallbackConfig")]
     public class DataCloudflareZeroTrustDeviceDefaultProfileLocalDomainFallbackConfig : cloudflare.DataCloudflareZeroTrustDeviceDefaultProfileLocalDomainFallback.IDataCloudflareZeroTrustDeviceDefaultProfileLocalDomainFallbackConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/zero_trust_device_default_profile_local_domain_fallback#account_id DataCloudflareZeroTrustDeviceDefaultProfileLocalDomainFallback#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zero_trust_device_default_profile_local_domain_fallback#account_id DataCloudflareZeroTrustDeviceDefaultProfileLocalDomainFallback#account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountId

@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflarePipeline
     {
         /// <summary>Specifies the public ID of the pipeline.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/pipeline#pipeline_id DataCloudflarePipeline#pipeline_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/pipeline#pipeline_id DataCloudflarePipeline#pipeline_id}
         /// </remarks>
         [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}")]
         string PipelineId
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflarePipeline
 
         /// <summary>Specifies the public ID of the account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/pipeline#account_id DataCloudflarePipeline#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/pipeline#account_id DataCloudflarePipeline#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace cloudflare.DataCloudflarePipeline
 
             /// <summary>Specifies the public ID of the pipeline.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/pipeline#pipeline_id DataCloudflarePipeline#pipeline_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/pipeline#pipeline_id DataCloudflarePipeline#pipeline_id}
             /// </remarks>
             [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}")]
             public string PipelineId
@@ -50,7 +50,7 @@ namespace cloudflare.DataCloudflarePipeline
 
             /// <summary>Specifies the public ID of the account.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/pipeline#account_id DataCloudflarePipeline#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/pipeline#account_id DataCloudflarePipeline#account_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

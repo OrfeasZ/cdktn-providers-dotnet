@@ -7,7 +7,7 @@ namespace cloudflare.DataCloudflareAiGateways
     [JsiiByValue(fqn: "cloudflare.dataCloudflareAiGateways.DataCloudflareAiGatewaysConfig")]
     public class DataCloudflareAiGatewaysConfig : cloudflare.DataCloudflareAiGateways.IDataCloudflareAiGatewaysConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/ai_gateways#account_id DataCloudflareAiGateways#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/ai_gateways#account_id DataCloudflareAiGateways#account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountId
@@ -18,7 +18,7 @@ namespace cloudflare.DataCloudflareAiGateways
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/ai_gateways#max_items DataCloudflareAiGateways#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/ai_gateways#max_items DataCloudflareAiGateways#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -30,7 +30,7 @@ namespace cloudflare.DataCloudflareAiGateways
 
         /// <summary>Search by id.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/ai_gateways#search DataCloudflareAiGateways#search}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/ai_gateways#search DataCloudflareAiGateways#search}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "search", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

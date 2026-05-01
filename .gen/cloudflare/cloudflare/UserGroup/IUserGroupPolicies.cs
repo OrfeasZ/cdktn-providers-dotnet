@@ -9,7 +9,7 @@ namespace cloudflare.UserGroup
     {
         /// <summary>Allow or deny operations against the resources. Available values: "allow", "deny".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user_group#access UserGroup#access}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/user_group#access UserGroup#access}
         /// </remarks>
         [JsiiProperty(name: "access", typeJson: "{\"primitive\":\"string\"}")]
         string Access
@@ -19,7 +19,7 @@ namespace cloudflare.UserGroup
 
         /// <summary>A set of permission groups that are specified to the policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user_group#permission_groups UserGroup#permission_groups}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/user_group#permission_groups UserGroup#permission_groups}
         /// </remarks>
         [JsiiProperty(name: "permissionGroups", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.userGroup.UserGroupPoliciesPermissionGroups\"},\"kind\":\"array\"}}]}}")]
         object PermissionGroups
@@ -29,7 +29,7 @@ namespace cloudflare.UserGroup
 
         /// <summary>A set of resource groups that are specified to the policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user_group#resource_groups UserGroup#resource_groups}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/user_group#resource_groups UserGroup#resource_groups}
         /// </remarks>
         [JsiiProperty(name: "resourceGroups", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.userGroup.UserGroupPoliciesResourceGroups\"},\"kind\":\"array\"}}]}}")]
         object ResourceGroups
@@ -46,7 +46,7 @@ namespace cloudflare.UserGroup
 
             /// <summary>Allow or deny operations against the resources. Available values: "allow", "deny".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user_group#access UserGroup#access}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/user_group#access UserGroup#access}
             /// </remarks>
             [JsiiProperty(name: "access", typeJson: "{\"primitive\":\"string\"}")]
             public string Access
@@ -56,7 +56,7 @@ namespace cloudflare.UserGroup
 
             /// <summary>A set of permission groups that are specified to the policy.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user_group#permission_groups UserGroup#permission_groups}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/user_group#permission_groups UserGroup#permission_groups}
             /// </remarks>
             [JsiiProperty(name: "permissionGroups", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.userGroup.UserGroupPoliciesPermissionGroups\"},\"kind\":\"array\"}}]}}")]
             public object PermissionGroups
@@ -66,7 +66,7 @@ namespace cloudflare.UserGroup
 
             /// <summary>A set of resource groups that are specified to the policy.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/user_group#resource_groups UserGroup#resource_groups}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/user_group#resource_groups UserGroup#resource_groups}
             /// </remarks>
             [JsiiProperty(name: "resourceGroups", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.userGroup.UserGroupPoliciesResourceGroups\"},\"kind\":\"array\"}}]}}")]
             public object ResourceGroups

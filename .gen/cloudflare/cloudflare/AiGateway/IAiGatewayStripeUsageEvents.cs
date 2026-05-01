@@ -7,7 +7,7 @@ namespace cloudflare.AiGateway
     [JsiiInterface(nativeType: typeof(IAiGatewayStripeUsageEvents), fullyQualifiedName: "cloudflare.aiGateway.AiGatewayStripeUsageEvents")]
     public interface IAiGatewayStripeUsageEvents
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_gateway#payload AiGateway#payload}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ai_gateway#payload AiGateway#payload}.</summary>
         [JsiiProperty(name: "payload", typeJson: "{\"primitive\":\"string\"}")]
         string Payload
         {
@@ -21,7 +21,7 @@ namespace cloudflare.AiGateway
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/ai_gateway#payload AiGateway#payload}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ai_gateway#payload AiGateway#payload}.</summary>
             [JsiiProperty(name: "payload", typeJson: "{\"primitive\":\"string\"}")]
             public string Payload
             {

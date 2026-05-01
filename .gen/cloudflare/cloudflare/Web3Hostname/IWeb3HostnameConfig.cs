@@ -9,7 +9,7 @@ namespace cloudflare.Web3Hostname
     {
         /// <summary>Specify the hostname that points to the target gateway via CNAME.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/web3_hostname#name Web3Hostname#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/web3_hostname#name Web3Hostname#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -19,7 +19,7 @@ namespace cloudflare.Web3Hostname
 
         /// <summary>Specify the target gateway of the hostname. Available values: "ethereum", "ipfs", "ipfs_universal_path".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/web3_hostname#target Web3Hostname#target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/web3_hostname#target Web3Hostname#target}
         /// </remarks>
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}")]
         string Target
@@ -29,7 +29,7 @@ namespace cloudflare.Web3Hostname
 
         /// <summary>Specify an optional description of the hostname.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/web3_hostname#description Web3Hostname#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/web3_hostname#description Web3Hostname#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +43,7 @@ namespace cloudflare.Web3Hostname
 
         /// <summary>Specify the DNSLink value used if the target is ipfs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/web3_hostname#dnslink Web3Hostname#dnslink}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/web3_hostname#dnslink Web3Hostname#dnslink}
         /// </remarks>
         [JsiiProperty(name: "dnslink", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,7 +57,7 @@ namespace cloudflare.Web3Hostname
 
         /// <summary>Specify the identifier of the hostname.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/web3_hostname#zone_id Web3Hostname#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/web3_hostname#zone_id Web3Hostname#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,7 +78,7 @@ namespace cloudflare.Web3Hostname
 
             /// <summary>Specify the hostname that points to the target gateway via CNAME.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/web3_hostname#name Web3Hostname#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/web3_hostname#name Web3Hostname#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -88,7 +88,7 @@ namespace cloudflare.Web3Hostname
 
             /// <summary>Specify the target gateway of the hostname. Available values: "ethereum", "ipfs", "ipfs_universal_path".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/web3_hostname#target Web3Hostname#target}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/web3_hostname#target Web3Hostname#target}
             /// </remarks>
             [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}")]
             public string Target
@@ -98,7 +98,7 @@ namespace cloudflare.Web3Hostname
 
             /// <summary>Specify an optional description of the hostname.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/web3_hostname#description Web3Hostname#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/web3_hostname#description Web3Hostname#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -109,7 +109,7 @@ namespace cloudflare.Web3Hostname
 
             /// <summary>Specify the DNSLink value used if the target is ipfs.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/web3_hostname#dnslink Web3Hostname#dnslink}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/web3_hostname#dnslink Web3Hostname#dnslink}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dnslink", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -120,7 +120,7 @@ namespace cloudflare.Web3Hostname
 
             /// <summary>Specify the identifier of the hostname.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/resources/web3_hostname#zone_id Web3Hostname#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/web3_hostname#zone_id Web3Hostname#zone_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

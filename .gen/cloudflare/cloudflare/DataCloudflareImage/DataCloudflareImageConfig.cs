@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareImage
     {
         /// <summary>Image unique identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/image#image_id DataCloudflareImage#image_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/image#image_id DataCloudflareImage#image_id}
         /// </remarks>
         [JsiiProperty(name: "imageId", typeJson: "{\"primitive\":\"string\"}")]
         public string ImageId
@@ -22,7 +22,7 @@ namespace cloudflare.DataCloudflareImage
 
         /// <summary>Account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.0/docs/data-sources/image#account_id DataCloudflareImage#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/image#account_id DataCloudflareImage#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
