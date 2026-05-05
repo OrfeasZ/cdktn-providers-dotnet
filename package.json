@@ -1,0 +1,14 @@
+{
+  "name": "cdktn-providers-dotnet",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "cdktn-cli": "^0.22.1",
+    "patch-package": "^8.0.1"
+  },
+  "scripts": {
+    "cdktn": "cdktn",
+    "cdktf": "cdktn",
+    "postinstall": "patch-package"
+  }
+}

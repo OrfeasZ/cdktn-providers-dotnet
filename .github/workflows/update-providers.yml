@@ -38,7 +38,7 @@ jobs:
           python-version: "3.x"
 
       - name: Install CDKTN CLI
-        run: npm install --global cdktn-cli@0.22.1
+        run: npm install
 
       - name: Update provider constraints
         run: python update-providers.py
@@ -54,7 +54,7 @@ jobs:
 
       - name: Regenerate provider bindings
         if: steps.constraint-changes.outputs.changed == 'true'
-        run: cdktn get --parallelism 1
+        run: npm run cdktn -- get --parallelism 1
 
       - name: Verify generated providers build
         if: steps.constraint-changes.outputs.changed == 'true'
