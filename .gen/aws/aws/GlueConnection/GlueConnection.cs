@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.GlueConnection
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_connection aws_glue_connection}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection aws_glue_connection}.</summary>
     [JsiiClass(nativeType: typeof(aws.GlueConnection.GlueConnection), fullyQualifiedName: "aws.glueConnection.GlueConnection", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.glueConnection.GlueConnectionConfig\"}}]")]
     public class GlueConnection : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_connection aws_glue_connection} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection aws_glue_connection} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public GlueConnection(Constructs.Construct scope, string id, aws.GlueConnection.IGlueConnectionConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,16 @@ namespace aws.GlueConnection
         /// <param name="importToId">The construct id used in the generated config for the GlueConnection to import.</param>
         /// <param name="importFromId">The id of the existing GlueConnection that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the GlueConnection to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the GlueConnection to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/glue_connection#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing GlueConnection that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the GlueConnection to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the GlueConnection to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing GlueConnection that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the GlueConnection to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.GlueConnection.GlueConnection), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putAuthenticationConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.glueConnection.GlueConnectionAuthenticationConfiguration\"}}]")]
+        public virtual void PutAuthenticationConfiguration(aws.GlueConnection.IGlueConnectionAuthenticationConfiguration @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.GlueConnection.IGlueConnectionAuthenticationConfiguration)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putPhysicalConnectionRequirements", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.glueConnection.GlueConnectionPhysicalConnectionRequirements\"}}]")]
@@ -54,6 +60,12 @@ namespace aws.GlueConnection
 
         [JsiiMethod(name: "resetAthenaProperties")]
         public virtual void ResetAthenaProperties()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAuthenticationConfiguration")]
+        public virtual void ResetAuthenticationConfiguration()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -143,6 +155,12 @@ namespace aws.GlueConnection
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "authenticationConfiguration", typeJson: "{\"fqn\":\"aws.glueConnection.GlueConnectionAuthenticationConfigurationOutputReference\"}")]
+        public virtual aws.GlueConnection.GlueConnectionAuthenticationConfigurationOutputReference AuthenticationConfiguration
+        {
+            get => GetInstanceProperty<aws.GlueConnection.GlueConnectionAuthenticationConfigurationOutputReference>()!;
+        }
+
         [JsiiProperty(name: "physicalConnectionRequirements", typeJson: "{\"fqn\":\"aws.glueConnection.GlueConnectionPhysicalConnectionRequirementsOutputReference\"}")]
         public virtual aws.GlueConnection.GlueConnectionPhysicalConnectionRequirementsOutputReference PhysicalConnectionRequirements
         {
@@ -154,6 +172,13 @@ namespace aws.GlueConnection
         public virtual System.Collections.Generic.IDictionary<string, string>? AthenaPropertiesInput
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "authenticationConfigurationInput", typeJson: "{\"fqn\":\"aws.glueConnection.GlueConnectionAuthenticationConfiguration\"}", isOptional: true)]
+        public virtual aws.GlueConnection.IGlueConnectionAuthenticationConfiguration? AuthenticationConfigurationInput
+        {
+            get => GetInstanceProperty<aws.GlueConnection.IGlueConnectionAuthenticationConfiguration?>();
         }
 
         [JsiiOptional]
