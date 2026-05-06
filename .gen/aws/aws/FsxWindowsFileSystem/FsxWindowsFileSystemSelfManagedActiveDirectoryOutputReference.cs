@@ -57,6 +57,18 @@ namespace aws.FsxWindowsFileSystem
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetPasswordWo")]
+        public virtual void ResetPasswordWo()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPasswordWoVersion")]
+        public virtual void ResetPasswordWoVersion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetUsername")]
         public virtual void ResetUsername()
         {
@@ -106,6 +118,20 @@ namespace aws.FsxWindowsFileSystem
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "passwordWoInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PasswordWoInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "passwordWoVersionInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? PasswordWoVersionInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "usernameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? UsernameInput
         {
@@ -151,6 +177,20 @@ namespace aws.FsxWindowsFileSystem
         public virtual string Password
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "passwordWo", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PasswordWo
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "passwordWoVersion", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double PasswordWoVersion
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

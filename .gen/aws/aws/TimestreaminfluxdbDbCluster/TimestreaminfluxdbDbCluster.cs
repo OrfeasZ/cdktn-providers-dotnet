@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.TimestreaminfluxdbDbCluster
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster}.</summary>
     [JsiiClass(nativeType: typeof(aws.TimestreaminfluxdbDbCluster.TimestreaminfluxdbDbCluster), fullyQualifiedName: "aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbCluster", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbClusterConfig\"}}]")]
     public class TimestreaminfluxdbDbCluster : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public TimestreaminfluxdbDbCluster(Constructs.Construct scope, string id, aws.TimestreaminfluxdbDbCluster.ITimestreaminfluxdbDbClusterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.TimestreaminfluxdbDbCluster
         /// <param name="importToId">The construct id used in the generated config for the TimestreaminfluxdbDbCluster to import.</param>
         /// <param name="importFromId">The id of the existing TimestreaminfluxdbDbCluster that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the TimestreaminfluxdbDbCluster to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the TimestreaminfluxdbDbCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.43.0/docs/resources/timestreaminfluxdb_db_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing TimestreaminfluxdbDbCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the TimestreaminfluxdbDbCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the TimestreaminfluxdbDbCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/timestreaminfluxdb_db_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing TimestreaminfluxdbDbCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the TimestreaminfluxdbDbCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.TimestreaminfluxdbDbCluster.TimestreaminfluxdbDbCluster), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -64,6 +64,29 @@ namespace aws.TimestreaminfluxdbDbCluster
                         throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.TimestreaminfluxdbDbCluster.ITimestreaminfluxdbDbClusterLogDeliveryConfiguration).FullName}[]; received null", nameof(@value));
                     default:
                         throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.TimestreaminfluxdbDbCluster.ITimestreaminfluxdbDbClusterLogDeliveryConfiguration).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putMaintenanceSchedule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbClusterMaintenanceSchedule\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutMaintenanceSchedule(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.TimestreaminfluxdbDbCluster.ITimestreaminfluxdbDbClusterMaintenanceSchedule[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.TimestreaminfluxdbDbCluster.ITimestreaminfluxdbDbClusterMaintenanceSchedule).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.TimestreaminfluxdbDbCluster.ITimestreaminfluxdbDbClusterMaintenanceSchedule).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
@@ -113,6 +136,12 @@ namespace aws.TimestreaminfluxdbDbCluster
 
         [JsiiMethod(name: "resetLogDeliveryConfiguration")]
         public virtual void ResetLogDeliveryConfiguration()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMaintenanceSchedule")]
+        public virtual void ResetMaintenanceSchedule()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -226,6 +255,12 @@ namespace aws.TimestreaminfluxdbDbCluster
             get => GetInstanceProperty<aws.TimestreaminfluxdbDbCluster.TimestreaminfluxdbDbClusterLogDeliveryConfigurationList>()!;
         }
 
+        [JsiiProperty(name: "maintenanceSchedule", typeJson: "{\"fqn\":\"aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbClusterMaintenanceScheduleList\"}")]
+        public virtual aws.TimestreaminfluxdbDbCluster.TimestreaminfluxdbDbClusterMaintenanceScheduleList MaintenanceSchedule
+        {
+            get => GetInstanceProperty<aws.TimestreaminfluxdbDbCluster.TimestreaminfluxdbDbClusterMaintenanceScheduleList>()!;
+        }
+
         [JsiiProperty(name: "readerEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ReaderEndpoint
         {
@@ -296,6 +331,13 @@ namespace aws.TimestreaminfluxdbDbCluster
         [JsiiOptional]
         [JsiiProperty(name: "logDeliveryConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbClusterLogDeliveryConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LogDeliveryConfigurationInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "maintenanceScheduleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbClusterMaintenanceSchedule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? MaintenanceScheduleInput
         {
             get => GetInstanceProperty<object?>();
         }
