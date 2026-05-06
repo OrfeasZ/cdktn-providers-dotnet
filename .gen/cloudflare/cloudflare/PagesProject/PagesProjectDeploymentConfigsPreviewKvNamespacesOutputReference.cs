@@ -34,12 +34,6 @@ namespace cloudflare.PagesProject
         {
         }
 
-        [JsiiMethod(name: "resetNamespaceId")]
-        public virtual void ResetNamespaceId()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "namespaceIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? NamespaceIdInput

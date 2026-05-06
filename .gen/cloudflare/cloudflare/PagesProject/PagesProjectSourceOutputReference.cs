@@ -39,18 +39,6 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.PagesProject.IPagesProjectSourceConfig)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "resetConfig")]
-        public virtual void ResetConfig()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetType")]
-        public virtual void ResetType()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiProperty(name: "config", typeJson: "{\"fqn\":\"cloudflare.pagesProject.PagesProjectSourceConfigOutputReference\"}")]
         public virtual cloudflare.PagesProject.PagesProjectSourceConfigOutputReference Config
         {

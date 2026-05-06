@@ -81,6 +81,12 @@ namespace cloudflare.DataCloudflareZeroTrustTunnelCloudflaredConfig
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "matchSnItoHost", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable MatchSnItoHost
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "noHappyEyeballs", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable NoHappyEyeballs
         {

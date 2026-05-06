@@ -7,23 +7,23 @@ namespace cloudflare.DataCloudflareAddressMap
     [JsiiInterface(nativeType: typeof(IDataCloudflareAddressMapConfig), fullyQualifiedName: "cloudflare.dataCloudflareAddressMap.DataCloudflareAddressMapConfig")]
     public interface IDataCloudflareAddressMapConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Identifier of a Cloudflare account.</summary>
+        /// <summary>Identifier of an Address Map.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/address_map#account_id DataCloudflareAddressMap#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/address_map#address_map_id DataCloudflareAddressMap#address_map_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
+        [JsiiProperty(name: "addressMapId", typeJson: "{\"primitive\":\"string\"}")]
+        string AddressMapId
         {
             get;
         }
 
-        /// <summary>Identifier of an Address Map.</summary>
+        /// <summary>Identifier of a Cloudflare account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/address_map#address_map_id DataCloudflareAddressMap#address_map_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/address_map#account_id DataCloudflareAddressMap#account_id}
         /// </remarks>
-        [JsiiProperty(name: "addressMapId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? AddressMapId
+        string? AccountId
         {
             get
             {
@@ -38,23 +38,23 @@ namespace cloudflare.DataCloudflareAddressMap
             {
             }
 
-            /// <summary>Identifier of a Cloudflare account.</summary>
+            /// <summary>Identifier of an Address Map.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/address_map#account_id DataCloudflareAddressMap#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/address_map#address_map_id DataCloudflareAddressMap#address_map_id}
             /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
+            [JsiiProperty(name: "addressMapId", typeJson: "{\"primitive\":\"string\"}")]
+            public string AddressMapId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Identifier of an Address Map.</summary>
+            /// <summary>Identifier of a Cloudflare account.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/address_map#address_map_id DataCloudflareAddressMap#address_map_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/address_map#account_id DataCloudflareAddressMap#account_id}
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "addressMapId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? AddressMapId
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
             {
                 get => GetInstanceProperty<string?>();
             }

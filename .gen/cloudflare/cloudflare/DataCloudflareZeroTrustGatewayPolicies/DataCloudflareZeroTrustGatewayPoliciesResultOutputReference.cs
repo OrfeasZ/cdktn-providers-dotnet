@@ -107,6 +107,12 @@ namespace cloudflare.DataCloudflareZeroTrustGatewayPolicies
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "readOnly", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable ReadOnly
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "ruleSettings", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustGatewayPolicies.DataCloudflareZeroTrustGatewayPoliciesResultRuleSettingsOutputReference\"}")]
         public virtual cloudflare.DataCloudflareZeroTrustGatewayPolicies.DataCloudflareZeroTrustGatewayPoliciesResultRuleSettingsOutputReference RuleSettings
         {
@@ -117,6 +123,18 @@ namespace cloudflare.DataCloudflareZeroTrustGatewayPolicies
         public virtual cloudflare.DataCloudflareZeroTrustGatewayPolicies.DataCloudflareZeroTrustGatewayPoliciesResultScheduleOutputReference Schedule
         {
             get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustGatewayPolicies.DataCloudflareZeroTrustGatewayPoliciesResultScheduleOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "sharable", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Sharable
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "sourceAccount", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SourceAccount
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "traffic", typeJson: "{\"primitive\":\"string\"}")]

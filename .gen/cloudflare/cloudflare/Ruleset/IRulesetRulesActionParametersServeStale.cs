@@ -7,16 +7,18 @@ namespace cloudflare.Ruleset
     [JsiiInterface(nativeType: typeof(IRulesetRulesActionParametersServeStale), fullyQualifiedName: "cloudflare.ruleset.RulesetRulesActionParametersServeStale")]
     public interface IRulesetRulesActionParametersServeStale
     {
-        /// <summary>Defines whether Cloudflare should serve stale content while updating.</summary>
+        /// <summary>Whether Cloudflare should disable serving stale content while getting the latest content from the origin.</summary>
         /// <remarks>
-        /// If true, Cloudflare will not serve stale content while getting the latest content from the origin.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#disable_stale_while_updating Ruleset#disable_stale_while_updating}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#disable_stale_while_updating Ruleset#disable_stale_while_updating}
         /// </remarks>
-        [JsiiProperty(name: "disableStaleWhileUpdating", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        object DisableStaleWhileUpdating
+        [JsiiProperty(name: "disableStaleWhileUpdating", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? DisableStaleWhileUpdating
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IRulesetRulesActionParametersServeStale), fullyQualifiedName: "cloudflare.ruleset.RulesetRulesActionParametersServeStale")]
@@ -26,16 +28,15 @@ namespace cloudflare.Ruleset
             {
             }
 
-            /// <summary>Defines whether Cloudflare should serve stale content while updating.</summary>
+            /// <summary>Whether Cloudflare should disable serving stale content while getting the latest content from the origin.</summary>
             /// <remarks>
-            /// If true, Cloudflare will not serve stale content while getting the latest content from the origin.
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#disable_stale_while_updating Ruleset#disable_stale_while_updating}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#disable_stale_while_updating Ruleset#disable_stale_while_updating}
             /// </remarks>
-            [JsiiProperty(name: "disableStaleWhileUpdating", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-            public object DisableStaleWhileUpdating
+            [JsiiOptional]
+            [JsiiProperty(name: "disableStaleWhileUpdating", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+            public object? DisableStaleWhileUpdating
             {
-                get => GetInstanceProperty<object>()!;
+                get => GetInstanceProperty<object?>();
             }
         }
     }

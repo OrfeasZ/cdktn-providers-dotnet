@@ -7,19 +7,19 @@ namespace cloudflare.DataCloudflarePagesDomain
     [JsiiInterface(nativeType: typeof(IDataCloudflarePagesDomainConfig), fullyQualifiedName: "cloudflare.dataCloudflarePagesDomain.DataCloudflarePagesDomainConfig")]
     public interface IDataCloudflarePagesDomainConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Identifier.</summary>
+        /// <summary>The domain name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/pages_domain#account_id DataCloudflarePagesDomain#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/pages_domain#domain_name DataCloudflarePagesDomain#domain_name}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
+        [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
+        string DomainName
         {
             get;
         }
 
         /// <summary>Name of the project.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/pages_domain#project_name DataCloudflarePagesDomain#project_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/pages_domain#project_name DataCloudflarePagesDomain#project_name}
         /// </remarks>
         [JsiiProperty(name: "projectName", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectName
@@ -27,13 +27,13 @@ namespace cloudflare.DataCloudflarePagesDomain
             get;
         }
 
-        /// <summary>Name of the domain.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/pages_domain#domain_name DataCloudflarePagesDomain#domain_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/pages_domain#account_id DataCloudflarePagesDomain#account_id}
         /// </remarks>
-        [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? DomainName
+        string? AccountId
         {
             get
             {
@@ -48,19 +48,19 @@ namespace cloudflare.DataCloudflarePagesDomain
             {
             }
 
-            /// <summary>Identifier.</summary>
+            /// <summary>The domain name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/pages_domain#account_id DataCloudflarePagesDomain#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/pages_domain#domain_name DataCloudflarePagesDomain#domain_name}
             /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
+            [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
+            public string DomainName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
             /// <summary>Name of the project.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/pages_domain#project_name DataCloudflarePagesDomain#project_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/pages_domain#project_name DataCloudflarePagesDomain#project_name}
             /// </remarks>
             [JsiiProperty(name: "projectName", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectName
@@ -68,13 +68,13 @@ namespace cloudflare.DataCloudflarePagesDomain
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Name of the domain.</summary>
+            /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/pages_domain#domain_name DataCloudflarePagesDomain#domain_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/pages_domain#account_id DataCloudflarePagesDomain#account_id}
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? DomainName
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
             {
                 get => GetInstanceProperty<string?>();
             }

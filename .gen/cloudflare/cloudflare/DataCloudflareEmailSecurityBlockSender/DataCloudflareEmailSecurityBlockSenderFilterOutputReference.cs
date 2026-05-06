@@ -45,6 +45,12 @@ namespace cloudflare.DataCloudflareEmailSecurityBlockSender
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetPattern")]
+        public virtual void ResetPattern()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetPatternType")]
         public virtual void ResetPatternType()
         {
@@ -72,6 +78,13 @@ namespace cloudflare.DataCloudflareEmailSecurityBlockSender
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "patternInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PatternInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "patternTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? PatternTypeInput
         {
@@ -94,6 +107,13 @@ namespace cloudflare.DataCloudflareEmailSecurityBlockSender
 
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Order
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "pattern", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Pattern
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

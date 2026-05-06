@@ -35,18 +35,6 @@ namespace cloudflare.ManagedTransforms
         {
         }
 
-        [JsiiProperty(name: "conflictsWith", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] ConflictsWith
-        {
-            get => GetInstanceProperty<string[]>()!;
-        }
-
-        [JsiiProperty(name: "hasConflict", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable HasConflict
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput

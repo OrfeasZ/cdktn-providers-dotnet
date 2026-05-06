@@ -7,15 +7,11 @@ namespace cloudflare.PagesProject
     [JsiiInterface(nativeType: typeof(IPagesProjectDeploymentConfigsProductionVectorizeBindings), fullyQualifiedName: "cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionVectorizeBindings")]
     public interface IPagesProjectDeploymentConfigsProductionVectorizeBindings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#index_name PagesProject#index_name}.</summary>
-        [JsiiProperty(name: "indexName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? IndexName
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#index_name PagesProject#index_name}.</summary>
+        [JsiiProperty(name: "indexName", typeJson: "{\"primitive\":\"string\"}")]
+        string IndexName
         {
-            get
-            {
-                return null;
-            }
+            get;
         }
 
         [JsiiTypeProxy(nativeType: typeof(IPagesProjectDeploymentConfigsProductionVectorizeBindings), fullyQualifiedName: "cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionVectorizeBindings")]
@@ -25,12 +21,11 @@ namespace cloudflare.PagesProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#index_name PagesProject#index_name}.</summary>
-            [JsiiOptional]
-            [JsiiProperty(name: "indexName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? IndexName
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#index_name PagesProject#index_name}.</summary>
+            [JsiiProperty(name: "indexName", typeJson: "{\"primitive\":\"string\"}")]
+            public string IndexName
             {
-                get => GetInstanceProperty<string?>();
+                get => GetInstanceProperty<string>()!;
             }
         }
     }

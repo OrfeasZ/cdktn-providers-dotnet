@@ -58,12 +58,6 @@ namespace cloudflare.AccountToken
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Id
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "permissionGroups", typeJson: "{\"fqn\":\"cloudflare.accountToken.AccountTokenPoliciesPermissionGroupsList\"}")]
         public virtual cloudflare.AccountToken.AccountTokenPoliciesPermissionGroupsList PermissionGroups
         {
@@ -85,10 +79,10 @@ namespace cloudflare.AccountToken
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "resourcesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
-        public virtual System.Collections.Generic.IDictionary<string, string>? ResourcesInput
+        [JsiiProperty(name: "resourcesInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ResourcesInput
         {
-            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiProperty(name: "effect", typeJson: "{\"primitive\":\"string\"}")]
@@ -98,10 +92,10 @@ namespace cloudflare.AccountToken
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "resources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
-        public virtual System.Collections.Generic.IDictionary<string, string> Resources
+        [JsiiProperty(name: "resources", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Resources
         {
-            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

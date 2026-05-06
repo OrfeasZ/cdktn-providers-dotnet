@@ -41,14 +41,14 @@ namespace cloudflare.ZeroTrustDlpCustomProfile
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustDlpCustomProfile.IZeroTrustDlpCustomProfileEntriesPattern)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "resetPattern")]
-        public virtual void ResetPattern()
+        [JsiiMethod(name: "resetDescription")]
+        public virtual void ResetDescription()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetWords")]
-        public virtual void ResetWords()
+        [JsiiMethod(name: "resetEntryId")]
+        public virtual void ResetEntryId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -60,10 +60,24 @@ namespace cloudflare.ZeroTrustDlpCustomProfile
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "descriptionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DescriptionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "entryIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? EntryIdInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -80,11 +94,11 @@ namespace cloudflare.ZeroTrustDlpCustomProfile
             get => GetInstanceProperty<object?>();
         }
 
-        [JsiiOptional]
-        [JsiiProperty(name: "wordsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
-        public virtual string[]? WordsInput
+        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Description
         {
-            get => GetInstanceProperty<string[]?>();
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -114,17 +128,17 @@ namespace cloudflare.ZeroTrustDlpCustomProfile
             }
         }
 
-        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Name
+        [JsiiProperty(name: "entryId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string EntryId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "words", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] Words
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Name
         {
-            get => GetInstanceProperty<string[]>()!;
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

@@ -39,6 +39,24 @@ namespace cloudflare.DataCloudflareMagicWanIpsecTunnel
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "automaticReturnRouting", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable AutomaticReturnRouting
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "bgp", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareMagicWanIpsecTunnel.DataCloudflareMagicWanIpsecTunnelIpsecTunnelBgpOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareMagicWanIpsecTunnel.DataCloudflareMagicWanIpsecTunnelIpsecTunnelBgpOutputReference Bgp
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareMagicWanIpsecTunnel.DataCloudflareMagicWanIpsecTunnelIpsecTunnelBgpOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "bgpStatus", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareMagicWanIpsecTunnel.DataCloudflareMagicWanIpsecTunnelIpsecTunnelBgpStatusOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareMagicWanIpsecTunnel.DataCloudflareMagicWanIpsecTunnelIpsecTunnelBgpStatusOutputReference BgpStatus
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareMagicWanIpsecTunnel.DataCloudflareMagicWanIpsecTunnelIpsecTunnelBgpStatusOutputReference>()!;
+        }
+
         [JsiiProperty(name: "cloudflareEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CloudflareEndpoint
         {
@@ -55,6 +73,12 @@ namespace cloudflare.DataCloudflareMagicWanIpsecTunnel
         public virtual string CustomerEndpoint
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "customRemoteIdentities", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareMagicWanIpsecTunnel.DataCloudflareMagicWanIpsecTunnelIpsecTunnelCustomRemoteIdentitiesOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareMagicWanIpsecTunnel.DataCloudflareMagicWanIpsecTunnelIpsecTunnelCustomRemoteIdentitiesOutputReference CustomRemoteIdentities
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareMagicWanIpsecTunnel.DataCloudflareMagicWanIpsecTunnelIpsecTunnelCustomRemoteIdentitiesOutputReference>()!;
         }
 
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
@@ -77,6 +101,12 @@ namespace cloudflare.DataCloudflareMagicWanIpsecTunnel
 
         [JsiiProperty(name: "interfaceAddress", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string InterfaceAddress
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "interfaceAddress6", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string InterfaceAddress6
         {
             get => GetInstanceProperty<string>()!;
         }

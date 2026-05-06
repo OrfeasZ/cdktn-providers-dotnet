@@ -35,12 +35,6 @@ namespace cloudflare.DataCloudflareWorkersKvNamespaces
         {
         }
 
-        [JsiiProperty(name: "beta", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable Beta
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {

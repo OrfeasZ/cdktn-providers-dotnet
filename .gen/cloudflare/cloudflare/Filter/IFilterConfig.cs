@@ -7,24 +7,81 @@ namespace cloudflare.Filter
     [JsiiInterface(nativeType: typeof(IFilterConfig), fullyQualifiedName: "cloudflare.filter.FilterConfig")]
     public interface IFilterConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>The filter expression. For more information, refer to [Expressions](https://developers.cloudflare.com/ruleset-engine/rules-language/expressions/).</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/filter#expression Filter#expression}
-        /// </remarks>
-        [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}")]
-        string Expression
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/filter#body Filter#body}.</summary>
+        [JsiiProperty(name: "body", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.filter.FilterBody\"},\"kind\":\"array\"}}]}}")]
+        object Body
         {
             get;
         }
 
+        /// <summary>An informative summary of the filter.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/filter#description Filter#description}
+        /// </remarks>
+        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Description
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>The filter expression. For more information, refer to [Expressions](https://developers.cloudflare.com/ruleset-engine/rules-language/expressions/).</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/filter#expression Filter#expression}
+        /// </remarks>
+        [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Expression
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>When true, indicates that the filter is currently paused.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/filter#paused Filter#paused}
+        /// </remarks>
+        [JsiiProperty(name: "paused", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? Paused
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>A short reference tag. Allows you to select related filters.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/filter#ref Filter#ref}
+        /// </remarks>
+        [JsiiProperty(name: "ref", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Ref
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>Defines an identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/filter#zone_id Filter#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/filter#zone_id Filter#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? ZoneId
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IFilterConfig), fullyQualifiedName: "cloudflare.filter.FilterConfig")]
@@ -34,24 +91,66 @@ namespace cloudflare.Filter
             {
             }
 
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/filter#body Filter#body}.</summary>
+            [JsiiProperty(name: "body", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.filter.FilterBody\"},\"kind\":\"array\"}}]}}")]
+            public object Body
+            {
+                get => GetInstanceProperty<object>()!;
+            }
+
+            /// <summary>An informative summary of the filter.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/filter#description Filter#description}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Description
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
             /// <summary>The filter expression. For more information, refer to [Expressions](https://developers.cloudflare.com/ruleset-engine/rules-language/expressions/).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/filter#expression Filter#expression}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/filter#expression Filter#expression}
             /// </remarks>
-            [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}")]
-            public string Expression
+            [JsiiOptional]
+            [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Expression
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>When true, indicates that the filter is currently paused.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/filter#paused Filter#paused}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "paused", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+            public object? Paused
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
+            /// <summary>A short reference tag. Allows you to select related filters.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/filter#ref Filter#ref}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "ref", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Ref
+            {
+                get => GetInstanceProperty<string?>();
             }
 
             /// <summary>Defines an identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/filter#zone_id Filter#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/filter#zone_id Filter#zone_id}
             /// </remarks>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
+            [JsiiOptional]
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

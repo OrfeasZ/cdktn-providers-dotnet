@@ -7,11 +7,11 @@ namespace cloudflare.ZeroTrustGatewayPolicy
     [JsiiInterface(nativeType: typeof(IZeroTrustGatewayPolicySchedule), fullyQualifiedName: "cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicySchedule")]
     public interface IZeroTrustGatewayPolicySchedule
     {
-        /// <summary>The time intervals when the rule will be active on Fridays, in increasing order from 00:00-24:00.</summary>
+        /// <summary>Specify the time intervals when the rule is active on Fridays, in the increasing order from 00:00-24:00.</summary>
         /// <remarks>
-        /// If this parameter is omitted, the rule will be deactivated on Fridays.
+        /// If this parameter omitted, the rule is deactivated on Fridays. API returns a formatted version of this string, which may cause Terraform drift if a unformatted value is used.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#fri ZeroTrustGatewayPolicy#fri}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#fri ZeroTrustGatewayPolicy#fri}
         /// </remarks>
         [JsiiProperty(name: "fri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,11 +23,11 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             }
         }
 
-        /// <summary>The time intervals when the rule will be active on Mondays, in increasing order from 00:00-24:00.</summary>
+        /// <summary>Specify the time intervals when the rule is active on Mondays, in the increasing order from 00:00-24:00(capped at maximum of 6 time splits).</summary>
         /// <remarks>
-        /// If this parameter is omitted, the rule will be deactivated on Mondays.
+        /// If this parameter omitted, the rule is deactivated on Mondays. API returns a formatted version of this string, which may cause Terraform drift if a unformatted value is used.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#mon ZeroTrustGatewayPolicy#mon}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#mon ZeroTrustGatewayPolicy#mon}
         /// </remarks>
         [JsiiProperty(name: "mon", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -39,11 +39,11 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             }
         }
 
-        /// <summary>The time intervals when the rule will be active on Saturdays, in increasing order from 00:00-24:00.</summary>
+        /// <summary>Specify the time intervals when the rule is active on Saturdays, in the increasing order from 00:00-24:00.</summary>
         /// <remarks>
-        /// If this parameter is omitted, the rule will be deactivated on Saturdays.
+        /// If this parameter omitted, the rule is deactivated on Saturdays. API returns a formatted version of this string, which may cause Terraform drift if a unformatted value is used.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#sat ZeroTrustGatewayPolicy#sat}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#sat ZeroTrustGatewayPolicy#sat}
         /// </remarks>
         [JsiiProperty(name: "sat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,11 +55,11 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             }
         }
 
-        /// <summary>The time intervals when the rule will be active on Sundays, in increasing order from 00:00-24:00.</summary>
+        /// <summary>Specify the time intervals when the rule is active on Sundays, in the increasing order from 00:00-24:00.</summary>
         /// <remarks>
-        /// If this parameter is omitted, the rule will be deactivated on Sundays.
+        /// If this parameter omitted, the rule is deactivated on Sundays. API returns a formatted version of this string, which may cause Terraform drift if a unformatted value is used.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#sun ZeroTrustGatewayPolicy#sun}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#sun ZeroTrustGatewayPolicy#sun}
         /// </remarks>
         [JsiiProperty(name: "sun", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -71,11 +71,11 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             }
         }
 
-        /// <summary>The time intervals when the rule will be active on Thursdays, in increasing order from 00:00-24:00.</summary>
+        /// <summary>Specify the time intervals when the rule is active on Thursdays, in the increasing order from 00:00-24:00.</summary>
         /// <remarks>
-        /// If this parameter is omitted, the rule will be deactivated on Thursdays.
+        /// If this parameter omitted, the rule is deactivated on Thursdays. API returns a formatted version of this string, which may cause Terraform drift if a unformatted value is used.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#thu ZeroTrustGatewayPolicy#thu}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#thu ZeroTrustGatewayPolicy#thu}
         /// </remarks>
         [JsiiProperty(name: "thu", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -87,11 +87,11 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             }
         }
 
-        /// <summary>The time zone the rule will be evaluated against.</summary>
+        /// <summary>Specify the time zone for rule evaluation.</summary>
         /// <remarks>
-        /// If a <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List">valid time zone city name</a> is provided, Gateway will always use the current time at that time zone. If this parameter is omitted, then Gateway will use the time zone inferred from the user's source IP to evaluate the rule. If Gateway cannot determine the time zone from the IP, we will fall back to the time zone of the user's connected data center.
+        /// When a <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List">valid time zone city name</a> is provided, Gateway always uses the current time for that time zone. When this parameter is omitted, Gateway uses the time zone determined from the user's IP address. Colo time zone is used when the user's IP address does not resolve to a location.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#time_zone ZeroTrustGatewayPolicy#time_zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#time_zone ZeroTrustGatewayPolicy#time_zone}
         /// </remarks>
         [JsiiProperty(name: "timeZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -103,11 +103,11 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             }
         }
 
-        /// <summary>The time intervals when the rule will be active on Tuesdays, in increasing order from 00:00-24:00.</summary>
+        /// <summary>Specify the time intervals when the rule is active on Tuesdays, in the increasing order from 00:00-24:00.</summary>
         /// <remarks>
-        /// If this parameter is omitted, the rule will be deactivated on Tuesdays.
+        /// If this parameter omitted, the rule is deactivated on Tuesdays. API returns a formatted version of this string, which may cause Terraform drift if a unformatted value is used.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#tue ZeroTrustGatewayPolicy#tue}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#tue ZeroTrustGatewayPolicy#tue}
         /// </remarks>
         [JsiiProperty(name: "tue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -119,11 +119,11 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             }
         }
 
-        /// <summary>The time intervals when the rule will be active on Wednesdays, in increasing order from 00:00-24:00.</summary>
+        /// <summary>Specify the time intervals when the rule is active on Wednesdays, in the increasing order from 00:00-24:00.</summary>
         /// <remarks>
-        /// If this parameter is omitted, the rule will be deactivated on Wednesdays.
+        /// If this parameter omitted, the rule is deactivated on Wednesdays. API returns a formatted version of this string, which may cause Terraform drift if a unformatted value is used.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#wed ZeroTrustGatewayPolicy#wed}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#wed ZeroTrustGatewayPolicy#wed}
         /// </remarks>
         [JsiiProperty(name: "wed", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -142,11 +142,11 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             {
             }
 
-            /// <summary>The time intervals when the rule will be active on Fridays, in increasing order from 00:00-24:00.</summary>
+            /// <summary>Specify the time intervals when the rule is active on Fridays, in the increasing order from 00:00-24:00.</summary>
             /// <remarks>
-            /// If this parameter is omitted, the rule will be deactivated on Fridays.
+            /// If this parameter omitted, the rule is deactivated on Fridays. API returns a formatted version of this string, which may cause Terraform drift if a unformatted value is used.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#fri ZeroTrustGatewayPolicy#fri}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#fri ZeroTrustGatewayPolicy#fri}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -155,11 +155,11 @@ namespace cloudflare.ZeroTrustGatewayPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>The time intervals when the rule will be active on Mondays, in increasing order from 00:00-24:00.</summary>
+            /// <summary>Specify the time intervals when the rule is active on Mondays, in the increasing order from 00:00-24:00(capped at maximum of 6 time splits).</summary>
             /// <remarks>
-            /// If this parameter is omitted, the rule will be deactivated on Mondays.
+            /// If this parameter omitted, the rule is deactivated on Mondays. API returns a formatted version of this string, which may cause Terraform drift if a unformatted value is used.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#mon ZeroTrustGatewayPolicy#mon}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#mon ZeroTrustGatewayPolicy#mon}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mon", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -168,11 +168,11 @@ namespace cloudflare.ZeroTrustGatewayPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>The time intervals when the rule will be active on Saturdays, in increasing order from 00:00-24:00.</summary>
+            /// <summary>Specify the time intervals when the rule is active on Saturdays, in the increasing order from 00:00-24:00.</summary>
             /// <remarks>
-            /// If this parameter is omitted, the rule will be deactivated on Saturdays.
+            /// If this parameter omitted, the rule is deactivated on Saturdays. API returns a formatted version of this string, which may cause Terraform drift if a unformatted value is used.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#sat ZeroTrustGatewayPolicy#sat}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#sat ZeroTrustGatewayPolicy#sat}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -181,11 +181,11 @@ namespace cloudflare.ZeroTrustGatewayPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>The time intervals when the rule will be active on Sundays, in increasing order from 00:00-24:00.</summary>
+            /// <summary>Specify the time intervals when the rule is active on Sundays, in the increasing order from 00:00-24:00.</summary>
             /// <remarks>
-            /// If this parameter is omitted, the rule will be deactivated on Sundays.
+            /// If this parameter omitted, the rule is deactivated on Sundays. API returns a formatted version of this string, which may cause Terraform drift if a unformatted value is used.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#sun ZeroTrustGatewayPolicy#sun}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#sun ZeroTrustGatewayPolicy#sun}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sun", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -194,11 +194,11 @@ namespace cloudflare.ZeroTrustGatewayPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>The time intervals when the rule will be active on Thursdays, in increasing order from 00:00-24:00.</summary>
+            /// <summary>Specify the time intervals when the rule is active on Thursdays, in the increasing order from 00:00-24:00.</summary>
             /// <remarks>
-            /// If this parameter is omitted, the rule will be deactivated on Thursdays.
+            /// If this parameter omitted, the rule is deactivated on Thursdays. API returns a formatted version of this string, which may cause Terraform drift if a unformatted value is used.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#thu ZeroTrustGatewayPolicy#thu}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#thu ZeroTrustGatewayPolicy#thu}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "thu", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -207,11 +207,11 @@ namespace cloudflare.ZeroTrustGatewayPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>The time zone the rule will be evaluated against.</summary>
+            /// <summary>Specify the time zone for rule evaluation.</summary>
             /// <remarks>
-            /// If a <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List">valid time zone city name</a> is provided, Gateway will always use the current time at that time zone. If this parameter is omitted, then Gateway will use the time zone inferred from the user's source IP to evaluate the rule. If Gateway cannot determine the time zone from the IP, we will fall back to the time zone of the user's connected data center.
+            /// When a <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List">valid time zone city name</a> is provided, Gateway always uses the current time for that time zone. When this parameter is omitted, Gateway uses the time zone determined from the user's IP address. Colo time zone is used when the user's IP address does not resolve to a location.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#time_zone ZeroTrustGatewayPolicy#time_zone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#time_zone ZeroTrustGatewayPolicy#time_zone}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -220,11 +220,11 @@ namespace cloudflare.ZeroTrustGatewayPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>The time intervals when the rule will be active on Tuesdays, in increasing order from 00:00-24:00.</summary>
+            /// <summary>Specify the time intervals when the rule is active on Tuesdays, in the increasing order from 00:00-24:00.</summary>
             /// <remarks>
-            /// If this parameter is omitted, the rule will be deactivated on Tuesdays.
+            /// If this parameter omitted, the rule is deactivated on Tuesdays. API returns a formatted version of this string, which may cause Terraform drift if a unformatted value is used.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#tue ZeroTrustGatewayPolicy#tue}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#tue ZeroTrustGatewayPolicy#tue}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -233,11 +233,11 @@ namespace cloudflare.ZeroTrustGatewayPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>The time intervals when the rule will be active on Wednesdays, in increasing order from 00:00-24:00.</summary>
+            /// <summary>Specify the time intervals when the rule is active on Wednesdays, in the increasing order from 00:00-24:00.</summary>
             /// <remarks>
-            /// If this parameter is omitted, the rule will be deactivated on Wednesdays.
+            /// If this parameter omitted, the rule is deactivated on Wednesdays. API returns a formatted version of this string, which may cause Terraform drift if a unformatted value is used.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#wed ZeroTrustGatewayPolicy#wed}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#wed ZeroTrustGatewayPolicy#wed}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "wed", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

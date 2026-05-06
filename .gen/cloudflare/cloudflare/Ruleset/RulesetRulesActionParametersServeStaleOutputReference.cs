@@ -33,6 +33,12 @@ namespace cloudflare.Ruleset
         {
         }
 
+        [JsiiMethod(name: "resetDisableStaleWhileUpdating")]
+        public virtual void ResetDisableStaleWhileUpdating()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "disableStaleWhileUpdatingInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? DisableStaleWhileUpdatingInput

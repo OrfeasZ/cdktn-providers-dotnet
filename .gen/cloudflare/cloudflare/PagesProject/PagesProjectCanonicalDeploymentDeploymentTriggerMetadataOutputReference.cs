@@ -39,6 +39,12 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "commitDirty", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable CommitDirty
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "commitHash", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CommitHash
         {

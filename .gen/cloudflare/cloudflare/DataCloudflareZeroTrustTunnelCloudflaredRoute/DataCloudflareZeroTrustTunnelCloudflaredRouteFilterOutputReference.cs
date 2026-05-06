@@ -63,12 +63,6 @@ namespace cloudflare.DataCloudflareZeroTrustTunnelCloudflaredRoute
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetRouteId")]
-        public virtual void ResetRouteId()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetTunnelId")]
         public virtual void ResetTunnelId()
         {
@@ -118,13 +112,6 @@ namespace cloudflare.DataCloudflareZeroTrustTunnelCloudflaredRoute
         [JsiiOptional]
         [JsiiProperty(name: "networkSupersetInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? NetworkSupersetInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "routeIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? RouteIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -200,13 +187,6 @@ namespace cloudflare.DataCloudflareZeroTrustTunnelCloudflaredRoute
 
         [JsiiProperty(name: "networkSuperset", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string NetworkSuperset
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "routeId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string RouteId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

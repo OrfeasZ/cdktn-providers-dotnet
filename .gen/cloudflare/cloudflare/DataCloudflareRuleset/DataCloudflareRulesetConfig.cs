@@ -7,9 +7,9 @@ namespace cloudflare.DataCloudflareRuleset
     [JsiiByValue(fqn: "cloudflare.dataCloudflareRuleset.DataCloudflareRulesetConfig")]
     public class DataCloudflareRulesetConfig : cloudflare.DataCloudflareRuleset.IDataCloudflareRulesetConfig
     {
-        /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
+        /// <summary>The unique ID of the account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/ruleset#account_id DataCloudflareRuleset#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/ruleset#account_id DataCloudflareRuleset#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,22 @@ namespace cloudflare.DataCloudflareRuleset
 
         /// <summary>The unique ID of the ruleset.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/ruleset#ruleset_id DataCloudflareRuleset#ruleset_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/ruleset#id DataCloudflareRuleset#id}
+        ///
+        /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+        /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Id
+        {
+            get;
+            set;
+        }
+
+        /// <summary>The unique ID of the ruleset.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/ruleset#ruleset_id DataCloudflareRuleset#ruleset_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rulesetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -31,9 +46,9 @@ namespace cloudflare.DataCloudflareRuleset
             set;
         }
 
-        /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
+        /// <summary>The unique ID of the zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/ruleset#zone_id DataCloudflareRuleset#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/ruleset#zone_id DataCloudflareRuleset#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

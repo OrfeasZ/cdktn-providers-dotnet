@@ -7,9 +7,18 @@ namespace cloudflare.DataCloudflareHostnameTlsSetting
     [JsiiInterface(nativeType: typeof(IDataCloudflareHostnameTlsSettingConfig), fullyQualifiedName: "cloudflare.dataCloudflareHostnameTlsSetting.DataCloudflareHostnameTlsSettingConfig")]
     public interface IDataCloudflareHostnameTlsSettingConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>The TLS Setting name. Available values: "ciphers", "min_tls_version", "http2".</summary>
+        /// <summary>The TLS Setting name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/hostname_tls_setting#setting_id DataCloudflareHostnameTlsSetting#setting_id}
+        /// The value type depends on the setting:
+        ///
+        /// <list type="bullet">
+        /// <description><c>ciphers</c>: value is an array of cipher suite strings (e.g., <c>["ECDHE-RSA-AES128-GCM-SHA256", "AES128-GCM-SHA256"]</c>)</description>
+        /// <description><c>min_tls_version</c>: value is a TLS version string (<c>"1.0"</c>, <c>"1.1"</c>, <c>"1.2"</c>, or <c>"1.3"</c>)</description>
+        /// <description><c>http2</c>: value is <c>"on"</c> or <c>"off"</c>
+        /// Available values: "ciphers", "min_tls_version", "http2".</description>
+        /// </list>
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/hostname_tls_setting#setting_id DataCloudflareHostnameTlsSetting#setting_id}
         /// </remarks>
         [JsiiProperty(name: "settingId", typeJson: "{\"primitive\":\"string\"}")]
         string SettingId
@@ -19,12 +28,16 @@ namespace cloudflare.DataCloudflareHostnameTlsSetting
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/hostname_tls_setting#zone_id DataCloudflareHostnameTlsSetting#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/hostname_tls_setting#zone_id DataCloudflareHostnameTlsSetting#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? ZoneId
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IDataCloudflareHostnameTlsSettingConfig), fullyQualifiedName: "cloudflare.dataCloudflareHostnameTlsSetting.DataCloudflareHostnameTlsSettingConfig")]
@@ -34,9 +47,18 @@ namespace cloudflare.DataCloudflareHostnameTlsSetting
             {
             }
 
-            /// <summary>The TLS Setting name. Available values: "ciphers", "min_tls_version", "http2".</summary>
+            /// <summary>The TLS Setting name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/hostname_tls_setting#setting_id DataCloudflareHostnameTlsSetting#setting_id}
+            /// The value type depends on the setting:
+            ///
+            /// <list type="bullet">
+            /// <description><c>ciphers</c>: value is an array of cipher suite strings (e.g., <c>["ECDHE-RSA-AES128-GCM-SHA256", "AES128-GCM-SHA256"]</c>)</description>
+            /// <description><c>min_tls_version</c>: value is a TLS version string (<c>"1.0"</c>, <c>"1.1"</c>, <c>"1.2"</c>, or <c>"1.3"</c>)</description>
+            /// <description><c>http2</c>: value is <c>"on"</c> or <c>"off"</c>
+            /// Available values: "ciphers", "min_tls_version", "http2".</description>
+            /// </list>
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/hostname_tls_setting#setting_id DataCloudflareHostnameTlsSetting#setting_id}
             /// </remarks>
             [JsiiProperty(name: "settingId", typeJson: "{\"primitive\":\"string\"}")]
             public string SettingId
@@ -46,12 +68,13 @@ namespace cloudflare.DataCloudflareHostnameTlsSetting
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/hostname_tls_setting#zone_id DataCloudflareHostnameTlsSetting#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/hostname_tls_setting#zone_id DataCloudflareHostnameTlsSetting#zone_id}
             /// </remarks>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
+            [JsiiOptional]
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

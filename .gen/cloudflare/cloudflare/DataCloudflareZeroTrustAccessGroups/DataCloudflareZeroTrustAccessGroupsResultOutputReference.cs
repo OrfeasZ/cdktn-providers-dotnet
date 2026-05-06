@@ -35,12 +35,6 @@ namespace cloudflare.DataCloudflareZeroTrustAccessGroups
         {
         }
 
-        [JsiiProperty(name: "createdAt", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string CreatedAt
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "exclude", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessGroups.DataCloudflareZeroTrustAccessGroupsResultExcludeList\"}")]
         public virtual cloudflare.DataCloudflareZeroTrustAccessGroups.DataCloudflareZeroTrustAccessGroupsResultExcludeList Exclude
         {
@@ -75,12 +69,6 @@ namespace cloudflare.DataCloudflareZeroTrustAccessGroups
         public virtual cloudflare.DataCloudflareZeroTrustAccessGroups.DataCloudflareZeroTrustAccessGroupsResultRequireList Require
         {
             get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessGroups.DataCloudflareZeroTrustAccessGroupsResultRequireList>()!;
-        }
-
-        [JsiiProperty(name: "updatedAt", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string UpdatedAt
-        {
-            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiOptional]

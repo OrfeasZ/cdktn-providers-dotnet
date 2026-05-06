@@ -9,23 +9,24 @@ namespace cloudflare.AccountMember
     [JsiiByValue(fqn: "cloudflare.accountMember.AccountMemberConfig")]
     public class AccountMemberConfig : cloudflare.AccountMember.IAccountMemberConfig
     {
-        /// <summary>Account identifier tag.</summary>
+        /// <summary>The contact email address of the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/account_member#account_id AccountMember#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/account_member#email AccountMember#email}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public string AccountId
+        [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
+        public string Email
         {
             get;
             set;
         }
 
-        /// <summary>The contact email address of the user.</summary>
+        /// <summary>Account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/account_member#email AccountMember#email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/account_member#account_id AccountMember#account_id}
         /// </remarks>
-        [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
-        public string Email
+        [JsiiOptional]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AccountId
         {
             get;
             set;
@@ -35,7 +36,7 @@ namespace cloudflare.AccountMember
 
         /// <summary>Array of policies associated with this member.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/account_member#policies AccountMember#policies}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/account_member#policies AccountMember#policies}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "policies", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.accountMember.AccountMemberPolicies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -65,9 +66,9 @@ namespace cloudflare.AccountMember
             }
         }
 
-        /// <summary>Array of roles associated with this member.</summary>
+        /// <summary>Set of roles associated with this member.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/account_member#roles AccountMember#roles}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/account_member#roles AccountMember#roles}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "roles", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -77,9 +78,13 @@ namespace cloudflare.AccountMember
             set;
         }
 
-        /// <summary>Available values: "accepted", "pending".</summary>
+        /// <summary>Status of the member invitation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/account_member#status AccountMember#status}
+        /// If not provided during creation, defaults to 'pending'.
+        /// Changing from 'accepted' back to 'pending' will trigger a replacement of the member resource in Terraform.
+        /// Available values: "accepted", "pending".
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/account_member#status AccountMember#status}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

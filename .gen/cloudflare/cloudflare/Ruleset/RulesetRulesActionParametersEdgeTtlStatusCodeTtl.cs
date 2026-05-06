@@ -9,11 +9,11 @@ namespace cloudflare.Ruleset
     [JsiiByValue(fqn: "cloudflare.ruleset.RulesetRulesActionParametersEdgeTtlStatusCodeTtl")]
     public class RulesetRulesActionParametersEdgeTtlStatusCodeTtl : cloudflare.Ruleset.IRulesetRulesActionParametersEdgeTtlStatusCodeTtl
     {
-        /// <summary>Time to cache a response (in seconds).</summary>
+        /// <summary>The time to cache the response for (in seconds).</summary>
         /// <remarks>
-        /// A value of 0 is equivalent to setting the Cache-Control header with the value "no-cache". A value of -1 is equivalent to setting Cache-Control header with the value of "no-store".
+        /// A value of 0 is equivalent to setting the cache control header with the value "no-cache". A value of -1 is equivalent to setting the cache control header with the value of "no-store".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#value Ruleset#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#value Ruleset#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]
         public double Value
@@ -22,9 +22,9 @@ namespace cloudflare.Ruleset
             set;
         }
 
-        /// <summary>Set the TTL for responses with this specific status code.</summary>
+        /// <summary>A single status code to apply the TTL to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#status_code Ruleset#status_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#status_code Ruleset#status_code}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "statusCode", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -34,9 +34,9 @@ namespace cloudflare.Ruleset
             set;
         }
 
-        /// <summary>The range of status codes used to apply the selected mode.</summary>
+        /// <summary>A range of status codes to apply the TTL to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#status_code_range Ruleset#status_code_range}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#status_code_range Ruleset#status_code_range}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "statusCodeRange", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersEdgeTtlStatusCodeTtlStatusCodeRange\"}", isOptional: true)]

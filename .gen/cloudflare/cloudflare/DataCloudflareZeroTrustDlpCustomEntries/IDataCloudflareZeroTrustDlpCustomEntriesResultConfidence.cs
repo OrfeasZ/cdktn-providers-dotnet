@@ -1,0 +1,19 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace cloudflare.DataCloudflareZeroTrustDlpCustomEntries
+{
+    [JsiiInterface(nativeType: typeof(IDataCloudflareZeroTrustDlpCustomEntriesResultConfidence), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustDlpCustomEntries.DataCloudflareZeroTrustDlpCustomEntriesResultConfidence")]
+    public interface IDataCloudflareZeroTrustDlpCustomEntriesResultConfidence
+    {
+
+        [JsiiTypeProxy(nativeType: typeof(IDataCloudflareZeroTrustDlpCustomEntriesResultConfidence), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustDlpCustomEntries.DataCloudflareZeroTrustDlpCustomEntriesResultConfidence")]
+        internal sealed class _Proxy : DeputyBase, cloudflare.DataCloudflareZeroTrustDlpCustomEntries.IDataCloudflareZeroTrustDlpCustomEntriesResultConfidence
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+        }
+    }
+}

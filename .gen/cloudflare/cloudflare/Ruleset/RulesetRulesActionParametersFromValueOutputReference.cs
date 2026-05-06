@@ -51,12 +51,6 @@ namespace cloudflare.Ruleset
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetTargetUrl")]
-        public virtual void ResetTargetUrl()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiProperty(name: "targetUrl", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersFromValueTargetUrlOutputReference\"}")]
         public virtual cloudflare.Ruleset.RulesetRulesActionParametersFromValueTargetUrlOutputReference TargetUrl
         {
@@ -78,10 +72,10 @@ namespace cloudflare.Ruleset
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "targetUrlInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersFromValueTargetUrl\"}]}}", isOptional: true)]
-        public virtual object? TargetUrlInput
+        [JsiiProperty(name: "targetUrlInput", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersFromValueTargetUrl\"}", isOptional: true)]
+        public virtual cloudflare.Ruleset.IRulesetRulesActionParametersFromValueTargetUrl? TargetUrlInput
         {
-            get => GetInstanceProperty<object?>();
+            get => GetInstanceProperty<cloudflare.Ruleset.IRulesetRulesActionParametersFromValueTargetUrl?>();
         }
 
         [JsiiProperty(name: "preserveQueryString", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]

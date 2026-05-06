@@ -7,9 +7,9 @@ namespace cloudflare.ZeroTrustGatewayPolicy
     [JsiiInterface(nativeType: typeof(IZeroTrustGatewayPolicyRuleSettingsDnsResolversIpv6), fullyQualifiedName: "cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsDnsResolversIpv6")]
     public interface IZeroTrustGatewayPolicyRuleSettingsDnsResolversIpv6
     {
-        /// <summary>IPv6 address of upstream resolver.</summary>
+        /// <summary>Specify the IPv6 address of the upstream resolver.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#ip ZeroTrustGatewayPolicy#ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#ip ZeroTrustGatewayPolicy#ip}
         /// </remarks>
         [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}")]
         string Ip
@@ -17,9 +17,9 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             get;
         }
 
-        /// <summary>A port number to use for upstream resolver. Defaults to 53 if unspecified.</summary>
+        /// <summary>Specify a port number to use for the upstream resolver. Defaults to 53 if unspecified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#port ZeroTrustGatewayPolicy#port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#port ZeroTrustGatewayPolicy#port}
         /// </remarks>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,9 +31,9 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             }
         }
 
-        /// <summary>Whether to connect to this resolver over a private network. Must be set when vnet_id is set.</summary>
+        /// <summary>Indicate whether to connect to this resolver over a private network. Must set when vnet_id set.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#route_through_private_network ZeroTrustGatewayPolicy#route_through_private_network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#route_through_private_network ZeroTrustGatewayPolicy#route_through_private_network}
         /// </remarks>
         [JsiiProperty(name: "routeThroughPrivateNetwork", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,9 +45,9 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             }
         }
 
-        /// <summary>Optionally specify a virtual network for this resolver. Uses default virtual network id if omitted.</summary>
+        /// <summary>Specify an optional virtual network for this resolver. Uses default virtual network id if omitted.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#vnet_id ZeroTrustGatewayPolicy#vnet_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#vnet_id ZeroTrustGatewayPolicy#vnet_id}
         /// </remarks>
         [JsiiProperty(name: "vnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,9 +66,9 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             {
             }
 
-            /// <summary>IPv6 address of upstream resolver.</summary>
+            /// <summary>Specify the IPv6 address of the upstream resolver.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#ip ZeroTrustGatewayPolicy#ip}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#ip ZeroTrustGatewayPolicy#ip}
             /// </remarks>
             [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}")]
             public string Ip
@@ -76,9 +76,9 @@ namespace cloudflare.ZeroTrustGatewayPolicy
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>A port number to use for upstream resolver. Defaults to 53 if unspecified.</summary>
+            /// <summary>Specify a port number to use for the upstream resolver. Defaults to 53 if unspecified.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#port ZeroTrustGatewayPolicy#port}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#port ZeroTrustGatewayPolicy#port}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -87,9 +87,9 @@ namespace cloudflare.ZeroTrustGatewayPolicy
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Whether to connect to this resolver over a private network. Must be set when vnet_id is set.</summary>
+            /// <summary>Indicate whether to connect to this resolver over a private network. Must set when vnet_id set.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#route_through_private_network ZeroTrustGatewayPolicy#route_through_private_network}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#route_through_private_network ZeroTrustGatewayPolicy#route_through_private_network}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "routeThroughPrivateNetwork", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -98,9 +98,9 @@ namespace cloudflare.ZeroTrustGatewayPolicy
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Optionally specify a virtual network for this resolver. Uses default virtual network id if omitted.</summary>
+            /// <summary>Specify an optional virtual network for this resolver. Uses default virtual network id if omitted.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#vnet_id ZeroTrustGatewayPolicy#vnet_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#vnet_id ZeroTrustGatewayPolicy#vnet_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

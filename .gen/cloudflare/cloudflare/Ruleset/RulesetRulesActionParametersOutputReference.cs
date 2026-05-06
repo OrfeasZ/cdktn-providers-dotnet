@@ -144,10 +144,52 @@ namespace cloudflare.Ruleset
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putImmutable", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersImmutable\"}}]")]
+        public virtual void PutImmutable(cloudflare.Ruleset.IRulesetRulesActionParametersImmutable @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersImmutable)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putMatchedData", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersMatchedData\"}}]")]
         public virtual void PutMatchedData(cloudflare.Ruleset.IRulesetRulesActionParametersMatchedData @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersMatchedData)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putMaxAge", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersMaxAge\"}}]")]
+        public virtual void PutMaxAge(cloudflare.Ruleset.IRulesetRulesActionParametersMaxAge @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersMaxAge)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putMustRevalidate", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersMustRevalidate\"}}]")]
+        public virtual void PutMustRevalidate(cloudflare.Ruleset.IRulesetRulesActionParametersMustRevalidate @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersMustRevalidate)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putMustUnderstand", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersMustUnderstand\"}}]")]
+        public virtual void PutMustUnderstand(cloudflare.Ruleset.IRulesetRulesActionParametersMustUnderstand @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersMustUnderstand)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putNoCache", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersNoCache\"}}]")]
+        public virtual void PutNoCache(cloudflare.Ruleset.IRulesetRulesActionParametersNoCache @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersNoCache)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putNoStore", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersNoStore\"}}]")]
+        public virtual void PutNoStore(cloudflare.Ruleset.IRulesetRulesActionParametersNoStore @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersNoStore)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putNoTransform", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersNoTransform\"}}]")]
+        public virtual void PutNoTransform(cloudflare.Ruleset.IRulesetRulesActionParametersNoTransform @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersNoTransform)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putOrigin", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersOrigin\"}}]")]
@@ -160,6 +202,24 @@ namespace cloudflare.Ruleset
         public virtual void PutOverrides(cloudflare.Ruleset.IRulesetRulesActionParametersOverrides @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersOverrides)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putPrivate", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersPrivate\"}}]")]
+        public virtual void PutPrivate(cloudflare.Ruleset.IRulesetRulesActionParametersPrivate @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersPrivate)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putProxyRevalidate", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersProxyRevalidate\"}}]")]
+        public virtual void PutProxyRevalidate(cloudflare.Ruleset.IRulesetRulesActionParametersProxyRevalidate @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersProxyRevalidate)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putPublic", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersPublic\"}}]")]
+        public virtual void PutPublic(cloudflare.Ruleset.IRulesetRulesActionParametersPublic @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersPublic)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putRawResponseFields", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersRawResponseFields\"},\"kind\":\"array\"}}]}}}]")]
@@ -243,10 +303,28 @@ namespace cloudflare.Ruleset
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersServeStale)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putSMaxage", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersSMaxage\"}}]")]
+        public virtual void PutSMaxage(cloudflare.Ruleset.IRulesetRulesActionParametersSMaxage @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersSMaxage)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putSni", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersSni\"}}]")]
         public virtual void PutSni(cloudflare.Ruleset.IRulesetRulesActionParametersSni @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersSni)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putStaleIfError", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersStaleIfError\"}}]")]
+        public virtual void PutStaleIfError(cloudflare.Ruleset.IRulesetRulesActionParametersStaleIfError @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersStaleIfError)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putStaleWhileRevalidate", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersStaleWhileRevalidate\"}}]")]
+        public virtual void PutStaleWhileRevalidate(cloudflare.Ruleset.IRulesetRulesActionParametersStaleWhileRevalidate @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersStaleWhileRevalidate)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTransformedRequestFields", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersTransformedRequestFields\"},\"kind\":\"array\"}}]}}}]")]
@@ -286,6 +364,12 @@ namespace cloudflare.Ruleset
 
         [JsiiMethod(name: "resetAlgorithms")]
         public virtual void ResetAlgorithms()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAssetName")]
+        public virtual void ResetAssetName()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -338,6 +422,12 @@ namespace cloudflare.Ruleset
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetContentConverter")]
+        public virtual void ResetContentConverter()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetContentType")]
         public virtual void ResetContentType()
         {
@@ -376,6 +466,12 @@ namespace cloudflare.Ruleset
 
         [JsiiMethod(name: "resetEmailObfuscation")]
         public virtual void ResetEmailObfuscation()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetExpression")]
+        public virtual void ResetExpression()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -422,6 +518,12 @@ namespace cloudflare.Ruleset
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetImmutable")]
+        public virtual void ResetImmutable()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetIncrement")]
         public virtual void ResetIncrement()
         {
@@ -434,8 +536,50 @@ namespace cloudflare.Ruleset
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetMaxAge")]
+        public virtual void ResetMaxAge()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetMirage")]
         public virtual void ResetMirage()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMustRevalidate")]
+        public virtual void ResetMustRevalidate()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMustUnderstand")]
+        public virtual void ResetMustUnderstand()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetNoCache")]
+        public virtual void ResetNoCache()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetNoStore")]
+        public virtual void ResetNoStore()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetNoTransform")]
+        public virtual void ResetNoTransform()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetOperation")]
+        public virtual void ResetOperation()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -482,8 +626,26 @@ namespace cloudflare.Ruleset
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetPrivate")]
+        public virtual void ResetPrivate()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetProducts")]
         public virtual void ResetProducts()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetProxyRevalidate")]
+        public virtual void ResetProxyRevalidate()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPublic")]
+        public virtual void ResetPublic()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -496,6 +658,18 @@ namespace cloudflare.Ruleset
 
         [JsiiMethod(name: "resetReadTimeout")]
         public virtual void ResetReadTimeout()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRedirectsForAiTraining")]
+        public virtual void ResetRedirectsForAiTraining()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRequestBodyBuffering")]
+        public virtual void ResetRequestBodyBuffering()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -514,6 +688,12 @@ namespace cloudflare.Ruleset
 
         [JsiiMethod(name: "resetResponse")]
         public virtual void ResetResponse()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetResponseBodyBuffering")]
+        public virtual void ResetResponseBodyBuffering()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -566,6 +746,12 @@ namespace cloudflare.Ruleset
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSMaxage")]
+        public virtual void ResetSMaxage()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSni")]
         public virtual void ResetSni()
         {
@@ -578,8 +764,38 @@ namespace cloudflare.Ruleset
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetStaleIfError")]
+        public virtual void ResetStaleIfError()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetStaleWhileRevalidate")]
+        public virtual void ResetStaleWhileRevalidate()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetStatusCode")]
         public virtual void ResetStatusCode()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetStripEtags")]
+        public virtual void ResetStripEtags()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetStripLastModified")]
+        public virtual void ResetStripLastModified()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetStripSetCookie")]
+        public virtual void ResetStripSetCookie()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -598,6 +814,12 @@ namespace cloudflare.Ruleset
 
         [JsiiMethod(name: "resetUri")]
         public virtual void ResetUri()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetValues")]
+        public virtual void ResetValues()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -662,10 +884,52 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersHeadersMap>()!;
         }
 
+        [JsiiProperty(name: "immutable", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersImmutableOutputReference\"}")]
+        public virtual cloudflare.Ruleset.RulesetRulesActionParametersImmutableOutputReference Immutable
+        {
+            get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersImmutableOutputReference>()!;
+        }
+
         [JsiiProperty(name: "matchedData", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersMatchedDataOutputReference\"}")]
         public virtual cloudflare.Ruleset.RulesetRulesActionParametersMatchedDataOutputReference MatchedData
         {
             get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersMatchedDataOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "maxAge", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersMaxAgeOutputReference\"}")]
+        public virtual cloudflare.Ruleset.RulesetRulesActionParametersMaxAgeOutputReference MaxAge
+        {
+            get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersMaxAgeOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "mustRevalidate", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersMustRevalidateOutputReference\"}")]
+        public virtual cloudflare.Ruleset.RulesetRulesActionParametersMustRevalidateOutputReference MustRevalidate
+        {
+            get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersMustRevalidateOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "mustUnderstand", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersMustUnderstandOutputReference\"}")]
+        public virtual cloudflare.Ruleset.RulesetRulesActionParametersMustUnderstandOutputReference MustUnderstand
+        {
+            get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersMustUnderstandOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "noCache", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersNoCacheOutputReference\"}")]
+        public virtual cloudflare.Ruleset.RulesetRulesActionParametersNoCacheOutputReference NoCache
+        {
+            get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersNoCacheOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "noStore", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersNoStoreOutputReference\"}")]
+        public virtual cloudflare.Ruleset.RulesetRulesActionParametersNoStoreOutputReference NoStore
+        {
+            get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersNoStoreOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "noTransform", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersNoTransformOutputReference\"}")]
+        public virtual cloudflare.Ruleset.RulesetRulesActionParametersNoTransformOutputReference NoTransform
+        {
+            get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersNoTransformOutputReference>()!;
         }
 
         [JsiiProperty(name: "origin", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersOriginOutputReference\"}")]
@@ -678,6 +942,24 @@ namespace cloudflare.Ruleset
         public virtual cloudflare.Ruleset.RulesetRulesActionParametersOverridesOutputReference Overrides
         {
             get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersOverridesOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "private", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersPrivateOutputReference\"}")]
+        public virtual cloudflare.Ruleset.RulesetRulesActionParametersPrivateOutputReference Private
+        {
+            get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersPrivateOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "proxyRevalidate", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersProxyRevalidateOutputReference\"}")]
+        public virtual cloudflare.Ruleset.RulesetRulesActionParametersProxyRevalidateOutputReference ProxyRevalidate
+        {
+            get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersProxyRevalidateOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "public", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersPublicOutputReference\"}")]
+        public virtual cloudflare.Ruleset.RulesetRulesActionParametersPublicOutputReference Public
+        {
+            get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersPublicOutputReference>()!;
         }
 
         [JsiiProperty(name: "rawResponseFields", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersRawResponseFieldsList\"}")]
@@ -710,10 +992,28 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersServeStaleOutputReference>()!;
         }
 
+        [JsiiProperty(name: "sMaxage", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersSMaxageOutputReference\"}")]
+        public virtual cloudflare.Ruleset.RulesetRulesActionParametersSMaxageOutputReference SMaxage
+        {
+            get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersSMaxageOutputReference>()!;
+        }
+
         [JsiiProperty(name: "sni", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersSniOutputReference\"}")]
         public virtual cloudflare.Ruleset.RulesetRulesActionParametersSniOutputReference Sni
         {
             get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersSniOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "staleIfError", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersStaleIfErrorOutputReference\"}")]
+        public virtual cloudflare.Ruleset.RulesetRulesActionParametersStaleIfErrorOutputReference StaleIfError
+        {
+            get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersStaleIfErrorOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "staleWhileRevalidate", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersStaleWhileRevalidateOutputReference\"}")]
+        public virtual cloudflare.Ruleset.RulesetRulesActionParametersStaleWhileRevalidateOutputReference StaleWhileRevalidate
+        {
+            get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersStaleWhileRevalidateOutputReference>()!;
         }
 
         [JsiiProperty(name: "transformedRequestFields", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersTransformedRequestFieldsList\"}")]
@@ -740,6 +1040,13 @@ namespace cloudflare.Ruleset
         public virtual object? AlgorithmsInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "assetNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AssetNameInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -787,6 +1094,13 @@ namespace cloudflare.Ruleset
         [JsiiOptional]
         [JsiiProperty(name: "cacheReserveInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheReserve\"}]}}", isOptional: true)]
         public virtual object? CacheReserveInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "contentConverterInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? ContentConverterInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -848,6 +1162,13 @@ namespace cloudflare.Ruleset
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "expressionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ExpressionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "fontsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? FontsInput
         {
@@ -897,6 +1218,13 @@ namespace cloudflare.Ruleset
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "immutableInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersImmutable\"}]}}", isOptional: true)]
+        public virtual object? ImmutableInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "incrementInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? IncrementInput
         {
@@ -911,10 +1239,59 @@ namespace cloudflare.Ruleset
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "maxAgeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersMaxAge\"}]}}", isOptional: true)]
+        public virtual object? MaxAgeInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "mirageInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? MirageInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "mustRevalidateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersMustRevalidate\"}]}}", isOptional: true)]
+        public virtual object? MustRevalidateInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "mustUnderstandInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersMustUnderstand\"}]}}", isOptional: true)]
+        public virtual object? MustUnderstandInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "noCacheInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersNoCache\"}]}}", isOptional: true)]
+        public virtual object? NoCacheInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "noStoreInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersNoStore\"}]}}", isOptional: true)]
+        public virtual object? NoStoreInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "noTransformInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersNoTransform\"}]}}", isOptional: true)]
+        public virtual object? NoTransformInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "operationInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? OperationInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -967,10 +1344,31 @@ namespace cloudflare.Ruleset
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "privateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersPrivate\"}]}}", isOptional: true)]
+        public virtual object? PrivateInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "productsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? ProductsInput
         {
             get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "proxyRevalidateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersProxyRevalidate\"}]}}", isOptional: true)]
+        public virtual object? ProxyRevalidateInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "publicInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersPublic\"}]}}", isOptional: true)]
+        public virtual object? PublicInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -988,6 +1386,20 @@ namespace cloudflare.Ruleset
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "redirectsForAiTrainingInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? RedirectsForAiTrainingInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "requestBodyBufferingInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RequestBodyBufferingInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "requestFieldsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersRequestFields\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RequestFieldsInput
         {
@@ -999,6 +1411,13 @@ namespace cloudflare.Ruleset
         public virtual object? RespectStrongEtagsInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "responseBodyBufferingInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ResponseBodyBufferingInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -1065,6 +1484,13 @@ namespace cloudflare.Ruleset
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "sMaxageInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersSMaxage\"}]}}", isOptional: true)]
+        public virtual object? SMaxageInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "sniInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersSni\"}]}}", isOptional: true)]
         public virtual object? SniInput
         {
@@ -1079,10 +1505,45 @@ namespace cloudflare.Ruleset
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "staleIfErrorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersStaleIfError\"}]}}", isOptional: true)]
+        public virtual object? StaleIfErrorInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "staleWhileRevalidateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersStaleWhileRevalidate\"}]}}", isOptional: true)]
+        public virtual object? StaleWhileRevalidateInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "statusCodeInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? StatusCodeInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "stripEtagsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? StripEtagsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "stripLastModifiedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? StripLastModifiedInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "stripSetCookieInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? StripSetCookieInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -1106,10 +1567,24 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<object?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "valuesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? ValuesInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
         [JsiiProperty(name: "additionalCacheablePorts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}")]
         public virtual double[] AdditionalCacheablePorts
         {
             get => GetInstanceProperty<double[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "assetName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AssetName
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 
@@ -1199,6 +1674,33 @@ namespace cloudflare.Ruleset
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "contentConverter", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object ContentConverter
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
 
         [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}")]
@@ -1316,6 +1818,13 @@ namespace cloudflare.Ruleset
             }
         }
 
+        [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Expression
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "fonts", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Fonts
         {
@@ -1416,6 +1925,13 @@ namespace cloudflare.Ruleset
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Operation
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "opportunisticEncryption", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -1527,6 +2043,40 @@ namespace cloudflare.Ruleset
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "redirectsForAiTraining", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object RedirectsForAiTraining
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        [JsiiProperty(name: "requestBodyBuffering", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RequestBodyBuffering
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "respectStrongEtags", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object RespectStrongEtags
         {
@@ -1552,6 +2102,13 @@ namespace cloudflare.Ruleset
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "responseBodyBuffering", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ResponseBodyBuffering
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "rocketLoader", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -1670,6 +2227,87 @@ namespace cloudflare.Ruleset
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "stripEtags", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object StripEtags
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        [JsiiProperty(name: "stripLastModified", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object StripLastModified
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        [JsiiProperty(name: "stripSetCookie", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object StripSetCookie
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
         [JsiiProperty(name: "sxg", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Sxg
         {
@@ -1695,6 +2333,13 @@ namespace cloudflare.Ruleset
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Values
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiOptional]

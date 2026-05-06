@@ -41,8 +41,32 @@ namespace cloudflare.WorkersScript
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.WorkersScript.IWorkersScriptBindingsOutbound)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putSimple", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptBindingsSimple\"}}]")]
+        public virtual void PutSimple(cloudflare.WorkersScript.IWorkersScriptBindingsSimple @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.WorkersScript.IWorkersScriptBindingsSimple)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetAlgorithm")]
         public virtual void ResetAlgorithm()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAllowedDestinationAddresses")]
+        public virtual void ResetAllowedDestinationAddresses()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAllowedSenderAddresses")]
+        public virtual void ResetAllowedSenderAddresses()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAppId")]
+        public virtual void ResetAppId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -65,8 +89,32 @@ namespace cloudflare.WorkersScript
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDatabaseId")]
+        public virtual void ResetDatabaseId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDataset")]
         public virtual void ResetDataset()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDestinationAddress")]
+        public virtual void ResetDestinationAddress()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDispatchNamespace")]
+        public virtual void ResetDispatchNamespace()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetEntrypoint")]
+        public virtual void ResetEntrypoint()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -95,8 +143,20 @@ namespace cloudflare.WorkersScript
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetInstanceName")]
+        public virtual void ResetInstanceName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetJson")]
         public virtual void ResetJson()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetJurisdiction")]
+        public virtual void ResetJurisdiction()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -125,8 +185,26 @@ namespace cloudflare.WorkersScript
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetNetworkId")]
+        public virtual void ResetNetworkId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetOldName")]
+        public virtual void ResetOldName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetOutbound")]
         public virtual void ResetOutbound()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPart")]
+        public virtual void ResetPart()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -161,6 +239,18 @@ namespace cloudflare.WorkersScript
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetServiceId")]
+        public virtual void ResetServiceId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSimple")]
+        public virtual void ResetSimple()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetStoreId")]
         public virtual void ResetStoreId()
         {
@@ -173,8 +263,20 @@ namespace cloudflare.WorkersScript
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTunnelId")]
+        public virtual void ResetTunnelId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetUsages")]
         public virtual void ResetUsages()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetVersionId")]
+        public virtual void ResetVersionId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -191,9 +293,36 @@ namespace cloudflare.WorkersScript
             get => GetInstanceProperty<cloudflare.WorkersScript.WorkersScriptBindingsOutboundOutputReference>()!;
         }
 
+        [JsiiProperty(name: "simple", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptBindingsSimpleOutputReference\"}")]
+        public virtual cloudflare.WorkersScript.WorkersScriptBindingsSimpleOutputReference Simple
+        {
+            get => GetInstanceProperty<cloudflare.WorkersScript.WorkersScriptBindingsSimpleOutputReference>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "algorithmInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AlgorithmInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "allowedDestinationAddressesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? AllowedDestinationAddressesInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "allowedSenderAddressesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? AllowedSenderAddressesInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "appIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AppIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -220,8 +349,36 @@ namespace cloudflare.WorkersScript
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "databaseIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DatabaseIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "datasetInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DatasetInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "destinationAddressInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DestinationAddressInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "dispatchNamespaceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DispatchNamespaceInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "entrypointInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? EntrypointInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -255,8 +412,22 @@ namespace cloudflare.WorkersScript
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "instanceNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? InstanceNameInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "jsonInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? JsonInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "jurisdictionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? JurisdictionInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -297,10 +468,31 @@ namespace cloudflare.WorkersScript
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "networkIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NetworkIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "oldNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? OldNameInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "outboundInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersScript.WorkersScriptBindingsOutbound\"}]}}", isOptional: true)]
         public virtual object? OutboundInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "partInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PartInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -332,10 +524,24 @@ namespace cloudflare.WorkersScript
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "serviceIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ServiceIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "serviceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ServiceInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "simpleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersScript.WorkersScriptBindingsSimple\"}]}}", isOptional: true)]
+        public virtual object? SimpleInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -348,6 +554,13 @@ namespace cloudflare.WorkersScript
         [JsiiOptional]
         [JsiiProperty(name: "textInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? TextInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tunnelIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TunnelIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -367,6 +580,13 @@ namespace cloudflare.WorkersScript
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "versionIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? VersionIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "workflowNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? WorkflowNameInput
         {
@@ -375,6 +595,27 @@ namespace cloudflare.WorkersScript
 
         [JsiiProperty(name: "algorithm", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Algorithm
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "allowedDestinationAddresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] AllowedDestinationAddresses
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "allowedSenderAddresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] AllowedSenderAddresses
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AppId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -401,8 +642,36 @@ namespace cloudflare.WorkersScript
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DatabaseId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "dataset", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Dataset
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "destinationAddress", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DestinationAddress
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "dispatchNamespace", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DispatchNamespace
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "entrypoint", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Entrypoint
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -436,8 +705,22 @@ namespace cloudflare.WorkersScript
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "instanceName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string InstanceName
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "json", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Json
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Jurisdiction
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -478,6 +761,27 @@ namespace cloudflare.WorkersScript
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "networkId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NetworkId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "oldName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OldName
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "part", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Part
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "pipeline", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Pipeline
         {
@@ -513,6 +817,13 @@ namespace cloudflare.WorkersScript
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "serviceId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ServiceId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "storeId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string StoreId
         {
@@ -522,6 +833,13 @@ namespace cloudflare.WorkersScript
 
         [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Text
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "tunnelId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TunnelId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -538,6 +856,13 @@ namespace cloudflare.WorkersScript
         public virtual string[] Usages
         {
             get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "versionId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VersionId
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

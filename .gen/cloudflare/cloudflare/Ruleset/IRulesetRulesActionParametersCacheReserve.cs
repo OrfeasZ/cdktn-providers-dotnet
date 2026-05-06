@@ -7,11 +7,11 @@ namespace cloudflare.Ruleset
     [JsiiInterface(nativeType: typeof(IRulesetRulesActionParametersCacheReserve), fullyQualifiedName: "cloudflare.ruleset.RulesetRulesActionParametersCacheReserve")]
     public interface IRulesetRulesActionParametersCacheReserve
     {
-        /// <summary>Determines whether cache reserve is enabled.</summary>
+        /// <summary>Whether Cache Reserve is enabled.</summary>
         /// <remarks>
-        /// If this is true and a request meets eligibility criteria, Cloudflare will write the resource to cache reserve.
+        /// If this is true and a request meets eligibility criteria, Cloudflare will write the resource to Cache Reserve.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#eligible Ruleset#eligible}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#eligible Ruleset#eligible}
         /// </remarks>
         [JsiiProperty(name: "eligible", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         object Eligible
@@ -19,14 +19,18 @@ namespace cloudflare.Ruleset
             get;
         }
 
-        /// <summary>The minimum file size eligible for store in cache reserve.</summary>
+        /// <summary>The minimum file size eligible for storage in Cache Reserve.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#minimum_file_size Ruleset#minimum_file_size}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#minimum_file_size Ruleset#minimum_file_size}
         /// </remarks>
-        [JsiiProperty(name: "minimumFileSize", typeJson: "{\"primitive\":\"number\"}")]
-        double MinimumFileSize
+        [JsiiProperty(name: "minimumFileSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        double? MinimumFileSize
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IRulesetRulesActionParametersCacheReserve), fullyQualifiedName: "cloudflare.ruleset.RulesetRulesActionParametersCacheReserve")]
@@ -36,11 +40,11 @@ namespace cloudflare.Ruleset
             {
             }
 
-            /// <summary>Determines whether cache reserve is enabled.</summary>
+            /// <summary>Whether Cache Reserve is enabled.</summary>
             /// <remarks>
-            /// If this is true and a request meets eligibility criteria, Cloudflare will write the resource to cache reserve.
+            /// If this is true and a request meets eligibility criteria, Cloudflare will write the resource to Cache Reserve.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#eligible Ruleset#eligible}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#eligible Ruleset#eligible}
             /// </remarks>
             [JsiiProperty(name: "eligible", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
             public object Eligible
@@ -48,14 +52,15 @@ namespace cloudflare.Ruleset
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>The minimum file size eligible for store in cache reserve.</summary>
+            /// <summary>The minimum file size eligible for storage in Cache Reserve.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#minimum_file_size Ruleset#minimum_file_size}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#minimum_file_size Ruleset#minimum_file_size}
             /// </remarks>
-            [JsiiProperty(name: "minimumFileSize", typeJson: "{\"primitive\":\"number\"}")]
-            public double MinimumFileSize
+            [JsiiOptional]
+            [JsiiProperty(name: "minimumFileSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+            public double? MinimumFileSize
             {
-                get => GetInstanceProperty<double>()!;
+                get => GetInstanceProperty<double?>();
             }
         }
     }

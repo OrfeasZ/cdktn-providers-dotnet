@@ -7,23 +7,23 @@ namespace cloudflare.DataCloudflareNotificationPolicyWebhooks
     [JsiiInterface(nativeType: typeof(IDataCloudflareNotificationPolicyWebhooksConfig), fullyQualifiedName: "cloudflare.dataCloudflareNotificationPolicyWebhooks.DataCloudflareNotificationPolicyWebhooksConfig")]
     public interface IDataCloudflareNotificationPolicyWebhooksConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>The account id.</summary>
+        /// <summary>The unique identifier of a webhook.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/notification_policy_webhooks#account_id DataCloudflareNotificationPolicyWebhooks#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/notification_policy_webhooks#webhook_id DataCloudflareNotificationPolicyWebhooks#webhook_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
+        [JsiiProperty(name: "webhookId", typeJson: "{\"primitive\":\"string\"}")]
+        string WebhookId
         {
             get;
         }
 
-        /// <summary>The unique identifier of a webhook.</summary>
+        /// <summary>The account id.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/notification_policy_webhooks#webhook_id DataCloudflareNotificationPolicyWebhooks#webhook_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/notification_policy_webhooks#account_id DataCloudflareNotificationPolicyWebhooks#account_id}
         /// </remarks>
-        [JsiiProperty(name: "webhookId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? WebhookId
+        string? AccountId
         {
             get
             {
@@ -38,23 +38,23 @@ namespace cloudflare.DataCloudflareNotificationPolicyWebhooks
             {
             }
 
-            /// <summary>The account id.</summary>
+            /// <summary>The unique identifier of a webhook.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/notification_policy_webhooks#account_id DataCloudflareNotificationPolicyWebhooks#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/notification_policy_webhooks#webhook_id DataCloudflareNotificationPolicyWebhooks#webhook_id}
             /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
+            [JsiiProperty(name: "webhookId", typeJson: "{\"primitive\":\"string\"}")]
+            public string WebhookId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>The unique identifier of a webhook.</summary>
+            /// <summary>The account id.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/notification_policy_webhooks#webhook_id DataCloudflareNotificationPolicyWebhooks#webhook_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/notification_policy_webhooks#account_id DataCloudflareNotificationPolicyWebhooks#account_id}
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "webhookId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? WebhookId
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
             {
                 get => GetInstanceProperty<string?>();
             }

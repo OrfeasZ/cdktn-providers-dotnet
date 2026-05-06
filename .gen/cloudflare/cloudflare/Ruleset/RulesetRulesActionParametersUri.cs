@@ -7,9 +7,9 @@ namespace cloudflare.Ruleset
     [JsiiByValue(fqn: "cloudflare.ruleset.RulesetRulesActionParametersUri")]
     public class RulesetRulesActionParametersUri : cloudflare.Ruleset.IRulesetRulesActionParametersUri
     {
-        /// <summary>Path portion rewrite.</summary>
+        /// <summary>A URI path rewrite.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#path Ruleset#path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#path Ruleset#path}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "path", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersUriPath\"}", isOptional: true)]
@@ -19,9 +19,9 @@ namespace cloudflare.Ruleset
             set;
         }
 
-        /// <summary>Query portion rewrite.</summary>
+        /// <summary>A URI query rewrite.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#query Ruleset#query}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#query Ruleset#query}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "query", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersUriQuery\"}", isOptional: true)]

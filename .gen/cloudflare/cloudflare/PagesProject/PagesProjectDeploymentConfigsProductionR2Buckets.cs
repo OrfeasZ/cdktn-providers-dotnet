@@ -4,28 +4,29 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.PagesProject
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionR2Buckets")]
     public class PagesProjectDeploymentConfigsProductionR2Buckets : cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionR2Buckets
     {
-        /// <summary>Jurisdiction of the R2 bucket.</summary>
+        /// <summary>Name of the R2 bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#jurisdiction PagesProject#jurisdiction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#name PagesProject#name}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Jurisdiction
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        public string Name
         {
             get;
             set;
         }
 
-        /// <summary>Name of the R2 bucket.</summary>
+        /// <summary>Jurisdiction of the R2 bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#name PagesProject#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#jurisdiction PagesProject#jurisdiction}
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Name
+        [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Jurisdiction
         {
             get;
             set;

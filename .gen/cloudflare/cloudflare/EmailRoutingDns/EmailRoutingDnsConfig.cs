@@ -9,23 +9,24 @@ namespace cloudflare.EmailRoutingDns
     [JsiiByValue(fqn: "cloudflare.emailRoutingDns.EmailRoutingDnsConfig")]
     public class EmailRoutingDnsConfig : cloudflare.EmailRoutingDns.IEmailRoutingDnsConfig
     {
-        /// <summary>Domain of your zone.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/email_routing_dns#name EmailRoutingDns#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/email_routing_dns#zone_id EmailRoutingDns#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
-        public string Name
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        public string ZoneId
         {
             get;
             set;
         }
 
-        /// <summary>Identifier.</summary>
+        /// <summary>Domain of your zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/email_routing_dns#zone_id EmailRoutingDns#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/email_routing_dns#name EmailRoutingDns#name}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
+        [JsiiOptional]
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Name
         {
             get;
             set;

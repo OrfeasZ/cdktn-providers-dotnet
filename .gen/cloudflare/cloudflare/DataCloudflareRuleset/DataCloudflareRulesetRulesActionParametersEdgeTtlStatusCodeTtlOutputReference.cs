@@ -35,16 +35,16 @@ namespace cloudflare.DataCloudflareRuleset
         {
         }
 
+        [JsiiProperty(name: "statusCode", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double StatusCode
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "statusCodeRange", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersEdgeTtlStatusCodeTtlStatusCodeRangeOutputReference\"}")]
         public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersEdgeTtlStatusCodeTtlStatusCodeRangeOutputReference StatusCodeRange
         {
             get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersEdgeTtlStatusCodeTtlStatusCodeRangeOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "statusCodeValue", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double StatusCodeValue
-        {
-            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]

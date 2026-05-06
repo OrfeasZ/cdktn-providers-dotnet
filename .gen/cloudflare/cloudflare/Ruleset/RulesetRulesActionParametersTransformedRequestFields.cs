@@ -9,9 +9,9 @@ namespace cloudflare.Ruleset
     [JsiiByValue(fqn: "cloudflare.ruleset.RulesetRulesActionParametersTransformedRequestFields")]
     public class RulesetRulesActionParametersTransformedRequestFields : cloudflare.Ruleset.IRulesetRulesActionParametersTransformedRequestFields
     {
-        /// <summary>The name of the field.</summary>
+        /// <summary>The name of the header.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#name Ruleset#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#name Ruleset#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name

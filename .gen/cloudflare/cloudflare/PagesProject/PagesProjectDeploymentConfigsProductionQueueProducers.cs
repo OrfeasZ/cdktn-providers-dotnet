@@ -4,16 +4,17 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.PagesProject
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionQueueProducers")]
     public class PagesProjectDeploymentConfigsProductionQueueProducers : cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionQueueProducers
     {
         /// <summary>Name of the Queue.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#name PagesProject#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#name PagesProject#name}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Name
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        public string Name
         {
             get;
             set;

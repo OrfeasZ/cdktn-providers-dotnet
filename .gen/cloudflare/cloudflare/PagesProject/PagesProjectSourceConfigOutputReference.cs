@@ -45,6 +45,12 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetOwnerId")]
+        public virtual void ResetOwnerId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetPathExcludes")]
         public virtual void ResetPathExcludes()
         {
@@ -93,6 +99,12 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetRepoId")]
+        public virtual void ResetRepoId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetRepoName")]
         public virtual void ResetRepoName()
         {
@@ -104,6 +116,13 @@ namespace cloudflare.PagesProject
         public virtual object? DeploymentsEnabledInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "ownerIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? OwnerIdInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -170,6 +189,13 @@ namespace cloudflare.PagesProject
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "repoIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RepoIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "repoNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? RepoNameInput
         {
@@ -205,6 +231,13 @@ namespace cloudflare.PagesProject
 
         [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Owner
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "ownerId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OwnerId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -304,6 +337,13 @@ namespace cloudflare.PagesProject
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "repoId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RepoId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "repoName", typeJson: "{\"primitive\":\"string\"}")]

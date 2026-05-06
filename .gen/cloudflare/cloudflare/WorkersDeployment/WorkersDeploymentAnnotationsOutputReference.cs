@@ -39,6 +39,12 @@ namespace cloudflare.WorkersDeployment
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "workersTriggeredBy", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string WorkersTriggeredBy
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "workersMessageInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? WorkersMessageInput

@@ -7,26 +7,21 @@ namespace cloudflare.PagesProject
     [JsiiInterface(nativeType: typeof(IPagesProjectSource), fullyQualifiedName: "cloudflare.pagesProject.PagesProjectSource")]
     public interface IPagesProjectSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#config PagesProject#config}.</summary>
-        [JsiiProperty(name: "config", typeJson: "{\"fqn\":\"cloudflare.pagesProject.PagesProjectSourceConfig\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        cloudflare.PagesProject.IPagesProjectSourceConfig? Config
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#config PagesProject#config}.</summary>
+        [JsiiProperty(name: "config", typeJson: "{\"fqn\":\"cloudflare.pagesProject.PagesProjectSourceConfig\"}")]
+        cloudflare.PagesProject.IPagesProjectSourceConfig Config
         {
-            get
-            {
-                return null;
-            }
+            get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#type PagesProject#type}.</summary>
-        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? Type
+        /// <summary>The source control management provider. Available values: "github", "gitlab".</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#type PagesProject#type}
+        /// </remarks>
+        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
+        string Type
         {
-            get
-            {
-                return null;
-            }
+            get;
         }
 
         [JsiiTypeProxy(nativeType: typeof(IPagesProjectSource), fullyQualifiedName: "cloudflare.pagesProject.PagesProjectSource")]
@@ -36,20 +31,21 @@ namespace cloudflare.PagesProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#config PagesProject#config}.</summary>
-            [JsiiOptional]
-            [JsiiProperty(name: "config", typeJson: "{\"fqn\":\"cloudflare.pagesProject.PagesProjectSourceConfig\"}", isOptional: true)]
-            public cloudflare.PagesProject.IPagesProjectSourceConfig? Config
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#config PagesProject#config}.</summary>
+            [JsiiProperty(name: "config", typeJson: "{\"fqn\":\"cloudflare.pagesProject.PagesProjectSourceConfig\"}")]
+            public cloudflare.PagesProject.IPagesProjectSourceConfig Config
             {
-                get => GetInstanceProperty<cloudflare.PagesProject.IPagesProjectSourceConfig?>();
+                get => GetInstanceProperty<cloudflare.PagesProject.IPagesProjectSourceConfig>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#type PagesProject#type}.</summary>
-            [JsiiOptional]
-            [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? Type
+            /// <summary>The source control management provider. Available values: "github", "gitlab".</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#type PagesProject#type}
+            /// </remarks>
+            [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
+            public string Type
             {
-                get => GetInstanceProperty<string?>();
+                get => GetInstanceProperty<string>()!;
             }
         }
     }

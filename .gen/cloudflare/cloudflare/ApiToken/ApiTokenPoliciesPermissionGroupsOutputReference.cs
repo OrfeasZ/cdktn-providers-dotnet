@@ -35,42 +35,11 @@ namespace cloudflare.ApiToken
         {
         }
 
-        [JsiiMethod(name: "putMeta", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.apiToken.ApiTokenPoliciesPermissionGroupsMeta\"}}]")]
-        public virtual void PutMeta(cloudflare.ApiToken.IApiTokenPoliciesPermissionGroupsMeta @value)
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ApiToken.IApiTokenPoliciesPermissionGroupsMeta)}, new object[]{@value});
-        }
-
-        [JsiiMethod(name: "resetMeta")]
-        public virtual void ResetMeta()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiProperty(name: "meta", typeJson: "{\"fqn\":\"cloudflare.apiToken.ApiTokenPoliciesPermissionGroupsMetaOutputReference\"}")]
-        public virtual cloudflare.ApiToken.ApiTokenPoliciesPermissionGroupsMetaOutputReference Meta
-        {
-            get => GetInstanceProperty<cloudflare.ApiToken.ApiTokenPoliciesPermissionGroupsMetaOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Name
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "idInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? IdInput
         {
             get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "metaInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.apiToken.ApiTokenPoliciesPermissionGroupsMeta\"}]}}", isOptional: true)]
-        public virtual object? MetaInput
-        {
-            get => GetInstanceProperty<object?>();
         }
 
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]

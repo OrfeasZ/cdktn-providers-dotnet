@@ -5,7 +5,7 @@ namespace cloudflare.CloudConnectorRules
     /// <remarks>
     /// <h1><c>cloudflare_cloud_connector_rules</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/cloud_connector_rules"><c>cloudflare_cloud_connector_rules</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/cloud_connector_rules"><c>cloudflare_cloud_connector_rules</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

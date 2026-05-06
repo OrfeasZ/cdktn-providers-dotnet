@@ -35,6 +35,12 @@ namespace cloudflare.DataCloudflareAccountMembers
         {
         }
 
+        [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Email
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {

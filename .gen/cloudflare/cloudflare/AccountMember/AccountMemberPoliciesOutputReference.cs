@@ -81,12 +81,6 @@ namespace cloudflare.AccountMember
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Id
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "permissionGroups", typeJson: "{\"fqn\":\"cloudflare.accountMember.AccountMemberPoliciesPermissionGroupsList\"}")]
         public virtual cloudflare.AccountMember.AccountMemberPoliciesPermissionGroupsList PermissionGroups
         {

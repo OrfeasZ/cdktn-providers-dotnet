@@ -46,12 +46,6 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetService")]
-        public virtual void ResetService()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "entrypointInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? EntrypointInput

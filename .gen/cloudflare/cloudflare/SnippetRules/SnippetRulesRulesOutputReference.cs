@@ -47,16 +47,16 @@ namespace cloudflare.SnippetRules
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetExpression")]
-        public virtual void ResetExpression()
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
         {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+            get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiMethod(name: "resetSnippetName")]
-        public virtual void ResetSnippetName()
+        [JsiiProperty(name: "lastUpdated", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LastUpdated
         {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiOptional]

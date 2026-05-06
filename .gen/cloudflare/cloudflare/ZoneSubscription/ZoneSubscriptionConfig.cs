@@ -9,9 +9,9 @@ namespace cloudflare.ZoneSubscription
     [JsiiByValue(fqn: "cloudflare.zoneSubscription.ZoneSubscriptionConfig")]
     public class ZoneSubscriptionConfig : cloudflare.ZoneSubscription.IZoneSubscriptionConfig
     {
-        /// <summary>Subscription identifier tag.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zone_subscription#zone_id ZoneSubscription#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zone_subscription#zone_id ZoneSubscription#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId
@@ -20,9 +20,12 @@ namespace cloudflare.ZoneSubscription
             set;
         }
 
-        /// <summary>How often the subscription is renewed automatically. Available values: "weekly", "monthly", "quarterly", "yearly".</summary>
+        /// <summary>How often the subscription is renewed automatically.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zone_subscription#frequency ZoneSubscription#frequency}
+        /// Available values: "weekly", "monthly", "quarterly", "yearly".
+        /// Note: Some plans may not support frequency configuration and will return "not-applicable".
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zone_subscription#frequency ZoneSubscription#frequency}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "frequency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +37,7 @@ namespace cloudflare.ZoneSubscription
 
         /// <summary>The rate plan applied to the subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zone_subscription#rate_plan ZoneSubscription#rate_plan}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zone_subscription#rate_plan ZoneSubscription#rate_plan}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ratePlan", typeJson: "{\"fqn\":\"cloudflare.zoneSubscription.ZoneSubscriptionRatePlan\"}", isOptional: true)]

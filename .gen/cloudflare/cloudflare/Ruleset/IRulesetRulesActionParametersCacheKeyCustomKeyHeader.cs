@@ -7,11 +7,11 @@ namespace cloudflare.Ruleset
     [JsiiInterface(nativeType: typeof(IRulesetRulesActionParametersCacheKeyCustomKeyHeader), fullyQualifiedName: "cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyHeader")]
     public interface IRulesetRulesActionParametersCacheKeyCustomKeyHeader
     {
-        /// <summary>Checks for the presence of these header names.</summary>
+        /// <summary>A list of headers to check for the presence of.</summary>
         /// <remarks>
-        /// The presence of these headers is used in building the cache key.
+        /// The presence of these headers is included in the cache key.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#check_presence Ruleset#check_presence}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#check_presence Ruleset#check_presence}
         /// </remarks>
         [JsiiProperty(name: "checkPresence", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,11 +23,11 @@ namespace cloudflare.Ruleset
             }
         }
 
-        /// <summary>For each header name and list of values combination, check if the request header contains any of the values provided.</summary>
+        /// <summary>A mapping of header names to a list of values.</summary>
         /// <remarks>
-        /// The presence of the request header and whether any of the values provided are contained in the request header value is used in building the cache key.
+        /// If a header is present in the request and contains any of the values provided, its value is included in the cache key.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#contains Ruleset#contains}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#contains Ruleset#contains}
         /// </remarks>
         [JsiiProperty(name: "contains", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -39,11 +39,9 @@ namespace cloudflare.Ruleset
             }
         }
 
-        /// <summary>Whether or not to include the origin header.</summary>
+        /// <summary>Whether to exclude the origin header in the cache key.</summary>
         /// <remarks>
-        /// A value of true will exclude the origin header in the cache key.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#exclude_origin Ruleset#exclude_origin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#exclude_origin Ruleset#exclude_origin}
         /// </remarks>
         [JsiiProperty(name: "excludeOrigin", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,9 +53,9 @@ namespace cloudflare.Ruleset
             }
         }
 
-        /// <summary>Include these headers' names and their values.</summary>
+        /// <summary>A list of headers to include in the cache key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#include Ruleset#include}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#include Ruleset#include}
         /// </remarks>
         [JsiiProperty(name: "include", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -76,11 +74,11 @@ namespace cloudflare.Ruleset
             {
             }
 
-            /// <summary>Checks for the presence of these header names.</summary>
+            /// <summary>A list of headers to check for the presence of.</summary>
             /// <remarks>
-            /// The presence of these headers is used in building the cache key.
+            /// The presence of these headers is included in the cache key.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#check_presence Ruleset#check_presence}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#check_presence Ruleset#check_presence}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "checkPresence", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -89,11 +87,11 @@ namespace cloudflare.Ruleset
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>For each header name and list of values combination, check if the request header contains any of the values provided.</summary>
+            /// <summary>A mapping of header names to a list of values.</summary>
             /// <remarks>
-            /// The presence of the request header and whether any of the values provided are contained in the request header value is used in building the cache key.
+            /// If a header is present in the request and contains any of the values provided, its value is included in the cache key.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#contains Ruleset#contains}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#contains Ruleset#contains}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "contains", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -102,11 +100,9 @@ namespace cloudflare.Ruleset
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Whether or not to include the origin header.</summary>
+            /// <summary>Whether to exclude the origin header in the cache key.</summary>
             /// <remarks>
-            /// A value of true will exclude the origin header in the cache key.
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#exclude_origin Ruleset#exclude_origin}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#exclude_origin Ruleset#exclude_origin}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "excludeOrigin", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -115,9 +111,9 @@ namespace cloudflare.Ruleset
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Include these headers' names and their values.</summary>
+            /// <summary>A list of headers to include in the cache key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#include Ruleset#include}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#include Ruleset#include}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "include", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

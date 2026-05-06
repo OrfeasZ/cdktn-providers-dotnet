@@ -7,9 +7,29 @@ namespace cloudflare.Snippets
     [JsiiInterface(nativeType: typeof(ISnippetsConfig), fullyQualifiedName: "cloudflare.snippets.SnippetsConfig")]
     public interface ISnippetsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Snippet identifying name.</summary>
+        /// <summary>The list of files belonging to the snippet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/snippets#snippet_name Snippets#snippet_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/snippets#files Snippets#files}
+        /// </remarks>
+        [JsiiProperty(name: "files", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        string[] Files
+        {
+            get;
+        }
+
+        /// <summary>Metadata about the snippet.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/snippets#metadata Snippets#metadata}
+        /// </remarks>
+        [JsiiProperty(name: "metadata", typeJson: "{\"fqn\":\"cloudflare.snippets.SnippetsMetadata\"}")]
+        cloudflare.Snippets.ISnippetsMetadata Metadata
+        {
+            get;
+        }
+
+        /// <summary>The identifying name of the snippet.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/snippets#snippet_name Snippets#snippet_name}
         /// </remarks>
         [JsiiProperty(name: "snippetName", typeJson: "{\"primitive\":\"string\"}")]
         string SnippetName
@@ -17,39 +37,14 @@ namespace cloudflare.Snippets
             get;
         }
 
-        /// <summary>Identifier.</summary>
+        /// <summary>The unique ID of the zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/snippets#zone_id Snippets#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/snippets#zone_id Snippets#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
         {
             get;
-        }
-
-        /// <summary>Content files of uploaded snippet.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/snippets#files Snippets#files}
-        /// </remarks>
-        [JsiiProperty(name: "files", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? Files
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/snippets#metadata Snippets#metadata}.</summary>
-        [JsiiProperty(name: "metadata", typeJson: "{\"fqn\":\"cloudflare.snippets.SnippetsMetadata\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        cloudflare.Snippets.ISnippetsMetadata? Metadata
-        {
-            get
-            {
-                return null;
-            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(ISnippetsConfig), fullyQualifiedName: "cloudflare.snippets.SnippetsConfig")]
@@ -59,9 +54,29 @@ namespace cloudflare.Snippets
             {
             }
 
-            /// <summary>Snippet identifying name.</summary>
+            /// <summary>The list of files belonging to the snippet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/snippets#snippet_name Snippets#snippet_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/snippets#files Snippets#files}
+            /// </remarks>
+            [JsiiProperty(name: "files", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+            public string[] Files
+            {
+                get => GetInstanceProperty<string[]>()!;
+            }
+
+            /// <summary>Metadata about the snippet.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/snippets#metadata Snippets#metadata}
+            /// </remarks>
+            [JsiiProperty(name: "metadata", typeJson: "{\"fqn\":\"cloudflare.snippets.SnippetsMetadata\"}")]
+            public cloudflare.Snippets.ISnippetsMetadata Metadata
+            {
+                get => GetInstanceProperty<cloudflare.Snippets.ISnippetsMetadata>()!;
+            }
+
+            /// <summary>The identifying name of the snippet.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/snippets#snippet_name Snippets#snippet_name}
             /// </remarks>
             [JsiiProperty(name: "snippetName", typeJson: "{\"primitive\":\"string\"}")]
             public string SnippetName
@@ -69,33 +84,14 @@ namespace cloudflare.Snippets
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Identifier.</summary>
+            /// <summary>The unique ID of the zone.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/snippets#zone_id Snippets#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/snippets#zone_id Snippets#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId
             {
                 get => GetInstanceProperty<string>()!;
-            }
-
-            /// <summary>Content files of uploaded snippet.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/snippets#files Snippets#files}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "files", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? Files
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/snippets#metadata Snippets#metadata}.</summary>
-            [JsiiOptional]
-            [JsiiProperty(name: "metadata", typeJson: "{\"fqn\":\"cloudflare.snippets.SnippetsMetadata\"}", isOptional: true)]
-            public cloudflare.Snippets.ISnippetsMetadata? Metadata
-            {
-                get => GetInstanceProperty<cloudflare.Snippets.ISnippetsMetadata?>();
             }
 
             /// <remarks>

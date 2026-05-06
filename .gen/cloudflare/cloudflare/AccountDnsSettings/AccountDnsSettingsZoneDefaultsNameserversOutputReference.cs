@@ -33,6 +33,12 @@ namespace cloudflare.AccountDnsSettings
         {
         }
 
+        [JsiiMethod(name: "resetType")]
+        public virtual void ResetType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "typeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? TypeInput

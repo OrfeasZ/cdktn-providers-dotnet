@@ -7,9 +7,9 @@ namespace cloudflare.Ruleset
     [JsiiInterface(nativeType: typeof(IRulesetRulesExposedCredentialCheck), fullyQualifiedName: "cloudflare.ruleset.RulesetRulesExposedCredentialCheck")]
     public interface IRulesetRulesExposedCredentialCheck
     {
-        /// <summary>Expression that selects the password used in the credentials check.</summary>
+        /// <summary>An expression that selects the password used in the credentials check.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#password_expression Ruleset#password_expression}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#password_expression Ruleset#password_expression}
         /// </remarks>
         [JsiiProperty(name: "passwordExpression", typeJson: "{\"primitive\":\"string\"}")]
         string PasswordExpression
@@ -17,9 +17,9 @@ namespace cloudflare.Ruleset
             get;
         }
 
-        /// <summary>Expression that selects the user ID used in the credentials check.</summary>
+        /// <summary>An expression that selects the user ID used in the credentials check.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#username_expression Ruleset#username_expression}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#username_expression Ruleset#username_expression}
         /// </remarks>
         [JsiiProperty(name: "usernameExpression", typeJson: "{\"primitive\":\"string\"}")]
         string UsernameExpression
@@ -34,9 +34,9 @@ namespace cloudflare.Ruleset
             {
             }
 
-            /// <summary>Expression that selects the password used in the credentials check.</summary>
+            /// <summary>An expression that selects the password used in the credentials check.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#password_expression Ruleset#password_expression}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#password_expression Ruleset#password_expression}
             /// </remarks>
             [JsiiProperty(name: "passwordExpression", typeJson: "{\"primitive\":\"string\"}")]
             public string PasswordExpression
@@ -44,9 +44,9 @@ namespace cloudflare.Ruleset
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Expression that selects the user ID used in the credentials check.</summary>
+            /// <summary>An expression that selects the user ID used in the credentials check.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#username_expression Ruleset#username_expression}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#username_expression Ruleset#username_expression}
             /// </remarks>
             [JsiiProperty(name: "usernameExpression", typeJson: "{\"primitive\":\"string\"}")]
             public string UsernameExpression

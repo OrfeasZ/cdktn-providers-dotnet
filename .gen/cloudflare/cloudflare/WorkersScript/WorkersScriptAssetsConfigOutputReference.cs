@@ -98,10 +98,10 @@ namespace cloudflare.WorkersScript
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "runWorkerFirstInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? RunWorkerFirstInput
+        [JsiiProperty(name: "runWorkerFirstInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, object>? RunWorkerFirstInput
         {
-            get => GetInstanceProperty<object?>();
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, object>?>();
         }
 
         [JsiiOptional]
@@ -139,31 +139,11 @@ namespace cloudflare.WorkersScript
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "runWorkerFirst", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public virtual object RunWorkerFirst
+        [JsiiProperty(name: "runWorkerFirst", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, object> RunWorkerFirst
         {
-            get => GetInstanceProperty<object>()!;
-            set
-            {
-                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-                {
-                    switch (value)
-                    {
-                        case bool cast_cd4240:
-                            break;
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
-                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
-                            // Not enough information to type-check...
-                            break;
-                        case null:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
-                        default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
-                    }
-                }
-                SetInstanceProperty(value);
-            }
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, object>>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "serveDirectly", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]

@@ -33,10 +33,10 @@ namespace cloudflare.DataCloudflareZeroTrustGatewayPolicy
         {
         }
 
-        [JsiiProperty(name: "addHeaders", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
-        public virtual Io.Cdktn.StringMap AddHeaders
+        [JsiiProperty(name: "addHeaders", typeJson: "{\"fqn\":\"cdktn.StringListMap\"}")]
+        public virtual Io.Cdktn.StringListMap AddHeaders
         {
-            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+            get => GetInstanceProperty<Io.Cdktn.StringListMap>()!;
         }
 
         [JsiiProperty(name: "allowChildBypass", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
@@ -97,6 +97,12 @@ namespace cloudflare.DataCloudflareZeroTrustGatewayPolicy
         public virtual cloudflare.DataCloudflareZeroTrustGatewayPolicy.DataCloudflareZeroTrustGatewayPolicyRuleSettingsEgressOutputReference Egress
         {
             get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustGatewayPolicy.DataCloudflareZeroTrustGatewayPolicyRuleSettingsEgressOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "forensicCopy", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustGatewayPolicy.DataCloudflareZeroTrustGatewayPolicyRuleSettingsForensicCopyOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustGatewayPolicy.DataCloudflareZeroTrustGatewayPolicyRuleSettingsForensicCopyOutputReference ForensicCopy
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustGatewayPolicy.DataCloudflareZeroTrustGatewayPolicyRuleSettingsForensicCopyOutputReference>()!;
         }
 
         [JsiiProperty(name: "ignoreCnameCategoryMatches", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
