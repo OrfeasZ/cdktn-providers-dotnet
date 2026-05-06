@@ -70,6 +70,12 @@ for key, version in versions.items():
     csproj_path = os.path.join(gen_dir, provider, f"{provider}.csproj")
 
     if not os.path.isfile(csproj_path):
+        # Try with Providers.ProviderName format (for example Providers.Null).
+        provider_upper = provider[0].upper() + provider[1:]
+        provider_path = f"Providers.{provider_upper}"
+        csproj_path = os.path.join(gen_dir, provider_path, f"{provider_path}.csproj")
+
+    if not os.path.isfile(csproj_path):
         print(f"WARNING: Project not found: {csproj_path}")
         continue
 
