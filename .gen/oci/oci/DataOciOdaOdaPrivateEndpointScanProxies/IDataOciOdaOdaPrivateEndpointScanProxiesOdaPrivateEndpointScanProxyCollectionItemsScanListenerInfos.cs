@@ -1,0 +1,19 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.DataOciOdaOdaPrivateEndpointScanProxies
+{
+    [JsiiInterface(nativeType: typeof(IDataOciOdaOdaPrivateEndpointScanProxiesOdaPrivateEndpointScanProxyCollectionItemsScanListenerInfos), fullyQualifiedName: "oci.dataOciOdaOdaPrivateEndpointScanProxies.DataOciOdaOdaPrivateEndpointScanProxiesOdaPrivateEndpointScanProxyCollectionItemsScanListenerInfos")]
+    public interface IDataOciOdaOdaPrivateEndpointScanProxiesOdaPrivateEndpointScanProxyCollectionItemsScanListenerInfos
+    {
+
+        [JsiiTypeProxy(nativeType: typeof(IDataOciOdaOdaPrivateEndpointScanProxiesOdaPrivateEndpointScanProxyCollectionItemsScanListenerInfos), fullyQualifiedName: "oci.dataOciOdaOdaPrivateEndpointScanProxies.DataOciOdaOdaPrivateEndpointScanProxiesOdaPrivateEndpointScanProxyCollectionItemsScanListenerInfos")]
+        internal sealed class _Proxy : DeputyBase, oci.DataOciOdaOdaPrivateEndpointScanProxies.IDataOciOdaOdaPrivateEndpointScanProxiesOdaPrivateEndpointScanProxyCollectionItemsScanListenerInfos
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+        }
+    }
+}

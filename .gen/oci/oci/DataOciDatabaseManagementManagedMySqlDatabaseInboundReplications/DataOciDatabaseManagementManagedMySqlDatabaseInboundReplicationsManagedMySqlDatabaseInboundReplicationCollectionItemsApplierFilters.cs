@@ -1,0 +1,11 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseInboundReplications
+{
+    [JsiiByValue(fqn: "oci.dataOciDatabaseManagementManagedMySqlDatabaseInboundReplications.DataOciDatabaseManagementManagedMySqlDatabaseInboundReplicationsManagedMySqlDatabaseInboundReplicationCollectionItemsApplierFilters")]
+    public class DataOciDatabaseManagementManagedMySqlDatabaseInboundReplicationsManagedMySqlDatabaseInboundReplicationCollectionItemsApplierFilters : oci.DataOciDatabaseManagementManagedMySqlDatabaseInboundReplications.IDataOciDatabaseManagementManagedMySqlDatabaseInboundReplicationsManagedMySqlDatabaseInboundReplicationCollectionItemsApplierFilters
+    {
+    }
+}

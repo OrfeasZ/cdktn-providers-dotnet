@@ -1,0 +1,19 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.DataOciIdentityDomainsMyDevice
+{
+    [JsiiInterface(nativeType: typeof(IDataOciIdentityDomainsMyDeviceNonCompliances), fullyQualifiedName: "oci.dataOciIdentityDomainsMyDevice.DataOciIdentityDomainsMyDeviceNonCompliances")]
+    public interface IDataOciIdentityDomainsMyDeviceNonCompliances
+    {
+
+        [JsiiTypeProxy(nativeType: typeof(IDataOciIdentityDomainsMyDeviceNonCompliances), fullyQualifiedName: "oci.dataOciIdentityDomainsMyDevice.DataOciIdentityDomainsMyDeviceNonCompliances")]
+        internal sealed class _Proxy : DeputyBase, oci.DataOciIdentityDomainsMyDevice.IDataOciIdentityDomainsMyDeviceNonCompliances
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+        }
+    }
+}

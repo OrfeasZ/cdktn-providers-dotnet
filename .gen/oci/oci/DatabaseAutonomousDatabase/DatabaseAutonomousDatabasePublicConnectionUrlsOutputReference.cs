@@ -1,0 +1,94 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.DatabaseAutonomousDatabase
+{
+    [JsiiClass(nativeType: typeof(oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabasePublicConnectionUrlsOutputReference), fullyQualifiedName: "oci.databaseAutonomousDatabase.DatabaseAutonomousDatabasePublicConnectionUrlsOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"the index of this item in the list.\"},\"name\":\"complexObjectIndex\",\"type\":{\"primitive\":\"number\"}},{\"docs\":{\"summary\":\"whether the list is wrapping a set (will add tolist() to be able to access an item via an index).\"},\"name\":\"complexObjectIsFromSet\",\"type\":{\"primitive\":\"boolean\"}}]")]
+    public class DatabaseAutonomousDatabasePublicConnectionUrlsOutputReference : Io.Cdktn.ComplexObject
+    {
+        /// <param name="terraformResource">The parent resource.</param>
+        /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
+        /// <param name="complexObjectIndex">the index of this item in the list.</param>
+        /// <param name="complexObjectIsFromSet">whether the list is wrapping a set (will add tolist() to be able to access an item via an index).</param>
+        public DatabaseAutonomousDatabasePublicConnectionUrlsOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet): base(_MakeDeputyProps(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet)
+        {
+            return new DeputyProps(new object?[]{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DatabaseAutonomousDatabasePublicConnectionUrlsOutputReference(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DatabaseAutonomousDatabasePublicConnectionUrlsOutputReference(DeputyProps props): base(props)
+        {
+        }
+
+        [JsiiProperty(name: "apexUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ApexUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "databaseTransformsUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DatabaseTransformsUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "graphStudioUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string GraphStudioUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "machineLearningNotebookUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string MachineLearningNotebookUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "machineLearningUserManagementUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string MachineLearningUserManagementUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "mongoDbUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string MongoDbUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "ordsUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OrdsUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "sqlDevWebUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SqlDevWebUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabasePublicConnectionUrls\"}", isOptional: true)]
+        public virtual oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabasePublicConnectionUrls? InternalValue
+        {
+            get => GetInstanceProperty<oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabasePublicConnectionUrls?>();
+            set => SetInstanceProperty(value);
+        }
+    }
+}
