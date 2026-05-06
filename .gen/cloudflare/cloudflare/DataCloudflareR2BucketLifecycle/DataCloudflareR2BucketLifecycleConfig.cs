@@ -9,24 +9,23 @@ namespace cloudflare.DataCloudflareR2BucketLifecycle
     [JsiiByValue(fqn: "cloudflare.dataCloudflareR2BucketLifecycle.DataCloudflareR2BucketLifecycleConfig")]
     public class DataCloudflareR2BucketLifecycleConfig : cloudflare.DataCloudflareR2BucketLifecycle.IDataCloudflareR2BucketLifecycleConfig
     {
-        /// <summary>Name of the bucket.</summary>
+        /// <summary>Account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/r2_bucket_lifecycle#bucket_name DataCloudflareR2BucketLifecycle#bucket_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/r2_bucket_lifecycle#account_id DataCloudflareR2BucketLifecycle#account_id}
         /// </remarks>
-        [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
-        public string BucketName
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
         {
             get;
             set;
         }
 
-        /// <summary>Account ID.</summary>
+        /// <summary>Name of the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/r2_bucket_lifecycle#account_id DataCloudflareR2BucketLifecycle#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/r2_bucket_lifecycle#bucket_name DataCloudflareR2BucketLifecycle#bucket_name}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
+        [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
+        public string BucketName
         {
             get;
             set;

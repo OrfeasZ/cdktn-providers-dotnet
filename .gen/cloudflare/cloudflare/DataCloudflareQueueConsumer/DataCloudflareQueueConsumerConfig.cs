@@ -11,10 +11,10 @@ namespace cloudflare.DataCloudflareQueueConsumer
     {
         /// <summary>A Resource identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/queue_consumer#queue_id DataCloudflareQueueConsumer#queue_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/queue_consumer#account_id DataCloudflareQueueConsumer#account_id}
         /// </remarks>
-        [JsiiProperty(name: "queueId", typeJson: "{\"primitive\":\"string\"}")]
-        public string QueueId
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
         {
             get;
             set;
@@ -22,11 +22,10 @@ namespace cloudflare.DataCloudflareQueueConsumer
 
         /// <summary>A Resource identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/queue_consumer#account_id DataCloudflareQueueConsumer#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/queue_consumer#queue_id DataCloudflareQueueConsumer#queue_id}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
+        [JsiiProperty(name: "queueId", typeJson: "{\"primitive\":\"string\"}")]
+        public string QueueId
         {
             get;
             set;

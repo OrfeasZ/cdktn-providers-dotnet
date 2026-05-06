@@ -7,9 +7,19 @@ namespace cloudflare.R2BucketEventNotification
     [JsiiInterface(nativeType: typeof(IR2BucketEventNotificationConfig), fullyQualifiedName: "cloudflare.r2BucketEventNotification.R2BucketEventNotificationConfig")]
     public interface IR2BucketEventNotificationConfig : Io.Cdktn.ITerraformMetaArguments
     {
+        /// <summary>Account ID.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/r2_bucket_event_notification#account_id R2BucketEventNotification#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        string AccountId
+        {
+            get;
+        }
+
         /// <summary>Name of the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/r2_bucket_event_notification#bucket_name R2BucketEventNotification#bucket_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/r2_bucket_event_notification#bucket_name R2BucketEventNotification#bucket_name}
         /// </remarks>
         [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
         string BucketName
@@ -19,7 +29,7 @@ namespace cloudflare.R2BucketEventNotification
 
         /// <summary>Queue ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/r2_bucket_event_notification#queue_id R2BucketEventNotification#queue_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/r2_bucket_event_notification#queue_id R2BucketEventNotification#queue_id}
         /// </remarks>
         [JsiiProperty(name: "queueId", typeJson: "{\"primitive\":\"string\"}")]
         string QueueId
@@ -27,23 +37,13 @@ namespace cloudflare.R2BucketEventNotification
             get;
         }
 
-        /// <summary>Array of rules to drive notifications.</summary>
+        /// <summary>Jurisdiction of the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/r2_bucket_event_notification#rules R2BucketEventNotification#rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/r2_bucket_event_notification#jurisdiction R2BucketEventNotification#jurisdiction}
         /// </remarks>
-        [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.r2BucketEventNotification.R2BucketEventNotificationRules\"},\"kind\":\"array\"}}]}}")]
-        object Rules
-        {
-            get;
-        }
-
-        /// <summary>Account ID.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/r2_bucket_event_notification#account_id R2BucketEventNotification#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? AccountId
+        string? Jurisdiction
         {
             get
             {
@@ -51,13 +51,13 @@ namespace cloudflare.R2BucketEventNotification
             }
         }
 
-        /// <summary>Jurisdiction of the bucket.</summary>
+        /// <summary>Array of rules to drive notifications.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/r2_bucket_event_notification#jurisdiction R2BucketEventNotification#jurisdiction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/r2_bucket_event_notification#rules R2BucketEventNotification#rules}
         /// </remarks>
-        [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.r2BucketEventNotification.R2BucketEventNotificationRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? Jurisdiction
+        object? Rules
         {
             get
             {
@@ -72,9 +72,19 @@ namespace cloudflare.R2BucketEventNotification
             {
             }
 
+            /// <summary>Account ID.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/r2_bucket_event_notification#account_id R2BucketEventNotification#account_id}
+            /// </remarks>
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+            public string AccountId
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
             /// <summary>Name of the bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/r2_bucket_event_notification#bucket_name R2BucketEventNotification#bucket_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/r2_bucket_event_notification#bucket_name R2BucketEventNotification#bucket_name}
             /// </remarks>
             [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
             public string BucketName
@@ -84,7 +94,7 @@ namespace cloudflare.R2BucketEventNotification
 
             /// <summary>Queue ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/r2_bucket_event_notification#queue_id R2BucketEventNotification#queue_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/r2_bucket_event_notification#queue_id R2BucketEventNotification#queue_id}
             /// </remarks>
             [JsiiProperty(name: "queueId", typeJson: "{\"primitive\":\"string\"}")]
             public string QueueId
@@ -92,36 +102,26 @@ namespace cloudflare.R2BucketEventNotification
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Array of rules to drive notifications.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/r2_bucket_event_notification#rules R2BucketEventNotification#rules}
-            /// </remarks>
-            [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.r2BucketEventNotification.R2BucketEventNotificationRules\"},\"kind\":\"array\"}}]}}")]
-            public object Rules
-            {
-                get => GetInstanceProperty<object>()!;
-            }
-
-            /// <summary>Account ID.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/r2_bucket_event_notification#account_id R2BucketEventNotification#account_id}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? AccountId
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
             /// <summary>Jurisdiction of the bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/r2_bucket_event_notification#jurisdiction R2BucketEventNotification#jurisdiction}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/r2_bucket_event_notification#jurisdiction R2BucketEventNotification#jurisdiction}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Jurisdiction
             {
                 get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Array of rules to drive notifications.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/r2_bucket_event_notification#rules R2BucketEventNotification#rules}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.r2BucketEventNotification.R2BucketEventNotificationRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? Rules
+            {
+                get => GetInstanceProperty<object?>();
             }
 
             /// <remarks>

@@ -7,11 +7,11 @@ namespace cloudflare.Ruleset
     [JsiiByValue(fqn: "cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyHeader")]
     public class RulesetRulesActionParametersCacheKeyCustomKeyHeader : cloudflare.Ruleset.IRulesetRulesActionParametersCacheKeyCustomKeyHeader
     {
-        /// <summary>A list of headers to check for the presence of.</summary>
+        /// <summary>Checks for the presence of these header names.</summary>
         /// <remarks>
-        /// The presence of these headers is included in the cache key.
+        /// The presence of these headers is used in building the cache key.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#check_presence Ruleset#check_presence}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#check_presence Ruleset#check_presence}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "checkPresence", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -23,11 +23,11 @@ namespace cloudflare.Ruleset
 
         private object? _contains;
 
-        /// <summary>A mapping of header names to a list of values.</summary>
+        /// <summary>For each header name and list of values combination, check if the request header contains any of the values provided.</summary>
         /// <remarks>
-        /// If a header is present in the request and contains any of the values provided, its value is included in the cache key.
+        /// The presence of the request header and whether any of the values provided are contained in the request header value is used in building the cache key.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#contains Ruleset#contains}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#contains Ruleset#contains}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "contains", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -59,9 +59,11 @@ namespace cloudflare.Ruleset
 
         private object? _excludeOrigin;
 
-        /// <summary>Whether to exclude the origin header in the cache key.</summary>
+        /// <summary>Whether or not to include the origin header.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#exclude_origin Ruleset#exclude_origin}
+        /// A value of true will exclude the origin header in the cache key.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#exclude_origin Ruleset#exclude_origin}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "excludeOrigin", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -91,9 +93,9 @@ namespace cloudflare.Ruleset
             }
         }
 
-        /// <summary>A list of headers to include in the cache key.</summary>
+        /// <summary>Include these headers' names and their values.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#include Ruleset#include}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#include Ruleset#include}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "include", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

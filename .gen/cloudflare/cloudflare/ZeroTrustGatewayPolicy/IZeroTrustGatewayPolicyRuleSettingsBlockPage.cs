@@ -7,9 +7,9 @@ namespace cloudflare.ZeroTrustGatewayPolicy
     [JsiiInterface(nativeType: typeof(IZeroTrustGatewayPolicyRuleSettingsBlockPage), fullyQualifiedName: "cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsBlockPage")]
     public interface IZeroTrustGatewayPolicyRuleSettingsBlockPage
     {
-        /// <summary>Specify the URI to which the user is redirected.</summary>
+        /// <summary>URI to which the user will be redirected.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#target_uri ZeroTrustGatewayPolicy#target_uri}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#target_uri ZeroTrustGatewayPolicy#target_uri}
         /// </remarks>
         [JsiiProperty(name: "targetUri", typeJson: "{\"primitive\":\"string\"}")]
         string TargetUri
@@ -17,9 +17,9 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             get;
         }
 
-        /// <summary>Specify whether to pass the context information as query parameters.</summary>
+        /// <summary>If true, context information will be passed as query parameters.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#include_context ZeroTrustGatewayPolicy#include_context}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#include_context ZeroTrustGatewayPolicy#include_context}
         /// </remarks>
         [JsiiProperty(name: "includeContext", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,9 +38,9 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             {
             }
 
-            /// <summary>Specify the URI to which the user is redirected.</summary>
+            /// <summary>URI to which the user will be redirected.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#target_uri ZeroTrustGatewayPolicy#target_uri}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#target_uri ZeroTrustGatewayPolicy#target_uri}
             /// </remarks>
             [JsiiProperty(name: "targetUri", typeJson: "{\"primitive\":\"string\"}")]
             public string TargetUri
@@ -48,9 +48,9 @@ namespace cloudflare.ZeroTrustGatewayPolicy
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Specify whether to pass the context information as query parameters.</summary>
+            /// <summary>If true, context information will be passed as query parameters.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#include_context ZeroTrustGatewayPolicy#include_context}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#include_context ZeroTrustGatewayPolicy#include_context}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "includeContext", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

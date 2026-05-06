@@ -35,54 +35,6 @@ namespace cloudflare.DataCloudflareCustomPagesList
         {
         }
 
-        [JsiiProperty(name: "createdOn", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string CreatedOn
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Description
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Id
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "modifiedOn", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ModifiedOn
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "previewTarget", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string PreviewTarget
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "requiredTokens", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] RequiredTokens
-        {
-            get => GetInstanceProperty<string[]>()!;
-        }
-
-        [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string State
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Url
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareCustomPagesList.DataCloudflareCustomPagesListResult\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareCustomPagesList.IDataCloudflareCustomPagesListResult? InternalValue

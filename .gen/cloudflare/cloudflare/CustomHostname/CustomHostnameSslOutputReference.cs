@@ -92,12 +92,6 @@ namespace cloudflare.CustomHostname
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetCustomCsrId")]
-        public virtual void ResetCustomCsrId()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetCustomKey")]
         public virtual void ResetCustomKey()
         {
@@ -171,13 +165,6 @@ namespace cloudflare.CustomHostname
         [JsiiOptional]
         [JsiiProperty(name: "customCertificateInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CustomCertificateInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "customCsrIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? CustomCsrIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -260,13 +247,6 @@ namespace cloudflare.CustomHostname
 
         [JsiiProperty(name: "customCertificate", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CustomCertificate
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "customCsrId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string CustomCsrId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

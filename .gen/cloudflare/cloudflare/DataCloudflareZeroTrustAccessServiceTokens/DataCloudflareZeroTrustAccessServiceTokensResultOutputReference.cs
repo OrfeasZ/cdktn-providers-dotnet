@@ -41,6 +41,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessServiceTokens
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "createdAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CreatedAt
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Duration
         {
@@ -59,8 +65,20 @@ namespace cloudflare.DataCloudflareZeroTrustAccessServiceTokens
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "lastSeenAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LastSeenAt
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "updatedAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UpdatedAt
         {
             get => GetInstanceProperty<string>()!;
         }

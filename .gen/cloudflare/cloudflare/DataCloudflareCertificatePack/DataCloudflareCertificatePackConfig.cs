@@ -4,25 +4,17 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareCertificatePack
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "cloudflare.dataCloudflareCertificatePack.DataCloudflareCertificatePackConfig")]
     public class DataCloudflareCertificatePackConfig : cloudflare.DataCloudflareCertificatePack.IDataCloudflareCertificatePackConfig
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/certificate_pack#certificate_pack_id DataCloudflareCertificatePack#certificate_pack_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/certificate_pack#certificate_pack_id DataCloudflareCertificatePack#certificate_pack_id}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "certificatePackId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? CertificatePackId
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/certificate_pack#filter DataCloudflareCertificatePack#filter}.</summary>
-        [JsiiOptional]
-        [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareCertificatePack.DataCloudflareCertificatePackFilter\"}", isOptional: true)]
-        public cloudflare.DataCloudflareCertificatePack.IDataCloudflareCertificatePackFilter? Filter
+        [JsiiProperty(name: "certificatePackId", typeJson: "{\"primitive\":\"string\"}")]
+        public string CertificatePackId
         {
             get;
             set;
@@ -30,11 +22,10 @@ namespace cloudflare.DataCloudflareCertificatePack
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/certificate_pack#zone_id DataCloudflareCertificatePack#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/certificate_pack#zone_id DataCloudflareCertificatePack#zone_id}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? ZoneId
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        public string ZoneId
         {
             get;
             set;

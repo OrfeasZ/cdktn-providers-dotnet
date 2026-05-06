@@ -35,8 +35,20 @@ namespace cloudflare.DataCloudflareManagedTransforms
         {
         }
 
+        [JsiiProperty(name: "conflictsWith", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] ConflictsWith
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "enabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable Enabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "hasConflict", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable HasConflict
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }

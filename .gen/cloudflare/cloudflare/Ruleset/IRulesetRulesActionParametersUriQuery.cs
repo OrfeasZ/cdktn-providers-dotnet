@@ -7,9 +7,9 @@ namespace cloudflare.Ruleset
     [JsiiInterface(nativeType: typeof(IRulesetRulesActionParametersUriQuery), fullyQualifiedName: "cloudflare.ruleset.RulesetRulesActionParametersUriQuery")]
     public interface IRulesetRulesActionParametersUriQuery
     {
-        /// <summary>An expression that evaluates to a value to rewrite the URI query to.</summary>
+        /// <summary>Expression to evaluate for the replacement value.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#expression Ruleset#expression}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#expression Ruleset#expression}
         /// </remarks>
         [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,9 +21,9 @@ namespace cloudflare.Ruleset
             }
         }
 
-        /// <summary>A value to rewrite the URI query to.</summary>
+        /// <summary>Predefined replacement value.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#value Ruleset#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#value Ruleset#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,9 +42,9 @@ namespace cloudflare.Ruleset
             {
             }
 
-            /// <summary>An expression that evaluates to a value to rewrite the URI query to.</summary>
+            /// <summary>Expression to evaluate for the replacement value.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#expression Ruleset#expression}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#expression Ruleset#expression}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -53,9 +53,9 @@ namespace cloudflare.Ruleset
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>A value to rewrite the URI query to.</summary>
+            /// <summary>Predefined replacement value.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#value Ruleset#value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#value Ruleset#value}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

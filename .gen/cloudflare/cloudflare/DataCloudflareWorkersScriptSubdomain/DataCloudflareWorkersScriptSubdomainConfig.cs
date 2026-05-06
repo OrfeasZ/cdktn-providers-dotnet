@@ -9,24 +9,23 @@ namespace cloudflare.DataCloudflareWorkersScriptSubdomain
     [JsiiByValue(fqn: "cloudflare.dataCloudflareWorkersScriptSubdomain.DataCloudflareWorkersScriptSubdomainConfig")]
     public class DataCloudflareWorkersScriptSubdomainConfig : cloudflare.DataCloudflareWorkersScriptSubdomain.IDataCloudflareWorkersScriptSubdomainConfig
     {
-        /// <summary>Name of the script, used in URLs and route configuration.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/workers_script_subdomain#script_name DataCloudflareWorkersScriptSubdomain#script_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/workers_script_subdomain#account_id DataCloudflareWorkersScriptSubdomain#account_id}
         /// </remarks>
-        [JsiiProperty(name: "scriptName", typeJson: "{\"primitive\":\"string\"}")]
-        public string ScriptName
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
         {
             get;
             set;
         }
 
-        /// <summary>Identifier.</summary>
+        /// <summary>Name of the script, used in URLs and route configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/workers_script_subdomain#account_id DataCloudflareWorkersScriptSubdomain#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/workers_script_subdomain#script_name DataCloudflareWorkersScriptSubdomain#script_name}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
+        [JsiiProperty(name: "scriptName", typeJson: "{\"primitive\":\"string\"}")]
+        public string ScriptName
         {
             get;
             set;

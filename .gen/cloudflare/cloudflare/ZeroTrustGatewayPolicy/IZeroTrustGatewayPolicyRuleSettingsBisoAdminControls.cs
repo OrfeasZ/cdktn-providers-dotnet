@@ -7,12 +7,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
     [JsiiInterface(nativeType: typeof(IZeroTrustGatewayPolicyRuleSettingsBisoAdminControls), fullyQualifiedName: "cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsBisoAdminControls")]
     public interface IZeroTrustGatewayPolicyRuleSettingsBisoAdminControls
     {
-        /// <summary>Configure copy behavior.</summary>
+        /// <summary>Configure whether copy is enabled or not.</summary>
         /// <remarks>
-        /// If set to remote_only, users cannot copy isolated content from the remote browser to the local clipboard. If this field is absent, copying remains enabled. Applies only when version == "v2".
+        /// When set with "remote_only", copying isolated content from the remote browser to the user's local clipboard is disabled. When absent, copy is enabled. Only applies when <c>version == "v2"</c>.
         /// Available values: "enabled", "disabled", "remote_only".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#copy ZeroTrustGatewayPolicy#copy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#copy ZeroTrustGatewayPolicy#copy}
         /// </remarks>
         [JsiiProperty(name: "copy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -26,7 +26,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         /// <summary>Set to false to enable copy-pasting. Only applies when `version == "v1"`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#dcp ZeroTrustGatewayPolicy#dcp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#dcp ZeroTrustGatewayPolicy#dcp}
         /// </remarks>
         [JsiiProperty(name: "dcp", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         /// <summary>Set to false to enable downloading. Only applies when `version == "v1"`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#dd ZeroTrustGatewayPolicy#dd}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#dd ZeroTrustGatewayPolicy#dd}
         /// </remarks>
         [JsiiProperty(name: "dd", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         /// <summary>Set to false to enable keyboard usage. Only applies when `version == "v1"`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#dk ZeroTrustGatewayPolicy#dk}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#dk ZeroTrustGatewayPolicy#dk}
         /// </remarks>
         [JsiiProperty(name: "dk", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,12 +66,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             }
         }
 
-        /// <summary>Configure download behavior.</summary>
+        /// <summary>Configure whether downloading enabled or not.</summary>
         /// <remarks>
-        /// When set to remote_only, users can view downloads but cannot save them. If this field is absent, downloading remains enabled. Applies only when version == "v2".
+        /// When set with "remote_only", downloads are only available for viewing. Only applies when <c>version == "v2"</c>.
         /// Available values: "enabled", "disabled", "remote_only".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#download ZeroTrustGatewayPolicy#download}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#download ZeroTrustGatewayPolicy#download}
         /// </remarks>
         [JsiiProperty(name: "download", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -85,7 +85,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         /// <summary>Set to false to enable printing. Only applies when `version == "v1"`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#dp ZeroTrustGatewayPolicy#dp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#dp ZeroTrustGatewayPolicy#dp}
         /// </remarks>
         [JsiiProperty(name: "dp", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -99,7 +99,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         /// <summary>Set to false to enable uploading. Only applies when `version == "v1"`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#du ZeroTrustGatewayPolicy#du}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#du ZeroTrustGatewayPolicy#du}
         /// </remarks>
         [JsiiProperty(name: "du", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -111,12 +111,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             }
         }
 
-        /// <summary>Configure keyboard usage behavior.</summary>
+        /// <summary>Configure whether keyboard usage is enabled or not.</summary>
         /// <remarks>
-        /// If this field is absent, keyboard usage remains enabled. Applies only when version == "v2".
+        /// When absent, keyboard usage is enabled. Only applies when <c>version == "v2"</c>.
         /// Available values: "enabled", "disabled".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#keyboard ZeroTrustGatewayPolicy#keyboard}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#keyboard ZeroTrustGatewayPolicy#keyboard}
         /// </remarks>
         [JsiiProperty(name: "keyboard", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -128,12 +128,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             }
         }
 
-        /// <summary>Configure paste behavior.</summary>
+        /// <summary>Configure whether pasting is enabled or not.</summary>
         /// <remarks>
-        /// If set to remote_only, users cannot paste content from the local clipboard into isolated pages. If this field is absent, pasting remains enabled. Applies only when version == "v2".
+        /// When set with "remote_only", pasting content from the user's local clipboard into isolated pages is disabled. When absent, paste is enabled. Only applies when <c>version == "v2"</c>.
         /// Available values: "enabled", "disabled", "remote_only".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#paste ZeroTrustGatewayPolicy#paste}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#paste ZeroTrustGatewayPolicy#paste}
         /// </remarks>
         [JsiiProperty(name: "paste", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -145,9 +145,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             }
         }
 
-        /// <summary>Configure print behavior. Default, Printing is enabled. Applies only when version == "v2". Available values: "enabled", "disabled".</summary>
+        /// <summary>Configure whether printing is enabled or not.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#printing ZeroTrustGatewayPolicy#printing}
+        /// When absent, printing is enabled. Only applies when <c>version == "v2"</c>.
+        /// Available values: "enabled", "disabled".
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#printing ZeroTrustGatewayPolicy#printing}
         /// </remarks>
         [JsiiProperty(name: "printing", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -159,12 +162,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             }
         }
 
-        /// <summary>Configure upload behavior.</summary>
+        /// <summary>Configure whether uploading is enabled or not.</summary>
         /// <remarks>
-        /// If this field is absent, uploading remains enabled. Applies only when version == "v2".
+        /// When absent, uploading is enabled. Only applies when <c>version == "v2"</c>.
         /// Available values: "enabled", "disabled".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#upload ZeroTrustGatewayPolicy#upload}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#upload ZeroTrustGatewayPolicy#upload}
         /// </remarks>
         [JsiiProperty(name: "upload", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -176,29 +179,13 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             }
         }
 
-        /// <summary>Indicate which version of the browser isolation controls should apply. Available values: "v1", "v2".</summary>
+        /// <summary>Indicates which version of the browser isolation controls should apply. Available values: "v1", "v2".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#version ZeroTrustGatewayPolicy#version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#version ZeroTrustGatewayPolicy#version}
         /// </remarks>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Version
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Specify the watermark ID (UUID) to apply to the isolated browser session.</summary>
-        /// <remarks>
-        /// When present, enables watermark rendering in the isolated browser.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#wm_id ZeroTrustGatewayPolicy#wm_id}
-        /// </remarks>
-        [JsiiProperty(name: "wmId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? WmId
         {
             get
             {
@@ -213,12 +200,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             {
             }
 
-            /// <summary>Configure copy behavior.</summary>
+            /// <summary>Configure whether copy is enabled or not.</summary>
             /// <remarks>
-            /// If set to remote_only, users cannot copy isolated content from the remote browser to the local clipboard. If this field is absent, copying remains enabled. Applies only when version == "v2".
+            /// When set with "remote_only", copying isolated content from the remote browser to the user's local clipboard is disabled. When absent, copy is enabled. Only applies when <c>version == "v2"</c>.
             /// Available values: "enabled", "disabled", "remote_only".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#copy ZeroTrustGatewayPolicy#copy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#copy ZeroTrustGatewayPolicy#copy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "copy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -229,7 +216,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
             /// <summary>Set to false to enable copy-pasting. Only applies when `version == "v1"`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#dcp ZeroTrustGatewayPolicy#dcp}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#dcp ZeroTrustGatewayPolicy#dcp}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dcp", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -240,7 +227,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
             /// <summary>Set to false to enable downloading. Only applies when `version == "v1"`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#dd ZeroTrustGatewayPolicy#dd}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#dd ZeroTrustGatewayPolicy#dd}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dd", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -251,7 +238,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
             /// <summary>Set to false to enable keyboard usage. Only applies when `version == "v1"`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#dk ZeroTrustGatewayPolicy#dk}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#dk ZeroTrustGatewayPolicy#dk}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dk", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -260,12 +247,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Configure download behavior.</summary>
+            /// <summary>Configure whether downloading enabled or not.</summary>
             /// <remarks>
-            /// When set to remote_only, users can view downloads but cannot save them. If this field is absent, downloading remains enabled. Applies only when version == "v2".
+            /// When set with "remote_only", downloads are only available for viewing. Only applies when <c>version == "v2"</c>.
             /// Available values: "enabled", "disabled", "remote_only".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#download ZeroTrustGatewayPolicy#download}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#download ZeroTrustGatewayPolicy#download}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "download", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -276,7 +263,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
             /// <summary>Set to false to enable printing. Only applies when `version == "v1"`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#dp ZeroTrustGatewayPolicy#dp}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#dp ZeroTrustGatewayPolicy#dp}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dp", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -287,7 +274,7 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
             /// <summary>Set to false to enable uploading. Only applies when `version == "v1"`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#du ZeroTrustGatewayPolicy#du}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#du ZeroTrustGatewayPolicy#du}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "du", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -296,12 +283,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Configure keyboard usage behavior.</summary>
+            /// <summary>Configure whether keyboard usage is enabled or not.</summary>
             /// <remarks>
-            /// If this field is absent, keyboard usage remains enabled. Applies only when version == "v2".
+            /// When absent, keyboard usage is enabled. Only applies when <c>version == "v2"</c>.
             /// Available values: "enabled", "disabled".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#keyboard ZeroTrustGatewayPolicy#keyboard}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#keyboard ZeroTrustGatewayPolicy#keyboard}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "keyboard", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -310,12 +297,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Configure paste behavior.</summary>
+            /// <summary>Configure whether pasting is enabled or not.</summary>
             /// <remarks>
-            /// If set to remote_only, users cannot paste content from the local clipboard into isolated pages. If this field is absent, pasting remains enabled. Applies only when version == "v2".
+            /// When set with "remote_only", pasting content from the user's local clipboard into isolated pages is disabled. When absent, paste is enabled. Only applies when <c>version == "v2"</c>.
             /// Available values: "enabled", "disabled", "remote_only".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#paste ZeroTrustGatewayPolicy#paste}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#paste ZeroTrustGatewayPolicy#paste}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "paste", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -324,9 +311,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Configure print behavior. Default, Printing is enabled. Applies only when version == "v2". Available values: "enabled", "disabled".</summary>
+            /// <summary>Configure whether printing is enabled or not.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#printing ZeroTrustGatewayPolicy#printing}
+            /// When absent, printing is enabled. Only applies when <c>version == "v2"</c>.
+            /// Available values: "enabled", "disabled".
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#printing ZeroTrustGatewayPolicy#printing}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "printing", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -335,12 +325,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Configure upload behavior.</summary>
+            /// <summary>Configure whether uploading is enabled or not.</summary>
             /// <remarks>
-            /// If this field is absent, uploading remains enabled. Applies only when version == "v2".
+            /// When absent, uploading is enabled. Only applies when <c>version == "v2"</c>.
             /// Available values: "enabled", "disabled".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#upload ZeroTrustGatewayPolicy#upload}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#upload ZeroTrustGatewayPolicy#upload}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "upload", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -349,26 +339,13 @@ namespace cloudflare.ZeroTrustGatewayPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Indicate which version of the browser isolation controls should apply. Available values: "v1", "v2".</summary>
+            /// <summary>Indicates which version of the browser isolation controls should apply. Available values: "v1", "v2".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#version ZeroTrustGatewayPolicy#version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#version ZeroTrustGatewayPolicy#version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Version
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
-            /// <summary>Specify the watermark ID (UUID) to apply to the isolated browser session.</summary>
-            /// <remarks>
-            /// When present, enables watermark rendering in the isolated browser.
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#wm_id ZeroTrustGatewayPolicy#wm_id}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "wmId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? WmId
             {
                 get => GetInstanceProperty<string?>();
             }

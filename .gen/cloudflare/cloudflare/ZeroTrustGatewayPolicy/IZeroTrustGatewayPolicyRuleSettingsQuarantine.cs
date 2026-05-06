@@ -7,9 +7,9 @@ namespace cloudflare.ZeroTrustGatewayPolicy
     [JsiiInterface(nativeType: typeof(IZeroTrustGatewayPolicyRuleSettingsQuarantine), fullyQualifiedName: "cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsQuarantine")]
     public interface IZeroTrustGatewayPolicyRuleSettingsQuarantine
     {
-        /// <summary>Specify the types of files to sandbox.</summary>
+        /// <summary>Types of files to sandbox.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#file_types ZeroTrustGatewayPolicy#file_types}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#file_types ZeroTrustGatewayPolicy#file_types}
         /// </remarks>
         [JsiiProperty(name: "fileTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,9 +28,9 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             {
             }
 
-            /// <summary>Specify the types of files to sandbox.</summary>
+            /// <summary>Types of files to sandbox.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#file_types ZeroTrustGatewayPolicy#file_types}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#file_types ZeroTrustGatewayPolicy#file_types}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fileTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

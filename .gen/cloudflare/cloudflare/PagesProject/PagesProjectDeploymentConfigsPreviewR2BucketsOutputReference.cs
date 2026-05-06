@@ -40,6 +40,12 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetName")]
+        public virtual void ResetName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "jurisdictionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? JurisdictionInput

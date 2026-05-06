@@ -7,38 +7,18 @@ namespace cloudflare.ZeroTrustGatewayCertificate
     [JsiiInterface(nativeType: typeof(IZeroTrustGatewayCertificateConfig), fullyQualifiedName: "cloudflare.zeroTrustGatewayCertificate.ZeroTrustGatewayCertificateConfig")]
     public interface IZeroTrustGatewayCertificateConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_certificate#account_id ZeroTrustGatewayCertificate#account_id}.</summary>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? AccountId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_certificate#account_id ZeroTrustGatewayCertificate#account_id}.</summary>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        string AccountId
         {
-            get
-            {
-                return null;
-            }
+            get;
         }
 
-        /// <summary>Whether to activate the certificate on Cloudflare's edge.</summary>
+        /// <summary>Number of days the generated certificate will be valid, minimum 1 day and maximum 30 years.</summary>
         /// <remarks>
-        /// When true, the certificate will be activated. When false, the certificate will be deactivated at the edge. This is a Terraform-only field and does not appear in the API response. Monitor <c>binding_status</c> for the activation status. Once a certificate is activated, you may use the certificate to intercept traffic
+        /// Defaults to 5 years. In terraform, validity_period_days can only be used while creating a certificate, and this CAN NOT be used to extend the validity of an already generated certificate.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_certificate#activate ZeroTrustGatewayCertificate#activate}
-        /// </remarks>
-        [JsiiProperty(name: "activate", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? Activate
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Sets the certificate validity period in days (range: 1-10,950 days / ~30 years).</summary>
-        /// <remarks>
-        /// Defaults to 1,825 days (5 years). <strong>Important</strong>: This field is only settable during the certificate creation.  Certificates becomes immutable after creation - use the <c>/activate</c> and <c>/deactivate</c> endpoints to manage certificate lifecycle.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_certificate#validity_period_days ZeroTrustGatewayCertificate#validity_period_days}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_certificate#validity_period_days ZeroTrustGatewayCertificate#validity_period_days}
         /// </remarks>
         [JsiiProperty(name: "validityPeriodDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,32 +37,18 @@ namespace cloudflare.ZeroTrustGatewayCertificate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_certificate#account_id ZeroTrustGatewayCertificate#account_id}.</summary>
-            [JsiiOptional]
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? AccountId
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_certificate#account_id ZeroTrustGatewayCertificate#account_id}.</summary>
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+            public string AccountId
             {
-                get => GetInstanceProperty<string?>();
+                get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Whether to activate the certificate on Cloudflare's edge.</summary>
+            /// <summary>Number of days the generated certificate will be valid, minimum 1 day and maximum 30 years.</summary>
             /// <remarks>
-            /// When true, the certificate will be activated. When false, the certificate will be deactivated at the edge. This is a Terraform-only field and does not appear in the API response. Monitor <c>binding_status</c> for the activation status. Once a certificate is activated, you may use the certificate to intercept traffic
+            /// Defaults to 5 years. In terraform, validity_period_days can only be used while creating a certificate, and this CAN NOT be used to extend the validity of an already generated certificate.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_certificate#activate ZeroTrustGatewayCertificate#activate}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "activate", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-            public object? Activate
-            {
-                get => GetInstanceProperty<object?>();
-            }
-
-            /// <summary>Sets the certificate validity period in days (range: 1-10,950 days / ~30 years).</summary>
-            /// <remarks>
-            /// Defaults to 1,825 days (5 years). <strong>Important</strong>: This field is only settable during the certificate creation.  Certificates becomes immutable after creation - use the <c>/activate</c> and <c>/deactivate</c> endpoints to manage certificate lifecycle.
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_certificate#validity_period_days ZeroTrustGatewayCertificate#validity_period_days}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_certificate#validity_period_days ZeroTrustGatewayCertificate#validity_period_days}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "validityPeriodDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

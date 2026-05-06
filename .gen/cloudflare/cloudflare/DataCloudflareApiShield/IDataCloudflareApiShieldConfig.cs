@@ -7,27 +7,23 @@ namespace cloudflare.DataCloudflareApiShield
     [JsiiInterface(nativeType: typeof(IDataCloudflareApiShieldConfig), fullyQualifiedName: "cloudflare.dataCloudflareApiShield.DataCloudflareApiShieldConfig")]
     public interface IDataCloudflareApiShieldConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Ensures that the configuration is written or retrieved in normalized fashion.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/api_shield#normalize DataCloudflareApiShield#normalize}
-        /// </remarks>
-        [JsiiProperty(name: "normalize", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? Normalize
-        {
-            get
-            {
-                return null;
-            }
-        }
-
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/api_shield#zone_id DataCloudflareApiShield#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/api_shield#zone_id DataCloudflareApiShield#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        string ZoneId
+        {
+            get;
+        }
+
+        /// <summary>Requests information about certain properties.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/api_shield#properties DataCloudflareApiShield#properties}
+        /// </remarks>
+        [JsiiProperty(name: "properties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? ZoneId
+        string[]? Properties
         {
             get
             {
@@ -42,26 +38,25 @@ namespace cloudflare.DataCloudflareApiShield
             {
             }
 
-            /// <summary>Ensures that the configuration is written or retrieved in normalized fashion.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/api_shield#normalize DataCloudflareApiShield#normalize}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "normalize", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-            public object? Normalize
-            {
-                get => GetInstanceProperty<object?>();
-            }
-
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/api_shield#zone_id DataCloudflareApiShield#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/api_shield#zone_id DataCloudflareApiShield#zone_id}
+            /// </remarks>
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+            public string ZoneId
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Requests information about certain properties.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/api_shield#properties DataCloudflareApiShield#properties}
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? ZoneId
+            [JsiiProperty(name: "properties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+            public string[]? Properties
             {
-                get => GetInstanceProperty<string?>();
+                get => GetInstanceProperty<string[]?>();
             }
 
             /// <remarks>

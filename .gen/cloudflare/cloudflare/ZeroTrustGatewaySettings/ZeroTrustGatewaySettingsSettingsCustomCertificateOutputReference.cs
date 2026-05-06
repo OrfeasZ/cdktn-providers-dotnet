@@ -33,29 +33,22 @@ namespace cloudflare.ZeroTrustGatewaySettings
         {
         }
 
-        [JsiiMethod(name: "resetBindingStatus")]
-        public virtual void ResetBindingStatus()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetId")]
         public virtual void ResetId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetUpdatedAt")]
-        public virtual void ResetUpdatedAt()
+        [JsiiProperty(name: "bindingStatus", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BindingStatus
         {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+            get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiOptional]
-        [JsiiProperty(name: "bindingStatusInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? BindingStatusInput
+        [JsiiProperty(name: "updatedAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UpdatedAt
         {
-            get => GetInstanceProperty<string?>();
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiOptional]
@@ -70,20 +63,6 @@ namespace cloudflare.ZeroTrustGatewaySettings
         public virtual string? IdInput
         {
             get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "updatedAtInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? UpdatedAtInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiProperty(name: "bindingStatus", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string BindingStatus
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -115,13 +94,6 @@ namespace cloudflare.ZeroTrustGatewaySettings
 
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "updatedAt", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string UpdatedAt
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

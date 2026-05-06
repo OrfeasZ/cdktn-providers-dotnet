@@ -33,12 +33,6 @@ namespace cloudflare.ZeroTrustDlpCustomProfile
         {
         }
 
-        [JsiiMethod(name: "resetFiles")]
-        public virtual void ResetFiles()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "filesInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? FilesInput

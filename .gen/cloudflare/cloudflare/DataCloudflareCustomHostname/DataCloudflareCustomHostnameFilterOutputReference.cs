@@ -33,24 +33,6 @@ namespace cloudflare.DataCloudflareCustomHostname
         {
         }
 
-        [JsiiMethod(name: "putHostname", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.dataCloudflareCustomHostname.DataCloudflareCustomHostnameFilterHostname\"}}]")]
-        public virtual void PutHostname(cloudflare.DataCloudflareCustomHostname.IDataCloudflareCustomHostnameFilterHostname @value)
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.DataCloudflareCustomHostname.IDataCloudflareCustomHostnameFilterHostname)}, new object[]{@value});
-        }
-
-        [JsiiMethod(name: "resetCertificateAuthority")]
-        public virtual void ResetCertificateAuthority()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetCustomOriginServer")]
-        public virtual void ResetCustomOriginServer()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetDirection")]
         public virtual void ResetDirection()
         {
@@ -59,12 +41,6 @@ namespace cloudflare.DataCloudflareCustomHostname
 
         [JsiiMethod(name: "resetHostname")]
         public virtual void ResetHostname()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetHostnameStatus")]
-        public virtual void ResetHostnameStatus()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -87,38 +63,6 @@ namespace cloudflare.DataCloudflareCustomHostname
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetSslStatus")]
-        public virtual void ResetSslStatus()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetWildcard")]
-        public virtual void ResetWildcard()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiProperty(name: "hostname", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareCustomHostname.DataCloudflareCustomHostnameFilterHostnameOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareCustomHostname.DataCloudflareCustomHostnameFilterHostnameOutputReference Hostname
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareCustomHostname.DataCloudflareCustomHostnameFilterHostnameOutputReference>()!;
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "certificateAuthorityInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? CertificateAuthorityInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "customOriginServerInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? CustomOriginServerInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "directionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DirectionInput
@@ -127,15 +71,8 @@ namespace cloudflare.DataCloudflareCustomHostname
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "hostnameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareCustomHostname.DataCloudflareCustomHostnameFilterHostname\"}]}}", isOptional: true)]
-        public virtual object? HostnameInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "hostnameStatusInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? HostnameStatusInput
+        [JsiiProperty(name: "hostnameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? HostnameInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -161,34 +98,6 @@ namespace cloudflare.DataCloudflareCustomHostname
             get => GetInstanceProperty<double?>();
         }
 
-        [JsiiOptional]
-        [JsiiProperty(name: "sslStatusInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? SslStatusInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "wildcardInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? WildcardInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
-        [JsiiProperty(name: "certificateAuthority", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string CertificateAuthority
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "customOriginServer", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string CustomOriginServer
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Direction
         {
@@ -196,8 +105,8 @@ namespace cloudflare.DataCloudflareCustomHostname
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "hostnameStatus", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string HostnameStatus
+        [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Hostname
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -222,40 +131,6 @@ namespace cloudflare.DataCloudflareCustomHostname
         {
             get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "sslStatus", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string SslStatus
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "wildcard", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public virtual object Wildcard
-        {
-            get => GetInstanceProperty<object>()!;
-            set
-            {
-                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-                {
-                    switch (value)
-                    {
-                        case bool cast_cd4240:
-                            break;
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
-                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
-                            // Not enough information to type-check...
-                            break;
-                        case null:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
-                        default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
-                    }
-                }
-                SetInstanceProperty(value);
-            }
         }
 
         [JsiiOptional]

@@ -7,11 +7,28 @@ namespace cloudflare.ZeroTrustDevicePostureRule
     [JsiiInterface(nativeType: typeof(IZeroTrustDevicePostureRuleConfig), fullyQualifiedName: "cloudflare.zeroTrustDevicePostureRule.ZeroTrustDevicePostureRuleConfig")]
     public interface IZeroTrustDevicePostureRuleConfig : Io.Cdktn.ITerraformMetaArguments
     {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_device_posture_rule#account_id ZeroTrustDevicePostureRule#account_id}.</summary>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        string AccountId
+        {
+            get;
+        }
+
+        /// <summary>The name of the device posture rule.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_device_posture_rule#name ZeroTrustDevicePostureRule#name}
+        /// </remarks>
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        string Name
+        {
+            get;
+        }
+
         /// <summary>The type of device posture rule.</summary>
         /// <remarks>
-        /// Available values: "file", "application", "tanium", "gateway", "warp", "disk_encryption", "serial_number", "sentinelone", "carbonblack", "firewall", "os_version", "domain_joined", "client_certificate", "client_certificate_v2", "antivirus", "unique_client_id", "kolide", "tanium_s2s", "crowdstrike_s2s", "intune", "workspace_one", "sentinelone_s2s", "custom_s2s".
+        /// Available values: "file", "application", "tanium", "gateway", "warp", "disk_encryption", "serial_number", "sentinelone", "carbonblack", "firewall", "os_version", "domain_joined", "client_certificate", "client_certificate_v2", "unique_client_id", "kolide", "tanium_s2s", "crowdstrike_s2s", "intune", "workspace_one", "sentinelone_s2s", "custom_s2s".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_device_posture_rule#type ZeroTrustDevicePostureRule#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_device_posture_rule#type ZeroTrustDevicePostureRule#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -19,20 +36,9 @@ namespace cloudflare.ZeroTrustDevicePostureRule
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_device_posture_rule#account_id ZeroTrustDevicePostureRule#account_id}.</summary>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? AccountId
-        {
-            get
-            {
-                return null;
-            }
-        }
-
         /// <summary>The description of the device posture rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_device_posture_rule#description ZeroTrustDevicePostureRule#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_device_posture_rule#description ZeroTrustDevicePostureRule#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -48,7 +54,7 @@ namespace cloudflare.ZeroTrustDevicePostureRule
         /// <remarks>
         /// If empty, the result remains valid until it is overwritten by new data from the WARP client.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_device_posture_rule#expiration ZeroTrustDevicePostureRule#expiration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_device_posture_rule#expiration ZeroTrustDevicePostureRule#expiration}
         /// </remarks>
         [JsiiProperty(name: "expiration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -62,7 +68,7 @@ namespace cloudflare.ZeroTrustDevicePostureRule
 
         /// <summary>The value to be checked against.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_device_posture_rule#input ZeroTrustDevicePostureRule#input}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_device_posture_rule#input ZeroTrustDevicePostureRule#input}
         /// </remarks>
         [JsiiProperty(name: "input", typeJson: "{\"fqn\":\"cloudflare.zeroTrustDevicePostureRule.ZeroTrustDevicePostureRuleInput\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -76,7 +82,7 @@ namespace cloudflare.ZeroTrustDevicePostureRule
 
         /// <summary>The conditions that the client must match to run the rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_device_posture_rule#match ZeroTrustDevicePostureRule#match}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_device_posture_rule#match ZeroTrustDevicePostureRule#match}
         /// </remarks>
         [JsiiProperty(name: "match", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDevicePostureRule.ZeroTrustDevicePostureRuleMatch\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -88,23 +94,9 @@ namespace cloudflare.ZeroTrustDevicePostureRule
             }
         }
 
-        /// <summary>The name of the device posture rule.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_device_posture_rule#name ZeroTrustDevicePostureRule#name}
-        /// </remarks>
-        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? Name
-        {
-            get
-            {
-                return null;
-            }
-        }
-
         /// <summary>Polling frequency for the WARP client posture check. Default: `5m` (poll every five minutes). Minimum: `1m`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_device_posture_rule#schedule ZeroTrustDevicePostureRule#schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_device_posture_rule#schedule ZeroTrustDevicePostureRule#schedule}
         /// </remarks>
         [JsiiProperty(name: "schedule", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -123,11 +115,28 @@ namespace cloudflare.ZeroTrustDevicePostureRule
             {
             }
 
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_device_posture_rule#account_id ZeroTrustDevicePostureRule#account_id}.</summary>
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+            public string AccountId
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>The name of the device posture rule.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_device_posture_rule#name ZeroTrustDevicePostureRule#name}
+            /// </remarks>
+            [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+            public string Name
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
             /// <summary>The type of device posture rule.</summary>
             /// <remarks>
-            /// Available values: "file", "application", "tanium", "gateway", "warp", "disk_encryption", "serial_number", "sentinelone", "carbonblack", "firewall", "os_version", "domain_joined", "client_certificate", "client_certificate_v2", "antivirus", "unique_client_id", "kolide", "tanium_s2s", "crowdstrike_s2s", "intune", "workspace_one", "sentinelone_s2s", "custom_s2s".
+            /// Available values: "file", "application", "tanium", "gateway", "warp", "disk_encryption", "serial_number", "sentinelone", "carbonblack", "firewall", "os_version", "domain_joined", "client_certificate", "client_certificate_v2", "unique_client_id", "kolide", "tanium_s2s", "crowdstrike_s2s", "intune", "workspace_one", "sentinelone_s2s", "custom_s2s".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_device_posture_rule#type ZeroTrustDevicePostureRule#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_device_posture_rule#type ZeroTrustDevicePostureRule#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -135,17 +144,9 @@ namespace cloudflare.ZeroTrustDevicePostureRule
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_device_posture_rule#account_id ZeroTrustDevicePostureRule#account_id}.</summary>
-            [JsiiOptional]
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? AccountId
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
             /// <summary>The description of the device posture rule.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_device_posture_rule#description ZeroTrustDevicePostureRule#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_device_posture_rule#description ZeroTrustDevicePostureRule#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -158,7 +159,7 @@ namespace cloudflare.ZeroTrustDevicePostureRule
             /// <remarks>
             /// If empty, the result remains valid until it is overwritten by new data from the WARP client.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_device_posture_rule#expiration ZeroTrustDevicePostureRule#expiration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_device_posture_rule#expiration ZeroTrustDevicePostureRule#expiration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "expiration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -169,7 +170,7 @@ namespace cloudflare.ZeroTrustDevicePostureRule
 
             /// <summary>The value to be checked against.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_device_posture_rule#input ZeroTrustDevicePostureRule#input}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_device_posture_rule#input ZeroTrustDevicePostureRule#input}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "input", typeJson: "{\"fqn\":\"cloudflare.zeroTrustDevicePostureRule.ZeroTrustDevicePostureRuleInput\"}", isOptional: true)]
@@ -180,7 +181,7 @@ namespace cloudflare.ZeroTrustDevicePostureRule
 
             /// <summary>The conditions that the client must match to run the rule.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_device_posture_rule#match ZeroTrustDevicePostureRule#match}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_device_posture_rule#match ZeroTrustDevicePostureRule#match}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "match", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDevicePostureRule.ZeroTrustDevicePostureRuleMatch\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -189,20 +190,9 @@ namespace cloudflare.ZeroTrustDevicePostureRule
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>The name of the device posture rule.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_device_posture_rule#name ZeroTrustDevicePostureRule#name}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? Name
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
             /// <summary>Polling frequency for the WARP client posture check. Default: `5m` (poll every five minutes). Minimum: `1m`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_device_posture_rule#schedule ZeroTrustDevicePostureRule#schedule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_device_posture_rule#schedule ZeroTrustDevicePostureRule#schedule}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "schedule", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

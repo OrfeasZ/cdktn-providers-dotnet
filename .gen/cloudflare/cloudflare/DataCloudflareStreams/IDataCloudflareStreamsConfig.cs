@@ -9,35 +9,17 @@ namespace cloudflare.DataCloudflareStreams
     {
         /// <summary>The account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#account_id DataCloudflareStreams#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#account_id DataCloudflareStreams#account_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? AccountId
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        string AccountId
         {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Alias for 'start'. Returns videos created after this date/time (RFC 3339 format).</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#after DataCloudflareStreams#after}
-        /// </remarks>
-        [JsiiProperty(name: "after", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? After
-        {
-            get
-            {
-                return null;
-            }
+            get;
         }
 
         /// <summary>Lists videos in ascending order of creation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#asc DataCloudflareStreams#asc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#asc DataCloudflareStreams#asc}
         /// </remarks>
         [JsiiProperty(name: "asc", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -49,23 +31,9 @@ namespace cloudflare.DataCloudflareStreams
             }
         }
 
-        /// <summary>Alias for 'end'. Returns videos created before this date/time (RFC 3339 format).</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#before DataCloudflareStreams#before}
-        /// </remarks>
-        [JsiiProperty(name: "before", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? Before
-        {
-            get
-            {
-                return null;
-            }
-        }
-
         /// <summary>A user-defined identifier for the media creator.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#creator DataCloudflareStreams#creator}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#creator DataCloudflareStreams#creator}
         /// </remarks>
         [JsiiProperty(name: "creator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +47,7 @@ namespace cloudflare.DataCloudflareStreams
 
         /// <summary>Lists videos created before the specified date.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#end DataCloudflareStreams#end}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#end DataCloudflareStreams#end}
         /// </remarks>
         [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -91,26 +59,9 @@ namespace cloudflare.DataCloudflareStreams
             }
         }
 
-        /// <summary>Filter by video ID(s). Can be a single ID or a comma-separated list of IDs.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#id DataCloudflareStreams#id}
-        ///
-        /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-        /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-        /// </remarks>
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? Id
-        {
-            get
-            {
-                return null;
-            }
-        }
-
         /// <summary>Includes the total number of videos associated with the submitted query parameters.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#include_counts DataCloudflareStreams#include_counts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#include_counts DataCloudflareStreams#include_counts}
         /// </remarks>
         [JsiiProperty(name: "includeCounts", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -122,37 +73,9 @@ namespace cloudflare.DataCloudflareStreams
             }
         }
 
-        /// <summary>Maximum number of videos to return (default 1000, max 1000).</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#limit DataCloudflareStreams#limit}
-        /// </remarks>
-        [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        double? Limit
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Filter by live input ID to find videos associated with a specific live stream.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#live_input_id DataCloudflareStreams#live_input_id}
-        /// </remarks>
-        [JsiiProperty(name: "liveInputId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? LiveInputId
-        {
-            get
-            {
-                return null;
-            }
-        }
-
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#max_items DataCloudflareStreams#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#max_items DataCloudflareStreams#max_items}
         /// </remarks>
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -164,25 +87,11 @@ namespace cloudflare.DataCloudflareStreams
             }
         }
 
-        /// <summary>Filter by video name/UID(s). Can be a single name or a comma-separated list.</summary>
+        /// <summary>Searches over the `name` key in the `meta` field.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#name DataCloudflareStreams#name}
-        /// </remarks>
-        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? Name
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Provides a partial word match of the `name` key in the `meta` field.</summary>
-        /// <remarks>
-        /// Slow for medium to large video libraries. May be unavailable for very large libraries.
+        /// This field can be set with or after the upload request.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#search DataCloudflareStreams#search}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#search DataCloudflareStreams#search}
         /// </remarks>
         [JsiiProperty(name: "search", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -196,7 +105,7 @@ namespace cloudflare.DataCloudflareStreams
 
         /// <summary>Lists videos created after the specified date.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#start DataCloudflareStreams#start}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#start DataCloudflareStreams#start}
         /// </remarks>
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -208,9 +117,9 @@ namespace cloudflare.DataCloudflareStreams
             }
         }
 
-        /// <summary>Specifies the processing status for all quality levels for a video. Available values: "pendingupload", "downloading", "queued", "inprogress", "ready", "error", "live-inprogress".</summary>
+        /// <summary>Specifies the processing status for all quality levels for a video. Available values: "pendingupload", "downloading", "queued", "inprogress", "ready", "error".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#status DataCloudflareStreams#status}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#status DataCloudflareStreams#status}
         /// </remarks>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -224,25 +133,11 @@ namespace cloudflare.DataCloudflareStreams
 
         /// <summary>Specifies whether the video is `vod` or `live`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#type DataCloudflareStreams#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#type DataCloudflareStreams#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Provides a fast, exact string match on the `name` key in the `meta` field.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#video_name DataCloudflareStreams#video_name}
-        /// </remarks>
-        [JsiiProperty(name: "videoName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? VideoName
         {
             get
             {
@@ -259,29 +154,17 @@ namespace cloudflare.DataCloudflareStreams
 
             /// <summary>The account identifier tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#account_id DataCloudflareStreams#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#account_id DataCloudflareStreams#account_id}
             /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? AccountId
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+            public string AccountId
             {
-                get => GetInstanceProperty<string?>();
-            }
-
-            /// <summary>Alias for 'start'. Returns videos created after this date/time (RFC 3339 format).</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#after DataCloudflareStreams#after}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "after", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? After
-            {
-                get => GetInstanceProperty<string?>();
+                get => GetInstanceProperty<string>()!;
             }
 
             /// <summary>Lists videos in ascending order of creation.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#asc DataCloudflareStreams#asc}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#asc DataCloudflareStreams#asc}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "asc", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -290,20 +173,9 @@ namespace cloudflare.DataCloudflareStreams
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Alias for 'end'. Returns videos created before this date/time (RFC 3339 format).</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#before DataCloudflareStreams#before}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "before", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? Before
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
             /// <summary>A user-defined identifier for the media creator.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#creator DataCloudflareStreams#creator}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#creator DataCloudflareStreams#creator}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "creator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -314,7 +186,7 @@ namespace cloudflare.DataCloudflareStreams
 
             /// <summary>Lists videos created before the specified date.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#end DataCloudflareStreams#end}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#end DataCloudflareStreams#end}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -323,23 +195,9 @@ namespace cloudflare.DataCloudflareStreams
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Filter by video ID(s). Can be a single ID or a comma-separated list of IDs.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#id DataCloudflareStreams#id}
-            ///
-            /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-            /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? Id
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
             /// <summary>Includes the total number of videos associated with the submitted query parameters.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#include_counts DataCloudflareStreams#include_counts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#include_counts DataCloudflareStreams#include_counts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "includeCounts", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -348,31 +206,9 @@ namespace cloudflare.DataCloudflareStreams
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Maximum number of videos to return (default 1000, max 1000).</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#limit DataCloudflareStreams#limit}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-            public double? Limit
-            {
-                get => GetInstanceProperty<double?>();
-            }
-
-            /// <summary>Filter by live input ID to find videos associated with a specific live stream.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#live_input_id DataCloudflareStreams#live_input_id}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "liveInputId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? LiveInputId
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
             /// <summary>Max items to fetch, default: 1000.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#max_items DataCloudflareStreams#max_items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#max_items DataCloudflareStreams#max_items}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -381,22 +217,11 @@ namespace cloudflare.DataCloudflareStreams
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Filter by video name/UID(s). Can be a single name or a comma-separated list.</summary>
+            /// <summary>Searches over the `name` key in the `meta` field.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#name DataCloudflareStreams#name}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? Name
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
-            /// <summary>Provides a partial word match of the `name` key in the `meta` field.</summary>
-            /// <remarks>
-            /// Slow for medium to large video libraries. May be unavailable for very large libraries.
+            /// This field can be set with or after the upload request.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#search DataCloudflareStreams#search}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#search DataCloudflareStreams#search}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "search", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -407,7 +232,7 @@ namespace cloudflare.DataCloudflareStreams
 
             /// <summary>Lists videos created after the specified date.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#start DataCloudflareStreams#start}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#start DataCloudflareStreams#start}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -416,9 +241,9 @@ namespace cloudflare.DataCloudflareStreams
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Specifies the processing status for all quality levels for a video. Available values: "pendingupload", "downloading", "queued", "inprogress", "ready", "error", "live-inprogress".</summary>
+            /// <summary>Specifies the processing status for all quality levels for a video. Available values: "pendingupload", "downloading", "queued", "inprogress", "ready", "error".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#status DataCloudflareStreams#status}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#status DataCloudflareStreams#status}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -429,22 +254,11 @@ namespace cloudflare.DataCloudflareStreams
 
             /// <summary>Specifies whether the video is `vod` or `live`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#type DataCloudflareStreams#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/streams#type DataCloudflareStreams#type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
-            /// <summary>Provides a fast, exact string match on the `name` key in the `meta` field.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/streams#video_name DataCloudflareStreams#video_name}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "videoName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? VideoName
             {
                 get => GetInstanceProperty<string?>();
             }

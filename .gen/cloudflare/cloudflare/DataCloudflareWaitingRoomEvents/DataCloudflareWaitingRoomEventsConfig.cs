@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareWaitingRoomEvents
     [JsiiByValue(fqn: "cloudflare.dataCloudflareWaitingRoomEvents.DataCloudflareWaitingRoomEventsConfig")]
     public class DataCloudflareWaitingRoomEventsConfig : cloudflare.DataCloudflareWaitingRoomEvents.IDataCloudflareWaitingRoomEventsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/waiting_room_events#waiting_room_id DataCloudflareWaitingRoomEvents#waiting_room_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/waiting_room_events#waiting_room_id DataCloudflareWaitingRoomEvents#waiting_room_id}.</summary>
         [JsiiProperty(name: "waitingRoomId", typeJson: "{\"primitive\":\"string\"}")]
         public string WaitingRoomId
         {
@@ -17,25 +17,24 @@ namespace cloudflare.DataCloudflareWaitingRoomEvents
             set;
         }
 
-        /// <summary>Max items to fetch, default: 1000.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/waiting_room_events#max_items DataCloudflareWaitingRoomEvents#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/waiting_room_events#zone_id DataCloudflareWaitingRoomEvents#zone_id}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public double? MaxItems
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        public string ZoneId
         {
             get;
             set;
         }
 
-        /// <summary>Identifier.</summary>
+        /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/waiting_room_events#zone_id DataCloudflareWaitingRoomEvents#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/waiting_room_events#max_items DataCloudflareWaitingRoomEvents#max_items}
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? ZoneId
+        [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public double? MaxItems
         {
             get;
             set;

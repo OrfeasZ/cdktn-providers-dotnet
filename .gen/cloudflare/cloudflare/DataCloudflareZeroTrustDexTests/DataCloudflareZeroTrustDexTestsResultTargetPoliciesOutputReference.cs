@@ -54,31 +54,11 @@ namespace cloudflare.DataCloudflareZeroTrustDexTests
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDexTests.DataCloudflareZeroTrustDexTestsResultTargetPolicies\"}]}}", isOptional: true)]
-        public virtual object? InternalValue
+        [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDexTests.DataCloudflareZeroTrustDexTestsResultTargetPolicies\"}", isOptional: true)]
+        public virtual cloudflare.DataCloudflareZeroTrustDexTests.IDataCloudflareZeroTrustDexTestsResultTargetPolicies? InternalValue
         {
-            get => GetInstanceProperty<object?>();
-            set
-            {
-                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-                {
-                    switch (value)
-                    {
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
-                        case cloudflare.DataCloudflareZeroTrustDexTests.IDataCloudflareZeroTrustDexTestsResultTargetPolicies cast_cd4240:
-                            break;
-                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
-                            // Not enough information to type-check...
-                            break;
-                        case null:
-                            break;
-                        default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.DataCloudflareZeroTrustDexTests.IDataCloudflareZeroTrustDexTestsResultTargetPolicies).FullName}; received {value.GetType().FullName}", nameof(value));
-                    }
-                }
-                SetInstanceProperty(value);
-            }
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustDexTests.IDataCloudflareZeroTrustDexTestsResultTargetPolicies?>();
+            set => SetInstanceProperty(value);
         }
     }
 }

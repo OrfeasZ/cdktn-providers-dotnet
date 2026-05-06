@@ -7,19 +7,9 @@ namespace cloudflare.DataCloudflareLogpushJob
     [JsiiInterface(nativeType: typeof(IDataCloudflareLogpushJobConfig), fullyQualifiedName: "cloudflare.dataCloudflareLogpushJob.DataCloudflareLogpushJobConfig")]
     public interface IDataCloudflareLogpushJobConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Unique id of the job.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/logpush_job#job_id DataCloudflareLogpushJob#job_id}
-        /// </remarks>
-        [JsiiProperty(name: "jobId", typeJson: "{\"primitive\":\"number\"}")]
-        double JobId
-        {
-            get;
-        }
-
         /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/logpush_job#account_id DataCloudflareLogpushJob#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/logpush_job#account_id DataCloudflareLogpushJob#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,9 +21,23 @@ namespace cloudflare.DataCloudflareLogpushJob
             }
         }
 
+        /// <summary>Unique id of the job.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/logpush_job#job_id DataCloudflareLogpushJob#job_id}
+        /// </remarks>
+        [JsiiProperty(name: "jobId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        double? JobId
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/logpush_job#zone_id DataCloudflareLogpushJob#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/logpush_job#zone_id DataCloudflareLogpushJob#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,19 +56,9 @@ namespace cloudflare.DataCloudflareLogpushJob
             {
             }
 
-            /// <summary>Unique id of the job.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/logpush_job#job_id DataCloudflareLogpushJob#job_id}
-            /// </remarks>
-            [JsiiProperty(name: "jobId", typeJson: "{\"primitive\":\"number\"}")]
-            public double JobId
-            {
-                get => GetInstanceProperty<double>()!;
-            }
-
             /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/logpush_job#account_id DataCloudflareLogpushJob#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/logpush_job#account_id DataCloudflareLogpushJob#account_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -73,9 +67,20 @@ namespace cloudflare.DataCloudflareLogpushJob
                 get => GetInstanceProperty<string?>();
             }
 
+            /// <summary>Unique id of the job.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/logpush_job#job_id DataCloudflareLogpushJob#job_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "jobId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+            public double? JobId
+            {
+                get => GetInstanceProperty<double?>();
+            }
+
             /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/logpush_job#zone_id DataCloudflareLogpushJob#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/logpush_job#zone_id DataCloudflareLogpushJob#zone_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

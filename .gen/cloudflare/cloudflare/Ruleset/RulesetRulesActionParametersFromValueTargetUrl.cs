@@ -7,9 +7,9 @@ namespace cloudflare.Ruleset
     [JsiiByValue(fqn: "cloudflare.ruleset.RulesetRulesActionParametersFromValueTargetUrl")]
     public class RulesetRulesActionParametersFromValueTargetUrl : cloudflare.Ruleset.IRulesetRulesActionParametersFromValueTargetUrl
     {
-        /// <summary>An expression that evaluates to a URL to redirect the request to.</summary>
+        /// <summary>An expression to evaluate to get the URL to redirect the request to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#expression Ruleset#expression}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#expression Ruleset#expression}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,9 +19,9 @@ namespace cloudflare.Ruleset
             set;
         }
 
-        /// <summary>A URL to redirect the request to.</summary>
+        /// <summary>The URL to redirect the request to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#value Ruleset#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#value Ruleset#value}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,12 +9,16 @@ namespace cloudflare.PagesProject
     {
         /// <summary>Name of the dataset.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#dataset PagesProject#dataset}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#dataset PagesProject#dataset}
         /// </remarks>
-        [JsiiProperty(name: "dataset", typeJson: "{\"primitive\":\"string\"}")]
-        string Dataset
+        [JsiiProperty(name: "dataset", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Dataset
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IPagesProjectDeploymentConfigsPreviewAnalyticsEngineDatasets), fullyQualifiedName: "cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewAnalyticsEngineDatasets")]
@@ -26,12 +30,13 @@ namespace cloudflare.PagesProject
 
             /// <summary>Name of the dataset.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#dataset PagesProject#dataset}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#dataset PagesProject#dataset}
             /// </remarks>
-            [JsiiProperty(name: "dataset", typeJson: "{\"primitive\":\"string\"}")]
-            public string Dataset
+            [JsiiOptional]
+            [JsiiProperty(name: "dataset", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Dataset
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
             }
         }
     }

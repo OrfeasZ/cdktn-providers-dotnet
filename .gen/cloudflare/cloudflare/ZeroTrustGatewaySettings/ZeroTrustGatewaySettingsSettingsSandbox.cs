@@ -9,9 +9,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
     {
         private object? _enabled;
 
-        /// <summary>Specify whether to enable the sandbox.</summary>
+        /// <summary>Enable sandbox.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#enabled ZeroTrustGatewaySettings#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#enabled ZeroTrustGatewaySettings#enabled}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -41,9 +41,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             }
         }
 
-        /// <summary>Specify the action to take when the system cannot scan the file. Available values: "allow", "block".</summary>
+        /// <summary>Action to take when the file cannot be scanned. Available values: "allow", "block".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#fallback_action ZeroTrustGatewaySettings#fallback_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#fallback_action ZeroTrustGatewaySettings#fallback_action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fallbackAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

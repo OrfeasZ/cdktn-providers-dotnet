@@ -11,13 +11,25 @@ namespace cloudflare.ApiToken
     {
         /// <summary>Identifier of the permission group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/api_token#id ApiToken#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/api_token#id ApiToken#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
         /// </remarks>
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public string Id
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Attributes associated to the permission group.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/api_token#meta ApiToken#meta}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "meta", typeJson: "{\"fqn\":\"cloudflare.apiToken.ApiTokenPoliciesPermissionGroupsMeta\"}", isOptional: true)]
+        public cloudflare.ApiToken.IApiTokenPoliciesPermissionGroupsMeta? Meta
         {
             get;
             set;

@@ -9,21 +9,21 @@ namespace cloudflare.DataCloudflareWaitingRoom
     [JsiiByValue(fqn: "cloudflare.dataCloudflareWaitingRoom.DataCloudflareWaitingRoomConfig")]
     public class DataCloudflareWaitingRoomConfig : cloudflare.DataCloudflareWaitingRoom.IDataCloudflareWaitingRoomConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/waiting_room#waiting_room_id DataCloudflareWaitingRoom#waiting_room_id}.</summary>
-        [JsiiProperty(name: "waitingRoomId", typeJson: "{\"primitive\":\"string\"}")]
-        public string WaitingRoomId
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/waiting_room#zone_id DataCloudflareWaitingRoom#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        public string ZoneId
         {
             get;
             set;
         }
 
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/waiting_room#zone_id DataCloudflareWaitingRoom#zone_id}
-        /// </remarks>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/waiting_room#waiting_room_id DataCloudflareWaitingRoom#waiting_room_id}.</summary>
         [JsiiOptional]
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? ZoneId
+        [JsiiProperty(name: "waitingRoomId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? WaitingRoomId
         {
             get;
             set;

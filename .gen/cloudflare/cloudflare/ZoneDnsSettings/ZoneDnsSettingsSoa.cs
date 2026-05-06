@@ -4,16 +4,17 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.ZoneDnsSettings
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "cloudflare.zoneDnsSettings.ZoneDnsSettingsSoa")]
     public class ZoneDnsSettingsSoa : cloudflare.ZoneDnsSettings.IZoneDnsSettingsSoa
     {
         /// <summary>Time in seconds of being unable to query the primary server after which secondary servers should stop serving the zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zone_dns_settings#expire ZoneDnsSettings#expire}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zone_dns_settings#expire ZoneDnsSettings#expire}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "expire", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public double? Expire
+        [JsiiProperty(name: "expire", typeJson: "{\"primitive\":\"number\"}")]
+        public double Expire
         {
             get;
             set;
@@ -21,23 +22,21 @@ namespace cloudflare.ZoneDnsSettings
 
         /// <summary>The time to live (TTL) for negative caching of records within the zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zone_dns_settings#min_ttl ZoneDnsSettings#min_ttl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zone_dns_settings#min_ttl ZoneDnsSettings#min_ttl}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "minTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public double? MinTtl
+        [JsiiProperty(name: "minTtl", typeJson: "{\"primitive\":\"number\"}")]
+        public double MinTtl
         {
             get;
             set;
         }
 
-        /// <summary>The primary nameserver, which may be used for outbound zone transfers. If null, a Cloudflare-assigned value will be used.</summary>
+        /// <summary>The primary nameserver, which may be used for outbound zone transfers.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zone_dns_settings#mname ZoneDnsSettings#mname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zone_dns_settings#mname ZoneDnsSettings#mname}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "mname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Mname
+        [JsiiProperty(name: "mname", typeJson: "{\"primitive\":\"string\"}")]
+        public string Mname
         {
             get;
             set;
@@ -45,11 +44,10 @@ namespace cloudflare.ZoneDnsSettings
 
         /// <summary>Time in seconds after which secondary servers should re-check the SOA record to see if the zone has been updated.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zone_dns_settings#refresh ZoneDnsSettings#refresh}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zone_dns_settings#refresh ZoneDnsSettings#refresh}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "refresh", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public double? Refresh
+        [JsiiProperty(name: "refresh", typeJson: "{\"primitive\":\"number\"}")]
+        public double Refresh
         {
             get;
             set;
@@ -57,11 +55,10 @@ namespace cloudflare.ZoneDnsSettings
 
         /// <summary>Time in seconds after which secondary servers should retry queries after the primary server was unresponsive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zone_dns_settings#retry ZoneDnsSettings#retry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zone_dns_settings#retry ZoneDnsSettings#retry}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "retry", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public double? Retry
+        [JsiiProperty(name: "retry", typeJson: "{\"primitive\":\"number\"}")]
+        public double Retry
         {
             get;
             set;
@@ -69,11 +66,10 @@ namespace cloudflare.ZoneDnsSettings
 
         /// <summary>The email address of the zone administrator, with the first label representing the local part of the email address.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zone_dns_settings#rname ZoneDnsSettings#rname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zone_dns_settings#rname ZoneDnsSettings#rname}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "rname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Rname
+        [JsiiProperty(name: "rname", typeJson: "{\"primitive\":\"string\"}")]
+        public string Rname
         {
             get;
             set;
@@ -81,11 +77,10 @@ namespace cloudflare.ZoneDnsSettings
 
         /// <summary>The time to live (TTL) of the SOA record itself.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zone_dns_settings#ttl ZoneDnsSettings#ttl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zone_dns_settings#ttl ZoneDnsSettings#ttl}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public double? Ttl
+        [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}")]
+        public double Ttl
         {
             get;
             set;

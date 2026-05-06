@@ -7,25 +7,21 @@ namespace cloudflare.DataCloudflareImageVariant
     [JsiiInterface(nativeType: typeof(IDataCloudflareImageVariantConfig), fullyQualifiedName: "cloudflare.dataCloudflareImageVariant.DataCloudflareImageVariantConfig")]
     public interface IDataCloudflareImageVariantConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/image_variant#variant_id DataCloudflareImageVariant#variant_id}.</summary>
-        [JsiiProperty(name: "variantId", typeJson: "{\"primitive\":\"string\"}")]
-        string VariantId
+        /// <summary>Account identifier tag.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/image_variant#account_id DataCloudflareImageVariant#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        string AccountId
         {
             get;
         }
 
-        /// <summary>Account identifier tag.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/image_variant#account_id DataCloudflareImageVariant#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? AccountId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/image_variant#variant_id DataCloudflareImageVariant#variant_id}.</summary>
+        [JsiiProperty(name: "variantId", typeJson: "{\"primitive\":\"string\"}")]
+        string VariantId
         {
-            get
-            {
-                return null;
-            }
+            get;
         }
 
         [JsiiTypeProxy(nativeType: typeof(IDataCloudflareImageVariantConfig), fullyQualifiedName: "cloudflare.dataCloudflareImageVariant.DataCloudflareImageVariantConfig")]
@@ -35,22 +31,21 @@ namespace cloudflare.DataCloudflareImageVariant
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/image_variant#variant_id DataCloudflareImageVariant#variant_id}.</summary>
-            [JsiiProperty(name: "variantId", typeJson: "{\"primitive\":\"string\"}")]
-            public string VariantId
+            /// <summary>Account identifier tag.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/image_variant#account_id DataCloudflareImageVariant#account_id}
+            /// </remarks>
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+            public string AccountId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Account identifier tag.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/image_variant#account_id DataCloudflareImageVariant#account_id}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? AccountId
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/image_variant#variant_id DataCloudflareImageVariant#variant_id}.</summary>
+            [JsiiProperty(name: "variantId", typeJson: "{\"primitive\":\"string\"}")]
+            public string VariantId
             {
-                get => GetInstanceProperty<string?>();
+                get => GetInstanceProperty<string>()!;
             }
 
             /// <remarks>

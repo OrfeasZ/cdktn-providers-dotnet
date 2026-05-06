@@ -51,12 +51,6 @@ namespace cloudflare.DataCloudflareZeroTrustGatewaySettings
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double Version
-        {
-            get => GetInstanceProperty<double>()!;
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustGatewaySettings.DataCloudflareZeroTrustGatewaySettingsSettingsExtendedEmailMatching\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareZeroTrustGatewaySettings.IDataCloudflareZeroTrustGatewaySettingsSettingsExtendedEmailMatching? InternalValue

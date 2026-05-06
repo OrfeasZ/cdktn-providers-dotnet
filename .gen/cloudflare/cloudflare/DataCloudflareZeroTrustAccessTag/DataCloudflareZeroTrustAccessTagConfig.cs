@@ -9,24 +9,24 @@ namespace cloudflare.DataCloudflareZeroTrustAccessTag
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustAccessTag.DataCloudflareZeroTrustAccessTagConfig")]
     public class DataCloudflareZeroTrustAccessTagConfig : cloudflare.DataCloudflareZeroTrustAccessTag.IDataCloudflareZeroTrustAccessTagConfig
     {
-        /// <summary>The name of the tag.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zero_trust_access_tag#tag_name DataCloudflareZeroTrustAccessTag#tag_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zero_trust_access_tag#account_id DataCloudflareZeroTrustAccessTag#account_id}
         /// </remarks>
-        [JsiiProperty(name: "tagName", typeJson: "{\"primitive\":\"string\"}")]
-        public string TagName
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
         {
             get;
             set;
         }
 
-        /// <summary>Identifier.</summary>
+        /// <summary>The name of the tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zero_trust_access_tag#account_id DataCloudflareZeroTrustAccessTag#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zero_trust_access_tag#tag_name DataCloudflareZeroTrustAccessTag#tag_name}
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
+        [JsiiProperty(name: "tagName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? TagName
         {
             get;
             set;

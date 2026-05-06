@@ -9,24 +9,23 @@ namespace cloudflare.DataCloudflareStreamLiveInput
     [JsiiByValue(fqn: "cloudflare.dataCloudflareStreamLiveInput.DataCloudflareStreamLiveInputConfig")]
     public class DataCloudflareStreamLiveInputConfig : cloudflare.DataCloudflareStreamLiveInput.IDataCloudflareStreamLiveInputConfig
     {
-        /// <summary>A unique identifier for a live input.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/stream_live_input#live_input_identifier DataCloudflareStreamLiveInput#live_input_identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/stream_live_input#account_id DataCloudflareStreamLiveInput#account_id}
         /// </remarks>
-        [JsiiProperty(name: "liveInputIdentifier", typeJson: "{\"primitive\":\"string\"}")]
-        public string LiveInputIdentifier
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
         {
             get;
             set;
         }
 
-        /// <summary>Identifier.</summary>
+        /// <summary>A unique identifier for a live input.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/stream_live_input#account_id DataCloudflareStreamLiveInput#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/stream_live_input#live_input_identifier DataCloudflareStreamLiveInput#live_input_identifier}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
+        [JsiiProperty(name: "liveInputIdentifier", typeJson: "{\"primitive\":\"string\"}")]
+        public string LiveInputIdentifier
         {
             get;
             set;

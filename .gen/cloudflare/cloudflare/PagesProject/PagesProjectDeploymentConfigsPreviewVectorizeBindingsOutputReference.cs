@@ -34,6 +34,12 @@ namespace cloudflare.PagesProject
         {
         }
 
+        [JsiiMethod(name: "resetIndexName")]
+        public virtual void ResetIndexName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "indexNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? IndexNameInput

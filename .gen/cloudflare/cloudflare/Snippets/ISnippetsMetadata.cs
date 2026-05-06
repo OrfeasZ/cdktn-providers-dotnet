@@ -7,14 +7,18 @@ namespace cloudflare.Snippets
     [JsiiInterface(nativeType: typeof(ISnippetsMetadata), fullyQualifiedName: "cloudflare.snippets.SnippetsMetadata")]
     public interface ISnippetsMetadata
     {
-        /// <summary>Name of the file that contains the main module of the snippet.</summary>
+        /// <summary>Main module name of uploaded snippet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/snippets#main_module Snippets#main_module}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/snippets#main_module Snippets#main_module}
         /// </remarks>
-        [JsiiProperty(name: "mainModule", typeJson: "{\"primitive\":\"string\"}")]
-        string MainModule
+        [JsiiProperty(name: "mainModule", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? MainModule
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(ISnippetsMetadata), fullyQualifiedName: "cloudflare.snippets.SnippetsMetadata")]
@@ -24,14 +28,15 @@ namespace cloudflare.Snippets
             {
             }
 
-            /// <summary>Name of the file that contains the main module of the snippet.</summary>
+            /// <summary>Main module name of uploaded snippet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/snippets#main_module Snippets#main_module}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/snippets#main_module Snippets#main_module}
             /// </remarks>
-            [JsiiProperty(name: "mainModule", typeJson: "{\"primitive\":\"string\"}")]
-            public string MainModule
+            [JsiiOptional]
+            [JsiiProperty(name: "mainModule", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? MainModule
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
             }
         }
     }

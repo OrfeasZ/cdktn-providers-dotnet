@@ -9,9 +9,9 @@ namespace cloudflare.ZeroTrustDnsLocation
     [JsiiByValue(fqn: "cloudflare.zeroTrustDnsLocation.ZeroTrustDnsLocationEndpointsDohNetworks")]
     public class ZeroTrustDnsLocationEndpointsDohNetworks : cloudflare.ZeroTrustDnsLocation.IZeroTrustDnsLocationEndpointsDohNetworks
     {
-        /// <summary>Specify the IP address or IP CIDR.</summary>
+        /// <summary>The IP address or IP CIDR.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_dns_location#network ZeroTrustDnsLocation#network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_dns_location#network ZeroTrustDnsLocation#network}
         /// </remarks>
         [JsiiProperty(name: "network", typeJson: "{\"primitive\":\"string\"}")]
         public string Network

@@ -7,9 +7,9 @@ namespace cloudflare.WorkersScript
     [JsiiByValue(fqn: "cloudflare.workersScript.WorkersScriptPlacement")]
     public class WorkersScriptPlacement : cloudflare.WorkersScript.IWorkersScriptPlacement
     {
-        /// <summary>Enables [Smart Placement](https://developers.cloudflare.com/workers/configuration/smart-placement). Available values: "smart", "targeted".</summary>
+        /// <summary>Enables [Smart Placement](https://developers.cloudflare.com/workers/configuration/smart-placement). Available values: "smart".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workers_script#mode WorkersScript#mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/workers_script#mode WorkersScript#mode}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

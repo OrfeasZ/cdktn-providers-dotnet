@@ -39,12 +39,6 @@ namespace cloudflare.WorkersScript
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.WorkersScript.IWorkersScriptObservabilityLogs)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putTraces", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptObservabilityTraces\"}}]")]
-        public virtual void PutTraces(cloudflare.WorkersScript.IWorkersScriptObservabilityTraces @value)
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.WorkersScript.IWorkersScriptObservabilityTraces)}, new object[]{@value});
-        }
-
         [JsiiMethod(name: "resetHeadSamplingRate")]
         public virtual void ResetHeadSamplingRate()
         {
@@ -57,22 +51,10 @@ namespace cloudflare.WorkersScript
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetTraces")]
-        public virtual void ResetTraces()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiProperty(name: "logs", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptObservabilityLogsOutputReference\"}")]
         public virtual cloudflare.WorkersScript.WorkersScriptObservabilityLogsOutputReference Logs
         {
             get => GetInstanceProperty<cloudflare.WorkersScript.WorkersScriptObservabilityLogsOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "traces", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptObservabilityTracesOutputReference\"}")]
-        public virtual cloudflare.WorkersScript.WorkersScriptObservabilityTracesOutputReference Traces
-        {
-            get => GetInstanceProperty<cloudflare.WorkersScript.WorkersScriptObservabilityTracesOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -92,13 +74,6 @@ namespace cloudflare.WorkersScript
         [JsiiOptional]
         [JsiiProperty(name: "logsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersScript.WorkersScriptObservabilityLogs\"}]}}", isOptional: true)]
         public virtual object? LogsInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "tracesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersScript.WorkersScriptObservabilityTraces\"}]}}", isOptional: true)]
-        public virtual object? TracesInput
         {
             get => GetInstanceProperty<object?>();
         }

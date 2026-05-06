@@ -35,18 +35,6 @@ namespace cloudflare.DataCloudflareCustomHostname
         {
         }
 
-        [JsiiProperty(name: "cname", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Cname
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "cnameTarget", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string CnameTarget
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "emails", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] Emails
         {
@@ -61,12 +49,6 @@ namespace cloudflare.DataCloudflareCustomHostname
 
         [JsiiProperty(name: "httpUrl", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string HttpUrl
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Status
         {
             get => GetInstanceProperty<string>()!;
         }

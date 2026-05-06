@@ -7,9 +7,9 @@ namespace cloudflare.Ruleset
     [JsiiInterface(nativeType: typeof(IRulesetRulesActionParametersHeaders), fullyQualifiedName: "cloudflare.ruleset.RulesetRulesActionParametersHeaders")]
     public interface IRulesetRulesActionParametersHeaders
     {
-        /// <summary>The operation to perform on the header. Available values: "add", "set", "remove".</summary>
+        /// <summary>Available values: "remove", "add", "set".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#operation Ruleset#operation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#operation Ruleset#operation}
         /// </remarks>
         [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}")]
         string Operation
@@ -17,9 +17,9 @@ namespace cloudflare.Ruleset
             get;
         }
 
-        /// <summary>An expression that evaluates to a value for the header.</summary>
+        /// <summary>Expression for the header value.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#expression Ruleset#expression}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#expression Ruleset#expression}
         /// </remarks>
         [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,9 +31,9 @@ namespace cloudflare.Ruleset
             }
         }
 
-        /// <summary>A static value for the header.</summary>
+        /// <summary>Static value for the header.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#value Ruleset#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#value Ruleset#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,9 +52,9 @@ namespace cloudflare.Ruleset
             {
             }
 
-            /// <summary>The operation to perform on the header. Available values: "add", "set", "remove".</summary>
+            /// <summary>Available values: "remove", "add", "set".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#operation Ruleset#operation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#operation Ruleset#operation}
             /// </remarks>
             [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}")]
             public string Operation
@@ -62,9 +62,9 @@ namespace cloudflare.Ruleset
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>An expression that evaluates to a value for the header.</summary>
+            /// <summary>Expression for the header value.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#expression Ruleset#expression}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#expression Ruleset#expression}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -73,9 +73,9 @@ namespace cloudflare.Ruleset
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>A static value for the header.</summary>
+            /// <summary>Static value for the header.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#value Ruleset#value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#value Ruleset#value}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

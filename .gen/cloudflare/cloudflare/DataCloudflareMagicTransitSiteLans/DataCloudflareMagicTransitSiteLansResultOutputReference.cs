@@ -35,12 +35,6 @@ namespace cloudflare.DataCloudflareMagicTransitSiteLans
         {
         }
 
-        [JsiiProperty(name: "bondId", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double BondId
-        {
-            get => GetInstanceProperty<double>()!;
-        }
-
         [JsiiProperty(name: "haLink", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable HaLink
         {
@@ -51,18 +45,6 @@ namespace cloudflare.DataCloudflareMagicTransitSiteLans
         public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "isBreakout", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable IsBreakout
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
-        [JsiiProperty(name: "isPrioritized", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable IsPrioritized
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]

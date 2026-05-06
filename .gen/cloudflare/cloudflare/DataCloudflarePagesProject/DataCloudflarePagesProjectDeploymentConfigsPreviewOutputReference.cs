@@ -39,12 +39,6 @@ namespace cloudflare.DataCloudflarePagesProject
             get => GetInstanceProperty<cloudflare.DataCloudflarePagesProject.DataCloudflarePagesProjectDeploymentConfigsPreviewAiBindingsMap>()!;
         }
 
-        [JsiiProperty(name: "alwaysUseLatestCompatibilityDate", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable AlwaysUseLatestCompatibilityDate
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
         [JsiiProperty(name: "analyticsEngineDatasets", typeJson: "{\"fqn\":\"cloudflare.dataCloudflarePagesProject.DataCloudflarePagesProjectDeploymentConfigsPreviewAnalyticsEngineDatasetsMap\"}")]
         public virtual cloudflare.DataCloudflarePagesProject.DataCloudflarePagesProjectDeploymentConfigsPreviewAnalyticsEngineDatasetsMap AnalyticsEngineDatasets
         {
@@ -55,12 +49,6 @@ namespace cloudflare.DataCloudflarePagesProject
         public virtual cloudflare.DataCloudflarePagesProject.DataCloudflarePagesProjectDeploymentConfigsPreviewBrowsersMap Browsers
         {
             get => GetInstanceProperty<cloudflare.DataCloudflarePagesProject.DataCloudflarePagesProjectDeploymentConfigsPreviewBrowsersMap>()!;
-        }
-
-        [JsiiProperty(name: "buildImageMajorVersion", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double BuildImageMajorVersion
-        {
-            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "compatibilityDate", typeJson: "{\"primitive\":\"string\"}")]
@@ -93,12 +81,6 @@ namespace cloudflare.DataCloudflarePagesProject
             get => GetInstanceProperty<cloudflare.DataCloudflarePagesProject.DataCloudflarePagesProjectDeploymentConfigsPreviewEnvVarsMap>()!;
         }
 
-        [JsiiProperty(name: "failOpen", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable FailOpen
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
         [JsiiProperty(name: "hyperdriveBindings", typeJson: "{\"fqn\":\"cloudflare.dataCloudflarePagesProject.DataCloudflarePagesProjectDeploymentConfigsPreviewHyperdriveBindingsMap\"}")]
         public virtual cloudflare.DataCloudflarePagesProject.DataCloudflarePagesProjectDeploymentConfigsPreviewHyperdriveBindingsMap HyperdriveBindings
         {
@@ -109,12 +91,6 @@ namespace cloudflare.DataCloudflarePagesProject
         public virtual cloudflare.DataCloudflarePagesProject.DataCloudflarePagesProjectDeploymentConfigsPreviewKvNamespacesMap KvNamespaces
         {
             get => GetInstanceProperty<cloudflare.DataCloudflarePagesProject.DataCloudflarePagesProjectDeploymentConfigsPreviewKvNamespacesMap>()!;
-        }
-
-        [JsiiProperty(name: "limits", typeJson: "{\"fqn\":\"cloudflare.dataCloudflarePagesProject.DataCloudflarePagesProjectDeploymentConfigsPreviewLimitsOutputReference\"}")]
-        public virtual cloudflare.DataCloudflarePagesProject.DataCloudflarePagesProjectDeploymentConfigsPreviewLimitsOutputReference Limits
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflarePagesProject.DataCloudflarePagesProjectDeploymentConfigsPreviewLimitsOutputReference>()!;
         }
 
         [JsiiProperty(name: "mtlsCertificates", typeJson: "{\"fqn\":\"cloudflare.dataCloudflarePagesProject.DataCloudflarePagesProjectDeploymentConfigsPreviewMtlsCertificatesMap\"}")]
@@ -147,22 +123,10 @@ namespace cloudflare.DataCloudflarePagesProject
             get => GetInstanceProperty<cloudflare.DataCloudflarePagesProject.DataCloudflarePagesProjectDeploymentConfigsPreviewServicesMap>()!;
         }
 
-        [JsiiProperty(name: "usageModel", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string UsageModel
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "vectorizeBindings", typeJson: "{\"fqn\":\"cloudflare.dataCloudflarePagesProject.DataCloudflarePagesProjectDeploymentConfigsPreviewVectorizeBindingsMap\"}")]
         public virtual cloudflare.DataCloudflarePagesProject.DataCloudflarePagesProjectDeploymentConfigsPreviewVectorizeBindingsMap VectorizeBindings
         {
             get => GetInstanceProperty<cloudflare.DataCloudflarePagesProject.DataCloudflarePagesProjectDeploymentConfigsPreviewVectorizeBindingsMap>()!;
-        }
-
-        [JsiiProperty(name: "wranglerConfigHash", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string WranglerConfigHash
-        {
-            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiOptional]

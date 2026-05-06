@@ -7,28 +7,24 @@ namespace cloudflare.Queue
     [JsiiInterface(nativeType: typeof(IQueueConfig), fullyQualifiedName: "cloudflare.queue.QueueConfig")]
     public interface IQueueConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/queue#queue_name Queue#queue_name}.</summary>
+        /// <summary>A Resource identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/queue#account_id Queue#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        string AccountId
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/queue#queue_name Queue#queue_name}.</summary>
         [JsiiProperty(name: "queueName", typeJson: "{\"primitive\":\"string\"}")]
         string QueueName
         {
             get;
         }
 
-        /// <summary>A Resource identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/queue#account_id Queue#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? AccountId
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/queue#settings Queue#settings}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/queue#settings Queue#settings}.</summary>
         [JsiiProperty(name: "settings", typeJson: "{\"fqn\":\"cloudflare.queue.QueueSettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.Queue.IQueueSettings? Settings
@@ -46,25 +42,24 @@ namespace cloudflare.Queue
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/queue#queue_name Queue#queue_name}.</summary>
+            /// <summary>A Resource identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/queue#account_id Queue#account_id}
+            /// </remarks>
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+            public string AccountId
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/queue#queue_name Queue#queue_name}.</summary>
             [JsiiProperty(name: "queueName", typeJson: "{\"primitive\":\"string\"}")]
             public string QueueName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>A Resource identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/queue#account_id Queue#account_id}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? AccountId
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/queue#settings Queue#settings}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/queue#settings Queue#settings}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "settings", typeJson: "{\"fqn\":\"cloudflare.queue.QueueSettings\"}", isOptional: true)]
             public cloudflare.Queue.IQueueSettings? Settings

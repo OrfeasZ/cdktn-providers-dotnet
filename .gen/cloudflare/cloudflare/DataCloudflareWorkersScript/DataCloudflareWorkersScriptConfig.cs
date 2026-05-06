@@ -4,25 +4,17 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareWorkersScript
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "cloudflare.dataCloudflareWorkersScript.DataCloudflareWorkersScriptConfig")]
     public class DataCloudflareWorkersScriptConfig : cloudflare.DataCloudflareWorkersScript.IDataCloudflareWorkersScriptConfig
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/workers_script#account_id DataCloudflareWorkersScript#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/workers_script#account_id DataCloudflareWorkersScript#account_id}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/workers_script#filter DataCloudflareWorkersScript#filter}.</summary>
-        [JsiiOptional]
-        [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkersScript.DataCloudflareWorkersScriptFilter\"}", isOptional: true)]
-        public cloudflare.DataCloudflareWorkersScript.IDataCloudflareWorkersScriptFilter? Filter
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
         {
             get;
             set;
@@ -30,11 +22,10 @@ namespace cloudflare.DataCloudflareWorkersScript
 
         /// <summary>Name of the script, used in URLs and route configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/workers_script#script_name DataCloudflareWorkersScript#script_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/workers_script#script_name DataCloudflareWorkersScript#script_name}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "scriptName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? ScriptName
+        [JsiiProperty(name: "scriptName", typeJson: "{\"primitive\":\"string\"}")]
+        public string ScriptName
         {
             get;
             set;

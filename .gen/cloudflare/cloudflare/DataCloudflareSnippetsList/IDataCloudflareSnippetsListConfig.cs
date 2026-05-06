@@ -7,9 +7,9 @@ namespace cloudflare.DataCloudflareSnippetsList
     [JsiiInterface(nativeType: typeof(IDataCloudflareSnippetsListConfig), fullyQualifiedName: "cloudflare.dataCloudflareSnippetsList.DataCloudflareSnippetsListConfig")]
     public interface IDataCloudflareSnippetsListConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>The unique ID of the zone.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/snippets_list#zone_id DataCloudflareSnippetsList#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/snippets_list#zone_id DataCloudflareSnippetsList#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareSnippetsList
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/snippets_list#max_items DataCloudflareSnippetsList#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/snippets_list#max_items DataCloudflareSnippetsList#max_items}
         /// </remarks>
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,9 +38,9 @@ namespace cloudflare.DataCloudflareSnippetsList
             {
             }
 
-            /// <summary>The unique ID of the zone.</summary>
+            /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/snippets_list#zone_id DataCloudflareSnippetsList#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/snippets_list#zone_id DataCloudflareSnippetsList#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId
@@ -50,7 +50,7 @@ namespace cloudflare.DataCloudflareSnippetsList
 
             /// <summary>Max items to fetch, default: 1000.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/snippets_list#max_items DataCloudflareSnippetsList#max_items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/snippets_list#max_items DataCloudflareSnippetsList#max_items}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

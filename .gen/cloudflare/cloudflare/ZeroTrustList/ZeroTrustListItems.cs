@@ -7,9 +7,9 @@ namespace cloudflare.ZeroTrustList
     [JsiiByValue(fqn: "cloudflare.zeroTrustList.ZeroTrustListItems")]
     public class ZeroTrustListItems : cloudflare.ZeroTrustList.IZeroTrustListItems
     {
-        /// <summary>Provide the list item description (optional).</summary>
+        /// <summary>The description of the list item, if present.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_list#description ZeroTrustList#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_list#description ZeroTrustList#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,9 +19,9 @@ namespace cloudflare.ZeroTrustList
             set;
         }
 
-        /// <summary>Specify the item value.</summary>
+        /// <summary>The value of the item in a list.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_list#value ZeroTrustList#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_list#value ZeroTrustList#value}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

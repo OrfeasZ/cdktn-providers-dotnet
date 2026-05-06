@@ -7,9 +7,19 @@ namespace cloudflare.DataCloudflareCustomSsls
     [JsiiInterface(nativeType: typeof(IDataCloudflareCustomSslsConfig), fullyQualifiedName: "cloudflare.dataCloudflareCustomSsls.DataCloudflareCustomSslsConfig")]
     public interface IDataCloudflareCustomSslsConfig : Io.Cdktn.ITerraformMetaArguments
     {
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/custom_ssls#zone_id DataCloudflareCustomSsls#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        string ZoneId
+        {
+            get;
+        }
+
         /// <summary>Whether to match all search requirements or at least one (any). Available values: "any", "all".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/custom_ssls#match DataCloudflareCustomSsls#match}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/custom_ssls#match DataCloudflareCustomSsls#match}
         /// </remarks>
         [JsiiProperty(name: "match", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +33,7 @@ namespace cloudflare.DataCloudflareCustomSsls
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/custom_ssls#max_items DataCloudflareCustomSsls#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/custom_ssls#max_items DataCloudflareCustomSsls#max_items}
         /// </remarks>
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,25 +47,11 @@ namespace cloudflare.DataCloudflareCustomSsls
 
         /// <summary>Status of the zone's custom SSL. Available values: "active", "expired", "deleted", "pending", "initializing".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/custom_ssls#status DataCloudflareCustomSsls#status}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/custom_ssls#status DataCloudflareCustomSsls#status}
         /// </remarks>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Status
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/custom_ssls#zone_id DataCloudflareCustomSsls#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? ZoneId
         {
             get
             {
@@ -70,9 +66,19 @@ namespace cloudflare.DataCloudflareCustomSsls
             {
             }
 
+            /// <summary>Identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/custom_ssls#zone_id DataCloudflareCustomSsls#zone_id}
+            /// </remarks>
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+            public string ZoneId
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
             /// <summary>Whether to match all search requirements or at least one (any). Available values: "any", "all".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/custom_ssls#match DataCloudflareCustomSsls#match}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/custom_ssls#match DataCloudflareCustomSsls#match}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "match", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -83,7 +89,7 @@ namespace cloudflare.DataCloudflareCustomSsls
 
             /// <summary>Max items to fetch, default: 1000.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/custom_ssls#max_items DataCloudflareCustomSsls#max_items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/custom_ssls#max_items DataCloudflareCustomSsls#max_items}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -94,22 +100,11 @@ namespace cloudflare.DataCloudflareCustomSsls
 
             /// <summary>Status of the zone's custom SSL. Available values: "active", "expired", "deleted", "pending", "initializing".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/custom_ssls#status DataCloudflareCustomSsls#status}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/custom_ssls#status DataCloudflareCustomSsls#status}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Status
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
-            /// <summary>Identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/custom_ssls#zone_id DataCloudflareCustomSsls#zone_id}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? ZoneId
             {
                 get => GetInstanceProperty<string?>();
             }

@@ -9,14 +9,26 @@ namespace cloudflare.SnippetRules
     [JsiiByValue(fqn: "cloudflare.snippetRules.SnippetRulesConfig")]
     public class SnippetRulesConfig : cloudflare.SnippetRules.ISnippetRulesConfig
     {
-        private object _rules;
-
-        /// <summary>Lists snippet rules.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/snippet_rules#rules SnippetRules#rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/snippet_rules#zone_id SnippetRules#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.snippetRules.SnippetRulesRules\"},\"kind\":\"array\"}}]}}")]
-        public object Rules
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        public string ZoneId
+        {
+            get;
+            set;
+        }
+
+        private object? _rules;
+
+        /// <summary>List of snippet rules.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/snippet_rules#rules SnippetRules#rules}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.snippetRules.SnippetRulesRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? Rules
         {
             get => _rules;
             set
@@ -33,25 +45,13 @@ namespace cloudflare.SnippetRules
                             // Not enough information to type-check...
                             break;
                         case null:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.SnippetRules.ISnippetRulesRules).FullName}[]; received null", nameof(value));
+                            break;
                         default:
                             throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.SnippetRules.ISnippetRulesRules).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
                 _rules = value;
             }
-        }
-
-        /// <summary>Use this field to specify the unique ID of the zone.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/snippet_rules#zone_id SnippetRules#zone_id}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? ZoneId
-        {
-            get;
-            set;
         }
 
         private object? _connection;

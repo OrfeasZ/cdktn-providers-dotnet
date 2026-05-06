@@ -7,7 +7,7 @@ namespace cloudflare.AuthenticatedOriginPulls
     [JsiiInterface(nativeType: typeof(IAuthenticatedOriginPullsConfig), fullyQualifiedName: "cloudflare.authenticatedOriginPulls.AuthenticatedOriginPullsConfig")]
     public interface IAuthenticatedOriginPullsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/authenticated_origin_pulls#config AuthenticatedOriginPulls#config}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/authenticated_origin_pulls#config AuthenticatedOriginPulls#config}.</summary>
         [JsiiProperty(name: "config", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.authenticatedOriginPulls.AuthenticatedOriginPullsConfigA\"},\"kind\":\"array\"}}]}}")]
         object Config
         {
@@ -16,12 +16,26 @@ namespace cloudflare.AuthenticatedOriginPulls
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/authenticated_origin_pulls#zone_id AuthenticatedOriginPulls#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/authenticated_origin_pulls#zone_id AuthenticatedOriginPulls#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
         {
             get;
+        }
+
+        /// <summary>The hostname on the origin for which the client certificate uploaded will be used.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/authenticated_origin_pulls#hostname AuthenticatedOriginPulls#hostname}
+        /// </remarks>
+        [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Hostname
+        {
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IAuthenticatedOriginPullsConfig), fullyQualifiedName: "cloudflare.authenticatedOriginPulls.AuthenticatedOriginPullsConfig")]
@@ -31,7 +45,7 @@ namespace cloudflare.AuthenticatedOriginPulls
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/authenticated_origin_pulls#config AuthenticatedOriginPulls#config}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/authenticated_origin_pulls#config AuthenticatedOriginPulls#config}.</summary>
             [JsiiProperty(name: "config", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.authenticatedOriginPulls.AuthenticatedOriginPullsConfigA\"},\"kind\":\"array\"}}]}}")]
             public object Config
             {
@@ -40,12 +54,23 @@ namespace cloudflare.AuthenticatedOriginPulls
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/authenticated_origin_pulls#zone_id AuthenticatedOriginPulls#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/authenticated_origin_pulls#zone_id AuthenticatedOriginPulls#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId
             {
                 get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>The hostname on the origin for which the client certificate uploaded will be used.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/authenticated_origin_pulls#hostname AuthenticatedOriginPulls#hostname}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Hostname
+            {
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

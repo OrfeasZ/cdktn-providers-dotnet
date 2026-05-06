@@ -53,12 +53,6 @@ namespace cloudflare.DataCloudflareZeroTrustAccessPolicies
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
-        [JsiiProperty(name: "connectionRules", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessPolicies.DataCloudflareZeroTrustAccessPoliciesResultConnectionRulesOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareZeroTrustAccessPolicies.DataCloudflareZeroTrustAccessPoliciesResultConnectionRulesOutputReference ConnectionRules
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessPolicies.DataCloudflareZeroTrustAccessPoliciesResultConnectionRulesOutputReference>()!;
-        }
-
         [JsiiProperty(name: "createdAt", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CreatedAt
         {
@@ -93,12 +87,6 @@ namespace cloudflare.DataCloudflareZeroTrustAccessPolicies
         public virtual Io.Cdktn.IResolvable IsolationRequired
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
-        [JsiiProperty(name: "mfaConfig", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessPolicies.DataCloudflareZeroTrustAccessPoliciesResultMfaConfigOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareZeroTrustAccessPolicies.DataCloudflareZeroTrustAccessPoliciesResultMfaConfigOutputReference MfaConfig
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessPolicies.DataCloudflareZeroTrustAccessPoliciesResultMfaConfigOutputReference>()!;
         }
 
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]

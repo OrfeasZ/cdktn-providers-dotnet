@@ -7,18 +7,14 @@ namespace cloudflare.DataCloudflareZoneSubscription
     [JsiiInterface(nativeType: typeof(IDataCloudflareZoneSubscriptionConfig), fullyQualifiedName: "cloudflare.dataCloudflareZoneSubscription.DataCloudflareZoneSubscriptionConfig")]
     public interface IDataCloudflareZoneSubscriptionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Identifier.</summary>
+        /// <summary>Subscription identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zone_subscription#zone_id DataCloudflareZoneSubscription#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zone_subscription#zone_id DataCloudflareZoneSubscription#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? ZoneId
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        string ZoneId
         {
-            get
-            {
-                return null;
-            }
+            get;
         }
 
         [JsiiTypeProxy(nativeType: typeof(IDataCloudflareZoneSubscriptionConfig), fullyQualifiedName: "cloudflare.dataCloudflareZoneSubscription.DataCloudflareZoneSubscriptionConfig")]
@@ -28,15 +24,14 @@ namespace cloudflare.DataCloudflareZoneSubscription
             {
             }
 
-            /// <summary>Identifier.</summary>
+            /// <summary>Subscription identifier tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zone_subscription#zone_id DataCloudflareZoneSubscription#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zone_subscription#zone_id DataCloudflareZoneSubscription#zone_id}
             /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? ZoneId
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+            public string ZoneId
             {
-                get => GetInstanceProperty<string?>();
+                get => GetInstanceProperty<string>()!;
             }
 
             /// <remarks>

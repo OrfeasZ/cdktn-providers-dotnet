@@ -7,7 +7,17 @@ namespace cloudflare.DataCloudflareZoneLockdown
     [JsiiInterface(nativeType: typeof(IDataCloudflareZoneLockdownConfig), fullyQualifiedName: "cloudflare.dataCloudflareZoneLockdown.DataCloudflareZoneLockdownConfig")]
     public interface IDataCloudflareZoneLockdownConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zone_lockdown#filter DataCloudflareZoneLockdown#filter}.</summary>
+        /// <summary>Defines an identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zone_lockdown#zone_id DataCloudflareZoneLockdown#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        string ZoneId
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zone_lockdown#filter DataCloudflareZoneLockdown#filter}.</summary>
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZoneLockdown.DataCloudflareZoneLockdownFilter\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.DataCloudflareZoneLockdown.IDataCloudflareZoneLockdownFilter? Filter
@@ -20,25 +30,11 @@ namespace cloudflare.DataCloudflareZoneLockdown
 
         /// <summary>The unique identifier of the Zone Lockdown rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zone_lockdown#lock_downs_id DataCloudflareZoneLockdown#lock_downs_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zone_lockdown#lock_downs_id DataCloudflareZoneLockdown#lock_downs_id}
         /// </remarks>
         [JsiiProperty(name: "lockDownsId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LockDownsId
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Defines an identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zone_lockdown#zone_id DataCloudflareZoneLockdown#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? ZoneId
         {
             get
             {
@@ -53,7 +49,17 @@ namespace cloudflare.DataCloudflareZoneLockdown
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zone_lockdown#filter DataCloudflareZoneLockdown#filter}.</summary>
+            /// <summary>Defines an identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zone_lockdown#zone_id DataCloudflareZoneLockdown#zone_id}
+            /// </remarks>
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+            public string ZoneId
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zone_lockdown#filter DataCloudflareZoneLockdown#filter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZoneLockdown.DataCloudflareZoneLockdownFilter\"}", isOptional: true)]
             public cloudflare.DataCloudflareZoneLockdown.IDataCloudflareZoneLockdownFilter? Filter
@@ -63,22 +69,11 @@ namespace cloudflare.DataCloudflareZoneLockdown
 
             /// <summary>The unique identifier of the Zone Lockdown rule.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zone_lockdown#lock_downs_id DataCloudflareZoneLockdown#lock_downs_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zone_lockdown#lock_downs_id DataCloudflareZoneLockdown#lock_downs_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lockDownsId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LockDownsId
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
-            /// <summary>Defines an identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zone_lockdown#zone_id DataCloudflareZoneLockdown#zone_id}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? ZoneId
             {
                 get => GetInstanceProperty<string?>();
             }

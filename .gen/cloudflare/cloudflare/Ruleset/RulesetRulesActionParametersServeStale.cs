@@ -4,18 +4,21 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.Ruleset
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "cloudflare.ruleset.RulesetRulesActionParametersServeStale")]
     public class RulesetRulesActionParametersServeStale : cloudflare.Ruleset.IRulesetRulesActionParametersServeStale
     {
-        private object? _disableStaleWhileUpdating;
+        private object _disableStaleWhileUpdating;
 
-        /// <summary>Whether Cloudflare should disable serving stale content while getting the latest content from the origin.</summary>
+        /// <summary>Defines whether Cloudflare should serve stale content while updating.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#disable_stale_while_updating Ruleset#disable_stale_while_updating}
+        /// If true, Cloudflare will not serve stale content while getting the latest content from the origin.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#disable_stale_while_updating Ruleset#disable_stale_while_updating}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "disableStaleWhileUpdating", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public object? DisableStaleWhileUpdating
+        [JsiiProperty(name: "disableStaleWhileUpdating", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public object DisableStaleWhileUpdating
         {
             get => _disableStaleWhileUpdating;
             set
@@ -32,7 +35,7 @@ namespace cloudflare.Ruleset
                             // Not enough information to type-check...
                             break;
                         case null:
-                            break;
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
                         default:
                             throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
                     }

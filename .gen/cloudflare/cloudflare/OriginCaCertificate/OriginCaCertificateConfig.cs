@@ -4,41 +4,28 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.OriginCaCertificate
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.originCaCertificate.OriginCaCertificateConfig")]
     public class OriginCaCertificateConfig : cloudflare.OriginCaCertificate.IOriginCaCertificateConfig
     {
         /// <summary>The Certificate Signing Request (CSR). Must be newline-encoded.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/origin_ca_certificate#csr OriginCaCertificate#csr}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/origin_ca_certificate#csr OriginCaCertificate#csr}
         /// </remarks>
-        [JsiiProperty(name: "csr", typeJson: "{\"primitive\":\"string\"}")]
-        public string Csr
+        [JsiiOptional]
+        [JsiiProperty(name: "csr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Csr
         {
             get;
             set;
         }
 
-        /// <summary>Array of hostnames or wildcard names bound to the certificate.</summary>
+        /// <summary>Array of hostnames or wildcard names (e.g., *.example.com) bound to the certificate.</summary>
         /// <remarks>
-        /// Hostnames must be fully qualified domain names (FQDNs) belonging to zones on your account (e.g., <c>example.com</c> or <c>sub.example.com</c>). Wildcards are supported only as a <c>*.</c> prefix for a single level (e.g., <c>*.example.com</c>). Double wildcards (<c>*.*.example.com</c>) and interior wildcards (<c>foo.*.example.com</c>) are not allowed. The wildcard suffix must be a multi-label domain (<c>*.example.com</c> is valid, but <c>*.com</c> is not). Unicode/IDN hostnames are accepted and automatically converted to punycode.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/origin_ca_certificate#hostnames OriginCaCertificate#hostnames}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/origin_ca_certificate#hostnames OriginCaCertificate#hostnames}
         /// </remarks>
-        [JsiiProperty(name: "hostnames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public string[] Hostnames
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Signature type desired on certificate ("origin-rsa" (rsa), "origin-ecc" (ecdsa), or "keyless-certificate" (for Keyless SSL servers). Available values: "origin-rsa", "origin-ecc", "keyless-certificate".</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/origin_ca_certificate#request_type OriginCaCertificate#request_type}
-        /// </remarks>
-        [JsiiProperty(name: "requestType", typeJson: "{\"primitive\":\"string\"}")]
-        public string RequestType
+        [JsiiOptional]
+        [JsiiProperty(name: "hostnames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public string[]? Hostnames
         {
             get;
             set;
@@ -46,11 +33,23 @@ namespace cloudflare.OriginCaCertificate
 
         /// <summary>The number of days for which the certificate should be valid. Available values: 7, 30, 90, 365, 730, 1095, 5475.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/origin_ca_certificate#requested_validity OriginCaCertificate#requested_validity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/origin_ca_certificate#requested_validity OriginCaCertificate#requested_validity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "requestedValidity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RequestedValidity
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Signature type desired on certificate ("origin-rsa" (rsa), "origin-ecc" (ecdsa), or "keyless-certificate" (for Keyless SSL servers). Available values: "origin-rsa", "origin-ecc", "keyless-certificate".</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/origin_ca_certificate#request_type OriginCaCertificate#request_type}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "requestType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? RequestType
         {
             get;
             set;

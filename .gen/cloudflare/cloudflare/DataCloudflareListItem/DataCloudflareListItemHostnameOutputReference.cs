@@ -33,12 +33,6 @@ namespace cloudflare.DataCloudflareListItem
         {
         }
 
-        [JsiiProperty(name: "excludeExactHostname", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable ExcludeExactHostname
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
         [JsiiProperty(name: "urlHostname", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string UrlHostname
         {

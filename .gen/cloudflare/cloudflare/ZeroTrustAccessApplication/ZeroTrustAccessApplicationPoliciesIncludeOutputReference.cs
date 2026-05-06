@@ -143,12 +143,6 @@ namespace cloudflare.ZeroTrustAccessApplication
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesIncludeIpListStruct)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putLinkedAppToken", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesIncludeLinkedAppToken\"}}]")]
-        public virtual void PutLinkedAppToken(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesIncludeLinkedAppToken @value)
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesIncludeLinkedAppToken)}, new object[]{@value});
-        }
-
         [JsiiMethod(name: "putLoginMethod", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesIncludeLoginMethod\"}}]")]
         public virtual void PutLoginMethod(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesIncludeLoginMethod @value)
         {
@@ -283,12 +277,6 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         [JsiiMethod(name: "resetIpList")]
         public virtual void ResetIpList()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetLinkedAppToken")]
-        public virtual void ResetLinkedAppToken()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -429,12 +417,6 @@ namespace cloudflare.ZeroTrustAccessApplication
         public virtual cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesIncludeIpListStructOutputReference IpList
         {
             get => GetInstanceProperty<cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesIncludeIpListStructOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "linkedAppToken", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesIncludeLinkedAppTokenOutputReference\"}")]
-        public virtual cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesIncludeLinkedAppTokenOutputReference LinkedAppToken
-        {
-            get => GetInstanceProperty<cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesIncludeLinkedAppTokenOutputReference>()!;
         }
 
         [JsiiProperty(name: "loginMethod", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesIncludeLoginMethodOutputReference\"}")]
@@ -589,13 +571,6 @@ namespace cloudflare.ZeroTrustAccessApplication
         [JsiiOptional]
         [JsiiProperty(name: "ipListInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesIncludeIpListStruct\"}]}}", isOptional: true)]
         public virtual object? IpListInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "linkedAppTokenInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesIncludeLinkedAppToken\"}]}}", isOptional: true)]
-        public virtual object? LinkedAppTokenInput
         {
             get => GetInstanceProperty<object?>();
         }

@@ -4,14 +4,13 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.PagesProject
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewMtlsCertificates")]
     public class PagesProjectDeploymentConfigsPreviewMtlsCertificates : cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewMtlsCertificates
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#certificate_id PagesProject#certificate_id}.</summary>
-        [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]
-        public string CertificateId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#certificate_id PagesProject#certificate_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? CertificateId
         {
             get;
             set;

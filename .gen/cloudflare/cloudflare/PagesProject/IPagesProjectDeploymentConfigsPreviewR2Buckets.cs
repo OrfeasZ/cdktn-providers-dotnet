@@ -7,23 +7,27 @@ namespace cloudflare.PagesProject
     [JsiiInterface(nativeType: typeof(IPagesProjectDeploymentConfigsPreviewR2Buckets), fullyQualifiedName: "cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewR2Buckets")]
     public interface IPagesProjectDeploymentConfigsPreviewR2Buckets
     {
-        /// <summary>Name of the R2 bucket.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#name PagesProject#name}
-        /// </remarks>
-        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
-        string Name
-        {
-            get;
-        }
-
         /// <summary>Jurisdiction of the R2 bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#jurisdiction PagesProject#jurisdiction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#jurisdiction PagesProject#jurisdiction}
         /// </remarks>
         [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Jurisdiction
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Name of the R2 bucket.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#name PagesProject#name}
+        /// </remarks>
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Name
         {
             get
             {
@@ -38,23 +42,24 @@ namespace cloudflare.PagesProject
             {
             }
 
-            /// <summary>Name of the R2 bucket.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#name PagesProject#name}
-            /// </remarks>
-            [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
-            public string Name
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>Jurisdiction of the R2 bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#jurisdiction PagesProject#jurisdiction}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#jurisdiction PagesProject#jurisdiction}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Jurisdiction
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Name of the R2 bucket.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#name PagesProject#name}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Name
             {
                 get => GetInstanceProperty<string?>();
             }

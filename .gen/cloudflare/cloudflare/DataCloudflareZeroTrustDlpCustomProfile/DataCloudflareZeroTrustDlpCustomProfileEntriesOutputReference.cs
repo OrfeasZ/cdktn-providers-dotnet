@@ -53,12 +53,6 @@ namespace cloudflare.DataCloudflareZeroTrustDlpCustomProfile
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Description
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "enabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable Enabled
         {
@@ -105,12 +99,6 @@ namespace cloudflare.DataCloudflareZeroTrustDlpCustomProfile
         public virtual string UpdatedAt
         {
             get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "variant", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDlpCustomProfile.DataCloudflareZeroTrustDlpCustomProfileEntriesVariantOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareZeroTrustDlpCustomProfile.DataCloudflareZeroTrustDlpCustomProfileEntriesVariantOutputReference Variant
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustDlpCustomProfile.DataCloudflareZeroTrustDlpCustomProfileEntriesVariantOutputReference>()!;
         }
 
         [JsiiProperty(name: "wordList", typeJson: "{\"primitive\":\"string\"}")]

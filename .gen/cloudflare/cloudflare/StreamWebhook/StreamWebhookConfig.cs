@@ -4,16 +4,17 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.StreamWebhook
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "cloudflare.streamWebhook.StreamWebhookConfig")]
     public class StreamWebhookConfig : cloudflare.StreamWebhook.IStreamWebhookConfig
     {
         /// <summary>The account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream_webhook#account_id StreamWebhook#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/stream_webhook#account_id StreamWebhook#account_id}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
         {
             get;
             set;
@@ -21,11 +22,10 @@ namespace cloudflare.StreamWebhook
 
         /// <summary>The URL where webhooks will be sent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream_webhook#notification_url StreamWebhook#notification_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/stream_webhook#notification_url StreamWebhook#notification_url}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "notificationUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? NotificationUrl
+        [JsiiProperty(name: "notificationUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public string NotificationUrl
         {
             get;
             set;

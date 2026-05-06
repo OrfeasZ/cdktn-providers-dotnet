@@ -107,12 +107,6 @@ namespace cloudflare.DataCloudflareLoadBalancerPools
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "monitorGroup", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string MonitorGroup
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
         {

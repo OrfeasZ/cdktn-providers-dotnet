@@ -35,18 +35,6 @@ namespace cloudflare.DataCloudflareWorkersScripts
         {
         }
 
-        [JsiiProperty(name: "compatibilityDate", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string CompatibilityDate
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "compatibilityFlags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] CompatibilityFlags
-        {
-            get => GetInstanceProperty<string[]>()!;
-        }
-
         [JsiiProperty(name: "createdOn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CreatedOn
         {
@@ -57,12 +45,6 @@ namespace cloudflare.DataCloudflareWorkersScripts
         public virtual string Etag
         {
             get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "handlers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] Handlers
-        {
-            get => GetInstanceProperty<string[]>()!;
         }
 
         [JsiiProperty(name: "hasAssets", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
@@ -83,40 +65,16 @@ namespace cloudflare.DataCloudflareWorkersScripts
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "lastDeployedFrom", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string LastDeployedFrom
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "logpush", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable Logpush
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
-        [JsiiProperty(name: "migrationTag", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string MigrationTag
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "modifiedOn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ModifiedOn
         {
             get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "namedHandlers", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultNamedHandlersList\"}")]
-        public virtual cloudflare.DataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultNamedHandlersList NamedHandlers
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultNamedHandlersList>()!;
-        }
-
-        [JsiiProperty(name: "observability", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultObservabilityOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultObservabilityOutputReference Observability
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultObservabilityOutputReference>()!;
         }
 
         [JsiiProperty(name: "placement", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultPlacementOutputReference\"}")]
@@ -135,24 +93,6 @@ namespace cloudflare.DataCloudflareWorkersScripts
         public virtual string PlacementStatus
         {
             get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "routes", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultRoutesList\"}")]
-        public virtual cloudflare.DataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultRoutesList Routes
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultRoutesList>()!;
-        }
-
-        [JsiiProperty(name: "tag", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Tag
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] Tags
-        {
-            get => GetInstanceProperty<string[]>()!;
         }
 
         [JsiiProperty(name: "tailConsumers", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultTailConsumersList\"}")]

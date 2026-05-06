@@ -45,12 +45,6 @@ namespace cloudflare.ZeroTrustDevicePostureRule
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetAuthState")]
-        public virtual void ResetAuthState()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetCertificateId")]
         public virtual void ResetCertificateId()
         {
@@ -279,12 +273,6 @@ namespace cloudflare.ZeroTrustDevicePostureRule
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetUpdateWindowDays")]
-        public virtual void ResetUpdateWindowDays()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetVersion")]
         public virtual void ResetVersion()
         {
@@ -308,13 +296,6 @@ namespace cloudflare.ZeroTrustDevicePostureRule
         public virtual double? ActiveThreatsInput
         {
             get => GetInstanceProperty<double?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "authStateInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
-        public virtual string[]? AuthStateInput
-        {
-            get => GetInstanceProperty<string[]?>();
         }
 
         [JsiiOptional]
@@ -584,13 +565,6 @@ namespace cloudflare.ZeroTrustDevicePostureRule
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "updateWindowDaysInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public virtual double? UpdateWindowDaysInput
-        {
-            get => GetInstanceProperty<double?>();
-        }
-
-        [JsiiOptional]
         [JsiiProperty(name: "versionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? VersionInput
         {
@@ -608,13 +582,6 @@ namespace cloudflare.ZeroTrustDevicePostureRule
         public virtual double ActiveThreats
         {
             get => GetInstanceProperty<double>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "authState", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] AuthState
-        {
-            get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);
         }
 
@@ -992,13 +959,6 @@ namespace cloudflare.ZeroTrustDevicePostureRule
 
         [JsiiProperty(name: "totalScore", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double TotalScore
-        {
-            get => GetInstanceProperty<double>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "updateWindowDays", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double UpdateWindowDays
         {
             get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);

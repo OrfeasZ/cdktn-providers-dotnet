@@ -9,9 +9,9 @@ namespace cloudflare.ArgoSmartRouting
     [JsiiByValue(fqn: "cloudflare.argoSmartRouting.ArgoSmartRoutingConfig")]
     public class ArgoSmartRoutingConfig : cloudflare.ArgoSmartRouting.IArgoSmartRoutingConfig
     {
-        /// <summary>Specifies the enablement value of Argo Smart Routing. Available values: "on", "off".</summary>
+        /// <summary>Enables Argo Smart Routing. Available values: "on", "off".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/argo_smart_routing#value ArgoSmartRouting#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/argo_smart_routing#value ArgoSmartRouting#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
@@ -20,9 +20,9 @@ namespace cloudflare.ArgoSmartRouting
             set;
         }
 
-        /// <summary>Specifies the zone associated with the API call.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/argo_smart_routing#zone_id ArgoSmartRouting#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/argo_smart_routing#zone_id ArgoSmartRouting#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId

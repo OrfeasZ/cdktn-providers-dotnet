@@ -33,24 +33,6 @@ namespace cloudflare.DataCloudflareMagicWanGreTunnel
         {
         }
 
-        [JsiiProperty(name: "automaticReturnRouting", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable AutomaticReturnRouting
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
-        [JsiiProperty(name: "bgp", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareMagicWanGreTunnel.DataCloudflareMagicWanGreTunnelGreTunnelBgpOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareMagicWanGreTunnel.DataCloudflareMagicWanGreTunnelGreTunnelBgpOutputReference Bgp
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareMagicWanGreTunnel.DataCloudflareMagicWanGreTunnelGreTunnelBgpOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "bgpStatus", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareMagicWanGreTunnel.DataCloudflareMagicWanGreTunnelGreTunnelBgpStatusOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareMagicWanGreTunnel.DataCloudflareMagicWanGreTunnelGreTunnelBgpStatusOutputReference BgpStatus
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareMagicWanGreTunnel.DataCloudflareMagicWanGreTunnelGreTunnelBgpStatusOutputReference>()!;
-        }
-
         [JsiiProperty(name: "cloudflareGreEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CloudflareGreEndpoint
         {
@@ -89,12 +71,6 @@ namespace cloudflare.DataCloudflareMagicWanGreTunnel
 
         [JsiiProperty(name: "interfaceAddress", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string InterfaceAddress
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "interfaceAddress6", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string InterfaceAddress6
         {
             get => GetInstanceProperty<string>()!;
         }

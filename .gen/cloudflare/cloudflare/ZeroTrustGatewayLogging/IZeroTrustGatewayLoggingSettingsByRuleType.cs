@@ -7,10 +7,7 @@ namespace cloudflare.ZeroTrustGatewayLogging
     [JsiiInterface(nativeType: typeof(IZeroTrustGatewayLoggingSettingsByRuleType), fullyQualifiedName: "cloudflare.zeroTrustGatewayLogging.ZeroTrustGatewayLoggingSettingsByRuleType")]
     public interface IZeroTrustGatewayLoggingSettingsByRuleType
     {
-        /// <summary>Configure logging settings for DNS firewall.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_logging#dns ZeroTrustGatewayLogging#dns}
-        /// </remarks>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_logging#dns ZeroTrustGatewayLogging#dns}.</summary>
         [JsiiProperty(name: "dns", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayLogging.ZeroTrustGatewayLoggingSettingsByRuleTypeDns\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustGatewayLogging.IZeroTrustGatewayLoggingSettingsByRuleTypeDns? Dns
@@ -21,10 +18,7 @@ namespace cloudflare.ZeroTrustGatewayLogging
             }
         }
 
-        /// <summary>Configure logging settings for HTTP/HTTPS firewall.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_logging#http ZeroTrustGatewayLogging#http}
-        /// </remarks>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_logging#http ZeroTrustGatewayLogging#http}.</summary>
         [JsiiProperty(name: "http", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayLogging.ZeroTrustGatewayLoggingSettingsByRuleTypeHttp\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustGatewayLogging.IZeroTrustGatewayLoggingSettingsByRuleTypeHttp? Http
@@ -35,10 +29,7 @@ namespace cloudflare.ZeroTrustGatewayLogging
             }
         }
 
-        /// <summary>Configure logging settings for Network firewall.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_logging#l4 ZeroTrustGatewayLogging#l4}
-        /// </remarks>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_logging#l4 ZeroTrustGatewayLogging#l4}.</summary>
         [JsiiProperty(name: "l4", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayLogging.ZeroTrustGatewayLoggingSettingsByRuleTypeL4\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.ZeroTrustGatewayLogging.IZeroTrustGatewayLoggingSettingsByRuleTypeL4? L4
@@ -56,10 +47,7 @@ namespace cloudflare.ZeroTrustGatewayLogging
             {
             }
 
-            /// <summary>Configure logging settings for DNS firewall.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_logging#dns ZeroTrustGatewayLogging#dns}
-            /// </remarks>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_logging#dns ZeroTrustGatewayLogging#dns}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dns", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayLogging.ZeroTrustGatewayLoggingSettingsByRuleTypeDns\"}", isOptional: true)]
             public cloudflare.ZeroTrustGatewayLogging.IZeroTrustGatewayLoggingSettingsByRuleTypeDns? Dns
@@ -67,10 +55,7 @@ namespace cloudflare.ZeroTrustGatewayLogging
                 get => GetInstanceProperty<cloudflare.ZeroTrustGatewayLogging.IZeroTrustGatewayLoggingSettingsByRuleTypeDns?>();
             }
 
-            /// <summary>Configure logging settings for HTTP/HTTPS firewall.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_logging#http ZeroTrustGatewayLogging#http}
-            /// </remarks>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_logging#http ZeroTrustGatewayLogging#http}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "http", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayLogging.ZeroTrustGatewayLoggingSettingsByRuleTypeHttp\"}", isOptional: true)]
             public cloudflare.ZeroTrustGatewayLogging.IZeroTrustGatewayLoggingSettingsByRuleTypeHttp? Http
@@ -78,10 +63,7 @@ namespace cloudflare.ZeroTrustGatewayLogging
                 get => GetInstanceProperty<cloudflare.ZeroTrustGatewayLogging.IZeroTrustGatewayLoggingSettingsByRuleTypeHttp?>();
             }
 
-            /// <summary>Configure logging settings for Network firewall.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_logging#l4 ZeroTrustGatewayLogging#l4}
-            /// </remarks>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_logging#l4 ZeroTrustGatewayLogging#l4}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "l4", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayLogging.ZeroTrustGatewayLoggingSettingsByRuleTypeL4\"}", isOptional: true)]
             public cloudflare.ZeroTrustGatewayLogging.IZeroTrustGatewayLoggingSettingsByRuleTypeL4? L4

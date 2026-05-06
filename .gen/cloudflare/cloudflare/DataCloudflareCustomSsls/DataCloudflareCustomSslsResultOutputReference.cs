@@ -41,12 +41,6 @@ namespace cloudflare.DataCloudflareCustomSsls
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "customCsrId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string CustomCsrId
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "expiresOn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ExpiresOn
         {
@@ -89,8 +83,8 @@ namespace cloudflare.DataCloudflareCustomSsls
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "policyRestrictions", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string PolicyRestrictions
+        [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Policy
         {
             get => GetInstanceProperty<string>()!;
         }

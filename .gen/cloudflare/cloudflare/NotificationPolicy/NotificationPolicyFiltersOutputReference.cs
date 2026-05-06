@@ -273,12 +273,6 @@ namespace cloudflare.NotificationPolicy
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetType")]
-        public virtual void ResetType()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetWhere")]
         public virtual void ResetWhere()
         {
@@ -572,13 +566,6 @@ namespace cloudflare.NotificationPolicy
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "typeInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
-        public virtual string[]? TypeInput
-        {
-            get => GetInstanceProperty<string[]?>();
-        }
-
-        [JsiiOptional]
         [JsiiProperty(name: "whereInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? WhereInput
         {
@@ -867,13 +854,6 @@ namespace cloudflare.NotificationPolicy
 
         [JsiiProperty(name: "tunnelName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] TunnelName
-        {
-            get => GetInstanceProperty<string[]>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "type", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] Type
         {
             get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);

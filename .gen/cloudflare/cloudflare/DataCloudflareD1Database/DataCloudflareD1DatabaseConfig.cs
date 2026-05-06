@@ -4,16 +4,17 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareD1Database
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "cloudflare.dataCloudflareD1Database.DataCloudflareD1DatabaseConfig")]
     public class DataCloudflareD1DatabaseConfig : cloudflare.DataCloudflareD1Database.IDataCloudflareD1DatabaseConfig
     {
         /// <summary>Account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/d1_database#account_id DataCloudflareD1Database#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/d1_database#account_id DataCloudflareD1Database#account_id}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
         {
             get;
             set;
@@ -21,7 +22,7 @@ namespace cloudflare.DataCloudflareD1Database
 
         /// <summary>D1 database identifier (UUID).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/d1_database#database_id DataCloudflareD1Database#database_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/d1_database#database_id DataCloudflareD1Database#database_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -31,7 +32,7 @@ namespace cloudflare.DataCloudflareD1Database
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/d1_database#filter DataCloudflareD1Database#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/d1_database#filter DataCloudflareD1Database#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareD1Database.DataCloudflareD1DatabaseFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareD1Database.IDataCloudflareD1DatabaseFilter? Filter

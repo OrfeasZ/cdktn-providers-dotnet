@@ -4,10 +4,23 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareEmailRoutingRule
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "cloudflare.dataCloudflareEmailRoutingRule.DataCloudflareEmailRoutingRuleConfig")]
     public class DataCloudflareEmailRoutingRuleConfig : cloudflare.DataCloudflareEmailRoutingRule.IDataCloudflareEmailRoutingRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/email_routing_rule#filter DataCloudflareEmailRoutingRule#filter}.</summary>
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/email_routing_rule#zone_id DataCloudflareEmailRoutingRule#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        public string ZoneId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/email_routing_rule#filter DataCloudflareEmailRoutingRule#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareEmailRoutingRule.DataCloudflareEmailRoutingRuleFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareEmailRoutingRule.IDataCloudflareEmailRoutingRuleFilter? Filter
@@ -18,23 +31,11 @@ namespace cloudflare.DataCloudflareEmailRoutingRule
 
         /// <summary>Routing rule identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/email_routing_rule#rule_identifier DataCloudflareEmailRoutingRule#rule_identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/email_routing_rule#rule_identifier DataCloudflareEmailRoutingRule#rule_identifier}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ruleIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RuleIdentifier
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/email_routing_rule#zone_id DataCloudflareEmailRoutingRule#zone_id}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? ZoneId
         {
             get;
             set;

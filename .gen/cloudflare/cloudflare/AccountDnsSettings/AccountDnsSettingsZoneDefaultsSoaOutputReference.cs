@@ -33,48 +33,6 @@ namespace cloudflare.AccountDnsSettings
         {
         }
 
-        [JsiiMethod(name: "resetExpire")]
-        public virtual void ResetExpire()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetMinTtl")]
-        public virtual void ResetMinTtl()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetMname")]
-        public virtual void ResetMname()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetRefresh")]
-        public virtual void ResetRefresh()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetRetry")]
-        public virtual void ResetRetry()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetRname")]
-        public virtual void ResetRname()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetTtl")]
-        public virtual void ResetTtl()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "expireInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? ExpireInput

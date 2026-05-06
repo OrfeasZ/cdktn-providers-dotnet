@@ -7,9 +7,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
     [JsiiInterface(nativeType: typeof(IZeroTrustGatewaySettingsSettingsCustomCertificate), fullyQualifiedName: "cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsCustomCertificate")]
     public interface IZeroTrustGatewaySettingsSettingsCustomCertificate
     {
-        /// <summary>Specify whether to enable a custom certificate authority for signing Gateway traffic.</summary>
+        /// <summary>Enable use of custom certificate authority for signing Gateway traffic.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#enabled ZeroTrustGatewaySettings#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#enabled ZeroTrustGatewaySettings#enabled}
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         object Enabled
@@ -17,23 +17,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             get;
         }
 
-        /// <summary>Indicate the internal certificate status.</summary>
+        /// <summary>UUID of certificate (ID from MTLS certificate store).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#binding_status ZeroTrustGatewaySettings#binding_status}
-        /// </remarks>
-        [JsiiProperty(name: "bindingStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? BindingStatus
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Specify the UUID of the certificate (ID from MTLS certificate store).</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#id ZeroTrustGatewaySettings#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#id ZeroTrustGatewaySettings#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,17 +34,6 @@ namespace cloudflare.ZeroTrustGatewaySettings
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#updated_at ZeroTrustGatewaySettings#updated_at}.</summary>
-        [JsiiProperty(name: "updatedAt", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? UpdatedAt
-        {
-            get
-            {
-                return null;
-            }
-        }
-
         [JsiiTypeProxy(nativeType: typeof(IZeroTrustGatewaySettingsSettingsCustomCertificate), fullyQualifiedName: "cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsCustomCertificate")]
         internal sealed class _Proxy : DeputyBase, cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsCustomCertificate
         {
@@ -66,9 +41,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             {
             }
 
-            /// <summary>Specify whether to enable a custom certificate authority for signing Gateway traffic.</summary>
+            /// <summary>Enable use of custom certificate authority for signing Gateway traffic.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#enabled ZeroTrustGatewaySettings#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#enabled ZeroTrustGatewaySettings#enabled}
             /// </remarks>
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
             public object Enabled
@@ -76,20 +51,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Indicate the internal certificate status.</summary>
+            /// <summary>UUID of certificate (ID from MTLS certificate store).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#binding_status ZeroTrustGatewaySettings#binding_status}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "bindingStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? BindingStatus
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
-            /// <summary>Specify the UUID of the certificate (ID from MTLS certificate store).</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#id ZeroTrustGatewaySettings#id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#id ZeroTrustGatewaySettings#id}
             ///
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -97,14 +61,6 @@ namespace cloudflare.ZeroTrustGatewaySettings
             [JsiiOptional]
             [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Id
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#updated_at ZeroTrustGatewaySettings#updated_at}.</summary>
-            [JsiiOptional]
-            [JsiiProperty(name: "updatedAt", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? UpdatedAt
             {
                 get => GetInstanceProperty<string?>();
             }

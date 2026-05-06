@@ -34,6 +34,12 @@ namespace cloudflare.PagesProject
         {
         }
 
+        [JsiiMethod(name: "resetName")]
+        public virtual void ResetName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "nameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? NameInput

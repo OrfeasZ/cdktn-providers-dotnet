@@ -9,9 +9,9 @@ namespace cloudflare.ZeroTrustDnsLocation
     {
         private object? _enabled;
 
-        /// <summary>Indicate whether the IPv4 endpoint is enabled for this location.</summary>
+        /// <summary>True if the endpoint is enabled for this location.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_dns_location#enabled ZeroTrustDnsLocation#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_dns_location#enabled ZeroTrustDnsLocation#enabled}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

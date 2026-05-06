@@ -45,12 +45,6 @@ namespace cloudflare.DataCloudflareRuleset
             get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersAlgorithmsList>()!;
         }
 
-        [JsiiProperty(name: "assetName", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string AssetName
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "automaticHttpsRewrites", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable AutomaticHttpsRewrites
         {
@@ -99,12 +93,6 @@ namespace cloudflare.DataCloudflareRuleset
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "contentConverter", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable ContentConverter
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
         [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ContentType
         {
@@ -145,12 +133,6 @@ namespace cloudflare.DataCloudflareRuleset
         public virtual Io.Cdktn.IResolvable EmailObfuscation
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
-        [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Expression
-        {
-            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "fonts", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
@@ -195,12 +177,6 @@ namespace cloudflare.DataCloudflareRuleset
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "immutable", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersImmutableOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersImmutableOutputReference Immutable
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersImmutableOutputReference>()!;
-        }
-
         [JsiiProperty(name: "increment", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double Increment
         {
@@ -213,52 +189,10 @@ namespace cloudflare.DataCloudflareRuleset
             get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersMatchedDataOutputReference>()!;
         }
 
-        [JsiiProperty(name: "maxAge", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersMaxAgeOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersMaxAgeOutputReference MaxAge
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersMaxAgeOutputReference>()!;
-        }
-
         [JsiiProperty(name: "mirage", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable Mirage
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
-        [JsiiProperty(name: "mustRevalidate", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersMustRevalidateOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersMustRevalidateOutputReference MustRevalidate
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersMustRevalidateOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "mustUnderstand", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersMustUnderstandOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersMustUnderstandOutputReference MustUnderstand
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersMustUnderstandOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "noCache", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersNoCacheOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersNoCacheOutputReference NoCache
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersNoCacheOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "noStore", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersNoStoreOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersNoStoreOutputReference NoStore
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersNoStoreOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "noTransform", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersNoTransformOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersNoTransformOutputReference NoTransform
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersNoTransformOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Operation
-        {
-            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "opportunisticEncryption", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
@@ -303,28 +237,10 @@ namespace cloudflare.DataCloudflareRuleset
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "private", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersPrivateOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersPrivateOutputReference Private
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersPrivateOutputReference>()!;
-        }
-
         [JsiiProperty(name: "products", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] Products
         {
             get => GetInstanceProperty<string[]>()!;
-        }
-
-        [JsiiProperty(name: "proxyRevalidate", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersProxyRevalidateOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersProxyRevalidateOutputReference ProxyRevalidate
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersProxyRevalidateOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "public", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersPublicOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersPublicOutputReference Public
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersPublicOutputReference>()!;
         }
 
         [JsiiProperty(name: "rawResponseFields", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersRawResponseFieldsList\"}")]
@@ -337,18 +253,6 @@ namespace cloudflare.DataCloudflareRuleset
         public virtual double ReadTimeout
         {
             get => GetInstanceProperty<double>()!;
-        }
-
-        [JsiiProperty(name: "redirectsForAiTraining", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable RedirectsForAiTraining
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
-        [JsiiProperty(name: "requestBodyBuffering", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string RequestBodyBuffering
-        {
-            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "requestFields", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersRequestFieldsList\"}")]
@@ -367,12 +271,6 @@ namespace cloudflare.DataCloudflareRuleset
         public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersResponseOutputReference Response
         {
             get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersResponseOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "responseBodyBuffering", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ResponseBodyBuffering
-        {
-            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "responseFields", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersResponseFieldsList\"}")]
@@ -423,12 +321,6 @@ namespace cloudflare.DataCloudflareRuleset
             get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersServeStaleOutputReference>()!;
         }
 
-        [JsiiProperty(name: "sMaxage", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersSMaxageOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersSMaxageOutputReference SMaxage
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersSMaxageOutputReference>()!;
-        }
-
         [JsiiProperty(name: "sni", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersSniOutputReference\"}")]
         public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersSniOutputReference Sni
         {
@@ -441,40 +333,10 @@ namespace cloudflare.DataCloudflareRuleset
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "staleIfError", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersStaleIfErrorOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersStaleIfErrorOutputReference StaleIfError
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersStaleIfErrorOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "staleWhileRevalidate", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersStaleWhileRevalidateOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersStaleWhileRevalidateOutputReference StaleWhileRevalidate
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersStaleWhileRevalidateOutputReference>()!;
-        }
-
         [JsiiProperty(name: "statusCode", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double StatusCode
         {
             get => GetInstanceProperty<double>()!;
-        }
-
-        [JsiiProperty(name: "stripEtags", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable StripEtags
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
-        [JsiiProperty(name: "stripLastModified", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable StripLastModified
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
-        [JsiiProperty(name: "stripSetCookie", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable StripSetCookie
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "sxg", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
@@ -493,12 +355,6 @@ namespace cloudflare.DataCloudflareRuleset
         public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersUriOutputReference Uri
         {
             get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersUriOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] Values
-        {
-            get => GetInstanceProperty<string[]>()!;
         }
 
         [JsiiOptional]

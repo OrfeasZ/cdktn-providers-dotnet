@@ -4,25 +4,26 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareLoadBalancers
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "cloudflare.dataCloudflareLoadBalancers.DataCloudflareLoadBalancersConfig")]
     public class DataCloudflareLoadBalancersConfig : cloudflare.DataCloudflareLoadBalancers.IDataCloudflareLoadBalancersConfig
     {
-        /// <summary>Max items to fetch, default: 1000.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/load_balancers#max_items DataCloudflareLoadBalancers#max_items}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public double? MaxItems
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/load_balancers#zone_id DataCloudflareLoadBalancers#zone_id}.</summary>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        public string ZoneId
         {
             get;
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/load_balancers#zone_id DataCloudflareLoadBalancers#zone_id}.</summary>
+        /// <summary>Max items to fetch, default: 1000.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/load_balancers#max_items DataCloudflareLoadBalancers#max_items}
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? ZoneId
+        [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public double? MaxItems
         {
             get;
             set;

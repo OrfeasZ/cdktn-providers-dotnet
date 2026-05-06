@@ -59,8 +59,20 @@ namespace cloudflare.Ruleset
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesRatelimit)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetAction")]
+        public virtual void ResetAction()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetActionParameters")]
         public virtual void ResetActionParameters()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCategories")]
+        public virtual void ResetCategories()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -79,6 +91,12 @@ namespace cloudflare.Ruleset
 
         [JsiiMethod(name: "resetExposedCredentialCheck")]
         public virtual void ResetExposedCredentialCheck()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetExpression")]
+        public virtual void ResetExpression()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -146,6 +164,13 @@ namespace cloudflare.Ruleset
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "categoriesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? CategoriesInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "descriptionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DescriptionInput
         {
@@ -198,6 +223,13 @@ namespace cloudflare.Ruleset
         public virtual string Action
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "categories", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Categories
+        {
+            get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);
         }
 

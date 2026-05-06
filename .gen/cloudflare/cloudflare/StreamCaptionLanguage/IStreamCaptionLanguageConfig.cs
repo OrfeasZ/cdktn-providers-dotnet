@@ -7,9 +7,19 @@ namespace cloudflare.StreamCaptionLanguage
     [JsiiInterface(nativeType: typeof(IStreamCaptionLanguageConfig), fullyQualifiedName: "cloudflare.streamCaptionLanguage.StreamCaptionLanguageConfig")]
     public interface IStreamCaptionLanguageConfig : Io.Cdktn.ITerraformMetaArguments
     {
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/stream_caption_language#account_id StreamCaptionLanguage#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        string AccountId
+        {
+            get;
+        }
+
         /// <summary>A Cloudflare-generated unique identifier for a media item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream_caption_language#identifier StreamCaptionLanguage#identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/stream_caption_language#identifier StreamCaptionLanguage#identifier}
         /// </remarks>
         [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
         string Identifier
@@ -19,7 +29,7 @@ namespace cloudflare.StreamCaptionLanguage
 
         /// <summary>The language tag in BCP 47 format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream_caption_language#language StreamCaptionLanguage#language}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/stream_caption_language#language StreamCaptionLanguage#language}
         /// </remarks>
         [JsiiProperty(name: "language", typeJson: "{\"primitive\":\"string\"}")]
         string Language
@@ -27,23 +37,9 @@ namespace cloudflare.StreamCaptionLanguage
             get;
         }
 
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream_caption_language#account_id StreamCaptionLanguage#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? AccountId
-        {
-            get
-            {
-                return null;
-            }
-        }
-
         /// <summary>The WebVTT file containing the caption or subtitle content.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream_caption_language#file StreamCaptionLanguage#file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/stream_caption_language#file StreamCaptionLanguage#file}
         /// </remarks>
         [JsiiProperty(name: "file", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -62,9 +58,19 @@ namespace cloudflare.StreamCaptionLanguage
             {
             }
 
+            /// <summary>Identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/stream_caption_language#account_id StreamCaptionLanguage#account_id}
+            /// </remarks>
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+            public string AccountId
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
             /// <summary>A Cloudflare-generated unique identifier for a media item.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream_caption_language#identifier StreamCaptionLanguage#identifier}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/stream_caption_language#identifier StreamCaptionLanguage#identifier}
             /// </remarks>
             [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
             public string Identifier
@@ -74,7 +80,7 @@ namespace cloudflare.StreamCaptionLanguage
 
             /// <summary>The language tag in BCP 47 format.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream_caption_language#language StreamCaptionLanguage#language}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/stream_caption_language#language StreamCaptionLanguage#language}
             /// </remarks>
             [JsiiProperty(name: "language", typeJson: "{\"primitive\":\"string\"}")]
             public string Language
@@ -82,20 +88,9 @@ namespace cloudflare.StreamCaptionLanguage
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream_caption_language#account_id StreamCaptionLanguage#account_id}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? AccountId
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
             /// <summary>The WebVTT file containing the caption or subtitle content.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/stream_caption_language#file StreamCaptionLanguage#file}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/stream_caption_language#file StreamCaptionLanguage#file}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "file", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
