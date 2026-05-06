@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.ZeroTrustOrganization
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_organization cloudflare_zero_trust_organization}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_organization cloudflare_zero_trust_organization}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.ZeroTrustOrganization.ZeroTrustOrganization), fullyQualifiedName: "cloudflare.zeroTrustOrganization.ZeroTrustOrganization", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"cloudflare.zeroTrustOrganization.ZeroTrustOrganizationConfig\"}}]")]
     public class ZeroTrustOrganization : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_organization cloudflare_zero_trust_organization} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_organization cloudflare_zero_trust_organization} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ZeroTrustOrganization(Constructs.Construct scope, string id, cloudflare.ZeroTrustOrganization.IZeroTrustOrganizationConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace cloudflare.ZeroTrustOrganization
         /// <param name="importToId">The construct id used in the generated config for the ZeroTrustOrganization to import.</param>
         /// <param name="importFromId">The id of the existing ZeroTrustOrganization that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ZeroTrustOrganization to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ZeroTrustOrganization to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_organization#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ZeroTrustOrganization that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ZeroTrustOrganization to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ZeroTrustOrganization to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_organization#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ZeroTrustOrganization that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ZeroTrustOrganization to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.ZeroTrustOrganization.ZeroTrustOrganization), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -56,6 +56,18 @@ namespace cloudflare.ZeroTrustOrganization
         public virtual void PutLoginDesign(cloudflare.ZeroTrustOrganization.IZeroTrustOrganizationLoginDesign @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustOrganization.IZeroTrustOrganizationLoginDesign)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putMfaConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustOrganization.ZeroTrustOrganizationMfaConfig\"}}]")]
+        public virtual void PutMfaConfig(cloudflare.ZeroTrustOrganization.IZeroTrustOrganizationMfaConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustOrganization.IZeroTrustOrganizationMfaConfig)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putMfaSshPivKeyRequirements", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustOrganization.ZeroTrustOrganizationMfaSshPivKeyRequirements\"}}]")]
+        public virtual void PutMfaSshPivKeyRequirements(cloudflare.ZeroTrustOrganization.IZeroTrustOrganizationMfaSshPivKeyRequirements @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustOrganization.IZeroTrustOrganizationMfaSshPivKeyRequirements)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "resetAccountId")]
@@ -88,6 +100,18 @@ namespace cloudflare.ZeroTrustOrganization
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDenyUnmatchedRequests")]
+        public virtual void ResetDenyUnmatchedRequests()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDenyUnmatchedRequestsExemptedZoneNames")]
+        public virtual void ResetDenyUnmatchedRequestsExemptedZoneNames()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetIsUiReadOnly")]
         public virtual void ResetIsUiReadOnly()
         {
@@ -96,6 +120,30 @@ namespace cloudflare.ZeroTrustOrganization
 
         [JsiiMethod(name: "resetLoginDesign")]
         public virtual void ResetLoginDesign()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMfaConfig")]
+        public virtual void ResetMfaConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMfaConfigurationAllowed")]
+        public virtual void ResetMfaConfigurationAllowed()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMfaRequiredForAllApps")]
+        public virtual void ResetMfaRequiredForAllApps()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMfaSshPivKeyRequirements")]
+        public virtual void ResetMfaSshPivKeyRequirements()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -155,12 +203,6 @@ namespace cloudflare.ZeroTrustOrganization
         }
         = GetStaticProperty<string>(typeof(cloudflare.ZeroTrustOrganization.ZeroTrustOrganization))!;
 
-        [JsiiProperty(name: "createdAt", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string CreatedAt
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "customPages", typeJson: "{\"fqn\":\"cloudflare.zeroTrustOrganization.ZeroTrustOrganizationCustomPagesOutputReference\"}")]
         public virtual cloudflare.ZeroTrustOrganization.ZeroTrustOrganizationCustomPagesOutputReference CustomPages
         {
@@ -173,10 +215,16 @@ namespace cloudflare.ZeroTrustOrganization
             get => GetInstanceProperty<cloudflare.ZeroTrustOrganization.ZeroTrustOrganizationLoginDesignOutputReference>()!;
         }
 
-        [JsiiProperty(name: "updatedAt", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string UpdatedAt
+        [JsiiProperty(name: "mfaConfig", typeJson: "{\"fqn\":\"cloudflare.zeroTrustOrganization.ZeroTrustOrganizationMfaConfigOutputReference\"}")]
+        public virtual cloudflare.ZeroTrustOrganization.ZeroTrustOrganizationMfaConfigOutputReference MfaConfig
         {
-            get => GetInstanceProperty<string>()!;
+            get => GetInstanceProperty<cloudflare.ZeroTrustOrganization.ZeroTrustOrganizationMfaConfigOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "mfaSshPivKeyRequirements", typeJson: "{\"fqn\":\"cloudflare.zeroTrustOrganization.ZeroTrustOrganizationMfaSshPivKeyRequirementsOutputReference\"}")]
+        public virtual cloudflare.ZeroTrustOrganization.ZeroTrustOrganizationMfaSshPivKeyRequirementsOutputReference MfaSshPivKeyRequirements
+        {
+            get => GetInstanceProperty<cloudflare.ZeroTrustOrganization.ZeroTrustOrganizationMfaSshPivKeyRequirementsOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -215,6 +263,20 @@ namespace cloudflare.ZeroTrustOrganization
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "denyUnmatchedRequestsExemptedZoneNamesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? DenyUnmatchedRequestsExemptedZoneNamesInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "denyUnmatchedRequestsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? DenyUnmatchedRequestsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "isUiReadOnlyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsUiReadOnlyInput
         {
@@ -224,6 +286,34 @@ namespace cloudflare.ZeroTrustOrganization
         [JsiiOptional]
         [JsiiProperty(name: "loginDesignInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustOrganization.ZeroTrustOrganizationLoginDesign\"}]}}", isOptional: true)]
         public virtual object? LoginDesignInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "mfaConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustOrganization.ZeroTrustOrganizationMfaConfig\"}]}}", isOptional: true)]
+        public virtual object? MfaConfigInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "mfaConfigurationAllowedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? MfaConfigurationAllowedInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "mfaRequiredForAllAppsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? MfaRequiredForAllAppsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "mfaSshPivKeyRequirementsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustOrganization.ZeroTrustOrganizationMfaSshPivKeyRequirements\"}]}}", isOptional: true)]
+        public virtual object? MfaSshPivKeyRequirementsInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -338,8 +428,96 @@ namespace cloudflare.ZeroTrustOrganization
             }
         }
 
+        [JsiiProperty(name: "denyUnmatchedRequests", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object DenyUnmatchedRequests
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        [JsiiProperty(name: "denyUnmatchedRequestsExemptedZoneNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] DenyUnmatchedRequestsExemptedZoneNames
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "isUiReadOnly", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsUiReadOnly
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        [JsiiProperty(name: "mfaConfigurationAllowed", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object MfaConfigurationAllowed
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        [JsiiProperty(name: "mfaRequiredForAllApps", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object MfaRequiredForAllApps
         {
             get => GetInstanceProperty<object>()!;
             set

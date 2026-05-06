@@ -7,9 +7,9 @@ namespace cloudflare.Ruleset
     [JsiiInterface(nativeType: typeof(IRulesetRulesActionParametersCacheKeyCustomKey), fullyQualifiedName: "cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKey")]
     public interface IRulesetRulesActionParametersCacheKeyCustomKey
     {
-        /// <summary>The cookies to include in building the cache key.</summary>
+        /// <summary>Which cookies to include in the cache key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#cookie Ruleset#cookie}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#cookie Ruleset#cookie}
         /// </remarks>
         [JsiiProperty(name: "cookie", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyCookie\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,9 +21,9 @@ namespace cloudflare.Ruleset
             }
         }
 
-        /// <summary>The header names and values to include in building the cache key.</summary>
+        /// <summary>Which headers to include in the cache key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#header Ruleset#header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#header Ruleset#header}
         /// </remarks>
         [JsiiProperty(name: "header", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyHeader\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,9 +35,9 @@ namespace cloudflare.Ruleset
             }
         }
 
-        /// <summary>Whether to use the original host or the resolved host in the cache key.</summary>
+        /// <summary>How to use the host in the cache key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#host Ruleset#host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#host Ruleset#host}
         /// </remarks>
         [JsiiProperty(name: "host", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyHost\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -49,9 +49,9 @@ namespace cloudflare.Ruleset
             }
         }
 
-        /// <summary>Use the presence of parameters in the query string to build the cache key.</summary>
+        /// <summary>Which query string parameters to include in or exclude from the cache key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#query_string Ruleset#query_string}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#query_string Ruleset#query_string}
         /// </remarks>
         [JsiiProperty(name: "queryString", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyQueryString\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,9 +63,9 @@ namespace cloudflare.Ruleset
             }
         }
 
-        /// <summary>Characteristics of the request user agent used in building the cache key.</summary>
+        /// <summary>How to use characteristics of the request user agent in the cache key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#user Ruleset#user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#user Ruleset#user}
         /// </remarks>
         [JsiiProperty(name: "user", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyUser\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -84,9 +84,9 @@ namespace cloudflare.Ruleset
             {
             }
 
-            /// <summary>The cookies to include in building the cache key.</summary>
+            /// <summary>Which cookies to include in the cache key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#cookie Ruleset#cookie}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#cookie Ruleset#cookie}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cookie", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyCookie\"}", isOptional: true)]
@@ -95,9 +95,9 @@ namespace cloudflare.Ruleset
                 get => GetInstanceProperty<cloudflare.Ruleset.IRulesetRulesActionParametersCacheKeyCustomKeyCookie?>();
             }
 
-            /// <summary>The header names and values to include in building the cache key.</summary>
+            /// <summary>Which headers to include in the cache key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#header Ruleset#header}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#header Ruleset#header}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "header", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyHeader\"}", isOptional: true)]
@@ -106,9 +106,9 @@ namespace cloudflare.Ruleset
                 get => GetInstanceProperty<cloudflare.Ruleset.IRulesetRulesActionParametersCacheKeyCustomKeyHeader?>();
             }
 
-            /// <summary>Whether to use the original host or the resolved host in the cache key.</summary>
+            /// <summary>How to use the host in the cache key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#host Ruleset#host}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#host Ruleset#host}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "host", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyHost\"}", isOptional: true)]
@@ -117,9 +117,9 @@ namespace cloudflare.Ruleset
                 get => GetInstanceProperty<cloudflare.Ruleset.IRulesetRulesActionParametersCacheKeyCustomKeyHost?>();
             }
 
-            /// <summary>Use the presence of parameters in the query string to build the cache key.</summary>
+            /// <summary>Which query string parameters to include in or exclude from the cache key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#query_string Ruleset#query_string}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#query_string Ruleset#query_string}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "queryString", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyQueryString\"}", isOptional: true)]
@@ -128,9 +128,9 @@ namespace cloudflare.Ruleset
                 get => GetInstanceProperty<cloudflare.Ruleset.IRulesetRulesActionParametersCacheKeyCustomKeyQueryString?>();
             }
 
-            /// <summary>Characteristics of the request user agent used in building the cache key.</summary>
+            /// <summary>How to use characteristics of the request user agent in the cache key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#user Ruleset#user}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#user Ruleset#user}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "user", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyUser\"}", isOptional: true)]

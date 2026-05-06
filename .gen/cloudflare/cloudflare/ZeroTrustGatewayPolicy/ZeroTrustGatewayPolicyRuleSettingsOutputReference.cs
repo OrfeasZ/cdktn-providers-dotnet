@@ -69,6 +69,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustGatewayPolicy.IZeroTrustGatewayPolicyRuleSettingsEgress)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putForensicCopy", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsForensicCopy\"}}]")]
+        public virtual void PutForensicCopy(cloudflare.ZeroTrustGatewayPolicy.IZeroTrustGatewayPolicyRuleSettingsForensicCopy @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustGatewayPolicy.IZeroTrustGatewayPolicyRuleSettingsForensicCopy)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putL4Override", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsL4Override\"}}]")]
         public virtual void PutL4Override(cloudflare.ZeroTrustGatewayPolicy.IZeroTrustGatewayPolicyRuleSettingsL4Override @value)
         {
@@ -173,6 +179,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         [JsiiMethod(name: "resetEgress")]
         public virtual void ResetEgress()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetForensicCopy")]
+        public virtual void ResetForensicCopy()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -297,6 +309,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             get => GetInstanceProperty<cloudflare.ZeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsEgressOutputReference>()!;
         }
 
+        [JsiiProperty(name: "forensicCopy", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsForensicCopyOutputReference\"}")]
+        public virtual cloudflare.ZeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsForensicCopyOutputReference ForensicCopy
+        {
+            get => GetInstanceProperty<cloudflare.ZeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsForensicCopyOutputReference>()!;
+        }
+
         [JsiiProperty(name: "l4Override", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsL4OverrideOutputReference\"}")]
         public virtual cloudflare.ZeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsL4OverrideOutputReference L4Override
         {
@@ -340,10 +358,10 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "addHeadersInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
-        public virtual System.Collections.Generic.IDictionary<string, string>? AddHeadersInput
+        [JsiiProperty(name: "addHeadersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
+        public virtual object? AddHeadersInput
         {
-            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -412,6 +430,13 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         [JsiiOptional]
         [JsiiProperty(name: "egressInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsEgress\"}]}}", isOptional: true)]
         public virtual object? EgressInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "forensicCopyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsForensicCopy\"}]}}", isOptional: true)]
+        public virtual object? ForensicCopyInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -514,11 +539,31 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             get => GetInstanceProperty<object?>();
         }
 
-        [JsiiProperty(name: "addHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
-        public virtual System.Collections.Generic.IDictionary<string, string> AddHeaders
+        [JsiiProperty(name: "addHeaders", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}")]
+        public virtual object AddHeaders
         {
-            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
-            set => SetInstanceProperty(value);
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case System.Collections.Generic.IDictionary<string, string[]> cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, System.Collections.Generic.IDictionary<string, string[]>; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, System.Collections.Generic.IDictionary<string, string[]>; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
 
         [JsiiProperty(name: "allowChildBypass", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]

@@ -7,9 +7,9 @@ namespace cloudflare.ZeroTrustGatewayPolicy
     [JsiiInterface(nativeType: typeof(IZeroTrustGatewayPolicyRuleSettingsAuditSsh), fullyQualifiedName: "cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsAuditSsh")]
     public interface IZeroTrustGatewayPolicyRuleSettingsAuditSsh
     {
-        /// <summary>Enable to turn on SSH command logging.</summary>
+        /// <summary>Enable SSH command logging.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#command_logging ZeroTrustGatewayPolicy#command_logging}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#command_logging ZeroTrustGatewayPolicy#command_logging}
         /// </remarks>
         [JsiiProperty(name: "commandLogging", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,9 +28,9 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             {
             }
 
-            /// <summary>Enable to turn on SSH command logging.</summary>
+            /// <summary>Enable SSH command logging.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#command_logging ZeroTrustGatewayPolicy#command_logging}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#command_logging ZeroTrustGatewayPolicy#command_logging}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "commandLogging", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

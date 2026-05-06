@@ -7,19 +7,15 @@ namespace cloudflare.PagesProject
     [JsiiInterface(nativeType: typeof(IPagesProjectDeploymentConfigsPreviewHyperdriveBindings), fullyQualifiedName: "cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewHyperdriveBindings")]
     public interface IPagesProjectDeploymentConfigsPreviewHyperdriveBindings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#id PagesProject#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#id PagesProject#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
         /// </remarks>
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? Id
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        string Id
         {
-            get
-            {
-                return null;
-            }
+            get;
         }
 
         [JsiiTypeProxy(nativeType: typeof(IPagesProjectDeploymentConfigsPreviewHyperdriveBindings), fullyQualifiedName: "cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewHyperdriveBindings")]
@@ -29,16 +25,15 @@ namespace cloudflare.PagesProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#id PagesProject#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#id PagesProject#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
             /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? Id
+            [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+            public string Id
             {
-                get => GetInstanceProperty<string?>();
+                get => GetInstanceProperty<string>()!;
             }
         }
     }

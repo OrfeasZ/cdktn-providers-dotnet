@@ -7,9 +7,9 @@ namespace cloudflare.Ruleset
     [JsiiInterface(nativeType: typeof(IRulesetRulesActionParametersBrowserTtl), fullyQualifiedName: "cloudflare.ruleset.RulesetRulesActionParametersBrowserTtl")]
     public interface IRulesetRulesActionParametersBrowserTtl
     {
-        /// <summary>Determines which browser ttl mode to use. Available values: "respect_origin", "bypass_by_default", "override_origin".</summary>
+        /// <summary>The browser TTL mode. Available values: "respect_origin", "bypass_by_default", "override_origin", "bypass".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#mode Ruleset#mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#mode Ruleset#mode}
         /// </remarks>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         string Mode
@@ -17,9 +17,9 @@ namespace cloudflare.Ruleset
             get;
         }
 
-        /// <summary>The TTL (in seconds) if you choose override_origin mode.</summary>
+        /// <summary>The browser TTL (in seconds) if you choose the "override_origin" mode.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#default Ruleset#default}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#default Ruleset#default}
         /// </remarks>
         [JsiiProperty(name: "default", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,9 +38,9 @@ namespace cloudflare.Ruleset
             {
             }
 
-            /// <summary>Determines which browser ttl mode to use. Available values: "respect_origin", "bypass_by_default", "override_origin".</summary>
+            /// <summary>The browser TTL mode. Available values: "respect_origin", "bypass_by_default", "override_origin", "bypass".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#mode Ruleset#mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#mode Ruleset#mode}
             /// </remarks>
             [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
             public string Mode
@@ -48,9 +48,9 @@ namespace cloudflare.Ruleset
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>The TTL (in seconds) if you choose override_origin mode.</summary>
+            /// <summary>The browser TTL (in seconds) if you choose the "override_origin" mode.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#default Ruleset#default}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#default Ruleset#default}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "default", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

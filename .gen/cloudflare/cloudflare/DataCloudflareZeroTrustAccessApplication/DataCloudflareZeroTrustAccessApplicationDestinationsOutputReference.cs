@@ -35,6 +35,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessApplication
         {
         }
 
+        [JsiiMethod(name: "resetMcpServerId")]
+        public virtual void ResetMcpServerId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "cidr", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Cidr
         {
@@ -75,6 +81,20 @@ namespace cloudflare.DataCloudflareZeroTrustAccessApplication
         public virtual string VnetId
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "mcpServerIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? McpServerIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "mcpServerId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string McpServerId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiOptional]

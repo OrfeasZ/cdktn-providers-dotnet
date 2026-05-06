@@ -53,6 +53,12 @@ namespace cloudflare.DataCloudflareApiShieldOperations
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "lastUpdated", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LastUpdated
         {

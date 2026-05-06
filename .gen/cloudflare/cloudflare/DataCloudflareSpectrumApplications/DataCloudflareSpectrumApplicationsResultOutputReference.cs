@@ -35,6 +35,90 @@ namespace cloudflare.DataCloudflareSpectrumApplications
         {
         }
 
+        [JsiiProperty(name: "argoSmartRouting", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable ArgoSmartRouting
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "createdOn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CreatedOn
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "dns", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareSpectrumApplications.DataCloudflareSpectrumApplicationsResultDnsOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareSpectrumApplications.DataCloudflareSpectrumApplicationsResultDnsOutputReference Dns
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareSpectrumApplications.DataCloudflareSpectrumApplicationsResultDnsOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "edgeIps", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareSpectrumApplications.DataCloudflareSpectrumApplicationsResultEdgeIpsOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareSpectrumApplications.DataCloudflareSpectrumApplicationsResultEdgeIpsOutputReference EdgeIps
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareSpectrumApplications.DataCloudflareSpectrumApplicationsResultEdgeIpsOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "ipFirewall", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IpFirewall
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "modifiedOn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ModifiedOn
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "originDirect", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] OriginDirect
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
+        [JsiiProperty(name: "originDns", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareSpectrumApplications.DataCloudflareSpectrumApplicationsResultOriginDnsOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareSpectrumApplications.DataCloudflareSpectrumApplicationsResultOriginDnsOutputReference OriginDns
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareSpectrumApplications.DataCloudflareSpectrumApplicationsResultOriginDnsOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "originPort", typeJson: "{\"fqn\":\"cdktn.AnyMap\"}")]
+        public virtual Io.Cdktn.AnyMap OriginPort
+        {
+            get => GetInstanceProperty<Io.Cdktn.AnyMap>()!;
+        }
+
+        [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Protocol
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "proxyProtocol", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ProxyProtocol
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "tls", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Tls
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "trafficType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TrafficType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareSpectrumApplications.DataCloudflareSpectrumApplicationsResult\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareSpectrumApplications.IDataCloudflareSpectrumApplicationsResult? InternalValue

@@ -93,6 +93,12 @@ namespace cloudflare.ZeroTrustGatewaySettings
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsHostSelector)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putInspection", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsInspection\"}}]")]
+        public virtual void PutInspection(cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsInspection @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsInspection)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putProtocolDetection", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsProtocolDetection\"}}]")]
         public virtual void PutProtocolDetection(cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsProtocolDetection @value)
         {
@@ -167,6 +173,12 @@ namespace cloudflare.ZeroTrustGatewaySettings
 
         [JsiiMethod(name: "resetHostSelector")]
         public virtual void ResetHostSelector()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetInspection")]
+        public virtual void ResetInspection()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -247,6 +259,12 @@ namespace cloudflare.ZeroTrustGatewaySettings
         public virtual cloudflare.ZeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsHostSelectorOutputReference HostSelector
         {
             get => GetInstanceProperty<cloudflare.ZeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsHostSelectorOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "inspection", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsInspectionOutputReference\"}")]
+        public virtual cloudflare.ZeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsInspectionOutputReference Inspection
+        {
+            get => GetInstanceProperty<cloudflare.ZeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsInspectionOutputReference>()!;
         }
 
         [JsiiProperty(name: "protocolDetection", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsProtocolDetectionOutputReference\"}")]
@@ -333,6 +351,13 @@ namespace cloudflare.ZeroTrustGatewaySettings
         [JsiiOptional]
         [JsiiProperty(name: "hostSelectorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsHostSelector\"}]}}", isOptional: true)]
         public virtual object? HostSelectorInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "inspectionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsInspection\"}]}}", isOptional: true)]
+        public virtual object? InspectionInput
         {
             get => GetInstanceProperty<object?>();
         }

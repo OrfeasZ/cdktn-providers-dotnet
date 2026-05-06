@@ -9,12 +9,16 @@ namespace cloudflare.AccountDnsSettings
     {
         /// <summary>Nameserver type Available values: "cloudflare.standard", "cloudflare.standard.random", "custom.account", "custom.tenant".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/account_dns_settings#type AccountDnsSettings#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/account_dns_settings#type AccountDnsSettings#type}
         /// </remarks>
-        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
-        string Type
+        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Type
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IAccountDnsSettingsZoneDefaultsNameservers), fullyQualifiedName: "cloudflare.accountDnsSettings.AccountDnsSettingsZoneDefaultsNameservers")]
@@ -26,12 +30,13 @@ namespace cloudflare.AccountDnsSettings
 
             /// <summary>Nameserver type Available values: "cloudflare.standard", "cloudflare.standard.random", "custom.account", "custom.tenant".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/account_dns_settings#type AccountDnsSettings#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/account_dns_settings#type AccountDnsSettings#type}
             /// </remarks>
-            [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
-            public string Type
+            [JsiiOptional]
+            [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Type
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
             }
         }
     }

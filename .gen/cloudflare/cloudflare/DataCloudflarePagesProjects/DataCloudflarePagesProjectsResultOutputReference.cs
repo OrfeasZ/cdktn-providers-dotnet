@@ -35,16 +35,16 @@ namespace cloudflare.DataCloudflarePagesProjects
         {
         }
 
-        [JsiiProperty(name: "aliases", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] Aliases
-        {
-            get => GetInstanceProperty<string[]>()!;
-        }
-
         [JsiiProperty(name: "buildConfig", typeJson: "{\"fqn\":\"cloudflare.dataCloudflarePagesProjects.DataCloudflarePagesProjectsResultBuildConfigOutputReference\"}")]
         public virtual cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultBuildConfigOutputReference BuildConfig
         {
             get => GetInstanceProperty<cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultBuildConfigOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "canonicalDeployment", typeJson: "{\"fqn\":\"cloudflare.dataCloudflarePagesProjects.DataCloudflarePagesProjectsResultCanonicalDeploymentOutputReference\"}")]
+        public virtual cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultCanonicalDeploymentOutputReference CanonicalDeployment
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultCanonicalDeploymentOutputReference>()!;
         }
 
         [JsiiProperty(name: "createdOn", typeJson: "{\"primitive\":\"string\"}")]
@@ -53,22 +53,28 @@ namespace cloudflare.DataCloudflarePagesProjects
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "deploymentTrigger", typeJson: "{\"fqn\":\"cloudflare.dataCloudflarePagesProjects.DataCloudflarePagesProjectsResultDeploymentTriggerOutputReference\"}")]
-        public virtual cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultDeploymentTriggerOutputReference DeploymentTrigger
+        [JsiiProperty(name: "deploymentConfigs", typeJson: "{\"fqn\":\"cloudflare.dataCloudflarePagesProjects.DataCloudflarePagesProjectsResultDeploymentConfigsOutputReference\"}")]
+        public virtual cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultDeploymentConfigsOutputReference DeploymentConfigs
         {
-            get => GetInstanceProperty<cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultDeploymentTriggerOutputReference>()!;
+            get => GetInstanceProperty<cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultDeploymentConfigsOutputReference>()!;
         }
 
-        [JsiiProperty(name: "environment", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Environment
+        [JsiiProperty(name: "domains", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Domains
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
+        [JsiiProperty(name: "framework", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Framework
         {
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "envVars", typeJson: "{\"fqn\":\"cloudflare.dataCloudflarePagesProjects.DataCloudflarePagesProjectsResultEnvVarsMap\"}")]
-        public virtual cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultEnvVarsMap EnvVars
+        [JsiiProperty(name: "frameworkVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string FrameworkVersion
         {
-            get => GetInstanceProperty<cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultEnvVarsMap>()!;
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
@@ -77,38 +83,32 @@ namespace cloudflare.DataCloudflarePagesProjects
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "isSkipped", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable IsSkipped
+        [JsiiProperty(name: "latestDeployment", typeJson: "{\"fqn\":\"cloudflare.dataCloudflarePagesProjects.DataCloudflarePagesProjectsResultLatestDeploymentOutputReference\"}")]
+        public virtual cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultLatestDeploymentOutputReference LatestDeployment
         {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+            get => GetInstanceProperty<cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultLatestDeploymentOutputReference>()!;
         }
 
-        [JsiiProperty(name: "latestStage", typeJson: "{\"fqn\":\"cloudflare.dataCloudflarePagesProjects.DataCloudflarePagesProjectsResultLatestStageOutputReference\"}")]
-        public virtual cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultLatestStageOutputReference LatestStage
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultLatestStageOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "modifiedOn", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ModifiedOn
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Name
         {
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ProjectId
+        [JsiiProperty(name: "previewScriptName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PreviewScriptName
         {
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "projectName", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ProjectName
+        [JsiiProperty(name: "productionBranch", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ProductionBranch
         {
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "shortId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ShortId
+        [JsiiProperty(name: "productionScriptName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ProductionScriptName
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -119,16 +119,16 @@ namespace cloudflare.DataCloudflarePagesProjects
             get => GetInstanceProperty<cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultSourceOutputReference>()!;
         }
 
-        [JsiiProperty(name: "stages", typeJson: "{\"fqn\":\"cloudflare.dataCloudflarePagesProjects.DataCloudflarePagesProjectsResultStagesList\"}")]
-        public virtual cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultStagesList Stages
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultStagesList>()!;
-        }
-
-        [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Url
+        [JsiiProperty(name: "subdomain", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Subdomain
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "usesFunctions", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable UsesFunctions
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiOptional]

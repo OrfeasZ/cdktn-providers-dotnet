@@ -7,23 +7,23 @@ namespace cloudflare.DataCloudflareZeroTrustAccessTag
     [JsiiInterface(nativeType: typeof(IDataCloudflareZeroTrustAccessTagConfig), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustAccessTag.DataCloudflareZeroTrustAccessTagConfig")]
     public interface IDataCloudflareZeroTrustAccessTagConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Identifier.</summary>
+        /// <summary>The name of the tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zero_trust_access_tag#account_id DataCloudflareZeroTrustAccessTag#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zero_trust_access_tag#tag_name DataCloudflareZeroTrustAccessTag#tag_name}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        string AccountId
+        [JsiiProperty(name: "tagName", typeJson: "{\"primitive\":\"string\"}")]
+        string TagName
         {
             get;
         }
 
-        /// <summary>The name of the tag.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zero_trust_access_tag#tag_name DataCloudflareZeroTrustAccessTag#tag_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zero_trust_access_tag#account_id DataCloudflareZeroTrustAccessTag#account_id}
         /// </remarks>
-        [JsiiProperty(name: "tagName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? TagName
+        string? AccountId
         {
             get
             {
@@ -38,23 +38,23 @@ namespace cloudflare.DataCloudflareZeroTrustAccessTag
             {
             }
 
-            /// <summary>Identifier.</summary>
+            /// <summary>The name of the tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zero_trust_access_tag#account_id DataCloudflareZeroTrustAccessTag#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zero_trust_access_tag#tag_name DataCloudflareZeroTrustAccessTag#tag_name}
             /// </remarks>
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-            public string AccountId
+            [JsiiProperty(name: "tagName", typeJson: "{\"primitive\":\"string\"}")]
+            public string TagName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>The name of the tag.</summary>
+            /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zero_trust_access_tag#tag_name DataCloudflareZeroTrustAccessTag#tag_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zero_trust_access_tag#account_id DataCloudflareZeroTrustAccessTag#account_id}
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "tagName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? TagName
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? AccountId
             {
                 get => GetInstanceProperty<string?>();
             }

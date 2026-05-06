@@ -45,10 +45,22 @@ namespace cloudflare.WorkersScript
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDirectory")]
+        public virtual void ResetDirectory()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetJwt")]
         public virtual void ResetJwt()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "assetManifestSha256", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AssetManifestSha256
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "config", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptAssetsConfigOutputReference\"}")]
@@ -65,10 +77,24 @@ namespace cloudflare.WorkersScript
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "directoryInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DirectoryInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "jwtInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? JwtInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "directory", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Directory
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "jwt", typeJson: "{\"primitive\":\"string\"}")]

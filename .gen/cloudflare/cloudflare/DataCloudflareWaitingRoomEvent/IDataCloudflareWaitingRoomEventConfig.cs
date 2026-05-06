@@ -7,7 +7,14 @@ namespace cloudflare.DataCloudflareWaitingRoomEvent
     [JsiiInterface(nativeType: typeof(IDataCloudflareWaitingRoomEventConfig), fullyQualifiedName: "cloudflare.dataCloudflareWaitingRoomEvent.DataCloudflareWaitingRoomEventConfig")]
     public interface IDataCloudflareWaitingRoomEventConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/waiting_room_event#waiting_room_id DataCloudflareWaitingRoomEvent#waiting_room_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/waiting_room_event#event_id DataCloudflareWaitingRoomEvent#event_id}.</summary>
+        [JsiiProperty(name: "eventId", typeJson: "{\"primitive\":\"string\"}")]
+        string EventId
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/waiting_room_event#waiting_room_id DataCloudflareWaitingRoomEvent#waiting_room_id}.</summary>
         [JsiiProperty(name: "waitingRoomId", typeJson: "{\"primitive\":\"string\"}")]
         string WaitingRoomId
         {
@@ -16,18 +23,11 @@ namespace cloudflare.DataCloudflareWaitingRoomEvent
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/waiting_room_event#zone_id DataCloudflareWaitingRoomEvent#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/waiting_room_event#zone_id DataCloudflareWaitingRoomEvent#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
-        {
-            get;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/waiting_room_event#event_id DataCloudflareWaitingRoomEvent#event_id}.</summary>
-        [JsiiProperty(name: "eventId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? EventId
+        string? ZoneId
         {
             get
             {
@@ -42,7 +42,14 @@ namespace cloudflare.DataCloudflareWaitingRoomEvent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/waiting_room_event#waiting_room_id DataCloudflareWaitingRoomEvent#waiting_room_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/waiting_room_event#event_id DataCloudflareWaitingRoomEvent#event_id}.</summary>
+            [JsiiProperty(name: "eventId", typeJson: "{\"primitive\":\"string\"}")]
+            public string EventId
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/waiting_room_event#waiting_room_id DataCloudflareWaitingRoomEvent#waiting_room_id}.</summary>
             [JsiiProperty(name: "waitingRoomId", typeJson: "{\"primitive\":\"string\"}")]
             public string WaitingRoomId
             {
@@ -51,18 +58,11 @@ namespace cloudflare.DataCloudflareWaitingRoomEvent
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/waiting_room_event#zone_id DataCloudflareWaitingRoomEvent#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/waiting_room_event#zone_id DataCloudflareWaitingRoomEvent#zone_id}
             /// </remarks>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/waiting_room_event#event_id DataCloudflareWaitingRoomEvent#event_id}.</summary>
             [JsiiOptional]
-            [JsiiProperty(name: "eventId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? EventId
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
             {
                 get => GetInstanceProperty<string?>();
             }

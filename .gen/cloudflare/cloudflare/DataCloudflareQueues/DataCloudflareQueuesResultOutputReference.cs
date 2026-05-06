@@ -53,6 +53,12 @@ namespace cloudflare.DataCloudflareQueues
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "modifiedOn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ModifiedOn
         {

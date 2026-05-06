@@ -9,21 +9,21 @@ namespace cloudflare.DataCloudflareHealthcheck
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/healthcheck#zone_id DataCloudflareHealthcheck#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/healthcheck#healthcheck_id DataCloudflareHealthcheck#healthcheck_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
+        [JsiiProperty(name: "healthcheckId", typeJson: "{\"primitive\":\"string\"}")]
+        string HealthcheckId
         {
             get;
         }
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/healthcheck#healthcheck_id DataCloudflareHealthcheck#healthcheck_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/healthcheck#zone_id DataCloudflareHealthcheck#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "healthcheckId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? HealthcheckId
+        string? ZoneId
         {
             get
             {
@@ -40,21 +40,21 @@ namespace cloudflare.DataCloudflareHealthcheck
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/healthcheck#zone_id DataCloudflareHealthcheck#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/healthcheck#healthcheck_id DataCloudflareHealthcheck#healthcheck_id}
             /// </remarks>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
+            [JsiiProperty(name: "healthcheckId", typeJson: "{\"primitive\":\"string\"}")]
+            public string HealthcheckId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/healthcheck#healthcheck_id DataCloudflareHealthcheck#healthcheck_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/healthcheck#zone_id DataCloudflareHealthcheck#zone_id}
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "healthcheckId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? HealthcheckId
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
             {
                 get => GetInstanceProperty<string?>();
             }

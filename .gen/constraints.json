@@ -3,7 +3,7 @@
   "providers": {
     "acme": "2.48.1",
     "aws": "6.43.0",
-    "cloudflare": "5.7.1",
+    "cloudflare": "5.19.1",
     "digitalocean": "2.85.1",
     "hcloud": "1.62.0",
     "neon": "0.13.0",

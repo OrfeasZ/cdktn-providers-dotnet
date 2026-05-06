@@ -143,6 +143,12 @@ namespace cloudflare.ZeroTrustAccessPolicy
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyIncludeIpListStruct)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putLinkedAppToken", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyIncludeLinkedAppToken\"}}]")]
+        public virtual void PutLinkedAppToken(cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyIncludeLinkedAppToken @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyIncludeLinkedAppToken)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putLoginMethod", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyIncludeLoginMethod\"}}]")]
         public virtual void PutLoginMethod(cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyIncludeLoginMethod @value)
         {
@@ -171,6 +177,12 @@ namespace cloudflare.ZeroTrustAccessPolicy
         public virtual void PutServiceToken(cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyIncludeServiceToken @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyIncludeServiceToken)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putUserRiskScore", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyIncludeUserRiskScore\"}}]")]
+        public virtual void PutUserRiskScore(cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyIncludeUserRiskScore @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyIncludeUserRiskScore)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "resetAnyValidServiceToken")]
@@ -281,6 +293,12 @@ namespace cloudflare.ZeroTrustAccessPolicy
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetLinkedAppToken")]
+        public virtual void ResetLinkedAppToken()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetLoginMethod")]
         public virtual void ResetLoginMethod()
         {
@@ -307,6 +325,12 @@ namespace cloudflare.ZeroTrustAccessPolicy
 
         [JsiiMethod(name: "resetServiceToken")]
         public virtual void ResetServiceToken()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetUserRiskScore")]
+        public virtual void ResetUserRiskScore()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -419,6 +443,12 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<cloudflare.ZeroTrustAccessPolicy.ZeroTrustAccessPolicyIncludeIpListStructOutputReference>()!;
         }
 
+        [JsiiProperty(name: "linkedAppToken", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyIncludeLinkedAppTokenOutputReference\"}")]
+        public virtual cloudflare.ZeroTrustAccessPolicy.ZeroTrustAccessPolicyIncludeLinkedAppTokenOutputReference LinkedAppToken
+        {
+            get => GetInstanceProperty<cloudflare.ZeroTrustAccessPolicy.ZeroTrustAccessPolicyIncludeLinkedAppTokenOutputReference>()!;
+        }
+
         [JsiiProperty(name: "loginMethod", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyIncludeLoginMethodOutputReference\"}")]
         public virtual cloudflare.ZeroTrustAccessPolicy.ZeroTrustAccessPolicyIncludeLoginMethodOutputReference LoginMethod
         {
@@ -447,6 +477,12 @@ namespace cloudflare.ZeroTrustAccessPolicy
         public virtual cloudflare.ZeroTrustAccessPolicy.ZeroTrustAccessPolicyIncludeServiceTokenOutputReference ServiceToken
         {
             get => GetInstanceProperty<cloudflare.ZeroTrustAccessPolicy.ZeroTrustAccessPolicyIncludeServiceTokenOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "userRiskScore", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyIncludeUserRiskScoreOutputReference\"}")]
+        public virtual cloudflare.ZeroTrustAccessPolicy.ZeroTrustAccessPolicyIncludeUserRiskScoreOutputReference UserRiskScore
+        {
+            get => GetInstanceProperty<cloudflare.ZeroTrustAccessPolicy.ZeroTrustAccessPolicyIncludeUserRiskScoreOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -576,6 +612,13 @@ namespace cloudflare.ZeroTrustAccessPolicy
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "linkedAppTokenInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyIncludeLinkedAppToken\"}]}}", isOptional: true)]
+        public virtual object? LinkedAppTokenInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "loginMethodInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyIncludeLoginMethod\"}]}}", isOptional: true)]
         public virtual object? LoginMethodInput
         {
@@ -606,6 +649,13 @@ namespace cloudflare.ZeroTrustAccessPolicy
         [JsiiOptional]
         [JsiiProperty(name: "serviceTokenInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyIncludeServiceToken\"}]}}", isOptional: true)]
         public virtual object? ServiceTokenInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "userRiskScoreInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyIncludeUserRiskScore\"}]}}", isOptional: true)]
+        public virtual object? UserRiskScoreInput
         {
             get => GetInstanceProperty<object?>();
         }

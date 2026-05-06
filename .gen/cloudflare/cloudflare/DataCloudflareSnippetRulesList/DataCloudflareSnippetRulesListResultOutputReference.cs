@@ -53,6 +53,18 @@ namespace cloudflare.DataCloudflareSnippetRulesList
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "lastUpdated", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LastUpdated
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "snippetName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SnippetName
         {

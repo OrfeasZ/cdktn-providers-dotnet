@@ -33,6 +33,12 @@ namespace cloudflare.Ruleset
         {
         }
 
+        [JsiiMethod(name: "resetMinimumFileSize")]
+        public virtual void ResetMinimumFileSize()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "eligibleInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EligibleInput

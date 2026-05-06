@@ -35,6 +35,12 @@ namespace cloudflare.DataCloudflareImages
         {
         }
 
+        [JsiiProperty(name: "creator", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Creator
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "filename", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Filename
         {

@@ -35,14 +35,8 @@ namespace cloudflare.DataCloudflareZeroTrustAccessCustomPages
         {
         }
 
-        [JsiiProperty(name: "appCount", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double AppCount
-        {
-            get => GetInstanceProperty<double>()!;
-        }
-
-        [JsiiProperty(name: "createdAt", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string CreatedAt
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -61,12 +55,6 @@ namespace cloudflare.DataCloudflareZeroTrustAccessCustomPages
 
         [JsiiProperty(name: "uid", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Uid
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "updatedAt", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string UpdatedAt
         {
             get => GetInstanceProperty<string>()!;
         }

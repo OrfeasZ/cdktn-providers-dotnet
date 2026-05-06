@@ -39,6 +39,12 @@ namespace cloudflare.ZoneDnsSettings
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetType")]
+        public virtual void ResetType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "nsSetInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? NsSetInput

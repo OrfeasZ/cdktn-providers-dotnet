@@ -9,7 +9,7 @@ namespace cloudflare.WorkersScript
     {
         /// <summary>The contents of a _headers file (used to attach custom headers on asset responses).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/workers_script#_headers WorkersScript#_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workers_script#headers WorkersScript#headers}
         /// </remarks>
         [JsiiProperty(name: "headers", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>Determines the redirects and rewrites of requests for HTML content. Available values: "auto-trailing-slash", "force-trailing-slash", "drop-trailing-slash", "none".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/workers_script#html_handling WorkersScript#html_handling}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workers_script#html_handling WorkersScript#html_handling}
         /// </remarks>
         [JsiiProperty(name: "htmlHandling", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -39,7 +39,7 @@ namespace cloudflare.WorkersScript
         /// <remarks>
         /// Available values: "none", "404-page", "single-page-application".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/workers_script#not_found_handling WorkersScript#not_found_handling}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workers_script#not_found_handling WorkersScript#not_found_handling}
         /// </remarks>
         [JsiiProperty(name: "notFoundHandling", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -53,7 +53,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>The contents of a _redirects file (used to apply redirects or proxy paths ahead of asset serving).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/workers_script#_redirects WorkersScript#_redirects}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workers_script#redirects WorkersScript#redirects}
         /// </remarks>
         [JsiiProperty(name: "redirects", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,15 +65,15 @@ namespace cloudflare.WorkersScript
             }
         }
 
-        /// <summary>When true, requests will always invoke the Worker script.</summary>
+        /// <summary>When a boolean true, requests will always invoke the Worker script.</summary>
         /// <remarks>
-        /// Otherwise, attempt to serve an asset matching the request, falling back to the Worker script.
+        /// Otherwise, attempt to serve an asset matching the request, falling back to the Worker script. When a list of strings, contains path rules to control routing to either the Worker or assets. Glob (*) and negative (!) rules are supported. Rules must start with either '/' or '!/'. At least one non-negative rule must be provided, and negative rules have higher precedence than non-negative rules.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/workers_script#run_worker_first WorkersScript#run_worker_first}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workers_script#run_worker_first WorkersScript#run_worker_first}
         /// </remarks>
-        [JsiiProperty(name: "runWorkerFirst", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [JsiiProperty(name: "runWorkerFirst", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? RunWorkerFirst
+        System.Collections.Generic.IDictionary<string, object>? RunWorkerFirst
         {
             get
             {
@@ -85,7 +85,7 @@ namespace cloudflare.WorkersScript
         /// <remarks>
         /// When false, requests will always invoke the Worker script.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/workers_script#serve_directly WorkersScript#serve_directly}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workers_script#serve_directly WorkersScript#serve_directly}
         /// </remarks>
         [JsiiProperty(name: "serveDirectly", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -106,7 +106,7 @@ namespace cloudflare.WorkersScript
 
             /// <summary>The contents of a _headers file (used to attach custom headers on asset responses).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/workers_script#_headers WorkersScript#_headers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workers_script#headers WorkersScript#headers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "headers", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -117,7 +117,7 @@ namespace cloudflare.WorkersScript
 
             /// <summary>Determines the redirects and rewrites of requests for HTML content. Available values: "auto-trailing-slash", "force-trailing-slash", "drop-trailing-slash", "none".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/workers_script#html_handling WorkersScript#html_handling}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workers_script#html_handling WorkersScript#html_handling}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "htmlHandling", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -130,7 +130,7 @@ namespace cloudflare.WorkersScript
             /// <remarks>
             /// Available values: "none", "404-page", "single-page-application".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/workers_script#not_found_handling WorkersScript#not_found_handling}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workers_script#not_found_handling WorkersScript#not_found_handling}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "notFoundHandling", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -141,7 +141,7 @@ namespace cloudflare.WorkersScript
 
             /// <summary>The contents of a _redirects file (used to apply redirects or proxy paths ahead of asset serving).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/workers_script#_redirects WorkersScript#_redirects}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workers_script#redirects WorkersScript#redirects}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "redirects", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -150,24 +150,24 @@ namespace cloudflare.WorkersScript
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>When true, requests will always invoke the Worker script.</summary>
+            /// <summary>When a boolean true, requests will always invoke the Worker script.</summary>
             /// <remarks>
-            /// Otherwise, attempt to serve an asset matching the request, falling back to the Worker script.
+            /// Otherwise, attempt to serve an asset matching the request, falling back to the Worker script. When a list of strings, contains path rules to control routing to either the Worker or assets. Glob (*) and negative (!) rules are supported. Rules must start with either '/' or '!/'. At least one non-negative rule must be provided, and negative rules have higher precedence than non-negative rules.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/workers_script#run_worker_first WorkersScript#run_worker_first}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workers_script#run_worker_first WorkersScript#run_worker_first}
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "runWorkerFirst", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-            public object? RunWorkerFirst
+            [JsiiProperty(name: "runWorkerFirst", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
+            public System.Collections.Generic.IDictionary<string, object>? RunWorkerFirst
             {
-                get => GetInstanceProperty<object?>();
+                get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, object>?>();
             }
 
             /// <summary>When true and the incoming request matches an asset, that will be served instead of invoking the Worker script.</summary>
             /// <remarks>
             /// When false, requests will always invoke the Worker script.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/workers_script#serve_directly WorkersScript#serve_directly}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workers_script#serve_directly WorkersScript#serve_directly}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "serveDirectly", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

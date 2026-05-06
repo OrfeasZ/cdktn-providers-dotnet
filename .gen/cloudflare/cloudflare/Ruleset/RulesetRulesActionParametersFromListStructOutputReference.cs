@@ -33,18 +33,6 @@ namespace cloudflare.Ruleset
         {
         }
 
-        [JsiiMethod(name: "resetKey")]
-        public virtual void ResetKey()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetName")]
-        public virtual void ResetName()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "keyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? KeyInput

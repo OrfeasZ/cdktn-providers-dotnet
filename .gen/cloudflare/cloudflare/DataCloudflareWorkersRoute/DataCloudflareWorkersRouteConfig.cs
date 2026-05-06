@@ -11,10 +11,10 @@ namespace cloudflare.DataCloudflareWorkersRoute
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/workers_route#zone_id DataCloudflareWorkersRoute#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/workers_route#route_id DataCloudflareWorkersRoute#route_id}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
+        [JsiiProperty(name: "routeId", typeJson: "{\"primitive\":\"string\"}")]
+        public string RouteId
         {
             get;
             set;
@@ -22,11 +22,11 @@ namespace cloudflare.DataCloudflareWorkersRoute
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/workers_route#route_id DataCloudflareWorkersRoute#route_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/workers_route#zone_id DataCloudflareWorkersRoute#zone_id}
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "routeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? RouteId
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
         {
             get;
             set;

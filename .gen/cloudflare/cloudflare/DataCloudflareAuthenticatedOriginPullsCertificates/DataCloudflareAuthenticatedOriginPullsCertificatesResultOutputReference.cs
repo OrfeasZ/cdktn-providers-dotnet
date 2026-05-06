@@ -41,12 +41,6 @@ namespace cloudflare.DataCloudflareAuthenticatedOriginPullsCertificates
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "enabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable Enabled
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
         [JsiiProperty(name: "expiresOn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ExpiresOn
         {
@@ -65,8 +59,8 @@ namespace cloudflare.DataCloudflareAuthenticatedOriginPullsCertificates
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "privateKey", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string PrivateKey
+        [JsiiProperty(name: "serialNumber", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SerialNumber
         {
             get => GetInstanceProperty<string>()!;
         }

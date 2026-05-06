@@ -35,26 +35,14 @@ namespace cloudflare.DataCloudflareZeroTrustAccessTags
         {
         }
 
-        [JsiiProperty(name: "appCount", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double AppCount
-        {
-            get => GetInstanceProperty<double>()!;
-        }
-
-        [JsiiProperty(name: "createdAt", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string CreatedAt
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "updatedAt", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string UpdatedAt
         {
             get => GetInstanceProperty<string>()!;
         }

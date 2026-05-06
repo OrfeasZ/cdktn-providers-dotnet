@@ -35,6 +35,84 @@ namespace cloudflare.DataCloudflareCertificatePacks
         {
         }
 
+        [JsiiProperty(name: "certificateAuthority", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CertificateAuthority
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "certificates", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareCertificatePacks.DataCloudflareCertificatePacksResultCertificatesList\"}")]
+        public virtual cloudflare.DataCloudflareCertificatePacks.DataCloudflareCertificatePacksResultCertificatesList Certificates
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareCertificatePacks.DataCloudflareCertificatePacksResultCertificatesList>()!;
+        }
+
+        [JsiiProperty(name: "cloudflareBranding", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable CloudflareBranding
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "dcvDelegationRecords", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareCertificatePacks.DataCloudflareCertificatePacksResultDcvDelegationRecordsList\"}")]
+        public virtual cloudflare.DataCloudflareCertificatePacks.DataCloudflareCertificatePacksResultDcvDelegationRecordsList DcvDelegationRecords
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareCertificatePacks.DataCloudflareCertificatePacksResultDcvDelegationRecordsList>()!;
+        }
+
+        [JsiiProperty(name: "hosts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Hosts
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "primaryCertificate", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrimaryCertificate
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Status
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Type
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "validationErrors", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareCertificatePacks.DataCloudflareCertificatePacksResultValidationErrorsList\"}")]
+        public virtual cloudflare.DataCloudflareCertificatePacks.DataCloudflareCertificatePacksResultValidationErrorsList ValidationErrors
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareCertificatePacks.DataCloudflareCertificatePacksResultValidationErrorsList>()!;
+        }
+
+        [JsiiProperty(name: "validationMethod", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ValidationMethod
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "validationRecords", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareCertificatePacks.DataCloudflareCertificatePacksResultValidationRecordsList\"}")]
+        public virtual cloudflare.DataCloudflareCertificatePacks.DataCloudflareCertificatePacksResultValidationRecordsList ValidationRecords
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareCertificatePacks.DataCloudflareCertificatePacksResultValidationRecordsList>()!;
+        }
+
+        [JsiiProperty(name: "validityDays", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ValidityDays
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareCertificatePacks.DataCloudflareCertificatePacksResult\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareCertificatePacks.IDataCloudflareCertificatePacksResult? InternalValue

@@ -39,6 +39,18 @@ namespace cloudflare.ZeroTrustDlpCustomProfile
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustDlpCustomProfile.IZeroTrustDlpCustomProfileContextAwarenessSkip)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetEnabled")]
+        public virtual void ResetEnabled()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSkip")]
+        public virtual void ResetSkip()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "skip", typeJson: "{\"fqn\":\"cloudflare.zeroTrustDlpCustomProfile.ZeroTrustDlpCustomProfileContextAwarenessSkipOutputReference\"}")]
         public virtual cloudflare.ZeroTrustDlpCustomProfile.ZeroTrustDlpCustomProfileContextAwarenessSkipOutputReference Skip
         {

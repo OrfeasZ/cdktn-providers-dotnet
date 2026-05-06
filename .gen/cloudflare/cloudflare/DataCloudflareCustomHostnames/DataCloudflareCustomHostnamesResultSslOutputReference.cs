@@ -63,6 +63,12 @@ namespace cloudflare.DataCloudflareCustomHostnames
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "dcvDelegationRecords", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareCustomHostnames.DataCloudflareCustomHostnamesResultSslDcvDelegationRecordsList\"}")]
+        public virtual cloudflare.DataCloudflareCustomHostnames.DataCloudflareCustomHostnamesResultSslDcvDelegationRecordsList DcvDelegationRecords
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareCustomHostnames.DataCloudflareCustomHostnamesResultSslDcvDelegationRecordsList>()!;
+        }
+
         [JsiiProperty(name: "expiresOn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ExpiresOn
         {

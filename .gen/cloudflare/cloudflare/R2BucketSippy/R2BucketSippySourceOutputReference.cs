@@ -45,6 +45,12 @@ namespace cloudflare.R2BucketSippy
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetBucketUrl")]
+        public virtual void ResetBucketUrl()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetClientEmail")]
         public virtual void ResetClientEmail()
         {
@@ -85,6 +91,13 @@ namespace cloudflare.R2BucketSippy
         [JsiiOptional]
         [JsiiProperty(name: "bucketInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? BucketInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "bucketUrlInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? BucketUrlInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -133,6 +146,13 @@ namespace cloudflare.R2BucketSippy
 
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Bucket
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "bucketUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BucketUrl
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

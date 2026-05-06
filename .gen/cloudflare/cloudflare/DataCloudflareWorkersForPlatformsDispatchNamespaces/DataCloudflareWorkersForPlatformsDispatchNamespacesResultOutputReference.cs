@@ -47,6 +47,12 @@ namespace cloudflare.DataCloudflareWorkersForPlatformsDispatchNamespaces
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "modifiedBy", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ModifiedBy
         {
@@ -75,6 +81,12 @@ namespace cloudflare.DataCloudflareWorkersForPlatformsDispatchNamespaces
         public virtual double ScriptCount
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "trustedWorkers", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable TrustedWorkers
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiOptional]

@@ -12,7 +12,7 @@ namespace cloudflare.CertificatePack
         /// For information on any certificate authority specific details or restrictions <a href="https://developers.cloudflare.com/ssl/reference/certificate-authorities">see this page for more details.</a>
         /// Available values: "google", "lets_encrypt", "ssl_com".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/certificate_pack#certificate_authority CertificatePack#certificate_authority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/certificate_pack#certificate_authority CertificatePack#certificate_authority}
         /// </remarks>
         [JsiiProperty(name: "certificateAuthority", typeJson: "{\"primitive\":\"string\"}")]
         string CertificateAuthority
@@ -20,21 +20,9 @@ namespace cloudflare.CertificatePack
             get;
         }
 
-        /// <summary>Comma separated list of valid host names for the certificate packs.</summary>
-        /// <remarks>
-        /// Must contain the zone apex, may not contain more than 50 hosts, and may not be empty.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/certificate_pack#hosts CertificatePack#hosts}
-        /// </remarks>
-        [JsiiProperty(name: "hosts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        string[] Hosts
-        {
-            get;
-        }
-
         /// <summary>Type of certificate pack. Available values: "advanced".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/certificate_pack#type CertificatePack#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/certificate_pack#type CertificatePack#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -44,7 +32,7 @@ namespace cloudflare.CertificatePack
 
         /// <summary>Validation Method selected for the order. Available values: "txt", "http", "email".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/certificate_pack#validation_method CertificatePack#validation_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/certificate_pack#validation_method CertificatePack#validation_method}
         /// </remarks>
         [JsiiProperty(name: "validationMethod", typeJson: "{\"primitive\":\"string\"}")]
         string ValidationMethod
@@ -54,20 +42,10 @@ namespace cloudflare.CertificatePack
 
         /// <summary>Validity Days selected for the order. Available values: 14, 30, 90, 365.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/certificate_pack#validity_days CertificatePack#validity_days}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/certificate_pack#validity_days CertificatePack#validity_days}
         /// </remarks>
         [JsiiProperty(name: "validityDays", typeJson: "{\"primitive\":\"number\"}")]
         double ValidityDays
-        {
-            get;
-        }
-
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/certificate_pack#zone_id CertificatePack#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
         {
             get;
         }
@@ -76,11 +54,41 @@ namespace cloudflare.CertificatePack
         /// <remarks>
         /// This will add a subdomain of sni.cloudflaressl.com as the Common Name if set to true.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/certificate_pack#cloudflare_branding CertificatePack#cloudflare_branding}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/certificate_pack#cloudflare_branding CertificatePack#cloudflare_branding}
         /// </remarks>
         [JsiiProperty(name: "cloudflareBranding", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? CloudflareBranding
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Comma separated list of valid host names for the certificate packs.</summary>
+        /// <remarks>
+        /// Must contain the zone apex, may not contain more than 50 hosts, and may not be empty.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/certificate_pack#hosts CertificatePack#hosts}
+        /// </remarks>
+        [JsiiProperty(name: "hosts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string[]? Hosts
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/certificate_pack#zone_id CertificatePack#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? ZoneId
         {
             get
             {
@@ -100,7 +108,7 @@ namespace cloudflare.CertificatePack
             /// For information on any certificate authority specific details or restrictions <a href="https://developers.cloudflare.com/ssl/reference/certificate-authorities">see this page for more details.</a>
             /// Available values: "google", "lets_encrypt", "ssl_com".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/certificate_pack#certificate_authority CertificatePack#certificate_authority}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/certificate_pack#certificate_authority CertificatePack#certificate_authority}
             /// </remarks>
             [JsiiProperty(name: "certificateAuthority", typeJson: "{\"primitive\":\"string\"}")]
             public string CertificateAuthority
@@ -108,21 +116,9 @@ namespace cloudflare.CertificatePack
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Comma separated list of valid host names for the certificate packs.</summary>
-            /// <remarks>
-            /// Must contain the zone apex, may not contain more than 50 hosts, and may not be empty.
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/certificate_pack#hosts CertificatePack#hosts}
-            /// </remarks>
-            [JsiiProperty(name: "hosts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-            public string[] Hosts
-            {
-                get => GetInstanceProperty<string[]>()!;
-            }
-
             /// <summary>Type of certificate pack. Available values: "advanced".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/certificate_pack#type CertificatePack#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/certificate_pack#type CertificatePack#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -132,7 +128,7 @@ namespace cloudflare.CertificatePack
 
             /// <summary>Validation Method selected for the order. Available values: "txt", "http", "email".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/certificate_pack#validation_method CertificatePack#validation_method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/certificate_pack#validation_method CertificatePack#validation_method}
             /// </remarks>
             [JsiiProperty(name: "validationMethod", typeJson: "{\"primitive\":\"string\"}")]
             public string ValidationMethod
@@ -142,7 +138,7 @@ namespace cloudflare.CertificatePack
 
             /// <summary>Validity Days selected for the order. Available values: 14, 30, 90, 365.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/certificate_pack#validity_days CertificatePack#validity_days}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/certificate_pack#validity_days CertificatePack#validity_days}
             /// </remarks>
             [JsiiProperty(name: "validityDays", typeJson: "{\"primitive\":\"number\"}")]
             public double ValidityDays
@@ -150,27 +146,41 @@ namespace cloudflare.CertificatePack
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/certificate_pack#zone_id CertificatePack#zone_id}
-            /// </remarks>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>Whether or not to add Cloudflare Branding for the order.</summary>
             /// <remarks>
             /// This will add a subdomain of sni.cloudflaressl.com as the Common Name if set to true.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/certificate_pack#cloudflare_branding CertificatePack#cloudflare_branding}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/certificate_pack#cloudflare_branding CertificatePack#cloudflare_branding}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cloudflareBranding", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? CloudflareBranding
             {
                 get => GetInstanceProperty<object?>();
+            }
+
+            /// <summary>Comma separated list of valid host names for the certificate packs.</summary>
+            /// <remarks>
+            /// Must contain the zone apex, may not contain more than 50 hosts, and may not be empty.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/certificate_pack#hosts CertificatePack#hosts}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "hosts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+            public string[]? Hosts
+            {
+                get => GetInstanceProperty<string[]?>();
+            }
+
+            /// <summary>Identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/certificate_pack#zone_id CertificatePack#zone_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
+            {
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

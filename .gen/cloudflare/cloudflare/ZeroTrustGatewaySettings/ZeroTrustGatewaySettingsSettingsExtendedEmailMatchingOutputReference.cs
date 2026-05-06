@@ -51,6 +51,12 @@ namespace cloudflare.ZeroTrustGatewaySettings
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Version
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput

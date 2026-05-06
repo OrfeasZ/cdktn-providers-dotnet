@@ -7,25 +7,25 @@ namespace cloudflare.DataCloudflareRegionalHostname
     [JsiiInterface(nativeType: typeof(IDataCloudflareRegionalHostnameConfig), fullyQualifiedName: "cloudflare.dataCloudflareRegionalHostname.DataCloudflareRegionalHostnameConfig")]
     public interface IDataCloudflareRegionalHostnameConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/regional_hostname#zone_id DataCloudflareRegionalHostname#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
-        {
-            get;
-        }
-
         /// <summary>DNS hostname to be regionalized, must be a subdomain of the zone.</summary>
         /// <remarks>
         /// Wildcards are supported for one level, e.g <c>*.example.com</c>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/regional_hostname#hostname DataCloudflareRegionalHostname#hostname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/regional_hostname#hostname DataCloudflareRegionalHostname#hostname}
         /// </remarks>
-        [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
+        string Hostname
+        {
+            get;
+        }
+
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/regional_hostname#zone_id DataCloudflareRegionalHostname#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? Hostname
+        string? ZoneId
         {
             get
             {
@@ -40,25 +40,25 @@ namespace cloudflare.DataCloudflareRegionalHostname
             {
             }
 
-            /// <summary>Identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/regional_hostname#zone_id DataCloudflareRegionalHostname#zone_id}
-            /// </remarks>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>DNS hostname to be regionalized, must be a subdomain of the zone.</summary>
             /// <remarks>
             /// Wildcards are supported for one level, e.g <c>*.example.com</c>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/regional_hostname#hostname DataCloudflareRegionalHostname#hostname}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/regional_hostname#hostname DataCloudflareRegionalHostname#hostname}
+            /// </remarks>
+            [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
+            public string Hostname
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/regional_hostname#zone_id DataCloudflareRegionalHostname#zone_id}
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? Hostname
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
             {
                 get => GetInstanceProperty<string?>();
             }

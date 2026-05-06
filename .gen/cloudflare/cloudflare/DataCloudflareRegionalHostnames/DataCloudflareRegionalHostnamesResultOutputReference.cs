@@ -47,6 +47,12 @@ namespace cloudflare.DataCloudflareRegionalHostnames
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "regionKey", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string RegionKey
         {

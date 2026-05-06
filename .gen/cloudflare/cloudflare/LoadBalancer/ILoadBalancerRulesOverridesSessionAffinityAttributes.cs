@@ -11,7 +11,7 @@ namespace cloudflare.LoadBalancer
         /// <remarks>
         /// This field is only used when session affinity is enabled on the load balancer.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/load_balancer#drain_duration LoadBalancer#drain_duration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/load_balancer#drain_duration LoadBalancer#drain_duration}
         /// </remarks>
         [JsiiProperty(name: "drainDuration", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -27,7 +27,7 @@ namespace cloudflare.LoadBalancer
         /// <remarks>
         /// At least one HTTP header name must be provided. To specify the exact cookies to be used, include an item in the following format: <c>"cookie:&lt;cookie-name-1&gt;,&lt;cookie-name-2&gt;"</c> (example) where everything after the colon is a comma-separated list of cookie names. Providing only <c>"cookie"</c> will result in all cookies being used. The default max number of HTTP header names that can be provided depends on your plan: 5 for Enterprise, 1 for all other plans.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/load_balancer#headers LoadBalancer#headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/load_balancer#headers LoadBalancer#headers}
         /// </remarks>
         [JsiiProperty(name: "headers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -41,14 +41,9 @@ namespace cloudflare.LoadBalancer
 
         /// <summary>When header `session_affinity` is enabled, this option can be used to specify how HTTP headers on load balancing requests will be used.</summary>
         /// <remarks>
-        /// The supported values are:
+        /// The supported values are: - <c>"true"</c>: Load balancing requests must contain <em>all</em> of the HTTP headers specified by the <c>headers</c> session affinity attribute, otherwise sessions aren't created. - <c>"false"</c>: Load balancing requests must contain <em>at least one</em> of the HTTP headers specified by the <c>headers</c> session affinity attribute, otherwise sessions aren't created.
         ///
-        /// <list type="bullet">
-        /// <description><c>"true"</c>: Load balancing requests must contain <em>all</em> of the HTTP headers specified by the <c>headers</c> session affinity attribute, otherwise sessions aren't created.</description>
-        /// <description><c>"false"</c>: Load balancing requests must contain <em>at least one</em> of the HTTP headers specified by the <c>headers</c> session affinity attribute, otherwise sessions aren't created.</description>
-        /// </list>
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/load_balancer#require_all_headers LoadBalancer#require_all_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/load_balancer#require_all_headers LoadBalancer#require_all_headers}
         /// </remarks>
         [JsiiProperty(name: "requireAllHeaders", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +60,7 @@ namespace cloudflare.LoadBalancer
         /// Value "Auto" will be translated to "Lax" or "None" depending if Always Use HTTPS is enabled. Note: when using value "None", the secure attribute can not be set to "Never".
         /// Available values: "Auto", "Lax", "None", "Strict".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/load_balancer#samesite LoadBalancer#samesite}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/load_balancer#samesite LoadBalancer#samesite}
         /// </remarks>
         [JsiiProperty(name: "samesite", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -82,7 +77,7 @@ namespace cloudflare.LoadBalancer
         /// Value "Always" indicates the Secure attribute will be set in the Set-Cookie header, "Never" indicates the Secure attribute will not be set, and "Auto" will set the Secure attribute depending if Always Use HTTPS is enabled.
         /// Available values: "Auto", "Always", "Never".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/load_balancer#secure LoadBalancer#secure}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/load_balancer#secure LoadBalancer#secure}
         /// </remarks>
         [JsiiProperty(name: "secure", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -96,16 +91,10 @@ namespace cloudflare.LoadBalancer
 
         /// <summary>Configures the zero-downtime failover between origins within a pool when session affinity is enabled.</summary>
         /// <remarks>
-        /// This feature is currently incompatible with Argo, Tiered Cache, and Bandwidth Alliance. The supported values are:
+        /// This feature is currently incompatible with Argo, Tiered Cache, and Bandwidth Alliance. The supported values are: - <c>"none"</c>: No failover takes place for sessions pinned to the origin (default). - <c>"temporary"</c>: Traffic will be sent to another other healthy origin until the originally pinned origin is available; note that this can potentially result in heavy origin flapping. - <c>"sticky"</c>: The session affinity cookie is updated and subsequent requests are sent to the new origin. Note: Zero-downtime failover with sticky sessions is currently not supported for session affinity by header.
+        /// Available values: "none", "temporary", "sticky".
         ///
-        /// <list type="bullet">
-        /// <description><c>"none"</c>: No failover takes place for sessions pinned to the origin (default).</description>
-        /// <description><c>"temporary"</c>: Traffic will be sent to another other healthy origin until the originally pinned origin is available; note that this can potentially result in heavy origin flapping.</description>
-        /// <description><c>"sticky"</c>: The session affinity cookie is updated and subsequent requests are sent to the new origin. Note: Zero-downtime failover with sticky sessions is currently not supported for session affinity by header.
-        /// Available values: "none", "temporary", "sticky".</description>
-        /// </list>
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/load_balancer#zero_downtime_failover LoadBalancer#zero_downtime_failover}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/load_balancer#zero_downtime_failover LoadBalancer#zero_downtime_failover}
         /// </remarks>
         [JsiiProperty(name: "zeroDowntimeFailover", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -128,7 +117,7 @@ namespace cloudflare.LoadBalancer
             /// <remarks>
             /// This field is only used when session affinity is enabled on the load balancer.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/load_balancer#drain_duration LoadBalancer#drain_duration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/load_balancer#drain_duration LoadBalancer#drain_duration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "drainDuration", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -141,7 +130,7 @@ namespace cloudflare.LoadBalancer
             /// <remarks>
             /// At least one HTTP header name must be provided. To specify the exact cookies to be used, include an item in the following format: <c>"cookie:&lt;cookie-name-1&gt;,&lt;cookie-name-2&gt;"</c> (example) where everything after the colon is a comma-separated list of cookie names. Providing only <c>"cookie"</c> will result in all cookies being used. The default max number of HTTP header names that can be provided depends on your plan: 5 for Enterprise, 1 for all other plans.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/load_balancer#headers LoadBalancer#headers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/load_balancer#headers LoadBalancer#headers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "headers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -152,14 +141,9 @@ namespace cloudflare.LoadBalancer
 
             /// <summary>When header `session_affinity` is enabled, this option can be used to specify how HTTP headers on load balancing requests will be used.</summary>
             /// <remarks>
-            /// The supported values are:
+            /// The supported values are: - <c>"true"</c>: Load balancing requests must contain <em>all</em> of the HTTP headers specified by the <c>headers</c> session affinity attribute, otherwise sessions aren't created. - <c>"false"</c>: Load balancing requests must contain <em>at least one</em> of the HTTP headers specified by the <c>headers</c> session affinity attribute, otherwise sessions aren't created.
             ///
-            /// <list type="bullet">
-            /// <description><c>"true"</c>: Load balancing requests must contain <em>all</em> of the HTTP headers specified by the <c>headers</c> session affinity attribute, otherwise sessions aren't created.</description>
-            /// <description><c>"false"</c>: Load balancing requests must contain <em>at least one</em> of the HTTP headers specified by the <c>headers</c> session affinity attribute, otherwise sessions aren't created.</description>
-            /// </list>
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/load_balancer#require_all_headers LoadBalancer#require_all_headers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/load_balancer#require_all_headers LoadBalancer#require_all_headers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "requireAllHeaders", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -173,7 +157,7 @@ namespace cloudflare.LoadBalancer
             /// Value "Auto" will be translated to "Lax" or "None" depending if Always Use HTTPS is enabled. Note: when using value "None", the secure attribute can not be set to "Never".
             /// Available values: "Auto", "Lax", "None", "Strict".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/load_balancer#samesite LoadBalancer#samesite}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/load_balancer#samesite LoadBalancer#samesite}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "samesite", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -187,7 +171,7 @@ namespace cloudflare.LoadBalancer
             /// Value "Always" indicates the Secure attribute will be set in the Set-Cookie header, "Never" indicates the Secure attribute will not be set, and "Auto" will set the Secure attribute depending if Always Use HTTPS is enabled.
             /// Available values: "Auto", "Always", "Never".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/load_balancer#secure LoadBalancer#secure}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/load_balancer#secure LoadBalancer#secure}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "secure", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -198,16 +182,10 @@ namespace cloudflare.LoadBalancer
 
             /// <summary>Configures the zero-downtime failover between origins within a pool when session affinity is enabled.</summary>
             /// <remarks>
-            /// This feature is currently incompatible with Argo, Tiered Cache, and Bandwidth Alliance. The supported values are:
+            /// This feature is currently incompatible with Argo, Tiered Cache, and Bandwidth Alliance. The supported values are: - <c>"none"</c>: No failover takes place for sessions pinned to the origin (default). - <c>"temporary"</c>: Traffic will be sent to another other healthy origin until the originally pinned origin is available; note that this can potentially result in heavy origin flapping. - <c>"sticky"</c>: The session affinity cookie is updated and subsequent requests are sent to the new origin. Note: Zero-downtime failover with sticky sessions is currently not supported for session affinity by header.
+            /// Available values: "none", "temporary", "sticky".
             ///
-            /// <list type="bullet">
-            /// <description><c>"none"</c>: No failover takes place for sessions pinned to the origin (default).</description>
-            /// <description><c>"temporary"</c>: Traffic will be sent to another other healthy origin until the originally pinned origin is available; note that this can potentially result in heavy origin flapping.</description>
-            /// <description><c>"sticky"</c>: The session affinity cookie is updated and subsequent requests are sent to the new origin. Note: Zero-downtime failover with sticky sessions is currently not supported for session affinity by header.
-            /// Available values: "none", "temporary", "sticky".</description>
-            /// </list>
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/load_balancer#zero_downtime_failover LoadBalancer#zero_downtime_failover}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/load_balancer#zero_downtime_failover LoadBalancer#zero_downtime_failover}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zeroDowntimeFailover", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

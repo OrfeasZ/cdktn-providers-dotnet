@@ -129,6 +129,12 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "usesFunctions", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable UsesFunctions
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.pagesProject.PagesProjectCanonicalDeployment\"}", isOptional: true)]
         public virtual cloudflare.PagesProject.IPagesProjectCanonicalDeployment? InternalValue

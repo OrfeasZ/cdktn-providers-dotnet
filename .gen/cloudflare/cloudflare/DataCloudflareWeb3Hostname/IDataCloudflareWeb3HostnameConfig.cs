@@ -9,21 +9,21 @@ namespace cloudflare.DataCloudflareWeb3Hostname
     {
         /// <summary>Specify the identifier of the hostname.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/web3_hostname#zone_id DataCloudflareWeb3Hostname#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/web3_hostname#identifier DataCloudflareWeb3Hostname#identifier}
         /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        string ZoneId
+        [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
+        string Identifier
         {
             get;
         }
 
         /// <summary>Specify the identifier of the hostname.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/web3_hostname#identifier DataCloudflareWeb3Hostname#identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/web3_hostname#zone_id DataCloudflareWeb3Hostname#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? Identifier
+        string? ZoneId
         {
             get
             {
@@ -40,21 +40,21 @@ namespace cloudflare.DataCloudflareWeb3Hostname
 
             /// <summary>Specify the identifier of the hostname.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/web3_hostname#zone_id DataCloudflareWeb3Hostname#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/web3_hostname#identifier DataCloudflareWeb3Hostname#identifier}
             /// </remarks>
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ZoneId
+            [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
+            public string Identifier
             {
                 get => GetInstanceProperty<string>()!;
             }
 
             /// <summary>Specify the identifier of the hostname.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/web3_hostname#identifier DataCloudflareWeb3Hostname#identifier}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/web3_hostname#zone_id DataCloudflareWeb3Hostname#zone_id}
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? Identifier
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ZoneId
             {
                 get => GetInstanceProperty<string?>();
             }

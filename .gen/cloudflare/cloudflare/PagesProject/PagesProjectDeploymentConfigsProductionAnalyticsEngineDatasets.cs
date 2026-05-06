@@ -4,16 +4,17 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.PagesProject
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionAnalyticsEngineDatasets")]
     public class PagesProjectDeploymentConfigsProductionAnalyticsEngineDatasets : cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionAnalyticsEngineDatasets
     {
         /// <summary>Name of the dataset.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#dataset PagesProject#dataset}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#dataset PagesProject#dataset}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "dataset", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Dataset
+        [JsiiProperty(name: "dataset", typeJson: "{\"primitive\":\"string\"}")]
+        public string Dataset
         {
             get;
             set;

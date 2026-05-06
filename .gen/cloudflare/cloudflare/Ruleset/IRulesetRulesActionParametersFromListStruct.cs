@@ -7,32 +7,24 @@ namespace cloudflare.Ruleset
     [JsiiInterface(nativeType: typeof(IRulesetRulesActionParametersFromListStruct), fullyQualifiedName: "cloudflare.ruleset.RulesetRulesActionParametersFromListStruct")]
     public interface IRulesetRulesActionParametersFromListStruct
     {
-        /// <summary>Expression that evaluates to the list lookup key.</summary>
+        /// <summary>An expression that evaluates to the list lookup key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#key Ruleset#key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#key Ruleset#key}
         /// </remarks>
-        [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? Key
+        [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
+        string Key
         {
-            get
-            {
-                return null;
-            }
+            get;
         }
 
         /// <summary>The name of the list to match against.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#name Ruleset#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#name Ruleset#name}
         /// </remarks>
-        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? Name
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        string Name
         {
-            get
-            {
-                return null;
-            }
+            get;
         }
 
         [JsiiTypeProxy(nativeType: typeof(IRulesetRulesActionParametersFromListStruct), fullyQualifiedName: "cloudflare.ruleset.RulesetRulesActionParametersFromListStruct")]
@@ -42,26 +34,24 @@ namespace cloudflare.Ruleset
             {
             }
 
-            /// <summary>Expression that evaluates to the list lookup key.</summary>
+            /// <summary>An expression that evaluates to the list lookup key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#key Ruleset#key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#key Ruleset#key}
             /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? Key
+            [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
+            public string Key
             {
-                get => GetInstanceProperty<string?>();
+                get => GetInstanceProperty<string>()!;
             }
 
             /// <summary>The name of the list to match against.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#name Ruleset#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#name Ruleset#name}
             /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? Name
+            [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+            public string Name
             {
-                get => GetInstanceProperty<string?>();
+                get => GetInstanceProperty<string>()!;
             }
         }
     }

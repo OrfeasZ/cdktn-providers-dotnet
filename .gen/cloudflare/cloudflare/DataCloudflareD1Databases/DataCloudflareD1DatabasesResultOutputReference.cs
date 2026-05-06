@@ -41,6 +41,18 @@ namespace cloudflare.DataCloudflareD1Databases
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Jurisdiction
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
         {

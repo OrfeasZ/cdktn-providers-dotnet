@@ -7,7 +7,7 @@ namespace cloudflare.PageRule
     [JsiiInterface(nativeType: typeof(IPageRuleActionsCacheKeyFieldsHost), fullyQualifiedName: "cloudflare.pageRule.PageRuleActionsCacheKeyFieldsHost")]
     public interface IPageRuleActionsCacheKeyFieldsHost
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/page_rule#resolved PageRule#resolved}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/page_rule#resolved PageRule#resolved}.</summary>
         [JsiiProperty(name: "resolved", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? Resolved
@@ -25,7 +25,7 @@ namespace cloudflare.PageRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/page_rule#resolved PageRule#resolved}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/page_rule#resolved PageRule#resolved}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resolved", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? Resolved

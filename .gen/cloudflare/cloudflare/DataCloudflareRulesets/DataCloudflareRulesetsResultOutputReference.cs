@@ -53,6 +53,12 @@ namespace cloudflare.DataCloudflareRulesets
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "lastUpdated", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LastUpdated
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
         {
@@ -61,6 +67,12 @@ namespace cloudflare.DataCloudflareRulesets
 
         [JsiiProperty(name: "phase", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Phase
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Version
         {
             get => GetInstanceProperty<string>()!;
         }

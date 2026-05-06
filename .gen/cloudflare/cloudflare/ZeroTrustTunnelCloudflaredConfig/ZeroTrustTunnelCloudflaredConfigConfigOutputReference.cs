@@ -62,12 +62,6 @@ namespace cloudflare.ZeroTrustTunnelCloudflaredConfig
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustTunnelCloudflaredConfig.IZeroTrustTunnelCloudflaredConfigConfigOriginRequest)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putWarpRouting", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustTunnelCloudflaredConfig.ZeroTrustTunnelCloudflaredConfigConfigWarpRouting\"}}]")]
-        public virtual void PutWarpRouting(cloudflare.ZeroTrustTunnelCloudflaredConfig.IZeroTrustTunnelCloudflaredConfigConfigWarpRouting @value)
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustTunnelCloudflaredConfig.IZeroTrustTunnelCloudflaredConfigConfigWarpRouting)}, new object[]{@value});
-        }
-
         [JsiiMethod(name: "resetIngress")]
         public virtual void ResetIngress()
         {
@@ -76,12 +70,6 @@ namespace cloudflare.ZeroTrustTunnelCloudflaredConfig
 
         [JsiiMethod(name: "resetOriginRequest")]
         public virtual void ResetOriginRequest()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetWarpRouting")]
-        public virtual void ResetWarpRouting()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -98,12 +86,6 @@ namespace cloudflare.ZeroTrustTunnelCloudflaredConfig
             get => GetInstanceProperty<cloudflare.ZeroTrustTunnelCloudflaredConfig.ZeroTrustTunnelCloudflaredConfigConfigOriginRequestOutputReference>()!;
         }
 
-        [JsiiProperty(name: "warpRouting", typeJson: "{\"fqn\":\"cloudflare.zeroTrustTunnelCloudflaredConfig.ZeroTrustTunnelCloudflaredConfigConfigWarpRoutingOutputReference\"}")]
-        public virtual cloudflare.ZeroTrustTunnelCloudflaredConfig.ZeroTrustTunnelCloudflaredConfigConfigWarpRoutingOutputReference WarpRouting
-        {
-            get => GetInstanceProperty<cloudflare.ZeroTrustTunnelCloudflaredConfig.ZeroTrustTunnelCloudflaredConfigConfigWarpRoutingOutputReference>()!;
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "ingressInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustTunnelCloudflaredConfig.ZeroTrustTunnelCloudflaredConfigConfigIngress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IngressInput
@@ -114,13 +96,6 @@ namespace cloudflare.ZeroTrustTunnelCloudflaredConfig
         [JsiiOptional]
         [JsiiProperty(name: "originRequestInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustTunnelCloudflaredConfig.ZeroTrustTunnelCloudflaredConfigConfigOriginRequest\"}]}}", isOptional: true)]
         public virtual object? OriginRequestInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "warpRoutingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustTunnelCloudflaredConfig.ZeroTrustTunnelCloudflaredConfigConfigWarpRouting\"}]}}", isOptional: true)]
-        public virtual object? WarpRoutingInput
         {
             get => GetInstanceProperty<object?>();
         }

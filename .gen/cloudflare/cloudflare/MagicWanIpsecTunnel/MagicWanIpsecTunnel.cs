@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.MagicWanIpsecTunnel
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/magic_wan_ipsec_tunnel cloudflare_magic_wan_ipsec_tunnel}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/magic_wan_ipsec_tunnel cloudflare_magic_wan_ipsec_tunnel}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.MagicWanIpsecTunnel.MagicWanIpsecTunnel), fullyQualifiedName: "cloudflare.magicWanIpsecTunnel.MagicWanIpsecTunnel", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.magicWanIpsecTunnel.MagicWanIpsecTunnelConfig\"}}]")]
     public class MagicWanIpsecTunnel : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/magic_wan_ipsec_tunnel cloudflare_magic_wan_ipsec_tunnel} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/magic_wan_ipsec_tunnel cloudflare_magic_wan_ipsec_tunnel} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public MagicWanIpsecTunnel(Constructs.Construct scope, string id, cloudflare.MagicWanIpsecTunnel.IMagicWanIpsecTunnelConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,22 @@ namespace cloudflare.MagicWanIpsecTunnel
         /// <param name="importToId">The construct id used in the generated config for the MagicWanIpsecTunnel to import.</param>
         /// <param name="importFromId">The id of the existing MagicWanIpsecTunnel that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the MagicWanIpsecTunnel to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the MagicWanIpsecTunnel to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/magic_wan_ipsec_tunnel#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing MagicWanIpsecTunnel that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the MagicWanIpsecTunnel to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the MagicWanIpsecTunnel to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/magic_wan_ipsec_tunnel#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing MagicWanIpsecTunnel that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the MagicWanIpsecTunnel to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.MagicWanIpsecTunnel.MagicWanIpsecTunnel), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putBgp", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.magicWanIpsecTunnel.MagicWanIpsecTunnelBgp\"}}]")]
+        public virtual void PutBgp(cloudflare.MagicWanIpsecTunnel.IMagicWanIpsecTunnelBgp @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.MagicWanIpsecTunnel.IMagicWanIpsecTunnelBgp)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putCustomRemoteIdentities", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.magicWanIpsecTunnel.MagicWanIpsecTunnelCustomRemoteIdentities\"}}]")]
+        public virtual void PutCustomRemoteIdentities(cloudflare.MagicWanIpsecTunnel.IMagicWanIpsecTunnelCustomRemoteIdentities @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.MagicWanIpsecTunnel.IMagicWanIpsecTunnelCustomRemoteIdentities)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putHealthCheck", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.magicWanIpsecTunnel.MagicWanIpsecTunnelHealthCheck\"}}]")]
@@ -52,8 +64,26 @@ namespace cloudflare.MagicWanIpsecTunnel
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.MagicWanIpsecTunnel.IMagicWanIpsecTunnelHealthCheck)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetAutomaticReturnRouting")]
+        public virtual void ResetAutomaticReturnRouting()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetBgp")]
+        public virtual void ResetBgp()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetCustomerEndpoint")]
         public virtual void ResetCustomerEndpoint()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCustomRemoteIdentities")]
+        public virtual void ResetCustomRemoteIdentities()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -66,6 +96,12 @@ namespace cloudflare.MagicWanIpsecTunnel
 
         [JsiiMethod(name: "resetHealthCheck")]
         public virtual void ResetHealthCheck()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetInterfaceAddress6")]
+        public virtual void ResetInterfaceAddress6()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -107,10 +143,28 @@ namespace cloudflare.MagicWanIpsecTunnel
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "bgp", typeJson: "{\"fqn\":\"cloudflare.magicWanIpsecTunnel.MagicWanIpsecTunnelBgpOutputReference\"}")]
+        public virtual cloudflare.MagicWanIpsecTunnel.MagicWanIpsecTunnelBgpOutputReference Bgp
+        {
+            get => GetInstanceProperty<cloudflare.MagicWanIpsecTunnel.MagicWanIpsecTunnelBgpOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "bgpStatus", typeJson: "{\"fqn\":\"cloudflare.magicWanIpsecTunnel.MagicWanIpsecTunnelBgpStatusOutputReference\"}")]
+        public virtual cloudflare.MagicWanIpsecTunnel.MagicWanIpsecTunnelBgpStatusOutputReference BgpStatus
+        {
+            get => GetInstanceProperty<cloudflare.MagicWanIpsecTunnel.MagicWanIpsecTunnelBgpStatusOutputReference>()!;
+        }
+
         [JsiiProperty(name: "createdOn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CreatedOn
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "customRemoteIdentities", typeJson: "{\"fqn\":\"cloudflare.magicWanIpsecTunnel.MagicWanIpsecTunnelCustomRemoteIdentitiesOutputReference\"}")]
+        public virtual cloudflare.MagicWanIpsecTunnel.MagicWanIpsecTunnelCustomRemoteIdentitiesOutputReference CustomRemoteIdentities
+        {
+            get => GetInstanceProperty<cloudflare.MagicWanIpsecTunnel.MagicWanIpsecTunnelCustomRemoteIdentitiesOutputReference>()!;
         }
 
         [JsiiProperty(name: "healthCheck", typeJson: "{\"fqn\":\"cloudflare.magicWanIpsecTunnel.MagicWanIpsecTunnelHealthCheckOutputReference\"}")]
@@ -145,6 +199,20 @@ namespace cloudflare.MagicWanIpsecTunnel
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "automaticReturnRoutingInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? AutomaticReturnRoutingInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "bgpInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicWanIpsecTunnel.MagicWanIpsecTunnelBgp\"}]}}", isOptional: true)]
+        public virtual object? BgpInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "cloudflareEndpointInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CloudflareEndpointInput
         {
@@ -159,6 +227,13 @@ namespace cloudflare.MagicWanIpsecTunnel
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "customRemoteIdentitiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicWanIpsecTunnel.MagicWanIpsecTunnelCustomRemoteIdentities\"}]}}", isOptional: true)]
+        public virtual object? CustomRemoteIdentitiesInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "descriptionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DescriptionInput
         {
@@ -170,6 +245,13 @@ namespace cloudflare.MagicWanIpsecTunnel
         public virtual object? HealthCheckInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "interfaceAddress6Input", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? InterfaceAddress6Input
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -207,6 +289,33 @@ namespace cloudflare.MagicWanIpsecTunnel
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "automaticReturnRouting", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object AutomaticReturnRouting
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
         [JsiiProperty(name: "cloudflareEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CloudflareEndpoint
         {
@@ -230,6 +339,13 @@ namespace cloudflare.MagicWanIpsecTunnel
 
         [JsiiProperty(name: "interfaceAddress", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string InterfaceAddress
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "interfaceAddress6", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string InterfaceAddress6
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

@@ -47,18 +47,6 @@ namespace cloudflare.AddressMap
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiProperty(name: "canDelete", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable CanDelete
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
-        [JsiiProperty(name: "createdAt", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string CreatedAt
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "identifierInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? IdentifierInput

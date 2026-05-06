@@ -217,6 +217,12 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putLimits", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewLimits\"}}]")]
+        public virtual void PutLimits(cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewLimits @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewLimits)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putMtlsCertificates", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewMtlsCertificates\"},\"kind\":\"map\"}}]}}}]")]
         public virtual void PutMtlsCertificates(object @value)
         {
@@ -344,6 +350,12 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetAlwaysUseLatestCompatibilityDate")]
+        public virtual void ResetAlwaysUseLatestCompatibilityDate()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetAnalyticsEngineDatasets")]
         public virtual void ResetAnalyticsEngineDatasets()
         {
@@ -352,6 +364,12 @@ namespace cloudflare.PagesProject
 
         [JsiiMethod(name: "resetBrowsers")]
         public virtual void ResetBrowsers()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetBuildImageMajorVersion")]
+        public virtual void ResetBuildImageMajorVersion()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -386,6 +404,12 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetFailOpen")]
+        public virtual void ResetFailOpen()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetHyperdriveBindings")]
         public virtual void ResetHyperdriveBindings()
         {
@@ -394,6 +418,12 @@ namespace cloudflare.PagesProject
 
         [JsiiMethod(name: "resetKvNamespaces")]
         public virtual void ResetKvNamespaces()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetLimits")]
+        public virtual void ResetLimits()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -428,8 +458,20 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetUsageModel")]
+        public virtual void ResetUsageModel()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetVectorizeBindings")]
         public virtual void ResetVectorizeBindings()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetWranglerConfigHash")]
+        public virtual void ResetWranglerConfigHash()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -482,6 +524,12 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<cloudflare.PagesProject.PagesProjectDeploymentConfigsPreviewKvNamespacesMap>()!;
         }
 
+        [JsiiProperty(name: "limits", typeJson: "{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewLimitsOutputReference\"}")]
+        public virtual cloudflare.PagesProject.PagesProjectDeploymentConfigsPreviewLimitsOutputReference Limits
+        {
+            get => GetInstanceProperty<cloudflare.PagesProject.PagesProjectDeploymentConfigsPreviewLimitsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "mtlsCertificates", typeJson: "{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewMtlsCertificatesMap\"}")]
         public virtual cloudflare.PagesProject.PagesProjectDeploymentConfigsPreviewMtlsCertificatesMap MtlsCertificates
         {
@@ -526,6 +574,13 @@ namespace cloudflare.PagesProject
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "alwaysUseLatestCompatibilityDateInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? AlwaysUseLatestCompatibilityDateInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "analyticsEngineDatasetsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewAnalyticsEngineDatasets\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? AnalyticsEngineDatasetsInput
         {
@@ -537,6 +592,13 @@ namespace cloudflare.PagesProject
         public virtual object? BrowsersInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "buildImageMajorVersionInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? BuildImageMajorVersionInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -575,6 +637,13 @@ namespace cloudflare.PagesProject
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "failOpenInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? FailOpenInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "hyperdriveBindingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewHyperdriveBindings\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? HyperdriveBindingsInput
         {
@@ -584,6 +653,13 @@ namespace cloudflare.PagesProject
         [JsiiOptional]
         [JsiiProperty(name: "kvNamespacesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewKvNamespaces\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? KvNamespacesInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "limitsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewLimits\"}]}}", isOptional: true)]
+        public virtual object? LimitsInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -624,10 +700,58 @@ namespace cloudflare.PagesProject
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "usageModelInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? UsageModelInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "vectorizeBindingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewVectorizeBindings\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? VectorizeBindingsInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "wranglerConfigHashInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? WranglerConfigHashInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "alwaysUseLatestCompatibilityDate", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object AlwaysUseLatestCompatibilityDate
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        [JsiiProperty(name: "buildImageMajorVersion", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double BuildImageMajorVersion
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "compatibilityDate", typeJson: "{\"primitive\":\"string\"}")]
@@ -641,6 +765,47 @@ namespace cloudflare.PagesProject
         public virtual string[] CompatibilityFlags
         {
             get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "failOpen", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object FailOpen
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        [JsiiProperty(name: "usageModel", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UsageModel
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "wranglerConfigHash", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string WranglerConfigHash
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

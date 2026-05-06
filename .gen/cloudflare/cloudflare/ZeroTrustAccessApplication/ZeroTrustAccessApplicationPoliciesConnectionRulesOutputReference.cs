@@ -33,10 +33,22 @@ namespace cloudflare.ZeroTrustAccessApplication
         {
         }
 
+        [JsiiMethod(name: "putRdp", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesConnectionRulesRdp\"}}]")]
+        public virtual void PutRdp(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesConnectionRulesRdp @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesConnectionRulesRdp)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putSsh", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesConnectionRulesSsh\"}}]")]
         public virtual void PutSsh(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesConnectionRulesSsh @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesConnectionRulesSsh)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetRdp")]
+        public virtual void ResetRdp()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetSsh")]
@@ -45,10 +57,23 @@ namespace cloudflare.ZeroTrustAccessApplication
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "rdp", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesConnectionRulesRdpOutputReference\"}")]
+        public virtual cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesConnectionRulesRdpOutputReference Rdp
+        {
+            get => GetInstanceProperty<cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesConnectionRulesRdpOutputReference>()!;
+        }
+
         [JsiiProperty(name: "ssh", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesConnectionRulesSshOutputReference\"}")]
         public virtual cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesConnectionRulesSshOutputReference Ssh
         {
             get => GetInstanceProperty<cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesConnectionRulesSshOutputReference>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "rdpInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesConnectionRulesRdp\"}]}}", isOptional: true)]
+        public virtual object? RdpInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

@@ -223,12 +223,6 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "createdAt", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string CreatedAt
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "customAttributes", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationSaasAppCustomAttributesList\"}")]
         public virtual cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationSaasAppCustomAttributesList CustomAttributes
         {
@@ -257,12 +251,6 @@ namespace cloudflare.ZeroTrustAccessApplication
         public virtual cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationSaasAppRefreshTokenOptionsOutputReference RefreshTokenOptions
         {
             get => GetInstanceProperty<cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationSaasAppRefreshTokenOptionsOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "updatedAt", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string UpdatedAt
-        {
-            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiOptional]

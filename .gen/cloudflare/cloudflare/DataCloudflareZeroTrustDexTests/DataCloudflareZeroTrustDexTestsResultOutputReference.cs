@@ -35,6 +35,35 @@ namespace cloudflare.DataCloudflareZeroTrustDexTests
         {
         }
 
+        [JsiiMethod(name: "putTargetPolicies", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDexTests.DataCloudflareZeroTrustDexTestsResultTargetPolicies\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutTargetPolicies(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case cloudflare.DataCloudflareZeroTrustDexTests.IDataCloudflareZeroTrustDexTestsResultTargetPolicies[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.DataCloudflareZeroTrustDexTests.IDataCloudflareZeroTrustDexTestsResultTargetPolicies).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.DataCloudflareZeroTrustDexTests.IDataCloudflareZeroTrustDexTestsResultTargetPolicies).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetTargetPolicies")]
+        public virtual void ResetTargetPolicies()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "data", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDexTests.DataCloudflareZeroTrustDexTestsResultDataOutputReference\"}")]
         public virtual cloudflare.DataCloudflareZeroTrustDexTests.DataCloudflareZeroTrustDexTestsResultDataOutputReference Data
         {
@@ -51,6 +80,12 @@ namespace cloudflare.DataCloudflareZeroTrustDexTests
         public virtual Io.Cdktn.IResolvable Enabled
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
@@ -81,6 +116,13 @@ namespace cloudflare.DataCloudflareZeroTrustDexTests
         public virtual string TestId
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "targetPoliciesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDexTests.DataCloudflareZeroTrustDexTestsResultTargetPolicies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? TargetPoliciesInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

@@ -41,6 +41,12 @@ namespace cloudflare.DataCloudflareSchemaValidationSchemasList
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Kind
         {

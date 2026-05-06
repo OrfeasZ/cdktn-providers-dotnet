@@ -34,12 +34,6 @@ namespace cloudflare.PagesProject
         {
         }
 
-        [JsiiMethod(name: "resetCertificateId")]
-        public virtual void ResetCertificateId()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "certificateIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CertificateIdInput

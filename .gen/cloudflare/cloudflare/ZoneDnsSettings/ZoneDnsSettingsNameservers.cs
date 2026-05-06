@@ -4,29 +4,28 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.ZoneDnsSettings
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.zoneDnsSettings.ZoneDnsSettingsNameservers")]
     public class ZoneDnsSettingsNameservers : cloudflare.ZoneDnsSettings.IZoneDnsSettingsNameservers
     {
-        /// <summary>Nameserver type Available values: "cloudflare.standard", "custom.account", "custom.tenant", "custom.zone".</summary>
+        /// <summary>Configured nameserver set to be used for this zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zone_dns_settings#type ZoneDnsSettings#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zone_dns_settings#ns_set ZoneDnsSettings#ns_set}
         /// </remarks>
-        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
-        public string Type
+        [JsiiOptional]
+        [JsiiProperty(name: "nsSet", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public double? NsSet
         {
             get;
             set;
         }
 
-        /// <summary>Configured nameserver set to be used for this zone.</summary>
+        /// <summary>Nameserver type Available values: "cloudflare.standard", "custom.account", "custom.tenant", "custom.zone".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zone_dns_settings#ns_set ZoneDnsSettings#ns_set}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zone_dns_settings#type ZoneDnsSettings#type}
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "nsSet", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public double? NsSet
+        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Type
         {
             get;
             set;

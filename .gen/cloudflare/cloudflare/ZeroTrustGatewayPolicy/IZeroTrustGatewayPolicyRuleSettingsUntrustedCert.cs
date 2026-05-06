@@ -7,12 +7,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
     [JsiiInterface(nativeType: typeof(IZeroTrustGatewayPolicyRuleSettingsUntrustedCert), fullyQualifiedName: "cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsUntrustedCert")]
     public interface IZeroTrustGatewayPolicyRuleSettingsUntrustedCert
     {
-        /// <summary>The action performed when an untrusted certificate is seen.</summary>
+        /// <summary>Defines the action performed when an untrusted certificate seen.</summary>
         /// <remarks>
-        /// The default action is an error with HTTP code 526.
+        /// The default action an error with HTTP code 526.
         /// Available values: "pass_through", "block", "error".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#action ZeroTrustGatewayPolicy#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#action ZeroTrustGatewayPolicy#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,12 +31,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             {
             }
 
-            /// <summary>The action performed when an untrusted certificate is seen.</summary>
+            /// <summary>Defines the action performed when an untrusted certificate seen.</summary>
             /// <remarks>
-            /// The default action is an error with HTTP code 526.
+            /// The default action an error with HTTP code 526.
             /// Available values: "pass_through", "block", "error".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#action ZeroTrustGatewayPolicy#action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#action ZeroTrustGatewayPolicy#action}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

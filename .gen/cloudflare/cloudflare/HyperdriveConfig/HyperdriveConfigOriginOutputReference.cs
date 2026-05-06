@@ -45,8 +45,20 @@ namespace cloudflare.HyperdriveConfig
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetHost")]
+        public virtual void ResetHost()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetPort")]
         public virtual void ResetPort()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetServiceId")]
+        public virtual void ResetServiceId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -96,6 +108,13 @@ namespace cloudflare.HyperdriveConfig
         [JsiiOptional]
         [JsiiProperty(name: "schemeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SchemeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "serviceIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ServiceIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -151,6 +170,13 @@ namespace cloudflare.HyperdriveConfig
 
         [JsiiProperty(name: "scheme", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Scheme
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "serviceId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ServiceId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

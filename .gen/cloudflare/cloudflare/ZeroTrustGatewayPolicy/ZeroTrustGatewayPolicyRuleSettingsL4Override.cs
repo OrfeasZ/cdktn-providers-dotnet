@@ -7,9 +7,9 @@ namespace cloudflare.ZeroTrustGatewayPolicy
     [JsiiByValue(fqn: "cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsL4Override")]
     public class ZeroTrustGatewayPolicyRuleSettingsL4Override : cloudflare.ZeroTrustGatewayPolicy.IZeroTrustGatewayPolicyRuleSettingsL4Override
     {
-        /// <summary>IPv4 or IPv6 address.</summary>
+        /// <summary>Defines the IPv4 or IPv6 address.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#ip ZeroTrustGatewayPolicy#ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#ip ZeroTrustGatewayPolicy#ip}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,9 +19,9 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             set;
         }
 
-        /// <summary>A port number to use for TCP/UDP overrides.</summary>
+        /// <summary>Defines a port number to use for TCP/UDP overrides.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_policy#port ZeroTrustGatewayPolicy#port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_policy#port ZeroTrustGatewayPolicy#port}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

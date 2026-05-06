@@ -39,8 +39,26 @@ namespace cloudflare.WorkersScript
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Host
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Hostname
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "lastAnalyzedAt", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LastAnalyzedAt
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Region
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -49,6 +67,12 @@ namespace cloudflare.WorkersScript
         public virtual string Status
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "target", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptPlacementTargetList\"}")]
+        public virtual cloudflare.WorkersScript.WorkersScriptPlacementTargetList Target
+        {
+            get => GetInstanceProperty<cloudflare.WorkersScript.WorkersScriptPlacementTargetList>()!;
         }
 
         [JsiiOptional]
