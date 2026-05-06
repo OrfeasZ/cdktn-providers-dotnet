@@ -1,0 +1,11 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.DataOciCapacityManagementOccHandoverResourceBlockDetails
+{
+    [JsiiByValue(fqn: "oci.dataOciCapacityManagementOccHandoverResourceBlockDetails.DataOciCapacityManagementOccHandoverResourceBlockDetailsOccHandoverResourceBlockDetailCollection")]
+    public class DataOciCapacityManagementOccHandoverResourceBlockDetailsOccHandoverResourceBlockDetailCollection : oci.DataOciCapacityManagementOccHandoverResourceBlockDetails.IDataOciCapacityManagementOccHandoverResourceBlockDetailsOccHandoverResourceBlockDetailCollection
+    {
+    }
+}

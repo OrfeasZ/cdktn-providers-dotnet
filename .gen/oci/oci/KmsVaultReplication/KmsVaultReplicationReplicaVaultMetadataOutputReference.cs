@@ -1,0 +1,86 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.KmsVaultReplication
+{
+    [JsiiClass(nativeType: typeof(oci.KmsVaultReplication.KmsVaultReplicationReplicaVaultMetadataOutputReference), fullyQualifiedName: "oci.kmsVaultReplication.KmsVaultReplicationReplicaVaultMetadataOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}}]")]
+    public class KmsVaultReplicationReplicaVaultMetadataOutputReference : Io.Cdktn.ComplexObject
+    {
+        /// <param name="terraformResource">The parent resource.</param>
+        /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
+        public KmsVaultReplicationReplicaVaultMetadataOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute): base(_MakeDeputyProps(terraformResource, terraformAttribute))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute)
+        {
+            return new DeputyProps(new object?[]{terraformResource, terraformAttribute});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected KmsVaultReplicationReplicaVaultMetadataOutputReference(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected KmsVaultReplicationReplicaVaultMetadataOutputReference(DeputyProps props): base(props)
+        {
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "idcsAccountNameUrlInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? IdcsAccountNameUrlInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "privateEndpointIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PrivateEndpointIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "vaultTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? VaultTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "idcsAccountNameUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string IdcsAccountNameUrl
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrivateEndpointId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "vaultType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VaultType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.kmsVaultReplication.KmsVaultReplicationReplicaVaultMetadata\"}", isOptional: true)]
+        public virtual oci.KmsVaultReplication.IKmsVaultReplicationReplicaVaultMetadata? InternalValue
+        {
+            get => GetInstanceProperty<oci.KmsVaultReplication.IKmsVaultReplicationReplicaVaultMetadata?>();
+            set => SetInstanceProperty(value);
+        }
+    }
+}

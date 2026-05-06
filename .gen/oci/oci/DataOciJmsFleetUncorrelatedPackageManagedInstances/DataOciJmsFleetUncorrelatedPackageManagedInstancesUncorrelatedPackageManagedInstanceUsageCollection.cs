@@ -1,0 +1,11 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.DataOciJmsFleetUncorrelatedPackageManagedInstances
+{
+    [JsiiByValue(fqn: "oci.dataOciJmsFleetUncorrelatedPackageManagedInstances.DataOciJmsFleetUncorrelatedPackageManagedInstancesUncorrelatedPackageManagedInstanceUsageCollection")]
+    public class DataOciJmsFleetUncorrelatedPackageManagedInstancesUncorrelatedPackageManagedInstanceUsageCollection : oci.DataOciJmsFleetUncorrelatedPackageManagedInstances.IDataOciJmsFleetUncorrelatedPackageManagedInstancesUncorrelatedPackageManagedInstanceUsageCollection
+    {
+    }
+}

@@ -1,0 +1,106 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.DataOciAdmRemediationRecipe
+{
+    [JsiiClass(nativeType: typeof(oci.DataOciAdmRemediationRecipe.DataOciAdmRemediationRecipeVerifyConfigurationOutputReference), fullyQualifiedName: "oci.dataOciAdmRemediationRecipe.DataOciAdmRemediationRecipeVerifyConfigurationOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"the index of this item in the list.\"},\"name\":\"complexObjectIndex\",\"type\":{\"primitive\":\"number\"}},{\"docs\":{\"summary\":\"whether the list is wrapping a set (will add tolist() to be able to access an item via an index).\"},\"name\":\"complexObjectIsFromSet\",\"type\":{\"primitive\":\"boolean\"}}]")]
+    public class DataOciAdmRemediationRecipeVerifyConfigurationOutputReference : Io.Cdktn.ComplexObject
+    {
+        /// <param name="terraformResource">The parent resource.</param>
+        /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
+        /// <param name="complexObjectIndex">the index of this item in the list.</param>
+        /// <param name="complexObjectIsFromSet">whether the list is wrapping a set (will add tolist() to be able to access an item via an index).</param>
+        public DataOciAdmRemediationRecipeVerifyConfigurationOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet): base(_MakeDeputyProps(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet)
+        {
+            return new DeputyProps(new object?[]{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DataOciAdmRemediationRecipeVerifyConfigurationOutputReference(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DataOciAdmRemediationRecipeVerifyConfigurationOutputReference(DeputyProps props): base(props)
+        {
+        }
+
+        [JsiiProperty(name: "additionalParameters", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap AdditionalParameters
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "buildServiceType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BuildServiceType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "jenkinsUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string JenkinsUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "jobName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string JobName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "patSecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PatSecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PipelineId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "repositoryUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RepositoryUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "triggerSecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TriggerSecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Username
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "workflowName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string WorkflowName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciAdmRemediationRecipe.DataOciAdmRemediationRecipeVerifyConfiguration\"}", isOptional: true)]
+        public virtual oci.DataOciAdmRemediationRecipe.IDataOciAdmRemediationRecipeVerifyConfiguration? InternalValue
+        {
+            get => GetInstanceProperty<oci.DataOciAdmRemediationRecipe.IDataOciAdmRemediationRecipeVerifyConfiguration?>();
+            set => SetInstanceProperty(value);
+        }
+    }
+}

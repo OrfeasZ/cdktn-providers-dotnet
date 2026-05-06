@@ -1,0 +1,88 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.DataOciAiVisionStreamJob
+{
+    [JsiiClass(nativeType: typeof(oci.DataOciAiVisionStreamJob.DataOciAiVisionStreamJobFeaturesTrackingTypesOutputReference), fullyQualifiedName: "oci.dataOciAiVisionStreamJob.DataOciAiVisionStreamJobFeaturesTrackingTypesOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"the index of this item in the list.\"},\"name\":\"complexObjectIndex\",\"type\":{\"primitive\":\"number\"}},{\"docs\":{\"summary\":\"whether the list is wrapping a set (will add tolist() to be able to access an item via an index).\"},\"name\":\"complexObjectIsFromSet\",\"type\":{\"primitive\":\"boolean\"}}]")]
+    public class DataOciAiVisionStreamJobFeaturesTrackingTypesOutputReference : Io.Cdktn.ComplexObject
+    {
+        /// <param name="terraformResource">The parent resource.</param>
+        /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
+        /// <param name="complexObjectIndex">the index of this item in the list.</param>
+        /// <param name="complexObjectIsFromSet">whether the list is wrapping a set (will add tolist() to be able to access an item via an index).</param>
+        public DataOciAiVisionStreamJobFeaturesTrackingTypesOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet): base(_MakeDeputyProps(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet)
+        {
+            return new DeputyProps(new object?[]{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DataOciAiVisionStreamJobFeaturesTrackingTypesOutputReference(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DataOciAiVisionStreamJobFeaturesTrackingTypesOutputReference(DeputyProps props): base(props)
+        {
+        }
+
+        [JsiiProperty(name: "biometricStoreCompartmentId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BiometricStoreCompartmentId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "biometricStoreId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BiometricStoreId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "detectionModelId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DetectionModelId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "maxResults", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MaxResults
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "objects", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Objects
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
+        [JsiiProperty(name: "shouldReturnLandmarks", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable ShouldReturnLandmarks
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "trackingModelId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TrackingModelId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciAiVisionStreamJob.DataOciAiVisionStreamJobFeaturesTrackingTypes\"}", isOptional: true)]
+        public virtual oci.DataOciAiVisionStreamJob.IDataOciAiVisionStreamJobFeaturesTrackingTypes? InternalValue
+        {
+            get => GetInstanceProperty<oci.DataOciAiVisionStreamJob.IDataOciAiVisionStreamJobFeaturesTrackingTypes?>();
+            set => SetInstanceProperty(value);
+        }
+    }
+}

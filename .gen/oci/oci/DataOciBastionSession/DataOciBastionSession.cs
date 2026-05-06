@@ -1,0 +1,172 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.DataOciBastionSession
+{
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/bastion_session oci_bastion_session}.</summary>
+    [JsiiClass(nativeType: typeof(oci.DataOciBastionSession.DataOciBastionSession), fullyQualifiedName: "oci.dataOciBastionSession.DataOciBastionSession", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataOciBastionSession.DataOciBastionSessionConfig\"}}]")]
+    public class DataOciBastionSession : Io.Cdktn.TerraformDataSource
+    {
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/bastion_session oci_bastion_session} Data Source.</summary>
+        /// <param name="scope">The scope in which to define this construct.</param>
+        /// <param name="id">The scoped construct ID.</param>
+        public DataOciBastionSession(Constructs.Construct scope, string id, oci.DataOciBastionSession.IDataOciBastionSessionConfig config): base(_MakeDeputyProps(scope, id, config))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, oci.DataOciBastionSession.IDataOciBastionSessionConfig config)
+        {
+            return new DeputyProps(new object?[]{scope, id, config});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DataOciBastionSession(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DataOciBastionSession(DeputyProps props): base(props)
+        {
+        }
+
+        /// <summary>Generates CDKTN code for importing a DataOciBastionSession resource upon running "cdktn plan &lt;stack-name&gt;".</summary>
+        /// <param name="scope">The scope in which to define this construct.</param>
+        /// <param name="importToId">The construct id used in the generated config for the DataOciBastionSession to import.</param>
+        /// <param name="importFromId">The id of the existing DataOciBastionSession that should be imported.</param>
+        /// <param name="provider">? Optional instance of the provider where the DataOciBastionSession to import is found.</param>
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciBastionSession to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/bastion_session#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciBastionSession that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciBastionSession to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
+        {
+            return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataOciBastionSession.DataOciBastionSession), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "synthesizeAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
+        protected override System.Collections.Generic.IDictionary<string, object> SynthesizeAttributes()
+        {
+            return InvokeInstanceMethod<System.Collections.Generic.IDictionary<string, object>>(new System.Type[]{}, new object[]{})!;
+        }
+
+        [JsiiMethod(name: "synthesizeHclAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
+        protected override System.Collections.Generic.IDictionary<string, object> SynthesizeHclAttributes()
+        {
+            return InvokeInstanceMethod<System.Collections.Generic.IDictionary<string, object>>(new System.Type[]{}, new object[]{})!;
+        }
+
+        [JsiiProperty(name: "tfResourceType", typeJson: "{\"primitive\":\"string\"}")]
+        public static string TfResourceType
+        {
+            get;
+        }
+        = GetStaticProperty<string>(typeof(oci.DataOciBastionSession.DataOciBastionSession))!;
+
+        [JsiiProperty(name: "bastionId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BastionId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "bastionName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BastionName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "bastionPublicHostKeyInfo", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BastionPublicHostKeyInfo
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "bastionUserName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BastionUserName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DisplayName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "keyDetails", typeJson: "{\"fqn\":\"oci.dataOciBastionSession.DataOciBastionSessionKeyDetailsList\"}")]
+        public virtual oci.DataOciBastionSession.DataOciBastionSessionKeyDetailsList KeyDetails
+        {
+            get => GetInstanceProperty<oci.DataOciBastionSession.DataOciBastionSessionKeyDetailsList>()!;
+        }
+
+        [JsiiProperty(name: "keyType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KeyType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LifecycleDetails
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "sessionTtlInSeconds", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double SessionTtlInSeconds
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "sshMetadata", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap SshMetadata
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string State
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "targetResourceDetails", typeJson: "{\"fqn\":\"oci.dataOciBastionSession.DataOciBastionSessionTargetResourceDetailsList\"}")]
+        public virtual oci.DataOciBastionSession.DataOciBastionSessionTargetResourceDetailsList TargetResourceDetails
+        {
+            get => GetInstanceProperty<oci.DataOciBastionSession.DataOciBastionSessionTargetResourceDetailsList>()!;
+        }
+
+        [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeCreated
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeUpdated", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeUpdated
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "sessionIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SessionIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "sessionId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SessionId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+    }
+}

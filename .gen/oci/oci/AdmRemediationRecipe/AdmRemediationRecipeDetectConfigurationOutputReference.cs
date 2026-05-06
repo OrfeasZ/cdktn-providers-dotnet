@@ -1,0 +1,144 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.AdmRemediationRecipe
+{
+    [JsiiClass(nativeType: typeof(oci.AdmRemediationRecipe.AdmRemediationRecipeDetectConfigurationOutputReference), fullyQualifiedName: "oci.admRemediationRecipe.AdmRemediationRecipeDetectConfigurationOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}}]")]
+    public class AdmRemediationRecipeDetectConfigurationOutputReference : Io.Cdktn.ComplexObject
+    {
+        /// <param name="terraformResource">The parent resource.</param>
+        /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
+        public AdmRemediationRecipeDetectConfigurationOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute): base(_MakeDeputyProps(terraformResource, terraformAttribute))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute)
+        {
+            return new DeputyProps(new object?[]{terraformResource, terraformAttribute});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected AdmRemediationRecipeDetectConfigurationOutputReference(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected AdmRemediationRecipeDetectConfigurationOutputReference(DeputyProps props): base(props)
+        {
+        }
+
+        [JsiiMethod(name: "resetExclusions")]
+        public virtual void ResetExclusions()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMaxPermissibleCvssV2Score")]
+        public virtual void ResetMaxPermissibleCvssV2Score()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMaxPermissibleCvssV3Score")]
+        public virtual void ResetMaxPermissibleCvssV3Score()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMaxPermissibleSeverity")]
+        public virtual void ResetMaxPermissibleSeverity()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetUpgradePolicy")]
+        public virtual void ResetUpgradePolicy()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "exclusionsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? ExclusionsInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "maxPermissibleCvssV2ScoreInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? MaxPermissibleCvssV2ScoreInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "maxPermissibleCvssV3ScoreInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? MaxPermissibleCvssV3ScoreInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "maxPermissibleSeverityInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? MaxPermissibleSeverityInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "upgradePolicyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? UpgradePolicyInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "exclusions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Exclusions
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "maxPermissibleCvssV2Score", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MaxPermissibleCvssV2Score
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "maxPermissibleCvssV3Score", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MaxPermissibleCvssV3Score
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "maxPermissibleSeverity", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string MaxPermissibleSeverity
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "upgradePolicy", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UpgradePolicy
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.admRemediationRecipe.AdmRemediationRecipeDetectConfiguration\"}", isOptional: true)]
+        public virtual oci.AdmRemediationRecipe.IAdmRemediationRecipeDetectConfiguration? InternalValue
+        {
+            get => GetInstanceProperty<oci.AdmRemediationRecipe.IAdmRemediationRecipeDetectConfiguration?>();
+            set => SetInstanceProperty(value);
+        }
+    }
+}

@@ -1,0 +1,11 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.DataOciDatabaseManagementExternalExadataStorageServers
+{
+    [JsiiByValue(fqn: "oci.dataOciDatabaseManagementExternalExadataStorageServers.DataOciDatabaseManagementExternalExadataStorageServersExternalExadataStorageServerCollection")]
+    public class DataOciDatabaseManagementExternalExadataStorageServersExternalExadataStorageServerCollection : oci.DataOciDatabaseManagementExternalExadataStorageServers.IDataOciDatabaseManagementExternalExadataStorageServersExternalExadataStorageServerCollection
+    {
+    }
+}

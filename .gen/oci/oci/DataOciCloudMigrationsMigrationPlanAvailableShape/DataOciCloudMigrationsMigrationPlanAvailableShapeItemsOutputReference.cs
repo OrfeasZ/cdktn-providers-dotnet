@@ -1,0 +1,148 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.DataOciCloudMigrationsMigrationPlanAvailableShape
+{
+    [JsiiClass(nativeType: typeof(oci.DataOciCloudMigrationsMigrationPlanAvailableShape.DataOciCloudMigrationsMigrationPlanAvailableShapeItemsOutputReference), fullyQualifiedName: "oci.dataOciCloudMigrationsMigrationPlanAvailableShape.DataOciCloudMigrationsMigrationPlanAvailableShapeItemsOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"the index of this item in the list.\"},\"name\":\"complexObjectIndex\",\"type\":{\"primitive\":\"number\"}},{\"docs\":{\"summary\":\"whether the list is wrapping a set (will add tolist() to be able to access an item via an index).\"},\"name\":\"complexObjectIsFromSet\",\"type\":{\"primitive\":\"boolean\"}}]")]
+    public class DataOciCloudMigrationsMigrationPlanAvailableShapeItemsOutputReference : Io.Cdktn.ComplexObject
+    {
+        /// <param name="terraformResource">The parent resource.</param>
+        /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
+        /// <param name="complexObjectIndex">the index of this item in the list.</param>
+        /// <param name="complexObjectIsFromSet">whether the list is wrapping a set (will add tolist() to be able to access an item via an index).</param>
+        public DataOciCloudMigrationsMigrationPlanAvailableShapeItemsOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet): base(_MakeDeputyProps(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet)
+        {
+            return new DeputyProps(new object?[]{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DataOciCloudMigrationsMigrationPlanAvailableShapeItemsOutputReference(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DataOciCloudMigrationsMigrationPlanAvailableShapeItemsOutputReference(DeputyProps props): base(props)
+        {
+        }
+
+        [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AvailabilityDomain
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "definedTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap DefinedTags
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "freeformTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap FreeformTags
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "gpuDescription", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string GpuDescription
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "gpus", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Gpus
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "localDiskDescription", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LocalDiskDescription
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "localDisks", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double LocalDisks
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "localDisksTotalSizeInGbs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double LocalDisksTotalSizeInGbs
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "maxVnicAttachments", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MaxVnicAttachments
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MemoryInGbs
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "minTotalBaselineOcpusRequired", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MinTotalBaselineOcpusRequired
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "networkingBandwidthInGbps", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double NetworkingBandwidthInGbps
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "ocpus", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Ocpus
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "paginationToken", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PaginationToken
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "processorDescription", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ProcessorDescription
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Shape
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "systemTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap SystemTags
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciCloudMigrationsMigrationPlanAvailableShape.DataOciCloudMigrationsMigrationPlanAvailableShapeItems\"}", isOptional: true)]
+        public virtual oci.DataOciCloudMigrationsMigrationPlanAvailableShape.IDataOciCloudMigrationsMigrationPlanAvailableShapeItems? InternalValue
+        {
+            get => GetInstanceProperty<oci.DataOciCloudMigrationsMigrationPlanAvailableShape.IDataOciCloudMigrationsMigrationPlanAvailableShapeItems?>();
+            set => SetInstanceProperty(value);
+        }
+    }
+}

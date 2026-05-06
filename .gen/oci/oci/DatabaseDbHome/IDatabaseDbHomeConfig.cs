@@ -1,0 +1,412 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.DatabaseDbHome
+{
+    [JsiiInterface(nativeType: typeof(IDatabaseDbHomeConfig), fullyQualifiedName: "oci.databaseDbHome.DatabaseDbHomeConfig")]
+    public interface IDatabaseDbHomeConfig : Io.Cdktn.ITerraformMetaArguments
+    {
+        /// <summary>database block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#database DatabaseDbHome#database}
+        /// </remarks>
+        [JsiiProperty(name: "database", typeJson: "{\"fqn\":\"oci.databaseDbHome.DatabaseDbHomeDatabase\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        oci.DatabaseDbHome.IDatabaseDbHomeDatabase? Database
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#database_software_image_id DatabaseDbHome#database_software_image_id}.</summary>
+        [JsiiProperty(name: "databaseSoftwareImageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? DatabaseSoftwareImageId
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#db_system_id DatabaseDbHome#db_system_id}.</summary>
+        [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? DbSystemId
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#db_version DatabaseDbHome#db_version}.</summary>
+        [JsiiProperty(name: "dbVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? DbVersion
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#defined_tags DatabaseDbHome#defined_tags}.</summary>
+        [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        System.Collections.Generic.IDictionary<string, string>? DefinedTags
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#display_name DatabaseDbHome#display_name}.</summary>
+        [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? DisplayName
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#enable_database_delete DatabaseDbHome#enable_database_delete}.</summary>
+        [JsiiProperty(name: "enableDatabaseDelete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? EnableDatabaseDelete
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#freeform_tags DatabaseDbHome#freeform_tags}.</summary>
+        [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        System.Collections.Generic.IDictionary<string, string>? FreeformTags
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#id DatabaseDbHome#id}.</summary>
+        /// <remarks>
+        /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+        /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+        /// </remarks>
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Id
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#is_desupported_version DatabaseDbHome#is_desupported_version}.</summary>
+        [JsiiProperty(name: "isDesupportedVersion", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? IsDesupportedVersion
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#is_unified_auditing_enabled DatabaseDbHome#is_unified_auditing_enabled}.</summary>
+        [JsiiProperty(name: "isUnifiedAuditingEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? IsUnifiedAuditingEnabled
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#kms_key_id DatabaseDbHome#kms_key_id}.</summary>
+        [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? KmsKeyId
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#kms_key_version_id DatabaseDbHome#kms_key_version_id}.</summary>
+        [JsiiProperty(name: "kmsKeyVersionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? KmsKeyVersionId
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#source DatabaseDbHome#source}.</summary>
+        [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Source
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>timeouts block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#timeouts DatabaseDbHome#timeouts}
+        /// </remarks>
+        [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseDbHome.DatabaseDbHomeTimeouts\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        oci.DatabaseDbHome.IDatabaseDbHomeTimeouts? Timeouts
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#vm_cluster_id DatabaseDbHome#vm_cluster_id}.</summary>
+        [JsiiProperty(name: "vmClusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? VmClusterId
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        [JsiiTypeProxy(nativeType: typeof(IDatabaseDbHomeConfig), fullyQualifiedName: "oci.databaseDbHome.DatabaseDbHomeConfig")]
+        internal sealed class _Proxy : DeputyBase, oci.DatabaseDbHome.IDatabaseDbHomeConfig
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+
+            /// <summary>database block.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#database DatabaseDbHome#database}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "database", typeJson: "{\"fqn\":\"oci.databaseDbHome.DatabaseDbHomeDatabase\"}", isOptional: true)]
+            public oci.DatabaseDbHome.IDatabaseDbHomeDatabase? Database
+            {
+                get => GetInstanceProperty<oci.DatabaseDbHome.IDatabaseDbHomeDatabase?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#database_software_image_id DatabaseDbHome#database_software_image_id}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "databaseSoftwareImageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? DatabaseSoftwareImageId
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#db_system_id DatabaseDbHome#db_system_id}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? DbSystemId
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#db_version DatabaseDbHome#db_version}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "dbVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? DbVersion
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#defined_tags DatabaseDbHome#defined_tags}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+            public System.Collections.Generic.IDictionary<string, string>? DefinedTags
+            {
+                get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#display_name DatabaseDbHome#display_name}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? DisplayName
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#enable_database_delete DatabaseDbHome#enable_database_delete}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "enableDatabaseDelete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+            public object? EnableDatabaseDelete
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#freeform_tags DatabaseDbHome#freeform_tags}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+            public System.Collections.Generic.IDictionary<string, string>? FreeformTags
+            {
+                get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#id DatabaseDbHome#id}.</summary>
+            /// <remarks>
+            /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+            /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Id
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#is_desupported_version DatabaseDbHome#is_desupported_version}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "isDesupportedVersion", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+            public object? IsDesupportedVersion
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#is_unified_auditing_enabled DatabaseDbHome#is_unified_auditing_enabled}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "isUnifiedAuditingEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+            public object? IsUnifiedAuditingEnabled
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#kms_key_id DatabaseDbHome#kms_key_id}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? KmsKeyId
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#kms_key_version_id DatabaseDbHome#kms_key_version_id}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "kmsKeyVersionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? KmsKeyVersionId
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#source DatabaseDbHome#source}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Source
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>timeouts block.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#timeouts DatabaseDbHome#timeouts}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseDbHome.DatabaseDbHomeTimeouts\"}", isOptional: true)]
+            public oci.DatabaseDbHome.IDatabaseDbHomeTimeouts? Timeouts
+            {
+                get => GetInstanceProperty<oci.DatabaseDbHome.IDatabaseDbHomeTimeouts?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#vm_cluster_id DatabaseDbHome#vm_cluster_id}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "vmClusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? VmClusterId
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
+            public object? Connection
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
+            public object? Count
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "dependsOn", typeJson: "{\"collection\":{\"elementtype\":{\"fqn\":\"cdktn.ITerraformDependable\"},\"kind\":\"array\"}}", isOptional: true)]
+            public Io.Cdktn.ITerraformDependable[]? DependsOn
+            {
+                get => GetInstanceProperty<Io.Cdktn.ITerraformDependable[]?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "forEach", typeJson: "{\"fqn\":\"cdktn.ITerraformIterator\"}", isOptional: true)]
+            public Io.Cdktn.ITerraformIterator? ForEach
+            {
+                get => GetInstanceProperty<Io.Cdktn.ITerraformIterator?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "lifecycle", typeJson: "{\"fqn\":\"cdktn.TerraformResourceLifecycle\"}", isOptional: true)]
+            public Io.Cdktn.ITerraformResourceLifecycle? Lifecycle
+            {
+                get => GetInstanceProperty<Io.Cdktn.ITerraformResourceLifecycle?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "provider", typeJson: "{\"fqn\":\"cdktn.TerraformProvider\"}", isOptional: true)]
+            public Io.Cdktn.TerraformProvider? Provider
+            {
+                get => GetInstanceProperty<Io.Cdktn.TerraformProvider?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]
+            public object[]? Provisioners
+            {
+                get => GetInstanceProperty<object[]?>();
+            }
+        }
+    }
+}

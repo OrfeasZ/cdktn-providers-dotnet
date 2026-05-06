@@ -1,0 +1,46 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.DisasterRecoveryDrProtectionGroup
+{
+    [JsiiInterface(nativeType: typeof(IDisasterRecoveryDrProtectionGroupLogLocation), fullyQualifiedName: "oci.disasterRecoveryDrProtectionGroup.DisasterRecoveryDrProtectionGroupLogLocation")]
+    public interface IDisasterRecoveryDrProtectionGroupLogLocation
+    {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/disaster_recovery_dr_protection_group#bucket DisasterRecoveryDrProtectionGroup#bucket}.</summary>
+        [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
+        string Bucket
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/disaster_recovery_dr_protection_group#namespace DisasterRecoveryDrProtectionGroup#namespace}.</summary>
+        [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
+        string Namespace
+        {
+            get;
+        }
+
+        [JsiiTypeProxy(nativeType: typeof(IDisasterRecoveryDrProtectionGroupLogLocation), fullyQualifiedName: "oci.disasterRecoveryDrProtectionGroup.DisasterRecoveryDrProtectionGroupLogLocation")]
+        internal sealed class _Proxy : DeputyBase, oci.DisasterRecoveryDrProtectionGroup.IDisasterRecoveryDrProtectionGroupLogLocation
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/disaster_recovery_dr_protection_group#bucket DisasterRecoveryDrProtectionGroup#bucket}.</summary>
+            [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
+            public string Bucket
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/disaster_recovery_dr_protection_group#namespace DisasterRecoveryDrProtectionGroup#namespace}.</summary>
+            [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
+            public string Namespace
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+        }
+    }
+}
