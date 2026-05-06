@@ -12,7 +12,8 @@
     "hetznercloud/hcloud@1.62.0",
     "kislerdm/neon@0.13.0",
     "scaleway/scaleway@2.74.0",
-    "stripe/stripe@0.2.2"
+    "stripe/stripe@0.2.2",
+    "hashicorp/null@3.2.4"
   ],
   "terraformModules": [],
   "context": {}
