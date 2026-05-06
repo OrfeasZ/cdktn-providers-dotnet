@@ -7,9 +7,9 @@ namespace cloudflare.Ruleset
     [JsiiInterface(nativeType: typeof(IRulesetRulesActionParametersAutominify), fullyQualifiedName: "cloudflare.ruleset.RulesetRulesActionParametersAutominify")]
     public interface IRulesetRulesActionParametersAutominify
     {
-        /// <summary>Whether to minify CSS files.</summary>
+        /// <summary>Minify CSS files.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#css Ruleset#css}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#css Ruleset#css}
         /// </remarks>
         [JsiiProperty(name: "css", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,9 +21,9 @@ namespace cloudflare.Ruleset
             }
         }
 
-        /// <summary>Whether to minify HTML files.</summary>
+        /// <summary>Minify HTML files.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#html Ruleset#html}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#html Ruleset#html}
         /// </remarks>
         [JsiiProperty(name: "html", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,9 +35,9 @@ namespace cloudflare.Ruleset
             }
         }
 
-        /// <summary>Whether to minify JavaScript files.</summary>
+        /// <summary>Minify JS files.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#js Ruleset#js}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#js Ruleset#js}
         /// </remarks>
         [JsiiProperty(name: "js", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -56,9 +56,9 @@ namespace cloudflare.Ruleset
             {
             }
 
-            /// <summary>Whether to minify CSS files.</summary>
+            /// <summary>Minify CSS files.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#css Ruleset#css}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#css Ruleset#css}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "css", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -67,9 +67,9 @@ namespace cloudflare.Ruleset
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Whether to minify HTML files.</summary>
+            /// <summary>Minify HTML files.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#html Ruleset#html}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#html Ruleset#html}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "html", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -78,9 +78,9 @@ namespace cloudflare.Ruleset
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Whether to minify JavaScript files.</summary>
+            /// <summary>Minify JS files.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#js Ruleset#js}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#js Ruleset#js}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "js", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

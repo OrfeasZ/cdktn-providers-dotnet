@@ -7,20 +7,20 @@ namespace cloudflare.DataCloudflareLoadBalancerMonitor
     [JsiiInterface(nativeType: typeof(IDataCloudflareLoadBalancerMonitorConfig), fullyQualifiedName: "cloudflare.dataCloudflareLoadBalancerMonitor.DataCloudflareLoadBalancerMonitorConfig")]
     public interface IDataCloudflareLoadBalancerMonitorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/load_balancer_monitor#monitor_id DataCloudflareLoadBalancerMonitor#monitor_id}.</summary>
-        [JsiiProperty(name: "monitorId", typeJson: "{\"primitive\":\"string\"}")]
-        string MonitorId
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/load_balancer_monitor#account_id DataCloudflareLoadBalancerMonitor#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        string AccountId
         {
             get;
         }
 
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/load_balancer_monitor#account_id DataCloudflareLoadBalancerMonitor#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/load_balancer_monitor#monitor_id DataCloudflareLoadBalancerMonitor#monitor_id}.</summary>
+        [JsiiProperty(name: "monitorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? AccountId
+        string? MonitorId
         {
             get
             {
@@ -35,20 +35,20 @@ namespace cloudflare.DataCloudflareLoadBalancerMonitor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/load_balancer_monitor#monitor_id DataCloudflareLoadBalancerMonitor#monitor_id}.</summary>
-            [JsiiProperty(name: "monitorId", typeJson: "{\"primitive\":\"string\"}")]
-            public string MonitorId
+            /// <summary>Identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/load_balancer_monitor#account_id DataCloudflareLoadBalancerMonitor#account_id}
+            /// </remarks>
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+            public string AccountId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/load_balancer_monitor#account_id DataCloudflareLoadBalancerMonitor#account_id}
-            /// </remarks>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/load_balancer_monitor#monitor_id DataCloudflareLoadBalancerMonitor#monitor_id}.</summary>
             [JsiiOptional]
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? AccountId
+            [JsiiProperty(name: "monitorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? MonitorId
             {
                 get => GetInstanceProperty<string?>();
             }

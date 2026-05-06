@@ -7,9 +7,11 @@ namespace cloudflare.Ruleset
     [JsiiInterface(nativeType: typeof(IRulesetRulesActionParametersCacheKeyCustomKeyHost), fullyQualifiedName: "cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyHost")]
     public interface IRulesetRulesActionParametersCacheKeyCustomKeyHost
     {
-        /// <summary>Whether to use the resolved host in the cache key.</summary>
+        /// <summary>Use the resolved host in the cache key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#resolved Ruleset#resolved}
+        /// A value of true will use the resolved host, while a value or false will use the original host.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#resolved Ruleset#resolved}
         /// </remarks>
         [JsiiProperty(name: "resolved", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,9 +30,11 @@ namespace cloudflare.Ruleset
             {
             }
 
-            /// <summary>Whether to use the resolved host in the cache key.</summary>
+            /// <summary>Use the resolved host in the cache key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#resolved Ruleset#resolved}
+            /// A value of true will use the resolved host, while a value or false will use the original host.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#resolved Ruleset#resolved}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resolved", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

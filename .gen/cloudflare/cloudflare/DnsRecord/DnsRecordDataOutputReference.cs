@@ -292,10 +292,10 @@ namespace cloudflare.DnsRecord
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "flagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
-        public virtual System.Collections.Generic.IDictionary<string, object>? FlagsInput
+        [JsiiProperty(name: "flagsInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? FlagsInput
         {
-            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, object>?>();
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -543,10 +543,10 @@ namespace cloudflare.DnsRecord
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "flags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}")]
-        public virtual System.Collections.Generic.IDictionary<string, object> Flags
+        [JsiiProperty(name: "flags", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Flags
         {
-            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, object>>()!;
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

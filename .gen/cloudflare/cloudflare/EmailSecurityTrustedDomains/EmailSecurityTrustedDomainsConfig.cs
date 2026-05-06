@@ -4,16 +4,17 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.EmailSecurityTrustedDomains
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "cloudflare.emailSecurityTrustedDomains.EmailSecurityTrustedDomainsConfig")]
     public class EmailSecurityTrustedDomainsConfig : cloudflare.EmailSecurityTrustedDomains.IEmailSecurityTrustedDomainsConfig
     {
         /// <summary>Account Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/email_security_trusted_domains#account_id EmailSecurityTrustedDomains#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/email_security_trusted_domains#account_id EmailSecurityTrustedDomains#account_id}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
         {
             get;
             set;
@@ -21,7 +22,7 @@ namespace cloudflare.EmailSecurityTrustedDomains
 
         private object? _body;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/email_security_trusted_domains#body EmailSecurityTrustedDomains#body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/email_security_trusted_domains#body EmailSecurityTrustedDomains#body}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "body", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.emailSecurityTrustedDomains.EmailSecurityTrustedDomainsBody\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public object? Body
@@ -50,7 +51,7 @@ namespace cloudflare.EmailSecurityTrustedDomains
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/email_security_trusted_domains#comments EmailSecurityTrustedDomains#comments}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/email_security_trusted_domains#comments EmailSecurityTrustedDomains#comments}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "comments", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Comments
@@ -63,7 +64,7 @@ namespace cloudflare.EmailSecurityTrustedDomains
 
         /// <summary>Select to prevent recently registered domains from triggering a Suspicious or Malicious disposition.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/email_security_trusted_domains#is_recent EmailSecurityTrustedDomains#is_recent}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/email_security_trusted_domains#is_recent EmailSecurityTrustedDomains#is_recent}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isRecent", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -95,7 +96,7 @@ namespace cloudflare.EmailSecurityTrustedDomains
 
         private object? _isRegex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/email_security_trusted_domains#is_regex EmailSecurityTrustedDomains#is_regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/email_security_trusted_domains#is_regex EmailSecurityTrustedDomains#is_regex}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "isRegex", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IsRegex
@@ -131,7 +132,7 @@ namespace cloudflare.EmailSecurityTrustedDomains
         /// Prevents listed domains from
         /// triggering a Spoof disposition.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/email_security_trusted_domains#is_similarity EmailSecurityTrustedDomains#is_similarity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/email_security_trusted_domains#is_similarity EmailSecurityTrustedDomains#is_similarity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isSimilarity", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -161,7 +162,7 @@ namespace cloudflare.EmailSecurityTrustedDomains
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/email_security_trusted_domains#pattern EmailSecurityTrustedDomains#pattern}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/email_security_trusted_domains#pattern EmailSecurityTrustedDomains#pattern}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pattern", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Pattern

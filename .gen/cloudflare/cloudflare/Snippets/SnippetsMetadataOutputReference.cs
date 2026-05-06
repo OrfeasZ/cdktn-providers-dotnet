@@ -33,6 +33,12 @@ namespace cloudflare.Snippets
         {
         }
 
+        [JsiiMethod(name: "resetMainModule")]
+        public virtual void ResetMainModule()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "mainModuleInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? MainModuleInput

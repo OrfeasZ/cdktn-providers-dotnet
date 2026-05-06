@@ -11,10 +11,10 @@ namespace cloudflare.DataCloudflarePageShieldPolicy
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/page_shield_policy#policy_id DataCloudflarePageShieldPolicy#policy_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/page_shield_policy#zone_id DataCloudflarePageShieldPolicy#zone_id}
         /// </remarks>
-        [JsiiProperty(name: "policyId", typeJson: "{\"primitive\":\"string\"}")]
-        public string PolicyId
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        public string ZoneId
         {
             get;
             set;
@@ -22,11 +22,11 @@ namespace cloudflare.DataCloudflarePageShieldPolicy
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/page_shield_policy#zone_id DataCloudflarePageShieldPolicy#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/page_shield_policy#policy_id DataCloudflarePageShieldPolicy#policy_id}
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? ZoneId
+        [JsiiProperty(name: "policyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? PolicyId
         {
             get;
             set;

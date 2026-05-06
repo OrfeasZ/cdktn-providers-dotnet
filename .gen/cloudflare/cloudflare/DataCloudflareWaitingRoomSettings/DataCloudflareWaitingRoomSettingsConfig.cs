@@ -4,16 +4,17 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareWaitingRoomSettings
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "cloudflare.dataCloudflareWaitingRoomSettings.DataCloudflareWaitingRoomSettingsConfig")]
     public class DataCloudflareWaitingRoomSettingsConfig : cloudflare.DataCloudflareWaitingRoomSettings.IDataCloudflareWaitingRoomSettingsConfig
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/waiting_room_settings#zone_id DataCloudflareWaitingRoomSettings#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/waiting_room_settings#zone_id DataCloudflareWaitingRoomSettings#zone_id}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? ZoneId
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        public string ZoneId
         {
             get;
             set;

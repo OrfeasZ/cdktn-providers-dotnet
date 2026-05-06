@@ -7,20 +7,20 @@ namespace cloudflare.DataCloudflareZeroTrustDevicePostureIntegration
     [JsiiInterface(nativeType: typeof(IDataCloudflareZeroTrustDevicePostureIntegrationConfig), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustDevicePostureIntegration.DataCloudflareZeroTrustDevicePostureIntegrationConfig")]
     public interface IDataCloudflareZeroTrustDevicePostureIntegrationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>API UUID.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zero_trust_device_posture_integration#integration_id DataCloudflareZeroTrustDevicePostureIntegration#integration_id}
-        /// </remarks>
-        [JsiiProperty(name: "integrationId", typeJson: "{\"primitive\":\"string\"}")]
-        string IntegrationId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zero_trust_device_posture_integration#account_id DataCloudflareZeroTrustDevicePostureIntegration#account_id}.</summary>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        string AccountId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zero_trust_device_posture_integration#account_id DataCloudflareZeroTrustDevicePostureIntegration#account_id}.</summary>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        /// <summary>API UUID.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zero_trust_device_posture_integration#integration_id DataCloudflareZeroTrustDevicePostureIntegration#integration_id}
+        /// </remarks>
+        [JsiiProperty(name: "integrationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? AccountId
+        string? IntegrationId
         {
             get
             {
@@ -35,20 +35,20 @@ namespace cloudflare.DataCloudflareZeroTrustDevicePostureIntegration
             {
             }
 
-            /// <summary>API UUID.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zero_trust_device_posture_integration#integration_id DataCloudflareZeroTrustDevicePostureIntegration#integration_id}
-            /// </remarks>
-            [JsiiProperty(name: "integrationId", typeJson: "{\"primitive\":\"string\"}")]
-            public string IntegrationId
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zero_trust_device_posture_integration#account_id DataCloudflareZeroTrustDevicePostureIntegration#account_id}.</summary>
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+            public string AccountId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zero_trust_device_posture_integration#account_id DataCloudflareZeroTrustDevicePostureIntegration#account_id}.</summary>
+            /// <summary>API UUID.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zero_trust_device_posture_integration#integration_id DataCloudflareZeroTrustDevicePostureIntegration#integration_id}
+            /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? AccountId
+            [JsiiProperty(name: "integrationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? IntegrationId
             {
                 get => GetInstanceProperty<string?>();
             }

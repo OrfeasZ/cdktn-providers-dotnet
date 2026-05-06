@@ -63,12 +63,6 @@ namespace cloudflare.DataCloudflareLogpushJobs
             get => GetInstanceProperty<string[]>()!;
         }
 
-        [JsiiProperty(name: "mergeSubrequests", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable MergeSubrequests
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
         [JsiiProperty(name: "outputType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string OutputType
         {

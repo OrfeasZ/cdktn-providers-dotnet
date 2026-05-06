@@ -9,7 +9,7 @@ namespace cloudflare.ApiToken
     {
         /// <summary>Allow or deny operations against the resources. Available values: "allow", "deny".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/api_token#effect ApiToken#effect}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/api_token#effect ApiToken#effect}
         /// </remarks>
         [JsiiProperty(name: "effect", typeJson: "{\"primitive\":\"string\"}")]
         string Effect
@@ -19,7 +19,7 @@ namespace cloudflare.ApiToken
 
         /// <summary>A set of permission groups that are specified to the policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/api_token#permission_groups ApiToken#permission_groups}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/api_token#permission_groups ApiToken#permission_groups}
         /// </remarks>
         [JsiiProperty(name: "permissionGroups", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.apiToken.ApiTokenPoliciesPermissionGroups\"},\"kind\":\"array\"}}]}}")]
         object PermissionGroups
@@ -27,12 +27,12 @@ namespace cloudflare.ApiToken
             get;
         }
 
-        /// <summary>A json object representing the resources that are specified to the policy.</summary>
+        /// <summary>A list of resource names that the policy applies to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/api_token#resources ApiToken#resources}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/api_token#resources ApiToken#resources}
         /// </remarks>
-        [JsiiProperty(name: "resources", typeJson: "{\"primitive\":\"string\"}")]
-        string Resources
+        [JsiiProperty(name: "resources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        System.Collections.Generic.IDictionary<string, string> Resources
         {
             get;
         }
@@ -46,7 +46,7 @@ namespace cloudflare.ApiToken
 
             /// <summary>Allow or deny operations against the resources. Available values: "allow", "deny".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/api_token#effect ApiToken#effect}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/api_token#effect ApiToken#effect}
             /// </remarks>
             [JsiiProperty(name: "effect", typeJson: "{\"primitive\":\"string\"}")]
             public string Effect
@@ -56,7 +56,7 @@ namespace cloudflare.ApiToken
 
             /// <summary>A set of permission groups that are specified to the policy.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/api_token#permission_groups ApiToken#permission_groups}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/api_token#permission_groups ApiToken#permission_groups}
             /// </remarks>
             [JsiiProperty(name: "permissionGroups", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.apiToken.ApiTokenPoliciesPermissionGroups\"},\"kind\":\"array\"}}]}}")]
             public object PermissionGroups
@@ -64,14 +64,14 @@ namespace cloudflare.ApiToken
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>A json object representing the resources that are specified to the policy.</summary>
+            /// <summary>A list of resource names that the policy applies to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/api_token#resources ApiToken#resources}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/api_token#resources ApiToken#resources}
             /// </remarks>
-            [JsiiProperty(name: "resources", typeJson: "{\"primitive\":\"string\"}")]
-            public string Resources
+            [JsiiProperty(name: "resources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+            public System.Collections.Generic.IDictionary<string, string> Resources
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
             }
         }
     }

@@ -7,11 +7,11 @@ namespace cloudflare.LogpushJob
     [JsiiInterface(nativeType: typeof(ILogpushJobConfig), fullyQualifiedName: "cloudflare.logpushJob.LogpushJobConfig")]
     public interface ILogpushJobConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Uniquely identifies a resource (such as an s3 bucket) where data.</summary>
+        /// <summary>Uniquely identifies a resource (such as an s3 bucket) where data will be pushed.</summary>
         /// <remarks>
-        /// will be pushed. Additional configuration parameters supported by the destination may be included.
+        /// Additional configuration parameters supported by the destination may be included.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#destination_conf LogpushJob#destination_conf}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#destination_conf LogpushJob#destination_conf}
         /// </remarks>
         [JsiiProperty(name: "destinationConf", typeJson: "{\"primitive\":\"string\"}")]
         string DestinationConf
@@ -21,7 +21,7 @@ namespace cloudflare.LogpushJob
 
         /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#account_id LogpushJob#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#account_id LogpushJob#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -36,9 +36,9 @@ namespace cloudflare.LogpushJob
         /// <summary>Name of the dataset.</summary>
         /// <remarks>
         /// A list of supported datasets can be found on the <a href="https://developers.cloudflare.com/logs/reference/log-fields/">Developer Docs</a>.
-        /// Available values: "access_requests", "audit_logs", "audit_logs_v2", "biso_user_actions", "casb_findings", "device_posture_results", "dex_application_tests", "dex_device_state_events", "dlp_forensic_copies", "dns_firewall_logs", "dns_logs", "email_security_alerts", "email_security_post_delivery_events", "firewall_events", "gateway_dns", "gateway_http", "gateway_network", "http_requests", "ipsec_logs", "magic_ids_detections", "mcp_portal_logs", "nel_reports", "network_analytics_logs", "page_shield_events", "sinkhole_http_logs", "spectrum_events", "ssh_logs", "warp_config_changes", "warp_toggle_changes", "workers_trace_events", "zaraz_events", "zero_trust_network_sessions".
+        /// Available values: "access_requests", "audit_logs", "biso_user_actions", "casb_findings", "device_posture_results", "dlp_forensic_copies", "dns_firewall_logs", "dns_logs", "email_security_alerts", "firewall_events", "gateway_dns", "gateway_http", "gateway_network", "http_requests", "magic_ids_detections", "nel_reports", "network_analytics_logs", "page_shield_events", "sinkhole_http_logs", "spectrum_events", "ssh_logs", "workers_trace_events", "zaraz_events", "zero_trust_network_sessions".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#dataset LogpushJob#dataset}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#dataset LogpushJob#dataset}
         /// </remarks>
         [JsiiProperty(name: "dataset", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace cloudflare.LogpushJob
 
         /// <summary>Flag that indicates if the job is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#enabled LogpushJob#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#enabled LogpushJob#enabled}
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,7 +66,7 @@ namespace cloudflare.LogpushJob
 
         /// <summary>The filters to select the events to include and/or remove from your logs. For more information, refer to [Filters](https://developers.cloudflare.com/logs/reference/filters/).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#filter LogpushJob#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#filter LogpushJob#filter}
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -80,10 +80,10 @@ namespace cloudflare.LogpushJob
 
         /// <summary>This field is deprecated.</summary>
         /// <remarks>
-        /// Please use <c>max_upload_*</c> parameters instead. . The frequency at which Cloudflare sends batches of logs to your destination. Setting frequency to high sends your logs in larger quantities of smaller files. Setting frequency to low sends logs in smaller quantities of larger files.
+        /// Please use <c>max_upload_*</c> parameters instead. The frequency at which Cloudflare sends batches of logs to your destination. Setting frequency to high sends your logs in larger quantities of smaller files. Setting frequency to low sends logs in smaller quantities of larger files.
         /// Available values: "high", "low".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#frequency LogpushJob#frequency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#frequency LogpushJob#frequency}
         /// </remarks>
         [JsiiProperty(name: "frequency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -99,7 +99,7 @@ namespace cloudflare.LogpushJob
         /// <remarks>
         /// Available values: "", "edge".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#kind LogpushJob#kind}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#kind LogpushJob#kind}
         /// </remarks>
         [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -115,7 +115,7 @@ namespace cloudflare.LogpushJob
         /// <remarks>
         /// Use <c>output_options</c> instead. Configuration string. It specifies things like requested fields and timestamp formats. If migrating from the logpull api, copy the url (full url or just the query string) of your call here, and logpush will keep on making this call for you, setting start and end times appropriately.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#logpull_options LogpushJob#logpull_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#logpull_options LogpushJob#logpull_options}
         /// </remarks>
         [JsiiProperty(name: "logpullOptions", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -130,8 +130,9 @@ namespace cloudflare.LogpushJob
         /// <summary>The maximum uncompressed file size of a batch of logs.</summary>
         /// <remarks>
         /// This setting value must be between <c>5 MB</c> and <c>1 GB</c>, or <c>0</c> to disable it. Note that you cannot set a minimum file size; this means that log files may be much smaller than this batch size.
+        /// Available values: 0.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#max_upload_bytes LogpushJob#max_upload_bytes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#max_upload_bytes LogpushJob#max_upload_bytes}
         /// </remarks>
         [JsiiProperty(name: "maxUploadBytes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -146,8 +147,9 @@ namespace cloudflare.LogpushJob
         /// <summary>The maximum interval in seconds for log batches.</summary>
         /// <remarks>
         /// This setting must be between 30 and 300 seconds (5 minutes), or <c>0</c> to disable it. Note that you cannot specify a minimum interval for log batches; this means that log files may be sent in shorter intervals than this.
+        /// Available values: 0.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#max_upload_interval_seconds LogpushJob#max_upload_interval_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#max_upload_interval_seconds LogpushJob#max_upload_interval_seconds}
         /// </remarks>
         [JsiiProperty(name: "maxUploadIntervalSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -162,8 +164,9 @@ namespace cloudflare.LogpushJob
         /// <summary>The maximum number of log lines per batch.</summary>
         /// <remarks>
         /// This setting must be between 1000 and 1,000,000 lines, or <c>0</c> to disable it. Note that you cannot specify a minimum number of log lines per batch; this means that log files may contain many fewer lines than this.
+        /// Available values: 0.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#max_upload_records LogpushJob#max_upload_records}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#max_upload_records LogpushJob#max_upload_records}
         /// </remarks>
         [JsiiProperty(name: "maxUploadRecords", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -177,9 +180,9 @@ namespace cloudflare.LogpushJob
 
         /// <summary>Optional human readable job name.</summary>
         /// <remarks>
-        /// Not unique. Cloudflare suggests. that you set this to a meaningful string, like the domain name, to make it easier to identify your job.
+        /// Not unique. Cloudflare suggests that you set this to a meaningful string, like the domain name, to make it easier to identify your job.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#name LogpushJob#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#name LogpushJob#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -193,7 +196,7 @@ namespace cloudflare.LogpushJob
 
         /// <summary>The structured replacement for `logpull_options`. When including this field, the `logpull_option` field will be ignored.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#output_options LogpushJob#output_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#output_options LogpushJob#output_options}
         /// </remarks>
         [JsiiProperty(name: "outputOptions", typeJson: "{\"fqn\":\"cloudflare.logpushJob.LogpushJobOutputOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -207,7 +210,7 @@ namespace cloudflare.LogpushJob
 
         /// <summary>Ownership challenge token to prove destination ownership.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#ownership_challenge LogpushJob#ownership_challenge}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#ownership_challenge LogpushJob#ownership_challenge}
         /// </remarks>
         [JsiiProperty(name: "ownershipChallenge", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -221,7 +224,7 @@ namespace cloudflare.LogpushJob
 
         /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#zone_id LogpushJob#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#zone_id LogpushJob#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -240,11 +243,11 @@ namespace cloudflare.LogpushJob
             {
             }
 
-            /// <summary>Uniquely identifies a resource (such as an s3 bucket) where data.</summary>
+            /// <summary>Uniquely identifies a resource (such as an s3 bucket) where data will be pushed.</summary>
             /// <remarks>
-            /// will be pushed. Additional configuration parameters supported by the destination may be included.
+            /// Additional configuration parameters supported by the destination may be included.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#destination_conf LogpushJob#destination_conf}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#destination_conf LogpushJob#destination_conf}
             /// </remarks>
             [JsiiProperty(name: "destinationConf", typeJson: "{\"primitive\":\"string\"}")]
             public string DestinationConf
@@ -254,7 +257,7 @@ namespace cloudflare.LogpushJob
 
             /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#account_id LogpushJob#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#account_id LogpushJob#account_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -266,9 +269,9 @@ namespace cloudflare.LogpushJob
             /// <summary>Name of the dataset.</summary>
             /// <remarks>
             /// A list of supported datasets can be found on the <a href="https://developers.cloudflare.com/logs/reference/log-fields/">Developer Docs</a>.
-            /// Available values: "access_requests", "audit_logs", "audit_logs_v2", "biso_user_actions", "casb_findings", "device_posture_results", "dex_application_tests", "dex_device_state_events", "dlp_forensic_copies", "dns_firewall_logs", "dns_logs", "email_security_alerts", "email_security_post_delivery_events", "firewall_events", "gateway_dns", "gateway_http", "gateway_network", "http_requests", "ipsec_logs", "magic_ids_detections", "mcp_portal_logs", "nel_reports", "network_analytics_logs", "page_shield_events", "sinkhole_http_logs", "spectrum_events", "ssh_logs", "warp_config_changes", "warp_toggle_changes", "workers_trace_events", "zaraz_events", "zero_trust_network_sessions".
+            /// Available values: "access_requests", "audit_logs", "biso_user_actions", "casb_findings", "device_posture_results", "dlp_forensic_copies", "dns_firewall_logs", "dns_logs", "email_security_alerts", "firewall_events", "gateway_dns", "gateway_http", "gateway_network", "http_requests", "magic_ids_detections", "nel_reports", "network_analytics_logs", "page_shield_events", "sinkhole_http_logs", "spectrum_events", "ssh_logs", "workers_trace_events", "zaraz_events", "zero_trust_network_sessions".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#dataset LogpushJob#dataset}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#dataset LogpushJob#dataset}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dataset", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -279,7 +282,7 @@ namespace cloudflare.LogpushJob
 
             /// <summary>Flag that indicates if the job is enabled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#enabled LogpushJob#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#enabled LogpushJob#enabled}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -290,7 +293,7 @@ namespace cloudflare.LogpushJob
 
             /// <summary>The filters to select the events to include and/or remove from your logs. For more information, refer to [Filters](https://developers.cloudflare.com/logs/reference/filters/).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#filter LogpushJob#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#filter LogpushJob#filter}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -301,10 +304,10 @@ namespace cloudflare.LogpushJob
 
             /// <summary>This field is deprecated.</summary>
             /// <remarks>
-            /// Please use <c>max_upload_*</c> parameters instead. . The frequency at which Cloudflare sends batches of logs to your destination. Setting frequency to high sends your logs in larger quantities of smaller files. Setting frequency to low sends logs in smaller quantities of larger files.
+            /// Please use <c>max_upload_*</c> parameters instead. The frequency at which Cloudflare sends batches of logs to your destination. Setting frequency to high sends your logs in larger quantities of smaller files. Setting frequency to low sends logs in smaller quantities of larger files.
             /// Available values: "high", "low".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#frequency LogpushJob#frequency}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#frequency LogpushJob#frequency}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "frequency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -317,7 +320,7 @@ namespace cloudflare.LogpushJob
             /// <remarks>
             /// Available values: "", "edge".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#kind LogpushJob#kind}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#kind LogpushJob#kind}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -330,7 +333,7 @@ namespace cloudflare.LogpushJob
             /// <remarks>
             /// Use <c>output_options</c> instead. Configuration string. It specifies things like requested fields and timestamp formats. If migrating from the logpull api, copy the url (full url or just the query string) of your call here, and logpush will keep on making this call for you, setting start and end times appropriately.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#logpull_options LogpushJob#logpull_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#logpull_options LogpushJob#logpull_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "logpullOptions", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -342,8 +345,9 @@ namespace cloudflare.LogpushJob
             /// <summary>The maximum uncompressed file size of a batch of logs.</summary>
             /// <remarks>
             /// This setting value must be between <c>5 MB</c> and <c>1 GB</c>, or <c>0</c> to disable it. Note that you cannot set a minimum file size; this means that log files may be much smaller than this batch size.
+            /// Available values: 0.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#max_upload_bytes LogpushJob#max_upload_bytes}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#max_upload_bytes LogpushJob#max_upload_bytes}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxUploadBytes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -355,8 +359,9 @@ namespace cloudflare.LogpushJob
             /// <summary>The maximum interval in seconds for log batches.</summary>
             /// <remarks>
             /// This setting must be between 30 and 300 seconds (5 minutes), or <c>0</c> to disable it. Note that you cannot specify a minimum interval for log batches; this means that log files may be sent in shorter intervals than this.
+            /// Available values: 0.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#max_upload_interval_seconds LogpushJob#max_upload_interval_seconds}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#max_upload_interval_seconds LogpushJob#max_upload_interval_seconds}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxUploadIntervalSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -368,8 +373,9 @@ namespace cloudflare.LogpushJob
             /// <summary>The maximum number of log lines per batch.</summary>
             /// <remarks>
             /// This setting must be between 1000 and 1,000,000 lines, or <c>0</c> to disable it. Note that you cannot specify a minimum number of log lines per batch; this means that log files may contain many fewer lines than this.
+            /// Available values: 0.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#max_upload_records LogpushJob#max_upload_records}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#max_upload_records LogpushJob#max_upload_records}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxUploadRecords", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -380,9 +386,9 @@ namespace cloudflare.LogpushJob
 
             /// <summary>Optional human readable job name.</summary>
             /// <remarks>
-            /// Not unique. Cloudflare suggests. that you set this to a meaningful string, like the domain name, to make it easier to identify your job.
+            /// Not unique. Cloudflare suggests that you set this to a meaningful string, like the domain name, to make it easier to identify your job.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#name LogpushJob#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#name LogpushJob#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -393,7 +399,7 @@ namespace cloudflare.LogpushJob
 
             /// <summary>The structured replacement for `logpull_options`. When including this field, the `logpull_option` field will be ignored.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#output_options LogpushJob#output_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#output_options LogpushJob#output_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "outputOptions", typeJson: "{\"fqn\":\"cloudflare.logpushJob.LogpushJobOutputOptions\"}", isOptional: true)]
@@ -404,7 +410,7 @@ namespace cloudflare.LogpushJob
 
             /// <summary>Ownership challenge token to prove destination ownership.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#ownership_challenge LogpushJob#ownership_challenge}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#ownership_challenge LogpushJob#ownership_challenge}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ownershipChallenge", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -415,7 +421,7 @@ namespace cloudflare.LogpushJob
 
             /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_job#zone_id LogpushJob#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_job#zone_id LogpushJob#zone_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

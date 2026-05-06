@@ -7,9 +7,19 @@ namespace cloudflare.DataCloudflareFilters
     [JsiiInterface(nativeType: typeof(IDataCloudflareFiltersConfig), fullyQualifiedName: "cloudflare.dataCloudflareFilters.DataCloudflareFiltersConfig")]
     public interface IDataCloudflareFiltersConfig : Io.Cdktn.ITerraformMetaArguments
     {
+        /// <summary>Defines an identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/filters#zone_id DataCloudflareFilters#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        string ZoneId
+        {
+            get;
+        }
+
         /// <summary>A case-insensitive string to find in the description.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/filters#description DataCloudflareFilters#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/filters#description DataCloudflareFilters#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +33,7 @@ namespace cloudflare.DataCloudflareFilters
 
         /// <summary>A case-insensitive string to find in the expression.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/filters#expression DataCloudflareFilters#expression}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/filters#expression DataCloudflareFilters#expression}
         /// </remarks>
         [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +47,7 @@ namespace cloudflare.DataCloudflareFilters
 
         /// <summary>The unique identifier of the filter.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/filters#id DataCloudflareFilters#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/filters#id DataCloudflareFilters#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,7 +64,7 @@ namespace cloudflare.DataCloudflareFilters
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/filters#max_items DataCloudflareFilters#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/filters#max_items DataCloudflareFilters#max_items}
         /// </remarks>
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,7 +78,7 @@ namespace cloudflare.DataCloudflareFilters
 
         /// <summary>When true, indicates that the filter is currently paused.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/filters#paused DataCloudflareFilters#paused}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/filters#paused DataCloudflareFilters#paused}
         /// </remarks>
         [JsiiProperty(name: "paused", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -82,25 +92,11 @@ namespace cloudflare.DataCloudflareFilters
 
         /// <summary>The filter ref (a short reference tag) to search for. Must be an exact match.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/filters#ref DataCloudflareFilters#ref}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/filters#ref DataCloudflareFilters#ref}
         /// </remarks>
         [JsiiProperty(name: "ref", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Ref
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Defines an identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/filters#zone_id DataCloudflareFilters#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? ZoneId
         {
             get
             {
@@ -115,9 +111,19 @@ namespace cloudflare.DataCloudflareFilters
             {
             }
 
+            /// <summary>Defines an identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/filters#zone_id DataCloudflareFilters#zone_id}
+            /// </remarks>
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+            public string ZoneId
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
             /// <summary>A case-insensitive string to find in the description.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/filters#description DataCloudflareFilters#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/filters#description DataCloudflareFilters#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -128,7 +134,7 @@ namespace cloudflare.DataCloudflareFilters
 
             /// <summary>A case-insensitive string to find in the expression.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/filters#expression DataCloudflareFilters#expression}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/filters#expression DataCloudflareFilters#expression}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -139,7 +145,7 @@ namespace cloudflare.DataCloudflareFilters
 
             /// <summary>The unique identifier of the filter.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/filters#id DataCloudflareFilters#id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/filters#id DataCloudflareFilters#id}
             ///
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -153,7 +159,7 @@ namespace cloudflare.DataCloudflareFilters
 
             /// <summary>Max items to fetch, default: 1000.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/filters#max_items DataCloudflareFilters#max_items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/filters#max_items DataCloudflareFilters#max_items}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -164,7 +170,7 @@ namespace cloudflare.DataCloudflareFilters
 
             /// <summary>When true, indicates that the filter is currently paused.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/filters#paused DataCloudflareFilters#paused}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/filters#paused DataCloudflareFilters#paused}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "paused", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -175,22 +181,11 @@ namespace cloudflare.DataCloudflareFilters
 
             /// <summary>The filter ref (a short reference tag) to search for. Must be an exact match.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/filters#ref DataCloudflareFilters#ref}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/filters#ref DataCloudflareFilters#ref}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ref", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Ref
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
-            /// <summary>Defines an identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/filters#zone_id DataCloudflareFilters#zone_id}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? ZoneId
             {
                 get => GetInstanceProperty<string?>();
             }

@@ -7,9 +7,9 @@ namespace cloudflare.Ruleset
     [JsiiByValue(fqn: "cloudflare.ruleset.RulesetRulesActionParametersOrigin")]
     public class RulesetRulesActionParametersOrigin : cloudflare.Ruleset.IRulesetRulesActionParametersOrigin
     {
-        /// <summary>A resolved host to route to.</summary>
+        /// <summary>Override the resolved hostname.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#host Ruleset#host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#host Ruleset#host}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,9 +19,9 @@ namespace cloudflare.Ruleset
             set;
         }
 
-        /// <summary>A destination port to route to.</summary>
+        /// <summary>Override the destination port.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#port Ruleset#port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#port Ruleset#port}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

@@ -105,12 +105,6 @@ namespace cloudflare.DataCloudflareZeroTrustGatewayPolicy
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "wmId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string WmId
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustGatewayPolicy.DataCloudflareZeroTrustGatewayPolicyRuleSettingsBisoAdminControls\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareZeroTrustGatewayPolicy.IDataCloudflareZeroTrustGatewayPolicyRuleSettingsBisoAdminControls? InternalValue

@@ -9,9 +9,9 @@ namespace cloudflare.DataCloudflareCustomPages
     [JsiiByValue(fqn: "cloudflare.dataCloudflareCustomPages.DataCloudflareCustomPagesConfig")]
     public class DataCloudflareCustomPagesConfig : cloudflare.DataCloudflareCustomPages.IDataCloudflareCustomPagesConfig
     {
-        /// <summary>Error Page Types Available values: "1000_errors", "500_errors", "basic_challenge", "country_challenge", "ip_block", "managed_challenge", "ratelimit_block", "under_attack", "waf_block", "waf_challenge".</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/custom_pages#identifier DataCloudflareCustomPages#identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/custom_pages#identifier DataCloudflareCustomPages#identifier}
         /// </remarks>
         [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
         public string Identifier
@@ -22,7 +22,7 @@ namespace cloudflare.DataCloudflareCustomPages
 
         /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/custom_pages#account_id DataCloudflareCustomPages#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/custom_pages#account_id DataCloudflareCustomPages#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace cloudflare.DataCloudflareCustomPages
 
         /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/custom_pages#zone_id DataCloudflareCustomPages#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/custom_pages#zone_id DataCloudflareCustomPages#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

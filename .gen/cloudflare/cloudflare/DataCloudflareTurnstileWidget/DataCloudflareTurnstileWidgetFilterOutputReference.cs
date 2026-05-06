@@ -39,12 +39,6 @@ namespace cloudflare.DataCloudflareTurnstileWidget
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetFilter")]
-        public virtual void ResetFilter()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetOrder")]
         public virtual void ResetOrder()
         {
@@ -59,13 +53,6 @@ namespace cloudflare.DataCloudflareTurnstileWidget
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "filterInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? FilterInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
         [JsiiProperty(name: "orderInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? OrderInput
         {
@@ -74,13 +61,6 @@ namespace cloudflare.DataCloudflareTurnstileWidget
 
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Direction
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "filter", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Filter
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

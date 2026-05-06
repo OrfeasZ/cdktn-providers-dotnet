@@ -9,9 +9,9 @@ namespace cloudflare.PageShieldPolicy
     [JsiiByValue(fqn: "cloudflare.pageShieldPolicy.PageShieldPolicyConfig")]
     public class PageShieldPolicyConfig : cloudflare.PageShieldPolicy.IPageShieldPolicyConfig
     {
-        /// <summary>The action to take if the expression matches Available values: "allow", "log", "add_reporting_directives".</summary>
+        /// <summary>The action to take if the expression matches Available values: "allow", "log".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/page_shield_policy#action PageShieldPolicy#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/page_shield_policy#action PageShieldPolicy#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         public string Action
@@ -22,7 +22,7 @@ namespace cloudflare.PageShieldPolicy
 
         /// <summary>A description for the policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/page_shield_policy#description PageShieldPolicy#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/page_shield_policy#description PageShieldPolicy#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public string Description
@@ -35,7 +35,7 @@ namespace cloudflare.PageShieldPolicy
 
         /// <summary>Whether the policy is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/page_shield_policy#enabled PageShieldPolicy#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/page_shield_policy#enabled PageShieldPolicy#enabled}
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object Enabled
@@ -66,7 +66,7 @@ namespace cloudflare.PageShieldPolicy
 
         /// <summary>The expression which must match for the policy to be applied, using the Cloudflare Firewall rule expression syntax.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/page_shield_policy#expression PageShieldPolicy#expression}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/page_shield_policy#expression PageShieldPolicy#expression}
         /// </remarks>
         [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}")]
         public string Expression
@@ -77,7 +77,7 @@ namespace cloudflare.PageShieldPolicy
 
         /// <summary>The policy which will be applied.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/page_shield_policy#value PageShieldPolicy#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/page_shield_policy#value PageShieldPolicy#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
@@ -88,11 +88,10 @@ namespace cloudflare.PageShieldPolicy
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/page_shield_policy#zone_id PageShieldPolicy#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/page_shield_policy#zone_id PageShieldPolicy#zone_id}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? ZoneId
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        public string ZoneId
         {
             get;
             set;

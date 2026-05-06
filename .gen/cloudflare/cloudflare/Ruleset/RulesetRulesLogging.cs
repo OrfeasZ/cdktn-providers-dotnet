@@ -4,18 +4,19 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.Ruleset
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "cloudflare.ruleset.RulesetRulesLogging")]
     public class RulesetRulesLogging : cloudflare.Ruleset.IRulesetRulesLogging
     {
-        private object? _enabled;
+        private object _enabled;
 
         /// <summary>Whether to generate a log when the rule matches.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#enabled Ruleset#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#enabled Ruleset#enabled}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public object? Enabled
+        [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public object Enabled
         {
             get => _enabled;
             set
@@ -32,7 +33,7 @@ namespace cloudflare.Ruleset
                             // Not enough information to type-check...
                             break;
                         case null:
-                            break;
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
                         default:
                             throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
                     }

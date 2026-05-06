@@ -47,14 +47,14 @@ namespace cloudflare.Queue
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "deadLetterQueue", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string DeadLetterQueue
+        [JsiiProperty(name: "queueId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string QueueId
         {
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "queueName", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string QueueName
+        [JsiiProperty(name: "script", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Script
         {
             get => GetInstanceProperty<string>()!;
         }

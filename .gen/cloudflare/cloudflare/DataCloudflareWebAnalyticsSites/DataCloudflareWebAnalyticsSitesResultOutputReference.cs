@@ -47,12 +47,6 @@ namespace cloudflare.DataCloudflareWebAnalyticsSites
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Id
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "rules", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWebAnalyticsSites.DataCloudflareWebAnalyticsSitesResultRulesList\"}")]
         public virtual cloudflare.DataCloudflareWebAnalyticsSites.DataCloudflareWebAnalyticsSitesResultRulesList Rules
         {

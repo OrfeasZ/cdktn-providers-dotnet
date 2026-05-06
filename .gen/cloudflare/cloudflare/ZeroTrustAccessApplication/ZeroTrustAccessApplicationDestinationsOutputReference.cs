@@ -53,12 +53,6 @@ namespace cloudflare.ZeroTrustAccessApplication
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetMcpServerId")]
-        public virtual void ResetMcpServerId()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetPortRange")]
         public virtual void ResetPortRange()
         {
@@ -100,13 +94,6 @@ namespace cloudflare.ZeroTrustAccessApplication
         [JsiiOptional]
         [JsiiProperty(name: "l4ProtocolInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? L4ProtocolInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "mcpServerIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? McpServerIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -155,13 +142,6 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         [JsiiProperty(name: "l4Protocol", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string L4Protocol
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "mcpServerId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string McpServerId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

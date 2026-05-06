@@ -7,9 +7,9 @@ namespace cloudflare.DataCloudflareRulesets
     [JsiiByValue(fqn: "cloudflare.dataCloudflareRulesets.DataCloudflareRulesetsConfig")]
     public class DataCloudflareRulesetsConfig : cloudflare.DataCloudflareRulesets.IDataCloudflareRulesetsConfig
     {
-        /// <summary>The unique ID of the account.</summary>
+        /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/rulesets#account_id DataCloudflareRulesets#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/rulesets#account_id DataCloudflareRulesets#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,9 +19,9 @@ namespace cloudflare.DataCloudflareRulesets
             set;
         }
 
-        /// <summary>Maximum number of rulesets to fetch (defaults to 1000).</summary>
+        /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/rulesets#max_items DataCloudflareRulesets#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/rulesets#max_items DataCloudflareRulesets#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -31,9 +31,9 @@ namespace cloudflare.DataCloudflareRulesets
             set;
         }
 
-        /// <summary>The unique ID of the zone.</summary>
+        /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/rulesets#zone_id DataCloudflareRulesets#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/rulesets#zone_id DataCloudflareRulesets#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

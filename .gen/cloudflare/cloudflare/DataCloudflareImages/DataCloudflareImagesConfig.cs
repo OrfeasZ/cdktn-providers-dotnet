@@ -4,30 +4,17 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareImages
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "cloudflare.dataCloudflareImages.DataCloudflareImagesConfig")]
     public class DataCloudflareImagesConfig : cloudflare.DataCloudflareImages.IDataCloudflareImagesConfig
     {
         /// <summary>Account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/images#account_id DataCloudflareImages#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/images#account_id DataCloudflareImages#account_id}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Internal user ID set within the creator field.</summary>
-        /// <remarks>
-        /// Setting to empty string "" will return images where creator field is not set
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/images#creator DataCloudflareImages#creator}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "creator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Creator
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
         {
             get;
             set;
@@ -35,7 +22,7 @@ namespace cloudflare.DataCloudflareImages
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/images#max_items DataCloudflareImages#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/images#max_items DataCloudflareImages#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

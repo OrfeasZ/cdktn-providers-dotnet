@@ -9,9 +9,20 @@ namespace cloudflare.R2Bucket
     [JsiiByValue(fqn: "cloudflare.r2Bucket.R2BucketConfig")]
     public class R2BucketConfig : cloudflare.R2Bucket.IR2BucketConfig
     {
+        /// <summary>Account ID.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/r2_bucket#account_id R2Bucket#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
+        {
+            get;
+            set;
+        }
+
         /// <summary>Name of the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/r2_bucket#name R2Bucket#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/r2_bucket#name R2Bucket#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -20,21 +31,9 @@ namespace cloudflare.R2Bucket
             set;
         }
 
-        /// <summary>Account ID.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/r2_bucket#account_id R2Bucket#account_id}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
-        {
-            get;
-            set;
-        }
-
         /// <summary>Jurisdiction where objects in this bucket are guaranteed to be stored. Available values: "default", "eu", "fedramp".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/r2_bucket#jurisdiction R2Bucket#jurisdiction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/r2_bucket#jurisdiction R2Bucket#jurisdiction}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -44,11 +43,9 @@ namespace cloudflare.R2Bucket
             set;
         }
 
-        /// <summary>Location of the bucket.</summary>
+        /// <summary>Location of the bucket. Available values: "apac", "eeur", "enam", "weur", "wnam", "oc".</summary>
         /// <remarks>
-        /// Available values: "apac", "eeur", "enam", "weur", "wnam", "oc".  Note: <c>location</c> is only honored the first time a bucket with a given name is created. If you delete and recreate a bucket with the same name, the original bucket location will be used. It is also a best-effort, not a guarantee, of bucket location.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/r2_bucket#location R2Bucket#location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/r2_bucket#location R2Bucket#location}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -60,7 +57,7 @@ namespace cloudflare.R2Bucket
 
         /// <summary>Storage class for newly uploaded objects, unless specified otherwise. Available values: "Standard", "InfrequentAccess".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/r2_bucket#storage_class R2Bucket#storage_class}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/r2_bucket#storage_class R2Bucket#storage_class}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "storageClass", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

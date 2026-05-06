@@ -7,27 +7,23 @@ namespace cloudflare.DataCloudflareKeylessCertificates
     [JsiiInterface(nativeType: typeof(IDataCloudflareKeylessCertificatesConfig), fullyQualifiedName: "cloudflare.dataCloudflareKeylessCertificates.DataCloudflareKeylessCertificatesConfig")]
     public interface IDataCloudflareKeylessCertificatesConfig : Io.Cdktn.ITerraformMetaArguments
     {
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/keyless_certificates#zone_id DataCloudflareKeylessCertificates#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        string ZoneId
+        {
+            get;
+        }
+
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/keyless_certificates#max_items DataCloudflareKeylessCertificates#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/keyless_certificates#max_items DataCloudflareKeylessCertificates#max_items}
         /// </remarks>
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxItems
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/keyless_certificates#zone_id DataCloudflareKeylessCertificates#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? ZoneId
         {
             get
             {
@@ -42,26 +38,25 @@ namespace cloudflare.DataCloudflareKeylessCertificates
             {
             }
 
+            /// <summary>Identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/keyless_certificates#zone_id DataCloudflareKeylessCertificates#zone_id}
+            /// </remarks>
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+            public string ZoneId
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
             /// <summary>Max items to fetch, default: 1000.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/keyless_certificates#max_items DataCloudflareKeylessCertificates#max_items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/keyless_certificates#max_items DataCloudflareKeylessCertificates#max_items}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxItems
             {
                 get => GetInstanceProperty<double?>();
-            }
-
-            /// <summary>Identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/keyless_certificates#zone_id DataCloudflareKeylessCertificates#zone_id}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? ZoneId
-            {
-                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

@@ -35,12 +35,6 @@ namespace cloudflare.DataCloudflareWorkersCustomDomains
         {
         }
 
-        [JsiiProperty(name: "certId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string CertId
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "environment", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Environment
         {

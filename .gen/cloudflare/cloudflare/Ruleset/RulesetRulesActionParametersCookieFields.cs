@@ -9,9 +9,9 @@ namespace cloudflare.Ruleset
     [JsiiByValue(fqn: "cloudflare.ruleset.RulesetRulesActionParametersCookieFields")]
     public class RulesetRulesActionParametersCookieFields : cloudflare.Ruleset.IRulesetRulesActionParametersCookieFields
     {
-        /// <summary>The name of the cookie.</summary>
+        /// <summary>The name of the field.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#name Ruleset#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#name Ruleset#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name

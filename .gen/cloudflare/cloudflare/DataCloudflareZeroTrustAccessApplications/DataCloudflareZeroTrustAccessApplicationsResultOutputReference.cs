@@ -89,6 +89,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessApplications
             get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessApplications.DataCloudflareZeroTrustAccessApplicationsResultCorsHeadersOutputReference>()!;
         }
 
+        [JsiiProperty(name: "createdAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CreatedAt
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "customDenyMessage", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CustomDenyMessage
         {
@@ -165,12 +171,6 @@ namespace cloudflare.DataCloudflareZeroTrustAccessApplications
         public virtual string LogoUrl
         {
             get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "mfaConfig", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessApplications.DataCloudflareZeroTrustAccessApplicationsResultMfaConfigOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareZeroTrustAccessApplications.DataCloudflareZeroTrustAccessApplicationsResultMfaConfigOutputReference MfaConfig
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessApplications.DataCloudflareZeroTrustAccessApplicationsResultMfaConfigOutputReference>()!;
         }
 
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
@@ -265,6 +265,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessApplications
 
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Type
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "updatedAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UpdatedAt
         {
             get => GetInstanceProperty<string>()!;
         }

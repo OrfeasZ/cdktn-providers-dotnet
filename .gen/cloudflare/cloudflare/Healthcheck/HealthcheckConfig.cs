@@ -11,7 +11,7 @@ namespace cloudflare.Healthcheck
     {
         /// <summary>The hostname or IP address of the origin server to run health checks on.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/healthcheck#address Healthcheck#address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/healthcheck#address Healthcheck#address}
         /// </remarks>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
         public string Address
@@ -22,7 +22,7 @@ namespace cloudflare.Healthcheck
 
         /// <summary>A short name to identify the health check. Only alphanumeric characters, hyphens and underscores are allowed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/healthcheck#name Healthcheck#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/healthcheck#name Healthcheck#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -31,9 +31,20 @@ namespace cloudflare.Healthcheck
             set;
         }
 
+        /// <summary>Identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/healthcheck#zone_id Healthcheck#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        public string ZoneId
+        {
+            get;
+            set;
+        }
+
         /// <summary>A list of regions from which to run health checks. Null means Cloudflare will pick a default region.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/healthcheck#check_regions Healthcheck#check_regions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/healthcheck#check_regions Healthcheck#check_regions}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "checkRegions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -45,7 +56,7 @@ namespace cloudflare.Healthcheck
 
         /// <summary>The number of consecutive fails required from a health check before changing the health to unhealthy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/healthcheck#consecutive_fails Healthcheck#consecutive_fails}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/healthcheck#consecutive_fails Healthcheck#consecutive_fails}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "consecutiveFails", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -57,7 +68,7 @@ namespace cloudflare.Healthcheck
 
         /// <summary>The number of consecutive successes required from a health check before changing the health to healthy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/healthcheck#consecutive_successes Healthcheck#consecutive_successes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/healthcheck#consecutive_successes Healthcheck#consecutive_successes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "consecutiveSuccesses", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -69,7 +80,7 @@ namespace cloudflare.Healthcheck
 
         /// <summary>A human-readable description of the health check.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/healthcheck#description Healthcheck#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/healthcheck#description Healthcheck#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -81,7 +92,7 @@ namespace cloudflare.Healthcheck
 
         /// <summary>Parameters specific to an HTTP or HTTPS health check.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/healthcheck#http_config Healthcheck#http_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/healthcheck#http_config Healthcheck#http_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpConfig", typeJson: "{\"fqn\":\"cloudflare.healthcheck.HealthcheckHttpConfig\"}", isOptional: true)]
@@ -95,7 +106,7 @@ namespace cloudflare.Healthcheck
         /// <remarks>
         /// Shorter intervals may give quicker notifications if the origin status changes, but will increase load on the origin as we check from multiple locations.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/healthcheck#interval Healthcheck#interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/healthcheck#interval Healthcheck#interval}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -109,7 +120,7 @@ namespace cloudflare.Healthcheck
         /// <remarks>
         /// Retries are attempted immediately.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/healthcheck#retries Healthcheck#retries}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/healthcheck#retries Healthcheck#retries}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retries", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -123,7 +134,7 @@ namespace cloudflare.Healthcheck
 
         /// <summary>If suspended, no health checks are sent to the origin.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/healthcheck#suspended Healthcheck#suspended}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/healthcheck#suspended Healthcheck#suspended}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "suspended", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -155,7 +166,7 @@ namespace cloudflare.Healthcheck
 
         /// <summary>Parameters specific to TCP health check.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/healthcheck#tcp_config Healthcheck#tcp_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/healthcheck#tcp_config Healthcheck#tcp_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tcpConfig", typeJson: "{\"fqn\":\"cloudflare.healthcheck.HealthcheckTcpConfig\"}", isOptional: true)]
@@ -167,7 +178,7 @@ namespace cloudflare.Healthcheck
 
         /// <summary>The timeout (in seconds) before marking the health check as failed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/healthcheck#timeout Healthcheck#timeout}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/healthcheck#timeout Healthcheck#timeout}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -179,23 +190,11 @@ namespace cloudflare.Healthcheck
 
         /// <summary>The protocol to use for the health check. Currently supported protocols are 'HTTP', 'HTTPS' and 'TCP'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/healthcheck#type Healthcheck#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/healthcheck#type Healthcheck#type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/healthcheck#zone_id Healthcheck#zone_id}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? ZoneId
         {
             get;
             set;

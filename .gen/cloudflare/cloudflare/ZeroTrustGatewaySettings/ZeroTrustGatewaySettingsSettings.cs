@@ -7,9 +7,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
     [JsiiByValue(fqn: "cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettings")]
     public class ZeroTrustGatewaySettingsSettings : cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettings
     {
-        /// <summary>Specify activity log settings.</summary>
+        /// <summary>Activity log settings.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#activity_log ZeroTrustGatewaySettings#activity_log}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#activity_log ZeroTrustGatewaySettings#activity_log}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "activityLog", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsActivityLog\"}", isOptional: true)]
@@ -19,9 +19,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             set;
         }
 
-        /// <summary>Specify anti-virus settings.</summary>
+        /// <summary>Anti-virus settings.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#antivirus ZeroTrustGatewaySettings#antivirus}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#antivirus ZeroTrustGatewaySettings#antivirus}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "antivirus", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsAntivirus\"}", isOptional: true)]
@@ -31,9 +31,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             set;
         }
 
-        /// <summary>Specify block page layout settings.</summary>
+        /// <summary>Block page layout settings.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#block_page ZeroTrustGatewaySettings#block_page}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#block_page ZeroTrustGatewaySettings#block_page}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "blockPage", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsBlockPage\"}", isOptional: true)]
@@ -43,9 +43,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             set;
         }
 
-        /// <summary>Specify the DLP inspection mode.</summary>
+        /// <summary>DLP body scanning settings.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#body_scanning ZeroTrustGatewaySettings#body_scanning}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#body_scanning ZeroTrustGatewaySettings#body_scanning}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bodyScanning", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsBodyScanning\"}", isOptional: true)]
@@ -55,9 +55,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             set;
         }
 
-        /// <summary>Specify Clientless Browser Isolation settings.</summary>
+        /// <summary>Browser isolation settings.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#browser_isolation ZeroTrustGatewaySettings#browser_isolation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#browser_isolation ZeroTrustGatewaySettings#browser_isolation}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "browserIsolation", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsBrowserIsolation\"}", isOptional: true)]
@@ -67,9 +67,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             set;
         }
 
-        /// <summary>Specify certificate settings for Gateway TLS interception. If unset, the Cloudflare Root CA handles interception.</summary>
+        /// <summary>Certificate settings for Gateway TLS interception. If not specified, the Cloudflare Root CA will be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#certificate ZeroTrustGatewaySettings#certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#certificate ZeroTrustGatewaySettings#certificate}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "certificate", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsCertificate\"}", isOptional: true)]
@@ -79,9 +79,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             set;
         }
 
-        /// <summary>Specify custom certificate settings for BYO-PKI. This field is deprecated; use `certificate` instead.</summary>
+        /// <summary>Custom certificate settings for BYO-PKI. (deprecated and replaced by `certificate`).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#custom_certificate ZeroTrustGatewaySettings#custom_certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#custom_certificate ZeroTrustGatewaySettings#custom_certificate}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customCertificate", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsCustomCertificate\"}", isOptional: true)]
@@ -91,11 +91,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             set;
         }
 
-        /// <summary>Configures user email settings for firewall policies.</summary>
+        /// <summary>Extended e-mail matching settings.</summary>
         /// <remarks>
-        /// When you enable this, the system standardizes email addresses in the identity portion of the rule to match extended email variants in firewall policies. When you disable this setting, the system matches email addresses exactly as you provide them. Enable this setting if your email uses <c>.</c> or <c>+</c> modifiers.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#extended_email_matching ZeroTrustGatewaySettings#extended_email_matching}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#extended_email_matching ZeroTrustGatewaySettings#extended_email_matching}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "extendedEmailMatching", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsExtendedEmailMatching\"}", isOptional: true)]
@@ -105,9 +103,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             set;
         }
 
-        /// <summary>Specify FIPS settings.</summary>
+        /// <summary>FIPS settings.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#fips ZeroTrustGatewaySettings#fips}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#fips ZeroTrustGatewaySettings#fips}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fips", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsFips\"}", isOptional: true)]
@@ -117,9 +115,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             set;
         }
 
-        /// <summary>Enable host selection in egress policies.</summary>
+        /// <summary>Setting to enable host selector in egress policies.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#host_selector ZeroTrustGatewaySettings#host_selector}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#host_selector ZeroTrustGatewaySettings#host_selector}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hostSelector", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsHostSelector\"}", isOptional: true)]
@@ -129,21 +127,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             set;
         }
 
-        /// <summary>Define the proxy inspection mode.</summary>
+        /// <summary>Protocol Detection settings.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#inspection ZeroTrustGatewaySettings#inspection}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "inspection", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsInspection\"}", isOptional: true)]
-        public cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsInspection? Inspection
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Specify whether to detect protocols from the initial bytes of client traffic.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#protocol_detection ZeroTrustGatewaySettings#protocol_detection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#protocol_detection ZeroTrustGatewaySettings#protocol_detection}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "protocolDetection", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsProtocolDetection\"}", isOptional: true)]
@@ -153,9 +139,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             set;
         }
 
-        /// <summary>Specify whether to enable the sandbox.</summary>
+        /// <summary>Sandbox settings.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#sandbox ZeroTrustGatewaySettings#sandbox}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#sandbox ZeroTrustGatewaySettings#sandbox}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sandbox", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsSandbox\"}", isOptional: true)]
@@ -165,9 +151,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             set;
         }
 
-        /// <summary>Specify whether to inspect encrypted HTTP traffic.</summary>
+        /// <summary>TLS interception settings.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#tls_decrypt ZeroTrustGatewaySettings#tls_decrypt}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#tls_decrypt ZeroTrustGatewaySettings#tls_decrypt}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tlsDecrypt", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsTlsDecrypt\"}", isOptional: true)]

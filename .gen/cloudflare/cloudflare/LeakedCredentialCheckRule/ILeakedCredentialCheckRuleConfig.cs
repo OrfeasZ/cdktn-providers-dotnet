@@ -7,9 +7,19 @@ namespace cloudflare.LeakedCredentialCheckRule
     [JsiiInterface(nativeType: typeof(ILeakedCredentialCheckRuleConfig), fullyQualifiedName: "cloudflare.leakedCredentialCheckRule.LeakedCredentialCheckRuleConfig")]
     public interface ILeakedCredentialCheckRuleConfig : Io.Cdktn.ITerraformMetaArguments
     {
+        /// <summary>Defines an identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/leaked_credential_check_rule#zone_id LeakedCredentialCheckRule#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        string ZoneId
+        {
+            get;
+        }
+
         /// <summary>Defines ehe ruleset expression to use in matching the password in a request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/leaked_credential_check_rule#password LeakedCredentialCheckRule#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/leaked_credential_check_rule#password LeakedCredentialCheckRule#password}
         /// </remarks>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,25 +33,11 @@ namespace cloudflare.LeakedCredentialCheckRule
 
         /// <summary>Defines the ruleset expression to use in matching the username in a request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/leaked_credential_check_rule#username LeakedCredentialCheckRule#username}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/leaked_credential_check_rule#username LeakedCredentialCheckRule#username}
         /// </remarks>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Username
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Defines an identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/leaked_credential_check_rule#zone_id LeakedCredentialCheckRule#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? ZoneId
         {
             get
             {
@@ -56,9 +52,19 @@ namespace cloudflare.LeakedCredentialCheckRule
             {
             }
 
+            /// <summary>Defines an identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/leaked_credential_check_rule#zone_id LeakedCredentialCheckRule#zone_id}
+            /// </remarks>
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+            public string ZoneId
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
             /// <summary>Defines ehe ruleset expression to use in matching the password in a request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/leaked_credential_check_rule#password LeakedCredentialCheckRule#password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/leaked_credential_check_rule#password LeakedCredentialCheckRule#password}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -69,22 +75,11 @@ namespace cloudflare.LeakedCredentialCheckRule
 
             /// <summary>Defines the ruleset expression to use in matching the username in a request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/leaked_credential_check_rule#username LeakedCredentialCheckRule#username}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/leaked_credential_check_rule#username LeakedCredentialCheckRule#username}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Username
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
-            /// <summary>Defines an identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/leaked_credential_check_rule#zone_id LeakedCredentialCheckRule#zone_id}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? ZoneId
             {
                 get => GetInstanceProperty<string?>();
             }

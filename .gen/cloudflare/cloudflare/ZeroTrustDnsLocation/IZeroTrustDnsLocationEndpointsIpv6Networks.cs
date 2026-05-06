@@ -7,9 +7,9 @@ namespace cloudflare.ZeroTrustDnsLocation
     [JsiiInterface(nativeType: typeof(IZeroTrustDnsLocationEndpointsIpv6Networks), fullyQualifiedName: "cloudflare.zeroTrustDnsLocation.ZeroTrustDnsLocationEndpointsIpv6Networks")]
     public interface IZeroTrustDnsLocationEndpointsIpv6Networks
     {
-        /// <summary>Specify the IPv6 address or IPv6 CIDR.</summary>
+        /// <summary>The IPv6 address or IPv6 CIDR.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_dns_location#network ZeroTrustDnsLocation#network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_dns_location#network ZeroTrustDnsLocation#network}
         /// </remarks>
         [JsiiProperty(name: "network", typeJson: "{\"primitive\":\"string\"}")]
         string Network
@@ -24,9 +24,9 @@ namespace cloudflare.ZeroTrustDnsLocation
             {
             }
 
-            /// <summary>Specify the IPv6 address or IPv6 CIDR.</summary>
+            /// <summary>The IPv6 address or IPv6 CIDR.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_dns_location#network ZeroTrustDnsLocation#network}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_dns_location#network ZeroTrustDnsLocation#network}
             /// </remarks>
             [JsiiProperty(name: "network", typeJson: "{\"primitive\":\"string\"}")]
             public string Network

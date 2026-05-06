@@ -4,17 +4,16 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.Snippets
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.snippets.SnippetsMetadata")]
     public class SnippetsMetadata : cloudflare.Snippets.ISnippetsMetadata
     {
-        /// <summary>Name of the file that contains the main module of the snippet.</summary>
+        /// <summary>Main module name of uploaded snippet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/snippets#main_module Snippets#main_module}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/snippets#main_module Snippets#main_module}
         /// </remarks>
-        [JsiiProperty(name: "mainModule", typeJson: "{\"primitive\":\"string\"}")]
-        public string MainModule
+        [JsiiOptional]
+        [JsiiProperty(name: "mainModule", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? MainModule
         {
             get;
             set;

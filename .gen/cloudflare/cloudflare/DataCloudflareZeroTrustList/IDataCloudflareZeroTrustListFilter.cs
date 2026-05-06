@@ -7,9 +7,9 @@ namespace cloudflare.DataCloudflareZeroTrustList
     [JsiiInterface(nativeType: typeof(IDataCloudflareZeroTrustListFilter), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustList.DataCloudflareZeroTrustListFilter")]
     public interface IDataCloudflareZeroTrustListFilter
     {
-        /// <summary>Specify the list type. Available values: "SERIAL", "URL", "DOMAIN", "EMAIL", "IP", "CATEGORY", "LOCATION", "DEVICE", "AAGUID".</summary>
+        /// <summary>The type of list. Available values: "SERIAL", "URL", "DOMAIN", "EMAIL", "IP".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zero_trust_list#type DataCloudflareZeroTrustList#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zero_trust_list#type DataCloudflareZeroTrustList#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,9 +28,9 @@ namespace cloudflare.DataCloudflareZeroTrustList
             {
             }
 
-            /// <summary>Specify the list type. Available values: "SERIAL", "URL", "DOMAIN", "EMAIL", "IP", "CATEGORY", "LOCATION", "DEVICE", "AAGUID".</summary>
+            /// <summary>The type of list. Available values: "SERIAL", "URL", "DOMAIN", "EMAIL", "IP".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zero_trust_list#type DataCloudflareZeroTrustList#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zero_trust_list#type DataCloudflareZeroTrustList#type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

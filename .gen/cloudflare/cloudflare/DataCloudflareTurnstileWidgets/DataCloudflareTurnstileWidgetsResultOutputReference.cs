@@ -65,12 +65,6 @@ namespace cloudflare.DataCloudflareTurnstileWidgets
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Id
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Mode
         {

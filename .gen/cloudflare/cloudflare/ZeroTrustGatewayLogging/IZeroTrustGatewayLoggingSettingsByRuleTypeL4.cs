@@ -7,9 +7,9 @@ namespace cloudflare.ZeroTrustGatewayLogging
     [JsiiInterface(nativeType: typeof(IZeroTrustGatewayLoggingSettingsByRuleTypeL4), fullyQualifiedName: "cloudflare.zeroTrustGatewayLogging.ZeroTrustGatewayLoggingSettingsByRuleTypeL4")]
     public interface IZeroTrustGatewayLoggingSettingsByRuleTypeL4
     {
-        /// <summary>Specify whether to log all requests to this service.</summary>
+        /// <summary>Log all requests to this service.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_logging#log_all ZeroTrustGatewayLogging#log_all}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_logging#log_all ZeroTrustGatewayLogging#log_all}
         /// </remarks>
         [JsiiProperty(name: "logAll", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,9 +21,9 @@ namespace cloudflare.ZeroTrustGatewayLogging
             }
         }
 
-        /// <summary>Specify whether to log only blocking requests to this service.</summary>
+        /// <summary>Log only blocking requests to this service.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_logging#log_blocks ZeroTrustGatewayLogging#log_blocks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_logging#log_blocks ZeroTrustGatewayLogging#log_blocks}
         /// </remarks>
         [JsiiProperty(name: "logBlocks", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,9 +42,9 @@ namespace cloudflare.ZeroTrustGatewayLogging
             {
             }
 
-            /// <summary>Specify whether to log all requests to this service.</summary>
+            /// <summary>Log all requests to this service.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_logging#log_all ZeroTrustGatewayLogging#log_all}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_logging#log_all ZeroTrustGatewayLogging#log_all}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "logAll", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -53,9 +53,9 @@ namespace cloudflare.ZeroTrustGatewayLogging
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Specify whether to log only blocking requests to this service.</summary>
+            /// <summary>Log only blocking requests to this service.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_logging#log_blocks ZeroTrustGatewayLogging#log_blocks}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_logging#log_blocks ZeroTrustGatewayLogging#log_blocks}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "logBlocks", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

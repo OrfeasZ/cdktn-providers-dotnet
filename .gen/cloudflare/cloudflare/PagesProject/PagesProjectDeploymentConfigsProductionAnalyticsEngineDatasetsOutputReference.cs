@@ -34,6 +34,12 @@ namespace cloudflare.PagesProject
         {
         }
 
+        [JsiiMethod(name: "resetDataset")]
+        public virtual void ResetDataset()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "datasetInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DatasetInput

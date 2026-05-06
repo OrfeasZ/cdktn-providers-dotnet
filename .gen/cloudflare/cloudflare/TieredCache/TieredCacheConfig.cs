@@ -9,9 +9,9 @@ namespace cloudflare.TieredCache
     [JsiiByValue(fqn: "cloudflare.tieredCache.TieredCacheConfig")]
     public class TieredCacheConfig : cloudflare.TieredCache.ITieredCacheConfig
     {
-        /// <summary>Enable or disable the Smart Tiered Cache. Available values: "on", "off".</summary>
+        /// <summary>Enable or disable the Smart Tiered Cache Available values: "on", "off".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/tiered_cache#value TieredCache#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/tiered_cache#value TieredCache#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
@@ -22,7 +22,7 @@ namespace cloudflare.TieredCache
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/tiered_cache#zone_id TieredCache#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/tiered_cache#zone_id TieredCache#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId

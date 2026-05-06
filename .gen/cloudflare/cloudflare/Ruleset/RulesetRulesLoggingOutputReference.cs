@@ -33,12 +33,6 @@ namespace cloudflare.Ruleset
         {
         }
 
-        [JsiiMethod(name: "resetEnabled")]
-        public virtual void ResetEnabled()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput

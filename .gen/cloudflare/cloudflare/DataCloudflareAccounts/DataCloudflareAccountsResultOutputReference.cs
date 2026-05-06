@@ -47,12 +47,6 @@ namespace cloudflare.DataCloudflareAccounts
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "managedBy", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAccounts.DataCloudflareAccountsResultManagedByOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareAccounts.DataCloudflareAccountsResultManagedByOutputReference ManagedBy
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareAccounts.DataCloudflareAccountsResultManagedByOutputReference>()!;
-        }
-
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
         {
@@ -63,12 +57,6 @@ namespace cloudflare.DataCloudflareAccounts
         public virtual cloudflare.DataCloudflareAccounts.DataCloudflareAccountsResultSettingsOutputReference Settings
         {
             get => GetInstanceProperty<cloudflare.DataCloudflareAccounts.DataCloudflareAccountsResultSettingsOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Type
-        {
-            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiOptional]

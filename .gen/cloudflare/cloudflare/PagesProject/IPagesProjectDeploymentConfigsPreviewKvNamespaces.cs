@@ -9,12 +9,16 @@ namespace cloudflare.PagesProject
     {
         /// <summary>ID of the KV namespace.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#namespace_id PagesProject#namespace_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#namespace_id PagesProject#namespace_id}
         /// </remarks>
-        [JsiiProperty(name: "namespaceId", typeJson: "{\"primitive\":\"string\"}")]
-        string NamespaceId
+        [JsiiProperty(name: "namespaceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? NamespaceId
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IPagesProjectDeploymentConfigsPreviewKvNamespaces), fullyQualifiedName: "cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewKvNamespaces")]
@@ -26,12 +30,13 @@ namespace cloudflare.PagesProject
 
             /// <summary>ID of the KV namespace.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_project#namespace_id PagesProject#namespace_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_project#namespace_id PagesProject#namespace_id}
             /// </remarks>
-            [JsiiProperty(name: "namespaceId", typeJson: "{\"primitive\":\"string\"}")]
-            public string NamespaceId
+            [JsiiOptional]
+            [JsiiProperty(name: "namespaceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? NamespaceId
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
             }
         }
     }

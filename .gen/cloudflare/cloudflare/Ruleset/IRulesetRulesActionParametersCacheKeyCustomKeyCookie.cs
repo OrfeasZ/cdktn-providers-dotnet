@@ -7,11 +7,11 @@ namespace cloudflare.Ruleset
     [JsiiInterface(nativeType: typeof(IRulesetRulesActionParametersCacheKeyCustomKeyCookie), fullyQualifiedName: "cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyCookie")]
     public interface IRulesetRulesActionParametersCacheKeyCustomKeyCookie
     {
-        /// <summary>A list of cookies to check for the presence of.</summary>
+        /// <summary>Checks for the presence of these cookie names.</summary>
         /// <remarks>
-        /// The presence of these cookies is included in the cache key.
+        /// The presence of these cookies is used in building the cache key.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#check_presence Ruleset#check_presence}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#check_presence Ruleset#check_presence}
         /// </remarks>
         [JsiiProperty(name: "checkPresence", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,9 +23,9 @@ namespace cloudflare.Ruleset
             }
         }
 
-        /// <summary>A list of cookies to include in the cache key.</summary>
+        /// <summary>Include these cookies' names and their values.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#include Ruleset#include}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#include Ruleset#include}
         /// </remarks>
         [JsiiProperty(name: "include", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,11 +44,11 @@ namespace cloudflare.Ruleset
             {
             }
 
-            /// <summary>A list of cookies to check for the presence of.</summary>
+            /// <summary>Checks for the presence of these cookie names.</summary>
             /// <remarks>
-            /// The presence of these cookies is included in the cache key.
+            /// The presence of these cookies is used in building the cache key.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#check_presence Ruleset#check_presence}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#check_presence Ruleset#check_presence}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "checkPresence", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -57,9 +57,9 @@ namespace cloudflare.Ruleset
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>A list of cookies to include in the cache key.</summary>
+            /// <summary>Include these cookies' names and their values.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#include Ruleset#include}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#include Ruleset#include}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "include", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

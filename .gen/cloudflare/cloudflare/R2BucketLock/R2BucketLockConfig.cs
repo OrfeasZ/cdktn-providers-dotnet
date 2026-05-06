@@ -9,9 +9,20 @@ namespace cloudflare.R2BucketLock
     [JsiiByValue(fqn: "cloudflare.r2BucketLock.R2BucketLockConfig")]
     public class R2BucketLockConfig : cloudflare.R2BucketLock.IR2BucketLockConfig
     {
+        /// <summary>Account ID.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/r2_bucket_lock#account_id R2BucketLock#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
+        {
+            get;
+            set;
+        }
+
         /// <summary>Name of the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/r2_bucket_lock#bucket_name R2BucketLock#bucket_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/r2_bucket_lock#bucket_name R2BucketLock#bucket_name}
         /// </remarks>
         [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
         public string BucketName
@@ -20,21 +31,9 @@ namespace cloudflare.R2BucketLock
             set;
         }
 
-        /// <summary>Account ID.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/r2_bucket_lock#account_id R2BucketLock#account_id}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
-        {
-            get;
-            set;
-        }
-
         /// <summary>Jurisdiction of the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/r2_bucket_lock#jurisdiction R2BucketLock#jurisdiction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/r2_bucket_lock#jurisdiction R2BucketLock#jurisdiction}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +45,7 @@ namespace cloudflare.R2BucketLock
 
         private object? _rules;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/r2_bucket_lock#rules R2BucketLock#rules}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/r2_bucket_lock#rules R2BucketLock#rules}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.r2BucketLock.R2BucketLockRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public object? Rules

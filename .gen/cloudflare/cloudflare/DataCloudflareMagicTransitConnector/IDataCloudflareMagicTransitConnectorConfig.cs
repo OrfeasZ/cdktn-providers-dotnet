@@ -7,20 +7,20 @@ namespace cloudflare.DataCloudflareMagicTransitConnector
     [JsiiInterface(nativeType: typeof(IDataCloudflareMagicTransitConnectorConfig), fullyQualifiedName: "cloudflare.dataCloudflareMagicTransitConnector.DataCloudflareMagicTransitConnectorConfig")]
     public interface IDataCloudflareMagicTransitConnectorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/magic_transit_connector#connector_id DataCloudflareMagicTransitConnector#connector_id}.</summary>
-        [JsiiProperty(name: "connectorId", typeJson: "{\"primitive\":\"string\"}")]
-        string ConnectorId
+        /// <summary>Account identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/magic_transit_connector#account_id DataCloudflareMagicTransitConnector#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        string AccountId
         {
             get;
         }
 
-        /// <summary>Account identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/magic_transit_connector#account_id DataCloudflareMagicTransitConnector#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/magic_transit_connector#connector_id DataCloudflareMagicTransitConnector#connector_id}.</summary>
+        [JsiiProperty(name: "connectorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? AccountId
+        string? ConnectorId
         {
             get
             {
@@ -35,20 +35,20 @@ namespace cloudflare.DataCloudflareMagicTransitConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/magic_transit_connector#connector_id DataCloudflareMagicTransitConnector#connector_id}.</summary>
-            [JsiiProperty(name: "connectorId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ConnectorId
+            /// <summary>Account identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/magic_transit_connector#account_id DataCloudflareMagicTransitConnector#account_id}
+            /// </remarks>
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+            public string AccountId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Account identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/magic_transit_connector#account_id DataCloudflareMagicTransitConnector#account_id}
-            /// </remarks>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/magic_transit_connector#connector_id DataCloudflareMagicTransitConnector#connector_id}.</summary>
             [JsiiOptional]
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? AccountId
+            [JsiiProperty(name: "connectorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ConnectorId
             {
                 get => GetInstanceProperty<string?>();
             }

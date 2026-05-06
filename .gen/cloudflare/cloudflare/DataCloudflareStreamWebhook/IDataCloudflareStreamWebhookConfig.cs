@@ -9,16 +9,12 @@ namespace cloudflare.DataCloudflareStreamWebhook
     {
         /// <summary>The account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/stream_webhook#account_id DataCloudflareStreamWebhook#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/stream_webhook#account_id DataCloudflareStreamWebhook#account_id}
         /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? AccountId
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        string AccountId
         {
-            get
-            {
-                return null;
-            }
+            get;
         }
 
         [JsiiTypeProxy(nativeType: typeof(IDataCloudflareStreamWebhookConfig), fullyQualifiedName: "cloudflare.dataCloudflareStreamWebhook.DataCloudflareStreamWebhookConfig")]
@@ -30,13 +26,12 @@ namespace cloudflare.DataCloudflareStreamWebhook
 
             /// <summary>The account identifier tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/stream_webhook#account_id DataCloudflareStreamWebhook#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/stream_webhook#account_id DataCloudflareStreamWebhook#account_id}
             /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? AccountId
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+            public string AccountId
             {
-                get => GetInstanceProperty<string?>();
+                get => GetInstanceProperty<string>()!;
             }
 
             /// <remarks>

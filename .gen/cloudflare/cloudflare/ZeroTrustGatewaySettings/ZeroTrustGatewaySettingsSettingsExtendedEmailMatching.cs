@@ -9,11 +9,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
     {
         private object? _enabled;
 
-        /// <summary>Specify whether to match all variants of user emails (with + or .</summary>
+        /// <summary>Enable matching all variants of user emails (with + or . modifiers) used as criteria in Firewall policies.</summary>
         /// <remarks>
-        /// modifiers) used as criteria in Firewall policies.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#enabled ZeroTrustGatewaySettings#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#enabled ZeroTrustGatewaySettings#enabled}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

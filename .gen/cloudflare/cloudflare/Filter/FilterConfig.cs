@@ -9,101 +9,12 @@ namespace cloudflare.Filter
     [JsiiByValue(fqn: "cloudflare.filter.FilterConfig")]
     public class FilterConfig : cloudflare.Filter.IFilterConfig
     {
-        private object _body;
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/filter#body Filter#body}.</summary>
-        [JsiiProperty(name: "body", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.filter.FilterBody\"},\"kind\":\"array\"}}]}}")]
-        public object Body
-        {
-            get => _body;
-            set
-            {
-                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-                {
-                    switch (value)
-                    {
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
-                        case cloudflare.Filter.IFilterBody[] cast_cd4240:
-                            break;
-                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
-                            // Not enough information to type-check...
-                            break;
-                        case null:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.Filter.IFilterBody).FullName}[]; received null", nameof(value));
-                        default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.Filter.IFilterBody).FullName}[]; received {value.GetType().FullName}", nameof(value));
-                    }
-                }
-                _body = value;
-            }
-        }
-
-        /// <summary>An informative summary of the filter.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/filter#description Filter#description}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Description
-        {
-            get;
-            set;
-        }
-
         /// <summary>The filter expression. For more information, refer to [Expressions](https://developers.cloudflare.com/ruleset-engine/rules-language/expressions/).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/filter#expression Filter#expression}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/filter#expression Filter#expression}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Expression
-        {
-            get;
-            set;
-        }
-
-        private object? _paused;
-
-        /// <summary>When true, indicates that the filter is currently paused.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/filter#paused Filter#paused}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "paused", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public object? Paused
-        {
-            get => _paused;
-            set
-            {
-                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-                {
-                    switch (value)
-                    {
-                        case bool cast_cd4240:
-                            break;
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
-                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
-                            // Not enough information to type-check...
-                            break;
-                        case null:
-                            break;
-                        default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
-                    }
-                }
-                _paused = value;
-            }
-        }
-
-        /// <summary>A short reference tag. Allows you to select related filters.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/filter#ref Filter#ref}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "ref", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Ref
+        [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}")]
+        public string Expression
         {
             get;
             set;
@@ -111,11 +22,10 @@ namespace cloudflare.Filter
 
         /// <summary>Defines an identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/filter#zone_id Filter#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/filter#zone_id Filter#zone_id}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? ZoneId
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        public string ZoneId
         {
             get;
             set;

@@ -4,16 +4,17 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareZoneDnsSettings
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZoneDnsSettings.DataCloudflareZoneDnsSettingsConfig")]
     public class DataCloudflareZoneDnsSettingsConfig : cloudflare.DataCloudflareZoneDnsSettings.IDataCloudflareZoneDnsSettingsConfig
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zone_dns_settings#zone_id DataCloudflareZoneDnsSettings#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zone_dns_settings#zone_id DataCloudflareZoneDnsSettings#zone_id}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? ZoneId
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        public string ZoneId
         {
             get;
             set;

@@ -77,12 +77,6 @@ namespace cloudflare.DataCloudflareByoIpPrefixes
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "delegateLoaCreation", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable DelegateLoaCreation
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Description
         {
@@ -91,12 +85,6 @@ namespace cloudflare.DataCloudflareByoIpPrefixes
 
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "irrValidationState", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string IrrValidationState
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -123,24 +111,6 @@ namespace cloudflare.DataCloudflareByoIpPrefixes
         public virtual Io.Cdktn.IResolvable OnDemandLocked
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
-        [JsiiProperty(name: "ownershipValidationState", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string OwnershipValidationState
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "ownershipValidationToken", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string OwnershipValidationToken
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "rpkiValidationState", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string RpkiValidationState
-        {
-            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiOptional]

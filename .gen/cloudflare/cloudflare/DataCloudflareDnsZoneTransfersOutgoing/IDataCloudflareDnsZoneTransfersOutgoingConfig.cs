@@ -7,15 +7,11 @@ namespace cloudflare.DataCloudflareDnsZoneTransfersOutgoing
     [JsiiInterface(nativeType: typeof(IDataCloudflareDnsZoneTransfersOutgoingConfig), fullyQualifiedName: "cloudflare.dataCloudflareDnsZoneTransfersOutgoing.DataCloudflareDnsZoneTransfersOutgoingConfig")]
     public interface IDataCloudflareDnsZoneTransfersOutgoingConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/dns_zone_transfers_outgoing#zone_id DataCloudflareDnsZoneTransfersOutgoing#zone_id}.</summary>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? ZoneId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/dns_zone_transfers_outgoing#zone_id DataCloudflareDnsZoneTransfersOutgoing#zone_id}.</summary>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        string ZoneId
         {
-            get
-            {
-                return null;
-            }
+            get;
         }
 
         [JsiiTypeProxy(nativeType: typeof(IDataCloudflareDnsZoneTransfersOutgoingConfig), fullyQualifiedName: "cloudflare.dataCloudflareDnsZoneTransfersOutgoing.DataCloudflareDnsZoneTransfersOutgoingConfig")]
@@ -25,12 +21,11 @@ namespace cloudflare.DataCloudflareDnsZoneTransfersOutgoing
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/dns_zone_transfers_outgoing#zone_id DataCloudflareDnsZoneTransfersOutgoing#zone_id}.</summary>
-            [JsiiOptional]
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? ZoneId
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/dns_zone_transfers_outgoing#zone_id DataCloudflareDnsZoneTransfersOutgoing#zone_id}.</summary>
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+            public string ZoneId
             {
-                get => GetInstanceProperty<string?>();
+                get => GetInstanceProperty<string>()!;
             }
 
             /// <remarks>

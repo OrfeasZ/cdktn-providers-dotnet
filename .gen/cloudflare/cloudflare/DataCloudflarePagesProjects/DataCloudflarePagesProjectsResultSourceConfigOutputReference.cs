@@ -45,12 +45,6 @@ namespace cloudflare.DataCloudflarePagesProjects
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "ownerId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string OwnerId
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "pathExcludes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] PathExcludes
         {
@@ -97,12 +91,6 @@ namespace cloudflare.DataCloudflarePagesProjects
         public virtual Io.Cdktn.IResolvable ProductionDeploymentsEnabled
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
-        [JsiiProperty(name: "repoId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string RepoId
-        {
-            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "repoName", typeJson: "{\"primitive\":\"string\"}")]

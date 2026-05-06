@@ -41,12 +41,6 @@ namespace cloudflare.DataCloudflareZeroTrustTunnelCloudflareds
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "configSrc", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ConfigSrc
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "connections", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustTunnelCloudflareds.DataCloudflareZeroTrustTunnelCloudflaredsResultConnectionsList\"}")]
         public virtual cloudflare.DataCloudflareZeroTrustTunnelCloudflareds.DataCloudflareZeroTrustTunnelCloudflaredsResultConnectionsList Connections
         {

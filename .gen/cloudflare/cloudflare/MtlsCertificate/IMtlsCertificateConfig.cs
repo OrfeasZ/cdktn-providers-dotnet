@@ -9,7 +9,7 @@ namespace cloudflare.MtlsCertificate
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/mtls_certificate#account_id MtlsCertificate#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/mtls_certificate#account_id MtlsCertificate#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.MtlsCertificate
 
         /// <summary>Indicates whether the certificate is a CA or leaf certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/mtls_certificate#ca MtlsCertificate#ca}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/mtls_certificate#ca MtlsCertificate#ca}
         /// </remarks>
         [JsiiProperty(name: "ca", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         object Ca
@@ -27,11 +27,9 @@ namespace cloudflare.MtlsCertificate
             get;
         }
 
-        /// <summary>The uploaded root CA certificate or certificate chain.</summary>
+        /// <summary>The uploaded root CA certificate.</summary>
         /// <remarks>
-        /// Certificates must be provided in PEM format with the certificate matching the private_key first in the chain.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/mtls_certificate#certificates MtlsCertificate#certificates}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/mtls_certificate#certificates MtlsCertificate#certificates}
         /// </remarks>
         [JsiiProperty(name: "certificates", typeJson: "{\"primitive\":\"string\"}")]
         string Certificates
@@ -41,7 +39,7 @@ namespace cloudflare.MtlsCertificate
 
         /// <summary>Optional unique name for the certificate. Only used for human readability.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/mtls_certificate#name MtlsCertificate#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/mtls_certificate#name MtlsCertificate#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,7 +55,7 @@ namespace cloudflare.MtlsCertificate
         /// <remarks>
         /// This field is only needed for specific use cases such as using a custom certificate with Zero Trust's block page.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/mtls_certificate#private_key MtlsCertificate#private_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/mtls_certificate#private_key MtlsCertificate#private_key}
         /// </remarks>
         [JsiiProperty(name: "privateKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,7 +76,7 @@ namespace cloudflare.MtlsCertificate
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/mtls_certificate#account_id MtlsCertificate#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/mtls_certificate#account_id MtlsCertificate#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -88,7 +86,7 @@ namespace cloudflare.MtlsCertificate
 
             /// <summary>Indicates whether the certificate is a CA or leaf certificate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/mtls_certificate#ca MtlsCertificate#ca}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/mtls_certificate#ca MtlsCertificate#ca}
             /// </remarks>
             [JsiiProperty(name: "ca", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
             public object Ca
@@ -96,11 +94,9 @@ namespace cloudflare.MtlsCertificate
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>The uploaded root CA certificate or certificate chain.</summary>
+            /// <summary>The uploaded root CA certificate.</summary>
             /// <remarks>
-            /// Certificates must be provided in PEM format with the certificate matching the private_key first in the chain.
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/mtls_certificate#certificates MtlsCertificate#certificates}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/mtls_certificate#certificates MtlsCertificate#certificates}
             /// </remarks>
             [JsiiProperty(name: "certificates", typeJson: "{\"primitive\":\"string\"}")]
             public string Certificates
@@ -110,7 +106,7 @@ namespace cloudflare.MtlsCertificate
 
             /// <summary>Optional unique name for the certificate. Only used for human readability.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/mtls_certificate#name MtlsCertificate#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/mtls_certificate#name MtlsCertificate#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -123,7 +119,7 @@ namespace cloudflare.MtlsCertificate
             /// <remarks>
             /// This field is only needed for specific use cases such as using a custom certificate with Zero Trust's block page.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/mtls_certificate#private_key MtlsCertificate#private_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/mtls_certificate#private_key MtlsCertificate#private_key}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "privateKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

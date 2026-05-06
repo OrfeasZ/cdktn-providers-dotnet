@@ -273,12 +273,6 @@ namespace cloudflare.DataCloudflareNotificationPolicies
             get => GetInstanceProperty<string[]>()!;
         }
 
-        [JsiiProperty(name: "type", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] Type
-        {
-            get => GetInstanceProperty<string[]>()!;
-        }
-
         [JsiiProperty(name: "where", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] Where
         {

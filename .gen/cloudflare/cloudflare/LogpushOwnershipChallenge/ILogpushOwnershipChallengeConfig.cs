@@ -7,11 +7,11 @@ namespace cloudflare.LogpushOwnershipChallenge
     [JsiiInterface(nativeType: typeof(ILogpushOwnershipChallengeConfig), fullyQualifiedName: "cloudflare.logpushOwnershipChallenge.LogpushOwnershipChallengeConfig")]
     public interface ILogpushOwnershipChallengeConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Uniquely identifies a resource (such as an s3 bucket) where data.</summary>
+        /// <summary>Uniquely identifies a resource (such as an s3 bucket) where data will be pushed.</summary>
         /// <remarks>
-        /// will be pushed. Additional configuration parameters supported by the destination may be included.
+        /// Additional configuration parameters supported by the destination may be included.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_ownership_challenge#destination_conf LogpushOwnershipChallenge#destination_conf}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_ownership_challenge#destination_conf LogpushOwnershipChallenge#destination_conf}
         /// </remarks>
         [JsiiProperty(name: "destinationConf", typeJson: "{\"primitive\":\"string\"}")]
         string DestinationConf
@@ -21,7 +21,7 @@ namespace cloudflare.LogpushOwnershipChallenge
 
         /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_ownership_challenge#account_id LogpushOwnershipChallenge#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_ownership_challenge#account_id LogpushOwnershipChallenge#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace cloudflare.LogpushOwnershipChallenge
 
         /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_ownership_challenge#zone_id LogpushOwnershipChallenge#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_ownership_challenge#zone_id LogpushOwnershipChallenge#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,11 +54,11 @@ namespace cloudflare.LogpushOwnershipChallenge
             {
             }
 
-            /// <summary>Uniquely identifies a resource (such as an s3 bucket) where data.</summary>
+            /// <summary>Uniquely identifies a resource (such as an s3 bucket) where data will be pushed.</summary>
             /// <remarks>
-            /// will be pushed. Additional configuration parameters supported by the destination may be included.
+            /// Additional configuration parameters supported by the destination may be included.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_ownership_challenge#destination_conf LogpushOwnershipChallenge#destination_conf}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_ownership_challenge#destination_conf LogpushOwnershipChallenge#destination_conf}
             /// </remarks>
             [JsiiProperty(name: "destinationConf", typeJson: "{\"primitive\":\"string\"}")]
             public string DestinationConf
@@ -68,7 +68,7 @@ namespace cloudflare.LogpushOwnershipChallenge
 
             /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_ownership_challenge#account_id LogpushOwnershipChallenge#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_ownership_challenge#account_id LogpushOwnershipChallenge#account_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace cloudflare.LogpushOwnershipChallenge
 
             /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/logpush_ownership_challenge#zone_id LogpushOwnershipChallenge#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/logpush_ownership_challenge#zone_id LogpushOwnershipChallenge#zone_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

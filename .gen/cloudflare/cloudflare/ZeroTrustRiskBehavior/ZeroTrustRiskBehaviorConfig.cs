@@ -9,9 +9,17 @@ namespace cloudflare.ZeroTrustRiskBehavior
     [JsiiByValue(fqn: "cloudflare.zeroTrustRiskBehavior.ZeroTrustRiskBehaviorConfig")]
     public class ZeroTrustRiskBehaviorConfig : cloudflare.ZeroTrustRiskBehavior.IZeroTrustRiskBehaviorConfig
     {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_risk_behavior#account_id ZeroTrustRiskBehavior#account_id}.</summary>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
+        {
+            get;
+            set;
+        }
+
         private object _behaviors;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_risk_behavior#behaviors ZeroTrustRiskBehavior#behaviors}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_risk_behavior#behaviors ZeroTrustRiskBehavior#behaviors}.</summary>
         [JsiiProperty(name: "behaviors", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustRiskBehavior.ZeroTrustRiskBehaviorBehaviors\"},\"kind\":\"map\"}}]}}")]
         public object Behaviors
         {
@@ -37,15 +45,6 @@ namespace cloudflare.ZeroTrustRiskBehavior
                 }
                 _behaviors = value;
             }
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_risk_behavior#account_id ZeroTrustRiskBehavior#account_id}.</summary>
-        [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
-        {
-            get;
-            set;
         }
 
         private object? _connection;

@@ -7,9 +7,11 @@ namespace cloudflare.Ruleset
     [JsiiInterface(nativeType: typeof(IRulesetRulesActionParametersCacheKeyCustomKeyQueryString), fullyQualifiedName: "cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyQueryString")]
     public interface IRulesetRulesActionParametersCacheKeyCustomKeyQueryString
     {
-        /// <summary>Which query string parameters to exclude from the cache key.</summary>
+        /// <summary>A list of query string parameters NOT used to build the cache key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#exclude Ruleset#exclude}
+        /// All parameters present in the request but missing in this list will be used to build the cache key.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#exclude Ruleset#exclude}
         /// </remarks>
         [JsiiProperty(name: "exclude", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyQueryStringExclude\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,9 +23,9 @@ namespace cloudflare.Ruleset
             }
         }
 
-        /// <summary>Which query string parameters to include in the cache key.</summary>
+        /// <summary>A list of query string parameters used to build the cache key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#include Ruleset#include}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#include Ruleset#include}
         /// </remarks>
         [JsiiProperty(name: "include", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyQueryStringInclude\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,9 +44,11 @@ namespace cloudflare.Ruleset
             {
             }
 
-            /// <summary>Which query string parameters to exclude from the cache key.</summary>
+            /// <summary>A list of query string parameters NOT used to build the cache key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#exclude Ruleset#exclude}
+            /// All parameters present in the request but missing in this list will be used to build the cache key.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#exclude Ruleset#exclude}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "exclude", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyQueryStringExclude\"}", isOptional: true)]
@@ -53,9 +57,9 @@ namespace cloudflare.Ruleset
                 get => GetInstanceProperty<cloudflare.Ruleset.IRulesetRulesActionParametersCacheKeyCustomKeyQueryStringExclude?>();
             }
 
-            /// <summary>Which query string parameters to include in the cache key.</summary>
+            /// <summary>A list of query string parameters used to build the cache key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ruleset#include Ruleset#include}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/ruleset#include Ruleset#include}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "include", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyQueryStringInclude\"}", isOptional: true)]

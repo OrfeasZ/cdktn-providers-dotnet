@@ -7,18 +7,29 @@ namespace cloudflare.DataCloudflareLoadBalancer
     [JsiiInterface(nativeType: typeof(IDataCloudflareLoadBalancerConfig), fullyQualifiedName: "cloudflare.dataCloudflareLoadBalancer.DataCloudflareLoadBalancerConfig")]
     public interface IDataCloudflareLoadBalancerConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/load_balancer#load_balancer_id DataCloudflareLoadBalancer#load_balancer_id}.</summary>
-        [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
-        string LoadBalancerId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/load_balancer#zone_id DataCloudflareLoadBalancer#zone_id}.</summary>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        string ZoneId
         {
             get;
         }
 
-        /// <summary>Enterprise only: A mapping of Cloudflare PoP identifiers to a list of pool IDs (ordered by their failover priority) for the PoP (datacenter).</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/load_balancer#load_balancer_id DataCloudflareLoadBalancer#load_balancer_id}.</summary>
+        [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? LoadBalancerId
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>(Enterprise only): A mapping of Cloudflare PoP identifiers to a list of pool IDs (ordered by their failover priority) for the PoP (datacenter).</summary>
         /// <remarks>
         /// Any PoPs not explicitly defined will fall back to using the corresponding country_pool, then region_pool mapping if it exists else to default_pools.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/load_balancer#pop_pools DataCloudflareLoadBalancer#pop_pools}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/load_balancer#pop_pools DataCloudflareLoadBalancer#pop_pools}
         /// </remarks>
         [JsiiProperty(name: "popPools", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -34,22 +45,11 @@ namespace cloudflare.DataCloudflareLoadBalancer
         /// <remarks>
         /// Any regions not explicitly defined will fall back to using default_pools.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/load_balancer#region_pools DataCloudflareLoadBalancer#region_pools}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/load_balancer#region_pools DataCloudflareLoadBalancer#region_pools}
         /// </remarks>
         [JsiiProperty(name: "regionPools", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? RegionPools
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/load_balancer#zone_id DataCloudflareLoadBalancer#zone_id}.</summary>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? ZoneId
         {
             get
             {
@@ -64,18 +64,26 @@ namespace cloudflare.DataCloudflareLoadBalancer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/load_balancer#load_balancer_id DataCloudflareLoadBalancer#load_balancer_id}.</summary>
-            [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
-            public string LoadBalancerId
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/load_balancer#zone_id DataCloudflareLoadBalancer#zone_id}.</summary>
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+            public string ZoneId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Enterprise only: A mapping of Cloudflare PoP identifiers to a list of pool IDs (ordered by their failover priority) for the PoP (datacenter).</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/load_balancer#load_balancer_id DataCloudflareLoadBalancer#load_balancer_id}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? LoadBalancerId
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>(Enterprise only): A mapping of Cloudflare PoP identifiers to a list of pool IDs (ordered by their failover priority) for the PoP (datacenter).</summary>
             /// <remarks>
             /// Any PoPs not explicitly defined will fall back to using the corresponding country_pool, then region_pool mapping if it exists else to default_pools.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/load_balancer#pop_pools DataCloudflareLoadBalancer#pop_pools}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/load_balancer#pop_pools DataCloudflareLoadBalancer#pop_pools}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "popPools", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -88,21 +96,13 @@ namespace cloudflare.DataCloudflareLoadBalancer
             /// <remarks>
             /// Any regions not explicitly defined will fall back to using default_pools.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/load_balancer#region_pools DataCloudflareLoadBalancer#region_pools}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/load_balancer#region_pools DataCloudflareLoadBalancer#region_pools}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "regionPools", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
             public object? RegionPools
             {
                 get => GetInstanceProperty<object?>();
-            }
-
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/load_balancer#zone_id DataCloudflareLoadBalancer#zone_id}.</summary>
-            [JsiiOptional]
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? ZoneId
-            {
-                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

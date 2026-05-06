@@ -33,12 +33,6 @@ namespace cloudflare.DataCloudflareRuleset
         {
         }
 
-        [JsiiProperty(name: "origin", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable Origin
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
         [JsiiProperty(name: "path", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersUriPathOutputReference\"}")]
         public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersUriPathOutputReference Path
         {

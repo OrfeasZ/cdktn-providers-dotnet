@@ -33,18 +33,6 @@ namespace cloudflare.DataCloudflareWorkersScripts
         {
         }
 
-        [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Host
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Hostname
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "lastAnalyzedAt", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LastAnalyzedAt
         {
@@ -57,22 +45,10 @@ namespace cloudflare.DataCloudflareWorkersScripts
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Region
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Status
         {
             get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "target", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultPlacementTargetList\"}")]
-        public virtual cloudflare.DataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultPlacementTargetList Target
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultPlacementTargetList>()!;
         }
 
         [JsiiOptional]

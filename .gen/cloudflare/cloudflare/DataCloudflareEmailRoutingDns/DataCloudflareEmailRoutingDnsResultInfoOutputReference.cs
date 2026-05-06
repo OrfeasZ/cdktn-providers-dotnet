@@ -33,8 +33,8 @@ namespace cloudflare.DataCloudflareEmailRoutingDns
         {
         }
 
-        [JsiiProperty(name: "emailRoutingDnsCount", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double EmailRoutingDnsCount
+        [JsiiProperty(name: "count", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Count
         {
             get => GetInstanceProperty<double>()!;
         }
@@ -53,12 +53,6 @@ namespace cloudflare.DataCloudflareEmailRoutingDns
 
         [JsiiProperty(name: "totalCount", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double TotalCount
-        {
-            get => GetInstanceProperty<double>()!;
-        }
-
-        [JsiiProperty(name: "totalPages", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double TotalPages
         {
             get => GetInstanceProperty<double>()!;
         }

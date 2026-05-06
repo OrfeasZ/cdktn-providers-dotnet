@@ -75,12 +75,6 @@ namespace cloudflare.DataCloudflareHyperdriveConfig
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "serviceId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ServiceId
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "user", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string User
         {

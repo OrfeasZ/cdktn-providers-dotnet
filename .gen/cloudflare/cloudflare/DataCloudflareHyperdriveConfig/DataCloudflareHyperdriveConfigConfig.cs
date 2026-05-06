@@ -11,10 +11,10 @@ namespace cloudflare.DataCloudflareHyperdriveConfig
     {
         /// <summary>Define configurations using a unique string identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/hyperdrive_config#hyperdrive_id DataCloudflareHyperdriveConfig#hyperdrive_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/hyperdrive_config#account_id DataCloudflareHyperdriveConfig#account_id}
         /// </remarks>
-        [JsiiProperty(name: "hyperdriveId", typeJson: "{\"primitive\":\"string\"}")]
-        public string HyperdriveId
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
         {
             get;
             set;
@@ -22,11 +22,11 @@ namespace cloudflare.DataCloudflareHyperdriveConfig
 
         /// <summary>Define configurations using a unique string identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/hyperdrive_config#account_id DataCloudflareHyperdriveConfig#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/hyperdrive_config#hyperdrive_id DataCloudflareHyperdriveConfig#hyperdrive_id}
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
+        [JsiiProperty(name: "hyperdriveId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? HyperdriveId
         {
             get;
             set;

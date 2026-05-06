@@ -33,8 +33,32 @@ namespace cloudflare.AccountSubscription
         {
         }
 
+        [JsiiMethod(name: "resetCurrency")]
+        public virtual void ResetCurrency()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetExternallyManaged")]
+        public virtual void ResetExternallyManaged()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetId")]
         public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIsContract")]
+        public virtual void ResetIsContract()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPublicName")]
+        public virtual void ResetPublicName()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -45,39 +69,43 @@ namespace cloudflare.AccountSubscription
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Currency
+        [JsiiMethod(name: "resetSets")]
+        public virtual void ResetSets()
         {
-            get => GetInstanceProperty<string>()!;
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiProperty(name: "externallyManaged", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable ExternallyManaged
+        [JsiiOptional]
+        [JsiiProperty(name: "currencyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CurrencyInput
         {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+            get => GetInstanceProperty<string?>();
         }
 
-        [JsiiProperty(name: "isContract", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable IsContract
+        [JsiiOptional]
+        [JsiiProperty(name: "externallyManagedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? ExternallyManagedInput
         {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
-        [JsiiProperty(name: "publicName", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string PublicName
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "sets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] Sets
-        {
-            get => GetInstanceProperty<string[]>()!;
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
         [JsiiProperty(name: "idInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? IdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "isContractInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? IsContractInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "publicNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PublicNameInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -89,8 +117,83 @@ namespace cloudflare.AccountSubscription
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "setsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? SetsInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Currency
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "externallyManaged", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object ExternallyManaged
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "isContract", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object IsContract
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        [JsiiProperty(name: "publicName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PublicName
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -100,6 +203,13 @@ namespace cloudflare.AccountSubscription
         public virtual string Scope
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "sets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Sets
+        {
+            get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);
         }
 

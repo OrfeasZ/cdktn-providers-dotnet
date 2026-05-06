@@ -9,10 +9,18 @@ namespace cloudflare.PagesDomain
     [JsiiByValue(fqn: "cloudflare.pagesDomain.PagesDomainConfig")]
     public class PagesDomainConfig : cloudflare.PagesDomain.IPagesDomainConfig
     {
-        /// <summary>The domain name.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_domain#name PagesDomain#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_domain#account_id PagesDomain#account_id}
         /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_domain#name PagesDomain#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -22,22 +30,10 @@ namespace cloudflare.PagesDomain
 
         /// <summary>Name of the project.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_domain#project_name PagesDomain#project_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/pages_domain#project_name PagesDomain#project_name}
         /// </remarks>
         [JsiiProperty(name: "projectName", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectName
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/pages_domain#account_id PagesDomain#account_id}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
         {
             get;
             set;

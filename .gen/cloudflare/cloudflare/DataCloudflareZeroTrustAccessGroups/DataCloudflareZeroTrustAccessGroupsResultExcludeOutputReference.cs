@@ -143,12 +143,6 @@ namespace cloudflare.DataCloudflareZeroTrustAccessGroups
             get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessGroups.DataCloudflareZeroTrustAccessGroupsResultExcludeIpListStructOutputReference>()!;
         }
 
-        [JsiiProperty(name: "linkedAppToken", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessGroups.DataCloudflareZeroTrustAccessGroupsResultExcludeLinkedAppTokenOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareZeroTrustAccessGroups.DataCloudflareZeroTrustAccessGroupsResultExcludeLinkedAppTokenOutputReference LinkedAppToken
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessGroups.DataCloudflareZeroTrustAccessGroupsResultExcludeLinkedAppTokenOutputReference>()!;
-        }
-
         [JsiiProperty(name: "loginMethod", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessGroups.DataCloudflareZeroTrustAccessGroupsResultExcludeLoginMethodOutputReference\"}")]
         public virtual cloudflare.DataCloudflareZeroTrustAccessGroups.DataCloudflareZeroTrustAccessGroupsResultExcludeLoginMethodOutputReference LoginMethod
         {
@@ -177,12 +171,6 @@ namespace cloudflare.DataCloudflareZeroTrustAccessGroups
         public virtual cloudflare.DataCloudflareZeroTrustAccessGroups.DataCloudflareZeroTrustAccessGroupsResultExcludeServiceTokenOutputReference ServiceToken
         {
             get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessGroups.DataCloudflareZeroTrustAccessGroupsResultExcludeServiceTokenOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "userRiskScore", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessGroups.DataCloudflareZeroTrustAccessGroupsResultExcludeUserRiskScoreOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareZeroTrustAccessGroups.DataCloudflareZeroTrustAccessGroupsResultExcludeUserRiskScoreOutputReference UserRiskScore
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessGroups.DataCloudflareZeroTrustAccessGroupsResultExcludeUserRiskScoreOutputReference>()!;
         }
 
         [JsiiOptional]

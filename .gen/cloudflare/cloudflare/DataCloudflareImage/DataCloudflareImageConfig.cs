@@ -9,24 +9,23 @@ namespace cloudflare.DataCloudflareImage
     [JsiiByValue(fqn: "cloudflare.dataCloudflareImage.DataCloudflareImageConfig")]
     public class DataCloudflareImageConfig : cloudflare.DataCloudflareImage.IDataCloudflareImageConfig
     {
-        /// <summary>Image unique identifier.</summary>
+        /// <summary>Account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/image#image_id DataCloudflareImage#image_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/image#account_id DataCloudflareImage#account_id}
         /// </remarks>
-        [JsiiProperty(name: "imageId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ImageId
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
         {
             get;
             set;
         }
 
-        /// <summary>Account identifier tag.</summary>
+        /// <summary>Image unique identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/image#account_id DataCloudflareImage#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/image#image_id DataCloudflareImage#image_id}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
+        [JsiiProperty(name: "imageId", typeJson: "{\"primitive\":\"string\"}")]
+        public string ImageId
         {
             get;
             set;

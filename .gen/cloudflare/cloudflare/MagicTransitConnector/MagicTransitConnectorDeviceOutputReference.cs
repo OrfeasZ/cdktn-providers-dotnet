@@ -39,12 +39,6 @@ namespace cloudflare.MagicTransitConnector
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetProvisionLicense")]
-        public virtual void ResetProvisionLicense()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetSerialNumber")]
         public virtual void ResetSerialNumber()
         {
@@ -59,13 +53,6 @@ namespace cloudflare.MagicTransitConnector
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "provisionLicenseInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? ProvisionLicenseInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
-        [JsiiOptional]
         [JsiiProperty(name: "serialNumberInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SerialNumberInput
         {
@@ -77,33 +64,6 @@ namespace cloudflare.MagicTransitConnector
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "provisionLicense", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public virtual object ProvisionLicense
-        {
-            get => GetInstanceProperty<object>()!;
-            set
-            {
-                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-                {
-                    switch (value)
-                    {
-                        case bool cast_cd4240:
-                            break;
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
-                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
-                            // Not enough information to type-check...
-                            break;
-                        case null:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
-                        default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
-                    }
-                }
-                SetInstanceProperty(value);
-            }
         }
 
         [JsiiProperty(name: "serialNumber", typeJson: "{\"primitive\":\"string\"}")]

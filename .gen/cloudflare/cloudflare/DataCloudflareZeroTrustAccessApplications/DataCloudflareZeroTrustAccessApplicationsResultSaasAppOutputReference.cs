@@ -75,6 +75,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessApplications
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "createdAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CreatedAt
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "customAttributes", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessApplications.DataCloudflareZeroTrustAccessApplicationsResultSaasAppCustomAttributesList\"}")]
         public virtual cloudflare.DataCloudflareZeroTrustAccessApplications.DataCloudflareZeroTrustAccessApplicationsResultSaasAppCustomAttributesList CustomAttributes
         {
@@ -167,6 +173,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessApplications
 
         [JsiiProperty(name: "ssoEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SsoEndpoint
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "updatedAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UpdatedAt
         {
             get => GetInstanceProperty<string>()!;
         }

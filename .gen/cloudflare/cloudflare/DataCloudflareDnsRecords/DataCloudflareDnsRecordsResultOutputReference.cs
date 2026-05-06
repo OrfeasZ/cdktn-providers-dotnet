@@ -95,12 +95,6 @@ namespace cloudflare.DataCloudflareDnsRecords
             get => GetInstanceProperty<double>()!;
         }
 
-        [JsiiProperty(name: "privateRouting", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable PrivateRouting
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
         [JsiiProperty(name: "proxiable", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable Proxiable
         {

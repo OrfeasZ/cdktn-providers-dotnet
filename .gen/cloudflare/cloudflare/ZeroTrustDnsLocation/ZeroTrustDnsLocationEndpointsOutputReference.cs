@@ -57,6 +57,30 @@ namespace cloudflare.ZeroTrustDnsLocation
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustDnsLocation.IZeroTrustDnsLocationEndpointsIpv6)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetDoh")]
+        public virtual void ResetDoh()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDot")]
+        public virtual void ResetDot()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIpv4")]
+        public virtual void ResetIpv4()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIpv6")]
+        public virtual void ResetIpv6()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "doh", typeJson: "{\"fqn\":\"cloudflare.zeroTrustDnsLocation.ZeroTrustDnsLocationEndpointsDohOutputReference\"}")]
         public virtual cloudflare.ZeroTrustDnsLocation.ZeroTrustDnsLocationEndpointsDohOutputReference Doh
         {

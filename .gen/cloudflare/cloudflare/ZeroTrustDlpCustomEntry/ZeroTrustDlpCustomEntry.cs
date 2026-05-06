@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.ZeroTrustDlpCustomEntry
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_dlp_custom_entry cloudflare_zero_trust_dlp_custom_entry}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_dlp_custom_entry cloudflare_zero_trust_dlp_custom_entry}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.ZeroTrustDlpCustomEntry.ZeroTrustDlpCustomEntry), fullyQualifiedName: "cloudflare.zeroTrustDlpCustomEntry.ZeroTrustDlpCustomEntry", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.zeroTrustDlpCustomEntry.ZeroTrustDlpCustomEntryConfig\"}}]")]
     public class ZeroTrustDlpCustomEntry : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_dlp_custom_entry cloudflare_zero_trust_dlp_custom_entry} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_dlp_custom_entry cloudflare_zero_trust_dlp_custom_entry} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ZeroTrustDlpCustomEntry(Constructs.Construct scope, string id, cloudflare.ZeroTrustDlpCustomEntry.IZeroTrustDlpCustomEntryConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace cloudflare.ZeroTrustDlpCustomEntry
         /// <param name="importToId">The construct id used in the generated config for the ZeroTrustDlpCustomEntry to import.</param>
         /// <param name="importFromId">The id of the existing ZeroTrustDlpCustomEntry that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ZeroTrustDlpCustomEntry to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ZeroTrustDlpCustomEntry to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_dlp_custom_entry#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ZeroTrustDlpCustomEntry that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ZeroTrustDlpCustomEntry to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ZeroTrustDlpCustomEntry to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_dlp_custom_entry#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ZeroTrustDlpCustomEntry that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ZeroTrustDlpCustomEntry to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.ZeroTrustDlpCustomEntry.ZeroTrustDlpCustomEntry), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -52,20 +52,8 @@ namespace cloudflare.ZeroTrustDlpCustomEntry
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustDlpCustomEntry.IZeroTrustDlpCustomEntryPattern)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "resetAccountId")]
-        public virtual void ResetAccountId()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetDescription")]
-        public virtual void ResetDescription()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetProfileId")]
-        public virtual void ResetProfileId()
+        [JsiiMethod(name: "resetType")]
+        public virtual void ResetType()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -119,40 +107,16 @@ namespace cloudflare.ZeroTrustDlpCustomEntry
             get => GetInstanceProperty<cloudflare.ZeroTrustDlpCustomEntry.ZeroTrustDlpCustomEntryPatternOutputReference>()!;
         }
 
-        [JsiiProperty(name: "profiles", typeJson: "{\"fqn\":\"cloudflare.zeroTrustDlpCustomEntry.ZeroTrustDlpCustomEntryProfilesList\"}")]
-        public virtual cloudflare.ZeroTrustDlpCustomEntry.ZeroTrustDlpCustomEntryProfilesList Profiles
-        {
-            get => GetInstanceProperty<cloudflare.ZeroTrustDlpCustomEntry.ZeroTrustDlpCustomEntryProfilesList>()!;
-        }
-
         [JsiiProperty(name: "secret", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable Secret
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
-        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Type
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "updatedAt", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string UpdatedAt
         {
             get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "uploadStatus", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string UploadStatus
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "variant", typeJson: "{\"fqn\":\"cloudflare.zeroTrustDlpCustomEntry.ZeroTrustDlpCustomEntryVariantOutputReference\"}")]
-        public virtual cloudflare.ZeroTrustDlpCustomEntry.ZeroTrustDlpCustomEntryVariantOutputReference Variant
-        {
-            get => GetInstanceProperty<cloudflare.ZeroTrustDlpCustomEntry.ZeroTrustDlpCustomEntryVariantOutputReference>()!;
         }
 
         [JsiiProperty(name: "wordList", typeJson: "{\"primitive\":\"string\"}")]
@@ -164,13 +128,6 @@ namespace cloudflare.ZeroTrustDlpCustomEntry
         [JsiiOptional]
         [JsiiProperty(name: "accountIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AccountIdInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "descriptionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? DescriptionInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -203,15 +160,15 @@ namespace cloudflare.ZeroTrustDlpCustomEntry
             get => GetInstanceProperty<string?>();
         }
 
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string AccountId
+        [JsiiOptional]
+        [JsiiProperty(name: "typeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TypeInput
         {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
+            get => GetInstanceProperty<string?>();
         }
 
-        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Description
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AccountId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -253,6 +210,13 @@ namespace cloudflare.ZeroTrustDlpCustomEntry
 
         [JsiiProperty(name: "profileId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ProfileId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Type
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

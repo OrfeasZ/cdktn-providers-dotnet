@@ -9,9 +9,20 @@ namespace cloudflare.WorkersDeployment
     [JsiiByValue(fqn: "cloudflare.workersDeployment.WorkersDeploymentConfig")]
     public class WorkersDeploymentConfig : cloudflare.WorkersDeployment.IWorkersDeploymentConfig
     {
-        /// <summary>Name of the script, used in URLs and route configuration.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workers_deployment#script_name WorkersDeployment#script_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/workers_deployment#account_id WorkersDeployment#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Name of the script.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/workers_deployment#script_name WorkersDeployment#script_name}
         /// </remarks>
         [JsiiProperty(name: "scriptName", typeJson: "{\"primitive\":\"string\"}")]
         public string ScriptName
@@ -22,7 +33,7 @@ namespace cloudflare.WorkersDeployment
 
         /// <summary>Available values: "percentage".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workers_deployment#strategy WorkersDeployment#strategy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/workers_deployment#strategy WorkersDeployment#strategy}
         /// </remarks>
         [JsiiProperty(name: "strategy", typeJson: "{\"primitive\":\"string\"}")]
         public string Strategy
@@ -33,7 +44,7 @@ namespace cloudflare.WorkersDeployment
 
         private object _versions;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workers_deployment#versions WorkersDeployment#versions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/workers_deployment#versions WorkersDeployment#versions}.</summary>
         [JsiiProperty(name: "versions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersDeployment.WorkersDeploymentVersions\"},\"kind\":\"array\"}}]}}")]
         public object Versions
         {
@@ -61,19 +72,7 @@ namespace cloudflare.WorkersDeployment
             }
         }
 
-        /// <summary>Identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workers_deployment#account_id WorkersDeployment#account_id}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workers_deployment#annotations WorkersDeployment#annotations}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/workers_deployment#annotations WorkersDeployment#annotations}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "annotations", typeJson: "{\"fqn\":\"cloudflare.workersDeployment.WorkersDeploymentAnnotations\"}", isOptional: true)]
         public cloudflare.WorkersDeployment.IWorkersDeploymentAnnotations? Annotations

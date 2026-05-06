@@ -9,9 +9,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
     {
         private object? _tls;
 
-        /// <summary>Enforce cipher suites and TLS versions compliant with FIPS 140-2.</summary>
+        /// <summary>Enable only cipher suites and TLS versions compliant with FIPS 140-2.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_gateway_settings#tls ZeroTrustGatewaySettings#tls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/resources/zero_trust_gateway_settings#tls ZeroTrustGatewaySettings#tls}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tls", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

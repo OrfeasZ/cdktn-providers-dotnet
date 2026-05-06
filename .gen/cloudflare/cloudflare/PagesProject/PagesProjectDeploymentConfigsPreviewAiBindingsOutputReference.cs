@@ -34,6 +34,12 @@ namespace cloudflare.PagesProject
         {
         }
 
+        [JsiiMethod(name: "resetProjectId")]
+        public virtual void ResetProjectId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "projectIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ProjectIdInput

@@ -4,13 +4,14 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareZeroTrustDeviceSettings
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustDeviceSettings.DataCloudflareZeroTrustDeviceSettingsConfig")]
     public class DataCloudflareZeroTrustDeviceSettingsConfig : cloudflare.DataCloudflareZeroTrustDeviceSettings.IDataCloudflareZeroTrustDeviceSettingsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/zero_trust_device_settings#account_id DataCloudflareZeroTrustDeviceSettings#account_id}.</summary>
-        [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/zero_trust_device_settings#account_id DataCloudflareZeroTrustDeviceSettings#account_id}.</summary>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
         {
             get;
             set;

@@ -7,27 +7,23 @@ namespace cloudflare.DataCloudflareFirewallRule
     [JsiiInterface(nativeType: typeof(IDataCloudflareFirewallRuleConfig), fullyQualifiedName: "cloudflare.dataCloudflareFirewallRule.DataCloudflareFirewallRuleConfig")]
     public interface IDataCloudflareFirewallRuleConfig : Io.Cdktn.ITerraformMetaArguments
     {
+        /// <summary>Defines an identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/firewall_rule#zone_id DataCloudflareFirewallRule#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        string ZoneId
+        {
+            get;
+        }
+
         /// <summary>The unique identifier of the firewall rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/firewall_rule#rule_id DataCloudflareFirewallRule#rule_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/firewall_rule#rule_id DataCloudflareFirewallRule#rule_id}
         /// </remarks>
         [JsiiProperty(name: "ruleId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RuleId
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Defines an identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/firewall_rule#zone_id DataCloudflareFirewallRule#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? ZoneId
         {
             get
             {
@@ -42,24 +38,23 @@ namespace cloudflare.DataCloudflareFirewallRule
             {
             }
 
+            /// <summary>Defines an identifier.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/firewall_rule#zone_id DataCloudflareFirewallRule#zone_id}
+            /// </remarks>
+            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+            public string ZoneId
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
             /// <summary>The unique identifier of the firewall rule.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/firewall_rule#rule_id DataCloudflareFirewallRule#rule_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.7.1/docs/data-sources/firewall_rule#rule_id DataCloudflareFirewallRule#rule_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ruleId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RuleId
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
-            /// <summary>Defines an identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/firewall_rule#zone_id DataCloudflareFirewallRule#zone_id}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? ZoneId
             {
                 get => GetInstanceProperty<string?>();
             }
