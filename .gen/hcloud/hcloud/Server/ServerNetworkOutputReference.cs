@@ -47,6 +47,18 @@ namespace hcloud.Server
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetNetworkId")]
+        public virtual void ResetNetworkId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSubnetId")]
+        public virtual void ResetSubnetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "macAddress", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string MacAddress
         {
@@ -74,6 +86,13 @@ namespace hcloud.Server
             get => GetInstanceProperty<double?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "subnetIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SubnetIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "aliasIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] AliasIps
         {
@@ -92,6 +111,13 @@ namespace hcloud.Server
         public virtual double NetworkId
         {
             get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SubnetId
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 
